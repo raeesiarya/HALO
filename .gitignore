@@ -9,12 +9,12 @@ wheels/
 # Virtual environments
 .venv
 
-# environment variables
+# Environment files
 .env
 .env.*
 .hf/
 
-# pytest
+# Pytest
 .pytest_cache/
 .pytest_cache/*
 .coverage
@@ -25,11 +25,11 @@ wandb
 # uv
 uv.lock
 
-# Ruflo (Claude)
+# Local tooling
 /.swarm
 /.claude-flow
 ruvector.db
 .mcp.json
 
-# Plots, results
-outputs/audit/plots
+# Generated audit results
+outputs/audit/

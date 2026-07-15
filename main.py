@@ -1,5 +1,4 @@
-def main():
-    print("Hello from halocolmlm!")
+from run_audit import main
 
 
 if __name__ == "__main__":

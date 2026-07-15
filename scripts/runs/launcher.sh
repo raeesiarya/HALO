@@ -1,9 +1,6 @@
 #!/bin/bash
 set -euo pipefail
 
-##############################################
-# Require and load .env
-##############################################
 ENV_FILE="${ENV_FILE:-.env}"
 
 if [[ ! -f "$ENV_FILE" ]]; then
@@ -15,9 +12,6 @@ set -a
 source "$ENV_FILE"
 set +a
 
-##############################################
-# Validate required variables
-##############################################
 : "${ACCOUNT:?Missing ACCOUNT in .env}"
 : "${WALL_MIN:?Missing WALL_MIN in .env}"
 : "${WALL:?Missing WALL in .env}"
@@ -33,9 +27,6 @@ mkdir -p "$LOG_DIR"
 
 declare -a JOBS=()
 
-##############################################
-# submit(...)
-##############################################
 submit() {
     local partition="$1"
     local qos="$2"
@@ -58,9 +49,6 @@ submit() {
         scripts/runs/payload.sh
 }
 
-##############################################
-# Submit jobs
-##############################################
 echo "Submitting multi-partition GPU candidates..."
 
 jid=$(submit "savio4_gpu" "a5k_gpu4_normal" "gpu:A5000:1" "1" "$CPUS_A5000")
@@ -83,9 +71,6 @@ jid=$(submit "savio2_1080ti" "savio_normal" "gpu:GTX1080TI:1" "1" "$CPUS_1080TI"
 echo "1080Ti -> $jid"
 JOBS+=("$jid")
 
-##############################################
-# Wait for first RUNNING job
-##############################################
 echo
 echo "Waiting for first job to start..."
 
@@ -107,9 +92,6 @@ while [[ -z "$WINNER" ]]; do
     fi
 done
 
-##############################################
-# Cancel others
-##############################################
 echo "Winner: $WINNER"
 echo "Cancelling others..."
 

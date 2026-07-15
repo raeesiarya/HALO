@@ -2,7 +2,7 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
+REPO_ROOT="$(cd "${SCRIPT_DIR}/../.." && pwd)"
 LMLM_DIR="${REPO_ROOT}/../LMLM"
 
 export PATH="${HOME}/.local/bin:${PATH}"
@@ -26,8 +26,10 @@ else
   log "Found sibling LMLM checkout at ${LMLM_DIR}"
 fi
 
-log "Bootstrapping uv and Python dependencies"
-"${SCRIPT_DIR}/uv.sh"
+require_command uv
+log "Syncing Python dependencies"
+cd "${REPO_ROOT}"
+uv sync
 
 log "Bootstrapping Claude Code and Ruflo"
 "${SCRIPT_DIR}/claude.sh"
@@ -39,7 +41,7 @@ Repository setup complete.
 Useful next commands:
   source .venv/bin/activate
   .venv/bin/pytest
-  claude   # authenticate on first run
+  claude
 
 EOF
 
