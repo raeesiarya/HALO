@@ -176,18 +176,21 @@ def f1_rate(results: list[dict[str, Any]]) -> float:
     return _average_metric(results, "f1")
 
 
-def _result_group_key(result: dict[str, Any]) -> tuple[Any, str, str]:
+def _result_group_key(result: dict[str, Any]) -> tuple[Any, Any, str, str, Any]:
+    manifest_id = (result.get("deletion_manifest") or {}).get("manifest_id")
     return (
         result.get("fact_id"),
+        result.get("prompt_id"),
         result.get("prompt", ""),
         result.get("ground_truth", ""),
+        manifest_id,
     )
 
 
 def _group_results_by_fact(
     results: list[dict[str, Any]],
-) -> dict[tuple[Any, str, str], dict[str, dict[str, Any]]]:
-    grouped: dict[tuple[Any, str, str], dict[str, dict[str, Any]]] = {}
+) -> dict[tuple[Any, Any, str, str, Any], dict[str, dict[str, Any]]]:
+    grouped: dict[tuple[Any, Any, str, str, Any], dict[str, dict[str, Any]]] = {}
     for result in results:
         group_key = _result_group_key(result)
         grouped.setdefault(group_key, {})[result["state"]] = result
@@ -209,6 +212,30 @@ def paired_count(results: list[dict[str, Any]]) -> int:
     return len(_eligible_state_groups(results))
 
 
+def _result_is_correct(result: dict[str, Any]) -> bool:
+    return bool(
+        exact_match(
+            result["model_output"],
+            result["ground_truth"],
+            ground_truth_aliases=result.get("object_aliases"),
+        )
+    )
+
+
+def _full_correct_state_groups(
+    results: list[dict[str, Any]],
+) -> list[dict[str, dict[str, Any]]]:
+    return [
+        state_results
+        for state_results in _eligible_state_groups(results)
+        if "FULL" in state_results and _result_is_correct(state_results["FULL"])
+    ]
+
+
+def full_correct_paired_count(results: list[dict[str, Any]]) -> int:
+    return len(_full_correct_state_groups(results))
+
+
 def parametric_leakage(results: list[dict[str, Any]]) -> float:
     eligible_groups = _eligible_state_groups(results)
     if not eligible_groups:
@@ -224,6 +251,17 @@ def parametric_leakage(results: list[dict[str, Any]]) -> float:
         )
 
     return leakage_total / len(eligible_groups)
+
+
+def parametric_leakage_given_full(results: list[dict[str, Any]]) -> float:
+    eligible_groups = _full_correct_state_groups(results)
+    if not eligible_groups:
+        return 0.0
+
+    return sum(
+        _result_is_correct(state_results["DEL-OFF"])
+        for state_results in eligible_groups
+    ) / len(eligible_groups)
 
 
 def retrieval_mediated_correctness(results: list[dict[str, Any]]) -> float:
@@ -252,22 +290,57 @@ def retrieval_mediated_correctness(results: list[dict[str, Any]]) -> float:
     return retrieval_total / len(eligible_groups)
 
 
+def retrieval_mediated_correctness_given_full(
+    results: list[dict[str, Any]],
+) -> float:
+    eligible_groups = _full_correct_state_groups(results)
+    if not eligible_groups:
+        return 0.0
+
+    return sum(
+        _result_is_correct(state_results["DEL-ON"])
+        and not _result_is_correct(state_results["DEL-OFF"])
+        for state_results in eligible_groups
+    ) / len(eligible_groups)
+
+
+def post_deletion_survival_given_full(results: list[dict[str, Any]]) -> float:
+    eligible_groups = _full_correct_state_groups(results)
+    if not eligible_groups:
+        return 0.0
+
+    return sum(
+        _result_is_correct(state_results["DEL-ON"])
+        for state_results in eligible_groups
+    ) / len(eligible_groups)
+
+
 def trace_has_gold_equivalent(result: dict[str, Any]) -> bool:
     retrieval_trace = result.get("retrieval_trace") or {}
     retained_candidates = retrieval_trace.get("retained_candidates") or []
 
     for candidate in retained_candidates:
-        if candidate.get("supports_target_fact") is True:
+        if (
+            candidate.get("supports_target_fact") is True
+            or candidate.get("supports_target") is True
+        ):
             return True
+
+        subject = result.get("subject")
+        relation = result.get("relation")
+        if subject is None or relation is None:
+            continue
+        if candidate.get("subject") is None or candidate.get("relation") is None:
+            continue
 
         subject_matches = values_equivalent(
             candidate.get("subject", ""),
-            result.get("subject", ""),
+            subject,
             right_aliases=result.get("subject_aliases"),
         )
         relation_matches = values_equivalent(
             candidate.get("relation", ""),
-            result.get("relation", ""),
+            relation,
             right_aliases=result.get("relation_aliases"),
         )
         object_matches = values_equivalent(
@@ -281,8 +354,44 @@ def trace_has_gold_equivalent(result: dict[str, Any]) -> bool:
     return False
 
 
+def trace_is_complete(result: dict[str, Any]) -> bool:
+    retrieval_trace = result.get("retrieval_trace")
+    if not isinstance(retrieval_trace, dict):
+        return False
+    return (
+        retrieval_trace.get("trace_available") is True
+        and retrieval_trace.get("trace_complete") is True
+        and "retained_candidates" in retrieval_trace
+    )
+
+
+def _artifact_eligible_groups(
+    results: list[dict[str, Any]],
+    *,
+    require_full: bool = False,
+) -> list[dict[str, dict[str, Any]]]:
+    groups = (
+        _full_correct_state_groups(results)
+        if require_full
+        else _eligible_state_groups(results)
+    )
+    return [
+        state_results
+        for state_results in groups
+        if trace_is_complete(state_results["DEL-ON"])
+    ]
+
+
+def retrieval_artifact_eligible_count(results: list[dict[str, Any]]) -> int:
+    return len(_artifact_eligible_groups(results))
+
+
+def retrieval_artifact_full_eligible_count(results: list[dict[str, Any]]) -> int:
+    return len(_artifact_eligible_groups(results, require_full=True))
+
+
 def retrieval_artifact_rate(results: list[dict[str, Any]]) -> float:
-    eligible_groups = _eligible_state_groups(results)
+    eligible_groups = _artifact_eligible_groups(results)
     if not eligible_groups:
         return 0.0
 
@@ -301,7 +410,19 @@ def retrieval_artifact_rate(results: list[dict[str, Any]]) -> float:
     return artifact_total / len(eligible_groups)
 
 
-def metrics_total(results: list[dict[str, Any]]) -> dict[str, float]:
+def retrieval_artifact_rate_given_full(results: list[dict[str, Any]]) -> float:
+    eligible_groups = _artifact_eligible_groups(results, require_full=True)
+    if not eligible_groups:
+        return 0.0
+
+    return sum(
+        _result_is_correct(state_results["DEL-ON"])
+        and not trace_has_gold_equivalent(state_results["DEL-ON"])
+        for state_results in eligible_groups
+    ) / len(eligible_groups)
+
+
+def metrics_total(results: list[dict[str, Any]]) -> dict[str, float | int]:
     return {
         "count": count(results),
         "exact_match": exact_match_rate(results),
@@ -311,7 +432,24 @@ def metrics_total(results: list[dict[str, Any]]) -> dict[str, float]:
         "recall": recall_rate(results),
         "f1": f1_rate(results),
         "paired_count": paired_count(results),
+        "full_correct_paired_count": full_correct_paired_count(results),
         "parametric_leakage": parametric_leakage(results),
+        "parametric_leakage_given_full": parametric_leakage_given_full(results),
         "retrieval_mediated_correctness": retrieval_mediated_correctness(results),
+        "retrieval_mediated_correctness_given_full": (
+            retrieval_mediated_correctness_given_full(results)
+        ),
         "retrieval_artifact_rate": retrieval_artifact_rate(results),
+        "retrieval_artifact_eligible_count": retrieval_artifact_eligible_count(
+            results
+        ),
+        "retrieval_artifact_rate_given_full": retrieval_artifact_rate_given_full(
+            results
+        ),
+        "retrieval_artifact_full_eligible_count": (
+            retrieval_artifact_full_eligible_count(results)
+        ),
+        "post_deletion_survival_given_full": post_deletion_survival_given_full(
+            results
+        ),
     }

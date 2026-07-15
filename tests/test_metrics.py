@@ -1,10 +1,3 @@
-"""
-Comprehensive unit tests for src/lmlm-audit/metrics.py.
-
-All public functions are exercised with normal inputs, boundary values, and
-edge cases.  Several tests also log diagnostic plots to the shared W&B run.
-"""
-
 import sys
 from pathlib import Path
 
@@ -22,29 +15,34 @@ from metrics import (
     exact_match,
     exact_match_rate,
     f1_rate,
+    full_correct_paired_count,
     is_unknown,
     metrics_total,
     normalize_answer,
     paired_count,
     parametric_leakage,
+    parametric_leakage_given_full,
+    post_deletion_survival_given_full,
     precision_rate,
     precision_recall_f1,
     recall_rate,
     retrieval_artifact_rate,
+    retrieval_artifact_eligible_count,
+    retrieval_artifact_full_eligible_count,
+    retrieval_artifact_rate_given_full,
     retrieval_mediated_correctness,
+    retrieval_mediated_correctness_given_full,
     score_prediction,
     trace_has_gold_equivalent,
+    trace_is_complete,
     unknown_rate,
 )
 
 
-# ---------------------------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------------------------
-
 
 def _result(
     fact_id=1,
+    prompt_id=None,
     prompt="Q?",
     ground_truth="Answer",
     model_output="Answer",
@@ -58,6 +56,7 @@ def _result(
 ):
     return {
         "fact_id": fact_id,
+        "prompt_id": prompt_id,
         "prompt": prompt,
         "ground_truth": ground_truth,
         "model_output": model_output,
@@ -107,10 +106,6 @@ def _del_on_off_pair(
     ]
 
 
-# ===========================================================================
-# normalize_answer
-# ===========================================================================
-
 
 def test_normalize_answer() -> None:
     assert normalize_answer("Spice Girls!") == "spice girls"
@@ -140,10 +135,6 @@ def test_normalize_answer_idempotent():
     assert once == twice
 
 
-# ===========================================================================
-# exact_match
-# ===========================================================================
-
 
 class TestExactMatch:
     def test_identical(self):
@@ -159,8 +150,6 @@ class TestExactMatch:
         assert exact_match("UK", "United Kingdom", ground_truth_aliases=["UK"]) == 1.0
 
     def test_empty_both(self):
-        # Empty strings are filtered out by the alias-set builder,
-        # so both sets are empty → no intersection → not equivalent.
         assert exact_match("", "") == 0.0
 
     def test_left_empty(self):
@@ -173,16 +162,11 @@ class TestExactMatch:
         assert exact_match("Spice", "Spice Girls") == 0.0
 
     def test_with_punctuation(self):
-        # "Spice Girls!" normalizes same as "Spice Girls"
         assert exact_match("Spice Girls!", "Spice Girls") == 1.0
 
     def test_alias_none(self):
         assert exact_match("Paris", "Paris", ground_truth_aliases=None) == 1.0
 
-
-# ===========================================================================
-# contains_match
-# ===========================================================================
 
 
 def test_contains_match() -> None:
@@ -198,7 +182,6 @@ class TestContainsMatch:
         assert contains_match("She was born in Paris, France", "Paris") == 1.0
 
     def test_ground_truth_contains_prediction(self):
-        # prediction is substring of ground truth
         assert contains_match("Girls", "Spice Girls") == 1.0
 
     def test_no_overlap(self):
@@ -211,22 +194,14 @@ class TestContainsMatch:
         assert contains_match("", "Paris") == 0.0
 
     def test_empty_ground_truth(self):
-        # Both empty: exact_match("","") is 0.0 (empty alias sets), so
-        # contains_match falls through to substring check.
-        # normalize_answer("") == "" → falsy → returns 0.0.
         assert contains_match("", "") == 0.0
 
     def test_both_nonempty_no_substring(self):
         assert contains_match("cat", "dog") == 0.0
 
     def test_case_insensitive_contains(self):
-        # normalize_answer lower-cases both
         assert contains_match("spice girls are cool", "Spice Girls") == 1.0
 
-
-# ===========================================================================
-# is_unknown
-# ===========================================================================
 
 
 def test_is_unknown() -> None:
@@ -269,7 +244,7 @@ class TestIsUnknown:
             "Paris",
             "42",
             "yes",
-            "no",  # "no" alone is not in unknown set
+            "no",
             "maybe",
             "Richard Mthetwa",
         ],
@@ -278,10 +253,6 @@ class TestIsUnknown:
         assert is_unknown(text) == 0.0, f"Expected is_unknown({text!r}) == 0.0"
 
 
-# ===========================================================================
-# precision_recall_f1
-# ===========================================================================
-
 
 class TestPrecisionRecallF1:
     def test_exact_match_gives_perfect_scores(self):
@@ -289,12 +260,8 @@ class TestPrecisionRecallF1:
         assert result == {"precision": 1.0, "recall": 1.0, "f1": 1.0}
 
     def test_both_empty(self):
-        # tokenize("") == [] for both → both empty token lists → perfect scores
         result = precision_recall_f1("", "")
         assert result == {"precision": 1.0, "recall": 1.0, "f1": 1.0}
-        # Note: exact_match("","") short-circuits first in precision_recall_f1;
-        # it returns 0.0, so we fall through to the token-overlap path where
-        # both token lists are [] → both empty → returns 1.0 1.0 1.0
 
     def test_empty_prediction(self):
         result = precision_recall_f1("", "Paris")
@@ -319,7 +286,6 @@ class TestPrecisionRecallF1:
         assert result["f1"] == pytest.approx(0.286, abs=1e-3)
 
     def test_f1_harmonic_mean(self):
-        # precision=0.5, recall=1.0 → f1 = 2*0.5*1.0/(0.5+1.0) = 2/3
         result = precision_recall_f1("Paris", "Paris France")
         assert result["precision"] == pytest.approx(1.0)
         assert result["recall"] == pytest.approx(0.5)
@@ -331,16 +297,10 @@ class TestPrecisionRecallF1:
 
     def test_repeated_tokens(self):
         result = precision_recall_f1("cat cat", "cat")
-        # pred_counter: {cat:2}, gold_counter: {cat:1}, overlap: 1
-        # precision = 1/2, recall = 1/1, f1 = 2*(0.5*1)/(0.5+1) = 2/3
         assert result["precision"] == pytest.approx(0.5)
         assert result["recall"] == pytest.approx(1.0)
         assert result["f1"] == pytest.approx(2 / 3, abs=1e-6)
 
-
-# ===========================================================================
-# score_prediction
-# ===========================================================================
 
 
 def test_score_prediction_exact_match() -> None:
@@ -387,7 +347,7 @@ class TestScorePrediction:
 
     def test_empty_prediction(self):
         scores = score_prediction("", "Paris")
-        assert scores["unknown"] == 1.0  # "" → is_unknown
+        assert scores["unknown"] == 1.0
 
     def test_all_keys_present(self):
         scores = score_prediction("x", "y")
@@ -399,10 +359,6 @@ class TestScorePrediction:
         assert scores["contains_match"] == 1.0
 
 
-# ===========================================================================
-# count
-# ===========================================================================
-
 
 def test_count_empty():
     assert count([]) == 0
@@ -411,10 +367,6 @@ def test_count_empty():
 def test_count_nonempty():
     assert count([_result(), _result()]) == 2
 
-
-# ===========================================================================
-# _average_metric (internal, tested indirectly and directly)
-# ===========================================================================
 
 
 class TestAverageMetric:
@@ -436,10 +388,6 @@ class TestAverageMetric:
         ]
         assert _average_metric(results, "exact_match") == 0.5
 
-
-# ===========================================================================
-# Rate helpers
-# ===========================================================================
 
 
 def test_metrics_total() -> None:
@@ -545,10 +493,6 @@ class TestRateHelpers:
         assert contains_match_rate(results) == 1.0
 
 
-# ===========================================================================
-# metrics_total edge cases
-# ===========================================================================
-
 
 class TestMetricsTotal:
     def test_empty_results(self):
@@ -580,10 +524,6 @@ class TestMetricsTotal:
         assert summary["exact_match"] == 0.0
 
 
-# ===========================================================================
-# _group_results_by_fact
-# ===========================================================================
-
 
 class TestGroupResultsByFact:
     def test_single_result(self):
@@ -607,13 +547,23 @@ class TestGroupResultsByFact:
         assert "DEL-ON" in group
         assert "DEL-OFF" in group
 
+    def test_same_prompt_text_with_different_prompt_ids_stays_separate(self):
+        r1 = _result(prompt_id="p1", state="DEL-ON")
+        r2 = _result(prompt_id="p2", state="DEL-OFF")
+
+        assert len(_group_results_by_fact([r1, r2])) == 2
+
+    def test_different_deletion_manifests_stay_separate(self):
+        r1 = _result(state="DEL-ON")
+        r2 = _result(state="DEL-OFF")
+        r1["deletion_manifest"] = {"manifest_id": "first"}
+        r2["deletion_manifest"] = {"manifest_id": "second"}
+
+        assert len(_group_results_by_fact([r1, r2])) == 2
+
     def test_empty_list(self):
         assert _group_results_by_fact([]) == {}
 
-
-# ===========================================================================
-# _eligible_state_groups
-# ===========================================================================
 
 
 class TestEligibleStateGroups:
@@ -640,10 +590,6 @@ class TestEligibleStateGroups:
         assert _eligible_state_groups([]) == []
 
 
-# ===========================================================================
-# paired_count
-# ===========================================================================
-
 
 class TestPairedCount:
     def test_zero_no_pairs(self):
@@ -662,9 +608,66 @@ class TestPairedCount:
         assert paired_count(results) == 0
 
 
-# ===========================================================================
-# parametric_leakage
-# ===========================================================================
+def test_full_conditioned_metrics_ignore_unknown_full_facts() -> None:
+    known = [
+        _result(fact_id=1, prompt="Q1?", ground_truth="A", state="FULL", model_output="A"),
+        _result(
+            fact_id=1,
+            prompt="Q1?",
+            ground_truth="A",
+            state="DEL-ON",
+            model_output="A",
+            retrieval_trace={
+                "trace_available": True,
+                "trace_complete": True,
+                "retained_candidates": [],
+            },
+        ),
+        _result(fact_id=1, prompt="Q1?", ground_truth="A", state="DEL-OFF", model_output="wrong"),
+    ]
+    unknown = [
+        _result(fact_id=2, prompt="Q2?", ground_truth="B", state="FULL", model_output="wrong"),
+        _result(fact_id=2, prompt="Q2?", ground_truth="B", state="DEL-ON", model_output="B"),
+        _result(fact_id=2, prompt="Q2?", ground_truth="B", state="DEL-OFF", model_output="B"),
+    ]
+
+    results = known + unknown
+    assert paired_count(results) == 2
+    assert full_correct_paired_count(results) == 1
+    assert post_deletion_survival_given_full(results) == 1.0
+    assert parametric_leakage_given_full(results) == 0.0
+    assert retrieval_mediated_correctness_given_full(results) == 1.0
+    assert retrieval_artifact_rate_given_full(results) == 1.0
+    assert retrieval_artifact_full_eligible_count(results) == 1
+
+
+def test_full_conditioned_metrics_require_all_three_states() -> None:
+    results = [
+        _result(state="FULL", model_output="Answer"),
+        _result(state="DEL-ON", model_output="Answer"),
+    ]
+
+    assert full_correct_paired_count(results) == 0
+    assert post_deletion_survival_given_full(results) == 0.0
+
+
+def test_trace_supports_schema_free_semantic_judgment() -> None:
+    result = _result(
+        subject=None,
+        relation=None,
+        retrieval_trace={
+            "retained_candidates": [
+                {
+                    "entry_id": "wiki:france:17",
+                    "value": "Paris is France's capital city.",
+                    "supports_target": True,
+                }
+            ]
+        },
+    )
+
+    assert trace_has_gold_equivalent(result) is True
+
 
 
 def test_cross_state_metrics() -> None:
@@ -681,6 +684,8 @@ def test_cross_state_metrics() -> None:
             "model_output": "Spice Girls",
             "object_aliases": [],
             "retrieval_trace": {
+                "trace_available": True,
+                "trace_complete": True,
                 "retained_candidates": [
                     {
                         "subject": "Geri Halliwell",
@@ -715,6 +720,8 @@ def test_cross_state_metrics() -> None:
             "model_output": "Richard Mthetwa",
             "object_aliases": [],
             "retrieval_trace": {
+                "trace_available": True,
+                "trace_complete": True,
                 "retained_candidates": [
                     {
                         "subject": "Nozinja",
@@ -753,12 +760,10 @@ class TestParametricLeakage:
         assert parametric_leakage([_result(state="FULL")]) == 0.0
 
     def test_full_leakage(self):
-        # DEL-OFF always correct → leakage = 1.0
         results = _del_on_off_pair(del_off_output="GT", ground_truth="GT")
         assert parametric_leakage(results) == 1.0
 
     def test_zero_leakage(self):
-        # DEL-OFF always wrong → leakage = 0.0
         results = _del_on_off_pair(del_off_output="WRONG", ground_truth="GT")
         assert parametric_leakage(results) == 0.0
 
@@ -767,10 +772,6 @@ class TestParametricLeakage:
         r2 = _del_on_off_pair(fact_id=2, prompt="Q2?", ground_truth="GT", del_off_output="WRONG")
         assert parametric_leakage(r1 + r2) == 0.5
 
-
-# ===========================================================================
-# retrieval_mediated_correctness
-# ===========================================================================
 
 
 class TestRetrievalMediatedCorrectness:
@@ -796,10 +797,6 @@ class TestRetrievalMediatedCorrectness:
         assert retrieval_mediated_correctness(results) == 0.0
 
 
-# ===========================================================================
-# trace_has_gold_equivalent
-# ===========================================================================
-
 
 def test_retrieval_artifact_rate() -> None:
     results = [
@@ -815,6 +812,8 @@ def test_retrieval_artifact_rate() -> None:
             "model_output": "Spice Girls",
             "object_aliases": [],
             "retrieval_trace": {
+                "trace_available": True,
+                "trace_complete": True,
                 "retained_candidates": [
                     {
                         "subject": "Geri Halliwell",
@@ -925,7 +924,6 @@ class TestTraceHasGoldEquivalent:
         assert trace_has_gold_equivalent(result) is False
 
     def test_fallback_triple_matching(self):
-        # supports_target_fact is False but all three fields match
         result = self._result_with_trace(
             [{"subject": "S", "relation": "R", "object": "GT", "supports_target_fact": False}],
             subject="S",
@@ -947,26 +945,39 @@ class TestTraceHasGoldEquivalent:
         assert trace_has_gold_equivalent(result) is True
 
 
-# ===========================================================================
-# retrieval_artifact_rate edge cases
-# ===========================================================================
-
 
 class TestRetrievalArtifactRate:
     def test_empty(self):
         assert retrieval_artifact_rate([]) == 0.0
 
-    def test_no_gold_evidence_correct_answer(self):
+    def test_missing_trace_is_not_treated_as_negative_evidence(self):
         results = _del_on_off_pair(
             del_on_output="GT",
             del_off_output="WRONG",
             ground_truth="GT",
         )
-        # del_on has no retrieval trace → no gold equivalent
+        assert trace_is_complete(results[0]) is False
+        assert retrieval_artifact_eligible_count(results) == 0
+        assert retrieval_artifact_rate(results) == 0.0
+
+    def test_complete_empty_trace_counts_as_no_gold_evidence(self):
+        results = _del_on_off_pair(
+            del_on_output="GT",
+            del_off_output="WRONG",
+            ground_truth="GT",
+            del_on_trace={
+                "trace_available": True,
+                "trace_complete": True,
+                "retained_candidates": [],
+            },
+        )
+        assert retrieval_artifact_eligible_count(results) == 1
         assert retrieval_artifact_rate(results) == 1.0
 
     def test_gold_evidence_present_not_artifact(self):
         trace = {
+            "trace_available": True,
+            "trace_complete": True,
             "retained_candidates": [
                 {"subject": "S", "relation": "R", "object": "GT", "supports_target_fact": True}
             ]
@@ -985,10 +996,6 @@ class TestRetrievalArtifactRate:
         results = _del_on_off_pair(del_on_output="WRONG", del_off_output="WRONG", ground_truth="GT")
         assert retrieval_artifact_rate(results) == 0.0
 
-
-# ===========================================================================
-# W&B visualisation tests
-# ===========================================================================
 
 
 def test_score_metrics_logged_to_wandb(wandb_run):
@@ -1027,7 +1034,6 @@ def test_score_metrics_logged_to_wandb(wandb_run):
         except Exception:
             pass
 
-    # Assertions
     assert scenarios["exact"]["exact_match"] == 1.0
     assert scenarios["wrong"]["exact_match"] == 0.0
     assert scenarios["unknown"]["unknown"] == 1.0
@@ -1038,11 +1044,10 @@ def test_cross_state_metrics_logged_to_wandb(wandb_run):
     import matplotlib.pyplot as plt
 
     pairs = [
-        # (del_on_correct, del_off_correct)
-        (True, False),   # retrieval-mediated
-        (True, True),    # parametric leakage
-        (False, False),  # neither
-        (True, False),   # retrieval-mediated
+        (True, False),
+        (True, True),
+        (False, False),
+        (True, False),
     ]
     results = []
     for i, (on_correct, off_correct) in enumerate(pairs):
