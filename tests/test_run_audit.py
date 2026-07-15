@@ -9,8 +9,8 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from lmlm_audit import jobs as jobs_module, reporting
-from lmlm_audit.jobs import (
+from lmlm_audit.cli import jobs as jobs_module, reporting
+from lmlm_audit.cli.jobs import (
     AuditJob,
     discover_all_audit_jobs,
     discover_custom_audit_jobs,
@@ -29,20 +29,20 @@ from lmlm_audit.rel_lmlm.backend import (
     prepare_prompt,
     retrieve_lookup_value,
 )
-from lmlm_audit.reporting import (
+from lmlm_audit.cli.reporting import (
     AuditLogger,
     log_metrics_to_wandb,
     save_results,
     setup_wandb,
     write_metrics_csvs,
 )
-from lmlm_audit.run_audit import parse_args
-from lmlm_audit.runner import (
+from lmlm_audit.cli.run_audit import parse_args
+from lmlm_audit.cli.runner import (
     load_prompts,
     run_audit as run_audit_fn,
     run_prompt_audit,
 )
-from lmlm_audit.states import DatabaseState
+from lmlm_audit.core.states import DatabaseState
 
 
 

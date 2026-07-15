@@ -7,7 +7,7 @@ from lmlm_audit.colmlm.errors import (
     CoLMLMIntegrationError,
     ExclusionSearchExhaustedError,
 )
-from lmlm_audit.examples import AuditExample
+from lmlm_audit.core.examples import AuditExample
 
 
 def _candidate_id(candidate: Any) -> str:

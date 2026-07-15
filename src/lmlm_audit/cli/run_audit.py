@@ -3,24 +3,24 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
-from lmlm_audit.backend import AuditBackend
-from lmlm_audit.jobs import (
+from lmlm_audit.core.backend import AuditBackend
+from lmlm_audit.cli.jobs import (
     DEFAULT_DATABASE_PATH,
     DEFAULT_OUTPUT_DIR,
     AuditJob,
     resolve_audit_jobs,
 )
-from lmlm_audit.metrics import metrics_total
+from lmlm_audit.core.metrics import metrics_total
 from lmlm_audit.rel_lmlm.backend import RelLMLMAuditBackend
-from lmlm_audit.reporting import (
+from lmlm_audit.cli.reporting import (
     AuditLogger,
     log_metrics_to_wandb,
     save_results,
     setup_wandb,
     write_metrics_csvs,
 )
-from lmlm_audit.runner import run_backend_audit
-from lmlm_audit.states import DatabaseState
+from lmlm_audit.cli.runner import run_backend_audit
+from lmlm_audit.core.states import DatabaseState
 
 
 def parse_args() -> argparse.Namespace:

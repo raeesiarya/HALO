@@ -5,14 +5,14 @@ from typing import Any
 
 from tqdm import tqdm
 
-from lmlm_audit.backend import (
+from lmlm_audit.core.backend import (
     AuditBackend,
     audit_example,
     validate_intervention_results,
 )
-from lmlm_audit.examples import AuditExample, DeletionManifest
+from lmlm_audit.core.examples import AuditExample, DeletionManifest
 from lmlm_audit.rel_lmlm.backend import RelLMLMAuditBackend
-from lmlm_audit.states import DatabaseState
+from lmlm_audit.core.states import DatabaseState
 
 
 def load_prompts(prompts_path: Path) -> list[dict[str, Any]]:

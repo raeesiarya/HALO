@@ -81,7 +81,7 @@ environment after downloading its model and index:
 cd /path/to/Co-LMLM
 
 PYTHONPATH=/path/to/HALOCoLMLM/src:src \
-uv run python -m lmlm_audit.run_audit \
+uv run python -m lmlm_audit.cli.run_audit \
   --backend colmlm \
   --colmlm-source-path . \
   --colmlm-model-path /path/to/CoLMLM-360M-FW \

@@ -8,12 +8,12 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from lmlm_audit.backend import audit_example
+from lmlm_audit.core.backend import audit_example
 from lmlm_audit.colmlm.answers import _default_support_judge, extract_colmlm_answer
 from lmlm_audit.colmlm.backend import CoLMLMAuditBackend
-from lmlm_audit.examples import AuditExample
-from lmlm_audit.runner import run_backend_audit
-from lmlm_audit.states import DatabaseState
+from lmlm_audit.core.examples import AuditExample
+from lmlm_audit.cli.runner import run_backend_audit
+from lmlm_audit.core.states import DatabaseState
 
 
 @dataclass

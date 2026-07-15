@@ -13,7 +13,7 @@ from lmlm_audit.rel_lmlm.database import (
     is_deleted_triplet,
     target_fact_from_prompt_row,
 )
-from lmlm_audit.states import DatabaseState, retrieval_enabled
+from lmlm_audit.core.states import DatabaseState, retrieval_enabled
 
 
 

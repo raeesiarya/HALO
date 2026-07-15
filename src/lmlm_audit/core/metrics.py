@@ -2,7 +2,7 @@ import re
 from collections import Counter
 from typing import Any
 
-from lmlm_audit.equivalence import normalize_text, values_equivalent
+from lmlm_audit.core.equivalence import normalize_text, values_equivalent
 
 
 TOKEN_PATTERN = re.compile(r"\d+\.\d+|\w+(?:[-']\w+)*", re.UNICODE)

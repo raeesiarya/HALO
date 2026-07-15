@@ -3,10 +3,10 @@ import re
 from dataclasses import dataclass
 from typing import Any
 
-from lmlm_audit.backend import AuditObservation, default_retrieval_trace
-from lmlm_audit.examples import AuditExample
+from lmlm_audit.core.backend import AuditObservation, default_retrieval_trace
+from lmlm_audit.core.examples import AuditExample
 from lmlm_audit.rel_lmlm.database import build_state_db_manager
-from lmlm_audit.states import DatabaseState, retrieval_enabled
+from lmlm_audit.core.states import DatabaseState, retrieval_enabled
 
 
 LOOKUP_VALUE_PATTERN = re.compile(

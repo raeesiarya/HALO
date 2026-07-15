@@ -5,14 +5,14 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from lmlm_audit.backend import (
+from lmlm_audit.core.backend import (
     AuditObservation,
     audit_example,
     default_retrieval_trace,
     validate_intervention_results,
 )
-from lmlm_audit.examples import AuditExample, DeletionManifest
-from lmlm_audit.states import DatabaseState
+from lmlm_audit.core.examples import AuditExample, DeletionManifest
+from lmlm_audit.core.states import DatabaseState
 
 
 class FakeBackend:

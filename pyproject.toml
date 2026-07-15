@@ -28,7 +28,7 @@ dependencies = [
 ]
 
 [project.scripts]
-lmlm-audit = "lmlm_audit.run_audit:main"
+lmlm-audit = "lmlm_audit.cli.run_audit:main"
 
 [tool.setuptools]
 package-dir = { "" = "src" }

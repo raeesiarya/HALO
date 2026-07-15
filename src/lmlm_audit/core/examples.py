@@ -3,7 +3,7 @@ import json
 from dataclasses import dataclass, field
 from typing import Any, Mapping
 
-from lmlm_audit.equivalence import prompt_row_aliases
+from lmlm_audit.core.equivalence import prompt_row_aliases
 
 
 def _string_tuple(value: Any) -> tuple[str, ...]:

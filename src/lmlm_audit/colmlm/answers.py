@@ -4,8 +4,8 @@ import re
 from typing import Any
 
 from lmlm_audit.colmlm.index_filter import _candidate_text
-from lmlm_audit.equivalence import normalize_text
-from lmlm_audit.examples import AuditExample
+from lmlm_audit.core.equivalence import normalize_text
+from lmlm_audit.core.examples import AuditExample
 
 
 def _default_support_judge(candidate: Any, example: AuditExample) -> dict[str, Any]:

@@ -2,8 +2,8 @@ import re
 from dataclasses import dataclass
 from typing import Any
 
-from lmlm_audit.equivalence import prompt_row_aliases, values_equivalent
-from lmlm_audit.states import DatabaseState
+from lmlm_audit.core.equivalence import prompt_row_aliases, values_equivalent
+from lmlm_audit.core.states import DatabaseState
 
 
 LOOKUP_PATTERNS = [

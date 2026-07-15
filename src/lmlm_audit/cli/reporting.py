@@ -4,10 +4,10 @@ import os
 from pathlib import Path
 from typing import Any
 
-from lmlm_audit.states import DatabaseState
+from lmlm_audit.core.states import DatabaseState
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
 WANDB_PROJECT = "lmlm-audit"
 
 

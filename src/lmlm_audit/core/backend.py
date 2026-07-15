@@ -2,8 +2,8 @@ import json
 from dataclasses import dataclass, field
 from typing import Any, Mapping, Protocol, runtime_checkable
 
-from lmlm_audit.examples import AuditExample
-from lmlm_audit.states import DatabaseState, retrieval_enabled
+from lmlm_audit.core.examples import AuditExample
+from lmlm_audit.core.states import DatabaseState, retrieval_enabled
 
 
 @dataclass(frozen=True)
