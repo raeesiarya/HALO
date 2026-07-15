@@ -83,6 +83,10 @@ class _FilteringSearchIndex:
     support_judge: Callable[[Any, AuditExample], Mapping[str, Any]]
     exclude_all: bool = False
     exclude_supporting: bool = False
+    # The example whose answer the semantic backstop judges against. Under a
+    # sweep, neighbor prompts run with the *target* fact's manifest, so this
+    # differs from `example` (which drives trace serialization).
+    backstop_example: AuditExample | None = None
     max_filter_overfetch: int = 4096
     events: list[dict[str, Any]] = field(default_factory=list)
     query_embeddings: list[np.ndarray | None] = field(default_factory=list)
@@ -145,9 +149,11 @@ class _FilteringSearchIndex:
                 # support judge marks as expressing the target answer, even
                 # when the materialized closure missed it.
                 excluded = bool(
-                    dict(self.support_judge(candidate, self.example)).get(
-                        "supports_target"
-                    )
+                    dict(
+                        self.support_judge(
+                            candidate, self.backstop_example or self.example
+                        )
+                    ).get("supports_target")
                 )
             (deleted if excluded else retained).append(candidate)
         selected = retained[:top_k]

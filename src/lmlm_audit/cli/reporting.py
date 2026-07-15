@@ -33,6 +33,74 @@ def write_metrics_csvs(
             writer.writerows(per_state_rows)
 
 
+def write_entanglement_outputs(
+    entanglement: dict[str, dict[str, Any]],
+    output_dir: Path,
+) -> dict[str, Path]:
+    if not entanglement:
+        return {}
+    output_dir.mkdir(parents=True, exist_ok=True)
+    curves_path = output_dir / "entanglement_curves.csv"
+    gaps_path = output_dir / "entanglement_gaps.csv"
+    figure_path = output_dir / "entanglement.png"
+
+    curve_rows = [
+        {"target_key": target_key, **point}
+        for target_key, summary in sorted(entanglement.items())
+        for point in summary["curve"]
+    ]
+    gap_rows = [
+        {
+            "target_key": target_key,
+            "gap": summary["gap"],
+            "gap_rho": summary["gap_rho"],
+        }
+        for target_key, summary in sorted(entanglement.items())
+    ]
+    with curves_path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=list(curve_rows[0].keys()))
+        writer.writeheader()
+        writer.writerows(curve_rows)
+    with gaps_path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=list(gap_rows[0].keys()))
+        writer.writeheader()
+        writer.writerows(gap_rows)
+
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    fig, (curve_axis, gap_axis) = plt.subplots(1, 2, figsize=(11, 4.5))
+    for target_key, summary in sorted(entanglement.items()):
+        xs = [point["collateral"] for point in summary["curve"]]
+        ys = [point["efficacy"] for point in summary["curve"]]
+        curve_axis.plot(xs, ys, marker="o", alpha=0.6, label=target_key)
+    curve_axis.set_xlabel("Collateral X(f, ρ)")
+    curve_axis.set_ylabel("Efficacy E(f, ρ)")
+    curve_axis.set_title("Deletion operating curves")
+    curve_axis.set_xlim(-0.05, 1.05)
+    curve_axis.set_ylim(-0.05, 1.05)
+    if len(entanglement) <= 10:
+        curve_axis.legend(fontsize="small")
+
+    gaps = [summary["gap"] for summary in entanglement.values()]
+    gap_axis.hist(gaps, bins=min(20, max(5, len(gaps))), edgecolor="black")
+    gap_axis.set_xlabel("Entanglement gap G(f)")
+    gap_axis.set_ylabel("Facts")
+    gap_axis.set_title("G(f) distribution")
+
+    fig.tight_layout()
+    fig.savefig(figure_path, dpi=150)
+    plt.close(fig)
+
+    return {
+        "curves": curves_path,
+        "gaps": gaps_path,
+        "figure": figure_path,
+    }
+
+
 def save_results(results: list[dict[str, Any]], output_path: Path) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8") as f:

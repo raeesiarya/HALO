@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 from typing import Any, Callable
 
+import numpy as np
 from tqdm import tqdm
 
 from lmlm_audit.core.backend import (
@@ -11,7 +12,15 @@ from lmlm_audit.core.backend import (
     validate_intervention_results,
 )
 from lmlm_audit.core.embeddings import QueryEmbeddingSink, result_example_key
+from lmlm_audit.core.entanglement import compute_entanglement, fact_key
 from lmlm_audit.core.examples import AuditExample, DeletionManifest
+from lmlm_audit.core.neighbors import (
+    NeighborConfig,
+    compute_cosine_neighbors,
+    compute_same_source_neighbors,
+    neighbor_keys,
+    write_neighbors_file,
+)
 from lmlm_audit.rel_lmlm.backend import RelLMLMAuditBackend
 from lmlm_audit.core.states import DatabaseState
 
@@ -160,6 +169,197 @@ def run_backend_audit(
         results.extend(prompt_results)
 
     return results
+
+
+def run_entanglement_sweep(
+    prompt_path: Path,
+    backend: AuditBackend,
+    *,
+    index: Any,
+    radii: tuple[float, ...],
+    closure_config: Any,
+    neighbor_config: NeighborConfig,
+    output_dir: Path,
+    max_new_tokens: int = 12,
+    limit: int | None = None,
+) -> dict[str, Any]:
+    """Radius sweep for the entanglement analysis (E, X, G).
+
+    Pass 1 runs FULL once over all prompts (capturing query embeddings and
+    FULL-correctness); closures for every radius come from one search per
+    fact; then each (fact, radius) runs the target prompt and all neighbor
+    prompts under DEL-ON. Per-radius JSONL files make the sweep resumable:
+    (target, role, subject) triples already on disk are skipped.
+    """
+    from lmlm_audit.colmlm.closure import (
+        build_closure_family,
+        full_query_vector,
+        full_selected_candidate,
+    )
+
+    if not radii:
+        raise ValueError("A radius sweep requires at least one radius.")
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    prompts = load_prompts(prompt_path)
+    if limit is not None:
+        prompts = prompts[:limit]
+    examples: dict[str, AuditExample] = {}
+    for row_index, prompt in enumerate(prompts):
+        example = AuditExample.from_prompt_row(prompt)
+        key = result_example_key(
+            {"prompt_id": example.prompt_id, "fact_id": example.fact_id},
+            row_index,
+        )
+        if key in examples:
+            raise ValueError(f"Duplicate fact key {key!r} in {prompt_path}.")
+        examples[key] = example
+
+    # Pass 1: FULL over every prompt (resumed wholesale when both artifacts
+    # from a previous run exist).
+    full_rows_path = output_dir / "full_results.jsonl"
+    embeddings_path = output_dir / "full_query_embeddings.npz"
+    full_rows: dict[str, dict[str, Any]] = {}
+    vectors: dict[str, np.ndarray] = {}
+    if full_rows_path.exists() and embeddings_path.exists():
+        for row in load_prompts(full_rows_path):
+            full_rows[fact_key(row)] = row
+        with np.load(embeddings_path) as stored:
+            vectors = {key: stored[key] for key in stored.files}
+    else:
+        for key, example in tqdm(
+            examples.items(), desc="Sweep FULL pass", unit="prompt"
+        ):
+            row = audit_example(
+                backend,
+                example,
+                DatabaseState.FULL,
+                max_new_tokens=max_new_tokens,
+            )
+            vector = full_query_vector(row)
+            row.pop("_query_embeddings", None)
+            full_rows[key] = row
+            if vector is not None:
+                vectors[key] = np.asarray(vector, dtype=np.float32)
+        with full_rows_path.open("w", encoding="utf-8") as handle:
+            for row in full_rows.values():
+                handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+        if vectors:
+            np.savez_compressed(embeddings_path, **vectors)
+
+    # Closure families: one geometric search per fact covers every radius.
+    families: dict[str, dict[float, Any]] = {}
+    skipped: list[str] = []
+    judge = getattr(backend, "support_judge", None)
+    for key, example in examples.items():
+        selected = full_selected_candidate(full_rows.get(key, {}))
+        vector = vectors.get(key)
+        if not selected or not selected.get("entry_id") or vector is None:
+            skipped.append(key)
+            continue
+        seed_source = selected.get("source_id")
+        family_kwargs: dict[str, Any] = {}
+        if judge is not None:
+            family_kwargs["support_judge"] = judge
+        families[key] = build_closure_family(
+            index=index,
+            example=example,
+            query_vector=vector,
+            config=closure_config,
+            radii=radii,
+            seed_candidates=(selected,),
+            seed_source_ids=(
+                (str(seed_source),) if seed_source is not None else ()
+            ),
+            example_key=key,
+            **family_kwargs,
+        )
+
+    # Neighbor sets over the facts that survived the FULL pass.
+    if neighbor_config.mode == "cosine":
+        raw_neighbors = compute_cosine_neighbors(
+            {key: vectors[key] for key in families}, neighbor_config
+        )
+    else:
+        sources = {
+            key: (full_selected_candidate(full_rows[key]) or {}).get(
+                "source_id"
+            )
+            for key in families
+        }
+        raw_neighbors = compute_same_source_neighbors(
+            sources, neighbor_config
+        )
+    write_neighbors_file(
+        raw_neighbors, neighbor_config, output_dir / "neighbors.json"
+    )
+    neighbors = neighbor_keys(raw_neighbors)
+
+    planned = sum(
+        len(radii) * (1 + len(neighbors.get(key, []))) for key in families
+    )
+    executed = 0
+    sweep_rows: list[dict[str, Any]] = []
+    progress = tqdm(
+        total=planned, desc=f"Sweeping {prompt_path.stem}", unit="generation"
+    )
+    for rho in radii:
+        rho_path = output_dir / f"sweep_rho_{rho:.4f}.jsonl"
+        done: set[tuple[str, str, str]] = set()
+        if rho_path.exists():
+            for row in load_prompts(rho_path):
+                tag = row.get("sweep") or {}
+                done.add(
+                    (str(tag.get("target_key")), str(tag.get("role")), fact_key(row))
+                )
+                sweep_rows.append(row)
+        with rho_path.open("a", encoding="utf-8") as handle:
+            for key, family in families.items():
+                manifest = family[rho].to_manifest()
+                jobs = [("target", key)] + [
+                    ("neighbor", neighbor_key)
+                    for neighbor_key in neighbors.get(key, [])
+                    if neighbor_key in examples
+                ]
+                for role, subject_key in jobs:
+                    if (key, role, subject_key) in done:
+                        progress.update(1)
+                        continue
+                    subject = dataclasses.replace(
+                        examples[subject_key], deletion_manifest=manifest
+                    )
+                    row = audit_example(
+                        backend,
+                        subject,
+                        DatabaseState.DEL_ON,
+                        max_new_tokens=max_new_tokens,
+                    )
+                    row.pop("_query_embeddings", None)
+                    row["sweep"] = {
+                        "target_key": key,
+                        "rho": rho,
+                        "role": role,
+                    }
+                    handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+                    sweep_rows.append(row)
+                    executed += 1
+                    progress.update(1)
+    progress.close()
+
+    entanglement = compute_entanglement(
+        sweep_rows, list(full_rows.values()), neighbors
+    )
+    return {
+        "prompt_file": str(prompt_path),
+        "facts": len(examples),
+        "swept_facts": len(families),
+        "skipped_facts": skipped,
+        "radii": list(radii),
+        "planned_generations": planned,
+        "executed_generations": executed,
+        "entanglement": entanglement,
+        "output_dir": str(output_dir),
+    }
 
 
 def run_audit(

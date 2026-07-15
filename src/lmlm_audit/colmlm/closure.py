@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import dataclasses
 import json
 import re
 from dataclasses import dataclass
@@ -72,6 +73,8 @@ class ClosureResult:
     truncated: bool
     config: ClosureConfig
     index_nprobe: int | None = None
+    target_answer: str = ""
+    target_aliases: tuple[str, ...] = ()
 
     def to_manifest(self) -> DeletionManifest:
         entry_counts = {
@@ -83,19 +86,28 @@ class ClosureResult:
         # Per-entry attribution stays out of the manifest (it is embedded in
         # every JSONL result row); the full listing goes to the closure
         # artifact instead.
+        metadata: dict[str, Any] = {
+            "predicates_active": list(self.config.predicates),
+            "radius": self.config.radius,
+            "envelope_top_k": self.config.envelope_top_k,
+            "max_closure_size": self.config.max_closure_size,
+            "truncated": self.truncated,
+            "entry_counts": entry_counts,
+            "index_nprobe": self.index_nprobe,
+        }
+        if self.config.is_active("semantic"):
+            # The run-time backstop must judge candidates against the target
+            # fact's answer — not the answer of whichever prompt happens to
+            # run under this manifest (neighbor prompts in a sweep).
+            metadata["semantic_target"] = {
+                "ground_truth": self.target_answer,
+                "object_aliases": list(self.target_aliases),
+            }
         return DeletionManifest(
             entry_ids=tuple(entry.entry_id for entry in self.entries),
             source_ids=self.source_ids,
             strategy="closure",
-            metadata={
-                "predicates_active": list(self.config.predicates),
-                "radius": self.config.radius,
-                "envelope_top_k": self.config.envelope_top_k,
-                "max_closure_size": self.config.max_closure_size,
-                "truncated": self.truncated,
-                "entry_counts": entry_counts,
-                "index_nprobe": self.index_nprobe,
-            },
+            metadata=metadata,
         )
 
     def as_dict(self) -> dict[str, Any]:
@@ -141,19 +153,33 @@ def _index_nprobe(index: Any) -> int | None:
     return int(value) if isinstance(value, int) else None
 
 
-def build_closure(
+def build_closure_family(
     *,
     index: Any,
     example: AuditExample,
     query_vector: Any | None,
     config: ClosureConfig,
+    radii: tuple[float, ...],
     seed_candidates: tuple[Any, ...] = (),
     seed_source_ids: tuple[str, ...] = (),
     support_judge: Callable[[Any, AuditExample], Mapping[str, Any]] = (
         _default_support_judge
     ),
     example_key: str = "",
-) -> ClosureResult:
+) -> dict[float, ClosureResult]:
+    """Closures at several radii from a single index search.
+
+    Geometric closure sets are nested as the radius shrinks, so one search at
+    the smallest radius yields per-radius membership by score; semantic,
+    provenance, and oracle members are radius-independent.
+    """
+    if not radii:
+        raise ValueError("At least one closure radius is required.")
+    radii = tuple(dict.fromkeys(float(radius) for radius in radii))
+    for radius in radii:
+        if not -1.0 <= radius <= 1.0:
+            raise ValueError("radius must be a cosine similarity in [-1, 1].")
+
     needs_search = config.is_active("geometric") or config.is_active("semantic")
     if needs_search and query_vector is None:
         raise ValueError(
@@ -161,14 +187,16 @@ def build_closure(
             "embedding, but none was captured for this fact."
         )
 
-    caught: dict[str, set[str]] = {}
+    shared_caught: dict[str, set[str]] = {}
     details: dict[str, dict[str, Any]] = {}
 
-    def note(candidate: Any, predicate: str) -> None:
+    def note(
+        target: dict[str, set[str]], candidate: Any, predicate: str
+    ) -> None:
         entry_id = _candidate_id(candidate)
         if not entry_id:
             return
-        caught.setdefault(entry_id, set()).add(predicate)
+        target.setdefault(entry_id, set()).add(predicate)
         details.setdefault(
             entry_id,
             {
@@ -184,20 +212,30 @@ def build_closure(
         else None
     )
 
-    truncated = False
+    geometric_hits: list[Any] = []
+    page_full = False
+    last_score: float | None = None
     if config.is_active("geometric"):
-        hits = _flatten_single_query(
+        geometric_hits = _flatten_single_query(
             index.search(
                 query,
                 top_k=config.max_closure_size,
-                similarity_threshold=config.radius,
+                similarity_threshold=min(radii),
             )
         )
-        # A full page means the radius may hold more entries than we fetched;
-        # the closure must never silently read as complete.
-        truncated = len(hits) >= config.max_closure_size
-        for candidate in hits:
-            note(candidate, "geometric")
+        # A full page means the smallest radius may hold more entries than we
+        # fetched; the closure must never silently read as complete. Larger
+        # radii are only affected once they dip below the lowest fetched
+        # score (search returns the top of the ranking first).
+        page_full = len(geometric_hits) >= config.max_closure_size
+        scores = [
+            score
+            for score in (
+                _candidate_score(candidate) for candidate in geometric_hits
+            )
+            if score is not None
+        ]
+        last_score = min(scores) if scores else None
 
     envelope: list[Any] = []
     if config.is_active("semantic"):
@@ -210,7 +248,7 @@ def build_closure(
         )
         for candidate in envelope:
             if dict(support_judge(candidate, example)).get("supports_target"):
-                note(candidate, "semantic")
+                note(shared_caught, candidate, "semantic")
 
     source_ids = (
         tuple(dict.fromkeys(str(value) for value in seed_source_ids))
@@ -223,33 +261,78 @@ def build_closure(
         for candidate in envelope:
             candidate_source = _candidate_source_id(candidate)
             if candidate_source is not None and candidate_source in source_ids:
-                note(candidate, "provenance")
+                note(shared_caught, candidate, "provenance")
 
     for candidate in seed_candidates:
-        note(candidate, "oracle")
+        note(shared_caught, candidate, "oracle")
 
     def sort_key(entry_id: str) -> tuple[int, float, str]:
         score = details[entry_id]["score"]
         return (0 if score is not None else 1, -(score or 0.0), entry_id)
 
-    entries = tuple(
-        ClosureEntry(
-            entry_id=entry_id,
-            score=details[entry_id]["score"],
-            source_id=details[entry_id]["source_id"],
-            value=details[entry_id]["value"],
-            caught_by=tuple(sorted(caught[entry_id])),
+    family: dict[float, ClosureResult] = {}
+    for radius in radii:
+        caught = {
+            entry_id: set(predicates)
+            for entry_id, predicates in shared_caught.items()
+        }
+        for candidate in geometric_hits:
+            score = _candidate_score(candidate)
+            # A missing score cannot be compared against the radius; err
+            # toward deletion at every radius.
+            if score is None or score >= radius:
+                note(caught, candidate, "geometric")
+        truncated = page_full and (
+            last_score is None or radius <= last_score
         )
-        for entry_id in sorted(caught, key=sort_key)
-    )
-    return ClosureResult(
-        example_key=example_key,
-        entries=entries,
-        source_ids=source_ids,
-        truncated=truncated,
+        entries = tuple(
+            ClosureEntry(
+                entry_id=entry_id,
+                score=details[entry_id]["score"],
+                source_id=details[entry_id]["source_id"],
+                value=details[entry_id]["value"],
+                caught_by=tuple(sorted(caught[entry_id])),
+            )
+            for entry_id in sorted(caught, key=sort_key)
+        )
+        family[radius] = ClosureResult(
+            example_key=example_key,
+            entries=entries,
+            source_ids=source_ids,
+            truncated=truncated,
+            config=dataclasses.replace(config, radius=radius),
+            index_nprobe=_index_nprobe(index),
+            target_answer=example.ground_truth,
+            target_aliases=tuple(example.object_aliases),
+        )
+    return family
+
+
+def build_closure(
+    *,
+    index: Any,
+    example: AuditExample,
+    query_vector: Any | None,
+    config: ClosureConfig,
+    seed_candidates: tuple[Any, ...] = (),
+    seed_source_ids: tuple[str, ...] = (),
+    support_judge: Callable[[Any, AuditExample], Mapping[str, Any]] = (
+        _default_support_judge
+    ),
+    example_key: str = "",
+) -> ClosureResult:
+    family = build_closure_family(
+        index=index,
+        example=example,
+        query_vector=query_vector,
         config=config,
-        index_nprobe=_index_nprobe(index),
+        radii=(config.radius,),
+        seed_candidates=seed_candidates,
+        seed_source_ids=seed_source_ids,
+        support_judge=support_judge,
+        example_key=example_key,
     )
+    return family[config.radius]
 
 
 def _example_key(example: AuditExample) -> str:
@@ -271,6 +354,33 @@ def write_closure_artifact(closure: ClosureResult, path: Path) -> None:
     )
 
 
+def full_selected_candidate(
+    full_result: Mapping[str, Any],
+) -> Mapping[str, Any] | None:
+    trace = full_result.get("retrieval_trace") or {}
+    selected = trace.get("selected_candidate")
+    return selected if isinstance(selected, Mapping) else None
+
+
+def full_query_vector(full_result: Mapping[str, Any]) -> Any | None:
+    """The captured query vector for the FULL retrieval event whose
+    candidate was selected (falling back to the first captured event)."""
+    trace = full_result.get("retrieval_trace") or {}
+    selected_event_index = None
+    for event in trace.get("retrieval_events") or []:
+        if event.get("selected_candidate"):
+            selected_event_index = event.get("event_index")
+            break
+
+    for item in full_result.get("_query_embeddings") or []:
+        if (
+            selected_event_index is None
+            or item.get("event_index") == selected_event_index
+        ):
+            return item.get("vector")
+    return None
+
+
 def build_closure_manifest_from_full(
     *,
     index: Any,
@@ -282,29 +392,14 @@ def build_closure_manifest_from_full(
     ),
     artifact_dir: Path | None = None,
 ) -> DeletionManifest:
-    trace = full_result.get("retrieval_trace") or {}
-    selected = trace.get("selected_candidate") or {}
+    selected = full_selected_candidate(full_result) or {}
     seed_entry_id = selected.get("entry_id")
     if not seed_entry_id:
         raise ValueError(
             "FULL produced no selected entry; cannot build a closure."
         )
 
-    selected_event_index = None
-    for event in trace.get("retrieval_events") or []:
-        if event.get("selected_candidate"):
-            selected_event_index = event.get("event_index")
-            break
-
-    query_vector = None
-    for item in full_result.get("_query_embeddings") or []:
-        if (
-            selected_event_index is None
-            or item.get("event_index") == selected_event_index
-        ):
-            query_vector = item.get("vector")
-            break
-
+    query_vector = full_query_vector(full_result)
     seed_source = selected.get("source_id")
     key = _example_key(example)
     closure = build_closure(

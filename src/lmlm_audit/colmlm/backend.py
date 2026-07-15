@@ -129,16 +129,35 @@ class CoLMLMAuditBackend:
                     raise CoLMLMIntegrationError(
                         "The Co-LMLM generator does not expose its search index."
                     )
-                manifest_predicates = (
-                    manifest.metadata.get("predicates_active")
+                manifest_metadata = (
+                    manifest.metadata
                     if isinstance(manifest.metadata, Mapping)
-                    else None
+                    else {}
                 )
+                manifest_predicates = manifest_metadata.get("predicates_active")
                 semantic_backstop = (
                     state is DatabaseState.DEL_ON
                     and isinstance(manifest_predicates, (list, tuple))
                     and "semantic" in manifest_predicates
                 )
+                semantic_target = manifest_metadata.get("semantic_target")
+                backstop_example = None
+                if semantic_backstop and isinstance(semantic_target, Mapping):
+                    # Judge against the deleted fact's answer, which is not
+                    # necessarily this prompt's answer (neighbor prompts in a
+                    # sweep run under the target fact's manifest).
+                    backstop_example = AuditExample(
+                        prompt="",
+                        ground_truth=str(
+                            semantic_target.get("ground_truth", "")
+                        ),
+                        object_aliases=tuple(
+                            str(alias)
+                            for alias in (
+                                semantic_target.get("object_aliases") or ()
+                            )
+                        ),
+                    )
                 filtered_index = _FilteringSearchIndex(
                     base_index=original_index,
                     example=example,
@@ -150,6 +169,7 @@ class CoLMLMAuditBackend:
                     ),
                     exclude_all=state is DatabaseState.DEL_OFF,
                     exclude_supporting=semantic_backstop,
+                    backstop_example=backstop_example,
                     support_judge=self.support_judge,
                     max_filter_overfetch=self.max_filter_overfetch,
                 )

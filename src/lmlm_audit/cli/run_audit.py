@@ -18,9 +18,10 @@ from lmlm_audit.cli.reporting import (
     log_metrics_to_wandb,
     save_results,
     setup_wandb,
+    write_entanglement_outputs,
     write_metrics_csvs,
 )
-from lmlm_audit.cli.runner import run_backend_audit
+from lmlm_audit.cli.runner import run_backend_audit, run_entanglement_sweep
 from lmlm_audit.core.states import DatabaseState
 
 
@@ -181,6 +182,34 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
+        "--radius-grid",
+        type=str,
+        default=None,
+        help=(
+            "Descending cosine-radius grid 'start:stop:step' (e.g. "
+            "0.95:0.70:0.05). Switches the run into an entanglement sweep; "
+            "requires --closure and --backend colmlm."
+        ),
+    )
+    parser.add_argument(
+        "--neighbor-mode",
+        choices=["cosine", "same-source"],
+        default="cosine",
+        help="How N(f) is defined for the entanglement sweep.",
+    )
+    parser.add_argument(
+        "--neighbor-ball",
+        type=float,
+        default=0.5,
+        help="Cosine ball for --neighbor-mode cosine.",
+    )
+    parser.add_argument(
+        "--neighbor-cap",
+        type=int,
+        default=20,
+        help="Maximum neighbors per fact in the entanglement sweep.",
+    )
+    parser.add_argument(
         "--del-off-mode",
         choices=["null-retrieval", "forbid-token"],
         default="null-retrieval",
@@ -216,15 +245,29 @@ def parse_args() -> argparse.Namespace:
     return args
 
 
-def _make_closure_manifest_builder(
-    backend: Any, args: argparse.Namespace, job: AuditJob
-) -> Any:
-    from lmlm_audit.colmlm.closure import (
-        ClosureConfig,
-        build_closure_manifest_from_full,
-    )
+def parse_radius_grid(spec: str) -> tuple[float, ...]:
+    parts = spec.split(":")
+    if len(parts) != 3:
+        raise ValueError(
+            f"--radius-grid must be 'start:stop:step', got {spec!r}."
+        )
+    start, stop, step = (float(part) for part in parts)
+    if step <= 0:
+        raise ValueError("--radius-grid step must be positive.")
+    if start < stop:
+        raise ValueError("--radius-grid must descend (start >= stop).")
+    radii: list[float] = []
+    radius = start
+    while radius >= stop - 1e-9:
+        radii.append(round(radius, 6))
+        radius -= step
+    return tuple(radii)
 
-    config = ClosureConfig(
+
+def _closure_config_from_args(args: argparse.Namespace) -> Any:
+    from lmlm_audit.colmlm.closure import ClosureConfig
+
+    return ClosureConfig(
         predicates=tuple(
             predicate.strip()
             for predicate in args.closure.split(",")
@@ -234,6 +277,14 @@ def _make_closure_manifest_builder(
         envelope_top_k=args.closure_envelope_k,
         max_closure_size=args.closure_max_size,
     )
+
+
+def _make_closure_manifest_builder(
+    backend: Any, args: argparse.Namespace, job: AuditJob
+) -> Any:
+    from lmlm_audit.colmlm.closure import build_closure_manifest_from_full
+
+    config = _closure_config_from_args(args)
     artifact_dir = job.output_path.parent / f"{job.prompt_path.stem}_closures"
 
     def builder(example: Any, full_result: dict[str, Any]) -> Any:
@@ -268,11 +319,19 @@ def main() -> None:
         if args.closure is not None:
             if args.backend != "colmlm":
                 raise ValueError("--closure requires --backend colmlm.")
-            if not args.bootstrap_oracle_from_full:
+            if not args.bootstrap_oracle_from_full and args.radius_grid is None:
                 raise ValueError(
                     "--closure builds its manifest from the FULL pass and "
                     "requires --bootstrap-oracle-from-full."
                 )
+
+        if args.radius_grid is not None:
+            if args.closure is None:
+                raise ValueError(
+                    "--radius-grid sweeps the closure radius and requires "
+                    "--closure."
+                )
+            parse_radius_grid(args.radius_grid)
 
         jobs = resolve_audit_jobs(args)
         if not jobs:
@@ -336,6 +395,57 @@ def main() -> None:
             for job in jobs_by_database[database_path]:
                 logger.print(f"Prompt file: {job.prompt_path}")
                 logger.print(f"Database used: {database_path}")
+
+                if args.radius_grid is not None:
+                    from lmlm_audit.core.neighbors import NeighborConfig
+
+                    sweep_dir = (
+                        job.output_path.parent
+                        / f"{job.prompt_path.stem}_sweep"
+                    )
+                    summary = run_entanglement_sweep(
+                        prompt_path=job.prompt_path,
+                        backend=backend,
+                        index=backend.generator.index,
+                        radii=parse_radius_grid(args.radius_grid),
+                        closure_config=_closure_config_from_args(args),
+                        neighbor_config=NeighborConfig(
+                            mode=args.neighbor_mode,
+                            ball=args.neighbor_ball,
+                            cap=args.neighbor_cap,
+                        ),
+                        output_dir=sweep_dir,
+                        max_new_tokens=args.max_new_tokens,
+                        limit=args.limit,
+                    )
+                    outputs = write_entanglement_outputs(
+                        summary["entanglement"], sweep_dir
+                    )
+                    logger.print(
+                        f"Sweep: {summary['swept_facts']}/{summary['facts']} "
+                        f"facts over {len(summary['radii'])} radii "
+                        f"({summary['executed_generations']} generations, "
+                        f"{summary['planned_generations']} planned)."
+                    )
+                    if summary["skipped_facts"]:
+                        logger.print(
+                            "Skipped facts (no FULL selection/embedding): "
+                            + ", ".join(summary["skipped_facts"])
+                        )
+                    gaps = [
+                        item["gap"]
+                        for item in summary["entanglement"].values()
+                    ]
+                    if gaps:
+                        logger.print(
+                            f"G(f): mean {sum(gaps) / len(gaps):.3f}, "
+                            f"min {min(gaps):.3f}, max {max(gaps):.3f} "
+                            f"over {len(gaps)} facts"
+                        )
+                    for label, path in outputs.items():
+                        logger.print(f"Wrote entanglement {label} to {path}")
+                    continue
+
                 logger.print("DB states: " + ", ".join(state.value for state in states))
                 logger.print(
                     f"Running audit for {job.prompt_path} with database {database_path}"
