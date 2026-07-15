@@ -9,12 +9,20 @@ from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
+
 from tqdm import tqdm
 
-
-from metrics import metrics_total
+from audit_backend import (
+    AuditBackend,
+    AuditExample,
+    AuditObservation,
+    DeletionManifest,
+    audit_example,
+    default_retrieval_trace,
+    validate_intervention_results,
+)
 from database_states import DatabaseState, build_state_db_manager, retrieval_enabled
-from equivalence import prompt_row_aliases
+from metrics import metrics_total
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -72,7 +80,6 @@ def clean_answer(answer_text: str) -> str:
     answer_text = re.sub(r"\s+", " ", answer_text).strip()
     answer_text = answer_text.strip(" \t\n\r\"'`")
 
-    # Keep the first sentence when the model starts elaborating.
     answer_text = re.split(r"(?<=[.!?])\s+(?=[A-Z\"'])", answer_text, maxsplit=1)[
         0
     ].strip()
@@ -217,18 +224,57 @@ def generate_answer(
 
 
 def _default_retrieval_trace(state: DatabaseState) -> dict[str, Any]:
-    return {
-        "state": state.value,
-        "retrieval_enabled": retrieval_enabled(state),
-        "lookup_query": None,
-        "threshold": None,
-        "all_candidates": [],
-        "deleted_candidates": [],
-        "retained_candidates": [],
-        "selected_candidate": None,
-        "selected_value": None,
-        "error": None,
-    }
+    return default_retrieval_trace(state)
+
+
+@dataclass
+class RelLMLMAuditBackend:
+    base_db_manager: Any
+    model: Any
+    tokenizer: Any
+
+    def generate(
+        self,
+        example: AuditExample,
+        state: DatabaseState,
+        *,
+        max_new_tokens: int = 12,
+    ) -> AuditObservation:
+        prompt_row = dict(example.source_row)
+        self.model.db_manager = build_state_db_manager(
+            base_db_manager=self.base_db_manager,
+            prompt_row=prompt_row,
+            state=state,
+        )
+        if hasattr(self.model.db_manager, "reset_trace"):
+            self.model.db_manager.reset_trace()
+
+        answer = generate_answer(
+            model=self.model,
+            tokenizer=self.tokenizer,
+            prompt_text=example.prompt,
+            max_new_tokens=max_new_tokens,
+            enable_dblookup=retrieval_enabled(state),
+        )
+        retrieval_trace = getattr(self.model.db_manager, "last_trace", None)
+        return AuditObservation(
+            model_output=answer,
+            retrieval_trace=retrieval_trace,
+        )
+
+
+def run_backend_prompt_audit(
+    backend: AuditBackend,
+    prompt_row: dict[str, Any],
+    state: DatabaseState,
+    max_new_tokens: int = 12,
+) -> dict[str, Any]:
+    return audit_example(
+        backend=backend,
+        example=AuditExample.from_prompt_row(prompt_row),
+        state=state,
+        max_new_tokens=max_new_tokens,
+    )
 
 
 def run_prompt_audit(
@@ -239,36 +285,96 @@ def run_prompt_audit(
     state: DatabaseState,
     max_new_tokens: int = 12,
 ) -> dict[str, Any]:
-    model.db_manager = build_state_db_manager(
+    backend = RelLMLMAuditBackend(
         base_db_manager=base_db_manager,
-        prompt_row=prompt_row,
-        state=state,
-    )
-    if hasattr(model.db_manager, "reset_trace"):
-        model.db_manager.reset_trace()
-
-    answer = generate_answer(
         model=model,
         tokenizer=tokenizer,
-        prompt_text=prompt_row["prompt_text"],
-        max_new_tokens=max_new_tokens,
-        enable_dblookup=retrieval_enabled(state),
     )
-    retrieval_trace = getattr(model.db_manager, "last_trace", None)
+    return run_backend_prompt_audit(
+        backend=backend,
+        prompt_row=prompt_row,
+        state=state,
+        max_new_tokens=max_new_tokens,
+    )
 
-    return {
-        "fact_id": prompt_row["fact_id"],
-        "subject": prompt_row["subject"],
-        "subject_aliases": list(prompt_row_aliases(prompt_row, "subject")),
-        "relation": prompt_row["relation"],
-        "relation_aliases": list(prompt_row_aliases(prompt_row, "relation")),
-        "state": state.value,
-        "prompt": prompt_row["prompt_text"],
-        "ground_truth": prompt_row["gold_object"],
-        "object_aliases": list(prompt_row_aliases(prompt_row, "object")),
-        "model_output": answer,
-        "retrieval_trace": retrieval_trace or _default_retrieval_trace(state),
-    }
+
+def run_backend_audit(
+    prompt_path: Path,
+    backend: AuditBackend,
+    states: list[DatabaseState],
+    max_new_tokens: int = 12,
+    limit: int | None = None,
+    bootstrap_oracle_from_full: bool = False,
+) -> list[dict[str, Any]]:
+    if not states:
+        raise ValueError("At least one audit state is required.")
+    if len(states) != len(set(states)):
+        raise ValueError("Audit states must not contain duplicates.")
+
+    prompts = load_prompts(prompt_path)
+    if limit is not None:
+        prompts = prompts[:limit]
+
+    results: list[dict[str, Any]] = []
+    for prompt in tqdm(
+        prompts,
+        desc=f"Auditing {prompt_path.stem}",
+        unit="prompt",
+    ):
+        example = AuditExample.from_prompt_row(prompt)
+        prompt_results: list[dict[str, Any]] = []
+        remaining_states = list(states)
+
+        if bootstrap_oracle_from_full and example.deletion_manifest.is_empty:
+            if not remaining_states or remaining_states[0] is not DatabaseState.FULL:
+                raise ValueError(
+                    "Oracle bootstrapping requires FULL to be the first requested state."
+                )
+            full_result = audit_example(
+                backend=backend,
+                example=example,
+                state=DatabaseState.FULL,
+                max_new_tokens=max_new_tokens,
+            )
+            selected = (full_result.get("retrieval_trace") or {}).get(
+                "selected_candidate"
+            ) or {}
+            entry_id = selected.get("entry_id")
+            if not entry_id:
+                raise ValueError(
+                    "FULL produced no selected entry ID; cannot bootstrap an oracle manifest."
+                )
+            if selected.get("supports_target") is not True:
+                raise ValueError(
+                    "FULL's selected entry did not pass the configured target-support "
+                    "judge; supply a reviewed deletion manifest manually."
+                )
+            manifest = DeletionManifest(
+                entry_ids=(str(entry_id),),
+                strategy="oracle-from-full",
+                metadata={"bootstrap": "FULL.selected_candidate"},
+            )
+            example = dataclasses.replace(example, deletion_manifest=manifest)
+            full_result["deletion_manifest"] = manifest.as_dict()
+            full_result["retrieval_trace"]["deletion_manifest_id"] = (
+                manifest.manifest_id
+            )
+            prompt_results.append(full_result)
+            remaining_states = remaining_states[1:]
+
+        for state in remaining_states:
+            prompt_results.append(
+                audit_example(
+                    backend=backend,
+                    example=example,
+                    state=state,
+                    max_new_tokens=max_new_tokens,
+                )
+            )
+        validate_intervention_results(prompt_results, expected_states=states)
+        results.extend(prompt_results)
+
+    return results
 
 
 def run_audit(
@@ -280,29 +386,18 @@ def run_audit(
     max_new_tokens: int = 12,
     limit: int | None = None,
 ) -> list[dict[str, Any]]:
-    prompts = load_prompts(prompt_path)
-    if limit is not None:
-        prompts = prompts[:limit]
-
-    results: list[dict[str, Any]] = []
-    for prompt in tqdm(
-        prompts,
-        desc=f"Auditing {prompt_path.stem}",
-        unit="prompt",
-    ):
-        for state in states:
-            results.append(
-                run_prompt_audit(
-                    base_db_manager=base_db_manager,
-                    model=model,
-                    tokenizer=tokenizer,
-                    prompt_row=prompt,
-                    state=state,
-                    max_new_tokens=max_new_tokens,
-                )
-            )
-
-    return results
+    backend = RelLMLMAuditBackend(
+        base_db_manager=base_db_manager,
+        model=model,
+        tokenizer=tokenizer,
+    )
+    return run_backend_audit(
+        prompt_path=prompt_path,
+        backend=backend,
+        states=states,
+        max_new_tokens=max_new_tokens,
+        limit=limit,
+    )
 
 
 def write_metrics_csvs(
@@ -477,8 +572,8 @@ def log_metrics_to_wandb(
     wandb_module: Any,
     prompt_path: Path,
     state: DatabaseState,
-    state_metrics: dict[str, float],
-    cross_state_metrics: dict[str, float],
+    state_metrics: dict[str, float | int],
+    cross_state_metrics: dict[str, float | int],
     model_name: str,
     database_path: Path,
     max_new_tokens: int,
@@ -511,8 +606,14 @@ def log_metrics_to_wandb(
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run the prompt audit.")
     parser.add_argument(
+        "--backend",
+        choices=["rel-lmlm", "colmlm"],
+        default="rel-lmlm",
+        help="Inference backend to audit.",
+    )
+    parser.add_argument(
         "--prompt-files",
-        nargs="*",
+        nargs="+",
         type=Path,
         default=None,
         help=(
@@ -551,7 +652,72 @@ def parse_args() -> argparse.Namespace:
         "--model-name",
         type=str,
         default="kilian-group/LMLM-llama2-382M",
-        help="Model checkpoint to load.",
+        help="rel-LMLM model name or checkpoint. Use --colmlm-model-path for Co-LMLM.",
+    )
+    parser.add_argument(
+        "--colmlm-model-path",
+        type=Path,
+        default=None,
+        help="Local Co-LMLM checkpoint directory.",
+    )
+    parser.add_argument(
+        "--index-path",
+        type=Path,
+        default=None,
+        help="Local Co-LMLM retrieval-index directory.",
+    )
+    parser.add_argument(
+        "--entries-db-path",
+        type=Path,
+        default=None,
+        help="Optional Co-LMLM entries.db path used to resolve index results.",
+    )
+    parser.add_argument(
+        "--colmlm-source-path",
+        type=Path,
+        default=None,
+        help="Path to a public lil-lab/Co-LMLM checkout (or its src directory).",
+    )
+    parser.add_argument(
+        "--use-sqlite-id-mapping",
+        action="store_true",
+        help="Use the large index's SQLite FAISS-ID to entry-ID mapping.",
+    )
+    parser.add_argument(
+        "--device",
+        default="cuda:0",
+        help="Device passed to the public Co-LMLM loader.",
+    )
+    parser.add_argument(
+        "--torch-dtype",
+        choices=["float32", "float16", "bfloat16"],
+        default="bfloat16",
+        help="Model dtype passed to the public Co-LMLM loader.",
+    )
+    parser.add_argument(
+        "--attn-implementation",
+        default="flash_attention_2",
+        help="Transformers attention implementation for Co-LMLM; use 'none' to omit.",
+    )
+    parser.add_argument(
+        "--similarity-threshold",
+        type=float,
+        default=0.7,
+        help="Co-LMLM retrieval similarity threshold.",
+    )
+    parser.add_argument(
+        "--retrieval-top-k",
+        type=int,
+        default=1,
+        help="Number of retained Co-LMLM candidates returned to generation.",
+    )
+    parser.add_argument(
+        "--bootstrap-oracle-from-full",
+        action="store_true",
+        help=(
+            "For schema-free rows without a manifest, use a FULL selected entry "
+            "that passes the support judge as the oracle deletion ID."
+        ),
     )
     parser.add_argument(
         "--database-path",
@@ -569,13 +735,15 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--states",
-        nargs="*",
+        nargs="+",
         default=[state.value for state in DatabaseState],
         choices=[state.value for state in DatabaseState],
         help="Database states to evaluate.",
     )
     parser.add_argument(
+        "--wandb-activation",
         "--wandb_activation",
+        dest="wandb_activation",
         type=str,
         default="off",
         choices=["on", "off"],
@@ -593,14 +761,20 @@ def main() -> None:
     try:
         logger.print(f"Logging run_audit output to {log_path}")
 
+        if args.backend == "colmlm":
+            if args.prompt_files is None:
+                raise ValueError("Co-LMLM runs require explicit --prompt-files.")
+            if args.colmlm_model_path is None:
+                raise ValueError("Co-LMLM runs require --colmlm-model-path.")
+            if args.index_path is None:
+                raise ValueError("Co-LMLM runs require --index-path.")
+
         jobs = resolve_audit_jobs(args)
         if not jobs:
             raise FileNotFoundError(
                 "No audit jobs found. Add custom prompts under data/custom_databases or "
                 "pass --prompt-files explicitly."
             )
-
-        from model_loader import load_model_and_tokenizer
 
         state_values = [DatabaseState(state) for state in args.states]
         if args.disable_dblookup:
@@ -609,18 +783,49 @@ def main() -> None:
         wandb_module = setup_wandb() if args.wandb_activation == "on" else None
 
         jobs_by_database: dict[Path, list[AuditJob]] = defaultdict(list)
-        for job in jobs:
-            jobs_by_database[job.database_path].append(job)
+        if args.backend == "colmlm":
+            jobs_by_database[args.index_path].extend(jobs)
+        else:
+            for job in jobs:
+                jobs_by_database[job.database_path].append(job)
 
         cross_state_rows: list[dict[str, Any]] = []
         per_state_rows: list[dict[str, Any]] = []
 
         for database_path in sorted(jobs_by_database):
-            model, tokenizer = load_model_and_tokenizer(
-                model_name=args.model_name,
-                database_path=database_path,
-            )
-            base_db_manager = model.db_manager
+            if args.backend == "colmlm":
+                from colmlm_backend import CoLMLMAuditBackend
+
+                attn_implementation = (
+                    None
+                    if args.attn_implementation.casefold() == "none"
+                    else args.attn_implementation
+                )
+                backend: AuditBackend = CoLMLMAuditBackend.from_public_release(
+                    model_path=args.colmlm_model_path,
+                    index_path=args.index_path,
+                    db_path=args.entries_db_path,
+                    source_path=args.colmlm_source_path,
+                    use_sqlite_id_mapping=args.use_sqlite_id_mapping,
+                    device=args.device,
+                    torch_dtype=args.torch_dtype,
+                    attn_implementation=attn_implementation,
+                    max_new_tokens=args.max_new_tokens,
+                    similarity_threshold=args.similarity_threshold,
+                    retrieval_top_k=args.retrieval_top_k,
+                )
+            else:
+                from model_loader import load_model_and_tokenizer
+
+                model, tokenizer = load_model_and_tokenizer(
+                    model_name=args.model_name,
+                    database_path=database_path,
+                )
+                backend = RelLMLMAuditBackend(
+                    base_db_manager=model.db_manager,
+                    model=model,
+                    tokenizer=tokenizer,
+                )
 
             for job in jobs_by_database[database_path]:
                 logger.print(f"Prompt file: {job.prompt_path}")
@@ -629,14 +834,15 @@ def main() -> None:
                 logger.print(
                     f"Running audit for {job.prompt_path} with database {database_path}"
                 )
-                results = run_audit(
+                results = run_backend_audit(
                     prompt_path=job.prompt_path,
-                    base_db_manager=base_db_manager,
-                    model=model,
-                    tokenizer=tokenizer,
+                    backend=backend,
                     states=states,
                     max_new_tokens=args.max_new_tokens,
                     limit=args.limit,
+                    bootstrap_oracle_from_full=(
+                        args.backend == "colmlm" and args.bootstrap_oracle_from_full
+                    ),
                 )
 
                 save_results(results, job.output_path)
@@ -668,6 +874,10 @@ def main() -> None:
                 logger.print("Cross-state audit metrics:")
                 logger.print(f"  Paired count: {total_metrics['paired_count']}")
                 logger.print(
+                    "  FULL-correct paired count: "
+                    f"{total_metrics['full_correct_paired_count']}"
+                )
+                logger.print(
                     f"  Parametric leakage L(f): {total_metrics['parametric_leakage']:.3f}"
                 )
                 logger.print(
@@ -676,6 +886,14 @@ def main() -> None:
                 )
                 logger.print(
                     f"  Retrieval artifact rate: {total_metrics['retrieval_artifact_rate']:.3f}"
+                )
+                logger.print(
+                    "  Artifact-trace eligible count: "
+                    f"{total_metrics['retrieval_artifact_eligible_count']}"
+                )
+                logger.print(
+                    "  Post-deletion survival | FULL correct: "
+                    f"{total_metrics['post_deletion_survival_given_full']:.3f}"
                 )
                 logger.print("Metrics by state:")
                 for state in states:
@@ -688,15 +906,6 @@ def main() -> None:
                     logger.print(f"  Precision: {metrics['precision']:.3f}")
                     logger.print(f"  Recall: {metrics['recall']:.3f}")
                     logger.print(f"  F1: {metrics['f1']:.3f}")
-                    logger.print(
-                        f"  Parametric leakage L(f): {metrics['parametric_leakage']:.3f}"
-                    )
-                    logger.print(
-                        f"  Retrieval-mediated correctness R(f): {metrics['retrieval_mediated_correctness']:.3f}"
-                    )
-                    logger.print(
-                        f"  Retrieval artifact rate: {metrics['retrieval_artifact_rate']:.3f}"
-                    )
                     if wandb_module is not None:
                         log_metrics_to_wandb(
                             wandb_module=wandb_module,
@@ -704,7 +913,11 @@ def main() -> None:
                             state=state,
                             state_metrics=metrics,
                             cross_state_metrics=total_metrics,
-                            model_name=args.model_name,
+                            model_name=(
+                                str(args.colmlm_model_path)
+                                if args.backend == "colmlm"
+                                else args.model_name
+                            ),
                             database_path=database_path,
                             max_new_tokens=args.max_new_tokens,
                             limit=args.limit,
