@@ -1,11 +1,3 @@
-"""
-Comprehensive unit tests for src/lmlm-audit/run_audit.py.
-
-All pure-Python helpers (no model weights, no GPU) are exercised with normal,
-boundary, and edge-case inputs.  Functions that require a live model are only
-tested through mocks.  Several tests log diagnostic plots to W&B.
-"""
-
 import argparse
 import csv
 import json
@@ -46,10 +38,6 @@ from run_audit import (
 from database_states import DatabaseState
 
 
-# ===========================================================================
-# clean_answer – original tests
-# ===========================================================================
-
 
 def test_clean_answer_strips_db_markup_and_html_tags() -> None:
     answer = clean_answer(
@@ -63,10 +51,6 @@ def test_clean_answer_strips_standalone_db_special_tokens() -> None:
     answer = clean_answer('"<|db_entity|> Spice Girls <|db_return|>"')
     assert answer == "Spice Girls"
 
-
-# ===========================================================================
-# clean_answer – extended
-# ===========================================================================
 
 
 class TestCleanAnswer:
@@ -155,7 +139,6 @@ class TestCleanAnswer:
         result = clean_answer(
             "<|db_entity|>X<|db_relationship|>Y<|db_return|>Z<|db_end|>"
         )
-        # The markup is removed; only surrounding whitespace remains → empty or the value before it
         assert result.strip() == "" or result.isspace() or result == ""
 
     def test_collapses_internal_spaces(self):
@@ -180,8 +163,6 @@ class TestCleanAnswer:
         assert clean_answer("ANSWER: Paris") == "Paris"
 
     def test_exclamation_sentence_split(self):
-        # The regex splits AFTER the punctuation; ! is not in the final strip
-        # chars, so it is preserved in the first segment.
         result = clean_answer("Paris! It is wonderful.")
         assert result == "Paris!"
 
@@ -189,10 +170,6 @@ class TestCleanAnswer:
         result = clean_answer("Paris? Yes, Paris.")
         assert result == "Paris?"
 
-
-# ===========================================================================
-# extract_lookup_values
-# ===========================================================================
 
 
 class TestExtractLookupValues:
@@ -230,7 +207,6 @@ class TestExtractLookupValues:
         assert extract_lookup_values("") == []
 
     def test_value_cleaned_before_return(self):
-        # value with answer prefix should be cleaned
         raw = self.TEMPLATE.format(entity="A", rel="R", value="Answer: Paris")
         result = extract_lookup_values(raw)
         assert result == ["Paris"]
@@ -243,13 +219,8 @@ class TestExtractLookupValues:
     def test_multiline_value(self):
         raw = self.TEMPLATE.format(entity="A", rel="R", value="Paris\nFrance")
         result = extract_lookup_values(raw)
-        # clean_answer truncates at \n\n but a single \n is fine here
         assert len(result) >= 1
 
-
-# ===========================================================================
-# choose_answer
-# ===========================================================================
 
 
 class TestChooseAnswer:
@@ -269,7 +240,6 @@ class TestChooseAnswer:
         assert source == "postprocessed_text"
 
     def test_lookup_value_used_as_fallback_for_non_fact_query(self):
-        # non-question, no blank → lookup not preferred, but postprocessed_text is empty
         answer, source = choose_answer("Tell me about Paris.", "", ["Paris"])
         assert answer == "Paris"
         assert source == "lookup_value"
@@ -297,10 +267,6 @@ class TestChooseAnswer:
         assert source == "postprocessed_text"
 
 
-# ===========================================================================
-# compute_generation_budget
-# ===========================================================================
-
 
 class TestComputeGenerationBudget:
     def _make_tokenizer(self, token_count: int):
@@ -316,29 +282,23 @@ class TestComputeGenerationBudget:
     def test_includes_prompt_length(self):
         tok = self._make_tokenizer(100)
         result = compute_generation_budget(tok, "x" * 100, target_answer_tokens=12)
-        # 100 + 12 + 16 = 128 > 32
         assert result == 128
 
     def test_includes_slack(self):
         tok = self._make_tokenizer(10)
         result = compute_generation_budget(tok, "short", target_answer_tokens=5)
-        # 10 + 5 + 16 = 31 → max(32, 31) = 32
         assert result == 32
 
     def test_large_prompt(self):
         tok = self._make_tokenizer(1000)
         result = compute_generation_budget(tok, "x" * 1000, target_answer_tokens=12)
-        assert result == 1028  # 1000 + 12 + 16
+        assert result == 1028
 
     def test_returns_int(self):
         tok = self._make_tokenizer(50)
         result = compute_generation_budget(tok, "prompt", target_answer_tokens=10)
         assert isinstance(result, int)
 
-
-# ===========================================================================
-# prepare_prompt
-# ===========================================================================
 
 
 class TestPreparePrompt:
@@ -359,15 +319,11 @@ class TestPreparePrompt:
         assert prepare_prompt(text) == text
 
 
-# ===========================================================================
-# retrieve_lookup_value
-# ===========================================================================
-
 
 class TestRetrieveLookupValue:
     def test_no_db_manager_returns_unknown(self):
         model = MagicMock()
-        del model.db_manager  # AttributeError → getattr returns None
+        del model.db_manager
         model.db_manager = None
         result = retrieve_lookup_value(model, "some query")
         assert result == "unknown"
@@ -382,7 +338,6 @@ class TestRetrieveLookupValue:
 
     def test_exception_with_top1_fallback(self):
         db = MagicMock()
-        # First call raises, second (threshold=-1) succeeds
         db.retrieve_from_database.side_effect = [
             ValueError("no result"),
             "Paris",
@@ -411,10 +366,6 @@ class TestRetrieveLookupValue:
         result = retrieve_lookup_value(model, "query")
         assert result == "unknown"
 
-
-# ===========================================================================
-# load_prompts
-# ===========================================================================
 
 
 class TestLoadPrompts:
@@ -455,10 +406,6 @@ class TestLoadPrompts:
         assert result[0]["text"] == "Jørgensen"
 
 
-# ===========================================================================
-# save_results
-# ===========================================================================
-
 
 class TestSaveResults:
     def test_creates_parent_directories(self, tmp_path):
@@ -494,10 +441,6 @@ class TestSaveResults:
         assert data == {"new": True}
 
 
-# ===========================================================================
-# _default_retrieval_trace
-# ===========================================================================
-
 
 class TestDefaultRetrievalTrace:
     def test_full_state(self):
@@ -531,10 +474,6 @@ class TestDefaultRetrievalTrace:
         trace = _default_retrieval_trace(DatabaseState.FULL)
         assert trace["selected_value"] is None
 
-
-# ===========================================================================
-# W&B visualisation tests
-# ===========================================================================
 
 
 def test_clean_answer_processing_logged_to_wandb(wandb_run):
@@ -576,9 +515,8 @@ def test_clean_answer_processing_logged_to_wandb(wandb_run):
         except Exception:
             pass
 
-    # Assertions: cleaned version should never be longer than original (after strip)
     for inp, out in zip(test_inputs, cleaned):
-        assert len(out) <= len(inp.strip()) + 5  # small slack for unescape
+        assert len(out) <= len(inp.strip()) + 5
 
 
 def test_choose_answer_distribution_logged_to_wandb(wandb_run):
@@ -618,10 +556,6 @@ def test_choose_answer_distribution_logged_to_wandb(wandb_run):
     assert set(sources) <= {"lookup_value", "postprocessed_text", "empty"}
 
 
-# ===========================================================================
-# generate_answer
-# ===========================================================================
-
 
 def _make_tokenizer_mock(token_count: int = 10):
     """A MagicMock tokenizer that plays well with generate_answer."""
@@ -630,32 +564,23 @@ def _make_tokenizer_mock(token_count: int = 10):
     tok.pad_token_id = 0
     tok.eos_token_id = 2
     tok.unk_token_id = 3
-    # tokenizer(prompt, return_tensors="pt") returns an object whose .to() call
-    # returns a dict-like with "input_ids" and "attention_mask". We want
-    # inputs["input_ids"].shape[1] to be a real int.
     inputs = MagicMock()
     inputs["input_ids"].shape = (1, token_count)
     inputs["input_ids"].__getitem__.return_value = MagicMock()
-    # inputs accessors
     def getitem(key):
         m = MagicMock()
         m.shape = (1, token_count)
         return m
     inputs.__getitem__.side_effect = getitem
-    # tokenizer(...) returns something with .to(device) → inputs
     call_result = MagicMock()
     call_result.to.return_value = inputs
     tok.side_effect = lambda *a, **kw: call_result
-    # convert_tokens_to_ids returns int
     tok.convert_tokens_to_ids.return_value = 42
     return tok
 
 
 def _make_model_mock(raw_output: str = "Some answer text"):
     model = MagicMock()
-    # parameters() must return a FRESH iterator each call (iter() is exhausted
-    # after one next(), so returning the same iter object from side_effect
-    # breaks after the first call).
     param = MagicMock()
     param.device = "cpu"
     model.parameters.side_effect = lambda: iter([param])
@@ -676,7 +601,6 @@ class TestGenerateAnswer:
             enable_dblookup=False,
         )
         model.generate_with_lookup.assert_called_once()
-        # model.generate for lookup path must NOT be called.
         model.generate.assert_not_called()
         assert isinstance(result, str)
 
@@ -721,14 +645,9 @@ class TestGenerateAnswer:
             prompt_text="   What is the capital?   ",
             enable_dblookup=False,
         )
-        # Prepared prompt passed to generate_with_lookup should be stripped.
         call_kwargs = model.generate_with_lookup.call_args.kwargs
         assert call_kwargs["prompt"] == "What is the capital?"
 
-
-# ===========================================================================
-# run_prompt_audit
-# ===========================================================================
 
 
 class TestRunPromptAudit:
@@ -768,7 +687,7 @@ class TestRunPromptAudit:
         tok = _make_tokenizer_mock()
         model = _make_model_mock(raw_output="France")
         with patch.object(run_audit, "build_state_db_manager") as b:
-            db_manager = MagicMock(spec=[])  # no last_trace attribute
+            db_manager = MagicMock(spec=[])
             b.return_value = db_manager
             result = run_prompt_audit(
                 base_db_manager=fake_base_manager,
@@ -797,10 +716,6 @@ class TestRunPromptAudit:
             )
         db_manager.reset_trace.assert_called_once()
 
-
-# ===========================================================================
-# run_audit (loop)
-# ===========================================================================
 
 
 class TestRunAuditLoop:
@@ -838,7 +753,6 @@ class TestRunAuditLoop:
                 tokenizer=tok,
                 states=[DatabaseState.FULL, DatabaseState.DEL_ON],
             )
-        # 3 prompts × 2 states
         assert len(results) == 6
 
     def test_limit_caps_prompts(self, tmp_path, fake_base_manager):
@@ -871,10 +785,6 @@ class TestRunAuditLoop:
         )
         assert results == []
 
-
-# ===========================================================================
-# write_metrics_csvs
-# ===========================================================================
 
 
 class TestWriteMetricsCsvs:
@@ -916,14 +826,9 @@ class TestWriteMetricsCsvs:
         c_path = tmp_path / "c.csv"
         p_path = tmp_path / "p.csv"
         write_metrics_csvs([], [], c_path, p_path)
-        # With empty inputs, no content is written, so the files don't exist.
         assert not c_path.exists()
         assert not p_path.exists()
 
-
-# ===========================================================================
-# AuditLogger
-# ===========================================================================
 
 
 class TestAuditLogger:
@@ -936,7 +841,6 @@ class TestAuditLogger:
         assert log.exists()
         content = log.read_text(encoding="utf-8")
         assert content == "hello world\n"
-        # Printed to stdout too.
         captured = capsys.readouterr()
         assert "hello world" in captured.out
 
@@ -962,10 +866,6 @@ class TestAuditLogger:
         assert log.parent.exists()
 
 
-# ===========================================================================
-# discover_custom_audit_jobs / infer_prompt_paths_for_database
-# ===========================================================================
-
 
 class TestDiscoverCustomAuditJobs:
     def _build_tree(self, root: Path, domains: dict):
@@ -983,9 +883,7 @@ class TestDiscoverCustomAuditJobs:
             prompts_root = domain_dir / "prompts"
             prompts_root.mkdir(parents=True)
             for variant in spec.get("variants", []):
-                # DB JSON at the domain level.
                 (domain_dir / f"{variant}.json").write_text("{}", encoding="utf-8")
-                # Variant prompts dir.
                 vd = prompts_root / variant
                 vd.mkdir()
                 for prompt_file in spec["prompts"].get(variant, []):
@@ -1010,13 +908,11 @@ class TestDiscoverCustomAuditJobs:
 
         prompt_names = sorted(j.prompt_path.name for j in jobs)
         assert prompt_names == ["p1.jsonl", "p2.jsonl", "p3.jsonl"]
-        # Output path nests under domain/variant/stem.
         assert all("countries" in str(j.output_path) for j in jobs)
 
     def test_skips_domain_without_prompts_dir(self, tmp_path, monkeypatch):
         root = tmp_path / "custom_databases"
         root.mkdir()
-        # A domain dir exists but has NO prompts/ subdirectory.
         (root / "empty_domain").mkdir()
         monkeypatch.setattr(run_audit, "DEFAULT_CUSTOM_DATABASE_DIR", root)
         assert discover_custom_audit_jobs(tmp_path / "out") == []
@@ -1029,7 +925,6 @@ class TestDiscoverCustomAuditJobs:
             "", encoding="utf-8"
         )
         monkeypatch.setattr(run_audit, "DEFAULT_CUSTOM_DATABASE_DIR", root)
-        # No countries/missing_db_variant.json exists → variant is skipped.
         assert discover_custom_audit_jobs(tmp_path / "out") == []
 
     def test_ignores_non_directories_at_domain_level(self, tmp_path, monkeypatch):
@@ -1062,7 +957,6 @@ class TestDiscoverReleasedAuditJobs:
             "prompts_b.jsonl",
         ]
         assert all(j.database_path == root / "lmlm_database.json" for j in jobs)
-        # Output nests under released_database/lmlm_database/<stem>.
         assert all(
             j.output_path
             == tmp_path
@@ -1087,7 +981,6 @@ class TestDiscoverReleasedAuditJobs:
         (root / "prompts").mkdir()
         (root / "prompts" / "p.jsonl").write_text("", encoding="utf-8")
         monkeypatch.setattr(run_audit, "DEFAULT_RELEASED_DATABASE_DIR", root)
-        # No lmlm_database.json present → skip.
         assert discover_released_audit_jobs(tmp_path / "out") == []
 
     def test_returns_empty_when_prompts_dir_missing(self, tmp_path, monkeypatch):
@@ -1095,7 +988,6 @@ class TestDiscoverReleasedAuditJobs:
         root.mkdir()
         (root / "lmlm_database.json").write_text("{}", encoding="utf-8")
         monkeypatch.setattr(run_audit, "DEFAULT_RELEASED_DATABASE_DIR", root)
-        # No prompts/ present → skip.
         assert discover_released_audit_jobs(tmp_path / "out") == []
 
 
@@ -1147,10 +1039,6 @@ class TestInferPromptPathsForDatabase:
         assert infer_prompt_paths_for_database(db) == []
 
 
-# ===========================================================================
-# resolve_audit_jobs
-# ===========================================================================
-
 
 class TestResolveAuditJobs:
     def _args(self, **over):
@@ -1191,7 +1079,6 @@ class TestResolveAuditJobs:
         jobs = resolve_audit_jobs(args)
         assert len(jobs) == 1
         assert jobs[0].prompt_path.name == "q.jsonl"
-        # Output nests under domain/variant.
         assert "countries" in str(jobs[0].output_path)
 
     def test_fallback_to_discover_when_default_db_and_no_prompts(
@@ -1201,7 +1088,6 @@ class TestResolveAuditJobs:
         root.mkdir()
         released = tmp_path / "released_database"
         released.mkdir()
-        # Point the loader at empty custom_databases / released_database.
         monkeypatch.setattr(run_audit, "DEFAULT_CUSTOM_DATABASE_DIR", root)
         monkeypatch.setattr(run_audit, "DEFAULT_RELEASED_DATABASE_DIR", released)
         args = self._args(output_dir=tmp_path / "out")
@@ -1210,7 +1096,6 @@ class TestResolveAuditJobs:
     def test_custom_db_without_sibling_prompts_falls_back_to_discover(
         self, tmp_path, monkeypatch
     ):
-        # A non-default DB path that has no sibling prompts dir.
         db = tmp_path / "lonely.json"
         db.write_text("{}", encoding="utf-8")
         root = tmp_path / "custom_databases"
@@ -1220,19 +1105,13 @@ class TestResolveAuditJobs:
         monkeypatch.setattr(run_audit, "DEFAULT_CUSTOM_DATABASE_DIR", root)
         monkeypatch.setattr(run_audit, "DEFAULT_RELEASED_DATABASE_DIR", released)
         args = self._args(database_path=db, output_dir=tmp_path / "out")
-        # Falls through to discover_all_audit_jobs → empty.
         assert resolve_audit_jobs(args) == []
 
-
-# ===========================================================================
-# setup_wandb
-# ===========================================================================
 
 
 class TestSetupWandb:
     def test_raises_when_api_key_missing(self, tmp_path, monkeypatch):
         monkeypatch.delenv("WANDB_API_KEY", raising=False)
-        # Patch load_dotenv so it doesn't pick up a real .env.
         fake_dotenv = MagicMock()
         fake_dotenv.load_dotenv = MagicMock()
         with patch.dict(sys.modules, {"dotenv": fake_dotenv}):
@@ -1251,10 +1130,6 @@ class TestSetupWandb:
         assert result is fake_wandb
         fake_wandb.login.assert_called_once_with(key="k123", relogin=True)
 
-
-# ===========================================================================
-# log_metrics_to_wandb
-# ===========================================================================
 
 
 class TestLogMetricsToWandb:
@@ -1286,10 +1161,6 @@ class TestLogMetricsToWandb:
         assert "cross_state/paired_count" in logged
         run.finish.assert_called_once()
 
-
-# ===========================================================================
-# AuditJob dataclass
-# ===========================================================================
 
 
 class TestAuditJob:

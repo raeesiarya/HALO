@@ -1,11 +1,3 @@
-"""
-Comprehensive unit tests for src/lmlm-audit/equivalence.py.
-
-Covers every public function with normal, boundary, and edge cases.
-Several tests also log diagnostic plots to the shared W&B run so that
-evaluation patterns are visible in the experiment tracker.
-"""
-
 import sys
 from pathlib import Path
 
@@ -23,10 +15,6 @@ from equivalence import (
     values_equivalent,
 )
 
-
-# ===========================================================================
-# tokenize
-# ===========================================================================
 
 
 class TestTokenize:
@@ -46,7 +34,6 @@ class TestTokenize:
         assert tokenize("NASA") == ["nasa"]
 
     def test_unicode_word_character(self):
-        # ø is a Unicode word char; casefold keeps it
         result = tokenize("Jørgensen")
         assert result == ["jørgensen"]
 
@@ -100,7 +87,7 @@ class TestTokenize:
 
     def test_non_string_float(self):
         result = tokenize(3.14)
-        assert "3" in result or "3.14" in result  # depends on repr
+        assert "3" in result or "3.14" in result
 
     def test_mixed_unicode_accents(self):
         result = tokenize("naïve café")
@@ -112,19 +99,13 @@ class TestTokenize:
         assert result == ["hello"]
 
     def test_number_adjacent_to_word(self):
-        # "2pac" – digit followed by word; \w matches digits so "2pac" is one token
         result = tokenize("2pac")
         assert result == ["2pac"]
 
     def test_currency_symbol_ignored(self):
         result = tokenize("$100")
         assert "100" in result
-        # "$" is not a word char so it is dropped
 
-
-# ===========================================================================
-# normalize_text
-# ===========================================================================
 
 
 class TestNormalizeText:
@@ -160,10 +141,6 @@ class TestNormalizeText:
         assert "state-of-the-art" in result
 
 
-# ===========================================================================
-# _flatten_alias_values
-# ===========================================================================
-
 
 class TestFlattenAliasValues:
     def test_none(self):
@@ -189,7 +166,6 @@ class TestFlattenAliasValues:
         assert _flatten_alias_values([["a", "b"], "c"]) == ["a", "b", "c"]
 
     def test_none_inside_list(self):
-        # None in list → [] contribution
         assert _flatten_alias_values([None, "a"]) == ["a"]
 
     def test_integer_scalar(self):
@@ -224,10 +200,6 @@ class TestFlattenAliasValues:
         assert None not in result
 
 
-# ===========================================================================
-# _unique_preserving_order
-# ===========================================================================
-
 
 class TestUniquePreservingOrder:
     def test_empty(self):
@@ -250,7 +222,6 @@ class TestUniquePreservingOrder:
 
     def test_preserves_first_occurrence(self):
         result = _unique_preserving_order(["B", "A", "b"])
-        # "b" is a duplicate of "B"
         assert result == ("B", "A")
 
     def test_skips_empty_strings(self):
@@ -263,7 +234,6 @@ class TestUniquePreservingOrder:
         assert result == ("a",)
 
     def test_deduplicates_unicode_normalized(self):
-        # casefold: "Ü" → "ü"; so "Über" and "über" normalize to the same thing
         result = _unique_preserving_order(["Über", "über"])
         assert len(result) == 1
 
@@ -272,14 +242,9 @@ class TestUniquePreservingOrder:
         assert result == ("z", "a", "m")
 
     def test_punctuation_difference_still_same_normalized(self):
-        # "hello!" and "hello" normalize to "hello" → duplicate
         result = _unique_preserving_order(["hello!", "hello"])
         assert len(result) == 1
 
-
-# ===========================================================================
-# build_alias_set
-# ===========================================================================
 
 
 class TestBuildAliasSet:
@@ -300,7 +265,6 @@ class TestBuildAliasSet:
 
     def test_deduplicates_alias_equal_to_canonical_normalized(self):
         result = build_alias_set("Paris", ["paris"])
-        # "paris" normalizes same as "Paris", so deduplicated
         assert len(result) == 1
 
     def test_canonical_with_multiple_aliases(self):
@@ -312,20 +276,14 @@ class TestBuildAliasSet:
         assert len(result) == 3
 
     def test_empty_canonical(self):
-        # empty string normalizes to "" → skipped
         result = build_alias_set("")
         assert result == ()
 
     def test_alias_deduplication_preserves_canonical_first(self):
         result = build_alias_set("UK", ["UK", "United Kingdom"])
-        # "UK" appears only once; "United Kingdom" is separate
         uk_count = sum(1 for x in result if normalize_text(x) == "uk")
         assert uk_count == 1
 
-
-# ===========================================================================
-# prompt_row_aliases
-# ===========================================================================
 
 
 class TestPromptRowAliases:
@@ -393,10 +351,6 @@ class TestPromptRowAliases:
         assert result == ()
 
 
-# ===========================================================================
-# values_equivalent
-# ===========================================================================
-
 
 class TestValuesEquivalent:
     def test_identical_strings(self):
@@ -418,9 +372,6 @@ class TestValuesEquivalent:
         assert values_equivalent("Paris", "Berlin", right_aliases=["France"]) is False
 
     def test_both_empty(self):
-        # Empty strings are filtered out by _unique_preserving_order (empty
-        # normalized form is skipped), so both alias sets are empty → no
-        # intersection → not equivalent.
         assert values_equivalent("", "") is False
 
     def test_left_empty_right_nonempty(self):
@@ -435,7 +386,6 @@ class TestValuesEquivalent:
         ) is True
 
     def test_normalized_match_punctuation(self):
-        # "Spice Girls!" normalizes same as "Spice Girls"
         assert values_equivalent("Spice Girls!", "Spice Girls") is True
 
     def test_multiple_right_aliases(self):
@@ -452,12 +402,9 @@ class TestValuesEquivalent:
         assert values_equivalent("x", "y", right_aliases=["z"]) is False
 
     def test_hyphenated_vs_space(self):
-        # "state-of-the-art" tokenizes as one token; "state of the art" tokenizes as 4
-        # They will NOT be equivalent
         assert values_equivalent("state-of-the-art", "state of the art") is False
 
     def test_both_aliases_needed_for_match(self):
-        # left and right have aliases; match happens through alias sets
         assert values_equivalent(
             "GB",
             "Germany",
@@ -474,10 +421,6 @@ class TestValuesEquivalent:
     def test_whitespace_normalization(self):
         assert values_equivalent("New  York", "New York") is True
 
-
-# ===========================================================================
-# W&B visualisation tests
-# ===========================================================================
 
 
 def test_tokenize_lengths_logged_to_wandb(wandb_run):
@@ -549,11 +492,7 @@ def test_equivalence_matrix_logged_to_wandb(wandb_run):
         except Exception:
             pass
 
-    # Diagonal should all be 1 (self-equivalence) for non-empty strings.
-    # Empty strings normalize to "" which is skipped, so "" is not equivalent
-    # to itself (both alias sets become empty → no intersection).
     for i in range(n):
         if labels[i]:
             assert matrix[i, i] == 1, f"Self-equivalence failed for {labels[i]!r}"
-    # Paris ≠ Berlin
     assert matrix[labels.index("Paris"), labels.index("Berlin")] == 0

@@ -1,11 +1,3 @@
-"""
-Shared pytest configuration and fixtures for the lmlm-audit test suite.
-
-W&B runs in **offline** mode by default so no API key is required.
-Set ``WANDB_MODE=online`` and ``WANDB_API_KEY`` in your environment to
-actually upload runs to the cloud.
-"""
-
 import os
 import sys
 from pathlib import Path
@@ -13,28 +5,18 @@ from pathlib import Path
 import matplotlib
 import pytest
 
-# Non-interactive backend must be set before any pyplot import.
 matplotlib.use("Agg")
 
-# Make every source module importable without an editable install.
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src/lmlm-audit"))
 
 WANDB_TEST_PROJECT = "lmlm-audit-tests"
 
-
-# ---------------------------------------------------------------------------
-# Global pytest hooks
-# ---------------------------------------------------------------------------
 
 
 def pytest_configure(config):
     """Force offline W&B mode unless the caller overrides it."""
     os.environ.setdefault("WANDB_MODE", "offline")
 
-
-# ---------------------------------------------------------------------------
-# W&B session fixture
-# ---------------------------------------------------------------------------
 
 
 @pytest.fixture(scope="session")
@@ -61,10 +43,6 @@ def wandb_run():
     except Exception:
         yield None
 
-
-# ---------------------------------------------------------------------------
-# Shared fake database infrastructure (available to all test modules)
-# ---------------------------------------------------------------------------
 
 
 class FakeModel:
@@ -130,10 +108,6 @@ class FakeBaseManager:
     def retrieve_from_database(self, _prompt, threshold=None):
         return self._return_value
 
-
-# ---------------------------------------------------------------------------
-# Convenience fixtures
-# ---------------------------------------------------------------------------
 
 
 @pytest.fixture

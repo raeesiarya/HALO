@@ -1,10 +1,3 @@
-"""
-Unit tests for src/lmlm-audit/database_states.py.
-
-Tests cover every exported symbol with normal, boundary, and edge-case
-inputs.  Several tests log diagnostic plots to the shared W&B run.
-"""
-
 import sys
 from pathlib import Path
 
@@ -23,10 +16,6 @@ from database_states import (
     target_fact_from_prompt_row,
 )
 
-
-# ---------------------------------------------------------------------------
-# Shared fakes
-# ---------------------------------------------------------------------------
 
 
 class FakeModel:
@@ -85,10 +74,6 @@ class FakeBaseManager:
         return self._return_value
 
 
-# ---------------------------------------------------------------------------
-# Helper
-# ---------------------------------------------------------------------------
-
 
 def _make_target_fact(**overrides) -> TargetFact:
     defaults = dict(
@@ -104,10 +89,6 @@ def _make_target_fact(**overrides) -> TargetFact:
     return TargetFact(**defaults)
 
 
-# ===========================================================================
-# retrieval_enabled
-# ===========================================================================
-
 
 def test_retrieval_enabled() -> None:
     assert retrieval_enabled(DatabaseState.FULL) is True
@@ -122,10 +103,6 @@ def test_retrieval_enabled_all_states_covered():
     assert results[DatabaseState.DEL_OFF] is False
 
 
-# ===========================================================================
-# DatabaseState enum
-# ===========================================================================
-
 
 class TestDatabaseStateEnum:
     def test_values(self):
@@ -134,7 +111,6 @@ class TestDatabaseStateEnum:
         assert DatabaseState.DEL_OFF.value == "DEL-OFF"
 
     def test_string_comparison(self):
-        # DatabaseState inherits from str
         assert DatabaseState.FULL == "FULL"
         assert DatabaseState.DEL_ON == "DEL-ON"
         assert DatabaseState.DEL_OFF == "DEL-OFF"
@@ -153,10 +129,6 @@ class TestDatabaseStateEnum:
         assert DatabaseState.DEL_ON in DatabaseState
         assert DatabaseState.DEL_OFF in DatabaseState
 
-
-# ===========================================================================
-# TargetFact dataclass
-# ===========================================================================
 
 
 class TestTargetFact:
@@ -186,10 +158,6 @@ class TestTargetFact:
         tf = _make_target_fact(object_aliases=("a", "b", "c"))
         assert len(tf.object_aliases) == 3
 
-
-# ===========================================================================
-# target_fact_from_prompt_row
-# ===========================================================================
 
 
 class TestTargetFactFromPromptRow:
@@ -238,10 +206,6 @@ class TestTargetFactFromPromptRow:
         assert "c" in aliases_normalized
 
 
-# ===========================================================================
-# extract_lookup_query
-# ===========================================================================
-
 
 def test_extract_lookup_query() -> None:
     entity, relation = extract_lookup_query(
@@ -286,7 +250,6 @@ def test_extract_lookup_query_empty_string_raises() -> None:
 
 
 def test_extract_lookup_query_multiple_distinct_matches_raises() -> None:
-    # Two different (entity, relation) pairs → ambiguous
     prompt = (
         "<|db_entity|>Hexol<|db_relationship|>First Described By<|db_return|>"
         " some text "
@@ -297,7 +260,6 @@ def test_extract_lookup_query_multiple_distinct_matches_raises() -> None:
 
 
 def test_extract_lookup_query_same_match_twice_ok() -> None:
-    # Two identical lookups → deduplicated to one match
     prompt = (
         "<|db_entity|>Hexol<|db_relationship|>First Described By<|db_return|>"
         "<|db_entity|>Hexol<|db_relationship|>First Described By<|db_return|>"
@@ -313,10 +275,6 @@ def test_extract_lookup_query_special_chars_in_entity() -> None:
     )
     assert "O'Brien" in entity
 
-
-# ===========================================================================
-# is_deleted_triplet
-# ===========================================================================
 
 
 def test_is_deleted_triplet() -> None:
@@ -339,8 +297,6 @@ def test_is_deleted_triplet() -> None:
 
 def test_is_deleted_triplet_canonical_object_match() -> None:
     target_fact = _make_target_fact(object="Jørgensen", object_aliases=())
-    # canonical form is "Jørgensen"; alias "Jorgensen" not present
-    # but "Jørgensen" must match canonical
     assert is_deleted_triplet(("Hexol", "First Described By", "Jørgensen"), target_fact) is True
 
 
@@ -377,10 +333,6 @@ def test_is_deleted_triplet_all_wrong() -> None:
     assert is_deleted_triplet(("A", "B", "C"), target_fact) is False
 
 
-# ===========================================================================
-# candidate_supports_target_fact
-# ===========================================================================
-
 
 def test_candidate_supports_target_fact_flags() -> None:
     target_fact = _make_target_fact()
@@ -398,10 +350,6 @@ def test_is_deleted_triplet_all_wrong() -> None:
     target_fact = _make_target_fact()
     assert is_deleted_triplet(("A", "B", "C"), target_fact) is False
 
-
-# ===========================================================================
-# candidate_supports_target_fact
-# ===========================================================================
 
 
 def test_candidate_supports_target_fact_flags() -> None:
@@ -482,10 +430,6 @@ def test_candidate_supports_via_alias() -> None:
     assert sup is True
 
 
-# ===========================================================================
-# AuditDatabaseManager – basic attributes
-# ===========================================================================
-
 
 class TestAuditDatabaseManagerInit:
     def test_attributes_copied_from_base(self):
@@ -523,10 +467,6 @@ class TestAuditDatabaseManagerInit:
         mgr = AuditDatabaseManager(base, DatabaseState.FULL, target_fact=None)
         assert mgr.target_fact is None
 
-
-# ===========================================================================
-# AuditDatabaseManager – FULL state (passthrough)
-# ===========================================================================
 
 
 class TestAuditDatabaseManagerFull:
@@ -581,10 +521,6 @@ class TestAuditDatabaseManagerFull:
         )
         assert mgr.last_trace["selected_value"] == "Werner"
 
-
-# ===========================================================================
-# AuditDatabaseManager – DEL_ON state (filtering)
-# ===========================================================================
 
 
 def test_audit_database_manager_filters_deleted_fact() -> None:
@@ -667,9 +603,9 @@ def test_del_on_trace_error_set_when_all_deleted():
 def test_del_on_selects_first_remaining_candidate():
     """After filtering the deleted fact, the highest-scored remaining is selected."""
     id_to_triplet = {
-        0: ("Hexol", "First Described By", "Jorgensen"),  # deleted
-        1: ("Hexol", "Structure Recognized By", "Werner"),  # retained, score 0.90
-        2: ("Hexol", "Other", "Value"),  # retained, score 0.80
+        0: ("Hexol", "First Described By", "Jorgensen"),
+        1: ("Hexol", "Structure Recognized By", "Werner"),
+        2: ("Hexol", "Other", "Value"),
     }
     retriever = FakeRetriever(id_to_triplet=id_to_triplet, distances=[0.95, 0.90, 0.80])
     base = FakeBaseManager()
@@ -686,10 +622,6 @@ def test_del_on_selects_first_remaining_candidate():
     assert value == "Werner"
 
 
-# ===========================================================================
-# AuditDatabaseManager – DEL_OFF state
-# ===========================================================================
-
 
 class TestAuditDatabaseManagerDelOff:
     def _make_del_off_manager(self):
@@ -705,16 +637,8 @@ class TestAuditDatabaseManagerDelOff:
         assert retrieval_enabled(mgr.state) is False
 
     def test_del_off_trace_marks_retrieval_disabled(self):
-        # DEL_OFF never calls retrieve_from_database on the AuditDatabaseManager
-        # (the outer code checks retrieval_enabled first), but if it were called
-        # it should still record retrieval_enabled: False in the default trace.
-        # We test the state flag indirectly via the helper function.
         assert retrieval_enabled(DatabaseState.DEL_OFF) is False
 
-
-# ===========================================================================
-# AuditDatabaseManager – target_fact=None (no filtering)
-# ===========================================================================
 
 
 def test_no_target_fact_does_not_filter():
@@ -728,13 +652,8 @@ def test_no_target_fact_does_not_filter():
     value = mgr.retrieve_from_database(
         "<|db_entity|>Hexol<|db_relationship|>First Described By<|db_return|>"
     )
-    # passthrough when target_fact is None
     assert value == "Jorgensen"
 
-
-# ===========================================================================
-# AuditDatabaseManager – parse error in DEL_ON state
-# ===========================================================================
 
 
 def test_full_state_falls_back_to_base_manager_when_trace_parse_fails() -> None:
@@ -764,10 +683,6 @@ def test_del_on_parse_error_propagates():
     with pytest.raises(ValueError):
         mgr.retrieve_from_database("this is not a lookup prompt at all")
 
-
-# ===========================================================================
-# Candidate trace entry flags
-# ===========================================================================
 
 
 class TestCandidateTraceEntry:
@@ -830,10 +745,6 @@ class TestCandidateTraceEntry:
             assert candidate["matches_object"] is False
             assert candidate["supports_target_fact"] is False
 
-
-# ===========================================================================
-# W&B visualisation tests
-# ===========================================================================
 
 
 def test_candidate_filtering_logged_to_wandb(wandb_run):

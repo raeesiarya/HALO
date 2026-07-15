@@ -1,12 +1,3 @@
-"""
-Unit tests for src/lmlm-audit/model_loader.py.
-
-Only the pure-Python helpers that do not require actual model weights or the
-upstream ``lmlm`` package are exercised here.  Functions that download models
-(``load_model_and_tokenizer``) are tested only for their error-path and
-import-guard behaviour, using mocks.
-"""
-
 import sys
 from pathlib import Path
 from unittest.mock import MagicMock, patch
@@ -19,10 +10,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src/lmlm-audit"))
 import model_loader
 from model_loader import _get_best_device, _resolve_database_path
 
-
-# ===========================================================================
-# _get_best_device
-# ===========================================================================
 
 
 class TestGetBestDevice:
@@ -64,10 +51,6 @@ class TestGetBestDevice:
         assert isinstance(device, torch.device)
 
 
-# ===========================================================================
-# _resolve_database_path
-# ===========================================================================
-
 
 class TestResolveDatabasePath:
     def test_existing_json_path_returned_as_is(self, tmp_path):
@@ -86,18 +69,15 @@ class TestResolveDatabasePath:
         json_path = tmp_path / "database.json"
         json_path.touch()
         jsonl_path = tmp_path / "database.jsonl"
-        # jsonl does NOT exist
         result = _resolve_database_path(jsonl_path)
         assert result == json_path
 
     def test_missing_json_no_fallback_returns_original(self, tmp_path):
         db = tmp_path / "database.json"
-        # does NOT exist, suffix is .json (not .jsonl) → no fallback
         result = _resolve_database_path(db)
         assert result == db
 
     def test_missing_jsonl_and_missing_json_returns_original(self, tmp_path):
-        # Both jsonl and json are missing → return original path
         jsonl_path = tmp_path / "missing.jsonl"
         result = _resolve_database_path(jsonl_path)
         assert result == jsonl_path
@@ -117,7 +97,6 @@ class TestResolveDatabasePath:
         assert result == db
 
     def test_non_jsonl_suffix_no_fallback(self, tmp_path):
-        # .csv file → no fallback logic, original path returned
         csv_path = tmp_path / "data.csv"
         result = _resolve_database_path(csv_path)
         assert result == csv_path
@@ -128,10 +107,6 @@ class TestResolveDatabasePath:
         result = _resolve_database_path(db)
         assert result == db
 
-
-# ===========================================================================
-# load_model_and_tokenizer – import guard
-# ===========================================================================
 
 
 class TestLoadModelAndTokenizer:
