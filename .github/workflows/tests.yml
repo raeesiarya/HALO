@@ -1,0 +1,101 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - "**"
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pytest pytest-cov numpy matplotlib python-dotenv tqdm transformers
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+      - name: Run unit tests with coverage
+        id: tests
+        run: |
+          pytest \
+            --cov=src/lmlm-audit \
+            --cov-report=term-missing \
+            --cov-report=xml \
+            --cov-report=json
+
+      - name: Upload coverage reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-reports
+          path: |
+            coverage.xml
+            coverage.json
+
+      - name: Read coverage percentage
+        id: coverage
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path("coverage.json").read_text())
+          percent = float(data["totals"]["percent_covered"])
+          rounded = f"{percent:.0f}%"
+
+          if percent >= 90:
+              color = "brightgreen"
+          elif percent >= 80:
+              color = "green"
+          elif percent >= 70:
+              color = "yellowgreen"
+          elif percent >= 60:
+              color = "yellow"
+          elif percent >= 50:
+              color = "orange"
+          else:
+              color = "red"
+
+          with Path("/tmp/coverage_outputs.txt").open("w") as f:
+              f.write(f"message={rounded}\n")
+              f.write(f"color={color}\n")
+          PY
+          cat /tmp/coverage_outputs.txt >> "$GITHUB_OUTPUT"
+
+      - name: Generate coverage badge
+        if: github.event_name == 'push'
+        uses: emibcn/badge-action@v2
+        with:
+          label: coverage
+          status: ${{ steps.coverage.outputs.message }}
+          color: ${{ steps.coverage.outputs.color }}
+          path: badges/coverage.svg
+
+      - name: Generate tests badge
+        if: always() && github.event_name == 'push'
+        uses: emibcn/badge-action@v2
+        with:
+          label: tests
+          status: ${{ steps.tests.outcome == 'success' && 'passing' || 'failing' }}
+          color: ${{ steps.tests.outcome == 'success' && 'brightgreen' || 'red' }}
+          path: badges/tests.svg
+
+      - name: Commit badges
+        if: always() && github.event_name == 'push'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(ci): update status badges"
+          file_pattern: badges/coverage.svg badges/tests.svg
