@@ -13,8 +13,17 @@ def default_support_judge(candidate: Any, example: AuditExample) -> dict[str, An
     text = normalize_text(_candidate_text(candidate))
     answers = (example.ground_truth, *example.object_aliases)
     padded_text = f" {text} "
+
+    def _mentions(normalized_answer: str) -> bool:
+        if f" {normalized_answer} " in padded_text:
+            return True
+        # Reverse containment: a short key-value entry like "Shuri" still
+        # supports the answer "Shuri Castle". Require a multi-character
+        # value so bare years/initials don't match everything.
+        return len(text) >= 3 and f" {text} " in f" {normalized_answer} "
+
     supports = any(
-        normalized and f" {normalized} " in padded_text
+        normalized and _mentions(normalized)
         for answer in answers
         if (normalized := normalize_text(answer))
     )

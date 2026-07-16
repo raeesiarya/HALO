@@ -245,13 +245,22 @@ class CoLMLMAuditBackend:
         ]
         num_retrievals = int(getattr(result, "num_retrievals", 0) or 0)
         failed_retrievals = int(getattr(result, "failed_retrievals", 0) or 0)
+        selected_candidates = [
+            event["selected_candidate"]
+            for event in events
+            if event["selected_candidate"]
+        ]
+        # Prefer the selection that supports the target: the generation may
+        # look up other attributes (nationality, birth year) before the one
+        # the prompt asks about, and the oracle bootstrap judges only this
+        # candidate.
         selected_candidate = next(
             (
-                event["selected_candidate"]
-                for event in events
-                if event["selected_candidate"]
+                candidate
+                for candidate in selected_candidates
+                if candidate.get("supports_target") is True
             ),
-            None,
+            selected_candidates[0] if selected_candidates else None,
         )
         retrieval_trace = {
             "state": state.value,
