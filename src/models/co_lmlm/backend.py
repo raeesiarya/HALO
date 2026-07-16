@@ -55,15 +55,6 @@ def extract_colmlm_answer(raw_text: str, prompt: str) -> str:
     completion = str(raw_text)
     if prompt and completion.startswith(prompt):
         completion = completion[len(prompt) :]
-    # The model freely decodes its in-text statement of the fact right after
-    # the closing </FACT>, so the tail of the last block is the answer span;
-    # anything before it is lead-in prose ("Billy Joel is an American ...").
-    # A dangling "<FACT" starts a truncated follow-up lookup, not prose.
-    if "</FACT>" in completion:
-        tail = completion.rsplit("</FACT>", 1)[1].split("<FACT", 1)[0]
-        tail = _clean_completion(tail)
-        if tail:
-            return tail
     return _clean_completion(completion)
 
 

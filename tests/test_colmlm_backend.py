@@ -248,24 +248,6 @@ def test_answer_extractor_removes_retrieval_scaffolding() -> None:
     assert extract_colmlm_answer(raw, "Question?") == "Paris"
 
 
-def test_answer_extractor_drops_lead_in_prose_before_fact_block() -> None:
-    raw = (
-        "What genre is Billy Joel? Billy Joel is an American singer of"
-        "<FACT> rock music</FACT> rock music. He was born in 1949."
-    )
-    assert extract_colmlm_answer(raw, "What genre is Billy Joel?") == "rock music"
-
-
-def test_answer_extractor_ignores_truncated_follow_up_lookup() -> None:
-    raw = "Question?<FACT> rock music</FACT> rock music <FACT> Billy Joel |"
-    assert extract_colmlm_answer(raw, "Question?") == "rock music"
-
-
-def test_answer_extractor_falls_back_when_fact_block_ends_generation() -> None:
-    raw = "Question? Paris is the capital <FACT> Paris</FACT>"
-    assert extract_colmlm_answer(raw, "Question?") == "Paris is the capital"
-
-
 def test_answer_extractor_handles_output_without_fact_blocks() -> None:
     raw = "Question? The answer is Paris."
     assert extract_colmlm_answer(raw, "Question?") == "Paris"
