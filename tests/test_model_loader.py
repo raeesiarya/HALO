@@ -7,9 +7,8 @@ import torch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from lmlm_audit.models.rel_lmlm import loader as model_loader
-from lmlm_audit.models.rel_lmlm.loader import _get_best_device, _resolve_database_path
-
+from models.rel_lmlm import backend as model_loader
+from models.rel_lmlm.backend import _get_best_device, _resolve_database_path
 
 
 class TestGetBestDevice:
@@ -49,7 +48,6 @@ class TestGetBestDevice:
         ):
             device = _get_best_device()
         assert isinstance(device, torch.device)
-
 
 
 class TestResolveDatabasePath:
@@ -108,7 +106,6 @@ class TestResolveDatabasePath:
         assert result == db
 
 
-
 class TestLoadModelAndTokenizer:
     def test_raises_import_error_when_lmlm_missing(self):
         """Without the lmlm package the function must raise a clear ImportError."""
@@ -132,7 +129,9 @@ class TestLoadModelAndTokenizer:
         tokenizer_mock.pad_token = "x"
 
         fake_lmlm = MagicMock()
-        model_out = fake_lmlm.modeling_lmlm.LlamaForLMLM.from_pretrained_with_db.return_value
+        model_out = (
+            fake_lmlm.modeling_lmlm.LlamaForLMLM.from_pretrained_with_db.return_value
+        )
         model_out.to.return_value = model_out
 
         with (
@@ -144,8 +143,8 @@ class TestLoadModelAndTokenizer:
                     "lmlm.modeling_lmlm": fake_lmlm.modeling_lmlm,
                 },
             ),
-            patch("lmlm_audit.models.rel_lmlm.loader.load_dotenv", dotenv_mock),
-            patch("lmlm_audit.models.rel_lmlm.loader.AutoTokenizer") as tok_cls,
+            patch("models.rel_lmlm.backend.load_dotenv", dotenv_mock),
+            patch("models.rel_lmlm.backend.AutoTokenizer") as tok_cls,
             patch.object(torch.cuda, "is_available", return_value=False),
             patch.object(torch.backends.mps, "is_available", return_value=False),
         ):
@@ -164,7 +163,9 @@ class TestLoadModelAndTokenizer:
         tokenizer_mock.eos_token = "<eos>"
 
         fake_lmlm = MagicMock()
-        model_out = fake_lmlm.modeling_lmlm.LlamaForLMLM.from_pretrained_with_db.return_value
+        model_out = (
+            fake_lmlm.modeling_lmlm.LlamaForLMLM.from_pretrained_with_db.return_value
+        )
         model_out.to.return_value = model_out
 
         with (
@@ -176,8 +177,8 @@ class TestLoadModelAndTokenizer:
                     "lmlm.modeling_lmlm": fake_lmlm.modeling_lmlm,
                 },
             ),
-            patch("lmlm_audit.models.rel_lmlm.loader.load_dotenv"),
-            patch("lmlm_audit.models.rel_lmlm.loader.AutoTokenizer") as tok_cls,
+            patch("models.rel_lmlm.backend.load_dotenv"),
+            patch("models.rel_lmlm.backend.AutoTokenizer") as tok_cls,
             patch.object(torch.cuda, "is_available", return_value=False),
             patch.object(torch.backends.mps, "is_available", return_value=False),
         ):
@@ -195,7 +196,9 @@ class TestLoadModelAndTokenizer:
         original_pad = tokenizer_mock.pad_token
 
         fake_lmlm = MagicMock()
-        model_out = fake_lmlm.modeling_lmlm.LlamaForLMLM.from_pretrained_with_db.return_value
+        model_out = (
+            fake_lmlm.modeling_lmlm.LlamaForLMLM.from_pretrained_with_db.return_value
+        )
         model_out.to.return_value = model_out
 
         with (
@@ -207,8 +210,8 @@ class TestLoadModelAndTokenizer:
                     "lmlm.modeling_lmlm": fake_lmlm.modeling_lmlm,
                 },
             ),
-            patch("lmlm_audit.models.rel_lmlm.loader.load_dotenv"),
-            patch("lmlm_audit.models.rel_lmlm.loader.AutoTokenizer") as tok_cls,
+            patch("models.rel_lmlm.backend.load_dotenv"),
+            patch("models.rel_lmlm.backend.AutoTokenizer") as tok_cls,
             patch.object(torch.cuda, "is_available", return_value=False),
             patch.object(torch.backends.mps, "is_available", return_value=False),
         ):
@@ -227,7 +230,9 @@ class TestLoadModelAndTokenizer:
         fake_lmlm = MagicMock()
         model_mock = MagicMock()
         model_mock.to.return_value = model_mock
-        fake_lmlm.modeling_lmlm.LlamaForLMLM.from_pretrained_with_db.return_value = model_mock
+        fake_lmlm.modeling_lmlm.LlamaForLMLM.from_pretrained_with_db.return_value = (
+            model_mock
+        )
 
         with (
             patch.dict(
@@ -238,8 +243,8 @@ class TestLoadModelAndTokenizer:
                     "lmlm.modeling_lmlm": fake_lmlm.modeling_lmlm,
                 },
             ),
-            patch("lmlm_audit.models.rel_lmlm.loader.load_dotenv"),
-            patch("lmlm_audit.models.rel_lmlm.loader.AutoTokenizer") as tok_cls,
+            patch("models.rel_lmlm.backend.load_dotenv"),
+            patch("models.rel_lmlm.backend.AutoTokenizer") as tok_cls,
             patch.object(torch.cuda, "is_available", return_value=False),
             patch.object(torch.backends.mps, "is_available", return_value=False),
         ):
@@ -259,7 +264,9 @@ class TestLoadModelAndTokenizer:
         fake_lmlm = MagicMock()
         model_mock = MagicMock()
         model_mock.to.return_value = model_mock
-        fake_lmlm.modeling_lmlm.LlamaForLMLM.from_pretrained_with_db.return_value = model_mock
+        fake_lmlm.modeling_lmlm.LlamaForLMLM.from_pretrained_with_db.return_value = (
+            model_mock
+        )
 
         with (
             patch.dict(
@@ -270,8 +277,8 @@ class TestLoadModelAndTokenizer:
                     "lmlm.modeling_lmlm": fake_lmlm.modeling_lmlm,
                 },
             ),
-            patch("lmlm_audit.models.rel_lmlm.loader.load_dotenv"),
-            patch("lmlm_audit.models.rel_lmlm.loader.AutoTokenizer") as tok_cls,
+            patch("models.rel_lmlm.backend.load_dotenv"),
+            patch("models.rel_lmlm.backend.AutoTokenizer") as tok_cls,
             patch.object(torch.cuda, "is_available", return_value=False),
             patch.object(torch.backends.mps, "is_available", return_value=False),
         ):

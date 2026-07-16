@@ -11,8 +11,8 @@ import pytest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from lmlm_audit.core.backend import audit_example
-from lmlm_audit.models.co_lmlm.backend import CoLMLMAuditBackend
-from lmlm_audit.models.co_lmlm.closure import (
+from models.co_lmlm.backend import CoLMLMAuditBackend
+from lmlm_audit.interventions.closure import (
     ClosureConfig,
     build_closure,
     build_closure_manifest_from_full,
@@ -87,21 +87,15 @@ def _example() -> AuditExample:
 def _vector_index() -> FakeVectorIndex:
     return FakeVectorIndex(
         [
-            FakeVectorEntry(
-                "target-entry", _unit_vector(0.95), "Paris", "wiki:France"
-            ),
-            FakeVectorEntry(
-                "near-neighbor", _unit_vector(0.90), "Lyon", "wiki:Lyon"
-            ),
+            FakeVectorEntry("target-entry", _unit_vector(0.95), "Paris", "wiki:France"),
+            FakeVectorEntry("near-neighbor", _unit_vector(0.90), "Lyon", "wiki:Lyon"),
             FakeVectorEntry(
                 "alias-entry",
                 _unit_vector(0.50),
                 "The capital is Paris",
                 "wiki:ParisCity",
             ),
-            FakeVectorEntry(
-                "far-entry", _unit_vector(0.10), "Berlin", "wiki:France"
-            ),
+            FakeVectorEntry("far-entry", _unit_vector(0.10), "Berlin", "wiki:France"),
         ]
     )
 
@@ -162,9 +156,7 @@ def test_geometric_truncation_is_flagged() -> None:
         index=_vector_index(),
         example=_example(),
         query_vector=QUERY,
-        config=ClosureConfig(
-            predicates=("geometric",), radius=0.8, max_closure_size=1
-        ),
+        config=ClosureConfig(predicates=("geometric",), radius=0.8, max_closure_size=1),
     )
 
     assert closure.truncated is True
@@ -233,9 +225,7 @@ def test_build_closure_manifest_from_full_writes_artifact(tmp_path) -> None:
     artifact = json.loads(artifact_path.read_text(encoding="utf-8"))
     assert artifact["manifest_id"] == manifest.manifest_id
     assert artifact["source_ids"] == ["wiki:France"]
-    caught = {
-        entry["entry_id"]: entry["caught_by"] for entry in artifact["entries"]
-    }
+    caught = {entry["entry_id"]: entry["caught_by"] for entry in artifact["entries"]}
     assert caught["near-neighbor"] == ["geometric"]
     assert "oracle" in caught["target-entry"]
 
@@ -270,10 +260,7 @@ class FakeGenerator:
             )
         selected = results[0]
         return SimpleNamespace(
-            text=(
-                f"{prompt}<FACT>{selected.text_value}</FACT> "
-                f"{selected.text_value}."
-            ),
+            text=(f"{prompt}<FACT>{selected.text_value}</FACT> {selected.text_value}."),
             num_retrievals=1,
             failed_retrievals=0,
         )
@@ -284,18 +271,14 @@ def test_semantic_backstop_nulls_supporting_candidates_missed_by_closure() -> No
     # retrieved once target-entry is deleted — unless the backstop fires.
     index = FakeVectorIndex(
         [
-            FakeVectorEntry(
-                "target-entry", _unit_vector(0.95), "Paris", "wiki:France"
-            ),
+            FakeVectorEntry("target-entry", _unit_vector(0.95), "Paris", "wiki:France"),
             FakeVectorEntry(
                 "alias-entry",
                 _unit_vector(0.93),
                 "Paris, the city of light",
                 "wiki:ParisCity",
             ),
-            FakeVectorEntry(
-                "near-neighbor", _unit_vector(0.90), "Lyon", "wiki:Lyon"
-            ),
+            FakeVectorEntry("near-neighbor", _unit_vector(0.90), "Lyon", "wiki:Lyon"),
         ]
     )
     backend = CoLMLMAuditBackend(FakeGenerator(index))
@@ -372,8 +355,7 @@ def test_runner_builds_closure_manifest_from_full(tmp_path) -> None:
     # Both candidates above the generation threshold are in the closure, so
     # DEL-ON retains nothing and falls back to parametric decoding.
     del_on_deleted = {
-        item["entry_id"]
-        for item in del_on_row["retrieval_trace"]["deleted_candidates"]
+        item["entry_id"] for item in del_on_row["retrieval_trace"]["deleted_candidates"]
     }
     assert del_on_deleted == {"target-entry", "near-neighbor"}
     assert del_on_row["model_output"] == "unknown"

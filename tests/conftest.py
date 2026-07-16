@@ -12,11 +12,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 WANDB_TEST_PROJECT = "lmlm-audit-tests"
 
 
-
 def pytest_configure(config):
     """Force offline W&B mode unless the caller overrides it."""
     os.environ.setdefault("WANDB_MODE", "offline")
-
 
 
 @pytest.fixture(scope="session")
@@ -42,7 +40,6 @@ def wandb_run():
         run.finish()
     except Exception:
         yield None
-
 
 
 class FakeModel:
@@ -109,7 +106,6 @@ class FakeBaseManager:
         return self._return_value
 
 
-
 @pytest.fixture
 def fake_base_manager():
     return FakeBaseManager()
@@ -117,7 +113,7 @@ def fake_base_manager():
 
 @pytest.fixture
 def basic_target_fact():
-    from lmlm_audit.models.rel_lmlm.database import TargetFact
+    from models.rel_lmlm.database import TargetFact
 
     return TargetFact(
         fact_id=10,

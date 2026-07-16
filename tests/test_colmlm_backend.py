@@ -12,8 +12,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from lmlm_audit.core.backend import audit_example
 from lmlm_audit.core.embeddings import QueryEmbeddingSink
-from lmlm_audit.models.co_lmlm.answers import _default_support_judge, extract_colmlm_answer
-from lmlm_audit.models.co_lmlm.backend import CoLMLMAuditBackend
+from lmlm_audit.interventions.judge import default_support_judge
+from models.co_lmlm.backend import extract_colmlm_answer
+from models.co_lmlm.backend import CoLMLMAuditBackend
 from lmlm_audit.core.examples import AuditExample
 from lmlm_audit.cli.runner import run_backend_audit
 from lmlm_audit.core.states import DatabaseState
@@ -63,10 +64,7 @@ class FakeGenerator:
             )
         selected = results[0]
         return SimpleNamespace(
-            text=(
-                f"{prompt}<FACT>{selected.text_value}</FACT> "
-                f"{selected.text_value}."
-            ),
+            text=(f"{prompt}<FACT>{selected.text_value}</FACT> {selected.text_value}."),
             num_retrievals=1,
             failed_retrievals=0,
             t_generate_s=0.1,
@@ -258,7 +256,7 @@ def test_support_judge_matches_whole_normalized_phrases() -> None:
     )
     example = AuditExample(prompt="Where?", ground_truth="US")
 
-    assert _default_support_judge(candidate, example)["supports_target"] is False
+    assert default_support_judge(candidate, example)["supports_target"] is False
 
 
 def test_runner_can_bootstrap_reviewable_oracle_manifest_from_full(tmp_path) -> None:
@@ -281,9 +279,7 @@ def test_runner_can_bootstrap_reviewable_oracle_manifest_from_full(tmp_path) -> 
         bootstrap_oracle_from_full=True,
     )
 
-    manifest_ids = {
-        result["deletion_manifest"]["manifest_id"] for result in results
-    }
+    manifest_ids = {result["deletion_manifest"]["manifest_id"] for result in results}
     assert len(manifest_ids) == 1
     assert results[0]["deletion_manifest"]["entry_ids"] == ["target-entry"]
     assert results[1]["retrieval_trace"]["selected_candidate"]["entry_id"] == (
@@ -378,7 +374,9 @@ def test_public_loader_arguments_map_to_release_factory() -> None:
     generator = FakeGenerator(FakeIndex([]))
     loader = SimpleNamespace(load_retriever_generator=lambda **_kwargs: generator)
 
-    with patch("lmlm_audit.models.co_lmlm.backend.importlib.import_module", return_value=loader) as load_module:
+    with patch(
+        "models.co_lmlm.backend.importlib.import_module", return_value=loader
+    ) as load_module:
         backend = CoLMLMAuditBackend.from_public_release(
             model_path="model",
             index_path="index",

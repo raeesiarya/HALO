@@ -9,15 +9,15 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from lmlm_audit.models.co_lmlm.adversary import AdversarialConfig, InjectedEntry
-from lmlm_audit.models.co_lmlm.closure import ClosureConfig
+from lmlm_audit.interventions.adversary import AdversarialConfig, InjectedEntry
+from lmlm_audit.interventions.closure import ClosureConfig
 from lmlm_audit.core.backend import audit_example
 from lmlm_audit.core.examples import AuditExample, DeletionManifest
 from lmlm_audit.core.neighbors import NeighborConfig
 from lmlm_audit.core.states import DatabaseState
-from lmlm_audit.models.rel_lmlm.backend import RelLMLMAuditBackend
-from lmlm_audit.models.rel_lmlm.database import AuditDatabaseManager, triple_id
-from lmlm_audit.models.rel_lmlm.index_adapter import (
+from models.rel_lmlm.backend import RelLMLMAuditBackend
+from models.rel_lmlm.database import AuditDatabaseManager, triple_id
+from models.rel_lmlm.adapter import (
     TripleSearchIndex,
     rel_support_judge,
 )
@@ -105,12 +105,8 @@ class VectorRetriever:
     def __init__(self, triples, query_map):
         self.top_k = 5
         self.default_threshold = 0.6
-        self.id_to_triplet = {
-            i: (s, r, o) for i, (s, r, o, _vec) in enumerate(triples)
-        }
-        vectors = np.stack(
-            [np.asarray(vec, dtype=np.float32) for *_t, vec in triples]
-        )
+        self.id_to_triplet = {i: (s, r, o) for i, (s, r, o, _vec) in enumerate(triples)}
+        vectors = np.stack([np.asarray(vec, dtype=np.float32) for *_t, vec in triples])
         self.index = VectorIndex(
             vectors / np.linalg.norm(vectors, axis=1, keepdims=True)
         )
@@ -170,9 +166,7 @@ def _closure_manifest(entry_ids, *, semantic_target=None):
                 "object_aliases": [],
             },
         }
-    return DeletionManifest(
-        entry_ids=entry_ids, strategy="closure", metadata=metadata
-    )
+    return DeletionManifest(entry_ids=entry_ids, strategy="closure", metadata=metadata)
 
 
 def test_manager_deletes_by_closure_entry_ids(fake_base_manager) -> None:
@@ -186,9 +180,9 @@ def test_manager_deletes_by_closure_entry_ids(fake_base_manager) -> None:
     )
     value = manager.retrieve_from_database(LOOKUP_PROMPT)
     assert value == "Werner"
-    assert [
-        entry["object"] for entry in manager.last_trace["deleted_candidates"]
-    ] == ["Jorgensen"]
+    assert [entry["object"] for entry in manager.last_trace["deleted_candidates"]] == [
+        "Jorgensen"
+    ]
     assert len(manager.captured_query_embeddings) == 1
 
 
@@ -208,9 +202,7 @@ def test_manager_semantic_backstop_judges_target_answer(
     )
     value = manager.retrieve_from_database(LOOKUP_PROMPT)
     assert value == "2004"
-    deleted = {
-        entry["object"] for entry in manager.last_trace["deleted_candidates"]
-    }
+    deleted = {entry["object"] for entry in manager.last_trace["deleted_candidates"]}
     assert deleted == {"Jorgensen", "Werner"}
 
 
@@ -267,8 +259,7 @@ def test_backstop_catches_injected_verbatim_value(fake_base_manager) -> None:
     with pytest.raises(ValueError, match="No retrieval results"):
         manager.retrieve_from_database(LOOKUP_PROMPT)
     deleted_ids = {
-        entry["entry_id"]
-        for entry in manager.last_trace["deleted_candidates"]
+        entry["entry_id"] for entry in manager.last_trace["deleted_candidates"]
     }
     assert "adv-0" in deleted_ids
 
@@ -300,10 +291,7 @@ class FakeRelModel:
 
     def _decode_with_special_tokens(self, _outputs, _tok, _len, prompt):
         entity, relation = self.lookups[prompt]
-        return (
-            f"<|db_entity|>{entity}<|db_relationship|>{relation}"
-            "<|db_return|>"
-        )
+        return f"<|db_entity|>{entity}<|db_relationship|>{relation}<|db_return|>"
 
     def generate_with_lookup(self, prompt, **_kwargs):
         return "unknown"
@@ -344,7 +332,7 @@ class VectorBaseManager:
         pass
 
     def retrieve_from_database(self, prompt, threshold=None):
-        from lmlm_audit.models.rel_lmlm.database import (
+        from models.rel_lmlm.database import (
             extract_lookup_query,
             retrieve_triplet_candidates,
         )
@@ -467,9 +455,7 @@ def test_rel_adversarial_eval_end_to_end(tmp_path) -> None:
     )
 
     assert summary["attacked_facts"] == 2
-    evasion = {
-        row["template"]: row["evasion_rate"] for row in summary["evasion"]
-    }
+    evasion = {row["template"]: row["evasion_rate"] for row in summary["evasion"]}
     # The survivor value is spliced verbatim into the answer, so the control
     # template restores the fact; the hyphenated paraphrase does not surface
     # the exact answer string.
@@ -495,9 +481,7 @@ def test_rel_adversarial_margin_is_observable_with_semantic_envelope(
         prompt_path,
         backend,
         index=TripleSearchIndex(base),
-        closure_config=ClosureConfig(
-            predicates=("geometric", "semantic"), radius=0.9
-        ),
+        closure_config=ClosureConfig(predicates=("geometric", "semantic"), radius=0.9),
         adversarial_config=AdversarialConfig(
             rho=0.9, epsilons=(0.05,), templates=("hyphenated",)
         ),

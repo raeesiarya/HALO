@@ -29,57 +29,73 @@ we can inspect where an answer came from.
 
 ## Current status
 
-The repository currently supports:
+The repository supports both backends through one model-agnostic audit:
 
-- the original rel-LMLM audit;
+- the original rel-LMLM audit and a Co-LMLM backend on the public model and
+  index interfaces, behind a registry so new models drop in without touching
+  the audit core;
 - a shared audit format that does not require subject-relation pairs;
-- a Co-LMLM backend built around the public model and index interfaces;
-- non-destructive deletion by filtering selected entry or source IDs at search
-  time;
-- retrieval traces, query-embedding sidecars, and cross-state forgetting
-  metrics;
+- non-destructive deletion (filtering selected entry or source IDs at search
+  time), retrieval traces, query-embedding sidecars, and the cross-state
+  forgetting metrics L(f) and R(f);
 - an oracle smoke-test mode that uses the entry retrieved during `FULL` as the
-  deletion target; and
+  deletion target;
 - materialized deletion closures (`--closure geometric,semantic,provenance`)
   built from the `FULL` pass, with per-entry attribution artifacts and a
-  run-time semantic backstop; and
+  run-time semantic backstop;
 - entanglement sweeps (`--radius-grid 0.95:0.70:0.05`) that measure deletion
   efficacy against collateral damage on neighbor facts
-  (`--neighbor-mode cosine|same-source`) and report per-fact operating
-  curves and the entanglement gap G(f); and
+  (`--neighbor-mode cosine|same-source`) and report per-fact operating curves
+  and the entanglement gap G(f);
 - a representational-leakage probe (`lmlm-audit-probe`) that fits a linear
   readout on frozen query embeddings over a fact-disjoint split and reports
-  L_rep and Δ_rep against the behavioral DEL-OFF baseline; and
+  L_rep and Δ_rep against the behavioral DEL-OFF baseline;
 - an adversarial-closure evaluation (`--adversarial`) that injects synthetic
-  survivor entries just outside the deletion radius, reports the evasion
-  rate Ev(ρ, ε) per value template and topology, and scores a geometry-only
-  margin predictor (AUROC) for retrieval-mediated leakage; and
-- a rel-LMLM parity path so the closure, entanglement sweep, and adversarial
-  evaluations run against the relational backend's sentence-embedding
-  retrieval too (geometric and semantic predicates only — relational triples
-  carry no provenance), enabling the G(f) = 0 baseline comparison.
+  survivor entries just outside the deletion radius, reports the evasion rate
+  Ev(ρ, ε) per value template and topology, and scores a geometry-only margin
+  predictor (AUROC) for retrieval-mediated leakage;
+- the closure, sweep, and adversarial evaluations on rel-LMLM too (geometric
+  and semantic predicates only — relational triples carry no provenance),
+  giving the relational G(f) baseline; and
+- `lmlm-audit-compare`, which runs both backends and merges their metrics into
+  one comparison.
 
-The Co-LMLM backend has unit-test coverage, but it still needs to be run against
-the full released checkpoint and index. The next research step is to move past
-single oracle entries and identify all memory entries that express the same
-fact.
+The Co-LMLM backend is unit-tested but has not yet been run against the full
+released checkpoint and index. The closure's semantic and provenance predicates
+begin to address the research goal of identifying all memory entries that
+express a fact, rather than a single oracle entry.
 
 ## Repository structure
 
-The audit code lives in `src/lmlm_audit/`, split into three subpackages:
+The code separates the model-agnostic audit from the model backends:
 
-- `core/` — backend-agnostic pieces: the abstract backend interface, database
-  states, forgetting metrics, answer-equivalence checks, and prompt/example
-  handling.
-- `models/` — one subpackage per audited model, so new backends slot in
-  alongside the existing two:
-  - `models/rel_lmlm/` — the original relational-LMLM backend: model loader,
-    triple database, and deletion logic.
-  - `models/co_lmlm/` — the Co-LMLM backend: wrappers around the public model
-    and index interfaces, search-time ID filtering for non-destructive
-    deletion, and answer extraction.
-- `cli/` — the `lmlm-audit` entry point (`run_audit.py`), the audit runner, and
-  result/metrics reporting.
+- `src/lmlm_audit/` — the audit itself, which knows nothing about any specific
+  model:
+  - `core/` — the abstract backend interface, database states, forgetting
+    metrics, entanglement/probe/neighbor analysis, answer-equivalence, and
+    prompt/example handling.
+  - `interventions/` — the backend-agnostic deletion and attack machinery:
+    the deletion closure, the non-destructive filtering search, the support
+    judge, and the adversarial survivor construction. These operate on any
+    model through a generic search-index interface.
+  - `registry.py` — the backend registry the CLI dispatches through.
+  - `cli/` — the `lmlm-audit` / `lmlm-audit-probe` / `lmlm-audit-compare`
+    entry points, the audit runner, and reporting.
+- `src/models/` — one subpackage per audited model. Each follows the same
+  template so models stay consistent, and each registers a backend with
+  `lmlm_audit.registry`, so a new model slots in with no changes to the audit
+  core:
+  - `__init__.py` — registers the model's `BackendSpec` (how to build the
+    backend, its search index, job grouping, and argument validation).
+  - `backend.py` — the `*AuditBackend` class (implements `generate`), loading,
+    and output parsing.
+  - `adapter.py` — how the model plugs into the audit's deletion/search
+    machinery: `build_search_index` and any support-judge override.
+
+  A model may add internal modules where it genuinely does more — e.g.
+  `models/rel_lmlm/database.py` holds the relational retriever and its
+  deletion-aware database manager, which Co-LMLM delegates to its upstream
+  package and so does not need.
 
 Databases and prompt sets are under `data/`: the released LMLM database with
 six prompt types, and three custom domains (countries, politicians, sports)
@@ -154,6 +170,39 @@ the value used is recorded in each closure manifest). The index's faiss-id
 mapping determines whether `--use-sqlite-id-mapping` applies — check whether
 the downloaded bucket ships a mapping `.db` or only the `.txt` map before
 enabling it.
+
+## Sweeps, closures, and the adversarial evaluation
+
+`--closure`, `--radius-grid`, and `--adversarial` attach to the same
+`lmlm-audit` command and work on both backends (drop `provenance` for
+rel-LMLM). For example, an entanglement sweep on a custom rel-LMLM database:
+
+```bash
+uv run lmlm-audit \
+  --database-path data/custom_databases/countries/base.json \
+  --prompt-files data/custom_databases/countries/prompts/base/prompts_direct_questions.jsonl \
+  --closure geometric,semantic \
+  --radius-grid 0.95:0.70:0.05 \
+  --neighbor-mode cosine \
+  --output-dir outputs/sweep --wandb-activation off
+```
+
+## Representational-leakage probe
+
+`lmlm-audit-probe` runs offline on a finished audit's results and
+query-embedding sidecar (no GPU):
+
+```bash
+uv run lmlm-audit-probe \
+  --results outputs/audit/prompts_direct_questions_results.jsonl \
+  --embeddings outputs/audit/prompts_direct_questions_query_embeddings.npz \
+  --mode ranking \
+  --output-dir outputs/probe
+```
+
+It writes `probe_per_fact.csv` and `probe_summary.csv` (L_rep, behavioral L,
+and Δ_rep). Use `--mode classification` only when answers are shared across
+facts; `ranking` is the default and stays valid under fact-disjoint splits.
 
 ## Comparing rel-LMLM and Co-LMLM in one run
 

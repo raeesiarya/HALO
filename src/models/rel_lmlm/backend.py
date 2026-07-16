@@ -1,12 +1,18 @@
 import html
+import os
 import re
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Any, Callable, Mapping
+
+import torch
+from dotenv import load_dotenv
+from transformers import AutoTokenizer
 
 from lmlm_audit.core.backend import AuditObservation, default_retrieval_trace
 from lmlm_audit.core.examples import AuditExample
-from lmlm_audit.models.rel_lmlm.database import build_state_db_manager
-from lmlm_audit.models.rel_lmlm.index_adapter import rel_support_judge
+from models.rel_lmlm.database import build_state_db_manager
+from models.rel_lmlm.adapter import rel_support_judge
 from lmlm_audit.core.states import DatabaseState, retrieval_enabled
 
 
@@ -207,9 +213,7 @@ class RelLMLMAuditBackend:
     tokenizer: Any
     # Support judge used by the closure builder / sweep runners; full-triple
     # equivalence when subject/relation are available.
-    support_judge: Callable[[Any, AuditExample], Mapping[str, Any]] = (
-        rel_support_judge
-    )
+    support_judge: Callable[[Any, AuditExample], Mapping[str, Any]] = rel_support_judge
     # Synthetic candidates (adversarial survivors) active for subsequent
     # generate() calls; set/cleared by the adversarial runner.
     injections: tuple[Any, ...] = ()
@@ -253,14 +257,10 @@ class RelLMLMAuditBackend:
             retrieval_trace["retrieval_events"] = [
                 {
                     "event_index": 0,
-                    "selected_candidate": retrieval_trace.get(
-                        "selected_candidate"
-                    ),
+                    "selected_candidate": retrieval_trace.get("selected_candidate"),
                 }
             ]
-        captured = getattr(
-            self.model.db_manager, "captured_query_embeddings", []
-        )
+        captured = getattr(self.model.db_manager, "captured_query_embeddings", [])
         query_embeddings = tuple(
             {"event_index": index, "vector": vector}
             for index, vector in enumerate(captured)
@@ -271,3 +271,65 @@ class RelLMLMAuditBackend:
             retrieval_trace=retrieval_trace,
             query_embeddings=query_embeddings,
         )
+
+
+def _get_best_device() -> torch.device:
+    if torch.cuda.is_available():
+        return torch.device("cuda")
+    if torch.backends.mps.is_available():
+        return torch.device("mps")
+    return torch.device("cpu")
+
+
+def _resolve_database_path(database_path: Path) -> Path:
+    if database_path.exists():
+        return database_path
+    if database_path.suffix == ".jsonl":
+        json_path = database_path.with_suffix(".json")
+        if json_path.exists():
+            return json_path
+    return database_path
+
+
+def load_model_and_tokenizer(
+    model_name: str = "kilian-group/LMLM-llama2-382M",
+    database_path: str | Path = "data/lmlm_database.json",
+    threshold: float = 0.6,
+    fallback_policy: str = "top1_anyway",
+) -> tuple[Any, AutoTokenizer]:
+    try:
+        from lmlm.database import DatabaseManager
+        from lmlm.modeling_lmlm import LlamaForLMLM
+    except ImportError as exc:
+        raise ImportError(
+            "The upstream `lmlm` package is required for lookup-aware inference. "
+            "Install the original LMLM repository in your environment before running this script."
+        ) from exc
+
+    load_dotenv()
+    hf_token = os.getenv("HF_TOKEN")
+
+    device = _get_best_device()
+    print("Using device:", device)
+
+    tokenizer = AutoTokenizer.from_pretrained(model_name, token=hf_token)
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+
+    db_manager = DatabaseManager()
+    database_path = _resolve_database_path(Path(database_path))
+    if database_path.exists():
+        db_manager.load_database(str(database_path))
+
+    model = LlamaForLMLM.from_pretrained_with_db(
+        model_name,
+        db_manager=db_manager,
+        use_special_tokens=True,
+        threshold=threshold,
+        fallback_policy=fallback_policy,
+        token=hf_token,
+    )
+    model.to(device)
+    model.eval()
+
+    return model, tokenizer

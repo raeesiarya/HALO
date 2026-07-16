@@ -4,7 +4,6 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
-from lmlm_audit.core.backend import AuditBackend
 from lmlm_audit.cli.jobs import (
     DEFAULT_DATABASE_PATH,
     DEFAULT_OUTPUT_DIR,
@@ -13,7 +12,8 @@ from lmlm_audit.cli.jobs import (
 )
 from lmlm_audit.core.embeddings import QueryEmbeddingSink
 from lmlm_audit.core.metrics import metrics_total
-from lmlm_audit.models.rel_lmlm.backend import RelLMLMAuditBackend
+from lmlm_audit.registry import available_backends, get_backend_spec
+import models  # noqa: F401  (imports register the bundled backends)
 from lmlm_audit.cli.reporting import (
     AuditLogger,
     log_metrics_to_wandb,
@@ -35,9 +35,9 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run the prompt audit.")
     parser.add_argument(
         "--backend",
-        choices=["rel-lmlm", "colmlm"],
+        choices=available_backends(),
         default="rel-lmlm",
-        help="Inference backend to audit.",
+        help="Inference backend to audit (registered under src/models).",
     )
     parser.add_argument(
         "--prompt-files",
@@ -335,7 +335,7 @@ def parse_radius_grid(spec: str) -> tuple[float, ...]:
 
 
 def _closure_config_from_args(args: argparse.Namespace) -> Any:
-    from lmlm_audit.models.co_lmlm.closure import ClosureConfig
+    from lmlm_audit.interventions.closure import ClosureConfig
 
     return ClosureConfig(
         predicates=tuple(
@@ -349,25 +349,17 @@ def _closure_config_from_args(args: argparse.Namespace) -> Any:
     )
 
 
-def _audit_search_index(backend: Any, args: argparse.Namespace) -> Any:
-    if args.backend == "colmlm":
-        return backend.generator.index
-    from lmlm_audit.models.rel_lmlm.index_adapter import TripleSearchIndex
-
-    return TripleSearchIndex(backend.base_db_manager)
-
-
 def _make_closure_manifest_builder(
-    backend: Any, args: argparse.Namespace, job: AuditJob
+    backend: Any, search_index: Any, args: argparse.Namespace, job: AuditJob
 ) -> Any:
-    from lmlm_audit.models.co_lmlm.closure import build_closure_manifest_from_full
+    from lmlm_audit.interventions.closure import build_closure_manifest_from_full
 
     config = _closure_config_from_args(args)
     artifact_dir = job.output_path.parent / f"{job.prompt_path.stem}_closures"
 
     def builder(example: Any, full_result: dict[str, Any]) -> Any:
         return build_closure_manifest_from_full(
-            index=backend.generator.index,
+            index=search_index,
             example=example,
             full_result=full_result,
             config=config,
@@ -390,27 +382,14 @@ def main() -> None:
             # Must be set before the Co-LMLM loader reads the FAISS file.
             os.environ["LMLM_FAISS_MMAP"] = "1"
 
-        if args.backend == "colmlm":
-            if args.prompt_files is None:
-                raise ValueError("Co-LMLM runs require explicit --prompt-files.")
-            if args.colmlm_model_path is None:
-                raise ValueError("Co-LMLM runs require --colmlm-model-path.")
-            if args.index_path is None:
-                raise ValueError("Co-LMLM runs require --index-path.")
+        spec = get_backend_spec(args.backend)
+        # Backend-specific argument checks (missing paths, unsupported
+        # predicates) live with each model; the audit CLI only validates its
+        # own generic flags below.
+        spec.validate(args)
 
         if args.closure is not None:
-            if args.backend == "rel-lmlm":
-                if args.radius_grid is None and not args.adversarial:
-                    raise ValueError(
-                        "--closure with the rel-LMLM backend is used through "
-                        "--radius-grid or --adversarial."
-                    )
-                if "provenance" in args.closure:
-                    raise ValueError(
-                        "rel-LMLM triples carry no provenance metadata; use "
-                        "--closure geometric,semantic."
-                    )
-            elif (
+            if args.backend == "colmlm" and (
                 not args.bootstrap_oracle_from_full
                 and args.radius_grid is None
                 and not args.adversarial
@@ -418,6 +397,13 @@ def main() -> None:
                 raise ValueError(
                     "--closure builds its manifest from the FULL pass and "
                     "requires --bootstrap-oracle-from-full."
+                )
+            if args.backend != "colmlm" and (
+                args.radius_grid is None and not args.adversarial
+            ):
+                raise ValueError(
+                    f"--closure with the {args.backend} backend is used "
+                    "through --radius-grid or --adversarial."
                 )
 
         if args.radius_grid is not None:
@@ -451,59 +437,23 @@ def main() -> None:
         states = state_values
         wandb_module = setup_wandb() if args.wandb_activation == "on" else None
 
-        jobs_by_database: dict[Path, list[AuditJob]] = defaultdict(list)
-        if args.backend == "colmlm":
-            jobs_by_database[args.index_path].extend(jobs)
-        else:
-            for job in jobs:
-                jobs_by_database[job.database_path].append(job)
+        jobs_by_group: dict[Any, list[AuditJob]] = defaultdict(list)
+        for job in jobs:
+            jobs_by_group[spec.group_key(args, job)].append(job)
 
         cross_state_rows: list[dict[str, Any]] = []
         per_state_rows: list[dict[str, Any]] = []
 
-        for database_path in sorted(jobs_by_database):
-            if args.backend == "colmlm":
-                from lmlm_audit.models.co_lmlm.backend import CoLMLMAuditBackend
+        for database_path in sorted(jobs_by_group, key=str):
+            backend = spec.build_backend(args, database_path)
+            search_index = spec.build_search_index(backend)
 
-                attn_implementation = (
-                    None
-                    if args.attn_implementation.casefold() == "none"
-                    else args.attn_implementation
-                )
-                backend: AuditBackend = CoLMLMAuditBackend.from_public_release(
-                    model_path=args.colmlm_model_path,
-                    index_path=args.index_path,
-                    db_path=args.entries_db_path,
-                    source_path=args.colmlm_source_path,
-                    use_sqlite_id_mapping=args.use_sqlite_id_mapping,
-                    del_off_mode=args.del_off_mode,
-                    device=args.device,
-                    torch_dtype=args.torch_dtype,
-                    attn_implementation=attn_implementation,
-                    max_new_tokens=args.max_new_tokens,
-                    similarity_threshold=args.similarity_threshold,
-                    retrieval_top_k=args.retrieval_top_k,
-                    **({"nprobe": args.nprobe} if args.nprobe is not None else {}),
-                )
-            else:
-                from lmlm_audit.models.rel_lmlm.loader import load_model_and_tokenizer
-
-                model, tokenizer = load_model_and_tokenizer(
-                    model_name=args.model_name,
-                    database_path=database_path,
-                )
-                backend = RelLMLMAuditBackend(
-                    base_db_manager=model.db_manager,
-                    model=model,
-                    tokenizer=tokenizer,
-                )
-
-            for job in jobs_by_database[database_path]:
+            for job in jobs_by_group[database_path]:
                 logger.print(f"Prompt file: {job.prompt_path}")
                 logger.print(f"Database used: {database_path}")
 
                 if args.adversarial:
-                    from lmlm_audit.models.co_lmlm.adversary import AdversarialConfig
+                    from lmlm_audit.interventions.adversary import AdversarialConfig
 
                     adversarial_dir = (
                         job.output_path.parent / f"{job.prompt_path.stem}_adversarial"
@@ -511,7 +461,7 @@ def main() -> None:
                     summary = run_adversarial_eval(
                         prompt_path=job.prompt_path,
                         backend=backend,
-                        index=_audit_search_index(backend, args),
+                        index=search_index,
                         closure_config=_closure_config_from_args(args),
                         adversarial_config=AdversarialConfig(
                             rho=args.closure_radius,
@@ -575,7 +525,7 @@ def main() -> None:
                     summary = run_entanglement_sweep(
                         prompt_path=job.prompt_path,
                         backend=backend,
-                        index=_audit_search_index(backend, args),
+                        index=search_index,
                         radii=parse_radius_grid(args.radius_grid),
                         closure_config=_closure_config_from_args(args),
                         neighbor_config=NeighborConfig(
@@ -620,7 +570,9 @@ def main() -> None:
                 # <FACT> hidden state; rel-LMLM: the encoded lookup text).
                 embedding_sink = QueryEmbeddingSink()
                 manifest_builder = (
-                    _make_closure_manifest_builder(backend, args, job)
+                    _make_closure_manifest_builder(
+                        backend, search_index, args, job
+                    )
                     if args.backend == "colmlm" and args.closure is not None
                     else None
                 )

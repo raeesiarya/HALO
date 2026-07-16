@@ -9,9 +9,9 @@ from typing import Any, Callable, Mapping
 
 import numpy as np
 
-from lmlm_audit.models.co_lmlm.answers import _default_support_judge
-from lmlm_audit.models.co_lmlm.errors import CoLMLMIntegrationError
-from lmlm_audit.models.co_lmlm.index_filter import (
+from lmlm_audit.interventions.judge import default_support_judge
+from lmlm_audit.interventions.errors import AuditIntegrationError
+from lmlm_audit.interventions.filtering import (
     _candidate_id,
     _candidate_score,
     _candidate_source_id,
@@ -30,9 +30,7 @@ class ClosureConfig:
     max_closure_size: int = 10_000
 
     def __post_init__(self) -> None:
-        object.__setattr__(
-            self, "predicates", tuple(dict.fromkeys(self.predicates))
-        )
+        object.__setattr__(self, "predicates", tuple(dict.fromkeys(self.predicates)))
         unknown = [
             predicate
             for predicate in self.predicates
@@ -89,9 +87,7 @@ class ClosureResult:
 
     def to_manifest(self) -> DeletionManifest:
         entry_counts = {
-            predicate: sum(
-                1 for entry in self.entries if predicate in entry.caught_by
-            )
+            predicate: sum(1 for entry in self.entries if predicate in entry.caught_by)
             for predicate in (*VALID_PREDICATES, "oracle")
         }
         # Per-entry attribution stays out of the manifest (it is embedded in
@@ -162,7 +158,7 @@ class ClosureResult:
 def _flatten_single_query(raw: Any) -> list[Any]:
     if raw and isinstance(raw, list) and isinstance(raw[0], list):
         if len(raw) != 1:
-            raise CoLMLMIntegrationError(
+            raise AuditIntegrationError(
                 "The closure builder issued a single query but the index "
                 f"returned {len(raw)} result lists."
             )
@@ -186,7 +182,7 @@ def build_closure_family(
     seed_candidates: tuple[Any, ...] = (),
     seed_source_ids: tuple[str, ...] = (),
     support_judge: Callable[[Any, AuditExample], Mapping[str, Any]] = (
-        _default_support_judge
+        default_support_judge
     ),
     example_key: str = "",
 ) -> dict[float, ClosureResult]:
@@ -213,9 +209,7 @@ def build_closure_family(
     shared_caught: dict[str, set[str]] = {}
     details: dict[str, dict[str, Any]] = {}
 
-    def note(
-        target: dict[str, set[str]], candidate: Any, predicate: str
-    ) -> None:
+    def note(target: dict[str, set[str]], candidate: Any, predicate: str) -> None:
         entry_id = _candidate_id(candidate)
         if not entry_id:
             return
@@ -230,9 +224,7 @@ def build_closure_family(
         )
 
     query = (
-        np.asarray(query_vector, dtype=np.float32).reshape(-1)
-        if needs_search
-        else None
+        np.asarray(query_vector, dtype=np.float32).reshape(-1) if needs_search else None
     )
 
     geometric_hits: list[Any] = []
@@ -253,9 +245,7 @@ def build_closure_family(
         page_full = len(geometric_hits) >= config.max_closure_size
         scores = [
             score
-            for score in (
-                _candidate_score(candidate) for candidate in geometric_hits
-            )
+            for score in (_candidate_score(candidate) for candidate in geometric_hits)
             if score is not None
         ]
         last_score = min(scores) if scores else None
@@ -316,8 +306,7 @@ def build_closure_family(
     family: dict[float, ClosureResult] = {}
     for radius in radii:
         caught = {
-            entry_id: set(predicates)
-            for entry_id, predicates in shared_caught.items()
+            entry_id: set(predicates) for entry_id, predicates in shared_caught.items()
         }
         for candidate in geometric_hits:
             score = _candidate_score(candidate)
@@ -325,9 +314,7 @@ def build_closure_family(
             # toward deletion at every radius.
             if score is None or score >= radius:
                 note(caught, candidate, "geometric")
-        truncated = page_full and (
-            last_score is None or radius <= last_score
-        )
+        truncated = page_full and (last_score is None or radius <= last_score)
         deleted_scores = [
             observed_scores[entry_id]
             for entry_id in caught
@@ -387,7 +374,7 @@ def build_closure(
     seed_candidates: tuple[Any, ...] = (),
     seed_source_ids: tuple[str, ...] = (),
     support_judge: Callable[[Any, AuditExample], Mapping[str, Any]] = (
-        _default_support_judge
+        default_support_judge
     ),
     example_key: str = "",
 ) -> ClosureResult:
@@ -458,16 +445,14 @@ def build_closure_manifest_from_full(
     full_result: Mapping[str, Any],
     config: ClosureConfig,
     support_judge: Callable[[Any, AuditExample], Mapping[str, Any]] = (
-        _default_support_judge
+        default_support_judge
     ),
     artifact_dir: Path | None = None,
 ) -> DeletionManifest:
     selected = full_selected_candidate(full_result) or {}
     seed_entry_id = selected.get("entry_id")
     if not seed_entry_id:
-        raise ValueError(
-            "FULL produced no selected entry; cannot build a closure."
-        )
+        raise ValueError("FULL produced no selected entry; cannot build a closure.")
 
     query_vector = full_query_vector(full_result)
     seed_source = selected.get("source_id")
@@ -483,7 +468,5 @@ def build_closure_manifest_from_full(
         example_key=key,
     )
     if artifact_dir is not None:
-        write_closure_artifact(
-            closure, artifact_dir / f"{_safe_filename(key)}.json"
-        )
+        write_closure_artifact(closure, artifact_dir / f"{_safe_filename(key)}.json")
     return closure.to_manifest()

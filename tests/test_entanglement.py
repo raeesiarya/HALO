@@ -10,8 +10,8 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from lmlm_audit.models.co_lmlm.backend import CoLMLMAuditBackend
-from lmlm_audit.models.co_lmlm.closure import ClosureConfig, build_closure_family
+from models.co_lmlm.backend import CoLMLMAuditBackend
+from lmlm_audit.interventions.closure import ClosureConfig, build_closure_family
 from lmlm_audit.core.entanglement import compute_entanglement
 from lmlm_audit.core.examples import AuditExample
 from lmlm_audit.core.neighbors import (
@@ -49,9 +49,7 @@ def test_compute_entanglement_reports_a_positive_gap() -> None:
         _row("n1", "unknown", "Warsaw", target="t", rho=0.5, role="neighbor"),
     ]
 
-    entanglement = compute_entanglement(
-        sweep_rows, full_rows, {"t": ["n1"]}
-    )
+    entanglement = compute_entanglement(sweep_rows, full_rows, {"t": ["n1"]})
     curve = entanglement["t"]["curve"]
     assert [point["rho"] for point in curve] == [0.9, 0.5]
     assert [point["efficacy"] for point in curve] == [0.0, 1.0]
@@ -66,9 +64,7 @@ def test_collateral_ignores_neighbors_wrong_under_full() -> None:
         _row("n1", "unknown", "Warsaw", target="t", rho=0.8, role="neighbor"),
     ]
 
-    entanglement = compute_entanglement(
-        sweep_rows, full_rows, {"t": ["n1"]}
-    )
+    entanglement = compute_entanglement(sweep_rows, full_rows, {"t": ["n1"]})
     point = entanglement["t"]["curve"][0]
     # The neighbor was already wrong under FULL, so it cannot be collateral.
     assert point["collateral"] == 0.0
@@ -266,10 +262,7 @@ class SweepFakeGenerator:
             )
         selected = results[0]
         return SimpleNamespace(
-            text=(
-                f"{prompt}<FACT>{selected.text_value}</FACT> "
-                f"{selected.text_value}."
-            ),
+            text=(f"{prompt}<FACT>{selected.text_value}</FACT> {selected.text_value}."),
             num_retrievals=1,
             failed_retrievals=0,
         )
@@ -281,9 +274,7 @@ PROMPT_B = "What is the capital of Poland?"
 
 def _sweep_setup():
     index = _two_fact_index()
-    generator = SweepFakeGenerator(
-        index, {PROMPT_A: QUERY_A, PROMPT_B: QUERY_B}
-    )
+    generator = SweepFakeGenerator(index, {PROMPT_A: QUERY_A, PROMPT_B: QUERY_B})
     backend = CoLMLMAuditBackend(generator)
     return index, generator, backend
 

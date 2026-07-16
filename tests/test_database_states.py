@@ -5,7 +5,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from lmlm_audit.models.rel_lmlm.database import (
+from models.rel_lmlm.database import (
     AuditDatabaseManager,
     TargetFact,
     candidate_supports_target_fact,
@@ -14,7 +14,6 @@ from lmlm_audit.models.rel_lmlm.database import (
     target_fact_from_prompt_row,
 )
 from lmlm_audit.core.states import DatabaseState, retrieval_enabled
-
 
 
 class FakeModel:
@@ -73,7 +72,6 @@ class FakeBaseManager:
         return self._return_value
 
 
-
 def _make_target_fact(**overrides) -> TargetFact:
     defaults = dict(
         fact_id=10,
@@ -88,7 +86,6 @@ def _make_target_fact(**overrides) -> TargetFact:
     return TargetFact(**defaults)
 
 
-
 def test_retrieval_enabled() -> None:
     assert retrieval_enabled(DatabaseState.FULL) is True
     assert retrieval_enabled(DatabaseState.DEL_ON) is True
@@ -100,7 +97,6 @@ def test_retrieval_enabled_all_states_covered():
     assert results[DatabaseState.FULL] is True
     assert results[DatabaseState.DEL_ON] is True
     assert results[DatabaseState.DEL_OFF] is False
-
 
 
 class TestDatabaseStateEnum:
@@ -129,7 +125,6 @@ class TestDatabaseStateEnum:
         assert DatabaseState.DEL_OFF in DatabaseState
 
 
-
 class TestTargetFact:
     def test_construction(self):
         tf = _make_target_fact()
@@ -148,7 +143,9 @@ class TestTargetFact:
         assert tf.fact_id is None
 
     def test_empty_aliases(self):
-        tf = _make_target_fact(subject_aliases=(), relation_aliases=(), object_aliases=())
+        tf = _make_target_fact(
+            subject_aliases=(), relation_aliases=(), object_aliases=()
+        )
         assert tf.subject_aliases == ()
         assert tf.relation_aliases == ()
         assert tf.object_aliases == ()
@@ -156,7 +153,6 @@ class TestTargetFact:
     def test_multiple_aliases(self):
         tf = _make_target_fact(object_aliases=("a", "b", "c"))
         assert len(tf.object_aliases) == 3
-
 
 
 class TestTargetFactFromPromptRow:
@@ -203,7 +199,6 @@ class TestTargetFactFromPromptRow:
         assert "a" in aliases_normalized
         assert "b" in aliases_normalized
         assert "c" in aliases_normalized
-
 
 
 def test_extract_lookup_query() -> None:
@@ -275,7 +270,6 @@ def test_extract_lookup_query_special_chars_in_entity() -> None:
     assert "O'Brien" in entity
 
 
-
 def test_is_deleted_triplet() -> None:
     target_fact = _make_target_fact()
     assert (
@@ -296,22 +290,34 @@ def test_is_deleted_triplet() -> None:
 
 def test_is_deleted_triplet_canonical_object_match() -> None:
     target_fact = _make_target_fact(object="Jørgensen", object_aliases=())
-    assert is_deleted_triplet(("Hexol", "First Described By", "Jørgensen"), target_fact) is True
+    assert (
+        is_deleted_triplet(("Hexol", "First Described By", "Jørgensen"), target_fact)
+        is True
+    )
 
 
 def test_is_deleted_triplet_wrong_subject() -> None:
     target_fact = _make_target_fact()
-    assert is_deleted_triplet(("Other", "First Described By", "Jorgensen"), target_fact) is False
+    assert (
+        is_deleted_triplet(("Other", "First Described By", "Jorgensen"), target_fact)
+        is False
+    )
 
 
 def test_is_deleted_triplet_wrong_relation() -> None:
     target_fact = _make_target_fact()
-    assert is_deleted_triplet(("Hexol", "Different Relation", "Jorgensen"), target_fact) is False
+    assert (
+        is_deleted_triplet(("Hexol", "Different Relation", "Jorgensen"), target_fact)
+        is False
+    )
 
 
 def test_is_deleted_triplet_wrong_object() -> None:
     target_fact = _make_target_fact()
-    assert is_deleted_triplet(("Hexol", "First Described By", "Werner"), target_fact) is False
+    assert (
+        is_deleted_triplet(("Hexol", "First Described By", "Werner"), target_fact)
+        is False
+    )
 
 
 def test_is_deleted_triplet_alias_subject() -> None:
@@ -319,18 +325,25 @@ def test_is_deleted_triplet_alias_subject() -> None:
         subject="Hexol",
         subject_aliases=("HexolAlias",),
     )
-    assert is_deleted_triplet(("HexolAlias", "First Described By", "Jorgensen"), target_fact) is True
+    assert (
+        is_deleted_triplet(
+            ("HexolAlias", "First Described By", "Jorgensen"), target_fact
+        )
+        is True
+    )
 
 
 def test_is_deleted_triplet_case_insensitive() -> None:
     target_fact = _make_target_fact()
-    assert is_deleted_triplet(("hexol", "first described by", "jorgensen"), target_fact) is True
+    assert (
+        is_deleted_triplet(("hexol", "first described by", "jorgensen"), target_fact)
+        is True
+    )
 
 
 def test_is_deleted_triplet_all_wrong() -> None:
     target_fact = _make_target_fact()
     assert is_deleted_triplet(("A", "B", "C"), target_fact) is False
-
 
 
 def test_candidate_supports_target_fact_flags() -> None:
@@ -348,7 +361,6 @@ def test_is_deleted_triplet_case_insensitive() -> None:
 def test_is_deleted_triplet_all_wrong() -> None:
     target_fact = _make_target_fact()
     assert is_deleted_triplet(("A", "B", "C"), target_fact) is False
-
 
 
 def test_candidate_supports_target_fact_flags() -> None:
@@ -429,7 +441,6 @@ def test_candidate_supports_via_alias() -> None:
     assert sup is True
 
 
-
 class TestAuditDatabaseManagerInit:
     def test_attributes_copied_from_base(self):
         base = FakeBaseManager()
@@ -465,7 +476,6 @@ class TestAuditDatabaseManagerInit:
         base = FakeBaseManager()
         mgr = AuditDatabaseManager(base, DatabaseState.FULL, target_fact=None)
         assert mgr.target_fact is None
-
 
 
 class TestAuditDatabaseManagerFull:
@@ -519,7 +529,6 @@ class TestAuditDatabaseManagerFull:
             "<|db_entity|>Hexol<|db_relationship|>First Described By<|db_return|>"
         )
         assert mgr.last_trace["selected_value"] == "Werner"
-
 
 
 def test_audit_database_manager_filters_deleted_fact() -> None:
@@ -621,7 +630,6 @@ def test_del_on_selects_first_remaining_candidate():
     assert value == "Werner"
 
 
-
 class TestAuditDatabaseManagerDelOff:
     def _make_del_off_manager(self):
         base = FakeBaseManager()
@@ -639,7 +647,6 @@ class TestAuditDatabaseManagerDelOff:
         assert retrieval_enabled(DatabaseState.DEL_OFF) is False
 
 
-
 def test_no_target_fact_does_not_filter():
     """With target_fact=None, FULL-like passthrough regardless of state."""
     base = FakeBaseManager(return_value="Jorgensen")
@@ -652,7 +659,6 @@ def test_no_target_fact_does_not_filter():
         "<|db_entity|>Hexol<|db_relationship|>First Described By<|db_return|>"
     )
     assert value == "Jorgensen"
-
 
 
 def test_full_state_falls_back_to_base_manager_when_trace_parse_fails() -> None:
@@ -681,7 +687,6 @@ def test_del_on_parse_error_propagates():
     )
     with pytest.raises(ValueError):
         mgr.retrieve_from_database("this is not a lookup prompt at all")
-
 
 
 class TestCandidateTraceEntry:
@@ -745,7 +750,6 @@ class TestCandidateTraceEntry:
             assert candidate["supports_target_fact"] is False
 
 
-
 def test_candidate_filtering_logged_to_wandb(wandb_run):
     """Bar chart of all/deleted/retained candidate counts, logged to W&B."""
     import matplotlib.pyplot as plt
@@ -771,7 +775,11 @@ def test_candidate_filtering_logged_to_wandb(wandb_run):
             import wandb
 
             fig, ax = plt.subplots()
-            ax.bar(counts.keys(), counts.values(), color=["steelblue", "crimson", "seagreen"])
+            ax.bar(
+                counts.keys(),
+                counts.values(),
+                color=["steelblue", "crimson", "seagreen"],
+            )
             ax.set_ylabel("Candidate count")
             ax.set_title("DEL-ON candidate filtering")
             plt.tight_layout()

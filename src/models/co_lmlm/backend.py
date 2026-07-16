@@ -1,24 +1,43 @@
 from __future__ import annotations
 
 import importlib
+import re
 import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Callable, Mapping
 
 from lmlm_audit.core.backend import AuditObservation
-from lmlm_audit.models.co_lmlm.answers import _default_support_judge, extract_colmlm_answer
-from lmlm_audit.models.co_lmlm.errors import CoLMLMIntegrationError
-from lmlm_audit.models.co_lmlm.index_filter import _FilteringSearchIndex
+from lmlm_audit.interventions.judge import default_support_judge
+from lmlm_audit.interventions.errors import AuditIntegrationError
+from lmlm_audit.interventions.filtering import _FilteringSearchIndex
 from lmlm_audit.core.examples import AuditExample
 from lmlm_audit.core.states import DatabaseState
+
+_FACT_BLOCK_PATTERN = re.compile(r"<FACT>.*?</FACT>", re.DOTALL)
+_SPECIAL_TOKEN_PATTERN = re.compile(r"</?[A-Z_]+>")
+
+
+def extract_colmlm_answer(raw_text: str, prompt: str) -> str:
+    completion = str(raw_text)
+    if prompt and completion.startswith(prompt):
+        completion = completion[len(prompt) :]
+    completion = _FACT_BLOCK_PATTERN.sub(" ", completion)
+    completion = _SPECIAL_TOKEN_PATTERN.sub(" ", completion)
+    completion = re.sub(r"\s+", " ", completion).strip()
+    for prefix in ("answer:", "the answer is", "it is", "it's"):
+        if completion.casefold().startswith(prefix):
+            completion = completion[len(prefix) :].strip()
+            break
+    completion = re.split(r"(?<=[.!?])\s+", completion, maxsplit=1)[0]
+    return completion.strip(" \t\n\r\"'`,;:.")
 
 
 @dataclass
 class CoLMLMAuditBackend:
     generator: Any
     support_judge: Callable[[Any, AuditExample], Mapping[str, Any]] = (
-        _default_support_judge
+        default_support_judge
     )
     answer_extractor: Callable[[str, str], str] = extract_colmlm_answer
     max_filter_overfetch: int = 4096
@@ -65,7 +84,7 @@ class CoLMLMAuditBackend:
                 loaded_file is not None
                 and source_src not in Path(loaded_file).resolve().parents
             ):
-                raise CoLMLMIntegrationError(
+                raise AuditIntegrationError(
                     "A different `lmlm` package is already imported. Run Co-LMLM "
                     "in its own process/environment to avoid the rel-LMLM namespace "
                     "collision."
@@ -117,25 +136,20 @@ class CoLMLMAuditBackend:
         original_index = getattr(self.generator, "index", None)
         filtered_index: _FilteringSearchIndex | None = None
         try:
-            if (
-                state is DatabaseState.DEL_OFF
-                and self.del_off_mode == "forbid-token"
-            ):
+            if state is DatabaseState.DEL_OFF and self.del_off_mode == "forbid-token":
                 no_retrieval = getattr(self.generator, "generate_no_retrieval", None)
                 if no_retrieval is None:
-                    raise CoLMLMIntegrationError(
+                    raise AuditIntegrationError(
                         "This Co-LMLM generator has no generate_no_retrieval() method."
                     )
                 result = no_retrieval(example.prompt)
             else:
                 if original_index is None:
-                    raise CoLMLMIntegrationError(
+                    raise AuditIntegrationError(
                         "The Co-LMLM generator does not expose its search index."
                     )
                 manifest_metadata = (
-                    manifest.metadata
-                    if isinstance(manifest.metadata, Mapping)
-                    else {}
+                    manifest.metadata if isinstance(manifest.metadata, Mapping) else {}
                 )
                 manifest_predicates = manifest_metadata.get("predicates_active")
                 semantic_backstop = (
@@ -151,14 +165,10 @@ class CoLMLMAuditBackend:
                     # sweep run under the target fact's manifest).
                     backstop_example = AuditExample(
                         prompt="",
-                        ground_truth=str(
-                            semantic_target.get("ground_truth", "")
-                        ),
+                        ground_truth=str(semantic_target.get("ground_truth", "")),
                         object_aliases=tuple(
                             str(alias)
-                            for alias in (
-                                semantic_target.get("object_aliases") or ()
-                            )
+                            for alias in (semantic_target.get("object_aliases") or ())
                         ),
                     )
                 filtered_index = _FilteringSearchIndex(
@@ -199,7 +209,11 @@ class CoLMLMAuditBackend:
         num_retrievals = int(getattr(result, "num_retrievals", 0) or 0)
         failed_retrievals = int(getattr(result, "failed_retrievals", 0) or 0)
         selected_candidate = next(
-            (event["selected_candidate"] for event in events if event["selected_candidate"]),
+            (
+                event["selected_candidate"]
+                for event in events
+                if event["selected_candidate"]
+            ),
             None,
         )
         retrieval_trace = {
@@ -210,9 +224,7 @@ class CoLMLMAuditBackend:
             "del_off_mode": (
                 self.del_off_mode if state is DatabaseState.DEL_OFF else None
             ),
-            "retrieval_triggered": bool(
-                events or num_retrievals or failed_retrievals
-            ),
+            "retrieval_triggered": bool(events or num_retrievals or failed_retrievals),
             "threshold_fallback": failed_retrievals > 0,
             "lookup_query": None,
             "threshold": getattr(
@@ -240,17 +252,13 @@ class CoLMLMAuditBackend:
             "t_generate_s": float(getattr(result, "t_generate_s", 0.0) or 0.0),
             "t_encode_s": float(getattr(result, "t_encode_s", 0.0) or 0.0),
             "t_search_s": float(getattr(result, "t_search_s", 0.0) or 0.0),
-            "gen_decoded_tokens": int(
-                getattr(result, "gen_decoded_tokens", 0) or 0
-            ),
+            "gen_decoded_tokens": int(getattr(result, "gen_decoded_tokens", 0) or 0),
             "release_source": self.release_source,
         }
         query_embeddings = tuple(
             {"event_index": index, "vector": vector}
             for index, vector in enumerate(
-                filtered_index.query_embeddings
-                if filtered_index is not None
-                else []
+                filtered_index.query_embeddings if filtered_index is not None else []
             )
             if vector is not None
         )

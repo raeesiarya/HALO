@@ -18,8 +18,8 @@ from lmlm_audit.cli.jobs import (
     infer_prompt_paths_for_database,
     resolve_audit_jobs,
 )
-from lmlm_audit.models.rel_lmlm import backend as rel_backend
-from lmlm_audit.models.rel_lmlm.backend import (
+from models.rel_lmlm import backend as rel_backend
+from models.rel_lmlm.backend import (
     _default_retrieval_trace,
     choose_answer,
     clean_answer,
@@ -39,11 +39,33 @@ from lmlm_audit.cli.reporting import (
 from lmlm_audit.cli.run_audit import parse_args
 from lmlm_audit.cli.runner import (
     load_prompts,
-    run_audit as run_audit_fn,
-    run_prompt_audit,
+    run_backend_audit,
+    run_backend_prompt_audit,
 )
+from models.rel_lmlm.backend import RelLMLMAuditBackend
 from lmlm_audit.core.states import DatabaseState
 
+
+def run_prompt_audit(base_db_manager, model, tokenizer, prompt_row, state, max_new_tokens=12):
+    backend = RelLMLMAuditBackend(
+        base_db_manager=base_db_manager, model=model, tokenizer=tokenizer
+    )
+    return run_backend_prompt_audit(
+        backend=backend, prompt_row=prompt_row, state=state, max_new_tokens=max_new_tokens
+    )
+
+
+def run_audit_fn(prompt_path, base_db_manager, model, tokenizer, states, max_new_tokens=12, limit=None):
+    backend = RelLMLMAuditBackend(
+        base_db_manager=base_db_manager, model=model, tokenizer=tokenizer
+    )
+    return run_backend_audit(
+        prompt_path=prompt_path,
+        backend=backend,
+        states=states,
+        max_new_tokens=max_new_tokens,
+        limit=limit,
+    )
 
 
 def test_clean_answer_strips_db_markup_and_html_tags() -> None:
@@ -57,7 +79,6 @@ def test_clean_answer_strips_db_markup_and_html_tags() -> None:
 def test_clean_answer_strips_standalone_db_special_tokens() -> None:
     answer = clean_answer('"<|db_entity|> Spice Girls <|db_return|>"')
     assert answer == "Spice Girls"
-
 
 
 class TestCleanAnswer:
@@ -161,9 +182,7 @@ class TestCleanAnswer:
         assert result == "Paris"
 
     def test_complex_combined(self):
-        result = clean_answer(
-            'Answer: The answer is "Paris"\nQuestion: What city?'
-        )
+        result = clean_answer('Answer: The answer is "Paris"\nQuestion: What city?')
         assert result == "Paris"
 
     def test_answer_prefix_mixed_case(self):
@@ -178,32 +197,31 @@ class TestCleanAnswer:
         assert result == "Paris?"
 
 
-
 class TestExtractLookupValues:
     TEMPLATE = (
         "<|db_entity|>{entity}<|db_relationship|>{rel}<|db_return|>{value}<|db_end|>"
     )
 
     def test_single_lookup(self):
-        raw = self.TEMPLATE.format(entity="Hexol", rel="First Described By", value="Jorgensen")
+        raw = self.TEMPLATE.format(
+            entity="Hexol", rel="First Described By", value="Jorgensen"
+        )
         result = extract_lookup_values(raw)
         assert result == ["Jorgensen"]
 
     def test_multiple_distinct_lookups(self):
-        raw = (
-            self.TEMPLATE.format(entity="A", rel="R", value="X")
-            + self.TEMPLATE.format(entity="B", rel="S", value="Y")
-        )
+        raw = self.TEMPLATE.format(
+            entity="A", rel="R", value="X"
+        ) + self.TEMPLATE.format(entity="B", rel="S", value="Y")
         result = extract_lookup_values(raw)
         assert "X" in result
         assert "Y" in result
         assert len(result) == 2
 
     def test_deduplicates_repeated_value(self):
-        raw = (
-            self.TEMPLATE.format(entity="A", rel="R", value="X")
-            + self.TEMPLATE.format(entity="A", rel="R", value="X")
-        )
+        raw = self.TEMPLATE.format(
+            entity="A", rel="R", value="X"
+        ) + self.TEMPLATE.format(entity="A", rel="R", value="X")
         result = extract_lookup_values(raw)
         assert result.count("X") == 1
 
@@ -227,7 +245,6 @@ class TestExtractLookupValues:
         raw = self.TEMPLATE.format(entity="A", rel="R", value="Paris\nFrance")
         result = extract_lookup_values(raw)
         assert len(result) >= 1
-
 
 
 class TestChooseAnswer:
@@ -269,10 +286,11 @@ class TestChooseAnswer:
         assert answer == "First"
 
     def test_non_question_uses_postprocessed_text(self):
-        answer, source = choose_answer("Describe Paris.", "The City of Light", ["Paris"])
+        answer, source = choose_answer(
+            "Describe Paris.", "The City of Light", ["Paris"]
+        )
         assert answer == "The City of Light"
         assert source == "postprocessed_text"
-
 
 
 class TestComputeGenerationBudget:
@@ -307,7 +325,6 @@ class TestComputeGenerationBudget:
         assert isinstance(result, int)
 
 
-
 class TestPreparePrompt:
     def test_strips_whitespace(self):
         assert prepare_prompt("  hello  ") == "hello"
@@ -324,7 +341,6 @@ class TestPreparePrompt:
     def test_internal_content_preserved(self):
         text = "What is the capital of France?"
         assert prepare_prompt(text) == text
-
 
 
 class TestRetrieveLookupValue:
@@ -374,7 +390,6 @@ class TestRetrieveLookupValue:
         assert result == "unknown"
 
 
-
 class TestLoadPrompts:
     def test_loads_valid_jsonl(self, tmp_path):
         p = tmp_path / "prompts.jsonl"
@@ -387,9 +402,7 @@ class TestLoadPrompts:
 
     def test_skips_blank_lines(self, tmp_path):
         p = tmp_path / "prompts.jsonl"
-        p.write_text(
-            '{"id": 1}\n\n{"id": 2}\n   \n{"id": 3}\n', encoding="utf-8"
-        )
+        p.write_text('{"id": 1}\n\n{"id": 2}\n   \n{"id": 3}\n', encoding="utf-8")
         result = load_prompts(p)
         assert len(result) == 3
 
@@ -411,7 +424,6 @@ class TestLoadPrompts:
         p.write_text('{"text": "Jørgensen"}\n', encoding="utf-8")
         result = load_prompts(p)
         assert result[0]["text"] == "Jørgensen"
-
 
 
 class TestSaveResults:
@@ -448,7 +460,6 @@ class TestSaveResults:
         assert data == {"new": True}
 
 
-
 class TestDefaultRetrievalTrace:
     def test_full_state(self):
         trace = _default_retrieval_trace(DatabaseState.FULL)
@@ -471,16 +482,22 @@ class TestDefaultRetrievalTrace:
     def test_all_keys_present(self):
         trace = _default_retrieval_trace(DatabaseState.FULL)
         expected_keys = {
-            "state", "retrieval_enabled", "lookup_query", "threshold",
-            "all_candidates", "deleted_candidates", "retained_candidates",
-            "selected_candidate", "selected_value", "error",
+            "state",
+            "retrieval_enabled",
+            "lookup_query",
+            "threshold",
+            "all_candidates",
+            "deleted_candidates",
+            "retained_candidates",
+            "selected_candidate",
+            "selected_value",
+            "error",
         }
         assert expected_keys <= set(trace.keys())
 
     def test_selected_value_none(self):
         trace = _default_retrieval_trace(DatabaseState.FULL)
         assert trace["selected_value"] is None
-
 
 
 def test_clean_answer_processing_logged_to_wandb(wandb_run):
@@ -512,7 +529,11 @@ def test_clean_answer_processing_logged_to_wandb(wandb_run):
             ax.bar(x - width / 2, before_lens, width, label="before", color="tomato")
             ax.bar(x + width / 2, after_lens, width, label="after", color="seagreen")
             ax.set_xticks(x)
-            ax.set_xticklabels([t[:20] + "…" if len(t) > 20 else t for t in test_inputs], rotation=45, ha="right")
+            ax.set_xticklabels(
+                [t[:20] + "…" if len(t) > 20 else t for t in test_inputs],
+                rotation=45,
+                ha="right",
+            )
             ax.set_ylabel("Characters")
             ax.set_title("clean_answer: before vs after character count")
             ax.legend()
@@ -563,7 +584,6 @@ def test_choose_answer_distribution_logged_to_wandb(wandb_run):
     assert set(sources) <= {"lookup_value", "postprocessed_text", "empty"}
 
 
-
 def _make_tokenizer_mock(token_count: int = 10):
     """A MagicMock tokenizer that plays well with generate_answer."""
     tok = MagicMock()
@@ -574,10 +594,12 @@ def _make_tokenizer_mock(token_count: int = 10):
     inputs = MagicMock()
     inputs["input_ids"].shape = (1, token_count)
     inputs["input_ids"].__getitem__.return_value = MagicMock()
+
     def getitem(key):
         m = MagicMock()
         m.shape = (1, token_count)
         return m
+
     inputs.__getitem__.side_effect = getitem
     call_result = MagicMock()
     call_result.to.return_value = inputs
@@ -656,7 +678,6 @@ class TestGenerateAnswer:
         assert call_kwargs["prompt"] == "What is the capital?"
 
 
-
 class TestRunPromptAudit:
     def _prompt_row(self):
         return {
@@ -724,13 +745,10 @@ class TestRunPromptAudit:
         db_manager.reset_trace.assert_called_once()
 
 
-
 class TestRunAuditLoop:
     def _write_prompt_jsonl(self, tmp_path, rows):
         p = tmp_path / "prompts.jsonl"
-        p.write_text(
-            "\n".join(json.dumps(r) for r in rows) + "\n", encoding="utf-8"
-        )
+        p.write_text("\n".join(json.dumps(r) for r in rows) + "\n", encoding="utf-8")
         return p
 
     def _prompt_rows(self):
@@ -793,7 +811,6 @@ class TestRunAuditLoop:
         assert results == []
 
 
-
 class TestWriteMetricsCsvs:
     def test_writes_both_csvs(self, tmp_path):
         cross = [{"prompt_file": "a.jsonl", "paired_count": 10}]
@@ -837,7 +854,6 @@ class TestWriteMetricsCsvs:
         assert not p_path.exists()
 
 
-
 class TestAuditLogger:
     def test_writes_messages_and_newline(self, tmp_path, capsys):
         log = tmp_path / "nested" / "run.log"
@@ -871,7 +887,6 @@ class TestAuditLogger:
         logger = AuditLogger(log)
         logger.close()
         assert log.parent.exists()
-
 
 
 class TestDiscoverCustomAuditJobs:
@@ -1046,7 +1061,6 @@ class TestInferPromptPathsForDatabase:
         assert infer_prompt_paths_for_database(db) == []
 
 
-
 class TestResolveAuditJobs:
     def _args(self, **over):
         ns = argparse.Namespace(
@@ -1115,7 +1129,6 @@ class TestResolveAuditJobs:
         assert resolve_audit_jobs(args) == []
 
 
-
 class TestSetupWandb:
     def test_raises_when_api_key_missing(self, tmp_path, monkeypatch):
         monkeypatch.delenv("WANDB_API_KEY", raising=False)
@@ -1130,13 +1143,10 @@ class TestSetupWandb:
         fake_dotenv = MagicMock()
         fake_dotenv.load_dotenv = MagicMock()
         fake_wandb = MagicMock()
-        with patch.dict(
-            sys.modules, {"dotenv": fake_dotenv, "wandb": fake_wandb}
-        ):
+        with patch.dict(sys.modules, {"dotenv": fake_dotenv, "wandb": fake_wandb}):
             result = setup_wandb()
         assert result is fake_wandb
         fake_wandb.login.assert_called_once_with(key="k123", relogin=True)
-
 
 
 class TestLogMetricsToWandb:
@@ -1167,7 +1177,6 @@ class TestLogMetricsToWandb:
         assert "state/f1" in logged
         assert "cross_state/paired_count" in logged
         run.finish.assert_called_once()
-
 
 
 class TestAuditJob:

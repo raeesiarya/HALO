@@ -8,7 +8,7 @@ import numpy as np
 
 from lmlm_audit.core.equivalence import values_equivalent
 from lmlm_audit.core.examples import AuditExample
-from lmlm_audit.models.rel_lmlm.database import (
+from models.rel_lmlm.database import (
     TargetFact,
     candidate_supports_target_fact,
     triple_id,
@@ -128,3 +128,7 @@ class TripleSearchIndex:
             )
         results.sort(key=lambda candidate: -candidate.score)
         return results
+
+
+def build_search_index(backend: Any) -> "TripleSearchIndex":
+    return TripleSearchIndex(backend.base_db_manager)

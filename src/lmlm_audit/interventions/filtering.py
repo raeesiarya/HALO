@@ -6,8 +6,8 @@ from typing import Any, Callable, Mapping
 
 import numpy as np
 
-from lmlm_audit.models.co_lmlm.errors import (
-    CoLMLMIntegrationError,
+from lmlm_audit.interventions.errors import (
+    AuditIntegrationError,
     ExclusionSearchExhaustedError,
 )
 from lmlm_audit.core.examples import AuditExample
@@ -140,7 +140,7 @@ class _FilteringSearchIndex:
         )
         if raw and isinstance(raw[0], list):
             if len(raw) != 1:
-                raise CoLMLMIntegrationError(
+                raise AuditIntegrationError(
                     "Co-LMLM generator issued a single query but the index returned "
                     f"{len(raw)} result lists."
                 )
@@ -180,11 +180,12 @@ class _FilteringSearchIndex:
                     injected_count += 1
                 if injected_count:
                     candidates.sort(
-                        key=lambda candidate: -(
-                            score
-                            if (score := _candidate_score(candidate))
-                            is not None
-                            else float("-inf")
+                        key=lambda candidate: (
+                            -(
+                                score
+                                if (score := _candidate_score(candidate)) is not None
+                                else float("-inf")
+                            )
                         )
                     )
         deleted: list[Any] = []
@@ -216,9 +217,7 @@ class _FilteringSearchIndex:
             "query_embedding_captured": query_array is not None,
             "query_dim": None if query_array is None else int(query_array.size),
             "query_l2_norm": (
-                None
-                if query_array is None
-                else float(np.linalg.norm(query_array))
+                None if query_array is None else float(np.linalg.norm(query_array))
             ),
             "all_candidates": [
                 _serialize_candidate(candidate, self.example, self.support_judge)

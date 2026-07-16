@@ -22,7 +22,6 @@ from lmlm_audit.core.neighbors import (
     neighbor_keys,
     write_neighbors_file,
 )
-from lmlm_audit.models.rel_lmlm.backend import RelLMLMAuditBackend
 from lmlm_audit.core.states import DatabaseState
 
 
@@ -40,27 +39,6 @@ def run_backend_prompt_audit(
     return audit_example(
         backend=backend,
         example=AuditExample.from_prompt_row(prompt_row),
-        state=state,
-        max_new_tokens=max_new_tokens,
-    )
-
-
-def run_prompt_audit(
-    base_db_manager: Any,
-    model: Any,
-    tokenizer: Any,
-    prompt_row: dict[str, Any],
-    state: DatabaseState,
-    max_new_tokens: int = 12,
-) -> dict[str, Any]:
-    backend = RelLMLMAuditBackend(
-        base_db_manager=base_db_manager,
-        model=model,
-        tokenizer=tokenizer,
-    )
-    return run_backend_prompt_audit(
-        backend=backend,
-        prompt_row=prompt_row,
         state=state,
         max_new_tokens=max_new_tokens,
     )
@@ -172,9 +150,7 @@ def run_backend_audit(
     return results
 
 
-def _load_examples(
-    prompt_path: Path, limit: int | None
-) -> dict[str, AuditExample]:
+def _load_examples(prompt_path: Path, limit: int | None) -> dict[str, AuditExample]:
     prompts = load_prompts(prompt_path)
     if limit is not None:
         prompts = prompts[:limit]
@@ -199,7 +175,7 @@ def _full_pass(
 ) -> tuple[dict[str, dict[str, Any]], dict[str, np.ndarray]]:
     """FULL over every prompt, capturing query embeddings. Resumed wholesale
     when both artifacts from a previous run exist."""
-    from lmlm_audit.models.co_lmlm.closure import full_query_vector
+    from lmlm_audit.interventions.closure import full_query_vector
 
     full_rows_path = output_dir / "full_results.jsonl"
     embeddings_path = output_dir / "full_query_embeddings.npz"
@@ -212,9 +188,7 @@ def _full_pass(
             vectors = {key: stored[key] for key in stored.files}
         return full_rows, vectors
 
-    for key, example in tqdm(
-        examples.items(), desc="FULL pass", unit="prompt"
-    ):
+    for key, example in tqdm(examples.items(), desc="FULL pass", unit="prompt"):
         row = audit_example(
             backend,
             example,
@@ -254,7 +228,7 @@ def run_entanglement_sweep(
     prompts under DEL-ON. Per-radius JSONL files make the sweep resumable:
     (target, role, subject) triples already on disk are skipped.
     """
-    from lmlm_audit.models.co_lmlm.closure import (
+    from lmlm_audit.interventions.closure import (
         build_closure_family,
         full_query_vector,
         full_selected_candidate,
@@ -265,9 +239,7 @@ def run_entanglement_sweep(
     output_dir.mkdir(parents=True, exist_ok=True)
 
     examples = _load_examples(prompt_path, limit)
-    full_rows, vectors = _full_pass(
-        backend, examples, output_dir, max_new_tokens
-    )
+    full_rows, vectors = _full_pass(backend, examples, output_dir, max_new_tokens)
 
     # Closure families: one geometric search per fact covers every radius.
     families: dict[str, dict[float, Any]] = {}
@@ -290,9 +262,7 @@ def run_entanglement_sweep(
             config=closure_config,
             radii=radii,
             seed_candidates=(selected,),
-            seed_source_ids=(
-                (str(seed_source),) if seed_source is not None else ()
-            ),
+            seed_source_ids=((str(seed_source),) if seed_source is not None else ()),
             example_key=key,
             **family_kwargs,
         )
@@ -304,22 +274,14 @@ def run_entanglement_sweep(
         )
     else:
         sources = {
-            key: (full_selected_candidate(full_rows[key]) or {}).get(
-                "source_id"
-            )
+            key: (full_selected_candidate(full_rows[key]) or {}).get("source_id")
             for key in families
         }
-        raw_neighbors = compute_same_source_neighbors(
-            sources, neighbor_config
-        )
-    write_neighbors_file(
-        raw_neighbors, neighbor_config, output_dir / "neighbors.json"
-    )
+        raw_neighbors = compute_same_source_neighbors(sources, neighbor_config)
+    write_neighbors_file(raw_neighbors, neighbor_config, output_dir / "neighbors.json")
     neighbors = neighbor_keys(raw_neighbors)
 
-    planned = sum(
-        len(radii) * (1 + len(neighbors.get(key, []))) for key in families
-    )
+    planned = sum(len(radii) * (1 + len(neighbors.get(key, []))) for key in families)
     executed = 0
     sweep_rows: list[dict[str, Any]] = []
     progress = tqdm(
@@ -368,9 +330,7 @@ def run_entanglement_sweep(
                     progress.update(1)
     progress.close()
 
-    entanglement = compute_entanglement(
-        sweep_rows, list(full_rows.values()), neighbors
-    )
+    entanglement = compute_entanglement(sweep_rows, list(full_rows.values()), neighbors)
     return {
         "prompt_file": str(prompt_path),
         "facts": len(examples),
@@ -402,8 +362,8 @@ def run_adversarial_eval(
     (yielding R(f)) -> one injected DEL-ON per (epsilon, template). Rows are
     appended to a resumable JSONL keyed by (fact, role, epsilon, template).
     """
-    from lmlm_audit.models.co_lmlm.adversary import build_injections
-    from lmlm_audit.models.co_lmlm.closure import (
+    from lmlm_audit.interventions.adversary import build_injections
+    from lmlm_audit.interventions.closure import (
         build_closure_family,
         full_selected_candidate,
         write_closure_artifact,
@@ -413,9 +373,7 @@ def run_adversarial_eval(
     config = adversarial_config
     output_dir.mkdir(parents=True, exist_ok=True)
     examples = _load_examples(prompt_path, limit)
-    full_rows, vectors = _full_pass(
-        backend, examples, output_dir, max_new_tokens
-    )
+    full_rows, vectors = _full_pass(backend, examples, output_dir, max_new_tokens)
 
     closures: dict[str, Any] = {}
     skipped: list[str] = []
@@ -437,9 +395,7 @@ def run_adversarial_eval(
             config=closure_config,
             radii=(config.rho,),
             seed_candidates=(selected,),
-            seed_source_ids=(
-                (str(seed_source),) if seed_source is not None else ()
-            ),
+            seed_source_ids=((str(seed_source),) if seed_source is not None else ()),
             example_key=key,
             **family_kwargs,
         )[config.rho]
@@ -479,14 +435,8 @@ def run_adversarial_eval(
             if done_key in done:
                 continue
             manifest = closures[key].to_manifest()
-            subject = dataclasses.replace(
-                examples[key], deletion_manifest=manifest
-            )
-            state = (
-                DatabaseState.DEL_OFF
-                if role == "del-off"
-                else DatabaseState.DEL_ON
-            )
+            subject = dataclasses.replace(examples[key], deletion_manifest=manifest)
+            state = DatabaseState.DEL_OFF if role == "del-off" else DatabaseState.DEL_ON
             injections: tuple[Any, ...] = ()
             if role == "attack":
                 injections = build_injections(
@@ -608,24 +558,3 @@ def run_adversarial_eval(
     }
 
 
-def run_audit(
-    prompt_path: Path,
-    base_db_manager: Any,
-    model: Any,
-    tokenizer: Any,
-    states: list[DatabaseState],
-    max_new_tokens: int = 12,
-    limit: int | None = None,
-) -> list[dict[str, Any]]:
-    backend = RelLMLMAuditBackend(
-        base_db_manager=base_db_manager,
-        model=model,
-        tokenizer=tokenizer,
-    )
-    return run_backend_audit(
-        prompt_path=prompt_path,
-        backend=backend,
-        states=states,
-        max_new_tokens=max_new_tokens,
-        limit=limit,
-    )

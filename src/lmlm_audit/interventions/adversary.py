@@ -6,7 +6,7 @@ from typing import Any
 
 import numpy as np
 
-from lmlm_audit.models.co_lmlm.answers import _default_support_judge
+from lmlm_audit.interventions.judge import default_support_judge
 from lmlm_audit.core.examples import AuditExample
 
 VALID_TEMPLATES = ("verbatim", "hyphenated", "letter-spaced", "prefix-cue")
@@ -37,9 +37,7 @@ class AdversarialConfig:
         object.__setattr__(
             self, "epsilons", tuple(dict.fromkeys(float(e) for e in self.epsilons))
         )
-        object.__setattr__(
-            self, "templates", tuple(dict.fromkeys(self.templates))
-        )
+        object.__setattr__(self, "templates", tuple(dict.fromkeys(self.templates)))
         if not -1.0 <= self.rho <= 1.0:
             raise ValueError("rho must be a cosine similarity in [-1, 1].")
         if not self.epsilons:
@@ -125,13 +123,9 @@ def _split_in_two(token: str) -> tuple[str, str]:
     return token[:middle], token[middle:]
 
 
-def template_evades_judge(
-    answer: str, template: str, example: AuditExample
-) -> bool:
+def template_evades_judge(answer: str, template: str, example: AuditExample) -> bool:
     candidate = {"id": "adv", "text_value": survivor_value(answer, template)}
-    return not bool(
-        _default_support_judge(candidate, example).get("supports_target")
-    )
+    return not bool(default_support_judge(candidate, example).get("supports_target"))
 
 
 def build_injections(
@@ -180,8 +174,7 @@ def build_injections(
             )
     elif config.topology in ("collided", "saturated"):
         decoy_cosine = (
-            target if config.topology == "collided"
-            else min(1.0, config.rho + epsilon)
+            target if config.topology == "collided" else min(1.0, config.rho + epsilon)
         )
         for i in range(config.count):
             injections.append(
