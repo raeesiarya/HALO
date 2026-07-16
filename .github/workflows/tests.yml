@@ -30,13 +30,14 @@ jobs:
           python -m pip install --no-deps -e .
 
       - name: Check installed CLI
-        run: lmlm-audit --help
+        run: halo-audit --help
 
       - name: Run unit tests with coverage
         id: tests
         run: |
           pytest \
-            --cov=src/lmlm_audit \
+            --cov=src/halo \
+            --cov=src/models \
             --cov-report=term-missing \
             --cov-report=xml \
             --cov-report=json
