@@ -213,8 +213,11 @@ def paired_count(results: list[dict[str, Any]]) -> int:
 
 
 def _result_is_correct(result: dict[str, Any]) -> bool:
+    # Containment, not exact equivalence: the model answers in sentences
+    # ("Billy Joel plays rock music"), and PopQA's standard correctness
+    # metric is answer-substring match.
     return bool(
-        exact_match(
+        contains_match(
             result["model_output"],
             result["ground_truth"],
             ground_truth_aliases=result.get("object_aliases"),
@@ -243,12 +246,7 @@ def parametric_leakage(results: list[dict[str, Any]]) -> float:
 
     leakage_total = 0.0
     for state_results in eligible_groups:
-        del_off_result = state_results["DEL-OFF"]
-        leakage_total += exact_match(
-            del_off_result["model_output"],
-            del_off_result["ground_truth"],
-            ground_truth_aliases=del_off_result.get("object_aliases"),
-        )
+        leakage_total += float(_result_is_correct(state_results["DEL-OFF"]))
 
     return leakage_total / len(eligible_groups)
 
@@ -271,21 +269,10 @@ def retrieval_mediated_correctness(results: list[dict[str, Any]]) -> float:
 
     retrieval_total = 0.0
     for state_results in eligible_groups:
-        del_on_result = state_results["DEL-ON"]
-        del_off_result = state_results["DEL-OFF"]
-
-        del_on_correct = exact_match(
-            del_on_result["model_output"],
-            del_on_result["ground_truth"],
-            ground_truth_aliases=del_on_result.get("object_aliases"),
+        retrieval_total += float(
+            _result_is_correct(state_results["DEL-ON"])
+            and not _result_is_correct(state_results["DEL-OFF"])
         )
-        del_off_correct = exact_match(
-            del_off_result["model_output"],
-            del_off_result["ground_truth"],
-            ground_truth_aliases=del_off_result.get("object_aliases"),
-        )
-
-        retrieval_total += float(del_on_correct == 1.0 and del_off_correct == 0.0)
 
     return retrieval_total / len(eligible_groups)
 
@@ -398,13 +385,9 @@ def retrieval_artifact_rate(results: list[dict[str, Any]]) -> float:
     artifact_total = 0.0
     for state_results in eligible_groups:
         del_on_result = state_results["DEL-ON"]
-        del_on_correct = exact_match(
-            del_on_result["model_output"],
-            del_on_result["ground_truth"],
-            ground_truth_aliases=del_on_result.get("object_aliases"),
-        )
         artifact_total += float(
-            del_on_correct == 1.0 and not trace_has_gold_equivalent(del_on_result)
+            _result_is_correct(del_on_result)
+            and not trace_has_gold_equivalent(del_on_result)
         )
 
     return artifact_total / len(eligible_groups)
