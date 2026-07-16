@@ -314,6 +314,9 @@ def main() -> None:
                     ),
                     embedding_sink=embedding_sink,
                     manifest_builder=manifest_builder,
+                    skip_log_path=job.output_path.with_name(
+                        f"{job.prompt_path.stem}_skipped_facts.jsonl"
+                    ),
                 )
 
                 save_results(results, job.output_path)

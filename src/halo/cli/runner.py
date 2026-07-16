@@ -1,6 +1,7 @@
 import dataclasses
 import json
 import zlib
+from collections import Counter
 from pathlib import Path
 from typing import Any, Callable
 
@@ -55,6 +56,7 @@ def run_backend_audit(
     manifest_builder: (
         Callable[[AuditExample, dict[str, Any]], DeletionManifest] | None
     ) = None,
+    skip_log_path: Path | None = None,
 ) -> list[dict[str, Any]]:
     if not states:
         raise ValueError("At least one audit state is required.")
@@ -66,14 +68,13 @@ def run_backend_audit(
         prompts = prompts[:limit]
 
     results: list[dict[str, Any]] = []
-    skipped: list[tuple[str, str]] = []
-    for row_index, prompt in enumerate(
-        tqdm(
-            prompts,
-            desc=f"Auditing {prompt_path.stem}",
-            unit="prompt",
-        )
-    ):
+    skipped: list[dict[str, str]] = []
+    progress = tqdm(
+        prompts,
+        desc=f"Auditing {prompt_path.stem}",
+        unit="prompt",
+    )
+    for row_index, prompt in enumerate(progress):
         example = AuditExample.from_prompt_row(prompt)
         prompt_results: list[dict[str, Any]] = []
         remaining_states = list(states)
@@ -111,8 +112,16 @@ def run_backend_audit(
                 fact_id = str(
                     prompt.get("fact_id") or prompt.get("prompt_id") or row_index
                 )
-                skipped.append((fact_id, skip_reason))
-                tqdm.write(f"Skipping fact {fact_id}: {skip_reason}.")
+                skipped.append(
+                    {
+                        "fact_id": fact_id,
+                        "reason": skip_reason,
+                        "prompt_text": example.prompt,
+                        "gold": example.ground_truth,
+                        "selected_value": str(selected.get("value") or ""),
+                    }
+                )
+                progress.set_postfix(skipped=len(skipped))
                 continue
             if manifest is None:
                 manifest = DeletionManifest(
@@ -156,10 +165,20 @@ def run_backend_audit(
 
     if bootstrap_oracle_from_full:
         audited = len(prompts) - len(skipped)
+        by_reason = Counter(item["reason"] for item in skipped)
+        breakdown = "".join(
+            f"\n  {count}x {reason}" for reason, count in by_reason.most_common()
+        )
         tqdm.write(
             f"Oracle bootstrap coverage: {audited}/{len(prompts)} facts audited, "
-            f"{len(skipped)} skipped."
+            f"{len(skipped)} skipped." + breakdown
         )
+        if skipped and skip_log_path is not None:
+            skip_log_path.parent.mkdir(parents=True, exist_ok=True)
+            with skip_log_path.open("w", encoding="utf-8") as handle:
+                for item in skipped:
+                    handle.write(json.dumps(item, ensure_ascii=False) + "\n")
+            tqdm.write(f"Wrote per-fact skip details to {skip_log_path}")
 
     return results
 
