@@ -8,14 +8,14 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from lmlm_audit.cli.probe import main as probe_main
-from lmlm_audit.core.probe import (
+from halo.core.probe import (
     ProbeConfig,
     ProbeSample,
     answer_features,
     compute_delta_rep,
     load_labels_and_behavioral,
     load_probe_samples,
+    probe_audit_outputs,
     run_probe,
 )
 
@@ -242,9 +242,9 @@ def test_compute_delta_rep() -> None:
 # --- CLI -------------------------------------------------------------------
 
 
-def test_probe_cli_end_to_end(tmp_path, capsys) -> None:
+def test_probe_audit_outputs_end_to_end(tmp_path) -> None:
     rng = np.random.default_rng(0)
-    results = tmp_path / "results.jsonl"
+    results = tmp_path / "prompts_results.jsonl"
     rows = []
     vectors = {}
     for i in range(6):
@@ -257,34 +257,47 @@ def test_probe_cli_end_to_end(tmp_path, capsys) -> None:
     results.write_text(
         "\n".join(json.dumps(row) for row in rows) + "\n", encoding="utf-8"
     )
-    sidecar = tmp_path / "embeddings.npz"
+    sidecar = tmp_path / "prompts_query_embeddings.npz"
     np.savez(sidecar, **vectors)
-    output_dir = tmp_path / "probe"
 
-    probe_main(
-        [
-            "--results",
-            str(results),
-            "--embeddings",
-            str(sidecar),
-            "--mode",
-            "classification",
-            "--output-dir",
-            str(output_dir),
-        ]
+    summary = probe_audit_outputs(
+        results_paths=[results],
+        embeddings_paths=[sidecar],
+        output_dir=tmp_path,
+        config=ProbeConfig(mode="classification"),
+        stem="prompts",
     )
 
-    with (output_dir / "probe_summary.csv").open() as handle:
-        summary = next(csv.DictReader(handle))
+    assert summary is not None
     assert summary["mode"] == "classification"
-    assert float(summary["l_rep_hat"]) == 1.0
+    assert summary["l_rep_hat"] == 1.0
     # Every DEL-OFF row was wrong, so the probe decodes what behavior hides.
-    assert float(summary["l_hat"]) == 0.0
-    assert float(summary["delta_rep"]) == 1.0
-    assert summary["facts_common"] == "6"
+    assert summary["l_hat"] == 0.0
+    assert summary["delta_rep"] == 1.0
+    assert summary["facts_common"] == 6
 
-    with (output_dir / "probe_per_fact.csv").open() as handle:
+    with (tmp_path / "prompts_probe_summary.csv").open() as handle:
+        summary_row = next(csv.DictReader(handle))
+    assert float(summary_row["delta_rep"]) == 1.0
+    with (tmp_path / "prompts_probe_per_fact.csv").open() as handle:
         per_fact = list(csv.DictReader(handle))
     assert len(per_fact) == 6
-    assert {row["behavioral_l"] for row in per_fact} == {"0.0"}
-    assert "Delta_rep: 1.000" in capsys.readouterr().out
+
+
+def test_probe_audit_outputs_skips_when_too_few_facts(tmp_path) -> None:
+    results = tmp_path / "r_results.jsonl"
+    results.write_text(
+        json.dumps(_result_row("f1", "FULL", "Paris", "Paris")) + "\n",
+        encoding="utf-8",
+    )
+    sidecar = tmp_path / "r_query_embeddings.npz"
+    np.savez(sidecar, **{"f1/FULL/event0": np.asarray([1.0, 0.0])})
+    assert (
+        probe_audit_outputs(
+            results_paths=[results],
+            embeddings_paths=[sidecar],
+            output_dir=tmp_path,
+            stem="r",
+        )
+        is None
+    )

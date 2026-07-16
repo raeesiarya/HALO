@@ -5,7 +5,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from lmlm_audit.core.metrics import (
+from halo.core.metrics import (
     _average_metric,
     _eligible_state_groups,
     _group_results_by_fact,

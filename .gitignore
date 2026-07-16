@@ -33,3 +33,9 @@ ruvector.db
 
 # Generated audit results
 outputs/audit/
+
+# Downloaded model checkpoints
+checkpoints/
+
+# Downloaded wiki index (~113 GB)
+/data/co-lmlm-wiki-index/

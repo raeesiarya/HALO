@@ -9,21 +9,21 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from lmlm_audit.colmlm.adversary import (
+from halo.interventions.adversary import (
     AdversarialConfig,
     build_injections,
     survivor_key,
     survivor_value,
     template_evades_judge,
 )
-from lmlm_audit.colmlm.backend import CoLMLMAuditBackend
-from lmlm_audit.colmlm.closure import ClosureConfig, build_closure_family
-from lmlm_audit.core.backend import audit_example
-from lmlm_audit.core.examples import AuditExample
-from lmlm_audit.core.metrics import auroc
-from lmlm_audit.cli.reporting import write_adversarial_outputs
-from lmlm_audit.cli.runner import run_adversarial_eval
-from lmlm_audit.core.states import DatabaseState
+from models.co_lmlm.backend import CoLMLMAuditBackend
+from halo.interventions.closure import ClosureConfig, build_closure_family
+from halo.core.backend import audit_example
+from halo.core.examples import AuditExample
+from halo.core.metrics import auroc
+from halo.cli.reporting import write_adversarial_outputs
+from halo.cli.runner import run_adversarial_eval
+from halo.core.states import DatabaseState
 
 
 # --- survivor construction -------------------------------------------------
@@ -181,10 +181,7 @@ class FakeGenerator:
             )
         selected = results[0]
         return SimpleNamespace(
-            text=(
-                f"{prompt}<FACT>{selected.text_value}</FACT> "
-                f"{selected.text_value}"
-            ),
+            text=(f"{prompt}<FACT>{selected.text_value}</FACT> {selected.text_value}"),
             num_retrievals=1,
             failed_retrievals=0,
         )
@@ -201,9 +198,7 @@ def _example() -> AuditExample:
 
 
 def _cos_vec(cosine: float) -> np.ndarray:
-    return np.asarray(
-        [cosine, float(np.sqrt(1.0 - cosine * cosine))], dtype=np.float32
-    )
+    return np.asarray([cosine, float(np.sqrt(1.0 - cosine * cosine))], dtype=np.float32)
 
 
 # --- injection through the filter/backend ----------------------------------
@@ -292,9 +287,7 @@ def test_closure_records_survivor_margin() -> None:
     index = FakeVectorIndex(
         [
             FakeVectorEntry("entry-a", _cos_vec(0.95), "Paris", "wiki:France"),
-            FakeVectorEntry(
-                "distractor", _cos_vec(0.75), "Berlin", "wiki:Berlin"
-            ),
+            FakeVectorEntry("distractor", _cos_vec(0.75), "Berlin", "wiki:Berlin"),
         ]
     )
     closure = build_closure_family(
@@ -308,9 +301,7 @@ def test_closure_records_survivor_margin() -> None:
     assert closure.s_del == pytest.approx(0.95)
     assert closure.s_surv == pytest.approx(0.75)
     assert closure.margin == pytest.approx(0.2)
-    assert [entry.entry_id for entry in closure.top_survivors] == [
-        "distractor"
-    ]
+    assert [entry.entry_id for entry in closure.top_survivors] == ["distractor"]
 
 
 # --- end-to-end ------------------------------------------------------------
@@ -319,9 +310,7 @@ def test_closure_records_survivor_margin() -> None:
 def _write_prompt(tmp_path: Path) -> Path:
     prompt_path = tmp_path / "prompts.jsonl"
     prompt_path.write_text(
-        json.dumps(
-            {"prompt_id": "pA", "prompt_text": PROMPT, "gold_object": "Paris"}
-        )
+        json.dumps({"prompt_id": "pA", "prompt_text": PROMPT, "gold_object": "Paris"})
         + "\n",
         encoding="utf-8",
     )
@@ -350,9 +339,7 @@ def test_adversarial_eval_end_to_end(tmp_path) -> None:
     )
 
     assert summary["attacked_facts"] == 1
-    evasion = {
-        row["template"]: row["evasion_rate"] for row in summary["evasion"]
-    }
+    evasion = {row["template"]: row["evasion_rate"] for row in summary["evasion"]}
     # Geometric-only closure: no backstop, so the verbatim survivor restores
     # the fact; the fake model cannot decode the hyphenated paraphrase.
     assert evasion["verbatim"] == 1.0

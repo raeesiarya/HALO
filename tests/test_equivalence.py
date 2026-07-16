@@ -5,7 +5,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from lmlm_audit.core.equivalence import (
+from halo.core.equivalence import (
     _flatten_alias_values,
     _unique_preserving_order,
     build_alias_set,
