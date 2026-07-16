@@ -32,7 +32,7 @@ ruvector.db
 .mcp.json
 
 # Generated audit results
-outputs/audit/
+outputs/
 
 # Downloaded model checkpoints
 checkpoints/
