@@ -85,11 +85,6 @@ implementation are auto-detected. `--index-path` is the memory being audited.
 Results, retrieval traces, embedding sidecars, probe CSVs, and closure
 manifests are written to the output directory (`outputs/popqa` by default).
 
-An example prompt file is at
-[data/colmlm/prompts_smoke.example.jsonl](data/colmlm/prompts_smoke.example.jsonl).
-For a proper experiment, give each prompt a reviewed deletion manifest rather
-than relying on `--bootstrap-oracle-from-full`.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
