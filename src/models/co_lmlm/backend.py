@@ -155,6 +155,7 @@ class CoLMLMAuditBackend:
     )
     answer_extractor: Callable[[str, str], str] = extract_colmlm_answer
     max_filter_overfetch: int = 4096
+    max_filter_search_k: int = 131072
     del_off_mode: str = "null-retrieval"
     release_source: str | None = None
     # Synthetic index entries (adversarial survivors) active for subsequent
@@ -164,6 +165,10 @@ class CoLMLMAuditBackend:
     def __post_init__(self) -> None:
         if self.max_filter_overfetch < 0:
             raise ValueError("max_filter_overfetch cannot be negative.")
+        if self.max_filter_search_k < self.max_filter_overfetch:
+            raise ValueError(
+                "max_filter_search_k cannot be smaller than max_filter_overfetch."
+            )
         if self.del_off_mode not in ("null-retrieval", "forbid-token"):
             raise ValueError(
                 "del_off_mode must be 'null-retrieval' or 'forbid-token', "
@@ -321,6 +326,7 @@ class CoLMLMAuditBackend:
                     injections=tuple(self.injections),
                     support_judge=self.support_judge,
                     max_filter_overfetch=self.max_filter_overfetch,
+                    max_filter_search_k=self.max_filter_search_k,
                 )
                 self.generator.index = filtered_index
                 result = self.generator.generate(example.prompt)

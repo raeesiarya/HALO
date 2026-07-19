@@ -94,6 +94,11 @@ class _FilteringSearchIndex:
     # and the semantic backstop like any real candidate.
     injections: tuple[Any, ...] = ()
     max_filter_overfetch: int = 4096
+    # Hard ceiling on the over-retrieval budget after progressive widening.
+    # A query landing in a densely-excluded region retries with a doubled
+    # budget until it finds enough retained candidates, the index runs out,
+    # or this ceiling is hit (which raises ExclusionSearchExhaustedError).
+    max_filter_search_k: int = 131072
     events: list[dict[str, Any]] = field(default_factory=list)
     query_embeddings: list[np.ndarray | None] = field(default_factory=list)
 
@@ -132,21 +137,7 @@ class _FilteringSearchIndex:
             extra = self.max_filter_overfetch
         else:
             extra = min(entry_exclusion_count, self.max_filter_overfetch)
-        search_k = top_k + extra
-        raw = self.base_index.search(
-            query_vector,
-            top_k=search_k,
-            similarity_threshold=similarity_threshold,
-        )
-        if raw and isinstance(raw[0], list):
-            if len(raw) != 1:
-                raise AuditIntegrationError(
-                    "Co-LMLM generator issued a single query but the index returned "
-                    f"{len(raw)} result lists."
-                )
-            raw = raw[0]
-        candidates = list(raw or [])
-        injected_count = 0
+        injected: list[Any] = []
         if self.injections and query_array is not None:
             query_norm = float(np.linalg.norm(query_array))
             if query_norm > 0.0:
@@ -160,7 +151,7 @@ class _FilteringSearchIndex:
                         continue
                     # Attribute-style, because the Co-LMLM generator reads
                     # result.text_value on whatever the search returns.
-                    candidates.append(
+                    injected.append(
                         SimpleNamespace(
                             id=injection.entry_id,
                             score=score,
@@ -177,43 +168,74 @@ class _FilteringSearchIndex:
                             vector=None,
                         )
                     )
-                    injected_count += 1
-                if injected_count:
-                    candidates.sort(
-                        key=lambda candidate: (
-                            -(
-                                score
-                                if (score := _candidate_score(candidate)) is not None
-                                else float("-inf")
-                            )
+
+        search_k = top_k + extra
+        search_k_ceiling = top_k + self.max_filter_search_k
+        widened_attempts = 0
+        while True:
+            raw = self.base_index.search(
+                query_vector,
+                top_k=search_k,
+                similarity_threshold=similarity_threshold,
+            )
+            if raw and isinstance(raw[0], list):
+                if len(raw) != 1:
+                    raise AuditIntegrationError(
+                        "Co-LMLM generator issued a single query but the index "
+                        f"returned {len(raw)} result lists."
+                    )
+                raw = raw[0]
+            candidates = list(raw or [])
+            index_exhausted = len(candidates) < search_k
+            if injected:
+                candidates.extend(injected)
+                candidates.sort(
+                    key=lambda candidate: (
+                        -(
+                            score
+                            if (score := _candidate_score(candidate)) is not None
+                            else float("-inf")
                         )
                     )
-        deleted: list[Any] = []
-        retained: list[Any] = []
-        for candidate in candidates:
-            excluded = self.exclude_all or self._is_excluded(candidate)
-            if not excluded and self.exclude_supporting:
-                # Semantic-closure backstop: also null any candidate the
-                # support judge marks as expressing the target answer, even
-                # when the materialized closure missed it.
-                excluded = bool(
-                    dict(
-                        self.support_judge(
-                            candidate, self.backstop_example or self.example
-                        )
-                    ).get("supports_target")
                 )
-            (deleted if excluded else retained).append(candidate)
-        selected = retained[:top_k]
+            deleted: list[Any] = []
+            retained: list[Any] = []
+            for candidate in candidates:
+                excluded = self.exclude_all or self._is_excluded(candidate)
+                if not excluded and self.exclude_supporting:
+                    # Semantic-closure backstop: also null any candidate the
+                    # support judge marks as expressing the target answer, even
+                    # when the materialized closure missed it.
+                    excluded = bool(
+                        dict(
+                            self.support_judge(
+                                candidate, self.backstop_example or self.example
+                            )
+                        ).get("supports_target")
+                    )
+                (deleted if excluded else retained).append(candidate)
+            selected = retained[:top_k]
+            if (
+                self.exclude_all
+                or len(selected) >= top_k
+                or index_exhausted
+                or search_k >= search_k_ceiling
+            ):
+                break
+            # Every fetched candidate was excluded away before top_k retained
+            # ones surfaced, but the index has more: widen and retry.
+            search_k = min(search_k * 2, search_k_ceiling)
+            widened_attempts += 1
 
         event = {
             "event_index": len(self.events),
             "threshold": similarity_threshold,
             "requested_top_k": top_k,
             "searched_top_k": search_k,
+            "widened_search_attempts": widened_attempts,
             "exclude_all": self.exclude_all,
             "exclude_supporting": self.exclude_supporting,
-            "injected_candidates_count": injected_count,
+            "injected_candidates_count": len(injected),
             "query_embedding_captured": query_array is not None,
             "query_dim": None if query_array is None else int(query_array.size),
             "query_l2_norm": (
@@ -241,17 +263,15 @@ class _FilteringSearchIndex:
 
         bounded_out = (
             not self.exclude_all
-            and (
-                exclusions_are_unbounded
-                or entry_exclusion_count > self.max_filter_overfetch
-            )
-            and len(candidates) == search_k
+            and not index_exhausted
             and len(selected) < top_k
         )
         if bounded_out:
             raise ExclusionSearchExhaustedError(
-                "The exclusion filter exhausted its over-retrieval budget before "
-                "finding enough retained candidates. Increase max_filter_overfetch "
-                "or use a native FAISS ID selector."
+                "The exclusion filter exhausted its over-retrieval budget "
+                f"(search_k={search_k} after {widened_attempts} widening "
+                f"retries) before finding {top_k} retained candidates. "
+                "Increase max_filter_search_k or use a native FAISS ID "
+                "selector."
             )
         return selected

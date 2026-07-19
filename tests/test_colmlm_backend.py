@@ -233,6 +233,87 @@ def test_source_manifest_filters_every_matching_candidate() -> None:
     assert index.calls == [(5, 0.7)]
 
 
+def test_exhausted_overfetch_widens_search_until_a_retained_candidate() -> None:
+    # 6 excluded entries from one source, then a retained neighbor. With
+    # max_filter_overfetch=4 the first fetch (top_k + 4 = 5) is entirely
+    # excluded, so the filter must widen and retry instead of raising.
+    excluded = [
+        FakeSearchResult(
+            id=f"source-entry-{i}",
+            score=0.99 - i * 0.01,
+            text_value="Paris",
+            metadata={"source_id": "wiki:France"},
+        )
+        for i in range(6)
+    ]
+    retained = FakeSearchResult(
+        id="neighbor-entry",
+        score=0.90,
+        text_value="Lyon",
+        metadata={"source_id": "wiki:Lyon"},
+    )
+    index = FakeIndex(excluded + [retained])
+    generator = FakeGenerator(index)
+    backend = CoLMLMAuditBackend(generator, max_filter_overfetch=4)
+    example = AuditExample.from_prompt_row(
+        {
+            "fact_id": "france-capital",
+            "prompt_text": "What is the capital of France?",
+            "gold_object": "Paris",
+            "deletion_manifest": {
+                "entry_ids": [],
+                "source_ids": ["wiki:France"],
+                "strategy": "source",
+            },
+        }
+    )
+
+    result = audit_example(backend, example, DatabaseState.DEL_ON)
+    trace = result["retrieval_trace"]
+    assert result["model_output"] == "Lyon"
+    assert index.calls == [(5, 0.7), (10, 0.7)]
+    event = trace["retrieval_events"][0]
+    assert event["searched_top_k"] == 10
+    assert event["widened_search_attempts"] == 1
+    assert trace["selected_candidate"]["entry_id"] == "neighbor-entry"
+
+
+def test_exhausted_widening_ceiling_still_raises() -> None:
+    excluded = [
+        FakeSearchResult(
+            id=f"source-entry-{i}",
+            score=0.99 - i * 0.001,
+            text_value="Paris",
+            metadata={"source_id": "wiki:France"},
+        )
+        for i in range(64)
+    ]
+    index = FakeIndex(excluded)
+    generator = FakeGenerator(index)
+    backend = CoLMLMAuditBackend(
+        generator, max_filter_overfetch=4, max_filter_search_k=16
+    )
+    example = AuditExample.from_prompt_row(
+        {
+            "fact_id": "france-capital",
+            "prompt_text": "What is the capital of France?",
+            "gold_object": "Paris",
+            "deletion_manifest": {
+                "entry_ids": [],
+                "source_ids": ["wiki:France"],
+                "strategy": "source",
+            },
+        }
+    )
+
+    from halo.interventions.errors import ExclusionSearchExhaustedError
+
+    with pytest.raises(ExclusionSearchExhaustedError, match="widening"):
+        audit_example(backend, example, DatabaseState.DEL_ON)
+    # 5 → 10 → 17 (top_k + ceiling), then stop.
+    assert index.calls == [(5, 0.7), (10, 0.7), (17, 0.7)]
+
+
 def test_deleted_states_require_a_manifest() -> None:
     backend, _, _ = _backend()
     example = AuditExample.from_prompt_row(
