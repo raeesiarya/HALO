@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "17624943_2440817_fact2",
+      "score": 0.9544501304626465,
+      "source_id": "17624943_2440817",
+      "value": " Vancouver, British Columbia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "102472_5997626_fact1",
+      "score": 0.6601754426956177,
+      "source_id": "102472_5997626",
+      "value": " Vancouver, British Columbia, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "124802_661404_fact249",
+      "score": 0.6274670362472534,
+      "source_id": "124802_661404",
+      "value": " Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4043371_710122_fact2",
+      "score": 0.6065402030944824,
+      "source_id": "4043371_710122",
+      "value": " Vancouver, British Columbia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59142040_5302748_fact2",
+      "score": 0.606199324131012,
+      "source_id": "59142040_5302748",
+      "value": " Vancouver, British Columbia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8661748_2881588_fact2",
+      "score": 0.6057469844818115,
+      "source_id": "8661748_2881588",
+      "value": " Vancouver, British Columbia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e6159e3d-69b4-463c-82af-83f9c71987ce",
+  "index_nprobe": null,
+  "manifest_id": "989b7b33f3ed70b4",
+  "margin": 0.2068781852722168,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9544501304626465,
+  "s_surv": 0.7475719451904297,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "22522186_2335923_fact2",
+      "score": 0.7475719451904297,
+      "source_id": "22522186_2335923",
+      "value": " Philadelphia, Pennsylvania"
+    },
+    {
+      "entry_id": "125559_6002725_fact2",
+      "score": 0.7474826574325562,
+      "source_id": "125559_6002725",
+      "value": " Wales"
+    },
+    {
+      "entry_id": "40294654_5769423_fact1",
+      "score": 0.7371241450309753,
+      "source_id": "40294654_5769423",
+      "value": " Dublin, Ireland"
+    },
+    {
+      "entry_id": "2213065_497935_fact3",
+      "score": 0.7340933084487915,
+      "source_id": "2213065_497935",
+      "value": " Bridgend"
+    },
+    {
+      "entry_id": "47967144_4492617_fact1",
+      "score": 0.7338434457778931,
+      "source_id": "47967144_4492617",
+      "value": " Bastrop and Monroe, Louisiana"
+    }
+  ],
+  "truncated": false
+}

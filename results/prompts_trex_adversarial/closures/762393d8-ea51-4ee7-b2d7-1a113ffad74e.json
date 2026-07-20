@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "5487882_902328_fact213",
+      "score": 0.8109225630760193,
+      "source_id": "5487882_902328",
+      "value": " the Incorporated Society of Musicians"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "762393d8-ea51-4ee7-b2d7-1a113ffad74e",
+  "index_nprobe": null,
+  "manifest_id": "0fbe55d71f93c044",
+  "margin": 0.05397409200668335,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8109225034713745,
+  "s_surv": 0.7569484114646912,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "56408628_5687345_fact6",
+      "score": 0.7569484114646912,
+      "source_id": "56408628_5687345",
+      "value": " Los Alamos National Security, LLC"
+    },
+    {
+      "entry_id": "12297354_2067675_fact60",
+      "score": 0.7388195395469666,
+      "source_id": "12297354_2067675",
+      "value": " Kendon Petroleum Company"
+    },
+    {
+      "entry_id": "69153394_4991214_fact37",
+      "score": 0.7363597750663757,
+      "source_id": "69153394_4991214",
+      "value": " the Bullingdon club"
+    },
+    {
+      "entry_id": "3062571_678718_fact66",
+      "score": 0.719017505645752,
+      "source_id": "3062571_678718",
+      "value": " Beech Creek Railroad"
+    },
+    {
+      "entry_id": "19458667_1899634_fact43",
+      "score": 0.7158199548721313,
+      "source_id": "19458667_1899634",
+      "value": " Eastern Ivy League Collegiate Football Association"
+    }
+  ],
+  "truncated": false
+}

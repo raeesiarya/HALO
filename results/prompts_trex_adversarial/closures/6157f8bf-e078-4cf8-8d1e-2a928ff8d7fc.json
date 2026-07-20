@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "6634323_681371_fact35",
+      "score": 0.885930061340332,
+      "source_id": "6634323_681371",
+      "value": " accordionist"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "4277302_966626_fact12",
+      "score": 0.8713515400886536,
+      "source_id": "4277302_966626",
+      "value": " American"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "848479_6140432_fact4",
+      "score": 0.7454208135604858,
+      "source_id": "848479_6140432",
+      "value": " accordionist"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6157f8bf-e078-4cf8-8d1e-2a928ff8d7fc",
+  "index_nprobe": null,
+  "manifest_id": "9c31552e34da60c1",
+  "margin": 0.11682701110839844,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.885930061340332,
+  "s_surv": 0.7691030502319336,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4277302_966626_fact13",
+      "score": 0.7691030502319336,
+      "source_id": "4277302_966626",
+      "value": " musician"
+    },
+    {
+      "entry_id": "395236_6053552_fact96",
+      "score": 0.7445358037948608,
+      "source_id": "395236_6053552",
+      "value": " assistant conductor"
+    },
+    {
+      "entry_id": "58576_1143975_fact194",
+      "score": 0.7143436670303345,
+      "source_id": "58576_1143975",
+      "value": " assistant conductor"
+    },
+    {
+      "entry_id": "877691_918273_fact9",
+      "score": 0.5946917533874512,
+      "source_id": "877691_918273",
+      "value": " Welk's principal assistant and second-in-command"
+    },
+    {
+      "entry_id": "2662045_130364_fact30",
+      "score": 0.5944019556045532,
+      "source_id": "2662045_130364",
+      "value": " Hollywood agent"
+    }
+  ],
+  "truncated": false
+}

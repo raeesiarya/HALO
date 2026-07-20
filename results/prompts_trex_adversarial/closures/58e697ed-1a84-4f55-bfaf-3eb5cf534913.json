@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "49046484_5285496_fact4",
+      "score": 0.788956880569458,
+      "source_id": "49046484_5285496",
+      "value": " Sumerian Records"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "112488_5999234_fact28",
+      "score": 0.6559523344039917,
+      "source_id": "112488_5999234",
+      "value": " Decca"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "172351_1178918_fact115",
+      "score": 0.6356260776519775,
+      "source_id": "172351_1178918",
+      "value": " Decca"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "172356_1178986_fact53",
+      "score": 0.6308513283729553,
+      "source_id": "172356_1178986",
+      "value": " Decca"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "58e697ed-1a84-4f55-bfaf-3eb5cf534913",
+  "index_nprobe": null,
+  "manifest_id": "62efe85bc84badc0",
+  "margin": 0.004746139049530029,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.788956880569458,
+  "s_surv": 0.784210741519928,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4142782_819009_fact32",
+      "score": 0.784210741519928,
+      "source_id": "4142782_819009",
+      "value": " AmRep's European offshoot"
+    },
+    {
+      "entry_id": "22047862_1895242_fact3",
+      "score": 0.7776055335998535,
+      "source_id": "22047862_1895242",
+      "value": " Warner Music Group"
+    },
+    {
+      "entry_id": "238728_477961_fact71",
+      "score": 0.7768858671188354,
+      "source_id": "238728_477961",
+      "value": " German"
+    },
+    {
+      "entry_id": "39322070_4956039_fact4",
+      "score": 0.7752972841262817,
+      "source_id": "39322070_4956039",
+      "value": " Prestige label"
+    },
+    {
+      "entry_id": "69591780_5301366_fact3",
+      "score": 0.7738934755325317,
+      "source_id": "69591780_5301366",
+      "value": " A&amp;M"
+    }
+  ],
+  "truncated": false
+}

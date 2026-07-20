@@ -1,0 +1,125 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "25558230_2919579_fact1",
+      "score": 0.9248355627059937,
+      "source_id": "25558230_2919579",
+      "value": " political party"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "40178080_5680865_fact0",
+      "score": 0.8800535202026367,
+      "source_id": "40178080_5680865",
+      "value": " political party"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "45635396_5373147_fact1",
+      "score": 0.8771032691001892,
+      "source_id": "45635396_5373147",
+      "value": " political party"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "14201284_1741079_fact1",
+      "score": 0.8735268115997314,
+      "source_id": "14201284_1741079",
+      "value": " minor political party"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "67756618_4004104_fact5",
+      "score": 0.8610503077507019,
+      "source_id": "67756618_4004104",
+      "value": " small, opposition party"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "875392_6146125_fact5",
+      "score": 0.8569051027297974,
+      "source_id": "875392_6146125",
+      "value": " small opposition party"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32155290_1489638_fact0",
+      "score": 0.8350124359130859,
+      "source_id": "32155290_1489638",
+      "value": " political coalition in French India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "844713_796416_fact1",
+      "score": 0.6895873546600342,
+      "source_id": "844713_796416",
+      "value": " World War II French Resistance movement"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "04566835-f70b-449a-87cd-f441d19c7b7a",
+  "index_nprobe": null,
+  "manifest_id": "7832408456a6c6e8",
+  "margin": 0.0766410231590271,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9248354434967041,
+  "s_surv": 0.848194420337677,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "25662915_3006260_fact0",
+      "score": 0.848194420337677,
+      "source_id": "25662915_3006260",
+      "value": " political party"
+    },
+    {
+      "entry_id": "27281919_2031695_fact0",
+      "score": 0.8481189012527466,
+      "source_id": "27281919_2031695",
+      "value": " political party"
+    },
+    {
+      "entry_id": "8160367_2230652_fact0",
+      "score": 0.8401144742965698,
+      "source_id": "8160367_2230652",
+      "value": " coalition of left-wing Mexican political parties"
+    },
+    {
+      "entry_id": "1831094_939624_fact18",
+      "score": 0.8375910520553589,
+      "source_id": "1831094_939624",
+      "value": " umbrella political organization of ethnic nationalities"
+    },
+    {
+      "entry_id": "39192809_4827620_fact1",
+      "score": 0.8374428749084473,
+      "source_id": "39192809_4827620",
+      "value": " militant group"
+    }
+  ],
+  "truncated": false
+}

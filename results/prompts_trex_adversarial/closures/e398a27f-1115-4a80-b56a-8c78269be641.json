@@ -1,0 +1,538 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "14618418_2158323_fact1",
+      "score": 0.7678378224372864,
+      "source_id": "14618418_2158323",
+      "value": " Southampton"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15657556_3140404_fact4",
+      "score": 0.7489650249481201,
+      "source_id": "15657556_3140404",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "417906_383883_fact9",
+      "score": 0.7445115447044373,
+      "source_id": "417906_383883",
+      "value": " Grosvenor Square, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2297605_658031_fact7",
+      "score": 0.7156018018722534,
+      "source_id": "2297605_658031",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "287396_773423_fact15",
+      "score": 0.7104065418243408,
+      "source_id": "287396_773423",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6209291_412429_fact6",
+      "score": 0.6985198259353638,
+      "source_id": "6209291_412429",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2395915_835131_fact23",
+      "score": 0.6871087551116943,
+      "source_id": "2395915_835131",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "530628_927060_fact14",
+      "score": 0.6847003102302551,
+      "source_id": "530628_927060",
+      "value": " Lancaster Gate, west London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10200245_2203211_fact9",
+      "score": 0.6767761707305908,
+      "source_id": "10200245_2203211",
+      "value": " Hill Street in London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "238595_476869_fact11",
+      "score": 0.675108790397644,
+      "source_id": "238595_476869",
+      "value": " Leicester House, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25574915_2936901_fact7",
+      "score": 0.6748723387718201,
+      "source_id": "25574915_2936901",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63832563_3772999_fact6",
+      "score": 0.6728717684745789,
+      "source_id": "63832563_3772999",
+      "value": " Wilton Place, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13253_317375_fact14",
+      "score": 0.6630375385284424,
+      "source_id": "13253_317375",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23129049_2883564_fact5",
+      "score": 0.6615948677062988,
+      "source_id": "23129049_2883564",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3025726_623453_fact2",
+      "score": 0.6591225862503052,
+      "source_id": "3025726_623453",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67267696_3628397_fact5",
+      "score": 0.6555299162864685,
+      "source_id": "67267696_3628397",
+      "value": " Southwark, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7231255_1112417_fact5",
+      "score": 0.6554304361343384,
+      "source_id": "7231255_1112417",
+      "value": " Camberwell, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3468199_1211152_fact1",
+      "score": 0.6519419550895691,
+      "source_id": "3468199_1211152",
+      "value": " London, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1105658_414579_fact16",
+      "score": 0.6519331932067871,
+      "source_id": "1105658_414579",
+      "value": " Clapton, County of London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "417359_380672_fact18",
+      "score": 0.6518785953521729,
+      "source_id": "417359_380672",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1244690_803313_fact8",
+      "score": 0.6477686166763306,
+      "source_id": "1244690_803313",
+      "value": " South Audley Street, Mayfair, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65886499_5177045_fact21",
+      "score": 0.6437535285949707,
+      "source_id": "65886499_5177045",
+      "value": " 31 Queen's Gate, South Kensington, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14089659_1631508_fact12",
+      "score": 0.6415565609931946,
+      "source_id": "14089659_1631508",
+      "value": " Portland Place, Marylebone, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1257748_841058_fact3",
+      "score": 0.6401510238647461,
+      "source_id": "1257748_841058",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2489363_989477_fact7",
+      "score": 0.6382565498352051,
+      "source_id": "2489363_989477",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1001365_6171209_fact6",
+      "score": 0.6365017890930176,
+      "source_id": "1001365_6171209",
+      "value": " The Portland Hospital, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2727297_216973_fact10",
+      "score": 0.6339555978775024,
+      "source_id": "2727297_216973",
+      "value": " the London home of his maternal grandfather"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34198431_3169281_fact5",
+      "score": 0.6332647800445557,
+      "source_id": "34198431_3169281",
+      "value": " Kensington, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24698721_2126251_fact7",
+      "score": 0.6327233910560608,
+      "source_id": "24698721_2126251",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28461000_3074011_fact5",
+      "score": 0.632716178894043,
+      "source_id": "28461000_3074011",
+      "value": " Whitehall in Westminster, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24323522_1776653_fact5",
+      "score": 0.6323652267456055,
+      "source_id": "24323522_1776653",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19560265_1982854_fact10",
+      "score": 0.630599856376648,
+      "source_id": "19560265_1982854",
+      "value": " King's Arms Yard, Coleman Street, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2350736_755005_fact9",
+      "score": 0.6290851831436157,
+      "source_id": "2350736_755005",
+      "value": " Knightsbridge, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "996698_128925_fact10",
+      "score": 0.6285407543182373,
+      "source_id": "996698_128925",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24686492_2115585_fact13",
+      "score": 0.6248359084129333,
+      "source_id": "24686492_2115585",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19040509_1503862_fact6",
+      "score": 0.6238956451416016,
+      "source_id": "19040509_1503862",
+      "value": " Marylebone, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "996760_129100_fact6",
+      "score": 0.6238270401954651,
+      "source_id": "996760_129100",
+      "value": " George Yard, Shoreditch, London,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62511995_5215554_fact6",
+      "score": 0.6232333183288574,
+      "source_id": "62511995_5215554",
+      "value": " Wimborne, Dorsetshire or Kennington, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8413779_2551724_fact7",
+      "score": 0.6209872961044312,
+      "source_id": "8413779_2551724",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "200357_220144_fact30",
+      "score": 0.6198630928993225,
+      "source_id": "200357_220144",
+      "value": " London, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24642474_2077003_fact21",
+      "score": 0.6195003390312195,
+      "source_id": "24642474_2077003",
+      "value": " Maida Vale, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59723273_5633851_fact6",
+      "score": 0.6193897724151611,
+      "source_id": "59723273_5633851",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43349806_5904663_fact14",
+      "score": 0.6184134483337402,
+      "source_id": "43349806_5904663",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1164827_576389_fact7",
+      "score": 0.6178678870201111,
+      "source_id": "1164827_576389",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "409451_332463_fact17",
+      "score": 0.6166651248931885,
+      "source_id": "409451_332463",
+      "value": " Harley Street, Marylebone, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30941085_2668981_fact3",
+      "score": 0.6159817576408386,
+      "source_id": "30941085_2668981",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27201247_1975184_fact9",
+      "score": 0.61588454246521,
+      "source_id": "27201247_1975184",
+      "value": " Edmonton, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6055345_288611_fact13",
+      "score": 0.615679144859314,
+      "source_id": "6055345_288611",
+      "value": " Lansdowne House in London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1378222_1113851_fact7",
+      "score": 0.6155266165733337,
+      "source_id": "1378222_1113851",
+      "value": " Hampstead, north London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21163118_3437307_fact27",
+      "score": 0.6146028637886047,
+      "source_id": "21163118_3437307",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15478122_2977202_fact11",
+      "score": 0.6130660772323608,
+      "source_id": "15478122_2977202",
+      "value": " Uxbridge, west London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27241086_2001265_fact6",
+      "score": 0.6122819185256958,
+      "source_id": "27241086_2001265",
+      "value": " Poland Street in London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2571048_1112596_fact19",
+      "score": 0.6090176105499268,
+      "source_id": "2571048_1112596",
+      "value": " London, Canada West"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29807426_1750231_fact6",
+      "score": 0.6081413626670837,
+      "source_id": "29807426_1750231",
+      "value": " London, Ontario"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e398a27f-1115-4a80-b56a-8c78269be641",
+  "index_nprobe": null,
+  "manifest_id": "8d07d46001767bc7",
+  "margin": 0.020178139209747314,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7678377628326416,
+  "s_surv": 0.7476596236228943,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7869781_1833510_fact4",
+      "score": 0.7476596236228943,
+      "source_id": "7869781_1833510",
+      "value": " Melbourne"
+    },
+    {
+      "entry_id": "1931727_1145713_fact7",
+      "score": 0.745618462562561,
+      "source_id": "1931727_1145713",
+      "value": " Cape Town, Union of South Africa"
+    },
+    {
+      "entry_id": "13967740_1514880_fact5",
+      "score": 0.7447404861450195,
+      "source_id": "13967740_1514880",
+      "value": " Castle Howard, Yorkshire"
+    },
+    {
+      "entry_id": "53617490_3716785_fact11",
+      "score": 0.7447174191474915,
+      "source_id": "53617490_3716785",
+      "value": " Cork, Ireland"
+    },
+    {
+      "entry_id": "19343947_1790787_fact6",
+      "score": 0.7446304559707642,
+      "source_id": "19343947_1790787",
+      "value": " Rotherham"
+    }
+  ],
+  "truncated": false
+}

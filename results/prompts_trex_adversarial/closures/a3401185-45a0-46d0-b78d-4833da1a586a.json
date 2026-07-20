@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2411857_863176_fact9",
+      "score": 0.8172318935394287,
+      "source_id": "2411857_863176",
+      "value": " Brian Michael Bendis and Joe Quesada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5462396_883182_fact217",
+      "score": 0.6921646595001221,
+      "source_id": "5462396_883182",
+      "value": " Unity Technologies Japan designer \"ntny\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46721093_5887787_fact1",
+      "score": 0.6762683391571045,
+      "source_id": "46721093_5887787",
+      "value": " Hobby Japan and Megahouse"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37357150_3339617_fact83",
+      "score": 0.668861985206604,
+      "source_id": "37357150_3339617",
+      "value": "Real Japan Pro Wrestling"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a3401185-45a0-46d0-b78d-4833da1a586a",
+  "index_nprobe": null,
+  "manifest_id": "04da0b82a3bbf31a",
+  "margin": 0.026742100715637207,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8172317743301392,
+  "s_surv": 0.790489673614502,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "48516564_4834411_fact9",
+      "score": 0.790489673614502,
+      "source_id": "48516564_4834411",
+      "value": " novelist Kan Shimozawa"
+    },
+    {
+      "entry_id": "27616149_2323208_fact30",
+      "score": 0.7895287275314331,
+      "source_id": "27616149_2323208",
+      "value": " Shoko Nakagawa"
+    },
+    {
+      "entry_id": "7399130_1218420_fact6",
+      "score": 0.7887543439865112,
+      "source_id": "7399130_1218420",
+      "value": " novelist Kan Shimozawa"
+    },
+    {
+      "entry_id": "3839820_494653_fact9",
+      "score": 0.783869206905365,
+      "source_id": "3839820_494653",
+      "value": " Karl Gotch"
+    },
+    {
+      "entry_id": "1626776_496063_fact43",
+      "score": 0.7817124128341675,
+      "source_id": "1626776_496063",
+      "value": " Ikki Kajiwara and Naoki Tsuji"
+    }
+  ],
+  "truncated": false
+}

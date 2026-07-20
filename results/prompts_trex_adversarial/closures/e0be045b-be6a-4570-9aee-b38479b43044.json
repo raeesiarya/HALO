@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "474076_670646_fact73",
+      "score": 0.9133217334747314,
+      "source_id": "474076_670646",
+      "value": " Strasbourg"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e0be045b-be6a-4570-9aee-b38479b43044",
+  "index_nprobe": null,
+  "manifest_id": "d199b8679984e476",
+  "margin": 0.15544718503952026,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9133217334747314,
+  "s_surv": 0.7578745484352112,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "57063363_3805934_fact124",
+      "score": 0.7578745484352112,
+      "source_id": "57063363_3805934",
+      "value": " April 2022"
+    },
+    {
+      "entry_id": "57063363_3805934_fact115",
+      "score": 0.7531880736351013,
+      "source_id": "57063363_3805934",
+      "value": " January 2017"
+    },
+    {
+      "entry_id": "57063363_3805934_fact109",
+      "score": 0.7454915046691895,
+      "source_id": "57063363_3805934",
+      "value": " May 2014"
+    },
+    {
+      "entry_id": "57063363_3805934_fact111",
+      "score": 0.7395498752593994,
+      "source_id": "57063363_3805934",
+      "value": " September 2014"
+    },
+    {
+      "entry_id": "20488149_2737841_fact98",
+      "score": 0.7274835109710693,
+      "source_id": "20488149_2737841",
+      "value": " 2008"
+    }
+  ],
+  "truncated": false
+}

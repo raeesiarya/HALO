@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "15089808_2618357_fact2",
+      "score": 0.8305768966674805,
+      "source_id": "15089808_2618357",
+      "value": " Yasujir\u014d Ozu and Mikio Naruse"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ec135a3e-ef4e-4d6e-abef-2c08698353b9",
+  "index_nprobe": null,
+  "manifest_id": "41dffe3d40c62ea7",
+  "margin": 0.04072391986846924,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8305768966674805,
+  "s_surv": 0.7898529767990112,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "35966222_2229131_fact6",
+      "score": 0.7898529767990112,
+      "source_id": "35966222_2229131",
+      "value": " \"Krakatoa, East of Java\", \"MASH\", \"The Beverly Hillbillies\" and \"Hill Street Blues\"."
+    },
+    {
+      "entry_id": "466598_6068883_fact5",
+      "score": 0.7814443111419678,
+      "source_id": "466598_6068883",
+      "value": " \"Krakatoa, East of Java\", \"MASH\", \"The Beverly Hillbillies\" and \"Hill Street Blues\"."
+    },
+    {
+      "entry_id": "816251_6133091_fact2",
+      "score": 0.7650917768478394,
+      "source_id": "816251_6133091",
+      "value": " \"The Pornographers\", \"Warm Water Under a Red Bridge\", and \"The Ballad of Narayama\"."
+    },
+    {
+      "entry_id": "10950397_2948730_fact4",
+      "score": 0.7472572326660156,
+      "source_id": "10950397_2948730",
+      "value": " Nikkatsu's \"Roman Porno\" films"
+    },
+    {
+      "entry_id": "13324302_3280954_fact6",
+      "score": 0.7460311651229858,
+      "source_id": "13324302_3280954",
+      "value": " Gust"
+    }
+  ],
+  "truncated": false
+}

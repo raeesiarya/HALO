@@ -1,0 +1,127 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "18213038_2928470_fact1",
+      "score": 0.9445370435714722,
+      "source_id": "18213038_2928470",
+      "value": " Dublin"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "166705_1120223_fact2",
+      "score": 0.9444791078567505,
+      "source_id": "166705_1120223",
+      "value": " Dublin"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1290390_921654_fact9",
+      "score": 0.9337449073791504,
+      "source_id": "1290390_921654",
+      "value": " 1969"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "72716380_4955171_fact7",
+      "score": 0.8925763964653015,
+      "source_id": "72716380_4955171",
+      "value": " the end of 1969"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "13584230_3547365_fact3",
+      "score": 0.8771593570709229,
+      "source_id": "13584230_3547365",
+      "value": " 1969"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "124802_661404_fact258",
+      "score": 0.8755899667739868,
+      "source_id": "124802_661404",
+      "value": " the late 1960s"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13584230_3547365_fact2",
+      "score": 0.7417395114898682,
+      "source_id": "13584230_3547365",
+      "value": " Dublin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1219109_729364_fact3",
+      "score": 0.6529998183250427,
+      "source_id": "1219109_729364",
+      "value": " Dublin, Ireland"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8035b87f-42fc-408b-85ad-b5a46060deeb",
+  "index_nprobe": null,
+  "manifest_id": "4b117cf88d0eaa54",
+  "margin": 0.12216615676879883,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9445370435714722,
+  "s_surv": 0.8223708868026733,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "13584230_3547365_fact22",
+      "score": 0.8223708868026733,
+      "source_id": "13584230_3547365",
+      "value": " December 1969"
+    },
+    {
+      "entry_id": "300561_864718_fact15",
+      "score": 0.7907216548919678,
+      "source_id": "300561_864718",
+      "value": " 1969"
+    },
+    {
+      "entry_id": "39395692_5026357_fact3",
+      "score": 0.7578227519989014,
+      "source_id": "39395692_5026357",
+      "value": " Shandong"
+    },
+    {
+      "entry_id": "166705_1120223_fact3",
+      "score": 0.7452482581138611,
+      "source_id": "166705_1120223",
+      "value": " 1969"
+    },
+    {
+      "entry_id": "18213038_2928470_fact2",
+      "score": 0.7333070039749146,
+      "source_id": "18213038_2928470",
+      "value": " 1969"
+    }
+  ],
+  "truncated": false
+}

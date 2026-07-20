@@ -1,0 +1,152 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3609782_237374_fact35",
+      "score": 0.7160176038742065,
+      "source_id": "3609782_237374",
+      "value": " the Karachi port"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23934698_1363989_fact5",
+      "score": 0.6295965909957886,
+      "source_id": "23934698_1363989",
+      "value": " Karachi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "521006_885431_fact48",
+      "score": 0.6140382289886475,
+      "source_id": "521006_885431",
+      "value": " Pakistani Naval Headquarters of Karachi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33676993_2738056_fact11",
+      "score": 0.5970062017440796,
+      "source_id": "33676993_2738056",
+      "value": " Karachi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3594951_218358_fact36",
+      "score": 0.583881676197052,
+      "source_id": "3594951_218358",
+      "value": " of Karachi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "626625_156900_fact36",
+      "score": 0.5740599632263184,
+      "source_id": "626625_156900",
+      "value": " Pakistani Naval Headquarters of Karachi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30623703_2305359_fact158",
+      "score": 0.5692692995071411,
+      "source_id": "30623703_2305359",
+      "value": " the port of Karachi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "604522_69775_fact257",
+      "score": 0.5681984424591064,
+      "source_id": "604522_69775",
+      "value": " Pakistan Naval Headquarters of Karachi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66041635_5288536_fact169",
+      "score": 0.5667394399642944,
+      "source_id": "66041635_5288536",
+      "value": " Pakistan Naval Headquarters at Karachi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63947881_3865164_fact19",
+      "score": 0.5651152729988098,
+      "source_id": "63947881_3865164",
+      "value": " Karachi Harbour"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49949965_5846611_fact76",
+      "score": 0.553688645362854,
+      "source_id": "49949965_5846611",
+      "value": " Gwadar and Karachi"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e01baa0d-e062-4c8d-b121-a47251ca5228",
+  "index_nprobe": null,
+  "manifest_id": "9c6d5914706580a0",
+  "margin": 0.05763113498687744,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7160176038742065,
+  "s_surv": 0.6583864688873291,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7303629_1156043_fact25",
+      "score": 0.6583864688873291,
+      "source_id": "7303629_1156043",
+      "value": " the Vichy Fleet"
+    },
+    {
+      "entry_id": "22590198_2405919_fact101",
+      "score": 0.6552610397338867,
+      "source_id": "22590198_2405919",
+      "value": " Matruh, Egypt"
+    },
+    {
+      "entry_id": "13968791_1516491_fact246",
+      "score": 0.6419816613197327,
+      "source_id": "13968791_1516491",
+      "value": " Tel Aviv"
+    },
+    {
+      "entry_id": "25518925_2884144_fact5",
+      "score": 0.6404557228088379,
+      "source_id": "25518925_2884144",
+      "value": " the Sibutu Passage and the Balabac Strait of the Sulu Sea"
+    },
+    {
+      "entry_id": "3571266_191027_fact38",
+      "score": 0.639664351940155,
+      "source_id": "3571266_191027",
+      "value": " Safi, Morocco"
+    }
+  ],
+  "truncated": false
+}

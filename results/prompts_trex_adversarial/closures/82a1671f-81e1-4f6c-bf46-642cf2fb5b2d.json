@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "22628033_2438765_fact0",
+      "score": 0.6873383522033691,
+      "source_id": "22628033_2438765",
+      "value": " German website-builder"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "82a1671f-81e1-4f6c-bf46-642cf2fb5b2d",
+  "index_nprobe": null,
+  "manifest_id": "dff589477c4c8c13",
+  "margin": 0.016157150268554688,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6873383522033691,
+  "s_surv": 0.6711812019348145,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8440342_2587206_fact2",
+      "score": 0.6711812019348145,
+      "source_id": "8440342_2587206",
+      "value": " German luxury fashion house"
+    },
+    {
+      "entry_id": "27982993_2640727_fact1",
+      "score": 0.6652966737747192,
+      "source_id": "27982993_2640727",
+      "value": " American"
+    },
+    {
+      "entry_id": "20410720_2688103_fact1",
+      "score": 0.6605275869369507,
+      "source_id": "20410720_2688103",
+      "value": " Colombian"
+    },
+    {
+      "entry_id": "51408572_4599798_fact1",
+      "score": 0.6510318517684937,
+      "source_id": "51408572_4599798",
+      "value": " Swiss specialty chemistry company"
+    },
+    {
+      "entry_id": "42125580_4932611_fact0",
+      "score": 0.6503412127494812,
+      "source_id": "42125580_4932611",
+      "value": " American medical device company"
+    }
+  ],
+  "truncated": false
+}

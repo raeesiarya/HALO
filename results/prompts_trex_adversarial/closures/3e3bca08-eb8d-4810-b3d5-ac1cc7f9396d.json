@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1536130_297235_fact48",
+      "score": 0.6969810724258423,
+      "source_id": "1536130_297235",
+      "value": " lieutenant governor of Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "366454_119934_fact3",
+      "score": 0.6728595495223999,
+      "source_id": "366454_119934",
+      "value": " 27th Lieutenant Governor of Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7226332_1110264_fact20",
+      "score": 0.5833646059036255,
+      "source_id": "7226332_1110264",
+      "value": "formerly the Lieutenant-Governor of Ontario"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3e3bca08-eb8d-4810-b3d5-ac1cc7f9396d",
+  "index_nprobe": null,
+  "manifest_id": "d0c58f6e1199cd18",
+  "margin": 0.047303617000579834,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6969810724258423,
+  "s_surv": 0.6496774554252625,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "31650032_3367228_fact3",
+      "score": 0.6496774554252625,
+      "source_id": "31650032_3367228",
+      "value": " Colony of Rhode Island and Providence Plantations"
+    },
+    {
+      "entry_id": "24876491_2287229_fact3",
+      "score": 0.6442053318023682,
+      "source_id": "24876491_2287229",
+      "value": " the Colony of Rhode Island and Providence Plantations"
+    },
+    {
+      "entry_id": "1471381_169679_fact3",
+      "score": 0.6426385641098022,
+      "source_id": "1471381_169679",
+      "value": " the Gold Coast"
+    },
+    {
+      "entry_id": "1393904_1146109_fact159",
+      "score": 0.6319949626922607,
+      "source_id": "1393904_1146109",
+      "value": " the North-West Territories"
+    },
+    {
+      "entry_id": "33592488_2665099_fact69",
+      "score": 0.6232187151908875,
+      "source_id": "33592488_2665099",
+      "value": " Hampshire"
+    }
+  ],
+  "truncated": false
+}

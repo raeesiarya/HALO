@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "16551969_1498424_fact4",
+      "score": 0.8839153051376343,
+      "source_id": "16551969_1498424",
+      "value": " the former stately mansion"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16551969_1498424_fact5",
+      "score": 0.8218715190887451,
+      "source_id": "16551969_1498424",
+      "value": " Braunschweig"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38157111_3924558_fact9",
+      "score": 0.6147994995117188,
+      "source_id": "38157111_3924558",
+      "value": " the Duchy of Brunswick"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d1053958-1eec-409f-af09-875a6a912453",
+  "index_nprobe": null,
+  "manifest_id": "5df1f922f5012a63",
+  "margin": 0.049547672271728516,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8839151859283447,
+  "s_surv": 0.8343675136566162,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "22533284_2348356_fact7",
+      "score": 0.8343675136566162,
+      "source_id": "22533284_2348356",
+      "value": " the Julius Hospital's park"
+    },
+    {
+      "entry_id": "67601987_3879167_fact2",
+      "score": 0.7944990396499634,
+      "source_id": "67601987_3879167",
+      "value": " of Ostr\u00f3w Tumski"
+    },
+    {
+      "entry_id": "23488872_3220045_fact12",
+      "score": 0.792273998260498,
+      "source_id": "23488872_3220045",
+      "value": " Doberaner Stra\u00dfe"
+    },
+    {
+      "entry_id": "22559561_2374851_fact6",
+      "score": 0.7844842672348022,
+      "source_id": "22559561_2374851",
+      "value": " the southern edge of the university campus"
+    },
+    {
+      "entry_id": "23191044_2940604_fact9",
+      "score": 0.7784825563430786,
+      "source_id": "23191044_2940604",
+      "value": "1905 Osterdeich"
+    }
+  ],
+  "truncated": false
+}

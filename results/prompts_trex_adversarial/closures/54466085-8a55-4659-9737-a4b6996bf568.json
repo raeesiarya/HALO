@@ -1,0 +1,187 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "23852951_1282085_fact4",
+      "score": 0.8342636227607727,
+      "source_id": "23852951_1282085",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7571963_1432719_fact3",
+      "score": 0.6778456568717957,
+      "source_id": "7571963_1432719",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19008003_1456878_fact2",
+      "score": 0.6605254411697388,
+      "source_id": "19008003_1456878",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48859834_5134967_fact63",
+      "score": 0.6276745200157166,
+      "source_id": "48859834_5134967",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53417367_5960204_fact1",
+      "score": 0.6261274218559265,
+      "source_id": "53417367_5960204",
+      "value": " Sydney, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45686213_5415956_fact2",
+      "score": 0.612816572189331,
+      "source_id": "45686213_5415956",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "918248_1054382_fact33",
+      "score": 0.6071862578392029,
+      "source_id": "918248_1054382",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "319986_6038933_fact1",
+      "score": 0.6067834496498108,
+      "source_id": "319986_6038933",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22383177_2193494_fact3",
+      "score": 0.602112889289856,
+      "source_id": "22383177_2193494",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56075047_5453029_fact1",
+      "score": 0.6005236506462097,
+      "source_id": "56075047_5453029",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61808025_4733647_fact2",
+      "score": 0.5918079018592834,
+      "source_id": "61808025_4733647",
+      "value": " Sydney, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33247619_2388407_fact2",
+      "score": 0.5907408595085144,
+      "source_id": "33247619_2388407",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3874897_531246_fact4",
+      "score": 0.5874984860420227,
+      "source_id": "3874897_531246",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43403469_5948651_fact109",
+      "score": 0.5853105783462524,
+      "source_id": "43403469_5948651",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41656557_4514819_fact2",
+      "score": 0.5842755436897278,
+      "source_id": "41656557_4514819",
+      "value": " Australia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "54466085-8a55-4659-9737-a4b6996bf568",
+  "index_nprobe": null,
+  "manifest_id": "eb1a283c4784d149",
+  "margin": 0.05500340461730957,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8342635035514832,
+  "s_surv": 0.7792600989341736,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1938961_1158648_fact2",
+      "score": 0.7792600989341736,
+      "source_id": "1938961_1158648",
+      "value": " Belfast, Northern Ireland"
+    },
+    {
+      "entry_id": "38385058_4134520_fact4",
+      "score": 0.7487050294876099,
+      "source_id": "38385058_4134520",
+      "value": " Nashville, Tennessee"
+    },
+    {
+      "entry_id": "29214023_1320707_fact4",
+      "score": 0.7447323799133301,
+      "source_id": "29214023_1320707",
+      "value": " Newton Abbot"
+    },
+    {
+      "entry_id": "28373199_3012971_fact2",
+      "score": 0.7418115735054016,
+      "source_id": "28373199_3012971",
+      "value": " Jamaica"
+    },
+    {
+      "entry_id": "59843870_5711338_fact3",
+      "score": 0.7394638657569885,
+      "source_id": "59843870_5711338",
+      "value": " Dallas Center, Iowa"
+    }
+  ],
+  "truncated": false
+}

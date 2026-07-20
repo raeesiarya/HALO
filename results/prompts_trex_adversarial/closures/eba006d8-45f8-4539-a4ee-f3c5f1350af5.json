@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "16285552_1324754_fact114",
+      "score": 0.865161657333374,
+      "source_id": "16285552_1324754",
+      "value": " Johnny Mathis"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "eba006d8-45f8-4539-a4ee-f3c5f1350af5",
+  "index_nprobe": null,
+  "manifest_id": "f9786834f1577ebf",
+  "margin": 0.03168892860412598,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.865161657333374,
+  "s_surv": 0.833472728729248,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2123910_340907_fact23",
+      "score": 0.833472728729248,
+      "source_id": "2123910_340907",
+      "value": " J.P. Rags"
+    },
+    {
+      "entry_id": "24225138_1689362_fact91",
+      "score": 0.8295413255691528,
+      "source_id": "24225138_1689362",
+      "value": " Jan &amp; Dean"
+    },
+    {
+      "entry_id": "921865_1064427_fact153",
+      "score": 0.8263882398605347,
+      "source_id": "921865_1064427",
+      "value": " A&amp;M artists"
+    },
+    {
+      "entry_id": "9450108_1383789_fact97",
+      "score": 0.8246484994888306,
+      "source_id": "9450108_1383789",
+      "value": " Welsh group Stereophonics"
+    },
+    {
+      "entry_id": "1715414_693928_fact116",
+      "score": 0.8167939186096191,
+      "source_id": "1715414_693928",
+      "value": " Ray Charles"
+    }
+  ],
+  "truncated": false
+}

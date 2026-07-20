@@ -1,0 +1,235 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "10963916_2965178_fact24",
+      "score": 0.9552862644195557,
+      "source_id": "10963916_2965178",
+      "value": " Sydney, Australia"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "534704_942963_fact4",
+      "score": 0.8941336870193481,
+      "source_id": "534704_942963",
+      "value": " Dawes Point"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "39416739_5047976_fact21",
+      "score": 0.8747813701629639,
+      "source_id": "39416739_5047976",
+      "value": " Sydney, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2217843_506191_fact91",
+      "score": 0.8468355536460876,
+      "source_id": "2217843_506191",
+      "value": " Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5849256_122067_fact1",
+      "score": 0.8291318416595459,
+      "source_id": "5849256_122067",
+      "value": " Sydney, New South Wales, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32041224_1394403_fact151",
+      "score": 0.7298726439476013,
+      "source_id": "32041224_1394403",
+      "value": " Sydney, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5729257_1121137_fact121",
+      "score": 0.7101176977157593,
+      "source_id": "5729257_1121137",
+      "value": " Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "515790_862619_fact99",
+      "score": 0.7087458372116089,
+      "source_id": "515790_862619",
+      "value": " Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9370291_1297457_fact43",
+      "score": 0.6869198083877563,
+      "source_id": "9370291_1297457",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2315955_692538_fact40",
+      "score": 0.6715883612632751,
+      "source_id": "2315955_692538",
+      "value": " Sydney, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64735200_4485070_fact7",
+      "score": 0.6526958346366882,
+      "source_id": "64735200_4485070",
+      "value": " Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5571566_973525_fact27",
+      "score": 0.6425593495368958,
+      "source_id": "5571566_973525",
+      "value": " Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24783881_2213263_fact2",
+      "score": 0.6423293352127075,
+      "source_id": "24783881_2213263",
+      "value": " Phillip Street in Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39780506_5371575_fact9",
+      "score": 0.6422934532165527,
+      "source_id": "39780506_5371575",
+      "value": " Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69575818_5291477_fact58",
+      "score": 0.6361581683158875,
+      "source_id": "69575818_5291477",
+      "value": " Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4750741_274491_fact17",
+      "score": 0.6351748108863831,
+      "source_id": "4750741_274491",
+      "value": " Sydney Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4601559_144688_fact22",
+      "score": 0.6316699385643005,
+      "source_id": "4601559_144688",
+      "value": " Sydney Theatre Company"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7802241_1748271_fact80",
+      "score": 0.6277806758880615,
+      "source_id": "7802241_1748271",
+      "value": " Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1394126_1146740_fact55",
+      "score": 0.627619743347168,
+      "source_id": "1394126_1146740",
+      "value": " Sydney, NSW, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18561790_3255356_fact0",
+      "score": 0.6222876310348511,
+      "source_id": "18561790_3255356",
+      "value": " Sydney, Australia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "97c86416-6efd-4ee5-8247-be51a3b1b76c",
+  "index_nprobe": null,
+  "manifest_id": "48bb8b06a3161d56",
+  "margin": 0.14037305116653442,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9552862644195557,
+  "s_surv": 0.8149132132530212,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "46283402_5539338_fact19",
+      "score": 0.8149132132530212,
+      "source_id": "46283402_5539338",
+      "value": " Provincetown, Massachusetts"
+    },
+    {
+      "entry_id": "181011_75444_fact38",
+      "score": 0.8061450719833374,
+      "source_id": "181011_75444",
+      "value": " Provincetown, Massachusetts"
+    },
+    {
+      "entry_id": "18026594_2777773_fact17",
+      "score": 0.8000485897064209,
+      "source_id": "18026594_2777773",
+      "value": " Provincetown, Massachusetts"
+    },
+    {
+      "entry_id": "19140300_1595534_fact66",
+      "score": 0.7930305004119873,
+      "source_id": "19140300_1595534",
+      "value": " Provincetown"
+    },
+    {
+      "entry_id": "2775351_273492_fact72",
+      "score": 0.7797409296035767,
+      "source_id": "2775351_273492",
+      "value": " Dawes Point"
+    }
+  ],
+  "truncated": false
+}

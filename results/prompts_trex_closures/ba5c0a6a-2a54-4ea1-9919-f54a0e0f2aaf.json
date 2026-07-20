@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "25516477_2881869_fact3",
+      "score": 0.9320999383926392,
+      "source_id": "25516477_2881869",
+      "value": " Pendleton and Milton-Freewater"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ba5c0a6a-2a54-4ea1-9919-f54a0e0f2aaf",
+  "index_nprobe": null,
+  "manifest_id": "f50fb442ed2ee0cc",
+  "margin": 0.18159031867980957,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9320999383926392,
+  "s_surv": 0.7505096197128296,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8379632_2512843_fact3",
+      "score": 0.7505096197128296,
+      "source_id": "8379632_2512843",
+      "value": " Pine Grove and Green's Corners"
+    },
+    {
+      "entry_id": "3271709_975544_fact5",
+      "score": 0.7402560710906982,
+      "source_id": "3271709_975544",
+      "value": " Stratford and Alcester"
+    },
+    {
+      "entry_id": "110066_515541_fact5",
+      "score": 0.7397228479385376,
+      "source_id": "110066_515541",
+      "value": " Columbus and Tallahassee, Florida"
+    },
+    {
+      "entry_id": "29071715_3537901_fact109",
+      "score": 0.7356134653091431,
+      "source_id": "29071715_3537901",
+      "value": " North Weald and Ongar stations"
+    },
+    {
+      "entry_id": "1973024_76829_fact3",
+      "score": 0.7251019477844238,
+      "source_id": "1973024_76829",
+      "value": " Boulder Creek and Ben Lomond"
+    }
+  ],
+  "truncated": false
+}

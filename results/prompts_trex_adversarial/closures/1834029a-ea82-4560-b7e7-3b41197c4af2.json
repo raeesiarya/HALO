@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5404826_836875_fact3",
+      "score": 0.9054924845695496,
+      "source_id": "5404826_836875",
+      "value": " physiologist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71174867_3972267_fact10",
+      "score": 0.7567805051803589,
+      "source_id": "71174867_3972267",
+      "value": " Professor of Physiology at Cambridge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "414421_363898_fact43",
+      "score": 0.7021486759185791,
+      "source_id": "414421_363898",
+      "value": " respiratory physiologist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13980_337441_fact26",
+      "score": 0.6987464427947998,
+      "source_id": "13980_337441",
+      "value": " British physiologist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24619769_2058531_fact19",
+      "score": 0.5727753639221191,
+      "source_id": "24619769_2058531",
+      "value": " research physiologist"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1834029a-ea82-4560-b7e7-3b41197c4af2",
+  "index_nprobe": null,
+  "manifest_id": "782910e1e1088bd0",
+  "margin": 0.09006309509277344,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9054926633834839,
+  "s_surv": 0.8154295682907104,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "28914115_3410536_fact7",
+      "score": 0.8154295682907104,
+      "source_id": "28914115_3410536",
+      "value": " pioneer investigator of the physiological effects of high altitudes and cold"
+    },
+    {
+      "entry_id": "72333912_4722107_fact3",
+      "score": 0.7924337387084961,
+      "source_id": "72333912_4722107",
+      "value": " merchant and benefactor"
+    },
+    {
+      "entry_id": "5404826_836875_fact2",
+      "score": 0.7356333136558533,
+      "source_id": "5404826_836875",
+      "value": " British"
+    },
+    {
+      "entry_id": "9324692_1251466_fact3",
+      "score": 0.7188335061073303,
+      "source_id": "9324692_1251466",
+      "value": " ironmaster"
+    },
+    {
+      "entry_id": "158003_1032075_fact3",
+      "score": 0.7122995257377625,
+      "source_id": "158003_1032075",
+      "value": " composer and conductor"
+    }
+  ],
+  "truncated": false
+}

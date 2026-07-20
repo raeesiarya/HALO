@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "7385561_1209126_fact2",
+      "score": 0.9163923263549805,
+      "source_id": "7385561_1209126",
+      "value": " Clinton, Mississippi"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b8059430-82d7-4f4d-80b1-e4afc0d47e30",
+  "index_nprobe": null,
+  "manifest_id": "b434bfdc25edaa68",
+  "margin": 0.20553171634674072,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9163923263549805,
+  "s_surv": 0.7108606100082397,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4352036_1042085_fact0",
+      "score": 0.7108606100082397,
+      "source_id": "4352036_1042085",
+      "value": " 1994 to 2004"
+    },
+    {
+      "entry_id": "4352036_1042085_fact1",
+      "score": 0.703062117099762,
+      "source_id": "4352036_1042085",
+      "value": " Annapolis, Maryland"
+    },
+    {
+      "entry_id": "43144141_5742962_fact3",
+      "score": 0.696114182472229,
+      "source_id": "43144141_5742962",
+      "value": " Liverpool"
+    },
+    {
+      "entry_id": "4916979_409066_fact2",
+      "score": 0.6895372271537781,
+      "source_id": "4916979_409066",
+      "value": " Redlands, California, United States"
+    },
+    {
+      "entry_id": "40720356_3673313_fact1",
+      "score": 0.6865900754928589,
+      "source_id": "40720356_3673313",
+      "value": " Belfast and Derry, Northern Ireland"
+    }
+  ],
+  "truncated": false
+}

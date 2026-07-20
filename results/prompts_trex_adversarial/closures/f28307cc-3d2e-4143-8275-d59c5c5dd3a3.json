@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "8503190_2666852_fact9",
+      "score": 0.7282183170318604,
+      "source_id": "8503190_2666852",
+      "value": " 1525"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21149852_3424166_fact47",
+      "score": 0.7281776666641235,
+      "source_id": "21149852_3424166",
+      "value": " Venice"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20975376_3231980_fact15",
+      "score": 0.7231777310371399,
+      "source_id": "20975376_3231980",
+      "value": " Venice"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8069553_2101991_fact8",
+      "score": 0.5159836411476135,
+      "source_id": "8069553_2101991",
+      "value": "Venice"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f28307cc-3d2e-4143-8275-d59c5c5dd3a3",
+  "index_nprobe": null,
+  "manifest_id": "799ebaff35c3023e",
+  "margin": 0.02255260944366455,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7282183170318604,
+  "s_surv": 0.7056657075881958,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1392272_1140907_fact93",
+      "score": 0.7056657075881958,
+      "source_id": "1392272_1140907",
+      "value": "Venetian Printers of Hebrew Books"
+    },
+    {
+      "entry_id": "463575_618801_fact21",
+      "score": 0.6798509359359741,
+      "source_id": "463575_618801",
+      "value": " \"Russian Ballet\""
+    },
+    {
+      "entry_id": "21524430_1399408_fact63",
+      "score": 0.6414828300476074,
+      "source_id": "21524430_1399408",
+      "value": "1519-1523"
+    },
+    {
+      "entry_id": "13445770_3412895_fact32",
+      "score": 0.6359056234359741,
+      "source_id": "13445770_3412895",
+      "value": "1524\u201325"
+    },
+    {
+      "entry_id": "1607109_450975_fact21",
+      "score": 0.6128450632095337,
+      "source_id": "1607109_450975",
+      "value": " 1525"
+    }
+  ],
+  "truncated": false
+}

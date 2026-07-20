@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "34238449_3204912_fact0",
+      "score": 0.7966655492782593,
+      "source_id": "34238449_3204912",
+      "value": " higher music education institution"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37098394_3166898_fact15",
+      "score": 0.5861028432846069,
+      "source_id": "37098394_3166898",
+      "value": " Geneva, Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39387264_5018390_fact26",
+      "score": 0.5497110486030579,
+      "source_id": "39387264_5018390",
+      "value": " Geneva, Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21590151_1467049_fact11",
+      "score": 0.5234177708625793,
+      "source_id": "21590151_1467049",
+      "value": " Geneva, Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34238449_3204912_fact1",
+      "score": 0.5121752619743347,
+      "source_id": "34238449_3204912",
+      "value": " Geneva, Switzerland"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "acda4df2-1e75-4501-ba18-88d1c388ccad",
+  "index_nprobe": null,
+  "manifest_id": "0ea1fd1287c8b970",
+  "margin": 0.02462702989578247,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7966654300689697,
+  "s_surv": 0.7720384001731873,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "861186_6143233_fact0",
+      "score": 0.7720384001731873,
+      "source_id": "861186_6143233",
+      "value": " university"
+    },
+    {
+      "entry_id": "71851651_4421760_fact1",
+      "score": 0.7312391400337219,
+      "source_id": "71851651_4421760",
+      "value": " European art and design school"
+    },
+    {
+      "entry_id": "16163177_1236651_fact0",
+      "score": 0.7246719598770142,
+      "source_id": "16163177_1236651",
+      "value": " music school"
+    },
+    {
+      "entry_id": "13082_314542_fact0",
+      "score": 0.7148487567901611,
+      "source_id": "13082_314542",
+      "value": " private Christian college"
+    },
+    {
+      "entry_id": "16753740_1650815_fact61",
+      "score": 0.6942974328994751,
+      "source_id": "16753740_1650815",
+      "value": " Christian liberal arts college"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "2600270_1164930_fact16",
+      "score": 0.9214437007904053,
+      "source_id": "2600270_1164930",
+      "value": " Alfred Tarski, Kazimierz Kuratowski, Wac\u0142aw Sierpi\u0144ski"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c9b492fa-5ee6-4e69-938f-673053821ba9",
+  "index_nprobe": null,
+  "manifest_id": "e72d877c9435f5ba",
+  "margin": 0.14965307712554932,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9214435815811157,
+  "s_surv": 0.7717905044555664,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "362385_97221_fact22",
+      "score": 0.7717905044555664,
+      "source_id": "362385_97221",
+      "value": " topology"
+    },
+    {
+      "entry_id": "3035811_640741_fact38",
+      "score": 0.7547100782394409,
+      "source_id": "3035811_640741",
+      "value": "Stanis\u0142aw Le\u015bniewski, Stefan Mazurkiewicz and Wac\u0142aw Sierpi\u0144ski"
+    },
+    {
+      "entry_id": "59622163_5572279_fact12",
+      "score": 0.7440118789672852,
+      "source_id": "59622163_5572279",
+      "value": " Borsuk, \u0141ukasiewicz, Mazurkiewicz, Sierpi\u0144ski, Mostowski, and Kuratowski"
+    },
+    {
+      "entry_id": "1028394_210482_fact120",
+      "score": 0.7406872510910034,
+      "source_id": "1028394_210482",
+      "value": " Stanis\u0142aw Zaremba"
+    },
+    {
+      "entry_id": "33691108_2749370_fact3",
+      "score": 0.712304413318634,
+      "source_id": "33691108_2749370",
+      "value": " Andrzej Walicki, Jerzy Szacki and Krzysztof Pomian"
+    }
+  ],
+  "truncated": false
+}

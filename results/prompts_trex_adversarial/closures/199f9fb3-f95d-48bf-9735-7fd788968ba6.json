@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "3885736_543893_fact123",
+      "score": 0.7377004027366638,
+      "source_id": "3885736_543893",
+      "value": " three parts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58957661_5182066_fact21",
+      "score": 0.6498183608055115,
+      "source_id": "58957661_5182066",
+      "value": " 100 translations of English verse into Latin or Greek verse"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27134098_1920813_fact39",
+      "score": 0.6465016603469849,
+      "source_id": "27134098_1920813",
+      "value": " the English rendering of each verse"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3598541_223307_fact0",
+      "score": 0.6035857200622559,
+      "source_id": "3598541_223307",
+      "value": " English"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "199f9fb3-f95d-48bf-9735-7fd788968ba6",
+  "index_nprobe": null,
+  "manifest_id": "be07828d55cb6a7b",
+  "margin": 0.01615309715270996,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7377002239227295,
+  "s_surv": 0.7215471267700195,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "40413032_5850659_fact8",
+      "score": 0.7215471267700195,
+      "source_id": "40413032_5850659",
+      "value": " seventeen stories"
+    },
+    {
+      "entry_id": "27261937_2015427_fact35",
+      "score": 0.7098442912101746,
+      "source_id": "27261937_2015427",
+      "value": " twenty"
+    },
+    {
+      "entry_id": "67672534_3937384_fact93",
+      "score": 0.7092493772506714,
+      "source_id": "67672534_3937384",
+      "value": " 272 pages"
+    },
+    {
+      "entry_id": "62912446_5474163_fact37",
+      "score": 0.6942561864852905,
+      "source_id": "62912446_5474163",
+      "value": " over 3000 pages"
+    },
+    {
+      "entry_id": "12475410_2314452_fact30",
+      "score": 0.6904692649841309,
+      "source_id": "12475410_2314452",
+      "value": " more than 120,000 Chinese characters"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "33856333_2893645_fact2",
+      "score": 0.9251224398612976,
+      "source_id": "33856333_2893645",
+      "value": " Azerbaijani"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "09a72fdf-733a-4395-a7f3-1b3b54e2f807",
+  "index_nprobe": null,
+  "manifest_id": "887e2a448bbda782",
+  "margin": 0.22124171257019043,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9251223802566528,
+  "s_surv": 0.7038806676864624,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "40877787_3820737_fact1",
+      "score": 0.7038806676864624,
+      "source_id": "40877787_3820737",
+      "value": " amateur boxer"
+    },
+    {
+      "entry_id": "58831755_5092553_fact2",
+      "score": 0.7005696296691895,
+      "source_id": "58831755_5092553",
+      "value": " Uzbek"
+    },
+    {
+      "entry_id": "73079208_5142479_fact2",
+      "score": 0.6988719701766968,
+      "source_id": "73079208_5142479",
+      "value": " Uzbek"
+    },
+    {
+      "entry_id": "11373139_3430666_fact0",
+      "score": 0.6845778226852417,
+      "source_id": "11373139_3430666",
+      "value": " Iranian"
+    },
+    {
+      "entry_id": "64063348_3961195_fact2",
+      "score": 0.6826575994491577,
+      "source_id": "64063348_3961195",
+      "value": " Azerbaijani"
+    }
+  ],
+  "truncated": false
+}

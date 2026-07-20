@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1028030_209663_fact269",
+      "score": 0.7951164841651917,
+      "source_id": "1028030_209663",
+      "value": " potash mine"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7e79e946-fa4b-44a9-8498-4ee0abd74099",
+  "index_nprobe": null,
+  "manifest_id": "63a490e58ae4a45a",
+  "margin": 0.017750561237335205,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7951163649559021,
+  "s_surv": 0.7773658037185669,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "11867_289476_fact382",
+      "score": 0.7773658037185669,
+      "source_id": "11867_289476",
+      "value": " Berlin Wall"
+    },
+    {
+      "entry_id": "11829761_1518164_fact256",
+      "score": 0.7669053077697754,
+      "source_id": "11829761_1518164",
+      "value": " Treaty on the Final Settlement With Respect to Germany"
+    },
+    {
+      "entry_id": "29734047_1701559_fact215",
+      "score": 0.760492205619812,
+      "source_id": "29734047_1701559",
+      "value": " Communist Party of Germany"
+    },
+    {
+      "entry_id": "71153826_3962151_fact91",
+      "score": 0.7554975748062134,
+      "source_id": "71153826_3962151",
+      "value": " two oil crises"
+    },
+    {
+      "entry_id": "46201864_5471059_fact25",
+      "score": 0.7508029341697693,
+      "source_id": "46201864_5471059",
+      "value": " SED"
+    }
+  ],
+  "truncated": false
+}

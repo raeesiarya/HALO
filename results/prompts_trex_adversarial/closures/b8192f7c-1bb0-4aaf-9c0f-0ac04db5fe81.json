@@ -1,0 +1,180 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "42835187_5516988_fact9",
+      "score": 0.8512142896652222,
+      "source_id": "42835187_5516988",
+      "value": " Utrecht"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22645038_2457543_fact7",
+      "score": 0.7053110599517822,
+      "source_id": "22645038_2457543",
+      "value": " Utrecht"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36932763_3030115_fact70",
+      "score": 0.6952345371246338,
+      "source_id": "36932763_3030115",
+      "value": " Utrecht"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1559551_341330_fact13",
+      "score": 0.6930009126663208,
+      "source_id": "1559551_341330",
+      "value": " Utrecht, Netherlands"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35735486_2032548_fact23",
+      "score": 0.6868131160736084,
+      "source_id": "35735486_2032548",
+      "value": " Utrecht"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42533423_5275948_fact74",
+      "score": 0.6818407773971558,
+      "source_id": "42533423_5275948",
+      "value": " the Dutch city of Utrecht"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4773703_296131_fact1",
+      "score": 0.6792586445808411,
+      "source_id": "4773703_296131",
+      "value": " the city of Utrecht"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37868857_3674021_fact104",
+      "score": 0.6717455387115479,
+      "source_id": "37868857_3674021",
+      "value": " Utrecht"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1559551_341330_fact102",
+      "score": 0.669955313205719,
+      "source_id": "1559551_341330",
+      "value": " Utrecht, Netherlands"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8417924_2556792_fact81",
+      "score": 0.6336749196052551,
+      "source_id": "8417924_2556792",
+      "value": " Utrecht"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "320529_1006231_fact207",
+      "score": 0.6212038993835449,
+      "source_id": "320529_1006231",
+      "value": " Utrecht"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15238124_2757123_fact27",
+      "score": 0.6182541847229004,
+      "source_id": "15238124_2757123",
+      "value": " Utrecht"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "273429_706412_fact32",
+      "score": 0.6138496398925781,
+      "source_id": "273429_706412",
+      "value": " Utrecht"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1356113_1064419_fact71",
+      "score": 0.5545269846916199,
+      "source_id": "1356113_1064419",
+      "value": " Utrecht"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b8192f7c-1bb0-4aaf-9c0f-0ac04db5fe81",
+  "index_nprobe": null,
+  "manifest_id": "30cc17dcbe17f5d4",
+  "margin": 0.09556150436401367,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8512142896652222,
+  "s_surv": 0.7556527853012085,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "82244_245755_fact137",
+      "score": 0.7556527853012085,
+      "source_id": "82244_245755",
+      "value": " 1964"
+    },
+    {
+      "entry_id": "42835187_5516988_fact8",
+      "score": 0.7485628128051758,
+      "source_id": "42835187_5516988",
+      "value": " the Nederlands Film Festival"
+    },
+    {
+      "entry_id": "20119937_2465274_fact39",
+      "score": 0.74204421043396,
+      "source_id": "20119937_2465274",
+      "value": " Scheveningen"
+    },
+    {
+      "entry_id": "19797640_2166342_fact30",
+      "score": 0.7382246255874634,
+      "source_id": "19797640_2166342",
+      "value": " the Netherlands"
+    },
+    {
+      "entry_id": "72844683_5023727_fact21",
+      "score": 0.7370201349258423,
+      "source_id": "72844683_5023727",
+      "value": " Amsterdam"
+    }
+  ],
+  "truncated": false
+}

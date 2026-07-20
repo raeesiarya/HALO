@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "5016204_494781_fact12",
+      "score": 0.846938967704773,
+      "source_id": "5016204_494781",
+      "value": " the Bart\u00f3k Quartet"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3001b95b-5c81-4e76-895b-8a23c9482b20",
+  "index_nprobe": null,
+  "manifest_id": "ae002c735bec778d",
+  "margin": 0.12948763370513916,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8469388484954834,
+  "s_surv": 0.7174512147903442,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "656365_264982_fact4",
+      "score": 0.7174512147903442,
+      "source_id": "656365_264982",
+      "value": " artistic director"
+    },
+    {
+      "entry_id": "71745603_4361872_fact43",
+      "score": 0.6973354816436768,
+      "source_id": "71745603_4361872",
+      "value": " the Gewandhaus Orchestra"
+    },
+    {
+      "entry_id": "1097207_393825_fact36",
+      "score": 0.6965938806533813,
+      "source_id": "1097207_393825",
+      "value": " Kremerata Baltica"
+    },
+    {
+      "entry_id": "24015107_1455015_fact37",
+      "score": 0.632040798664093,
+      "source_id": "24015107_1455015",
+      "value": " soloist to record the work"
+    },
+    {
+      "entry_id": "23242924_2989422_fact58",
+      "score": 0.5727564096450806,
+      "source_id": "23242924_2989422",
+      "value": "Vocals/keyboards"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "31823462_3539733_fact10",
+      "score": 0.7295553684234619,
+      "source_id": "31823462_3539733",
+      "value": " Plovdiv International Fair and Hemus Defence Exhibition"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64602084_4383459_fact27",
+      "score": 0.5889511108398438,
+      "source_id": "64602084_4383459",
+      "value": " Moscow Victory Day Parade"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "66441464-daab-43e5-97e9-a63641dfec74",
+  "index_nprobe": null,
+  "manifest_id": "4478df45506359cf",
+  "margin": 0.008891820907592773,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7295553684234619,
+  "s_surv": 0.7206635475158691,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "47711053_4288779_fact52",
+      "score": 0.7206635475158691,
+      "source_id": "47711053_4288779",
+      "value": " OffshoreAlert conference"
+    },
+    {
+      "entry_id": "32388632_1673890_fact31",
+      "score": 0.7085684537887573,
+      "source_id": "32388632_1673890",
+      "value": " State Retail Deposit Insurance Fund"
+    },
+    {
+      "entry_id": "37494180_3444891_fact45",
+      "score": 0.7056423425674438,
+      "source_id": "37494180_3444891",
+      "value": " SPE's"
+    },
+    {
+      "entry_id": "36552006_2698362_fact116",
+      "score": 0.6788775324821472,
+      "source_id": "36552006_2698362",
+      "value": " the OSCE Human Dimension Implementation Meeting"
+    },
+    {
+      "entry_id": "36552006_2698362_fact75",
+      "score": 0.6703507304191589,
+      "source_id": "36552006_2698362",
+      "value": " Organization for Security and Co-operation in Europe (OSCE)"
+    }
+  ],
+  "truncated": false
+}

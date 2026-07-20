@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "24484778_1933909_fact154",
+      "score": 0.8303431272506714,
+      "source_id": "24484778_1933909",
+      "value": " \"Die Brautwahl\""
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b896ea0f-95b8-4f20-8c63-925165984954",
+  "index_nprobe": null,
+  "manifest_id": "ed4217465416b8d8",
+  "margin": 0.00847560167312622,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8303430676460266,
+  "s_surv": 0.8218674659729004,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "30235128_2019480_fact66",
+      "score": 0.8218674659729004,
+      "source_id": "30235128_2019480",
+      "value": "Las Horas Vac\u00edas"
+    },
+    {
+      "entry_id": "49446160_5563188_fact67",
+      "score": 0.8192809224128723,
+      "source_id": "49446160_5563188",
+      "value": " \"The Death of Pierrot\"."
+    },
+    {
+      "entry_id": "4998564_482503_fact18",
+      "score": 0.8130018711090088,
+      "source_id": "4998564_482503",
+      "value": " \"Gl'amori infruttuosi di Pirro\","
+    },
+    {
+      "entry_id": "5373026_811180_fact75",
+      "score": 0.8066523671150208,
+      "source_id": "5373026_811180",
+      "value": " \"Le Villi\","
+    },
+    {
+      "entry_id": "6482450_587019_fact50",
+      "score": 0.8060458898544312,
+      "source_id": "6482450_587019",
+      "value": " \"Amorosa presenza\""
+    }
+  ],
+  "truncated": false
+}

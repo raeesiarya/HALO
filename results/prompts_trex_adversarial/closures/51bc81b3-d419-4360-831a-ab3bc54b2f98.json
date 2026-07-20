@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "35740356_2037482_fact1",
+      "score": 0.7754135131835938,
+      "source_id": "35740356_2037482",
+      "value": " CBC Television"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "51bc81b3-d419-4360-831a-ab3bc54b2f98",
+  "index_nprobe": null,
+  "manifest_id": "f355f58d9cff2f2b",
+  "margin": 0.0084952712059021,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.775413453578949,
+  "s_surv": 0.7669181823730469,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "12097282_1822747_fact1",
+      "score": 0.7669181823730469,
+      "source_id": "12097282_1822747",
+      "value": " 8TV"
+    },
+    {
+      "entry_id": "838611_773104_fact51",
+      "score": 0.7393553853034973,
+      "source_id": "838611_773104",
+      "value": " NBC and ABC"
+    },
+    {
+      "entry_id": "58687629_5010732_fact5",
+      "score": 0.736375093460083,
+      "source_id": "58687629_5010732",
+      "value": " JTBC"
+    },
+    {
+      "entry_id": "7001431_955088_fact4",
+      "score": 0.7343910932540894,
+      "source_id": "7001431_955088",
+      "value": " Network Ten"
+    },
+    {
+      "entry_id": "2591276_1148705_fact2",
+      "score": 0.7124831676483154,
+      "source_id": "2591276_1148705",
+      "value": " the Seven Network"
+    }
+  ],
+  "truncated": false
+}

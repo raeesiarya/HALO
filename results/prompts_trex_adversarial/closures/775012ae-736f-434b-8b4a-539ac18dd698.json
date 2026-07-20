@@ -1,0 +1,126 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "4349_139798_fact4",
+      "score": 0.9134315848350525,
+      "source_id": "4349_139798",
+      "value": " the BBC's analogue teletext service"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "40081404_5599460_fact23",
+      "score": 0.9056653380393982,
+      "source_id": "40081404_5599460",
+      "value": " the BBC's analogue teletext service"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "352308_1195634_fact149",
+      "score": 0.8797914385795593,
+      "source_id": "352308_1195634",
+      "value": " teletext service"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "618536_124794_fact21",
+      "score": 0.857826292514801,
+      "source_id": "618536_124794",
+      "value": "BBC teletext service"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "112882_545903_fact19",
+      "score": 0.8525708317756653,
+      "source_id": "112882_545903",
+      "value": " one-way service carried in the existing TV signal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3614305_243395_fact17",
+      "score": 0.7615545988082886,
+      "source_id": "3614305_243395",
+      "value": " the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "842479_788197_fact22",
+      "score": 0.5063858032226562,
+      "source_id": "842479_788197",
+      "value": " BBC and ITV television companies"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "934382_1103656_fact90",
+      "score": 0.48151570558547974,
+      "source_id": "934382_1103656",
+      "value": " subscription digital video platform curated by the BBC and ITV"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "775012ae-736f-434b-8b4a-539ac18dd698",
+  "index_nprobe": null,
+  "manifest_id": "08f71652421654a4",
+  "margin": 0.0749545693397522,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9134315848350525,
+  "s_surv": 0.8384770154953003,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2227758_524500_fact144",
+      "score": 0.8384770154953003,
+      "source_id": "2227758_524500",
+      "value": " the BBC's teletext information service"
+    },
+    {
+      "entry_id": "1139893_517220_fact103",
+      "score": 0.8092136979103088,
+      "source_id": "1139893_517220",
+      "value": " similar Teletext format"
+    },
+    {
+      "entry_id": "175642_1211764_fact1",
+      "score": 0.7950059175491333,
+      "source_id": "175642_1211764",
+      "value": " the world's first teletext information service"
+    },
+    {
+      "entry_id": "1926240_1136038_fact50",
+      "score": 0.7586421370506287,
+      "source_id": "1926240_1136038",
+      "value": "seeing facts"
+    },
+    {
+      "entry_id": "2200533_475965_fact41",
+      "score": 0.7082855701446533,
+      "source_id": "2200533_475965",
+      "value": "see facts"
+    }
+  ],
+  "truncated": false
+}

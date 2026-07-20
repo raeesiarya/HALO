@@ -1,0 +1,216 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "285468_760419_fact1",
+      "score": 0.9497298002243042,
+      "source_id": "285468_760419",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65276425_4730554_fact1",
+      "score": 0.7671864628791809,
+      "source_id": "65276425_4730554",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4646543_183164_fact2",
+      "score": 0.7478264570236206,
+      "source_id": "4646543_183164",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44311170_4348127_fact1",
+      "score": 0.7093838453292847,
+      "source_id": "44311170_4348127",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27489286_2213622_fact2",
+      "score": 0.7076625823974609,
+      "source_id": "27489286_2213622",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63879479_3808716_fact1",
+      "score": 0.6898773908615112,
+      "source_id": "63879479_3808716",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5522539_934388_fact2",
+      "score": 0.6823954582214355,
+      "source_id": "5522539_934388",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20187001_2523146_fact1",
+      "score": 0.6688857078552246,
+      "source_id": "20187001_2523146",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30349782_2106705_fact1",
+      "score": 0.6484905481338501,
+      "source_id": "30349782_2106705",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22366951_2174903_fact0",
+      "score": 0.6454377174377441,
+      "source_id": "22366951_2174903",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15713121_3191351_fact0",
+      "score": 0.6434168815612793,
+      "source_id": "15713121_3191351",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72805892_5004207_fact2",
+      "score": 0.6402908563613892,
+      "source_id": "72805892_5004207",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35938726_2206241_fact1",
+      "score": 0.6399984359741211,
+      "source_id": "35938726_2206241",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25202032_2595934_fact1",
+      "score": 0.6391260623931885,
+      "source_id": "25202032_2595934",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5997638_242295_fact1",
+      "score": 0.6354687213897705,
+      "source_id": "5997638_242295",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "615832_114312_fact1",
+      "score": 0.6351311802864075,
+      "source_id": "615832_114312",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73207611_5202516_fact1",
+      "score": 0.6338382959365845,
+      "source_id": "73207611_5202516",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5809538_86920_fact2",
+      "score": 0.6305436491966248,
+      "source_id": "5809538_86920",
+      "value": " French"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ba990cfa-7bfa-4d01-a170-40ad1d6ad088",
+  "index_nprobe": null,
+  "manifest_id": "9d0679fbcac6c3f1",
+  "margin": 0.18933480978012085,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9497298002243042,
+  "s_surv": 0.7603949904441833,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "40728807_3679806_fact2",
+      "score": 0.7603949904441833,
+      "source_id": "40728807_3679806",
+      "value": " Belgian"
+    },
+    {
+      "entry_id": "42569685_5308474_fact2",
+      "score": 0.7471603155136108,
+      "source_id": "42569685_5308474",
+      "value": " politician"
+    },
+    {
+      "entry_id": "43269992_5840803_fact1",
+      "score": 0.7422617077827454,
+      "source_id": "43269992_5840803",
+      "value": " Dutch"
+    },
+    {
+      "entry_id": "52620121_5437783_fact1",
+      "score": 0.7387062311172485,
+      "source_id": "52620121_5437783",
+      "value": " Belgian"
+    },
+    {
+      "entry_id": "27085061_1872675_fact2",
+      "score": 0.730750560760498,
+      "source_id": "27085061_1872675",
+      "value": " actor, writer, director and video blogger"
+    }
+  ],
+  "truncated": false
+}

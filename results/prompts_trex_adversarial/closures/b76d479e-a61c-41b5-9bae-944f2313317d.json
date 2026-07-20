@@ -1,0 +1,241 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "18675143_3399188_fact212",
+      "score": 0.7121323347091675,
+      "source_id": "18675143_3399188",
+      "value": " former Superintendent of the Hong Kong Police Force"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1088352_368255_fact26",
+      "score": 0.6185819506645203,
+      "source_id": "1088352_368255",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3644000_279625_fact5",
+      "score": 0.6142705678939819,
+      "source_id": "3644000_279625",
+      "value": " actress of radio and theatre and stage"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15597346_3083416_fact3",
+      "score": 0.5702216625213623,
+      "source_id": "15597346_3083416",
+      "value": " actress and television host"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9173864_3546818_fact12",
+      "score": 0.5669417977333069,
+      "source_id": "9173864_3546818",
+      "value": " TVB actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "463263_6068216_fact3",
+      "score": 0.5659497976303101,
+      "source_id": "463263_6068216",
+      "value": " actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4581588_126153_fact4",
+      "score": 0.5517517328262329,
+      "source_id": "4581588_126153",
+      "value": " actor and martial artist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23507776_3240354_fact60",
+      "score": 0.5517052412033081,
+      "source_id": "23507776_3240354",
+      "value": " Hong Kong actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1287448_916698_fact8",
+      "score": 0.5488364696502686,
+      "source_id": "1287448_916698",
+      "value": " martial arts film actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52155654_5105896_fact45",
+      "score": 0.5467969179153442,
+      "source_id": "52155654_5105896",
+      "value": " singer, model, actress and film producer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14613543_2152402_fact26",
+      "score": 0.5434927940368652,
+      "source_id": "14613543_2152402",
+      "value": " Hong Kong actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7529858_1380223_fact2",
+      "score": 0.5381286144256592,
+      "source_id": "7529858_1380223",
+      "value": " actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24100188_1557655_fact2",
+      "score": 0.5377398729324341,
+      "source_id": "24100188_1557655",
+      "value": " film, television and theatre actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38666934_4359794_fact3",
+      "score": 0.535269021987915,
+      "source_id": "38666934_4359794",
+      "value": " child actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65802574_5114190_fact2",
+      "score": 0.5326598286628723,
+      "source_id": "65802574_5114190",
+      "value": " Chinese actress and Cantonese opera singer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46899727_5974989_fact137",
+      "score": 0.5303521156311035,
+      "source_id": "46899727_5974989",
+      "value": " renowned pianist and actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20073719_2424861_fact15",
+      "score": 0.5272010564804077,
+      "source_id": "20073719_2424861",
+      "value": " actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3610265_238202_fact18",
+      "score": 0.5222996473312378,
+      "source_id": "3610265_238202",
+      "value": " actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6574976_648836_fact3",
+      "score": 0.5192768573760986,
+      "source_id": "6574976_648836",
+      "value": " actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65660857_5004185_fact3",
+      "score": 0.5179293155670166,
+      "source_id": "65660857_5004185",
+      "value": " actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7632286_1517102_fact3",
+      "score": 0.5168763399124146,
+      "source_id": "7632286_1517102",
+      "value": " actress"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b76d479e-a61c-41b5-9bae-944f2313317d",
+  "index_nprobe": null,
+  "manifest_id": "7291a118f8de53a3",
+  "margin": 0.03615754842758179,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7121321558952332,
+  "s_surv": 0.6759746074676514,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "30278150_2057756_fact3",
+      "score": 0.6759746074676514,
+      "source_id": "30278150_2057756",
+      "value": " Miss Hong Kong Pageant 1987"
+    },
+    {
+      "entry_id": "50701476_4006504_fact6",
+      "score": 0.6697614192962646,
+      "source_id": "50701476_4006504",
+      "value": " director of undergraduate studies and director of graduate studies"
+    },
+    {
+      "entry_id": "18675143_3399188_fact210",
+      "score": 0.6695705056190491,
+      "source_id": "18675143_3399188",
+      "value": " MCIL"
+    },
+    {
+      "entry_id": "18675143_3399188_fact211",
+      "score": 0.6614600419998169,
+      "source_id": "18675143_3399188",
+      "value": " artist"
+    },
+    {
+      "entry_id": "25249144_2643168_fact2",
+      "score": 0.6592004299163818,
+      "source_id": "25249144_2643168",
+      "value": " Miss Hong Kong pageant"
+    }
+  ],
+  "truncated": false
+}

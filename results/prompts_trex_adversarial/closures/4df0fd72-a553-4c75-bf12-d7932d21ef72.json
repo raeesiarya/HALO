@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "14036095_1581482_fact1",
+      "score": 0.9438813924789429,
+      "source_id": "14036095_1581482",
+      "value": " Budapest, Hungary"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4df0fd72-a553-4c75-bf12-d7932d21ef72",
+  "index_nprobe": null,
+  "manifest_id": "567ebf8af5a40c24",
+  "margin": 0.14957022666931152,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9438813924789429,
+  "s_surv": 0.7943111658096313,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2690459_171304_fact3",
+      "score": 0.7943111658096313,
+      "source_id": "2690459_171304",
+      "value": " Belgrade"
+    },
+    {
+      "entry_id": "62743941_5366720_fact2",
+      "score": 0.7583081722259521,
+      "source_id": "62743941_5366720",
+      "value": " London, United Kingdom"
+    },
+    {
+      "entry_id": "21575311_1452572_fact2",
+      "score": 0.746802568435669,
+      "source_id": "21575311_1452572",
+      "value": " Birmingham, England"
+    },
+    {
+      "entry_id": "3766709_418003_fact3",
+      "score": 0.7406416535377502,
+      "source_id": "3766709_418003",
+      "value": " France"
+    },
+    {
+      "entry_id": "38663825_4357655_fact35",
+      "score": 0.7405561208724976,
+      "source_id": "38663825_4357655",
+      "value": " Sopron"
+    }
+  ],
+  "truncated": false
+}

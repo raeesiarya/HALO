@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "31665309_3381310_fact1",
+      "score": 0.9408607482910156,
+      "source_id": "31665309_3381310",
+      "value": " Calcutta, British India"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3d8eddb0-046f-4a4b-8507-5d8a45e5e860",
+  "index_nprobe": null,
+  "manifest_id": "eeaede3f070532dc",
+  "margin": 0.19060087203979492,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9408607482910156,
+  "s_surv": 0.7502598762512207,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "26457563_1358573_fact6",
+      "score": 0.7502598762512207,
+      "source_id": "26457563_1358573",
+      "value": " Tunstall, Stoke on Trent, Staffordshire"
+    },
+    {
+      "entry_id": "1597569_428441_fact1",
+      "score": 0.7339222431182861,
+      "source_id": "1597569_428441",
+      "value": " St Andrews"
+    },
+    {
+      "entry_id": "8981854_3314612_fact5",
+      "score": 0.7250545024871826,
+      "source_id": "8981854_3314612",
+      "value": " Ripon in the West Riding of Yorkshire"
+    },
+    {
+      "entry_id": "5902375_165386_fact7",
+      "score": 0.7178483009338379,
+      "source_id": "5902375_165386",
+      "value": " New York City"
+    },
+    {
+      "entry_id": "2993593_577009_fact15",
+      "score": 0.7089061737060547,
+      "source_id": "2993593_577009",
+      "value": " Kingston upon Thames"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,144 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "179081_1269692_fact1",
+      "score": 0.9418598413467407,
+      "source_id": "179081_1269692",
+      "value": " Oslo, Norway"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3818308_470898_fact0",
+      "score": 0.8288970589637756,
+      "source_id": "3818308_470898",
+      "value": " Oslo and Eastern Norway"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2596930_1158978_fact1",
+      "score": 0.7695367932319641,
+      "source_id": "2596930_1158978",
+      "value": " Oslo and B\u00e6rum"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22181795_2012045_fact1",
+      "score": 0.7641732096672058,
+      "source_id": "22181795_2012045",
+      "value": " Oslo and B\u00e6rum"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29474168_1508372_fact0",
+      "score": 0.7528041005134583,
+      "source_id": "29474168_1508372",
+      "value": " Oslo and B\u00e6rum"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15775087_3248287_fact29",
+      "score": 0.7230312824249268,
+      "source_id": "15775087_3248287",
+      "value": " all boroughs of Oslo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27195419_1970724_fact1",
+      "score": 0.6944055557250977,
+      "source_id": "27195419_1970724",
+      "value": " the central parts of Oslo, Norway"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25525828_2889907_fact2",
+      "score": 0.6386547684669495,
+      "source_id": "25525828_2889907",
+      "value": " Oslo, Norway"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9688173_1666969_fact0",
+      "score": 0.6088661551475525,
+      "source_id": "9688173_1666969",
+      "value": " Moss, Oslo and Eastern Norway"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5479136_895897_fact290",
+      "score": 0.5948923826217651,
+      "source_id": "5479136_895897",
+      "value": " Oslo"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7cff08e7-179b-4abe-b33b-739dbab802cb",
+  "index_nprobe": null,
+  "manifest_id": "ce0349fc171850a8",
+  "margin": 0.16719716787338257,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9418598413467407,
+  "s_surv": 0.7746626734733582,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8057269_2089800_fact1",
+      "score": 0.7746626734733582,
+      "source_id": "8057269_2089800",
+      "value": " the town of Mosj\u00f8en"
+    },
+    {
+      "entry_id": "194884_178571_fact1",
+      "score": 0.7577395439147949,
+      "source_id": "194884_178571",
+      "value": " Copenhagen, Denmark, Zealand, the \u00d8resund Region, and southern Sweden including Scania"
+    },
+    {
+      "entry_id": "9401652_1330530_fact0",
+      "score": 0.7494014501571655,
+      "source_id": "9401652_1330530",
+      "value": " Bojnord"
+    },
+    {
+      "entry_id": "303381_885366_fact0",
+      "score": 0.7482597827911377,
+      "source_id": "303381_885366",
+      "value": " Trondheim"
+    },
+    {
+      "entry_id": "27493457_2216670_fact0",
+      "score": 0.7461904287338257,
+      "source_id": "27493457_2216670",
+      "value": " the municipality of Oppdal"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "40024701_5554319_fact3",
+      "score": 0.8227856159210205,
+      "source_id": "40024701_5554319",
+      "value": " Qu\u00e1n Duy\u00ean"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62899476_5466315_fact5",
+      "score": 0.6044679284095764,
+      "source_id": "62899476_5466315",
+      "value": " Six Patriarch of Zen Buddhism, Hui-neng"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "14921438-abe3-4a0d-b5ac-8a6c97968401",
+  "index_nprobe": null,
+  "manifest_id": "99c02ee8d4f3c0a4",
+  "margin": 0.051703810691833496,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8227852582931519,
+  "s_surv": 0.7710814476013184,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "39287252_4920785_fact7",
+      "score": 0.7710814476013184,
+      "source_id": "39287252_4920785",
+      "value": " Buddhist king Tr\u1ea7n Nh\u00e2n T\u00f4ng"
+    },
+    {
+      "entry_id": "38793716_4462664_fact3",
+      "score": 0.7593414187431335,
+      "source_id": "38793716_4462664",
+      "value": " fisherman turned Zen master Kh\u00f4ng L\u1ed9"
+    },
+    {
+      "entry_id": "460657_603756_fact3",
+      "score": 0.7483721971511841,
+      "source_id": "460657_603756",
+      "value": " Baizhang Huaihai"
+    },
+    {
+      "entry_id": "63144989_5626773_fact18",
+      "score": 0.7419703006744385,
+      "source_id": "63144989_5626773",
+      "value": " late Venerable Thich Luu Doan"
+    },
+    {
+      "entry_id": "58660942_4994014_fact5",
+      "score": 0.7213332653045654,
+      "source_id": "58660942_4994014",
+      "value": " Ho\u00e0ng Ng\u0169 Ph\u00fac"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "6521114_611138_fact63",
+      "score": 0.7660375833511353,
+      "source_id": "6521114_611138",
+      "value": " Maryland Terrapins"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f9be7658-12de-4c96-9fe6-4964c315c4dd",
+  "index_nprobe": null,
+  "manifest_id": "a240799356843f71",
+  "margin": 0.026695072650909424,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7660374641418457,
+  "s_surv": 0.7393423914909363,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "20018828_2377866_fact5",
+      "score": 0.7393423914909363,
+      "source_id": "20018828_2377866",
+      "value": " UMass Minutewomen"
+    },
+    {
+      "entry_id": "72778386_4990797_fact3",
+      "score": 0.7306187152862549,
+      "source_id": "72778386_4990797",
+      "value": " Delaware Fightin' Blue Hens"
+    },
+    {
+      "entry_id": "27353493_2089317_fact4",
+      "score": 0.7255401611328125,
+      "source_id": "27353493_2089317",
+      "value": " Aston Villa and the Wales women's national football team"
+    },
+    {
+      "entry_id": "50971873_4222693_fact4",
+      "score": 0.7242650985717773,
+      "source_id": "50971873_4222693",
+      "value": " Houston Comets"
+    },
+    {
+      "entry_id": "6521114_611138_fact3",
+      "score": 0.7149795293807983,
+      "source_id": "6521114_611138",
+      "value": " Minnesota Vikings"
+    }
+  ],
+  "truncated": false
+}

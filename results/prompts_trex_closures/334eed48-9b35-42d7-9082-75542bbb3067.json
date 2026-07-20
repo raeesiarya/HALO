@@ -1,0 +1,153 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "4282276_970925_fact2",
+      "score": 0.8553968667984009,
+      "source_id": "4282276_970925",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1224435_746653_fact3",
+      "score": 0.5927281975746155,
+      "source_id": "1224435_746653",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18907936_1316579_fact3",
+      "score": 0.5688309073448181,
+      "source_id": "18907936_1316579",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44290888_4329345_fact81",
+      "score": 0.564812421798706,
+      "source_id": "44290888_4329345",
+      "value": "quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "637988_6092963_fact2",
+      "score": 0.5571662783622742,
+      "source_id": "637988_6092963",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59512006_5498397_fact3",
+      "score": 0.5557023882865906,
+      "source_id": "59512006_5498397",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9520883_1479672_fact2",
+      "score": 0.5525244474411011,
+      "source_id": "9520883_1479672",
+      "value": " football quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1332397_1006665_fact3",
+      "score": 0.5520123243331909,
+      "source_id": "1332397_1006665",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44345979_4377228_fact3",
+      "score": 0.546349048614502,
+      "source_id": "44345979_4377228",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14717550_2266569_fact3",
+      "score": 0.5463382005691528,
+      "source_id": "14717550_2266569",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19443444_1886292_fact3",
+      "score": 0.5418133735656738,
+      "source_id": "19443444_1886292",
+      "value": " quarterback, punter and halfback"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "334eed48-9b35-42d7-9082-75542bbb3067",
+  "index_nprobe": null,
+  "manifest_id": "361465cf62c0e96b",
+  "margin": 0.09410786628723145,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8553968667984009,
+  "s_surv": 0.7612890005111694,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4282276_970925_fact1",
+      "score": 0.7612890005111694,
+      "source_id": "4282276_970925",
+      "value": " American football"
+    },
+    {
+      "entry_id": "43975978_4045148_fact1",
+      "score": 0.6864155530929565,
+      "source_id": "43975978_4045148",
+      "value": " football and baseball player"
+    },
+    {
+      "entry_id": "36083380_2332077_fact2",
+      "score": 0.6676945090293884,
+      "source_id": "36083380_2332077",
+      "value": " placekicker"
+    },
+    {
+      "entry_id": "22916098_2710889_fact6",
+      "score": 0.6643520593643188,
+      "source_id": "22916098_2710889",
+      "value": " halfback"
+    },
+    {
+      "entry_id": "4740642_264696_fact2",
+      "score": 0.6573052406311035,
+      "source_id": "4740642_264696",
+      "value": " defensive tackle"
+    }
+  ],
+  "truncated": false
+}

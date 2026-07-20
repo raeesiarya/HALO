@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "223069_375880_fact2",
+      "score": 0.9137600064277649,
+      "source_id": "223069_375880",
+      "value": " flautist"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f2dfa5ae-fdbe-47b4-adfb-732dbaf89f3c",
+  "index_nprobe": null,
+  "manifest_id": "9d3d3c6c2a103166",
+  "margin": 0.14022129774093628,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9137597680091858,
+  "s_surv": 0.7735384702682495,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "223069_375880_fact1",
+      "score": 0.7735384702682495,
+      "source_id": "223069_375880",
+      "value": " Franco-Swiss"
+    },
+    {
+      "entry_id": "41742641_4593764_fact1",
+      "score": 0.7293047308921814,
+      "source_id": "41742641_4593764",
+      "value": " film director and screenwriter"
+    },
+    {
+      "entry_id": "43611851_3727701_fact2",
+      "score": 0.6943345665931702,
+      "source_id": "43611851_3727701",
+      "value": " footballer"
+    },
+    {
+      "entry_id": "68844631_4805006_fact1",
+      "score": 0.692318320274353,
+      "source_id": "68844631_4805006",
+      "value": " businessman and corporate executive"
+    },
+    {
+      "entry_id": "40503219_5922660_fact2",
+      "score": 0.6825168132781982,
+      "source_id": "40503219_5922660",
+      "value": " composer and percussionist"
+    }
+  ],
+  "truncated": false
+}

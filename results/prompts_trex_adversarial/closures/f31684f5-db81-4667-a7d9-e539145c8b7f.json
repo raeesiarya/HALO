@@ -1,0 +1,170 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "4145091_822579_fact11",
+      "score": 0.9497417211532593,
+      "source_id": "4145091_822579",
+      "value": " Queensland's most important habitat area for the critically endangered grey nurse shark"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35579208_1902733_fact27",
+      "score": 0.6062272191047668,
+      "source_id": "35579208_1902733",
+      "value": "endangered in Queensland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4155547_836562_fact116",
+      "score": 0.5771560668945312,
+      "source_id": "4155547_836562",
+      "value": "endangered in Queensland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22638350_2449908_fact157",
+      "score": 0.5672374963760376,
+      "source_id": "22638350_2449908",
+      "value": " state icon of Queensland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3229_119114_fact11",
+      "score": 0.5559813976287842,
+      "source_id": "3229_119114",
+      "value": " one of the Q150 Icons of Queensland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13935593_1482894_fact16",
+      "score": 0.5507040023803711,
+      "source_id": "13935593_1482894",
+      "value": " oldest known and dated cultural landscape in Queensland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70983_144264_fact16",
+      "score": 0.5478496551513672,
+      "source_id": "70983_144264",
+      "value": " state icon of Queensland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "103286_437472_fact9",
+      "score": 0.5418139696121216,
+      "source_id": "103286_437472",
+      "value": " Queensland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24048379_1495816_fact9",
+      "score": 0.5370432138442993,
+      "source_id": "24048379_1495816",
+      "value": " one of the windiest places in Queensland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "305555_900960_fact48",
+      "score": 0.530600368976593,
+      "source_id": "305555_900960",
+      "value": " the largest National Trust village in Queensland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33588668_2662427_fact218",
+      "score": 0.5194318294525146,
+      "source_id": "33588668_2662427",
+      "value": " first building to be protected under the Cultural Record (Landscapes Queensland and Queensland Estate) Act 1987"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "875107_909787_fact196",
+      "score": 0.5159534215927124,
+      "source_id": "875107_909787",
+      "value": " health district distinct from both Central Queensland and Townsville health districts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "926809_1081268_fact130",
+      "score": 0.5012726187705994,
+      "source_id": "926809_1081268",
+      "value": " the most expensive real estate outside south-east Queensland"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f31684f5-db81-4667-a7d9-e539145c8b7f",
+  "index_nprobe": null,
+  "manifest_id": "eb94723b97312a45",
+  "margin": 0.31269270181655884,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.949741542339325,
+  "s_surv": 0.6370488405227661,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4145091_822579_fact6",
+      "score": 0.6370488405227661,
+      "source_id": "4145091_822579",
+      "value": " popular scuba diving spot"
+    },
+    {
+      "entry_id": "14963165_2508029_fact50",
+      "score": 0.6232845187187195,
+      "source_id": "14963165_2508029",
+      "value": " important raptor migration path"
+    },
+    {
+      "entry_id": "59059966_5246372_fact191",
+      "score": 0.6202341914176941,
+      "source_id": "59059966_5246372",
+      "value": " State Heritage significance"
+    },
+    {
+      "entry_id": "7376082_1201216_fact86",
+      "score": 0.6189413070678711,
+      "source_id": "7376082_1201216",
+      "value": " potential 'invasive plant',"
+    },
+    {
+      "entry_id": "456679_584948_fact139",
+      "score": 0.6188639402389526,
+      "source_id": "456679_584948",
+      "value": " Important Bird Area"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "11473112_3551759_fact7",
+      "score": 0.7381088733673096,
+      "source_id": "11473112_3551759",
+      "value": " Ossining, New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70802326_3741823_fact8",
+      "score": 0.6762897968292236,
+      "source_id": "70802326_3741823",
+      "value": " Montreal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64948757_4564382_fact4",
+      "score": 0.6633591651916504,
+      "source_id": "64948757_4564382",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16170729_1241077_fact7",
+      "score": 0.5737065076828003,
+      "source_id": "16170729_1241077",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "262226_644574_fact18",
+      "score": 0.5702595710754395,
+      "source_id": "262226_644574",
+      "value": " Montreal"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "afdaf8d0-4afa-4077-9b1c-a873cf0bb6f5",
+  "index_nprobe": null,
+  "manifest_id": "4207b78121498208",
+  "margin": 0.006639599800109863,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7381088733673096,
+  "s_surv": 0.7314692735671997,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "38919698_4578948_fact10",
+      "score": 0.7314692735671997,
+      "source_id": "38919698_4578948",
+      "value": " St. Louis, Missouri"
+    },
+    {
+      "entry_id": "12573452_2448528_fact1",
+      "score": 0.7284202575683594,
+      "source_id": "12573452_2448528",
+      "value": " Winnipeg, Manitoba"
+    },
+    {
+      "entry_id": "127553_6003163_fact1",
+      "score": 0.7213433980941772,
+      "source_id": "127553_6003163",
+      "value": " Little Rock, Arkansas"
+    },
+    {
+      "entry_id": "6239037_434038_fact1",
+      "score": 0.7204911708831787,
+      "source_id": "6239037_434038",
+      "value": " Sheffield, England"
+    },
+    {
+      "entry_id": "2513409_1026598_fact13",
+      "score": 0.7201952338218689,
+      "source_id": "2513409_1026598",
+      "value": " Molde"
+    }
+  ],
+  "truncated": false
+}

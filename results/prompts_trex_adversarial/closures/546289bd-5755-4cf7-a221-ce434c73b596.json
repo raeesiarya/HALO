@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "8797372_3060381_fact13",
+      "score": 0.7619747519493103,
+      "source_id": "8797372_3060381",
+      "value": " St. Paul, MN"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6034376_271653_fact76",
+      "score": 0.7369019985198975,
+      "source_id": "6034376_271653",
+      "value": " Springfield"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9160700_3533766_fact15",
+      "score": 0.6230459213256836,
+      "source_id": "9160700_3533766",
+      "value": " Massachusetts"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "546289bd-5755-4cf7-a221-ce434c73b596",
+  "index_nprobe": null,
+  "manifest_id": "e8596f7f24cbcbce",
+  "margin": 0.009349822998046875,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7619746923446655,
+  "s_surv": 0.7526248693466187,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "48288884_4646456_fact20",
+      "score": 0.7526248693466187,
+      "source_id": "48288884_4646456",
+      "value": " Portland, Oregon"
+    },
+    {
+      "entry_id": "6704597_721029_fact4",
+      "score": 0.7405155897140503,
+      "source_id": "6704597_721029",
+      "value": " Lincoln, Nebraska, United States"
+    },
+    {
+      "entry_id": "880026_925827_fact32",
+      "score": 0.7312663793563843,
+      "source_id": "880026_925827",
+      "value": " Edmonton"
+    },
+    {
+      "entry_id": "61288648_4341364_fact2",
+      "score": 0.723368763923645,
+      "source_id": "61288648_4341364",
+      "value": " New York City"
+    },
+    {
+      "entry_id": "28564057_3127309_fact4",
+      "score": 0.723163902759552,
+      "source_id": "28564057_3127309",
+      "value": " New York City"
+    }
+  ],
+  "truncated": false
+}

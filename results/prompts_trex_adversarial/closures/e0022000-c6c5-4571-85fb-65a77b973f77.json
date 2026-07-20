@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "8296913_2410651_fact6",
+      "score": 0.8036868572235107,
+      "source_id": "8296913_2410651",
+      "value": " Eastern"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e0022000-c6c5-4571-85fb-65a77b973f77",
+  "index_nprobe": null,
+  "manifest_id": "37ebe24abc4c179a",
+  "margin": 0.048066139221191406,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8036867380142212,
+  "s_surv": 0.7556205987930298,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "18698934_3428931_fact4",
+      "score": 0.7556205987930298,
+      "source_id": "18698934_3428931",
+      "value": " Rangers"
+    },
+    {
+      "entry_id": "33062564_2225361_fact4",
+      "score": 0.7537692785263062,
+      "source_id": "33062564_2225361",
+      "value": " Sun Pegasus"
+    },
+    {
+      "entry_id": "50042459_5912695_fact6",
+      "score": 0.74985271692276,
+      "source_id": "50042459_5912695",
+      "value": " Eastern"
+    },
+    {
+      "entry_id": "66367994_5517376_fact5",
+      "score": 0.7481446266174316,
+      "source_id": "66367994_5517376",
+      "value": " Resources Capital"
+    },
+    {
+      "entry_id": "16473807_1447572_fact8",
+      "score": 0.7368974685668945,
+      "source_id": "16473807_1447572",
+      "value": " Wing Yee"
+    }
+  ],
+  "truncated": false
+}

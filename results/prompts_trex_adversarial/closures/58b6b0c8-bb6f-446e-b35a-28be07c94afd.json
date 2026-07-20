@@ -1,0 +1,216 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "32696377_1927864_fact1",
+      "score": 0.9422554969787598,
+      "source_id": "32696377_1927864",
+      "value": " Colchester, Essex"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "38683944_4377448_fact1",
+      "score": 0.9313721656799316,
+      "source_id": "38683944_4377448",
+      "value": " Colchester, Essex"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "451127_554763_fact1",
+      "score": 0.9253965616226196,
+      "source_id": "451127_554763",
+      "value": " Colchester, Essex, England"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "32098953_1443825_fact1",
+      "score": 0.9215651750564575,
+      "source_id": "32098953_1443825",
+      "value": " Colchester, Essex"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "43173140_5767043_fact1",
+      "score": 0.9162837266921997,
+      "source_id": "43173140_5767043",
+      "value": " Colchester, Essex"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "35195043_1653144_fact1",
+      "score": 0.9157754182815552,
+      "source_id": "35195043_1653144",
+      "value": " Colchester, Essex"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "31251773_2965234_fact1",
+      "score": 0.9143640995025635,
+      "source_id": "31251773_2965234",
+      "value": " Colchester, Essex"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "29084162_1238990_fact1",
+      "score": 0.9119927287101746,
+      "source_id": "29084162_1238990",
+      "value": " Colchester, Essex"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "35327045_1754292_fact1",
+      "score": 0.9098502993583679,
+      "source_id": "35327045_1754292",
+      "value": " Colchester, Essex"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "35225190_1674929_fact1",
+      "score": 0.9056766629219055,
+      "source_id": "35225190_1674929",
+      "value": " Colchester, Essex"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51647501_4793405_fact2",
+      "score": 0.786888599395752,
+      "source_id": "51647501_4793405",
+      "value": " Colchester, Essex"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11101986_3124736_fact1",
+      "score": 0.7813826203346252,
+      "source_id": "11101986_3124736",
+      "value": " Colchester, Essex"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3547405_161282_fact1",
+      "score": 0.7607407569885254,
+      "source_id": "3547405_161282",
+      "value": " Colchester, Essex, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15167722_2692064_fact66",
+      "score": 0.7082298994064331,
+      "source_id": "15167722_2692064",
+      "value": " Colchester Community Stadium"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69709138_5382022_fact1",
+      "score": 0.6831743121147156,
+      "source_id": "69709138_5382022",
+      "value": " Colchester, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51268595_4482816_fact56",
+      "score": 0.667845606803894,
+      "source_id": "51268595_4482816",
+      "value": " Colchester Community Stadium"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44546449_4558027_fact59",
+      "score": 0.6434006690979004,
+      "source_id": "44546449_4558027",
+      "value": " Colchester Community Stadium"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "58b6b0c8-bb6f-446e-b35a-28be07c94afd",
+  "index_nprobe": null,
+  "manifest_id": "423d65130ddbe4a5",
+  "margin": 0.20297515392303467,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9422554969787598,
+  "s_surv": 0.7392803430557251,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "46251478_5512448_fact64",
+      "score": 0.7392803430557251,
+      "source_id": "46251478_5512448",
+      "value": " League Two"
+    },
+    {
+      "entry_id": "3949154_609065_fact290",
+      "score": 0.731810450553894,
+      "source_id": "3949154_609065",
+      "value": " League One"
+    },
+    {
+      "entry_id": "38397570_4144594_fact1",
+      "score": 0.7313622236251831,
+      "source_id": "38397570_4144594",
+      "value": " Richmond, Virginia"
+    },
+    {
+      "entry_id": "57367478_4046806_fact3",
+      "score": 0.7298729419708252,
+      "source_id": "57367478_4046806",
+      "value": " Toronto, Ontario"
+    },
+    {
+      "entry_id": "3726134_370414_fact1",
+      "score": 0.7294158935546875,
+      "source_id": "3726134_370414",
+      "value": " Colne, Lancashire, England"
+    }
+  ],
+  "truncated": false
+}

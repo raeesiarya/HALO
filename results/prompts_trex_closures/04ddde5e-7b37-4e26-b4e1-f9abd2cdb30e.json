@@ -1,0 +1,442 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1116987_446000_fact1",
+      "score": 0.9528188705444336,
+      "source_id": "1116987_446000",
+      "value": " English heavy metal band"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "50342158_3719986_fact0",
+      "score": 0.8703950643539429,
+      "source_id": "50342158_3719986",
+      "value": " English heavy metal"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "26900759_1730891_fact1",
+      "score": 0.8655732870101929,
+      "source_id": "26900759_1730891",
+      "value": " Brain Dead"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "5832498_108883_fact1",
+      "score": 0.8651083707809448,
+      "source_id": "5832498_108883",
+      "value": " heavy metal"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "15327119_2828042_fact1",
+      "score": 0.8555871248245239,
+      "source_id": "15327119_2828042",
+      "value": " American rapper"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60412308_3715681_fact1",
+      "score": 0.8176853656768799,
+      "source_id": "60412308_3715681",
+      "value": " English synth-pop group"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69092881_4944994_fact1",
+      "score": 0.8059117794036865,
+      "source_id": "69092881_4944994",
+      "value": " English electronic music producer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1426342_72752_fact1",
+      "score": 0.8014706969261169,
+      "source_id": "1426342_72752",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34148809_3126587_fact1",
+      "score": 0.7879612445831299,
+      "source_id": "34148809_3126587",
+      "value": " English recording artist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63881725_3811172_fact0",
+      "score": 0.7835198044776917,
+      "source_id": "63881725_3811172",
+      "value": " English electronic dance music group"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7338371_1176776_fact1",
+      "score": 0.7732402086257935,
+      "source_id": "7338371_1176776",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1026820_206194_fact1",
+      "score": 0.7683603167533875,
+      "source_id": "1026820_206194",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61709144_4660588_fact1",
+      "score": 0.7644402384757996,
+      "source_id": "61709144_4660588",
+      "value": " English metalcore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48638095_4944785_fact1",
+      "score": 0.7595430612564087,
+      "source_id": "48638095_4944785",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "414902_366684_fact1",
+      "score": 0.7589614391326904,
+      "source_id": "414902_366684",
+      "value": " English post-punk band"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4864816_366301_fact1",
+      "score": 0.7562019228935242,
+      "source_id": "4864816_366301",
+      "value": " English post-punk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20466675_2723642_fact1",
+      "score": 0.7557523250579834,
+      "source_id": "20466675_2723642",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "572863_1088347_fact1",
+      "score": 0.7555935382843018,
+      "source_id": "572863_1088347",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2633089_85059_fact1",
+      "score": 0.7554264068603516,
+      "source_id": "2633089_85059",
+      "value": " English synth-pop duo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38542400_4260352_fact1",
+      "score": 0.7550523281097412,
+      "source_id": "38542400_4260352",
+      "value": " English post-punk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2152794_385167_fact1",
+      "score": 0.7532645463943481,
+      "source_id": "2152794_385167",
+      "value": " English heavy metal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3262459_965084_fact1",
+      "score": 0.7525588870048523,
+      "source_id": "3262459_965084",
+      "value": " English new wave"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50074906_5935710_fact1",
+      "score": 0.7506439685821533,
+      "source_id": "50074906_5935710",
+      "value": " English grindcore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46581624_5772862_fact1",
+      "score": 0.7506086826324463,
+      "source_id": "46581624_5772862",
+      "value": " English heavy metal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65588492_4953311_fact1",
+      "score": 0.7501508593559265,
+      "source_id": "65588492_4953311",
+      "value": " English singer-songwriter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14629655_2169216_fact1",
+      "score": 0.7479552030563354,
+      "source_id": "14629655_2169216",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12439688_2262271_fact2",
+      "score": 0.7458171844482422,
+      "source_id": "12439688_2262271",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2919845_479738_fact1",
+      "score": 0.7454233765602112,
+      "source_id": "2919845_479738",
+      "value": " English gothic rock"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2062397_231224_fact1",
+      "score": 0.7431234121322632,
+      "source_id": "2062397_231224",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25204276_2598135_fact1",
+      "score": 0.7423648834228516,
+      "source_id": "25204276_2598135",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "154024_992723_fact1",
+      "score": 0.7422637343406677,
+      "source_id": "154024_992723",
+      "value": " English rock band"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "613157_102594_fact1",
+      "score": 0.741777777671814,
+      "source_id": "613157_102594",
+      "value": " English rock band"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2531281_1055377_fact1",
+      "score": 0.739677906036377,
+      "source_id": "2531281_1055377",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "768832_623967_fact1",
+      "score": 0.7394647598266602,
+      "source_id": "768832_623967",
+      "value": " English electronic rock"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58883295_5129194_fact1",
+      "score": 0.7383428812026978,
+      "source_id": "58883295_5129194",
+      "value": " English guitarist and songwriter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1742036_747192_fact1",
+      "score": 0.7379913926124573,
+      "source_id": "1742036_747192",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "238978_479710_fact1",
+      "score": 0.7379114627838135,
+      "source_id": "238978_479710",
+      "value": " English rock band"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63387288_5816652_fact1",
+      "score": 0.7369088530540466,
+      "source_id": "63387288_5816652",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2969751_544772_fact1",
+      "score": 0.7366651892662048,
+      "source_id": "2969751_544772",
+      "value": " English electronic music"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36658312_2793287_fact1",
+      "score": 0.7357420325279236,
+      "source_id": "36658312_2793287",
+      "value": " English synth-pop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40301876_5771891_fact2",
+      "score": 0.7356134057044983,
+      "source_id": "40301876_5771891",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56392331_5677604_fact2",
+      "score": 0.7353445291519165,
+      "source_id": "56392331_5677604",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14451200_1984523_fact1",
+      "score": 0.7352862358093262,
+      "source_id": "14451200_1984523",
+      "value": " English"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "04ddde5e-7b37-4e26-b4e1-f9abd2cdb30e",
+  "index_nprobe": null,
+  "manifest_id": "e2fb94911b24324b",
+  "margin": 0.10540169477462769,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9528188705444336,
+  "s_surv": 0.8474171757698059,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "286881_770142_fact1",
+      "score": 0.8474171757698059,
+      "source_id": "286881_770142",
+      "value": " Canadian singer-songwriter"
+    },
+    {
+      "entry_id": "24820327_2244696_fact1",
+      "score": 0.8404985070228577,
+      "source_id": "24820327_2244696",
+      "value": " singer-songwriter and guitarist"
+    },
+    {
+      "entry_id": "1978520_86385_fact1",
+      "score": 0.8385782837867737,
+      "source_id": "1978520_86385",
+      "value": " Four Tet"
+    },
+    {
+      "entry_id": "574933_1096312_fact1",
+      "score": 0.8349092602729797,
+      "source_id": "574933_1096312",
+      "value": " American"
+    },
+    {
+      "entry_id": "71569444_4258073_fact0",
+      "score": 0.8321431875228882,
+      "source_id": "71569444_4258073",
+      "value": " Japanese entertainer"
+    }
+  ],
+  "truncated": false
+}

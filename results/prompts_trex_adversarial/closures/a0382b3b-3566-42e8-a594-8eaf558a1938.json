@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "7124412_1039143_fact21",
+      "score": 0.7484960556030273,
+      "source_id": "7124412_1039143",
+      "value": "undocumented immigrant"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a0382b3b-3566-42e8-a594-8eaf558a1938",
+  "index_nprobe": null,
+  "manifest_id": "3315b17dfc506d12",
+  "margin": 0.0015273094177246094,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7484959363937378,
+  "s_surv": 0.7469686269760132,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "78449_212678_fact6",
+      "score": 0.7469686269760132,
+      "source_id": "78449_212678",
+      "value": "Global South"
+    },
+    {
+      "entry_id": "1093894_384711_fact30",
+      "score": 0.7452394962310791,
+      "source_id": "1093894_384711",
+      "value": "Par Chup Sue"
+    },
+    {
+      "entry_id": "48607748_4915696_fact54",
+      "score": 0.7215223908424377,
+      "source_id": "48607748_4915696",
+      "value": "Divyangjan"
+    },
+    {
+      "entry_id": "194261_173811_fact33",
+      "score": 0.7169530391693115,
+      "source_id": "194261_173811",
+      "value": "de facto relationship"
+    },
+    {
+      "entry_id": "51947775_4963447_fact15",
+      "score": 0.7072212100028992,
+      "source_id": "51947775_4963447",
+      "value": " \"family violence against aunties and uncles\""
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,206 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "16993728_1879101_fact3",
+      "score": 0.8487234115600586,
+      "source_id": "16993728_1879101",
+      "value": " actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "362016_6047146_fact3",
+      "score": 0.8487234115600586,
+      "source_id": "362016_6047146",
+      "value": " actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "982081_85926_fact3",
+      "score": 0.6518880128860474,
+      "source_id": "982081_85926",
+      "value": " actor, singer and musician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "472230_6069977_fact4",
+      "score": 0.6365785598754883,
+      "source_id": "472230_6069977",
+      "value": " character actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "976088_1231808_fact3",
+      "score": 0.6270374059677124,
+      "source_id": "976088_1231808",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2216320_503622_fact3",
+      "score": 0.6124497056007385,
+      "source_id": "2216320_503622",
+      "value": " announcer and actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7784211_1727780_fact3",
+      "score": 0.6117867231369019,
+      "source_id": "7784211_1727780",
+      "value": " character actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42557606_5299194_fact3",
+      "score": 0.6012014746665955,
+      "source_id": "42557606_5299194",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "975906_1230906_fact17",
+      "score": 0.591455340385437,
+      "source_id": "975906_1230906",
+      "value": " character actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34251052_3218465_fact3",
+      "score": 0.5768557786941528,
+      "source_id": "34251052_3218465",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42082137_4891092_fact4",
+      "score": 0.5708608627319336,
+      "source_id": "42082137_4891092",
+      "value": " child actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14935247_2484849_fact3",
+      "score": 0.5703566074371338,
+      "source_id": "14935247_2484849",
+      "value": " movie actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "649526_6094862_fact3",
+      "score": 0.5701648592948914,
+      "source_id": "649526_6094862",
+      "value": " child actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20301691_2611836_fact3",
+      "score": 0.5605659484863281,
+      "source_id": "20301691_2611836",
+      "value": " film actor and professional wrestler"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15947120_3418038_fact3",
+      "score": 0.5464351177215576,
+      "source_id": "15947120_3418038",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32911294_2100837_fact4",
+      "score": 0.5446417927742004,
+      "source_id": "32911294_2100837",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16671394_1580467_fact4",
+      "score": 0.5422785878181458,
+      "source_id": "16671394_1580467",
+      "value": " screenwriter, producer, and actor"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8b38f5a0-73e5-420b-9172-c98e75831507",
+  "index_nprobe": null,
+  "manifest_id": "009fcd1b1fa3f814",
+  "margin": 0.1349170207977295,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8487234115600586,
+  "s_surv": 0.7138063907623291,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "16993728_1879101_fact2",
+      "score": 0.7138063907623291,
+      "source_id": "16993728_1879101",
+      "value": " American"
+    },
+    {
+      "entry_id": "362016_6047146_fact2",
+      "score": 0.7138063907623291,
+      "source_id": "362016_6047146",
+      "value": " American"
+    },
+    {
+      "entry_id": "7387816_1210714_fact1",
+      "score": 0.6933348178863525,
+      "source_id": "7387816_1210714",
+      "value": " American football player"
+    },
+    {
+      "entry_id": "60493815_3781038_fact4",
+      "score": 0.6781138181686401,
+      "source_id": "60493815_3781038",
+      "value": " soldier"
+    },
+    {
+      "entry_id": "56154554_5512687_fact3",
+      "score": 0.6747645735740662,
+      "source_id": "56154554_5512687",
+      "value": " athlete"
+    }
+  ],
+  "truncated": false
+}

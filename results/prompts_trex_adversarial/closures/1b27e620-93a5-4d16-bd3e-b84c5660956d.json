@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "6798048_799573_fact8",
+      "score": 0.6987767219543457,
+      "source_id": "6798048_799573",
+      "value": " 23 years"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1b27e620-93a5-4d16-bd3e-b84c5660956d",
+  "index_nprobe": null,
+  "manifest_id": "c229b840c86e2ed9",
+  "margin": 0.05670422315597534,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6987765431404114,
+  "s_surv": 0.642072319984436,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "553362_1009793_fact172",
+      "score": 0.642072319984436,
+      "source_id": "553362_1009793",
+      "value": " one season"
+    },
+    {
+      "entry_id": "64259359_4111675_fact106",
+      "score": 0.6286478042602539,
+      "source_id": "64259359_4111675",
+      "value": " over three decades"
+    },
+    {
+      "entry_id": "57891506_4449391_fact289",
+      "score": 0.6159394383430481,
+      "source_id": "57891506_4449391",
+      "value": "-"
+    },
+    {
+      "entry_id": "3285080_992688_fact54",
+      "score": 0.6058942079544067,
+      "source_id": "3285080_992688",
+      "value": " forty-four years"
+    },
+    {
+      "entry_id": "2167075_412907_fact5",
+      "score": 0.6038233637809753,
+      "source_id": "2167075_412907",
+      "value": " nearly three decades"
+    }
+  ],
+  "truncated": false
+}

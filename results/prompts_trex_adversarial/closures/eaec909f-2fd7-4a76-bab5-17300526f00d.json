@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "45496620_5261919_fact2",
+      "score": 0.752070963382721,
+      "source_id": "45496620_5261919",
+      "value": " JoyLabz and MaKey MaKey"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "eaec909f-2fd7-4a76-bab5-17300526f00d",
+  "index_nprobe": null,
+  "manifest_id": "560c707200a3cbca",
+  "margin": 0.004496514797210693,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.752070963382721,
+  "s_surv": 0.7475744485855103,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7588012_1456424_fact9",
+      "score": 0.7475744485855103,
+      "source_id": "7588012_1456424",
+      "value": " Silver Paint and Lacquer"
+    },
+    {
+      "entry_id": "30891800_2641123_fact17",
+      "score": 0.7419300079345703,
+      "source_id": "30891800_2641123",
+      "value": " Brilliant Writer, LLC"
+    },
+    {
+      "entry_id": "38939015_4593732_fact14",
+      "score": 0.7390294075012207,
+      "source_id": "38939015_4593732",
+      "value": " Decades"
+    },
+    {
+      "entry_id": "1024883_201486_fact58",
+      "score": 0.7290856838226318,
+      "source_id": "1024883_201486",
+      "value": " Midfan"
+    },
+    {
+      "entry_id": "14723101_2272359_fact9",
+      "score": 0.7230534553527832,
+      "source_id": "14723101_2272359",
+      "value": " the ArtScience Program and movement"
+    }
+  ],
+  "truncated": false
+}

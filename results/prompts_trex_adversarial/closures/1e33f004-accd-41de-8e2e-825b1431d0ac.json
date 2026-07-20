@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "6155465_368900_fact1",
+      "score": 0.6931685209274292,
+      "source_id": "6155465_368900",
+      "value": " Anglia Television"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1e33f004-accd-41de-8e2e-825b1431d0ac",
+  "index_nprobe": null,
+  "manifest_id": "0a28f3a66bcb121a",
+  "margin": 0.01867043972015381,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6931685209274292,
+  "s_surv": 0.6744980812072754,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7904544_1883323_fact12",
+      "score": 0.6744980812072754,
+      "source_id": "7904544_1883323",
+      "value": " ITN"
+    },
+    {
+      "entry_id": "8300218_2414392_fact8",
+      "score": 0.65688157081604,
+      "source_id": "8300218_2414392",
+      "value": " an ITV regional franchise-holder"
+    },
+    {
+      "entry_id": "3305889_1019363_fact53",
+      "score": 0.6450142860412598,
+      "source_id": "3305889_1019363",
+      "value": " Carlton and LWT"
+    },
+    {
+      "entry_id": "24302700_1753248_fact69",
+      "score": 0.6408222913742065,
+      "source_id": "24302700_1753248",
+      "value": " IMG Media"
+    },
+    {
+      "entry_id": "10777144_2750403_fact137",
+      "score": 0.6392949819564819,
+      "source_id": "10777144_2750403",
+      "value": " IMG"
+    }
+  ],
+  "truncated": false
+}

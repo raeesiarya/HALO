@@ -1,0 +1,188 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "9248469_1194564_fact23",
+      "score": 0.7724511623382568,
+      "source_id": "9248469_1194564",
+      "value": " largest contract ever for a pitcher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9218067_3594662_fact43",
+      "score": 0.5966025590896606,
+      "source_id": "9218067_3594662",
+      "value": " the largest contract ever for a pitcher at the time in MLB history"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34182409_3155634_fact55",
+      "score": 0.5771527290344238,
+      "source_id": "34182409_3155634",
+      "value": " World Series perfect game pitcher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12768846_2673972_fact23",
+      "score": 0.4988155961036682,
+      "source_id": "12768846_2673972",
+      "value": " agent pitcher Andy Ashby"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3097838_729221_fact101",
+      "score": 0.49748024344444275,
+      "source_id": "3097838_729221",
+      "value": " pitcher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12205689_1961270_fact89",
+      "score": 0.4930376410484314,
+      "source_id": "12205689_1961270",
+      "value": " starting pitcher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24799915_2227092_fact39",
+      "score": 0.4884064197540283,
+      "source_id": "24799915_2227092",
+      "value": " right-handed pitcher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5486693_901860_fact194",
+      "score": 0.48024797439575195,
+      "source_id": "5486693_901860",
+      "value": " pitcher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12788954_2699215_fact26",
+      "score": 0.4788367450237274,
+      "source_id": "12788954_2699215",
+      "value": " agent pitcher Todd Worrell"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11673530_1348443_fact49",
+      "score": 0.4752998352050781,
+      "source_id": "11673530_1348443",
+      "value": " relief pitcher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9186633_3561579_fact104",
+      "score": 0.47496622800827026,
+      "source_id": "9186633_3561579",
+      "value": " agent pitcher Jason Schmidt"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44218852_4268424_fact98",
+      "score": 0.46689748764038086,
+      "source_id": "44218852_4268424",
+      "value": " Cy Young Award-winning pitcher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1069627_321844_fact51",
+      "score": 0.46663761138916016,
+      "source_id": "1069627_321844",
+      "value": " pitcher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68879594_4830700_fact56",
+      "score": 0.4648419916629791,
+      "source_id": "68879594_4830700",
+      "value": " free agent pitcher Marcus Stroman"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2349346_752508_fact46",
+      "score": 0.4629756808280945,
+      "source_id": "2349346_752508",
+      "value": " relief pitcher"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4577b9d2-6288-493b-9c01-9e777a377b44",
+  "index_nprobe": null,
+  "manifest_id": "b2fe5bdf5a64f470",
+  "margin": 0.08800703287124634,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7724511623382568,
+  "s_surv": 0.6844441294670105,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1470979_168875_fact158",
+      "score": 0.6844441294670105,
+      "source_id": "1470979_168875",
+      "value": "-setting contract"
+    },
+    {
+      "entry_id": "24779422_2208557_fact178",
+      "score": 0.6524231433868408,
+      "source_id": "24779422_2208557",
+      "value": " 0\u20134"
+    },
+    {
+      "entry_id": "17565127_2381940_fact31",
+      "score": 0.6506242752075195,
+      "source_id": "17565127_2381940",
+      "value": " Kimmo Timonen"
+    },
+    {
+      "entry_id": "9218067_3594662_fact42",
+      "score": 0.6442001461982727,
+      "source_id": "9218067_3594662",
+      "value": " San Francisco Giants"
+    },
+    {
+      "entry_id": "4161896_844736_fact191",
+      "score": 0.6437221765518188,
+      "source_id": "4161896_844736",
+      "value": " Young award winner"
+    }
+  ],
+  "truncated": false
+}

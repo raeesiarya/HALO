@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "23717654_3482701_fact13",
+      "score": 0.710112452507019,
+      "source_id": "23717654_3482701",
+      "value": " Target stores"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70650567_3638240_fact27",
+      "score": 0.5370866656303406,
+      "source_id": "70650567_3638240",
+      "value": " Chicago"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31935641_1304342_fact1",
+      "score": 0.5028347969055176,
+      "source_id": "31935641_1304342",
+      "value": " Chicago"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31418780_3116882_fact7",
+      "score": 0.4824869632720947,
+      "source_id": "31418780_3116882",
+      "value": " New York City, Los Angeles, San Francisco, Chicago, and Miami"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "aec886c7-3921-471a-a001-ef82c69322b9",
+  "index_nprobe": null,
+  "manifest_id": "e070df101c661151",
+  "margin": 0.0583958625793457,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.710112452507019,
+  "s_surv": 0.6517165899276733,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "47902175_4447063_fact51",
+      "score": 0.6517165899276733,
+      "source_id": "47902175_4447063",
+      "value": " Target and Wal-Mart"
+    },
+    {
+      "entry_id": "48440155_4761715_fact4",
+      "score": 0.6267833709716797,
+      "source_id": "48440155_4761715",
+      "value": " the United Kingdom"
+    },
+    {
+      "entry_id": "27462989_2192740_fact16",
+      "score": 0.6107684373855591,
+      "source_id": "27462989_2192740",
+      "value": " Texas, Louisiana and Florida"
+    },
+    {
+      "entry_id": "53132492_5782245_fact54",
+      "score": 0.5943129062652588,
+      "source_id": "53132492_5782245",
+      "value": " Hawaiian tourism locations and convenience stores"
+    },
+    {
+      "entry_id": "27462989_2192740_fact15",
+      "score": 0.590979814529419,
+      "source_id": "27462989_2192740",
+      "value": " more than 2,000 retail outlets"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "96173_375885_fact5",
+      "score": 0.8380149006843567,
+      "source_id": "96173_375885",
+      "value": " Springfield, IL Metropolitan Statistical Area"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57706_1129649_fact198",
+      "score": 0.8326139450073242,
+      "source_id": "57706_1129649",
+      "value": " Springfield Plain subsection"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "111575_531336_fact5",
+      "score": 0.8284873366355896,
+      "source_id": "111575_531336",
+      "value": " Springfield Metropolitan Statistical Area"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "150881_955755_fact8",
+      "score": 0.6384562849998474,
+      "source_id": "150881_955755",
+      "value": " Springfield Metropolitan Statistical Area"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8057995_2090683_fact40",
+      "score": 0.6380832195281982,
+      "source_id": "8057995_2090683",
+      "value": " Springfield market"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cb9cc90f-03a4-437c-bc14-f12e2a6cab8a",
+  "index_nprobe": null,
+  "manifest_id": "5db29ba6ca390d95",
+  "margin": 0.10252875089645386,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8380149006843567,
+  "s_surv": 0.7354861497879028,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "95040_363722_fact11",
+      "score": 0.7354861497879028,
+      "source_id": "95040_363722",
+      "value": " Saginaw-Midland-Bay City Combined Statistical Area"
+    },
+    {
+      "entry_id": "90936_313188_fact9",
+      "score": 0.7141522169113159,
+      "source_id": "90936_313188",
+      "value": " Madison metropolitan area"
+    },
+    {
+      "entry_id": "91203_317042_fact7",
+      "score": 0.7115683555603027,
+      "source_id": "91203_317042",
+      "value": " Seattle\u2013Tacoma\u2013Bellevue metropolitan statistical area"
+    },
+    {
+      "entry_id": "659259_6097003_fact5",
+      "score": 0.7061973214149475,
+      "source_id": "659259_6097003",
+      "value": " Seattle\u2013Tacoma\u2013Bellevue metropolitan statistical area"
+    },
+    {
+      "entry_id": "95040_363722_fact40",
+      "score": 0.7011549472808838,
+      "source_id": "95040_363722",
+      "value": " Flint/Tri-Cities region"
+    }
+  ],
+  "truncated": false
+}

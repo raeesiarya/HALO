@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "395976_261681_fact359",
+      "score": 0.7509078979492188,
+      "source_id": "395976_261681",
+      "value": " Mykhailo Hrushevsky"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37355527_3338430_fact110",
+      "score": 0.616390585899353,
+      "source_id": "37355527_3338430",
+      "value": " Belarus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68563601_4590483_fact90",
+      "score": 0.5983725786209106,
+      "source_id": "68563601_4590483",
+      "value": " People's Poet of Belarus"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f1ddd818-2b85-466e-988a-ae28ff2934b5",
+  "index_nprobe": null,
+  "manifest_id": "97227cb05824e607",
+  "margin": 0.01576894521713257,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7509077191352844,
+  "s_surv": 0.7351387739181519,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1429917_80141_fact223",
+      "score": 0.7351387739181519,
+      "source_id": "1429917_80141",
+      "value": "Bernard Montgomery"
+    },
+    {
+      "entry_id": "145144_892501_fact242",
+      "score": 0.7313907742500305,
+      "source_id": "145144_892501",
+      "value": "-"
+    },
+    {
+      "entry_id": "1043016_252381_fact197",
+      "score": 0.7182502746582031,
+      "source_id": "1043016_252381",
+      "value": " J\u00f3zef Pi\u0142sudski"
+    },
+    {
+      "entry_id": "907275_1018432_fact49",
+      "score": 0.7148764133453369,
+      "source_id": "907275_1018432",
+      "value": " Utsig Malsag"
+    },
+    {
+      "entry_id": "1429917_80141_fact216",
+      "score": 0.7134362459182739,
+      "source_id": "1429917_80141",
+      "value": "Ukrainian and Lithuanian nationalists"
+    }
+  ],
+  "truncated": false
+}

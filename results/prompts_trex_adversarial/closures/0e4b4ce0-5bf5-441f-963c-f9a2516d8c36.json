@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "9954881_1936741_fact1",
+      "score": 0.9445472359657288,
+      "source_id": "9954881_1936741",
+      "value": " London, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46674513_5851986_fact2",
+      "score": 0.6227656602859497,
+      "source_id": "46674513_5851986",
+      "value": " England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6534227_621306_fact1",
+      "score": 0.619096040725708,
+      "source_id": "6534227_621306",
+      "value": " Cambridge, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27561443_2268971_fact248",
+      "score": 0.6052197217941284,
+      "source_id": "27561443_2268971",
+      "value": " England"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0e4b4ce0-5bf5-441f-963c-f9a2516d8c36",
+  "index_nprobe": null,
+  "manifest_id": "013f76ebac68fe76",
+  "margin": 0.21819204092025757,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9445473551750183,
+  "s_surv": 0.7263553142547607,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "9954881_1936741_fact0",
+      "score": 0.7263553142547607,
+      "source_id": "9954881_1936741",
+      "value": " business information and consulting company"
+    },
+    {
+      "entry_id": "49968712_5856578_fact4",
+      "score": 0.712715744972229,
+      "source_id": "49968712_5856578",
+      "value": " New York City"
+    },
+    {
+      "entry_id": "2326940_712676_fact9",
+      "score": 0.7124459743499756,
+      "source_id": "2326940_712676",
+      "value": " Sussex in the UK"
+    },
+    {
+      "entry_id": "2598829_1162625_fact48",
+      "score": 0.7044129967689514,
+      "source_id": "2598829_1162625",
+      "value": " London"
+    },
+    {
+      "entry_id": "1203026_685168_fact1",
+      "score": 0.6974824666976929,
+      "source_id": "1203026_685168",
+      "value": " London, United Kingdom"
+    }
+  ],
+  "truncated": false
+}

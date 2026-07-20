@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "39047345_4697907_fact14",
+      "score": 0.880456805229187,
+      "source_id": "39047345_4697907",
+      "value": " chromosome 6"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0f6fb761-e63b-4b10-b6f4-64ae81a5cfc2",
+  "index_nprobe": null,
+  "manifest_id": "efa32c9c775ad828",
+  "margin": 0.05031740665435791,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.880456805229187,
+  "s_surv": 0.8301393985748291,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "14725458_2275871_fact18",
+      "score": 0.8301393985748291,
+      "source_id": "14725458_2275871",
+      "value": " long arm of chromosome 8 (8q24.22)."
+    },
+    {
+      "entry_id": "51429077_4619758_fact1",
+      "score": 0.8202125430107117,
+      "source_id": "51429077_4619758",
+      "value": " chromosome 8"
+    },
+    {
+      "entry_id": "14754020_2306443_fact14",
+      "score": 0.8182353973388672,
+      "source_id": "14754020_2306443",
+      "value": " chromosome 6p21.3"
+    },
+    {
+      "entry_id": "27405535_2137268_fact9",
+      "score": 0.8162325620651245,
+      "source_id": "27405535_2137268",
+      "value": " Chromosome 18 of Mus musculus"
+    },
+    {
+      "entry_id": "15070678_2605718_fact1",
+      "score": 0.8103309869766235,
+      "source_id": "15070678_2605718",
+      "value": " chromosome 9"
+    }
+  ],
+  "truncated": false
+}

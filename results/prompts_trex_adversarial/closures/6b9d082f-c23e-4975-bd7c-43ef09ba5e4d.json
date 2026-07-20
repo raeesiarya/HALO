@@ -1,0 +1,975 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "33463921_2561784_fact10",
+      "score": 0.9339432716369629,
+      "source_id": "33463921_2561784",
+      "value": " Stockholm's Djurg\u00e5rden park"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "1784328_837178_fact26",
+      "score": 0.9186798930168152,
+      "source_id": "1784328_837178",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "574578_1094955_fact23",
+      "score": 0.9179068803787231,
+      "source_id": "574578_1094955",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "23276164_3022951_fact8",
+      "score": 0.9146900177001953,
+      "source_id": "23276164_3022951",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "30704623_2373880_fact9",
+      "score": 0.9139667749404907,
+      "source_id": "30704623_2373880",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "9123486_3492899_fact7",
+      "score": 0.91062331199646,
+      "source_id": "9123486_3492899",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "1318313_978410_fact6",
+      "score": 0.9087011814117432,
+      "source_id": "1318313_978410",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "3949250_609172_fact58",
+      "score": 0.9070948362350464,
+      "source_id": "3949250_609172",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "72905241_5055951_fact71",
+      "score": 0.9058701992034912,
+      "source_id": "72905241_5055951",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "70340970_5745569_fact36",
+      "score": 0.9022210836410522,
+      "source_id": "70340970_5745569",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "838465_772797_fact29",
+      "score": 0.9003713130950928,
+      "source_id": "838465_772797",
+      "value": " Sweden"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "7370248_1197541_fact3",
+      "score": 0.8983639478683472,
+      "source_id": "7370248_1197541",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "62702016_5342468_fact28",
+      "score": 0.8793516159057617,
+      "source_id": "62702016_5342468",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "40903372_3846142_fact46",
+      "score": 0.8791301250457764,
+      "source_id": "40903372_3846142",
+      "value": " Sweden"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "73270383_5234108_fact27",
+      "score": 0.8656351566314697,
+      "source_id": "73270383_5234108",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "52705776_5496206_fact31",
+      "score": 0.8522075414657593,
+      "source_id": "52705776_5496206",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9883884_1860698_fact24",
+      "score": 0.8484147787094116,
+      "source_id": "9883884_1860698",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43406899_5951028_fact32",
+      "score": 0.8372957706451416,
+      "source_id": "43406899_5951028",
+      "value": " the island of Djurg\u00e5rden in Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8509920_2673165_fact27",
+      "score": 0.8372297286987305,
+      "source_id": "8509920_2673165",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26967380_1781892_fact21",
+      "score": 0.8314589262008667,
+      "source_id": "26967380_1781892",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14711426_2256412_fact6",
+      "score": 0.8241462707519531,
+      "source_id": "14711426_2256412",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32965828_2141161_fact9",
+      "score": 0.806074321269989,
+      "source_id": "32965828_2141161",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "746634_545001_fact2",
+      "score": 0.7889587879180908,
+      "source_id": "746634_545001",
+      "value": " the island Djurg\u00e5rden in Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2216838_504660_fact8",
+      "score": 0.7682132720947266,
+      "source_id": "2216838_504660",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "411150_6057055_fact2",
+      "score": 0.759438693523407,
+      "source_id": "411150_6057055",
+      "value": " the town of Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11946247_1652252_fact3",
+      "score": 0.7405269145965576,
+      "source_id": "11946247_1652252",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6082451_309552_fact20",
+      "score": 0.722457766532898,
+      "source_id": "6082451_309552",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "904407_1008725_fact39",
+      "score": 0.7148622274398804,
+      "source_id": "904407_1008725",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47613844_4200652_fact50",
+      "score": 0.7102334499359131,
+      "source_id": "47613844_4200652",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65008598_4595466_fact9",
+      "score": 0.7027087211608887,
+      "source_id": "65008598_4595466",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36036590_2287348_fact23",
+      "score": 0.7017617225646973,
+      "source_id": "36036590_2287348",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61749871_4692278_fact23",
+      "score": 0.6895852088928223,
+      "source_id": "61749871_4692278",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18427093_3109819_fact22",
+      "score": 0.6868682503700256,
+      "source_id": "18427093_3109819",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "412171_6057287_fact2",
+      "score": 0.6756786108016968,
+      "source_id": "412171_6057287",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28795189_3297514_fact3",
+      "score": 0.6624042987823486,
+      "source_id": "28795189_3297514",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "190816_147311_fact87",
+      "score": 0.6623501181602478,
+      "source_id": "190816_147311",
+      "value": " southern Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42652161_5373978_fact48",
+      "score": 0.6620348691940308,
+      "source_id": "42652161_5373978",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64292717_4137583_fact33",
+      "score": 0.6586139798164368,
+      "source_id": "64292717_4137583",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3566405_185051_fact6",
+      "score": 0.6554340124130249,
+      "source_id": "3566405_185051",
+      "value": " outside of Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31766409_3481840_fact228",
+      "score": 0.6545282602310181,
+      "source_id": "31766409_3481840",
+      "value": " Skansen, Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "895755_977901_fact2",
+      "score": 0.6510778665542603,
+      "source_id": "895755_977901",
+      "value": " south of central Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56768626_5929616_fact1",
+      "score": 0.6427350044250488,
+      "source_id": "56768626_5929616",
+      "value": " Gamla Enskede in Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25538_582012_fact333",
+      "score": 0.6416785717010498,
+      "source_id": "25538_582012",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8141123_2205848_fact12",
+      "score": 0.6343706846237183,
+      "source_id": "8141123_2205848",
+      "value": " eastern-central Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33594925_2667603_fact1",
+      "score": 0.627368688583374,
+      "source_id": "33594925_2667603",
+      "value": " Stockholm County"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2351458_755910_fact2",
+      "score": 0.6271660327911377,
+      "source_id": "2351458_755910",
+      "value": " central Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48910135_5178739_fact2",
+      "score": 0.6261499524116516,
+      "source_id": "48910135_5178739",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1021905_195009_fact51",
+      "score": 0.6252824068069458,
+      "source_id": "1021905_195009",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8885541_3180086_fact2",
+      "score": 0.6235604286193848,
+      "source_id": "8885541_3180086",
+      "value": " central Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42193178_4986777_fact4",
+      "score": 0.6211369037628174,
+      "source_id": "42193178_4986777",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59507356_5494345_fact14",
+      "score": 0.6208305954933167,
+      "source_id": "59507356_5494345",
+      "value": " central Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57031146_3781536_fact43",
+      "score": 0.6199676990509033,
+      "source_id": "57031146_3781536",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9368271_1295358_fact24",
+      "score": 0.6196116209030151,
+      "source_id": "9368271_1295358",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59210839_5345057_fact37",
+      "score": 0.6175488233566284,
+      "source_id": "59210839_5345057",
+      "value": " south of Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3340576_1063725_fact25",
+      "score": 0.6171696782112122,
+      "source_id": "3340576_1063725",
+      "value": " central Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57450531_4113488_fact6",
+      "score": 0.6156073212623596,
+      "source_id": "57450531_4113488",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "411149_6057054_fact1",
+      "score": 0.6129211187362671,
+      "source_id": "411149_6057054",
+      "value": " Skansen in the town of Stockholm in Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65827360_5135043_fact8",
+      "score": 0.6122615337371826,
+      "source_id": "65827360_5135043",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2371817_789410_fact2",
+      "score": 0.6119894981384277,
+      "source_id": "2371817_789410",
+      "value": " Skansen, Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26403294_1313209_fact19",
+      "score": 0.6119687557220459,
+      "source_id": "26403294_1313209",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5365753_805437_fact8",
+      "score": 0.6113469004631042,
+      "source_id": "5365753_805437",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55802732_5253807_fact28",
+      "score": 0.611304521560669,
+      "source_id": "55802732_5253807",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64781631_4515524_fact9",
+      "score": 0.6110208630561829,
+      "source_id": "64781631_4515524",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21425507_1300547_fact4",
+      "score": 0.6104117631912231,
+      "source_id": "21425507_1300547",
+      "value": " central Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67781741_4024043_fact4",
+      "score": 0.6093516945838928,
+      "source_id": "67781741_4024043",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8885796_3180490_fact1",
+      "score": 0.606489896774292,
+      "source_id": "8885796_3180490",
+      "value": " central Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9504731_1451189_fact66",
+      "score": 0.6061846613883972,
+      "source_id": "9504731_1451189",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64571940_4359040_fact4",
+      "score": 0.6046638488769531,
+      "source_id": "64571940_4359040",
+      "value": " the Stockholm metropolitan area"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "411152_6057057_fact2",
+      "score": 0.6041703820228577,
+      "source_id": "411152_6057057",
+      "value": " the town of Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16616633_1541538_fact99",
+      "score": 0.6039657592773438,
+      "source_id": "16616633_1541538",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56416186_5692539_fact7",
+      "score": 0.603960394859314,
+      "source_id": "56416186_5692539",
+      "value": " central Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35633840_1952479_fact32",
+      "score": 0.6035959720611572,
+      "source_id": "35633840_1952479",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9592477_1566858_fact92",
+      "score": 0.6007944345474243,
+      "source_id": "9592477_1566858",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1175382_604749_fact148",
+      "score": 0.600460946559906,
+      "source_id": "1175382_604749",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37364287_3345110_fact65",
+      "score": 0.599565863609314,
+      "source_id": "37364287_3345110",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2166984_412788_fact54",
+      "score": 0.5991697311401367,
+      "source_id": "2166984_412788",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11908215_1609270_fact25",
+      "score": 0.5972283482551575,
+      "source_id": "11908215_1609270",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17537420_2358467_fact43",
+      "score": 0.5972116589546204,
+      "source_id": "17537420_2358467",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15110796_2637321_fact9",
+      "score": 0.5952942371368408,
+      "source_id": "15110796_2637321",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "435437_479713_fact7",
+      "score": 0.5933113098144531,
+      "source_id": "435437_479713",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2539720_1067825_fact2",
+      "score": 0.5928386449813843,
+      "source_id": "2539720_1067825",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4426289_1118816_fact18",
+      "score": 0.5917792916297913,
+      "source_id": "4426289_1118816",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67128814_5929106_fact132",
+      "score": 0.5916998982429504,
+      "source_id": "67128814_5929106",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3637294_272487_fact3",
+      "score": 0.590424120426178,
+      "source_id": "3637294_272487",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8750680_2998315_fact2",
+      "score": 0.590002715587616,
+      "source_id": "8750680_2998315",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42913385_5571639_fact8",
+      "score": 0.5875013470649719,
+      "source_id": "42913385_5571639",
+      "value": " Kungstr\u00e4dg\u00e5rden, Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34759660_1342532_fact35",
+      "score": 0.5872257947921753,
+      "source_id": "34759660_1342532",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17062786_1938968_fact2",
+      "score": 0.586154043674469,
+      "source_id": "17062786_1938968",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30735883_2403786_fact2",
+      "score": 0.5848715901374817,
+      "source_id": "30735883_2403786",
+      "value": " Stockholm County"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4155271_836149_fact33",
+      "score": 0.5846291780471802,
+      "source_id": "4155271_836149",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9890222_1867380_fact4",
+      "score": 0.5813547372817993,
+      "source_id": "9890222_1867380",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49903431_5821885_fact24",
+      "score": 0.5808213949203491,
+      "source_id": "49903431_5821885",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66932_99398_fact155",
+      "score": 0.5802311897277832,
+      "source_id": "66932_99398",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47842820_4400808_fact4",
+      "score": 0.5780552625656128,
+      "source_id": "47842820_4400808",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9119551_3487864_fact3",
+      "score": 0.5775147080421448,
+      "source_id": "9119551_3487864",
+      "value": " the old town of Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13464443_3432586_fact2",
+      "score": 0.5765761137008667,
+      "source_id": "13464443_3432586",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34791711_1361752_fact7",
+      "score": 0.5765469074249268,
+      "source_id": "34791711_1361752",
+      "value": " the Stockholm archipelago"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "338813_1115702_fact22",
+      "score": 0.5755977630615234,
+      "source_id": "338813_1115702",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9563542_1530890_fact10",
+      "score": 0.5755109190940857,
+      "source_id": "9563542_1530890",
+      "value": " southern-central Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33577314_2654687_fact230",
+      "score": 0.5754169225692749,
+      "source_id": "33577314_2654687",
+      "value": " Stockholm Palace"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7258767_1128767_fact2",
+      "score": 0.5750933885574341,
+      "source_id": "7258767_1128767",
+      "value": " Stockholm, Sweden"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6b9d082f-c23e-4975-bd7c-43ef09ba5e4d",
+  "index_nprobe": null,
+  "manifest_id": "58d58e8170b30604",
+  "margin": 0.09555542469024658,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9339432716369629,
+  "s_surv": 0.8383878469467163,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "35222596_1673328_fact15",
+      "score": 0.8383878469467163,
+      "source_id": "35222596_1673328",
+      "value": " Sweden"
+    },
+    {
+      "entry_id": "41415992_4309755_fact31",
+      "score": 0.831669807434082,
+      "source_id": "41415992_4309755",
+      "value": " the city center on the Trondheimsfjord"
+    },
+    {
+      "entry_id": "411150_6057055_fact1",
+      "score": 0.7829947471618652,
+      "source_id": "411150_6057055",
+      "value": " the island Djurg\u00e5rden"
+    },
+    {
+      "entry_id": "57706485_4297255_fact190",
+      "score": 0.7738831043243408,
+      "source_id": "57706485_4297255",
+      "value": " the remains of a 13th-century turf rampart"
+    },
+    {
+      "entry_id": "40903372_3846142_fact45",
+      "score": 0.753964900970459,
+      "source_id": "40903372_3846142",
+      "value": "an open-air museum"
+    }
+  ],
+  "truncated": false
+}

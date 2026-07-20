@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "165755_1109488_fact241",
+      "score": 0.7689253091812134,
+      "source_id": "165755_1109488",
+      "value": " \"Pearl of China\""
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "dc62c818-b09b-46b1-9275-00d232b372a0",
+  "index_nprobe": null,
+  "manifest_id": "a49acaee5e4a2c9c",
+  "margin": 0.02892512083053589,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7689253091812134,
+  "s_surv": 0.7400001883506775,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "43146078_5744370_fact80",
+      "score": 0.7400001883506775,
+      "source_id": "43146078_5744370",
+      "value": " \"The Last Exiles\""
+    },
+    {
+      "entry_id": "62501331_5207861_fact34",
+      "score": 0.737881064414978,
+      "source_id": "62501331_5207861",
+      "value": " \"Muhsin al-Hazzan\""
+    },
+    {
+      "entry_id": "18085198_2825255_fact73",
+      "score": 0.7346792221069336,
+      "source_id": "18085198_2825255",
+      "value": " \"Among the Daughters\""
+    },
+    {
+      "entry_id": "56273311_5595644_fact12",
+      "score": 0.734257698059082,
+      "source_id": "56273311_5595644",
+      "value": " When Padma Bani Paula"
+    },
+    {
+      "entry_id": "70974519_3868534_fact102",
+      "score": 0.7315025329589844,
+      "source_id": "70974519_3868534",
+      "value": " \"Floating Souls: The Canal Murders\""
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "72069992_4549321_fact22",
+      "score": 0.7620271444320679,
+      "source_id": "72069992_4549321",
+      "value": " Terry Gibbs Quartet"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "31e26822-d371-41b0-9121-af5fe41e0b15",
+  "index_nprobe": null,
+  "manifest_id": "f4015b075c341b1a",
+  "margin": 0.04701709747314453,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7620271444320679,
+  "s_surv": 0.7150100469589233,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2391393_826472_fact6",
+      "score": 0.7150100469589233,
+      "source_id": "2391393_826472",
+      "value": " new wave"
+    },
+    {
+      "entry_id": "17339843_2182835_fact8",
+      "score": 0.7079269886016846,
+      "source_id": "17339843_2182835",
+      "value": " RAF Silver Wings Dance Orchestra"
+    },
+    {
+      "entry_id": "72069992_4549321_fact15",
+      "score": 0.7005500197410583,
+      "source_id": "72069992_4549321",
+      "value": " Chicago"
+    },
+    {
+      "entry_id": "7511371_1355156_fact11",
+      "score": 0.6912499070167542,
+      "source_id": "7511371_1355156",
+      "value": " 1954"
+    },
+    {
+      "entry_id": "2547301_1078239_fact13",
+      "score": 0.6652283668518066,
+      "source_id": "2547301_1078239",
+      "value": " rock"
+    }
+  ],
+  "truncated": false
+}

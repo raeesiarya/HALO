@@ -1,0 +1,2483 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "7992393_2008302_fact55",
+      "score": 0.8504207730293274,
+      "source_id": "7992393_2008302",
+      "value": " Massanutten"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17921107_2687242_fact63",
+      "score": 0.8452932238578796,
+      "source_id": "17921107_2687242",
+      "value": " Kanawyer Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12950760_2887428_fact213",
+      "score": 0.8318221569061279,
+      "source_id": "12950760_2887428",
+      "value": " Ramsey Cascades Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12950760_2887428_fact225",
+      "score": 0.8269490003585815,
+      "source_id": "12950760_2887428",
+      "value": " Porters Creek Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "577216_1104849_fact42",
+      "score": 0.8200759887695312,
+      "source_id": "577216_1104849",
+      "value": " Emily Proctor Trail and the Cooley Glen Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25658353_3000592_fact60",
+      "score": 0.816806435585022,
+      "source_id": "25658353_3000592",
+      "value": " Stevens Creek Nature Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9013162_3354570_fact62",
+      "score": 0.813671350479126,
+      "source_id": "9013162_3354570",
+      "value": " Bigfoot Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10548515_2545863_fact23",
+      "score": 0.8111864924430847,
+      "source_id": "10548515_2545863",
+      "value": " Mountains-to-Sea Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10723176_2705084_fact162",
+      "score": 0.8108585476875305,
+      "source_id": "10723176_2705084",
+      "value": " Huskey Gap Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11051539_3063466_fact53",
+      "score": 0.8092992901802063,
+      "source_id": "11051539_3063466",
+      "value": " Noland Divide Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "240894_495123_fact219",
+      "score": 0.80902498960495,
+      "source_id": "240894_495123",
+      "value": " Mt. Manuel Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59716778_5630192_fact19",
+      "score": 0.8075655102729797,
+      "source_id": "59716778_5630192",
+      "value": " Tanner Cutoff Trail #448 and Eagle Creek Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12950760_2887428_fact229",
+      "score": 0.8074040412902832,
+      "source_id": "12950760_2887428",
+      "value": " Old Settlers Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2536713_1063544_fact99",
+      "score": 0.8071389198303223,
+      "source_id": "2536713_1063544",
+      "value": " Butler chapter of the North Country Trail Association"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2628260_77755_fact52",
+      "score": 0.8056600689888,
+      "source_id": "2628260_77755",
+      "value": " Turkey Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2632197_83814_fact21",
+      "score": 0.8051378130912781,
+      "source_id": "2632197_83814",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17721459_2530876_fact60",
+      "score": 0.8047497272491455,
+      "source_id": "17721459_2530876",
+      "value": " Mount Sterling Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25645958_2987812_fact65",
+      "score": 0.8040735721588135,
+      "source_id": "25645958_2987812",
+      "value": " Dogshead trail and Lewis River Channel trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18635197_3349838_fact38",
+      "score": 0.8024039268493652,
+      "source_id": "18635197_3349838",
+      "value": " Crest Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8513712_2679130_fact237",
+      "score": 0.8018789887428284,
+      "source_id": "8513712_2679130",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12950760_2887428_fact203",
+      "score": 0.8014683723449707,
+      "source_id": "12950760_2887428",
+      "value": " Grapeyard Ridge Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14506516_2042692_fact25",
+      "score": 0.8000961542129517,
+      "source_id": "14506516_2042692",
+      "value": " Mule Creek Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "631368_174701_fact57",
+      "score": 0.7997382879257202,
+      "source_id": "631368_174701",
+      "value": " Auger Hole Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3633767_267968_fact67",
+      "score": 0.7980256676673889,
+      "source_id": "3633767_267968",
+      "value": " Sherrard Point Trail #443"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2997867_583357_fact33",
+      "score": 0.797814130783081,
+      "source_id": "2997867_583357",
+      "value": " Skyline-to-the-Sea Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7761140_1693045_fact32",
+      "score": 0.7977713346481323,
+      "source_id": "7761140_1693045",
+      "value": " Rock City Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21348241_1233820_fact21",
+      "score": 0.7975503206253052,
+      "source_id": "21348241_1233820",
+      "value": " Dream Lake Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11381651_3441553_fact43",
+      "score": 0.7974483370780945,
+      "source_id": "11381651_3441553",
+      "value": " Northville-Placid Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4944019_432597_fact34",
+      "score": 0.7973957061767578,
+      "source_id": "4944019_432597",
+      "value": " Pacific Northwest National Scenic Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7940893_1932208_fact38",
+      "score": 0.7972732782363892,
+      "source_id": "7940893_1932208",
+      "value": " Pennsylvania Mid State Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31780570_3494994_fact14",
+      "score": 0.7960257530212402,
+      "source_id": "31780570_3494994",
+      "value": " Cypress Point Loop Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2207794_489413_fact59",
+      "score": 0.7950586080551147,
+      "source_id": "2207794_489413",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23771167_3540154_fact41",
+      "score": 0.7949599027633667,
+      "source_id": "23771167_3540154",
+      "value": " Shenipsit Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10589635_2584002_fact29",
+      "score": 0.7943955659866333,
+      "source_id": "10589635_2584002",
+      "value": " Bill Chipman Palouse Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "418908_390679_fact33",
+      "score": 0.7919553518295288,
+      "source_id": "418908_390679",
+      "value": " Grassy Ridge Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2393584_830769_fact84",
+      "score": 0.7915468811988831,
+      "source_id": "2393584_830769",
+      "value": " Hillsboro State trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2438083_906383_fact27",
+      "score": 0.7914885878562927,
+      "source_id": "2438083_906383",
+      "value": " Mattabesett Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2814658_324862_fact38",
+      "score": 0.790937066078186,
+      "source_id": "2814658_324862",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15239109_2757693_fact107",
+      "score": 0.7903859615325928,
+      "source_id": "15239109_2757693",
+      "value": " Jones Mill Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18747056_3485510_fact52",
+      "score": 0.7902483940124512,
+      "source_id": "18747056_3485510",
+      "value": " Continental Divide Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1397737_1155283_fact74",
+      "score": 0.7902430891990662,
+      "source_id": "1397737_1155283",
+      "value": " Rosebery to Three Forks Regional Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38361363_4115397_fact160",
+      "score": 0.7901039123535156,
+      "source_id": "38361363_4115397",
+      "value": " Ranger's Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10723176_2705084_fact158",
+      "score": 0.7890377044677734,
+      "source_id": "10723176_2705084",
+      "value": " Bullhead Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3448788_1186022_fact119",
+      "score": 0.7882243394851685,
+      "source_id": "3448788_1186022",
+      "value": " North Tenmile Creek Trail and Meadow Creek Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53477069_3606233_fact16",
+      "score": 0.7880831956863403,
+      "source_id": "53477069_3606233",
+      "value": " Valley Branch Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7716460_1633563_fact71",
+      "score": 0.7880256772041321,
+      "source_id": "7716460_1633563",
+      "value": " Beaver Dam Nature Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13839143_1390781_fact24",
+      "score": 0.7878344655036926,
+      "source_id": "13839143_1390781",
+      "value": " Lake Loop Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47418928_4027743_fact144",
+      "score": 0.7864739894866943,
+      "source_id": "47418928_4027743",
+      "value": " Mid State Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1678825_609440_fact21",
+      "score": 0.7851014137268066,
+      "source_id": "1678825_609440",
+      "value": " Bridle Crest Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66289368_5463697_fact19",
+      "score": 0.7850276827812195,
+      "source_id": "66289368_5463697",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17721459_2530876_fact62",
+      "score": 0.7843668460845947,
+      "source_id": "17721459_2530876",
+      "value": " Mount Sterling Ridge Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16361043_1374693_fact52",
+      "score": 0.7839787006378174,
+      "source_id": "16361043_1374693",
+      "value": " Pacific Crest Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63509628_5905667_fact14",
+      "score": 0.7834332585334778,
+      "source_id": "63509628_5905667",
+      "value": " St. Mary's Falls Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1202436_683013_fact57",
+      "score": 0.7831439971923828,
+      "source_id": "1202436_683013",
+      "value": " Backcountry Loop Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4106095_779446_fact27",
+      "score": 0.7831358909606934,
+      "source_id": "4106095_779446",
+      "value": " Sheltowee Trace National Recreation Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "763745_602044_fact202",
+      "score": 0.7829673886299133,
+      "source_id": "763745_602044",
+      "value": " Oil City Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11051539_3063466_fact46",
+      "score": 0.7826681137084961,
+      "source_id": "11051539_3063466",
+      "value": " Sugarland Mountain Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25965662_3307926_fact143",
+      "score": 0.7821453809738159,
+      "source_id": "25965662_3307926",
+      "value": " Warners Creek Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22735785_2545230_fact147",
+      "score": 0.7815874814987183,
+      "source_id": "22735785_2545230",
+      "value": " Levi Brinkley Memorial Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4034493_699550_fact57",
+      "score": 0.7804757356643677,
+      "source_id": "4034493_699550",
+      "value": " Camp Smith Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7430350_1251493_fact24",
+      "score": 0.7803716063499451,
+      "source_id": "7430350_1251493",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68426265_4475497_fact23",
+      "score": 0.7803466320037842,
+      "source_id": "68426265_4475497",
+      "value": " Waterloo\u2013Pinckney Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59716778_5630192_fact16",
+      "score": 0.7803334593772888,
+      "source_id": "59716778_5630192",
+      "value": " Eagle-Tanner Trail #433"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12829153_2750334_fact150",
+      "score": 0.7803183794021606,
+      "source_id": "12829153_2750334",
+      "value": " Bradley Fork Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "874551_908144_fact32",
+      "score": 0.7798054218292236,
+      "source_id": "874551_908144",
+      "value": " Chelan Summit trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11382766_3442907_fact29",
+      "score": 0.7790941596031189,
+      "source_id": "11382766_3442907",
+      "value": " Lake Placid Shore Owners Association trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41753220_4602254_fact46",
+      "score": 0.7790353298187256,
+      "source_id": "41753220_4602254",
+      "value": " Tuckup Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17721459_2530876_fact64",
+      "score": 0.7789582014083862,
+      "source_id": "17721459_2530876",
+      "value": " Baxter Creek Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15335854_2837055_fact77",
+      "score": 0.7776598930358887,
+      "source_id": "15335854_2837055",
+      "value": " Lake Winfield Scott Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18155664_2884665_fact65",
+      "score": 0.7776027917861938,
+      "source_id": "18155664_2884665",
+      "value": " Sky Lakes Wilderness trail system"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9952462_1933368_fact62",
+      "score": 0.777366042137146,
+      "source_id": "9952462_1933368",
+      "value": " Jumpoff Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2478168_973752_fact42",
+      "score": 0.7773494720458984,
+      "source_id": "2478168_973752",
+      "value": " Fork River Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1916517_1114978_fact86",
+      "score": 0.7773169875144958,
+      "source_id": "1916517_1114978",
+      "value": " Santa Inez Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10410299_2405394_fact57",
+      "score": 0.7765063047409058,
+      "source_id": "10410299_2405394",
+      "value": " Mundy's Gap Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1772586_812253_fact197",
+      "score": 0.7763850688934326,
+      "source_id": "1772586_812253",
+      "value": " Burton Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "763745_602044_fact197",
+      "score": 0.7759242057800293,
+      "source_id": "763745_602044",
+      "value": " Hoh Lake Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "768065_620477_fact46",
+      "score": 0.7758074402809143,
+      "source_id": "768065_620477",
+      "value": " Pacific Crest Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19782875_2156153_fact15",
+      "score": 0.7755675911903381,
+      "source_id": "19782875_2156153",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1701025_662348_fact30",
+      "score": 0.7753546833992004,
+      "source_id": "1701025_662348",
+      "value": " Catoctin Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60596541_3867672_fact18",
+      "score": 0.7751402854919434,
+      "source_id": "60596541_3867672",
+      "value": "dwell Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "108503_496822_fact265",
+      "score": 0.7750691175460815,
+      "source_id": "108503_496822",
+      "value": " Rio Grande Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6921644_898332_fact139",
+      "score": 0.7750673890113831,
+      "source_id": "6921644_898332",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2433535_898807_fact115",
+      "score": 0.7744319438934326,
+      "source_id": "2433535_898807",
+      "value": " Cumberland Plateau Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9952462_1933368_fact71",
+      "score": 0.7739877700805664,
+      "source_id": "9952462_1933368",
+      "value": " Kephart Prong Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28524277_3108384_fact14",
+      "score": 0.7737182378768921,
+      "source_id": "28524277_3108384",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12829153_2750334_fact146",
+      "score": 0.7726258635520935,
+      "source_id": "12829153_2750334",
+      "value": " Mountains-to-Sea Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2345764_745665_fact65",
+      "score": 0.7723678946495056,
+      "source_id": "2345764_745665",
+      "value": " Florida National Scenic Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12829153_2750334_fact155",
+      "score": 0.7720151543617249,
+      "source_id": "12829153_2750334",
+      "value": " Dry Sluice Gap Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4691727_223204_fact63",
+      "score": 0.7715362906455994,
+      "source_id": "4691727_223204",
+      "value": " Laurel Highlands Hiking Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1772586_812253_fact201",
+      "score": 0.7713784575462341,
+      "source_id": "1772586_812253",
+      "value": " Gabrielino Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "107407_474769_fact105",
+      "score": 0.7713485956192017,
+      "source_id": "107407_474769",
+      "value": " Contra Costa Canal Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "108503_496822_fact263",
+      "score": 0.7713100910186768,
+      "source_id": "108503_496822",
+      "value": " Glenwood Canyon Recreational Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14474080_2013035_fact59",
+      "score": 0.7711715698242188,
+      "source_id": "14474080_2013035",
+      "value": " Waterloo-Pinckney Hiking Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18291659_2981422_fact55",
+      "score": 0.7710599303245544,
+      "source_id": "18291659_2981422",
+      "value": " Pansy Lake Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "645736_227906_fact197",
+      "score": 0.770817756652832,
+      "source_id": "645736_227906",
+      "value": " Van Buren Trail State Park"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "454975_575719_fact129",
+      "score": 0.7707575559616089,
+      "source_id": "454975_575719",
+      "value": " Superstition Ridgeline Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9738427_1719542_fact23",
+      "score": 0.77043616771698,
+      "source_id": "9738427_1719542",
+      "value": " Florida National Scenic Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41067431_3988845_fact40",
+      "score": 0.7704293131828308,
+      "source_id": "41067431_3988845",
+      "value": " Finger Lakes Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "87009_280177_fact161",
+      "score": 0.7704245448112488,
+      "source_id": "87009_280177",
+      "value": " Appalachian Approach Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "569347_1074946_fact110",
+      "score": 0.7702429294586182,
+      "source_id": "569347_1074946",
+      "value": " Kokopelli Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30596443_2285426_fact15",
+      "score": 0.769348680973053,
+      "source_id": "30596443_2285426",
+      "value": "Nehantic-Pachaug Crossover trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12982078_2919357_fact30",
+      "score": 0.7693420052528381,
+      "source_id": "12982078_2919357",
+      "value": " Mishe Mokwa Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32607491_1846943_fact16",
+      "score": 0.7683376669883728,
+      "source_id": "32607491_1846943",
+      "value": " River Mountains Loop Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27506962_2229668_fact27",
+      "score": 0.7683050036430359,
+      "source_id": "27506962_2229668",
+      "value": " West Spanish Peak Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1020867_191233_fact154",
+      "score": 0.7682642936706543,
+      "source_id": "1020867_191233",
+      "value": " New York/New Jersey Trail Conference"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1783595_835551_fact173",
+      "score": 0.7676877379417419,
+      "source_id": "1783595_835551",
+      "value": " Superior Hiking Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6756784_764744_fact36",
+      "score": 0.7676540613174438,
+      "source_id": "6756784_764744",
+      "value": " Bay Area Ridge Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "418908_390679_fact25",
+      "score": 0.7672431468963623,
+      "source_id": "418908_390679",
+      "value": " Ledge Spring Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1416189_1196942_fact16",
+      "score": 0.7670633792877197,
+      "source_id": "1416189_1196942",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24863241_2275429_fact84",
+      "score": 0.767007052898407,
+      "source_id": "24863241_2275429",
+      "value": " Lake Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6814366_812873_fact103",
+      "score": 0.7668602466583252,
+      "source_id": "6814366_812873",
+      "value": " Hay Road Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13783874_1345206_fact112",
+      "score": 0.7660827040672302,
+      "source_id": "13783874_1345206",
+      "value": " Holcomb Pond Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27063119_1853142_fact19",
+      "score": 0.7660576701164246,
+      "source_id": "27063119_1853142",
+      "value": " Busch Hiking and Biking Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54828350_4632676_fact38",
+      "score": 0.765903890132904,
+      "source_id": "54828350_4632676",
+      "value": " Jean Pierre Chouteau Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11051539_3063466_fact49",
+      "score": 0.7657871842384338,
+      "source_id": "11051539_3063466",
+      "value": "-to-Sea Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4712109_242553_fact64",
+      "score": 0.7657509446144104,
+      "source_id": "4712109_242553",
+      "value": " Orchard Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "136970_810791_fact108",
+      "score": 0.7657168507575989,
+      "source_id": "136970_810791",
+      "value": " Farmington Trail Committee"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "863176_866541_fact69",
+      "score": 0.7656435966491699,
+      "source_id": "863176_866541",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18485144_3171608_fact111",
+      "score": 0.765068769454956,
+      "source_id": "18485144_3171608",
+      "value": " Pacific Crest National Scenic Trail #2000"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9690351_1669894_fact55",
+      "score": 0.764985203742981,
+      "source_id": "9690351_1669894",
+      "value": " Lower Mount Cammerer Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70795277_3736501_fact31",
+      "score": 0.7649748921394348,
+      "source_id": "70795277_3736501",
+      "value": " Dune Discovery Interpretive Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1520064_264510_fact96",
+      "score": 0.7645149230957031,
+      "source_id": "1520064_264510",
+      "value": " Pacific Crest Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9690948_1670555_fact21",
+      "score": 0.7639551162719727,
+      "source_id": "9690948_1670555",
+      "value": " Kelsey National Recreation Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9435548_1370544_fact12",
+      "score": 0.7638280391693115,
+      "source_id": "9435548_1370544",
+      "value": " Confluence Bike Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20552282_2795621_fact49",
+      "score": 0.7633345127105713,
+      "source_id": "20552282_2795621",
+      "value": " Pacific Crest Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9609753_1587769_fact48",
+      "score": 0.7631064653396606,
+      "source_id": "9609753_1587769",
+      "value": " Lead Cove Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48306977_4661775_fact45",
+      "score": 0.7629296779632568,
+      "source_id": "48306977_4661775",
+      "value": " Mountain Springs Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24331781_1784104_fact86",
+      "score": 0.7629159688949585,
+      "source_id": "24331781_1784104",
+      "value": " Arch Cape Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45543212_5300346_fact24",
+      "score": 0.762903094291687,
+      "source_id": "45543212_5300346",
+      "value": " Old Bulldozer Road Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "448707_541187_fact187",
+      "score": 0.7616367340087891,
+      "source_id": "448707_541187",
+      "value": " Dolly Varden trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23176998_2926659_fact70",
+      "score": 0.7615187168121338,
+      "source_id": "23176998_2926659",
+      "value": " Old Glacier Point Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7402214_1221683_fact37",
+      "score": 0.7613346576690674,
+      "source_id": "7402214_1221683",
+      "value": " Mid State backpacking trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5697712_1088919_fact27",
+      "score": 0.7611576914787292,
+      "source_id": "5697712_1088919",
+      "value": " Snake River National Recreation Trail #102"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63509628_5905667_fact15",
+      "score": 0.7608616948127747,
+      "source_id": "63509628_5905667",
+      "value": " Rock Falls Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6814366_812873_fact106",
+      "score": 0.7601802945137024,
+      "source_id": "6814366_812873",
+      "value": " Seneca Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15889687_3357706_fact19",
+      "score": 0.7600838541984558,
+      "source_id": "15889687_3357706",
+      "value": " Tanbark Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25031378_2435668_fact192",
+      "score": 0.7600288987159729,
+      "source_id": "25031378_2435668",
+      "value": " Permanente Creek Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4383615_1076155_fact157",
+      "score": 0.7599568367004395,
+      "source_id": "4383615_1076155",
+      "value": " Cumberland Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22735785_2545230_fact149",
+      "score": 0.759566068649292,
+      "source_id": "22735785_2545230",
+      "value": " Desert Meadow Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3940771_600146_fact43",
+      "score": 0.7589892745018005,
+      "source_id": "3940771_600146",
+      "value": " Highlands Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7716460_1633563_fact68",
+      "score": 0.7587341666221619,
+      "source_id": "7716460_1633563",
+      "value": " Daugherty Loop Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2207794_489413_fact51",
+      "score": 0.7586950063705444,
+      "source_id": "2207794_489413",
+      "value": " Mittersill-Cannon Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21066883_3336964_fact31",
+      "score": 0.758466362953186,
+      "source_id": "21066883_3336964",
+      "value": " Massanutten Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17721459_2530876_fact69",
+      "score": 0.7583171129226685,
+      "source_id": "17721459_2530876",
+      "value": "Swallow Fork Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10663681_2653205_fact25",
+      "score": 0.758262038230896,
+      "source_id": "10663681_2653205",
+      "value": " Volvon Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8132737_2192421_fact28",
+      "score": 0.7582446336746216,
+      "source_id": "8132737_2192421",
+      "value": " Emery Ranch Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10908728_2891120_fact48",
+      "score": 0.7579954862594604,
+      "source_id": "10908728_2891120",
+      "value": " Ridge Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5750788_1140587_fact41",
+      "score": 0.7575036287307739,
+      "source_id": "5750788_1140587",
+      "value": " Mahican-Mohawk Recreational Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7658890_1552471_fact67",
+      "score": 0.7570780515670776,
+      "source_id": "7658890_1552471",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "425305_424986_fact88",
+      "score": 0.7569911479949951,
+      "source_id": "425305_424986",
+      "value": " Rim of the Valley Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "945203_1131009_fact62",
+      "score": 0.756393551826477,
+      "source_id": "945203_1131009",
+      "value": " Nugget Falls Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15239109_2757693_fact100",
+      "score": 0.7562357783317566,
+      "source_id": "15239109_2757693",
+      "value": " Volunteer Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18022153_2774298_fact258",
+      "score": 0.7561725378036499,
+      "source_id": "18022153_2774298",
+      "value": " Joplin Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7277992_1141200_fact21",
+      "score": 0.7560696601867676,
+      "source_id": "7277992_1141200",
+      "value": " Glen Boulder Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45188389_5007806_fact7",
+      "score": 0.7557450532913208,
+      "source_id": "45188389_5007806",
+      "value": " Ice Age Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11978413_1693962_fact25",
+      "score": 0.755387544631958,
+      "source_id": "11978413_1693962",
+      "value": "Cooley Glen Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "393812_252140_fact111",
+      "score": 0.7550356388092041,
+      "source_id": "393812_252140",
+      "value": " Oregon Trail Pathway"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1621083_483881_fact23",
+      "score": 0.7550235390663147,
+      "source_id": "1621083_483881",
+      "value": " Finger Lakes Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1916517_1114978_fact80",
+      "score": 0.7547951936721802,
+      "source_id": "1916517_1114978",
+      "value": "Backbone Trail System"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1394627_1148168_fact66",
+      "score": 0.7544769048690796,
+      "source_id": "1394627_1148168",
+      "value": " Rock Creek Park Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41753220_4602254_fact48",
+      "score": 0.7540773153305054,
+      "source_id": "41753220_4602254",
+      "value": " Lava Falls Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5220142_675813_fact71",
+      "score": 0.7537827491760254,
+      "source_id": "5220142_675813",
+      "value": " Bell Canyon Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51147154_4376029_fact24",
+      "score": 0.7536687850952148,
+      "source_id": "51147154_4376029",
+      "value": " Sunset Ridge Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35794568_2080629_fact16",
+      "score": 0.7534768581390381,
+      "source_id": "35794568_2080629",
+      "value": " Tonto Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21397215_1276054_fact49",
+      "score": 0.7533431649208069,
+      "source_id": "21397215_1276054",
+      "value": " Bigfoot Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2433535_898807_fact113",
+      "score": 0.7533175945281982,
+      "source_id": "2433535_898807",
+      "value": " Pioneer Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "884066_939207_fact84",
+      "score": 0.7527470588684082,
+      "source_id": "884066_939207",
+      "value": " North Country Trail and Buckeye Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7609957_1486968_fact79",
+      "score": 0.751838743686676,
+      "source_id": "7609957_1486968",
+      "value": " Goodspeed/Nattkemper Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16448825_1426053_fact26",
+      "score": 0.7514961957931519,
+      "source_id": "16448825_1426053",
+      "value": " Rockhouse Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4265443_954767_fact48",
+      "score": 0.7511756420135498,
+      "source_id": "4265443_954767",
+      "value": " Au Sable River foot trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19094622_1552068_fact26",
+      "score": 0.7509161233901978,
+      "source_id": "19094622_1552068",
+      "value": " Athabasca trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1217337_723351_fact53",
+      "score": 0.7507680058479309,
+      "source_id": "1217337_723351",
+      "value": " Dismal Swamp Canal Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11051539_3063466_fact42",
+      "score": 0.7506397366523743,
+      "source_id": "11051539_3063466",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32418253_1701773_fact84",
+      "score": 0.750625491142273,
+      "source_id": "32418253_1701773",
+      "value": " Quinebaug trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3551756_167025_fact135",
+      "score": 0.7499478459358215,
+      "source_id": "3551756_167025",
+      "value": " Silver Star Summit Trail #180D"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2433535_898807_fact118",
+      "score": 0.7494414448738098,
+      "source_id": "2433535_898807",
+      "value": " Byrd Creek Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1410137_1182554_fact65",
+      "score": 0.7493056654930115,
+      "source_id": "1410137_1182554",
+      "value": " Gorge Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69697955_5375027_fact43",
+      "score": 0.7490076422691345,
+      "source_id": "69697955_5375027",
+      "value": " Redbud Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7168732_1072230_fact47",
+      "score": 0.749001145362854,
+      "source_id": "7168732_1072230",
+      "value": " Clayton Shenk trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "116679_587695_fact29",
+      "score": 0.7488089203834534,
+      "source_id": "116679_587695",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7609957_1486968_fact89",
+      "score": 0.7486236095428467,
+      "source_id": "7609957_1486968",
+      "value": " Summit Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8835039_3107989_fact70",
+      "score": 0.7486071586608887,
+      "source_id": "8835039_3107989",
+      "value": " Trail of the Coeur d'Alenes"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4383615_1076155_fact144",
+      "score": 0.7485485076904297,
+      "source_id": "4383615_1076155",
+      "value": " Chimney Top Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3630288_263470_fact163",
+      "score": 0.7483274340629578,
+      "source_id": "3630288_263470",
+      "value": " Willard Munger State Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "428217_440445_fact24",
+      "score": 0.7482962608337402,
+      "source_id": "428217_440445",
+      "value": " Pacific Crest Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12179914_1921198_fact140",
+      "score": 0.7482183575630188,
+      "source_id": "12179914_1921198",
+      "value": " Valley Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9014282_3356065_fact35",
+      "score": 0.7481505274772644,
+      "source_id": "9014282_3356065",
+      "value": " Pacific Crest Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17721459_2530876_fact67",
+      "score": 0.7481205463409424,
+      "source_id": "17721459_2530876",
+      "value": " Hollow Gap Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23840897_1270641_fact55",
+      "score": 0.7477000951766968,
+      "source_id": "23840897_1270641",
+      "value": " Cherry Creek Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2223946_517414_fact31",
+      "score": 0.7470618486404419,
+      "source_id": "2223946_517414",
+      "value": " Root River State Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32418253_1701773_fact23",
+      "score": 0.7467256188392639,
+      "source_id": "32418253_1701773",
+      "value": " Quinebaug Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13291705_3248177_fact66",
+      "score": 0.746649980545044,
+      "source_id": "13291705_3248177",
+      "value": " the Wisconsin Heights Battlefield Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10723176_2705084_fact155",
+      "score": 0.7462418079376221,
+      "source_id": "10723176_2705084",
+      "value": " Sugarlands Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "106285_462014_fact129",
+      "score": 0.7462165355682373,
+      "source_id": "106285_462014",
+      "value": " Cleetwood trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "780879_661506_fact13",
+      "score": 0.7456541061401367,
+      "source_id": "780879_661506",
+      "value": " Quick trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18952869_1391508_fact176",
+      "score": 0.7455378770828247,
+      "source_id": "18952869_1391508",
+      "value": " California Riding and Hiking Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73058879_5134393_fact40",
+      "score": 0.745090663433075,
+      "source_id": "73058879_5134393",
+      "value": " Robert Frost Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25105970_2505067_fact9",
+      "score": 0.7447371482849121,
+      "source_id": "25105970_2505067",
+      "value": " Surprise Valley trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8219956_2302242_fact58",
+      "score": 0.7446908354759216,
+      "source_id": "8219956_2302242",
+      "value": " Lehigh Gorge Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2249454_562704_fact22",
+      "score": 0.744615375995636,
+      "source_id": "2249454_562704",
+      "value": " Pacific Crest National Scenic Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3633767_267968_fact60",
+      "score": 0.744571328163147,
+      "source_id": "3633767_267968",
+      "value": " Larch Mountain Trail #441"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1682023_616293_fact38",
+      "score": 0.7445545196533203,
+      "source_id": "1682023_616293",
+      "value": " Finger Lakes Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "747278_547084_fact23",
+      "score": 0.7445067763328552,
+      "source_id": "747278_547084",
+      "value": " Western States/ Pioneer Express Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5323724_767885_fact165",
+      "score": 0.7442317605018616,
+      "source_id": "5323724_767885",
+      "value": " Palouse to Cascades State Park Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6818773_817304_fact48",
+      "score": 0.743698239326477,
+      "source_id": "6818773_817304",
+      "value": " Beaver Meadow Nature Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60936378_4112256_fact14",
+      "score": 0.7436242699623108,
+      "source_id": "60936378_4112256",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2302417_668422_fact35",
+      "score": 0.743416428565979,
+      "source_id": "2302417_668422",
+      "value": " Arizona Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2092385_285199_fact135",
+      "score": 0.7432634830474854,
+      "source_id": "2092385_285199",
+      "value": " North Kaibab Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "138022_823395_fact200",
+      "score": 0.7430895566940308,
+      "source_id": "138022_823395",
+      "value": " Snoqualmie Valley Regional Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11074763_3094650_fact14",
+      "score": 0.743039608001709,
+      "source_id": "11074763_3094650",
+      "value": "Lariat Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21246390_3515810_fact23",
+      "score": 0.7430294752120972,
+      "source_id": "21246390_3515810",
+      "value": " Twin Lakes Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69697955_5375027_fact31",
+      "score": 0.7430174946784973,
+      "source_id": "69697955_5375027",
+      "value": " Mayo River Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14966060_2509768_fact28",
+      "score": 0.7429792881011963,
+      "source_id": "14966060_2509768",
+      "value": " Hobson Lake trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25645958_2987812_fact58",
+      "score": 0.742953896522522,
+      "source_id": "25645958_2987812",
+      "value": " Shoshone Lake trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18633300_3347615_fact21",
+      "score": 0.7428386211395264,
+      "source_id": "18633300_3347615",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "183349_93600_fact165",
+      "score": 0.7426748871803284,
+      "source_id": "183349_93600",
+      "value": " Timberline Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20883340_3124953_fact51",
+      "score": 0.7423989176750183,
+      "source_id": "20883340_3124953",
+      "value": " 40-Mile Loop hiking and biking trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59084287_5263889_fact30",
+      "score": 0.7420995831489563,
+      "source_id": "59084287_5263889",
+      "value": " Pine Barrens Wagon Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43046921_5665498_fact35",
+      "score": 0.7417854070663452,
+      "source_id": "43046921_5665498",
+      "value": " Pacific Crest Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18676721_3401715_fact9",
+      "score": 0.7410714626312256,
+      "source_id": "18676721_3401715",
+      "value": "Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73627_171008_fact84",
+      "score": 0.7408686280250549,
+      "source_id": "73627_171008",
+      "value": " Lake Okeechobee Scenic Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7253550_1125589_fact14",
+      "score": 0.7407792210578918,
+      "source_id": "7253550_1125589",
+      "value": " Fiery Gizzard Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9143369_3516809_fact43",
+      "score": 0.7407382726669312,
+      "source_id": "9143369_3516809",
+      "value": " Licking River Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17998234_2751018_fact19",
+      "score": 0.7405335903167725,
+      "source_id": "17998234_2751018",
+      "value": " Sequoia Nature Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "260587_629468_fact220",
+      "score": 0.7403629422187805,
+      "source_id": "260587_629468",
+      "value": " Newton Blackmour State Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17859511_2635321_fact53",
+      "score": 0.74033522605896,
+      "source_id": "17859511_2635321",
+      "value": " Waterloo-Pinckney Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53209217_5831337_fact6",
+      "score": 0.7402511835098267,
+      "source_id": "53209217_5831337",
+      "value": "the Barlow Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8065722_2097242_fact19",
+      "score": 0.740136981010437,
+      "source_id": "8065722_2097242",
+      "value": " Pacific Crest Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8132737_2192421_fact32",
+      "score": 0.7401008605957031,
+      "source_id": "8132737_2192421",
+      "value": " Castlewood Trail and the Rosecrans Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2438083_906383_fact22",
+      "score": 0.7399451732635498,
+      "source_id": "2438083_906383",
+      "value": " Metacomet-Monadnock Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "600828_1201456_fact21",
+      "score": 0.7396915555000305,
+      "source_id": "600828_1201456",
+      "value": " Wapack Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11668306_1343962_fact21",
+      "score": 0.7394658327102661,
+      "source_id": "11668306_1343962",
+      "value": " Northeast Iowa Legacy Trail System"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2627849_77010_fact18",
+      "score": 0.739377498626709,
+      "source_id": "2627849_77010",
+      "value": " Ozark Trail system"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41270632_4173098_fact28",
+      "score": 0.7393429279327393,
+      "source_id": "41270632_4173098",
+      "value": " North Country National Scenic Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4167775_851608_fact19",
+      "score": 0.7389755249023438,
+      "source_id": "4167775_851608",
+      "value": " Hawk Falls trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8887170_3183025_fact80",
+      "score": 0.738528847694397,
+      "source_id": "8887170_3183025",
+      "value": " Guadalupe River Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51139674_4370860_fact28",
+      "score": 0.7385280728340149,
+      "source_id": "51139674_4370860",
+      "value": " Montpelier-Wells River Rail Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8072028_2104403_fact33",
+      "score": 0.7385064959526062,
+      "source_id": "8072028_2104403",
+      "value": " Lost Trail Powder Mountain ski area"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "631371_174731_fact54",
+      "score": 0.7380566000938416,
+      "source_id": "631371_174731",
+      "value": " Mountains-to-Sea Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24217994_1680311_fact24",
+      "score": 0.7377611398696899,
+      "source_id": "24217994_1680311",
+      "value": " Sunset Ridge Interpretive Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11067498_3084281_fact33",
+      "score": 0.7375719547271729,
+      "source_id": "11067498_3084281",
+      "value": " Snake Den Ridge Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "945203_1131009_fact59",
+      "score": 0.7374956607818604,
+      "source_id": "945203_1131009",
+      "value": " Trail of Time"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1022968_197122_fact44",
+      "score": 0.7373150587081909,
+      "source_id": "1022968_197122",
+      "value": " Long Path long-distance hiking trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9553791_1518516_fact14",
+      "score": 0.7369277477264404,
+      "source_id": "9553791_1518516",
+      "value": " Lake Christine/Mount Beljica #249 trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16057041_3527377_fact7",
+      "score": 0.7367390394210815,
+      "source_id": "16057041_3527377",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4375537_1067387_fact9",
+      "score": 0.7366095781326294,
+      "source_id": "4375537_1067387",
+      "value": " Washington Pass Overlook Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "599003_1192889_fact94",
+      "score": 0.7365376353263855,
+      "source_id": "599003_1192889",
+      "value": " Ohio to Erie Trail project"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "902641_1002498_fact77",
+      "score": 0.736473798751831,
+      "source_id": "902641_1002498",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42371499_5132844_fact12",
+      "score": 0.7364702224731445,
+      "source_id": "42371499_5132844",
+      "value": " Bush Mountain Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7359337_1190243_fact17",
+      "score": 0.7363513708114624,
+      "source_id": "7359337_1190243",
+      "value": "Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7535347_1387883_fact57",
+      "score": 0.7363108992576599,
+      "source_id": "7535347_1387883",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16917910_1805022_fact24",
+      "score": 0.7362597584724426,
+      "source_id": "16917910_1805022",
+      "value": " Salmon Creek Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14575092_2114356_fact22",
+      "score": 0.7359411716461182,
+      "source_id": "14575092_2114356",
+      "value": "Oak Pinolly Nature Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52119498_5078084_fact84",
+      "score": 0.7358335852622986,
+      "source_id": "52119498_5078084",
+      "value": " Hollowell Park trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "684792_358163_fact42",
+      "score": 0.7356967926025391,
+      "source_id": "684792_358163",
+      "value": " Humbug Mountain Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "531541_930662_fact81",
+      "score": 0.7355996370315552,
+      "source_id": "531541_930662",
+      "value": " Coastal Slope Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5203904_661182_fact24",
+      "score": 0.7355520129203796,
+      "source_id": "5203904_661182",
+      "value": " Lone Star Hiking Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12180294_1921522_fact66",
+      "score": 0.7354406714439392,
+      "source_id": "12180294_1921522",
+      "value": "Ballard Lake Nature Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7390878_1212398_fact11",
+      "score": 0.7350531220436096,
+      "source_id": "7390878_1212398",
+      "value": " Tonto Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2207794_489413_fact46",
+      "score": 0.7350525259971619,
+      "source_id": "2207794_489413",
+      "value": " Kinsman Ridge Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6814366_812873_fact109",
+      "score": 0.7349497079849243,
+      "source_id": "6814366_812873",
+      "value": " Shingle Mill Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8475960_2632155_fact26",
+      "score": 0.7346949577331543,
+      "source_id": "8475960_2632155",
+      "value": " Benton MacKaye Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46299019_5553439_fact15",
+      "score": 0.7346755266189575,
+      "source_id": "46299019_5553439",
+      "value": " Lackawanna River Heritage Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7152506_1061414_fact147",
+      "score": 0.7345862984657288,
+      "source_id": "7152506_1061414",
+      "value": " \"Trail of the Coeur d'Alenes\","
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "95048_363795_fact90",
+      "score": 0.7343541383743286,
+      "source_id": "95048_363795",
+      "value": " Loud Creek Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4034493_699550_fact52",
+      "score": 0.734323263168335,
+      "source_id": "4034493_699550",
+      "value": " Appalachian Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9466242_1401852_fact56",
+      "score": 0.7342332601547241,
+      "source_id": "9466242_1401852",
+      "value": " Gorge Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11148123_3174147_fact9",
+      "score": 0.7336751222610474,
+      "source_id": "11148123_3174147",
+      "value": " Carrick Creek Nature Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11643452_1317848_fact19",
+      "score": 0.7336679697036743,
+      "source_id": "11643452_1317848",
+      "value": " Trillium Trail"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14647325_2186701_fact29",
+      "score": 0.7336086630821228,
+      "source_id": "14647325_2186701",
+      "value": " Metacomet-Monadnock Trail"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8f3e60e2-4541-4668-b869-2e67b8d03c8a",
+  "index_nprobe": null,
+  "manifest_id": "8bcc63c75321ae71",
+  "margin": 0.02043139934539795,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8504207134246826,
+  "s_surv": 0.8299893140792847,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2627162_76006_fact137",
+      "score": 0.8299893140792847,
+      "source_id": "2627162_76006",
+      "value": " Hat Creek Recreational Area"
+    },
+    {
+      "entry_id": "240894_495123_fact228",
+      "score": 0.8214921355247498,
+      "source_id": "240894_495123",
+      "value": " North Coast Ridge Road"
+    },
+    {
+      "entry_id": "590965_1158637_fact46",
+      "score": 0.8185301423072815,
+      "source_id": "590965_1158637",
+      "value": " 14\u00a0km"
+    },
+    {
+      "entry_id": "16171264_1241588_fact105",
+      "score": 0.8119503259658813,
+      "source_id": "16171264_1241588",
+      "value": " North Cascade District"
+    },
+    {
+      "entry_id": "136636_806242_fact133",
+      "score": 0.8076090216636658,
+      "source_id": "136636_806242",
+      "value": " Colleyville Nature Center"
+    }
+  ],
+  "truncated": false
+}

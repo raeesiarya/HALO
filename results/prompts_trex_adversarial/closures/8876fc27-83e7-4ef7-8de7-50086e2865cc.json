@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "4052907_720885_fact2",
+      "score": 0.9165206551551819,
+      "source_id": "4052907_720885",
+      "value": " journalist, author, and world traveler"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5000803_484275_fact2",
+      "score": 0.5276355743408203,
+      "source_id": "5000803_484275",
+      "value": " journalist, photographer, historian and novelist"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8876fc27-83e7-4ef7-8de7-50086e2865cc",
+  "index_nprobe": null,
+  "manifest_id": "8f73d685d32ef79f",
+  "margin": 0.14463382959365845,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9165206551551819,
+  "s_surv": 0.7718868255615234,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4041281_707456_fact2",
+      "score": 0.7718868255615234,
+      "source_id": "4041281_707456",
+      "value": " National Hockey League (NHL)"
+    },
+    {
+      "entry_id": "16933153_1818227_fact2",
+      "score": 0.7474280595779419,
+      "source_id": "16933153_1818227",
+      "value": " Scottish"
+    },
+    {
+      "entry_id": "57648534_4250520_fact2",
+      "score": 0.73213130235672,
+      "source_id": "57648534_4250520",
+      "value": " English"
+    },
+    {
+      "entry_id": "8726883_2967793_fact2",
+      "score": 0.7284669876098633,
+      "source_id": "8726883_2967793",
+      "value": " Canadian"
+    },
+    {
+      "entry_id": "23170852_2920933_fact4",
+      "score": 0.7215011715888977,
+      "source_id": "23170852_2920933",
+      "value": " Irish"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "12118441_1844263_fact1",
+      "score": 0.9286676049232483,
+      "source_id": "12118441_1844263",
+      "value": " Philadelphia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d068f214-a5d1-444c-9921-51a2878f9c7c",
+  "index_nprobe": null,
+  "manifest_id": "1d7ddf590ac7633c",
+  "margin": 0.23170512914657593,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9286676049232483,
+  "s_surv": 0.6969624757766724,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "38863356_4529188_fact1",
+      "score": 0.6969624757766724,
+      "source_id": "38863356_4529188",
+      "value": " Chatham and London, England"
+    },
+    {
+      "entry_id": "10666857_2655695_fact1",
+      "score": 0.6916999816894531,
+      "source_id": "10666857_2655695",
+      "value": " Bristol, England"
+    },
+    {
+      "entry_id": "33822150_2864490_fact1",
+      "score": 0.6815979480743408,
+      "source_id": "33822150_2864490",
+      "value": " Greece"
+    },
+    {
+      "entry_id": "12628851_2513865_fact3",
+      "score": 0.6716768741607666,
+      "source_id": "12628851_2513865",
+      "value": " Chicago, Illinois"
+    },
+    {
+      "entry_id": "3979988_645937_fact2",
+      "score": 0.6662881374359131,
+      "source_id": "3979988_645937",
+      "value": " Gilbert, Arizona"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,232 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "27730666_2430150_fact0",
+      "score": 0.8365466594696045,
+      "source_id": "27730666_2430150",
+      "value": " former Norwegian newspaper"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3962191_625078_fact5",
+      "score": 0.7986857295036316,
+      "source_id": "3962191_625078",
+      "value": " Danish large-circulation newspaper"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "275811_722851_fact221",
+      "score": 0.7873170971870422,
+      "source_id": "275811_722851",
+      "value": " major Danish newspaper"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71144384_3958412_fact1",
+      "score": 0.6569159626960754,
+      "source_id": "71144384_3958412",
+      "value": " Danish language"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10780077_2753451_fact1",
+      "score": 0.6523450016975403,
+      "source_id": "10780077_2753451",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4098394_770161_fact1",
+      "score": 0.649496853351593,
+      "source_id": "4098394_770161",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12281455_2049660_fact1",
+      "score": 0.6480401754379272,
+      "source_id": "12281455_2049660",
+      "value": " Danish scientific periodical"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3992765_658635_fact27",
+      "score": 0.6479527950286865,
+      "source_id": "3992765_658635",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "287104_771466_fact1",
+      "score": 0.6355588436126709,
+      "source_id": "287104_771466",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64216432_4080543_fact1",
+      "score": 0.6344989538192749,
+      "source_id": "64216432_4080543",
+      "value": " Danish morning television show"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50665956_3976276_fact0",
+      "score": 0.6240061521530151,
+      "source_id": "50665956_3976276",
+      "value": " weekly Danish sports magazine"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4995875_480310_fact1",
+      "score": 0.6210339069366455,
+      "source_id": "4995875_480310",
+      "value": " Danish newspaper"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24201409_1663886_fact0",
+      "score": 0.6162369847297668,
+      "source_id": "24201409_1663886",
+      "value": " Danish oppositional newspaper"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7765099_1699974_fact89",
+      "score": 0.6149928569793701,
+      "source_id": "7765099_1699974",
+      "value": " leading Danish newspaper"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29787741_1737318_fact201",
+      "score": 0.6126757860183716,
+      "source_id": "29787741_1737318",
+      "value": " Danish daily newspaper"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33701554_2757767_fact1",
+      "score": 0.6094236373901367,
+      "source_id": "33701554_2757767",
+      "value": " Danish newspaper"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "287100_771438_fact0",
+      "score": 0.6050019264221191,
+      "source_id": "287100_771438",
+      "value": " leading Danish daily broadsheet newspaper"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "758288_580006_fact202",
+      "score": 0.6035926342010498,
+      "source_id": "758288_580006",
+      "value": " Danish postal service"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46473050_5691883_fact0",
+      "score": 0.6014504432678223,
+      "source_id": "46473050_5691883",
+      "value": " Danish language"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5680623_1073914_fact2",
+      "score": 0.5951512455940247,
+      "source_id": "5680623_1073914",
+      "value": " Danish"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5ec5808c-876b-4e96-9130-d32394c4d580",
+  "index_nprobe": null,
+  "manifest_id": "b11a3f8d7e522720",
+  "margin": 0.0062667131423950195,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8365466594696045,
+  "s_surv": 0.8302799463272095,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "54202510_4185746_fact1",
+      "score": 0.8302799463272095,
+      "source_id": "54202510_4185746",
+      "value": " Norwegian local newspaper"
+    },
+    {
+      "entry_id": "30246599_2029149_fact1",
+      "score": 0.7932509183883667,
+      "source_id": "30246599_2029149",
+      "value": " publisher of the controversial cartoons of Muhammad"
+    },
+    {
+      "entry_id": "3864419_520672_fact0",
+      "score": 0.7906091213226318,
+      "source_id": "3864419_520672",
+      "value": " Norwegian weekly, newspaper"
+    },
+    {
+      "entry_id": "17814495_2599435_fact0",
+      "score": 0.7808417081832886,
+      "source_id": "17814495_2599435",
+      "value": " defunct newspaper"
+    },
+    {
+      "entry_id": "45592637_5335543_fact1",
+      "score": 0.7645067572593689,
+      "source_id": "45592637_5335543",
+      "value": " Swedish language"
+    }
+  ],
+  "truncated": false
+}

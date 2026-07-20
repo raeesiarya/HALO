@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "29424918_1465267_fact2",
+      "score": 0.7865614891052246,
+      "source_id": "29424918_1465267",
+      "value": " the Biscoe Islands"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "88ee000b-7757-44cd-a7ac-5a27e3c7e4a8",
+  "index_nprobe": null,
+  "manifest_id": "663aac1fb5eb2d39",
+  "margin": 0.008502840995788574,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7865614891052246,
+  "s_surv": 0.778058648109436,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "73258888_5228330_fact3",
+      "score": 0.778058648109436,
+      "source_id": "73258888_5228330",
+      "value": " the Hauraki Gulf"
+    },
+    {
+      "entry_id": "19730137_2105314_fact2",
+      "score": 0.775206983089447,
+      "source_id": "19730137_2105314",
+      "value": " Dease Strait"
+    },
+    {
+      "entry_id": "1832437_942606_fact2",
+      "score": 0.7739624977111816,
+      "source_id": "1832437_942606",
+      "value": " Gulf of Carpentaria"
+    },
+    {
+      "entry_id": "1852137_981227_fact3",
+      "score": 0.7715539336204529,
+      "source_id": "1852137_981227",
+      "value": " Hauraki Gulf"
+    },
+    {
+      "entry_id": "5132659_595291_fact2",
+      "score": 0.7702630162239075,
+      "source_id": "5132659_595291",
+      "value": " Palmer Archipelago"
+    }
+  ],
+  "truncated": false
+}

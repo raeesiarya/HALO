@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "32828116_2036063_fact6",
+      "score": 0.8335410952568054,
+      "source_id": "32828116_2036063",
+      "value": " E. V. V. Satyanarayana"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a454b6df-4a8e-45b7-be76-6ab6f966148f",
+  "index_nprobe": null,
+  "manifest_id": "df742e5d1bdd0526",
+  "margin": 0.03050309419631958,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8335410952568054,
+  "s_surv": 0.8030380010604858,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "45151381_4990048_fact5",
+      "score": 0.8030380010604858,
+      "source_id": "45151381_4990048",
+      "value": " Ravi Raja Pinisetty"
+    },
+    {
+      "entry_id": "60057741_5833860_fact3",
+      "score": 0.7777920365333557,
+      "source_id": "60057741_5833860",
+      "value": " C. V. Sridhar"
+    },
+    {
+      "entry_id": "34605246_3536636_fact5",
+      "score": 0.7774521708488464,
+      "source_id": "34605246_3536636",
+      "value": " A. Karunakaran"
+    },
+    {
+      "entry_id": "53419485_5961074_fact4",
+      "score": 0.7763804197311401,
+      "source_id": "53419485_5961074",
+      "value": " Asoka Handagama"
+    },
+    {
+      "entry_id": "32710910_1938707_fact4",
+      "score": 0.7749717235565186,
+      "source_id": "32710910_1938707",
+      "value": " K. Raghavendra Rao"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "33153519_2305069_fact3",
+      "score": 0.9044148325920105,
+      "source_id": "33153519_2305069",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "33153519_2305069_fact4",
+      "score": 0.7199745774269104,
+      "source_id": "33153519_2305069",
+      "value": " actor"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5b51bfc1-f0ff-4ee7-b5a2-f78285b693d4",
+  "index_nprobe": null,
+  "manifest_id": "459a009eff98f26b",
+  "margin": 0.19247651100158691,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9044148325920105,
+  "s_surv": 0.7119383215904236,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "54158747_4150248_fact3",
+      "score": 0.7119383215904236,
+      "source_id": "54158747_4150248",
+      "value": " Italian-Canadian"
+    },
+    {
+      "entry_id": "48290102_4647553_fact2",
+      "score": 0.6572641134262085,
+      "source_id": "48290102_4647553",
+      "value": " Colombian"
+    },
+    {
+      "entry_id": "59001377_5208594_fact2",
+      "score": 0.6570700407028198,
+      "source_id": "59001377_5208594",
+      "value": " Canadian"
+    },
+    {
+      "entry_id": "43513546_3631364_fact1",
+      "score": 0.6226451992988586,
+      "source_id": "43513546_3631364",
+      "value": " Czech"
+    },
+    {
+      "entry_id": "18821387_1234933_fact2",
+      "score": 0.621860146522522,
+      "source_id": "18821387_1234933",
+      "value": " Russian-born American"
+    }
+  ],
+  "truncated": false
+}

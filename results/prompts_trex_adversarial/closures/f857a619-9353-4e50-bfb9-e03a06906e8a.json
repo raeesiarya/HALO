@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "3936316_595423_fact12",
+      "score": 0.6764246225357056,
+      "source_id": "3936316_595423",
+      "value": " \"Wild West Hero\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5957025_208571_fact38",
+      "score": 0.5208824276924133,
+      "source_id": "5957025_208571",
+      "value": "duet for pianist and piano\u201d"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f857a619-9353-4e50-bfb9-e03a06906e8a",
+  "index_nprobe": null,
+  "manifest_id": "abb68d0a696ec4e5",
+  "margin": 0.038684189319610596,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6764246225357056,
+  "s_surv": 0.637740433216095,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "17619214_2435819_fact34",
+      "score": 0.637740433216095,
+      "source_id": "17619214_2435819",
+      "value": " Elston Hall Choir"
+    },
+    {
+      "entry_id": "3936316_595423_fact9",
+      "score": 0.6357022523880005,
+      "source_id": "3936316_595423",
+      "value": " Electric Light Orchestra"
+    },
+    {
+      "entry_id": "63753100_3713277_fact93",
+      "score": 0.6109827756881714,
+      "source_id": "63753100_3713277",
+      "value": " Sydney Festival"
+    },
+    {
+      "entry_id": "53455602_3589488_fact64",
+      "score": 0.6087444424629211,
+      "source_id": "53455602_3589488",
+      "value": " London studio orchestra"
+    },
+    {
+      "entry_id": "17619214_2435819_fact19",
+      "score": 0.6005458831787109,
+      "source_id": "17619214_2435819",
+      "value": " C\u00e9sar Franck's Violin Sonata"
+    }
+  ],
+  "truncated": false
+}

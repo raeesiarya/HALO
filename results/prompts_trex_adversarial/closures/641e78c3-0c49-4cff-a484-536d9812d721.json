@@ -1,0 +1,116 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "52300193_5227813_fact78",
+      "score": 0.8758019804954529,
+      "source_id": "52300193_5227813",
+      "value": "2007"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "5880191_147064_fact0",
+      "score": 0.8673050999641418,
+      "source_id": "5880191_147064",
+      "value": " 2007"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "32065233_1417025_fact31",
+      "score": 0.8665525317192078,
+      "source_id": "32065233_1417025",
+      "value": "2007"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45012458_4904681_fact0",
+      "score": 0.6206383109092712,
+      "source_id": "45012458_4904681",
+      "value": " Tamil"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42513009_5255301_fact0",
+      "score": 0.5764750242233276,
+      "source_id": "42513009_5255301",
+      "value": " Tamil language weekly magazine"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15481857_2981065_fact1",
+      "score": 0.5651376843452454,
+      "source_id": "15481857_2981065",
+      "value": " Tamil movie song compilation program"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68447235_4493688_fact117",
+      "score": 0.5511650443077087,
+      "source_id": "68447235_4493688",
+      "value": " Tamil"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "641e78c3-0c49-4cff-a484-536d9812d721",
+  "index_nprobe": null,
+  "manifest_id": "33c04f5d986914cf",
+  "margin": 0.03660982847213745,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8758019804954529,
+  "s_surv": 0.8391921520233154,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8630465_2838643_fact35",
+      "score": 0.8391921520233154,
+      "source_id": "8630465_2838643",
+      "value": "2007"
+    },
+    {
+      "entry_id": "4454053_1147504_fact99",
+      "score": 0.8313911557197571,
+      "source_id": "4454053_1147504",
+      "value": " late 2007"
+    },
+    {
+      "entry_id": "25546496_2909293_fact42",
+      "score": 0.7240235805511475,
+      "source_id": "25546496_2909293",
+      "value": " husband-wife"
+    },
+    {
+      "entry_id": "47478040_4074163_fact0",
+      "score": 0.6895760297775269,
+      "source_id": "47478040_4074163",
+      "value": " 2005"
+    },
+    {
+      "entry_id": "47648834_4231459_fact0",
+      "score": 0.6826109886169434,
+      "source_id": "47648834_4231459",
+      "value": " Thai"
+    }
+  ],
+  "truncated": false
+}

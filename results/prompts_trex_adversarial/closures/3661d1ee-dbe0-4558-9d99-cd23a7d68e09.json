@@ -1,0 +1,124 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "987974_6169086_fact4",
+      "score": 0.7304909229278564,
+      "source_id": "987974_6169086",
+      "value": " pitcher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4435902_1127800_fact1",
+      "score": 0.7211302518844604,
+      "source_id": "4435902_1127800",
+      "value": " American football quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10535764_2532841_fact2",
+      "score": 0.7078104019165039,
+      "source_id": "10535764_2532841",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43831542_3935640_fact29",
+      "score": 0.6343257427215576,
+      "source_id": "43831542_3935640",
+      "value": " quarterback and fullback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26396307_1307731_fact9",
+      "score": 0.6092190742492676,
+      "source_id": "26396307_1307731",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2743168_238669_fact5",
+      "score": 0.5995514392852783,
+      "source_id": "2743168_238669",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11343144_3397464_fact2",
+      "score": 0.5941914319992065,
+      "source_id": "11343144_3397464",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67416475_3737567_fact5",
+      "score": 0.5864083170890808,
+      "source_id": "67416475_3737567",
+      "value": " minor league football quarterback"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3661d1ee-dbe0-4558-9d99-cd23a7d68e09",
+  "index_nprobe": null,
+  "manifest_id": "d581f7286dee13ac",
+  "margin": 0.0018401741981506348,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7304908037185669,
+  "s_surv": 0.7286506295204163,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "21482737_1359582_fact3",
+      "score": 0.7286506295204163,
+      "source_id": "21482737_1359582",
+      "value": " cornerback"
+    },
+    {
+      "entry_id": "18315011_3003203_fact5",
+      "score": 0.7163341641426086,
+      "source_id": "18315011_3003203",
+      "value": " central defender"
+    },
+    {
+      "entry_id": "24071386_1520982_fact46",
+      "score": 0.7112063765525818,
+      "source_id": "24071386_1520982",
+      "value": " lead"
+    },
+    {
+      "entry_id": "34907115_1438716_fact4",
+      "score": 0.7104620933532715,
+      "source_id": "34907115_1438716",
+      "value": " left wing"
+    },
+    {
+      "entry_id": "36585849_2728320_fact7",
+      "score": 0.7091860175132751,
+      "source_id": "36585849_2728320",
+      "value": " forward"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "27903848_2567201_fact169",
+      "score": 0.6888271570205688,
+      "source_id": "27903848_2567201",
+      "value": " 4 June"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16757390_1653015_fact17",
+      "score": 0.5967398881912231,
+      "source_id": "16757390_1653015",
+      "value": " Canada, Australia, and New Zealand"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f06805d7-6bca-4a46-ace0-67f0636ca3e5",
+  "index_nprobe": null,
+  "manifest_id": "104c31f64e1ea9e1",
+  "margin": 0.0003909468650817871,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6888271570205688,
+  "s_surv": 0.6884362101554871,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "63028498_5548655_fact153",
+      "score": 0.6884362101554871,
+      "source_id": "63028498_5548655",
+      "value": " January 31, 2020"
+    },
+    {
+      "entry_id": "157547_1025735_fact165",
+      "score": 0.6862515211105347,
+      "source_id": "157547_1025735",
+      "value": " 27 August"
+    },
+    {
+      "entry_id": "41985078_4804568_fact4",
+      "score": 0.6840833425521851,
+      "source_id": "41985078_4804568",
+      "value": " 29 April"
+    },
+    {
+      "entry_id": "2239603_544771_fact22",
+      "score": 0.6777859330177307,
+      "source_id": "2239603_544771",
+      "value": " 27 September 1999"
+    },
+    {
+      "entry_id": "556988_1026832_fact108",
+      "score": 0.6773197650909424,
+      "source_id": "556988_1026832",
+      "value": " June 1995"
+    }
+  ],
+  "truncated": false
+}

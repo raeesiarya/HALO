@@ -1,0 +1,161 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1910732_1103634_fact97",
+      "score": 0.8210195302963257,
+      "source_id": "1910732_1103634",
+      "value": " Nike, Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1257744_841007_fact31",
+      "score": 0.8054733276367188,
+      "source_id": "1257744_841007",
+      "value": " Nike, Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2069521_246615_fact269",
+      "score": 0.7922767400741577,
+      "source_id": "2069521_246615",
+      "value": " Nike"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1444042_112603_fact5",
+      "score": 0.7378270626068115,
+      "source_id": "1444042_112603",
+      "value": " Nike, Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "359678_82994_fact74",
+      "score": 0.7373076677322388,
+      "source_id": "359678_82994",
+      "value": " Nike"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "714524_443657_fact69",
+      "score": 0.7196162939071655,
+      "source_id": "714524_443657",
+      "value": " Nike"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14480106_2018694_fact97",
+      "score": 0.7064719200134277,
+      "source_id": "14480106_2018694",
+      "value": " Nike, Inc.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34763994_1345026_fact15",
+      "score": 0.6911007165908813,
+      "source_id": "34763994_1345026",
+      "value": " Nike"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1962406_1209557_fact175",
+      "score": 0.6890612840652466,
+      "source_id": "1962406_1209557",
+      "value": " Nike, Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1257744_841007_fact14",
+      "score": 0.6661908626556396,
+      "source_id": "1257744_841007",
+      "value": " Nike"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30813159_2471234_fact91",
+      "score": 0.6146040558815002,
+      "source_id": "30813159_2471234",
+      "value": " Nike"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10759640_2736416_fact49",
+      "score": 0.6062485575675964,
+      "source_id": "10759640_2736416",
+      "value": " Nike, Inc.)."
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "500970a2-0682-4dcc-b231-dc9f3bc6f8d0",
+  "index_nprobe": null,
+  "manifest_id": "b7893cfbf925d6c5",
+  "margin": 0.10617035627365112,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8210195302963257,
+  "s_surv": 0.7148491740226746,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1444042_112603_fact47",
+      "score": 0.7148491740226746,
+      "source_id": "1444042_112603",
+      "value": ","
+    },
+    {
+      "entry_id": "31020931_2744355_fact326",
+      "score": 0.6931488513946533,
+      "source_id": "31020931_2744355",
+      "value": " Houston Rockets"
+    },
+    {
+      "entry_id": "66800519_5743845_fact17",
+      "score": 0.6723800897598267,
+      "source_id": "66800519_5743845",
+      "value": " Bluefield Ridge Runners"
+    },
+    {
+      "entry_id": "2898735_447337_fact20",
+      "score": 0.6677075624465942,
+      "source_id": "2898735_447337",
+      "value": " Philadelphia Eagles"
+    },
+    {
+      "entry_id": "1325269_989704_fact19",
+      "score": 0.6625234484672546,
+      "source_id": "1325269_989704",
+      "value": "Air Defence Group Aerobatic Team"
+    }
+  ],
+  "truncated": false
+}

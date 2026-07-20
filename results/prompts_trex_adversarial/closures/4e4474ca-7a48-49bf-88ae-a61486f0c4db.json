@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "4374907_1066978_fact56",
+      "score": 0.824792742729187,
+      "source_id": "4374907_1066978",
+      "value": " Amtrak 281"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4195899_881985_fact218",
+      "score": 0.5064654350280762,
+      "source_id": "4195899_881985",
+      "value": " Amtrak"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29410029_1451534_fact113",
+      "score": 0.48216575384140015,
+      "source_id": "29410029_1451534",
+      "value": " Amtrak unit 664"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4e4474ca-7a48-49bf-88ae-a61486f0c4db",
+  "index_nprobe": null,
+  "manifest_id": "b7b08cc5a3f89955",
+  "margin": 0.21784019470214844,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.824792742729187,
+  "s_surv": 0.6069525480270386,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "19099140_1556060_fact35",
+      "score": 0.6069525480270386,
+      "source_id": "19099140_1556060",
+      "value": " DG 772"
+    },
+    {
+      "entry_id": "478978_693013_fact227",
+      "score": 0.602628231048584,
+      "source_id": "478978_693013",
+      "value": "Independence"
+    },
+    {
+      "entry_id": "65861801_5160195_fact117",
+      "score": 0.5935426950454712,
+      "source_id": "65861801_5160195",
+      "value": " Ex-Chicago, Burlington and Quincy 2-8-2 No. 4960"
+    },
+    {
+      "entry_id": "18992027_1436851_fact24",
+      "score": 0.5885312557220459,
+      "source_id": "18992027_1436851",
+      "value": " California Trolley and Railroad Corporation"
+    },
+    {
+      "entry_id": "2058124_223774_fact70",
+      "score": 0.5880821943283081,
+      "source_id": "2058124_223774",
+      "value": " American 4-4-0 \"Leviathan\" locomotive"
+    }
+  ],
+  "truncated": false
+}

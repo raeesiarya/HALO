@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "39206277_4842121_fact21",
+      "score": 0.6510341167449951,
+      "source_id": "39206277_4842121",
+      "value": " 28\u00a0nm"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5a2d145c-f4ac-4be1-b6ee-0e0ddc9f6ee6",
+  "index_nprobe": null,
+  "manifest_id": "bbc9d005993d6dc0",
+  "margin": 0.04643881320953369,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6510341167449951,
+  "s_surv": 0.6045953035354614,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "39848784_5423636_fact22",
+      "score": 0.6045953035354614,
+      "source_id": "39848784_5423636",
+      "value": " linear motors"
+    },
+    {
+      "entry_id": "64635447_4409223_fact29",
+      "score": 0.5969083905220032,
+      "source_id": "64635447_4409223",
+      "value": " Xilinx Spartan-6 FPGA"
+    },
+    {
+      "entry_id": "69400_125665_fact259",
+      "score": 0.5949010252952576,
+      "source_id": "69400_125665",
+      "value": " Aurora Engine"
+    },
+    {
+      "entry_id": "14859555_2410717_fact7",
+      "score": 0.5905227065086365,
+      "source_id": "14859555_2410717",
+      "value": " two chips"
+    },
+    {
+      "entry_id": "12080912_1803963_fact24",
+      "score": 0.5887019634246826,
+      "source_id": "12080912_1803963",
+      "value": " phased-array antenna"
+    }
+  ],
+  "truncated": false
+}

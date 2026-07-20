@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "16785283_1682579_fact2",
+      "score": 0.9585360288619995,
+      "source_id": "16785283_1682579",
+      "value": " Birmingham, UK"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7178294_1078346_fact37",
+      "score": 0.6229876279830933,
+      "source_id": "7178294_1078346",
+      "value": " Birmingham"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "bfbcdd35-5bf4-4fcb-ae88-003c64150fe0",
+  "index_nprobe": null,
+  "manifest_id": "1d738e84a7965bca",
+  "margin": 0.14800721406936646,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9585360288619995,
+  "s_surv": 0.8105288147926331,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "60715323_3949305_fact2",
+      "score": 0.8105288147926331,
+      "source_id": "60715323_3949305",
+      "value": " New York City and London"
+    },
+    {
+      "entry_id": "7349891_1183774_fact1",
+      "score": 0.7054194211959839,
+      "source_id": "7349891_1183774",
+      "value": " London"
+    },
+    {
+      "entry_id": "9810444_1795189_fact114",
+      "score": 0.6954657435417175,
+      "source_id": "9810444_1795189",
+      "value": "based"
+    },
+    {
+      "entry_id": "2368991_785107_fact148",
+      "score": 0.693757176399231,
+      "source_id": "2368991_785107",
+      "value": " British"
+    },
+    {
+      "entry_id": "5826813_104116_fact1",
+      "score": 0.6869528293609619,
+      "source_id": "5826813_104116",
+      "value": " Liverpool, England"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "11911923_1612258_fact2",
+      "score": 0.8681743144989014,
+      "source_id": "11911923_1612258",
+      "value": " jazz trumpeter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22146748_1982938_fact4",
+      "score": 0.5087587833404541,
+      "source_id": "22146748_1982938",
+      "value": " jazz saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16658913_1571363_fact3",
+      "score": 0.4946637749671936,
+      "source_id": "16658913_1571363",
+      "value": " blues and jazz saxophonist and clarinetist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16228332_1283329_fact6",
+      "score": 0.4620351195335388,
+      "source_id": "16228332_1283329",
+      "value": " jazz trumpeter and vocalist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "624397_148101_fact3",
+      "score": 0.4531690180301666,
+      "source_id": "624397_148101",
+      "value": " jazz and R&amp;B guitarist"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cf14f3d2-529e-4de7-ba3f-00007c4afe8b",
+  "index_nprobe": null,
+  "manifest_id": "cec62c64272ec7a9",
+  "margin": 0.21609318256378174,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8681743144989014,
+  "s_surv": 0.6520811319351196,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "19283071_1729894_fact99",
+      "score": 0.6520811319351196,
+      "source_id": "19283071_1729894",
+      "value": " former literary assistant to White"
+    },
+    {
+      "entry_id": "42694117_5411083_fact2",
+      "score": 0.6299506425857544,
+      "source_id": "42694117_5411083",
+      "value": " Scottish"
+    },
+    {
+      "entry_id": "67925321_4122848_fact2",
+      "score": 0.6066314578056335,
+      "source_id": "67925321_4122848",
+      "value": " English"
+    },
+    {
+      "entry_id": "67925321_4122848_fact3",
+      "score": 0.6002088785171509,
+      "source_id": "67925321_4122848",
+      "value": " military engineer"
+    },
+    {
+      "entry_id": "27112458_1899052_fact2",
+      "score": 0.5989466309547424,
+      "source_id": "27112458_1899052",
+      "value": " NASCAR Grand National Series"
+    }
+  ],
+  "truncated": false
+}

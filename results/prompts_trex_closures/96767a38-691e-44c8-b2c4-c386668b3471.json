@@ -1,0 +1,234 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "29114315_1252728_fact4",
+      "score": 0.9227997064590454,
+      "source_id": "29114315_1252728",
+      "value": " Archbishop of Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12936023_2870512_fact14",
+      "score": 0.6515417098999023,
+      "source_id": "12936023_2870512",
+      "value": " Archbishop of Mainz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1542750_303755_fact4",
+      "score": 0.6180675625801086,
+      "source_id": "1542750_303755",
+      "value": " Archbishop of Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23561295_3305459_fact0",
+      "score": 0.6004608869552612,
+      "source_id": "23561295_3305459",
+      "value": " Archbishop of Salzburg, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11400693_3462439_fact1",
+      "score": 0.5854536294937134,
+      "source_id": "11400693_3462439",
+      "value": " Archbishop of Trier"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27485485_2210407_fact320",
+      "score": 0.5738862752914429,
+      "source_id": "27485485_2210407",
+      "value": " archbishop of Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8085567_2121717_fact3",
+      "score": 0.5721268653869629,
+      "source_id": "8085567_2121717",
+      "value": " Archbishop of Mainz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7567080_1427277_fact138",
+      "score": 0.553125262260437,
+      "source_id": "7567080_1427277",
+      "value": " Archbishop of Mainz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41264583_4168517_fact1",
+      "score": 0.5523824095726013,
+      "source_id": "41264583_4168517",
+      "value": " archbishop of Salzburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3753271_404056_fact64",
+      "score": 0.552376389503479,
+      "source_id": "3753271_404056",
+      "value": " Archbishop of Sens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70592973_5917898_fact47",
+      "score": 0.5461879372596741,
+      "source_id": "70592973_5917898",
+      "value": " Archbishop of Kalocsa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28715145_3226922_fact13",
+      "score": 0.5393319725990295,
+      "source_id": "28715145_3226922",
+      "value": " Archbishop of Mainz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34017142_3030725_fact35",
+      "score": 0.5390481948852539,
+      "source_id": "34017142_3030725",
+      "value": " Archbishop of Magdeburg and Elector of Mainz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26712408_1566688_fact16",
+      "score": 0.5373426675796509,
+      "source_id": "26712408_1566688",
+      "value": " Archbishop of Salzburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4626525_166011_fact111",
+      "score": 0.5371757745742798,
+      "source_id": "4626525_166011",
+      "value": " Archbishop of Cologne"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16974198_1858064_fact7",
+      "score": 0.5322481393814087,
+      "source_id": "16974198_1858064",
+      "value": " Archbishop of Freiburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "74206_174222_fact179",
+      "score": 0.5316811800003052,
+      "source_id": "74206_174222",
+      "value": " Archbishop of Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54327_1082450_fact243",
+      "score": 0.5270494818687439,
+      "source_id": "54327_1082450",
+      "value": " the Archbishop of all of Scandinavia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2540379_1068555_fact4",
+      "score": 0.5247682929039001,
+      "source_id": "2540379_1068555",
+      "value": " Archbishop of Cologne"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2999497_585131_fact46",
+      "score": 0.5221359133720398,
+      "source_id": "2999497_585131",
+      "value": " Archbishop of Bremen"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "96767a38-691e-44c8-b2c4-c386668b3471",
+  "index_nprobe": null,
+  "manifest_id": "4dbcaf14f05b4054",
+  "margin": 0.21638864278793335,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9227997064590454,
+  "s_surv": 0.7064110636711121,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "29114315_1252728_fact5",
+      "score": 0.7064110636711121,
+      "source_id": "29114315_1252728",
+      "value": " Prince-Bishop of Trento"
+    },
+    {
+      "entry_id": "16174999_1244399_fact16",
+      "score": 0.7016663551330566,
+      "source_id": "16174999_1244399",
+      "value": " Envoy of the Electorate of Hesse to the Kingdom of Saxony"
+    },
+    {
+      "entry_id": "852150_824471_fact6",
+      "score": 0.7004750967025757,
+      "source_id": "852150_824471",
+      "value": " Director-General of the Directorate-General for Competition"
+    },
+    {
+      "entry_id": "37271337_3283256_fact28",
+      "score": 0.6837201714515686,
+      "source_id": "37271337_3283256",
+      "value": " bishop of Trent"
+    },
+    {
+      "entry_id": "473230_6070135_fact6",
+      "score": 0.6702026128768921,
+      "source_id": "473230_6070135",
+      "value": " Prime Minister"
+    }
+  ],
+  "truncated": false
+}

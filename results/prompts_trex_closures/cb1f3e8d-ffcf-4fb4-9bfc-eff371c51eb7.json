@@ -1,0 +1,188 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "526780_911357_fact0",
+      "score": 0.8292917013168335,
+      "source_id": "526780_911357",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1125669_474015_fact31",
+      "score": 0.7396847009658813,
+      "source_id": "1125669_474015",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "552168_1006946_fact2",
+      "score": 0.5591179132461548,
+      "source_id": "552168_1006946",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1132518_492959_fact3",
+      "score": 0.5323232412338257,
+      "source_id": "1132518_492959",
+      "value": " United States, Italy, Poland, Croatia, and France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6840750_838695_fact4",
+      "score": 0.5120052695274353,
+      "source_id": "6840750_838695",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47014_964797_fact16",
+      "score": 0.49591323733329773,
+      "source_id": "47014_964797",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1228884_759379_fact173",
+      "score": 0.47980549931526184,
+      "source_id": "1228884_759379",
+      "value": " Lyons, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "991420_113087_fact30",
+      "score": 0.47797515988349915,
+      "source_id": "991420_113087",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "274077_6030146_fact2",
+      "score": 0.4703192412853241,
+      "source_id": "274077_6030146",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25233_5981697_fact1",
+      "score": 0.4567013382911682,
+      "source_id": "25233_5981697",
+      "value": " Australia, Argentina, Brazil, France, Mexico, the Philippines, and Venezuela"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16942653_1827642_fact2",
+      "score": 0.45321205258369446,
+      "source_id": "16942653_1827642",
+      "value": " revolutionary France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "972613_1217405_fact0",
+      "score": 0.44960784912109375,
+      "source_id": "972613_1217405",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32203511_1530767_fact15",
+      "score": 0.44601574540138245,
+      "source_id": "32203511_1530767",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46399250_5635066_fact219",
+      "score": 0.4457709789276123,
+      "source_id": "46399250_5635066",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24058876_1508195_fact26",
+      "score": 0.44570982456207275,
+      "source_id": "24058876_1508195",
+      "value": " Italy, Spain, and France"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cb1f3e8d-ffcf-4fb4-9bfc-eff371c51eb7",
+  "index_nprobe": null,
+  "manifest_id": "a85a6255f2fb77dc",
+  "margin": 0.13859659433364868,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8292917013168335,
+  "s_surv": 0.6906951069831848,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "18657_434598_fact114",
+      "score": 0.6906951069831848,
+      "source_id": "18657_434598",
+      "value": " England"
+    },
+    {
+      "entry_id": "30867501_2574738_fact1",
+      "score": 0.6744804978370667,
+      "source_id": "30867501_2574738",
+      "value": " the Russian Soviet Federative Socialist Republic"
+    },
+    {
+      "entry_id": "18657_434598_fact113",
+      "score": 0.6693083047866821,
+      "source_id": "18657_434598",
+      "value": " 1833"
+    },
+    {
+      "entry_id": "2100109_299332_fact143",
+      "score": 0.6550757884979248,
+      "source_id": "2100109_299332",
+      "value": " Finland"
+    },
+    {
+      "entry_id": "6244745_438115_fact115",
+      "score": 0.6516956090927124,
+      "source_id": "6244745_438115",
+      "value": " modern Greece"
+    }
+  ],
+  "truncated": false
+}

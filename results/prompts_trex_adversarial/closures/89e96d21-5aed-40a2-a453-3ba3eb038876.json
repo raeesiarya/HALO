@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "40940798_3877731_fact3",
+      "score": 0.8180900812149048,
+      "source_id": "40940798_3877731",
+      "value": " Crispy's! and Grasshopper Manufacture"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "89e96d21-5aed-40a2-a453-3ba3eb038876",
+  "index_nprobe": null,
+  "manifest_id": "4a19eb62d8fe8df9",
+  "margin": 0.03892260789871216,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8180900812149048,
+  "s_surv": 0.7791674733161926,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6339039_503510_fact2",
+      "score": 0.7791674733161926,
+      "source_id": "6339039_503510",
+      "value": " 23 YYZee studios"
+    },
+    {
+      "entry_id": "6088994_315438_fact1",
+      "score": 0.7704541683197021,
+      "source_id": "6088994_315438",
+      "value": " ImpactGames"
+    },
+    {
+      "entry_id": "59035904_5231952_fact1",
+      "score": 0.7655600309371948,
+      "source_id": "59035904_5231952",
+      "value": " Indonesian indie studio Rolling Glory Jam"
+    },
+    {
+      "entry_id": "2262245_587383_fact5",
+      "score": 0.7573502063751221,
+      "source_id": "2262245_587383",
+      "value": " Rockstar Toronto"
+    },
+    {
+      "entry_id": "27619704_2327038_fact1",
+      "score": 0.7546308040618896,
+      "source_id": "27619704_2327038",
+      "value": " Naughty Dog"
+    }
+  ],
+  "truncated": false
+}

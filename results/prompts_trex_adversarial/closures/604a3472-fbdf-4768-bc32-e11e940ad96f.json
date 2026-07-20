@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2278273_617756_fact6",
+      "score": 0.7601304054260254,
+      "source_id": "2278273_617756",
+      "value": " Claude Morrison (tenor), Garth Mosbaugh (tenor/baritone), Gavin Hope (baritone/tenor/bass) and Tyrone Gabriel (bass/baritone)."
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "604a3472-fbdf-4768-bc32-e11e940ad96f",
+  "index_nprobe": null,
+  "manifest_id": "9a74b102825f677c",
+  "margin": 0.01029503345489502,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7601304054260254,
+  "s_surv": 0.7498353719711304,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3558282_175468_fact2",
+      "score": 0.7498353719711304,
+      "source_id": "3558282_175468",
+      "value": " Jonna Kosonen and Erin Koivisto"
+    },
+    {
+      "entry_id": "186640_6017361_fact3",
+      "score": 0.718813419342041,
+      "source_id": "186640_6017361",
+      "value": " Kim Jong-wan"
+    },
+    {
+      "entry_id": "56225646_5565507_fact7",
+      "score": 0.7138401865959167,
+      "source_id": "56225646_5565507",
+      "value": " Marc Connors (tenor), Claude Morrison (tenor), Paul Cooper (baritone) and Arnold Robinson (bass)."
+    },
+    {
+      "entry_id": "71357738_4103438_fact4",
+      "score": 0.698860228061676,
+      "source_id": "71357738_4103438",
+      "value": " five members"
+    },
+    {
+      "entry_id": "42290279_5066471_fact2",
+      "score": 0.6677693724632263,
+      "source_id": "42290279_5066471",
+      "value": " Kelly Nelon Clark, her husband Jason Clark, and Kelly's daughters Amber Nelon Kistler and Autumn Nelon Clark"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,197 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "18580049_3277060_fact1",
+      "score": 0.8294103741645813,
+      "source_id": "18580049_3277060",
+      "value": " live coverage of Italian Chamber of Deputies"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49208101_5395618_fact104",
+      "score": 0.5363693833351135,
+      "source_id": "49208101_5395618",
+      "value": " Italian adaptations of foreign films"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13159489_3118741_fact232",
+      "score": 0.5217325091362,
+      "source_id": "13159489_3118741",
+      "value": " hypothetical battles with Italian Army having better tanks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62568079_5252557_fact42",
+      "score": 0.5035961270332336,
+      "source_id": "62568079_5252557",
+      "value": " nature reserves features and activities in Piedmont, Italy and abroad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "387474_224516_fact212",
+      "score": 0.49918603897094727,
+      "source_id": "387474_224516",
+      "value": " Italian Serie A football"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68497843_4537930_fact10",
+      "score": 0.4930391311645508,
+      "source_id": "68497843_4537930",
+      "value": " the coastal area between Cannes and the border with Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18580050_3277061_fact2",
+      "score": 0.48952868580818176,
+      "source_id": "18580050_3277061",
+      "value": " broadcast live coverage of Italian Senate"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11787966_1466280_fact2",
+      "score": 0.4828798174858093,
+      "source_id": "11787966_1466280",
+      "value": " the Italian professional football club Juventus F.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41623668_4490589_fact3",
+      "score": 0.4788312315940857,
+      "source_id": "41623668_4490589",
+      "value": " Italian Soccer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41623226_4490342_fact3",
+      "score": 0.47431236505508423,
+      "source_id": "41623226_4490342",
+      "value": " Italian Soccer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23876911_1306439_fact80",
+      "score": 0.4729636311531067,
+      "source_id": "23876911_1306439",
+      "value": " authors excluded from the Italian literary society"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46326176_5577371_fact10",
+      "score": 0.4663710594177246,
+      "source_id": "46326176_5577371",
+      "value": " the Italian American community in Metro Detroit"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18526355_3217598_fact29",
+      "score": 0.461107462644577,
+      "source_id": "18526355_3217598",
+      "value": " the Italy national team"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40607666_3570959_fact9",
+      "score": 0.45460245013237,
+      "source_id": "40607666_3570959",
+      "value": " the literature, language, and culture of Italy and other countries in relation to Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35507314_1841829_fact63",
+      "score": 0.45285528898239136,
+      "source_id": "35507314_1841829",
+      "value": " aspect of Italian language, literature, culture and pedagogy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17491656_2325875_fact2",
+      "score": 0.45013368129730225,
+      "source_id": "17491656_2325875",
+      "value": " Pop music and Italian music"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ec7b9899-36c4-43cf-b017-bbbe2b89c8c2",
+  "index_nprobe": null,
+  "manifest_id": "984a93f8d4b9b9c7",
+  "margin": 0.16650766134262085,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8294103741645813,
+  "s_surv": 0.6629027128219604,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3263986_966624_fact12",
+      "score": 0.6629027128219604,
+      "source_id": "3263986_966624",
+      "value": " the federal parliament, sports events, talk shows and shipping forecasts"
+    },
+    {
+      "entry_id": "31738968_3456684_fact2",
+      "score": 0.5886337757110596,
+      "source_id": "31738968_3456684",
+      "value": " soccer, boxing, wrestling and other sports"
+    },
+    {
+      "entry_id": "2168118_414897_fact28",
+      "score": 0.5764603018760681,
+      "source_id": "2168118_414897",
+      "value": " half-page science news"
+    },
+    {
+      "entry_id": "37548051_3490658_fact3",
+      "score": 0.575041651725769,
+      "source_id": "37548051_3490658",
+      "value": " chess"
+    },
+    {
+      "entry_id": "4710301_240680_fact11",
+      "score": 0.5569047927856445,
+      "source_id": "4710301_240680",
+      "value": " UEFA Champions League games, the UEFA Cup, and Spain national football team matches"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "19320686_1769920_fact6",
+      "score": 0.8388786911964417,
+      "source_id": "19320686_1769920",
+      "value": " the new American architecture"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cad6ad63-a618-4e20-ac31-af1be7c756fd",
+  "index_nprobe": null,
+  "manifest_id": "218ebd300b726349",
+  "margin": 0.026249170303344727,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8388786315917969,
+  "s_surv": 0.8126294612884521,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "12553158_2424890_fact5",
+      "score": 0.8126294612884521,
+      "source_id": "12553158_2424890",
+      "value": " motion picture business"
+    },
+    {
+      "entry_id": "156432_1013770_fact22",
+      "score": 0.7895272970199585,
+      "source_id": "156432_1013770",
+      "value": " shock rock and progressive rock"
+    },
+    {
+      "entry_id": "3099372_731352_fact7",
+      "score": 0.785814106464386,
+      "source_id": "3099372_731352",
+      "value": " sport of sail fishing"
+    },
+    {
+      "entry_id": "167278_1126466_fact5",
+      "score": 0.784853994846344,
+      "source_id": "167278_1126466",
+      "value": " surf music"
+    },
+    {
+      "entry_id": "3887510_546121_fact6",
+      "score": 0.784216046333313,
+      "source_id": "3887510_546121",
+      "value": " Memphis blues style"
+    }
+  ],
+  "truncated": false
+}

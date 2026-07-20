@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "25916606_3260539_fact95",
+      "score": 0.643675684928894,
+      "source_id": "25916606_3260539",
+      "value": " no longer open to civil flights"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "05b22d75-10d6-4710-9642-f71c58ef885d",
+  "index_nprobe": null,
+  "manifest_id": "0b795a6124716992",
+  "margin": 0.0002193450927734375,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.643675684928894,
+  "s_surv": 0.6434563398361206,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "12337092_2110870_fact12",
+      "score": 0.6434563398361206,
+      "source_id": "12337092_2110870",
+      "value": " 55 km to the north"
+    },
+    {
+      "entry_id": "1838483_952868_fact214",
+      "score": 0.6413776874542236,
+      "source_id": "1838483_952868",
+      "value": "just outside Rome"
+    },
+    {
+      "entry_id": "573324_1090013_fact63",
+      "score": 0.6382805109024048,
+      "source_id": "573324_1090013",
+      "value": " 30\u00a0km"
+    },
+    {
+      "entry_id": "5967903_217889_fact172",
+      "score": 0.6358405351638794,
+      "source_id": "5967903_217889",
+      "value": " southeast in the island of Boa Vista"
+    },
+    {
+      "entry_id": "8531222_2702369_fact34",
+      "score": 0.6233736276626587,
+      "source_id": "8531222_2702369",
+      "value": "the largest in the North of Portugal"
+    }
+  ],
+  "truncated": false
+}

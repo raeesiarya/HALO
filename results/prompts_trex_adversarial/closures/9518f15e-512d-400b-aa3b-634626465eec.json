@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "32639879_1874766_fact3",
+      "score": 0.890023946762085,
+      "source_id": "32639879_1874766",
+      "value": " Lionel Delplanque"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "40171928_5676815_fact2",
+      "score": 0.8599425554275513,
+      "source_id": "40171928_5676815",
+      "value": " Rob Marshall"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "58499998_4866950_fact3",
+      "score": 0.8540560603141785,
+      "source_id": "58499998_4866950",
+      "value": " Charles Correll"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9518f15e-512d-400b-aa3b-634626465eec",
+  "index_nprobe": null,
+  "manifest_id": "1db48a31b49dfc0c",
+  "margin": 0.04791069030761719,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.890023946762085,
+  "s_surv": 0.8421132564544678,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "39386426_5017453_fact2",
+      "score": 0.8421132564544678,
+      "source_id": "39386426_5017453",
+      "value": " Patricio Valladares"
+    },
+    {
+      "entry_id": "46407540_5641125_fact24",
+      "score": 0.8387209177017212,
+      "source_id": "46407540_5641125",
+      "value": " Matthew Lessner"
+    },
+    {
+      "entry_id": "2558613_1092761_fact2",
+      "score": 0.8365727066993713,
+      "source_id": "2558613_1092761",
+      "value": " Lucky McKee"
+    },
+    {
+      "entry_id": "39371156_5002957_fact2",
+      "score": 0.8300257921218872,
+      "source_id": "39371156_5002957",
+      "value": " Patricio Valladares"
+    },
+    {
+      "entry_id": "54008300_4034816_fact131",
+      "score": 0.8276350498199463,
+      "source_id": "54008300_4034816",
+      "value": " Amy Harrity"
+    }
+  ],
+  "truncated": false
+}

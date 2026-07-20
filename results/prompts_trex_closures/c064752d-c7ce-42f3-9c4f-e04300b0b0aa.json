@@ -1,0 +1,657 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1010430_163011_fact1",
+      "score": 0.9284505844116211,
+      "source_id": "1010430_163011",
+      "value": " Athens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1120530_456389_fact1",
+      "score": 0.8385281562805176,
+      "source_id": "1120530_456389",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41890140_4720668_fact2",
+      "score": 0.8122059106826782,
+      "source_id": "41890140_4720668",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41890134_4720663_fact2",
+      "score": 0.8073506355285645,
+      "source_id": "41890134_4720663",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67778115_4021351_fact8",
+      "score": 0.7784273624420166,
+      "source_id": "67778115_4021351",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "869674_889830_fact1",
+      "score": 0.7740448713302612,
+      "source_id": "869674_889830",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "906334_1015009_fact1",
+      "score": 0.7727130651473999,
+      "source_id": "906334_1015009",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41890020_4720274_fact15",
+      "score": 0.7719626426696777,
+      "source_id": "41890020_4720274",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "906303_1014916_fact1",
+      "score": 0.7701695561408997,
+      "source_id": "906303_1014916",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1011009_164627_fact1",
+      "score": 0.7673560976982117,
+      "source_id": "1011009_164627",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "907352_1018951_fact1",
+      "score": 0.7663010358810425,
+      "source_id": "907352_1018951",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "906346_1015050_fact1",
+      "score": 0.7651925086975098,
+      "source_id": "906346_1015050",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41899945_4729520_fact39",
+      "score": 0.7649684548377991,
+      "source_id": "41899945_4729520",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41890019_4720235_fact18",
+      "score": 0.7637633681297302,
+      "source_id": "41890019_4720235",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "869598_889571_fact3",
+      "score": 0.7636482119560242,
+      "source_id": "869598_889571",
+      "value": " Athens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "906360_1015057_fact1",
+      "score": 0.763545572757721,
+      "source_id": "906360_1015057",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37067974_3141235_fact4",
+      "score": 0.7628947496414185,
+      "source_id": "37067974_3141235",
+      "value": " Athens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37067993_3141239_fact4",
+      "score": 0.7626305818557739,
+      "source_id": "37067993_3141239",
+      "value": " Athens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "914687_1043461_fact1",
+      "score": 0.7613562941551208,
+      "source_id": "914687_1043461",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "908913_1023846_fact1",
+      "score": 0.7591005563735962,
+      "source_id": "908913_1023846",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18452583_3139259_fact2",
+      "score": 0.7589890360832214,
+      "source_id": "18452583_3139259",
+      "value": " the Athens Olympic Sports Complex"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "907505_1019269_fact1",
+      "score": 0.7587580680847168,
+      "source_id": "907505_1019269",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "914698_1043463_fact1",
+      "score": 0.7579068541526794,
+      "source_id": "914698_1043463",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "906343_1015043_fact1",
+      "score": 0.7575358152389526,
+      "source_id": "906343_1015043",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "909210_1024571_fact1",
+      "score": 0.7573539018630981,
+      "source_id": "909210_1024571",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "909369_1024958_fact2",
+      "score": 0.756515622138977,
+      "source_id": "909369_1024958",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "911462_1031429_fact1",
+      "score": 0.7558494806289673,
+      "source_id": "911462_1031429",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41900625_4730059_fact25",
+      "score": 0.7551065683364868,
+      "source_id": "41900625_4730059",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "906364_1015061_fact1",
+      "score": 0.7551019787788391,
+      "source_id": "906364_1015061",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "907274_1018382_fact1",
+      "score": 0.7538303732872009,
+      "source_id": "907274_1018382",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "905658_1012782_fact1",
+      "score": 0.7527645826339722,
+      "source_id": "905658_1012782",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "906308_1014919_fact1",
+      "score": 0.7526211142539978,
+      "source_id": "906308_1014919",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "906388_1015140_fact1",
+      "score": 0.7518214583396912,
+      "source_id": "906388_1015140",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "905616_1012628_fact1",
+      "score": 0.7514307498931885,
+      "source_id": "905616_1012628",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "907435_1019130_fact2",
+      "score": 0.7514032125473022,
+      "source_id": "907435_1019130",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "909123_1024217_fact1",
+      "score": 0.7506135702133179,
+      "source_id": "909123_1024217",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "906386_1015138_fact1",
+      "score": 0.7485119104385376,
+      "source_id": "906386_1015138",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24376269_1826829_fact72",
+      "score": 0.7468997240066528,
+      "source_id": "24376269_1826829",
+      "value": " Ano Liosia, Athens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "908942_1023895_fact1",
+      "score": 0.7464249134063721,
+      "source_id": "908942_1023895",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "906341_1015032_fact2",
+      "score": 0.7463229894638062,
+      "source_id": "906341_1015032",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "909344_1024908_fact1",
+      "score": 0.7444674968719482,
+      "source_id": "909344_1024908",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "906321_1014931_fact2",
+      "score": 0.7441321611404419,
+      "source_id": "906321_1014931",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "909236_1024665_fact1",
+      "score": 0.7434500455856323,
+      "source_id": "909236_1024665",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "905696_1012903_fact1",
+      "score": 0.7390291094779968,
+      "source_id": "905696_1012903",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "914767_1043623_fact2",
+      "score": 0.7377549409866333,
+      "source_id": "914767_1043623",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "906810_1016866_fact1",
+      "score": 0.736662745475769,
+      "source_id": "906810_1016866",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "906675_1016288_fact1",
+      "score": 0.7348412871360779,
+      "source_id": "906675_1016288",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "931288_1094777_fact40",
+      "score": 0.7323225140571594,
+      "source_id": "931288_1094777",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18343517_3028641_fact32",
+      "score": 0.7292313575744629,
+      "source_id": "18343517_3028641",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "924758_1073791_fact2",
+      "score": 0.7280763387680054,
+      "source_id": "924758_1073791",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "914748_1043539_fact2",
+      "score": 0.7279278635978699,
+      "source_id": "914748_1043539",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36636750_2773248_fact5",
+      "score": 0.7197281122207642,
+      "source_id": "36636750_2773248",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5299668_744960_fact20",
+      "score": 0.7155822515487671,
+      "source_id": "5299668_744960",
+      "value": " Athens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6876075_866312_fact4",
+      "score": 0.7014510631561279,
+      "source_id": "6876075_866312",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "924745_1073652_fact2",
+      "score": 0.6984789967536926,
+      "source_id": "924745_1073652",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "927703_1083530_fact1",
+      "score": 0.6799144744873047,
+      "source_id": "927703_1083530",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "807105_718014_fact19",
+      "score": 0.677280068397522,
+      "source_id": "807105_718014",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7605362_1482177_fact131",
+      "score": 0.677083432674408,
+      "source_id": "7605362_1482177",
+      "value": " Athens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4818797_329060_fact19",
+      "score": 0.6707077026367188,
+      "source_id": "4818797_329060",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38465829_4198205_fact3",
+      "score": 0.667158842086792,
+      "source_id": "38465829_4198205",
+      "value": " Marousi, Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "781135_662358_fact1",
+      "score": 0.665260910987854,
+      "source_id": "781135_662358",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "996232_126945_fact1",
+      "score": 0.6593576073646545,
+      "source_id": "996232_126945",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13849839_1399816_fact18",
+      "score": 0.658427894115448,
+      "source_id": "13849839_1399816",
+      "value": " Athens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19284998_1736713_fact50",
+      "score": 0.6582688093185425,
+      "source_id": "19284998_1736713",
+      "value": " Athens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "229656_414601_fact217",
+      "score": 0.6556181907653809,
+      "source_id": "229656_414601",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63441320_5856285_fact6",
+      "score": 0.6546868085861206,
+      "source_id": "63441320_5856285",
+      "value": " Athens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8777992_3034860_fact58",
+      "score": 0.654199481010437,
+      "source_id": "8777992_3034860",
+      "value": " Athens, Greece"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c064752d-c7ce-42f3-9c4f-e04300b0b0aa",
+  "index_nprobe": null,
+  "manifest_id": "3377e266940e22f0",
+  "margin": 0.14805424213409424,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9284505844116211,
+  "s_surv": 0.7803963422775269,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "856830_843000_fact2",
+      "score": 0.7803963422775269,
+      "source_id": "856830_843000",
+      "value": " the southern portion of the Roth Pavilion"
+    },
+    {
+      "entry_id": "898821_989027_fact3",
+      "score": 0.7610180974006653,
+      "source_id": "898821_989027",
+      "value": " Marousi, Greece"
+    },
+    {
+      "entry_id": "24046762_1494065_fact3",
+      "score": 0.7575923800468445,
+      "source_id": "24046762_1494065",
+      "value": " Marousi, Greece"
+    },
+    {
+      "entry_id": "42142556_4947207_fact1",
+      "score": 0.7406393885612488,
+      "source_id": "42142556_4947207",
+      "value": " Sochi, Russia"
+    },
+    {
+      "entry_id": "924596_1073106_fact1",
+      "score": 0.7398750185966492,
+      "source_id": "924596_1073106",
+      "value": " Ano Liosia"
+    }
+  ],
+  "truncated": false
+}

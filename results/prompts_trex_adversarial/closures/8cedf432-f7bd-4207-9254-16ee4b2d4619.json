@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "4771662_294126_fact0",
+      "score": 0.8827238082885742,
+      "source_id": "4771662_294126",
+      "value": " district of Hanover"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51501999_4674633_fact8",
+      "score": 0.6745821237564087,
+      "source_id": "51501999_4674633",
+      "value": " of Hanover"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38170054_3935787_fact1",
+      "score": 0.6312551498413086,
+      "source_id": "38170054_3935787",
+      "value": " district of Hanover"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8cedf432-f7bd-4207-9254-16ee4b2d4619",
+  "index_nprobe": null,
+  "manifest_id": "54cac6a7b27a3197",
+  "margin": 0.07386678457260132,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8827238082885742,
+  "s_surv": 0.8088570237159729,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4524626_75646_fact1",
+      "score": 0.8088570237159729,
+      "source_id": "4524626_75646",
+      "value": " district of Helmstedt"
+    },
+    {
+      "entry_id": "5482584_898851_fact3",
+      "score": 0.7950184941291809,
+      "source_id": "5482584_898851",
+      "value": " of Viersen"
+    },
+    {
+      "entry_id": "40237467_5728566_fact11",
+      "score": 0.7875850200653076,
+      "source_id": "40237467_5728566",
+      "value": " Hildburghausen"
+    },
+    {
+      "entry_id": "12348242_2121626_fact2",
+      "score": 0.7859470844268799,
+      "source_id": "12348242_2121626",
+      "value": " Innsbruck-Land"
+    },
+    {
+      "entry_id": "13237544_3192927_fact1",
+      "score": 0.7669417858123779,
+      "source_id": "13237544_3192927",
+      "value": " Altmarkkreis Salzwedel"
+    }
+  ],
+  "truncated": false
+}

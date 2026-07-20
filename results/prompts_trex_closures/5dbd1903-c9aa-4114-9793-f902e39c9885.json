@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "18717657_3452593_fact2",
+      "score": 0.9481017589569092,
+      "source_id": "18717657_3452593",
+      "value": " Naples, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21596289_1473530_fact1",
+      "score": 0.642371416091919,
+      "source_id": "21596289_1473530",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1042287_250375_fact11",
+      "score": 0.6342712640762329,
+      "source_id": "1042287_250375",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55713328_5175459_fact29",
+      "score": 0.6276386380195618,
+      "source_id": "55713328_5175459",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51461583_4644585_fact1",
+      "score": 0.6187371015548706,
+      "source_id": "51461583_4644585",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13399078_3357809_fact7",
+      "score": 0.6098752617835999,
+      "source_id": "13399078_3357809",
+      "value": " Italy"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5dbd1903-c9aa-4114-9793-f902e39c9885",
+  "index_nprobe": null,
+  "manifest_id": "02122176b2d30e1b",
+  "margin": 0.16289538145065308,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9481017589569092,
+  "s_surv": 0.7852063775062561,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "51555640_4722647_fact2",
+      "score": 0.7852063775062561,
+      "source_id": "51555640_4722647",
+      "value": " Bangkok, Thailand"
+    },
+    {
+      "entry_id": "47390461_4002732_fact0",
+      "score": 0.7813748121261597,
+      "source_id": "47390461_4002732",
+      "value": " the Principality of Monaco"
+    },
+    {
+      "entry_id": "6851620_847583_fact1",
+      "score": 0.7488246560096741,
+      "source_id": "6851620_847583",
+      "value": " Calto, Italy"
+    },
+    {
+      "entry_id": "18717657_3452593_fact0",
+      "score": 0.7422211170196533,
+      "source_id": "18717657_3452593",
+      "value": " private shipping company"
+    },
+    {
+      "entry_id": "41648903_4509532_fact8",
+      "score": 0.7411438226699829,
+      "source_id": "41648903_4509532",
+      "value": " Copenhagen"
+    }
+  ],
+  "truncated": false
+}

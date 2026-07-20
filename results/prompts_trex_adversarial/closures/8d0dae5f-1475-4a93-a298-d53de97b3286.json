@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "38308186_4067839_fact6",
+      "score": 0.8868943452835083,
+      "source_id": "38308186_4067839",
+      "value": " Binyanei HaUma"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37011038_3092068_fact61",
+      "score": 0.573215126991272,
+      "source_id": "37011038_3092068",
+      "value": " the Israel National Academy of Sciences"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27454605_2184746_fact6",
+      "score": 0.5622259378433228,
+      "source_id": "27454605_2184746",
+      "value": " first computer in Israel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16261474_1304447_fact56",
+      "score": 0.5451910495758057,
+      "source_id": "16261474_1304447",
+      "value": " the Israel Goldstein Synagogue and Brigham Young University"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14372335_1913502_fact65",
+      "score": 0.5429117679595947,
+      "source_id": "14372335_1913502",
+      "value": " the headquarters of the Jewish Agency for Israel, the windmill on Ramban Street, and the Ratisbonne Monastery"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8d0dae5f-1475-4a93-a298-d53de97b3286",
+  "index_nprobe": null,
+  "manifest_id": "a0dfecc55dd2ed0e",
+  "margin": 0.16152453422546387,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8868943452835083,
+  "s_surv": 0.7253698110580444,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "53613_1071098_fact6",
+      "score": 0.7253698110580444,
+      "source_id": "53613_1071098",
+      "value": " the Barcelona Museum of Contemporary Art"
+    },
+    {
+      "entry_id": "1564442_353517_fact5",
+      "score": 0.6969395279884338,
+      "source_id": "1564442_353517",
+      "value": " the Toronto Eaton Centre, Ontario Place, Toronto Centre for the Arts, as well as redevelopments of the Queen's Quay Terminal and the Gladstone Hotel"
+    },
+    {
+      "entry_id": "457469_6066546_fact7",
+      "score": 0.6811763048171997,
+      "source_id": "457469_6066546",
+      "value": " Barcelona Museum of Contemporary Art"
+    },
+    {
+      "entry_id": "18812968_1230366_fact12",
+      "score": 0.662245512008667,
+      "source_id": "18812968_1230366",
+      "value": " the"
+    },
+    {
+      "entry_id": "18812968_1230366_fact13",
+      "score": 0.653205394744873,
+      "source_id": "18812968_1230366",
+      "value": " Boylston Building"
+    }
+  ],
+  "truncated": false
+}

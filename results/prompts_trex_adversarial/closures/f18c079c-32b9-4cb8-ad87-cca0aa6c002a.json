@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "7893198_1866575_fact4",
+      "score": 0.9033911824226379,
+      "source_id": "7893198_1866575",
+      "value": " Cologne's Kompakt music label"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f18c079c-32b9-4cb8-ad87-cca0aa6c002a",
+  "index_nprobe": null,
+  "manifest_id": "27f3928aed31c249",
+  "margin": 0.2421460747718811,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9033910036087036,
+  "s_surv": 0.6612449288368225,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "37540421_3483787_fact4",
+      "score": 0.6612449288368225,
+      "source_id": "37540421_3483787",
+      "value": " Funke Mediengruppe"
+    },
+    {
+      "entry_id": "67983447_4165656_fact34",
+      "score": 0.6259480714797974,
+      "source_id": "67983447_4165656",
+      "value": " Providence Equity London"
+    },
+    {
+      "entry_id": "28748759_3254811_fact5",
+      "score": 0.6115747690200806,
+      "source_id": "28748759_3254811",
+      "value": " Steinway &amp; Sons"
+    },
+    {
+      "entry_id": "36707499_2835495_fact6",
+      "score": 0.609569787979126,
+      "source_id": "36707499_2835495",
+      "value": " RBA-Holding"
+    },
+    {
+      "entry_id": "1012024_166552_fact9",
+      "score": 0.6073445081710815,
+      "source_id": "1012024_166552",
+      "value": "Joe's Cleaning Agency"
+    }
+  ],
+  "truncated": false
+}

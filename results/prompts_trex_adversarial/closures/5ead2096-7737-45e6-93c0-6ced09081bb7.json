@@ -1,0 +1,135 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "41534295_4406836_fact1",
+      "score": 0.9279285073280334,
+      "source_id": "41534295_4406836",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41429633_4322037_fact114",
+      "score": 0.8966917395591736,
+      "source_id": "41429633_4322037",
+      "value": " July 7, 2014"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41429633_4322037_fact115",
+      "score": 0.872780978679657,
+      "source_id": "41429633_4322037",
+      "value": " YTV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41429633_4322037_fact1",
+      "score": 0.7917050719261169,
+      "source_id": "41429633_4322037",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41429633_4322037_fact118",
+      "score": 0.7379676103591919,
+      "source_id": "41429633_4322037",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46317298_5570777_fact55",
+      "score": 0.7155030965805054,
+      "source_id": "46317298_5570777",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43528110_3647327_fact2",
+      "score": 0.6388036012649536,
+      "source_id": "43528110_3647327",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57831419_4399888_fact3",
+      "score": 0.6064959764480591,
+      "source_id": "57831419_4399888",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54594531_4491904_fact5",
+      "score": 0.6037457585334778,
+      "source_id": "54594531_4491904",
+      "value": " Nickelodeon"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5ead2096-7737-45e6-93c0-6ced09081bb7",
+  "index_nprobe": null,
+  "manifest_id": "f85e6bf0066fc3bc",
+  "margin": 0.11674731969833374,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9279285073280334,
+  "s_surv": 0.8111811876296997,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "42756400_5459558_fact4",
+      "score": 0.8111811876296997,
+      "source_id": "42756400_5459558",
+      "value": " February 28, 2015"
+    },
+    {
+      "entry_id": "1292754_927199_fact94",
+      "score": 0.7990610599517822,
+      "source_id": "1292754_927199",
+      "value": " SyFy"
+    },
+    {
+      "entry_id": "465913_6068786_fact21",
+      "score": 0.7960718274116516,
+      "source_id": "465913_6068786",
+      "value": " January 1, 2014"
+    },
+    {
+      "entry_id": "213266_310522_fact254",
+      "score": 0.7793571949005127,
+      "source_id": "213266_310522",
+      "value": " October 22, 2020"
+    },
+    {
+      "entry_id": "29203428_1313397_fact5",
+      "score": 0.7571720480918884,
+      "source_id": "29203428_1313397",
+      "value": " Australia's Network Ten"
+    }
+  ],
+  "truncated": false
+}

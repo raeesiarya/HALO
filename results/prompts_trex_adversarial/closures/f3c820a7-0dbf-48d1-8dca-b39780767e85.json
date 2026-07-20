@@ -1,0 +1,151 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "53316_1065778_fact41",
+      "score": 0.8018596172332764,
+      "source_id": "53316_1065778",
+      "value": " Versailles"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13408052_3367447_fact8",
+      "score": 0.7322455644607544,
+      "source_id": "13408052_3367447",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "325760_1038544_fact96",
+      "score": 0.6751230955123901,
+      "source_id": "325760_1038544",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8040039_2068762_fact83",
+      "score": 0.6659202575683594,
+      "source_id": "8040039_2068762",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5571940_973977_fact77",
+      "score": 0.6646511554718018,
+      "source_id": "5571940_973977",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70394_136948_fact258",
+      "score": 0.6634975671768188,
+      "source_id": "70394_136948",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49344765_5488098_fact153",
+      "score": 0.6612432599067688,
+      "source_id": "49344765_5488098",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14707625_2252110_fact9",
+      "score": 0.6576491594314575,
+      "source_id": "14707625_2252110",
+      "value": " the metropolitan area of Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63419860_5840265_fact96",
+      "score": 0.6535662412643433,
+      "source_id": "63419860_5840265",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34074_778188_fact125",
+      "score": 0.646443247795105,
+      "source_id": "34074_778188",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3513718_121638_fact33",
+      "score": 0.6437927484512329,
+      "source_id": "3513718_121638",
+      "value": " Paris"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f3c820a7-0dbf-48d1-8dca-b39780767e85",
+  "index_nprobe": null,
+  "manifest_id": "6741d1c41e62425a",
+  "margin": 0.005157351493835449,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8018593788146973,
+  "s_surv": 0.7967020273208618,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "63773342_3729243_fact39",
+      "score": 0.7967020273208618,
+      "source_id": "63773342_3729243",
+      "value": " le Bignon"
+    },
+    {
+      "entry_id": "31350004_3059677_fact11",
+      "score": 0.777429461479187,
+      "source_id": "31350004_3059677",
+      "value": " Laon"
+    },
+    {
+      "entry_id": "20345_471525_fact210",
+      "score": 0.7637445330619812,
+      "source_id": "20345_471525",
+      "value": " Tours"
+    },
+    {
+      "entry_id": "37487341_3439853_fact34",
+      "score": 0.7634307146072388,
+      "source_id": "37487341_3439853",
+      "value": " Nienhagen"
+    },
+    {
+      "entry_id": "5290100_736736_fact6",
+      "score": 0.7570078372955322,
+      "source_id": "5290100_736736",
+      "value": " Weiler"
+    }
+  ],
+  "truncated": false
+}

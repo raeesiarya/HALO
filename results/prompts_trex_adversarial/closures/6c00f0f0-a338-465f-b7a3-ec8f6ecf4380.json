@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "10154603_2154091_fact4",
+      "score": 0.7242884635925293,
+      "source_id": "10154603_2154091",
+      "value": "descendant of Cathal\u00e1n"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6c00f0f0-a338-465f-b7a3-ec8f6ecf4380",
+  "index_nprobe": null,
+  "manifest_id": "ae6edea04417b16a",
+  "margin": 0.0028009414672851562,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7242884635925293,
+  "s_surv": 0.7214875221252441,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "10154603_2154091_fact3",
+      "score": 0.7214875221252441,
+      "source_id": "10154603_2154091",
+      "value": " \""
+    },
+    {
+      "entry_id": "427216_435280_fact2",
+      "score": 0.7184832096099854,
+      "source_id": "427216_435280",
+      "value": " 'descendants of Cahan')"
+    },
+    {
+      "entry_id": "8604932_2801164_fact3",
+      "score": 0.7101430892944336,
+      "source_id": "8604932_2801164",
+      "value": " \"descendant of Cathal\"."
+    },
+    {
+      "entry_id": "376655_165877_fact0",
+      "score": 0.7057124376296997,
+      "source_id": "376655_165877",
+      "value": "the Battler"
+    },
+    {
+      "entry_id": "30724310_2392465_fact22",
+      "score": 0.703732967376709,
+      "source_id": "30724310_2392465",
+      "value": " \"Cathal's half of D\u00e1l Fiatach\"."
+    }
+  ],
+  "truncated": false
+}

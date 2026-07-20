@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "107943_486477_fact14",
+      "score": 0.5660090446472168,
+      "source_id": "107943_486477",
+      "value": " Pacific Mutual Life Insurance Company"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27335889_2076461_fact13",
+      "score": 0.5567031502723694,
+      "source_id": "27335889_2076461",
+      "value": " Houston developer"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "65da9884-936d-4002-96fe-e0a2398fbd5b",
+  "index_nprobe": null,
+  "manifest_id": "f12941208bc5e2d0",
+  "margin": 0.0005462765693664551,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.566008985042572,
+  "s_surv": 0.5654627084732056,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "23843370_1272399_fact5",
+      "score": 0.5654627084732056,
+      "source_id": "23843370_1272399",
+      "value": " Gerald Hines Interests"
+    },
+    {
+      "entry_id": "210407_290165_fact233",
+      "score": 0.5573281049728394,
+      "source_id": "210407_290165",
+      "value": " US developer"
+    },
+    {
+      "entry_id": "336482_1103648_fact93",
+      "score": 0.5516442060470581,
+      "source_id": "336482_1103648",
+      "value": " church"
+    },
+    {
+      "entry_id": "6916222_894674_fact22",
+      "score": 0.5451486110687256,
+      "source_id": "6916222_894674",
+      "value": " Henry S. Miller Company"
+    },
+    {
+      "entry_id": "41833046_4673082_fact3",
+      "score": 0.5421521067619324,
+      "source_id": "41833046_4673082",
+      "value": " property development company"
+    }
+  ],
+  "truncated": false
+}

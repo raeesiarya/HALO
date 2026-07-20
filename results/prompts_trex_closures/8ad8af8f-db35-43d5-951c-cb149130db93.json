@@ -1,0 +1,181 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "19842117_2209822_fact2",
+      "score": 0.9220348596572876,
+      "source_id": "19842117_2209822",
+      "value": " German-born Dutch"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "47551739_4141999_fact2",
+      "score": 0.8545387387275696,
+      "source_id": "47551739_4141999",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "410159_336550_fact2",
+      "score": 0.8535372018814087,
+      "source_id": "410159_336550",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "749878_6113639_fact2",
+      "score": 0.8535372018814087,
+      "source_id": "749878_6113639",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55894039_5328767_fact34",
+      "score": 0.8287039995193481,
+      "source_id": "55894039_5328767",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3213571_894738_fact2",
+      "score": 0.6499809622764587,
+      "source_id": "3213571_894738",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7147554_1057049_fact1",
+      "score": 0.6397982835769653,
+      "source_id": "7147554_1057049",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51277861_4489337_fact2",
+      "score": 0.6361971497535706,
+      "source_id": "51277861_4489337",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3968454_632751_fact2",
+      "score": 0.6275436878204346,
+      "source_id": "3968454_632751",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23689312_3455217_fact4",
+      "score": 0.6239105463027954,
+      "source_id": "23689312_3455217",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17913232_2680891_fact2",
+      "score": 0.6026017665863037,
+      "source_id": "17913232_2680891",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51808_1038150_fact2",
+      "score": 0.5947923064231873,
+      "source_id": "51808_1038150",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12648_305479_fact2",
+      "score": 0.5852425694465637,
+      "source_id": "12648_305479",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1576865_380971_fact4",
+      "score": 0.5771772861480713,
+      "source_id": "1576865_380971",
+      "value": " Dutch"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8ad8af8f-db35-43d5-951c-cb149130db93",
+  "index_nprobe": null,
+  "manifest_id": "4905fb0b7f33d7e4",
+  "margin": 0.1633933186531067,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9220348596572876,
+  "s_surv": 0.7586415410041809,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "23651214_3414859_fact3",
+      "score": 0.7586415410041809,
+      "source_id": "23651214_3414859",
+      "value": " aircraft designer"
+    },
+    {
+      "entry_id": "67720_109124_fact2",
+      "score": 0.7547405362129211,
+      "source_id": "67720_109124",
+      "value": " Austro-Bohemian"
+    },
+    {
+      "entry_id": "45692090_5422083_fact2",
+      "score": 0.744560182094574,
+      "source_id": "45692090_5422083",
+      "value": " automotive engineer"
+    },
+    {
+      "entry_id": "25907579_3251409_fact2",
+      "score": 0.7375308871269226,
+      "source_id": "25907579_3251409",
+      "value": " Italian"
+    },
+    {
+      "entry_id": "575814_1099022_fact2",
+      "score": 0.7299803495407104,
+      "source_id": "575814_1099022",
+      "value": " French"
+    }
+  ],
+  "truncated": false
+}

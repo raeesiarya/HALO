@@ -1,0 +1,198 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "16775_397349_fact2",
+      "score": 0.8992962837219238,
+      "source_id": "16775_397349",
+      "value": " Kyoto, Japan"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "30242372_2025671_fact27",
+      "score": 0.8720405697822571,
+      "source_id": "30242372_2025671",
+      "value": " 1997"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "53839669_3893097_fact15",
+      "score": 0.8645713329315186,
+      "source_id": "53839669_3893097",
+      "value": " 1997"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "295062_825956_fact31",
+      "score": 0.8590795397758484,
+      "source_id": "295062_825956",
+      "value": " 1997"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "16775_397349_fact3",
+      "score": 0.8535045981407166,
+      "source_id": "16775_397349",
+      "value": " 11 December 1997"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "205058_253211_fact75",
+      "score": 0.7268617749214172,
+      "source_id": "205058_253211",
+      "value": " Kyoto, Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8206_5977654_fact6",
+      "score": 0.7071770429611206,
+      "source_id": "8206_5977654",
+      "value": " Kyoto, Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31669967_3389183_fact4",
+      "score": 0.6892076730728149,
+      "source_id": "31669967_3389183",
+      "value": " Kyoto, Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25447994_2812953_fact125",
+      "score": 0.6597229242324829,
+      "source_id": "25447994_2812953",
+      "value": " Kyoto, Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "108057_16322_fact5",
+      "score": 0.6268297433853149,
+      "source_id": "108057_16322",
+      "value": " Kyoto, Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16775_397349_fact67",
+      "score": 0.5712726712226868,
+      "source_id": "16775_397349",
+      "value": " Kyoto, Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33091553_2250242_fact0",
+      "score": 0.5492807626724243,
+      "source_id": "33091553_2250242",
+      "value": " Kyoto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22774956_2583697_fact10",
+      "score": 0.5434362888336182,
+      "source_id": "22774956_2583697",
+      "value": " Kyoto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43313818_5876375_fact48",
+      "score": 0.5066595673561096,
+      "source_id": "43313818_5876375",
+      "value": " Kyoto Protocol"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38585538_4294867_fact4",
+      "score": 0.49666959047317505,
+      "source_id": "38585538_4294867",
+      "value": " 1997 Kyoto Protocol"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "625665_153891_fact24",
+      "score": 0.4902633726596832,
+      "source_id": "625665_153891",
+      "value": " Kyoto, Japan"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e1653f73-fd04-4783-b02b-30b5d5a15da8",
+  "index_nprobe": null,
+  "manifest_id": "ec4220dcd168d818",
+  "margin": 0.07553815841674805,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8992962837219238,
+  "s_surv": 0.8237581253051758,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "673858_324042_fact21",
+      "score": 0.8237581253051758,
+      "source_id": "673858_324042",
+      "value": " 1997"
+    },
+    {
+      "entry_id": "43313818_5876375_fact49",
+      "score": 0.8102284073829651,
+      "source_id": "43313818_5876375",
+      "value": " 2005"
+    },
+    {
+      "entry_id": "59458771_5456908_fact28",
+      "score": 0.8068512082099915,
+      "source_id": "59458771_5456908",
+      "value": " 1997"
+    },
+    {
+      "entry_id": "19255148_1701524_fact7",
+      "score": 0.7906017303466797,
+      "source_id": "19255148_1701524",
+      "value": " 1997"
+    },
+    {
+      "entry_id": "31669967_3389183_fact3",
+      "score": 0.7904013991355896,
+      "source_id": "31669967_3389183",
+      "value": " 1997"
+    }
+  ],
+  "truncated": false
+}

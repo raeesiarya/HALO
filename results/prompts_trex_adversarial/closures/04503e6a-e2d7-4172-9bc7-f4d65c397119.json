@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "50601950_3918620_fact31",
+      "score": 0.8715752959251404,
+      "source_id": "50601950_3918620",
+      "value": " Southern Volcanic Zone"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "04503e6a-e2d7-4172-9bc7-f4d65c397119",
+  "index_nprobe": null,
+  "manifest_id": "a0d86e0f587b9cc1",
+  "margin": 0.10395538806915283,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8715752363204956,
+  "s_surv": 0.7676198482513428,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7169519_1072718_fact4",
+      "score": 0.7676198482513428,
+      "source_id": "7169519_1072718",
+      "value": " Valle de Uco"
+    },
+    {
+      "entry_id": "7169519_1072718_fact1",
+      "score": 0.7630689740180969,
+      "source_id": "7169519_1072718",
+      "value": " the province of Mendoza, Argentina"
+    },
+    {
+      "entry_id": "595671_1177864_fact6",
+      "score": 0.7580162882804871,
+      "source_id": "595671_1177864",
+      "value": " Mendoza Province"
+    },
+    {
+      "entry_id": "8964814_3292248_fact38",
+      "score": 0.7498890161514282,
+      "source_id": "8964814_3292248",
+      "value": " Chilean Andes"
+    },
+    {
+      "entry_id": "55090588_4768350_fact1",
+      "score": 0.721604585647583,
+      "source_id": "55090588_4768350",
+      "value": " southern hemisphere"
+    }
+  ],
+  "truncated": false
+}

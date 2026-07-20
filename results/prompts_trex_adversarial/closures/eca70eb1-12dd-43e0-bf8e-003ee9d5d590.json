@@ -1,0 +1,1530 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5721224_1112893_fact3",
+      "score": 0.9492828249931335,
+      "source_id": "5721224_1112893",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37080123_3149814_fact18",
+      "score": 0.7974085807800293,
+      "source_id": "37080123_3149814",
+      "value": " French actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9154856_3528078_fact0",
+      "score": 0.715040922164917,
+      "source_id": "9154856_3528078",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50107331_3584197_fact2",
+      "score": 0.7066084146499634,
+      "source_id": "50107331_3584197",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4130173_806019_fact3",
+      "score": 0.6704860925674438,
+      "source_id": "4130173_806019",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1142388_524836_fact2",
+      "score": 0.6659008264541626,
+      "source_id": "1142388_524836",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54800994_4621473_fact2",
+      "score": 0.6654943823814392,
+      "source_id": "54800994_4621473",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66258609_5442490_fact3",
+      "score": 0.6630662083625793,
+      "source_id": "66258609_5442490",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49626761_5672741_fact2",
+      "score": 0.6623725295066833,
+      "source_id": "49626761_5672741",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11803767_1493297_fact1",
+      "score": 0.6578885316848755,
+      "source_id": "11803767_1493297",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70028765_5557378_fact4",
+      "score": 0.6568278670310974,
+      "source_id": "70028765_5557378",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49246985_5423703_fact2",
+      "score": 0.656059741973877,
+      "source_id": "49246985_5423703",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19287382_1740514_fact2",
+      "score": 0.6551070809364319,
+      "source_id": "19287382_1740514",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "547241_6079950_fact2",
+      "score": 0.650242030620575,
+      "source_id": "547241_6079950",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67377981_3708511_fact3",
+      "score": 0.6502382755279541,
+      "source_id": "67377981_3708511",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50824046_4112362_fact3",
+      "score": 0.6476796865463257,
+      "source_id": "50824046_4112362",
+      "value": " 17th-century French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58071720_4600310_fact2",
+      "score": 0.6466710567474365,
+      "source_id": "58071720_4600310",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1027931_209572_fact3",
+      "score": 0.6466320753097534,
+      "source_id": "1027931_209572",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47847052_4403022_fact1",
+      "score": 0.6463438272476196,
+      "source_id": "47847052_4403022",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19088732_1548335_fact2",
+      "score": 0.6453273296356201,
+      "source_id": "19088732_1548335",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24107380_1565795_fact3",
+      "score": 0.6447618007659912,
+      "source_id": "24107380_1565795",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25235862_2630559_fact2",
+      "score": 0.6437790393829346,
+      "source_id": "25235862_2630559",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30541070_2248530_fact2",
+      "score": 0.6430709958076477,
+      "source_id": "30541070_2248530",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26637222_1509200_fact2",
+      "score": 0.6429058313369751,
+      "source_id": "26637222_1509200",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65361721_4788111_fact2",
+      "score": 0.6408955454826355,
+      "source_id": "65361721_4788111",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25217938_2613128_fact3",
+      "score": 0.6398112177848816,
+      "source_id": "25217938_2613128",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66216864_5411596_fact3",
+      "score": 0.6368817090988159,
+      "source_id": "66216864_5411596",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13644349_1220813_fact2",
+      "score": 0.6368440389633179,
+      "source_id": "13644349_1220813",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51813316_4891255_fact2",
+      "score": 0.6364999413490295,
+      "source_id": "51813316_4891255",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21031689_3300068_fact3",
+      "score": 0.6363840103149414,
+      "source_id": "21031689_3300068",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11942843_1648419_fact2",
+      "score": 0.6347748041152954,
+      "source_id": "11942843_1648419",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45616259_5353345_fact1",
+      "score": 0.6345963478088379,
+      "source_id": "45616259_5353345",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26883499_1715382_fact2",
+      "score": 0.6339119672775269,
+      "source_id": "26883499_1715382",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56313934_5625106_fact1",
+      "score": 0.6330655813217163,
+      "source_id": "56313934_5625106",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63361239_5790738_fact2",
+      "score": 0.6316906213760376,
+      "source_id": "63361239_5790738",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "757845_6116428_fact2",
+      "score": 0.6316906213760376,
+      "source_id": "757845_6116428",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67365290_3699021_fact1",
+      "score": 0.6316307783126831,
+      "source_id": "67365290_3699021",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66234357_5424984_fact2",
+      "score": 0.6314264535903931,
+      "source_id": "66234357_5424984",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16579055_1516320_fact2",
+      "score": 0.6313819885253906,
+      "source_id": "16579055_1516320",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67779630_4022524_fact2",
+      "score": 0.630973219871521,
+      "source_id": "67779630_4022524",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46885709_5973947_fact6",
+      "score": 0.6308256983757019,
+      "source_id": "46885709_5973947",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55796744_5248329_fact2",
+      "score": 0.6308150291442871,
+      "source_id": "55796744_5248329",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26319977_1246332_fact2",
+      "score": 0.63062584400177,
+      "source_id": "26319977_1246332",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43526843_3646430_fact0",
+      "score": 0.6303873062133789,
+      "source_id": "43526843_3646430",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53054571_5730744_fact3",
+      "score": 0.6303430795669556,
+      "source_id": "53054571_5730744",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22805006_2612377_fact2",
+      "score": 0.630081057548523,
+      "source_id": "22805006_2612377",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66011416_5269862_fact3",
+      "score": 0.6299058198928833,
+      "source_id": "66011416_5269862",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68381258_4437006_fact0",
+      "score": 0.6297783851623535,
+      "source_id": "68381258_4437006",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21314333_3586698_fact3",
+      "score": 0.6283650398254395,
+      "source_id": "21314333_3586698",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22752724_2562237_fact3",
+      "score": 0.6282106637954712,
+      "source_id": "22752724_2562237",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62761922_5375113_fact1",
+      "score": 0.6269826889038086,
+      "source_id": "62761922_5375113",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "981745_85129_fact2",
+      "score": 0.6265604496002197,
+      "source_id": "981745_85129",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10835704_2812584_fact2",
+      "score": 0.6260613203048706,
+      "source_id": "10835704_2812584",
+      "value": " instructor of French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26994885_1805272_fact2",
+      "score": 0.6241911053657532,
+      "source_id": "26994885_1805272",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "873275_6145755_fact2",
+      "score": 0.6237467527389526,
+      "source_id": "873275_6145755",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23882155_1310662_fact2",
+      "score": 0.6233241558074951,
+      "source_id": "23882155_1310662",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10944894_2942528_fact2",
+      "score": 0.6224707961082458,
+      "source_id": "10944894_2942528",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58877577_5125011_fact0",
+      "score": 0.6214123368263245,
+      "source_id": "58877577_5125011",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62740776_5365312_fact2",
+      "score": 0.6214028596878052,
+      "source_id": "62740776_5365312",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1610694_459177_fact3",
+      "score": 0.6204453706741333,
+      "source_id": "1610694_459177",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72743381_4970860_fact3",
+      "score": 0.6204178929328918,
+      "source_id": "72743381_4970860",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34769328_1348402_fact4",
+      "score": 0.6202266812324524,
+      "source_id": "34769328_1348402",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59814779_5691495_fact3",
+      "score": 0.6198285222053528,
+      "source_id": "59814779_5691495",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8238747_2329276_fact2",
+      "score": 0.6197600364685059,
+      "source_id": "8238747_2329276",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49858243_5799790_fact2",
+      "score": 0.6197561025619507,
+      "source_id": "49858243_5799790",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58969284_5190132_fact2",
+      "score": 0.6194573640823364,
+      "source_id": "58969284_5190132",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67769769_4014649_fact3",
+      "score": 0.6191372871398926,
+      "source_id": "67769769_4014649",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7002349_955620_fact2",
+      "score": 0.6179026961326599,
+      "source_id": "7002349_955620",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50507581_3836045_fact1",
+      "score": 0.6173222661018372,
+      "source_id": "50507581_3836045",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72725997_4960641_fact5",
+      "score": 0.6166972517967224,
+      "source_id": "72725997_4960641",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44981447_4882057_fact2",
+      "score": 0.6165851354598999,
+      "source_id": "44981447_4882057",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67329624_3674517_fact2",
+      "score": 0.6165706515312195,
+      "source_id": "67329624_3674517",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71811114_4398708_fact3",
+      "score": 0.6163146495819092,
+      "source_id": "71811114_4398708",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70080733_5587661_fact2",
+      "score": 0.6162369251251221,
+      "source_id": "70080733_5587661",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29471626_1505906_fact5",
+      "score": 0.6161984801292419,
+      "source_id": "29471626_1505906",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "528477_918490_fact2",
+      "score": 0.6160774827003479,
+      "source_id": "528477_918490",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "775858_6122683_fact2",
+      "score": 0.616033136844635,
+      "source_id": "775858_6122683",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58485654_4853752_fact1",
+      "score": 0.615949273109436,
+      "source_id": "58485654_4853752",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "890333_6148988_fact3",
+      "score": 0.6149016618728638,
+      "source_id": "890333_6148988",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57021899_3774436_fact2",
+      "score": 0.6138296127319336,
+      "source_id": "57021899_3774436",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51586826_4747476_fact1",
+      "score": 0.6137657165527344,
+      "source_id": "51586826_4747476",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "880140_6147032_fact2",
+      "score": 0.6128295660018921,
+      "source_id": "880140_6147032",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36503076_2662827_fact1",
+      "score": 0.6127784252166748,
+      "source_id": "36503076_2662827",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58057790_4587106_fact2",
+      "score": 0.6126015186309814,
+      "source_id": "58057790_4587106",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13535042_3497522_fact2",
+      "score": 0.6124270558357239,
+      "source_id": "13535042_3497522",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68058890_4222348_fact2",
+      "score": 0.6112714409828186,
+      "source_id": "68058890_4222348",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62835679_5424349_fact2",
+      "score": 0.6111199855804443,
+      "source_id": "62835679_5424349",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56468077_5727877_fact2",
+      "score": 0.6110759377479553,
+      "source_id": "56468077_5727877",
+      "value": " French and Canadian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21138559_3412470_fact2",
+      "score": 0.610502302646637,
+      "source_id": "21138559_3412470",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54367719_4323942_fact1",
+      "score": 0.6104689240455627,
+      "source_id": "54367719_4323942",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45461930_5234147_fact3",
+      "score": 0.6099588871002197,
+      "source_id": "45461930_5234147",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62772893_5381809_fact1",
+      "score": 0.609721302986145,
+      "source_id": "62772893_5381809",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69813793_5434321_fact4",
+      "score": 0.6091077327728271,
+      "source_id": "69813793_5434321",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43544264_3663442_fact1",
+      "score": 0.6089192032814026,
+      "source_id": "43544264_3663442",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62364229_5103665_fact2",
+      "score": 0.6087023615837097,
+      "source_id": "62364229_5103665",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15502646_2998578_fact2",
+      "score": 0.6078630685806274,
+      "source_id": "15502646_2998578",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66374382_5521444_fact0",
+      "score": 0.6066157817840576,
+      "source_id": "66374382_5521444",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58992260_5203086_fact3",
+      "score": 0.6051360964775085,
+      "source_id": "58992260_5203086",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9921608_1903544_fact2",
+      "score": 0.6046069264411926,
+      "source_id": "9921608_1903544",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59070300_5251682_fact2",
+      "score": 0.6038081645965576,
+      "source_id": "59070300_5251682",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70936382_3837766_fact2",
+      "score": 0.6035301089286804,
+      "source_id": "70936382_3837766",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54119229_4127119_fact2",
+      "score": 0.6034972667694092,
+      "source_id": "54119229_4127119",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49826880_5786187_fact2",
+      "score": 0.6034339666366577,
+      "source_id": "49826880_5786187",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49794062_5770429_fact3",
+      "score": 0.6024342775344849,
+      "source_id": "49794062_5770429",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48902358_5173142_fact3",
+      "score": 0.6018775701522827,
+      "source_id": "48902358_5173142",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52647350_5455453_fact2",
+      "score": 0.6016296148300171,
+      "source_id": "52647350_5455453",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3099439_731719_fact2",
+      "score": 0.601395845413208,
+      "source_id": "3099439_731719",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65460458_4861740_fact2",
+      "score": 0.6010826826095581,
+      "source_id": "65460458_4861740",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66646173_5672715_fact0",
+      "score": 0.6008061170578003,
+      "source_id": "66646173_5672715",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21090900_3360457_fact3",
+      "score": 0.5996263027191162,
+      "source_id": "21090900_3360457",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7245957_1120772_fact2",
+      "score": 0.5995954275131226,
+      "source_id": "7245957_1120772",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "367518_124814_fact3",
+      "score": 0.5995665192604065,
+      "source_id": "367518_124814",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69060280_4921415_fact3",
+      "score": 0.5992575287818909,
+      "source_id": "69060280_4921415",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56788551_3594013_fact2",
+      "score": 0.5989090204238892,
+      "source_id": "56788551_3594013",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44410825_4432880_fact3",
+      "score": 0.5987836122512817,
+      "source_id": "44410825_4432880",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52562975_5403162_fact5",
+      "score": 0.5982924103736877,
+      "source_id": "52562975_5403162",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "583234_6084549_fact2",
+      "score": 0.597876787185669,
+      "source_id": "583234_6084549",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63067605_5575417_fact2",
+      "score": 0.5978445410728455,
+      "source_id": "63067605_5575417",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66233098_5424229_fact3",
+      "score": 0.5976782441139221,
+      "source_id": "66233098_5424229",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62481446_5193097_fact4",
+      "score": 0.5965033173561096,
+      "source_id": "62481446_5193097",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71883203_4441705_fact1",
+      "score": 0.59599369764328,
+      "source_id": "71883203_4441705",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20473288_2727966_fact2",
+      "score": 0.5959822535514832,
+      "source_id": "20473288_2727966",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45033494_4918210_fact1",
+      "score": 0.5958297252655029,
+      "source_id": "45033494_4918210",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69893351_5479360_fact2",
+      "score": 0.5957281589508057,
+      "source_id": "69893351_5479360",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31064053_2787035_fact2",
+      "score": 0.594815731048584,
+      "source_id": "31064053_2787035",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48753432_5044348_fact4",
+      "score": 0.5940174460411072,
+      "source_id": "48753432_5044348",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67034277_5865374_fact0",
+      "score": 0.5939633250236511,
+      "source_id": "67034277_5865374",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "830826_6136390_fact4",
+      "score": 0.5938543677330017,
+      "source_id": "830826_6136390",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2414461_867310_fact2",
+      "score": 0.5934135913848877,
+      "source_id": "2414461_867310",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64525417_4321985_fact1",
+      "score": 0.593325138092041,
+      "source_id": "64525417_4321985",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39274611_4910174_fact2",
+      "score": 0.5932276844978333,
+      "source_id": "39274611_4910174",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50535968_3859768_fact2",
+      "score": 0.5929000377655029,
+      "source_id": "50535968_3859768",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71027180_3902983_fact2",
+      "score": 0.5926774740219116,
+      "source_id": "71027180_3902983",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55286875_4890125_fact1",
+      "score": 0.5907279253005981,
+      "source_id": "55286875_4890125",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71287825_4058916_fact3",
+      "score": 0.5901855230331421,
+      "source_id": "71287825_4058916",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19425850_1872371_fact2",
+      "score": 0.5901381969451904,
+      "source_id": "19425850_1872371",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9168736_3541141_fact2",
+      "score": 0.5895857810974121,
+      "source_id": "9168736_3541141",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3020937_614443_fact2",
+      "score": 0.5891987085342407,
+      "source_id": "3020937_614443",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51861476_4915878_fact1",
+      "score": 0.5889749526977539,
+      "source_id": "51861476_4915878",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "232786_437554_fact4",
+      "score": 0.5886006355285645,
+      "source_id": "232786_437554",
+      "value": " French woman"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12606751_2488113_fact5",
+      "score": 0.5882623791694641,
+      "source_id": "12606751_2488113",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55235584_4859384_fact1",
+      "score": 0.5880489349365234,
+      "source_id": "55235584_4859384",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70005497_5542934_fact5",
+      "score": 0.5879437923431396,
+      "source_id": "70005497_5542934",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54694703_4559646_fact3",
+      "score": 0.5877929925918579,
+      "source_id": "54694703_4559646",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51320625_4522885_fact2",
+      "score": 0.5877829194068909,
+      "source_id": "51320625_4522885",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64953563_4565781_fact2",
+      "score": 0.5877194404602051,
+      "source_id": "64953563_4565781",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34185123_3158197_fact1",
+      "score": 0.5867321491241455,
+      "source_id": "34185123_3158197",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20484750_2734549_fact2",
+      "score": 0.5866830348968506,
+      "source_id": "20484750_2734549",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47294250_3915292_fact2",
+      "score": 0.5860923528671265,
+      "source_id": "47294250_3915292",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15177326_2701329_fact4",
+      "score": 0.586032509803772,
+      "source_id": "15177326_2701329",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11847504_1536451_fact3",
+      "score": 0.5858715772628784,
+      "source_id": "11847504_1536451",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69891491_5477663_fact4",
+      "score": 0.5856781005859375,
+      "source_id": "69891491_5477663",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54395498_4347605_fact1",
+      "score": 0.5856030583381653,
+      "source_id": "54395498_4347605",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45635687_5373424_fact3",
+      "score": 0.5853459239006042,
+      "source_id": "45635687_5373424",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39806492_5391823_fact3",
+      "score": 0.5852898359298706,
+      "source_id": "39806492_5391823",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69047109_4912757_fact1",
+      "score": 0.5849334001541138,
+      "source_id": "69047109_4912757",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23843234_1272272_fact2",
+      "score": 0.5845316052436829,
+      "source_id": "23843234_1272272",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67526113_3820623_fact1",
+      "score": 0.5843411684036255,
+      "source_id": "67526113_3820623",
+      "value": " French resistance fighter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47159603_3790294_fact4",
+      "score": 0.5843378305435181,
+      "source_id": "47159603_3790294",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32201447_1529970_fact2",
+      "score": 0.5843085646629333,
+      "source_id": "32201447_1529970",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26857619_1697576_fact3",
+      "score": 0.5833214521408081,
+      "source_id": "26857619_1697576",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71344268_4094042_fact2",
+      "score": 0.5831142663955688,
+      "source_id": "71344268_4094042",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "634735_6092408_fact4",
+      "score": 0.5830103754997253,
+      "source_id": "634735_6092408",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29796816_1741702_fact0",
+      "score": 0.5829170942306519,
+      "source_id": "29796816_1741702",
+      "value": " French"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "eca70eb1-12dd-43e0-bf8e-003ee9d5d590",
+  "index_nprobe": null,
+  "manifest_id": "687b2247bda2621a",
+  "margin": 0.2135164737701416,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9492828249931335,
+  "s_surv": 0.7357663512229919,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "71494957_4205498_fact2",
+      "score": 0.7357663512229919,
+      "source_id": "71494957_4205498",
+      "value": " American"
+    },
+    {
+      "entry_id": "29184142_1300421_fact2",
+      "score": 0.7206377983093262,
+      "source_id": "29184142_1300421",
+      "value": " Canadian"
+    },
+    {
+      "entry_id": "37423038_3390648_fact2",
+      "score": 0.7198973894119263,
+      "source_id": "37423038_3390648",
+      "value": " British Thoroughbred"
+    },
+    {
+      "entry_id": "62518237_5218402_fact2",
+      "score": 0.7045001983642578,
+      "source_id": "62518237_5218402",
+      "value": " British"
+    },
+    {
+      "entry_id": "30446223_2166631_fact2",
+      "score": 0.7001681327819824,
+      "source_id": "30446223_2166631",
+      "value": " Swiss"
+    }
+  ],
+  "truncated": false
+}

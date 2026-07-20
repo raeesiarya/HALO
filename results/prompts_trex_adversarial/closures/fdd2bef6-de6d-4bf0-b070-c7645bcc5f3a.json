@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "230613_6023353_fact197",
+      "score": 0.7807650566101074,
+      "source_id": "230613_6023353",
+      "value": " bamboo"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "fdd2bef6-de6d-4bf0-b070-c7645bcc5f3a",
+  "index_nprobe": null,
+  "manifest_id": "e9729b77689dd15b",
+  "margin": 0.005005955696105957,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7807650566101074,
+  "s_surv": 0.7757591009140015,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1510939_246792_fact51",
+      "score": 0.7757591009140015,
+      "source_id": "1510939_246792",
+      "value": " \"dakimakura"
+    },
+    {
+      "entry_id": "854216_6141563_fact10",
+      "score": 0.7687245607376099,
+      "source_id": "854216_6141563",
+      "value": " springs"
+    },
+    {
+      "entry_id": "62993513_5525648_fact4",
+      "score": 0.7661418914794922,
+      "source_id": "62993513_5525648",
+      "value": " J\u014dmon period"
+    },
+    {
+      "entry_id": "502372_803186_fact44",
+      "score": 0.7602553367614746,
+      "source_id": "502372_803186",
+      "value": " omikuji"
+    },
+    {
+      "entry_id": "35828513_2108932_fact87",
+      "score": 0.7596240043640137,
+      "source_id": "35828513_2108932",
+      "value": "sushi"
+    }
+  ],
+  "truncated": false
+}

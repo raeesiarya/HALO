@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "3856_129259_fact245",
+      "score": 0.7397211790084839,
+      "source_id": "3856_129259",
+      "value": " designated hitter (DH) rule"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "244233_520151_fact88",
+      "score": 0.6142001152038574,
+      "source_id": "244233_520151",
+      "value": " Chicago Black Hawks and Philadelphia Flyers"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60185019_5917897_fact32",
+      "score": 0.5943081378936768,
+      "source_id": "60185019_5917897",
+      "value": " Chicago Cardinals"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36989382_3075552_fact218",
+      "score": 0.5834567546844482,
+      "source_id": "36989382_3075552",
+      "value": " Chicago Blackhawks"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "203ebcf2-893f-4185-a35b-ee63ae29a7e8",
+  "index_nprobe": null,
+  "manifest_id": "becd524aa096a7c4",
+  "margin": 0.004967212677001953,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7397211790084839,
+  "s_surv": 0.7347539663314819,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "588474_1150238_fact47",
+      "score": 0.7347539663314819,
+      "source_id": "588474_1150238",
+      "value": " Energy Crisis"
+    },
+    {
+      "entry_id": "3604446_230458_fact236",
+      "score": 0.7256087064743042,
+      "source_id": "3604446_230458",
+      "value": " ZDF German Television"
+    },
+    {
+      "entry_id": "4516164_1213531_fact70",
+      "score": 0.7144261598587036,
+      "source_id": "4516164_1213531",
+      "value": " American Graded Stakes Committee"
+    },
+    {
+      "entry_id": "4408379_1100509_fact62",
+      "score": 0.71425461769104,
+      "source_id": "4408379_1100509",
+      "value": " Chatham Maroons"
+    },
+    {
+      "entry_id": "4516111_1213379_fact83",
+      "score": 0.7141779661178589,
+      "source_id": "4516111_1213379",
+      "value": " American Graded Stakes Committee"
+    }
+  ],
+  "truncated": false
+}

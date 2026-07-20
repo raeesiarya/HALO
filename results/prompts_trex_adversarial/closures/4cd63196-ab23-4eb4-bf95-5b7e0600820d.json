@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1113725_437199_fact2",
+      "score": 0.7355877161026001,
+      "source_id": "1113725_437199",
+      "value": " The Pirate Bay"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4cd63196-ab23-4eb4-bf95-5b7e0600820d",
+  "index_nprobe": null,
+  "manifest_id": "bd66f54f23710ee6",
+  "margin": 0.019532978534698486,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7355877161026001,
+  "s_surv": 0.7160547375679016,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1764998_795322_fact66",
+      "score": 0.7160547375679016,
+      "source_id": "1764998_795322",
+      "value": " \"GameSpot\" or \"IGN\""
+    },
+    {
+      "entry_id": "8544406_2719855_fact56",
+      "score": 0.6904076933860779,
+      "source_id": "8544406_2719855",
+      "value": " \"Battlefield 1942\","
+    },
+    {
+      "entry_id": "440001_66776_fact9",
+      "score": 0.6867588758468628,
+      "source_id": "440001_66776",
+      "value": " 123movies, Putlocker, Primewire, FMovies, WatchFree, and Vumoo"
+    },
+    {
+      "entry_id": "2795413_297670_fact3",
+      "score": 0.6866949200630188,
+      "source_id": "2795413_297670",
+      "value": " Goozex"
+    },
+    {
+      "entry_id": "381172_55512_fact50",
+      "score": 0.6844444274902344,
+      "source_id": "381172_55512",
+      "value": " Napster, and Lime wire"
+    }
+  ],
+  "truncated": false
+}

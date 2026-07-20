@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1683992_621373_fact2",
+      "score": 0.884492039680481,
+      "source_id": "1683992_621373",
+      "value": " Tamla label"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2976720_553117_fact32",
+      "score": 0.5406441688537598,
+      "source_id": "2976720_553117",
+      "value": " Motown label"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2253764_570891_fact23",
+      "score": 0.5336237549781799,
+      "source_id": "2253764_570891",
+      "value": " Tamla label"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15845800_3314694_fact27",
+      "score": 0.5271633863449097,
+      "source_id": "15845800_3314694",
+      "value": " \"Motown Mania\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12112186_1838188_fact2",
+      "score": 0.5228596329689026,
+      "source_id": "12112186_1838188",
+      "value": " Tamla label"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "83fb0811-6df7-4350-a65e-9a5f98a56279",
+  "index_nprobe": null,
+  "manifest_id": "2f72f731e16882bb",
+  "margin": 0.08591824769973755,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8844921588897705,
+  "s_surv": 0.798573911190033,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1684080_621754_fact77",
+      "score": 0.798573911190033,
+      "source_id": "1684080_621754",
+      "value": " May 28, 1968"
+    },
+    {
+      "entry_id": "48519325_4837019_fact44",
+      "score": 0.7471684813499451,
+      "source_id": "48519325_4837019",
+      "value": " December 1995"
+    },
+    {
+      "entry_id": "54743694_4590261_fact5",
+      "score": 0.712753176689148,
+      "source_id": "54743694_4590261",
+      "value": " Reprise Records"
+    },
+    {
+      "entry_id": "9588919_1560107_fact16",
+      "score": 0.7007105350494385,
+      "source_id": "9588919_1560107",
+      "value": " 1966"
+    },
+    {
+      "entry_id": "48977559_5231039_fact35",
+      "score": 0.6897326111793518,
+      "source_id": "48977559_5231039",
+      "value": " Sahara"
+    }
+  ],
+  "truncated": false
+}

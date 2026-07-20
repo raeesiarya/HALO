@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "14242148_1779115_fact7",
+      "score": 0.7952168583869934,
+      "source_id": "14242148_1779115",
+      "value": " University of Santiago de Compostela"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37254517_3270700_fact6",
+      "score": 0.6513142585754395,
+      "source_id": "37254517_3270700",
+      "value": " Higher Institute of Theology"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55592319_5086502_fact12",
+      "score": 0.6325779557228088,
+      "source_id": "55592319_5086502",
+      "value": " High Institute of Theology (Instituto Superior de Teologia)"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d36cc31e-2bfa-4647-83fb-3a1f3b237c62",
+  "index_nprobe": null,
+  "manifest_id": "10e1be3c1cad7eae",
+  "margin": 0.03521549701690674,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7952167987823486,
+  "s_surv": 0.7600013017654419,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "66210654_5406788_fact13",
+      "score": 0.7600013017654419,
+      "source_id": "66210654_5406788",
+      "value": " S\u00e3o Jos\u00e9 Seminary"
+    },
+    {
+      "entry_id": "52888225_5620800_fact8",
+      "score": 0.751705527305603,
+      "source_id": "52888225_5620800",
+      "value": " Temasek Polytechnic"
+    },
+    {
+      "entry_id": "30773070_2438065_fact6",
+      "score": 0.7432381510734558,
+      "source_id": "30773070_2438065",
+      "value": " Lus\u00f3fona University"
+    },
+    {
+      "entry_id": "51706_5987226_fact19",
+      "score": 0.7423017621040344,
+      "source_id": "51706_5987226",
+      "value": " University of Salamanca"
+    },
+    {
+      "entry_id": "13419286_3380503_fact10",
+      "score": 0.7380858063697815,
+      "source_id": "13419286_3380503",
+      "value": " University of Salamanca"
+    }
+  ],
+  "truncated": false
+}

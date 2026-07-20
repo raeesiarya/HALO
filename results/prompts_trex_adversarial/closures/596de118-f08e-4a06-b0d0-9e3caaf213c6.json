@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "13952273_1500146_fact67",
+      "score": 0.7798272371292114,
+      "source_id": "13952273_1500146",
+      "value": " Garrick Club"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "596de118-f08e-4a06-b0d0-9e3caaf213c6",
+  "index_nprobe": null,
+  "manifest_id": "db24c8ffcbaf84a3",
+  "margin": 0.004922389984130859,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7798272371292114,
+  "s_surv": 0.7749048471450806,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "68293920_4371512_fact12",
+      "score": 0.7749048471450806,
+      "source_id": "68293920_4371512",
+      "value": " FIFA Executive Committee"
+    },
+    {
+      "entry_id": "7711931_1627084_fact8",
+      "score": 0.7715181112289429,
+      "source_id": "7711931_1627084",
+      "value": " Football Disciplinary Commission"
+    },
+    {
+      "entry_id": "22866660_2669838_fact17",
+      "score": 0.7712392807006836,
+      "source_id": "22866660_2669838",
+      "value": " Commission of the Dictionary"
+    },
+    {
+      "entry_id": "12381699_2166857_fact60",
+      "score": 0.7697363495826721,
+      "source_id": "12381699_2166857",
+      "value": " Acad\u00e9mie fran\u00e7aise"
+    },
+    {
+      "entry_id": "59760776_5656548_fact17",
+      "score": 0.7634068727493286,
+      "source_id": "59760776_5656548",
+      "value": " Conseil \u00e9conomique, social et environnemental r\u00e9gional - Provence-Alpes-C\u00f4te d'Azur"
+    }
+  ],
+  "truncated": false
+}

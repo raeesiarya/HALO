@@ -1,0 +1,1963 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "592157_6086116_fact3",
+      "score": 0.9452413320541382,
+      "source_id": "592157_6086116",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "180807_73490_fact6",
+      "score": 0.9389370679855347,
+      "source_id": "180807_73490",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "592154_6086115_fact3",
+      "score": 0.8197939395904541,
+      "source_id": "592154_6086115",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "592149_6086114_fact3",
+      "score": 0.7750093936920166,
+      "source_id": "592149_6086114",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28834739_3333879_fact1",
+      "score": 0.7629026174545288,
+      "source_id": "28834739_3333879",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "610149_6088937_fact2",
+      "score": 0.7628660202026367,
+      "source_id": "610149_6088937",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "608266_6088627_fact3",
+      "score": 0.7622467875480652,
+      "source_id": "608266_6088627",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33983189_2999666_fact3",
+      "score": 0.7494690418243408,
+      "source_id": "33983189_2999666",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21183599_3454949_fact5",
+      "score": 0.7462437152862549,
+      "source_id": "21183599_3454949",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3648777_286036_fact2",
+      "score": 0.7442433834075928,
+      "source_id": "3648777_286036",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5369166_808478_fact3",
+      "score": 0.7428704500198364,
+      "source_id": "5369166_808478",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "545770_6079661_fact2",
+      "score": 0.7415148615837097,
+      "source_id": "545770_6079661",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6205475_409610_fact2",
+      "score": 0.7415148615837097,
+      "source_id": "6205475_409610",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18113472_2848680_fact2",
+      "score": 0.7414371371269226,
+      "source_id": "18113472_2848680",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33328212_2455004_fact3",
+      "score": 0.7410621643066406,
+      "source_id": "33328212_2455004",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33289035_2426502_fact3",
+      "score": 0.7333067655563354,
+      "source_id": "33289035_2426502",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8493013_2654362_fact9",
+      "score": 0.7329265475273132,
+      "source_id": "8493013_2654362",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "597524_6087194_fact3",
+      "score": 0.7309937477111816,
+      "source_id": "597524_6087194",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "610985_6089028_fact4",
+      "score": 0.7271016836166382,
+      "source_id": "610985_6089028",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "85434_5994810_fact3",
+      "score": 0.7267568111419678,
+      "source_id": "85434_5994810",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "610263_6088952_fact3",
+      "score": 0.7247471809387207,
+      "source_id": "610263_6088952",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33279633_2418228_fact3",
+      "score": 0.7240910530090332,
+      "source_id": "33279633_2418228",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34298568_3262129_fact4",
+      "score": 0.7221382856369019,
+      "source_id": "34298568_3262129",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "609977_6088895_fact3",
+      "score": 0.7219866514205933,
+      "source_id": "609977_6088895",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3320105_1039083_fact5",
+      "score": 0.7184023857116699,
+      "source_id": "3320105_1039083",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "595942_6086914_fact3",
+      "score": 0.7176437973976135,
+      "source_id": "595942_6086914",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46884568_5973824_fact3",
+      "score": 0.7168467044830322,
+      "source_id": "46884568_5973824",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "610141_6088935_fact3",
+      "score": 0.7164722084999084,
+      "source_id": "610141_6088935",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "598293_6087327_fact3",
+      "score": 0.7162162065505981,
+      "source_id": "598293_6087327",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "83534_5994413_fact3",
+      "score": 0.71610027551651,
+      "source_id": "83534_5994413",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33322833_2450628_fact3",
+      "score": 0.7117314338684082,
+      "source_id": "33322833_2450628",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27164547_1946591_fact2",
+      "score": 0.7112680077552795,
+      "source_id": "27164547_1946591",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "563451_6081719_fact4",
+      "score": 0.709957480430603,
+      "source_id": "563451_6081719",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6499259_597636_fact3",
+      "score": 0.709184467792511,
+      "source_id": "6499259_597636",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "92149_5995920_fact2",
+      "score": 0.7082021236419678,
+      "source_id": "92149_5995920",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "551636_6080650_fact3",
+      "score": 0.7049027681350708,
+      "source_id": "551636_6080650",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "622445_6090748_fact3",
+      "score": 0.7044745683670044,
+      "source_id": "622445_6090748",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "599257_6087529_fact3",
+      "score": 0.7024533152580261,
+      "source_id": "599257_6087529",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "614769_6089676_fact3",
+      "score": 0.7023940086364746,
+      "source_id": "614769_6089676",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8359304_2488969_fact1",
+      "score": 0.701645016670227,
+      "source_id": "8359304_2488969",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "599535_6087571_fact3",
+      "score": 0.6999654173851013,
+      "source_id": "599535_6087571",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52101764_5065670_fact10",
+      "score": 0.6997008919715881,
+      "source_id": "52101764_5065670",
+      "value": " south-eastern Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "556450_6081120_fact3",
+      "score": 0.6992793083190918,
+      "source_id": "556450_6081120",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "549698_6080456_fact3",
+      "score": 0.6987172961235046,
+      "source_id": "549698_6080456",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48887507_5161032_fact4",
+      "score": 0.6969954371452332,
+      "source_id": "48887507_5161032",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "590967_6085835_fact3",
+      "score": 0.6957004070281982,
+      "source_id": "590967_6085835",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6087372_314222_fact3",
+      "score": 0.6945767402648926,
+      "source_id": "6087372_314222",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "83834_5994460_fact3",
+      "score": 0.694453239440918,
+      "source_id": "83834_5994460",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "610435_6088967_fact3",
+      "score": 0.6944454312324524,
+      "source_id": "610435_6088967",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "622256_6090734_fact3",
+      "score": 0.6943756937980652,
+      "source_id": "622256_6090734",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "556447_6081118_fact3",
+      "score": 0.6938076019287109,
+      "source_id": "556447_6081118",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "598290_6087325_fact3",
+      "score": 0.6924023628234863,
+      "source_id": "598290_6087325",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "85407_5994802_fact2",
+      "score": 0.6922711133956909,
+      "source_id": "85407_5994802",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7139976_1051988_fact5",
+      "score": 0.6921329498291016,
+      "source_id": "7139976_1051988",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "78799_5993244_fact2",
+      "score": 0.6909762620925903,
+      "source_id": "78799_5993244",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "588792_6085362_fact3",
+      "score": 0.6904819011688232,
+      "source_id": "588792_6085362",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53212746_5833139_fact2",
+      "score": 0.6903513073921204,
+      "source_id": "53212746_5833139",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44628876_4624430_fact8",
+      "score": 0.6894772052764893,
+      "source_id": "44628876_4624430",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44628892_4624480_fact11",
+      "score": 0.6888634562492371,
+      "source_id": "44628892_4624480",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6169011_381536_fact3",
+      "score": 0.6887469291687012,
+      "source_id": "6169011_381536",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "592820_6086277_fact3",
+      "score": 0.6880470514297485,
+      "source_id": "592820_6086277",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "80518_5993651_fact3",
+      "score": 0.6878913044929504,
+      "source_id": "80518_5993651",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "560438_6081442_fact3",
+      "score": 0.6872426271438599,
+      "source_id": "560438_6081442",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "80497_5993636_fact1",
+      "score": 0.6862000823020935,
+      "source_id": "80497_5993636",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6131391_348269_fact3",
+      "score": 0.6861231923103333,
+      "source_id": "6131391_348269",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "562398_6081642_fact4",
+      "score": 0.6855491399765015,
+      "source_id": "562398_6081642",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6416411_548238_fact3",
+      "score": 0.6851151585578918,
+      "source_id": "6416411_548238",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54471591_4409123_fact7",
+      "score": 0.6842462420463562,
+      "source_id": "54471591_4409123",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "591940_6086048_fact3",
+      "score": 0.6834380626678467,
+      "source_id": "591940_6086048",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7140187_1052160_fact3",
+      "score": 0.6825866103172302,
+      "source_id": "7140187_1052160",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44628872_4624401_fact10",
+      "score": 0.682268500328064,
+      "source_id": "44628872_4624401",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "599532_6087569_fact3",
+      "score": 0.6820409893989563,
+      "source_id": "599532_6087569",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3599638_225025_fact3",
+      "score": 0.6819312572479248,
+      "source_id": "3599638_225025",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4452990_1146229_fact3",
+      "score": 0.6819261312484741,
+      "source_id": "4452990_1146229",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "622251_6090731_fact3",
+      "score": 0.6810711026191711,
+      "source_id": "622251_6090731",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "609919_6088885_fact4",
+      "score": 0.6810029745101929,
+      "source_id": "609919_6088885",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5670039_1063597_fact2",
+      "score": 0.6809289455413818,
+      "source_id": "5670039_1063597",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "713995_6106019_fact3",
+      "score": 0.6807273626327515,
+      "source_id": "713995_6106019",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19752413_2123981_fact4",
+      "score": 0.6804025173187256,
+      "source_id": "19752413_2123981",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6249916_441809_fact3",
+      "score": 0.6801164150238037,
+      "source_id": "6249916_441809",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "507267_825810_fact48",
+      "score": 0.6798450946807861,
+      "source_id": "507267_825810",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "78801_5993245_fact3",
+      "score": 0.6797226667404175,
+      "source_id": "78801_5993245",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6265562_453719_fact3",
+      "score": 0.6795144081115723,
+      "source_id": "6265562_453719",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7813196_1763120_fact3",
+      "score": 0.6786549687385559,
+      "source_id": "7813196_1763120",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6301463_476099_fact3",
+      "score": 0.6756335496902466,
+      "source_id": "6301463_476099",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3246867_943874_fact2",
+      "score": 0.6751806735992432,
+      "source_id": "3246867_943874",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "197800_202035_fact3",
+      "score": 0.6741543412208557,
+      "source_id": "197800_202035",
+      "value": " southeasternmost Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1714825_692364_fact3",
+      "score": 0.6738791465759277,
+      "source_id": "1714825_692364",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "933697_1101851_fact3",
+      "score": 0.6735918521881104,
+      "source_id": "933697_1101851",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "688558_6101456_fact3",
+      "score": 0.6735210418701172,
+      "source_id": "688558_6101456",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7212451_1101069_fact3",
+      "score": 0.6735210418701172,
+      "source_id": "7212451_1101069",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "550477_6080561_fact2",
+      "score": 0.6725974678993225,
+      "source_id": "550477_6080561",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31600665_3311149_fact4",
+      "score": 0.6720645427703857,
+      "source_id": "31600665_3311149",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "579617_6083952_fact3",
+      "score": 0.6713097095489502,
+      "source_id": "579617_6083952",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1719151_703017_fact3",
+      "score": 0.6710401773452759,
+      "source_id": "1719151_703017",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "685232_6100988_fact3",
+      "score": 0.6710401773452759,
+      "source_id": "685232_6100988",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27379352_2114005_fact6",
+      "score": 0.6708618402481079,
+      "source_id": "27379352_2114005",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "546834_6079844_fact3",
+      "score": 0.6707241535186768,
+      "source_id": "546834_6079844",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2283558_629619_fact3",
+      "score": 0.6706475019454956,
+      "source_id": "2283558_629619",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "599415_6087552_fact3",
+      "score": 0.670544445514679,
+      "source_id": "599415_6087552",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "547602_6080094_fact3",
+      "score": 0.6703634262084961,
+      "source_id": "547602_6080094",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6419555_550857_fact3",
+      "score": 0.670320451259613,
+      "source_id": "6419555_550857",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "92767_5996056_fact2",
+      "score": 0.6702780723571777,
+      "source_id": "92767_5996056",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "686895_6101171_fact3",
+      "score": 0.6698570847511292,
+      "source_id": "686895_6101171",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "594377_6086583_fact3",
+      "score": 0.6689774990081787,
+      "source_id": "594377_6086583",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "688835_6101507_fact3",
+      "score": 0.6688277721405029,
+      "source_id": "688835_6101507",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "560435_6081441_fact4",
+      "score": 0.6684648990631104,
+      "source_id": "560435_6081441",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21034363_3303034_fact5",
+      "score": 0.668347954750061,
+      "source_id": "21034363_3303034",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7082583_1008709_fact4",
+      "score": 0.667919933795929,
+      "source_id": "7082583_1008709",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33397781_2507596_fact3",
+      "score": 0.6675114631652832,
+      "source_id": "33397781_2507596",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "690676_6101999_fact3",
+      "score": 0.6666562557220459,
+      "source_id": "690676_6101999",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "411278_342842_fact3",
+      "score": 0.6665889024734497,
+      "source_id": "411278_342842",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "656351_264948_fact1",
+      "score": 0.6658629179000854,
+      "source_id": "656351_264948",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49373674_5509925_fact7",
+      "score": 0.6655049920082092,
+      "source_id": "49373674_5509925",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7082116_1008396_fact3",
+      "score": 0.6651566624641418,
+      "source_id": "7082116_1008396",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6203473_407569_fact2",
+      "score": 0.6643775701522827,
+      "source_id": "6203473_407569",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44340041_4373243_fact5",
+      "score": 0.6641330718994141,
+      "source_id": "44340041_4373243",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6220079_420268_fact2",
+      "score": 0.6632958650588989,
+      "source_id": "6220079_420268",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "688850_6101513_fact3",
+      "score": 0.6625819206237793,
+      "source_id": "688850_6101513",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7830727_1786562_fact4",
+      "score": 0.6623997688293457,
+      "source_id": "7830727_1786562",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7097709_1020405_fact3",
+      "score": 0.6622650623321533,
+      "source_id": "7097709_1020405",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "588609_6085327_fact3",
+      "score": 0.6621354222297668,
+      "source_id": "588609_6085327",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2337895_731729_fact5",
+      "score": 0.6618307828903198,
+      "source_id": "2337895_731729",
+      "value": " eastern Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5407222_839453_fact3",
+      "score": 0.6617600917816162,
+      "source_id": "5407222_839453",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "612112_6089210_fact3",
+      "score": 0.661241888999939,
+      "source_id": "612112_6089210",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6488456_590409_fact4",
+      "score": 0.6610453724861145,
+      "source_id": "6488456_590409",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32834151_2041704_fact3",
+      "score": 0.6599887013435364,
+      "source_id": "32834151_2041704",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6040324_276112_fact2",
+      "score": 0.6599322557449341,
+      "source_id": "6040324_276112",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "592479_6086211_fact4",
+      "score": 0.6599216461181641,
+      "source_id": "592479_6086211",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33760041_2809692_fact2",
+      "score": 0.6594185829162598,
+      "source_id": "33760041_2809692",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41858609_4692531_fact8",
+      "score": 0.659006655216217,
+      "source_id": "41858609_4692531",
+      "value": " Central Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "726596_6108363_fact4",
+      "score": 0.6588444709777832,
+      "source_id": "726596_6108363",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "688860_6101517_fact3",
+      "score": 0.6587743163108826,
+      "source_id": "688860_6101517",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6440798_565118_fact1",
+      "score": 0.6583260893821716,
+      "source_id": "6440798_565118",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19752187_2123904_fact3",
+      "score": 0.6583126783370972,
+      "source_id": "19752187_2123904",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3297057_1007518_fact2",
+      "score": 0.6577705144882202,
+      "source_id": "3297057_1007518",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8962457_3288315_fact4",
+      "score": 0.6576144099235535,
+      "source_id": "8962457_3288315",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "686751_6101139_fact3",
+      "score": 0.6575266718864441,
+      "source_id": "686751_6101139",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7306186_1157668_fact3",
+      "score": 0.65720134973526,
+      "source_id": "7306186_1157668",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35579443_1902911_fact1",
+      "score": 0.6571835875511169,
+      "source_id": "35579443_1902911",
+      "value": " Central Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6419464_550706_fact3",
+      "score": 0.656957745552063,
+      "source_id": "6419464_550706",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25502891_2868885_fact2",
+      "score": 0.6569259166717529,
+      "source_id": "25502891_2868885",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23449166_3174100_fact3",
+      "score": 0.6561805009841919,
+      "source_id": "23449166_3174100",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44359152_4387094_fact5",
+      "score": 0.6555814743041992,
+      "source_id": "44359152_4387094",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "612059_6089200_fact4",
+      "score": 0.6553398370742798,
+      "source_id": "612059_6089200",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "715871_6106456_fact3",
+      "score": 0.6551393270492554,
+      "source_id": "715871_6106456",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53212669_5833102_fact3",
+      "score": 0.6549289226531982,
+      "source_id": "53212669_5833102",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "690996_6102071_fact2",
+      "score": 0.654150128364563,
+      "source_id": "690996_6102071",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "690161_6101912_fact3",
+      "score": 0.6540865898132324,
+      "source_id": "690161_6101912",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "597525_6087195_fact3",
+      "score": 0.6538785099983215,
+      "source_id": "597525_6087195",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6789098_790293_fact3",
+      "score": 0.6536456942558289,
+      "source_id": "6789098_790293",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7028997_976303_fact3",
+      "score": 0.6534545421600342,
+      "source_id": "7028997_976303",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "544847_6079528_fact3",
+      "score": 0.6533572673797607,
+      "source_id": "544847_6079528",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6319717_488977_fact3",
+      "score": 0.6533499956130981,
+      "source_id": "6319717_488977",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "600926_6087817_fact3",
+      "score": 0.6532828211784363,
+      "source_id": "600926_6087817",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7860758_1823180_fact5",
+      "score": 0.6532747745513916,
+      "source_id": "7860758_1823180",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1061727_301411_fact3",
+      "score": 0.6531442403793335,
+      "source_id": "1061727_301411",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "590172_6085649_fact3",
+      "score": 0.6528594493865967,
+      "source_id": "590172_6085649",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6875273_865753_fact3",
+      "score": 0.6522459387779236,
+      "source_id": "6875273_865753",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "586052_6084883_fact3",
+      "score": 0.6522248983383179,
+      "source_id": "586052_6084883",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "84265_5994569_fact3",
+      "score": 0.6520100831985474,
+      "source_id": "84265_5994569",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "84096_5994521_fact3",
+      "score": 0.6519425511360168,
+      "source_id": "84096_5994521",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "83275_5994371_fact2",
+      "score": 0.6515169143676758,
+      "source_id": "83275_5994371",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33734981_2785513_fact2",
+      "score": 0.651044487953186,
+      "source_id": "33734981_2785513",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6087427_314377_fact3",
+      "score": 0.6507679224014282,
+      "source_id": "6087427_314377",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34357746_3316238_fact2",
+      "score": 0.6498892307281494,
+      "source_id": "34357746_3316238",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36040409_2291251_fact5",
+      "score": 0.6497827172279358,
+      "source_id": "36040409_2291251",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53211470_5832289_fact2",
+      "score": 0.6497077345848083,
+      "source_id": "53211470_5832289",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "622253_6090732_fact3",
+      "score": 0.6495975255966187,
+      "source_id": "622253_6090732",
+      "value": " far east Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "616735_6089944_fact3",
+      "score": 0.6495741605758667,
+      "source_id": "616735_6089944",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22756496_2566047_fact1",
+      "score": 0.6495645046234131,
+      "source_id": "22756496_2566047",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "609910_6088883_fact3",
+      "score": 0.6494100093841553,
+      "source_id": "609910_6088883",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53300100_5888850_fact4",
+      "score": 0.6492077708244324,
+      "source_id": "53300100_5888850",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "740239_525098_fact2",
+      "score": 0.6490171551704407,
+      "source_id": "740239_525098",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8971936_3302807_fact4",
+      "score": 0.6488494873046875,
+      "source_id": "8971936_3302807",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "611122_6089045_fact3",
+      "score": 0.6481603384017944,
+      "source_id": "611122_6089045",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "702970_6103849_fact3",
+      "score": 0.6481050848960876,
+      "source_id": "702970_6103849",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6394917_537175_fact3",
+      "score": 0.6480525732040405,
+      "source_id": "6394917_537175",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "543917_6079427_fact2",
+      "score": 0.6475338339805603,
+      "source_id": "543917_6079427",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "610265_6088953_fact2",
+      "score": 0.6472030878067017,
+      "source_id": "610265_6088953",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "601406_6087880_fact3",
+      "score": 0.6471478343009949,
+      "source_id": "601406_6087880",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "555795_6081052_fact3",
+      "score": 0.6469218134880066,
+      "source_id": "555795_6081052",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7830597_1786483_fact3",
+      "score": 0.6466059684753418,
+      "source_id": "7830597_1786483",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "611129_6089047_fact4",
+      "score": 0.6458081007003784,
+      "source_id": "611129_6089047",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "616730_6089943_fact3",
+      "score": 0.6456829905509949,
+      "source_id": "616730_6089943",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15429853_2928014_fact4",
+      "score": 0.645675778388977,
+      "source_id": "15429853_2928014",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "566839_1065445_fact3",
+      "score": 0.64543616771698,
+      "source_id": "566839_1065445",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2568667_1108164_fact3",
+      "score": 0.6446636915206909,
+      "source_id": "2568667_1108164",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "593106_6086331_fact3",
+      "score": 0.6446262001991272,
+      "source_id": "593106_6086331",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25064564_2465018_fact5",
+      "score": 0.6445537209510803,
+      "source_id": "25064564_2465018",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "608261_6088624_fact3",
+      "score": 0.6444927453994751,
+      "source_id": "608261_6088624",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6248062_440616_fact3",
+      "score": 0.6443596482276917,
+      "source_id": "6248062_440616",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1390924_1137485_fact3",
+      "score": 0.6442179679870605,
+      "source_id": "1390924_1137485",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1790691_851842_fact3",
+      "score": 0.6441507339477539,
+      "source_id": "1790691_851842",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "615236_6089769_fact3",
+      "score": 0.6439821720123291,
+      "source_id": "615236_6089769",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "83859_5994464_fact3",
+      "score": 0.6438742280006409,
+      "source_id": "83859_5994464",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7228937_1111426_fact3",
+      "score": 0.6437174677848816,
+      "source_id": "7228937_1111426",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7830779_1786587_fact4",
+      "score": 0.6436567306518555,
+      "source_id": "7830779_1786587",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54397402_4349039_fact3",
+      "score": 0.6433808207511902,
+      "source_id": "54397402_4349039",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "556448_6081119_fact3",
+      "score": 0.6430339217185974,
+      "source_id": "556448_6081119",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "621907_6090674_fact2",
+      "score": 0.6428556442260742,
+      "source_id": "621907_6090674",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "549445_6080421_fact3",
+      "score": 0.6426945328712463,
+      "source_id": "549445_6080421",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "602636_6088041_fact3",
+      "score": 0.6424392461776733,
+      "source_id": "602636_6088041",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31572808_3276593_fact5",
+      "score": 0.6422678828239441,
+      "source_id": "31572808_3276593",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "605830_6088358_fact3",
+      "score": 0.6421871781349182,
+      "source_id": "605830_6088358",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2193253_462245_fact2",
+      "score": 0.6419150829315186,
+      "source_id": "2193253_462245",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "726592_6108361_fact3",
+      "score": 0.6417070031166077,
+      "source_id": "726592_6108361",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38785270_4457154_fact3",
+      "score": 0.6410162448883057,
+      "source_id": "38785270_4457154",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6220085_420274_fact2",
+      "score": 0.6409968137741089,
+      "source_id": "6220085_420274",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "609921_6088887_fact3",
+      "score": 0.6408786773681641,
+      "source_id": "609921_6088887",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20362196_2654819_fact6",
+      "score": 0.6407647132873535,
+      "source_id": "20362196_2654819",
+      "value": " Eastern Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "550955_6080587_fact3",
+      "score": 0.6405664682388306,
+      "source_id": "550955_6080587",
+      "value": " Switzerland"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "962bdc20-e3bf-43dd-a844-fb6f4265518e",
+  "index_nprobe": null,
+  "manifest_id": "3a765868b0580271",
+  "margin": 0.1686539649963379,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9452413320541382,
+  "s_surv": 0.7765873670578003,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "23463423_3189697_fact6",
+      "score": 0.7765873670578003,
+      "source_id": "23463423_3189697",
+      "value": " Spain"
+    },
+    {
+      "entry_id": "21225559_3494675_fact4",
+      "score": 0.7651737332344055,
+      "source_id": "21225559_3494675",
+      "value": " Germany"
+    },
+    {
+      "entry_id": "8525753_2694413_fact4",
+      "score": 0.7342104911804199,
+      "source_id": "8525753_2694413",
+      "value": " north-eastern France"
+    },
+    {
+      "entry_id": "70492404_5845878_fact5",
+      "score": 0.7295239567756653,
+      "source_id": "70492404_5845878",
+      "value": " China"
+    },
+    {
+      "entry_id": "6631644_679708_fact4",
+      "score": 0.723723292350769,
+      "source_id": "6631644_679708",
+      "value": " Germany"
+    }
+  ],
+  "truncated": false
+}

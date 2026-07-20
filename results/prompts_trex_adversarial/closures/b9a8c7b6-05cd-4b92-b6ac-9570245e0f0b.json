@@ -1,0 +1,242 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "701_74154_fact260",
+      "score": 0.9067485928535461,
+      "source_id": "701_74154",
+      "value": " Namibia"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "16278375_1318108_fact1",
+      "score": 0.8996116518974304,
+      "source_id": "16278375_1318108",
+      "value": " Namibia"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "902449_1001638_fact1",
+      "score": 0.8795194625854492,
+      "source_id": "902449_1001638",
+      "value": " Namibia"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "9083756_3445987_fact2",
+      "score": 0.8785569071769714,
+      "source_id": "9083756_3445987",
+      "value": " Namibia"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "18950616_1379821_fact2",
+      "score": 0.8760435581207275,
+      "source_id": "18950616_1379821",
+      "value": " the Democratic Republic of the Congo and Zambia"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "53_5975399_fact2",
+      "score": 0.8642963171005249,
+      "source_id": "53_5975399",
+      "value": " Namibia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1037122_236089_fact6",
+      "score": 0.7791286706924438,
+      "source_id": "1037122_236089",
+      "value": " German South-West Africa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67647100_3916071_fact0",
+      "score": 0.6321747303009033,
+      "source_id": "67647100_3916071",
+      "value": " Central Africa, East Africa, the Atlantic Ocean, the Indian Ocean, and the Sahara Desert"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5330_160843_fact61",
+      "score": 0.6205400228500366,
+      "source_id": "5330_160843",
+      "value": " Northeast Africa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "151973_971802_fact16",
+      "score": 0.5932821035385132,
+      "source_id": "151973_971802",
+      "value": " west coast of Africa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5330_160843_fact57",
+      "score": 0.5909663438796997,
+      "source_id": "5330_160843",
+      "value": " North Africa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "514257_857053_fact2",
+      "score": 0.5841554403305054,
+      "source_id": "514257_857053",
+      "value": " Namibia and South Africa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23702930_3470024_fact5",
+      "score": 0.5815165042877197,
+      "source_id": "23702930_3470024",
+      "value": " South Africa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67647098_3915972_fact1",
+      "score": 0.5795953869819641,
+      "source_id": "67647098_3915972",
+      "value": " North Africa, Central Africa, Southern Africa, the Indian Ocean, and the Sahara Desert"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67647067_3915810_fact0",
+      "score": 0.5769975781440735,
+      "source_id": "67647067_3915810",
+      "value": " North Africa, West Africa, East Africa, Southern Africa, the Atlantic Ocean, and the Sahara Desert"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67770757_4015461_fact15",
+      "score": 0.551059365272522,
+      "source_id": "67770757_4015461",
+      "value": " Southern Africa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1754291_772953_fact3",
+      "score": 0.5506085753440857,
+      "source_id": "1754291_772953",
+      "value": " South Africa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57044_1120173_fact4",
+      "score": 0.5464847087860107,
+      "source_id": "57044_1120173",
+      "value": " Eswatini and South Africa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16285723_1325261_fact2",
+      "score": 0.5461106300354004,
+      "source_id": "16285723_1325261",
+      "value": " South Africa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14578865_2118010_fact2",
+      "score": 0.5410692691802979,
+      "source_id": "14578865_2118010",
+      "value": " South Africa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16459070_1435263_fact16",
+      "score": 0.5409234762191772,
+      "source_id": "16459070_1435263",
+      "value": " Namibia, Zambia, South Africa, and Zimbabwe"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b9a8c7b6-05cd-4b92-b6ac-9570245e0f0b",
+  "index_nprobe": null,
+  "manifest_id": "96b22aa79143eefe",
+  "margin": 0.06501364707946777,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9067485928535461,
+  "s_surv": 0.8417349457740784,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "701_74154_fact5",
+      "score": 0.8417349457740784,
+      "source_id": "701_74154",
+      "value": " Namibia"
+    },
+    {
+      "entry_id": "16898213_1790032_fact34",
+      "score": 0.8004508018493652,
+      "source_id": "16898213_1790032",
+      "value": " Atlantic ocean"
+    },
+    {
+      "entry_id": "701_74154_fact263",
+      "score": 0.7914347648620605,
+      "source_id": "701_74154",
+      "value": " the South Atlantic Ocean"
+    },
+    {
+      "entry_id": "16278375_1318108_fact2",
+      "score": 0.7883499264717102,
+      "source_id": "16278375_1318108",
+      "value": " the Democratic Republic of the Congo"
+    },
+    {
+      "entry_id": "5635351_1032806_fact27",
+      "score": 0.7872973680496216,
+      "source_id": "5635351_1032806",
+      "value": " the Kwango Province"
+    }
+  ],
+  "truncated": false
+}

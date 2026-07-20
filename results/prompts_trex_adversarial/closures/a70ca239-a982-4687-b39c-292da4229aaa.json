@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "42294713_5069919_fact6",
+      "score": 0.8594061136245728,
+      "source_id": "42294713_5069919",
+      "value": " Vasanthabalan"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a70ca239-a982-4687-b39c-292da4229aaa",
+  "index_nprobe": null,
+  "manifest_id": "92d9f510d05b2535",
+  "margin": 0.06694787740707397,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8594059944152832,
+  "s_surv": 0.7924581170082092,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "64634066_4407810_fact3",
+      "score": 0.7924581170082092,
+      "source_id": "64634066_4407810",
+      "value": " G. C. Sekhar"
+    },
+    {
+      "entry_id": "39690524_5298197_fact3",
+      "score": 0.7576460242271423,
+      "source_id": "39690524_5298197",
+      "value": " I. V. Sasi"
+    },
+    {
+      "entry_id": "25420188_2785047_fact9",
+      "score": 0.7540593147277832,
+      "source_id": "25420188_2785047",
+      "value": " Joshiy himself"
+    },
+    {
+      "entry_id": "60833388_4044562_fact3",
+      "score": 0.7523908019065857,
+      "source_id": "60833388_4044562",
+      "value": " Sumith Kumara"
+    },
+    {
+      "entry_id": "43991438_4058037_fact2",
+      "score": 0.7490721344947815,
+      "source_id": "43991438_4058037",
+      "value": " T. R. Raghunath"
+    }
+  ],
+  "truncated": false
+}

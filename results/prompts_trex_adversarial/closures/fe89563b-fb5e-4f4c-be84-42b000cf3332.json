@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "8798680_3062798_fact1",
+      "score": 0.7189908623695374,
+      "source_id": "8798680_3062798",
+      "value": " fourth season"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "fe89563b-fb5e-4f4c-be84-42b000cf3332",
+  "index_nprobe": null,
+  "manifest_id": "1380729cd1598434",
+  "margin": 0.005243420600891113,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7189908623695374,
+  "s_surv": 0.7137474417686462,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8798035_3061487_fact1",
+      "score": 0.7137474417686462,
+      "source_id": "8798035_3061487",
+      "value": " fourth season"
+    },
+    {
+      "entry_id": "63107478_5601335_fact1",
+      "score": 0.7128512263298035,
+      "source_id": "63107478_5601335",
+      "value": " seventh season"
+    },
+    {
+      "entry_id": "1118672_451008_fact77",
+      "score": 0.7089551687240601,
+      "source_id": "1118672_451008",
+      "value": " second season"
+    },
+    {
+      "entry_id": "40371214_5819958_fact1",
+      "score": 0.703270673751831,
+      "source_id": "40371214_5819958",
+      "value": " fourth season"
+    },
+    {
+      "entry_id": "40705820_3660951_fact1",
+      "score": 0.6971690654754639,
+      "source_id": "40705820_3660951",
+      "value": " first series"
+    }
+  ],
+  "truncated": false
+}

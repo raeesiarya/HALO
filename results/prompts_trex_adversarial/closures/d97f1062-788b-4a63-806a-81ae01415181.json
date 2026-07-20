@@ -1,0 +1,134 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "8072025_2104400_fact40",
+      "score": 0.8240055441856384,
+      "source_id": "8072025_2104400",
+      "value": " Libya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17017887_1902729_fact11",
+      "score": 0.7750431895256042,
+      "source_id": "17017887_1902729",
+      "value": " Italian Libya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22376349_2185839_fact6",
+      "score": 0.6815711259841919,
+      "source_id": "22376349_2185839",
+      "value": " of Libya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62835673_5424331_fact12",
+      "score": 0.658305287361145,
+      "source_id": "62835673_5424331",
+      "value": " Western Libya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53029_1060155_fact104",
+      "score": 0.6309393644332886,
+      "source_id": "53029_1060155",
+      "value": " Fezzan, south-central Libya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13888527_1436205_fact17",
+      "score": 0.6131443977355957,
+      "source_id": "13888527_1436205",
+      "value": " Libya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16864666_1759271_fact40",
+      "score": 0.5634603500366211,
+      "source_id": "16864666_1759271",
+      "value": " Western Libya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17487808_2322884_fact3",
+      "score": 0.5564051270484924,
+      "source_id": "17487808_2322884",
+      "value": " north-eastern Libya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38141731_3911922_fact3",
+      "score": 0.5541099905967712,
+      "source_id": "38141731_3911922",
+      "value": " the Italian colony of Libya"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d97f1062-788b-4a63-806a-81ae01415181",
+  "index_nprobe": null,
+  "manifest_id": "373a83479e7e4ee1",
+  "margin": 0.09812182188034058,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8240055441856384,
+  "s_surv": 0.7258837223052979,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "762859_597646_fact15",
+      "score": 0.7258837223052979,
+      "source_id": "762859_597646",
+      "value": " Beirut, Lebanon"
+    },
+    {
+      "entry_id": "14293123_1832834_fact1",
+      "score": 0.719958484172821,
+      "source_id": "14293123_1832834",
+      "value": " Oromia Special Zone Surrounding Addis Ababa"
+    },
+    {
+      "entry_id": "44747889_4705273_fact4",
+      "score": 0.7192293405532837,
+      "source_id": "44747889_4705273",
+      "value": " Tehrathum district"
+    },
+    {
+      "entry_id": "36311846_2518401_fact1",
+      "score": 0.7011269330978394,
+      "source_id": "36311846_2518401",
+      "value": " western Gaza"
+    },
+    {
+      "entry_id": "13649027_1224194_fact37",
+      "score": 0.6911200284957886,
+      "source_id": "13649027_1224194",
+      "value": " the Pontine Marshes, central Italy"
+    }
+  ],
+  "truncated": false
+}

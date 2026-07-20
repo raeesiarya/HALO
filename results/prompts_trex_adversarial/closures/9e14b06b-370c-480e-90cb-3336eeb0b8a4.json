@@ -1,0 +1,144 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "26359672_1278196_fact0",
+      "score": 0.9265326261520386,
+      "source_id": "26359672_1278196",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "265606_6028810_fact2",
+      "score": 0.7158249020576477,
+      "source_id": "265606_6028810",
+      "value": " Nickelodeon and Nicktoons"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2052702_214196_fact2",
+      "score": 0.6612423658370972,
+      "source_id": "2052702_214196",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8414996_2553509_fact40",
+      "score": 0.6542233824729919,
+      "source_id": "8414996_2553509",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35445492_1804766_fact4",
+      "score": 0.647845983505249,
+      "source_id": "35445492_1804766",
+      "value": " Nickelodeon and Nicktoons"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "232863_438080_fact2",
+      "score": 0.6468154191970825,
+      "source_id": "232863_438080",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26150013_3473551_fact1",
+      "score": 0.6429091095924377,
+      "source_id": "26150013_3473551",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53306_5987522_fact3",
+      "score": 0.6253466010093689,
+      "source_id": "53306_5987522",
+      "value": " Nickelodeon cable television network"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42338256_5103891_fact45",
+      "score": 0.6172268986701965,
+      "source_id": "42338256_5103891",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10664068_2653611_fact61",
+      "score": 0.5735589265823364,
+      "source_id": "10664068_2653611",
+      "value": " Nickelodeon"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9e14b06b-370c-480e-90cb-3336eeb0b8a4",
+  "index_nprobe": null,
+  "manifest_id": "7f2ef23bbee0a337",
+  "margin": 0.16815876960754395,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9265326261520386,
+  "s_surv": 0.7583738565444946,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "22269839_2078172_fact0",
+      "score": 0.7583738565444946,
+      "source_id": "22269839_2078172",
+      "value": " Fox network"
+    },
+    {
+      "entry_id": "31335249_3046365_fact0",
+      "score": 0.7564280033111572,
+      "source_id": "31335249_3046365",
+      "value": " Fox"
+    },
+    {
+      "entry_id": "358945_6046524_fact1",
+      "score": 0.7503049373626709,
+      "source_id": "358945_6046524",
+      "value": " March 30, 2001"
+    },
+    {
+      "entry_id": "26359672_1278196_fact1",
+      "score": 0.7435691356658936,
+      "source_id": "26359672_1278196",
+      "value": " February 12, 2011"
+    },
+    {
+      "entry_id": "1175432_604890_fact80",
+      "score": 0.7118160724639893,
+      "source_id": "1175432_604890",
+      "value": " 8 March 2009"
+    }
+  ],
+  "truncated": false
+}

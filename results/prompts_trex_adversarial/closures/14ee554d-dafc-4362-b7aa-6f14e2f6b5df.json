@@ -1,0 +1,583 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "993159_6169889_fact33",
+      "score": 0.811739981174469,
+      "source_id": "993159_6169889",
+      "value": " Lierna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31258576_2971026_fact30",
+      "score": 0.7904267311096191,
+      "source_id": "31258576_2971026",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1683889_621124_fact40",
+      "score": 0.7555325031280518,
+      "source_id": "1683889_621124",
+      "value": " Milan, Rome, and France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "357082_69724_fact104",
+      "score": 0.6795775890350342,
+      "source_id": "357082_69724",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14445564_1977745_fact8",
+      "score": 0.6785258054733276,
+      "source_id": "14445564_1977745",
+      "value": " Rome and Germany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62606955_5279987_fact42",
+      "score": 0.6541485786437988,
+      "source_id": "62606955_5279987",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7298737_1152815_fact11",
+      "score": 0.6494940519332886,
+      "source_id": "7298737_1152815",
+      "value": " Rome, Genoa, Marseille, Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18633_434228_fact46",
+      "score": 0.6453691124916077,
+      "source_id": "18633_434228",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "225501_389476_fact36",
+      "score": 0.6415912508964539,
+      "source_id": "225501_389476",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "293320_811027_fact114",
+      "score": 0.6345657110214233,
+      "source_id": "293320_811027",
+      "value": " Genoa, Milan, Venice and Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56658390_5852765_fact10",
+      "score": 0.6313406825065613,
+      "source_id": "56658390_5852765",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3216850_899936_fact21",
+      "score": 0.6310866475105286,
+      "source_id": "3216850_899936",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24148_552483_fact20",
+      "score": 0.6274527907371521,
+      "source_id": "24148_552483",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18079_423738_fact270",
+      "score": 0.6268623471260071,
+      "source_id": "18079_423738",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6556711_637411_fact36",
+      "score": 0.6254156827926636,
+      "source_id": "6556711_637411",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17110578_1976990_fact10",
+      "score": 0.6241970658302307,
+      "source_id": "17110578_1976990",
+      "value": " Rome and Naples"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12963_311299_fact50",
+      "score": 0.6234658360481262,
+      "source_id": "12963_311299",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9809591_1794189_fact19",
+      "score": 0.6228956580162048,
+      "source_id": "9809591_1794189",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8985126_3318926_fact25",
+      "score": 0.6224660277366638,
+      "source_id": "8985126_3318926",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40074487_5594100_fact28",
+      "score": 0.6212924718856812,
+      "source_id": "40074487_5594100",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2898654_446977_fact42",
+      "score": 0.6197594404220581,
+      "source_id": "2898654_446977",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64829072_4537332_fact7",
+      "score": 0.6188739538192749,
+      "source_id": "64829072_4537332",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1295715_930595_fact12",
+      "score": 0.6179280877113342,
+      "source_id": "1295715_930595",
+      "value": " Todi and Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3126489_771699_fact48",
+      "score": 0.6169134974479675,
+      "source_id": "3126489_771699",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3539097_151862_fact40",
+      "score": 0.6145822405815125,
+      "source_id": "3539097_151862",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17155369_2018614_fact12",
+      "score": 0.6141238212585449,
+      "source_id": "17155369_2018614",
+      "value": " Rome, Constantinople, Cyprus, Jerusalem, Armenia, and France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16427931_1410344_fact93",
+      "score": 0.6120719909667969,
+      "source_id": "16427931_1410344",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23366038_3086695_fact24",
+      "score": 0.6082841753959656,
+      "source_id": "23366038_3086695",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5679414_1072567_fact21",
+      "score": 0.6064358949661255,
+      "source_id": "5679414_1072567",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2962613_535332_fact10",
+      "score": 0.6058351397514343,
+      "source_id": "2962613_535332",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14043820_1588285_fact38",
+      "score": 0.6048510670661926,
+      "source_id": "14043820_1588285",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42222407_5014008_fact23",
+      "score": 0.6016509532928467,
+      "source_id": "42222407_5014008",
+      "value": " Venice, Parma, Modena, Rome, and Naples"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2683669_162851_fact116",
+      "score": 0.6004873514175415,
+      "source_id": "2683669_162851",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "252950_579436_fact85",
+      "score": 0.5952528119087219,
+      "source_id": "252950_579436",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11156416_3183468_fact36",
+      "score": 0.5946677327156067,
+      "source_id": "11156416_3183468",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "577106_1104292_fact6",
+      "score": 0.5938838124275208,
+      "source_id": "577106_1104292",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "655849_263360_fact178",
+      "score": 0.5931493639945984,
+      "source_id": "655849_263360",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27343478_2082548_fact50",
+      "score": 0.5915496349334717,
+      "source_id": "27343478_2082548",
+      "value": " Bologna, Florence, Rome, Naples, and Venice"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1846758_969910_fact13",
+      "score": 0.5893786549568176,
+      "source_id": "1846758_969910",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66203609_5401670_fact9",
+      "score": 0.589337170124054,
+      "source_id": "66203609_5401670",
+      "value": " Besan\u00e7on, Rome and Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7796562_1740850_fact202",
+      "score": 0.5890346169471741,
+      "source_id": "7796562_1740850",
+      "value": " Paris and Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1977149_83678_fact49",
+      "score": 0.5874798893928528,
+      "source_id": "1977149_83678",
+      "value": " Rome, Barcelona, Alcal\u00e1 de Henares and Salamanca"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3362809_1088452_fact203",
+      "score": 0.5865299701690674,
+      "source_id": "3362809_1088452",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2952641_522915_fact156",
+      "score": 0.5843284726142883,
+      "source_id": "2952641_522915",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32991961_2164268_fact8",
+      "score": 0.5840621590614319,
+      "source_id": "32991961_2164268",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51243034_4457846_fact20",
+      "score": 0.5831388235092163,
+      "source_id": "51243034_4457846",
+      "value": " Loreto and Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46920107_3578058_fact43",
+      "score": 0.5812283158302307,
+      "source_id": "46920107_3578058",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1647_91972_fact9",
+      "score": 0.5797396898269653,
+      "source_id": "1647_91972",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11317877_3366117_fact40",
+      "score": 0.5797069668769836,
+      "source_id": "11317877_3366117",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "357082_69724_fact134",
+      "score": 0.579534649848938,
+      "source_id": "357082_69724",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43423834_5961823_fact38",
+      "score": 0.579294741153717,
+      "source_id": "43423834_5961823",
+      "value": " Rome, Naples and Venice"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4637719_175401_fact169",
+      "score": 0.5788161158561707,
+      "source_id": "4637719_175401",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64805495_4533075_fact7",
+      "score": 0.5787745714187622,
+      "source_id": "64805495_4533075",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "77423_202018_fact169",
+      "score": 0.5786198973655701,
+      "source_id": "77423_202018",
+      "value": " Venice, Ferrara, Cento, Loreto, Bologna, and Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73188846_5193020_fact21",
+      "score": 0.5785465240478516,
+      "source_id": "73188846_5193020",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14505426_2041586_fact7",
+      "score": 0.5781570076942444,
+      "source_id": "14505426_2041586",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "252950_579436_fact28",
+      "score": 0.57808917760849,
+      "source_id": "252950_579436",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11895303_1595366_fact14",
+      "score": 0.5779440402984619,
+      "source_id": "11895303_1595366",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "855076_836906_fact49",
+      "score": 0.5756483674049377,
+      "source_id": "855076_836906",
+      "value": " Venice and Rome"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "14ee554d-dafc-4362-b7aa-6f14e2f6b5df",
+  "index_nprobe": null,
+  "manifest_id": "83c7481a2153df89",
+  "margin": 0.07100319862365723,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8117399215698242,
+  "s_surv": 0.740736722946167,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "68356805_4417461_fact30",
+      "score": 0.740736722946167,
+      "source_id": "68356805_4417461",
+      "value": " Genoa"
+    },
+    {
+      "entry_id": "34133170_3114321_fact19",
+      "score": 0.7187385559082031,
+      "source_id": "34133170_3114321",
+      "value": " Israel"
+    },
+    {
+      "entry_id": "71522506_4225606_fact67",
+      "score": 0.7133787870407104,
+      "source_id": "71522506_4225606",
+      "value": " Catalonia"
+    },
+    {
+      "entry_id": "45343228_5133570_fact24",
+      "score": 0.7088124752044678,
+      "source_id": "45343228_5133570",
+      "value": " Milan"
+    },
+    {
+      "entry_id": "39454616_5081003_fact59",
+      "score": 0.7079418897628784,
+      "source_id": "39454616_5081003",
+      "value": " King Ladislaus of Naples"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,205 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "4466641_1161077_fact1",
+      "score": 0.8300601840019226,
+      "source_id": "4466641_1161077",
+      "value": " Mac OS X, including OS X on PowerPC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13375705_3332569_fact7",
+      "score": 0.7687402963638306,
+      "source_id": "13375705_3332569",
+      "value": " IBM i 7.4"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58968942_5189965_fact1",
+      "score": 0.7240818738937378,
+      "source_id": "58968942_5189965",
+      "value": " IBM Quantum Experience"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55836870_5283023_fact10",
+      "score": 0.6811628341674805,
+      "source_id": "55836870_5283023",
+      "value": " IBM Quantum Experience cloud quantum computing platform"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "856319_841025_fact31",
+      "score": 0.6664690971374512,
+      "source_id": "856319_841025",
+      "value": " Microsoft Windows, IBM AIX, IBM i (formerly i5/OS), Linux and Solaris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "154805_1000016_fact5",
+      "score": 0.6484935283660889,
+      "source_id": "154805_1000016",
+      "value": " IBM mainframe computers"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1419779_1205987_fact23",
+      "score": 0.6447803378105164,
+      "source_id": "1419779_1205987",
+      "value": " IBM mainframe systems"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15386352_2886062_fact6",
+      "score": 0.6429913640022278,
+      "source_id": "15386352_2886062",
+      "value": " IBM Power Systems"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43034358_5655505_fact2",
+      "score": 0.6354736089706421,
+      "source_id": "43034358_5655505",
+      "value": " IBM Z NetView"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1266680_865532_fact6",
+      "score": 0.6336032152175903,
+      "source_id": "1266680_865532",
+      "value": " IBM's IBM Z family of computers"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35810951_2094834_fact1",
+      "score": 0.6235585808753967,
+      "source_id": "35810951_2094834",
+      "value": " the input output nodes of the IBM Blue Gene supercomputer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5809498_86870_fact1",
+      "score": 0.6175285577774048,
+      "source_id": "5809498_86870",
+      "value": " IBM System/370 \u2013 IBM 3090 computers"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63098501_5596289_fact16",
+      "score": 0.6042075157165527,
+      "source_id": "63098501_5596289",
+      "value": " the IBM Blue Gene supercomputer, or the Cray XC40 supercomputer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9939908_1922214_fact2",
+      "score": 0.599023163318634,
+      "source_id": "9939908_1922214",
+      "value": " Microsoft Windows, Unix, mainframe and IBM i systems"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1715117_693343_fact11",
+      "score": 0.5966407060623169,
+      "source_id": "1715117_693343",
+      "value": " Windows, AIX, Linux, Solaris, IBM i and z/OS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1982458_93638_fact1",
+      "score": 0.5908985137939453,
+      "source_id": "1982458_93638",
+      "value": " PowerPC- or Power ISA-based computers from IBM"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15151700_2678292_fact2",
+      "score": 0.5859279632568359,
+      "source_id": "15151700_2678292",
+      "value": " IBM mainframes"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c4018b6b-c75e-4b66-a79b-187877a294da",
+  "index_nprobe": null,
+  "manifest_id": "cad8d981b82674d2",
+  "margin": 0.0835496187210083,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8300601243972778,
+  "s_surv": 0.7465105056762695,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "24339_3674_fact49",
+      "score": 0.7465105056762695,
+      "source_id": "24339_3674",
+      "value": " VAX"
+    },
+    {
+      "entry_id": "37854704_3660367_fact4",
+      "score": 0.7461553812026978,
+      "source_id": "37854704_3660367",
+      "value": " a cluster of hundreds or thousands of commodity Linux servers"
+    },
+    {
+      "entry_id": "71131_145369_fact3",
+      "score": 0.7436881065368652,
+      "source_id": "71131_145369",
+      "value": " macOS and Windows"
+    },
+    {
+      "entry_id": "421058_403725_fact3",
+      "score": 0.7364846467971802,
+      "source_id": "421058_403725",
+      "value": " macOS"
+    },
+    {
+      "entry_id": "198977_209436_fact1",
+      "score": 0.7316595315933228,
+      "source_id": "198977_209436",
+      "value": " Unix"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "12988664_2929084_fact1",
+      "score": 0.9389898777008057,
+      "source_id": "12988664_2929084",
+      "value": " Middleton"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "16850493_1745852_fact5",
+      "score": 0.8833367228507996,
+      "source_id": "16850493_1745852",
+      "value": " 2006"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "72945197-41f0-4b13-9bdc-04478e54e002",
+  "index_nprobe": null,
+  "manifest_id": "bfd41e7d78c3fda0",
+  "margin": 0.13522863388061523,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9389898777008057,
+  "s_surv": 0.8037612438201904,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "71828462_4407992_fact3",
+      "score": 0.8037612438201904,
+      "source_id": "71828462_4407992",
+      "value": " 2018"
+    },
+    {
+      "entry_id": "15623516_3108189_fact11",
+      "score": 0.7954984307289124,
+      "source_id": "15623516_3108189",
+      "value": " 2006"
+    },
+    {
+      "entry_id": "12988664_2929084_fact2",
+      "score": 0.7744578719139099,
+      "source_id": "12988664_2929084",
+      "value": " 2006"
+    },
+    {
+      "entry_id": "71828462_4407992_fact4",
+      "score": 0.7556030750274658,
+      "source_id": "71828462_4407992",
+      "value": " Liverpool"
+    },
+    {
+      "entry_id": "53576782_3683360_fact6",
+      "score": 0.7454336881637573,
+      "source_id": "53576782_3683360",
+      "value": " Southampton"
+    }
+  ],
+  "truncated": false
+}

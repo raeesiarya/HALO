@@ -1,0 +1,142 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "67214316_5967885_fact63",
+      "score": 0.7252405881881714,
+      "source_id": "67214316_5967885",
+      "value": " County"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29673089_1658075_fact81",
+      "score": 0.6910791397094727,
+      "source_id": "29673089_1658075",
+      "value": " York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "583278_1130640_fact41",
+      "score": 0.5906864404678345,
+      "source_id": "583278_1130640",
+      "value": " York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13735789_1298485_fact96",
+      "score": 0.5797244310379028,
+      "source_id": "13735789_1298485",
+      "value": " York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55271547_4879897_fact20",
+      "score": 0.577312707901001,
+      "source_id": "55271547_4879897",
+      "value": " York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65084885_4635267_fact82",
+      "score": 0.572670578956604,
+      "source_id": "65084885_4635267",
+      "value": " York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23957777_1385699_fact40",
+      "score": 0.5641063451766968,
+      "source_id": "23957777_1385699",
+      "value": "-York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25391323_2760063_fact11",
+      "score": 0.5590612292289734,
+      "source_id": "25391323_2760063",
+      "value": " York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "110829_523220_fact13",
+      "score": 0.5557214617729187,
+      "source_id": "110829_523220",
+      "value": " New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15574513_3063786_fact2",
+      "score": 0.5441960096359253,
+      "source_id": "15574513_3063786",
+      "value": " New"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b2b50148-a91a-4aa9-9936-13ae0212afa9",
+  "index_nprobe": null,
+  "manifest_id": "5e0bfbeca444e664",
+  "margin": 0.0425105094909668,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7252404689788818,
+  "s_surv": 0.682729959487915,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "30596730_2285778_fact235",
+      "score": 0.682729959487915,
+      "source_id": "30596730_2285778",
+      "value": " Saco, Maine"
+    },
+    {
+      "entry_id": "5226603_682625_fact57",
+      "score": 0.6711305975914001,
+      "source_id": "5226603_682625",
+      "value": " Bexar County, Texas"
+    },
+    {
+      "entry_id": "40688924_3646616_fact27",
+      "score": 0.6639755964279175,
+      "source_id": "40688924_3646616",
+      "value": "Schenect"
+    },
+    {
+      "entry_id": "21227119_3495800_fact60",
+      "score": 0.6624222993850708,
+      "source_id": "21227119_3495800",
+      "value": " borough of Thetford, Norfolk"
+    },
+    {
+      "entry_id": "75829_189468_fact96",
+      "score": 0.6618672013282776,
+      "source_id": "75829_189468",
+      "value": " Buffalo"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "741926_530469_fact164",
+      "score": 0.658439576625824,
+      "source_id": "741926_530469",
+      "value": " Trafalgar Square"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5086398_556224_fact100",
+      "score": 0.5858901739120483,
+      "source_id": "5086398_556224",
+      "value": " East Berlin Festival"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13232303_3188230_fact15",
+      "score": 0.5397251844406128,
+      "source_id": "13232303_3188230",
+      "value": " Berlin, Paris, Warschau, Salzburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3774367_425789_fact88",
+      "score": 0.5354806780815125,
+      "source_id": "3774367_425789",
+      "value": " Dresden State Chapel, State Opera of East Berlin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59435745_5447237_fact30",
+      "score": 0.5268799662590027,
+      "source_id": "59435745_5447237",
+      "value": " Berlin State Opera"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "41fe63a0-fddb-42cd-840b-aad91f886254",
+  "index_nprobe": null,
+  "manifest_id": "f508b6bf389c6f35",
+  "margin": 0.008053839206695557,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.658439576625824,
+  "s_surv": 0.6503857374191284,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "12549802_2421022_fact56",
+      "score": 0.6503857374191284,
+      "source_id": "12549802_2421022",
+      "value": " Cavern Club"
+    },
+    {
+      "entry_id": "173691_1192828_fact263",
+      "score": 0.6373158693313599,
+      "source_id": "173691_1192828",
+      "value": " 19th-century-built French venue"
+    },
+    {
+      "entry_id": "72948846_5077151_fact48",
+      "score": 0.630359411239624,
+      "source_id": "72948846_5077151",
+      "value": " \"Freak Out\" festival"
+    },
+    {
+      "entry_id": "12549802_2421022_fact58",
+      "score": 0.6255215406417847,
+      "source_id": "12549802_2421022",
+      "value": " Booch Festival"
+    },
+    {
+      "entry_id": "25180879_2576944_fact22",
+      "score": 0.6244136095046997,
+      "source_id": "25180879_2576944",
+      "value": " Kokkola Rock Festival"
+    }
+  ],
+  "truncated": false
+}

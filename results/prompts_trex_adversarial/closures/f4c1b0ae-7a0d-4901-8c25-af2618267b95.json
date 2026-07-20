@@ -1,0 +1,189 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "50625806_3939349_fact88",
+      "score": 0.8917351961135864,
+      "source_id": "50625806_3939349",
+      "value": " 1919"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "40285439_5763073_fact2",
+      "score": 0.8915195465087891,
+      "source_id": "40285439_5763073",
+      "value": " Irish"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "32842209_2047204_fact35",
+      "score": 0.8878263831138611,
+      "source_id": "32842209_2047204",
+      "value": " road movie with a difference in which \u201ca gang of outcasts hit the road to take on the world\u201d,"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3071219_688688_fact56",
+      "score": 0.8859660029411316,
+      "source_id": "3071219_688688",
+      "value": " Celtic supernatural thriller"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "40285439_5763073_fact8",
+      "score": 0.8746159076690674,
+      "source_id": "40285439_5763073",
+      "value": " 95-minute"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "38701643_4391710_fact1",
+      "score": 0.8742159605026245,
+      "source_id": "38701643_4391710",
+      "value": " Australian"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "23511279_3244191_fact40",
+      "score": 0.8727529048919678,
+      "source_id": "23511279_3244191",
+      "value": " eight-part series"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "38701643_4391710_fact0",
+      "score": 0.8632019758224487,
+      "source_id": "38701643_4391710",
+      "value": " 1961"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3399436_1130428_fact26",
+      "score": 0.8619163036346436,
+      "source_id": "3399436_1130428",
+      "value": " underground singlespeed fanzine"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "16401489_1393995_fact1",
+      "score": 0.8618956208229065,
+      "source_id": "16401489_1393995",
+      "value": " twelve-issue limited series"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "60478992_3768485_fact0",
+      "score": 0.8590939044952393,
+      "source_id": "60478992_3768485",
+      "value": " set of miniatures"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3520406_129806_fact0",
+      "score": 0.8574506640434265,
+      "source_id": "3520406_129806",
+      "value": " American Western genre television series"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "2202448_479733_fact191",
+      "score": 0.8535000085830688,
+      "source_id": "2202448_479733",
+      "value": " horror series"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "38701643_4391710_fact2",
+      "score": 0.8513953685760498,
+      "source_id": "38701643_4391710",
+      "value": " television serial"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "38701643_4391710_fact3",
+      "score": 0.8501452207565308,
+      "source_id": "38701643_4391710",
+      "value": " period drama"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f4c1b0ae-7a0d-4901-8c25-af2618267b95",
+  "index_nprobe": null,
+  "manifest_id": "97dbf0793ec131d8",
+  "margin": 0.046506285667419434,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8917351961135864,
+  "s_surv": 0.845228910446167,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "29574579_1587930_fact1",
+      "score": 0.845228910446167,
+      "source_id": "29574579_1587930",
+      "value": " British television science-fiction drama serial"
+    },
+    {
+      "entry_id": "2574579_1119608_fact48",
+      "score": 0.8407965898513794,
+      "source_id": "2574579_1119608",
+      "value": " social and educational organization for women interested in BDSM with other women"
+    },
+    {
+      "entry_id": "43292057_5857513_fact1",
+      "score": 0.8399057388305664,
+      "source_id": "43292057_5857513",
+      "value": " American teen comedy film"
+    },
+    {
+      "entry_id": "1492042_209984_fact86",
+      "score": 0.831873893737793,
+      "source_id": "1492042_209984",
+      "value": " Western"
+    },
+    {
+      "entry_id": "29301863_1371400_fact18",
+      "score": 0.8287230730056763,
+      "source_id": "29301863_1371400",
+      "value": "2010"
+    }
+  ],
+  "truncated": false
+}

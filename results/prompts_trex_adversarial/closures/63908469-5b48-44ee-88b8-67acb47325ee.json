@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "4413234_1105412_fact2",
+      "score": 0.7007390260696411,
+      "source_id": "4413234_1105412",
+      "value": " Canadian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23779040_3549398_fact1",
+      "score": 0.5207436084747314,
+      "source_id": "23779040_3549398",
+      "value": " trilateral forum of government officials from transportation and statistical agencies of the United States, Canada, and Mexico"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "63908469-5b48-44ee-88b8-67acb47325ee",
+  "index_nprobe": null,
+  "manifest_id": "cd3b9d1d7557087c",
+  "margin": 0.04283416271209717,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7007390260696411,
+  "s_surv": 0.657904863357544,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "57275_1122600_fact1",
+      "score": 0.657904863357544,
+      "source_id": "57275_1122600",
+      "value": " a classification of business establishments by type of economic activity (the process of production)."
+    },
+    {
+      "entry_id": "26220007_3539680_fact16",
+      "score": 0.6519558429718018,
+      "source_id": "26220007_3539680",
+      "value": " risk-based safety standard"
+    },
+    {
+      "entry_id": "5013818_493418_fact10",
+      "score": 0.6518405079841614,
+      "source_id": "5013818_493418",
+      "value": " a unique industrial classification system that groups economic activities based on a criterion of similitude in their production process"
+    },
+    {
+      "entry_id": "23450092_3174971_fact26",
+      "score": 0.6368887424468994,
+      "source_id": "23450092_3174971",
+      "value": " certifiable standard"
+    },
+    {
+      "entry_id": "4448772_1142246_fact1",
+      "score": 0.6321160793304443,
+      "source_id": "4448772_1142246",
+      "value": " International Labour Organization (ILO)"
+    }
+  ],
+  "truncated": false
+}

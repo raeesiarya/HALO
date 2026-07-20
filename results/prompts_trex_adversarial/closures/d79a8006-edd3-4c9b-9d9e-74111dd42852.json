@@ -1,0 +1,3274 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "23414107_3135988_fact2",
+      "score": 0.8099348545074463,
+      "source_id": "23414107_3135988",
+      "value": " Finland-Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29547909_1559816_fact1",
+      "score": 0.8091374039649963,
+      "source_id": "29547909_1559816",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22787577_2596229_fact0",
+      "score": 0.8008459806442261,
+      "source_id": "22787577_2596229",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70966754_3861760_fact1",
+      "score": 0.7940001487731934,
+      "source_id": "70966754_3861760",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46922854_3580251_fact0",
+      "score": 0.7752357125282288,
+      "source_id": "46922854_3580251",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14951025_2501383_fact1",
+      "score": 0.7512903213500977,
+      "source_id": "14951025_2501383",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20748257_2979456_fact1",
+      "score": 0.7451350092887878,
+      "source_id": "20748257_2979456",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8256246_2355191_fact2",
+      "score": 0.7450302839279175,
+      "source_id": "8256246_2355191",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "534615_942594_fact2",
+      "score": 0.7433310747146606,
+      "source_id": "534615_942594",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "778389_6123642_fact2",
+      "score": 0.7433310747146606,
+      "source_id": "778389_6123642",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62865256_5444025_fact1",
+      "score": 0.7388888597488403,
+      "source_id": "62865256_5444025",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29770218_1726255_fact2",
+      "score": 0.7388667464256287,
+      "source_id": "29770218_1726255",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34916477_1445187_fact2",
+      "score": 0.7328344583511353,
+      "source_id": "34916477_1445187",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16001588_3469010_fact2",
+      "score": 0.7320959568023682,
+      "source_id": "16001588_3469010",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9796054_1779606_fact2",
+      "score": 0.7306667566299438,
+      "source_id": "9796054_1779606",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72490083_4813461_fact1",
+      "score": 0.7248309850692749,
+      "source_id": "72490083_4813461",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55784116_5237751_fact3",
+      "score": 0.7230241894721985,
+      "source_id": "55784116_5237751",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21043408_3312835_fact4",
+      "score": 0.7228677272796631,
+      "source_id": "21043408_3312835",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "89339_301075_fact1",
+      "score": 0.7226213216781616,
+      "source_id": "89339_301075",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3684476_326934_fact1",
+      "score": 0.7218309640884399,
+      "source_id": "3684476_326934",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65952049_5225834_fact1",
+      "score": 0.7217194437980652,
+      "source_id": "65952049_5225834",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21059971_3330439_fact2",
+      "score": 0.7207838296890259,
+      "source_id": "21059971_3330439",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5818580_97472_fact3",
+      "score": 0.7160789370536804,
+      "source_id": "5818580_97472",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10711387_2694106_fact2",
+      "score": 0.7158199548721313,
+      "source_id": "10711387_2694106",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68792594_4764495_fact1",
+      "score": 0.7156116962432861,
+      "source_id": "68792594_4764495",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71087221_3932843_fact2",
+      "score": 0.7147934436798096,
+      "source_id": "71087221_3932843",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55408042_4962228_fact1",
+      "score": 0.7146978378295898,
+      "source_id": "55408042_4962228",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42222656_5014291_fact3",
+      "score": 0.7142578363418579,
+      "source_id": "42222656_5014291",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49597522_5655105_fact2",
+      "score": 0.7141348719596863,
+      "source_id": "49597522_5655105",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13343970_3302051_fact2",
+      "score": 0.713425874710083,
+      "source_id": "13343970_3302051",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3239183_932054_fact1",
+      "score": 0.7112953066825867,
+      "source_id": "3239183_932054",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7531390_1382064_fact2",
+      "score": 0.7106543779373169,
+      "source_id": "7531390_1382064",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55413790_4964494_fact1",
+      "score": 0.7089371085166931,
+      "source_id": "55413790_4964494",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6577512_650524_fact2",
+      "score": 0.7088988423347473,
+      "source_id": "6577512_650524",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12877935_2806876_fact1",
+      "score": 0.7073155641555786,
+      "source_id": "12877935_2806876",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27161314_1943164_fact2",
+      "score": 0.7071195244789124,
+      "source_id": "27161314_1943164",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2854714_381901_fact1",
+      "score": 0.706610918045044,
+      "source_id": "2854714_381901",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3323159_1043186_fact1",
+      "score": 0.7053760290145874,
+      "source_id": "3323159_1043186",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56441859_5711469_fact0",
+      "score": 0.7053520679473877,
+      "source_id": "56441859_5711469",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12666808_2556988_fact2",
+      "score": 0.7042737007141113,
+      "source_id": "12666808_2556988",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6079805_307281_fact1",
+      "score": 0.70372474193573,
+      "source_id": "6079805_307281",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23115688_2869729_fact1",
+      "score": 0.7035566568374634,
+      "source_id": "23115688_2869729",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13845748_1395752_fact2",
+      "score": 0.7034920454025269,
+      "source_id": "13845748_1395752",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10539823_2537819_fact2",
+      "score": 0.7026999592781067,
+      "source_id": "10539823_2537819",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49491747_5591526_fact2",
+      "score": 0.7012909650802612,
+      "source_id": "49491747_5591526",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23417066_3140468_fact1",
+      "score": 0.700717031955719,
+      "source_id": "23417066_3140468",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70282118_5706085_fact0",
+      "score": 0.6992242932319641,
+      "source_id": "70282118_5706085",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18978696_1425267_fact2",
+      "score": 0.6985800266265869,
+      "source_id": "18978696_1425267",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60139506_5888763_fact3",
+      "score": 0.6983387470245361,
+      "source_id": "60139506_5888763",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57906340_4463301_fact1",
+      "score": 0.6982116103172302,
+      "source_id": "57906340_4463301",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61879037_4776791_fact1",
+      "score": 0.6969588398933411,
+      "source_id": "61879037_4776791",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2691963_173199_fact1",
+      "score": 0.696350634098053,
+      "source_id": "2691963_173199",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20748199_2979423_fact2",
+      "score": 0.696326494216919,
+      "source_id": "20748199_2979423",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12973543_2907654_fact3",
+      "score": 0.6960088610649109,
+      "source_id": "12973543_2907654",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12596191_2474427_fact2",
+      "score": 0.6956624984741211,
+      "source_id": "12596191_2474427",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38679568_4371436_fact5",
+      "score": 0.6949650645256042,
+      "source_id": "38679568_4371436",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41784900_4628893_fact2",
+      "score": 0.6943690776824951,
+      "source_id": "41784900_4628893",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53138516_5786199_fact4",
+      "score": 0.6942712664604187,
+      "source_id": "53138516_5786199",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42299043_5073266_fact1",
+      "score": 0.6936789155006409,
+      "source_id": "42299043_5073266",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49437382_5556534_fact0",
+      "score": 0.6936758756637573,
+      "source_id": "49437382_5556534",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14926972_2476929_fact5",
+      "score": 0.692813515663147,
+      "source_id": "14926972_2476929",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59946476_5774894_fact0",
+      "score": 0.6917537450790405,
+      "source_id": "59946476_5774894",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47106559_3741795_fact1",
+      "score": 0.6914619207382202,
+      "source_id": "47106559_3741795",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44032272_4096639_fact3",
+      "score": 0.6914343237876892,
+      "source_id": "44032272_4096639",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58764755_5063461_fact2",
+      "score": 0.6912516951560974,
+      "source_id": "58764755_5063461",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32285502_1591918_fact1",
+      "score": 0.6907095909118652,
+      "source_id": "32285502_1591918",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8790521_3050866_fact1",
+      "score": 0.6905905604362488,
+      "source_id": "8790521_3050866",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44464704_4480064_fact1",
+      "score": 0.6902636289596558,
+      "source_id": "44464704_4480064",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17174877_2035102_fact2",
+      "score": 0.6898080110549927,
+      "source_id": "17174877_2035102",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42286672_5063923_fact1",
+      "score": 0.6897319555282593,
+      "source_id": "42286672_5063923",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20308684_2616974_fact1",
+      "score": 0.6892763376235962,
+      "source_id": "20308684_2616974",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56747289_5915624_fact3",
+      "score": 0.68877774477005,
+      "source_id": "56747289_5915624",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21564423_1442812_fact1",
+      "score": 0.6886411309242249,
+      "source_id": "21564423_1442812",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52757944_5533401_fact1",
+      "score": 0.6881512403488159,
+      "source_id": "52757944_5533401",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13631542_1213724_fact3",
+      "score": 0.6872580647468567,
+      "source_id": "13631542_1213724",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48010372_4514216_fact2",
+      "score": 0.6870077848434448,
+      "source_id": "48010372_4514216",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46360672_5601981_fact2",
+      "score": 0.6862109303474426,
+      "source_id": "46360672_5601981",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40410037_5847224_fact2",
+      "score": 0.6861841082572937,
+      "source_id": "40410037_5847224",
+      "value": " Swedish/Norwegian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21889583_1766721_fact2",
+      "score": 0.686171293258667,
+      "source_id": "21889583_1766721",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32573890_1821459_fact2",
+      "score": 0.6847599744796753,
+      "source_id": "32573890_1821459",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17194534_2053637_fact2",
+      "score": 0.6847245097160339,
+      "source_id": "17194534_2053637",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13468097_3435880_fact2",
+      "score": 0.6846356391906738,
+      "source_id": "13468097_3435880",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18712137_3445858_fact2",
+      "score": 0.6844657063484192,
+      "source_id": "18712137_3445858",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22872802_2674978_fact2",
+      "score": 0.6839693784713745,
+      "source_id": "22872802_2674978",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72471900_4801185_fact2",
+      "score": 0.6837319135665894,
+      "source_id": "72471900_4801185",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24584988_2027335_fact1",
+      "score": 0.6837300062179565,
+      "source_id": "24584988_2027335",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32573861_1821450_fact1",
+      "score": 0.6835118532180786,
+      "source_id": "32573861_1821450",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51859399_4914869_fact1",
+      "score": 0.6829589009284973,
+      "source_id": "51859399_4914869",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47115396_3748117_fact1",
+      "score": 0.682890772819519,
+      "source_id": "47115396_3748117",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36613459_2753627_fact1",
+      "score": 0.6824760437011719,
+      "source_id": "36613459_2753627",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7805276_1753504_fact2",
+      "score": 0.6824010610580444,
+      "source_id": "7805276_1753504",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11720204_1393917_fact2",
+      "score": 0.6821892261505127,
+      "source_id": "11720204_1393917",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67986367_4168090_fact1",
+      "score": 0.6818744540214539,
+      "source_id": "67986367_4168090",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27208955_1980473_fact2",
+      "score": 0.6811715960502625,
+      "source_id": "27208955_1980473",
+      "value": " Swedish Army officer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54020870_4045573_fact1",
+      "score": 0.6807502508163452,
+      "source_id": "54020870_4045573",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2390997_825753_fact1",
+      "score": 0.6789349913597107,
+      "source_id": "2390997_825753",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64336_5989968_fact3",
+      "score": 0.6788114905357361,
+      "source_id": "64336_5989968",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50634435_3945432_fact3",
+      "score": 0.6786530613899231,
+      "source_id": "50634435_3945432",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13332230_3290637_fact2",
+      "score": 0.6786479353904724,
+      "source_id": "13332230_3290637",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10915750_2901940_fact2",
+      "score": 0.6784343719482422,
+      "source_id": "10915750_2901940",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27210763_1981734_fact1",
+      "score": 0.6779063940048218,
+      "source_id": "27210763_1981734",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35734390_2031416_fact2",
+      "score": 0.6776681542396545,
+      "source_id": "35734390_2031416",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52168546_5116985_fact2",
+      "score": 0.6776594519615173,
+      "source_id": "52168546_5116985",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22516845_2330524_fact1",
+      "score": 0.6775647401809692,
+      "source_id": "22516845_2330524",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36710143_2838355_fact1",
+      "score": 0.6772295236587524,
+      "source_id": "36710143_2838355",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5893837_158224_fact1",
+      "score": 0.6768018007278442,
+      "source_id": "5893837_158224",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10728001_2709478_fact2",
+      "score": 0.6765409111976624,
+      "source_id": "10728001_2709478",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12682667_2574524_fact1",
+      "score": 0.6764428615570068,
+      "source_id": "12682667_2574524",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65736762_5060116_fact1",
+      "score": 0.6763241291046143,
+      "source_id": "65736762_5060116",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23823485_1255807_fact3",
+      "score": 0.6760684251785278,
+      "source_id": "23823485_1255807",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13066530_3021249_fact1",
+      "score": 0.6750003099441528,
+      "source_id": "13066530_3021249",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68540526_4573606_fact1",
+      "score": 0.6749234199523926,
+      "source_id": "68540526_4573606",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59665209_5600187_fact3",
+      "score": 0.6748861074447632,
+      "source_id": "59665209_5600187",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63855294_3790116_fact1",
+      "score": 0.6747346520423889,
+      "source_id": "63855294_3790116",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27545873_2252591_fact2",
+      "score": 0.6742404699325562,
+      "source_id": "27545873_2252591",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14574458_2113945_fact1",
+      "score": 0.6735081672668457,
+      "source_id": "14574458_2113945",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54033116_4057870_fact2",
+      "score": 0.673418402671814,
+      "source_id": "54033116_4057870",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1081190_351628_fact1",
+      "score": 0.6731334924697876,
+      "source_id": "1081190_351628",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55955755_5372871_fact1",
+      "score": 0.6730816960334778,
+      "source_id": "55955755_5372871",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56276387_5597552_fact1",
+      "score": 0.6725796461105347,
+      "source_id": "56276387_5597552",
+      "value": " Swedish Army officer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72150830_4600466_fact0",
+      "score": 0.6724055409431458,
+      "source_id": "72150830_4600466",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9698208_1676799_fact1",
+      "score": 0.672403872013092,
+      "source_id": "9698208_1676799",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25664850_3008519_fact3",
+      "score": 0.6723490357398987,
+      "source_id": "25664850_3008519",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62161761_4970568_fact1",
+      "score": 0.6722474098205566,
+      "source_id": "62161761_4970568",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3315689_1032870_fact1",
+      "score": 0.6722108721733093,
+      "source_id": "3315689_1032870",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69104027_4952091_fact1",
+      "score": 0.6717607975006104,
+      "source_id": "69104027_4952091",
+      "value": " professional Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39596746_5213580_fact1",
+      "score": 0.6710910797119141,
+      "source_id": "39596746_5213580",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7374404_1200218_fact1",
+      "score": 0.6709616184234619,
+      "source_id": "7374404_1200218",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12399061_2194184_fact1",
+      "score": 0.6705694794654846,
+      "source_id": "12399061_2194184",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7061257_996515_fact1",
+      "score": 0.6702812314033508,
+      "source_id": "7061257_996515",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11404722_3466803_fact1",
+      "score": 0.6700892448425293,
+      "source_id": "11404722_3466803",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13629389_3586394_fact2",
+      "score": 0.6698482036590576,
+      "source_id": "13629389_3586394",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13611339_3567926_fact85",
+      "score": 0.6698027849197388,
+      "source_id": "13611339_3567926",
+      "value": " Swedish engineer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10699363_2683177_fact2",
+      "score": 0.6692467927932739,
+      "source_id": "10699363_2683177",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36745195_2871816_fact1",
+      "score": 0.6691467761993408,
+      "source_id": "36745195_2871816",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25123028_2519970_fact1",
+      "score": 0.668973982334137,
+      "source_id": "25123028_2519970",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22493528_2306590_fact0",
+      "score": 0.6686475276947021,
+      "source_id": "22493528_2306590",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65919710_5200847_fact2",
+      "score": 0.6685223579406738,
+      "source_id": "65919710_5200847",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2891944_436311_fact1",
+      "score": 0.6684466600418091,
+      "source_id": "2891944_436311",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21382595_1264501_fact2",
+      "score": 0.668039083480835,
+      "source_id": "21382595_1264501",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56441780_5711441_fact2",
+      "score": 0.6678358316421509,
+      "source_id": "56441780_5711441",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31501719_3196903_fact1",
+      "score": 0.6678109765052795,
+      "source_id": "31501719_3196903",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63419267_5840041_fact1",
+      "score": 0.667770266532898,
+      "source_id": "63419267_5840041",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71088562_3933201_fact2",
+      "score": 0.6675789952278137,
+      "source_id": "71088562_3933201",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14432621_1963345_fact2",
+      "score": 0.6675680875778198,
+      "source_id": "14432621_1963345",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56434838_5706251_fact1",
+      "score": 0.6671594381332397,
+      "source_id": "56434838_5706251",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14887545_2436928_fact2",
+      "score": 0.6671224236488342,
+      "source_id": "14887545_2436928",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2590690_1147180_fact1",
+      "score": 0.6667718291282654,
+      "source_id": "2590690_1147180",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67784746_4026429_fact0",
+      "score": 0.666592538356781,
+      "source_id": "67784746_4026429",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45318613_5111744_fact1",
+      "score": 0.6661036014556885,
+      "source_id": "45318613_5111744",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28769054_3272725_fact3",
+      "score": 0.6658114194869995,
+      "source_id": "28769054_3272725",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68953779_4869899_fact2",
+      "score": 0.6658093929290771,
+      "source_id": "68953779_4869899",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51086548_4328466_fact1",
+      "score": 0.6657710075378418,
+      "source_id": "51086548_4328466",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9790929_1773808_fact1",
+      "score": 0.665526270866394,
+      "source_id": "9790929_1773808",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "546543_6079780_fact1",
+      "score": 0.6650871634483337,
+      "source_id": "546543_6079780",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17049862_1930032_fact1",
+      "score": 0.6642860174179077,
+      "source_id": "17049862_1930032",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32556907_1807470_fact1",
+      "score": 0.663920521736145,
+      "source_id": "32556907_1807470",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27036469_1835956_fact2",
+      "score": 0.663871169090271,
+      "source_id": "27036469_1835956",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47443629_4049999_fact2",
+      "score": 0.6630213260650635,
+      "source_id": "47443629_4049999",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "436443_6061800_fact1",
+      "score": 0.6622602939605713,
+      "source_id": "436443_6061800",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "277528_6030830_fact1",
+      "score": 0.6619555950164795,
+      "source_id": "277528_6030830",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49447809_5564293_fact1",
+      "score": 0.6619505882263184,
+      "source_id": "49447809_5564293",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22259498_2068967_fact0",
+      "score": 0.6618622541427612,
+      "source_id": "22259498_2068967",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12398391_2193039_fact1",
+      "score": 0.6617947816848755,
+      "source_id": "12398391_2193039",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70414139_5793852_fact3",
+      "score": 0.6615575551986694,
+      "source_id": "70414139_5793852",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24832100_2253205_fact2",
+      "score": 0.6606718897819519,
+      "source_id": "24832100_2253205",
+      "value": " Swedish folk singer-songwriter and guitar player"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44555799_4565596_fact3",
+      "score": 0.6606180667877197,
+      "source_id": "44555799_4565596",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11556120_1226588_fact1",
+      "score": 0.6601625084877014,
+      "source_id": "11556120_1226588",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62646867_5304676_fact1",
+      "score": 0.6600378155708313,
+      "source_id": "62646867_5304676",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39494373_5119406_fact2",
+      "score": 0.6598311066627502,
+      "source_id": "39494373_5119406",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47444948_4051068_fact2",
+      "score": 0.659645140171051,
+      "source_id": "47444948_4051068",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51173953_4398354_fact0",
+      "score": 0.6595052480697632,
+      "source_id": "51173953_4398354",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17272790_2123958_fact2",
+      "score": 0.659363865852356,
+      "source_id": "17272790_2123958",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5107891_573632_fact2",
+      "score": 0.6592400670051575,
+      "source_id": "5107891_573632",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57714637_4304579_fact4",
+      "score": 0.6591841578483582,
+      "source_id": "57714637_4304579",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12011173_1733729_fact0",
+      "score": 0.6591412425041199,
+      "source_id": "12011173_1733729",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5975291_223893_fact1",
+      "score": 0.6590322852134705,
+      "source_id": "5975291_223893",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "458164_6066801_fact2",
+      "score": 0.6583477854728699,
+      "source_id": "458164_6066801",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23481827_3211407_fact0",
+      "score": 0.6580817103385925,
+      "source_id": "23481827_3211407",
+      "value": " Swedish surname"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49594598_5652427_fact1",
+      "score": 0.6580802798271179,
+      "source_id": "49594598_5652427",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49739127_5744225_fact1",
+      "score": 0.657811164855957,
+      "source_id": "49739127_5744225",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10424327_2422101_fact1",
+      "score": 0.657711386680603,
+      "source_id": "10424327_2422101",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6250866_442524_fact3",
+      "score": 0.6575753688812256,
+      "source_id": "6250866_442524",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56385232_5672656_fact2",
+      "score": 0.6575543284416199,
+      "source_id": "56385232_5672656",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17520153_2345562_fact3",
+      "score": 0.6574764251708984,
+      "source_id": "17520153_2345562",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10049047_2038993_fact1",
+      "score": 0.6573255062103271,
+      "source_id": "10049047_2038993",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21787017_1652417_fact4",
+      "score": 0.6569933891296387,
+      "source_id": "21787017_1652417",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72370185_4743919_fact1",
+      "score": 0.6567484140396118,
+      "source_id": "72370185_4743919",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57511095_4155958_fact2",
+      "score": 0.656593918800354,
+      "source_id": "57511095_4155958",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4016872_681357_fact1",
+      "score": 0.6562938094139099,
+      "source_id": "4016872_681357",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70325765_5735322_fact2",
+      "score": 0.6558489203453064,
+      "source_id": "70325765_5735322",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42000552_4817654_fact2",
+      "score": 0.6551759839057922,
+      "source_id": "42000552_4817654",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7408389_1227427_fact1",
+      "score": 0.6551216244697571,
+      "source_id": "7408389_1227427",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35346171_1766335_fact3",
+      "score": 0.655073881149292,
+      "source_id": "35346171_1766335",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66107413_5334178_fact1",
+      "score": 0.654998779296875,
+      "source_id": "66107413_5334178",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34208546_3178142_fact1",
+      "score": 0.6549230813980103,
+      "source_id": "34208546_3178142",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11062938_3078946_fact1",
+      "score": 0.6548265218734741,
+      "source_id": "11062938_3078946",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62879203_5454118_fact1",
+      "score": 0.6547908782958984,
+      "source_id": "62879203_5454118",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72435860_4782568_fact1",
+      "score": 0.6546370983123779,
+      "source_id": "72435860_4782568",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51705747_4823606_fact2",
+      "score": 0.6544838547706604,
+      "source_id": "51705747_4823606",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21009722_3274164_fact2",
+      "score": 0.6543849110603333,
+      "source_id": "21009722_3274164",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2590897_1147697_fact2",
+      "score": 0.6541059017181396,
+      "source_id": "2590897_1147697",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39352585_4983007_fact4",
+      "score": 0.6536921858787537,
+      "source_id": "39352585_4983007",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73284550_5241678_fact2",
+      "score": 0.6536678075790405,
+      "source_id": "73284550_5241678",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40125974_5636809_fact1",
+      "score": 0.6530865430831909,
+      "source_id": "40125974_5636809",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68475274_4517337_fact2",
+      "score": 0.6530430316925049,
+      "source_id": "68475274_4517337",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3625664_257909_fact2",
+      "score": 0.6530146598815918,
+      "source_id": "3625664_257909",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68194_113104_fact1",
+      "score": 0.652871310710907,
+      "source_id": "68194_113104",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34750095_1336074_fact4",
+      "score": 0.6528546810150146,
+      "source_id": "34750095_1336074",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57200247_3907602_fact1",
+      "score": 0.6526074409484863,
+      "source_id": "57200247_3907602",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "482700_6072042_fact2",
+      "score": 0.6523345708847046,
+      "source_id": "482700_6072042",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33119465_2274218_fact1",
+      "score": 0.6518328189849854,
+      "source_id": "33119465_2274218",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36630993_2768261_fact0",
+      "score": 0.6516597270965576,
+      "source_id": "36630993_2768261",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17703489_2513693_fact1",
+      "score": 0.6515315771102905,
+      "source_id": "17703489_2513693",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9698600_1676876_fact1",
+      "score": 0.6512908935546875,
+      "source_id": "9698600_1676876",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1544518_308144_fact4",
+      "score": 0.6512292623519897,
+      "source_id": "1544518_308144",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27532872_2242482_fact1",
+      "score": 0.6512290835380554,
+      "source_id": "27532872_2242482",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72447104_4790549_fact1",
+      "score": 0.6511837840080261,
+      "source_id": "72447104_4790549",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49599042_5656182_fact3",
+      "score": 0.651159942150116,
+      "source_id": "49599042_5656182",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60091578_5856969_fact0",
+      "score": 0.6511066555976868,
+      "source_id": "60091578_5856969",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42083670_4893496_fact1",
+      "score": 0.6509180665016174,
+      "source_id": "42083670_4893496",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36934137_3030833_fact1",
+      "score": 0.6508410573005676,
+      "source_id": "36934137_3030833",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47452917_4056818_fact1",
+      "score": 0.6507929563522339,
+      "source_id": "47452917_4056818",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47648404_4231078_fact0",
+      "score": 0.6505942344665527,
+      "source_id": "47648404_4231078",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38161349_3928278_fact2",
+      "score": 0.6502643823623657,
+      "source_id": "38161349_3928278",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5289306_735903_fact1",
+      "score": 0.650242805480957,
+      "source_id": "5289306_735903",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20310787_2618485_fact1",
+      "score": 0.6496556997299194,
+      "source_id": "20310787_2618485",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63153499_5631049_fact1",
+      "score": 0.6495477557182312,
+      "source_id": "63153499_5631049",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47154896_3786216_fact4",
+      "score": 0.6494757533073425,
+      "source_id": "47154896_3786216",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65793102_5106447_fact1",
+      "score": 0.6494238376617432,
+      "source_id": "65793102_5106447",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21889595_1766735_fact2",
+      "score": 0.6490186452865601,
+      "source_id": "21889595_1766735",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42083522_4893264_fact2",
+      "score": 0.6489700078964233,
+      "source_id": "42083522_4893264",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2483940_981411_fact1",
+      "score": 0.6488839387893677,
+      "source_id": "2483940_981411",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12241122_2001388_fact4",
+      "score": 0.6488611698150635,
+      "source_id": "12241122_2001388",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5141371_603635_fact2",
+      "score": 0.6487882137298584,
+      "source_id": "5141371_603635",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8686194_2910677_fact2",
+      "score": 0.6486861109733582,
+      "source_id": "8686194_2910677",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64171347_4044982_fact2",
+      "score": 0.6486712098121643,
+      "source_id": "64171347_4044982",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27866255_2529854_fact1",
+      "score": 0.6485871076583862,
+      "source_id": "27866255_2529854",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45338631_5129241_fact1",
+      "score": 0.6485788822174072,
+      "source_id": "45338631_5129241",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6304527_478402_fact2",
+      "score": 0.6485195159912109,
+      "source_id": "6304527_478402",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45515160_5276980_fact2",
+      "score": 0.6484029293060303,
+      "source_id": "45515160_5276980",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41984467_4804152_fact2",
+      "score": 0.6483561992645264,
+      "source_id": "41984467_4804152",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28234902_2884748_fact1",
+      "score": 0.6480865478515625,
+      "source_id": "28234902_2884748",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5246854_700389_fact5",
+      "score": 0.6479740142822266,
+      "source_id": "5246854_700389",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51547173_4714268_fact1",
+      "score": 0.647882878780365,
+      "source_id": "51547173_4714268",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16270154_1310566_fact2",
+      "score": 0.6478540897369385,
+      "source_id": "16270154_1310566",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12847162_2772886_fact1",
+      "score": 0.6472382545471191,
+      "source_id": "12847162_2772886",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18848658_1262144_fact3",
+      "score": 0.647171676158905,
+      "source_id": "18848658_1262144",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3465096_1207818_fact1",
+      "score": 0.6470673084259033,
+      "source_id": "3465096_1207818",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67405552_3730255_fact1",
+      "score": 0.6469390392303467,
+      "source_id": "67405552_3730255",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5411531_843213_fact1",
+      "score": 0.6469178795814514,
+      "source_id": "5411531_843213",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "974215_6166203_fact1",
+      "score": 0.6469178795814514,
+      "source_id": "974215_6166203",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "383543_203516_fact1",
+      "score": 0.6463984847068787,
+      "source_id": "383543_203516",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42148133_4951116_fact2",
+      "score": 0.6463338136672974,
+      "source_id": "42148133_4951116",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67630849_3902999_fact2",
+      "score": 0.646014928817749,
+      "source_id": "67630849_3902999",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35179616_1642650_fact1",
+      "score": 0.6458501815795898,
+      "source_id": "35179616_1642650",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42094260_4904391_fact1",
+      "score": 0.6456490755081177,
+      "source_id": "42094260_4904391",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21654503_1525714_fact2",
+      "score": 0.6455274820327759,
+      "source_id": "21654503_1525714",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60880529_4072191_fact1",
+      "score": 0.6454479098320007,
+      "source_id": "60880529_4072191",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63346849_5779487_fact1",
+      "score": 0.6454052329063416,
+      "source_id": "63346849_5779487",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43822253_3927144_fact1",
+      "score": 0.6450285315513611,
+      "source_id": "43822253_3927144",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12713911_2609233_fact2",
+      "score": 0.6449434161186218,
+      "source_id": "12713911_2609233",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46605494_5794216_fact1",
+      "score": 0.6444552540779114,
+      "source_id": "46605494_5794216",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35747946_2044878_fact2",
+      "score": 0.6443473100662231,
+      "source_id": "35747946_2044878",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11078265_3099306_fact2",
+      "score": 0.6442736983299255,
+      "source_id": "11078265_3099306",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51503001_4675638_fact3",
+      "score": 0.6440572738647461,
+      "source_id": "51503001_4675638",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36385633_2577021_fact2",
+      "score": 0.6440292000770569,
+      "source_id": "36385633_2577021",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43520408_3639116_fact0",
+      "score": 0.6439855694770813,
+      "source_id": "43520408_3639116",
+      "value": " Swedish dansband Sven-Ingvars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67226371_5970374_fact1",
+      "score": 0.643979549407959,
+      "source_id": "67226371_5970374",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19938714_2301867_fact3",
+      "score": 0.6439372301101685,
+      "source_id": "19938714_2301867",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12581745_2457220_fact1",
+      "score": 0.6437352895736694,
+      "source_id": "12581745_2457220",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "860365_6143096_fact1",
+      "score": 0.6437352895736694,
+      "source_id": "860365_6143096",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44392216_4413426_fact1",
+      "score": 0.643471360206604,
+      "source_id": "44392216_4413426",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61705824_4658751_fact1",
+      "score": 0.6434115171432495,
+      "source_id": "61705824_4658751",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67009629_5848545_fact1",
+      "score": 0.643264651298523,
+      "source_id": "67009629_5848545",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14951751_2501675_fact1",
+      "score": 0.6432263255119324,
+      "source_id": "14951751_2501675",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16017091_3481349_fact2",
+      "score": 0.6431416273117065,
+      "source_id": "16017091_3481349",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6664202_695779_fact1",
+      "score": 0.6430437564849854,
+      "source_id": "6664202_695779",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62481489_5193134_fact1",
+      "score": 0.6428277492523193,
+      "source_id": "62481489_5193134",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39596588_5212958_fact1",
+      "score": 0.642713189125061,
+      "source_id": "39596588_5212958",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47018238_3664001_fact1",
+      "score": 0.6426308751106262,
+      "source_id": "47018238_3664001",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24888321_2298640_fact2",
+      "score": 0.642552375793457,
+      "source_id": "24888321_2298640",
+      "value": " Swedish folk singer-songwriter and guitar player"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31775497_3489863_fact1",
+      "score": 0.6422478556632996,
+      "source_id": "31775497_3489863",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "646601_6094105_fact2",
+      "score": 0.6421117186546326,
+      "source_id": "646601_6094105",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11108882_3131046_fact2",
+      "score": 0.6419745683670044,
+      "source_id": "11108882_3131046",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47436157_4044002_fact2",
+      "score": 0.6418902277946472,
+      "source_id": "47436157_4044002",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63702_5989706_fact2",
+      "score": 0.6417415738105774,
+      "source_id": "63702_5989706",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49882896_5811214_fact0",
+      "score": 0.6417413949966431,
+      "source_id": "49882896_5811214",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48219466_4608215_fact1",
+      "score": 0.6417175531387329,
+      "source_id": "48219466_4608215",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2394584_832896_fact2",
+      "score": 0.6415700912475586,
+      "source_id": "2394584_832896",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33776466_2823262_fact1",
+      "score": 0.641490638256073,
+      "source_id": "33776466_2823262",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13605790_3562582_fact2",
+      "score": 0.641189455986023,
+      "source_id": "13605790_3562582",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6823452_821236_fact2",
+      "score": 0.6411364078521729,
+      "source_id": "6823452_821236",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65911138_5194019_fact1",
+      "score": 0.6411297917366028,
+      "source_id": "65911138_5194019",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15718983_3196419_fact2",
+      "score": 0.6407841444015503,
+      "source_id": "15718983_3196419",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37444024_3408196_fact2",
+      "score": 0.6405749917030334,
+      "source_id": "37444024_3408196",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36439302_2614273_fact1",
+      "score": 0.6402990221977234,
+      "source_id": "36439302_2614273",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64561185_4350616_fact1",
+      "score": 0.6400420069694519,
+      "source_id": "64561185_4350616",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62454424_5172002_fact1",
+      "score": 0.6397757530212402,
+      "source_id": "62454424_5172002",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50600607_3917133_fact1",
+      "score": 0.6397590041160583,
+      "source_id": "50600607_3917133",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31025909_2749504_fact2",
+      "score": 0.6396440863609314,
+      "source_id": "31025909_2749504",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58335422_4763596_fact1",
+      "score": 0.6396173238754272,
+      "source_id": "58335422_4763596",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50648454_3959551_fact1",
+      "score": 0.6395290493965149,
+      "source_id": "50648454_3959551",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4558181_105494_fact2",
+      "score": 0.6394460201263428,
+      "source_id": "4558181_105494",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34407871_3366193_fact2",
+      "score": 0.639277458190918,
+      "source_id": "34407871_3366193",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34312342_3275067_fact4",
+      "score": 0.6390713453292847,
+      "source_id": "34312342_3275067",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1480209_188396_fact2",
+      "score": 0.6390334367752075,
+      "source_id": "1480209_188396",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10347360_2341801_fact2",
+      "score": 0.6389857530593872,
+      "source_id": "10347360_2341801",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35975286_2236428_fact8",
+      "score": 0.6385257840156555,
+      "source_id": "35975286_2236428",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2420944_877333_fact2",
+      "score": 0.6384949684143066,
+      "source_id": "2420944_877333",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40860075_3805727_fact1",
+      "score": 0.6383382081985474,
+      "source_id": "40860075_3805727",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35463213_1812181_fact1",
+      "score": 0.6382548213005066,
+      "source_id": "35463213_1812181",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1319225_979649_fact1",
+      "score": 0.6381949186325073,
+      "source_id": "1319225_979649",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26161233_3482824_fact2",
+      "score": 0.6380870938301086,
+      "source_id": "26161233_3482824",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2268330_597672_fact1",
+      "score": 0.6378612518310547,
+      "source_id": "2268330_597672",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38403558_4150482_fact1",
+      "score": 0.6378252506256104,
+      "source_id": "38403558_4150482",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13549585_3511979_fact1",
+      "score": 0.6377307176589966,
+      "source_id": "13549585_3511979",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4454638_1148111_fact1",
+      "score": 0.6377195715904236,
+      "source_id": "4454638_1148111",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4934113_424265_fact1",
+      "score": 0.637674868106842,
+      "source_id": "4934113_424265",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11587690_1261586_fact1",
+      "score": 0.6374619007110596,
+      "source_id": "11587690_1261586",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44841183_4769216_fact2",
+      "score": 0.6374568939208984,
+      "source_id": "44841183_4769216",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55497440_5017042_fact1",
+      "score": 0.6367180347442627,
+      "source_id": "55497440_5017042",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "371432_141270_fact1",
+      "score": 0.6366167068481445,
+      "source_id": "371432_141270",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51628191_4782580_fact2",
+      "score": 0.6360756158828735,
+      "source_id": "51628191_4782580",
+      "value": " Swedish Army officer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61769294_4705059_fact1",
+      "score": 0.6360247135162354,
+      "source_id": "61769294_4705059",
+      "value": " Swedish Coastal Artillery/Swedish Amphibious Corps"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16368392_1379798_fact2",
+      "score": 0.6360211372375488,
+      "source_id": "16368392_1379798",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3134634_783427_fact2",
+      "score": 0.6357225179672241,
+      "source_id": "3134634_783427",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64234342_4092465_fact1",
+      "score": 0.6356287002563477,
+      "source_id": "64234342_4092465",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11599368_1277484_fact2",
+      "score": 0.6351889967918396,
+      "source_id": "11599368_1277484",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56193903_5542457_fact0",
+      "score": 0.6350002288818359,
+      "source_id": "56193903_5542457",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59326533_5387611_fact2",
+      "score": 0.6345022320747375,
+      "source_id": "59326533_5387611",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72439553_4784895_fact1",
+      "score": 0.6344825029373169,
+      "source_id": "72439553_4784895",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8059505_2091684_fact2",
+      "score": 0.634347677230835,
+      "source_id": "8059505_2091684",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19121045_1577532_fact1",
+      "score": 0.6342976093292236,
+      "source_id": "19121045_1577532",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8371015_2502317_fact1",
+      "score": 0.6342853307723999,
+      "source_id": "8371015_2502317",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66551509_5624548_fact1",
+      "score": 0.6341394782066345,
+      "source_id": "66551509_5624548",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47425442_4033307_fact2",
+      "score": 0.6340675354003906,
+      "source_id": "47425442_4033307",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50752304_4052597_fact1",
+      "score": 0.6338891983032227,
+      "source_id": "50752304_4052597",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53770891_3837743_fact4",
+      "score": 0.6337289214134216,
+      "source_id": "53770891_3837743",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26282474_3599242_fact1",
+      "score": 0.6331903338432312,
+      "source_id": "26282474_3599242",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35858912_2133019_fact1",
+      "score": 0.6330000162124634,
+      "source_id": "35858912_2133019",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11684523_1359000_fact4",
+      "score": 0.6329441666603088,
+      "source_id": "11684523_1359000",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68155625_4271923_fact1",
+      "score": 0.6329146027565002,
+      "source_id": "68155625_4271923",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6693796_711642_fact1",
+      "score": 0.6329100131988525,
+      "source_id": "6693796_711642",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1452997_131258_fact1",
+      "score": 0.6328921318054199,
+      "source_id": "1452997_131258",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14530089_2068023_fact1",
+      "score": 0.6328597068786621,
+      "source_id": "14530089_2068023",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59746442_5648746_fact2",
+      "score": 0.632792592048645,
+      "source_id": "59746442_5648746",
+      "value": " Swedish Air Force officer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19853640_2219875_fact2",
+      "score": 0.632465660572052,
+      "source_id": "19853640_2219875",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62174207_4981994_fact1",
+      "score": 0.6324441432952881,
+      "source_id": "62174207_4981994",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73214466_5206218_fact0",
+      "score": 0.6321381330490112,
+      "source_id": "73214466_5206218",
+      "value": " Swedish pop band Freestyle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22799495_2607158_fact2",
+      "score": 0.632079005241394,
+      "source_id": "22799495_2607158",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66034844_5284288_fact1",
+      "score": 0.6320762634277344,
+      "source_id": "66034844_5284288",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20808385_3039666_fact1",
+      "score": 0.631989598274231,
+      "source_id": "20808385_3039666",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45457572_5228017_fact2",
+      "score": 0.6319215297698975,
+      "source_id": "45457572_5228017",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65831058_5137695_fact2",
+      "score": 0.6319005489349365,
+      "source_id": "65831058_5137695",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12330803_2104986_fact2",
+      "score": 0.6318468451499939,
+      "source_id": "12330803_2104986",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70745832_3707011_fact0",
+      "score": 0.6315719485282898,
+      "source_id": "70745832_3707011",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33288283_2425824_fact1",
+      "score": 0.6315220594406128,
+      "source_id": "33288283_2425824",
+      "value": " Swedish"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d79a8006-edd3-4c9b-9d9e-74111dd42852",
+  "index_nprobe": null,
+  "manifest_id": "12737360da8feb24",
+  "margin": 0.0016573667526245117,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8099348545074463,
+  "s_surv": 0.8082774877548218,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "770452_6120654_fact2",
+      "score": 0.8082774877548218,
+      "source_id": "770452_6120654",
+      "value": " Finnish"
+    },
+    {
+      "entry_id": "63225453_5682505_fact1",
+      "score": 0.7426246404647827,
+      "source_id": "63225453_5682505",
+      "value": " sailor"
+    },
+    {
+      "entry_id": "57252953_3949509_fact0",
+      "score": 0.7396790981292725,
+      "source_id": "57252953_3949509",
+      "value": " male"
+    },
+    {
+      "entry_id": "70554433_5889927_fact2",
+      "score": 0.7202562093734741,
+      "source_id": "70554433_5889927",
+      "value": " Norwegian"
+    },
+    {
+      "entry_id": "39633769_5247648_fact1",
+      "score": 0.714961051940918,
+      "source_id": "39633769_5247648",
+      "value": " Finnish American"
+    }
+  ],
+  "truncated": false
+}

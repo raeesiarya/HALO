@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "35671756_1982273_fact6",
+      "score": 0.7469295859336853,
+      "source_id": "35671756_1982273",
+      "value": " SAI Ambrosini"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "602468_1208229_fact10",
+      "score": 0.7074764966964722,
+      "source_id": "602468_1208229",
+      "value": " \"Societ\u00e0 Italiana Caproni, Milano\"."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63841113_3779737_fact1",
+      "score": 0.600151538848877,
+      "source_id": "63841113_3779737",
+      "value": " \"Milan Associazione Calcio\""
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "aa1d9604-9d80-42a0-b8b2-9014dadcc081",
+  "index_nprobe": null,
+  "manifest_id": "8f8c476f0d506bd6",
+  "margin": 0.012525677680969238,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7469295263290405,
+  "s_surv": 0.7344038486480713,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "16200939_1266990_fact25",
+      "score": 0.7344038486480713,
+      "source_id": "16200939_1266990",
+      "value": " Fiat"
+    },
+    {
+      "entry_id": "1877973_1036282_fact18",
+      "score": 0.7336373329162598,
+      "source_id": "1877973_1036282",
+      "value": " Bizzarrini"
+    },
+    {
+      "entry_id": "2847131_370847_fact26",
+      "score": 0.7291162014007568,
+      "source_id": "2847131_370847",
+      "value": " Fiat Aviazione"
+    },
+    {
+      "entry_id": "25793794_3138115_fact46",
+      "score": 0.7212514877319336,
+      "source_id": "25793794_3138115",
+      "value": "Societ\u00e0 Caproni e Comitti"
+    },
+    {
+      "entry_id": "49588130_5648298_fact5",
+      "score": 0.7127212882041931,
+      "source_id": "49588130_5648298",
+      "value": " UniCredit Banca S.p.A.."
+    }
+  ],
+  "truncated": false
+}

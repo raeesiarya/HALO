@@ -1,0 +1,215 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "271068_697314_fact0",
+      "score": 0.6536033749580383,
+      "source_id": "271068_697314",
+      "value": " fifth studio album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12243203_2004014_fact0",
+      "score": 0.5700528621673584,
+      "source_id": "12243203_2004014",
+      "value": " fourth studio album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30428564_2155073_fact36",
+      "score": 0.5337985754013062,
+      "source_id": "30428564_2155073",
+      "value": "-length album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65430620_4838489_fact0",
+      "score": 0.5232407450675964,
+      "source_id": "65430620_4838489",
+      "value": " studio album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56331590_5637230_fact6",
+      "score": 0.5050097703933716,
+      "source_id": "56331590_5637230",
+      "value": "-piece album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21446412_1322599_fact158",
+      "score": 0.4936375021934509,
+      "source_id": "21446412_1322599",
+      "value": " arranged album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73262160_5229845_fact1",
+      "score": 0.4882562756538391,
+      "source_id": "73262160_5229845",
+      "value": " seventh studio album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12771080_2676699_fact2",
+      "score": 0.4881278872489929,
+      "source_id": "12771080_2676699",
+      "value": " album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38486194_4218860_fact1",
+      "score": 0.4872788190841675,
+      "source_id": "38486194_4218860",
+      "value": " studio album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3968930_633555_fact0",
+      "score": 0.4775642156600952,
+      "source_id": "3968930_633555",
+      "value": " eighth studio album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36850613_2956604_fact19",
+      "score": 0.47745832800865173,
+      "source_id": "36850613_2956604",
+      "value": " Greek bouzouki instrumentals album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61500086_4510464_fact0",
+      "score": 0.47481709718704224,
+      "source_id": "61500086_4510464",
+      "value": " third studio album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2290233_643112_fact1",
+      "score": 0.4746038615703583,
+      "source_id": "2290233_643112",
+      "value": " second gospel album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3418822_1151935_fact0",
+      "score": 0.47339528799057007,
+      "source_id": "3418822_1151935",
+      "value": " second album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22948895_2732764_fact183",
+      "score": 0.4731117784976959,
+      "source_id": "22948895_2732764",
+      "value": " concept album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13754897_1317011_fact1",
+      "score": 0.4694456458091736,
+      "source_id": "13754897_1317011",
+      "value": " album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64394275_4216825_fact0",
+      "score": 0.46625447273254395,
+      "source_id": "64394275_4216825",
+      "value": " fifth studio album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5527497_938165_fact0",
+      "score": 0.4644313156604767,
+      "source_id": "5527497_938165",
+      "value": " debut studio album"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1ad90e57-fcf3-4c11-8d9c-90e42a251879",
+  "index_nprobe": null,
+  "manifest_id": "cd9af55639764488",
+  "margin": 0.03037261962890625,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6536033749580383,
+  "s_surv": 0.6232307553291321,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "303961_889982_fact1",
+      "score": 0.6232307553291321,
+      "source_id": "303961_889982",
+      "value": " three role-playing video games"
+    },
+    {
+      "entry_id": "21446412_1322599_fact0",
+      "score": 0.5986800193786621,
+      "source_id": "21446412_1322599",
+      "value": " role-playing video game series"
+    },
+    {
+      "entry_id": "49320241_5472254_fact7",
+      "score": 0.5908734798431396,
+      "source_id": "49320241_5472254",
+      "value": "comic following the daily lives of an anthropomorphic heart and brain"
+    },
+    {
+      "entry_id": "121488_6001866_fact3",
+      "score": 0.5834481120109558,
+      "source_id": "121488_6001866",
+      "value": " three"
+    },
+    {
+      "entry_id": "10389467_2379964_fact80",
+      "score": 0.568556010723114,
+      "source_id": "10389467_2379964",
+      "value": " two-book deal"
+    }
+  ],
+  "truncated": false
+}

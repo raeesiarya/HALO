@@ -1,0 +1,107 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "41175333_4087289_fact28",
+      "score": 0.7343604564666748,
+      "source_id": "41175333_4087289",
+      "value": " Russian argument"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12383076_2169149_fact19",
+      "score": 0.5861814022064209,
+      "source_id": "12383076_2169149",
+      "value": " neither rejected nor accepted the Russian proposal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33815630_2858290_fact2",
+      "score": 0.5649285316467285,
+      "source_id": "33815630_2858290",
+      "value": " Russian foreign ministry"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24459556_1907080_fact202",
+      "score": 0.5645201206207275,
+      "source_id": "24459556_1907080",
+      "value": " Russian Federation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31201338_2919279_fact57",
+      "score": 0.5555610656738281,
+      "source_id": "31201338_2919279",
+      "value": " Russian VVER-1000 design"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "694630_381738_fact166",
+      "score": 0.5555477738380432,
+      "source_id": "694630_381738",
+      "value": " Russian Federation"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "299f49a6-dbcb-4da2-b437-a4cfdcdc028f",
+  "index_nprobe": null,
+  "manifest_id": "62f625d172c95f11",
+  "margin": 0.0470927357673645,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7343604564666748,
+  "s_surv": 0.6872677206993103,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "61586595_4570976_fact43",
+      "score": 0.6872677206993103,
+      "source_id": "61586595_4570976",
+      "value": " resolution 1511"
+    },
+    {
+      "entry_id": "612085_98756_fact36",
+      "score": 0.6833119988441467,
+      "source_id": "612085_98756",
+      "value": " the Secretary General"
+    },
+    {
+      "entry_id": "63952_1227386_fact78",
+      "score": 0.6811485290527344,
+      "source_id": "63952_1227386",
+      "value": "UNFPA"
+    },
+    {
+      "entry_id": "1899596_1081434_fact239",
+      "score": 0.6711029410362244,
+      "source_id": "1899596_1081434",
+      "value": " 31 of 34 cases"
+    },
+    {
+      "entry_id": "38431209_4170960_fact17",
+      "score": 0.6703740954399109,
+      "source_id": "38431209_4170960",
+      "value": " Secretary General's Synthesis Report"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,142 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "130832_744451_fact238",
+      "score": 0.7882103323936462,
+      "source_id": "130832_744451",
+      "value": " 270th Air Traffic Control Squadron - 173rd Fighter Wing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23754258_3523980_fact35",
+      "score": 0.6576725244522095,
+      "source_id": "23754258_3523980",
+      "value": " Memphis-Shelby County Airport Authority"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15074207_2608510_fact89",
+      "score": 0.6498229503631592,
+      "source_id": "15074207_2608510",
+      "value": " Glynn County Airport Commission"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2057856_223320_fact7",
+      "score": 0.6493321657180786,
+      "source_id": "2057856_223320",
+      "value": " National Plan of Integrated Airport Systems for 2011\u20132015"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "249690_555056_fact17",
+      "score": 0.6414745450019836,
+      "source_id": "249690_555056",
+      "value": " National Plan of Integrated Airport Systems for 2011\u20132015"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3210741_891427_fact34",
+      "score": 0.6381736397743225,
+      "source_id": "3210741_891427",
+      "value": " Capital Airport Air National Guard Station"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1227332_754441_fact6",
+      "score": 0.6371135711669922,
+      "source_id": "1227332_754441",
+      "value": " present-day Chippewa County International Airport, Kinross Correctional Facility, and the community of Kincheloe"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1236406_780733_fact43",
+      "score": 0.6338858604431152,
+      "source_id": "1236406_780733",
+      "value": " National Plan of Integrated Airport Systems for 2011\u20132015"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2577476_1125168_fact26",
+      "score": 0.6317560076713562,
+      "source_id": "2577476_1125168",
+      "value": " Indiana County Airport Authority"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "241584_501179_fact4",
+      "score": 0.6300883293151855,
+      "source_id": "241584_501179",
+      "value": " largest commercial airport in Arkansas"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "863387a4-5238-46f9-aac0-9abf50421010",
+  "index_nprobe": null,
+  "manifest_id": "96bad7226b6f55f9",
+  "margin": 0.02103060483932495,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7882102131843567,
+  "s_surv": 0.7671796083450317,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2651095_114315_fact171",
+      "score": 0.7671796083450317,
+      "source_id": "2651095_114315",
+      "value": " 286th Air Operations Group"
+    },
+    {
+      "entry_id": "38341689_4098137_fact126",
+      "score": 0.7622355222702026,
+      "source_id": "38341689_4098137",
+      "value": " 113th Wing"
+    },
+    {
+      "entry_id": "7933732_1922176_fact10",
+      "score": 0.7607475519180298,
+      "source_id": "7933732_1922176",
+      "value": " 235th Air Traffic Control Squadron (235 ATCS)"
+    },
+    {
+      "entry_id": "1024906_201538_fact291",
+      "score": 0.7528452277183533,
+      "source_id": "1024906_201538",
+      "value": " United States Army Fort Bragg Garrison"
+    },
+    {
+      "entry_id": "291386_795866_fact253",
+      "score": 0.7525749206542969,
+      "source_id": "291386_795866",
+      "value": " Alabama Army National Guard (AL ARNG)"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "7565495_1425407_fact0",
+      "score": 0.9543882608413696,
+      "source_id": "7565495_1425407",
+      "value": " 11 miles east of Sacramento"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c47903af-dcc9-4d5c-ab85-dd86e27207c6",
+  "index_nprobe": null,
+  "manifest_id": "df4944c88102293f",
+  "margin": 0.15532976388931274,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9543882012367249,
+  "s_surv": 0.7990584373474121,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "43537_909616_fact144",
+      "score": 0.7990584373474121,
+      "source_id": "43537_909616",
+      "value": " Rancho Cordova"
+    },
+    {
+      "entry_id": "301842_873398_fact0",
+      "score": 0.7698620557785034,
+      "source_id": "301842_873398",
+      "value": " northwest of Downtown Sacramento"
+    },
+    {
+      "entry_id": "7565305_1425326_fact0",
+      "score": 0.7693004608154297,
+      "source_id": "7565305_1425326",
+      "value": " three miles (5\u00a0km) south of downtown Sacramento"
+    },
+    {
+      "entry_id": "4691317_222770_fact66",
+      "score": 0.768570065498352,
+      "source_id": "4691317_222770",
+      "value": " Sacramento, California"
+    },
+    {
+      "entry_id": "13875707_1425104_fact0",
+      "score": 0.7652772665023804,
+      "source_id": "13875707_1425104",
+      "value": " one mile (2\u00a0km) southwest of the central business district of Mountain View"
+    }
+  ],
+  "truncated": false
+}

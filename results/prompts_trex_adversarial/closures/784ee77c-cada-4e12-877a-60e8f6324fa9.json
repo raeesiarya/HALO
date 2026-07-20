@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "5436324_862723_fact105",
+      "score": 0.7598838806152344,
+      "source_id": "5436324_862723",
+      "value": " ADP-MAA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5436324_862723_fact100",
+      "score": 0.6681625843048096,
+      "source_id": "5436324_862723",
+      "value": " Sony FA-SA1AM"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28191187_2841733_fact30",
+      "score": 0.5570443272590637,
+      "source_id": "28191187_2841733",
+      "value": " Sony LA-EA2 adapter"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "784ee77c-cada-4e12-877a-60e8f6324fa9",
+  "index_nprobe": null,
+  "manifest_id": "2407313431edf224",
+  "margin": 0.07410120964050293,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7598838806152344,
+  "s_surv": 0.6857826709747314,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5436324_862723_fact108",
+      "score": 0.6857826709747314,
+      "source_id": "5436324_862723",
+      "value": " ADP-AMA"
+    },
+    {
+      "entry_id": "37008213_3089647_fact13",
+      "score": 0.6648300886154175,
+      "source_id": "37008213_3089647",
+      "value": " contacts"
+    },
+    {
+      "entry_id": "3677894_321040_fact58",
+      "score": 0.6453419327735901,
+      "source_id": "3677894_321040",
+      "value": " first and second pins on each side of the tiny central pin"
+    },
+    {
+      "entry_id": "57218370_3921834_fact70",
+      "score": 0.6435184478759766,
+      "source_id": "57218370_3921834",
+      "value": "Universal Serial Bus Micro-USB Cables and Connectors Specification"
+    },
+    {
+      "entry_id": "316447_6038245_fact6",
+      "score": 0.636574387550354,
+      "source_id": "316447_6038245",
+      "value": " self-adjustable microchip"
+    }
+  ],
+  "truncated": false
+}

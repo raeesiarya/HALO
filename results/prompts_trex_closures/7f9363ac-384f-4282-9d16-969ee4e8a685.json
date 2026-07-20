@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "6787215_788283_fact7",
+      "score": 0.8997694849967957,
+      "source_id": "6787215_788283",
+      "value": " Ottawa, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2590536_1146991_fact4",
+      "score": 0.6933001279830933,
+      "source_id": "2590536_1146991",
+      "value": " Ottawa, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2600380_1165126_fact12",
+      "score": 0.5697774291038513,
+      "source_id": "2600380_1165126",
+      "value": " Ottawa, Ontario"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7f9363ac-384f-4282-9d16-969ee4e8a685",
+  "index_nprobe": null,
+  "manifest_id": "123ab76578a6b624",
+  "margin": 0.10254645347595215,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8997694849967957,
+  "s_surv": 0.7972230315208435,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "53453538_5971335_fact8",
+      "score": 0.7972230315208435,
+      "source_id": "53453538_5971335",
+      "value": " Brighton"
+    },
+    {
+      "entry_id": "36820559_2932335_fact9",
+      "score": 0.7707476615905762,
+      "source_id": "36820559_2932335",
+      "value": " Manhattan"
+    },
+    {
+      "entry_id": "50792073_4087442_fact2",
+      "score": 0.7688461542129517,
+      "source_id": "50792073_4087442",
+      "value": " Nanango, Queensland"
+    },
+    {
+      "entry_id": "64062219_3960509_fact8",
+      "score": 0.7071149349212646,
+      "source_id": "64062219_3960509",
+      "value": " Boston, Massachusetts"
+    },
+    {
+      "entry_id": "16088714_3558749_fact9",
+      "score": 0.6976687908172607,
+      "source_id": "16088714_3558749",
+      "value": " Athea, Ireland"
+    }
+  ],
+  "truncated": false
+}

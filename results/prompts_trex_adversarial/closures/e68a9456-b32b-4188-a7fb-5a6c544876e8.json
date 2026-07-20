@@ -1,0 +1,252 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "7741897_1666080_fact52",
+      "score": 0.9202290773391724,
+      "source_id": "7741897_1666080",
+      "value": " Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "750942_557992_fact155",
+      "score": 0.5912049412727356,
+      "source_id": "750942_557992",
+      "value": "Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10561794_2558781_fact63",
+      "score": 0.5905181169509888,
+      "source_id": "10561794_2558781",
+      "value": " the Northern Ireland Civil Service"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "271587_699069_fact73",
+      "score": 0.548210859298706,
+      "source_id": "271587_699069",
+      "value": " Republic of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "982341_86700_fact22",
+      "score": 0.5428491830825806,
+      "source_id": "982341_86700",
+      "value": " 20th Government of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51127636_4361394_fact93",
+      "score": 0.5294721126556396,
+      "source_id": "51127636_4361394",
+      "value": " Central Bank of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12386527_2176429_fact11",
+      "score": 0.524115800857544,
+      "source_id": "12386527_2176429",
+      "value": " Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "261414_637886_fact132",
+      "score": 0.5237013101577759,
+      "source_id": "261414_637886",
+      "value": " Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "180160_1289470_fact128",
+      "score": 0.5195103883743286,
+      "source_id": "180160_1289470",
+      "value": " President of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25588887_2947601_fact73",
+      "score": 0.5193140506744385,
+      "source_id": "25588887_2947601",
+      "value": " Ireland manager"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1294965_929763_fact2",
+      "score": 0.5176758170127869,
+      "source_id": "1294965_929763",
+      "value": " Government of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9960598_1942772_fact107",
+      "score": 0.517271876335144,
+      "source_id": "9960598_1942772",
+      "value": " Northern Ireland Executive"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25689950_3036002_fact246",
+      "score": 0.5117261409759521,
+      "source_id": "25689950_3036002",
+      "value": " President of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48739290_5033431_fact232",
+      "score": 0.5101310610771179,
+      "source_id": "48739290_5033431",
+      "value": " president of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2985683_565991_fact19",
+      "score": 0.5067436695098877,
+      "source_id": "2985683_565991",
+      "value": "National University of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57659836_4260401_fact49",
+      "score": 0.5063080787658691,
+      "source_id": "57659836_4260401",
+      "value": "then President of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1908782_1100588_fact32",
+      "score": 0.5037380456924438,
+      "source_id": "1908782_1100588",
+      "value": " President of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7024246_972885_fact38",
+      "score": 0.4997982978820801,
+      "source_id": "7024246_972885",
+      "value": "the then President of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6959627_926983_fact29",
+      "score": 0.4986541271209717,
+      "source_id": "6959627_926983",
+      "value": " Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33450605_2551365_fact23",
+      "score": 0.49729597568511963,
+      "source_id": "33450605_2551365",
+      "value": " President of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9519382_1477317_fact34",
+      "score": 0.49686163663864136,
+      "source_id": "9519382_1477317",
+      "value": " President of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27670670_2371628_fact23",
+      "score": 0.4927815794944763,
+      "source_id": "27670670_2371628",
+      "value": " President of Ireland"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e68a9456-b32b-4188-a7fb-5a6c544876e8",
+  "index_nprobe": null,
+  "manifest_id": "2aab0d8ced5500a1",
+  "margin": 0.1462729573249817,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9202290773391724,
+  "s_surv": 0.7739561200141907,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "168462_1140440_fact36",
+      "score": 0.7739561200141907,
+      "source_id": "168462_1140440",
+      "value": " Fianna F\u00e1il governments"
+    },
+    {
+      "entry_id": "146957_911033_fact115",
+      "score": 0.759899377822876,
+      "source_id": "146957_911033",
+      "value": " PD leader"
+    },
+    {
+      "entry_id": "857361_844916_fact21",
+      "score": 0.7227078676223755,
+      "source_id": "857361_844916",
+      "value": " for Industry, Commerce and Energy"
+    },
+    {
+      "entry_id": "1730015_726743_fact10",
+      "score": 0.7147963643074036,
+      "source_id": "1730015_726743",
+      "value": " Fianna F\u00e1il cabinet minister"
+    },
+    {
+      "entry_id": "319251_997151_fact26",
+      "score": 0.7046682238578796,
+      "source_id": "319251_997151",
+      "value": " Minister for Industry, Commerce and Energy"
+    }
+  ],
+  "truncated": false
+}

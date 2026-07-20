@@ -1,0 +1,151 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "692750_6102354_fact4",
+      "score": 0.7716515064239502,
+      "source_id": "692750_6102354",
+      "value": " Mexico City"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2633128_85085_fact1",
+      "score": 0.703792929649353,
+      "source_id": "2633128_85085",
+      "value": " Santiago de Cuba"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "608591_6088691_fact8",
+      "score": 0.6862661838531494,
+      "source_id": "608591_6088691",
+      "value": " Santiago, Chile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31051561_2773823_fact7",
+      "score": 0.6640757322311401,
+      "source_id": "31051561_2773823",
+      "value": " Santiago"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13035024_2988164_fact11",
+      "score": 0.6609407067298889,
+      "source_id": "13035024_2988164",
+      "value": " Chile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55714304_5175986_fact6",
+      "score": 0.6584570407867432,
+      "source_id": "55714304_5175986",
+      "value": " Santiago, Chile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53701937_3779330_fact5",
+      "score": 0.6555017232894897,
+      "source_id": "53701937_3779330",
+      "value": " Santiago de los Caballeros, Dominican Republic"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8476335_2632773_fact3",
+      "score": 0.6482789516448975,
+      "source_id": "8476335_2632773",
+      "value": " Santiago, Chile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36583748_2726035_fact1",
+      "score": 0.6409196853637695,
+      "source_id": "36583748_2726035",
+      "value": " Santiago, Chile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "449937_6064705_fact7",
+      "score": 0.6366624236106873,
+      "source_id": "449937_6064705",
+      "value": " Santiago, Chile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7441321_1266778_fact1",
+      "score": 0.6301653385162354,
+      "source_id": "7441321_1266778",
+      "value": " Fern\u00e1ndez, Santiago del Estero"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a83e1461-ce35-4881-85b6-39268dd6d869",
+  "index_nprobe": null,
+  "manifest_id": "2245022fce8462a6",
+  "margin": 0.000957489013671875,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7716515064239502,
+  "s_surv": 0.7706940174102783,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "50963435_4215620_fact10",
+      "score": 0.7706940174102783,
+      "source_id": "50963435_4215620",
+      "value": " Frumales, Province of Segovia"
+    },
+    {
+      "entry_id": "18842262_1254451_fact8",
+      "score": 0.7643157243728638,
+      "source_id": "18842262_1254451",
+      "value": " A Coru\u00f1a"
+    },
+    {
+      "entry_id": "67536731_3830167_fact6",
+      "score": 0.7375525236129761,
+      "source_id": "67536731_3830167",
+      "value": " Caracas, Venezuela"
+    },
+    {
+      "entry_id": "52362757_5275950_fact5",
+      "score": 0.7372874021530151,
+      "source_id": "52362757_5275950",
+      "value": " Madrid"
+    },
+    {
+      "entry_id": "51190668_4411102_fact1",
+      "score": 0.7327470779418945,
+      "source_id": "51190668_4411102",
+      "value": " Valladolid, Spain"
+    }
+  ],
+  "truncated": false
+}

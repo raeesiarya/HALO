@@ -1,0 +1,225 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "340959_1127814_fact2",
+      "score": 0.9531722664833069,
+      "source_id": "340959_1127814",
+      "value": " mayor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12827476_2747578_fact3",
+      "score": 0.7062563896179199,
+      "source_id": "12827476_2747578",
+      "value": " first mayor of Allenstein"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11815927_1504098_fact2",
+      "score": 0.6997591853141785,
+      "source_id": "11815927_1504098",
+      "value": " 35th Mayor of New York City"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33594791_2667489_fact3",
+      "score": 0.6842061281204224,
+      "source_id": "33594791_2667489",
+      "value": " 23rd Mayor of New York City"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41684338_4542432_fact0",
+      "score": 0.6614608764648438,
+      "source_id": "41684338_4542432",
+      "value": " forty-third mayor of Charleston, South Carolina"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55183447_4823160_fact2",
+      "score": 0.6503921747207642,
+      "source_id": "55183447_4823160",
+      "value": " Mayor of Albany, New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8980887_3313681_fact16",
+      "score": 0.6430837512016296,
+      "source_id": "8980887_3313681",
+      "value": " 23rd Mayor of New York City"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55237857_4860609_fact3",
+      "score": 0.6246721744537354,
+      "source_id": "55237857_4860609",
+      "value": " Mayor of Albany, New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53999919_4026593_fact20",
+      "score": 0.612341046333313,
+      "source_id": "53999919_4026593",
+      "value": " mayor and town clerk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53841520_3894229_fact4",
+      "score": 0.6083681583404541,
+      "source_id": "53841520_3894229",
+      "value": " 10th Mayor of Albany, New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22386312_2197745_fact0",
+      "score": 0.6073891520500183,
+      "source_id": "22386312_2197745",
+      "value": " mayor and \"auditeur\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55194156_4831276_fact5",
+      "score": 0.6073048710823059,
+      "source_id": "55194156_4831276",
+      "value": " Mayor of Albany, New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18251428_2954127_fact14",
+      "score": 0.6033529043197632,
+      "source_id": "18251428_2954127",
+      "value": " 23rd Mayor of New York City"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36931530_3028655_fact4",
+      "score": 0.5973321795463562,
+      "source_id": "36931530_3028655",
+      "value": " second and thirteenth mayor of Albany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "751030_6113993_fact5",
+      "score": 0.5936774015426636,
+      "source_id": "751030_6113993",
+      "value": " mayor of Goedereede and Stellendam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17272623_2123852_fact21",
+      "score": 0.582040548324585,
+      "source_id": "17272623_2123852",
+      "value": " second mayor of Albany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6617997_674287_fact19",
+      "score": 0.5800925493240356,
+      "source_id": "6617997_674287",
+      "value": " Mayor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71994472_4507823_fact25",
+      "score": 0.5788835287094116,
+      "source_id": "71994472_4507823",
+      "value": " 30th and 33rd Mayor of New York City"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4446078_1138755_fact2",
+      "score": 0.5779995322227478,
+      "source_id": "4446078_1138755",
+      "value": " second mayor of Louisville, Kentucky"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "10beb965-2564-45ac-b577-27c7906133ff",
+  "index_nprobe": null,
+  "manifest_id": "2c4e0de8618ce445",
+  "margin": 0.1803569793701172,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9531722664833069,
+  "s_surv": 0.7728152871131897,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "29879863_1790564_fact3",
+      "score": 0.7728152871131897,
+      "source_id": "29879863_1790564",
+      "value": " third secretary of New Amsterdam"
+    },
+    {
+      "entry_id": "1572930_372425_fact0",
+      "score": 0.7388149499893188,
+      "source_id": "1572930_372425",
+      "value": " second Archbishop of Uppsala, Sweden"
+    },
+    {
+      "entry_id": "55169290_4814993_fact1",
+      "score": 0.7284720540046692,
+      "source_id": "55169290_4814993",
+      "value": " O.Cist."
+    },
+    {
+      "entry_id": "15350767_2853220_fact2",
+      "score": 0.7272030115127563,
+      "source_id": "15350767_2853220",
+      "value": " only extramarital child"
+    },
+    {
+      "entry_id": "192484_159969_fact4",
+      "score": 0.7235980033874512,
+      "source_id": "192484_159969",
+      "value": " Dutch Catholic bishop of Ypres in Flanders"
+    }
+  ],
+  "truncated": false
+}

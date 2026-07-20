@@ -1,0 +1,946 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5928937_184656_fact2",
+      "score": 0.9215613603591919,
+      "source_id": "5928937_184656",
+      "value": " first bishop of Florence"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "22902970_2700134_fact11",
+      "score": 0.893653154373169,
+      "source_id": "22902970_2700134",
+      "value": " the first Bishop of Florence"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12355026_2130448_fact3",
+      "score": 0.729507327079773,
+      "source_id": "12355026_2130448",
+      "value": " first bishop of Aquileia, northern Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "204259_247256_fact21",
+      "score": 0.7205763459205627,
+      "source_id": "204259_247256",
+      "value": " bishop of Amiternum"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7401660_1221097_fact2",
+      "score": 0.7164478302001953,
+      "source_id": "7401660_1221097",
+      "value": " the first bishop of Padua"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16620905_1544837_fact1",
+      "score": 0.7065035700798035,
+      "source_id": "16620905_1544837",
+      "value": " early bishop of Sescia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6167184_379447_fact1",
+      "score": 0.7007706165313721,
+      "source_id": "6167184_379447",
+      "value": " first Bishop of Narni in"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22992181_2767448_fact1",
+      "score": 0.6947274804115295,
+      "source_id": "22992181_2767448",
+      "value": " second Bishop of Vienne"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50228578_3656798_fact5",
+      "score": 0.6933556199073792,
+      "source_id": "50228578_3656798",
+      "value": " the first Bishop of Rouen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51077733_4320331_fact4",
+      "score": 0.6851890683174133,
+      "source_id": "51077733_4320331",
+      "value": " earliest named bishop of Nice"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7634509_1518775_fact2",
+      "score": 0.684003472328186,
+      "source_id": "7634509_1518775",
+      "value": " the first bishop of Bourges"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14474930_2014357_fact1",
+      "score": 0.6837537884712219,
+      "source_id": "14474930_2014357",
+      "value": " third bishop of Como"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12207544_1963618_fact0",
+      "score": 0.6791118383407593,
+      "source_id": "12207544_1963618",
+      "value": " an early bishop of Chieti, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18987105_1434181_fact1",
+      "score": 0.6785215139389038,
+      "source_id": "18987105_1434181",
+      "value": " the first bishop of Arezzo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15514532_3008934_fact5",
+      "score": 0.6763192415237427,
+      "source_id": "15514532_3008934",
+      "value": " first bishop of Jesi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18634678_3349279_fact1",
+      "score": 0.6725755929946899,
+      "source_id": "18634678_3349279",
+      "value": " the first bishop of Tournai"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34262091_3228262_fact3",
+      "score": 0.6723961234092712,
+      "source_id": "34262091_3228262",
+      "value": " first bishop of Lucera"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33605362_2675808_fact1",
+      "score": 0.6713488101959229,
+      "source_id": "33605362_2675808",
+      "value": " the first bishop of Reims"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18319078_3005892_fact2",
+      "score": 0.6704844236373901,
+      "source_id": "18319078_3005892",
+      "value": " first bishop of Bayeux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54387093_4340980_fact6",
+      "score": 0.6699238419532776,
+      "source_id": "54387093_4340980",
+      "value": " first known bishop of Octodurum, Alpes Poeninae province"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56081306_5458237_fact20",
+      "score": 0.6687138676643372,
+      "source_id": "56081306_5458237",
+      "value": " first bishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "219283_352817_fact93",
+      "score": 0.667902410030365,
+      "source_id": "219283_352817",
+      "value": " the first bishop of Antioch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1321529_982443_fact2",
+      "score": 0.6656607389450073,
+      "source_id": "1321529_982443",
+      "value": " first Bishop of Malta"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21468064_1344360_fact2",
+      "score": 0.6653300523757935,
+      "source_id": "21468064_1344360",
+      "value": " first bishop of Ch\u00e2lons-sur-Marne"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3259661_961011_fact18",
+      "score": 0.6638001203536987,
+      "source_id": "3259661_961011",
+      "value": " the first Bishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21468332_1344563_fact0",
+      "score": 0.6630300283432007,
+      "source_id": "21468332_1344563",
+      "value": " first bishop of Ch\u00e2lons-sur-Marne"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26289372_3606153_fact2",
+      "score": 0.6623275279998779,
+      "source_id": "26289372_3606153",
+      "value": " patron saint and bishop of Trent"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11493970_3572368_fact1",
+      "score": 0.660905659198761,
+      "source_id": "11493970_3572368",
+      "value": " the first bishop of Como"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16299646_1337134_fact2",
+      "score": 0.6567790508270264,
+      "source_id": "16299646_1337134",
+      "value": " first bishop of Lecce"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15760923_3233520_fact1",
+      "score": 0.6558248400688171,
+      "source_id": "15760923_3233520",
+      "value": " second bishop of Bergamo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5291431_737957_fact34",
+      "score": 0.6513296961784363,
+      "source_id": "5291431_737957",
+      "value": " bishop of Aix"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50240_1012061_fact123",
+      "score": 0.6508934497833252,
+      "source_id": "50240_1012061",
+      "value": " the first bishop of the city"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42338232_5103866_fact5",
+      "score": 0.6498863697052002,
+      "source_id": "42338232_5103866",
+      "value": " first bishop of Meaux and also of Verdun"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30630832_2313310_fact0",
+      "score": 0.6457504630088806,
+      "source_id": "30630832_2313310",
+      "value": " the first bishop of Verona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15757889_3230703_fact0",
+      "score": 0.6429864764213562,
+      "source_id": "15757889_3230703",
+      "value": " the first bishop of Bergamo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7775556_1716815_fact0",
+      "score": 0.6403754353523254,
+      "source_id": "7775556_1716815",
+      "value": " the first bishop of Pavia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12778330_2685254_fact6",
+      "score": 0.6392959356307983,
+      "source_id": "12778330_2685254",
+      "value": " the first Bishop of Lucca"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22320009_2129245_fact0",
+      "score": 0.6387966871261597,
+      "source_id": "22320009_2129245",
+      "value": " the first bishop of Saintes, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "96957_382214_fact207",
+      "score": 0.6366090178489685,
+      "source_id": "96957_382214",
+      "value": " first bishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "149340_938584_fact39",
+      "score": 0.6353920698165894,
+      "source_id": "149340_938584",
+      "value": " first bishop of the Diocese of Sescia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "361727_93439_fact75",
+      "score": 0.6338645219802856,
+      "source_id": "361727_93439",
+      "value": " the first Bishop of Malta"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25727573_3075262_fact108",
+      "score": 0.63349449634552,
+      "source_id": "25727573_3075262",
+      "value": " the first bishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49802_1006801_fact0",
+      "score": 0.6313425302505493,
+      "source_id": "49802_1006801",
+      "value": " bishop of Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22694608_2503549_fact1",
+      "score": 0.6297517418861389,
+      "source_id": "22694608_2503549",
+      "value": " second bishop of Limoges"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44706879_4675653_fact5",
+      "score": 0.6285794973373413,
+      "source_id": "44706879_4675653",
+      "value": " bishop of Aegae"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39780442_5371492_fact6",
+      "score": 0.628502607345581,
+      "source_id": "39780442_5371492",
+      "value": " the first bishop of Athens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54077801_4092558_fact5",
+      "score": 0.6263583898544312,
+      "source_id": "54077801_4092558",
+      "value": " early Bishop of Florence"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24429_557902_fact0",
+      "score": 0.626086950302124,
+      "source_id": "24429_557902",
+      "value": " bishop of Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13657755_1229140_fact1",
+      "score": 0.6252915263175964,
+      "source_id": "13657755_1229140",
+      "value": " Bishop of M\u00e9rida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36052326_2303582_fact1",
+      "score": 0.6245397925376892,
+      "source_id": "36052326_2303582",
+      "value": " first bishop of Sarsina"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7401982_1221345_fact3",
+      "score": 0.6224393844604492,
+      "source_id": "7401982_1221345",
+      "value": " first Bishop of Padua"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13492389_3457023_fact0",
+      "score": 0.6193491816520691,
+      "source_id": "13492389_3457023",
+      "value": " the first Bishop of Metz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18973018_1417469_fact1",
+      "score": 0.6177599430084229,
+      "source_id": "18973018_1417469",
+      "value": " a bishop of the city"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5544067_951699_fact15",
+      "score": 0.6171591281890869,
+      "source_id": "5544067_951699",
+      "value": " first Bishop of Bayeux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33215078_2358561_fact29",
+      "score": 0.6151630878448486,
+      "source_id": "33215078_2358561",
+      "value": " patron saint and (possibly) bishop of Ancona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72180361_4622968_fact0",
+      "score": 0.6149574518203735,
+      "source_id": "72180361_4622968",
+      "value": " bishop of Antioch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1703735_669288_fact2",
+      "score": 0.6144343614578247,
+      "source_id": "1703735_669288",
+      "value": " first bishop of Limoges"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8164804_2236394_fact2",
+      "score": 0.6144111156463623,
+      "source_id": "8164804_2236394",
+      "value": " first bishop of Gaul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30988371_2714668_fact1",
+      "score": 0.6129076480865479,
+      "source_id": "30988371_2714668",
+      "value": " patron saint and bishop of Naples"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13990211_1538915_fact3",
+      "score": 0.6128429174423218,
+      "source_id": "13990211_1538915",
+      "value": " first recorded bishop of Urgell"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22044527_1892765_fact65",
+      "score": 0.6128017902374268,
+      "source_id": "22044527_1892765",
+      "value": " bishop of Canosa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5435640_861910_fact3",
+      "score": 0.6112293004989624,
+      "source_id": "5435640_861910",
+      "value": " the first bishop of Alexandria), Basil the Great, Cyril the Great, and Gregory Nazianzus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14678581_2222840_fact2",
+      "score": 0.6102375984191895,
+      "source_id": "14678581_2222840",
+      "value": " first bishop of S\u00e9es"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40749158_3696722_fact4",
+      "score": 0.6097623109817505,
+      "source_id": "40749158_3696722",
+      "value": " first known bishop of Saintes"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4604843_147937_fact34",
+      "score": 0.6096665859222412,
+      "source_id": "4604843_147937",
+      "value": " Bishop of Verona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35622405_1941171_fact2",
+      "score": 0.6070592403411865,
+      "source_id": "35622405_1941171",
+      "value": " second bishop of Teano in Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31234240_2949614_fact6",
+      "score": 0.604843020439148,
+      "source_id": "31234240_2949614",
+      "value": " the first bishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6560530_640109_fact3",
+      "score": 0.6024965643882751,
+      "source_id": "6560530_640109",
+      "value": " the third Bishop of Llandaff"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "932068_1097405_fact1",
+      "score": 0.6014962792396545,
+      "source_id": "932068_1097405",
+      "value": " Bishop of Nisibis"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "316134_975385_fact3",
+      "score": 0.5985589027404785,
+      "source_id": "316134_975385",
+      "value": " first bishop of Axum"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30871305_2581400_fact9",
+      "score": 0.5983319878578186,
+      "source_id": "30871305_2581400",
+      "value": " first bishop of the Bulgarian Orthodox Church"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5310005_753919_fact11",
+      "score": 0.597461998462677,
+      "source_id": "5310005_753919",
+      "value": " first Bishop of Nice"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12830633_2752673_fact14",
+      "score": 0.5973728895187378,
+      "source_id": "12830633_2752673",
+      "value": " first Bishop of Alexandria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8694867_2923555_fact0",
+      "score": 0.5966910719871521,
+      "source_id": "8694867_2923555",
+      "value": " the first bishop of Trier"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31331942_3042670_fact69",
+      "score": 0.5964382886886597,
+      "source_id": "31331942_3042670",
+      "value": " bishop and abbot"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9845696_1821225_fact5",
+      "score": 0.5956898331642151,
+      "source_id": "9845696_1821225",
+      "value": " first Bishop of Schwerin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "421691_6058846_fact3",
+      "score": 0.5946480631828308,
+      "source_id": "421691_6058846",
+      "value": " first Bishop of Dorchester"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "198713_207890_fact42",
+      "score": 0.594458281993866,
+      "source_id": "198713_207890",
+      "value": " first bishop of Utrecht"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43558628_3674462_fact3",
+      "score": 0.5939042568206787,
+      "source_id": "43558628_3674462",
+      "value": " last resident Bishop of the Diocese of Zela"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "866304_878861_fact26",
+      "score": 0.593766450881958,
+      "source_id": "866304_878861",
+      "value": " beatified Bishop of Modena"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63193958_5657949_fact13",
+      "score": 0.5928005576133728,
+      "source_id": "63193958_5657949",
+      "value": " of the putative first bishop of Florence"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18747760_3486543_fact0",
+      "score": 0.5917834639549255,
+      "source_id": "18747760_3486543",
+      "value": " martyr and bishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56658908_5853267_fact2",
+      "score": 0.5914785861968994,
+      "source_id": "56658908_5853267",
+      "value": " first historically-attested bishop of Naples"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7923477_1910651_fact6",
+      "score": 0.5900508761405945,
+      "source_id": "7923477_1910651",
+      "value": " Ambrose's successor as bishop of Milan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42873063_5545922_fact5",
+      "score": 0.5899547934532166,
+      "source_id": "42873063_5545922",
+      "value": " second bishop of the city"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24904218_2315434_fact16",
+      "score": 0.588738203048706,
+      "source_id": "24904218_2315434",
+      "value": " Arian bishop of Cyzicus in Mysia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15620416_3104987_fact11",
+      "score": 0.5876357555389404,
+      "source_id": "15620416_3104987",
+      "value": " first bishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43038937_5659209_fact3",
+      "score": 0.5869225263595581,
+      "source_id": "43038937_5659209",
+      "value": " Bishop of Salona in Dalmatia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2326374_711572_fact66",
+      "score": 0.5868228673934937,
+      "source_id": "2326374_711572",
+      "value": " Bishop of Verona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11253999_3292996_fact65",
+      "score": 0.5863500833511353,
+      "source_id": "11253999_3292996",
+      "value": " bishop of Maiuma of Gaza"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2654915_120315_fact2",
+      "score": 0.5860201120376587,
+      "source_id": "2654915_120315",
+      "value": " fourth Bishop of Tours"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13679294_1247403_fact12",
+      "score": 0.5843613743782043,
+      "source_id": "13679294_1247403",
+      "value": " the first bishop of \u00c9vreux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2009256_140929_fact0",
+      "score": 0.5843580365180969,
+      "source_id": "2009256_140929",
+      "value": " seventh Bishop of Tours"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "273241_705662_fact35",
+      "score": 0.5843532681465149,
+      "source_id": "273241_705662",
+      "value": " third bishop of the city"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2514035_1027809_fact1",
+      "score": 0.5833823680877686,
+      "source_id": "2514035_1027809",
+      "value": " either an early Christian Bishop of Verona or a martyr"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12877650_2806434_fact22",
+      "score": 0.5831655859947205,
+      "source_id": "12877650_2806434",
+      "value": " first Bishop of B\u00e9ziers"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8571122_2755082_fact2",
+      "score": 0.5830299854278564,
+      "source_id": "8571122_2755082",
+      "value": " bishop of Saguntum"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2154527_388182_fact169",
+      "score": 0.5826518535614014,
+      "source_id": "2154527_388182",
+      "value": " first bishop of B\u00e9ziers"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9917648_1898964_fact1",
+      "score": 0.5805164575576782,
+      "source_id": "9917648_1898964",
+      "value": "Bishop of the Picts"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "616af73b-6ec8-4609-bc27-336b76388526",
+  "index_nprobe": null,
+  "manifest_id": "8114807cbfeff273",
+  "margin": 0.16417193412780762,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9215613603591919,
+  "s_surv": 0.7573894262313843,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1838193_951681_fact4",
+      "score": 0.7573894262313843,
+      "source_id": "1838193_951681",
+      "value": " one of the first identifiable Christians"
+    },
+    {
+      "entry_id": "175143_1207515_fact214",
+      "score": 0.7182490229606628,
+      "source_id": "175143_1207515",
+      "value": " father of Eastern monasticism"
+    },
+    {
+      "entry_id": "9487940_1428339_fact10",
+      "score": 0.7128848433494568,
+      "source_id": "9487940_1428339",
+      "value": " main patron of the city of Genoa"
+    },
+    {
+      "entry_id": "99837_405534_fact5",
+      "score": 0.7050648927688599,
+      "source_id": "99837_405534",
+      "value": " the founder of western monasticism"
+    },
+    {
+      "entry_id": "2802890_307946_fact19",
+      "score": 0.704041063785553,
+      "source_id": "2802890_307946",
+      "value": " first Eastern Christian mystic to freely share his own mystical experiences"
+    }
+  ],
+  "truncated": false
+}

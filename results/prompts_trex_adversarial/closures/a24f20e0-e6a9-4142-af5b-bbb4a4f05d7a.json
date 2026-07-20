@@ -1,0 +1,241 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "235054_453461_fact229",
+      "score": 0.8449939489364624,
+      "source_id": "235054_453461",
+      "value": " Archbishop of Mainz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11772029_1444720_fact1",
+      "score": 0.6803024411201477,
+      "source_id": "11772029_1444720",
+      "value": " abbot of Saint-Ruf"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11565331_1233334_fact4",
+      "score": 0.6512027978897095,
+      "source_id": "11565331_1233334",
+      "value": " Abbot of Ellwangen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5174613_633962_fact116",
+      "score": 0.6288964748382568,
+      "source_id": "5174613_633962",
+      "value": " abbot of Fontenelle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1208357_697714_fact14",
+      "score": 0.6184858083724976,
+      "source_id": "1208357_697714",
+      "value": " first Abbot of the Monastery of Hexham"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11741968_1416403_fact13",
+      "score": 0.6127955913543701,
+      "source_id": "11741968_1416403",
+      "value": " abbot of Mettlach"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62206926_5008989_fact6",
+      "score": 0.6090790033340454,
+      "source_id": "62206926_5008989",
+      "value": "-abbot of Saint Gall"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "298044_848356_fact10",
+      "score": 0.6081845164299011,
+      "source_id": "298044_848356",
+      "value": " lay abbot"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50860513_4128670_fact3",
+      "score": 0.6037198901176453,
+      "source_id": "50860513_4128670",
+      "value": " Abbot of Abbey of Fontenelle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12808217_2722936_fact2",
+      "score": 0.6006353497505188,
+      "source_id": "12808217_2722936",
+      "value": " Benedictine chronicler and abbot"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68623150_4635818_fact2",
+      "score": 0.5937585830688477,
+      "source_id": "68623150_4635818",
+      "value": " lawyer, hermit and abbot"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6346383_508648_fact96",
+      "score": 0.5860000848770142,
+      "source_id": "6346383_508648",
+      "value": " Abbot of Fritzlar in Hesse"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23758_544099_fact139",
+      "score": 0.5666654706001282,
+      "source_id": "23758_544099",
+      "value": " abbot of the monastery"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49966567_5855306_fact86",
+      "score": 0.5660092830657959,
+      "source_id": "49966567_5855306",
+      "value": " Abbot of Gembloux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62183098_4989638_fact5",
+      "score": 0.5648737549781799,
+      "source_id": "62183098_4989638",
+      "value": " former abbot of Niederaltaich Abbey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50689551_3995786_fact255",
+      "score": 0.5609602928161621,
+      "source_id": "50689551_3995786",
+      "value": " lay abbot of Stavelot"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5169186_629072_fact1",
+      "score": 0.5590564608573914,
+      "source_id": "5169186_629072",
+      "value": " holy abbot"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2421924_879476_fact5",
+      "score": 0.5585184097290039,
+      "source_id": "2421924_879476",
+      "value": " its first abbot"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52341957_5261816_fact7",
+      "score": 0.5567016005516052,
+      "source_id": "52341957_5261816",
+      "value": " abbot"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2133309_351852_fact3",
+      "score": 0.5561124086380005,
+      "source_id": "2133309_351852",
+      "value": " monk and abbot of a Benedictine monastery"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "878024_919172_fact47",
+      "score": 0.555698812007904,
+      "source_id": "878024_919172",
+      "value": " abbot of Saint-Chef near Vienne"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a24f20e0-e6a9-4142-af5b-bbb4a4f05d7a",
+  "index_nprobe": null,
+  "manifest_id": "7549908e5a2f3c4e",
+  "margin": 0.010731101036071777,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8449939489364624,
+  "s_surv": 0.8342628479003906,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "11316200_3364779_fact17",
+      "score": 0.8342628479003906,
+      "source_id": "11316200_3364779",
+      "value": " Archbishop of Mainz"
+    },
+    {
+      "entry_id": "23624018_3381550_fact44",
+      "score": 0.830841064453125,
+      "source_id": "23624018_3381550",
+      "value": " Archbishop of Mainz"
+    },
+    {
+      "entry_id": "11707808_1380410_fact10",
+      "score": 0.8205781579017639,
+      "source_id": "11707808_1380410",
+      "value": " archbishop of Mainz"
+    },
+    {
+      "entry_id": "11724618_1397938_fact9",
+      "score": 0.8030427694320679,
+      "source_id": "11724618_1397938",
+      "value": " Archbishop of Mainz"
+    },
+    {
+      "entry_id": "5629668_1027865_fact27",
+      "score": 0.7582371234893799,
+      "source_id": "5629668_1027865",
+      "value": " Archbishop of Mainz"
+    }
+  ],
+  "truncated": false
+}

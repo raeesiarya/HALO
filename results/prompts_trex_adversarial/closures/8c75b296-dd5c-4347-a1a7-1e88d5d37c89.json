@@ -1,0 +1,107 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "58699284_5019740_fact1",
+      "score": 0.8693932890892029,
+      "source_id": "58699284_5019740",
+      "value": " main law-enforcement agency in Paraguay"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "51099714_4339376_fact1",
+      "score": 0.8606098294258118,
+      "source_id": "51099714_4339376",
+      "value": " uniformed police force of the Republic of Honduras"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20452136_2713484_fact0",
+      "score": 0.6285011172294617,
+      "source_id": "20452136_2713484",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1357090_1067261_fact267",
+      "score": 0.5852401256561279,
+      "source_id": "1357090_1067261",
+      "value": "Spanish Police force"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11691698_1365873_fact116",
+      "score": 0.5676126480102539,
+      "source_id": "11691698_1365873",
+      "value": "Spanish National Police"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54724746_4578536_fact0",
+      "score": 0.557981014251709,
+      "source_id": "54724746_4578536",
+      "value": " the governmental apparatus that manages the Spanish public interests"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8c75b296-dd5c-4347-a1a7-1e88d5d37c89",
+  "index_nprobe": null,
+  "manifest_id": "a7d7a7c66e23dd69",
+  "margin": 0.020704805850982666,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8693932890892029,
+  "s_surv": 0.8486884832382202,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1313055_970052_fact1",
+      "score": 0.8486884832382202,
+      "source_id": "1313055_970052",
+      "value": " armed national police force in the Philippines"
+    },
+    {
+      "entry_id": "7278792_1141601_fact0",
+      "score": 0.8402469158172607,
+      "source_id": "7278792_1141601",
+      "value": " national police force of the Republic of Colombia"
+    },
+    {
+      "entry_id": "1608789_455077_fact2",
+      "score": 0.8120192885398865,
+      "source_id": "1608789_455077",
+      "value": " national civilian police force of Spain"
+    },
+    {
+      "entry_id": "31440372_3138090_fact0",
+      "score": 0.8021663427352905,
+      "source_id": "31440372_3138090",
+      "value": " the national police force and the main civil law enforcement agency of Ecuador"
+    },
+    {
+      "entry_id": "28137819_2787685_fact1",
+      "score": 0.792780876159668,
+      "source_id": "28137819_2787685",
+      "value": " Venezuela's national police force"
+    }
+  ],
+  "truncated": false
+}

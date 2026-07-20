@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "29192171_1306113_fact0",
+      "score": 0.8569647073745728,
+      "source_id": "29192171_1306113",
+      "value": " annual debating tournament"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "53772b4f-45f6-415f-9a35-ceb61e46ce9d",
+  "index_nprobe": null,
+  "manifest_id": "05b5c6fb531d72ba",
+  "margin": 0.14139342308044434,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8569645881652832,
+  "s_surv": 0.7155711650848389,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1306252_955559_fact170",
+      "score": 0.7155711650848389,
+      "source_id": "1306252_955559",
+      "value": " two-day"
+    },
+    {
+      "entry_id": "11163766_3192331_fact40",
+      "score": 0.6427156925201416,
+      "source_id": "11163766_3192331",
+      "value": " three-day"
+    },
+    {
+      "entry_id": "43596207_3711785_fact6",
+      "score": 0.6311200857162476,
+      "source_id": "43596207_3711785",
+      "value": " two-day"
+    },
+    {
+      "entry_id": "1462095_150344_fact27",
+      "score": 0.6284944415092468,
+      "source_id": "1462095_150344",
+      "value": " closed book exam"
+    },
+    {
+      "entry_id": "18781466_3525526_fact1",
+      "score": 0.6257389783859253,
+      "source_id": "18781466_3525526",
+      "value": " debate tournament"
+    }
+  ],
+  "truncated": false
+}

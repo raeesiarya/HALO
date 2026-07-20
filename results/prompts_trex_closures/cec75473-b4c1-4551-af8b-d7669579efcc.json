@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "26029368_3370038_fact1",
+      "score": 0.8348373770713806,
+      "source_id": "26029368_3370038",
+      "value": " the 6th arrondissement of Lyon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63909291_3834800_fact58",
+      "score": 0.6381477117538452,
+      "source_id": "63909291_3834800",
+      "value": " 6th arrondissement of Lyon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25703859_3050926_fact2",
+      "score": 0.6326563358306885,
+      "source_id": "25703859_3050926",
+      "value": " Vieux Lyon quarter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25703859_3050926_fact3",
+      "score": 0.6075083017349243,
+      "source_id": "25703859_3050926",
+      "value": " 5th arrondissement of Lyon"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cec75473-b4c1-4551-af8b-d7669579efcc",
+  "index_nprobe": null,
+  "manifest_id": "37ffdf1a250fc716",
+  "margin": 0.024284958839416504,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8348373770713806,
+  "s_surv": 0.8105524182319641,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "25996429_3338515_fact2",
+      "score": 0.8105524182319641,
+      "source_id": "25996429_3338515",
+      "value": " the 6th arrondissement"
+    },
+    {
+      "entry_id": "25647063_2989168_fact1",
+      "score": 0.7554514408111572,
+      "source_id": "25647063_2989168",
+      "value": " 6th arrondissement"
+    },
+    {
+      "entry_id": "46734131_5898161_fact12",
+      "score": 0.7486798763275146,
+      "source_id": "46734131_5898161",
+      "value": " Canton of Fribourg"
+    },
+    {
+      "entry_id": "7669872_1566898_fact78",
+      "score": 0.7469156980514526,
+      "source_id": "7669872_1566898",
+      "value": " Port-au-Prince metropolitan area"
+    },
+    {
+      "entry_id": "4131919_808265_fact2",
+      "score": 0.7395924925804138,
+      "source_id": "4131919_808265",
+      "value": " central Brussels, Belgium"
+    }
+  ],
+  "truncated": false
+}

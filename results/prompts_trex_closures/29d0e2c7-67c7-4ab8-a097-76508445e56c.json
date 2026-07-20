@@ -1,0 +1,431 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5304067_749576_fact1",
+      "score": 0.8368929028511047,
+      "source_id": "5304067_749576",
+      "value": " the Olympic Park in Montreal, Quebec, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18813600_1230800_fact4",
+      "score": 0.6849976778030396,
+      "source_id": "18813600_1230800",
+      "value": " Montreal, Quebec, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70521170_5865080_fact3",
+      "score": 0.6796964406967163,
+      "source_id": "70521170_5865080",
+      "value": " Montreal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25655255_2997424_fact2",
+      "score": 0.6483756303787231,
+      "source_id": "25655255_2997424",
+      "value": " Montreal West"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40227213_5720650_fact9",
+      "score": 0.6467903852462769,
+      "source_id": "40227213_5720650",
+      "value": " the east of Montreal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "241985_505021_fact2",
+      "score": 0.6402202248573303,
+      "source_id": "241985_505021",
+      "value": " Montreal, Quebec, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28841673_3340680_fact6",
+      "score": 0.6401900053024292,
+      "source_id": "28841673_3340680",
+      "value": " downtown Montreal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1864037_1007638_fact3",
+      "score": 0.6392377614974976,
+      "source_id": "1864037_1007638",
+      "value": " Montreal, Quebec, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33869973_2902554_fact16",
+      "score": 0.6341961622238159,
+      "source_id": "33869973_2902554",
+      "value": " Montreal, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1122792_463180_fact3",
+      "score": 0.6337161660194397,
+      "source_id": "1122792_463180",
+      "value": " Montreal, Quebec, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8582508_2769161_fact2",
+      "score": 0.6304032206535339,
+      "source_id": "8582508_2769161",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21675735_1550194_fact3",
+      "score": 0.6295610070228577,
+      "source_id": "21675735_1550194",
+      "value": " downtown Montreal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15061542_2595943_fact2",
+      "score": 0.6289616823196411,
+      "source_id": "15061542_2595943",
+      "value": " Montreal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1136197_502717_fact3",
+      "score": 0.6267920732498169,
+      "source_id": "1136197_502717",
+      "value": " Montreal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42555209_5296592_fact24",
+      "score": 0.6249434947967529,
+      "source_id": "42555209_5296592",
+      "value": " Montreal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1313734_971727_fact2",
+      "score": 0.6234374046325684,
+      "source_id": "1313734_971727",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7747306_1673372_fact3",
+      "score": 0.6201030015945435,
+      "source_id": "7747306_1673372",
+      "value": " Montreal, Quebec, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16545734_1494184_fact4",
+      "score": 0.6181174516677856,
+      "source_id": "16545734_1494184",
+      "value": " Montreal, Quebec, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22642134_2454550_fact7",
+      "score": 0.6165623664855957,
+      "source_id": "22642134_2454550",
+      "value": " Montreal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8582983_2770035_fact9",
+      "score": 0.6134688258171082,
+      "source_id": "8582983_2770035",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8916083_3222926_fact12",
+      "score": 0.6097589731216431,
+      "source_id": "8916083_3222926",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8583182_2770331_fact12",
+      "score": 0.6077126264572144,
+      "source_id": "8583182_2770331",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8581768_2768214_fact2",
+      "score": 0.6075670719146729,
+      "source_id": "8581768_2768214",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31326234_3036871_fact1",
+      "score": 0.607214093208313,
+      "source_id": "31326234_3036871",
+      "value": " Montreal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3023391_618829_fact2",
+      "score": 0.6049799919128418,
+      "source_id": "3023391_618829",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1210600_704016_fact1",
+      "score": 0.6043601036071777,
+      "source_id": "1210600_704016",
+      "value": " Old Montreal, Quebec, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44042456_4104757_fact8",
+      "score": 0.6004745960235596,
+      "source_id": "44042456_4104757",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3595429_219232_fact166",
+      "score": 0.6002294421195984,
+      "source_id": "3595429_219232",
+      "value": " Montreal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55073354_4757960_fact3",
+      "score": 0.5991830825805664,
+      "source_id": "55073354_4757960",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "835112_767284_fact24",
+      "score": 0.5968056917190552,
+      "source_id": "835112_767284",
+      "value": " Montreal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22685167_2494429_fact48",
+      "score": 0.5966929197311401,
+      "source_id": "22685167_2494429",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "324234_6039645_fact1",
+      "score": 0.5966072678565979,
+      "source_id": "324234_6039645",
+      "value": " Montreal, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24332602_1785213_fact1",
+      "score": 0.5951780080795288,
+      "source_id": "24332602_1785213",
+      "value": " Montreal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2679061_155738_fact2",
+      "score": 0.5940147638320923,
+      "source_id": "2679061_155738",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8923027_3232780_fact13",
+      "score": 0.593092679977417,
+      "source_id": "8923027_3232780",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2850912_376290_fact3",
+      "score": 0.5928487181663513,
+      "source_id": "2850912_376290",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71312412_4077318_fact7",
+      "score": 0.5928053259849548,
+      "source_id": "71312412_4077318",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1295858_930840_fact2",
+      "score": 0.5921226143836975,
+      "source_id": "1295858_930840",
+      "value": " Montreal, Quebec, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51256204_4470783_fact3",
+      "score": 0.5908509492874146,
+      "source_id": "51256204_4470783",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40237578_5728612_fact1",
+      "score": 0.5905247926712036,
+      "source_id": "40237578_5728612",
+      "value": " Montreal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "270375_6029586_fact1",
+      "score": 0.5897908210754395,
+      "source_id": "270375_6029586",
+      "value": " Montreal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "888029_951348_fact2",
+      "score": 0.5895379781723022,
+      "source_id": "888029_951348",
+      "value": " Montreal, Quebec"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "29d0e2c7-67c7-4ab8-a097-76508445e56c",
+  "index_nprobe": null,
+  "manifest_id": "bbd8433cc8064ce2",
+  "margin": 0.12177079916000366,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8368929028511047,
+  "s_surv": 0.7151221036911011,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "49271681_5440195_fact3",
+      "score": 0.7151221036911011,
+      "source_id": "49271681_5440195",
+      "value": " Charlottetown, Prince Edward Island"
+    },
+    {
+      "entry_id": "41567694_4437736_fact4",
+      "score": 0.7116917371749878,
+      "source_id": "41567694_4437736",
+      "value": " Charlottetown"
+    },
+    {
+      "entry_id": "42440334_5188843_fact3",
+      "score": 0.7067800760269165,
+      "source_id": "42440334_5188843",
+      "value": " Boucherville, Quebec"
+    },
+    {
+      "entry_id": "8469582_2623575_fact2",
+      "score": 0.7028360962867737,
+      "source_id": "8469582_2623575",
+      "value": " Quebec City, Quebec"
+    },
+    {
+      "entry_id": "1481323_190723_fact29",
+      "score": 0.6936075687408447,
+      "source_id": "1481323_190723",
+      "value": " Metula"
+    }
+  ],
+  "truncated": false
+}

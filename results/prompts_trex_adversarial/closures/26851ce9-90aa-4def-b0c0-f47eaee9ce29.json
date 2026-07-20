@@ -1,0 +1,196 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "3626165_258449_fact3",
+      "score": 0.777031660079956,
+      "source_id": "3626165_258449",
+      "value": " \"Book of the Week\", \"Book at Bedtime\", and \"Go 4 It\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13466_5978869_fact2",
+      "score": 0.6686375141143799,
+      "source_id": "13466_5978869",
+      "value": " the BBC World Service"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "781024_662219_fact0",
+      "score": 0.6486631035804749,
+      "source_id": "781024_662219",
+      "value": " \"This World\", \"Panorama\", \"Real Story\", \"BBC Scotland Investigates\", \"Spotlight\", \"Week In Week Out\", and \"Inside Out\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2057059_222191_fact64",
+      "score": 0.6189573407173157,
+      "source_id": "2057059_222191",
+      "value": " 'Talk at the BBC'."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41564954_4435152_fact55",
+      "score": 0.6152937412261963,
+      "source_id": "41564954_4435152",
+      "value": " \"Singer-songwriters at the BBC\","
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "423106_412732_fact3",
+      "score": 0.6122003197669983,
+      "source_id": "423106_412732",
+      "value": " BBC Radio London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "167583_1129584_fact116",
+      "score": 0.6016626358032227,
+      "source_id": "167583_1129584",
+      "value": " BBC Radio 1"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "275454_719910_fact9",
+      "score": 0.5997152328491211,
+      "source_id": "275454_719910",
+      "value": " BBC Proms concerts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "553460_1009940_fact55",
+      "score": 0.5956069231033325,
+      "source_id": "553460_1009940",
+      "value": " BBC Sherlock Holmes 1989\u20131998 radio series"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "414633_365560_fact66",
+      "score": 0.5856126546859741,
+      "source_id": "414633_365560",
+      "value": " BBC Radio 4, BBC Radio 2 and BBC Radio 4 Extra"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1501960_231371_fact51",
+      "score": 0.5832021236419678,
+      "source_id": "1501960_231371",
+      "value": " BBC Proms concerts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1678280_608163_fact105",
+      "score": 0.5764774084091187,
+      "source_id": "1678280_608163",
+      "value": " BBC Radio Suffolk's"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32201234_1529827_fact34",
+      "score": 0.5726584792137146,
+      "source_id": "32201234_1529827",
+      "value": " Europe Today, BBC Radio's the Today Programme"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61188_1186604_fact165",
+      "score": 0.572227954864502,
+      "source_id": "61188_1186604",
+      "value": " BBC Parliament"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4888949_386135_fact210",
+      "score": 0.5707393288612366,
+      "source_id": "4888949_386135",
+      "value": " BBC World Service"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12750623_2649679_fact13",
+      "score": 0.5648996829986572,
+      "source_id": "12750623_2649679",
+      "value": " \"BBC Breakfast"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "26851ce9-90aa-4def-b0c0-f47eaee9ce29",
+  "index_nprobe": null,
+  "manifest_id": "00bf108e092ba285",
+  "margin": 0.050495445728302,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.777031660079956,
+  "s_surv": 0.726536214351654,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "125785_6002760_fact1",
+      "score": 0.726536214351654,
+      "source_id": "125785_6002760",
+      "value": " news, drama, comedy, science and history"
+    },
+    {
+      "entry_id": "28147137_2797239_fact96",
+      "score": 0.6975439786911011,
+      "source_id": "28147137_2797239",
+      "value": "The Naga Queen"
+    },
+    {
+      "entry_id": "399050_276090_fact9",
+      "score": 0.6951195597648621,
+      "source_id": "399050_276090",
+      "value": " \"The News Quiz\" and \"Just a Minute\"."
+    },
+    {
+      "entry_id": "72758_157405_fact117",
+      "score": 0.6919193267822266,
+      "source_id": "72758_157405",
+      "value": " \"Front Row\"."
+    },
+    {
+      "entry_id": "4375693_1067452_fact83",
+      "score": 0.6891933679580688,
+      "source_id": "4375693_1067452",
+      "value": "The Naga Queen"
+    }
+  ],
+  "truncated": false
+}

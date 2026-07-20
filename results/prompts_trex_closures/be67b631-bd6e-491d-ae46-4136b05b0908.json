@@ -1,0 +1,109 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "700741_6103473_fact7",
+      "score": 0.8924742341041565,
+      "source_id": "700741_6103473",
+      "value": " Toulouse"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "14088603_1630499_fact12",
+      "score": 0.8788019418716431,
+      "source_id": "14088603_1630499",
+      "value": " Toulouse"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25556136_2918202_fact72",
+      "score": 0.8077560663223267,
+      "source_id": "25556136_2918202",
+      "value": " Toulouse, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50651152_3961996_fact10",
+      "score": 0.7487850189208984,
+      "source_id": "50651152_3961996",
+      "value": " Toulouse"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4704395_234818_fact26",
+      "score": 0.5419299602508545,
+      "source_id": "4704395_234818",
+      "value": " Toulouse, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15138267_2666693_fact29",
+      "score": 0.5261608362197876,
+      "source_id": "15138267_2666693",
+      "value": " Toulouse"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "be67b631-bd6e-491d-ae46-4136b05b0908",
+  "index_nprobe": null,
+  "manifest_id": "c1a0d2b614f5a9b0",
+  "margin": 0.0442960262298584,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8924742341041565,
+  "s_surv": 0.8481782078742981,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "318407_990565_fact7",
+      "score": 0.8481782078742981,
+      "source_id": "318407_990565",
+      "value": " France"
+    },
+    {
+      "entry_id": "2524_109457_fact42",
+      "score": 0.7988519668579102,
+      "source_id": "2524_109457",
+      "value": " France"
+    },
+    {
+      "entry_id": "2400612_843679_fact8",
+      "score": 0.790378212928772,
+      "source_id": "2400612_843679",
+      "value": " Nantes"
+    },
+    {
+      "entry_id": "1327393_994908_fact4",
+      "score": 0.7735311985015869,
+      "source_id": "1327393_994908",
+      "value": " France"
+    },
+    {
+      "entry_id": "1714232_691143_fact37",
+      "score": 0.7675979137420654,
+      "source_id": "1714232_691143",
+      "value": " France"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "36554560_2700288_fact1",
+      "score": 0.9280718564987183,
+      "source_id": "36554560_2700288",
+      "value": " Hampton, Virginia"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "13896428_1444104_fact1",
+      "score": 0.8639631867408752,
+      "source_id": "13896428_1444104",
+      "value": " the Pacific Northwest"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69972093_5519510_fact4",
+      "score": 0.6425877809524536,
+      "source_id": "69972093_5519510",
+      "value": " Virginia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ecd035ba-74ab-489d-bc89-3930df37d344",
+  "index_nprobe": null,
+  "manifest_id": "b9a48adeef7a2e64",
+  "margin": 0.12550878524780273,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9280718564987183,
+  "s_surv": 0.8025630712509155,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "26678201_1537476_fact2",
+      "score": 0.8025630712509155,
+      "source_id": "26678201_1537476",
+      "value": " Raleigh, North Carolina"
+    },
+    {
+      "entry_id": "20922382_3174838_fact1",
+      "score": 0.8025567531585693,
+      "source_id": "20922382_3174838",
+      "value": " Louisville, Kentucky, United States"
+    },
+    {
+      "entry_id": "2866082_398390_fact1",
+      "score": 0.7891604900360107,
+      "source_id": "2866082_398390",
+      "value": " Winston-Salem, North Carolina"
+    },
+    {
+      "entry_id": "1005728_151631_fact3",
+      "score": 0.7850232124328613,
+      "source_id": "1005728_151631",
+      "value": " Newmarket, Ontario"
+    },
+    {
+      "entry_id": "163210_6013464_fact1",
+      "score": 0.7737902402877808,
+      "source_id": "163210_6013464",
+      "value": " Minneapolis, Minnesota"
+    }
+  ],
+  "truncated": false
+}

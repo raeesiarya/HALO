@@ -1,0 +1,207 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "9496276_1440786_fact14",
+      "score": 0.9236398935317993,
+      "source_id": "9496276_1440786",
+      "value": " London stationer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13500115_3465240_fact2",
+      "score": 0.7266075611114502,
+      "source_id": "13500115_3465240",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "874101_906538_fact13",
+      "score": 0.6472994685173035,
+      "source_id": "874101_906538",
+      "value": " London governor of the Hudson's Bay Company"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2193925_463803_fact6",
+      "score": 0.6441948413848877,
+      "source_id": "2193925_463803",
+      "value": " London governor of the HBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29543784_1557127_fact26",
+      "score": 0.6164731979370117,
+      "source_id": "29543784_1557127",
+      "value": " London merchant"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1002160_143318_fact55",
+      "score": 0.5970230102539062,
+      "source_id": "1002160_143318",
+      "value": " prominent merchant in London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24884206_2294862_fact164",
+      "score": 0.5922316312789917,
+      "source_id": "24884206_2294862",
+      "value": " citizen and Leatherseller of London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49366186_5504044_fact253",
+      "score": 0.5799432992935181,
+      "source_id": "49366186_5504044",
+      "value": " Lord Mayor of London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55101284_4772439_fact9",
+      "score": 0.5669271349906921,
+      "source_id": "55101284_4772439",
+      "value": " London banker"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11960859_1670896_fact49",
+      "score": 0.5613698363304138,
+      "source_id": "11960859_1670896",
+      "value": " Grocer of Bucklersbury in London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "218332_346784_fact31",
+      "score": 0.5613031983375549,
+      "source_id": "218332_346784",
+      "value": " foremost Quaker printer in London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62334486_5085087_fact45",
+      "score": 0.5612185001373291,
+      "source_id": "62334486_5085087",
+      "value": " mayor of London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58307200_4748665_fact36",
+      "score": 0.5482723712921143,
+      "source_id": "58307200_4748665",
+      "value": " Alderman of London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "334735_1092280_fact66",
+      "score": 0.5377985239028931,
+      "source_id": "334735_1092280",
+      "value": " Bishop of London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11960859_1670896_fact50",
+      "score": 0.5363444089889526,
+      "source_id": "11960859_1670896",
+      "value": " Sheriff of London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27484589_2208707_fact31",
+      "score": 0.5349326133728027,
+      "source_id": "27484589_2208707",
+      "value": " Bishop of London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "143751_878068_fact19",
+      "score": 0.5342639088630676,
+      "source_id": "143751_878068",
+      "value": " London Mayor"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "86b68e2a-37bc-4e01-a15b-68cd4f60611b",
+  "index_nprobe": null,
+  "manifest_id": "ac49f8049bf5c593",
+  "margin": 0.1566483974456787,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9236398935317993,
+  "s_surv": 0.7669914960861206,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "40469901_5893998_fact26",
+      "score": 0.7669914960861206,
+      "source_id": "40469901_5893998",
+      "value": " second in command"
+    },
+    {
+      "entry_id": "11164382_3192870_fact8",
+      "score": 0.7366812229156494,
+      "source_id": "11164382_3192870",
+      "value": " former customs inspector"
+    },
+    {
+      "entry_id": "13500115_3465240_fact70",
+      "score": 0.7165864109992981,
+      "source_id": "13500115_3465240",
+      "value": "His Majesty's printer and bookseller"
+    },
+    {
+      "entry_id": "25398589_2766485_fact8",
+      "score": 0.7138136625289917,
+      "source_id": "25398589_2766485",
+      "value": " noted sixteenth-century preacher"
+    },
+    {
+      "entry_id": "17892678_2663380_fact8",
+      "score": 0.7005270719528198,
+      "source_id": "17892678_2663380",
+      "value": " vintner"
+    }
+  ],
+  "truncated": false
+}

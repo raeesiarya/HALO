@@ -1,0 +1,3780 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "18790770_3537446_fact2",
+      "score": 0.9735066890716553,
+      "source_id": "18790770_3537446",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31351005_3060954_fact4",
+      "score": 0.77406907081604,
+      "source_id": "31351005_3060954",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7433650_1255431_fact4",
+      "score": 0.7447147965431213,
+      "source_id": "7433650_1255431",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33315034_2445301_fact4",
+      "score": 0.7228100895881653,
+      "source_id": "33315034_2445301",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14257297_1793827_fact3",
+      "score": 0.7193170785903931,
+      "source_id": "14257297_1793827",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54540484_4459810_fact2",
+      "score": 0.7185956239700317,
+      "source_id": "54540484_4459810",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "738726_6110993_fact2",
+      "score": 0.7185439467430115,
+      "source_id": "738726_6110993",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23013460_2790294_fact2",
+      "score": 0.7170554399490356,
+      "source_id": "23013460_2790294",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6222671_422321_fact4",
+      "score": 0.7162950038909912,
+      "source_id": "6222671_422321",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37482369_3435717_fact2",
+      "score": 0.7107878923416138,
+      "source_id": "37482369_3435717",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54038021_4061499_fact3",
+      "score": 0.7106966972351074,
+      "source_id": "54038021_4061499",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12238807_1998206_fact2",
+      "score": 0.7075921297073364,
+      "source_id": "12238807_1998206",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40709030_3663160_fact2",
+      "score": 0.706420361995697,
+      "source_id": "40709030_3663160",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69479857_5223853_fact2",
+      "score": 0.7061135768890381,
+      "source_id": "69479857_5223853",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20821174_3052586_fact3",
+      "score": 0.7005564570426941,
+      "source_id": "20821174_3052586",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37876200_3679400_fact2",
+      "score": 0.6999828815460205,
+      "source_id": "37876200_3679400",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28927624_3423010_fact2",
+      "score": 0.6995716094970703,
+      "source_id": "28927624_3423010",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14829650_2380977_fact2",
+      "score": 0.6986958980560303,
+      "source_id": "14829650_2380977",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3705859_349622_fact2",
+      "score": 0.6981717348098755,
+      "source_id": "3705859_349622",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42061660_4874057_fact2",
+      "score": 0.6981620788574219,
+      "source_id": "42061660_4874057",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56850248_3639661_fact2",
+      "score": 0.697324812412262,
+      "source_id": "56850248_3639661",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65684804_5021767_fact2",
+      "score": 0.6964457035064697,
+      "source_id": "65684804_5021767",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "924746_1073701_fact2",
+      "score": 0.6961421370506287,
+      "source_id": "924746_1073701",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71186252_3978648_fact4",
+      "score": 0.6959148645401001,
+      "source_id": "71186252_3978648",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47109076_3743906_fact2",
+      "score": 0.6948597431182861,
+      "source_id": "47109076_3743906",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14720656_2269937_fact2",
+      "score": 0.6936196088790894,
+      "source_id": "14720656_2269937",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41313115_4212471_fact2",
+      "score": 0.6931586861610413,
+      "source_id": "41313115_4212471",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "939321_6159093_fact2",
+      "score": 0.6931586861610413,
+      "source_id": "939321_6159093",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12826873_2746906_fact1",
+      "score": 0.691981315612793,
+      "source_id": "12826873_2746906",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48637117_4944081_fact2",
+      "score": 0.6898583173751831,
+      "source_id": "48637117_4944081",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12330934_2105049_fact2",
+      "score": 0.6896282434463501,
+      "source_id": "12330934_2105049",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1027065_206745_fact2",
+      "score": 0.6894124150276184,
+      "source_id": "1027065_206745",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7491110_1332848_fact2",
+      "score": 0.6893132925033569,
+      "source_id": "7491110_1332848",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12073030_1795791_fact2",
+      "score": 0.6890935301780701,
+      "source_id": "12073030_1795791",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60575902_3847840_fact3",
+      "score": 0.6876614093780518,
+      "source_id": "60575902_3847840",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61884457_4781055_fact2",
+      "score": 0.6874865293502808,
+      "source_id": "61884457_4781055",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68510135_4548389_fact2",
+      "score": 0.6866809129714966,
+      "source_id": "68510135_4548389",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57310673_3998471_fact2",
+      "score": 0.6853793263435364,
+      "source_id": "57310673_3998471",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53950564_3986325_fact2",
+      "score": 0.684797465801239,
+      "source_id": "53950564_3986325",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1395670_1150614_fact2",
+      "score": 0.6845923662185669,
+      "source_id": "1395670_1150614",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31649063_3366278_fact2",
+      "score": 0.6819987297058105,
+      "source_id": "31649063_3366278",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "930766_6157147_fact2",
+      "score": 0.6806166172027588,
+      "source_id": "930766_6157147",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "983670_89563_fact2",
+      "score": 0.6806166172027588,
+      "source_id": "983670_89563",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18799094_1221199_fact2",
+      "score": 0.6803808808326721,
+      "source_id": "18799094_1221199",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33928431_2954484_fact2",
+      "score": 0.6800780296325684,
+      "source_id": "33928431_2954484",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17241062_2093058_fact2",
+      "score": 0.6790944933891296,
+      "source_id": "17241062_2093058",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10937836_2936193_fact2",
+      "score": 0.6784753203392029,
+      "source_id": "10937836_2936193",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "542704_6079251_fact2",
+      "score": 0.6776055693626404,
+      "source_id": "542704_6079251",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5335930_779226_fact2",
+      "score": 0.6773123145103455,
+      "source_id": "5335930_779226",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58074516_4602730_fact2",
+      "score": 0.6767087578773499,
+      "source_id": "58074516_4602730",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18004294_2756225_fact2",
+      "score": 0.6759207248687744,
+      "source_id": "18004294_2756225",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34858592_1405036_fact2",
+      "score": 0.675242006778717,
+      "source_id": "34858592_1405036",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10664223_2653746_fact2",
+      "score": 0.67350172996521,
+      "source_id": "10664223_2653746",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25865429_3208858_fact2",
+      "score": 0.672909140586853,
+      "source_id": "25865429_3208858",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69245960_5061666_fact2",
+      "score": 0.6725284457206726,
+      "source_id": "69245960_5061666",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "613239_6089414_fact2",
+      "score": 0.6723597049713135,
+      "source_id": "613239_6089414",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70130357_5615784_fact2",
+      "score": 0.6717182993888855,
+      "source_id": "70130357_5615784",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58117727_4638988_fact2",
+      "score": 0.6715253591537476,
+      "source_id": "58117727_4638988",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60463011_3755209_fact2",
+      "score": 0.6690601110458374,
+      "source_id": "60463011_3755209",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52352073_5268299_fact4",
+      "score": 0.6689647436141968,
+      "source_id": "52352073_5268299",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7158028_1064777_fact1",
+      "score": 0.6685699224472046,
+      "source_id": "7158028_1064777",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10841456_2818283_fact2",
+      "score": 0.6683220267295837,
+      "source_id": "10841456_2818283",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2074411_256173_fact2",
+      "score": 0.6681298017501831,
+      "source_id": "2074411_256173",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43232143_5812123_fact2",
+      "score": 0.6672037243843079,
+      "source_id": "43232143_5812123",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "358559_77493_fact2",
+      "score": 0.6671967506408691,
+      "source_id": "358559_77493",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28786816_3289738_fact2",
+      "score": 0.6671894788742065,
+      "source_id": "28786816_3289738",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "709917_6105307_fact2",
+      "score": 0.6671894788742065,
+      "source_id": "709917_6105307",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "842995_6139029_fact2",
+      "score": 0.6668838262557983,
+      "source_id": "842995_6139029",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25756959_3102888_fact2",
+      "score": 0.6666498184204102,
+      "source_id": "25756959_3102888",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13899065_1445842_fact2",
+      "score": 0.666126549243927,
+      "source_id": "13899065_1445842",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18473931_3160425_fact1",
+      "score": 0.6659704446792603,
+      "source_id": "18473931_3160425",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28330551_2969738_fact2",
+      "score": 0.6658392548561096,
+      "source_id": "28330551_2969738",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45605374_5346203_fact2",
+      "score": 0.6653978228569031,
+      "source_id": "45605374_5346203",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36500482_2660871_fact2",
+      "score": 0.6641970276832581,
+      "source_id": "36500482_2660871",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "907059_6152553_fact2",
+      "score": 0.6638936996459961,
+      "source_id": "907059_6152553",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65377109_4799499_fact1",
+      "score": 0.6633114814758301,
+      "source_id": "65377109_4799499",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62297335_5061907_fact4",
+      "score": 0.6626214981079102,
+      "source_id": "62297335_5061907",
+      "value": " Italian American"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37648830_3564075_fact2",
+      "score": 0.6625354290008545,
+      "source_id": "37648830_3564075",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59398846_5424768_fact2",
+      "score": 0.6611793041229248,
+      "source_id": "59398846_5424768",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3041995_650804_fact2",
+      "score": 0.6607635021209717,
+      "source_id": "3041995_650804",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4736974_261802_fact2",
+      "score": 0.6607251167297363,
+      "source_id": "4736974_261802",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44762238_4714585_fact2",
+      "score": 0.6606904864311218,
+      "source_id": "44762238_4714585",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2683669_162851_fact2",
+      "score": 0.660456657409668,
+      "source_id": "2683669_162851",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22086921_1930469_fact2",
+      "score": 0.6604536771774292,
+      "source_id": "22086921_1930469",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20762472_2995629_fact2",
+      "score": 0.6599632501602173,
+      "source_id": "20762472_2995629",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20123105_2468320_fact2",
+      "score": 0.659760594367981,
+      "source_id": "20123105_2468320",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57694695_4287555_fact4",
+      "score": 0.659529447555542,
+      "source_id": "57694695_4287555",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17549761_2369731_fact1",
+      "score": 0.6590666770935059,
+      "source_id": "17549761_2369731",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10541767_2539754_fact3",
+      "score": 0.6588703393936157,
+      "source_id": "10541767_2539754",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47013313_3659106_fact2",
+      "score": 0.6584562063217163,
+      "source_id": "47013313_3659106",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56196033_5544332_fact2",
+      "score": 0.6582586765289307,
+      "source_id": "56196033_5544332",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50236023_3662250_fact2",
+      "score": 0.6580648422241211,
+      "source_id": "50236023_3662250",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47131660_3762943_fact1",
+      "score": 0.6580075025558472,
+      "source_id": "47131660_3762943",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7119776_1034121_fact2",
+      "score": 0.6569696664810181,
+      "source_id": "7119776_1034121",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "745081_6111966_fact2",
+      "score": 0.6569696664810181,
+      "source_id": "745081_6111966",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "927935_6156547_fact2",
+      "score": 0.6566557884216309,
+      "source_id": "927935_6156547",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13542383_3504658_fact3",
+      "score": 0.6562319993972778,
+      "source_id": "13542383_3504658",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26264279_3579548_fact3",
+      "score": 0.6561487913131714,
+      "source_id": "26264279_3579548",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "349051_1173315_fact2",
+      "score": 0.6560587882995605,
+      "source_id": "349051_1173315",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59010603_5214709_fact2",
+      "score": 0.6559610962867737,
+      "source_id": "59010603_5214709",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1212766_710275_fact3",
+      "score": 0.6558487415313721,
+      "source_id": "1212766_710275",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16137946_1221085_fact2",
+      "score": 0.655283510684967,
+      "source_id": "16137946_1221085",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64644392_4418312_fact2",
+      "score": 0.6550987362861633,
+      "source_id": "64644392_4418312",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70236999_5678219_fact2",
+      "score": 0.6550490856170654,
+      "source_id": "70236999_5678219",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53043642_5726014_fact2",
+      "score": 0.6546088457107544,
+      "source_id": "53043642_5726014",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65433271_4840581_fact4",
+      "score": 0.6541049480438232,
+      "source_id": "65433271_4840581",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4677370_209171_fact2",
+      "score": 0.6539223194122314,
+      "source_id": "4677370_209171",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4001827_667879_fact2",
+      "score": 0.6538445949554443,
+      "source_id": "4001827_667879",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20081382_2430407_fact4",
+      "score": 0.653783917427063,
+      "source_id": "20081382_2430407",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71816344_4401921_fact3",
+      "score": 0.6532719135284424,
+      "source_id": "71816344_4401921",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47272699_3893128_fact2",
+      "score": 0.653099536895752,
+      "source_id": "47272699_3893128",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "776976_6123116_fact2",
+      "score": 0.6529573202133179,
+      "source_id": "776976_6123116",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "886768_6148302_fact2",
+      "score": 0.6528573036193848,
+      "source_id": "886768_6148302",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65975594_5245157_fact4",
+      "score": 0.6525702476501465,
+      "source_id": "65975594_5245157",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52813791_5573554_fact2",
+      "score": 0.651692271232605,
+      "source_id": "52813791_5573554",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49579988_5641740_fact2",
+      "score": 0.6515133380889893,
+      "source_id": "49579988_5641740",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71855412_4424691_fact4",
+      "score": 0.6511953473091125,
+      "source_id": "71855412_4424691",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49975968_5862605_fact2",
+      "score": 0.6510542035102844,
+      "source_id": "49975968_5862605",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8870351_3159166_fact4",
+      "score": 0.650905191898346,
+      "source_id": "8870351_3159166",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53141530_5789477_fact2",
+      "score": 0.6507823467254639,
+      "source_id": "53141530_5789477",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "571355_6082945_fact2",
+      "score": 0.6507823467254639,
+      "source_id": "571355_6082945",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27607969_2314183_fact2",
+      "score": 0.6507482528686523,
+      "source_id": "27607969_2314183",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26729033_1581523_fact3",
+      "score": 0.650665283203125,
+      "source_id": "26729033_1581523",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19176561_1628876_fact2",
+      "score": 0.649917483329773,
+      "source_id": "19176561_1628876",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16244417_1293659_fact4",
+      "score": 0.6498016715049744,
+      "source_id": "16244417_1293659",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16358028_1373438_fact2",
+      "score": 0.6496200561523438,
+      "source_id": "16358028_1373438",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33313206_2444028_fact3",
+      "score": 0.649395763874054,
+      "source_id": "33313206_2444028",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69106739_4954200_fact2",
+      "score": 0.6492494940757751,
+      "source_id": "69106739_4954200",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9324473_1251264_fact2",
+      "score": 0.6491344571113586,
+      "source_id": "9324473_1251264",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53530629_3648001_fact2",
+      "score": 0.6490917801856995,
+      "source_id": "53530629_3648001",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8380118_2513471_fact2",
+      "score": 0.6490218639373779,
+      "source_id": "8380118_2513471",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46835822_5965672_fact2",
+      "score": 0.648723840713501,
+      "source_id": "46835822_5965672",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "879168_6146907_fact2",
+      "score": 0.6485675573348999,
+      "source_id": "879168_6146907",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11647540_1320766_fact2",
+      "score": 0.6483149528503418,
+      "source_id": "11647540_1320766",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64283225_4130995_fact3",
+      "score": 0.647881269454956,
+      "source_id": "64283225_4130995",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28724190_3233162_fact2",
+      "score": 0.6478060483932495,
+      "source_id": "28724190_3233162",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62307245_5066073_fact2",
+      "score": 0.6476009488105774,
+      "source_id": "62307245_5066073",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27038009_1837050_fact2",
+      "score": 0.6474977731704712,
+      "source_id": "27038009_1837050",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4734721_259879_fact2",
+      "score": 0.647354006767273,
+      "source_id": "4734721_259879",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68804577_4774016_fact3",
+      "score": 0.6473480463027954,
+      "source_id": "68804577_4774016",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31525928_3223153_fact3",
+      "score": 0.647257924079895,
+      "source_id": "31525928_3223153",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47138805_3769410_fact0",
+      "score": 0.6472464799880981,
+      "source_id": "47138805_3769410",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8911709_3216853_fact1",
+      "score": 0.6470353603363037,
+      "source_id": "8911709_3216853",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68780440_4755463_fact2",
+      "score": 0.6470134258270264,
+      "source_id": "68780440_4755463",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27565364_2272579_fact2",
+      "score": 0.6469026803970337,
+      "source_id": "27565364_2272579",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47276233_3895915_fact2",
+      "score": 0.64690101146698,
+      "source_id": "47276233_3895915",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7200769_1092675_fact4",
+      "score": 0.6466905474662781,
+      "source_id": "7200769_1092675",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48726533_5021794_fact2",
+      "score": 0.646683931350708,
+      "source_id": "48726533_5021794",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65373715_4797752_fact93",
+      "score": 0.6463132500648499,
+      "source_id": "65373715_4797752",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1647109_540995_fact2",
+      "score": 0.6459916234016418,
+      "source_id": "1647109_540995",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36592584_2734835_fact2",
+      "score": 0.6458803415298462,
+      "source_id": "36592584_2734835",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50728078_4034560_fact2",
+      "score": 0.6457895636558533,
+      "source_id": "50728078_4034560",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13955367_1504154_fact2",
+      "score": 0.6454470157623291,
+      "source_id": "13955367_1504154",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34800584_1367383_fact4",
+      "score": 0.6453944444656372,
+      "source_id": "34800584_1367383",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18467604_3153346_fact1",
+      "score": 0.6451959609985352,
+      "source_id": "18467604_3153346",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9479130_1416535_fact2",
+      "score": 0.6448631882667542,
+      "source_id": "9479130_1416535",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20707960_2948020_fact2",
+      "score": 0.6446410417556763,
+      "source_id": "20707960_2948020",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37985504_3777352_fact2",
+      "score": 0.6444075107574463,
+      "source_id": "37985504_3777352",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1876457_1033421_fact2",
+      "score": 0.6434464454650879,
+      "source_id": "1876457_1033421",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54025967_4051082_fact2",
+      "score": 0.6434221267700195,
+      "source_id": "54025967_4051082",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19386625_1835741_fact2",
+      "score": 0.6433621048927307,
+      "source_id": "19386625_1835741",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46460302_5681583_fact2",
+      "score": 0.643230140209198,
+      "source_id": "46460302_5681583",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19914626_2275410_fact1",
+      "score": 0.642322301864624,
+      "source_id": "19914626_2275410",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61810331_4734419_fact2",
+      "score": 0.6421697735786438,
+      "source_id": "61810331_4734419",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4398656_1089778_fact4",
+      "score": 0.6421545147895813,
+      "source_id": "4398656_1089778",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6733255_746394_fact2",
+      "score": 0.6421370506286621,
+      "source_id": "6733255_746394",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "902215_6151653_fact2",
+      "score": 0.6419869065284729,
+      "source_id": "902215_6151653",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8648962_2865307_fact2",
+      "score": 0.6419228911399841,
+      "source_id": "8648962_2865307",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56661256_5854456_fact2",
+      "score": 0.6408364772796631,
+      "source_id": "56661256_5854456",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42842841_5521373_fact3",
+      "score": 0.6407287120819092,
+      "source_id": "42842841_5521373",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16026417_3492913_fact4",
+      "score": 0.6406799554824829,
+      "source_id": "16026417_3492913",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48742591_5035413_fact2",
+      "score": 0.6403767466545105,
+      "source_id": "48742591_5035413",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18268641_2968418_fact2",
+      "score": 0.6402510404586792,
+      "source_id": "18268641_2968418",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26952891_1770284_fact2",
+      "score": 0.6402503848075867,
+      "source_id": "26952891_1770284",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65275406_4729853_fact2",
+      "score": 0.6396127939224243,
+      "source_id": "65275406_4729853",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2477926_973299_fact2",
+      "score": 0.6393126845359802,
+      "source_id": "2477926_973299",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38986567_4645283_fact2",
+      "score": 0.6390414237976074,
+      "source_id": "38986567_4645283",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1716557_696454_fact4",
+      "score": 0.6387826800346375,
+      "source_id": "1716557_696454",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19063833_1522549_fact2",
+      "score": 0.6387348175048828,
+      "source_id": "19063833_1522549",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "702993_6103856_fact2",
+      "score": 0.6387348175048828,
+      "source_id": "702993_6103856",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46782666_5938212_fact1",
+      "score": 0.638622522354126,
+      "source_id": "46782666_5938212",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22631743_2443200_fact2",
+      "score": 0.6383295655250549,
+      "source_id": "22631743_2443200",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40537402_5946920_fact2",
+      "score": 0.6383252143859863,
+      "source_id": "40537402_5946920",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14313508_1852121_fact2",
+      "score": 0.638302206993103,
+      "source_id": "14313508_1852121",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59505984_5493550_fact2",
+      "score": 0.6375826597213745,
+      "source_id": "59505984_5493550",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63078833_5582914_fact2",
+      "score": 0.6374186873435974,
+      "source_id": "63078833_5582914",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57357933_4039892_fact4",
+      "score": 0.6370340585708618,
+      "source_id": "57357933_4039892",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63113613_5606570_fact4",
+      "score": 0.6370061635971069,
+      "source_id": "63113613_5606570",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38697232_4388548_fact2",
+      "score": 0.6368440389633179,
+      "source_id": "38697232_4388548",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "704393_6104098_fact2",
+      "score": 0.6368440389633179,
+      "source_id": "704393_6104098",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4013843_677863_fact2",
+      "score": 0.6361783146858215,
+      "source_id": "4013843_677863",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67083569_5902358_fact2",
+      "score": 0.6361589431762695,
+      "source_id": "67083569_5902358",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52256804_5193309_fact6",
+      "score": 0.6361414790153503,
+      "source_id": "52256804_5193309",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45250932_5055640_fact2",
+      "score": 0.6360622644424438,
+      "source_id": "45250932_5055640",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "725957_6108233_fact2",
+      "score": 0.6360622644424438,
+      "source_id": "725957_6108233",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68374776_4431578_fact3",
+      "score": 0.6359411478042603,
+      "source_id": "68374776_4431578",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39842424_5419556_fact4",
+      "score": 0.635696530342102,
+      "source_id": "39842424_5419556",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23586140_3339650_fact2",
+      "score": 0.6355836391448975,
+      "source_id": "23586140_3339650",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66379606_5524180_fact2",
+      "score": 0.6352487802505493,
+      "source_id": "66379606_5524180",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69286736_5091529_fact4",
+      "score": 0.6349765062332153,
+      "source_id": "69286736_5091529",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32088313_1435385_fact2",
+      "score": 0.6342309713363647,
+      "source_id": "32088313_1435385",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30758834_2424247_fact2",
+      "score": 0.6339845061302185,
+      "source_id": "30758834_2424247",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26575679_1454137_fact2",
+      "score": 0.6339316368103027,
+      "source_id": "26575679_1454137",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64552118_4343561_fact2",
+      "score": 0.6338295936584473,
+      "source_id": "64552118_4343561",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18066998_2810981_fact2",
+      "score": 0.6334798336029053,
+      "source_id": "18066998_2810981",
+      "value": " Italian American"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31429799_3127648_fact3",
+      "score": 0.6331859827041626,
+      "source_id": "31429799_3127648",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22777390_2585865_fact1",
+      "score": 0.6331479549407959,
+      "source_id": "22777390_2585865",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38873976_4537779_fact2",
+      "score": 0.6329481601715088,
+      "source_id": "38873976_4537779",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64428079_4244157_fact2",
+      "score": 0.632472813129425,
+      "source_id": "64428079_4244157",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14433070_1964009_fact3",
+      "score": 0.6317934989929199,
+      "source_id": "14433070_1964009",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60833072_4044139_fact2",
+      "score": 0.6316001415252686,
+      "source_id": "60833072_4044139",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37391065_3363067_fact2",
+      "score": 0.631466805934906,
+      "source_id": "37391065_3363067",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26871053_1708099_fact2",
+      "score": 0.631097674369812,
+      "source_id": "26871053_1708099",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10345688_2340560_fact2",
+      "score": 0.631001889705658,
+      "source_id": "10345688_2340560",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21967433_1825980_fact2",
+      "score": 0.6302906274795532,
+      "source_id": "21967433_1825980",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65990154_5255216_fact4",
+      "score": 0.6301349401473999,
+      "source_id": "65990154_5255216",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38230645_3994002_fact2",
+      "score": 0.6299521327018738,
+      "source_id": "38230645_3994002",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57807477_4381257_fact4",
+      "score": 0.6297249794006348,
+      "source_id": "57807477_4381257",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18141892_2871888_fact2",
+      "score": 0.6296654939651489,
+      "source_id": "18141892_2871888",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11983317_1702390_fact2",
+      "score": 0.6295806169509888,
+      "source_id": "11983317_1702390",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65314005_4756756_fact1",
+      "score": 0.6285719871520996,
+      "source_id": "65314005_4756756",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26373352_1289681_fact2",
+      "score": 0.628535270690918,
+      "source_id": "26373352_1289681",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62317091_5072912_fact2",
+      "score": 0.6284357905387878,
+      "source_id": "62317091_5072912",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61154934_4244442_fact2",
+      "score": 0.6280338168144226,
+      "source_id": "61154934_4244442",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42055523_4868731_fact1",
+      "score": 0.6276944875717163,
+      "source_id": "42055523_4868731",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26700194_1555608_fact4",
+      "score": 0.6276159286499023,
+      "source_id": "26700194_1555608",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11728184_1401218_fact2",
+      "score": 0.6276080012321472,
+      "source_id": "11728184_1401218",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38559108_4271994_fact3",
+      "score": 0.6271512508392334,
+      "source_id": "38559108_4271994",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5872486_140304_fact1",
+      "score": 0.6271011829376221,
+      "source_id": "5872486_140304",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34306664_3270109_fact2",
+      "score": 0.6270122528076172,
+      "source_id": "34306664_3270109",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60735389_3962589_fact2",
+      "score": 0.6270101070404053,
+      "source_id": "60735389_3962589",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36244745_2462158_fact3",
+      "score": 0.6269395351409912,
+      "source_id": "36244745_2462158",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "696643_6102869_fact2",
+      "score": 0.626854658126831,
+      "source_id": "696643_6102869",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70501814_5852726_fact2",
+      "score": 0.6263232231140137,
+      "source_id": "70501814_5852726",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62615492_5285581_fact1",
+      "score": 0.6259975433349609,
+      "source_id": "62615492_5285581",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26398789_1309389_fact4",
+      "score": 0.6259535551071167,
+      "source_id": "26398789_1309389",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22741453_2551485_fact2",
+      "score": 0.6259517669677734,
+      "source_id": "22741453_2551485",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60630407_3896540_fact2",
+      "score": 0.6258460283279419,
+      "source_id": "60630407_3896540",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18580719_3277927_fact2",
+      "score": 0.6257793307304382,
+      "source_id": "18580719_3277927",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44849487_4776243_fact2",
+      "score": 0.6255967020988464,
+      "source_id": "44849487_4776243",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13859470_1409196_fact1",
+      "score": 0.6252256035804749,
+      "source_id": "13859470_1409196",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69074851_4931177_fact4",
+      "score": 0.6251218318939209,
+      "source_id": "69074851_4931177",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26014438_3355179_fact2",
+      "score": 0.6251199245452881,
+      "source_id": "26014438_3355179",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "681636_6100531_fact2",
+      "score": 0.6251199245452881,
+      "source_id": "681636_6100531",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60480388_3770132_fact4",
+      "score": 0.6249449849128723,
+      "source_id": "60480388_3770132",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27592333_2299235_fact2",
+      "score": 0.6248281598091125,
+      "source_id": "27592333_2299235",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66478312_5585279_fact2",
+      "score": 0.6248232126235962,
+      "source_id": "66478312_5585279",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14624083_2163806_fact1",
+      "score": 0.6246938705444336,
+      "source_id": "14624083_2163806",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64212008_4077963_fact2",
+      "score": 0.6245603561401367,
+      "source_id": "64212008_4077963",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71484436_4196968_fact2",
+      "score": 0.6243194341659546,
+      "source_id": "71484436_4196968",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5346482_789078_fact2",
+      "score": 0.6242964863777161,
+      "source_id": "5346482_789078",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15121550_2649904_fact2",
+      "score": 0.6241970658302307,
+      "source_id": "15121550_2649904",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "95893_5996470_fact2",
+      "score": 0.6240676641464233,
+      "source_id": "95893_5996470",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "143886_6006935_fact2",
+      "score": 0.6240294575691223,
+      "source_id": "143886_6006935",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65387321_4806125_fact2",
+      "score": 0.6239800453186035,
+      "source_id": "65387321_4806125",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7598427_1469327_fact2",
+      "score": 0.6239558458328247,
+      "source_id": "7598427_1469327",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46782659_5938205_fact2",
+      "score": 0.6239291429519653,
+      "source_id": "46782659_5938205",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15966694_3436228_fact5",
+      "score": 0.6239191889762878,
+      "source_id": "15966694_3436228",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44767246_4717516_fact2",
+      "score": 0.6237654685974121,
+      "source_id": "44767246_4717516",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2736986_231088_fact2",
+      "score": 0.6234626173973083,
+      "source_id": "2736986_231088",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65195799_4681197_fact2",
+      "score": 0.6232800483703613,
+      "source_id": "65195799_4681197",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35957271_2222933_fact2",
+      "score": 0.6230475902557373,
+      "source_id": "35957271_2222933",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60607943_3879153_fact2",
+      "score": 0.6229342222213745,
+      "source_id": "60607943_3879153",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37305383_3307828_fact2",
+      "score": 0.6229134202003479,
+      "source_id": "37305383_3307828",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41739397_4590371_fact2",
+      "score": 0.6228454113006592,
+      "source_id": "41739397_4590371",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42311997_5083802_fact4",
+      "score": 0.6228260397911072,
+      "source_id": "42311997_5083802",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1389382_1134107_fact2",
+      "score": 0.6227928996086121,
+      "source_id": "1389382_1134107",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61716879_4668341_fact2",
+      "score": 0.6226729154586792,
+      "source_id": "61716879_4668341",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15813693_3288955_fact2",
+      "score": 0.6224655508995056,
+      "source_id": "15813693_3288955",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9884101_1860930_fact3",
+      "score": 0.6223328709602356,
+      "source_id": "9884101_1860930",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9008595_3349009_fact2",
+      "score": 0.622042179107666,
+      "source_id": "9008595_3349009",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "791724_6126291_fact2",
+      "score": 0.6220275163650513,
+      "source_id": "791724_6126291",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8206561_2283478_fact1",
+      "score": 0.6220012307167053,
+      "source_id": "8206561_2283478",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17013340_1898706_fact4",
+      "score": 0.6219281554222107,
+      "source_id": "17013340_1898706",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11127020_3149909_fact2",
+      "score": 0.6219109892845154,
+      "source_id": "11127020_3149909",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44328600_4362146_fact2",
+      "score": 0.6218397617340088,
+      "source_id": "44328600_4362146",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67954769_4144384_fact2",
+      "score": 0.6218127608299255,
+      "source_id": "67954769_4144384",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31102333_2822032_fact2",
+      "score": 0.6213200092315674,
+      "source_id": "31102333_2822032",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51146349_4375491_fact2",
+      "score": 0.6212907433509827,
+      "source_id": "51146349_4375491",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51601160_4758300_fact2",
+      "score": 0.6211594343185425,
+      "source_id": "51601160_4758300",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39169689_4808706_fact2",
+      "score": 0.621051549911499,
+      "source_id": "39169689_4808706",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51531534_4700396_fact2",
+      "score": 0.6210291981697083,
+      "source_id": "51531534_4700396",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17753080_2558868_fact2",
+      "score": 0.6209933757781982,
+      "source_id": "17753080_2558868",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71489357_4201118_fact2",
+      "score": 0.6209654808044434,
+      "source_id": "71489357_4201118",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "949875_6162204_fact2",
+      "score": 0.6209654808044434,
+      "source_id": "949875_6162204",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14408253_1935915_fact2",
+      "score": 0.6209250092506409,
+      "source_id": "14408253_1935915",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23977196_1410872_fact2",
+      "score": 0.6208069920539856,
+      "source_id": "23977196_1410872",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "142477_863482_fact2",
+      "score": 0.6205991506576538,
+      "source_id": "142477_863482",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11099573_3121478_fact2",
+      "score": 0.6203175187110901,
+      "source_id": "11099573_3121478",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20865374_3104583_fact2",
+      "score": 0.6202878355979919,
+      "source_id": "20865374_3104583",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48913840_5182187_fact2",
+      "score": 0.6201669573783875,
+      "source_id": "48913840_5182187",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49330380_5478277_fact2",
+      "score": 0.6199317574501038,
+      "source_id": "49330380_5478277",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64998463_4587546_fact2",
+      "score": 0.6196871995925903,
+      "source_id": "64998463_4587546",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42654039_5376222_fact6",
+      "score": 0.619565486907959,
+      "source_id": "42654039_5376222",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9280216_1213183_fact2",
+      "score": 0.6194237470626831,
+      "source_id": "9280216_1213183",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71431251_4158641_fact0",
+      "score": 0.6193253397941589,
+      "source_id": "71431251_4158641",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30294083_2070323_fact4",
+      "score": 0.6192015409469604,
+      "source_id": "30294083_2070323",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16064074_3534136_fact2",
+      "score": 0.619106650352478,
+      "source_id": "16064074_3534136",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67647620_3916993_fact4",
+      "score": 0.61884605884552,
+      "source_id": "67647620_3916993",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19442522_1885366_fact2",
+      "score": 0.618556559085846,
+      "source_id": "19442522_1885366",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18287834_2979285_fact3",
+      "score": 0.6185106635093689,
+      "source_id": "18287834_2979285",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14372327_1913478_fact1",
+      "score": 0.6181716918945312,
+      "source_id": "14372327_1913478",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4504145_1199157_fact2",
+      "score": 0.618073582649231,
+      "source_id": "4504145_1199157",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4497968_1191757_fact2",
+      "score": 0.6179484128952026,
+      "source_id": "4497968_1191757",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51777305_4867840_fact2",
+      "score": 0.6179177165031433,
+      "source_id": "51777305_4867840",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4368159_1059527_fact3",
+      "score": 0.6178736686706543,
+      "source_id": "4368159_1059527",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3212414_893363_fact2",
+      "score": 0.6178363561630249,
+      "source_id": "3212414_893363",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56756705_5921845_fact2",
+      "score": 0.6178286075592041,
+      "source_id": "56756705_5921845",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20080940_2429874_fact4",
+      "score": 0.6177336573600769,
+      "source_id": "20080940_2429874",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45336842_5128023_fact1",
+      "score": 0.6176939010620117,
+      "source_id": "45336842_5128023",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45506505_5269746_fact1",
+      "score": 0.6174623966217041,
+      "source_id": "45506505_5269746",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8693847_2921489_fact3",
+      "score": 0.6172065138816833,
+      "source_id": "8693847_2921489",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61050886_4187800_fact2",
+      "score": 0.6168127059936523,
+      "source_id": "61050886_4187800",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19026593_1484530_fact2",
+      "score": 0.6166011691093445,
+      "source_id": "19026593_1484530",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53315016_5898736_fact2",
+      "score": 0.6165792346000671,
+      "source_id": "53315016_5898736",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "763658_6118437_fact2",
+      "score": 0.6165739893913269,
+      "source_id": "763658_6118437",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34327454_3288198_fact2",
+      "score": 0.6164863109588623,
+      "source_id": "34327454_3288198",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68683840_4681847_fact2",
+      "score": 0.6163186430931091,
+      "source_id": "68683840_4681847",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3258347_959057_fact4",
+      "score": 0.6162781715393066,
+      "source_id": "3258347_959057",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39588490_5206359_fact2",
+      "score": 0.6162078380584717,
+      "source_id": "39588490_5206359",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27630342_2336642_fact2",
+      "score": 0.6159917712211609,
+      "source_id": "27630342_2336642",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51066807_4310920_fact2",
+      "score": 0.6159589290618896,
+      "source_id": "51066807_4310920",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68649763_4655208_fact4",
+      "score": 0.6158286929130554,
+      "source_id": "68649763_4655208",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46885238_5973893_fact2",
+      "score": 0.615580677986145,
+      "source_id": "46885238_5973893",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68468046_4510131_fact4",
+      "score": 0.6154887676239014,
+      "source_id": "68468046_4510131",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10037133_2025926_fact2",
+      "score": 0.6154434680938721,
+      "source_id": "10037133_2025926",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38825308_4490993_fact3",
+      "score": 0.6153542995452881,
+      "source_id": "38825308_4490993",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50900709_4160268_fact2",
+      "score": 0.6153399348258972,
+      "source_id": "50900709_4160268",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "439278_6062341_fact2",
+      "score": 0.6153005957603455,
+      "source_id": "439278_6062341",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39554420_5175521_fact2",
+      "score": 0.6152856349945068,
+      "source_id": "39554420_5175521",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47135767_3765822_fact2",
+      "score": 0.6152099967002869,
+      "source_id": "47135767_3765822",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43264527_5836208_fact2",
+      "score": 0.6151726245880127,
+      "source_id": "43264527_5836208",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "183143_6016850_fact2",
+      "score": 0.6150950193405151,
+      "source_id": "183143_6016850",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66475195_5583582_fact2",
+      "score": 0.6150832176208496,
+      "source_id": "66475195_5583582",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8236651_2326058_fact2",
+      "score": 0.6149333715438843,
+      "source_id": "8236651_2326058",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49458794_5570697_fact3",
+      "score": 0.6149007081985474,
+      "source_id": "49458794_5570697",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42542875_5285716_fact3",
+      "score": 0.6148792505264282,
+      "source_id": "42542875_5285716",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47735525_4308628_fact2",
+      "score": 0.6148459911346436,
+      "source_id": "47735525_4308628",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9663385_1645833_fact2",
+      "score": 0.6148198843002319,
+      "source_id": "9663385_1645833",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47682882_4266545_fact4",
+      "score": 0.6147336363792419,
+      "source_id": "47682882_4266545",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25169657_2566885_fact2",
+      "score": 0.6146092414855957,
+      "source_id": "25169657_2566885",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35604985_1925695_fact2",
+      "score": 0.6145946979522705,
+      "source_id": "35604985_1925695",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19941349_2303895_fact2",
+      "score": 0.6145745515823364,
+      "source_id": "19941349_2303895",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10441858_2441690_fact1",
+      "score": 0.6145167946815491,
+      "source_id": "10441858_2441690",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57373936_4051641_fact2",
+      "score": 0.614434540271759,
+      "source_id": "57373936_4051641",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39557671_5178122_fact2",
+      "score": 0.6143839955329895,
+      "source_id": "39557671_5178122",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1868128_1016477_fact2",
+      "score": 0.6142832040786743,
+      "source_id": "1868128_1016477",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34895445_1430546_fact3",
+      "score": 0.61424720287323,
+      "source_id": "34895445_1430546",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60573162_3845226_fact1",
+      "score": 0.6141364574432373,
+      "source_id": "60573162_3845226",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33361790_2478837_fact1",
+      "score": 0.6141350865364075,
+      "source_id": "33361790_2478837",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13901776_1449137_fact2",
+      "score": 0.6140083074569702,
+      "source_id": "13901776_1449137",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15634088_3116889_fact1",
+      "score": 0.613892138004303,
+      "source_id": "15634088_3116889",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39082760_4728084_fact2",
+      "score": 0.6136868000030518,
+      "source_id": "39082760_4728084",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5529161_939412_fact1",
+      "score": 0.6136782169342041,
+      "source_id": "5529161_939412",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5497718_909982_fact4",
+      "score": 0.6135413646697998,
+      "source_id": "5497718_909982",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16994104_1879505_fact2",
+      "score": 0.6135042905807495,
+      "source_id": "16994104_1879505",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5988739_235766_fact4",
+      "score": 0.6134052276611328,
+      "source_id": "5988739_235766",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68658130_4661609_fact4",
+      "score": 0.613397479057312,
+      "source_id": "68658130_4661609",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62662841_5315972_fact2",
+      "score": 0.61334228515625,
+      "source_id": "62662841_5315972",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4521143_72438_fact1",
+      "score": 0.6132298707962036,
+      "source_id": "4521143_72438",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60697594_3940613_fact2",
+      "score": 0.6131988167762756,
+      "source_id": "60697594_3940613",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28594232_3142751_fact2",
+      "score": 0.6131294965744019,
+      "source_id": "28594232_3142751",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17256496_2108445_fact2",
+      "score": 0.613118052482605,
+      "source_id": "17256496_2108445",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71769813_4373910_fact4",
+      "score": 0.6131101846694946,
+      "source_id": "71769813_4373910",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41147323_4062951_fact2",
+      "score": 0.6130511164665222,
+      "source_id": "41147323_4062951",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12370208_2152520_fact2",
+      "score": 0.6129986047744751,
+      "source_id": "12370208_2152520",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50650629_3961495_fact3",
+      "score": 0.6129606366157532,
+      "source_id": "50650629_3961495",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3126271_771380_fact2",
+      "score": 0.6128809452056885,
+      "source_id": "3126271_771380",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11727856_1400856_fact2",
+      "score": 0.6128785014152527,
+      "source_id": "11727856_1400856",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39046148_4697124_fact3",
+      "score": 0.612799346446991,
+      "source_id": "39046148_4697124",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25577307_2939284_fact2",
+      "score": 0.6127352714538574,
+      "source_id": "25577307_2939284",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64541947_4336940_fact1",
+      "score": 0.612714409828186,
+      "source_id": "64541947_4336940",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50879077_4141388_fact2",
+      "score": 0.6126964688301086,
+      "source_id": "50879077_4141388",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8465277_2618214_fact1",
+      "score": 0.612585186958313,
+      "source_id": "8465277_2618214",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20609615_2856912_fact4",
+      "score": 0.6124834418296814,
+      "source_id": "20609615_2856912",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51991840_4984267_fact2",
+      "score": 0.6123010516166687,
+      "source_id": "51991840_4984267",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7579835_1442976_fact2",
+      "score": 0.6122667193412781,
+      "source_id": "7579835_1442976",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52310349_5236994_fact2",
+      "score": 0.6122260093688965,
+      "source_id": "52310349_5236994",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42877060_5548964_fact2",
+      "score": 0.6119935512542725,
+      "source_id": "42877060_5548964",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37881893_3685758_fact2",
+      "score": 0.611912190914154,
+      "source_id": "37881893_3685758",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40169030_5674431_fact2",
+      "score": 0.6117852926254272,
+      "source_id": "40169030_5674431",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18798960_1220995_fact2",
+      "score": 0.6117398738861084,
+      "source_id": "18798960_1220995",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5018888_497310_fact2",
+      "score": 0.6115854382514954,
+      "source_id": "5018888_497310",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18077833_2819310_fact4",
+      "score": 0.6114894151687622,
+      "source_id": "18077833_2819310",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7133981_1046363_fact2",
+      "score": 0.6113473773002625,
+      "source_id": "7133981_1046363",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26515124_1399600_fact3",
+      "score": 0.611269474029541,
+      "source_id": "26515124_1399600",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54347555_4307238_fact2",
+      "score": 0.6111689805984497,
+      "source_id": "54347555_4307238",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58716220_5030023_fact2",
+      "score": 0.6111606359481812,
+      "source_id": "58716220_5030023",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63904018_3829728_fact2",
+      "score": 0.6111260652542114,
+      "source_id": "63904018_3829728",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31322604_3032634_fact4",
+      "score": 0.6109846234321594,
+      "source_id": "31322604_3032634",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5558472_962853_fact4",
+      "score": 0.6109815835952759,
+      "source_id": "5558472_962853",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29421262_1462567_fact2",
+      "score": 0.6109716296195984,
+      "source_id": "29421262_1462567",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25727794_3075686_fact4",
+      "score": 0.6109706163406372,
+      "source_id": "25727794_3075686",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29806149_1749415_fact2",
+      "score": 0.6109148263931274,
+      "source_id": "29806149_1749415",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21163499_3437641_fact2",
+      "score": 0.6108920574188232,
+      "source_id": "21163499_3437641",
+      "value": " Italian Police officer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11382015_3442184_fact3",
+      "score": 0.6108667850494385,
+      "source_id": "11382015_3442184",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47682094_4265693_fact2",
+      "score": 0.6107783913612366,
+      "source_id": "47682094_4265693",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "615865_114554_fact2",
+      "score": 0.6107492446899414,
+      "source_id": "615865_114554",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62599067_5275877_fact2",
+      "score": 0.610595703125,
+      "source_id": "62599067_5275877",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38130015_3903147_fact2",
+      "score": 0.6105607748031616,
+      "source_id": "38130015_3903147",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54720835_4575248_fact2",
+      "score": 0.6105088591575623,
+      "source_id": "54720835_4575248",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43231913_5811974_fact2",
+      "score": 0.6103910803794861,
+      "source_id": "43231913_5811974",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "628881_6091637_fact2",
+      "score": 0.6103910803794861,
+      "source_id": "628881_6091637",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9422447_1354834_fact2",
+      "score": 0.6103408932685852,
+      "source_id": "9422447_1354834",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "760184_6117315_fact2",
+      "score": 0.6102962493896484,
+      "source_id": "760184_6117315",
+      "value": " Italian Democratic Party"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16992055_1877261_fact2",
+      "score": 0.6101697683334351,
+      "source_id": "16992055_1877261",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51164526_4391000_fact2",
+      "score": 0.6100385785102844,
+      "source_id": "51164526_4391000",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29887995_1794048_fact2",
+      "score": 0.6099428534507751,
+      "source_id": "29887995_1794048",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38000474_3791044_fact1",
+      "score": 0.6097543239593506,
+      "source_id": "38000474_3791044",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46984944_3633676_fact4",
+      "score": 0.6095407009124756,
+      "source_id": "46984944_3633676",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21239243_3507554_fact2",
+      "score": 0.609459638595581,
+      "source_id": "21239243_3507554",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "772758_6121602_fact2",
+      "score": 0.609459638595581,
+      "source_id": "772758_6121602",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65331537_4769336_fact1",
+      "score": 0.609449028968811,
+      "source_id": "65331537_4769336",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37558_815325_fact2",
+      "score": 0.6094478964805603,
+      "source_id": "37558_815325",
+      "value": " Italian"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3f3a2470-9f21-4d26-84e0-aa7b75c859bb",
+  "index_nprobe": null,
+  "manifest_id": "662faf39c07b5f33",
+  "margin": 0.2143099308013916,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9735066890716553,
+  "s_surv": 0.7591967582702637,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "9337806_1264389_fact2",
+      "score": 0.7591967582702637,
+      "source_id": "9337806_1264389",
+      "value": " Argentine-American"
+    },
+    {
+      "entry_id": "4343983_1033880_fact2",
+      "score": 0.7346841096878052,
+      "source_id": "4343983_1033880",
+      "value": " American"
+    },
+    {
+      "entry_id": "12975548_2910326_fact2",
+      "score": 0.697698712348938,
+      "source_id": "12975548_2910326",
+      "value": " American football end"
+    },
+    {
+      "entry_id": "4323422_1013739_fact2",
+      "score": 0.6910880208015442,
+      "source_id": "4323422_1013739",
+      "value": " English"
+    },
+    {
+      "entry_id": "18949354_1374784_fact3",
+      "score": 0.6818242073059082,
+      "source_id": "18949354_1374784",
+      "value": " American"
+    }
+  ],
+  "truncated": false
+}

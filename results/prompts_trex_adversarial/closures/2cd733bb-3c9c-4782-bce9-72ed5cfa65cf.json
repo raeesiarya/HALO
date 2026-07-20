@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5571305_973303_fact0",
+      "score": 0.918372392654419,
+      "source_id": "5571305_973303",
+      "value": " Granada, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26167860_3490145_fact2",
+      "score": 0.7443480491638184,
+      "source_id": "26167860_3490145",
+      "value": " Granada, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46388696_5625418_fact1",
+      "score": 0.6570791006088257,
+      "source_id": "46388696_5625418",
+      "value": " Granada, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5800803_75234_fact3",
+      "score": 0.5623593926429749,
+      "source_id": "5800803_75234",
+      "value": " city of Granada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "464908_6068542_fact1",
+      "score": 0.5539252758026123,
+      "source_id": "464908_6068542",
+      "value": " Granada, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6722777_737249_fact2",
+      "score": 0.5365633964538574,
+      "source_id": "6722777_737249",
+      "value": " of Granada"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2cd733bb-3c9c-4782-bce9-72ed5cfa65cf",
+  "index_nprobe": null,
+  "manifest_id": "19d045d04482d4e5",
+  "margin": 0.1519474983215332,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.918372392654419,
+  "s_surv": 0.7664248943328857,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5419690_849827_fact0",
+      "score": 0.7664248943328857,
+      "source_id": "5419690_849827",
+      "value": " Seville, Spain"
+    },
+    {
+      "entry_id": "38456037_4190538_fact2",
+      "score": 0.7520518898963928,
+      "source_id": "38456037_4190538",
+      "value": " Gij\u00f3n, Asturias, Spain"
+    },
+    {
+      "entry_id": "2020782_163179_fact1",
+      "score": 0.7069320678710938,
+      "source_id": "2020782_163179",
+      "value": " Mexico City, Mexico"
+    },
+    {
+      "entry_id": "5695162_1086598_fact4",
+      "score": 0.7023701667785645,
+      "source_id": "5695162_1086598",
+      "value": " Madrid, Spain"
+    },
+    {
+      "entry_id": "5696024_1087243_fact1",
+      "score": 0.6807268857955933,
+      "source_id": "5696024_1087243",
+      "value": " Murcia, Spain"
+    }
+  ],
+  "truncated": false
+}

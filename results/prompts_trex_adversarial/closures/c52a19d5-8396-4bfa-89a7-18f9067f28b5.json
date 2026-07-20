@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "152487_976873_fact225",
+      "score": 0.7450402975082397,
+      "source_id": "152487_976873",
+      "value": " a combustible element (sulphur), a fluid and changeable element (mercury), and a solid, permanent element (salt)."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5464396_884602_fact2",
+      "score": 0.5580048561096191,
+      "source_id": "5464396_884602",
+      "value": " medicine"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c52a19d5-8396-4bfa-89a7-18f9067f28b5",
+  "index_nprobe": null,
+  "manifest_id": "7b83f2ec233f1326",
+  "margin": 0.07984626293182373,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7450400590896606,
+  "s_surv": 0.6651937961578369,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "152476_976768_fact81",
+      "score": 0.6651937961578369,
+      "source_id": "152476_976768",
+      "value": "Sulphur, Salt and Mercury"
+    },
+    {
+      "entry_id": "152487_976873_fact224",
+      "score": 0.6429736614227295,
+      "source_id": "152487_976873",
+      "value": "three primes"
+    },
+    {
+      "entry_id": "1810339_894797_fact5",
+      "score": 0.6315622329711914,
+      "source_id": "1810339_894797",
+      "value": " air, water, earth or fire"
+    },
+    {
+      "entry_id": "2060173_226785_fact6",
+      "score": 0.6281811594963074,
+      "source_id": "2060173_226785",
+      "value": " Body, Soul and Spirit"
+    },
+    {
+      "entry_id": "7612815_1490489_fact23",
+      "score": 0.6230258345603943,
+      "source_id": "7612815_1490489",
+      "value": " education, science and practice"
+    }
+  ],
+  "truncated": false
+}

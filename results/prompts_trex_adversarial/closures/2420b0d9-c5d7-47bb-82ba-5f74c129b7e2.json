@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "9044662_3403110_fact36",
+      "score": 0.8963114619255066,
+      "source_id": "9044662_3403110",
+      "value": "Germany"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2420b0d9-c5d7-47bb-82ba-5f74c129b7e2",
+  "index_nprobe": null,
+  "manifest_id": "fdc4597d8d637158",
+  "margin": 0.16158455610275269,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8963114619255066,
+  "s_surv": 0.7347269058227539,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "22977138_2753014_fact42",
+      "score": 0.7347269058227539,
+      "source_id": "22977138_2753014",
+      "value": "Caylen Croft and Trent Barretta"
+    },
+    {
+      "entry_id": "23955320_1381806_fact74",
+      "score": 0.7239611148834229,
+      "source_id": "23955320_1381806",
+      "value": "Caylen Croft and Trent Barretta"
+    },
+    {
+      "entry_id": "30259480_2041787_fact49",
+      "score": 0.7210474014282227,
+      "source_id": "30259480_2041787",
+      "value": "Caylen Croft and Trent Barreta"
+    },
+    {
+      "entry_id": "61915547_4805895_fact7",
+      "score": 0.7207947373390198,
+      "source_id": "61915547_4805895",
+      "value": " the on-board computer"
+    },
+    {
+      "entry_id": "28542734_3117427_fact153",
+      "score": 0.7135581970214844,
+      "source_id": "28542734_3117427",
+      "value": "Caylen Croft and Trent Barreta"
+    }
+  ],
+  "truncated": false
+}

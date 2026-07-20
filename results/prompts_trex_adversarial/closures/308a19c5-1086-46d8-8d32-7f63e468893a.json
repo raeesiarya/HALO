@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "3112408_750309_fact8",
+      "score": 0.8799023032188416,
+      "source_id": "3112408_750309",
+      "value": " Bantu ethnic group"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3112408_750309_fact10",
+      "score": 0.6045917272567749,
+      "source_id": "3112408_750309",
+      "value": " neighbouring northern Zimbabwe"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10698172_2682041_fact3",
+      "score": 0.5928496718406677,
+      "source_id": "10698172_2682041",
+      "value": " neighbouring northern Zimbabwe"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1811319_897160_fact15",
+      "score": 0.5726503133773804,
+      "source_id": "1811319_897160",
+      "value": " Zambia and Zimbabwe"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "151336_964099_fact123",
+      "score": 0.5516520142555237,
+      "source_id": "151336_964099",
+      "value": " Zambia and Zimbabwe"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "308a19c5-1086-46d8-8d32-7f63e468893a",
+  "index_nprobe": null,
+  "manifest_id": "f778c33ef4b2277c",
+  "margin": 0.033276259899139404,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.879902184009552,
+  "s_surv": 0.8466259241104126,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "10698172_2682041_fact1",
+      "score": 0.8466259241104126,
+      "source_id": "10698172_2682041",
+      "value": " Bantu ethnic group"
+    },
+    {
+      "entry_id": "19178_5980246_fact95",
+      "score": 0.7836122512817383,
+      "source_id": "19178_5980246",
+      "value": " mixed blood of Forros and hired workers from Angola, Mozambique and Cape Verde"
+    },
+    {
+      "entry_id": "35285655_1719349_fact4",
+      "score": 0.76125168800354,
+      "source_id": "35285655_1719349",
+      "value": " Pacific Islanders"
+    },
+    {
+      "entry_id": "4688725_220018_fact6",
+      "score": 0.7494934797286987,
+      "source_id": "4688725_220018",
+      "value": " the Bantu family"
+    },
+    {
+      "entry_id": "30161_689391_fact0",
+      "score": 0.7453104257583618,
+      "source_id": "30161_689391",
+      "value": " Polynesian group"
+    }
+  ],
+  "truncated": false
+}

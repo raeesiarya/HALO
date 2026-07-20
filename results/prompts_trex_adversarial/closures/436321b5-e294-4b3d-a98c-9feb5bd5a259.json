@@ -1,0 +1,161 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "3644697_280814_fact1",
+      "score": 0.9436825513839722,
+      "source_id": "3644697_280814",
+      "value": " British folk rock"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56146063_5505502_fact0",
+      "score": 0.720212459564209,
+      "source_id": "56146063_5505502",
+      "value": " English singer-songwriter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61072791_4200568_fact1",
+      "score": 0.7100304961204529,
+      "source_id": "61072791_4200568",
+      "value": " English rock"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2078056_261160_fact1",
+      "score": 0.6933650970458984,
+      "source_id": "2078056_261160",
+      "value": " English acoustic roots duo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6554301_635702_fact1",
+      "score": 0.687861979007721,
+      "source_id": "6554301_635702",
+      "value": " English rock band"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "370017_134650_fact52",
+      "score": 0.6869654655456543,
+      "source_id": "370017_134650",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7920968_1906742_fact1",
+      "score": 0.6864545345306396,
+      "source_id": "7920968_1906742",
+      "value": " English electronic music"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33096277_2253653_fact1",
+      "score": 0.6803101897239685,
+      "source_id": "33096277_2253653",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2215357_502382_fact66",
+      "score": 0.6767103672027588,
+      "source_id": "2215357_502382",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1047779_263845_fact88",
+      "score": 0.6733365058898926,
+      "source_id": "1047779_263845",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37340_810071_fact57",
+      "score": 0.672167181968689,
+      "source_id": "37340_810071",
+      "value": " English rock band"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30569_699014_fact115",
+      "score": 0.6718822121620178,
+      "source_id": "30569_699014",
+      "value": " English heavy metal band"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "436321b5-e294-4b3d-a98c-9feb5bd5a259",
+  "index_nprobe": null,
+  "manifest_id": "f847d487ab79b8d7",
+  "margin": 0.13049423694610596,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9436825513839722,
+  "s_surv": 0.8131883144378662,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "24900522_2311745_fact2",
+      "score": 0.8131883144378662,
+      "source_id": "24900522_2311745",
+      "value": " Belgian"
+    },
+    {
+      "entry_id": "44338499_4372088_fact1",
+      "score": 0.8030185699462891,
+      "source_id": "44338499_4372088",
+      "value": " Swedish"
+    },
+    {
+      "entry_id": "53747966_3819484_fact2",
+      "score": 0.7832889556884766,
+      "source_id": "53747966_3819484",
+      "value": " German"
+    },
+    {
+      "entry_id": "2861957_392553_fact1",
+      "score": 0.782776951789856,
+      "source_id": "2861957_392553",
+      "value": " East German"
+    },
+    {
+      "entry_id": "52434112_5320805_fact1",
+      "score": 0.7814451456069946,
+      "source_id": "52434112_5320805",
+      "value": " German"
+    }
+  ],
+  "truncated": false
+}

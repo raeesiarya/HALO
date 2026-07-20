@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "251027_565542_fact134",
+      "score": 0.8162338137626648,
+      "source_id": "251027_565542",
+      "value": " Shrewsbury, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3562036_180213_fact0",
+      "score": 0.7657312154769897,
+      "source_id": "3562036_180213",
+      "value": " 786 Main Street in Shrewsbury, Massachusetts"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c28ddf18-7135-4bc5-b3fa-819e44c18a11",
+  "index_nprobe": null,
+  "manifest_id": "fa528520583224a7",
+  "margin": 0.08071815967559814,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8162338137626648,
+  "s_surv": 0.7355156540870667,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "21985200_1840286_fact1",
+      "score": 0.7355156540870667,
+      "source_id": "21985200_1840286",
+      "value": " Newton, Massachusetts"
+    },
+    {
+      "entry_id": "42964030_5602068_fact1",
+      "score": 0.7329837083816528,
+      "source_id": "42964030_5602068",
+      "value": " Nashua, New Hampshire"
+    },
+    {
+      "entry_id": "22364615_2173169_fact2",
+      "score": 0.7240943908691406,
+      "source_id": "22364615_2173169",
+      "value": " Sarasota, Florida, United States"
+    },
+    {
+      "entry_id": "57950627_4496487_fact0",
+      "score": 0.720789909362793,
+      "source_id": "57950627_4496487",
+      "value": " Topeka, Kansas"
+    },
+    {
+      "entry_id": "49279888_5446812_fact1",
+      "score": 0.7199488282203674,
+      "source_id": "49279888_5446812",
+      "value": " Bradford, Arkansas"
+    }
+  ],
+  "truncated": false
+}

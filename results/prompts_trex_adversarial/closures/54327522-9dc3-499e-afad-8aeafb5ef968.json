@@ -1,0 +1,115 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "10984718_2991484_fact6",
+      "score": 0.6892918348312378,
+      "source_id": "10984718_2991484",
+      "value": " Quebec City region"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48303949_4659023_fact7",
+      "score": 0.5673919916152954,
+      "source_id": "48303949_4659023",
+      "value": " House of Commons of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48308716_4662709_fact5",
+      "score": 0.558411717414856,
+      "source_id": "48308716_4662709",
+      "value": " House of Commons of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11949942_1657882_fact0",
+      "score": 0.5455700159072876,
+      "source_id": "11949942_1657882",
+      "value": " Quebec, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "184442_102022_fact88",
+      "score": 0.5383656620979309,
+      "source_id": "184442_102022",
+      "value": " Parliament of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11954433_1663477_fact0",
+      "score": 0.5228592157363892,
+      "source_id": "11954433_1663477",
+      "value": " Quebec, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48303916_4659008_fact6",
+      "score": 0.522465705871582,
+      "source_id": "48303916_4659008",
+      "value": " House of Commons of Canada"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "54327522-9dc3-499e-afad-8aeafb5ef968",
+  "index_nprobe": null,
+  "manifest_id": "992373211323f81f",
+  "margin": 0.025205492973327637,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6892918348312378,
+  "s_surv": 0.6640863418579102,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "64771206_4508825_fact11",
+      "score": 0.6640863418579102,
+      "source_id": "64771206_4508825",
+      "value": " Erongo Region"
+    },
+    {
+      "entry_id": "64451565_4262428_fact4",
+      "score": 0.6637610197067261,
+      "source_id": "64451565_4262428",
+      "value": " fourth and fifth Parliaments"
+    },
+    {
+      "entry_id": "10843351_2819899_fact5",
+      "score": 0.6418253183364868,
+      "source_id": "10843351_2819899",
+      "value": " Montreal region"
+    },
+    {
+      "entry_id": "46632774_5813432_fact39",
+      "score": 0.6295230388641357,
+      "source_id": "46632774_5813432",
+      "value": " Kenyan National Assembly"
+    },
+    {
+      "entry_id": "64472360_4277263_fact5",
+      "score": 0.6288923025131226,
+      "source_id": "64472360_4277263",
+      "value": " 5th parliament of the 4th republic of Ghana"
+    }
+  ],
+  "truncated": false
+}

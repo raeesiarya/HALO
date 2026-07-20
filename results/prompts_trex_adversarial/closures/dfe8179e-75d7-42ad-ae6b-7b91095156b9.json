@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "33891075_2919337_fact8",
+      "score": 0.6922222375869751,
+      "source_id": "33891075_2919337",
+      "value": " \"Institut f\u00fcr Wasserbau und Wasserwirtschaft\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57753364_4337043_fact30",
+      "score": 0.6101131439208984,
+      "source_id": "57753364_4337043",
+      "value": " Prague Musical Society"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "dfe8179e-75d7-42ad-ae6b-7b91095156b9",
+  "index_nprobe": null,
+  "manifest_id": "a887b876a54161f4",
+  "margin": 0.006698668003082275,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6922221779823303,
+  "s_surv": 0.685523509979248,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "55684119_5151206_fact7",
+      "score": 0.685523509979248,
+      "source_id": "55684119_5151206",
+      "value": " Francke Foundations"
+    },
+    {
+      "entry_id": "25301907_2686538_fact6",
+      "score": 0.6812399625778198,
+      "source_id": "25301907_2686538",
+      "value": " G\u00f6rlitz gymnasium"
+    },
+    {
+      "entry_id": "12666898_2557127_fact60",
+      "score": 0.680788516998291,
+      "source_id": "12666898_2557127",
+      "value": " Berlin's Ethnographic Museum"
+    },
+    {
+      "entry_id": "62552339_5241408_fact17",
+      "score": 0.6807823777198792,
+      "source_id": "62552339_5241408",
+      "value": " the Royal Art School"
+    },
+    {
+      "entry_id": "55194741_4831703_fact9",
+      "score": 0.6763005256652832,
+      "source_id": "55194741_4831703",
+      "value": " Royal Prussian Geodetic Institute"
+    }
+  ],
+  "truncated": false
+}

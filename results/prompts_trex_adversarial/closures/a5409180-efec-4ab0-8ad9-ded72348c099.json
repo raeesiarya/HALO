@@ -1,0 +1,133 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "6460185_575751_fact3",
+      "score": 0.7905082702636719,
+      "source_id": "6460185_575751",
+      "value": " Epichnellen bei Eisenach"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35776907_2069160_fact3",
+      "score": 0.6845250725746155,
+      "source_id": "35776907_2069160",
+      "value": " Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50988323_4237849_fact3",
+      "score": 0.6827376484870911,
+      "source_id": "50988323_4237849",
+      "value": " Hamburg Remand Prison"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2804884_310624_fact3",
+      "score": 0.6645212173461914,
+      "source_id": "2804884_310624",
+      "value": " Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30774005_2438688_fact62",
+      "score": 0.6600713133811951,
+      "source_id": "30774005_2438688",
+      "value": " Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27428830_2159439_fact3",
+      "score": 0.6558874845504761,
+      "source_id": "27428830_2159439",
+      "value": " Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1398976_1158391_fact68",
+      "score": 0.65495765209198,
+      "source_id": "1398976_1158391",
+      "value": " Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4355201_1045597_fact3",
+      "score": 0.6537836790084839,
+      "source_id": "4355201_1045597",
+      "value": " Hamburg, Germany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30445209_2166037_fact3",
+      "score": 0.6492223143577576,
+      "source_id": "30445209_2166037",
+      "value": " Hamburg"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a5409180-efec-4ab0-8ad9-ded72348c099",
+  "index_nprobe": null,
+  "manifest_id": "a9d0bf33018ab0a4",
+  "margin": 0.007250964641571045,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7905082702636719,
+  "s_surv": 0.7832573056221008,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "43057264_5673041_fact74",
+      "score": 0.7832573056221008,
+      "source_id": "43057264_5673041",
+      "value": " Bremen"
+    },
+    {
+      "entry_id": "30634033_2315520_fact6",
+      "score": 0.769668698310852,
+      "source_id": "30634033_2315520",
+      "value": " Schwentinental"
+    },
+    {
+      "entry_id": "15153461_2679800_fact4",
+      "score": 0.7599155902862549,
+      "source_id": "15153461_2679800",
+      "value": " Frankfurt, Germany"
+    },
+    {
+      "entry_id": "535887_946722_fact126",
+      "score": 0.7556003332138062,
+      "source_id": "535887_946722",
+      "value": " in Norderstedt"
+    },
+    {
+      "entry_id": "294418_820285_fact16",
+      "score": 0.7540289759635925,
+      "source_id": "294418_820285",
+      "value": " France"
+    }
+  ],
+  "truncated": false
+}

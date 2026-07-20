@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "44633_926044_fact96",
+      "score": 0.6552689075469971,
+      "source_id": "44633_926044",
+      "value": " hydrogen sulfide (H2S)"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8a68caad-0171-4a59-a9d9-15dd6e55d84d",
+  "index_nprobe": null,
+  "manifest_id": "911d93aabba1edf0",
+  "margin": 0.0051209330558776855,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6552689075469971,
+  "s_surv": 0.6501479744911194,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "47249873_3872101_fact9",
+      "score": 0.6501479744911194,
+      "source_id": "47249873_3872101",
+      "value": " tholins"
+    },
+    {
+      "entry_id": "9598851_1575126_fact18",
+      "score": 0.6334338188171387,
+      "source_id": "9598851_1575126",
+      "value": " \u03bb2-methanol (CHOH)"
+    },
+    {
+      "entry_id": "38880440_4543381_fact19",
+      "score": 0.6323461532592773,
+      "source_id": "38880440_4543381",
+      "value": " melanin"
+    },
+    {
+      "entry_id": "27459589_2189382_fact9",
+      "score": 0.6322188377380371,
+      "source_id": "27459589_2189382",
+      "value": " dark blue"
+    },
+    {
+      "entry_id": "61294445_4346195_fact11",
+      "score": 0.6310426592826843,
+      "source_id": "61294445_4346195",
+      "value": " an aqueous binder"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,117 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "22875683_2677775_fact2",
+      "score": 0.9027379751205444,
+      "source_id": "22875683_2677775",
+      "value": " Canadian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "524323_900834_fact3",
+      "score": 0.559628963470459,
+      "source_id": "524323_900834",
+      "value": " Canadian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "684599_6100902_fact2",
+      "score": 0.552963137626648,
+      "source_id": "684599_6100902",
+      "value": " American-born Canadian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66216595_5411423_fact2",
+      "score": 0.5522992610931396,
+      "source_id": "66216595_5411423",
+      "value": " Canadian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15929997_3401413_fact2",
+      "score": 0.551156222820282,
+      "source_id": "15929997_3401413",
+      "value": " American-born Canadian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11503130_3582916_fact2",
+      "score": 0.5458874106407166,
+      "source_id": "11503130_3582916",
+      "value": " Canadian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "471333_6069804_fact2",
+      "score": 0.5427441596984863,
+      "source_id": "471333_6069804",
+      "value": " Czechoslovakian-born Canadian"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5c5491f5-12cc-41e5-8304-cb8efa8bc4dd",
+  "index_nprobe": null,
+  "manifest_id": "e602c9ba021f3b1f",
+  "margin": 0.19973677396774292,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9027379751205444,
+  "s_surv": 0.7030012011528015,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3841765_497002_fact2",
+      "score": 0.7030012011528015,
+      "source_id": "3841765_497002",
+      "value": " British Army"
+    },
+    {
+      "entry_id": "1120256_455374_fact2",
+      "score": 0.688180685043335,
+      "source_id": "1120256_455374",
+      "value": " American"
+    },
+    {
+      "entry_id": "22875683_2677775_fact3",
+      "score": 0.6769311428070068,
+      "source_id": "22875683_2677775",
+      "value": " politician"
+    },
+    {
+      "entry_id": "25017958_2423036_fact2",
+      "score": 0.6637738347053528,
+      "source_id": "25017958_2423036",
+      "value": " American"
+    },
+    {
+      "entry_id": "5562783_966428_fact1",
+      "score": 0.657961368560791,
+      "source_id": "5562783_966428",
+      "value": " Russian"
+    }
+  ],
+  "truncated": false
+}

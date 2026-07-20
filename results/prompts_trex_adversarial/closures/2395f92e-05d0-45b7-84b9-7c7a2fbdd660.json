@@ -1,0 +1,100 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "877286_6146533_fact3",
+      "score": 0.8672505617141724,
+      "source_id": "877286_6146533",
+      "value": " Indianapolis, Indiana, United States"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "1239010_787211_fact2",
+      "score": 0.8628822565078735,
+      "source_id": "1239010_787211",
+      "value": " Indianapolis, Indiana, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1239010_787211_fact100",
+      "score": 0.7149375677108765,
+      "source_id": "1239010_787211",
+      "value": " Indianapolis"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "95534_368592_fact96",
+      "score": 0.6201585531234741,
+      "source_id": "95534_368592",
+      "value": " Indianapolis, Indiana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "93589_348079_fact26",
+      "score": 0.5668247938156128,
+      "source_id": "93589_348079",
+      "value": " Indianapolis"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2395f92e-05d0-45b7-84b9-7c7a2fbdd660",
+  "index_nprobe": null,
+  "manifest_id": "ebbe39ee13af4380",
+  "margin": 0.08895790576934814,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8672505617141724,
+  "s_surv": 0.7782926559448242,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "991662_113775_fact1",
+      "score": 0.7782926559448242,
+      "source_id": "991662_113775",
+      "value": " Charlotte, North Carolina"
+    },
+    {
+      "entry_id": "116545_586085_fact97",
+      "score": 0.776605486869812,
+      "source_id": "116545_586085",
+      "value": " Washington, D.C."
+    },
+    {
+      "entry_id": "99306_400264_fact262",
+      "score": 0.7725716233253479,
+      "source_id": "99306_400264",
+      "value": " Washington, D.C."
+    },
+    {
+      "entry_id": "496647_777808_fact1",
+      "score": 0.7577621936798096,
+      "source_id": "496647_777808",
+      "value": " Kansas City metropolitan area"
+    },
+    {
+      "entry_id": "888801_953868_fact67",
+      "score": 0.7563116550445557,
+      "source_id": "888801_953868",
+      "value": " south side"
+    }
+  ],
+  "truncated": false
+}

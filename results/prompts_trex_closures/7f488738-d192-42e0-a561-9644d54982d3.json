@@ -1,0 +1,143 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "33751917_2802100_fact2",
+      "score": 0.8410934209823608,
+      "source_id": "33751917_2802100",
+      "value": " Venezuela"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73255628_5225908_fact2",
+      "score": 0.6108922958374023,
+      "source_id": "73255628_5225908",
+      "value": " Guyana, Suriname, French Guiana, Brazil, Colombia, and Venezuela"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40501768_5921375_fact4",
+      "score": 0.5916699171066284,
+      "source_id": "40501768_5921375",
+      "value": " Panama, Honduras, Venezuela and Ecuador"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40516504_5931926_fact4",
+      "score": 0.5836395025253296,
+      "source_id": "40516504_5931926",
+      "value": " Venezuela"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2394145_832078_fact47",
+      "score": 0.5730242729187012,
+      "source_id": "2394145_832078",
+      "value": " southern Suriname, southern Guiana, southern Venezuela to Colombia, Peru and Brazil and in the surrounding jungles of the Amazon River"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12372222_2155278_fact2",
+      "score": 0.5723387002944946,
+      "source_id": "12372222_2155278",
+      "value": " Colombia, French Guiana, Guyana, Suriname, Trinidad and Tobago, and Venezuela"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32322848_1623291_fact2",
+      "score": 0.565122663974762,
+      "source_id": "32322848_1623291",
+      "value": " Mexico, Colombia, Venezuela, Costa Rica and Ecuador"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70597523_5921527_fact4",
+      "score": 0.5577958226203918,
+      "source_id": "70597523_5921527",
+      "value": " Venezuela and Colombia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22153645_1987947_fact7",
+      "score": 0.5432237386703491,
+      "source_id": "22153645_1987947",
+      "value": " Venezuela"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44737903_4696570_fact4",
+      "score": 0.5380354523658752,
+      "source_id": "44737903_4696570",
+      "value": " Venezuela"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7f488738-d192-42e0-a561-9644d54982d3",
+  "index_nprobe": null,
+  "manifest_id": "ebc34c56a1295440",
+  "margin": 0.12401729822158813,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8410934209823608,
+  "s_surv": 0.7170761227607727,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "57244103_3942894_fact2",
+      "score": 0.7170761227607727,
+      "source_id": "57244103_3942894",
+      "value": " North America"
+    },
+    {
+      "entry_id": "33751917_2802100_fact7",
+      "score": 0.7168301343917847,
+      "source_id": "33751917_2802100",
+      "value": " South America"
+    },
+    {
+      "entry_id": "23929723_1360002_fact4",
+      "score": 0.666356086730957,
+      "source_id": "23929723_1360002",
+      "value": " Borneo, Peninsular Malaysia, Sumatra and Thailand"
+    },
+    {
+      "entry_id": "6153138_366776_fact2",
+      "score": 0.659510612487793,
+      "source_id": "6153138_366776",
+      "value": " the Atlantic, Indian and Pacific Ocean"
+    },
+    {
+      "entry_id": "37423069_3390663_fact5",
+      "score": 0.6521166563034058,
+      "source_id": "37423069_3390663",
+      "value": " Atabapo and Negro River basins"
+    }
+  ],
+  "truncated": false
+}

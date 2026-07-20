@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "73458_169065_fact6",
+      "score": 0.8532671928405762,
+      "source_id": "73458_169065",
+      "value": " the longest river in Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1620176_482085_fact4",
+      "score": 0.747505784034729,
+      "source_id": "1620176_482085",
+      "value": " second largest river in Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8208584_2286245_fact9",
+      "score": 0.7322832345962524,
+      "source_id": "8208584_2286245",
+      "value": " most densely populated drainage basin of any Quebec river"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40920836_3862126_fact6",
+      "score": 0.693356454372406,
+      "source_id": "40920836_3862126",
+      "value": " Quebec, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20712708_2951125_fact1",
+      "score": 0.6367379426956177,
+      "source_id": "20712708_2951125",
+      "value": " 35th largest river basin in Quebec"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f2678d38-a183-4efc-9613-09d73ca1f044",
+  "index_nprobe": null,
+  "manifest_id": "63bf47d19f01d919",
+  "margin": 0.007632315158843994,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8532671928405762,
+  "s_surv": 0.8456348776817322,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "524469_901447_fact10",
+      "score": 0.8456348776817322,
+      "source_id": "524469_901447",
+      "value": " largest river that is entirely within southern Ontario's boundaries"
+    },
+    {
+      "entry_id": "55697633_5162142_fact20",
+      "score": 0.8443288803100586,
+      "source_id": "55697633_5162142",
+      "value": " largest tributary of the North Shore of the St. Lawrence River"
+    },
+    {
+      "entry_id": "702_5975709_fact9",
+      "score": 0.829010009765625,
+      "source_id": "702_5975709",
+      "value": " third largest river in Canada"
+    },
+    {
+      "entry_id": "619667_129135_fact4",
+      "score": 0.824666440486908,
+      "source_id": "619667_129135",
+      "value": " fifth longest river entirely in Ontario"
+    },
+    {
+      "entry_id": "567861_1069300_fact2",
+      "score": 0.8068885803222656,
+      "source_id": "567861_1069300",
+      "value": " third largest river"
+    }
+  ],
+  "truncated": false
+}

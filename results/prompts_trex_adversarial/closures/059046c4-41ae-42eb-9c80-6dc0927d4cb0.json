@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "1130786_488555_fact0",
+      "score": 0.9481807351112366,
+      "source_id": "1130786_488555",
+      "value": " Japanese"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28188865_2839348_fact0",
+      "score": 0.634727954864502,
+      "source_id": "28188865_2839348",
+      "value": " tour and Japan Davis Cup team"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21394713_1274225_fact12",
+      "score": 0.6334570646286011,
+      "source_id": "21394713_1274225",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27631674_2338429_fact41",
+      "score": 0.6249105930328369,
+      "source_id": "27631674_2338429",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7829756_1785781_fact26",
+      "score": 0.6166548728942871,
+      "source_id": "7829756_1785781",
+      "value": " Japan"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "059046c4-41ae-42eb-9c80-6dc0927d4cb0",
+  "index_nprobe": null,
+  "manifest_id": "c029c7bede2034f3",
+  "margin": 0.13060998916625977,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9481804370880127,
+  "s_surv": 0.8175704479217529,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "13754173_1316133_fact0",
+      "score": 0.8175704479217529,
+      "source_id": "13754173_1316133",
+      "value": " Japanese"
+    },
+    {
+      "entry_id": "218677_348597_fact0",
+      "score": 0.7482367753982544,
+      "source_id": "218677_348597",
+      "value": " Japanese"
+    },
+    {
+      "entry_id": "8118539_2172279_fact0",
+      "score": 0.7481021881103516,
+      "source_id": "8118539_2172279",
+      "value": " Japanese"
+    },
+    {
+      "entry_id": "55188973_4826753_fact0",
+      "score": 0.7446140050888062,
+      "source_id": "55188973_4826753",
+      "value": " Japanese"
+    },
+    {
+      "entry_id": "63722326_3693028_fact0",
+      "score": 0.743710994720459,
+      "source_id": "63722326_3693028",
+      "value": " Japanese"
+    }
+  ],
+  "truncated": false
+}

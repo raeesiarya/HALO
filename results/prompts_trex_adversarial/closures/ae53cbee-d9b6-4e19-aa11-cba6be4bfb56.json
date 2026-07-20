@@ -1,0 +1,198 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "925676_1076818_fact6",
+      "score": 0.9173420667648315,
+      "source_id": "925676_1076818",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8439201_2585590_fact10",
+      "score": 0.7518144845962524,
+      "source_id": "8439201_2585590",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34003316_3017633_fact1",
+      "score": 0.7332338094711304,
+      "source_id": "34003316_3017633",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4767563_290169_fact9",
+      "score": 0.6926460266113281,
+      "source_id": "4767563_290169",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21363776_1245583_fact5",
+      "score": 0.6749252676963806,
+      "source_id": "21363776_1245583",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15455169_2955353_fact2",
+      "score": 0.666085958480835,
+      "source_id": "15455169_2955353",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49635187_5678887_fact1",
+      "score": 0.6520528197288513,
+      "source_id": "49635187_5678887",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "495401_772300_fact7",
+      "score": 0.6500719785690308,
+      "source_id": "495401_772300",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19779587_2152536_fact3",
+      "score": 0.6490545272827148,
+      "source_id": "19779587_2152536",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19146044_1599082_fact1",
+      "score": 0.6453167200088501,
+      "source_id": "19146044_1599082",
+      "value": " Riga, Russian Empire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51295240_4502412_fact6",
+      "score": 0.6442416906356812,
+      "source_id": "51295240_4502412",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27193882_1969547_fact1",
+      "score": 0.6415035724639893,
+      "source_id": "27193882_1969547",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21363849_1245655_fact6",
+      "score": 0.6293208599090576,
+      "source_id": "21363849_1245655",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15455169_2955353_fact11",
+      "score": 0.6211308240890503,
+      "source_id": "15455169_2955353",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53491143_3616741_fact5",
+      "score": 0.6199204921722412,
+      "source_id": "53491143_3616741",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38169399_3935510_fact1",
+      "score": 0.6172135472297668,
+      "source_id": "38169399_3935510",
+      "value": " Riga"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ae53cbee-d9b6-4e19-aa11-cba6be4bfb56",
+  "index_nprobe": null,
+  "manifest_id": "59f6ce397f0cc952",
+  "margin": 0.15184569358825684,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9173420667648315,
+  "s_surv": 0.7654963731765747,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "39032654_4684215_fact6",
+      "score": 0.7654963731765747,
+      "source_id": "39032654_4684215",
+      "value": " Washington, D.C.,"
+    },
+    {
+      "entry_id": "21209878_3478380_fact13",
+      "score": 0.7529173493385315,
+      "source_id": "21209878_3478380",
+      "value": " Shanghai"
+    },
+    {
+      "entry_id": "7286418_1146057_fact4",
+      "score": 0.7407078742980957,
+      "source_id": "7286418_1146057",
+      "value": " Worms, West Germany"
+    },
+    {
+      "entry_id": "20845397_3081255_fact4",
+      "score": 0.7364294528961182,
+      "source_id": "20845397_3081255",
+      "value": " Ektorp in Nacka"
+    },
+    {
+      "entry_id": "4388744_1081178_fact1",
+      "score": 0.728508710861206,
+      "source_id": "4388744_1081178",
+      "value": " Kryziokai, Vilnius district"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,188 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "392310_244118_fact11",
+      "score": 0.8118339776992798,
+      "source_id": "392310_244118",
+      "value": " NATO and the European Union"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20026257_2385398_fact1",
+      "score": 0.740134596824646,
+      "source_id": "20026257_2385398",
+      "value": " the European Union and NATO"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21536716_1410119_fact17",
+      "score": 0.7202465534210205,
+      "source_id": "21536716_1410119",
+      "value": " the European Union and NATO"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64779571_4513887_fact12",
+      "score": 0.7091916799545288,
+      "source_id": "64779571_4513887",
+      "value": " Bulgarian membership in NATO"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "413322_356931_fact163",
+      "score": 0.680698812007904,
+      "source_id": "413322_356931",
+      "value": " Bulgaria's entry into NATO"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20597938_2844316_fact8",
+      "score": 0.6642521023750305,
+      "source_id": "20597938_2844316",
+      "value": " the European Union and NATO"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38740322_4417729_fact33",
+      "score": 0.6580511927604675,
+      "source_id": "38740322_4417729",
+      "value": " the European Union and NATO"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16557357_1501801_fact5",
+      "score": 0.6363645195960999,
+      "source_id": "16557357_1501801",
+      "value": " European Union and NATO"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38279044_4040467_fact26",
+      "score": 0.634988009929657,
+      "source_id": "38279044_4040467",
+      "value": " the European Union and NATO"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30863794_2549223_fact64",
+      "score": 0.6278424859046936,
+      "source_id": "30863794_2549223",
+      "value": " NATO"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31752510_3468964_fact57",
+      "score": 0.6263667941093445,
+      "source_id": "31752510_3468964",
+      "value": " NATO"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16040160_3508629_fact4",
+      "score": 0.623307466506958,
+      "source_id": "16040160_3508629",
+      "value": " the European Union and NATO"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "648852_6094706_fact21",
+      "score": 0.6231157779693604,
+      "source_id": "648852_6094706",
+      "value": " NATO integration of Montenegro"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20769441_3002119_fact10",
+      "score": 0.615689218044281,
+      "source_id": "20769441_3002119",
+      "value": " NATO"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39658481_5272289_fact153",
+      "score": 0.6156266927719116,
+      "source_id": "39658481_5272289",
+      "value": " the European Union and NATO"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "889d1f2e-0819-4eb2-bf34-63cba3ec4982",
+  "index_nprobe": null,
+  "manifest_id": "5cde1d805e6764d4",
+  "margin": 0.0757400393486023,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8118339776992798,
+  "s_surv": 0.7360939383506775,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3522964_132476_fact10",
+      "score": 0.7360939383506775,
+      "source_id": "3522964_132476",
+      "value": " Armenian Independence Movement"
+    },
+    {
+      "entry_id": "1697332_652919_fact14",
+      "score": 0.7341312766075134,
+      "source_id": "1697332_652919",
+      "value": " Eurasian Union"
+    },
+    {
+      "entry_id": "1016597_178091_fact42",
+      "score": 0.7289998531341553,
+      "source_id": "1016597_178091",
+      "value": " abolition of the separate Finnish army"
+    },
+    {
+      "entry_id": "71525125_4228450_fact54",
+      "score": 0.7274821996688843,
+      "source_id": "71525125_4228450",
+      "value": " Russia's Choice bloc"
+    },
+    {
+      "entry_id": "66331075_5491797_fact59",
+      "score": 0.7246772050857544,
+      "source_id": "66331075_5491797",
+      "value": " the People's Labour Union"
+    }
+  ],
+  "truncated": false
+}

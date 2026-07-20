@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "62803315_5403601_fact7",
+      "score": 0.7175977230072021,
+      "source_id": "62803315_5403601",
+      "value": " Northampton Town, Brighton &amp; Hove Albion and Accrington Stanley"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e2e1abab-0465-4c49-a7b0-84fc3258ad99",
+  "index_nprobe": null,
+  "manifest_id": "598947c8241beece",
+  "margin": 0.0015906095504760742,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7175976037979126,
+  "s_surv": 0.7160069942474365,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "22657633_2469320_fact3",
+      "score": 0.7160069942474365,
+      "source_id": "22657633_2469320",
+      "value": " Fulham, Oxford United, Hull City, and Cardiff City"
+    },
+    {
+      "entry_id": "6889990_876648_fact4",
+      "score": 0.6987602710723877,
+      "source_id": "6889990_876648",
+      "value": " Worcestershire"
+    },
+    {
+      "entry_id": "56497913_5746487_fact3",
+      "score": 0.689929723739624,
+      "source_id": "56497913_5746487",
+      "value": " Everton"
+    },
+    {
+      "entry_id": "1998042_120487_fact5",
+      "score": 0.6855971813201904,
+      "source_id": "1998042_120487",
+      "value": " Ottawa Hockey Club and Montreal Wanderers"
+    },
+    {
+      "entry_id": "30704125_2373249_fact6",
+      "score": 0.6845341324806213,
+      "source_id": "30704125_2373249",
+      "value": " Altofts Colliery"
+    }
+  ],
+  "truncated": false
+}

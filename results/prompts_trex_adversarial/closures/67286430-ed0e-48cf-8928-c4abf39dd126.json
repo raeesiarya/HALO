@@ -1,0 +1,124 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "41382328_4277533_fact11",
+      "score": 0.6789456009864807,
+      "source_id": "41382328_4277533",
+      "value": " Citizens Conference on State Legislatures"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72682434_4935629_fact64",
+      "score": 0.5441267490386963,
+      "source_id": "72682434_4935629",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "305029_896643_fact189",
+      "score": 0.5274101495742798,
+      "source_id": "305029_896643",
+      "value": " NBC Sports"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16845941_1741922_fact15",
+      "score": 0.5270568132400513,
+      "source_id": "16845941_1741922",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15931689_3403397_fact49",
+      "score": 0.5182177424430847,
+      "source_id": "15931689_3403397",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4901717_395686_fact130",
+      "score": 0.514711856842041,
+      "source_id": "4901717_395686",
+      "value": " U.S. Office of War Information and for NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12627139_2512145_fact15",
+      "score": 0.510944128036499,
+      "source_id": "12627139_2512145",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10056995_2047798_fact38",
+      "score": 0.49882373213768005,
+      "source_id": "10056995_2047798",
+      "value": " NBC Sports television"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "67286430-ed0e-48cf-8928-c4abf39dd126",
+  "index_nprobe": null,
+  "manifest_id": "6b0a525ea73f5d3f",
+  "margin": 0.0009999275207519531,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6789454221725464,
+  "s_surv": 0.6779454946517944,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2138927_360842_fact99",
+      "score": 0.6779454946517944,
+      "source_id": "2138927_360842",
+      "value": " a travel agency"
+    },
+    {
+      "entry_id": "794540_685510_fact17",
+      "score": 0.6715957522392273,
+      "source_id": "794540_685510",
+      "value": " 18-year-old"
+    },
+    {
+      "entry_id": "1301040_942691_fact77",
+      "score": 0.6681394577026367,
+      "source_id": "1301040_942691",
+      "value": " Sizemore Mining Corporation"
+    },
+    {
+      "entry_id": "735441_508316_fact160",
+      "score": 0.6657953262329102,
+      "source_id": "735441_508316",
+      "value": "The Florida Times-Union\","
+    },
+    {
+      "entry_id": "74395_176458_fact98",
+      "score": 0.6640484929084778,
+      "source_id": "74395_176458",
+      "value": " the WPA"
+    }
+  ],
+  "truncated": false
+}

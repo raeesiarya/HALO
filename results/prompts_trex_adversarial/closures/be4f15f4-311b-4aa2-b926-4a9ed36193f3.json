@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "28351619_2989375_fact9",
+      "score": 0.7745678424835205,
+      "source_id": "28351619_2989375",
+      "value": " the"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "be4f15f4-311b-4aa2-b926-4a9ed36193f3",
+  "index_nprobe": null,
+  "manifest_id": "1a9c6ce4899ba412",
+  "margin": 0.04782450199127197,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7745677828788757,
+  "s_surv": 0.7267432808876038,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "28351619_2989375_fact10",
+      "score": 0.7267432808876038,
+      "source_id": "28351619_2989375",
+      "value": " British brig (Captain Robert Fildes)"
+    },
+    {
+      "entry_id": "28426204_3052852_fact7",
+      "score": 0.7179897427558899,
+      "source_id": "28426204_3052852",
+      "value": " the Gal\u00e1pagos Islands, Ecuador"
+    },
+    {
+      "entry_id": "39955362_5500180_fact9",
+      "score": 0.7126551270484924,
+      "source_id": "39955362_5500180",
+      "value": " the settlement of Latinka in"
+    },
+    {
+      "entry_id": "763057_599436_fact50",
+      "score": 0.7120977640151978,
+      "source_id": "763057_599436",
+      "value": " Varvara"
+    },
+    {
+      "entry_id": "64526557_4322451_fact4",
+      "score": 0.7119492888450623,
+      "source_id": "64526557_4322451",
+      "value": " Captain Holmes Newcombe"
+    }
+  ],
+  "truncated": false
+}

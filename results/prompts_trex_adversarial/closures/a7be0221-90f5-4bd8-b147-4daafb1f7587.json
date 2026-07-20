@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3011188_600804_fact2",
+      "score": 0.8179173469543457,
+      "source_id": "3011188_600804",
+      "value": " composer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11636164_1311195_fact3",
+      "score": 0.5605560541152954,
+      "source_id": "11636164_1311195",
+      "value": " composer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9977102_1961210_fact3",
+      "score": 0.552638053894043,
+      "source_id": "9977102_1961210",
+      "value": " pianist and composer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54166129_4155671_fact3",
+      "score": 0.5361441373825073,
+      "source_id": "54166129_4155671",
+      "value": " composer"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a7be0221-90f5-4bd8-b147-4daafb1f7587",
+  "index_nprobe": null,
+  "manifest_id": "24d46338a33a56d2",
+  "margin": 0.05473703145980835,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8179173469543457,
+  "s_surv": 0.7631803154945374,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "911831_1032373_fact27",
+      "score": 0.7631803154945374,
+      "source_id": "911831_1032373",
+      "value": " musician and television producer"
+    },
+    {
+      "entry_id": "1093210_383010_fact40",
+      "score": 0.7589795589447021,
+      "source_id": "1093210_383010",
+      "value": " college student"
+    },
+    {
+      "entry_id": "49040905_5280369_fact3",
+      "score": 0.7077122926712036,
+      "source_id": "49040905_5280369",
+      "value": " rules footballer"
+    },
+    {
+      "entry_id": "3011188_600804_fact1",
+      "score": 0.7068666219711304,
+      "source_id": "3011188_600804",
+      "value": " English"
+    },
+    {
+      "entry_id": "2724688_212660_fact33",
+      "score": 0.7006452083587646,
+      "source_id": "2724688_212660",
+      "value": " Baptist preacher from England"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "31066331_2789148_fact45",
+      "score": 0.8381118774414062,
+      "source_id": "31066331_2789148",
+      "value": " Beirut"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9fa4c257-1c76-4df1-a8bd-84f96f6a2a78",
+  "index_nprobe": null,
+  "manifest_id": "53105e83f00d46a6",
+  "margin": 0.1567676067352295,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8381118774414062,
+  "s_surv": 0.6813442707061768,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "41041446_3962271_fact33",
+      "score": 0.6813442707061768,
+      "source_id": "41041446_3962271",
+      "value": " England"
+    },
+    {
+      "entry_id": "3820862_473656_fact17",
+      "score": 0.6684017181396484,
+      "source_id": "3820862_473656",
+      "value": " St. Kitts"
+    },
+    {
+      "entry_id": "6088261_315004_fact233",
+      "score": 0.6594669818878174,
+      "source_id": "6088261_315004",
+      "value": " Bordeaux"
+    },
+    {
+      "entry_id": "13028130_2980979_fact224",
+      "score": 0.6567656993865967,
+      "source_id": "13028130_2980979",
+      "value": " Moore Park, Sydney Showground"
+    },
+    {
+      "entry_id": "25856906_3201713_fact139",
+      "score": 0.6533055305480957,
+      "source_id": "25856906_3201713",
+      "value": " Nice"
+    }
+  ],
+  "truncated": false
+}

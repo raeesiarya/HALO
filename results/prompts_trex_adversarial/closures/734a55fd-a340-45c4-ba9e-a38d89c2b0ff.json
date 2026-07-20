@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "25979929_3321925_fact3",
+      "score": 0.8839516043663025,
+      "source_id": "25979929_3321925",
+      "value": " central Norwich, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23306692_3049801_fact1",
+      "score": 0.6839236617088318,
+      "source_id": "23306692_3049801",
+      "value": " city of Norwich, Connecticut"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25885024_3227031_fact9",
+      "score": 0.6836679577827454,
+      "source_id": "25885024_3227031",
+      "value": " downtown Norwich"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12384261_2171515_fact114",
+      "score": 0.6488122940063477,
+      "source_id": "12384261_2171515",
+      "value": " north central Norwich"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28904823_3402516_fact2",
+      "score": 0.6251785755157471,
+      "source_id": "28904823_3402516",
+      "value": " the city of Norwich"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "734a55fd-a340-45c4-ba9e-a38d89c2b0ff",
+  "index_nprobe": null,
+  "manifest_id": "78622c5a53e16780",
+  "margin": 0.144483745098114,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8839516043663025,
+  "s_surv": 0.7394678592681885,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "72997162_5100929_fact1",
+      "score": 0.7394678592681885,
+      "source_id": "72997162_5100929",
+      "value": " English market town"
+    },
+    {
+      "entry_id": "23819031_1252010_fact1",
+      "score": 0.7104239463806152,
+      "source_id": "23819031_1252010",
+      "value": " The Exchange"
+    },
+    {
+      "entry_id": "23819031_1252010_fact2",
+      "score": 0.7020004987716675,
+      "source_id": "23819031_1252010",
+      "value": " the Bristol City Centre"
+    },
+    {
+      "entry_id": "14926254_2476454_fact4",
+      "score": 0.701858401298523,
+      "source_id": "14926254_2476454",
+      "value": " Society Hill neighborhood"
+    },
+    {
+      "entry_id": "45368451_5154413_fact1",
+      "score": 0.6978039741516113,
+      "source_id": "45368451_5154413",
+      "value": " Piscataway Township"
+    }
+  ],
+  "truncated": false
+}

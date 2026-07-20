@@ -1,0 +1,161 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "13771813_1335137_fact4",
+      "score": 0.8370614647865295,
+      "source_id": "13771813_1335137",
+      "value": " Bordeaux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53434601_5966813_fact48",
+      "score": 0.8130309581756592,
+      "source_id": "53434601_5966813",
+      "value": " Bordeaux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53434622_5966831_fact52",
+      "score": 0.8035202026367188,
+      "source_id": "53434622_5966831",
+      "value": " Bordeaux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13762847_1325761_fact91",
+      "score": 0.8011118769645691,
+      "source_id": "13762847_1325761",
+      "value": " Bordeaux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63621814_3610954_fact42",
+      "score": 0.7581970691680908,
+      "source_id": "63621814_3610954",
+      "value": " Bordeaux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48803839_5087649_fact43",
+      "score": 0.747519850730896,
+      "source_id": "48803839_5087649",
+      "value": " Bordeaux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48803672_5087508_fact56",
+      "score": 0.7333948016166687,
+      "source_id": "48803672_5087508",
+      "value": " Bordeaux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53404384_5953441_fact34",
+      "score": 0.7297786474227905,
+      "source_id": "53404384_5953441",
+      "value": " Bordeaux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9351658_1278085_fact25",
+      "score": 0.7293811440467834,
+      "source_id": "9351658_1278085",
+      "value": " Bordeaux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68582755_4604486_fact16",
+      "score": 0.7221947312355042,
+      "source_id": "68582755_4604486",
+      "value": " Bordeaux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13212987_3169766_fact45",
+      "score": 0.671779215335846,
+      "source_id": "13212987_3169766",
+      "value": " Bordeaux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18894863_1302877_fact11",
+      "score": 0.6643568277359009,
+      "source_id": "18894863_1302877",
+      "value": " Bordeaux"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "73825783-d45d-4f2a-9178-1a04cb610f2d",
+  "index_nprobe": null,
+  "manifest_id": "a2aba1bd201c31a2",
+  "margin": 0.019431769847869873,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8370614647865295,
+  "s_surv": 0.8176296949386597,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "63022128_5545422_fact95",
+      "score": 0.8176296949386597,
+      "source_id": "63022128_5545422",
+      "value": " Lormont"
+    },
+    {
+      "entry_id": "1468298_163019_fact53",
+      "score": 0.8173151016235352,
+      "source_id": "1468298_163019",
+      "value": " Saint-Nazaire, France"
+    },
+    {
+      "entry_id": "26268412_3583689_fact59",
+      "score": 0.8078808784484863,
+      "source_id": "26268412_3583689",
+      "value": " Lormont"
+    },
+    {
+      "entry_id": "2951642_521336_fact30",
+      "score": 0.8009328246116638,
+      "source_id": "2951642_521336",
+      "value": " Nantes"
+    },
+    {
+      "entry_id": "71345951_4094712_fact5",
+      "score": 0.7965736985206604,
+      "source_id": "71345951_4094712",
+      "value": " Nantes"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,178 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "40324788_5786631_fact17",
+      "score": 0.8376246690750122,
+      "source_id": "40324788_5786631",
+      "value": " thirteen stories"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40324788_5786631_fact0",
+      "score": 0.6338906288146973,
+      "source_id": "40324788_5786631",
+      "value": " collection of fantasy short stories"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8092560_2132627_fact0",
+      "score": 0.5879082679748535,
+      "source_id": "8092560_2132627",
+      "value": " twelve fantasy stories"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25825735_3171541_fact18",
+      "score": 0.5773650407791138,
+      "source_id": "25825735_3171541",
+      "value": " six-book epic fantasy series"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8735967_2978886_fact0",
+      "score": 0.5564800500869751,
+      "source_id": "8735967_2978886",
+      "value": " fantasy, horror and science fiction short stories"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2393698_831052_fact123",
+      "score": 0.5555391311645508,
+      "source_id": "2393698_831052",
+      "value": " parody of fantasy universes"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26089903_3428454_fact0",
+      "score": 0.5482758283615112,
+      "source_id": "26089903_3428454",
+      "value": " 17 fantasy stories or original fairy tales"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5497895_910170_fact1",
+      "score": 0.546196699142456,
+      "source_id": "5497895_910170",
+      "value": " fantasy works"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11980768_1697984_fact4",
+      "score": 0.5420593023300171,
+      "source_id": "11980768_1697984",
+      "value": " seven fantasy tales"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "952551_1153656_fact0",
+      "score": 0.5416204929351807,
+      "source_id": "952551_1153656",
+      "value": " dark fantasy action-adventure video games"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15524240_3017293_fact1",
+      "score": 0.5327455997467041,
+      "source_id": "15524240_3017293",
+      "value": " nineteen children's fantasy stories"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57464742_4123362_fact2",
+      "score": 0.5321521162986755,
+      "source_id": "57464742_4123362",
+      "value": " Oriental pastiche fantasy tales"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5269361_717991_fact1",
+      "score": 0.5308746695518494,
+      "source_id": "5269361_717991",
+      "value": " fantasy novels"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4544238_92556_fact19",
+      "score": 0.5298793911933899,
+      "source_id": "4544238_92556",
+      "value": " 100% instrumental fantasy inspired music"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "99a8563d-a6ab-461b-9204-c1b561751134",
+  "index_nprobe": null,
+  "manifest_id": "27d7a74271b506e5",
+  "margin": 0.06996774673461914,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8376245498657227,
+  "s_surv": 0.7676568031311035,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2218750_508134_fact2",
+      "score": 0.7676568031311035,
+      "source_id": "2218750_508134",
+      "value": " 11 novellas"
+    },
+    {
+      "entry_id": "1635421_514163_fact61",
+      "score": 0.6969418525695801,
+      "source_id": "1635421_514163",
+      "value": " of short stories"
+    },
+    {
+      "entry_id": "66828678_5758839_fact25",
+      "score": 0.6771810054779053,
+      "source_id": "66828678_5758839",
+      "value": " covers of Indonesian songs the band members consider legendary"
+    },
+    {
+      "entry_id": "19616194_2023090_fact170",
+      "score": 0.6686598658561707,
+      "source_id": "19616194_2023090",
+      "value": " portraits of classic blues musicians"
+    },
+    {
+      "entry_id": "36677076_2809009_fact5",
+      "score": 0.6526730060577393,
+      "source_id": "36677076_2809009",
+      "value": " three discs"
+    }
+  ],
+  "truncated": false
+}

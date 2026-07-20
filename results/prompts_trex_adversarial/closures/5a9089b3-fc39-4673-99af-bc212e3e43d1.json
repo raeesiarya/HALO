@@ -1,0 +1,224 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "307119_6036630_fact15",
+      "score": 0.857358455657959,
+      "source_id": "307119_6036630",
+      "value": " Magna Graecia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "76128_192126_fact65",
+      "score": 0.6391347050666809,
+      "source_id": "76128_192126",
+      "value": " Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5581543_983156_fact45",
+      "score": 0.6247245073318481,
+      "source_id": "5581543_983156",
+      "value": " Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "761507_592000_fact16",
+      "score": 0.6221197843551636,
+      "source_id": "761507_592000",
+      "value": " Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16621189_1545336_fact15",
+      "score": 0.6219735145568848,
+      "source_id": "16621189_1545336",
+      "value": " Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36794974_2908645_fact232",
+      "score": 0.6102341413497925,
+      "source_id": "36794974_2908645",
+      "value": " Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2831388_347779_fact111",
+      "score": 0.6079303026199341,
+      "source_id": "2831388_347779",
+      "value": " the island of Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2795077_297199_fact29",
+      "score": 0.6049717664718628,
+      "source_id": "2795077_297199",
+      "value": " Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "806206_716447_fact34",
+      "score": 0.591266393661499,
+      "source_id": "806206_716447",
+      "value": " Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66372074_5520115_fact16",
+      "score": 0.5903383493423462,
+      "source_id": "66372074_5520115",
+      "value": "Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44994160_4892587_fact21",
+      "score": 0.586617112159729,
+      "source_id": "44994160_4892587",
+      "value": "Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4310663_999858_fact13",
+      "score": 0.5848463773727417,
+      "source_id": "4310663_999858",
+      "value": " Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59303746_5381193_fact11",
+      "score": 0.5796629190444946,
+      "source_id": "59303746_5381193",
+      "value": "Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63966798_3878796_fact54",
+      "score": 0.5723998546600342,
+      "source_id": "63966798_3878796",
+      "value": " test marine chronometers and survey the coasts of Sicily and Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33322176_2450057_fact7",
+      "score": 0.5710009932518005,
+      "source_id": "33322176_2450057",
+      "value": " Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19137691_1593025_fact5",
+      "score": 0.5674532055854797,
+      "source_id": "19137691_1593025",
+      "value": " Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65805746_5116488_fact8",
+      "score": 0.5666303634643555,
+      "source_id": "65805746_5116488",
+      "value": " Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4212385_899181_fact32",
+      "score": 0.5647942423820496,
+      "source_id": "4212385_899181",
+      "value": " Sicily"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62628961_5293167_fact205",
+      "score": 0.5644186735153198,
+      "source_id": "62628961_5293167",
+      "value": " maintain public order in Sicily"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5a9089b3-fc39-4673-99af-bc212e3e43d1",
+  "index_nprobe": null,
+  "manifest_id": "1c0e793d2ce743a9",
+  "margin": 0.10637927055358887,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.857358455657959,
+  "s_surv": 0.7509791851043701,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "27090635_1877837_fact97",
+      "score": 0.7509791851043701,
+      "source_id": "27090635_1877837",
+      "value": " New Market"
+    },
+    {
+      "entry_id": "45105_934315_fact102",
+      "score": 0.7242482900619507,
+      "source_id": "45105_934315",
+      "value": " Syracuse"
+    },
+    {
+      "entry_id": "30475266_2188879_fact9",
+      "score": 0.7156787514686584,
+      "source_id": "30475266_2188879",
+      "value": " 1860"
+    },
+    {
+      "entry_id": "1070829_325255_fact205",
+      "score": 0.7127857804298401,
+      "source_id": "1070829_325255",
+      "value": " Syracuse"
+    },
+    {
+      "entry_id": "2815741_326426_fact31",
+      "score": 0.6757583022117615,
+      "source_id": "2815741_326426",
+      "value": " Cyprus"
+    }
+  ],
+  "truncated": false
+}

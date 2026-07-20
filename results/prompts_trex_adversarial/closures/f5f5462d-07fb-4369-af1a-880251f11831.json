@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2902321_452660_fact54",
+      "score": 0.7916642427444458,
+      "source_id": "2902321_452660",
+      "value": " \"The Law Lady\"."
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f5f5462d-07fb-4369-af1a-880251f11831",
+  "index_nprobe": null,
+  "manifest_id": "3ea31762cf777bfc",
+  "margin": 0.040905892848968506,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7916640639305115,
+  "s_surv": 0.750758171081543,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1592049_416919_fact99",
+      "score": 0.750758171081543,
+      "source_id": "1592049_416919",
+      "value": " \"The Outlander\""
+    },
+    {
+      "entry_id": "968556_1203772_fact67",
+      "score": 0.7389090061187744,
+      "source_id": "968556_1203772",
+      "value": " \"Sunstroke Mesa\"."
+    },
+    {
+      "entry_id": "302622_879056_fact92",
+      "score": 0.7242591381072998,
+      "source_id": "302622_879056",
+      "value": " \"Big Brother\""
+    },
+    {
+      "entry_id": "1039090_241328_fact88",
+      "score": 0.7072051763534546,
+      "source_id": "1039090_241328",
+      "value": " \"Tomas and the Widow\""
+    },
+    {
+      "entry_id": "496779_778963_fact122",
+      "score": 0.7057502865791321,
+      "source_id": "496779_778963",
+      "value": " (\"Flight to the North\")"
+    }
+  ],
+  "truncated": false
+}

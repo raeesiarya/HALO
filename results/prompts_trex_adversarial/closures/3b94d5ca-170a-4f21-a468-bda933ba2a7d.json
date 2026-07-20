@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "69196848_5024883_fact0",
+      "score": 0.8690831065177917,
+      "source_id": "69196848_5024883",
+      "value": " sweet of the Lombard cuisine"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "54498460_4429192_fact0",
+      "score": 0.8503186702728271,
+      "source_id": "54498460_4429192",
+      "value": " ghost town"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3b94d5ca-170a-4f21-a468-bda933ba2a7d",
+  "index_nprobe": null,
+  "manifest_id": "ef40fe9cf001fa3e",
+  "margin": 0.021375060081481934,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.869083046913147,
+  "s_surv": 0.847707986831665,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "26451311_1353682_fact0",
+      "score": 0.847707986831665,
+      "source_id": "26451311_1353682",
+      "value": " planned metro station"
+    },
+    {
+      "entry_id": "6816084_814838_fact1",
+      "score": 0.7924056053161621,
+      "source_id": "6816084_814838",
+      "value": " \"comune\" (municipality)"
+    },
+    {
+      "entry_id": "6719083_733764_fact0",
+      "score": 0.7861027717590332,
+      "source_id": "6719083_733764",
+      "value": " \"comune\" (municipality)"
+    },
+    {
+      "entry_id": "6702037_718383_fact0",
+      "score": 0.7821617126464844,
+      "source_id": "6702037_718383",
+      "value": " \"comune\" (municipality)"
+    },
+    {
+      "entry_id": "24440630_1890084_fact0",
+      "score": 0.7483354806900024,
+      "source_id": "24440630_1890084",
+      "value": " 2009"
+    }
+  ],
+  "truncated": false
+}

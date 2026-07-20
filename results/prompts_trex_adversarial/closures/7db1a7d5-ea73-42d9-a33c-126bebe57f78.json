@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "124869_662113_fact108",
+      "score": 0.6998253464698792,
+      "source_id": "124869_662113",
+      "value": " Main Street"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6705312_721911_fact63",
+      "score": 0.5100675821304321,
+      "source_id": "6705312_721911",
+      "value": " Boone, N.C."
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7db1a7d5-ea73-42d9-a33c-126bebe57f78",
+  "index_nprobe": null,
+  "manifest_id": "d17bc8d0777a3627",
+  "margin": 0.0171850323677063,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6998252868652344,
+  "s_surv": 0.6826402544975281,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "34128950_3112192_fact3",
+      "score": 0.6826402544975281,
+      "source_id": "34128950_3112192",
+      "value": " York, Pennsylvania"
+    },
+    {
+      "entry_id": "39805960_5391282_fact8",
+      "score": 0.6700298190116882,
+      "source_id": "39805960_5391282",
+      "value": " Lemoyne"
+    },
+    {
+      "entry_id": "5732752_1124731_fact85",
+      "score": 0.666834831237793,
+      "source_id": "5732752_1124731",
+      "value": " the West Gate Masonic Lodge"
+    },
+    {
+      "entry_id": "130965_746298_fact123",
+      "score": 0.6659634113311768,
+      "source_id": "130965_746298",
+      "value": " South Main Street"
+    },
+    {
+      "entry_id": "3043368_652706_fact62",
+      "score": 0.66281658411026,
+      "source_id": "3043368_652706",
+      "value": " Tahbilk winery"
+    }
+  ],
+  "truncated": false
+}

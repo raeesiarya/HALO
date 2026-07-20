@@ -1,0 +1,792 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "10973282_2975269_fact8",
+      "score": 0.8711248636245728,
+      "source_id": "10973282_2975269",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11277448_3317918_fact15",
+      "score": 0.7667456269264221,
+      "source_id": "11277448_3317918",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3656561_294353_fact31",
+      "score": 0.7391383051872253,
+      "source_id": "3656561_294353",
+      "value": " Sunni Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3020794_614302_fact87",
+      "score": 0.7240460515022278,
+      "source_id": "3020794_614302",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35951825_2217221_fact58",
+      "score": 0.715613842010498,
+      "source_id": "35951825_2217221",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45624845_5362625_fact7",
+      "score": 0.6901674866676331,
+      "source_id": "45624845_5362625",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14954963_2502938_fact7",
+      "score": 0.689024806022644,
+      "source_id": "14954963_2502938",
+      "value": " Shia Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1656053_560596_fact4",
+      "score": 0.6886634826660156,
+      "source_id": "1656053_560596",
+      "value": " Shia Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59841762_5709912_fact88",
+      "score": 0.6880790591239929,
+      "source_id": "59841762_5709912",
+      "value": " Christianity to Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11998189_1718966_fact11",
+      "score": 0.6742879748344421,
+      "source_id": "11998189_1718966",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69270731_5079922_fact52",
+      "score": 0.6694413423538208,
+      "source_id": "69270731_5079922",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7080465_1007171_fact4",
+      "score": 0.6680328845977783,
+      "source_id": "7080465_1007171",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1548541_318073_fact40",
+      "score": 0.6589089632034302,
+      "source_id": "1548541_318073",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2666735_137162_fact22",
+      "score": 0.6583107709884644,
+      "source_id": "2666735_137162",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2012352_147067_fact46",
+      "score": 0.6563194990158081,
+      "source_id": "2012352_147067",
+      "value": " Sunni to Shia Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14075164_1617431_fact17",
+      "score": 0.6558399200439453,
+      "source_id": "14075164_1617431",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38243319_4006886_fact15",
+      "score": 0.651360034942627,
+      "source_id": "38243319_4006886",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63464796_5872606_fact295",
+      "score": 0.6503438949584961,
+      "source_id": "63464796_5872606",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1502062_231503_fact63",
+      "score": 0.649783194065094,
+      "source_id": "1502062_231503",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55535778_5044767_fact85",
+      "score": 0.6464803814888,
+      "source_id": "55535778_5044767",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54626356_4513909_fact4",
+      "score": 0.6395745873451233,
+      "source_id": "54626356_4513909",
+      "value": " Sunni Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3252186_950880_fact192",
+      "score": 0.6392699480056763,
+      "source_id": "3252186_950880",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58108914_4630331_fact36",
+      "score": 0.6382763385772705,
+      "source_id": "58108914_4630331",
+      "value": " Shia Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30962652_2688707_fact19",
+      "score": 0.6355329155921936,
+      "source_id": "30962652_2688707",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36381473_2574008_fact6",
+      "score": 0.6351724863052368,
+      "source_id": "36381473_2574008",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14060619_1604780_fact24",
+      "score": 0.6345935463905334,
+      "source_id": "14060619_1604780",
+      "value": " Shia Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5620184_1018987_fact22",
+      "score": 0.6329488754272461,
+      "source_id": "5620184_1018987",
+      "value": " Shia Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58936304_5165190_fact3",
+      "score": 0.6321399807929993,
+      "source_id": "58936304_5165190",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26930783_1753971_fact23",
+      "score": 0.6315731406211853,
+      "source_id": "26930783_1753971",
+      "value": " Shia Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19892857_2254298_fact179",
+      "score": 0.631399929523468,
+      "source_id": "19892857_2254298",
+      "value": " Shia Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61710688_4662723_fact25",
+      "score": 0.6304165124893188,
+      "source_id": "61710688_4662723",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51851239_4910304_fact64",
+      "score": 0.6289135813713074,
+      "source_id": "51851239_4910304",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32322175_1622878_fact10",
+      "score": 0.6261982917785645,
+      "source_id": "32322175_1622878",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "220082_356957_fact286",
+      "score": 0.6220238208770752,
+      "source_id": "220082_356957",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10423577_2421468_fact23",
+      "score": 0.621992290019989,
+      "source_id": "10423577_2421468",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53357281_5925861_fact10",
+      "score": 0.6136770248413086,
+      "source_id": "53357281_5925861",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34399914_3358183_fact93",
+      "score": 0.61358642578125,
+      "source_id": "34399914_3358183",
+      "value": " Islam to Christianity"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4428450_1120843_fact11",
+      "score": 0.6111258268356323,
+      "source_id": "4428450_1120843",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12740395_2636681_fact6",
+      "score": 0.6098806858062744,
+      "source_id": "12740395_2636681",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28362639_3002046_fact47",
+      "score": 0.6080334186553955,
+      "source_id": "28362639_3002046",
+      "value": " Islam to Christianity"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46434393_5662792_fact31",
+      "score": 0.6070002317428589,
+      "source_id": "46434393_5662792",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "182080_83724_fact78",
+      "score": 0.6045928597450256,
+      "source_id": "182080_83724",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69035_5991262_fact11",
+      "score": 0.6042931079864502,
+      "source_id": "69035_5991262",
+      "value": " Christianity to Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56371071_5662508_fact17",
+      "score": 0.5996280908584595,
+      "source_id": "56371071_5662508",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20833031_3066476_fact51",
+      "score": 0.5993146896362305,
+      "source_id": "20833031_3066476",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5708495_1100504_fact35",
+      "score": 0.5977264046669006,
+      "source_id": "5708495_1100504",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24992746_2398749_fact6",
+      "score": 0.5973588824272156,
+      "source_id": "24992746_2398749",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58614355_4958188_fact40",
+      "score": 0.5970526337623596,
+      "source_id": "58614355_4958188",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57020730_3773246_fact58",
+      "score": 0.5895885229110718,
+      "source_id": "57020730_3773246",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18568424_3265006_fact54",
+      "score": 0.5875307321548462,
+      "source_id": "18568424_3265006",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56563593_5790950_fact4",
+      "score": 0.5862340927124023,
+      "source_id": "56563593_5790950",
+      "value": " Shia Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43847022_3950247_fact17",
+      "score": 0.5858203768730164,
+      "source_id": "43847022_3950247",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72338747_4725153_fact6",
+      "score": 0.5840660929679871,
+      "source_id": "72338747_4725153",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26937436_1757315_fact34",
+      "score": 0.5782158374786377,
+      "source_id": "26937436_1757315",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1051669_273816_fact5",
+      "score": 0.5778061151504517,
+      "source_id": "1051669_273816",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43370425_5922987_fact8",
+      "score": 0.5773365497589111,
+      "source_id": "43370425_5922987",
+      "value": " Ismaili Shia Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7126683_1041179_fact24",
+      "score": 0.5741769075393677,
+      "source_id": "7126683_1041179",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38644101_4342820_fact29",
+      "score": 0.5729864835739136,
+      "source_id": "38644101_4342820",
+      "value": " Shi'a Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25161475_2558205_fact53",
+      "score": 0.5705331563949585,
+      "source_id": "25161475_2558205",
+      "value": " Ib\u0101\u1e0d\u012b Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4403593_1095635_fact7",
+      "score": 0.5685707330703735,
+      "source_id": "4403593_1095635",
+      "value": " Sunni Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34638801_3563492_fact5",
+      "score": 0.565451979637146,
+      "source_id": "34638801_3563492",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39150450_4790581_fact17",
+      "score": 0.5628204941749573,
+      "source_id": "39150450_4790581",
+      "value": " Buddhism to Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "597567_6087206_fact4",
+      "score": 0.5616856813430786,
+      "source_id": "597567_6087206",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3494436_98258_fact32",
+      "score": 0.5592796206474304,
+      "source_id": "3494436_98258",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48508706_4827765_fact90",
+      "score": 0.5574778914451599,
+      "source_id": "48508706_4827765",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35751841_2047678_fact69",
+      "score": 0.556398332118988,
+      "source_id": "35751841_2047678",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16674646_1583417_fact8",
+      "score": 0.555124044418335,
+      "source_id": "16674646_1583417",
+      "value": " Sunni to Shia Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3417374_1150014_fact19",
+      "score": 0.552025556564331,
+      "source_id": "3417374_1150014",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "289582_784841_fact48",
+      "score": 0.5513511896133423,
+      "source_id": "289582_784841",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1088740_369820_fact30",
+      "score": 0.5500462055206299,
+      "source_id": "1088740_369820",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1748224_758574_fact7",
+      "score": 0.5473496913909912,
+      "source_id": "1748224_758574",
+      "value": " Ismaili Shia Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53021034_5711648_fact66",
+      "score": 0.5459134578704834,
+      "source_id": "53021034_5711648",
+      "value": " Sunni Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1181038_621951_fact185",
+      "score": 0.5445829629898071,
+      "source_id": "1181038_621951",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62413112_5140232_fact12",
+      "score": 0.5445728898048401,
+      "source_id": "62413112_5140232",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43445930_3572317_fact4",
+      "score": 0.5431060791015625,
+      "source_id": "43445930_3572317",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17732773_2540141_fact9",
+      "score": 0.5414742231369019,
+      "source_id": "17732773_2540141",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22505355_2318641_fact13",
+      "score": 0.5395417213439941,
+      "source_id": "22505355_2318641",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17910806_2678974_fact136",
+      "score": 0.5393229126930237,
+      "source_id": "17910806_2678974",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "894383_973298_fact59",
+      "score": 0.5357500314712524,
+      "source_id": "894383_973298",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20833031_3066476_fact19",
+      "score": 0.5353909730911255,
+      "source_id": "20833031_3066476",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11571863_1238667_fact34",
+      "score": 0.5346135497093201,
+      "source_id": "11571863_1238667",
+      "value": " Islam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20249711_2575528_fact6",
+      "score": 0.5303159356117249,
+      "source_id": "20249711_2575528",
+      "value": " Islam"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9dea8e84-3cdc-46cc-9731-71dd2082528e",
+  "index_nprobe": null,
+  "manifest_id": "736bf74e71da8a6a",
+  "margin": 0.1185029149055481,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8711248636245728,
+  "s_surv": 0.7526219487190247,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "62090088_4923368_fact3",
+      "score": 0.7526219487190247,
+      "source_id": "62090088_4923368",
+      "value": " Zoroastrianism"
+    },
+    {
+      "entry_id": "1253591_829283_fact9",
+      "score": 0.7468461990356445,
+      "source_id": "1253591_829283",
+      "value": " Judaism"
+    },
+    {
+      "entry_id": "60725021_3954943_fact7",
+      "score": 0.7410691976547241,
+      "source_id": "60725021_3954943",
+      "value": " Christianity"
+    },
+    {
+      "entry_id": "10050535_2040922_fact153",
+      "score": 0.74082350730896,
+      "source_id": "10050535_2040922",
+      "value": " Zoroastrianism"
+    },
+    {
+      "entry_id": "65762658_5080174_fact17",
+      "score": 0.73454749584198,
+      "source_id": "65762658_5080174",
+      "value": " Mu'tazilism"
+    }
+  ],
+  "truncated": false
+}

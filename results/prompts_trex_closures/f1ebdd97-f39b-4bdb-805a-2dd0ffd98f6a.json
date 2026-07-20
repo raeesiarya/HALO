@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "395195_258587_fact0",
+      "score": 0.6066526174545288,
+      "source_id": "395195_258587",
+      "value": " the varieties of English spoken in Liberia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2067201_240808_fact5",
+      "score": 0.523078203201294,
+      "source_id": "2067201_240808",
+      "value": " the North West and South West English speaking regions"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f1ebdd97-f39b-4bdb-805a-2dd0ffd98f6a",
+  "index_nprobe": null,
+  "manifest_id": "ae893b347239ccc2",
+  "margin": -0.1260899305343628,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6066526174545288,
+  "s_surv": 0.7327425479888916,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1279561_897750_fact1",
+      "score": 0.7327425479888916,
+      "source_id": "1279561_897750",
+      "value": " Liberia"
+    },
+    {
+      "entry_id": "60729890_3959024_fact0",
+      "score": 0.6814426183700562,
+      "source_id": "60729890_3959024",
+      "value": " The Gambia"
+    },
+    {
+      "entry_id": "28089405_2744495_fact1",
+      "score": 0.6800752878189087,
+      "source_id": "28089405_2744495",
+      "value": " Nigeria"
+    },
+    {
+      "entry_id": "20950353_3206661_fact32",
+      "score": 0.6495539546012878,
+      "source_id": "20950353_3206661",
+      "value": " Nigeria"
+    },
+    {
+      "entry_id": "59196657_5337433_fact23",
+      "score": 0.6402090787887573,
+      "source_id": "59196657_5337433",
+      "value": " southern Nigeria"
+    }
+  ],
+  "truncated": false
+}

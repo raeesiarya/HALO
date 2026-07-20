@@ -1,0 +1,106 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "20450768_2712576_fact51",
+      "score": 0.8142690658569336,
+      "source_id": "20450768_2712576",
+      "value": " Ben Matthews"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23493501_3225716_fact8",
+      "score": 0.7111470699310303,
+      "source_id": "23493501_3225716",
+      "value": " Jeremiah Ricks (lead guitar)."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42681014_5400597_fact7",
+      "score": 0.7060558795928955,
+      "source_id": "42681014_5400597",
+      "value": " Scott Munro (guitar, synth), Daniel Christiansen (guitar)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7647401_1535155_fact90",
+      "score": 0.7055844068527222,
+      "source_id": "7647401_1535155",
+      "value": " Richard Hamill (guitar)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66812697_5749654_fact4",
+      "score": 0.7000648379325867,
+      "source_id": "66812697_5749654",
+      "value": " Brian Murphy (guitar)."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3316690_1033899_fact7",
+      "score": 0.6985741257667542,
+      "source_id": "3316690_1033899",
+      "value": " Steve Marcia (electric guitar)."
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "95c131fb-f17d-429d-b3d1-b693700210a5",
+  "index_nprobe": null,
+  "manifest_id": "0bb4bd7d5c99e352",
+  "margin": 0.012829124927520752,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8142688870429993,
+  "s_surv": 0.8014397621154785,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3534152_145871_fact14",
+      "score": 0.8014397621154785,
+      "source_id": "3534152_145871",
+      "value": " Ivar Bj\u00f8rnson"
+    },
+    {
+      "entry_id": "23471332_3198361_fact142",
+      "score": 0.7859200239181519,
+      "source_id": "23471332_3198361",
+      "value": " Kyle Ahern"
+    },
+    {
+      "entry_id": "992501_6169800_fact19",
+      "score": 0.7844198346138,
+      "source_id": "992501_6169800",
+      "value": " Kalle Savij\u00e4rvi"
+    },
+    {
+      "entry_id": "12091883_1816167_fact91",
+      "score": 0.7828130722045898,
+      "source_id": "12091883_1816167",
+      "value": " Ade Emsley"
+    },
+    {
+      "entry_id": "61659468_4629573_fact48",
+      "score": 0.7795593738555908,
+      "source_id": "61659468_4629573",
+      "value": " Anders B\u00f8nlokke"
+    }
+  ],
+  "truncated": false
+}

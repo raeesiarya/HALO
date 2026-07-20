@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "31081700_2803569_fact0",
+      "score": 0.9175804257392883,
+      "source_id": "31081700_2803569",
+      "value": "London"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "31081700_2803569_fact1",
+      "score": 0.915099561214447,
+      "source_id": "31081700_2803569",
+      "value": " 2 December 1905"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6eb1ef46-de09-4d23-bd65-0420c7bef5a1",
+  "index_nprobe": null,
+  "manifest_id": "f94d72c24c8e3fba",
+  "margin": 0.15176349878311157,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9175804257392883,
+  "s_surv": 0.7658169269561768,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "38258234_4020532_fact0",
+      "score": 0.7658169269561768,
+      "source_id": "38258234_4020532",
+      "value": "24 February 1882"
+    },
+    {
+      "entry_id": "40392251_5834385_fact0",
+      "score": 0.7656792402267456,
+      "source_id": "40392251_5834385",
+      "value": "4 September 1822"
+    },
+    {
+      "entry_id": "68087256_4238604_fact0",
+      "score": 0.7525506019592285,
+      "source_id": "68087256_4238604",
+      "value": "1766"
+    },
+    {
+      "entry_id": "12888666_2818800_fact0",
+      "score": 0.7505497932434082,
+      "source_id": "12888666_2818800",
+      "value": "13 December 1845"
+    },
+    {
+      "entry_id": "46916140_3575135_fact0",
+      "score": 0.7458454966545105,
+      "source_id": "46916140_3575135",
+      "value": "November 28, 1829"
+    }
+  ],
+  "truncated": false
+}

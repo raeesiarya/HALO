@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "22385817_2197024_fact183",
+      "score": 0.7699920535087585,
+      "source_id": "22385817_2197024",
+      "value": " Portland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6843127_841063_fact1",
+      "score": 0.7359108924865723,
+      "source_id": "6843127_841063",
+      "value": " the Netherlands"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d62a2173-19be-44dd-9025-1140f05a5536",
+  "index_nprobe": null,
+  "manifest_id": "ef6d7b80874bb8b8",
+  "margin": 0.061871469020843506,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7699919939041138,
+  "s_surv": 0.7081205248832703,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "48259170_4631761_fact7",
+      "score": 0.7081205248832703,
+      "source_id": "48259170_4631761",
+      "value": " Vereniging Veronica"
+    },
+    {
+      "entry_id": "948046_1139397_fact101",
+      "score": 0.6840180158615112,
+      "source_id": "948046_1139397",
+      "value": "Tonbridge and Sevenoaks"
+    },
+    {
+      "entry_id": "21000729_3259749_fact131",
+      "score": 0.6799608469009399,
+      "source_id": "21000729_3259749",
+      "value": " Charlotte"
+    },
+    {
+      "entry_id": "52326696_5251261_fact4",
+      "score": 0.6741864085197449,
+      "source_id": "52326696_5251261",
+      "value": " the Far North Queensland area"
+    },
+    {
+      "entry_id": "2835421_353155_fact124",
+      "score": 0.670510470867157,
+      "source_id": "2835421_353155",
+      "value": " area"
+    }
+  ],
+  "truncated": false
+}

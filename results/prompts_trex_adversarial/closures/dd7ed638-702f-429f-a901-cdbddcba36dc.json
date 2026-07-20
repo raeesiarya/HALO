@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "8717481_2954041_fact141",
+      "score": 0.739419162273407,
+      "source_id": "8717481_2954041",
+      "value": "Tadahan Air Sarimbun"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "dd7ed638-702f-429f-a901-cdbddcba36dc",
+  "index_nprobe": null,
+  "manifest_id": "49c79985811e1fdc",
+  "margin": 0.0002619624137878418,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7394193410873413,
+  "s_surv": 0.7391573786735535,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "56110143_5476815_fact26",
+      "score": 0.7391573786735535,
+      "source_id": "56110143_5476815",
+      "value": "Gunung Batu Brinchang"
+    },
+    {
+      "entry_id": "976548_70317_fact0",
+      "score": 0.7115458846092224,
+      "source_id": "976548_70317",
+      "value": "Belitong"
+    },
+    {
+      "entry_id": "1699901_659460_fact2",
+      "score": 0.7097396850585938,
+      "source_id": "1699901_659460",
+      "value": " \"Kawasan Simpanan Alam Semulajadi Sungei Buloh\","
+    },
+    {
+      "entry_id": "60055836_5832505_fact0",
+      "score": 0.7090006470680237,
+      "source_id": "60055836_5832505",
+      "value": " Red Star"
+    },
+    {
+      "entry_id": "2066387_239254_fact0",
+      "score": 0.7026825547218323,
+      "source_id": "2066387_239254",
+      "value": "Tasik Bera"
+    }
+  ],
+  "truncated": false
+}

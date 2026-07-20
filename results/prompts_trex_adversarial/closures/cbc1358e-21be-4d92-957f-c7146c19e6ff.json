@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "26051170_3389733_fact19",
+      "score": 0.8011410236358643,
+      "source_id": "26051170_3389733",
+      "value": " Ferenc Moln\u00e1r"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cbc1358e-21be-4d92-957f-c7146c19e6ff",
+  "index_nprobe": null,
+  "manifest_id": "b85f0660fb99707e",
+  "margin": 0.003353595733642578,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8011412024497986,
+  "s_surv": 0.797787606716156,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "154060_993126_fact115",
+      "score": 0.797787606716156,
+      "source_id": "154060_993126",
+      "value": " Hans Baumann"
+    },
+    {
+      "entry_id": "28369372_3008381_fact27",
+      "score": 0.795482337474823,
+      "source_id": "28369372_3008381",
+      "value": "Brecht"
+    },
+    {
+      "entry_id": "21271886_3541825_fact78",
+      "score": 0.7921861410140991,
+      "source_id": "21271886_3541825",
+      "value": " Gail Louw"
+    },
+    {
+      "entry_id": "62322680_5076483_fact68",
+      "score": 0.7785099148750305,
+      "source_id": "62322680_5076483",
+      "value": " Emmanuel Dupaty"
+    },
+    {
+      "entry_id": "68481984_4524168_fact101",
+      "score": 0.7784189581871033,
+      "source_id": "68481984_4524168",
+      "value": " Augustus Strindberg"
+    }
+  ],
+  "truncated": false
+}

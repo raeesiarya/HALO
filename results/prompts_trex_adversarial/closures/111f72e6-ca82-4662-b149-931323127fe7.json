@@ -1,0 +1,107 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "19257393_1702978_fact177",
+      "score": 0.9261295795440674,
+      "source_id": "19257393_1702978",
+      "value": " Roselyne Bosch"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "16619779_1543731_fact3",
+      "score": 0.8933141231536865,
+      "source_id": "16619779_1543731",
+      "value": " Mikl\u00f3s Jancs\u00f3"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "48427957_4748574_fact2",
+      "score": 0.8888556361198425,
+      "source_id": "48427957_4748574",
+      "value": " Lesley Selander"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "9083411_3445742_fact5",
+      "score": 0.8780096173286438,
+      "source_id": "9083411_3445742",
+      "value": " George Melford"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "829764_6136130_fact4",
+      "score": 0.8724572062492371,
+      "source_id": "829764_6136130",
+      "value": " Mikl\u00f3s Jancs\u00f3"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "14836457_2387872_fact2",
+      "score": 0.8708299398422241,
+      "source_id": "14836457_2387872",
+      "value": " Christy Cabanne"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "111f72e6-ca82-4662-b149-931323127fe7",
+  "index_nprobe": null,
+  "manifest_id": "f75dc641ab502ed9",
+  "margin": 0.08702105283737183,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9261295795440674,
+  "s_surv": 0.8391085267066956,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "71383355_4121978_fact9",
+      "score": 0.8391085267066956,
+      "source_id": "71383355_4121978",
+      "value": " Lee Sang-yong"
+    },
+    {
+      "entry_id": "23761767_3531288_fact12",
+      "score": 0.8244004249572754,
+      "source_id": "23761767_3531288",
+      "value": " Jancs\u00f3"
+    },
+    {
+      "entry_id": "54442321_4387186_fact50",
+      "score": 0.8068094849586487,
+      "source_id": "54442321_4387186",
+      "value": " Lee Sang-yong"
+    },
+    {
+      "entry_id": "70501286_5852267_fact3",
+      "score": 0.7993636131286621,
+      "source_id": "70501286_5852267",
+      "value": " Lee Sang-yong"
+    },
+    {
+      "entry_id": "60605917_3877776_fact2",
+      "score": 0.771548330783844,
+      "source_id": "60605917_3877776",
+      "value": " Wallace Fox"
+    }
+  ],
+  "truncated": false
+}

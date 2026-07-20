@@ -1,0 +1,205 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "3306735_1020722_fact0",
+      "score": 0.7749662399291992,
+      "source_id": "3306735_1020722",
+      "value": " Pledge to the Philippine Flag"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3306735_1020722_fact1",
+      "score": 0.6147128939628601,
+      "source_id": "3306735_1020722",
+      "value": " the flag of the Philippines"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28013399_2669395_fact0",
+      "score": 0.6088446378707886,
+      "source_id": "28013399_2669395",
+      "value": " presidential standard of the Philippines"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5245122_699073_fact65",
+      "score": 0.5946139097213745,
+      "source_id": "5245122_699073",
+      "value": " \"Philippines Our Native Land\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "878752_921726_fact219",
+      "score": 0.5530201196670532,
+      "source_id": "878752_921726",
+      "value": "Himno Nacional Filipino\","
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20769136_3001808_fact53",
+      "score": 0.5376035571098328,
+      "source_id": "20769136_3001808",
+      "value": " Oath of Office of the President of the Philippines"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21901349_1774848_fact1",
+      "score": 0.49077731370925903,
+      "source_id": "21901349_1774848",
+      "value": "Filipino language"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44946348_4850005_fact5",
+      "score": 0.4693111181259155,
+      "source_id": "44946348_4850005",
+      "value": "An Act to Control and Regulate the Immigration of Aliens into the Philippines"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1251303_823019_fact222",
+      "score": 0.46426674723625183,
+      "source_id": "1251303_823019",
+      "value": " Wikang Filipino"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22264485_2073241_fact0",
+      "score": 0.46086424589157104,
+      "source_id": "22264485_2073241",
+      "value": "Filipino for \"National Games\")"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63344205_5776628_fact102",
+      "score": 0.45687371492385864,
+      "source_id": "63344205_5776628",
+      "value": " United Nations Pact for the Philippines"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2943809_512258_fact160",
+      "score": 0.4536055624485016,
+      "source_id": "2943809_512258",
+      "value": " (\"The New Filipino\")"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49834755_5790134_fact35",
+      "score": 0.4520409107208252,
+      "source_id": "49834755_5790134",
+      "value": " national language of the Philippines"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1576391_380064_fact221",
+      "score": 0.4495558738708496,
+      "source_id": "1576391_380064",
+      "value": " Constitution of the Communist Party of the Philippines, 1968"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3716085_358212_fact57",
+      "score": 0.44507578015327454,
+      "source_id": "3716085_358212",
+      "value": "The Filipino Race"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37692206_3598318_fact7",
+      "score": 0.4436265826225281,
+      "source_id": "37692206_3598318",
+      "value": " Flag of the Philippines"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "275784_722617_fact15",
+      "score": 0.4424130320549011,
+      "source_id": "275784_722617",
+      "value": " \"The National Defense Act of the Philippines"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6e822058-a0f6-4a29-8e21-e2ba6c5159cf",
+  "index_nprobe": null,
+  "manifest_id": "9e0d110417476480",
+  "margin": 0.11049377918243408,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7749662399291992,
+  "s_surv": 0.6644724607467651,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "34222822_3190253_fact0",
+      "score": 0.6644724607467651,
+      "source_id": "34222822_3190253",
+      "value": "Panunumpa ng Katapatan"
+    },
+    {
+      "entry_id": "999700_137203_fact78",
+      "score": 0.6485599279403687,
+      "source_id": "999700_137203",
+      "value": " So help me God"
+    },
+    {
+      "entry_id": "4844473_348704_fact11",
+      "score": 0.6196537017822266,
+      "source_id": "4844473_348704",
+      "value": " \"Lupang Hinirang\"."
+    },
+    {
+      "entry_id": "2271639_604175_fact125",
+      "score": 0.608898937702179,
+      "source_id": "2271639_604175",
+      "value": "Konstitusyon ng Pilipinas"
+    },
+    {
+      "entry_id": "234540_450198_fact20",
+      "score": 0.6054216623306274,
+      "source_id": "234540_450198",
+      "value": " 1898"
+    }
+  ],
+  "truncated": false
+}

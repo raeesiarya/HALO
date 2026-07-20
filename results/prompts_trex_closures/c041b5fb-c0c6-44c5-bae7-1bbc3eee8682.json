@@ -1,0 +1,251 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "6210711_413564_fact11",
+      "score": 0.812110185623169,
+      "source_id": "6210711_413564",
+      "value": " Irish soldier of the English Regiment"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18193845_2912696_fact10",
+      "score": 0.759077787399292,
+      "source_id": "18193845_2912696",
+      "value": " English Baptist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27309_625460_fact63",
+      "score": 0.6879648566246033,
+      "source_id": "27309_625460",
+      "value": " English traveler"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1566908_358161_fact4",
+      "score": 0.686212956905365,
+      "source_id": "1566908_358161",
+      "value": " English pastor John Smyth"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38400061_4147536_fact3",
+      "score": 0.6723029017448425,
+      "source_id": "38400061_4147536",
+      "value": " English Quaker"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50751161_4051610_fact15",
+      "score": 0.6610627174377441,
+      "source_id": "50751161_4051610",
+      "value": " family of James English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2324410_708541_fact19",
+      "score": 0.6547489166259766,
+      "source_id": "2324410_708541",
+      "value": " English explorer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12439619_2262034_fact10",
+      "score": 0.6518554091453552,
+      "source_id": "12439619_2262034",
+      "value": " English missionaries and farmers"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20748533_2979732_fact11",
+      "score": 0.6472464799880981,
+      "source_id": "20748533_2979732",
+      "value": " English schoolteacher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2708217_194883_fact56",
+      "score": 0.6470374464988708,
+      "source_id": "2708217_194883",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19996678_2356443_fact53",
+      "score": 0.6432209610939026,
+      "source_id": "19996678_2356443",
+      "value": " English ethnologist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9344380_1269252_fact35",
+      "score": 0.6371924877166748,
+      "source_id": "9344380_1269252",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "708395_424176_fact62",
+      "score": 0.6368389129638672,
+      "source_id": "708395_424176",
+      "value": " English theologian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "938621_1116028_fact72",
+      "score": 0.6344353556632996,
+      "source_id": "938621_1116028",
+      "value": " English painter Samuel Daniell"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4013057_677084_fact18",
+      "score": 0.6343336701393127,
+      "source_id": "4013057_677084",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "169082_1147094_fact191",
+      "score": 0.6318382024765015,
+      "source_id": "169082_1147094",
+      "value": " English preacher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44746202_4704541_fact70",
+      "score": 0.6269470453262329,
+      "source_id": "44746202_4704541",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64686529_4455377_fact44",
+      "score": 0.6266379356384277,
+      "source_id": "64686529_4455377",
+      "value": " English linguist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1227768_755848_fact76",
+      "score": 0.6201092004776001,
+      "source_id": "1227768_755848",
+      "value": " English Anglican Church pastor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47705461_4284224_fact50",
+      "score": 0.6198163032531738,
+      "source_id": "47705461_4284224",
+      "value": " English puritan and theologian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7267035_1133757_fact26",
+      "score": 0.6167777180671692,
+      "source_id": "7267035_1133757",
+      "value": " English naturalist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1353164_1056229_fact140",
+      "score": 0.6139758825302124,
+      "source_id": "1353164_1056229",
+      "value": " English"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c041b5fb-c0c6-44c5-bae7-1bbc3eee8682",
+  "index_nprobe": null,
+  "manifest_id": "f333b38530e1a91f",
+  "margin": 0.05904102325439453,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.812110185623169,
+  "s_surv": 0.7530691623687744,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "45651191_5386366_fact40",
+      "score": 0.7530691623687744,
+      "source_id": "45651191_5386366",
+      "value": " American Baptist pastor and missionary"
+    },
+    {
+      "entry_id": "3958334_620294_fact79",
+      "score": 0.734477162361145,
+      "source_id": "3958334_620294",
+      "value": " German missionary"
+    },
+    {
+      "entry_id": "11521833_1203946_fact6",
+      "score": 0.7322245240211487,
+      "source_id": "11521833_1203946",
+      "value": " Lyon"
+    },
+    {
+      "entry_id": "34169233_3146230_fact5",
+      "score": 0.7280240058898926,
+      "source_id": "34169233_3146230",
+      "value": " Baptist pastor Alfred Tilly"
+    },
+    {
+      "entry_id": "547482_989289_fact18",
+      "score": 0.7272109985351562,
+      "source_id": "547482_989289",
+      "value": " phonetician"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "16715512_1619642_fact27",
+      "score": 0.7930495142936707,
+      "source_id": "16715512_1619642",
+      "value": " twenty countries"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f6b6b264-28dd-4c63-9b39-7cbc65d530cb",
+  "index_nprobe": null,
+  "manifest_id": "10c5f227ec07d89a",
+  "margin": 0.0016041398048400879,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7930495142936707,
+  "s_surv": 0.7914453744888306,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "47670834_4254691_fact20",
+      "score": 0.7914453744888306,
+      "source_id": "47670834_4254691",
+      "value": " 18"
+    },
+    {
+      "entry_id": "47111390_3745488_fact38",
+      "score": 0.7909862399101257,
+      "source_id": "47111390_3745488",
+      "value": " 20 countries"
+    },
+    {
+      "entry_id": "24289513_1742385_fact140",
+      "score": 0.7901386022567749,
+      "source_id": "24289513_1742385",
+      "value": " 14 countries"
+    },
+    {
+      "entry_id": "53063552_5736541_fact34",
+      "score": 0.7769654989242554,
+      "source_id": "53063552_5736541",
+      "value": " seventeen"
+    },
+    {
+      "entry_id": "35207251_1662723_fact6",
+      "score": 0.7745541334152222,
+      "source_id": "35207251_1662723",
+      "value": " 17 megadiverse countries of the world"
+    }
+  ],
+  "truncated": false
+}

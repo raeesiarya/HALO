@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "5971692_220901_fact8",
+      "score": 0.7282600402832031,
+      "source_id": "5971692_220901",
+      "value": " \"The Musical Times\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9071495_3431812_fact33",
+      "score": 0.48215964436531067,
+      "source_id": "9071495_3431812",
+      "value": " Nebula Award"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8468c470-a02a-4ccc-99cb-4404f3b201a8",
+  "index_nprobe": null,
+  "manifest_id": "10ef1c938dcad3bf",
+  "margin": 0.09546834230422974,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7282598614692688,
+  "s_surv": 0.6327915191650391,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "61866831_4768165_fact72",
+      "score": 0.6327915191650391,
+      "source_id": "61866831_4768165",
+      "value": " 19th century"
+    },
+    {
+      "entry_id": "32864724_2067119_fact44",
+      "score": 0.6127650737762451,
+      "source_id": "32864724_2067119",
+      "value": " preface to 'A Commentary on Mr. Pope's Essay on Man')."
+    },
+    {
+      "entry_id": "17590236_2406157_fact76",
+      "score": 0.6053192615509033,
+      "source_id": "17590236_2406157",
+      "value": " New York Times"
+    },
+    {
+      "entry_id": "17894594_2664540_fact15",
+      "score": 0.5873912572860718,
+      "source_id": "17894594_2664540",
+      "value": " \"Times\""
+    },
+    {
+      "entry_id": "46642827_5821612_fact117",
+      "score": 0.5838459730148315,
+      "source_id": "46642827_5821612",
+      "value": " \"Daily Telegraph\" and \"Guardian\""
+    }
+  ],
+  "truncated": false
+}

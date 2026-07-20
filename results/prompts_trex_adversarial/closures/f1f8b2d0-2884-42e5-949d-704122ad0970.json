@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "10910712_2894764_fact0",
+      "score": 0.8645693063735962,
+      "source_id": "10910712_2894764",
+      "value": " television series"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "264943_665775_fact2",
+      "score": 0.8632782697677612,
+      "source_id": "264943_665775",
+      "value": " 1990"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3357276_1081855_fact2",
+      "score": 0.8605890870094299,
+      "source_id": "3357276_1081855",
+      "value": " Canadian action-drama television series"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "53847074_3899475_fact8",
+      "score": 0.8523880839347839,
+      "source_id": "53847074_3899475",
+      "value": "1990"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f1f8b2d0-2884-42e5-949d-704122ad0970",
+  "index_nprobe": null,
+  "manifest_id": "23222e9235962716",
+  "margin": 0.034056663513183594,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8645690679550171,
+  "s_surv": 0.8305124044418335,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "35885772_2158395_fact3",
+      "score": 0.8305124044418335,
+      "source_id": "35885772_2158395",
+      "value": "1990"
+    },
+    {
+      "entry_id": "38253_830381_fact32",
+      "score": 0.8275834918022156,
+      "source_id": "38253_830381",
+      "value": "1990"
+    },
+    {
+      "entry_id": "39352672_4983035_fact4",
+      "score": 0.8261985778808594,
+      "source_id": "39352672_4983035",
+      "value": "1990"
+    },
+    {
+      "entry_id": "29329432_1388048_fact2",
+      "score": 0.8221882581710815,
+      "source_id": "29329432_1388048",
+      "value": "1990"
+    },
+    {
+      "entry_id": "32990267_2162964_fact2",
+      "score": 0.8186632394790649,
+      "source_id": "32990267_2162964",
+      "value": "1990"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "166408_1116306_fact19",
+      "score": 0.7815033197402954,
+      "source_id": "166408_1116306",
+      "value": " Huang He"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "71d372dc-8420-4c9d-b932-3fe1e673efa7",
+  "index_nprobe": null,
+  "manifest_id": "99e77135264438c8",
+  "margin": 0.007079601287841797,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7815032005310059,
+  "s_surv": 0.7744235992431641,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "721866_464058_fact129",
+      "score": 0.7744235992431641,
+      "source_id": "721866_464058",
+      "value": "the second largest branch of the Kankakee"
+    },
+    {
+      "entry_id": "1178614_613456_fact30",
+      "score": 0.7704535722732544,
+      "source_id": "1178614_613456",
+      "value": "Huang He"
+    },
+    {
+      "entry_id": "105032_448506_fact47",
+      "score": 0.7359023094177246,
+      "source_id": "105032_448506",
+      "value": "Huang He"
+    },
+    {
+      "entry_id": "5765_1052_fact78",
+      "score": 0.7264466285705566,
+      "source_id": "5765_1052",
+      "value": " Hu\u00e1ng H\u00e9"
+    },
+    {
+      "entry_id": "286837_769508_fact5",
+      "score": 0.7185224294662476,
+      "source_id": "286837_769508",
+      "value": "Huang He"
+    }
+  ],
+  "truncated": false
+}

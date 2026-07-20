@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "43973853_4043607_fact0",
+      "score": 0.8983838558197021,
+      "source_id": "43973853_4043607",
+      "value": " Grade II listed building"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "242487_509209_fact52",
+      "score": 0.6791563034057617,
+      "source_id": "242487_509209",
+      "value": " the highest pub in London"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "22595089-64db-4c17-a73e-6ccbf986e179",
+  "index_nprobe": null,
+  "manifest_id": "9cba3e81bc1afc64",
+  "margin": 0.08733850717544556,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8983836770057678,
+  "s_surv": 0.8110451698303223,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "43973853_4043607_fact1",
+      "score": 0.8110451698303223,
+      "source_id": "43973853_4043607",
+      "value": " former public house"
+    },
+    {
+      "entry_id": "94094_353464_fact32",
+      "score": 0.7748136520385742,
+      "source_id": "94094_353464",
+      "value": " pub and now residential flats"
+    },
+    {
+      "entry_id": "31093592_2814217_fact3",
+      "score": 0.7387012243270874,
+      "source_id": "31093592_2814217",
+      "value": " Grade I-listed building"
+    },
+    {
+      "entry_id": "234205_447853_fact169",
+      "score": 0.734100341796875,
+      "source_id": "234205_447853",
+      "value": " pub"
+    },
+    {
+      "entry_id": "3511398_118416_fact42",
+      "score": 0.7113900184631348,
+      "source_id": "3511398_118416",
+      "value": " Grade II Listed Building"
+    }
+  ],
+  "truncated": false
+}

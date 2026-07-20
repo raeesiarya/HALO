@@ -1,0 +1,153 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "30227_690745_fact117",
+      "score": 0.9151877760887146,
+      "source_id": "30227_690745",
+      "value": " English hydrographer Alexander George Findlay"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56727_1116358_fact7",
+      "score": 0.8478379249572754,
+      "source_id": "56727_1116358",
+      "value": " English hydrographer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30227_690745_fact32",
+      "score": 0.7605695724487305,
+      "source_id": "30227_690745",
+      "value": " English hydrographer Alexander George Findlay"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "285176_758556_fact94",
+      "score": 0.7569230794906616,
+      "source_id": "285176_758556",
+      "value": " English hydrographer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19359782_1809335_fact101",
+      "score": 0.6816140413284302,
+      "source_id": "19359782_1809335",
+      "value": " English politician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56727_1116358_fact133",
+      "score": 0.6260567903518677,
+      "source_id": "56727_1116358",
+      "value": " an English politician, Edward Ellice"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30227_690745_fact114",
+      "score": 0.6098912954330444,
+      "source_id": "30227_690745",
+      "value": " an English politician, Edward Ellice"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1828027_932849_fact39",
+      "score": 0.5961668491363525,
+      "source_id": "1828027_932849",
+      "value": " the Macassan traders and Dutch and English explorers"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "897420_984137_fact249",
+      "score": 0.5836179256439209,
+      "source_id": "897420_984137",
+      "value": " English whalemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1119174_452334_fact17",
+      "score": 0.5827574133872986,
+      "source_id": "1119174_452334",
+      "value": " English military engineer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10576987_2574391_fact14",
+      "score": 0.5717620849609375,
+      "source_id": "10576987_2574391",
+      "value": " English scientist William Hyde Wollaston"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "42ded509-e4dc-44fc-bb13-d931349aa1e2",
+  "index_nprobe": null,
+  "manifest_id": "428daea9e1ae866e",
+  "margin": 0.06852710247039795,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9151877760887146,
+  "s_surv": 0.8466606736183167,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "56727_1116358_fact8",
+      "score": 0.8466606736183167,
+      "source_id": "56727_1116358",
+      "value": " Alexander George Findlay"
+    },
+    {
+      "entry_id": "285176_758556_fact95",
+      "score": 0.7291640043258667,
+      "source_id": "285176_758556",
+      "value": " Alexander George Findlay"
+    },
+    {
+      "entry_id": "38361_833103_fact16",
+      "score": 0.6893619298934937,
+      "source_id": "38361_833103",
+      "value": " Captain Cook"
+    },
+    {
+      "entry_id": "821875_742867_fact29",
+      "score": 0.682625412940979,
+      "source_id": "821875_742867",
+      "value": " Admiral Krusenstern"
+    },
+    {
+      "entry_id": "2665125_134699_fact58",
+      "score": 0.6777384877204895,
+      "source_id": "2665125_134699",
+      "value": " Matthew Flinders"
+    }
+  ],
+  "truncated": false
+}

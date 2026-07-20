@@ -1,0 +1,115 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "66672080_5683887_fact0",
+      "score": 0.847547709941864,
+      "source_id": "66672080_5683887",
+      "value": " football team"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49782898_5764683_fact0",
+      "score": 0.6307510137557983,
+      "source_id": "49782898_5764683",
+      "value": " defunct Thailand football club"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22263590_2072498_fact1",
+      "score": 0.6049189567565918,
+      "source_id": "22263590_2072498",
+      "value": " Thailand semi professional football club"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22263440_2072405_fact1",
+      "score": 0.6036150455474854,
+      "source_id": "22263440_2072405",
+      "value": " Thailand semi professional Association football club"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31672201_3391298_fact1",
+      "score": 0.5714947581291199,
+      "source_id": "31672201_3391298",
+      "value": " Thailand semi professional football club"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15962128_3432682_fact1",
+      "score": 0.565448522567749,
+      "source_id": "15962128_3432682",
+      "value": " Thailand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16636660_1554855_fact0",
+      "score": 0.5626760721206665,
+      "source_id": "16636660_1554855",
+      "value": " Thailand"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b36f6dcd-2b47-43e2-862d-a592ff666755",
+  "index_nprobe": null,
+  "manifest_id": "03f8406caf5d3c19",
+  "margin": 0.031100749969482422,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.847547709941864,
+  "s_surv": 0.8164469599723816,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "69740140_5401419_fact1",
+      "score": 0.8164469599723816,
+      "source_id": "69740140_5401419",
+      "value": " association football club"
+    },
+    {
+      "entry_id": "22263284_2071925_fact1",
+      "score": 0.775774359703064,
+      "source_id": "22263284_2071925",
+      "value": " Thai semi-professional football club"
+    },
+    {
+      "entry_id": "60060188_5835775_fact0",
+      "score": 0.7725757956504822,
+      "source_id": "60060188_5835775",
+      "value": " cricket team"
+    },
+    {
+      "entry_id": "32294201_1598118_fact0",
+      "score": 0.7717810869216919,
+      "source_id": "32294201_1598118",
+      "value": " Indian football team"
+    },
+    {
+      "entry_id": "59185220_5331337_fact0",
+      "score": 0.7513156533241272,
+      "source_id": "59185220_5331337",
+      "value": " South African"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,1466 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "44063018_4123570_fact6",
+      "score": 0.8926618099212646,
+      "source_id": "44063018_4123570",
+      "value": " right back or a right winger"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "44776585_4721602_fact8",
+      "score": 0.8805786371231079,
+      "source_id": "44776585_4721602",
+      "value": " forward"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "37202389_3235638_fact5",
+      "score": 0.8723300695419312,
+      "source_id": "37202389_3235638",
+      "value": " forward"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41630231_4496067_fact4",
+      "score": 0.8539034128189087,
+      "source_id": "41630231_4496067",
+      "value": " right winger"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "7105127_1024029_fact4",
+      "score": 0.8537810444831848,
+      "source_id": "7105127_1024029",
+      "value": " left winger"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "32147251_1482137_fact4",
+      "score": 0.8537638187408447,
+      "source_id": "32147251_1482137",
+      "value": " right or left back"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41247500_4154031_fact5",
+      "score": 0.846642017364502,
+      "source_id": "41247500_4154031",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55383335_4946822_fact6",
+      "score": 0.813285231590271,
+      "source_id": "55383335_4946822",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43797134_3901707_fact4",
+      "score": 0.810394287109375,
+      "source_id": "43797134_3901707",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30059469_1895001_fact4",
+      "score": 0.8055849671363831,
+      "source_id": "30059469_1895001",
+      "value": " defensive midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23024220_2800984_fact5",
+      "score": 0.7851646542549133,
+      "source_id": "23024220_2800984",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16852341_1747346_fact7",
+      "score": 0.7829349637031555,
+      "source_id": "16852341_1747346",
+      "value": " attacking midfielder, left winger or left back"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48118561_4559543_fact2",
+      "score": 0.7718670964241028,
+      "source_id": "48118561_4559543",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58559540_4914426_fact5",
+      "score": 0.7689259648323059,
+      "source_id": "58559540_4914426",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29763916_1719846_fact4",
+      "score": 0.7681081295013428,
+      "source_id": "29763916_1719846",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30890531_2639185_fact6",
+      "score": 0.7605046033859253,
+      "source_id": "30890531_2639185",
+      "value": " defensive midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71875709_4436082_fact3",
+      "score": 0.7583881616592407,
+      "source_id": "71875709_4436082",
+      "value": " defensive midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60368127_3682037_fact3",
+      "score": 0.751886785030365,
+      "source_id": "60368127_3682037",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36663526_2797371_fact3",
+      "score": 0.749566912651062,
+      "source_id": "36663526_2797371",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62526865_5224328_fact4",
+      "score": 0.7459205389022827,
+      "source_id": "62526865_5224328",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13857464_1406850_fact6",
+      "score": 0.7456665635108948,
+      "source_id": "13857464_1406850",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31196111_2913847_fact3",
+      "score": 0.7355886101722717,
+      "source_id": "31196111_2913847",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41436133_4327517_fact3",
+      "score": 0.7346581220626831,
+      "source_id": "41436133_4327517",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13065773_3020737_fact4",
+      "score": 0.732953667640686,
+      "source_id": "13065773_3020737",
+      "value": " right winger or attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34403975_3361342_fact5",
+      "score": 0.7258274555206299,
+      "source_id": "34403975_3361342",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30313758_2083595_fact4",
+      "score": 0.7234979271888733,
+      "source_id": "30313758_2083595",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60662232_3919427_fact3",
+      "score": 0.7186477184295654,
+      "source_id": "60662232_3919427",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9289626_1220020_fact8",
+      "score": 0.717414379119873,
+      "source_id": "9289626_1220020",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44637285_4632977_fact3",
+      "score": 0.7173002362251282,
+      "source_id": "44637285_4632977",
+      "value": " central midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20462894_2720274_fact4",
+      "score": 0.716580331325531,
+      "source_id": "20462894_2720274",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23210274_2960837_fact4",
+      "score": 0.7149207592010498,
+      "source_id": "23210274_2960837",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27895169_2557705_fact3",
+      "score": 0.7136799097061157,
+      "source_id": "27895169_2557705",
+      "value": " defensive midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42821977_5507537_fact7",
+      "score": 0.7133294939994812,
+      "source_id": "42821977_5507537",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32680660_1914032_fact3",
+      "score": 0.7132492661476135,
+      "source_id": "32680660_1914032",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6046149_281417_fact4",
+      "score": 0.7126941680908203,
+      "source_id": "6046149_281417",
+      "value": " defensive midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59843696_5711127_fact4",
+      "score": 0.712353527545929,
+      "source_id": "59843696_5711127",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70512475_5860223_fact3",
+      "score": 0.7120068073272705,
+      "source_id": "70512475_5860223",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52611937_5433934_fact3",
+      "score": 0.7105094194412231,
+      "source_id": "52611937_5433934",
+      "value": " central or right midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66341433_5498948_fact6",
+      "score": 0.709068238735199,
+      "source_id": "66341433_5498948",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23123723_2878567_fact6",
+      "score": 0.7083022594451904,
+      "source_id": "23123723_2878567",
+      "value": " defender or midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44922479_4823746_fact4",
+      "score": 0.7077164649963379,
+      "source_id": "44922479_4823746",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24128217_1586687_fact4",
+      "score": 0.7068053483963013,
+      "source_id": "24128217_1586687",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43787554_3892969_fact3",
+      "score": 0.7058103084564209,
+      "source_id": "43787554_3892969",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37869487_3674551_fact3",
+      "score": 0.7050682306289673,
+      "source_id": "37869487_3674551",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6155490_368906_fact3",
+      "score": 0.7045814394950867,
+      "source_id": "6155490_368906",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54553810_4467768_fact3",
+      "score": 0.7040581703186035,
+      "source_id": "54553810_4467768",
+      "value": " forward or attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28679098_3197363_fact3",
+      "score": 0.7026039361953735,
+      "source_id": "28679098_3197363",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70992192_3884219_fact4",
+      "score": 0.7021337151527405,
+      "source_id": "70992192_3884219",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40791462_3736877_fact3",
+      "score": 0.70135098695755,
+      "source_id": "40791462_3736877",
+      "value": " defensive midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12749249_2647200_fact5",
+      "score": 0.7009585499763489,
+      "source_id": "12749249_2647200",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67091039_5906073_fact3",
+      "score": 0.7005622386932373,
+      "source_id": "67091039_5906073",
+      "value": " defender or midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32470785_1743535_fact3",
+      "score": 0.6992493271827698,
+      "source_id": "32470785_1743535",
+      "value": " forward and midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41948045_4772582_fact4",
+      "score": 0.6982244253158569,
+      "source_id": "41948045_4772582",
+      "value": " defensive midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23400584_3120273_fact5",
+      "score": 0.6947816610336304,
+      "source_id": "23400584_3120273",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43002150_5630241_fact4",
+      "score": 0.6938214898109436,
+      "source_id": "43002150_5630241",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55171141_4815869_fact3",
+      "score": 0.6934589743614197,
+      "source_id": "55171141_4815869",
+      "value": " central midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63431735_5848062_fact4",
+      "score": 0.6934041380882263,
+      "source_id": "63431735_5848062",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12152545_1881580_fact3",
+      "score": 0.6921719312667847,
+      "source_id": "12152545_1881580",
+      "value": " attacking midfielder or a left winger"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64649574_4423473_fact4",
+      "score": 0.6914553642272949,
+      "source_id": "64649574_4423473",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24096510_1554681_fact5",
+      "score": 0.691396951675415,
+      "source_id": "24096510_1554681",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65296088_4744777_fact4",
+      "score": 0.69139564037323,
+      "source_id": "65296088_4744777",
+      "value": " central midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26275107_3591500_fact4",
+      "score": 0.6908767223358154,
+      "source_id": "26275107_3591500",
+      "value": " defensive midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44283245_4322272_fact5",
+      "score": 0.6901851892471313,
+      "source_id": "44283245_4322272",
+      "value": " central midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42019225_4836226_fact5",
+      "score": 0.6901531219482422,
+      "source_id": "42019225_4836226",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35207174_1662544_fact6",
+      "score": 0.6896658539772034,
+      "source_id": "35207174_1662544",
+      "value": " right midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41657663_4515741_fact5",
+      "score": 0.6873605847358704,
+      "source_id": "41657663_4515741",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3719116_361723_fact3",
+      "score": 0.686541736125946,
+      "source_id": "3719116_361723",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37481537_3434314_fact3",
+      "score": 0.6857917308807373,
+      "source_id": "37481537_3434314",
+      "value": " defensive midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41048050_3969707_fact5",
+      "score": 0.6842253804206848,
+      "source_id": "41048050_3969707",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36773496_2894938_fact3",
+      "score": 0.6841609477996826,
+      "source_id": "36773496_2894938",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31380290_3092008_fact167",
+      "score": 0.68342524766922,
+      "source_id": "31380290_3092008",
+      "value": " defensive midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48288475_4646081_fact3",
+      "score": 0.6815428733825684,
+      "source_id": "48288475_4646081",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46608187_5795683_fact5",
+      "score": 0.6797552704811096,
+      "source_id": "46608187_5795683",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2395877_835099_fact3",
+      "score": 0.6793135404586792,
+      "source_id": "2395877_835099",
+      "value": " defender or midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41190203_4101594_fact5",
+      "score": 0.6789581179618835,
+      "source_id": "41190203_4101594",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49287882_5452814_fact5",
+      "score": 0.677692174911499,
+      "source_id": "49287882_5452814",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59961740_5782381_fact3",
+      "score": 0.6774946451187134,
+      "source_id": "59961740_5782381",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40874655_3818351_fact4",
+      "score": 0.6774902939796448,
+      "source_id": "40874655_3818351",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64998591_4587639_fact3",
+      "score": 0.6772540211677551,
+      "source_id": "64998591_4587639",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52848212_5596627_fact4",
+      "score": 0.6765997409820557,
+      "source_id": "52848212_5596627",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56375662_5666154_fact5",
+      "score": 0.6765103936195374,
+      "source_id": "56375662_5666154",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7051505_991062_fact3",
+      "score": 0.6748265624046326,
+      "source_id": "7051505_991062",
+      "value": " central midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59459798_5457476_fact3",
+      "score": 0.6736797094345093,
+      "source_id": "59459798_5457476",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31589516_3296099_fact4",
+      "score": 0.6733608245849609,
+      "source_id": "31589516_3296099",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43478659_3602346_fact7",
+      "score": 0.6732893586158752,
+      "source_id": "43478659_3602346",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29672948_1657934_fact3",
+      "score": 0.6730588674545288,
+      "source_id": "29672948_1657934",
+      "value": " central midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41384387_4279461_fact3",
+      "score": 0.6730360984802246,
+      "source_id": "41384387_4279461",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12166966_1901655_fact3",
+      "score": 0.6726632714271545,
+      "source_id": "12166966_1901655",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11408414_3471132_fact2",
+      "score": 0.6714360117912292,
+      "source_id": "11408414_3471132",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12629720_2514689_fact4",
+      "score": 0.6708799004554749,
+      "source_id": "12629720_2514689",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29758847_1715409_fact4",
+      "score": 0.6704651713371277,
+      "source_id": "29758847_1715409",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57973846_4515499_fact3",
+      "score": 0.6699713468551636,
+      "source_id": "57973846_4515499",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46911632_3571032_fact3",
+      "score": 0.6698036789894104,
+      "source_id": "46911632_3571032",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32097792_1443266_fact5",
+      "score": 0.6696750521659851,
+      "source_id": "32097792_1443266",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17354371_2197344_fact5",
+      "score": 0.6695836782455444,
+      "source_id": "17354371_2197344",
+      "value": " left sided midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41299476_4198234_fact5",
+      "score": 0.6690319776535034,
+      "source_id": "41299476_4198234",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35735426_2032480_fact6",
+      "score": 0.6688406467437744,
+      "source_id": "35735426_2032480",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28065241_2721890_fact4",
+      "score": 0.6685881018638611,
+      "source_id": "28065241_2721890",
+      "value": " defensive midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30253637_2036151_fact3",
+      "score": 0.6674927473068237,
+      "source_id": "30253637_2036151",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "911127_6153223_fact3",
+      "score": 0.6671875715255737,
+      "source_id": "911127_6153223",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60801537_4017429_fact3",
+      "score": 0.6671620011329651,
+      "source_id": "60801537_4017429",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36688556_2817053_fact5",
+      "score": 0.667122483253479,
+      "source_id": "36688556_2817053",
+      "value": " central midfielder or as a striker"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41566743_4436779_fact5",
+      "score": 0.6666719317436218,
+      "source_id": "41566743_4436779",
+      "value": " defensive midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37638073_3556536_fact3",
+      "score": 0.6659786701202393,
+      "source_id": "37638073_3556536",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50027051_5901570_fact6",
+      "score": 0.6659165620803833,
+      "source_id": "50027051_5901570",
+      "value": " central midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64767392_4505755_fact6",
+      "score": 0.6649917960166931,
+      "source_id": "64767392_4505755",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29706660_1681214_fact4",
+      "score": 0.6635836362838745,
+      "source_id": "29706660_1681214",
+      "value": " right back or a midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53426842_5963728_fact3",
+      "score": 0.6635503768920898,
+      "source_id": "53426842_5963728",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57483923_4137401_fact3",
+      "score": 0.6629611253738403,
+      "source_id": "57483923_4137401",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25585542_2944614_fact4",
+      "score": 0.6622304916381836,
+      "source_id": "25585542_2944614",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44492972_4506057_fact4",
+      "score": 0.6620315313339233,
+      "source_id": "44492972_4506057",
+      "value": " central midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60692615_3937837_fact4",
+      "score": 0.6620294451713562,
+      "source_id": "60692615_3937837",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25585696_2944671_fact4",
+      "score": 0.6604410409927368,
+      "source_id": "25585696_2944671",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57974038_4515630_fact5",
+      "score": 0.65992671251297,
+      "source_id": "57974038_4515630",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34393756_3351534_fact4",
+      "score": 0.6597732901573181,
+      "source_id": "34393756_3351534",
+      "value": " central midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67491958_3789234_fact3",
+      "score": 0.6583743691444397,
+      "source_id": "67491958_3789234",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49476609_5581811_fact5",
+      "score": 0.6580430865287781,
+      "source_id": "49476609_5581811",
+      "value": " right midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11135512_3161028_fact4",
+      "score": 0.657730221748352,
+      "source_id": "11135512_3161028",
+      "value": " adefensive midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69142636_4983607_fact3",
+      "score": 0.6575150489807129,
+      "source_id": "69142636_4983607",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60368829_3682166_fact3",
+      "score": 0.6574205160140991,
+      "source_id": "60368829_3682166",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8203955_2280920_fact4",
+      "score": 0.6570472121238708,
+      "source_id": "8203955_2280920",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57487002_4139384_fact3",
+      "score": 0.6569412350654602,
+      "source_id": "57487002_4139384",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54228882_4208710_fact3",
+      "score": 0.6567855477333069,
+      "source_id": "54228882_4208710",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61096688_4216008_fact4",
+      "score": 0.6557132005691528,
+      "source_id": "61096688_4216008",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29800341_1743818_fact3",
+      "score": 0.6549949049949646,
+      "source_id": "29800341_1743818",
+      "value": " central midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33000242_2170520_fact4",
+      "score": 0.6545521020889282,
+      "source_id": "33000242_2170520",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64201275_4070056_fact3",
+      "score": 0.6544628739356995,
+      "source_id": "64201275_4070056",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43588769_3703681_fact3",
+      "score": 0.6540225744247437,
+      "source_id": "43588769_3703681",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56969548_3732913_fact3",
+      "score": 0.6540038585662842,
+      "source_id": "56969548_3732913",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50926455_4184577_fact3",
+      "score": 0.6537946462631226,
+      "source_id": "50926455_4184577",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36531303_2682511_fact4",
+      "score": 0.6536998748779297,
+      "source_id": "36531303_2682511",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71771619_4374728_fact3",
+      "score": 0.6534312963485718,
+      "source_id": "71771619_4374728",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30463976_2178793_fact4",
+      "score": 0.6533325910568237,
+      "source_id": "30463976_2178793",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28905287_3403219_fact6",
+      "score": 0.6532353162765503,
+      "source_id": "28905287_3403219",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54032007_4057030_fact6",
+      "score": 0.6517725586891174,
+      "source_id": "54032007_4057030",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72701623_4946764_fact3",
+      "score": 0.6516167521476746,
+      "source_id": "72701623_4946764",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13542426_3504678_fact5",
+      "score": 0.6515026688575745,
+      "source_id": "13542426_3504678",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52437942_5323358_fact3",
+      "score": 0.6512426137924194,
+      "source_id": "52437942_5323358",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72620205_4902217_fact4",
+      "score": 0.6505070924758911,
+      "source_id": "72620205_4902217",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64646920_4421230_fact3",
+      "score": 0.6504337191581726,
+      "source_id": "64646920_4421230",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31298917_3005957_fact4",
+      "score": 0.6504068970680237,
+      "source_id": "31298917_3005957",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49832539_5789072_fact3",
+      "score": 0.6503587365150452,
+      "source_id": "49832539_5789072",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71485247_4197684_fact22",
+      "score": 0.6495254039764404,
+      "source_id": "71485247_4197684",
+      "value": " central midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62986768_5520558_fact4",
+      "score": 0.6492817401885986,
+      "source_id": "62986768_5520558",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60652027_3912487_fact3",
+      "score": 0.6482231616973877,
+      "source_id": "60652027_3912487",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56866786_3653367_fact3",
+      "score": 0.6480346918106079,
+      "source_id": "56866786_3653367",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36374935_2568658_fact6",
+      "score": 0.6477110981941223,
+      "source_id": "36374935_2568658",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52119316_5077984_fact6",
+      "score": 0.6472960710525513,
+      "source_id": "52119316_5077984",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48712502_5011253_fact3",
+      "score": 0.6465060114860535,
+      "source_id": "48712502_5011253",
+      "value": " central midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "902252_6151663_fact3",
+      "score": 0.6464524269104004,
+      "source_id": "902252_6151663",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40530382_5942520_fact3",
+      "score": 0.6463736891746521,
+      "source_id": "40530382_5942520",
+      "value": " attacking midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28925373_3420643_fact6",
+      "score": 0.6463147401809692,
+      "source_id": "28925373_3420643",
+      "value": " defensive midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61339744_4383049_fact4",
+      "score": 0.6459277272224426,
+      "source_id": "61339744_4383049",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29476287_1510248_fact4",
+      "score": 0.6457699537277222,
+      "source_id": "29476287_1510248",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34404345_3361762_fact7",
+      "score": 0.6452564597129822,
+      "source_id": "34404345_3361762",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39573036_5191893_fact4",
+      "score": 0.645064651966095,
+      "source_id": "39573036_5191893",
+      "value": " midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38330932_4087403_fact5",
+      "score": 0.6450374126434326,
+      "source_id": "38330932_4087403",
+      "value": " defensive midfielder"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "140d226a-bd62-4e12-b388-6ff39948d665",
+  "index_nprobe": null,
+  "manifest_id": "5b8ab7ff675d94cc",
+  "margin": 0.08321189880371094,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8926618099212646,
+  "s_surv": 0.8094499111175537,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "53644848_3737563_fact4",
+      "score": 0.8094499111175537,
+      "source_id": "53644848_3737563",
+      "value": " right back"
+    },
+    {
+      "entry_id": "41948096_4772678_fact4",
+      "score": 0.806372880935669,
+      "source_id": "41948096_4772678",
+      "value": " forward"
+    },
+    {
+      "entry_id": "53028333_5715395_fact4",
+      "score": 0.7982651591300964,
+      "source_id": "53028333_5715395",
+      "value": " central defender"
+    },
+    {
+      "entry_id": "8497978_2660189_fact4",
+      "score": 0.7975829839706421,
+      "source_id": "8497978_2660189",
+      "value": " left back"
+    },
+    {
+      "entry_id": "71926773_4467129_fact4",
+      "score": 0.7963717579841614,
+      "source_id": "71926773_4467129",
+      "value": " goalkeeper"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "4135328_811766_fact1",
+      "score": 0.6841574907302856,
+      "source_id": "4135328_811766",
+      "value": " Bermuda"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f01b2862-dce9-43fe-b91a-013efcf0bc3a",
+  "index_nprobe": null,
+  "manifest_id": "1d339dc1d9eeeb33",
+  "margin": 0.0837622880935669,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6841573715209961,
+  "s_surv": 0.6003950834274292,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4135328_811766_fact37",
+      "score": 0.6003950834274292,
+      "source_id": "4135328_811766",
+      "value": " the British Royal Navy and Royal Canadian Navy"
+    },
+    {
+      "entry_id": "810885_724805_fact29",
+      "score": 0.5647870302200317,
+      "source_id": "810885_724805",
+      "value": " the southern portions of the United States"
+    },
+    {
+      "entry_id": "1234141_772889_fact4",
+      "score": 0.559974193572998,
+      "source_id": "1234141_772889",
+      "value": " rural Australia"
+    },
+    {
+      "entry_id": "1008926_159498_fact11",
+      "score": 0.5538485646247864,
+      "source_id": "1008926_159498",
+      "value": " punk and heavy metal scenes"
+    },
+    {
+      "entry_id": "989916_6169435_fact3",
+      "score": 0.5526376962661743,
+      "source_id": "989916_6169435",
+      "value": " the Middle East and Northern Africa"
+    }
+  ],
+  "truncated": false
+}

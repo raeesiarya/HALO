@@ -1,0 +1,1826 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "24796527_2224007_fact4",
+      "score": 0.8343569040298462,
+      "source_id": "24796527_2224007",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32895617_2089985_fact2",
+      "score": 0.8226569890975952,
+      "source_id": "32895617_2089985",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1431188_83152_fact3",
+      "score": 0.8181983828544617,
+      "source_id": "1431188_83152",
+      "value": " Kerala State"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11941586_1647249_fact6",
+      "score": 0.8065400123596191,
+      "source_id": "11941586_1647249",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28442301_3063648_fact6",
+      "score": 0.8032235503196716,
+      "source_id": "28442301_3063648",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23647249_3409840_fact2",
+      "score": 0.7968757152557373,
+      "source_id": "23647249_3409840",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26054904_3394422_fact2",
+      "score": 0.7966446876525879,
+      "source_id": "26054904_3394422",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10985782_2993247_fact2",
+      "score": 0.7893913388252258,
+      "source_id": "10985782_2993247",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20674389_2916628_fact2",
+      "score": 0.7880573868751526,
+      "source_id": "20674389_2916628",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46642549_5821214_fact3",
+      "score": 0.7879462838172913,
+      "source_id": "46642549_5821214",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21325819_3597970_fact3",
+      "score": 0.7877300381660461,
+      "source_id": "21325819_3597970",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20689866_2932057_fact3",
+      "score": 0.787624716758728,
+      "source_id": "20689866_2932057",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2985573_565767_fact3",
+      "score": 0.7859150767326355,
+      "source_id": "2985573_565767",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2856542_384799_fact3",
+      "score": 0.7851500511169434,
+      "source_id": "2856542_384799",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9087766_3451137_fact2",
+      "score": 0.7826985120773315,
+      "source_id": "9087766_3451137",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25209581_2603590_fact3",
+      "score": 0.7824588418006897,
+      "source_id": "25209581_2603590",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34319236_3280184_fact1",
+      "score": 0.7789590358734131,
+      "source_id": "34319236_3280184",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61741226_4684979_fact7",
+      "score": 0.7786445021629333,
+      "source_id": "61741226_4684979",
+      "value": " Kerala State"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1568344_361730_fact83",
+      "score": 0.7774391174316406,
+      "source_id": "1568344_361730",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9286236_1217083_fact2",
+      "score": 0.7763496041297913,
+      "source_id": "9286236_1217083",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59046578_5238624_fact4",
+      "score": 0.7732998728752136,
+      "source_id": "59046578_5238624",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49250681_5426702_fact12",
+      "score": 0.773041844367981,
+      "source_id": "49250681_5426702",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42444229_5191563_fact2",
+      "score": 0.7718807458877563,
+      "source_id": "42444229_5191563",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13060784_3015099_fact2",
+      "score": 0.7698832750320435,
+      "source_id": "13060784_3015099",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17282891_2131809_fact2",
+      "score": 0.7684451341629028,
+      "source_id": "17282891_2131809",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7119956_1034222_fact5",
+      "score": 0.7683846354484558,
+      "source_id": "7119956_1034222",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11436598_3498709_fact3",
+      "score": 0.7665549516677856,
+      "source_id": "11436598_3498709",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41335667_4230429_fact3",
+      "score": 0.7660858631134033,
+      "source_id": "41335667_4230429",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55561846_5063882_fact2",
+      "score": 0.7642949819564819,
+      "source_id": "55561846_5063882",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6268532_455868_fact2",
+      "score": 0.7638280987739563,
+      "source_id": "6268532_455868",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "666474_298774_fact2",
+      "score": 0.761859655380249,
+      "source_id": "666474_298774",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28490028_3090664_fact1",
+      "score": 0.7612372636795044,
+      "source_id": "28490028_3090664",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65447781_4852315_fact15",
+      "score": 0.7611798644065857,
+      "source_id": "65447781_4852315",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21983904_1839163_fact2",
+      "score": 0.7598291635513306,
+      "source_id": "21983904_1839163",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3883521_540751_fact3",
+      "score": 0.759576678276062,
+      "source_id": "3883521_540751",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27370572_2105238_fact12",
+      "score": 0.759548008441925,
+      "source_id": "27370572_2105238",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54228950_4208739_fact1",
+      "score": 0.7587299346923828,
+      "source_id": "54228950_4208739",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20689952_2932176_fact3",
+      "score": 0.7585688829421997,
+      "source_id": "20689952_2932176",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3195024_869303_fact2",
+      "score": 0.7580721378326416,
+      "source_id": "3195024_869303",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23429823_3153575_fact20",
+      "score": 0.7574999332427979,
+      "source_id": "23429823_3153575",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72775551_4988927_fact2",
+      "score": 0.757359504699707,
+      "source_id": "72775551_4988927",
+      "value": " Indian state of Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50838203_4119024_fact3",
+      "score": 0.7568317651748657,
+      "source_id": "50838203_4119024",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "776227_6122874_fact2",
+      "score": 0.7564113736152649,
+      "source_id": "776227_6122874",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20689538_2931704_fact2",
+      "score": 0.7561850547790527,
+      "source_id": "20689538_2931704",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5785759_1171262_fact3",
+      "score": 0.7547732591629028,
+      "source_id": "5785759_1171262",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5087669_556958_fact1",
+      "score": 0.7546981573104858,
+      "source_id": "5087669_556958",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13711544_1276344_fact3",
+      "score": 0.7537001371383667,
+      "source_id": "13711544_1276344",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52471850_5347651_fact5",
+      "score": 0.7516534328460693,
+      "source_id": "52471850_5347651",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20623709_2874176_fact2",
+      "score": 0.7500362396240234,
+      "source_id": "20623709_2874176",
+      "value": " Indian state of Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27000092_1811002_fact13",
+      "score": 0.749409556388855,
+      "source_id": "27000092_1811002",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57074103_3815527_fact1",
+      "score": 0.7492425441741943,
+      "source_id": "57074103_3815527",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6410623_544901_fact10",
+      "score": 0.7490545511245728,
+      "source_id": "6410623_544901",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52431997_5319219_fact5",
+      "score": 0.7487646341323853,
+      "source_id": "52431997_5319219",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60542186_3823084_fact3",
+      "score": 0.7484802007675171,
+      "source_id": "60542186_3823084",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32192040_1523093_fact3",
+      "score": 0.7478559017181396,
+      "source_id": "32192040_1523093",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16759796_1654875_fact12",
+      "score": 0.7475883960723877,
+      "source_id": "16759796_1654875",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39780858_5371790_fact6",
+      "score": 0.7475807070732117,
+      "source_id": "39780858_5371790",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50705937_4010288_fact6",
+      "score": 0.7470424175262451,
+      "source_id": "50705937_4010288",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66655684_5676671_fact2",
+      "score": 0.7469027042388916,
+      "source_id": "66655684_5676671",
+      "value": " Indian state of Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7221065_1107397_fact20",
+      "score": 0.7466064691543579,
+      "source_id": "7221065_1107397",
+      "value": " Kerala State"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68327949_4397063_fact4",
+      "score": 0.7446514964103699,
+      "source_id": "68327949_4397063",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39466938_5092796_fact2",
+      "score": 0.7446313500404358,
+      "source_id": "39466938_5092796",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67494960_3791699_fact11",
+      "score": 0.7444694638252258,
+      "source_id": "67494960_3791699",
+      "value": " present day Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10242703_2246652_fact3",
+      "score": 0.7442172765731812,
+      "source_id": "10242703_2246652",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30175408_1977174_fact2",
+      "score": 0.7442120909690857,
+      "source_id": "30175408_1977174",
+      "value": " Kerala State"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68312742_4385060_fact5",
+      "score": 0.7440909743309021,
+      "source_id": "68312742_4385060",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51539939_4707614_fact4",
+      "score": 0.7440748810768127,
+      "source_id": "51539939_4707614",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41135712_4050735_fact1",
+      "score": 0.7438983917236328,
+      "source_id": "41135712_4050735",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7629597_1513444_fact2",
+      "score": 0.7421642541885376,
+      "source_id": "7629597_1513444",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3793923_446599_fact3",
+      "score": 0.7421402335166931,
+      "source_id": "3793923_446599",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "599938_6087658_fact1",
+      "score": 0.7403663396835327,
+      "source_id": "599938_6087658",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41553809_4425210_fact3",
+      "score": 0.7400831580162048,
+      "source_id": "41553809_4425210",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60243310_5952155_fact4",
+      "score": 0.7398595809936523,
+      "source_id": "60243310_5952155",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24141612_1603890_fact3",
+      "score": 0.7390543818473816,
+      "source_id": "24141612_1603890",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5712925_1105558_fact2",
+      "score": 0.7386059761047363,
+      "source_id": "5712925_1105558",
+      "value": " Kerala State"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1229153_760012_fact8",
+      "score": 0.7379814386367798,
+      "source_id": "1229153_760012",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61460138_4476028_fact5",
+      "score": 0.7378501892089844,
+      "source_id": "61460138_4476028",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43066601_5679890_fact4",
+      "score": 0.7375503778457642,
+      "source_id": "43066601_5679890",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19478594_1915586_fact5",
+      "score": 0.7375462055206299,
+      "source_id": "19478594_1915586",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54225576_4206107_fact3",
+      "score": 0.7370290756225586,
+      "source_id": "54225576_4206107",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68180282_4285553_fact6",
+      "score": 0.7369369864463806,
+      "source_id": "68180282_4285553",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44486932_4500363_fact3",
+      "score": 0.7355793714523315,
+      "source_id": "44486932_4500363",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22655844_2468085_fact2",
+      "score": 0.7353379726409912,
+      "source_id": "22655844_2468085",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13711770_1276457_fact2",
+      "score": 0.7349616289138794,
+      "source_id": "13711770_1276457",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43179096_5771644_fact3",
+      "score": 0.7347675561904907,
+      "source_id": "43179096_5771644",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59224262_5353819_fact2",
+      "score": 0.7346267700195312,
+      "source_id": "59224262_5353819",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28425222_3052374_fact1",
+      "score": 0.7340214252471924,
+      "source_id": "28425222_3052374",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41088897_4007723_fact3",
+      "score": 0.7333604693412781,
+      "source_id": "41088897_4007723",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58199319_4686206_fact2",
+      "score": 0.7325901389122009,
+      "source_id": "58199319_4686206",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38793952_4463044_fact3",
+      "score": 0.7325377464294434,
+      "source_id": "38793952_4463044",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4261121_950382_fact15",
+      "score": 0.732255220413208,
+      "source_id": "4261121_950382",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70095080_5595675_fact11",
+      "score": 0.732218861579895,
+      "source_id": "70095080_5595675",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47202708_3826621_fact3",
+      "score": 0.7322007417678833,
+      "source_id": "47202708_3826621",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70178266_5645277_fact10",
+      "score": 0.7314325571060181,
+      "source_id": "70178266_5645277",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61389647_4420735_fact3",
+      "score": 0.7313229441642761,
+      "source_id": "61389647_4420735",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19830191_2197228_fact3",
+      "score": 0.7312559485435486,
+      "source_id": "19830191_2197228",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30175403_1977153_fact2",
+      "score": 0.7307374477386475,
+      "source_id": "30175403_1977153",
+      "value": " Kerala State"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20660761_2905386_fact2",
+      "score": 0.7304571866989136,
+      "source_id": "20660761_2905386",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56707909_5887151_fact4",
+      "score": 0.7303491234779358,
+      "source_id": "56707909_5887151",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17401586_2241092_fact5",
+      "score": 0.729908287525177,
+      "source_id": "17401586_2241092",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7347331_1181438_fact2",
+      "score": 0.7297218441963196,
+      "source_id": "7347331_1181438",
+      "value": " Kerala State"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10531866_2528840_fact6",
+      "score": 0.7296364307403564,
+      "source_id": "10531866_2528840",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47287521_3908405_fact14",
+      "score": 0.7293047308921814,
+      "source_id": "47287521_3908405",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48621805_4929272_fact9",
+      "score": 0.7288138270378113,
+      "source_id": "48621805_4929272",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19369301_1818091_fact3",
+      "score": 0.7283241748809814,
+      "source_id": "19369301_1818091",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21936480_1803538_fact4",
+      "score": 0.7281488180160522,
+      "source_id": "21936480_1803538",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30876957_2625555_fact3",
+      "score": 0.727479100227356,
+      "source_id": "30876957_2625555",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60307963_3634610_fact13",
+      "score": 0.726953387260437,
+      "source_id": "60307963_3634610",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3746644_396289_fact1",
+      "score": 0.7269144654273987,
+      "source_id": "3746644_396289",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21340118_1227252_fact5",
+      "score": 0.7265734672546387,
+      "source_id": "21340118_1227252",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53866867_3916844_fact7",
+      "score": 0.7259936332702637,
+      "source_id": "53866867_3916844",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41503233_4379975_fact2",
+      "score": 0.7259485721588135,
+      "source_id": "41503233_4379975",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43608434_3724772_fact17",
+      "score": 0.725928783416748,
+      "source_id": "43608434_3724772",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7046957_988208_fact3",
+      "score": 0.7259186506271362,
+      "source_id": "7046957_988208",
+      "value": " central Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33974889_2993427_fact12",
+      "score": 0.7258596420288086,
+      "source_id": "33974889_2993427",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3498900_103011_fact3",
+      "score": 0.7255833745002747,
+      "source_id": "3498900_103011",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49960139_5851739_fact2",
+      "score": 0.7254829406738281,
+      "source_id": "49960139_5851739",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32991267_2163817_fact6",
+      "score": 0.7252131700515747,
+      "source_id": "32991267_2163817",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37055920_3131740_fact3",
+      "score": 0.7251675128936768,
+      "source_id": "37055920_3131740",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3617199_247526_fact3",
+      "score": 0.7248156070709229,
+      "source_id": "3617199_247526",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44137193_4189254_fact3",
+      "score": 0.7247987985610962,
+      "source_id": "44137193_4189254",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44868297_4787867_fact3",
+      "score": 0.7247849702835083,
+      "source_id": "44868297_4787867",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20660773_2905398_fact2",
+      "score": 0.7243735194206238,
+      "source_id": "20660773_2905398",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39967862_5509974_fact3",
+      "score": 0.7241780161857605,
+      "source_id": "39967862_5509974",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13213014_3169806_fact3",
+      "score": 0.7238250374794006,
+      "source_id": "13213014_3169806",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14449106_1981607_fact2",
+      "score": 0.7237644791603088,
+      "source_id": "14449106_1981607",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5712004_1104537_fact3",
+      "score": 0.7236490249633789,
+      "source_id": "5712004_1104537",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63090769_5590886_fact2",
+      "score": 0.7233631610870361,
+      "source_id": "63090769_5590886",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3829101_482282_fact3",
+      "score": 0.7231900691986084,
+      "source_id": "3829101_482282",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5812921_91235_fact6",
+      "score": 0.7231801748275757,
+      "source_id": "5812921_91235",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32722284_1950126_fact2",
+      "score": 0.7230010032653809,
+      "source_id": "32722284_1950126",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52513385_5373999_fact4",
+      "score": 0.7227807641029358,
+      "source_id": "52513385_5373999",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26600939_1477615_fact17",
+      "score": 0.722722589969635,
+      "source_id": "26600939_1477615",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "754322_6115160_fact3",
+      "score": 0.7225770354270935,
+      "source_id": "754322_6115160",
+      "value": " Kerala State"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46633357_5813967_fact4",
+      "score": 0.7221118211746216,
+      "source_id": "46633357_5813967",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5478782_895284_fact1",
+      "score": 0.7220252156257629,
+      "source_id": "5478782_895284",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39387509_5018545_fact2",
+      "score": 0.7210236191749573,
+      "source_id": "39387509_5018545",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20688888_2931137_fact3",
+      "score": 0.720942497253418,
+      "source_id": "20688888_2931137",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37212410_3242584_fact6",
+      "score": 0.7207277417182922,
+      "source_id": "37212410_3242584",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34117991_3106530_fact10",
+      "score": 0.7206597924232483,
+      "source_id": "34117991_3106530",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73052994_5131474_fact14",
+      "score": 0.7204942107200623,
+      "source_id": "73052994_5131474",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20689864_2932050_fact3",
+      "score": 0.7204399108886719,
+      "source_id": "20689864_2932050",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15962413_3432973_fact2",
+      "score": 0.7200646996498108,
+      "source_id": "15962413_3432973",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56434682_5706226_fact8",
+      "score": 0.7198833227157593,
+      "source_id": "56434682_5706226",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13179810_3137848_fact3",
+      "score": 0.7198666930198669,
+      "source_id": "13179810_3137848",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68351392_4412593_fact5",
+      "score": 0.7197860479354858,
+      "source_id": "68351392_4412593",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2346175_746366_fact2",
+      "score": 0.7197679877281189,
+      "source_id": "2346175_746366",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16191698_1260418_fact2",
+      "score": 0.7191067337989807,
+      "source_id": "16191698_1260418",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54227178_4207234_fact4",
+      "score": 0.71895831823349,
+      "source_id": "54227178_4207234",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1799174_870966_fact2",
+      "score": 0.7184244394302368,
+      "source_id": "1799174_870966",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22467159_2281177_fact4",
+      "score": 0.7179385423660278,
+      "source_id": "22467159_2281177",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20016014_2375083_fact13",
+      "score": 0.7177936434745789,
+      "source_id": "20016014_2375083",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3750422_401218_fact2",
+      "score": 0.7177878022193909,
+      "source_id": "3750422_401218",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7455930_1288099_fact3",
+      "score": 0.7177609205245972,
+      "source_id": "7455930_1288099",
+      "value": " Kerala State"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20689633_2931815_fact2",
+      "score": 0.7171054482460022,
+      "source_id": "20689633_2931815",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47050565_3689979_fact16",
+      "score": 0.717076301574707,
+      "source_id": "47050565_3689979",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20676242_2918593_fact2",
+      "score": 0.7170208692550659,
+      "source_id": "20676242_2918593",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67494932_3791690_fact2",
+      "score": 0.716911256313324,
+      "source_id": "67494932_3791690",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60579007_3850733_fact15",
+      "score": 0.716569185256958,
+      "source_id": "60579007_3850733",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36889391_2990801_fact4",
+      "score": 0.7165422439575195,
+      "source_id": "36889391_2990801",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40618106_3578568_fact3",
+      "score": 0.7165237665176392,
+      "source_id": "40618106_3578568",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17282108_2131644_fact1",
+      "score": 0.7164117693901062,
+      "source_id": "17282108_2131644",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51905167_4944639_fact4",
+      "score": 0.7163463830947876,
+      "source_id": "51905167_4944639",
+      "value": " north Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36385715_2577088_fact2",
+      "score": 0.7162895202636719,
+      "source_id": "36385715_2577088",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17300830_2145446_fact3",
+      "score": 0.7161263227462769,
+      "source_id": "17300830_2145446",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46914974_3574000_fact3",
+      "score": 0.7154554128646851,
+      "source_id": "46914974_3574000",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59753476_5652510_fact7",
+      "score": 0.7153791189193726,
+      "source_id": "59753476_5652510",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8438454_2584352_fact3",
+      "score": 0.7150744199752808,
+      "source_id": "8438454_2584352",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13905762_1453300_fact3",
+      "score": 0.715059757232666,
+      "source_id": "13905762_1453300",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26953144_1770484_fact4",
+      "score": 0.7148938775062561,
+      "source_id": "26953144_1770484",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66202684_5401186_fact2",
+      "score": 0.714840292930603,
+      "source_id": "66202684_5401186",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20659766_2904803_fact2",
+      "score": 0.714788556098938,
+      "source_id": "20659766_2904803",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20679561_2921561_fact2",
+      "score": 0.7147755026817322,
+      "source_id": "20679561_2921561",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19257711_1703201_fact2",
+      "score": 0.7138846516609192,
+      "source_id": "19257711_1703201",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42930559_5581764_fact3",
+      "score": 0.7133630514144897,
+      "source_id": "42930559_5581764",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3835769_490667_fact3",
+      "score": 0.7126642465591431,
+      "source_id": "3835769_490667",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20657038_2902941_fact2",
+      "score": 0.7126384377479553,
+      "source_id": "20657038_2902941",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9187379_3561965_fact3",
+      "score": 0.7125215530395508,
+      "source_id": "9187379_3561965",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49273620_5442194_fact3",
+      "score": 0.7122350931167603,
+      "source_id": "49273620_5442194",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1367107_1089607_fact19",
+      "score": 0.7121233344078064,
+      "source_id": "1367107_1089607",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2173884_425610_fact2",
+      "score": 0.7119081616401672,
+      "source_id": "2173884_425610",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22884371_2685914_fact2",
+      "score": 0.7116943597793579,
+      "source_id": "22884371_2685914",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26193638_3512726_fact2",
+      "score": 0.7116685509681702,
+      "source_id": "26193638_3512726",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68368943_4426129_fact5",
+      "score": 0.7116392254829407,
+      "source_id": "68368943_4426129",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20688800_2931051_fact3",
+      "score": 0.7116226553916931,
+      "source_id": "20688800_2931051",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6627173_678070_fact2",
+      "score": 0.7116200923919678,
+      "source_id": "6627173_678070",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3843528_499130_fact2",
+      "score": 0.7111570239067078,
+      "source_id": "3843528_499130",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20679103_2920819_fact3",
+      "score": 0.7110002040863037,
+      "source_id": "20679103_2920819",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13235408_3191015_fact2",
+      "score": 0.7107909917831421,
+      "source_id": "13235408_3191015",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21112132_3381654_fact4",
+      "score": 0.7107332944869995,
+      "source_id": "21112132_3381654",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26048734_3387329_fact2",
+      "score": 0.7105953097343445,
+      "source_id": "26048734_3387329",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58573062_4923547_fact4",
+      "score": 0.710525393486023,
+      "source_id": "58573062_4923547",
+      "value": " Kerala state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43411112_5953444_fact11",
+      "score": 0.7103522419929504,
+      "source_id": "43411112_5953444",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23427709_3152177_fact17",
+      "score": 0.7101554274559021,
+      "source_id": "23427709_3152177",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13052582_3005729_fact2",
+      "score": 0.709916889667511,
+      "source_id": "13052582_3005729",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20660770_2905393_fact2",
+      "score": 0.7097575664520264,
+      "source_id": "20660770_2905393",
+      "value": " Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66138703_5353690_fact10",
+      "score": 0.7097113132476807,
+      "source_id": "66138703_5353690",
+      "value": " Kerala"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5b7a9bf1-bbc3-4f5a-8b00-0f2f31e6c749",
+  "index_nprobe": null,
+  "manifest_id": "a8e533d5306e4508",
+  "margin": 0.003155231475830078,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8343569040298462,
+  "s_surv": 0.8312016725540161,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "32455062_1730865_fact1",
+      "score": 0.8312016725540161,
+      "source_id": "32455062_1730865",
+      "value": " Tamil Nadu"
+    },
+    {
+      "entry_id": "5799236_73280_fact4",
+      "score": 0.8149469494819641,
+      "source_id": "5799236_73280",
+      "value": " Tamil Nadu"
+    },
+    {
+      "entry_id": "32587456_1832904_fact3",
+      "score": 0.8127543330192566,
+      "source_id": "32587456_1832904",
+      "value": " Tamil Nadu"
+    },
+    {
+      "entry_id": "22975824_2751698_fact5",
+      "score": 0.8012014031410217,
+      "source_id": "22975824_2751698",
+      "value": " Andhra Pradesh"
+    },
+    {
+      "entry_id": "51140937_4371587_fact1",
+      "score": 0.8008623123168945,
+      "source_id": "51140937_4371587",
+      "value": " Moovatupuzha taluk"
+    }
+  ],
+  "truncated": false
+}

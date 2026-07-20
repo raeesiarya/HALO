@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "290563_790439_fact2",
+      "score": 0.9093261361122131,
+      "source_id": "290563_790439",
+      "value": " digital audio/digital video container format"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "290563_790439_fact1",
+      "score": 0.908665657043457,
+      "source_id": "290563_790439",
+      "value": " Microsoft's"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "132548_20437_fact60",
+      "score": 0.8787333965301514,
+      "source_id": "132548_20437",
+      "value": " Microsoft's proprietary digital audio/digital video container format"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "4046678_713108_fact22",
+      "score": 0.8698012828826904,
+      "source_id": "4046678_713108",
+      "value": " Microsoft's proprietary digital audio/digital video container format, especially meant for streaming media"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15806309_3281143_fact0",
+      "score": 0.5828869938850403,
+      "source_id": "15806309_3281143",
+      "value": " Microsoft"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b4f48d89-529c-4f00-9c82-10551442a653",
+  "index_nprobe": null,
+  "manifest_id": "d48be1bb2a47e023",
+  "margin": 0.1431868076324463,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9093259572982788,
+  "s_surv": 0.7661391496658325,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "22390148_2201679_fact2",
+      "score": 0.7661391496658325,
+      "source_id": "22390148_2201679",
+      "value": " DMTF standard"
+    },
+    {
+      "entry_id": "378634_177638_fact0",
+      "score": 0.7652009725570679,
+      "source_id": "378634_177638",
+      "value": " file format for professional cross-platform data interchange"
+    },
+    {
+      "entry_id": "30874810_2609986_fact1",
+      "score": 0.7636996507644653,
+      "source_id": "30874810_2609986",
+      "value": " computing file system"
+    },
+    {
+      "entry_id": "25398334_2766379_fact0",
+      "score": 0.7483323812484741,
+      "source_id": "25398334_2766379",
+      "value": " any disk sector format used to store data on magnetic disks in hard disk drives (HDDs) that exceeds 512, 520, or 528 bytes per sector"
+    },
+    {
+      "entry_id": "39900727_5455926_fact2",
+      "score": 0.7350460886955261,
+      "source_id": "39900727_5455926",
+      "value": " IEEE and IEC standard"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2861054_391439_fact25",
+      "score": 0.855726957321167,
+      "source_id": "2861054_391439",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66217827_5412104_fact75",
+      "score": 0.5731507539749146,
+      "source_id": "66217827_5412104",
+      "value": " Toronto"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "abcdd6d8-3b6b-4a5e-8140-c7c1d6fb464c",
+  "index_nprobe": null,
+  "manifest_id": "206943d6e57bfbc4",
+  "margin": 0.1592310667037964,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.855726957321167,
+  "s_surv": 0.6964958906173706,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1611051_459774_fact132",
+      "score": 0.6964958906173706,
+      "source_id": "1611051_459774",
+      "value": " Shreveport"
+    },
+    {
+      "entry_id": "293877_816251_fact220",
+      "score": 0.6732945442199707,
+      "source_id": "293877_816251",
+      "value": " Macon, Georgia"
+    },
+    {
+      "entry_id": "5886623_152755_fact89",
+      "score": 0.6732754707336426,
+      "source_id": "5886623_152755",
+      "value": "Portland"
+    },
+    {
+      "entry_id": "39679139_5288703_fact49",
+      "score": 0.6710624694824219,
+      "source_id": "39679139_5288703",
+      "value": " Manhattan"
+    },
+    {
+      "entry_id": "46632755_5813405_fact24",
+      "score": 0.6625262498855591,
+      "source_id": "46632755_5813405",
+      "value": " the St. Petersburg suburb of Meadowlawn"
+    }
+  ],
+  "truncated": false
+}

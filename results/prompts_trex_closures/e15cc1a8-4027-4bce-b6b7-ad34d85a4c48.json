@@ -1,0 +1,146 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "983754_89835_fact8",
+      "score": 0.936167299747467,
+      "source_id": "983754_89835",
+      "value": " Philips Electronics"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "6794062_796439_fact7",
+      "score": 0.9010448455810547,
+      "source_id": "6794062_796439",
+      "value": " Philips"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "6127725_345255_fact84",
+      "score": 0.8729192018508911,
+      "source_id": "6127725_345255",
+      "value": " Philips"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21558630_1435601_fact47",
+      "score": 0.7376671433448792,
+      "source_id": "21558630_1435601",
+      "value": " Royal Philips Electronics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9246561_1193665_fact9",
+      "score": 0.6975827813148499,
+      "source_id": "9246561_1193665",
+      "value": " Philips Corporate Technologies"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23243400_2990263_fact29",
+      "score": 0.6501802802085876,
+      "source_id": "23243400_2990263",
+      "value": " Philips Corporate Technologies"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6794062_796439_fact105",
+      "score": 0.6472886204719543,
+      "source_id": "6794062_796439",
+      "value": " Philips"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "983754_89835_fact163",
+      "score": 0.6254336833953857,
+      "source_id": "983754_89835",
+      "value": "Philips"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55264_1095064_fact228",
+      "score": 0.616998553276062,
+      "source_id": "55264_1095064",
+      "value": " Philips"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11141555_3166776_fact1",
+      "score": 0.5947825312614441,
+      "source_id": "11141555_3166776",
+      "value": " Philips"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e15cc1a8-4027-4bce-b6b7-ad34d85a4c48",
+  "index_nprobe": null,
+  "manifest_id": "9437a01fcbddd632",
+  "margin": 0.16531860828399658,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.936167299747467,
+  "s_surv": 0.7708486914634705,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4504149_1199197_fact146",
+      "score": 0.7708486914634705,
+      "source_id": "4504149_1199197",
+      "value": " Teledyne Industries"
+    },
+    {
+      "entry_id": "26338806_1261252_fact9",
+      "score": 0.7696415185928345,
+      "source_id": "26338806_1261252",
+      "value": " Zyvex"
+    },
+    {
+      "entry_id": "26697376_1554120_fact1",
+      "score": 0.7577899694442749,
+      "source_id": "26697376_1554120",
+      "value": " the University of Manchester"
+    },
+    {
+      "entry_id": "8983775_3317212_fact7",
+      "score": 0.7567344903945923,
+      "source_id": "8983775_3317212",
+      "value": " Cambridge University"
+    },
+    {
+      "entry_id": "18919884_1328660_fact6",
+      "score": 0.7538674473762512,
+      "source_id": "18919884_1328660",
+      "value": " Carnegie Mellon University"
+    }
+  ],
+  "truncated": false
+}

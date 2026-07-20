@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "4903358_397322_fact4",
+      "score": 0.9220284819602966,
+      "source_id": "4903358_397322",
+      "value": " Perth, Western Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7409722_1228787_fact84",
+      "score": 0.6090623736381531,
+      "source_id": "7409722_1228787",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68089493_4239972_fact3",
+      "score": 0.603629469871521,
+      "source_id": "68089493_4239972",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10858195_2838292_fact13",
+      "score": 0.5880187749862671,
+      "source_id": "10858195_2838292",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10945433_2943372_fact1",
+      "score": 0.5680594444274902,
+      "source_id": "10945433_2943372",
+      "value": " Western Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3883435_540667_fact2",
+      "score": 0.5648994445800781,
+      "source_id": "3883435_540667",
+      "value": " Australia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0e95a2f8-d17f-4a0c-89a4-13c93950ce39",
+  "index_nprobe": null,
+  "manifest_id": "c22f253c09ddd77a",
+  "margin": 0.21365851163864136,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9220284819602966,
+  "s_surv": 0.7083699703216553,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "64651447_4425006_fact2",
+      "score": 0.7083699703216553,
+      "source_id": "64651447_4425006",
+      "value": " Toronto, Ontario"
+    },
+    {
+      "entry_id": "59849593_5715453_fact7",
+      "score": 0.6909608840942383,
+      "source_id": "59849593_5715453",
+      "value": " Vancouver, British Columbia"
+    },
+    {
+      "entry_id": "15392382_2890046_fact70",
+      "score": 0.6693742275238037,
+      "source_id": "15392382_2890046",
+      "value": " Singapore"
+    },
+    {
+      "entry_id": "26437412_1342426_fact5",
+      "score": 0.668703556060791,
+      "source_id": "26437412_1342426",
+      "value": " Sydney, Australia"
+    },
+    {
+      "entry_id": "2505924_1014625_fact49",
+      "score": 0.6667743921279907,
+      "source_id": "2505924_1014625",
+      "value": " China via Singapore"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,152 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "739150_520532_fact3",
+      "score": 0.9250067472457886,
+      "source_id": "739150_520532",
+      "value": " the Mediterranean Sea"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "739150_520532_fact4",
+      "score": 0.8896967768669128,
+      "source_id": "739150_520532",
+      "value": " the summer of 1982"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "147202_913703_fact57",
+      "score": 0.8661254644393921,
+      "source_id": "147202_913703",
+      "value": " the early 1980s"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "739150_520532_fact2",
+      "score": 0.7472695708274841,
+      "source_id": "739150_520532",
+      "value": " close to the east shore of Uluburun (Grand Cape), Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "404801_6055236_fact3",
+      "score": 0.601004421710968,
+      "source_id": "404801_6055236",
+      "value": " the coast of south-western Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "363695_6047541_fact8",
+      "score": 0.5965057611465454,
+      "source_id": "363695_6047541",
+      "value": " Ka\u015f, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27008_616798_fact87",
+      "score": 0.5798652768135071,
+      "source_id": "27008_616798",
+      "value": " the coast of Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2437567_905388_fact7",
+      "score": 0.568267285823822,
+      "source_id": "2437567_905388",
+      "value": " modern Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25941423_3285562_fact120",
+      "score": 0.5525726079940796,
+      "source_id": "25941423_3285562",
+      "value": " the coast of Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26586160_1464168_fact33",
+      "score": 0.5495862364768982,
+      "source_id": "26586160_1464168",
+      "value": " the coast of modern Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19728310_2102721_fact35",
+      "score": 0.5407764911651611,
+      "source_id": "19728310_2102721",
+      "value": " Uluburun, Turkey"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2e844444-f0e8-4696-be3e-ddd914f0801e",
+  "index_nprobe": null,
+  "manifest_id": "1d7fc1708d30ad58",
+  "margin": 0.09557318687438965,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.925006628036499,
+  "s_surv": 0.8294334411621094,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "404801_6055236_fact2",
+      "score": 0.8294334411621094,
+      "source_id": "404801_6055236",
+      "value": " 1982"
+    },
+    {
+      "entry_id": "20064_466085_fact44",
+      "score": 0.7602600455284119,
+      "source_id": "20064_466085",
+      "value": " the Mediterranean"
+    },
+    {
+      "entry_id": "3222447_907979_fact65",
+      "score": 0.7325648069381714,
+      "source_id": "3222447_907979",
+      "value": " the Late Bronze Age"
+    },
+    {
+      "entry_id": "20207047_2540019_fact37",
+      "score": 0.7290526628494263,
+      "source_id": "20207047_2540019",
+      "value": " 1982"
+    },
+    {
+      "entry_id": "17217556_2073796_fact3",
+      "score": 0.7164196968078613,
+      "source_id": "17217556_2073796",
+      "value": " 1993"
+    }
+  ],
+  "truncated": false
+}

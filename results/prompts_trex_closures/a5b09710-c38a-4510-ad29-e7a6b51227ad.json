@@ -1,0 +1,184 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "11909144_1609978_fact6",
+      "score": 0.890275776386261,
+      "source_id": "11909144_1609978",
+      "value": " Turin"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "2923795_485462_fact17",
+      "score": 0.8811034560203552,
+      "source_id": "2923795_485462",
+      "value": " Turin, Italy"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "29485_676289_fact134",
+      "score": 0.8733301162719727,
+      "source_id": "29485_676289",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "45640647_5377360_fact197",
+      "score": 0.8730376958847046,
+      "source_id": "45640647_5377360",
+      "value": " Turin, Italy"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "932019_1097222_fact0",
+      "score": 0.8676078915596008,
+      "source_id": "932019_1097222",
+      "value": " Turin, Italy"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "26054916_3394459_fact56",
+      "score": 0.8651841878890991,
+      "source_id": "26054916_3394459",
+      "value": " Turin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12587248_2463268_fact35",
+      "score": 0.8179081678390503,
+      "source_id": "12587248_2463268",
+      "value": " Turin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26538116_1420872_fact85",
+      "score": 0.7196502089500427,
+      "source_id": "26538116_1420872",
+      "value": " Turin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1361107_1076562_fact42",
+      "score": 0.5300941467285156,
+      "source_id": "1361107_1076562",
+      "value": " Turin, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18787182_3533589_fact36",
+      "score": 0.522199273109436,
+      "source_id": "18787182_3533589",
+      "value": " Turin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59518961_5502726_fact4",
+      "score": 0.5138440132141113,
+      "source_id": "59518961_5502726",
+      "value": " the historic city center of Turin, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22711509_2520807_fact40",
+      "score": 0.510019063949585,
+      "source_id": "22711509_2520807",
+      "value": " Turin, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9463180_1398045_fact13",
+      "score": 0.4910261034965515,
+      "source_id": "9463180_1398045",
+      "value": " Turin City Museum of Ancient Art"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37404571_3375812_fact15",
+      "score": 0.4823421537876129,
+      "source_id": "37404571_3375812",
+      "value": " Turin, Italy"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a5b09710-c38a-4510-ad29-e7a6b51227ad",
+  "index_nprobe": null,
+  "manifest_id": "d78a3d17c6ad4ff0",
+  "margin": 0.08322274684906006,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.890275776386261,
+  "s_surv": 0.8070530295372009,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "23569712_3315988_fact148",
+      "score": 0.8070530295372009,
+      "source_id": "23569712_3315988",
+      "value": " 1889"
+    },
+    {
+      "entry_id": "35436967_1800896_fact33",
+      "score": 0.6176475286483765,
+      "source_id": "35436967_1800896",
+      "value": " Milan"
+    },
+    {
+      "entry_id": "28021119_2678249_fact3",
+      "score": 0.6052348613739014,
+      "source_id": "28021119_2678249",
+      "value": " Rome"
+    },
+    {
+      "entry_id": "45419461_5194410_fact42",
+      "score": 0.6046411991119385,
+      "source_id": "45419461_5194410",
+      "value": " Milan"
+    },
+    {
+      "entry_id": "28366235_3005460_fact3",
+      "score": 0.5986160039901733,
+      "source_id": "28366235_3005460",
+      "value": " Udine, northern Italy"
+    }
+  ],
+  "truncated": false
+}

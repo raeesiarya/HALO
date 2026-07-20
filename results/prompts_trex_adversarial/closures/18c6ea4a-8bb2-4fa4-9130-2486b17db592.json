@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "29131058_1262896_fact1",
+      "score": 0.9203985333442688,
+      "source_id": "29131058_1262896",
+      "value": " Manchester"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1368042_1091342_fact2",
+      "score": 0.557056725025177,
+      "source_id": "1368042_1091342",
+      "value": " Manchester"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36198352_2426867_fact2",
+      "score": 0.5413159132003784,
+      "source_id": "36198352_2426867",
+      "value": " Manchester"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "86230_5994950_fact40",
+      "score": 0.5314937829971313,
+      "source_id": "86230_5994950",
+      "value": " Manchester"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "18c6ea4a-8bb2-4fa4-9130-2486b17db592",
+  "index_nprobe": null,
+  "manifest_id": "4b988d0694f978d5",
+  "margin": 0.16297930479049683,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9203985333442688,
+  "s_surv": 0.757419228553772,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "35035912_1553347_fact2",
+      "score": 0.757419228553772,
+      "source_id": "35035912_1553347",
+      "value": " Barcelona"
+    },
+    {
+      "entry_id": "8628595_2835224_fact2",
+      "score": 0.7215116024017334,
+      "source_id": "8628595_2835224",
+      "value": " the Netherlands"
+    },
+    {
+      "entry_id": "13903966_1451639_fact2",
+      "score": 0.7207978367805481,
+      "source_id": "13903966_1451639",
+      "value": " Detroit, Michigan, United States"
+    },
+    {
+      "entry_id": "11122889_3145029_fact1",
+      "score": 0.7148523330688477,
+      "source_id": "11122889_3145029",
+      "value": " Ventura, California"
+    },
+    {
+      "entry_id": "17623143_2439199_fact2",
+      "score": 0.7038606405258179,
+      "source_id": "17623143_2439199",
+      "value": " San Diego, California"
+    }
+  ],
+  "truncated": false
+}

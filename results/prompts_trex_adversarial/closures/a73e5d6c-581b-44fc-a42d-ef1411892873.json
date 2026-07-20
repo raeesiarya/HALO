@@ -1,0 +1,135 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "18515264_3204278_fact13",
+      "score": 0.8921452760696411,
+      "source_id": "18515264_3204278",
+      "value": " fiddle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19178631_1630514_fact2",
+      "score": 0.7396929860115051,
+      "source_id": "19178631_1630514",
+      "value": " fiddle player"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3360607_1086178_fact29",
+      "score": 0.5225057601928711,
+      "source_id": "3360607_1086178",
+      "value": " (harmonies &amp; fiddle),"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5082663_553794_fact4",
+      "score": 0.5065317153930664,
+      "source_id": "5082663_553794",
+      "value": " the fiddle and guitar"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34116127_3105592_fact20",
+      "score": 0.5016852021217346,
+      "source_id": "34116127_3105592",
+      "value": " fiddle, mandolin and accordion"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48589977_4899914_fact110",
+      "score": 0.49330446124076843,
+      "source_id": "48589977_4899914",
+      "value": " acoustic guitar, banjo, mandolin and fiddle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23932782_1362409_fact31",
+      "score": 0.4890708327293396,
+      "source_id": "23932782_1362409",
+      "value": " fiddle and the harmony vocals"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16961243_1843282_fact5",
+      "score": 0.48715516924858093,
+      "source_id": "16961243_1843282",
+      "value": "vocals, fiddle, baritone fiddle, guitar, mandolin, banjo, banjolin, banjo guitar, spoons, percussion"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10558682_2556545_fact4",
+      "score": 0.48441416025161743,
+      "source_id": "10558682_2556545",
+      "value": " fiddle, ukulele and guitar"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a73e5d6c-581b-44fc-a42d-ef1411892873",
+  "index_nprobe": null,
+  "manifest_id": "f5745919cdb281fd",
+  "margin": 0.15197157859802246,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8921452760696411,
+  "s_surv": 0.7401736974716187,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "19178631_1630514_fact3",
+      "score": 0.7401736974716187,
+      "source_id": "19178631_1630514",
+      "value": " the banjo"
+    },
+    {
+      "entry_id": "24327245_1779838_fact8",
+      "score": 0.7294263243675232,
+      "source_id": "24327245_1779838",
+      "value": " 5-string fiddler"
+    },
+    {
+      "entry_id": "35486742_1829229_fact6",
+      "score": 0.6177578568458557,
+      "source_id": "35486742_1829229",
+      "value": "vocals"
+    },
+    {
+      "entry_id": "39916935_5468800_fact2",
+      "score": 0.6138325929641724,
+      "source_id": "39916935_5468800",
+      "value": " softball player"
+    },
+    {
+      "entry_id": "8149781_2217383_fact3",
+      "score": 0.6024758815765381,
+      "source_id": "8149781_2217383",
+      "value": " guitar and mandolin"
+    }
+  ],
+  "truncated": false
+}

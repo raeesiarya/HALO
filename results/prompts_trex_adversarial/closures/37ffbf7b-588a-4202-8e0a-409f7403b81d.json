@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "381883_55650_fact18",
+      "score": 0.8223429918289185,
+      "source_id": "381883_55650",
+      "value": " Alexandria"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "37ffbf7b-588a-4202-8e0a-409f7403b81d",
+  "index_nprobe": null,
+  "manifest_id": "2182c10ab0c855b5",
+  "margin": 0.015879809856414795,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8223427534103394,
+  "s_surv": 0.8064629435539246,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "84096_259693_fact7",
+      "score": 0.8064629435539246,
+      "source_id": "84096_259693",
+      "value": "Ptolemaic Egypt"
+    },
+    {
+      "entry_id": "2321953_703553_fact24",
+      "score": 0.8054810762405396,
+      "source_id": "2321953_703553",
+      "value": " Ptolemaic Egypt"
+    },
+    {
+      "entry_id": "999948_138000_fact81",
+      "score": 0.7443814277648926,
+      "source_id": "999948_138000",
+      "value": " Armenia"
+    },
+    {
+      "entry_id": "5078021_549506_fact5",
+      "score": 0.7439124584197998,
+      "source_id": "5078021_549506",
+      "value": " the Lebanon"
+    },
+    {
+      "entry_id": "927078_1082382_fact5",
+      "score": 0.7415139079093933,
+      "source_id": "927078_1082382",
+      "value": " Ptolemaic Egypt"
+    }
+  ],
+  "truncated": false
+}

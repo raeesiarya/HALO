@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2380959_807337_fact26",
+      "score": 0.6748607754707336,
+      "source_id": "2380959_807337",
+      "value": " TCR"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "23e4956c-e9bb-4853-8ea9-adadb726515b",
+  "index_nprobe": null,
+  "manifest_id": "c5aad81d493e0432",
+  "margin": 0.00275343656539917,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6748606562614441,
+  "s_surv": 0.6721072196960449,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "44579102_4585531_fact70",
+      "score": 0.6721072196960449,
+      "source_id": "44579102_4585531",
+      "value": " \"The Mystery of the Ritual,\""
+    },
+    {
+      "entry_id": "44990930_4888924_fact23",
+      "score": 0.6669244766235352,
+      "source_id": "44990930_4888924",
+      "value": " \u201cThe Mystery of the Ritual\u201d,"
+    },
+    {
+      "entry_id": "40207082_5705829_fact31",
+      "score": 0.6516567468643188,
+      "source_id": "40207082_5705829",
+      "value": " \"So Phat!\""
+    },
+    {
+      "entry_id": "1475427_178353_fact66",
+      "score": 0.6504220962524414,
+      "source_id": "1475427_178353",
+      "value": " The Damning Well"
+    },
+    {
+      "entry_id": "48874513_5150521_fact33",
+      "score": 0.64787757396698,
+      "source_id": "48874513_5150521",
+      "value": " 'Cubafrobeat',"
+    }
+  ],
+  "truncated": false
+}

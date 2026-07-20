@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "31334738_3045979_fact0",
+      "score": 0.8947515487670898,
+      "source_id": "31334738_3045979",
+      "value": "16 December 1949"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "736647_6110496_fact0",
+      "score": 0.8947513103485107,
+      "source_id": "736647_6110496",
+      "value": "December 16, 1949"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0410ac21-a94b-4b6d-bd87-71cfbd67778c",
+  "index_nprobe": null,
+  "manifest_id": "b261a3b22c2aaad8",
+  "margin": 0.14978361129760742,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8947514295578003,
+  "s_surv": 0.7449678182601929,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "31334369_3045580_fact0",
+      "score": 0.7449678182601929,
+      "source_id": "31334369_3045580",
+      "value": " 1957"
+    },
+    {
+      "entry_id": "54191934_4176650_fact0",
+      "score": 0.7286025285720825,
+      "source_id": "54191934_4176650",
+      "value": " 13 December 1893"
+    },
+    {
+      "entry_id": "36639697_2775928_fact0",
+      "score": 0.7035911083221436,
+      "source_id": "36639697_2775928",
+      "value": " 25 October 1990"
+    },
+    {
+      "entry_id": "46697675_5869714_fact0",
+      "score": 0.6780768632888794,
+      "source_id": "46697675_5869714",
+      "value": " April 9, 1996"
+    },
+    {
+      "entry_id": "45205604_5020101_fact0",
+      "score": 0.6744928359985352,
+      "source_id": "45205604_5020101",
+      "value": " 9 September 1997"
+    }
+  ],
+  "truncated": false
+}

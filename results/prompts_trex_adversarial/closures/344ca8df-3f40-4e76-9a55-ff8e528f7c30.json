@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "103156_436129_fact223",
+      "score": 0.7275500297546387,
+      "source_id": "103156_436129",
+      "value": "Bolshevism from Moses to Lenin: A Dialogue Between Adolf Hitler and Me\","
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "344ca8df-3f40-4e76-9a55-ff8e528f7c30",
+  "index_nprobe": null,
+  "manifest_id": "c21133fed58ea997",
+  "margin": 0.02622067928314209,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7275499105453491,
+  "s_surv": 0.701329231262207,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "511387_6074907_fact6",
+      "score": 0.701329231262207,
+      "source_id": "511387_6074907",
+      "value": " 1989"
+    },
+    {
+      "entry_id": "774717_647783_fact18",
+      "score": 0.6938118934631348,
+      "source_id": "774717_647783",
+      "value": " \"The Claudii\", \"Aphrodite, a Story of Ancient Hellas\", \"Decius the Flute-player: a Merry Story of a Musician in Ancient Rome\"."
+    },
+    {
+      "entry_id": "82226_245588_fact106",
+      "score": 0.6934219598770142,
+      "source_id": "82226_245588",
+      "value": "Mein Kampf\""
+    },
+    {
+      "entry_id": "65256604_4717137_fact4",
+      "score": 0.6877913475036621,
+      "source_id": "65256604_4717137",
+      "value": " \"Dachau Diaries\","
+    },
+    {
+      "entry_id": "42136_884989_fact255",
+      "score": 0.6849032640457153,
+      "source_id": "42136_884989",
+      "value": " German translation of the Bible"
+    }
+  ],
+  "truncated": false
+}

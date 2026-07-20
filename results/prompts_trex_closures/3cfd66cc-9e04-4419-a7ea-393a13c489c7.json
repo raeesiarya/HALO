@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1816324_908007_fact1",
+      "score": 0.9091658592224121,
+      "source_id": "1816324_908007",
+      "value": " Carlisle, Cumbria, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1524606_273953_fact42",
+      "score": 0.676211953163147,
+      "source_id": "1524606_273953",
+      "value": " Carlisle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5031761_508748_fact62",
+      "score": 0.6214728355407715,
+      "source_id": "5031761_508748",
+      "value": " Carlisle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4574163_118789_fact1",
+      "score": 0.6211111545562744,
+      "source_id": "4574163_118789",
+      "value": " Cumbria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44979463_4880061_fact29",
+      "score": 0.5203009247779846,
+      "source_id": "44979463_4880061",
+      "value": " Carlisle"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3cfd66cc-9e04-4419-a7ea-393a13c489c7",
+  "index_nprobe": null,
+  "manifest_id": "19c34d94fd8f2f71",
+  "margin": 0.2951774597167969,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9091658592224121,
+  "s_surv": 0.6139883995056152,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "70088655_5592355_fact113",
+      "score": 0.6139883995056152,
+      "source_id": "70088655_5592355",
+      "value": " Fonthill, Ontario"
+    },
+    {
+      "entry_id": "16191580_1260307_fact23",
+      "score": 0.596980094909668,
+      "source_id": "16191580_1260307",
+      "value": " Prague"
+    },
+    {
+      "entry_id": "66096535_5327039_fact6",
+      "score": 0.5965344905853271,
+      "source_id": "66096535_5327039",
+      "value": " University of Sussex"
+    },
+    {
+      "entry_id": "3045261_655901_fact76",
+      "score": 0.5955798625946045,
+      "source_id": "3045261_655901",
+      "value": " 44 Greenhill Road"
+    },
+    {
+      "entry_id": "381363_191848_fact141",
+      "score": 0.5917085409164429,
+      "source_id": "381363_191848",
+      "value": " the southern end of Golden Lane"
+    }
+  ],
+  "truncated": false
+}

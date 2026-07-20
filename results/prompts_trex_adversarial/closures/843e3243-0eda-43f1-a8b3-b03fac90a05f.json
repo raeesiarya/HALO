@@ -1,0 +1,244 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "170773_1161945_fact1",
+      "score": 0.9611678123474121,
+      "source_id": "170773_1161945",
+      "value": " English rock band Radiohead"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "283396_6031960_fact0",
+      "score": 0.9395409822463989,
+      "source_id": "283396_6031960",
+      "value": " English alternative rock"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56031322_5425710_fact1",
+      "score": 0.7664825916290283,
+      "source_id": "56031322_5425710",
+      "value": " English indie pop band"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1894168_1070446_fact1",
+      "score": 0.746366024017334,
+      "source_id": "1894168_1070446",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2246643_556697_fact0",
+      "score": 0.7422119379043579,
+      "source_id": "2246643_556697",
+      "value": " English rock band the Beatles"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5001677_484868_fact0",
+      "score": 0.739989161491394,
+      "source_id": "5001677_484868",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1932690_1147279_fact0",
+      "score": 0.7342127561569214,
+      "source_id": "1932690_1147279",
+      "value": " the English rock band the Beatles"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40000666_5533545_fact1",
+      "score": 0.7317888140678406,
+      "source_id": "40000666_5533545",
+      "value": " English indie pop band"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12994196_2939937_fact2",
+      "score": 0.717658519744873,
+      "source_id": "12994196_2939937",
+      "value": " English musician Pop Levi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49253812_5428488_fact1",
+      "score": 0.7081934809684753,
+      "source_id": "49253812_5428488",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24679435_2110301_fact1",
+      "score": 0.7004926204681396,
+      "source_id": "24679435_2110301",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29532751_1548352_fact1",
+      "score": 0.6994205713272095,
+      "source_id": "29532751_1548352",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48987487_5238979_fact0",
+      "score": 0.676393985748291,
+      "source_id": "48987487_5238979",
+      "value": " English hard rock supergroup Bad Company"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5548842_955418_fact1",
+      "score": 0.6657772064208984,
+      "source_id": "5548842_955418",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28477978_3083949_fact1",
+      "score": 0.6628332138061523,
+      "source_id": "28477978_3083949",
+      "value": " English musical project"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3873374_529456_fact2",
+      "score": 0.6596532464027405,
+      "source_id": "3873374_529456",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24469791_1917344_fact7",
+      "score": 0.6588571667671204,
+      "source_id": "24469791_1917344",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62383394_5119122_fact1",
+      "score": 0.6578222513198853,
+      "source_id": "62383394_5119122",
+      "value": " English art punk band Wire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59798381_5678995_fact1",
+      "score": 0.6519649028778076,
+      "source_id": "59798381_5678995",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "726836_479246_fact1",
+      "score": 0.6502721309661865,
+      "source_id": "726836_479246",
+      "value": " English synth-pop duo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "826410_750494_fact1",
+      "score": 0.6446843147277832,
+      "source_id": "826410_750494",
+      "value": " English rock band Dodgy"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "843e3243-0eda-43f1-a8b3-b03fac90a05f",
+  "index_nprobe": null,
+  "manifest_id": "cf3497d9303cdb58",
+  "margin": 0.16261136531829834,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9611678123474121,
+  "s_surv": 0.7985564470291138,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "49202287_5391538_fact1",
+      "score": 0.7985564470291138,
+      "source_id": "49202287_5391538",
+      "value": " Vessel"
+    },
+    {
+      "entry_id": "47597027_4183912_fact1",
+      "score": 0.7978851795196533,
+      "source_id": "47597027_4183912",
+      "value": " American rock and roll band"
+    },
+    {
+      "entry_id": "719500_459370_fact1",
+      "score": 0.7847867012023926,
+      "source_id": "719500_459370",
+      "value": " American rock band"
+    },
+    {
+      "entry_id": "53863370_3914352_fact1",
+      "score": 0.7792513370513916,
+      "source_id": "53863370_3914352",
+      "value": " Ai Otsuka"
+    },
+    {
+      "entry_id": "58670938_5000160_fact1",
+      "score": 0.7767367959022522,
+      "source_id": "58670938_5000160",
+      "value": " British indie rock"
+    }
+  ],
+  "truncated": false
+}

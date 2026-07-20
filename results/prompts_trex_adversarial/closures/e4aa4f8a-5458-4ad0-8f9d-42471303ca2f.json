@@ -1,0 +1,223 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "930108_1091050_fact154",
+      "score": 0.7454599738121033,
+      "source_id": "930108_1091050",
+      "value": " Department of youth affairs"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "248459_546709_fact12",
+      "score": 0.6912522315979004,
+      "source_id": "248459_546709",
+      "value": " Supreme Soviet of Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20661923_2906159_fact45",
+      "score": 0.6592501401901245,
+      "source_id": "20661923_2906159",
+      "value": " of Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5064530_537562_fact118",
+      "score": 0.653601348400116,
+      "source_id": "5064530_537562",
+      "value": " Supreme Soviet of Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3992056_657886_fact81",
+      "score": 0.6473556160926819,
+      "source_id": "3992056_657886",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1590554_412814_fact219",
+      "score": 0.6377902030944824,
+      "source_id": "1590554_412814",
+      "value": " Supreme Soviet of Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11574807_1242109_fact51",
+      "score": 0.6268513202667236,
+      "source_id": "11574807_1242109",
+      "value": " Ministry of Education of Russia and the Moscow Department of Education"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "475284_676934_fact56",
+      "score": 0.6161046028137207,
+      "source_id": "475284_676934",
+      "value": " Congress of People's Deputies of Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20017704_2376807_fact5",
+      "score": 0.6087686419487,
+      "source_id": "20017704_2376807",
+      "value": " Supreme Soviet of Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "227091_398737_fact144",
+      "score": 0.5981091260910034,
+      "source_id": "227091_398737",
+      "value": " Russia and Belarus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71437372_4162821_fact32",
+      "score": 0.5954868793487549,
+      "source_id": "71437372_4162821",
+      "value": " Permanent Conference of the National Patriotic Forces of Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9395_242658_fact32",
+      "score": 0.5952081084251404,
+      "source_id": "9395_242658",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13446366_3413445_fact109",
+      "score": 0.5947556495666504,
+      "source_id": "13446366_3413445",
+      "value": " Union of Ukrainians in Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14405379_1934059_fact53",
+      "score": 0.5907996892929077,
+      "source_id": "14405379_1934059",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1044503_255436_fact82",
+      "score": 0.5901075601577759,
+      "source_id": "1044503_255436",
+      "value": " United Supreme Circle of Cossack troops of Russia and abroad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42555897_5297331_fact84",
+      "score": 0.5876451730728149,
+      "source_id": "42555897_5297331",
+      "value": " Supreme Soviet of Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60214040_5934542_fact59",
+      "score": 0.5847645998001099,
+      "source_id": "60214040_5934542",
+      "value": " Russia Defense Council"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59751532_5651480_fact13",
+      "score": 0.5800666809082031,
+      "source_id": "59751532_5651480",
+      "value": " Government of Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43961891_4030380_fact28",
+      "score": 0.5792872309684753,
+      "source_id": "43961891_4030380",
+      "value": " Artistic Gymnastics Federation of Russia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e4aa4f8a-5458-4ad0-8f9d-42471303ca2f",
+  "index_nprobe": null,
+  "manifest_id": "0513fc5f24f08d76",
+  "margin": 0.010428428649902344,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7454599142074585,
+  "s_surv": 0.7350314855575562,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2016363_155104_fact68",
+      "score": 0.7350314855575562,
+      "source_id": "2016363_155104",
+      "value": " third Party Congress"
+    },
+    {
+      "entry_id": "38394981_4142391_fact60",
+      "score": 0.7349663972854614,
+      "source_id": "38394981_4142391",
+      "value": " regional National Spiritual Assembly for the whole of Central Asia"
+    },
+    {
+      "entry_id": "25904883_3248268_fact89",
+      "score": 0.7228209972381592,
+      "source_id": "25904883_3248268",
+      "value": " 11"
+    },
+    {
+      "entry_id": "17551600_2371532_fact47",
+      "score": 0.7197791934013367,
+      "source_id": "17551600_2371532",
+      "value": " regional National Spiritual Assembly for the whole of Central Asia"
+    },
+    {
+      "entry_id": "21921786_1791101_fact30",
+      "score": 0.71402907371521,
+      "source_id": "21921786_1791101",
+      "value": " Conference of Railway General Directors"
+    }
+  ],
+  "truncated": false
+}

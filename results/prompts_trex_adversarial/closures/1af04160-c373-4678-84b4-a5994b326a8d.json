@@ -1,0 +1,151 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "15946559_3417508_fact4",
+      "score": 0.770643949508667,
+      "source_id": "15946559_3417508",
+      "value": " Ottoman-controlled Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "155900_1009322_fact15",
+      "score": 0.7649070024490356,
+      "source_id": "155900_1009322",
+      "value": " the Black Sea port in northeastern Anatolia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62022_5989277_fact6",
+      "score": 0.7029081583023071,
+      "source_id": "62022_5989277",
+      "value": " Asia Minor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24141332_1603661_fact3",
+      "score": 0.6991422176361084,
+      "source_id": "24141332_1603661",
+      "value": " Asia Minor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27300343_2046856_fact7",
+      "score": 0.6858458518981934,
+      "source_id": "27300343_2046856",
+      "value": " Asia Minor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32745185_1968309_fact13",
+      "score": 0.67667555809021,
+      "source_id": "32745185_1968309",
+      "value": " northwestern Anatolia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "478869_692340_fact113",
+      "score": 0.6727348566055298,
+      "source_id": "478869_692340",
+      "value": " eastern Anatolia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1191349_654911_fact105",
+      "score": 0.6578625440597534,
+      "source_id": "1191349_654911",
+      "value": " northeast Anatolia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37576250_3511362_fact9",
+      "score": 0.6529037356376648,
+      "source_id": "37576250_3511362",
+      "value": " Asia Minor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "155038_1001955_fact12",
+      "score": 0.6419488191604614,
+      "source_id": "155038_1001955",
+      "value": " Asia Minor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "155033_1001865_fact37",
+      "score": 0.6287051439285278,
+      "source_id": "155033_1001865",
+      "value": " Anatolia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1af04160-c373-4678-84b4-a5994b326a8d",
+  "index_nprobe": null,
+  "manifest_id": "4571ce66945436c8",
+  "margin": 0.0053168535232543945,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.770643949508667,
+  "s_surv": 0.7653270959854126,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "29194319_1307631_fact4",
+      "score": 0.7653270959854126,
+      "source_id": "29194319_1307631",
+      "value": " Ottoman Empire"
+    },
+    {
+      "entry_id": "8105971_2152676_fact12",
+      "score": 0.7611048221588135,
+      "source_id": "8105971_2152676",
+      "value": " Ottoman Empire"
+    },
+    {
+      "entry_id": "46456932_5678867_fact13",
+      "score": 0.7610557079315186,
+      "source_id": "46456932_5678867",
+      "value": "1783"
+    },
+    {
+      "entry_id": "12932293_2866992_fact7",
+      "score": 0.7587646245956421,
+      "source_id": "12932293_2866992",
+      "value": " Trebizond Vilayet"
+    },
+    {
+      "entry_id": "39513021_5137597_fact16",
+      "score": 0.7558071613311768,
+      "source_id": "39513021_5137597",
+      "value": " Ottoman Empire"
+    }
+  ],
+  "truncated": false
+}

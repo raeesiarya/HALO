@@ -1,0 +1,115 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "16954499_1837804_fact83",
+      "score": 0.7485491037368774,
+      "source_id": "16954499_1837804",
+      "value": " bilobar protein"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4471978_1167127_fact39",
+      "score": 0.6323790550231934,
+      "source_id": "4471978_1167127",
+      "value": " an antimicrobial enzyme that dissolves the cell walls of many bacteria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4464817_1159065_fact156",
+      "score": 0.6077765226364136,
+      "source_id": "4464817_1159065",
+      "value": " form of intracellular phagocytosis in which a cell actively consumes damaged organelles or misfolded proteins"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "466746_635829_fact121",
+      "score": 0.5926520228385925,
+      "source_id": "466746_635829",
+      "value": " polar, electron dense and elongated cell extension"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5573978_975791_fact4",
+      "score": 0.5876550674438477,
+      "source_id": "5573978_975791",
+      "value": " T cell- and natural killer cell-specific serine protease"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21975254_1833104_fact33",
+      "score": 0.5805320143699646,
+      "source_id": "21975254_1833104",
+      "value": " enzyme that digests cell walls"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "412097_348318_fact44",
+      "score": 0.5709127187728882,
+      "source_id": "412097_348318",
+      "value": " small regulatory protein found in all tissues that direct proteins to compartments within the cell"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d93968dd-bc33-43e1-8f4e-ca871e4ddee1",
+  "index_nprobe": null,
+  "manifest_id": "d501929c79c4b0bd",
+  "margin": 0.016645848751068115,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7485488653182983,
+  "s_surv": 0.7319030165672302,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "14502025_2037658_fact16",
+      "score": 0.7319030165672302,
+      "source_id": "14502025_2037658",
+      "value": " metallo-enzyme"
+    },
+    {
+      "entry_id": "59335221_5395076_fact3",
+      "score": 0.7294221520423889,
+      "source_id": "59335221_5395076",
+      "value": " strongly hemorrhagic metalloproteinase"
+    },
+    {
+      "entry_id": "7171067_1073995_fact18",
+      "score": 0.7038910388946533,
+      "source_id": "7171067_1073995",
+      "value": " cytotoxic enterotoxin"
+    },
+    {
+      "entry_id": "11289149_3330322_fact7",
+      "score": 0.7033199071884155,
+      "source_id": "11289149_3330322",
+      "value": " homotetramer"
+    },
+    {
+      "entry_id": "16954499_1837804_fact78",
+      "score": 0.7028564214706421,
+      "source_id": "16954499_1837804",
+      "value": " beta-pore forming toxin"
+    }
+  ],
+  "truncated": false
+}

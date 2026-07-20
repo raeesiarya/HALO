@@ -1,0 +1,106 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2515399_1030144_fact98",
+      "score": 0.8114983439445496,
+      "source_id": "2515399_1030144",
+      "value": "Haus des B\u00fcrgers"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56476280_5733134_fact15",
+      "score": 0.7271153926849365,
+      "source_id": "56476280_5733134",
+      "value": " Munich University of Applied Sciences"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57946687_4494664_fact32",
+      "score": 0.7218796610832214,
+      "source_id": "57946687_4494664",
+      "value": " Nanosystems Initiative Munich"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33928153_2953734_fact62",
+      "score": 0.7196179628372192,
+      "source_id": "33928153_2953734",
+      "value": " Lutheran parish of Munich Heilig-Geist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52236450_5176081_fact115",
+      "score": 0.7087726593017578,
+      "source_id": "52236450_5176081",
+      "value": " Munich Riesenfeldstra\u00dfe"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58582416_4931436_fact43",
+      "score": 0.6914849281311035,
+      "source_id": "58582416_4931436",
+      "value": " Munich branch of Steinway &amp; Sons"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "03d91505-7301-410f-a444-732eb923dcbd",
+  "index_nprobe": null,
+  "manifest_id": "aa2fa4558f55eb24",
+  "margin": 0.01524198055267334,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8114981651306152,
+  "s_surv": 0.7962561845779419,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1152693_548437_fact171",
+      "score": 0.7962561845779419,
+      "source_id": "1152693_548437",
+      "value": " University of Maryland University College"
+    },
+    {
+      "entry_id": "4264418_953476_fact60",
+      "score": 0.7961414456367493,
+      "source_id": "4264418_953476",
+      "value": "Kulturkreis Region Emmelshausen"
+    },
+    {
+      "entry_id": "2927114_490482_fact202",
+      "score": 0.7900657653808594,
+      "source_id": "2927114_490482",
+      "value": "Willy-Brandt-Haus"
+    },
+    {
+      "entry_id": "4185761_871954_fact90",
+      "score": 0.7876032590866089,
+      "source_id": "4185761_871954",
+      "value": "Deutsches Elfenbeinmuseum Erbach"
+    },
+    {
+      "entry_id": "57328072_4014426_fact38",
+      "score": 0.7868208885192871,
+      "source_id": "57328072_4014426",
+      "value": "Roxy"
+    }
+  ],
+  "truncated": false
+}

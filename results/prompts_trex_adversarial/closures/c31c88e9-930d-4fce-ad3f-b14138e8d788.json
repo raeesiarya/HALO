@@ -1,0 +1,515 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "16278360_1318091_fact7",
+      "score": 0.9351110458374023,
+      "source_id": "16278360_1318091",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "392759_56933_fact2",
+      "score": 0.9299831390380859,
+      "source_id": "392759_56933",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "1077521_341852_fact4",
+      "score": 0.9223209619522095,
+      "source_id": "1077521_341852",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "6585771_655486_fact13",
+      "score": 0.915648341178894,
+      "source_id": "6585771_655486",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "3461_5976087_fact2",
+      "score": 0.912567138671875,
+      "source_id": "3461_5976087",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "57317503_4004674_fact5",
+      "score": 0.8992760181427002,
+      "source_id": "57317503_4004674",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "30546258_2253412_fact71",
+      "score": 0.876309871673584,
+      "source_id": "30546258_2253412",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "29026324_3504216_fact3",
+      "score": 0.86836838722229,
+      "source_id": "29026324_3504216",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "339601_6042416_fact2",
+      "score": 0.8615105152130127,
+      "source_id": "339601_6042416",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "371803_142675_fact102",
+      "score": 0.8571776747703552,
+      "source_id": "371803_142675",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "29401205_1442145_fact23",
+      "score": 0.8542731404304504,
+      "source_id": "29401205_1442145",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "13137007_3097347_fact0",
+      "score": 0.8532277941703796,
+      "source_id": "13137007_3097347",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18042262_2789474_fact8",
+      "score": 0.8381158709526062,
+      "source_id": "18042262_2789474",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4934998_424965_fact122",
+      "score": 0.8339139223098755,
+      "source_id": "4934998_424965",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "764593_605273_fact26",
+      "score": 0.8336875438690186,
+      "source_id": "764593_605273",
+      "value": " TIRANA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28947901_3441884_fact3",
+      "score": 0.8308289051055908,
+      "source_id": "28947901_3441884",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34482696_3431453_fact3",
+      "score": 0.8196961283683777,
+      "source_id": "34482696_3431453",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29026358_3504267_fact3",
+      "score": 0.8193271160125732,
+      "source_id": "29026358_3504267",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "322031_1014286_fact232",
+      "score": 0.8166226148605347,
+      "source_id": "322031_1014286",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63760295_3718162_fact82",
+      "score": 0.8054485321044922,
+      "source_id": "63760295_3718162",
+      "value": " Belgrade, Skopje, and Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28947941_3441922_fact3",
+      "score": 0.7908233404159546,
+      "source_id": "28947941_3441922",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28929160_3425082_fact2",
+      "score": 0.7770447731018066,
+      "source_id": "28929160_3425082",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28929460_3425295_fact3",
+      "score": 0.776639461517334,
+      "source_id": "28929460_3425295",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "546905_987841_fact107",
+      "score": 0.7763924598693848,
+      "source_id": "546905_987841",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28929293_3425184_fact3",
+      "score": 0.7707775831222534,
+      "source_id": "28929293_3425184",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40208_861176_fact12",
+      "score": 0.7685892581939697,
+      "source_id": "40208_861176",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "724161_6107956_fact5",
+      "score": 0.7671983242034912,
+      "source_id": "724161_6107956",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16310049_1344768_fact3",
+      "score": 0.7646881341934204,
+      "source_id": "16310049_1344768",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28948171_3442162_fact3",
+      "score": 0.7635114192962646,
+      "source_id": "28948171_3442162",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28948145_3442143_fact3",
+      "score": 0.7622731924057007,
+      "source_id": "28948145_3442143",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73241323_5219146_fact11",
+      "score": 0.7607219219207764,
+      "source_id": "73241323_5219146",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28929335_3425202_fact3",
+      "score": 0.7578021287918091,
+      "source_id": "28929335_3425202",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "322362_1016456_fact4",
+      "score": 0.754400908946991,
+      "source_id": "322362_1016456",
+      "value": ", Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28928676_3424514_fact2",
+      "score": 0.7373124361038208,
+      "source_id": "28928676_3424514",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "546911_987889_fact27",
+      "score": 0.7316828966140747,
+      "source_id": "546911_987889",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "339991_6042499_fact4",
+      "score": 0.7315644025802612,
+      "source_id": "339991_6042499",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28948295_3442321_fact2",
+      "score": 0.7308393716812134,
+      "source_id": "28948295_3442321",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63322537_5758952_fact335",
+      "score": 0.7261326909065247,
+      "source_id": "63322537_5758952",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62436319_5158408_fact5",
+      "score": 0.7251334190368652,
+      "source_id": "62436319_5158408",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17995105_2748314_fact3",
+      "score": 0.711280345916748,
+      "source_id": "17995105_2748314",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "273645_708024_fact7",
+      "score": 0.6872439384460449,
+      "source_id": "273645_708024",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11505947_3587249_fact8",
+      "score": 0.6821482181549072,
+      "source_id": "11505947_3587249",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6199128_404852_fact18",
+      "score": 0.6744583249092102,
+      "source_id": "6199128_404852",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "322031_1014286_fact248",
+      "score": 0.6706404685974121,
+      "source_id": "322031_1014286",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28929401_3425282_fact2",
+      "score": 0.6664469242095947,
+      "source_id": "28929401_3425282",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "339726_6042443_fact3",
+      "score": 0.6651610136032104,
+      "source_id": "339726_6042443",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47018010_3663818_fact5",
+      "score": 0.6626647710800171,
+      "source_id": "47018010_3663818",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28948254_3442255_fact3",
+      "score": 0.6580117344856262,
+      "source_id": "28948254_3442255",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "286651_768620_fact191",
+      "score": 0.6522845029830933,
+      "source_id": "286651_768620",
+      "value": " Tirana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17545990_2366806_fact2",
+      "score": 0.6410953998565674,
+      "source_id": "17545990_2366806",
+      "value": " Tirana"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c31c88e9-930d-4fce-ad3f-b14138e8d788",
+  "index_nprobe": null,
+  "manifest_id": "1ae21deaff0d4de8",
+  "margin": 0.09514570236206055,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9351110458374023,
+  "s_surv": 0.8399653434753418,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "546905_987841_fact106",
+      "score": 0.8399653434753418,
+      "source_id": "546905_987841",
+      "value": " city"
+    },
+    {
+      "entry_id": "34699387_1307259_fact39",
+      "score": 0.8206745386123657,
+      "source_id": "34699387_1307259",
+      "value": " Zagreb"
+    },
+    {
+      "entry_id": "26811446_1651984_fact58",
+      "score": 0.8113573789596558,
+      "source_id": "26811446_1651984",
+      "value": " capital of Albania"
+    },
+    {
+      "entry_id": "71377082_4116695_fact2",
+      "score": 0.8063209652900696,
+      "source_id": "71377082_4116695",
+      "value": " the capital city of Albania"
+    },
+    {
+      "entry_id": "542003_970035_fact8",
+      "score": 0.8024610280990601,
+      "source_id": "542003_970035",
+      "value": " capital of Albania"
+    }
+  ],
+  "truncated": false
+}

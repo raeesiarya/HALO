@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2290989_644300_fact37",
+      "score": 0.6525586247444153,
+      "source_id": "2290989_644300",
+      "value": " Ioannina"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2245765_554541_fact33",
+      "score": 0.5708442330360413,
+      "source_id": "2245765_554541",
+      "value": " 1878 mission to Kabul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "656175_264303_fact15",
+      "score": 0.493794322013855,
+      "source_id": "656175_264303",
+      "value": " Kabul"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "352021be-eaa8-44eb-ab31-227db22d56f6",
+  "index_nprobe": null,
+  "manifest_id": "69d24f448058723c",
+  "margin": 0.0245286226272583,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6525585651397705,
+  "s_surv": 0.6280299425125122,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "47203677_3827754_fact2",
+      "score": 0.6280299425125122,
+      "source_id": "47203677_3827754",
+      "value": " Great Britain"
+    },
+    {
+      "entry_id": "26060212_3398803_fact26",
+      "score": 0.6188043355941772,
+      "source_id": "26060212_3398803",
+      "value": " France"
+    },
+    {
+      "entry_id": "13213766_3170563_fact73",
+      "score": 0.6018187403678894,
+      "source_id": "13213766_3170563",
+      "value": "Shkodra"
+    },
+    {
+      "entry_id": "239985_487254_fact91",
+      "score": 0.5948032140731812,
+      "source_id": "239985_487254",
+      "value": "Ems"
+    },
+    {
+      "entry_id": "27911714_2575038_fact29",
+      "score": 0.5867592692375183,
+      "source_id": "27911714_2575038",
+      "value": " Paris"
+    }
+  ],
+  "truncated": false
+}

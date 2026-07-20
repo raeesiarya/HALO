@@ -1,0 +1,144 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "18124055_2859452_fact2",
+      "score": 0.9201793670654297,
+      "source_id": "18124055_2859452",
+      "value": " Florence"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1097855_395140_fact1",
+      "score": 0.8375498652458191,
+      "source_id": "1097855_395140",
+      "value": " the Republic of Florence"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58977580_5194196_fact16",
+      "score": 0.8265998363494873,
+      "source_id": "58977580_5194196",
+      "value": " the Republic of Florence"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25536_581961_fact142",
+      "score": 0.8251540660858154,
+      "source_id": "25536_581961",
+      "value": " Florence"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31387287_3098644_fact2",
+      "score": 0.8215445280075073,
+      "source_id": "31387287_3098644",
+      "value": " Florence"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14504730_2040908_fact6",
+      "score": 0.6967164278030396,
+      "source_id": "14504730_2040908",
+      "value": " Florence"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44491081_4504465_fact25",
+      "score": 0.6132208704948425,
+      "source_id": "44491081_4504465",
+      "value": " Florence"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14262946_1799594_fact160",
+      "score": 0.573235034942627,
+      "source_id": "14262946_1799594",
+      "value": " Florence"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16427931_1410344_fact74",
+      "score": 0.5267963409423828,
+      "source_id": "16427931_1410344",
+      "value": " Florence"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1191397_654960_fact85",
+      "score": 0.5254590511322021,
+      "source_id": "1191397_654960",
+      "value": " Florence"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "df202fbb-9a52-4f75-9d04-24834884ec3b",
+  "index_nprobe": null,
+  "manifest_id": "1403935a9f2a17b8",
+  "margin": 0.1036219596862793,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9201793670654297,
+  "s_surv": 0.8165574073791504,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1401578_1164286_fact83",
+      "score": 0.8165574073791504,
+      "source_id": "1401578_1164286",
+      "value": " 1378"
+    },
+    {
+      "entry_id": "215651_326611_fact8",
+      "score": 0.8083144426345825,
+      "source_id": "215651_326611",
+      "value": " 1378"
+    },
+    {
+      "entry_id": "14504730_2040908_fact8",
+      "score": 0.7995461225509644,
+      "source_id": "14504730_2040908",
+      "value": " 1378"
+    },
+    {
+      "entry_id": "44175_918074_fact78",
+      "score": 0.787223756313324,
+      "source_id": "44175_918074",
+      "value": " 1378\u201382"
+    },
+    {
+      "entry_id": "48273206_4640911_fact17",
+      "score": 0.7850704789161682,
+      "source_id": "48273206_4640911",
+      "value": " 1343"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "30598431_2287413_fact2",
+      "score": 0.9243742227554321,
+      "source_id": "30598431_2287413",
+      "value": " Toulouse\u2013Bayonne railway line"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3336784_1059373_fact65",
+      "score": 0.8917464017868042,
+      "source_id": "3336784_1059373",
+      "value": " Toulouse-Bayonne line"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e208b146-ae58-47d1-a263-61d16a24b560",
+  "index_nprobe": null,
+  "manifest_id": "e3f150d696033f88",
+  "margin": 0.14117109775543213,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9243741035461426,
+  "s_surv": 0.7832030057907104,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3336784_1059373_fact37",
+      "score": 0.7832030057907104,
+      "source_id": "3336784_1059373",
+      "value": " Petite Ba\u00efse"
+    },
+    {
+      "entry_id": "30598431_2287413_fact3",
+      "score": 0.7787739038467407,
+      "source_id": "30598431_2287413",
+      "value": " former Lannemezan\u2013Arreau railway line"
+    },
+    {
+      "entry_id": "69527745_5257311_fact3",
+      "score": 0.7155033946037292,
+      "source_id": "69527745_5257311",
+      "value": " Culoz\u2013Modane railway and Grenoble\u2013Montm\u00e9lian railway"
+    },
+    {
+      "entry_id": "15485051_2984115_fact5",
+      "score": 0.7095698118209839,
+      "source_id": "15485051_2984115",
+      "value": " S\u00f8rlandet Line"
+    },
+    {
+      "entry_id": "70965875_3860860_fact4",
+      "score": 0.708861231803894,
+      "source_id": "70965875_3860860",
+      "value": " Txorierri line"
+    }
+  ],
+  "truncated": false
+}

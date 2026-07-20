@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "515255_860670_fact8",
+      "score": 0.6508874893188477,
+      "source_id": "515255_860670",
+      "value": " 4254 people"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38812257_4478797_fact165",
+      "score": 0.6029664874076843,
+      "source_id": "38812257_4478797",
+      "value": " Queen Silvia of Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39654604_5268463_fact9",
+      "score": 0.5811783075332642,
+      "source_id": "39654604_5268463",
+      "value": " King Carl XVI Gustaf of Sweden and Queen Silvia of Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39721352_5323621_fact20",
+      "score": 0.531369686126709,
+      "source_id": "39721352_5323621",
+      "value": " King Carl XVI Gustaf of Sweden"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8812465f-f218-4c5e-b7f1-bf061c4d5043",
+  "index_nprobe": null,
+  "manifest_id": "1ebd8bdc88d94839",
+  "margin": 0.005103468894958496,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6508874893188477,
+  "s_surv": 0.6457840204238892,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "10711_267097_fact79",
+      "score": 0.6457840204238892,
+      "source_id": "10711_267097",
+      "value": " the euro"
+    },
+    {
+      "entry_id": "2546673_1077456_fact239",
+      "score": 0.638383150100708,
+      "source_id": "2546673_1077456",
+      "value": " FBI agents"
+    },
+    {
+      "entry_id": "56134893_5495860_fact73",
+      "score": 0.6364926099777222,
+      "source_id": "56134893_5495860",
+      "value": " firecrackers"
+    },
+    {
+      "entry_id": "11033852_3042851_fact256",
+      "score": 0.6335483193397522,
+      "source_id": "11033852_3042851",
+      "value": " President George W. Bush"
+    },
+    {
+      "entry_id": "677723_336104_fact116",
+      "score": 0.6328652501106262,
+      "source_id": "677723_336104",
+      "value": " Berea, Kentucky"
+    }
+  ],
+  "truncated": false
+}

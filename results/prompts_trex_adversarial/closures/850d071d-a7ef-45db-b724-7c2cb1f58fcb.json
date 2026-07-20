@@ -1,0 +1,405 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "21435297_1310105_fact5",
+      "score": 0.9539077281951904,
+      "source_id": "21435297_1310105",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46515904_5722146_fact60",
+      "score": 0.6543846130371094,
+      "source_id": "46515904_5722146",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11287921_3328366_fact29",
+      "score": 0.6444472074508667,
+      "source_id": "11287921_3328366",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9280216_1213183_fact52",
+      "score": 0.6395829916000366,
+      "source_id": "9280216_1213183",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31213577_2929382_fact97",
+      "score": 0.6382027864456177,
+      "source_id": "31213577_2929382",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6572156_646388_fact56",
+      "score": 0.6334640979766846,
+      "source_id": "6572156_646388",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35761921_2057880_fact132",
+      "score": 0.6314374804496765,
+      "source_id": "35761921_2057880",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21378756_1260900_fact70",
+      "score": 0.6213334798812866,
+      "source_id": "21378756_1260900",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19947_463603_fact126",
+      "score": 0.6128815412521362,
+      "source_id": "19947_463603",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46188482_5458110_fact10",
+      "score": 0.6075074672698975,
+      "source_id": "46188482_5458110",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30876030_2616394_fact21",
+      "score": 0.6044213771820068,
+      "source_id": "30876030_2616394",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53708374_3784410_fact15",
+      "score": 0.6035181879997253,
+      "source_id": "53708374_3784410",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31149742_2865908_fact18",
+      "score": 0.5983374714851379,
+      "source_id": "31149742_2865908",
+      "value": " court in Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8881029_3173434_fact68",
+      "score": 0.5957883596420288,
+      "source_id": "8881029_3173434",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11870432_1565044_fact45",
+      "score": 0.5948702096939087,
+      "source_id": "11870432_1565044",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31213577_2929382_fact34",
+      "score": 0.5941088795661926,
+      "source_id": "31213577_2929382",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6714651_728886_fact13",
+      "score": 0.5870015025138855,
+      "source_id": "6714651_728886",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "210019_287785_fact82",
+      "score": 0.5805619359016418,
+      "source_id": "210019_287785",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "279660_741990_fact49",
+      "score": 0.576667070388794,
+      "source_id": "279660_741990",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10618770_2611674_fact10",
+      "score": 0.572668731212616,
+      "source_id": "10618770_2611674",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "255868_600937_fact70",
+      "score": 0.569862961769104,
+      "source_id": "255868_600937",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1607826_452724_fact28",
+      "score": 0.5663061141967773,
+      "source_id": "1607826_452724",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62667908_5319024_fact14",
+      "score": 0.564728856086731,
+      "source_id": "62667908_5319024",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "202735_237074_fact34",
+      "score": 0.5636515021324158,
+      "source_id": "202735_237074",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34671274_3587219_fact23",
+      "score": 0.5564098954200745,
+      "source_id": "34671274_3587219",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3744122_393354_fact265",
+      "score": 0.5530970096588135,
+      "source_id": "3744122_393354",
+      "value": " Prague Castle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29066349_3531666_fact19",
+      "score": 0.5516412854194641,
+      "source_id": "29066349_3531666",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4976787_463847_fact60",
+      "score": 0.5421839952468872,
+      "source_id": "4976787_463847",
+      "value": " Prague Castle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "255868_600937_fact114",
+      "score": 0.5340723991394043,
+      "source_id": "255868_600937",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57160467_3878618_fact5",
+      "score": 0.5273014903068542,
+      "source_id": "57160467_3878618",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5445775_870513_fact27",
+      "score": 0.5265923142433167,
+      "source_id": "5445775_870513",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46444067_5670047_fact12",
+      "score": 0.524203896522522,
+      "source_id": "46444067_5670047",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31090109_2811352_fact11",
+      "score": 0.5166733264923096,
+      "source_id": "31090109_2811352",
+      "value": " Vienna, Prague and Innsbruck"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10747089_2726585_fact54",
+      "score": 0.5138310194015503,
+      "source_id": "10747089_2726585",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16355451_1372368_fact70",
+      "score": 0.508650004863739,
+      "source_id": "16355451_1372368",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23823339_1255697_fact20",
+      "score": 0.5007162690162659,
+      "source_id": "23823339_1255697",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23844_546157_fact239",
+      "score": 0.4993387758731842,
+      "source_id": "23844_546157",
+      "value": " the Prague Castle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26849705_1689228_fact29",
+      "score": 0.49926918745040894,
+      "source_id": "26849705_1689228",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62196177_4998115_fact5",
+      "score": 0.4985027313232422,
+      "source_id": "62196177_4998115",
+      "value": " Prague Cathedral"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "850d071d-a7ef-45db-b724-7c2cb1f58fcb",
+  "index_nprobe": null,
+  "manifest_id": "f47494f621bf1ce6",
+  "margin": 0.304313063621521,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9539077281951904,
+  "s_surv": 0.6495946645736694,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "32135704_1472968_fact51",
+      "score": 0.6495946645736694,
+      "source_id": "32135704_1472968",
+      "value": " Innsbruck"
+    },
+    {
+      "entry_id": "17157615_2020232_fact6",
+      "score": 0.6476014852523804,
+      "source_id": "17157615_2020232",
+      "value": " Italy"
+    },
+    {
+      "entry_id": "25969812_3312464_fact15",
+      "score": 0.6415131092071533,
+      "source_id": "25969812_3312464",
+      "value": " Buda, and in Zagreb and Dalmatia"
+    },
+    {
+      "entry_id": "11870432_1565044_fact30",
+      "score": 0.6363206505775452,
+      "source_id": "11870432_1565044",
+      "value": " Naples"
+    },
+    {
+      "entry_id": "10010748_1998909_fact3",
+      "score": 0.6357752084732056,
+      "source_id": "10010748_1998909",
+      "value": " the Toledo School of Translators"
+    }
+  ],
+  "truncated": false
+}

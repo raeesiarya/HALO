@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "51515117_4688104_fact26",
+      "score": 0.7874882221221924,
+      "source_id": "51515117_4688104",
+      "value": " Queensland's three indigenous 19th century banks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69463882_5211390_fact36",
+      "score": 0.6287326216697693,
+      "source_id": "69463882_5211390",
+      "value": " only London representative"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2809320_316773_fact29",
+      "score": 0.6234227418899536,
+      "source_id": "2809320_316773",
+      "value": " London agents"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a3f2219c-763d-4e6f-9279-055e9e898a95",
+  "index_nprobe": null,
+  "manifest_id": "fc2a1a267408a9bb",
+  "margin": 0.0005151033401489258,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7874882221221924,
+  "s_surv": 0.7869731187820435,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2138362_359652_fact7",
+      "score": 0.7869731187820435,
+      "source_id": "2138362_359652",
+      "value": " \"Big Five,\""
+    },
+    {
+      "entry_id": "18759386_3499050_fact3",
+      "score": 0.778037428855896,
+      "source_id": "18759386_3499050",
+      "value": " twenty-six (26)"
+    },
+    {
+      "entry_id": "26547793_1429103_fact15",
+      "score": 0.7772129774093628,
+      "source_id": "26547793_1429103",
+      "value": " 16 banks"
+    },
+    {
+      "entry_id": "67502680_3799749_fact41",
+      "score": 0.7734205722808838,
+      "source_id": "67502680_3799749",
+      "value": " the three Queensland-owned nineteenth-century banks"
+    },
+    {
+      "entry_id": "48850997_5127227_fact17",
+      "score": 0.7733122110366821,
+      "source_id": "48850997_5127227",
+      "value": " Queensland's three 19th-century banks"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "16491608_1462494_fact18",
+      "score": 0.68622887134552,
+      "source_id": "16491608_1462494",
+      "value": " fund public developments in Manchester"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "87164_281378_fact12",
+      "score": 0.6499679684638977,
+      "source_id": "87164_281378",
+      "value": " the people of Manchester"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46345120_5591219_fact18",
+      "score": 0.5119200944900513,
+      "source_id": "46345120_5591219",
+      "value": " the Manchester Art Gallery"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46345120_5591219_fact141",
+      "score": 0.507232129573822,
+      "source_id": "46345120_5591219",
+      "value": " the Manchester Art Gallery"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32314077_1616328_fact118",
+      "score": 0.4912263751029968,
+      "source_id": "32314077_1616328",
+      "value": " Manchester"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4e7d3320-7e20-460f-9aa8-a0db8d8bcf99",
+  "index_nprobe": null,
+  "manifest_id": "7777a3067486b90b",
+  "margin": 0.04644852876663208,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.68622887134552,
+  "s_surv": 0.6397803425788879,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3966586_629922_fact7",
+      "score": 0.6397803425788879,
+      "source_id": "3966586_629922",
+      "value": " 1887"
+    },
+    {
+      "entry_id": "87164_281378_fact115",
+      "score": 0.6064819097518921,
+      "source_id": "87164_281378",
+      "value": " philanthropic projects"
+    },
+    {
+      "entry_id": "5276376_724672_fact35",
+      "score": 0.6039498448371887,
+      "source_id": "5276376_724672",
+      "value": " Bedford and Holborn, London"
+    },
+    {
+      "entry_id": "87164_281378_fact85",
+      "score": 0.5968660712242126,
+      "source_id": "87164_281378",
+      "value": " 1868"
+    },
+    {
+      "entry_id": "54462265_4401491_fact8",
+      "score": 0.5876200199127197,
+      "source_id": "54462265_4401491",
+      "value": " his great nephew"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,171 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "10669430_2657367_fact1",
+      "score": 0.9502865672111511,
+      "source_id": "10669430_2657367",
+      "value": " Cadillac"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33752193_2802277_fact1",
+      "score": 0.6784173250198364,
+      "source_id": "33752193_2802277",
+      "value": " Cadillac"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1063474_305685_fact0",
+      "score": 0.6677898168563843,
+      "source_id": "1063474_305685",
+      "value": " the Cadillac division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1434691_90300_fact1",
+      "score": 0.6586465835571289,
+      "source_id": "1434691_90300",
+      "value": " the Cadillac division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21064031_3334196_fact1",
+      "score": 0.6575884819030762,
+      "source_id": "21064031_3334196",
+      "value": " Cadillac"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56929509_3699387_fact2",
+      "score": 0.6555284261703491,
+      "source_id": "56929509_3699387",
+      "value": " Cadillac Division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23963454_1393078_fact2",
+      "score": 0.654724657535553,
+      "source_id": "23963454_1393078",
+      "value": " Cadillac"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45040158_4922425_fact2",
+      "score": 0.6515164375305176,
+      "source_id": "45040158_4922425",
+      "value": " Cadillac"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "417851_383616_fact1",
+      "score": 0.6453185081481934,
+      "source_id": "417851_383616",
+      "value": " Cadillac"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4743445_267016_fact3",
+      "score": 0.6422867178916931,
+      "source_id": "4743445_267016",
+      "value": " the Cadillac Division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "895413_976554_fact1",
+      "score": 0.6400773525238037,
+      "source_id": "895413_976554",
+      "value": " Cadillac"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1088409_368640_fact0",
+      "score": 0.6359969973564148,
+      "source_id": "1088409_368640",
+      "value": " Cadillac Division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3315365_1032572_fact2",
+      "score": 0.6319599151611328,
+      "source_id": "3315365_1032572",
+      "value": " Cadillac"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "17d062a2-f15f-4c9a-b245-94e4c1eb5568",
+  "index_nprobe": null,
+  "manifest_id": "5d4c260839755c59",
+  "margin": 0.20761805772781372,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9502865672111511,
+  "s_surv": 0.7426685094833374,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "540932_966545_fact0",
+      "score": 0.7426685094833374,
+      "source_id": "540932_966545",
+      "value": " Pontiac"
+    },
+    {
+      "entry_id": "12506971_2361044_fact1",
+      "score": 0.7216113209724426,
+      "source_id": "12506971_2361044",
+      "value": " Pontiac"
+    },
+    {
+      "entry_id": "11688217_1362845_fact1",
+      "score": 0.7208919525146484,
+      "source_id": "11688217_1362845",
+      "value": " Aston Martin"
+    },
+    {
+      "entry_id": "1913204_1107983_fact1",
+      "score": 0.715633749961853,
+      "source_id": "1913204_1107983",
+      "value": " Mercedes-Benz"
+    },
+    {
+      "entry_id": "1742615_748583_fact1",
+      "score": 0.7143710851669312,
+      "source_id": "1742615_748583",
+      "value": " the Budd Company"
+    }
+  ],
+  "truncated": false
+}

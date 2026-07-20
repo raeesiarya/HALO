@@ -1,0 +1,216 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "33950703_2973750_fact2",
+      "score": 0.8532102108001709,
+      "source_id": "33950703_2973750",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36304141_2512640_fact1",
+      "score": 0.6867353916168213,
+      "source_id": "36304141_2512640",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4437979_1130239_fact3",
+      "score": 0.6350374817848206,
+      "source_id": "4437979_1130239",
+      "value": " actor and comedian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "366455_6048063_fact2",
+      "score": 0.628864049911499,
+      "source_id": "366455_6048063",
+      "value": " movie, television, stage, and voice actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1148575_539203_fact2",
+      "score": 0.6260536909103394,
+      "source_id": "1148575_539203",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72334998_4722887_fact4",
+      "score": 0.6194131374359131,
+      "source_id": "72334998_4722887",
+      "value": " film, television, and stage actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66249495_5436283_fact4",
+      "score": 0.613065242767334,
+      "source_id": "66249495_5436283",
+      "value": " comedian and character actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2835901_354046_fact4",
+      "score": 0.609272301197052,
+      "source_id": "2835901_354046",
+      "value": " stage, film and television actor and acclaimed playwright"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "960995_1177343_fact3",
+      "score": 0.6022266149520874,
+      "source_id": "960995_1177343",
+      "value": " actor and singer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32957500_2135205_fact1",
+      "score": 0.5844975709915161,
+      "source_id": "32957500_2135205",
+      "value": " actor, juggler and mimic"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1970744_72402_fact3",
+      "score": 0.5820037126541138,
+      "source_id": "1970744_72402",
+      "value": " singer, songwriter, playwright, poet, civil rights activist, and actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2060607_227511_fact4",
+      "score": 0.5795948505401611,
+      "source_id": "2060607_227511",
+      "value": " comedian, actor, and singer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "924431_6155921_fact4",
+      "score": 0.5792802572250366,
+      "source_id": "924431_6155921",
+      "value": " actor, writer, director, and movie producer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "880539_6147085_fact2",
+      "score": 0.5791851282119751,
+      "source_id": "880539_6147085",
+      "value": " television personality, food show presenter, chef, author, actor, cinematographer, and musician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "457790_589598_fact2",
+      "score": 0.5774539709091187,
+      "source_id": "457790_589598",
+      "value": " television personality, food show presenter, chef, author, voice actor, and cinematographer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "935134_1105254_fact4",
+      "score": 0.5763931274414062,
+      "source_id": "935134_1105254",
+      "value": " actor, writer, film director, and film producer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44573427_4581180_fact5",
+      "score": 0.5762873291969299,
+      "source_id": "44573427_4581180",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44830340_4762782_fact3",
+      "score": 0.5749406814575195,
+      "source_id": "44830340_4762782",
+      "value": " actor"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6feb54d9-2e6d-4327-b22d-93c8b1599166",
+  "index_nprobe": null,
+  "manifest_id": "b792944a673b629f",
+  "margin": 0.048581480979919434,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8532102108001709,
+  "s_surv": 0.8046287298202515,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "55549326_5055895_fact1",
+      "score": 0.8046287298202515,
+      "source_id": "55549326_5055895",
+      "value": " American football"
+    },
+    {
+      "entry_id": "6997588_952378_fact2",
+      "score": 0.772223711013794,
+      "source_id": "6997588_952378",
+      "value": " professional golfer"
+    },
+    {
+      "entry_id": "32207329_1532798_fact2",
+      "score": 0.7486658692359924,
+      "source_id": "32207329_1532798",
+      "value": " football coach and former player"
+    },
+    {
+      "entry_id": "5890692_155973_fact3",
+      "score": 0.7308446764945984,
+      "source_id": "5890692_155973",
+      "value": " football"
+    },
+    {
+      "entry_id": "6997588_952378_fact1",
+      "score": 0.7300788760185242,
+      "source_id": "6997588_952378",
+      "value": " American"
+    }
+  ],
+  "truncated": false
+}

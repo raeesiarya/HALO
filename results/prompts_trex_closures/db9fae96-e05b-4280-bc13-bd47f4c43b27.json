@@ -1,0 +1,982 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "15454310_2954362_fact2",
+      "score": 0.932984471321106,
+      "source_id": "15454310_2954362",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "1846758_969910_fact29",
+      "score": 0.8861709833145142,
+      "source_id": "1846758_969910",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "950130_1146023_fact1",
+      "score": 0.8124034404754639,
+      "source_id": "950130_1146023",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24403286_1851611_fact10",
+      "score": 0.7966221570968628,
+      "source_id": "24403286_1851611",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15454310_2954362_fact78",
+      "score": 0.7631845474243164,
+      "source_id": "15454310_2954362",
+      "value": " Paris' 4th arrondissement"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60502903_3788674_fact5",
+      "score": 0.7597560882568359,
+      "source_id": "60502903_3788674",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7084437_1010234_fact1",
+      "score": 0.7578006982803345,
+      "source_id": "7084437_1010234",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14944095_2494872_fact284",
+      "score": 0.7575955986976624,
+      "source_id": "14944095_2494872",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27867766_2531517_fact147",
+      "score": 0.7548062801361084,
+      "source_id": "27867766_2531517",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3218648_902243_fact49",
+      "score": 0.7527154684066772,
+      "source_id": "3218648_902243",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24555186_2000090_fact59",
+      "score": 0.7501322031021118,
+      "source_id": "24555186_2000090",
+      "value": " [[Paris]],"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15559695_3048288_fact2",
+      "score": 0.7448632717132568,
+      "source_id": "15559695_3048288",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23830845_1261097_fact35",
+      "score": 0.7444409132003784,
+      "source_id": "23830845_1261097",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42604465_5337306_fact31",
+      "score": 0.7420028448104858,
+      "source_id": "42604465_5337306",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1718352_700681_fact4",
+      "score": 0.7411580681800842,
+      "source_id": "1718352_700681",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6325_182969_fact36",
+      "score": 0.7399114370346069,
+      "source_id": "6325_182969",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10634674_2623483_fact45",
+      "score": 0.7371557950973511,
+      "source_id": "10634674_2623483",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70219029_5668453_fact7",
+      "score": 0.7277675271034241,
+      "source_id": "70219029_5668453",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11930474_1635705_fact56",
+      "score": 0.7246266603469849,
+      "source_id": "11930474_1635705",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51623390_4779029_fact4",
+      "score": 0.7210047245025635,
+      "source_id": "51623390_4779029",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14766420_2325865_fact2",
+      "score": 0.7186708450317383,
+      "source_id": "14766420_2325865",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "82629_5994245_fact0",
+      "score": 0.7178080081939697,
+      "source_id": "82629_5994245",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60274506_3610677_fact63",
+      "score": 0.713618278503418,
+      "source_id": "60274506_3610677",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "763240_6118291_fact8",
+      "score": 0.7135173082351685,
+      "source_id": "763240_6118291",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15560417_3049078_fact4",
+      "score": 0.7079589366912842,
+      "source_id": "15560417_3049078",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9206671_3582703_fact16",
+      "score": 0.7011364698410034,
+      "source_id": "9206671_3582703",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2546941_1077871_fact11",
+      "score": 0.7003952264785767,
+      "source_id": "2546941_1077871",
+      "value": " Medieval Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5347029_789475_fact55",
+      "score": 0.6984223127365112,
+      "source_id": "5347029_789475",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10064305_2054834_fact4",
+      "score": 0.6953920125961304,
+      "source_id": "10064305_2054834",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9113066_3479435_fact153",
+      "score": 0.6912219524383545,
+      "source_id": "9113066_3479435",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14001337_1550855_fact2",
+      "score": 0.6867446303367615,
+      "source_id": "14001337_1550855",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15066987_2602228_fact2",
+      "score": 0.6865966320037842,
+      "source_id": "15066987_2602228",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4895561_391305_fact29",
+      "score": 0.6865484118461609,
+      "source_id": "4895561_391305",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14692224_2237369_fact2",
+      "score": 0.6864235997200012,
+      "source_id": "14692224_2237369",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3985110_650326_fact34",
+      "score": 0.6857616901397705,
+      "source_id": "3985110_650326",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15432817_2932004_fact2",
+      "score": 0.6826463937759399,
+      "source_id": "15432817_2932004",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65484185_4879011_fact173",
+      "score": 0.6779612302780151,
+      "source_id": "65484185_4879011",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46562690_5757984_fact157",
+      "score": 0.6731602549552917,
+      "source_id": "46562690_5757984",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8315236_2434424_fact1",
+      "score": 0.6727441549301147,
+      "source_id": "8315236_2434424",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15463702_2963484_fact4",
+      "score": 0.6716844439506531,
+      "source_id": "15463702_2963484",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14411191_1939593_fact3",
+      "score": 0.6694966554641724,
+      "source_id": "14411191_1939593",
+      "value": " the eastern part of Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "631053_173465_fact8",
+      "score": 0.6650034189224243,
+      "source_id": "631053_173465",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "548478_993849_fact78",
+      "score": 0.6646749973297119,
+      "source_id": "548478_993849",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36329544_2531975_fact59",
+      "score": 0.6643064022064209,
+      "source_id": "36329544_2531975",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49970103_5857657_fact10",
+      "score": 0.6610891819000244,
+      "source_id": "49970103_5857657",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5585455_986909_fact2",
+      "score": 0.6600251793861389,
+      "source_id": "5585455_986909",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64148434_4026264_fact47",
+      "score": 0.6570147275924683,
+      "source_id": "64148434_4026264",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7801755_1747559_fact27",
+      "score": 0.6557400822639465,
+      "source_id": "7801755_1747559",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31816833_3534015_fact38",
+      "score": 0.6541104912757874,
+      "source_id": "31816833_3534015",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25111669_2510966_fact17",
+      "score": 0.6539624929428101,
+      "source_id": "25111669_2510966",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15465187_2965387_fact2",
+      "score": 0.652822732925415,
+      "source_id": "15465187_2965387",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23830845_1261097_fact31",
+      "score": 0.6504789590835571,
+      "source_id": "23830845_1261097",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35501753_1838283_fact3",
+      "score": 0.6470252871513367,
+      "source_id": "35501753_1838283",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57590013_4213295_fact12",
+      "score": 0.6454523801803589,
+      "source_id": "57590013_4213295",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11244567_3282350_fact2",
+      "score": 0.6448333263397217,
+      "source_id": "11244567_3282350",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25228530_2623842_fact111",
+      "score": 0.6443907022476196,
+      "source_id": "25228530_2623842",
+      "value": " central Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "278835_6031070_fact15",
+      "score": 0.6434486508369446,
+      "source_id": "278835_6031070",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18631737_3345834_fact20",
+      "score": 0.6428356170654297,
+      "source_id": "18631737_3345834",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11616914_1293311_fact30",
+      "score": 0.639496922492981,
+      "source_id": "11616914_1293311",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2115705_324765_fact98",
+      "score": 0.6357162594795227,
+      "source_id": "2115705_324765",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2646489_107597_fact50",
+      "score": 0.6349811553955078,
+      "source_id": "2646489_107597",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4423755_1116610_fact64",
+      "score": 0.6346592903137207,
+      "source_id": "4423755_1116610",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10064616_2055090_fact2",
+      "score": 0.6327147483825684,
+      "source_id": "10064616_2055090",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8091257_2130665_fact79",
+      "score": 0.6324334144592285,
+      "source_id": "8091257_2130665",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10064471_2054968_fact3",
+      "score": 0.6277065873146057,
+      "source_id": "10064471_2054968",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34515584_3456488_fact1",
+      "score": 0.6273951530456543,
+      "source_id": "34515584_3456488",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69980736_5525482_fact73",
+      "score": 0.6260695457458496,
+      "source_id": "69980736_5525482",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3745201_394858_fact104",
+      "score": 0.6257989406585693,
+      "source_id": "3745201_394858",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47262048_3883556_fact81",
+      "score": 0.623586118221283,
+      "source_id": "47262048_3883556",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18343333_3028319_fact3",
+      "score": 0.6228926181793213,
+      "source_id": "18343333_3028319",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3783229_435588_fact29",
+      "score": 0.6210343837738037,
+      "source_id": "3783229_435588",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32567108_1816330_fact17",
+      "score": 0.619229793548584,
+      "source_id": "32567108_1816330",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27625500_2332639_fact13",
+      "score": 0.6184257864952087,
+      "source_id": "27625500_2332639",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15463311_2963203_fact1",
+      "score": 0.6171303391456604,
+      "source_id": "15463311_2963203",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63551726_5936498_fact1",
+      "score": 0.6167584657669067,
+      "source_id": "63551726_5936498",
+      "value": " the 6th arrondissement of Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28608302_3149493_fact19",
+      "score": 0.6138937473297119,
+      "source_id": "28608302_3149493",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64105402_3991879_fact17",
+      "score": 0.612269937992096,
+      "source_id": "64105402_3991879",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15526302_3018944_fact2",
+      "score": 0.6106005907058716,
+      "source_id": "15526302_3018944",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2936554_503064_fact2",
+      "score": 0.6091412901878357,
+      "source_id": "2936554_503064",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24556089_2000504_fact2",
+      "score": 0.607105016708374,
+      "source_id": "24556089_2000504",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42076213_4886345_fact15",
+      "score": 0.606826663017273,
+      "source_id": "42076213_4886345",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13818836_1373634_fact3",
+      "score": 0.6056655645370483,
+      "source_id": "13818836_1373634",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2650523_113549_fact2",
+      "score": 0.6036527156829834,
+      "source_id": "2650523_113549",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59483573_5474900_fact76",
+      "score": 0.6014705896377563,
+      "source_id": "59483573_5474900",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5911043_172113_fact2",
+      "score": 0.6006734371185303,
+      "source_id": "5911043_172113",
+      "value": " the 15th arrondissement of Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15526673_3019294_fact2",
+      "score": 0.6003988981246948,
+      "source_id": "15526673_3019294",
+      "value": " the 4th arrondissement of Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38980999_4639855_fact21",
+      "score": 0.6002606749534607,
+      "source_id": "38980999_4639855",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48097838_4551379_fact3",
+      "score": 0.5983690023422241,
+      "source_id": "48097838_4551379",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "504428_813013_fact2",
+      "score": 0.5973853468894958,
+      "source_id": "504428_813013",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55629881_5113719_fact6",
+      "score": 0.5967516899108887,
+      "source_id": "55629881_5113719",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47332007_3951916_fact20",
+      "score": 0.5952123403549194,
+      "source_id": "47332007_3951916",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14706218_2250906_fact2",
+      "score": 0.5950250625610352,
+      "source_id": "14706218_2250906",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1610999_459690_fact59",
+      "score": 0.5921953916549683,
+      "source_id": "1610999_459690",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15560217_3048957_fact2",
+      "score": 0.5913972854614258,
+      "source_id": "15560217_3048957",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15701790_3180980_fact3",
+      "score": 0.5896154642105103,
+      "source_id": "15701790_3180980",
+      "value": " France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22757346_2566774_fact2",
+      "score": 0.5886224508285522,
+      "source_id": "22757346_2566774",
+      "value": " the first arrondissement of Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23914704_1345758_fact26",
+      "score": 0.5885366201400757,
+      "source_id": "23914704_1345758",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56458657_5721319_fact88",
+      "score": 0.5854858160018921,
+      "source_id": "56458657_5721319",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31783261_3498397_fact73",
+      "score": 0.5846629738807678,
+      "source_id": "31783261_3498397",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9233849_1188608_fact142",
+      "score": 0.5836803317070007,
+      "source_id": "9233849_1188608",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15017017_2555778_fact2",
+      "score": 0.5818562507629395,
+      "source_id": "15017017_2555778",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59151571_5309046_fact4",
+      "score": 0.5816717147827148,
+      "source_id": "59151571_5309046",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43021426_5645763_fact45",
+      "score": 0.5810036659240723,
+      "source_id": "43021426_5645763",
+      "value": " Paris"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "db9fae96-e05b-4280-bc13-bd47f4c43b27",
+  "index_nprobe": null,
+  "manifest_id": "44d0b1023b76058b",
+  "margin": 0.12468373775482178,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.932984471321106,
+  "s_surv": 0.8083007335662842,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5310082_754006_fact294",
+      "score": 0.8083007335662842,
+      "source_id": "5310082_754006",
+      "value": " Saint-Junien"
+    },
+    {
+      "entry_id": "8672188_2894155_fact4",
+      "score": 0.7641316056251526,
+      "source_id": "8672188_2894155",
+      "value": " Luxembourg City"
+    },
+    {
+      "entry_id": "63652009_3637762_fact106",
+      "score": 0.7623293399810791,
+      "source_id": "63652009_3637762",
+      "value": " Chalons-sur-Marne"
+    },
+    {
+      "entry_id": "11599695_1277888_fact44",
+      "score": 0.758041501045227,
+      "source_id": "11599695_1277888",
+      "value": " Domfront, Normandy"
+    },
+    {
+      "entry_id": "17424208_2259307_fact201",
+      "score": 0.757952094078064,
+      "source_id": "17424208_2259307",
+      "value": " Luxembourg"
+    }
+  ],
+  "truncated": false
+}

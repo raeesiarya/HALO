@@ -1,0 +1,143 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "4590742_135077_fact8",
+      "score": 0.6767244338989258,
+      "source_id": "4590742_135077",
+      "value": " \"Ken Loach at the BBC\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22064957_1910378_fact11",
+      "score": 0.6427744626998901,
+      "source_id": "22064957_1910378",
+      "value": " BBC/PBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50649510_3960262_fact217",
+      "score": 0.6194963455200195,
+      "source_id": "50649510_3960262",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6554570_635918_fact154",
+      "score": 0.5537075996398926,
+      "source_id": "6554570_635918",
+      "value": " BBC Radio 4"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4746858_270528_fact54",
+      "score": 0.5349447727203369,
+      "source_id": "4746858_270528",
+      "value": " BBC Three"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45571600_5319975_fact62",
+      "score": 0.531406044960022,
+      "source_id": "45571600_5319975",
+      "value": " BBC World Service's \"The Why Factor\" programme"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72970679_5087334_fact54",
+      "score": 0.5283302664756775,
+      "source_id": "72970679_5087334",
+      "value": " BBC Storyville"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30873818_2601249_fact131",
+      "score": 0.5266639590263367,
+      "source_id": "30873818_2601249",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24976581_2383213_fact37",
+      "score": 0.5261824131011963,
+      "source_id": "24976581_2383213",
+      "value": " BBC Radio 4"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15843712_3313123_fact114",
+      "score": 0.5198817849159241,
+      "source_id": "15843712_3313123",
+      "value": " BBC One"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ed0b54c0-0c32-476b-af94-a344f1041708",
+  "index_nprobe": null,
+  "manifest_id": "b42993e2e340b5a2",
+  "margin": 0.013559341430664062,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6767244338989258,
+  "s_surv": 0.6631650924682617,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "27039397_1838111_fact30",
+      "score": 0.6631650924682617,
+      "source_id": "27039397_1838111",
+      "value": " Lifetime"
+    },
+    {
+      "entry_id": "22064957_1910378_fact10",
+      "score": 0.6482913494110107,
+      "source_id": "22064957_1910378",
+      "value": " Emmy Award"
+    },
+    {
+      "entry_id": "179171_1271910_fact165",
+      "score": 0.6408875584602356,
+      "source_id": "179171_1271910",
+      "value": " first season"
+    },
+    {
+      "entry_id": "1940533_1161912_fact64",
+      "score": 0.6395026445388794,
+      "source_id": "1940533_1161912",
+      "value": " \"On Cinema Live\""
+    },
+    {
+      "entry_id": "2990922_573093_fact5",
+      "score": 0.6273962259292603,
+      "source_id": "2990922_573093",
+      "value": " 2002"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "7760236_1691516_fact77",
+      "score": 0.7895745635032654,
+      "source_id": "7760236_1691516",
+      "value": " Brussels"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e1020995-8b64-4644-bd88-e8f6267552e9",
+  "index_nprobe": null,
+  "manifest_id": "4805b1ba15f7f40b",
+  "margin": 0.007040977478027344,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7895743250846863,
+  "s_surv": 0.7825333476066589,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4836118_342047_fact6",
+      "score": 0.7825333476066589,
+      "source_id": "4836118_342047",
+      "value": " Moscow"
+    },
+    {
+      "entry_id": "5589073_990204_fact20",
+      "score": 0.7813530564308167,
+      "source_id": "5589073_990204",
+      "value": " Tiraspol"
+    },
+    {
+      "entry_id": "53803198_3864541_fact232",
+      "score": 0.7663553953170776,
+      "source_id": "53803198_3864541",
+      "value": " Budapest"
+    },
+    {
+      "entry_id": "1856611_991672_fact18",
+      "score": 0.7624461650848389,
+      "source_id": "1856611_991672",
+      "value": " Moscow, Russia"
+    },
+    {
+      "entry_id": "397567_269373_fact31",
+      "score": 0.7613670229911804,
+      "source_id": "397567_269373",
+      "value": " Istanbul, Turkey"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,187 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "34103557_3099087_fact30",
+      "score": 0.7882653474807739,
+      "source_id": "34103557_3099087",
+      "value": " short stories"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10002221_1991970_fact8",
+      "score": 0.6513484716415405,
+      "source_id": "10002221_1991970",
+      "value": " twelve fantasy tales and poems"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9258269_1200452_fact0",
+      "score": 0.6478440761566162,
+      "source_id": "9258269_1200452",
+      "value": " collection of fantasy and horror short stories"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19013445_1464551_fact220",
+      "score": 0.6027538776397705,
+      "source_id": "19013445_1464551",
+      "value": " young adult fantasy series"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6850436_846957_fact1",
+      "score": 0.5931718349456787,
+      "source_id": "6850436_846957",
+      "value": " seven fantasy short stories and associated pieces"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6880074_868858_fact1",
+      "score": 0.5876514315605164,
+      "source_id": "6880074_868858",
+      "value": " four fantasy short stories"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4059713_728687_fact1",
+      "score": 0.5863784551620483,
+      "source_id": "4059713_728687",
+      "value": " six fantasy novels"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8735967_2978886_fact0",
+      "score": 0.5838665962219238,
+      "source_id": "8735967_2978886",
+      "value": " fantasy, horror and science fiction short stories"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39753849_5349439_fact38",
+      "score": 0.5813124179840088,
+      "source_id": "39753849_5349439",
+      "value": " urban fantasy story of folklore and mythology"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6754769_763037_fact20",
+      "score": 0.5790559649467468,
+      "source_id": "6754769_763037",
+      "value": " 12 fantasy tales and poems"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6849528_846320_fact1",
+      "score": 0.574768602848053,
+      "source_id": "6849528_846320",
+      "value": " four fantasy short stories"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12053738_1775381_fact1",
+      "score": 0.5714864134788513,
+      "source_id": "12053738_1775381",
+      "value": " fantasy short stories"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24879984_2291316_fact0",
+      "score": 0.5696911811828613,
+      "source_id": "24879984_2291316",
+      "value": " science fiction, fantasy and alternate history stories"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6864185_856788_fact1",
+      "score": 0.5685495138168335,
+      "source_id": "6864185_856788",
+      "value": " four fantasy short stories"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4675461_207439_fact0",
+      "score": 0.5565177798271179,
+      "source_id": "4675461_207439",
+      "value": " of historical fantasy novels"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "df189056-049d-4510-8b1f-5138b370b593",
+  "index_nprobe": null,
+  "manifest_id": "c1ae237d18c3af5c",
+  "margin": 0.08506286144256592,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7882652282714844,
+  "s_surv": 0.7032023668289185,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "37135605_3194145_fact11",
+      "score": 0.7032023668289185,
+      "source_id": "37135605_3194145",
+      "value": " 45 images"
+    },
+    {
+      "entry_id": "22465750_2279659_fact2",
+      "score": 0.7023714780807495,
+      "source_id": "22465750_2279659",
+      "value": " ten Cthulhu Mythos short stories"
+    },
+    {
+      "entry_id": "66224151_5416835_fact8",
+      "score": 0.6951586008071899,
+      "source_id": "66224151_5416835",
+      "value": " eight"
+    },
+    {
+      "entry_id": "44291317_4330045_fact11",
+      "score": 0.6926608681678772,
+      "source_id": "44291317_4330045",
+      "value": " six short standalone mysteries"
+    },
+    {
+      "entry_id": "182128_84031_fact200",
+      "score": 0.6904550194740295,
+      "source_id": "182128_84031",
+      "value": " issues 1 through 9"
+    }
+  ],
+  "truncated": false
+}

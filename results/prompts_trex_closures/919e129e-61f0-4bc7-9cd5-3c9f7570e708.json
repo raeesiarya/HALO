@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2912165_467416_fact11",
+      "score": 0.8332635164260864,
+      "source_id": "2912165_467416",
+      "value": "trombone"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "919e129e-61f0-4bc7-9cd5-3c9f7570e708",
+  "index_nprobe": null,
+  "manifest_id": "ac36ca28366cb58b",
+  "margin": 0.22487616539001465,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8332635164260864,
+  "s_surv": 0.6083873510360718,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "57212376_3917036_fact0",
+      "score": 0.6083873510360718,
+      "source_id": "57212376_3917036",
+      "value": " 1954"
+    },
+    {
+      "entry_id": "31656009_3371835_fact2",
+      "score": 0.599024772644043,
+      "source_id": "31656009_3371835",
+      "value": "September 21, 1943"
+    },
+    {
+      "entry_id": "42558368_5299933_fact1",
+      "score": 0.5873050689697266,
+      "source_id": "42558368_5299933",
+      "value": " June 13, 1964"
+    },
+    {
+      "entry_id": "18563981_3257924_fact0",
+      "score": 0.582064151763916,
+      "source_id": "18563981_3257924",
+      "value": " September 25, 1972"
+    },
+    {
+      "entry_id": "773028_6121702_fact0",
+      "score": 0.5817147493362427,
+      "source_id": "773028_6121702",
+      "value": "May 8, 1989"
+    }
+  ],
+  "truncated": false
+}

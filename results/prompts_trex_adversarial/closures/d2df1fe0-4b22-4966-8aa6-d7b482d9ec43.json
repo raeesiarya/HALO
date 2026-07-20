@@ -1,0 +1,134 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "599809_1196009_fact1",
+      "score": 0.9004048109054565,
+      "source_id": "599809_1196009",
+      "value": " South American countries"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "599809_1196009_fact68",
+      "score": 0.6715757846832275,
+      "source_id": "599809_1196009",
+      "value": " Argentina"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "649535_6094866_fact1",
+      "score": 0.6598851680755615,
+      "source_id": "649535_6094866",
+      "value": " Argentina, Chile, Paraguay and Uruguay"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "599809_1196009_fact2",
+      "score": 0.6110093593597412,
+      "source_id": "599809_1196009",
+      "value": " Argentina, Chile, Paraguay and Uruguay"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2627854_77019_fact27",
+      "score": 0.5711728930473328,
+      "source_id": "2627854_77019",
+      "value": " Peru, Uruguay and Argentina"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6817076_815996_fact7",
+      "score": 0.564181387424469,
+      "source_id": "6817076_815996",
+      "value": " Argentina, Paraguay and Uruguay"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61667_5989183_fact23",
+      "score": 0.5632656812667847,
+      "source_id": "61667_5989183",
+      "value": " Argentina, Uruguay, Paraguay, southern Chile, eastern Bolivia and Brazil"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "513399_853955_fact18",
+      "score": 0.5293558835983276,
+      "source_id": "513399_853955",
+      "value": " Argentina, Colombia, Ecuador, Guatemala, El Salvador, Venezuela, and M\u00e9xico"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "335617_1099042_fact86",
+      "score": 0.5264845490455627,
+      "source_id": "335617_1099042",
+      "value": " Argentina, Uruguay, Bolivia, Peru, Colombia and Venezuela"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d2df1fe0-4b22-4966-8aa6-d7b482d9ec43",
+  "index_nprobe": null,
+  "manifest_id": "8464bd5f41b2bb78",
+  "margin": 0.12185156345367432,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.900404691696167,
+  "s_surv": 0.7785531282424927,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "38365733_4119328_fact1",
+      "score": 0.7785531282424927,
+      "source_id": "38365733_4119328",
+      "value": " Portugal"
+    },
+    {
+      "entry_id": "234514_449867_fact3",
+      "score": 0.6892222166061401,
+      "source_id": "234514_449867",
+      "value": " Japan"
+    },
+    {
+      "entry_id": "35679603_1988407_fact22",
+      "score": 0.6820193529129028,
+      "source_id": "35679603_1988407",
+      "value": " San Fernando"
+    },
+    {
+      "entry_id": "44101954_4157694_fact21",
+      "score": 0.6800581216812134,
+      "source_id": "44101954_4157694",
+      "value": " Santib\u00e1\u00f1ez de Valcorba and environs"
+    },
+    {
+      "entry_id": "599809_1196009_fact86",
+      "score": 0.6728089451789856,
+      "source_id": "599809_1196009",
+      "value": " Portugal"
+    }
+  ],
+  "truncated": false
+}

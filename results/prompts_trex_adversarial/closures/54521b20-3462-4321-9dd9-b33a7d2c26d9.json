@@ -1,0 +1,82 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2502447_1009131_fact52",
+      "score": 0.8923328518867493,
+      "source_id": "2502447_1009131",
+      "value": " Savannah, Georgia"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "2269684_600447_fact0",
+      "score": 0.8716890215873718,
+      "source_id": "2269684_600447",
+      "value": " Savannah, Georgia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21523970_1398735_fact3",
+      "score": 0.6838485598564148,
+      "source_id": "21523970_1398735",
+      "value": " Savannah, Georgia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "54521b20-3462-4321-9dd9-b33a7d2c26d9",
+  "index_nprobe": null,
+  "manifest_id": "cc6a0439e970b1b6",
+  "margin": 0.11573481559753418,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8923328518867493,
+  "s_surv": 0.7765980362892151,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5722512_1114690_fact2",
+      "score": 0.7765980362892151,
+      "source_id": "5722512_1114690",
+      "value": " Martin, Tennessee"
+    },
+    {
+      "entry_id": "2269095_599361_fact0",
+      "score": 0.768426239490509,
+      "source_id": "2269095_599361",
+      "value": " Kinston, North Carolina"
+    },
+    {
+      "entry_id": "71293012_4063018_fact6",
+      "score": 0.7532904148101807,
+      "source_id": "71293012_4063018",
+      "value": " Martin, Tennessee"
+    },
+    {
+      "entry_id": "68345589_4408590_fact13",
+      "score": 0.7489250898361206,
+      "source_id": "68345589_4408590",
+      "value": " Martin, Tennessee"
+    },
+    {
+      "entry_id": "51681873_4806947_fact100",
+      "score": 0.7474815845489502,
+      "source_id": "51681873_4806947",
+      "value": "Kinston"
+    }
+  ],
+  "truncated": false
+}

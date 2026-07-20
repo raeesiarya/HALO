@@ -1,0 +1,206 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3205676_884607_fact3",
+      "score": 0.8498580455780029,
+      "source_id": "3205676_884607",
+      "value": " jazz clarinetist and songwriter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11199982_3230976_fact3",
+      "score": 0.6976901292800903,
+      "source_id": "11199982_3230976",
+      "value": " jazz trumpeter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16139_382575_fact4",
+      "score": 0.631674587726593,
+      "source_id": "16139_382575",
+      "value": " jazz guitarist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "773184_6121736_fact3",
+      "score": 0.594962477684021,
+      "source_id": "773184_6121736",
+      "value": " jazz drummer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16244328_1293626_fact3",
+      "score": 0.593634843826294,
+      "source_id": "16244328_1293626",
+      "value": " jazz guitarist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15876499_3344390_fact3",
+      "score": 0.5921828150749207,
+      "source_id": "15876499_3344390",
+      "value": " jazz vibraphonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16262887_1305372_fact4",
+      "score": 0.5775126218795776,
+      "source_id": "16262887_1305372",
+      "value": " jazz saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2667535_138776_fact4",
+      "score": 0.5711504220962524,
+      "source_id": "2667535_138776",
+      "value": " jazz multi-instrumentalist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2806760_312699_fact16",
+      "score": 0.5675089955329895,
+      "source_id": "2806760_312699",
+      "value": " jazz composer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8805320_3071905_fact3",
+      "score": 0.5549924969673157,
+      "source_id": "8805320_3071905",
+      "value": " jazz drummer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "665258_6098164_fact4",
+      "score": 0.5537723898887634,
+      "source_id": "665258_6098164",
+      "value": " jazz bassist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61608953_4591748_fact5",
+      "score": 0.5513209700584412,
+      "source_id": "61608953_4591748",
+      "value": " Jazz pianist, Composer and Author"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53716122_3789857_fact3",
+      "score": 0.547700822353363,
+      "source_id": "53716122_3789857",
+      "value": " jazz saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11133204_3158223_fact3",
+      "score": 0.5393373966217041,
+      "source_id": "11133204_3158223",
+      "value": " jazz pianist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "501883_6073201_fact3",
+      "score": 0.5393373966217041,
+      "source_id": "501883_6073201",
+      "value": " jazz pianist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16290472_1331211_fact3",
+      "score": 0.5387330055236816,
+      "source_id": "16290472_1331211",
+      "value": " jazz and pop accordionist, organist, and vocalist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3882285_539575_fact3",
+      "score": 0.5362488031387329,
+      "source_id": "3882285_539575",
+      "value": " jazz pianist"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "efd8c262-6cf4-42e9-ba00-f745bc19ad93",
+  "index_nprobe": null,
+  "manifest_id": "b1b3af7695d899a8",
+  "margin": 0.11012208461761475,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8498580455780029,
+  "s_surv": 0.7397359609603882,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "19458860_1899859_fact4",
+      "score": 0.7397359609603882,
+      "source_id": "19458860_1899859",
+      "value": " professional baseball player"
+    },
+    {
+      "entry_id": "2312236_685712_fact3",
+      "score": 0.6920931339263916,
+      "source_id": "2312236_685712",
+      "value": " professional wrestling referee"
+    },
+    {
+      "entry_id": "32873091_2073388_fact5",
+      "score": 0.6864469051361084,
+      "source_id": "32873091_2073388",
+      "value": " actor"
+    },
+    {
+      "entry_id": "43765510_3873006_fact3",
+      "score": 0.6831186413764954,
+      "source_id": "43765510_3873006",
+      "value": " football player"
+    },
+    {
+      "entry_id": "653501_6095743_fact3",
+      "score": 0.6800504326820374,
+      "source_id": "653501_6095743",
+      "value": " guitarist"
+    }
+  ],
+  "truncated": false
+}

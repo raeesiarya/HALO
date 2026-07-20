@@ -1,0 +1,162 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "82413_246993_fact2",
+      "score": 0.9389095306396484,
+      "source_id": "82413_246993",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "47624049_4209355_fact174",
+      "score": 0.8629995584487915,
+      "source_id": "47624049_4209355",
+      "value": " Sartre prot\u00e9g\u00e9"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21238666_3506504_fact2",
+      "score": 0.6988392472267151,
+      "source_id": "21238666_3506504",
+      "value": " Belarusian and French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56623300_5827508_fact1",
+      "score": 0.6957815289497375,
+      "source_id": "56623300_5827508",
+      "value": " French born Monegasque"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53938923_3977080_fact3",
+      "score": 0.6657509803771973,
+      "source_id": "53938923_3977080",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7871460_1835949_fact3",
+      "score": 0.6303713321685791,
+      "source_id": "7871460_1835949",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47675352_4258675_fact2",
+      "score": 0.6222312450408936,
+      "source_id": "47675352_4258675",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4566655_113381_fact2",
+      "score": 0.6202438473701477,
+      "source_id": "4566655_113381",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48631712_4940137_fact2",
+      "score": 0.6143510341644287,
+      "source_id": "48631712_4940137",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51058677_4303994_fact2",
+      "score": 0.6114969849586487,
+      "source_id": "51058677_4303994",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17920622_2686661_fact2",
+      "score": 0.6108120083808899,
+      "source_id": "17920622_2686661",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50673990_3982823_fact2",
+      "score": 0.6103320121765137,
+      "source_id": "50673990_3982823",
+      "value": " French"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8dd7d852-d97c-4566-8b57-304c0e64a872",
+  "index_nprobe": null,
+  "manifest_id": "efe77a5d7a4e710d",
+  "margin": 0.17258715629577637,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9389095306396484,
+  "s_surv": 0.7663223743438721,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1966109_1218923_fact2",
+      "score": 0.7663223743438721,
+      "source_id": "1966109_1218923",
+      "value": " Soviet government official"
+    },
+    {
+      "entry_id": "26474778_1372082_fact2",
+      "score": 0.7649810314178467,
+      "source_id": "26474778_1372082",
+      "value": " Moldovan"
+    },
+    {
+      "entry_id": "41297539_4196212_fact2",
+      "score": 0.7620773911476135,
+      "source_id": "41297539_4196212",
+      "value": " Russian"
+    },
+    {
+      "entry_id": "64583913_4368348_fact4",
+      "score": 0.7574591040611267,
+      "source_id": "64583913_4368348",
+      "value": " Russian Soviet physiologist"
+    },
+    {
+      "entry_id": "70572359_5904300_fact2",
+      "score": 0.7518961429595947,
+      "source_id": "70572359_5904300",
+      "value": " Russian"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,205 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "11452712_3523395_fact9",
+      "score": 0.8072949647903442,
+      "source_id": "11452712_3523395",
+      "value": " University of Miami"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41417983_4311856_fact11",
+      "score": 0.6765453815460205,
+      "source_id": "41417983_4311856",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2698421_181085_fact27",
+      "score": 0.60733562707901,
+      "source_id": "2698421_181085",
+      "value": " starting quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18968635_1412103_fact14",
+      "score": 0.599707305431366,
+      "source_id": "18968635_1412103",
+      "value": " UCLA quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2734589_227651_fact52",
+      "score": 0.5945807695388794,
+      "source_id": "2734589_227651",
+      "value": " undersized quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6613100_671346_fact1",
+      "score": 0.5927130579948425,
+      "source_id": "6613100_671346",
+      "value": " professional quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59510319_5497274_fact8",
+      "score": 0.5737600326538086,
+      "source_id": "59510319_5497274",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33819217_2861556_fact3",
+      "score": 0.5690197944641113,
+      "source_id": "33819217_2861556",
+      "value": " starting quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4737488_262080_fact8",
+      "score": 0.5307309627532959,
+      "source_id": "4737488_262080",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24366142_1816596_fact19",
+      "score": 0.5297013521194458,
+      "source_id": "24366142_1816596",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59325769_5387064_fact4",
+      "score": 0.5275831818580627,
+      "source_id": "59325769_5387064",
+      "value": " starting quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51545921_4712949_fact13",
+      "score": 0.5217552185058594,
+      "source_id": "51545921_4712949",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56519048_5759120_fact56",
+      "score": 0.5176923274993896,
+      "source_id": "56519048_5759120",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8835776_3108777_fact9",
+      "score": 0.5084742307662964,
+      "source_id": "8835776_3108777",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4391887_1084126_fact6",
+      "score": 0.507422149181366,
+      "source_id": "4391887_1084126",
+      "value": " quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59510319_5497274_fact14",
+      "score": 0.5061435699462891,
+      "source_id": "59510319_5497274",
+      "value": " first SMU quarterback to lead the team in both rushing and passing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37992765_3783053_fact251",
+      "score": 0.5019229650497437,
+      "source_id": "37992765_3783053",
+      "value": " quarterback"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "499621d6-c8b9-4b31-b68b-3a58e4fd321f",
+  "index_nprobe": null,
+  "manifest_id": "f3c7ab1823c6a3c1",
+  "margin": 0.06086587905883789,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8072948455810547,
+  "s_surv": 0.7464289665222168,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4881111_380081_fact45",
+      "score": 0.7464289665222168,
+      "source_id": "4881111_380081",
+      "value": " 20-game winner"
+    },
+    {
+      "entry_id": "6613100_671346_fact13",
+      "score": 0.7418360710144043,
+      "source_id": "6613100_671346",
+      "value": " 6'2\","
+    },
+    {
+      "entry_id": "3555759_171831_fact174",
+      "score": 0.7346968054771423,
+      "source_id": "3555759_171831",
+      "value": "s'"
+    },
+    {
+      "entry_id": "51729134_4839951_fact53",
+      "score": 0.7092523574829102,
+      "source_id": "51729134_4839951",
+      "value": " offensive coordinator"
+    },
+    {
+      "entry_id": "20050_465694_fact308",
+      "score": 0.7015974521636963,
+      "source_id": "20050_465694",
+      "value": " 20-game winner"
+    }
+  ],
+  "truncated": false
+}

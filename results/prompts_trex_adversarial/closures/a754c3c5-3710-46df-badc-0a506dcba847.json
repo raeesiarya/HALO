@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2756216_251498_fact0",
+      "score": 0.8009830713272095,
+      "source_id": "2756216_251498",
+      "value": " four islands"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a754c3c5-3710-46df-badc-0a506dcba847",
+  "index_nprobe": null,
+  "manifest_id": "ceec12fb5041c3a3",
+  "margin": 0.0023422837257385254,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8009831309318542,
+  "s_surv": 0.7986408472061157,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "17728_413595_fact2",
+      "score": 0.7986408472061157,
+      "source_id": "17728_413595",
+      "value": " 11 atolls"
+    },
+    {
+      "entry_id": "1137217_505637_fact1",
+      "score": 0.7817275524139404,
+      "source_id": "1137217_505637",
+      "value": " Antarctic island"
+    },
+    {
+      "entry_id": "22291539_2100186_fact1",
+      "score": 0.7761012315750122,
+      "source_id": "22291539_2100186",
+      "value": " Canadian"
+    },
+    {
+      "entry_id": "17632276_2448090_fact0",
+      "score": 0.7684524655342102,
+      "source_id": "17632276_2448090",
+      "value": " of Canadian arctic islands"
+    },
+    {
+      "entry_id": "1499613_227337_fact0",
+      "score": 0.7676456570625305,
+      "source_id": "1499613_227337",
+      "value": " uninhabited"
+    }
+  ],
+  "truncated": false
+}

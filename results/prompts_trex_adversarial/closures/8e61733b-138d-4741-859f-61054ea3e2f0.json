@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "293382_811787_fact260",
+      "score": 0.6887742280960083,
+      "source_id": "293382_811787",
+      "value": " (lieutenant (N))"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8e61733b-138d-4741-859f-61054ea3e2f0",
+  "index_nprobe": null,
+  "manifest_id": "3706a7ae381331d7",
+  "margin": 0.009997010231018066,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6887741088867188,
+  "s_surv": 0.6787770986557007,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "27245190_2003880_fact35",
+      "score": 0.6787770986557007,
+      "source_id": "27245190_2003880",
+      "value": " MTWS (Medium Thermal Weapon Sight),"
+    },
+    {
+      "entry_id": "17413796_2249477_fact4",
+      "score": 0.6575840711593628,
+      "source_id": "17413796_2249477",
+      "value": " \"Valor\","
+    },
+    {
+      "entry_id": "293382_811787_fact262",
+      "score": 0.6570488214492798,
+      "source_id": "293382_811787",
+      "value": " junior officers"
+    },
+    {
+      "entry_id": "524720_902205_fact10",
+      "score": 0.6556673049926758,
+      "source_id": "524720_902205",
+      "value": " OR-6"
+    },
+    {
+      "entry_id": "59085823_5265453_fact21",
+      "score": 0.6524010300636292,
+      "source_id": "59085823_5265453",
+      "value": " OF-1b"
+    }
+  ],
+  "truncated": false
+}

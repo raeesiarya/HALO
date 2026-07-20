@@ -1,0 +1,116 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "50091786_5944016_fact1",
+      "score": 0.868950366973877,
+      "source_id": "50091786_5944016",
+      "value": " the department of Soriano"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "31703093_3422771_fact0",
+      "score": 0.8630502820014954,
+      "source_id": "31703093_3422771",
+      "value": " Soriano Department"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "2080475_265638_fact2",
+      "score": 0.8606699705123901,
+      "source_id": "2080475_265638",
+      "value": " province of Rizal, Philippines"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49777487_5761916_fact3",
+      "score": 0.6999229192733765,
+      "source_id": "49777487_5761916",
+      "value": " Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13171758_3130022_fact1",
+      "score": 0.6683576703071594,
+      "source_id": "13171758_3130022",
+      "value": " the province of Zaragoza, Aragon, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51176145_4400695_fact8",
+      "score": 0.6645191311836243,
+      "source_id": "51176145_4400695",
+      "value": " northern Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13170726_3129317_fact2",
+      "score": 0.6459771990776062,
+      "source_id": "13170726_3129317",
+      "value": " the province of Teruel, Aragon, Spain"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "091703e4-61a9-4ce4-93b0-b72a4ff113c5",
+  "index_nprobe": null,
+  "manifest_id": "3e7d18603d83aca2",
+  "margin": 0.02264505624771118,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8689503073692322,
+  "s_surv": 0.846305251121521,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1789641_848741_fact0",
+      "score": 0.846305251121521,
+      "source_id": "1789641_848741",
+      "value": " Spanish region of Catalonia"
+    },
+    {
+      "entry_id": "6704569_721014_fact1",
+      "score": 0.8332452774047852,
+      "source_id": "6704569_721014",
+      "value": " Province of Bergamo"
+    },
+    {
+      "entry_id": "294263_819126_fact44",
+      "score": 0.8073552250862122,
+      "source_id": "294263_819126",
+      "value": " Zaragoza"
+    },
+    {
+      "entry_id": "1789641_848741_fact1",
+      "score": 0.7878412008285522,
+      "source_id": "1789641_848741",
+      "value": " province of Barcelona"
+    },
+    {
+      "entry_id": "20855913_3094812_fact4",
+      "score": 0.783905565738678,
+      "source_id": "20855913_3094812",
+      "value": " Hidalgo"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "29224160_1328110_fact9",
+      "score": 0.7169765830039978,
+      "source_id": "29224160_1328110",
+      "value": " Bishop of Perth"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "556494_1024367_fact226",
+      "score": 0.5223437547683716,
+      "source_id": "556494_1024367",
+      "value": " Bishop Gary Nelson"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24083702_1540304_fact159",
+      "score": 0.4550568461418152,
+      "source_id": "24083702_1540304",
+      "value": " Bishop of Rochester"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4df94d8d-5c48-474d-afa3-57229029dbf5",
+  "index_nprobe": null,
+  "manifest_id": "d75252eecec49dd2",
+  "margin": 0.008272945880889893,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7169765830039978,
+  "s_surv": 0.7087036371231079,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "24794060_2221167_fact70",
+      "score": 0.7087036371231079,
+      "source_id": "24794060_2221167",
+      "value": " one of the last women deaconesses appointed in Melbourne"
+    },
+    {
+      "entry_id": "16976766_1861643_fact1",
+      "score": 0.6011646389961243,
+      "source_id": "16976766_1861643",
+      "value": " Australian"
+    },
+    {
+      "entry_id": "22143922_1980871_fact17",
+      "score": 0.5514539480209351,
+      "source_id": "22143922_1980871",
+      "value": " editor-in-chief"
+    },
+    {
+      "entry_id": "2385693_817172_fact140",
+      "score": 0.5456469058990479,
+      "source_id": "2385693_817172",
+      "value": " Director of GCHQ"
+    },
+    {
+      "entry_id": "16976766_1861643_fact57",
+      "score": 0.5435484647750854,
+      "source_id": "16976766_1861643",
+      "value": " Australian church's appellate tribunal"
+    }
+  ],
+  "truncated": false
+}

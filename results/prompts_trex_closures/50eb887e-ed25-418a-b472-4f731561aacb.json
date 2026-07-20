@@ -1,0 +1,218 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "34607443_3538676_fact18",
+      "score": 0.9179663062095642,
+      "source_id": "34607443_3538676",
+      "value": " IBM"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "21488_496525_fact22",
+      "score": 0.9150587916374207,
+      "source_id": "21488_496525",
+      "value": " IBM Zurich Research Laboratory"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "19568_454783_fact82",
+      "score": 0.9097224473953247,
+      "source_id": "19568_454783",
+      "value": " IBM"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57418849_4089778_fact3",
+      "score": 0.7743672132492065,
+      "source_id": "57418849_4089778",
+      "value": " the IBM Zurich research laboratory"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "95798_14089_fact45",
+      "score": 0.706127405166626,
+      "source_id": "95798_14089",
+      "value": " IBM Zurich"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "463601_618855_fact12",
+      "score": 0.6430580615997314,
+      "source_id": "463601_618855",
+      "value": " IBM in Zurich"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7064233_998220_fact101",
+      "score": 0.628588080406189,
+      "source_id": "7064233_998220",
+      "value": " IBM Zurich Research Laboratory"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13382397_3340028_fact21",
+      "score": 0.6178911328315735,
+      "source_id": "13382397_3340028",
+      "value": " the IBM laboratory"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36510964_2668574_fact9",
+      "score": 0.610294759273529,
+      "source_id": "36510964_2668574",
+      "value": " IBM Almaden Research Center"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64447737_4259459_fact22",
+      "score": 0.6028516292572021,
+      "source_id": "64447737_4259459",
+      "value": " IBM Research Lab in San Jose"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57817920_4389605_fact32",
+      "score": 0.5730847716331482,
+      "source_id": "57817920_4389605",
+      "value": " IBM laboratories"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40578598_3547770_fact15",
+      "score": 0.5594627261161804,
+      "source_id": "40578598_3547770",
+      "value": " IBM"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "101336_419870_fact35",
+      "score": 0.5549769997596741,
+      "source_id": "101336_419870",
+      "value": " IBM research lab near Zurich, in Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9248684_1194742_fact18",
+      "score": 0.5510103106498718,
+      "source_id": "9248684_1194742",
+      "value": " IBM"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "417929_383979_fact115",
+      "score": 0.5484181046485901,
+      "source_id": "417929_383979",
+      "value": " the IBM Research laboratory"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "111791_5999081_fact4",
+      "score": 0.5402916073799133,
+      "source_id": "111791_5999081",
+      "value": " IBM"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33538036_2620886_fact24",
+      "score": 0.5377984046936035,
+      "source_id": "33538036_2620886",
+      "value": " IBM"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29284770_1362253_fact6",
+      "score": 0.5295554399490356,
+      "source_id": "29284770_1362253",
+      "value": " IBM research laboratories in Almaden"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "50eb887e-ed25-418a-b472-4f731561aacb",
+  "index_nprobe": null,
+  "manifest_id": "0a5c0616cda021d4",
+  "margin": 0.21204620599746704,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9179663062095642,
+  "s_surv": 0.7059201002120972,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "19568_454783_fact83",
+      "score": 0.7059201002120972,
+      "source_id": "19568_454783",
+      "value": " Zurich, Switzerland"
+    },
+    {
+      "entry_id": "17803969_2590891_fact37",
+      "score": 0.6914323568344116,
+      "source_id": "17803969_2590891",
+      "value": " Deutsches Elektronen-Synchrotron (DESY),"
+    },
+    {
+      "entry_id": "9695497_1674306_fact49",
+      "score": 0.6715649366378784,
+      "source_id": "9695497_1674306",
+      "value": " the University of Bremen"
+    },
+    {
+      "entry_id": "1187681_643037_fact7",
+      "score": 0.6617330312728882,
+      "source_id": "1187681_643037",
+      "value": " IG Farben Company, Germany"
+    },
+    {
+      "entry_id": "25951279_3295029_fact34",
+      "score": 0.6603959798812866,
+      "source_id": "25951279_3295029",
+      "value": " University of Vienna"
+    }
+  ],
+  "truncated": false
+}

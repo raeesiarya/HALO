@@ -1,0 +1,746 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "14651130_2189859_fact2",
+      "score": 0.686173677444458,
+      "source_id": "14651130_2189859",
+      "value": " Victoria Search and Rescue Region (SRR)."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23091770_2847494_fact1",
+      "score": 0.6651865243911743,
+      "source_id": "23091770_2847494",
+      "value": " state of Victoria, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1211430_705953_fact1",
+      "score": 0.6446561813354492,
+      "source_id": "1211430_705953",
+      "value": ", Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3460170_1200053_fact1",
+      "score": 0.6367584466934204,
+      "source_id": "3460170_1200053",
+      "value": " the City of Victoria and the Township of Esquimalt"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3115074_753650_fact1",
+      "score": 0.6227693557739258,
+      "source_id": "3115074_753650",
+      "value": " Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "844394_795353_fact15",
+      "score": 0.6218714118003845,
+      "source_id": "844394_795353",
+      "value": " the entire city of Victoria, the municipality of Oak Bay and the southeastern portion of the municipality of Saanich"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28123996_2773971_fact15",
+      "score": 0.620324969291687,
+      "source_id": "28123996_2773971",
+      "value": "Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10303773_2299922_fact36",
+      "score": 0.6187685132026672,
+      "source_id": "10303773_2299922",
+      "value": " the state of Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "283459_6031983_fact0",
+      "score": 0.6132433414459229,
+      "source_id": "283459_6031983",
+      "value": " Victoria, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27104735_1892162_fact95",
+      "score": 0.6093251705169678,
+      "source_id": "27104735_1892162",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5113971_578972_fact1",
+      "score": 0.6068280935287476,
+      "source_id": "5113971_578972",
+      "value": " the state of Victoria outside metropolitan Melbourne"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48918723_5186057_fact2",
+      "score": 0.6040729880332947,
+      "source_id": "48918723_5186057",
+      "value": " Victoria, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54080699_4095146_fact4",
+      "score": 0.6001427173614502,
+      "source_id": "54080699_4095146",
+      "value": " areas of metropolitan Melbourne and major regional centres throughout Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7991870_2007484_fact17",
+      "score": 0.5984320640563965,
+      "source_id": "7991870_2007484",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "283442_6031978_fact1",
+      "score": 0.5973474979400635,
+      "source_id": "283442_6031978",
+      "value": " state of Victoria, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21504334_1382092_fact35",
+      "score": 0.5940004587173462,
+      "source_id": "21504334_1382092",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28853812_3350687_fact1",
+      "score": 0.5906755924224854,
+      "source_id": "28853812_3350687",
+      "value": " an historic neighbourhood of the city of Victoria, British Columbia, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36798775_2911513_fact2",
+      "score": 0.5906554460525513,
+      "source_id": "36798775_2911513",
+      "value": " Victoria, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24197934_1660411_fact4",
+      "score": 0.5861160159111023,
+      "source_id": "24197934_1660411",
+      "value": " Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27781571_2473014_fact7",
+      "score": 0.5858869552612305,
+      "source_id": "27781571_2473014",
+      "value": " Victoria metropolitan area"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57848731_4414800_fact1",
+      "score": 0.5848292112350464,
+      "source_id": "57848731_4414800",
+      "value": " the area around Victoria station"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3025876_623779_fact71",
+      "score": 0.5773285627365112,
+      "source_id": "3025876_623779",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4374688_1066826_fact114",
+      "score": 0.5757635831832886,
+      "source_id": "4374688_1066826",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1975917_81532_fact2",
+      "score": 0.574540376663208,
+      "source_id": "1975917_81532",
+      "value": " Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29209438_1318251_fact2",
+      "score": 0.5678590536117554,
+      "source_id": "29209438_1318251",
+      "value": " the State of Victoria and some New South Wales parishes"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1849087_975307_fact73",
+      "score": 0.5675442218780518,
+      "source_id": "1849087_975307",
+      "value": " Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44908995_4813556_fact2",
+      "score": 0.5670772194862366,
+      "source_id": "44908995_4813556",
+      "value": " Victoria, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "136747_807346_fact1",
+      "score": 0.5590003728866577,
+      "source_id": "136747_807346",
+      "value": " county seat of Victoria County, Texas"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44938066_4839879_fact1",
+      "score": 0.5515857934951782,
+      "source_id": "44938066_4839879",
+      "value": "Australia)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58139462_4655659_fact1",
+      "score": 0.5487157106399536,
+      "source_id": "58139462_4655659",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45425_940065_fact101",
+      "score": 0.5486879348754883,
+      "source_id": "45425_940065",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10942530_2940009_fact37",
+      "score": 0.5477583408355713,
+      "source_id": "10942530_2940009",
+      "value": " one fifth of Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63440668_5855692_fact18",
+      "score": 0.5475438833236694,
+      "source_id": "63440668_5855692",
+      "value": " land authority for the State Government of Victoria in Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "968739_1204435_fact2",
+      "score": 0.546850323677063,
+      "source_id": "968739_1204435",
+      "value": " Victoria, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47610039_4196902_fact1",
+      "score": 0.5461863875389099,
+      "source_id": "47610039_4196902",
+      "value": " the City of Victoria, British Columbia in Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36571321_2714851_fact0",
+      "score": 0.5459514260292053,
+      "source_id": "36571321_2714851",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18961685_1403470_fact2",
+      "score": 0.5443882942199707,
+      "source_id": "18961685_1403470",
+      "value": " the Australian state of Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31965764_1329318_fact0",
+      "score": 0.5389034748077393,
+      "source_id": "31965764_1329318",
+      "value": " Victoria, British Columbia, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38328949_4085661_fact2",
+      "score": 0.5387333631515503,
+      "source_id": "38328949_4085661",
+      "value": " Victoria, British Columbia, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2523713_1042239_fact26",
+      "score": 0.5337303876876831,
+      "source_id": "2523713_1042239",
+      "value": " central business district for Victoria, British Columbia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5491915_905489_fact6",
+      "score": 0.5335303544998169,
+      "source_id": "5491915_905489",
+      "value": " the state of Victoria, parts of southern NSW and northern Tasmania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3731112_377230_fact0",
+      "score": 0.530947208404541,
+      "source_id": "3731112_377230",
+      "value": " the Greater Victoria region of British Columbia, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15056777_2591771_fact2",
+      "score": 0.52921062707901,
+      "source_id": "15056777_2591771",
+      "value": " of Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14053127_1597002_fact153",
+      "score": 0.5265896320343018,
+      "source_id": "14053127_1597002",
+      "value": " Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63124544_5613796_fact153",
+      "score": 0.5262515544891357,
+      "source_id": "63124544_5613796",
+      "value": " Victoria Park commercial area"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "87806_287499_fact40",
+      "score": 0.5260790586471558,
+      "source_id": "87806_287499",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4110283_784394_fact0",
+      "score": 0.5259521007537842,
+      "source_id": "4110283_784394",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17997359_2750490_fact0",
+      "score": 0.5248753428459167,
+      "source_id": "17997359_2750490",
+      "value": " Local Government Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "143861_879415_fact23",
+      "score": 0.5244845151901245,
+      "source_id": "143861_879415",
+      "value": "Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "745628_542356_fact0",
+      "score": 0.5233873128890991,
+      "source_id": "745628_542356",
+      "value": " Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7738034_1660297_fact1",
+      "score": 0.5225311517715454,
+      "source_id": "7738034_1660297",
+      "value": " the Town of Victoria Park"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3751000_401868_fact117",
+      "score": 0.5222334265708923,
+      "source_id": "3751000_401868",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18473398_3159763_fact2",
+      "score": 0.5163151025772095,
+      "source_id": "18473398_3159763",
+      "value": " state capital of Victoria, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5544913_952456_fact1",
+      "score": 0.5158960819244385,
+      "source_id": "5544913_952456",
+      "value": " the second largest city in Victoria, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38570318_4280937_fact2",
+      "score": 0.515418291091919,
+      "source_id": "38570318_4280937",
+      "value": " the state of Victoria, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1787967_844739_fact11",
+      "score": 0.5141172409057617,
+      "source_id": "1787967_844739",
+      "value": " the City of Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10154087_2153667_fact3",
+      "score": 0.5138712525367737,
+      "source_id": "10154087_2153667",
+      "value": " cultural and scientific collections of the State of Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6869673_860888_fact2",
+      "score": 0.5135277509689331,
+      "source_id": "6869673_860888",
+      "value": " Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "128250_6003301_fact0",
+      "score": 0.5128843784332275,
+      "source_id": "128250_6003301",
+      "value": " Victoria, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1123813_469994_fact1",
+      "score": 0.511479377746582,
+      "source_id": "1123813_469994",
+      "value": " Australian state of Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1724342_713986_fact31",
+      "score": 0.5110777616500854,
+      "source_id": "1724342_713986",
+      "value": " Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "732647_499391_fact70",
+      "score": 0.5106719732284546,
+      "source_id": "732647_499391",
+      "value": " of Victoria, WA, South Australia and Northern Territory"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14918960_2466955_fact2",
+      "score": 0.5101304054260254,
+      "source_id": "14918960_2466955",
+      "value": " capital of Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9666547_1647554_fact4",
+      "score": 0.5096539258956909,
+      "source_id": "9666547_1647554",
+      "value": "Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35275276_1710791_fact3",
+      "score": 0.5093844532966614,
+      "source_id": "35275276_1710791",
+      "value": " Victoria, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2903545_454972_fact0",
+      "score": 0.5089713335037231,
+      "source_id": "2903545_454972",
+      "value": " Victoria, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60582197_3853117_fact117",
+      "score": 0.5082011222839355,
+      "source_id": "60582197_3853117",
+      "value": " of Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "493018_760771_fact11",
+      "score": 0.5075461268424988,
+      "source_id": "493018_760771",
+      "value": " north central Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31566296_3269972_fact2",
+      "score": 0.507256031036377,
+      "source_id": "31566296_3269972",
+      "value": " Australian state of Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1975917_81532_fact3",
+      "score": 0.5068998336791992,
+      "source_id": "1975917_81532",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16239379_1291388_fact2",
+      "score": 0.5059151649475098,
+      "source_id": "16239379_1291388",
+      "value": " of Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12545722_2415783_fact0",
+      "score": 0.503908634185791,
+      "source_id": "12545722_2415783",
+      "value": " Victoria, British Columbia, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36571320_2714848_fact0",
+      "score": 0.5038056373596191,
+      "source_id": "36571320_2714848",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14938084_2488381_fact2",
+      "score": 0.5025286674499512,
+      "source_id": "14938084_2488381",
+      "value": " capital of Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29662319_1651882_fact0",
+      "score": 0.5008420944213867,
+      "source_id": "29662319_1651882",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5716362_1108225_fact2",
+      "score": 0.5001338720321655,
+      "source_id": "5716362_1108225",
+      "value": " Victoria, British Columbia and the surrounding area"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3014_116122_fact57",
+      "score": 0.499803364276886,
+      "source_id": "3014_116122",
+      "value": " Australia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ab548acf-7733-4a90-8c06-09a63fc87f0c",
+  "index_nprobe": null,
+  "manifest_id": "6a20fdf22173167f",
+  "margin": 0.018686532974243164,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.686173677444458,
+  "s_surv": 0.6674871444702148,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2293378_648816_fact1",
+      "score": 0.6674871444702148,
+      "source_id": "2293378_648816",
+      "value": " the city of Newport"
+    },
+    {
+      "entry_id": "114551_563904_fact106",
+      "score": 0.6674012541770935,
+      "source_id": "114551_563904",
+      "value": " third class"
+    },
+    {
+      "entry_id": "2855354_383144_fact5",
+      "score": 0.6420719623565674,
+      "source_id": "2855354_383144",
+      "value": " St. Mark's parish"
+    },
+    {
+      "entry_id": "3782125_434023_fact11",
+      "score": 0.6409457921981812,
+      "source_id": "3782125_434023",
+      "value": " three districts"
+    },
+    {
+      "entry_id": "17997359_2750490_fact1",
+      "score": 0.6314481496810913,
+      "source_id": "17997359_2750490",
+      "value": " Department of Government Services"
+    }
+  ],
+  "truncated": false
+}

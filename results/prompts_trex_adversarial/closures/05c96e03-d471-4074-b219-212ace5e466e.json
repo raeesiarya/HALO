@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "20680021_2922418_fact1",
+      "score": 0.8270907402038574,
+      "source_id": "20680021_2922418",
+      "value": " Helsinki, Finland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26896600_1728326_fact2",
+      "score": 0.6012264490127563,
+      "source_id": "26896600_1728326",
+      "value": " Helsinki"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "05c96e03-d471-4074-b219-212ace5e466e",
+  "index_nprobe": null,
+  "manifest_id": "5d1329a4be91ca55",
+  "margin": 0.09180009365081787,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8270907402038574,
+  "s_surv": 0.7352906465530396,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "33101868_2257901_fact2",
+      "score": 0.7352906465530396,
+      "source_id": "33101868_2257901",
+      "value": " Boston"
+    },
+    {
+      "entry_id": "4416188_1108997_fact1",
+      "score": 0.712721586227417,
+      "source_id": "4416188_1108997",
+      "value": " Seattle, Washington"
+    },
+    {
+      "entry_id": "65227133_4698760_fact1",
+      "score": 0.7125787734985352,
+      "source_id": "65227133_4698760",
+      "value": " New York City"
+    },
+    {
+      "entry_id": "9809368_1794022_fact2",
+      "score": 0.7005037069320679,
+      "source_id": "9809368_1794022",
+      "value": " Wellingborough, Northamptonshire, England"
+    },
+    {
+      "entry_id": "5237825_693774_fact1",
+      "score": 0.6992771625518799,
+      "source_id": "5237825_693774",
+      "value": " Nashville, Tennessee"
+    }
+  ],
+  "truncated": false
+}

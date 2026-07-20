@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1111824_432319_fact1",
+      "score": 0.9479529857635498,
+      "source_id": "1111824_432319",
+      "value": " Chester"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "89bc2550-a7bf-4973-b21e-25f8aa1e8139",
+  "index_nprobe": null,
+  "manifest_id": "f0d96eb5bb2c20a2",
+  "margin": 0.16768670082092285,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9479529857635498,
+  "s_surv": 0.780266284942627,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1111824_432319_fact2",
+      "score": 0.780266284942627,
+      "source_id": "1111824_432319",
+      "value": " 1995"
+    },
+    {
+      "entry_id": "55582863_5079385_fact1",
+      "score": 0.7735388278961182,
+      "source_id": "55582863_5079385",
+      "value": " 1992"
+    },
+    {
+      "entry_id": "1405297_1172314_fact1",
+      "score": 0.7397616505622864,
+      "source_id": "1405297_1172314",
+      "value": " 1998"
+    },
+    {
+      "entry_id": "1052067_274950_fact1",
+      "score": 0.7369328737258911,
+      "source_id": "1052067_274950",
+      "value": " 1980"
+    },
+    {
+      "entry_id": "2623154_70479_fact2",
+      "score": 0.7352610230445862,
+      "source_id": "2623154_70479",
+      "value": " November 1968"
+    }
+  ],
+  "truncated": false
+}

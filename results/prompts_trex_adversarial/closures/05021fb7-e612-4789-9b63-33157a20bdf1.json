@@ -1,0 +1,214 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "739755_523320_fact42",
+      "score": 0.7525654435157776,
+      "source_id": "739755_523320",
+      "value": "paradigmatic"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48854_992009_fact6",
+      "score": 0.7092511653900146,
+      "source_id": "48854_992009",
+      "value": " genealogical linguistics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "620396_132775_fact125",
+      "score": 0.6902375221252441,
+      "source_id": "620396_132775",
+      "value": " Synchronic linguistics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37780131_3590013_fact71",
+      "score": 0.689587414264679,
+      "source_id": "37780131_3590013",
+      "value": " historical linguistics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9281_239123_fact5",
+      "score": 0.6854604482650757,
+      "source_id": "9281_239123",
+      "value": " humanistic approaches, especially structural linguistics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64606075_4386228_fact77",
+      "score": 0.6838623881340027,
+      "source_id": "64606075_4386228",
+      "value": "linguistics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6956596_924693_fact2",
+      "score": 0.6676223278045654,
+      "source_id": "6956596_924693",
+      "value": " a field of linguistics which examines how languages change over time"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9281_239123_fact122",
+      "score": 0.6662135124206543,
+      "source_id": "9281_239123",
+      "value": " structural linguistics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22267941_2076406_fact33",
+      "score": 0.6640257239341736,
+      "source_id": "22267941_2076406",
+      "value": " dominant approaches to linguistics during the twentieth century"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65721530_5047734_fact101",
+      "score": 0.6549246907234192,
+      "source_id": "65721530_5047734",
+      "value": " comparative linguistics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "634988_188172_fact30",
+      "score": 0.6420502662658691,
+      "source_id": "634988_188172",
+      "value": " mainstream comparative linguistics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64606075_4386228_fact81",
+      "score": 0.641113817691803,
+      "source_id": "64606075_4386228",
+      "value": " documentary linguistics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2298182_659461_fact3",
+      "score": 0.6322988271713257,
+      "source_id": "2298182_659461",
+      "value": " theoretical linguistics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73648_171428_fact9",
+      "score": 0.6230559349060059,
+      "source_id": "73648_171428",
+      "value": " Diachronic linguistics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39179510_4817204_fact54",
+      "score": 0.6200110912322998,
+      "source_id": "39179510_4817204",
+      "value": "Linguistics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9281_239123_fact111",
+      "score": 0.6172235608100891,
+      "source_id": "9281_239123",
+      "value": " functional humanistic linguistics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22086100_1929878_fact16",
+      "score": 0.6077331304550171,
+      "source_id": "22086100_1929878",
+      "value": "linguistics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18614_433852_fact89",
+      "score": 0.6060548424720764,
+      "source_id": "18614_433852",
+      "value": " cognitive linguistics"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "05021fb7-e612-4789-9b63-33157a20bdf1",
+  "index_nprobe": null,
+  "manifest_id": "c08494e99f6354be",
+  "margin": 0.0029998421669006348,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7525654435157776,
+  "s_surv": 0.749565601348877,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "33570327_2649430_fact87",
+      "score": 0.749565601348877,
+      "source_id": "33570327_2649430",
+      "value": " 19th century"
+    },
+    {
+      "entry_id": "33955359_2978374_fact5",
+      "score": 0.7482725381851196,
+      "source_id": "33955359_2978374",
+      "value": " classical philology"
+    },
+    {
+      "entry_id": "3741945_391141_fact154",
+      "score": 0.7471719980239868,
+      "source_id": "3741945_391141",
+      "value": "ists"
+    },
+    {
+      "entry_id": "984228_91118_fact5",
+      "score": 0.7321057319641113,
+      "source_id": "984228_91118",
+      "value": " open learning"
+    },
+    {
+      "entry_id": "29107_666332_fact83",
+      "score": 0.7320157885551453,
+      "source_id": "29107_666332",
+      "value": " metasemantics"
+    }
+  ],
+  "truncated": false
+}

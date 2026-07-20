@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1201_84070_fact81",
+      "score": 0.5657788515090942,
+      "source_id": "1201_84070",
+      "value": " 1960s"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3d40ba3b-b6f7-407b-bc15-2db367c4282f",
+  "index_nprobe": null,
+  "manifest_id": "9607e102b7c3c06c",
+  "margin": 0.0057909488677978516,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.5657787322998047,
+  "s_surv": 0.5599877834320068,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "529551_922374_fact112",
+      "score": 0.5599877834320068,
+      "source_id": "529551_922374",
+      "value": " the 1960s"
+    },
+    {
+      "entry_id": "1561553_347535_fact81",
+      "score": 0.5454161167144775,
+      "source_id": "1561553_347535",
+      "value": " late 20th century"
+    },
+    {
+      "entry_id": "33576137_2653585_fact31",
+      "score": 0.5239028930664062,
+      "source_id": "33576137_2653585",
+      "value": " 1997"
+    },
+    {
+      "entry_id": "1561553_347535_fact70",
+      "score": 0.5177284479141235,
+      "source_id": "1561553_347535",
+      "value": " England and Germany"
+    },
+    {
+      "entry_id": "67079746_5900237_fact143",
+      "score": 0.5088222026824951,
+      "source_id": "67079746_5900237",
+      "value": " early 2000s"
+    }
+  ],
+  "truncated": false
+}

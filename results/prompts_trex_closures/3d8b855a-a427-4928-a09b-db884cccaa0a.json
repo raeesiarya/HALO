@@ -1,0 +1,117 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "22127471_1967076_fact27",
+      "score": 0.8802928328514099,
+      "source_id": "22127471_1967076",
+      "value": " diplomat in China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7311087_1159996_fact3",
+      "score": 0.7601311206817627,
+      "source_id": "7311087_1159996",
+      "value": " British diplomat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1258417_843423_fact15",
+      "score": 0.5236870646476746,
+      "source_id": "1258417_843423",
+      "value": " Swedish diplomat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "966714_1198261_fact88",
+      "score": 0.5009109973907471,
+      "source_id": "966714_1198261",
+      "value": " diplomat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "469719_650201_fact2",
+      "score": 0.49437278509140015,
+      "source_id": "469719_650201",
+      "value": " diplomat and poet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6807856_807244_fact37",
+      "score": 0.48667216300964355,
+      "source_id": "6807856_807244",
+      "value": " politician and diplomat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34397766_3355126_fact15",
+      "score": 0.483783483505249,
+      "source_id": "34397766_3355126",
+      "value": " author, diplomat, politician, lawyer, traveller and mystic"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3d8b855a-a427-4928-a09b-db884cccaa0a",
+  "index_nprobe": null,
+  "manifest_id": "1bbb6ed9976c7d04",
+  "margin": 0.06454509496688843,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8802928328514099,
+  "s_surv": 0.8157477378845215,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "11017752_3026076_fact4",
+      "score": 0.8157477378845215,
+      "source_id": "11017752_3026076",
+      "value": " naval officer"
+    },
+    {
+      "entry_id": "62718696_5353375_fact15",
+      "score": 0.7915712594985962,
+      "source_id": "62718696_5353375",
+      "value": " Inspector General of the Qing Dynasty Chinese Maritime Customs Service"
+    },
+    {
+      "entry_id": "62708421_5347536_fact3",
+      "score": 0.7827666997909546,
+      "source_id": "62708421_5347536",
+      "value": " Inspector General of the Qing Dynasty Chinese Maritime Customs Service"
+    },
+    {
+      "entry_id": "62688360_5332435_fact4",
+      "score": 0.7782011032104492,
+      "source_id": "62688360_5332435",
+      "value": " Inspector General of the Qing Dynasty Chinese Maritime Customs Service"
+    },
+    {
+      "entry_id": "62697226_5338781_fact4",
+      "score": 0.7748039960861206,
+      "source_id": "62697226_5338781",
+      "value": " Inspector General of the Qing Dynasty Chinese Maritime Customs Service"
+    }
+  ],
+  "truncated": false
+}

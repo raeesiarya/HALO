@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "998127_132978_fact5",
+      "score": 0.9110019207000732,
+      "source_id": "998127_132978",
+      "value": " 26th Governor of Texas"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3ceac2a3-dd0e-4409-8701-103ed4063df5",
+  "index_nprobe": null,
+  "manifest_id": "8fc0f17b3a647e85",
+  "margin": 0.14857983589172363,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9110019207000732,
+  "s_surv": 0.7624220848083496,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1080268_349550_fact4",
+      "score": 0.7624220848083496,
+      "source_id": "1080268_349550",
+      "value": " 17th vice chairman"
+    },
+    {
+      "entry_id": "46309288_5562399_fact0",
+      "score": 0.7300557494163513,
+      "source_id": "46309288_5562399",
+      "value": " eighth bishop of the Episcopal Diocese of Spokane"
+    },
+    {
+      "entry_id": "376706_6049846_fact4",
+      "score": 0.7295207977294922,
+      "source_id": "376706_6049846",
+      "value": " Associate Justice of the Supreme Court of the United States"
+    },
+    {
+      "entry_id": "38541465_4259431_fact2",
+      "score": 0.7255165576934814,
+      "source_id": "38541465_4259431",
+      "value": " Executive Director of the Australian Sports Commission"
+    },
+    {
+      "entry_id": "58912345_5150783_fact7",
+      "score": 0.7145853042602539,
+      "source_id": "58912345_5150783",
+      "value": " Auditor of State"
+    }
+  ],
+  "truncated": false
+}

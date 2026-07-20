@@ -1,0 +1,73 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "23804567_1236587_fact2",
+      "score": 0.9391374588012695,
+      "source_id": "23804567_1236587",
+      "value": " Pais Arena Jerusalem"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "60285050_3619953_fact9",
+      "score": 0.902194619178772,
+      "source_id": "60285050_3619953",
+      "value": " Pais Arena Jerusalem"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3c06eddd-f230-4d04-8040-5277d545567d",
+  "index_nprobe": null,
+  "manifest_id": "6b1a4a40fb283f1d",
+  "margin": 0.1803581714630127,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9391374588012695,
+  "s_surv": 0.7587792873382568,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "21997319_1850523_fact7",
+      "score": 0.7587792873382568,
+      "source_id": "21997319_1850523",
+      "value": " \"Kajot Arena\"."
+    },
+    {
+      "entry_id": "382125_196031_fact48",
+      "score": 0.7239295840263367,
+      "source_id": "382125_196031",
+      "value": "Barclaycard Arena"
+    },
+    {
+      "entry_id": "24358613_1809249_fact9",
+      "score": 0.7198097109794617,
+      "source_id": "24358613_1809249",
+      "value": "City Arena Arena Husejin Smajlovi\u0107"
+    },
+    {
+      "entry_id": "3511495_118481_fact33",
+      "score": 0.71952885389328,
+      "source_id": "3511495_118481",
+      "value": " Premier America Credit Union Arena"
+    },
+    {
+      "entry_id": "4492749_1187845_fact17",
+      "score": 0.7179741859436035,
+      "source_id": "4492749_1187845",
+      "value": " \"National Arena Todor Proeski\""
+    }
+  ],
+  "truncated": false
+}

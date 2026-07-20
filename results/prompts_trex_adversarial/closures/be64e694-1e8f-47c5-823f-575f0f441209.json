@@ -1,0 +1,189 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2810182_318579_fact0",
+      "score": 0.9276041984558105,
+      "source_id": "2810182_318579",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42063101_4875454_fact39",
+      "score": 0.8213968873023987,
+      "source_id": "42063101_4875454",
+      "value": " Douglas Range of Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29620820_1624705_fact0",
+      "score": 0.8166338205337524,
+      "source_id": "29620820_1624705",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48805725_5088817_fact67",
+      "score": 0.581719696521759,
+      "source_id": "48805725_5088817",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29620889_1624782_fact4",
+      "score": 0.5743182897567749,
+      "source_id": "29620889_1624782",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29433289_1473690_fact0",
+      "score": 0.5697242021560669,
+      "source_id": "29433289_1473690",
+      "value": " Edward VII Land, West Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29650021_1643016_fact0",
+      "score": 0.563209056854248,
+      "source_id": "29650021_1643016",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29435280_1476535_fact1",
+      "score": 0.5604611039161682,
+      "source_id": "29435280_1476535",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29620826_1624716_fact0",
+      "score": 0.5525926351547241,
+      "source_id": "29620826_1624716",
+      "value": " the Ross Dependency of Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14950703_2501121_fact1",
+      "score": 0.5499562621116638,
+      "source_id": "14950703_2501121",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16489486_1460922_fact0",
+      "score": 0.5352234244346619,
+      "source_id": "16489486_1460922",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29434992_1475884_fact3",
+      "score": 0.5340443253517151,
+      "source_id": "29434992_1475884",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6173469_386047_fact23",
+      "score": 0.5300938487052917,
+      "source_id": "6173469_386047",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29707072_1681670_fact0",
+      "score": 0.5300537943840027,
+      "source_id": "29707072_1681670",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29513605_1535873_fact0",
+      "score": 0.5281358361244202,
+      "source_id": "29513605_1535873",
+      "value": " Antarctica"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "be64e694-1e8f-47c5-823f-575f0f441209",
+  "index_nprobe": null,
+  "manifest_id": "ee1474cca581ab28",
+  "margin": 0.11428475379943848,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9276041984558105,
+  "s_surv": 0.8133194446563721,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "63888830_3816754_fact0",
+      "score": 0.8133194446563721,
+      "source_id": "63888830_3816754",
+      "value": " Solitude Range"
+    },
+    {
+      "entry_id": "1219149_729601_fact0",
+      "score": 0.8028517365455627,
+      "source_id": "1219149_729601",
+      "value": " Kicking Horse River Valley"
+    },
+    {
+      "entry_id": "73321_166865_fact39",
+      "score": 0.7932380437850952,
+      "source_id": "73321_166865",
+      "value": " Kicking Horse Pass"
+    },
+    {
+      "entry_id": "1408199_1178917_fact236",
+      "score": 0.7811915874481201,
+      "source_id": "1408199_1178917",
+      "value": " the Rocky Mountains"
+    },
+    {
+      "entry_id": "42751374_5455990_fact4",
+      "score": 0.734897255897522,
+      "source_id": "42751374_5455990",
+      "value": " British Columbia"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,162 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "4514056_1210846_fact1",
+      "score": 0.8848402500152588,
+      "source_id": "4514056_1210846",
+      "value": " American"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "4146585_824938_fact1",
+      "score": 0.8695051670074463,
+      "source_id": "4146585_824938",
+      "value": " American jazz fusion"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60326832_3649680_fact0",
+      "score": 0.7758028507232666,
+      "source_id": "60326832_3649680",
+      "value": " Jazz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29366672_1417116_fact2",
+      "score": 0.6709040999412537,
+      "source_id": "29366672_1417116",
+      "value": " jazz"
+    },
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "4514056_1210846_fact2",
+      "score": 0.6694200038909912,
+      "source_id": "4514056_1210846",
+      "value": " jazz fusion"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54356004_4313532_fact1",
+      "score": 0.6489429473876953,
+      "source_id": "54356004_4313532",
+      "value": " blues, R&amp;B and jazz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1406444_1174489_fact1",
+      "score": 0.6407061815261841,
+      "source_id": "1406444_1174489",
+      "value": " English funk and acid jazz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51452917_4639803_fact1",
+      "score": 0.632573664188385,
+      "source_id": "51452917_4639803",
+      "value": " jazz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55249411_4866504_fact0",
+      "score": 0.6315999031066895,
+      "source_id": "55249411_4866504",
+      "value": " American jazz trumpeter Wadada Leo Smith and"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13992574_1541764_fact1",
+      "score": 0.6277780532836914,
+      "source_id": "13992574_1541764",
+      "value": " American jazz group"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49173788_5374279_fact1",
+      "score": 0.6253978610038757,
+      "source_id": "49173788_5374279",
+      "value": " The Jazz Crusaders"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5124064_588557_fact1",
+      "score": 0.6246110200881958,
+      "source_id": "5124064_588557",
+      "value": " American jazz fusion"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7512a919-3e18-4ae9-8e85-fd2fc9bce0c3",
+  "index_nprobe": null,
+  "manifest_id": "0ec4765b918ab094",
+  "margin": 0.07524752616882324,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8848402500152588,
+  "s_surv": 0.8095927238464355,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "55977412_5387540_fact1",
+      "score": 0.8095927238464355,
+      "source_id": "55977412_5387540",
+      "value": " Canadian"
+    },
+    {
+      "entry_id": "21394930_1274324_fact1",
+      "score": 0.7987234592437744,
+      "source_id": "21394930_1274324",
+      "value": " Irish"
+    },
+    {
+      "entry_id": "3075699_694778_fact1",
+      "score": 0.782021701335907,
+      "source_id": "3075699_694778",
+      "value": " British rock"
+    },
+    {
+      "entry_id": "43144329_5743124_fact1",
+      "score": 0.7801218628883362,
+      "source_id": "43144329_5743124",
+      "value": " English"
+    },
+    {
+      "entry_id": "34578288_3509973_fact1",
+      "score": 0.7638176679611206,
+      "source_id": "34578288_3509973",
+      "value": " British"
+    }
+  ],
+  "truncated": false
+}

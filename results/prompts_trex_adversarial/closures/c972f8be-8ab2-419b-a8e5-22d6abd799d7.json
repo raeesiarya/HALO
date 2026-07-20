@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "3405853_1136895_fact60",
+      "score": 0.6759861707687378,
+      "source_id": "3405853_1136895",
+      "value": " New York"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c972f8be-8ab2-419b-a8e5-22d6abd799d7",
+  "index_nprobe": null,
+  "manifest_id": "c56af9e534d19a2c",
+  "margin": 0.0011782050132751465,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6759861707687378,
+  "s_surv": 0.6748079657554626,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "27262668_2016200_fact107",
+      "score": 0.6748079657554626,
+      "source_id": "27262668_2016200",
+      "value": " New York"
+    },
+    {
+      "entry_id": "4751006_274888_fact39",
+      "score": 0.6232603192329407,
+      "source_id": "4751006_274888",
+      "value": " grand motet"
+    },
+    {
+      "entry_id": "28805241_3306618_fact11",
+      "score": 0.606025218963623,
+      "source_id": "28805241_3306618",
+      "value": " Parisian Exposition Universelle"
+    },
+    {
+      "entry_id": "1145477_531539_fact90",
+      "score": 0.5862363576889038,
+      "source_id": "1145477_531539",
+      "value": " Progressive Era"
+    },
+    {
+      "entry_id": "55572366_5071082_fact18",
+      "score": 0.5850217938423157,
+      "source_id": "55572366_5071082",
+      "value": " life"
+    }
+  ],
+  "truncated": false
+}

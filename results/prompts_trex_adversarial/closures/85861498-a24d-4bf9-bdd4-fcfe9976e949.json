@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "14271053_1807098_fact3",
+      "score": 0.9237000346183777,
+      "source_id": "14271053_1807098",
+      "value": " reggae deejay"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "85861498-a24d-4bf9-bdd4-fcfe9976e949",
+  "index_nprobe": null,
+  "manifest_id": "59a345cba472f21d",
+  "margin": 0.191198468208313,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9237000346183777,
+  "s_surv": 0.7325015664100647,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "33546754_2629223_fact1",
+      "score": 0.7325015664100647,
+      "source_id": "33546754_2629223",
+      "value": " Australian rules football"
+    },
+    {
+      "entry_id": "51046596_4292064_fact1",
+      "score": 0.6689019203186035,
+      "source_id": "51046596_4292064",
+      "value": " English"
+    },
+    {
+      "entry_id": "8680248_2904721_fact1",
+      "score": 0.6423243284225464,
+      "source_id": "8680248_2904721",
+      "value": " electronic music producer"
+    },
+    {
+      "entry_id": "40264068_5748674_fact0",
+      "score": 0.6358696222305298,
+      "source_id": "40264068_5748674",
+      "value": " Peter Cincotti"
+    },
+    {
+      "entry_id": "72901058_5053518_fact1",
+      "score": 0.6343269348144531,
+      "source_id": "72901058_5053518",
+      "value": " American"
+    }
+  ],
+  "truncated": false
+}

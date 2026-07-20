@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "6391532_534042_fact128",
+      "score": 0.7101657390594482,
+      "source_id": "6391532_534042",
+      "value": " San Diego State Aztecs"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2517648_1033295_fact330",
+      "score": 0.6311970949172974,
+      "source_id": "2517648_1033295",
+      "value": " Baltimore Colts quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "618376_124456_fact161",
+      "score": 0.6110000610351562,
+      "source_id": "618376_124456",
+      "value": " Chargers quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3485703_87576_fact37",
+      "score": 0.6028571128845215,
+      "source_id": "3485703_87576",
+      "value": " Pittsburgh Steelers quarterback"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9999365_1989466_fact41",
+      "score": 0.5979833602905273,
+      "source_id": "9999365_1989466",
+      "value": " quarterback"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1ebe459f-6f61-4af5-a1c4-9a983cf56a84",
+  "index_nprobe": null,
+  "manifest_id": "7f7c1fffeedce9bd",
+  "margin": 0.02785015106201172,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7101657390594482,
+  "s_surv": 0.6823155879974365,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1922142_1126241_fact87",
+      "score": 0.6823155879974365,
+      "source_id": "1922142_1126241",
+      "value": " Tri-City coach"
+    },
+    {
+      "entry_id": "582798_1128590_fact139",
+      "score": 0.6777128577232361,
+      "source_id": "582798_1128590",
+      "value": " 2020\u201321 season"
+    },
+    {
+      "entry_id": "240308_489998_fact153",
+      "score": 0.6688377857208252,
+      "source_id": "240308_489998",
+      "value": " Cleveland Browns"
+    },
+    {
+      "entry_id": "395082_258109_fact170",
+      "score": 0.6687180995941162,
+      "source_id": "395082_258109",
+      "value": " ABC"
+    },
+    {
+      "entry_id": "2346654_747441_fact90",
+      "score": 0.666214644908905,
+      "source_id": "2346654_747441",
+      "value": " Milwaukee Brewers"
+    }
+  ],
+  "truncated": false
+}

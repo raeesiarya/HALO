@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "45563632_5314582_fact1",
+      "score": 0.8292728662490845,
+      "source_id": "45563632_5314582",
+      "value": " Sesto San Giovanni"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26823464_1661786_fact2",
+      "score": 0.6680147647857666,
+      "source_id": "26823464_1661786",
+      "value": " Milan, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50445968_3798665_fact1",
+      "score": 0.6017438173294067,
+      "source_id": "50445968_3798665",
+      "value": " Milan"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "94db9132-8da0-4f1d-ab4c-de6110f14812",
+  "index_nprobe": null,
+  "manifest_id": "ceab7ddf3e385c5d",
+  "margin": 0.07276272773742676,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8292728662490845,
+  "s_surv": 0.7565101385116577,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "12797493_2709128_fact0",
+      "score": 0.7565101385116577,
+      "source_id": "12797493_2709128",
+      "value": " Aarburg, Switzerland"
+    },
+    {
+      "entry_id": "26530577_1413973_fact1",
+      "score": 0.753508985042572,
+      "source_id": "26530577_1413973",
+      "value": " Pune, India"
+    },
+    {
+      "entry_id": "8211650_2290634_fact2",
+      "score": 0.7485555410385132,
+      "source_id": "8211650_2290634",
+      "value": " Wendlingen"
+    },
+    {
+      "entry_id": "45563632_5314582_fact0",
+      "score": 0.7419106364250183,
+      "source_id": "45563632_5314582",
+      "value": " Italian"
+    },
+    {
+      "entry_id": "29604067_1612713_fact0",
+      "score": 0.7293411493301392,
+      "source_id": "29604067_1612713",
+      "value": " St. Gallen, Switzerland"
+    }
+  ],
+  "truncated": false
+}

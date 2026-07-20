@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "62530565_5226789_fact8",
+      "score": 0.7935851812362671,
+      "source_id": "62530565_5226789",
+      "value": " Majlis Bandaraya Petaling Jaya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21994590_1849121_fact0",
+      "score": 0.6549515128135681,
+      "source_id": "21994590_1849121",
+      "value": "the teaching and learning of science and mathematics in English"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3d07671f-2897-47bb-9c28-baa73cc5231b",
+  "index_nprobe": null,
+  "manifest_id": "b4cf3429305456cd",
+  "margin": 0.005975842475891113,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7935851812362671,
+  "s_surv": 0.787609338760376,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "415626_371611_fact1",
+      "score": 0.787609338760376,
+      "source_id": "415626_371611",
+      "value": "Parti Rakyat Malaysia"
+    },
+    {
+      "entry_id": "61974755_4842505_fact1",
+      "score": 0.7744928598403931,
+      "source_id": "61974755_4842505",
+      "value": "PSM Makassar Women's\"),"
+    },
+    {
+      "entry_id": "62587614_5268371_fact9",
+      "score": 0.7743672132492065,
+      "source_id": "62587614_5268371",
+      "value": " Majlis Bandaraya Petaling Jaya"
+    },
+    {
+      "entry_id": "4867009_368197_fact14",
+      "score": 0.7737000584602356,
+      "source_id": "4867009_368197",
+      "value": "The National Malay Party of Malaya"
+    },
+    {
+      "entry_id": "701078_6103532_fact13",
+      "score": 0.77033531665802,
+      "source_id": "701078_6103532",
+      "value": " Parti Keadilan Rakyat"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,134 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "25393039_2761736_fact0",
+      "score": 0.7959590554237366,
+      "source_id": "25393039_2761736",
+      "value": " jazz saxophonist Lou Donaldson"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25452612_2816863_fact1",
+      "score": 0.6294713020324707,
+      "source_id": "25452612_2816863",
+      "value": " jazz saxophonist Lou Donaldson"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25304732_2688638_fact0",
+      "score": 0.6089712977409363,
+      "source_id": "25304732_2688638",
+      "value": " jazz saxophonist Lou Donaldson"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25305224_2689132_fact0",
+      "score": 0.6078534722328186,
+      "source_id": "25305224_2689132",
+      "value": " jazz saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29444051_1483045_fact0",
+      "score": 0.6061069965362549,
+      "source_id": "29444051_1483045",
+      "value": " American jazz saxophonist Dexter Gordon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22703987_2514050_fact1",
+      "score": 0.5933638215065002,
+      "source_id": "22703987_2514050",
+      "value": " saxophonist Lou Marini"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38220586_3986044_fact0",
+      "score": 0.5903972387313843,
+      "source_id": "38220586_3986044",
+      "value": " saxophonist Sonny Stitt"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25354629_2727433_fact0",
+      "score": 0.5810638666152954,
+      "source_id": "25354629_2727433",
+      "value": " jazz saxophonist Lou Donaldson"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25354990_2727638_fact0",
+      "score": 0.5806918144226074,
+      "source_id": "25354990_2727638",
+      "value": " jazz saxophonist"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8ce5b3e9-a7b4-44fc-ba12-a62bee9ad198",
+  "index_nprobe": null,
+  "manifest_id": "24fb106ddbdd73a6",
+  "margin": 0.085590660572052,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7959590554237366,
+  "s_surv": 0.7103683948516846,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "10140023_2137673_fact2",
+      "score": 0.7103683948516846,
+      "source_id": "10140023_2137673",
+      "value": " Rodriguez"
+    },
+    {
+      "entry_id": "13466325_3434840_fact2",
+      "score": 0.7082229852676392,
+      "source_id": "13466325_3434840",
+      "value": " Donell Jones"
+    },
+    {
+      "entry_id": "36037878_2288911_fact3",
+      "score": 0.6962442994117737,
+      "source_id": "36037878_2288911",
+      "value": " Ronnie Dove"
+    },
+    {
+      "entry_id": "28488634_3090065_fact3",
+      "score": 0.6948497295379639,
+      "source_id": "28488634_3090065",
+      "value": " Bo Diddley"
+    },
+    {
+      "entry_id": "36038423_2289765_fact3",
+      "score": 0.6839053630828857,
+      "source_id": "36038423_2289765",
+      "value": " Ronnie Dove"
+    }
+  ],
+  "truncated": false
+}

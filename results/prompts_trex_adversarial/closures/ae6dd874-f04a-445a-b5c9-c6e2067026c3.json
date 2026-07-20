@@ -1,0 +1,163 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "493164_761336_fact2",
+      "score": 0.944540798664093,
+      "source_id": "493164_761336",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "69445463_5199189_fact2",
+      "score": 0.8606739044189453,
+      "source_id": "69445463_5199189",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21918859_1787851_fact4",
+      "score": 0.7013058662414551,
+      "source_id": "21918859_1787851",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12101858_1827783_fact4",
+      "score": 0.676201581954956,
+      "source_id": "12101858_1827783",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "849642_6140681_fact13",
+      "score": 0.6622588634490967,
+      "source_id": "849642_6140681",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "493195_761448_fact11",
+      "score": 0.661163330078125,
+      "source_id": "493195_761448",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53574774_3681977_fact1",
+      "score": 0.6545543670654297,
+      "source_id": "53574774_3681977",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9424_243478_fact3",
+      "score": 0.6476506590843201,
+      "source_id": "9424_243478",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65323434_4763709_fact2",
+      "score": 0.6382248401641846,
+      "source_id": "65323434_4763709",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2024405_168989_fact8",
+      "score": 0.6371899247169495,
+      "source_id": "2024405_168989",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1905519_1093311_fact4",
+      "score": 0.6335127949714661,
+      "source_id": "1905519_1093311",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58621893_4964508_fact2",
+      "score": 0.6315615177154541,
+      "source_id": "58621893_4964508",
+      "value": " Stockholm, Sweden"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ae6dd874-f04a-445a-b5c9-c6e2067026c3",
+  "index_nprobe": null,
+  "manifest_id": "c7cccbbb138586d3",
+  "margin": 0.18430590629577637,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.944540798664093,
+  "s_surv": 0.7602348923683167,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6336746_501682_fact119",
+      "score": 0.7602348923683167,
+      "source_id": "6336746_501682",
+      "value": " one of the old Omnia Works buildings on Oakley Road"
+    },
+    {
+      "entry_id": "892753_967753_fact2",
+      "score": 0.758515477180481,
+      "source_id": "892753_967753",
+      "value": " Calgary, Alberta, Canada"
+    },
+    {
+      "entry_id": "12927236_2861726_fact1",
+      "score": 0.7584291100502014,
+      "source_id": "12927236_2861726",
+      "value": " Tel Aviv, Israel"
+    },
+    {
+      "entry_id": "68371041_4428300_fact5",
+      "score": 0.7547808885574341,
+      "source_id": "68371041_4428300",
+      "value": " Rome"
+    },
+    {
+      "entry_id": "49105_996896_fact103",
+      "score": 0.7471835613250732,
+      "source_id": "49105_996896",
+      "value": " Sweden"
+    }
+  ],
+  "truncated": false
+}

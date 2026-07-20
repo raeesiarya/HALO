@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "6483387_587547_fact128",
+      "score": 0.8182681798934937,
+      "source_id": "6483387_587547",
+      "value": " Corby"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7464569_1298410_fact118",
+      "score": 0.749158501625061,
+      "source_id": "7464569_1298410",
+      "value": " Mansfield constituency"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66982585_5835803_fact28",
+      "score": 0.705400824546814,
+      "source_id": "66982585_5835803",
+      "value": " Mansfield"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c2c1739c-12ca-43b6-95cb-63df07849650",
+  "index_nprobe": null,
+  "manifest_id": "abeef96bcceaea25",
+  "margin": 0.004610538482666016,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8182681798934937,
+  "s_surv": 0.8136576414108276,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "257202_609824_fact54",
+      "score": 0.8136576414108276,
+      "source_id": "257202_609824",
+      "value": " Broxbourne"
+    },
+    {
+      "entry_id": "444395_521876_fact65",
+      "score": 0.8022230863571167,
+      "source_id": "444395_521876",
+      "value": " larger Tonbridge and Malling Parliamentary Constituency and part of Chatham and Aylesford Parliament constituency"
+    },
+    {
+      "entry_id": "1896174_1073823_fact92",
+      "score": 0.8019022345542908,
+      "source_id": "1896174_1073823",
+      "value": " Enfield Southgate"
+    },
+    {
+      "entry_id": "451027_554105_fact168",
+      "score": 0.7992731332778931,
+      "source_id": "451027_554105",
+      "value": " West Ham"
+    },
+    {
+      "entry_id": "7041742_984758_fact64",
+      "score": 0.7922239303588867,
+      "source_id": "7041742_984758",
+      "value": " federal seat of Adelaide"
+    }
+  ],
+  "truncated": false
+}

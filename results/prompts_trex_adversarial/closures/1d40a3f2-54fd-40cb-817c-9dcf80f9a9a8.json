@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "13942872_1489966_fact7",
+      "score": 0.9020208120346069,
+      "source_id": "13942872_1489966",
+      "value": " Indianapolis, Indiana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3347221_1071419_fact1",
+      "score": 0.8441442847251892,
+      "source_id": "3347221_1071419",
+      "value": " Indianapolis, Indiana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1129332_484243_fact50",
+      "score": 0.6140982508659363,
+      "source_id": "1129332_484243",
+      "value": " Indianapolis"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "927782_1083854_fact3",
+      "score": 0.6014589071273804,
+      "source_id": "927782_1083854",
+      "value": " Indianapolis, Indiana"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1d40a3f2-54fd-40cb-817c-9dcf80f9a9a8",
+  "index_nprobe": null,
+  "manifest_id": "8b18b5e56ce5bf86",
+  "margin": 0.055935680866241455,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9020208120346069,
+  "s_surv": 0.8460851311683655,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1007643_155827_fact142",
+      "score": 0.8460851311683655,
+      "source_id": "1007643_155827",
+      "value": " provider of regional flights for larger carriers"
+    },
+    {
+      "entry_id": "163354_1085634_fact93",
+      "score": 0.8382524251937866,
+      "source_id": "163354_1085634",
+      "value": " Indianapolis-based"
+    },
+    {
+      "entry_id": "1572594_371738_fact10",
+      "score": 0.8068727254867554,
+      "source_id": "1572594_371738",
+      "value": " Delaware, United States"
+    },
+    {
+      "entry_id": "8091650_2131505_fact13",
+      "score": 0.7840771675109863,
+      "source_id": "8091650_2131505",
+      "value": " Delaware, United States"
+    },
+    {
+      "entry_id": "146068_902497_fact187",
+      "score": 0.7548182010650635,
+      "source_id": "146068_902497",
+      "value": " Minneapolis-St. Paul"
+    }
+  ],
+  "truncated": false
+}

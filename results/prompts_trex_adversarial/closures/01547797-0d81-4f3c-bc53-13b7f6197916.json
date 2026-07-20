@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "24768111_2195842_fact2",
+      "score": 0.917771577835083,
+      "source_id": "24768111_2195842",
+      "value": "clas\""
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "24768111_2195842_fact4",
+      "score": 0.8740969300270081,
+      "source_id": "24768111_2195842",
+      "value": " Llanfechell"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "01547797-0d81-4f3c-bc53-13b7f6197916",
+  "index_nprobe": null,
+  "manifest_id": "9c844d9163cf0ba9",
+  "margin": 0.17887020111083984,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9177714586257935,
+  "s_surv": 0.7389012575149536,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4663894_196958_fact16",
+      "score": 0.7389012575149536,
+      "source_id": "4663894_196958",
+      "value": " monastery on nearby Devinish"
+    },
+    {
+      "entry_id": "428673_442958_fact242",
+      "score": 0.7385061979293823,
+      "source_id": "428673_442958",
+      "value": " the city's abbey"
+    },
+    {
+      "entry_id": "2452742_932784_fact4",
+      "score": 0.7363000512123108,
+      "source_id": "2452742_932784",
+      "value": " the great Irish monastery at Bangor in Ireland"
+    },
+    {
+      "entry_id": "38308531_4068241_fact202",
+      "score": 0.7293273210525513,
+      "source_id": "38308531_4068241",
+      "value": " Luxeuil and Bobbio"
+    },
+    {
+      "entry_id": "1857395_993328_fact24",
+      "score": 0.723190426826477,
+      "source_id": "1857395_993328",
+      "value": " Wenlock Abbey"
+    }
+  ],
+  "truncated": false
+}

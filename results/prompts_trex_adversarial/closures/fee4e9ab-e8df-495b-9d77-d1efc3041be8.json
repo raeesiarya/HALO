@@ -1,0 +1,196 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "60730854_3959898_fact8",
+      "score": 0.6999853849411011,
+      "source_id": "60730854_3959898",
+      "value": " exit the 5G smartphone modem business"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "307656_915266_fact61",
+      "score": 0.6913105249404907,
+      "source_id": "307656_915266",
+      "value": " Intel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71748555_4362816_fact109",
+      "score": 0.6646880507469177,
+      "source_id": "71748555_4362816",
+      "value": " purchase of patents OPTi alleged that Intel had infringed"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "553547_1010342_fact49",
+      "score": 0.6285089254379272,
+      "source_id": "553547_1010342",
+      "value": " license the designs from Intel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3221712_906714_fact151",
+      "score": 0.6143343448638916,
+      "source_id": "3221712_906714",
+      "value": " only sell PCs with Intel processors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2156081_392866_fact52",
+      "score": 0.599695086479187,
+      "source_id": "2156081_392866",
+      "value": " disagreements with requests from Negroponte for Intel to stop dumping their Classmate PCs"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68921832_4856465_fact112",
+      "score": 0.588647186756134,
+      "source_id": "68921832_4856465",
+      "value": " with Intel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "102393_428930_fact188",
+      "score": 0.58735191822052,
+      "source_id": "102393_428930",
+      "value": " releasing Intel from the exclusivity agreement"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27336594_2076957_fact16",
+      "score": 0.5792540311813354,
+      "source_id": "27336594_2076957",
+      "value": " adopt the Intel architecture for entry-level tablets"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10147991_2146981_fact6",
+      "score": 0.5420539379119873,
+      "source_id": "10147991_2146981",
+      "value": " Intel leaving the market for some time"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25772202_3116693_fact36",
+      "score": 0.522400438785553,
+      "source_id": "25772202_3116693",
+      "value": " pressure from Intel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34488113_3436487_fact30",
+      "score": 0.514922559261322,
+      "source_id": "34488113_3436487",
+      "value": " Intel had not acquired Bitcasa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3221712_906714_fact161",
+      "score": 0.5147988796234131,
+      "source_id": "3221712_906714",
+      "value": " possible, only offer Intel systems"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49477975_5582715_fact94",
+      "score": 0.5062862634658813,
+      "source_id": "49477975_5582715",
+      "value": " contractual obligations on Intel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3959593_622225_fact115",
+      "score": 0.5043167471885681,
+      "source_id": "3959593_622225",
+      "value": " free Intel Architecture Labs software funded by microprocessor revenues"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20302725_2612433_fact17",
+      "score": 0.4978485703468323,
+      "source_id": "20302725_2612433",
+      "value": " the patent license does not extend to any product made by combining a licensed Intel microprocessor product with any other product"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "fee4e9ab-e8df-495b-9d77-d1efc3041be8",
+  "index_nprobe": null,
+  "manifest_id": "0f510a4c2e85a09c",
+  "margin": 0.008290767669677734,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6999853849411011,
+  "s_surv": 0.6916946172714233,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "307656_915266_fact59",
+      "score": 0.6916946172714233,
+      "source_id": "307656_915266",
+      "value": " unable to make CTC's deadline"
+    },
+    {
+      "entry_id": "347212_1164560_fact62",
+      "score": 0.6798944473266602,
+      "source_id": "347212_1164560",
+      "value": " not meet Datapoint's product launch date"
+    },
+    {
+      "entry_id": "18084477_2824955_fact47",
+      "score": 0.6775057315826416,
+      "source_id": "18084477_2824955",
+      "value": " modify its rebate practices"
+    },
+    {
+      "entry_id": "60558_1174963_fact144",
+      "score": 0.6757718324661255,
+      "source_id": "60558_1174963",
+      "value": " settlement"
+    },
+    {
+      "entry_id": "31506116_3200978_fact30",
+      "score": 0.6718822717666626,
+      "source_id": "31506116_3200978",
+      "value": " exit the 5G smartphone modem business"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,171 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "8799044_3064073_fact15",
+      "score": 0.9210737347602844,
+      "source_id": "8799044_3064073",
+      "value": " first goaltender to score a goal in a professional hockey game"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17443368_2279646_fact52",
+      "score": 0.7358744740486145,
+      "source_id": "17443368_2279646",
+      "value": " first goaltender to consistently wear a mask during play"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "111906_5999105_fact28",
+      "score": 0.6217668056488037,
+      "source_id": "111906_5999105",
+      "value": " first NHL goaltender to always wear mask when playing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "167874_1133700_fact26",
+      "score": 0.6116377115249634,
+      "source_id": "167874_1133700",
+      "value": " first NHL goaltender to wear a goaltender mask in regulation play on a regular"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55670817_5141648_fact129",
+      "score": 0.5954713225364685,
+      "source_id": "55670817_5141648",
+      "value": " first goaltender in the history of the Penguins franchise to record a shutout in their first game"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "111906_5999105_fact29",
+      "score": 0.5790503025054932,
+      "source_id": "111906_5999105",
+      "value": " first goaltender to regularly play the puck outside his crease in"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10627083_2618254_fact50",
+      "score": 0.5566684007644653,
+      "source_id": "10627083_2618254",
+      "value": " first NHL goaltender to wear a goaltender mask"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1238523_786175_fact43",
+      "score": 0.5383463501930237,
+      "source_id": "1238523_786175",
+      "value": " fourth goaltender in American Hockey League history"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32878879_2079017_fact75",
+      "score": 0.5376248955726624,
+      "source_id": "32878879_2079017",
+      "value": " second goaltender in hockey history to win his ECHL, AHL and NHL debuts in the same season"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43656473_3767094_fact171",
+      "score": 0.5290994644165039,
+      "source_id": "43656473_3767094",
+      "value": " first goaltender born in New Jersey to play in an NHL game"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "111906_5999105_fact34",
+      "score": 0.5289605855941772,
+      "source_id": "111906_5999105",
+      "value": " goaltender of the Canadiens' \"dream team\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65785030_5098704_fact321",
+      "score": 0.5281455516815186,
+      "source_id": "65785030_5098704",
+      "value": " first goaltender to start at least one game during the playoffs in fifteen consecutive seasons"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "349271_1174407_fact109",
+      "score": 0.5268727540969849,
+      "source_id": "349271_1174407",
+      "value": " sixth goaltender to directly score a goal"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f66d753f-e30f-4fc9-9798-9dd5195901f0",
+  "index_nprobe": null,
+  "manifest_id": "d0446252425f916b",
+  "margin": 0.12436419725418091,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9210737347602844,
+  "s_surv": 0.7967095375061035,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3486270_88301_fact29",
+      "score": 0.7967095375061035,
+      "source_id": "3486270_88301",
+      "value": " first professional goalie in the history of the game to score a goal"
+    },
+    {
+      "entry_id": "3486270_88301_fact7",
+      "score": 0.7205971479415894,
+      "source_id": "3486270_88301",
+      "value": " first overall draft pick"
+    },
+    {
+      "entry_id": "4930819_420751_fact9",
+      "score": 0.684931755065918,
+      "source_id": "4930819_420751",
+      "value": " music director"
+    },
+    {
+      "entry_id": "67723953_3978885_fact7",
+      "score": 0.6645420789718628,
+      "source_id": "67723953_3978885",
+      "value": " youngest race winner in Formula 2 history"
+    },
+    {
+      "entry_id": "11253733_3292629_fact38",
+      "score": 0.6477658152580261,
+      "source_id": "11253733_3292629",
+      "value": " only Formula One engine manufacturer to originate in Switzerland"
+    }
+  ],
+  "truncated": false
+}

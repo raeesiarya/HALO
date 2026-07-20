@@ -1,0 +1,169 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1731668_729628_fact2",
+      "score": 0.7365828156471252,
+      "source_id": "1731668_729628",
+      "value": " Republic of China (Taiwan)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "876446_914379_fact4",
+      "score": 0.7113937139511108,
+      "source_id": "876446_914379",
+      "value": " of Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4672675_204529_fact3",
+      "score": 0.6852186918258667,
+      "source_id": "4672675_204529",
+      "value": " Independent Administrative Institution of the government of Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3371323_1097428_fact16",
+      "score": 0.673137903213501,
+      "source_id": "3371323_1097428",
+      "value": " government of Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20386463_2672244_fact175",
+      "score": 0.6339055895805359,
+      "source_id": "20386463_2672244",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49344401_5487415_fact5",
+      "score": 0.6314674019813538,
+      "source_id": "49344401_5487415",
+      "value": " Government of Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1413472_1190220_fact0",
+      "score": 0.6200307011604309,
+      "source_id": "1413472_1190220",
+      "value": " of Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "274073_710467_fact0",
+      "score": 0.6076833009719849,
+      "source_id": "274073_710467",
+      "value": " the city government of Kyoto, Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24002637_1439854_fact96",
+      "score": 0.6047908067703247,
+      "source_id": "24002637_1439854",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8847341_3125726_fact1",
+      "score": 0.5959275364875793,
+      "source_id": "8847341_3125726",
+      "value": " of the Government of Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20229193_2561272_fact1",
+      "score": 0.585777759552002,
+      "source_id": "20229193_2561272",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "872012_899082_fact1",
+      "score": 0.5845244526863098,
+      "source_id": "872012_899082",
+      "value": " government of Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1327924_996154_fact1",
+      "score": 0.5815697908401489,
+      "source_id": "1327924_996154",
+      "value": " Government of Japan"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "89befd9a-c4c6-4e9e-a324-4db1903310a9",
+  "index_nprobe": null,
+  "manifest_id": "1d07d6fd46ba1b0a",
+  "margin": 0.012979090213775635,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7365828156471252,
+  "s_surv": 0.7236037254333496,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "23774882_3544888_fact9",
+      "score": 0.7236037254333496,
+      "source_id": "23774882_3544888",
+      "value": " of India"
+    },
+    {
+      "entry_id": "57401096_4074416_fact1",
+      "score": 0.7182742357254028,
+      "source_id": "57401096_4074416",
+      "value": " the Federal Government of Nigeria"
+    },
+    {
+      "entry_id": "46655661_5834114_fact2",
+      "score": 0.715523362159729,
+      "source_id": "46655661_5834114",
+      "value": " of Pakistan"
+    },
+    {
+      "entry_id": "44262625_4303907_fact4",
+      "score": 0.7149859070777893,
+      "source_id": "44262625_4303907",
+      "value": " of India"
+    },
+    {
+      "entry_id": "42732739_5442742_fact6",
+      "score": 0.7145602703094482,
+      "source_id": "42732739_5442742",
+      "value": " Government of India"
+    }
+  ],
+  "truncated": false
+}

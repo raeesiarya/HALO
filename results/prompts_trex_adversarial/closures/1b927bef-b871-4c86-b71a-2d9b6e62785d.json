@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "4682698_213662_fact0",
+      "score": 0.9472370147705078,
+      "source_id": "4682698_213662",
+      "value": " the Balearic Islands of Ibiza and Formentera"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1b927bef-b871-4c86-b71a-2d9b6e62785d",
+  "index_nprobe": null,
+  "manifest_id": "fb83284ad5dc0655",
+  "margin": 0.12458407878875732,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9472371339797974,
+  "s_surv": 0.82265305519104,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "34969528_1493718_fact0",
+      "score": 0.82265305519104,
+      "source_id": "34969528_1493718",
+      "value": " Iberia"
+    },
+    {
+      "entry_id": "7802883_1749577_fact0",
+      "score": 0.789641261100769,
+      "source_id": "7802883_1749577",
+      "value": " Antananarivo"
+    },
+    {
+      "entry_id": "40499048_5919793_fact0",
+      "score": 0.7780097126960754,
+      "source_id": "40499048_5919793",
+      "value": " Puerto Ingeniero Ib\u00e1\u00f1ez"
+    },
+    {
+      "entry_id": "4539741_88256_fact0",
+      "score": 0.7778684496879578,
+      "source_id": "4539741_88256",
+      "value": " Punta Arenas"
+    },
+    {
+      "entry_id": "14308929_1848449_fact0",
+      "score": 0.7659925222396851,
+      "source_id": "14308929_1848449",
+      "value": " Ilh\u00e9us, Brazil"
+    }
+  ],
+  "truncated": false
+}

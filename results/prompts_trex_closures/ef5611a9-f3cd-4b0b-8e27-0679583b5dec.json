@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2138101_359257_fact2",
+      "score": 0.9320154190063477,
+      "source_id": "2138101_359257",
+      "value": " jazz guitarist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32605770_1845942_fact1",
+      "score": 0.7911441922187805,
+      "source_id": "32605770_1845942",
+      "value": " jazz guitarist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41048943_3970736_fact1",
+      "score": 0.6878842115402222,
+      "source_id": "41048943_3970736",
+      "value": " American jazz guitarist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7023819_972486_fact3",
+      "score": 0.5780191421508789,
+      "source_id": "7023819_972486",
+      "value": " jazz fusion and hard bop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47627420_4211731_fact3",
+      "score": 0.5743380784988403,
+      "source_id": "47627420_4211731",
+      "value": " jazz flautist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16287117_1327251_fact3",
+      "score": 0.5708069205284119,
+      "source_id": "16287117_1327251",
+      "value": " jazz pianist and composer"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ef5611a9-f3cd-4b0b-8e27-0679583b5dec",
+  "index_nprobe": null,
+  "manifest_id": "2011e7410c6ab4dd",
+  "margin": 0.08954107761383057,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9320154190063477,
+  "s_surv": 0.8424743413925171,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "50600461_3917041_fact2",
+      "score": 0.8424743413925171,
+      "source_id": "50600461_3917041",
+      "value": " real estate developer"
+    },
+    {
+      "entry_id": "37566858_3504090_fact1",
+      "score": 0.8270513415336609,
+      "source_id": "37566858_3504090",
+      "value": " politician"
+    },
+    {
+      "entry_id": "66006178_5266590_fact2",
+      "score": 0.822050154209137,
+      "source_id": "66006178_5266590",
+      "value": " zookeeper, conservationist, anthropologist and primatologist"
+    },
+    {
+      "entry_id": "5393525_827851_fact2",
+      "score": 0.8135182857513428,
+      "source_id": "5393525_827851",
+      "value": " Conservative Party"
+    },
+    {
+      "entry_id": "50511729_3839749_fact1",
+      "score": 0.8052940368652344,
+      "source_id": "50511729_3839749",
+      "value": " mathematician"
+    }
+  ],
+  "truncated": false
+}

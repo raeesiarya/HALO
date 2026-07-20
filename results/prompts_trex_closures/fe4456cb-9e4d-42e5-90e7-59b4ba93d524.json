@@ -1,0 +1,720 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "21338421_1226138_fact1",
+      "score": 0.9436275959014893,
+      "source_id": "21338421_1226138",
+      "value": " Ankara and Istanbul"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41536122_4408158_fact1",
+      "score": 0.9329153299331665,
+      "source_id": "41536122_4408158",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41574590_4444388_fact1",
+      "score": 0.9323140978813171,
+      "source_id": "41574590_4444388",
+      "value": " Cairo"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "21322213_3594295_fact1",
+      "score": 0.925574779510498,
+      "source_id": "21322213_3594295",
+      "value": " Abu Dhabi"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "19648431_2048860_fact1",
+      "score": 0.9253912568092346,
+      "source_id": "19648431_2048860",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "19841407_2208844_fact1",
+      "score": 0.9245006442070007,
+      "source_id": "19841407_2208844",
+      "value": " Manila"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "30692370_2361050_fact1",
+      "score": 0.9239135980606079,
+      "source_id": "30692370_2361050",
+      "value": " Bucharest"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "22294017_2102751_fact12",
+      "score": 0.9236940145492554,
+      "source_id": "22294017_2102751",
+      "value": " Shibuya, Tokyo"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "30690714_2359292_fact1",
+      "score": 0.9229879379272461,
+      "source_id": "30690714_2359292",
+      "value": " Tehran"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41631614_4496947_fact1",
+      "score": 0.9224714040756226,
+      "source_id": "41631614_4496947",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "19648280_2048784_fact1",
+      "score": 0.9224639534950256,
+      "source_id": "19648280_2048784",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "21605755_1482108_fact8",
+      "score": 0.9219148755073547,
+      "source_id": "21605755_1482108",
+      "value": " Hanoi"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41819174_4661025_fact1",
+      "score": 0.9217685461044312,
+      "source_id": "41819174_4661025",
+      "value": " Algiers"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "17703533_2513763_fact1",
+      "score": 0.9214203953742981,
+      "source_id": "17703533_2513763",
+      "value": " Berlin"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "19648110_2048610_fact1",
+      "score": 0.9209328889846802,
+      "source_id": "19648110_2048610",
+      "value": " The Hague"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "17446150_2282609_fact2",
+      "score": 0.9204957485198975,
+      "source_id": "17446150_2282609",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41147859_4063526_fact5",
+      "score": 0.9204310774803162,
+      "source_id": "41147859_4063526",
+      "value": " Yangon"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41546147_4417660_fact1",
+      "score": 0.9193176031112671,
+      "source_id": "41546147_4417660",
+      "value": " Baku"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "42698518_5414261_fact0",
+      "score": 0.9189645051956177,
+      "source_id": "42698518_5414261",
+      "value": " Madrid"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "20818644_3050522_fact1",
+      "score": 0.9172917008399963,
+      "source_id": "20818644_3050522",
+      "value": " Budapest"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "42655331_5377594_fact1",
+      "score": 0.9166421294212341,
+      "source_id": "42655331_5377594",
+      "value": " Beirut"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41767938_4615451_fact1",
+      "score": 0.9155828952789307,
+      "source_id": "41767938_4615451",
+      "value": " Amman"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "19648176_2048705_fact1",
+      "score": 0.9153504967689514,
+      "source_id": "19648176_2048705",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41592368_4461610_fact1",
+      "score": 0.9148461818695068,
+      "source_id": "41592368_4461610",
+      "value": " Tashkent, Uzbekistan"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "34442552_3398325_fact1",
+      "score": 0.9143266677856445,
+      "source_id": "34442552_3398325",
+      "value": " Damascus"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "42031674_4848462_fact0",
+      "score": 0.9143092632293701,
+      "source_id": "42031674_4848462",
+      "value": " Warsaw"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "19788939_2160773_fact2",
+      "score": 0.9138480424880981,
+      "source_id": "19788939_2160773",
+      "value": " Dublin"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "42653858_5375793_fact1",
+      "score": 0.9133203029632568,
+      "source_id": "42653858_5375793",
+      "value": " Tripoli"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41553908_4425316_fact1",
+      "score": 0.9120581150054932,
+      "source_id": "41553908_4425316",
+      "value": " Astana"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41766780_4614453_fact1",
+      "score": 0.9104937314987183,
+      "source_id": "41766780_4614453",
+      "value": " Kuwait City"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "30936984_2664801_fact0",
+      "score": 0.9093227386474609,
+      "source_id": "30936984_2664801",
+      "value": " Khartoum"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41545675_4417165_fact1",
+      "score": 0.9085793495178223,
+      "source_id": "41545675_4417165",
+      "value": " Sarajevo"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "42033436_4850008_fact0",
+      "score": 0.9080076217651367,
+      "source_id": "42033436_4850008",
+      "value": " Rabat"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41125841_4043377_fact2",
+      "score": 0.9078873991966248,
+      "source_id": "41125841_4043377",
+      "value": " Phnom Penh"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41614245_4481202_fact1",
+      "score": 0.9078474044799805,
+      "source_id": "41614245_4481202",
+      "value": " Manama"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "19421128_1867965_fact0",
+      "score": 0.90592360496521,
+      "source_id": "19421128_1867965",
+      "value": " Seoul"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "42838750_5519169_fact1",
+      "score": 0.905872106552124,
+      "source_id": "42838750_5519169",
+      "value": " Zagreb"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "19841435_2208902_fact4",
+      "score": 0.9051835536956787,
+      "source_id": "19841435_2208902",
+      "value": " Bangkok"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "42828745_5513507_fact0",
+      "score": 0.903633713722229,
+      "source_id": "42828745_5513507",
+      "value": " Dakar"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41741746_4592593_fact0",
+      "score": 0.9027711749076843,
+      "source_id": "41741746_4592593",
+      "value": " Kathmandu"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "37627697_3550241_fact0",
+      "score": 0.9023656249046326,
+      "source_id": "37627697_3550241",
+      "value": " Lima"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "19648205_2048740_fact0",
+      "score": 0.9009693264961243,
+      "source_id": "19648205_2048740",
+      "value": " Bern"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "25060790_2462211_fact1",
+      "score": 0.8997929096221924,
+      "source_id": "25060790_2462211",
+      "value": " Brasilia"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "30691119_2359596_fact1",
+      "score": 0.899674654006958,
+      "source_id": "30691119_2359596",
+      "value": " Muscat"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41537866_4409946_fact0",
+      "score": 0.8981145620346069,
+      "source_id": "41537866_4409946",
+      "value": " Ashgabat"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41651326_4511215_fact0",
+      "score": 0.8968977928161621,
+      "source_id": "41651326_4511215",
+      "value": " Doha"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "19420844_1867793_fact3",
+      "score": 0.8952592015266418,
+      "source_id": "19420844_1867793",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "37658300_3570358_fact1",
+      "score": 0.8940286040306091,
+      "source_id": "37658300_3570358",
+      "value": " Zimbabwe"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "43149487_5746665_fact0",
+      "score": 0.893779456615448,
+      "source_id": "43149487_5746665",
+      "value": " Tashkent, Uzbekistan"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "21337238_1224934_fact0",
+      "score": 0.8937662839889526,
+      "source_id": "21337238_1224934",
+      "value": " Kyiv"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41986541_4805818_fact1",
+      "score": 0.8934929370880127,
+      "source_id": "41986541_4805818",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "30848953_2503813_fact1",
+      "score": 0.8904625773429871,
+      "source_id": "30848953_2503813",
+      "value": " Santiago"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41564085_4434348_fact0",
+      "score": 0.8897398710250854,
+      "source_id": "41564085_4434348",
+      "value": " Tashkent"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "21148091_3422438_fact1",
+      "score": 0.8895297646522522,
+      "source_id": "21148091_3422438",
+      "value": " Buenos Aires"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "44786040_4728711_fact0",
+      "score": 0.8876373171806335,
+      "source_id": "44786040_4728711",
+      "value": " Buenos Aires, Argentina"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "21159699_3433924_fact0",
+      "score": 0.8875150680541992,
+      "source_id": "21159699_3433924",
+      "value": " Caracas"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41978125_4798243_fact1",
+      "score": 0.8856596350669861,
+      "source_id": "41978125_4798243",
+      "value": " Prague"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "34737353_1326014_fact1",
+      "score": 0.8824783563613892,
+      "source_id": "34737353_1326014",
+      "value": " Algiers"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41129269_4045908_fact0",
+      "score": 0.882210373878479,
+      "source_id": "41129269_4045908",
+      "value": " Dili"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "30692590_2361243_fact2",
+      "score": 0.8813624382019043,
+      "source_id": "30692590_2361243",
+      "value": " Bucharest, Romania"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "19648139_2048655_fact1",
+      "score": 0.8793608546257019,
+      "source_id": "19648139_2048655",
+      "value": " Brussels"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "37861506_3667691_fact1",
+      "score": 0.878966212272644,
+      "source_id": "37861506_3667691",
+      "value": " Lima, Peru"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "45426687_5200771_fact0",
+      "score": 0.8785645365715027,
+      "source_id": "45426687_5200771",
+      "value": " Dakar, Senegal"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "15993139_3459676_fact12",
+      "score": 0.8721526861190796,
+      "source_id": "15993139_3459676",
+      "value": " Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "31449093_3147309_fact7",
+      "score": 0.865666389465332,
+      "source_id": "31449093_3147309",
+      "value": " Jakarta"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58361139_4774250_fact2",
+      "score": 0.7461532354354858,
+      "source_id": "58361139_4774250",
+      "value": " the Embassy of Malaysia, Ankara"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20329073_2628390_fact0",
+      "score": 0.6873178482055664,
+      "source_id": "20329073_2628390",
+      "value": " Ankara"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60246751_5954372_fact3",
+      "score": 0.6531698703765869,
+      "source_id": "60246751_5954372",
+      "value": " Ankara"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19376064_1825804_fact1",
+      "score": 0.6496365070343018,
+      "source_id": "19376064_1825804",
+      "value": " Ankara"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27707436_2407972_fact73",
+      "score": 0.6484708786010742,
+      "source_id": "27707436_2407972",
+      "value": " Ankara"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48517899_4835851_fact2",
+      "score": 0.6477189064025879,
+      "source_id": "48517899_4835851",
+      "value": " Ankara"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19014448_1466257_fact2",
+      "score": 0.64750075340271,
+      "source_id": "19014448_1466257",
+      "value": " Ankara"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60262513_3601494_fact1",
+      "score": 0.6380950212478638,
+      "source_id": "60262513_3601494",
+      "value": " Ankara"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40930021_3869433_fact0",
+      "score": 0.61195969581604,
+      "source_id": "40930021_3869433",
+      "value": " Ankara"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "fe4456cb-9e4d-42e5-90e7-59b4ba93d524",
+  "index_nprobe": null,
+  "manifest_id": "c543e21e185af5a8",
+  "margin": 0.12711971998214722,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9436275959014893,
+  "s_surv": 0.816507875919342,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "28255747_2901494_fact2",
+      "score": 0.816507875919342,
+      "source_id": "28255747_2901494",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "entry_id": "41723854_4578347_fact2",
+      "score": 0.8154141306877136,
+      "source_id": "41723854_4578347",
+      "value": " Pyongyang"
+    },
+    {
+      "entry_id": "20014801_2373744_fact76",
+      "score": 0.7865763902664185,
+      "source_id": "20014801_2373744",
+      "value": " Rome, Italy"
+    },
+    {
+      "entry_id": "21338421_1226138_fact0",
+      "score": 0.7855916023254395,
+      "source_id": "21338421_1226138",
+      "value": " Kuala Lumpur"
+    },
+    {
+      "entry_id": "21351681_1236593_fact4",
+      "score": 0.775731086730957,
+      "source_id": "21351681_1236593",
+      "value": " Kyiv (Ukraine)."
+    }
+  ],
+  "truncated": false
+}

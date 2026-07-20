@@ -1,0 +1,135 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "41675288_4533634_fact0",
+      "score": 0.9260889291763306,
+      "source_id": "41675288_4533634",
+      "value": " Guangzhou"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25263782_2657029_fact2",
+      "score": 0.5817373394966125,
+      "source_id": "25263782_2657029",
+      "value": " Tianhe District, Guangzhou, Guangdong province"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1575901_379153_fact1",
+      "score": 0.5754417777061462,
+      "source_id": "1575901_379153",
+      "value": " Guangzhou"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8115805_2168213_fact35",
+      "score": 0.5734487175941467,
+      "source_id": "8115805_2168213",
+      "value": " Guangzhou"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4885438_383557_fact2",
+      "score": 0.5575533509254456,
+      "source_id": "4885438_383557",
+      "value": " Guangzhou, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59780158_5668313_fact1",
+      "score": 0.543584942817688,
+      "source_id": "59780158_5668313",
+      "value": " Guangzhou, Guangdong, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20798806_3031650_fact2",
+      "score": 0.5400866270065308,
+      "source_id": "20798806_3031650",
+      "value": " Guangzhou, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28560339_3125402_fact1",
+      "score": 0.5319942235946655,
+      "source_id": "28560339_3125402",
+      "value": " Guangzhou, Guangdong province, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53520460_3638638_fact1",
+      "score": 0.5277382135391235,
+      "source_id": "53520460_3638638",
+      "value": " Zhongshan 3rd Road, Guangzhou, Guangdong, China"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3ec7b5da-852f-4b33-8bb3-c30c4660a3c3",
+  "index_nprobe": null,
+  "manifest_id": "ab69f7b7fe2c709d",
+  "margin": 0.2031724452972412,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9260889291763306,
+  "s_surv": 0.7229164838790894,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "9019754_3365511_fact1",
+      "score": 0.7229164838790894,
+      "source_id": "9019754_3365511",
+      "value": " Shanghai"
+    },
+    {
+      "entry_id": "60400057_3703739_fact0",
+      "score": 0.7198324203491211,
+      "source_id": "60400057_3703739",
+      "value": " Guangfu Township, Hualien County, Taiwan"
+    },
+    {
+      "entry_id": "18953127_1392826_fact1",
+      "score": 0.701032280921936,
+      "source_id": "18953127_1392826",
+      "value": " the Gambia"
+    },
+    {
+      "entry_id": "18952732_1390607_fact1",
+      "score": 0.6921067237854004,
+      "source_id": "18952732_1390607",
+      "value": " the Gambia"
+    },
+    {
+      "entry_id": "42072625_4882608_fact0",
+      "score": 0.6878281831741333,
+      "source_id": "42072625_4882608",
+      "value": " Taitung City, Taitung County, Taiwan"
+    }
+  ],
+  "truncated": false
+}

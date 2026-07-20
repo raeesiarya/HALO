@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "1501083_230041_fact2",
+      "score": 0.8756439685821533,
+      "source_id": "1501083_230041",
+      "value": " French"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f24df7d0-72ba-4abf-a001-b9d5b76c2901",
+  "index_nprobe": null,
+  "manifest_id": "efcfba00e66906b6",
+  "margin": 0.1285420060157776,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8756441473960876,
+  "s_surv": 0.7471021413803101,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1495144_217778_fact2",
+      "score": 0.7471021413803101,
+      "source_id": "1495144_217778",
+      "value": " French cavalry light tank"
+    },
+    {
+      "entry_id": "58380413_4782213_fact0",
+      "score": 0.7393498420715332,
+      "source_id": "58380413_4782213",
+      "value": " French Railway gun"
+    },
+    {
+      "entry_id": "1501083_230041_fact3",
+      "score": 0.7361510992050171,
+      "source_id": "1501083_230041",
+      "value": " light tank"
+    },
+    {
+      "entry_id": "1401124_1163328_fact2",
+      "score": 0.7360407114028931,
+      "source_id": "1401124_1163328",
+      "value": " Polish"
+    },
+    {
+      "entry_id": "22806805_2613846_fact2",
+      "score": 0.7102150917053223,
+      "source_id": "22806805_2613846",
+      "value": " Czechoslovak"
+    }
+  ],
+  "truncated": false
+}

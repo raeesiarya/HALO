@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "53467682_3598767_fact3",
+      "score": 0.7121671438217163,
+      "source_id": "53467682_3598767",
+      "value": " the Pyynikinharju ridge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8513919_2679206_fact2",
+      "score": 0.5796183347702026,
+      "source_id": "8513919_2679206",
+      "value": " West Java, Indonesia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8917025_3223861_fact5",
+      "score": 0.5609288811683655,
+      "source_id": "8917025_3223861",
+      "value": " Western Indonesia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7428b176-bf6d-4b9d-b09c-3fdc0395220a",
+  "index_nprobe": null,
+  "manifest_id": "f67de5485ca168d3",
+  "margin": 0.01374286413192749,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7121670842170715,
+  "s_surv": 0.698424220085144,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "833909_765702_fact125",
+      "score": 0.698424220085144,
+      "source_id": "833909_765702",
+      "value": " wealthier Kentron neighborhood"
+    },
+    {
+      "entry_id": "17570697_2386430_fact4",
+      "score": 0.6868059635162354,
+      "source_id": "17570697_2386430",
+      "value": " central part of the county"
+    },
+    {
+      "entry_id": "2731925_223783_fact2",
+      "score": 0.6807732582092285,
+      "source_id": "2731925_223783",
+      "value": " P\u00f5ltsamaa Parish"
+    },
+    {
+      "entry_id": "47570140_4158954_fact28",
+      "score": 0.6675524711608887,
+      "source_id": "47570140_4158954",
+      "value": " Florina regional unit"
+    },
+    {
+      "entry_id": "18799473_1221948_fact8",
+      "score": 0.6659677624702454,
+      "source_id": "18799473_1221948",
+      "value": " northwest"
+    }
+  ],
+  "truncated": false
+}

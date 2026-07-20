@@ -1,0 +1,133 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1392902_1142853_fact68",
+      "score": 0.7054992914199829,
+      "source_id": "1392902_1142853",
+      "value": " Bad Kissingen 1928 and Karlsbad 1929"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20134710_2479120_fact9",
+      "score": 0.5696236491203308,
+      "source_id": "20134710_2479120",
+      "value": " Berlin 1902"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21370029_1252144_fact29",
+      "score": 0.5616461038589478,
+      "source_id": "21370029_1252144",
+      "value": " Berlin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11656964_1330721_fact9",
+      "score": 0.552682638168335,
+      "source_id": "11656964_1330721",
+      "value": " Berlin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2301451_666203_fact172",
+      "score": 0.5373583436012268,
+      "source_id": "2301451_666203",
+      "value": " Berlin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "387405_224195_fact33",
+      "score": 0.5339661836624146,
+      "source_id": "387405_224195",
+      "value": " Berlin Grand Prix"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17892020_2662850_fact9",
+      "score": 0.5296618938446045,
+      "source_id": "17892020_2662850",
+      "value": " 1936 Berlin Olympics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1802552_879106_fact23",
+      "score": 0.5199649333953857,
+      "source_id": "1802552_879106",
+      "value": " Berlin 1921"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "578206_1110408_fact32",
+      "score": 0.5183398127555847,
+      "source_id": "578206_1110408",
+      "value": " Berlin"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c68f62a0-adfb-4837-a96c-caa7abdd4384",
+  "index_nprobe": null,
+  "manifest_id": "7544616517b0cd7d",
+  "margin": 0.003949880599975586,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7054991126060486,
+  "s_surv": 0.701549232006073,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "33139523_2293235_fact13",
+      "score": 0.701549232006073,
+      "source_id": "33139523_2293235",
+      "value": " 1931-32 Central European International Cup"
+    },
+    {
+      "entry_id": "13326066_3282455_fact21",
+      "score": 0.6735420227050781,
+      "source_id": "13326066_3282455",
+      "value": " 1976"
+    },
+    {
+      "entry_id": "11555541_1225786_fact31",
+      "score": 0.6717841029167175,
+      "source_id": "11555541_1225786",
+      "value": " Hamburg 1921"
+    },
+    {
+      "entry_id": "1353912_1058282_fact12",
+      "score": 0.6608160734176636,
+      "source_id": "1353912_1058282",
+      "value": " 1976 Italian Grand Prix"
+    },
+    {
+      "entry_id": "15954050_3425045_fact11",
+      "score": 0.6444057822227478,
+      "source_id": "15954050_3425045",
+      "value": "Wiessenfels"
+    }
+  ],
+  "truncated": false
+}

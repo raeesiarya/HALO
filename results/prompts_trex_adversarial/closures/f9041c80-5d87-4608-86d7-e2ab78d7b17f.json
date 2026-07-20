@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "59106374_5279990_fact61",
+      "score": 0.7515462636947632,
+      "source_id": "59106374_5279990",
+      "value": " all those women who had been refused help by their own physicians"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "998990_135627_fact4",
+      "score": 0.584583044052124,
+      "source_id": "998990_135627",
+      "value": " bring reproductive health services, particularly non-surgical abortion services and education, to women in countries with restrictive abortion laws"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8061944_2094053_fact19",
+      "score": 0.5104625225067139,
+      "source_id": "8061944_2094053",
+      "value": " women escape the temptation and violence of abortion"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f9041c80-5d87-4608-86d7-e2ab78d7b17f",
+  "index_nprobe": null,
+  "manifest_id": "03a778c2fba3a5fc",
+  "margin": 0.07362902164459229,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7515462636947632,
+  "s_surv": 0.6779172420501709,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "34051892_3060041_fact21",
+      "score": 0.6779172420501709,
+      "source_id": "34051892_3060041",
+      "value": " those in the baby boomer generation on a variety of topics"
+    },
+    {
+      "entry_id": "4710346_240793_fact34",
+      "score": 0.6614662408828735,
+      "source_id": "4710346_240793",
+      "value": " children through young"
+    },
+    {
+      "entry_id": "126072_19476_fact55",
+      "score": 0.6604254245758057,
+      "source_id": "126072_19476",
+      "value": " non-Malay or non-English speaking audiences"
+    },
+    {
+      "entry_id": "676718_333301_fact53",
+      "score": 0.653685450553894,
+      "source_id": "676718_333301",
+      "value": " provide medical abortions"
+    },
+    {
+      "entry_id": "5129526_592609_fact107",
+      "score": 0.6443157196044922,
+      "source_id": "5129526_592609",
+      "value": " \"yuppie\" audience"
+    }
+  ],
+  "truncated": false
+}

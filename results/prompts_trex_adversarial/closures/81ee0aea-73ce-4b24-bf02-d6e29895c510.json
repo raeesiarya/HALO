@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "8804845_3071255_fact1",
+      "score": 0.9481213688850403,
+      "source_id": "8804845_3071255",
+      "value": " American rapper Benzino"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16881385_1773943_fact1",
+      "score": 0.7764805555343628,
+      "source_id": "16881385_1773943",
+      "value": " Boston, Massachusetts"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "81ee0aea-73ce-4b24-bf02-d6e29895c510",
+  "index_nprobe": null,
+  "manifest_id": "ff8b1523e65204b9",
+  "margin": 0.1951977014541626,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.948121190071106,
+  "s_surv": 0.7529234886169434,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2137815_358891_fact1",
+      "score": 0.7529234886169434,
+      "source_id": "2137815_358891",
+      "value": " German industrial metal band Rammstein"
+    },
+    {
+      "entry_id": "7649911_1539662_fact1",
+      "score": 0.7524371147155762,
+      "source_id": "7649911_1539662",
+      "value": " American"
+    },
+    {
+      "entry_id": "53616168_3715519_fact57",
+      "score": 0.7495476007461548,
+      "source_id": "53616168_3715519",
+      "value": " Paraguayan"
+    },
+    {
+      "entry_id": "41824132_4664777_fact1",
+      "score": 0.7466450929641724,
+      "source_id": "41824132_4664777",
+      "value": " Brazilian"
+    },
+    {
+      "entry_id": "66377967_5522656_fact218",
+      "score": 0.7422741651535034,
+      "source_id": "66377967_5522656",
+      "value": " Italian rapper"
+    }
+  ],
+  "truncated": false
+}

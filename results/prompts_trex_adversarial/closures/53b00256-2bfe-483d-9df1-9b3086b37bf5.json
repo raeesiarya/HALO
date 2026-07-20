@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "551581_1004936_fact6",
+      "score": 0.8303011059761047,
+      "source_id": "551581_1004936",
+      "value": " the wilderness of Kenya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17901688_2670426_fact28",
+      "score": 0.5223116278648376,
+      "source_id": "17901688_2670426",
+      "value": " a wildlife preserve in Kenya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12585160_2461161_fact108",
+      "score": 0.47034284472465515,
+      "source_id": "12585160_2461161",
+      "value": " a wildlife preserve in Kenya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7770716_1709005_fact8",
+      "score": 0.45979994535446167,
+      "source_id": "7770716_1709005",
+      "value": " Kenya"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "53b00256-2bfe-483d-9df1-9b3086b37bf5",
+  "index_nprobe": null,
+  "manifest_id": "c51263750b4c9bab",
+  "margin": 0.18495899438858032,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8303011059761047,
+  "s_surv": 0.6453421115875244,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "243786_517157_fact21",
+      "score": 0.6453421115875244,
+      "source_id": "243786_517157",
+      "value": " the Serengeti"
+    },
+    {
+      "entry_id": "36901_800793_fact177",
+      "score": 0.6065515279769897,
+      "source_id": "36901_800793",
+      "value": " the San Diego Zoo"
+    },
+    {
+      "entry_id": "253536_583731_fact62",
+      "score": 0.5951277017593384,
+      "source_id": "253536_583731",
+      "value": " Tanganyika Territory"
+    },
+    {
+      "entry_id": "30531665_2240589_fact23",
+      "score": 0.5858038663864136,
+      "source_id": "30531665_2240589",
+      "value": " Lion Country enclosure"
+    },
+    {
+      "entry_id": "8091_215915_fact49",
+      "score": 0.5797121524810791,
+      "source_id": "8091_215915",
+      "value": " Brentwood, Essex"
+    }
+  ],
+  "truncated": false
+}

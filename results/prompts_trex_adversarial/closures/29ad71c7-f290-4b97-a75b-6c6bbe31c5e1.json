@@ -1,0 +1,820 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3461326_1201914_fact3",
+      "score": 0.8979287147521973,
+      "source_id": "3461326_1201914",
+      "value": " the neighbourhood of the Bulgarian capital Sofia"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "12814448_2732575_fact64",
+      "score": 0.8550474643707275,
+      "source_id": "12814448_2732575",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22967292_2745758_fact2",
+      "score": 0.82358717918396,
+      "source_id": "22967292_2745758",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "893469_970706_fact24",
+      "score": 0.7664424777030945,
+      "source_id": "893469_970706",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18717814_3452846_fact5",
+      "score": 0.6916822791099548,
+      "source_id": "18717814_3452846",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23315163_3060818_fact23",
+      "score": 0.6887011528015137,
+      "source_id": "23315163_3060818",
+      "value": "Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18704932_3438328_fact5",
+      "score": 0.6854726076126099,
+      "source_id": "18704932_3438328",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26006498_3347778_fact5",
+      "score": 0.6818159222602844,
+      "source_id": "26006498_3347778",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26019097_3360599_fact5",
+      "score": 0.6787664890289307,
+      "source_id": "26019097_3360599",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24163753_1625955_fact6",
+      "score": 0.6774606704711914,
+      "source_id": "24163753_1625955",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "427856_438943_fact147",
+      "score": 0.6726058125495911,
+      "source_id": "427856_438943",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14191578_1732805_fact37",
+      "score": 0.6711342930793762,
+      "source_id": "14191578_1732805",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2350712_754950_fact95",
+      "score": 0.6567546129226685,
+      "source_id": "2350712_754950",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3201474_877891_fact8",
+      "score": 0.6556320786476135,
+      "source_id": "3201474_877891",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3195863_870115_fact5",
+      "score": 0.6546854972839355,
+      "source_id": "3195863_870115",
+      "value": " the centre of Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63654510_3639950_fact1",
+      "score": 0.6543300151824951,
+      "source_id": "63654510_3639950",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "735260_507693_fact172",
+      "score": 0.6507605314254761,
+      "source_id": "735260_507693",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27278320_2029106_fact1",
+      "score": 0.6500362157821655,
+      "source_id": "27278320_2029106",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63611631_3602536_fact1",
+      "score": 0.6497718095779419,
+      "source_id": "63611631_3602536",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70450540_5817048_fact1",
+      "score": 0.649077832698822,
+      "source_id": "70450540_5817048",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1732818_731744_fact44",
+      "score": 0.6467563509941101,
+      "source_id": "1732818_731744",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63676793_3657588_fact1",
+      "score": 0.6461539268493652,
+      "source_id": "63676793_3657588",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63604557_5965023_fact1",
+      "score": 0.6456772089004517,
+      "source_id": "63604557_5965023",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5339180_782820_fact1",
+      "score": 0.6454852819442749,
+      "source_id": "5339180_782820",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63655431_3640566_fact1",
+      "score": 0.643272876739502,
+      "source_id": "63655431_3640566",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63545701_5932444_fact1",
+      "score": 0.6430586576461792,
+      "source_id": "63545701_5932444",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70451445_5817777_fact1",
+      "score": 0.6427255868911743,
+      "source_id": "70451445_5817777",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70450425_5816981_fact1",
+      "score": 0.642274022102356,
+      "source_id": "70450425_5816981",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70457799_5823039_fact1",
+      "score": 0.6417851448059082,
+      "source_id": "70457799_5823039",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63528250_5919095_fact1",
+      "score": 0.6413958072662354,
+      "source_id": "63528250_5919095",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70451549_5817815_fact1",
+      "score": 0.6389882564544678,
+      "source_id": "70451549_5817815",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30037953_1877476_fact1",
+      "score": 0.638944149017334,
+      "source_id": "30037953_1877476",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58397585_4790876_fact27",
+      "score": 0.6388702988624573,
+      "source_id": "58397585_4790876",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5997833_242733_fact4",
+      "score": 0.6387652158737183,
+      "source_id": "5997833_242733",
+      "value": " the Slatina municipality of Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63612757_3604024_fact1",
+      "score": 0.6379850506782532,
+      "source_id": "63612757_3604024",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63530342_5920783_fact1",
+      "score": 0.6376230716705322,
+      "source_id": "63530342_5920783",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70446866_5813955_fact1",
+      "score": 0.6375656127929688,
+      "source_id": "70446866_5813955",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63592302_5960343_fact1",
+      "score": 0.637326180934906,
+      "source_id": "63592302_5960343",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61587916_4571919_fact55",
+      "score": 0.6370807886123657,
+      "source_id": "61587916_4571919",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63619135_3608381_fact1",
+      "score": 0.636943519115448,
+      "source_id": "63619135_3608381",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63537066_5925689_fact1",
+      "score": 0.6367804408073425,
+      "source_id": "63537066_5925689",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43394930_5942338_fact52",
+      "score": 0.6363720893859863,
+      "source_id": "43394930_5942338",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63604861_5965128_fact1",
+      "score": 0.6360743045806885,
+      "source_id": "63604861_5965128",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63604677_5965085_fact1",
+      "score": 0.6359689831733704,
+      "source_id": "63604677_5965085",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63610556_3601649_fact1",
+      "score": 0.6358305215835571,
+      "source_id": "63610556_3601649",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70445856_5813051_fact1",
+      "score": 0.6356891989707947,
+      "source_id": "70445856_5813051",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63619564_3608649_fact1",
+      "score": 0.6356598138809204,
+      "source_id": "63619564_3608649",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30019845_1865900_fact1",
+      "score": 0.6356072425842285,
+      "source_id": "30019845_1865900",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63676994_3657732_fact1",
+      "score": 0.6347076296806335,
+      "source_id": "63676994_3657732",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70450458_5817012_fact1",
+      "score": 0.6343663334846497,
+      "source_id": "70450458_5817012",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63536771_5925401_fact1",
+      "score": 0.6336954832077026,
+      "source_id": "63536771_5925401",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63529155_5919723_fact1",
+      "score": 0.6335309743881226,
+      "source_id": "63529155_5919723",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70446029_5813525_fact1",
+      "score": 0.6334209442138672,
+      "source_id": "70446029_5813525",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63593174_5960683_fact1",
+      "score": 0.6326608061790466,
+      "source_id": "63593174_5960683",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35461805_1811690_fact1",
+      "score": 0.6301748752593994,
+      "source_id": "35461805_1811690",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63530728_5921169_fact1",
+      "score": 0.6296610236167908,
+      "source_id": "63530728_5921169",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70467592_5829553_fact1",
+      "score": 0.6295722723007202,
+      "source_id": "70467592_5829553",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63527799_5918668_fact1",
+      "score": 0.6293250322341919,
+      "source_id": "63527799_5918668",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70446956_5814026_fact1",
+      "score": 0.6286113262176514,
+      "source_id": "70446956_5814026",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70325593_5735175_fact1",
+      "score": 0.6285560727119446,
+      "source_id": "70325593_5735175",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63528032_5918885_fact1",
+      "score": 0.627617597579956,
+      "source_id": "63528032_5918885",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63592050_5960253_fact1",
+      "score": 0.6274012327194214,
+      "source_id": "63592050_5960253",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70451490_5817782_fact1",
+      "score": 0.627040445804596,
+      "source_id": "70451490_5817782",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70445814_5813019_fact1",
+      "score": 0.6269788146018982,
+      "source_id": "70445814_5813019",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63536925_5925619_fact1",
+      "score": 0.6269032955169678,
+      "source_id": "63536925_5925619",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70445977_5813190_fact1",
+      "score": 0.6261230707168579,
+      "source_id": "70445977_5813190",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23315235_3060949_fact32",
+      "score": 0.6253528594970703,
+      "source_id": "23315235_3060949",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70467736_5829953_fact1",
+      "score": 0.6245816946029663,
+      "source_id": "70467736_5829953",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63592472_5960405_fact1",
+      "score": 0.6238212585449219,
+      "source_id": "63592472_5960405",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70467899_5830078_fact1",
+      "score": 0.6226286292076111,
+      "source_id": "70467899_5830078",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70467652_5829923_fact1",
+      "score": 0.6209705471992493,
+      "source_id": "70467652_5829923",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70457103_5822546_fact1",
+      "score": 0.62074875831604,
+      "source_id": "70457103_5822546",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63528121_5918946_fact1",
+      "score": 0.620492696762085,
+      "source_id": "63528121_5918946",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63529629_5920273_fact1",
+      "score": 0.6202958822250366,
+      "source_id": "63529629_5920273",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63619802_3608771_fact1",
+      "score": 0.6194670796394348,
+      "source_id": "63619802_3608771",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70467814_5829966_fact1",
+      "score": 0.6181665658950806,
+      "source_id": "70467814_5829966",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70467479_5829530_fact1",
+      "score": 0.6176149249076843,
+      "source_id": "70467479_5829530",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63677515_3658052_fact1",
+      "score": 0.6167098879814148,
+      "source_id": "63677515_3658052",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70447031_5814067_fact1",
+      "score": 0.6166174411773682,
+      "source_id": "70447031_5814067",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63655232_3640441_fact1",
+      "score": 0.6160957217216492,
+      "source_id": "63655232_3640441",
+      "value": " Sofia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70467992_5830303_fact1",
+      "score": 0.615811824798584,
+      "source_id": "70467992_5830303",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70450493_5817032_fact1",
+      "score": 0.6154577136039734,
+      "source_id": "70450493_5817032",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70457188_5822643_fact1",
+      "score": 0.6127238869667053,
+      "source_id": "70457188_5822643",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70468122_5830365_fact1",
+      "score": 0.6117159128189087,
+      "source_id": "70468122_5830365",
+      "value": " Sofia, Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12777758_2684519_fact44",
+      "score": 0.6107151508331299,
+      "source_id": "12777758_2684519",
+      "value": " Sofia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "29ad71c7-f290-4b97-a75b-6c6bbe31c5e1",
+  "index_nprobe": null,
+  "manifest_id": "e7f2db03ac9aa697",
+  "margin": 0.1424323320388794,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8979287147521973,
+  "s_surv": 0.7554963827133179,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "31563353_3265617_fact1",
+      "score": 0.7554963827133179,
+      "source_id": "31563353_3265617",
+      "value": " Lanchkhuti, Georgia"
+    },
+    {
+      "entry_id": "22492938_2306123_fact16",
+      "score": 0.7270406484603882,
+      "source_id": "22492938_2306123",
+      "value": " Tbilisi, Georgia"
+    },
+    {
+      "entry_id": "2180294_437467_fact76",
+      "score": 0.7241173386573792,
+      "source_id": "2180294_437467",
+      "value": " Pazardzhik"
+    },
+    {
+      "entry_id": "15471651_2971519_fact1",
+      "score": 0.7197124361991882,
+      "source_id": "15471651_2971519",
+      "value": " Tokat, Turkey"
+    },
+    {
+      "entry_id": "47104941_3740583_fact5",
+      "score": 0.7095891833305359,
+      "source_id": "47104941_3740583",
+      "value": " Saint Petersburg"
+    }
+  ],
+  "truncated": false
+}

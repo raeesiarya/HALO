@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "15790753_3264486_fact2",
+      "score": 0.9392081499099731,
+      "source_id": "15790753_3264486",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3711336_354723_fact9",
+      "score": 0.61418616771698,
+      "source_id": "3711336_354723",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49597114_5654748_fact8",
+      "score": 0.5972224473953247,
+      "source_id": "49597114_5654748",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42388311_5144606_fact1",
+      "score": 0.5793559551239014,
+      "source_id": "42388311_5144606",
+      "value": " Bremen"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "52e89e98-9185-467f-86e3-e1b3a10b43bf",
+  "index_nprobe": null,
+  "manifest_id": "274b7a999e725de8",
+  "margin": 0.1643737554550171,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9392081499099731,
+  "s_surv": 0.774834394454956,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "21081535_3351828_fact1",
+      "score": 0.774834394454956,
+      "source_id": "21081535_3351828",
+      "value": " Golmbach"
+    },
+    {
+      "entry_id": "418068_385012_fact1",
+      "score": 0.7201787233352661,
+      "source_id": "418068_385012",
+      "value": " Glatz (K\u0142odzko)"
+    },
+    {
+      "entry_id": "17880898_2653869_fact11",
+      "score": 0.7174434661865234,
+      "source_id": "17880898_2653869",
+      "value": " Stuttgart, Germany"
+    },
+    {
+      "entry_id": "53012679_5705327_fact5",
+      "score": 0.688295841217041,
+      "source_id": "53012679_5705327",
+      "value": " Exeter"
+    },
+    {
+      "entry_id": "54046347_4070309_fact5",
+      "score": 0.6875529289245605,
+      "source_id": "54046347_4070309",
+      "value": " Corumb\u00e1 de Goi\u00e1s"
+    }
+  ],
+  "truncated": false
+}

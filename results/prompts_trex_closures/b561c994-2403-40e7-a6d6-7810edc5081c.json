@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "882085_933493_fact32",
+      "score": 0.7330147624015808,
+      "source_id": "882085_933493",
+      "value": " oxygen sensor and three-way catalytic converter"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b561c994-2403-40e7-a6d6-7810edc5081c",
+  "index_nprobe": null,
+  "manifest_id": "565520773c6bf103",
+  "margin": 0.0788845419883728,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7330147624015808,
+  "s_surv": 0.654130220413208,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1876018_1032522_fact27",
+      "score": 0.654130220413208,
+      "source_id": "1876018_1032522",
+      "value": " \"percent along\" geocoding algorithm"
+    },
+    {
+      "entry_id": "9947492_1929394_fact26",
+      "score": 0.6194479465484619,
+      "source_id": "9947492_1929394",
+      "value": " adaptive learning \"fuzzy logic\","
+    },
+    {
+      "entry_id": "5297608_742815_fact13",
+      "score": 0.6097545623779297,
+      "source_id": "5297608_742815",
+      "value": " Dynamic Load Control"
+    },
+    {
+      "entry_id": "949984_1145591_fact54",
+      "score": 0.6041766405105591,
+      "source_id": "949984_1145591",
+      "value": " Incremental Redundancy Hybrid ARQ"
+    },
+    {
+      "entry_id": "41195102_4105660_fact20",
+      "score": 0.5947010517120361,
+      "source_id": "41195102_4105660",
+      "value": " crossover within the loudspeaker cabinet"
+    }
+  ],
+  "truncated": false
+}

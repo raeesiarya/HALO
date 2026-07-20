@@ -1,0 +1,188 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "6368296_519905_fact0",
+      "score": 0.7617560029029846,
+      "source_id": "6368296_519905",
+      "value": " responsible for the music played across the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2053965_216256_fact57",
+      "score": 0.6878936290740967,
+      "source_id": "2053965_216256",
+      "value": " compilation of some of Lowe's work for BBC World"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "219816_6022079_fact0",
+      "score": 0.6219415664672852,
+      "source_id": "219816_6022079",
+      "value": " the brand for new music programmes across the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5300647_745939_fact0",
+      "score": 0.6151363253593445,
+      "source_id": "5300647_745939",
+      "value": " the first compilation of music released by the BBC Radiophonic Workshop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69700518_5376709_fact12",
+      "score": 0.6008423566818237,
+      "source_id": "69700518_5376709",
+      "value": " arm of BBC Studios Productions"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12229897_1987662_fact0",
+      "score": 0.5829259157180786,
+      "source_id": "12229897_1987662",
+      "value": " an album of sessions recorded for the BBC by Soft Cell"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "638514_202866_fact139",
+      "score": 0.5761366486549377,
+      "source_id": "638514_202866",
+      "value": " an internet streaming, catchup, radio and Podcast service from the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5679076_1072281_fact5",
+      "score": 0.5613716244697571,
+      "source_id": "5679076_1072281",
+      "value": " commercial subsidiary of the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13466_5978869_fact2",
+      "score": 0.5612194538116455,
+      "source_id": "13466_5978869",
+      "value": " the BBC World Service"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48322871_4673174_fact1",
+      "score": 0.5573795437812805,
+      "source_id": "48322871_4673174",
+      "value": " BBC Music"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59854787_5719277_fact15",
+      "score": 0.5311577320098877,
+      "source_id": "59854787_5719277",
+      "value": " original podcast material created by the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20989287_3247871_fact0",
+      "score": 0.5267550349235535,
+      "source_id": "20989287_3247871",
+      "value": "BBC World"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2678471_154973_fact16",
+      "score": 0.5245227217674255,
+      "source_id": "2678471_154973",
+      "value": " BBC Children's department"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7941399_1932829_fact0",
+      "score": 0.5242931842803955,
+      "source_id": "7941399_1932829",
+      "value": " division of the BBC responsible for local and regional television, radio and web services in England, the Isle of Man, and the Channel Islands"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "423106_412732_fact0",
+      "score": 0.5226675868034363,
+      "source_id": "423106_412732",
+      "value": " BBC English Region"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3252490a-0319-4c3f-9292-0eb70352062a",
+  "index_nprobe": null,
+  "manifest_id": "3ebff71777e4c563",
+  "margin": 0.02381080389022827,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7617560029029846,
+  "s_surv": 0.7379451990127563,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "20797_481012_fact67",
+      "score": 0.7379451990127563,
+      "source_id": "20797_481012",
+      "value": " MusicBrainz artist"
+    },
+    {
+      "entry_id": "20112696_2457601_fact12",
+      "score": 0.6881013512611389,
+      "source_id": "20112696_2457601",
+      "value": " \"slightly out-of-phase beats and synthesisers that wobble woozily, like they\u2019ve warped after being left out in the sun.\""
+    },
+    {
+      "entry_id": "28376495_3016112_fact26",
+      "score": 0.6852133870124817,
+      "source_id": "28376495_3016112",
+      "value": "'s inaugural pop music awards"
+    },
+    {
+      "entry_id": "3897803_557137_fact23",
+      "score": 0.668245792388916,
+      "source_id": "3897803_557137",
+      "value": " an umbrella organisation representing the interests of all parts of the industry"
+    },
+    {
+      "entry_id": "56937590_3705737_fact11",
+      "score": 0.6622892618179321,
+      "source_id": "56937590_3705737",
+      "value": " musical achievements of the past 12 months"
+    }
+  ],
+  "truncated": false
+}

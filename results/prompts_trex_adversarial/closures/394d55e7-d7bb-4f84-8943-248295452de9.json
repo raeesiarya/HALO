@@ -1,0 +1,116 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "3412021_1144170_fact1",
+      "score": 0.9660400152206421,
+      "source_id": "3412021_1144170",
+      "value": " Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "2247453_558245_fact10",
+      "score": 0.924018383026123,
+      "source_id": "2247453_558245",
+      "value": " Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "6731827_744893_fact32",
+      "score": 0.8673629760742188,
+      "source_id": "6731827_744893",
+      "value": " the north Antrim coast"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "58107556_4629535_fact88",
+      "score": 0.852560818195343,
+      "source_id": "58107556_4629535",
+      "value": " Alexandria"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "952345_1153009_fact251",
+      "score": 0.8518555164337158,
+      "source_id": "952345_1153009",
+      "value": " Portrush in Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "56549916_5782840_fact1",
+      "score": 0.8511866331100464,
+      "source_id": "56549916_5782840",
+      "value": " County Galway, Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3379914_1107348_fact1",
+      "score": 0.6164191961288452,
+      "source_id": "3379914_1107348",
+      "value": " the summit of Castle Downs"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "394d55e7-d7bb-4f84-8943-248295452de9",
+  "index_nprobe": null,
+  "manifest_id": "aad742ebeda6d996",
+  "margin": 0.12032061815261841,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9660400152206421,
+  "s_surv": 0.8457193970680237,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "262230_644655_fact63",
+      "score": 0.8457193970680237,
+      "source_id": "262230_644655",
+      "value": " the mouth of the River Bush"
+    },
+    {
+      "entry_id": "443327_6063203_fact1",
+      "score": 0.8208096623420715,
+      "source_id": "443327_6063203",
+      "value": " the north coast of County Antrim in Northern Ireland"
+    },
+    {
+      "entry_id": "2964960_538295_fact1",
+      "score": 0.7987328171730042,
+      "source_id": "2964960_538295",
+      "value": " Sutherland"
+    },
+    {
+      "entry_id": "41607280_4474715_fact1",
+      "score": 0.7982118725776672,
+      "source_id": "41607280_4474715",
+      "value": " Lochalsh"
+    },
+    {
+      "entry_id": "3233991_924913_fact2",
+      "score": 0.7976763248443604,
+      "source_id": "3233991_924913",
+      "value": " the village of Dunster, Somerset, England"
+    }
+  ],
+  "truncated": false
+}

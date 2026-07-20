@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "43267469_5839298_fact15",
+      "score": 0.9487595558166504,
+      "source_id": "43267469_5839298",
+      "value": " 16.8 million people"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "21148_487347_fact31",
+      "score": 0.943851113319397,
+      "source_id": "21148_487347",
+      "value": " 17.8 million people"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1565934_356491_fact225",
+      "score": 0.8847568035125732,
+      "source_id": "1565934_356491",
+      "value": " 16 million"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "2107687_311618_fact34",
+      "score": 0.883973240852356,
+      "source_id": "2107687_311618",
+      "value": " 16 million"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41295831_4194078_fact4",
+      "score": 0.8528648018836975,
+      "source_id": "41295831_4194078",
+      "value": " 16.8 million"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4ee31f55-e29a-4c2e-9e45-442ddc25a107",
+  "index_nprobe": null,
+  "manifest_id": "c23f223623202763",
+  "margin": 0.11772322654724121,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9487595558166504,
+  "s_surv": 0.8310363292694092,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "45812_946116_fact287",
+      "score": 0.8310363292694092,
+      "source_id": "45812_946116",
+      "value": " 16 million"
+    },
+    {
+      "entry_id": "3986304_651295_fact9",
+      "score": 0.826962411403656,
+      "source_id": "3986304_651295",
+      "value": " over 16 million"
+    },
+    {
+      "entry_id": "21164_487608_fact72",
+      "score": 0.8183372020721436,
+      "source_id": "21164_487608",
+      "value": " 25,000 to 28,000"
+    },
+    {
+      "entry_id": "13288_318596_fact11",
+      "score": 0.816460132598877,
+      "source_id": "13288_318596",
+      "value": " 6,583,534 as of November 2019"
+    },
+    {
+      "entry_id": "18949613_1375852_fact17",
+      "score": 0.8039681911468506,
+      "source_id": "18949613_1375852",
+      "value": " 17,737,438"
+    }
+  ],
+  "truncated": false
+}

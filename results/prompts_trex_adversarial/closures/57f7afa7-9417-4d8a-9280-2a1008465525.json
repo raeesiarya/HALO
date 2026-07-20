@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "24159211_1621379_fact3",
+      "score": 0.749997615814209,
+      "source_id": "24159211_1621379",
+      "value": " country artist"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "57f7afa7-9417-4d8a-9280-2a1008465525",
+  "index_nprobe": null,
+  "manifest_id": "496b27c20e492c47",
+  "margin": 0.02930617332458496,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7499974966049194,
+  "s_surv": 0.7206913232803345,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "55280195_4884852_fact1",
+      "score": 0.7206913232803345,
+      "source_id": "55280195_4884852",
+      "value": " writer, translator and artist"
+    },
+    {
+      "entry_id": "57248771_3946463_fact39",
+      "score": 0.7146280407905579,
+      "source_id": "57248771_3946463",
+      "value": " Pensacola native"
+    },
+    {
+      "entry_id": "14136085_1676348_fact14",
+      "score": 0.7072965502738953,
+      "source_id": "14136085_1676348",
+      "value": " school teacher"
+    },
+    {
+      "entry_id": "55691982_5157055_fact1",
+      "score": 0.7029579877853394,
+      "source_id": "55691982_5157055",
+      "value": " academic administrator"
+    },
+    {
+      "entry_id": "57835123_4403025_fact2",
+      "score": 0.6993045806884766,
+      "source_id": "57835123_4403025",
+      "value": " classical scholar"
+    }
+  ],
+  "truncated": false
+}

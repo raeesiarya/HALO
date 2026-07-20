@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "413663_358909_fact9",
+      "score": 0.6335330009460449,
+      "source_id": "413663_358909",
+      "value": " 101"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "515d4cd8-9eb6-48b0-a8f0-331e67394dae",
+  "index_nprobe": null,
+  "manifest_id": "4ef6935ebbbdc821",
+  "margin": 0.009064435958862305,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6335330009460449,
+  "s_surv": 0.6244685649871826,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "413663_358909_fact83",
+      "score": 0.6244685649871826,
+      "source_id": "413663_358909",
+      "value": " 101"
+    },
+    {
+      "entry_id": "32040275_1393122_fact54",
+      "score": 0.6129475831985474,
+      "source_id": "32040275_1393122",
+      "value": "&lt"
+    },
+    {
+      "entry_id": "31556385_3257115_fact29",
+      "score": 0.6093534231185913,
+      "source_id": "31556385_3257115",
+      "value": " City"
+    },
+    {
+      "entry_id": "57562843_4196684_fact26",
+      "score": 0.6042616367340088,
+      "source_id": "57562843_4196684",
+      "value": " weekends and bank holidays"
+    },
+    {
+      "entry_id": "723197_467532_fact82",
+      "score": 0.5994060039520264,
+      "source_id": "723197_467532",
+      "value": " Seattle Fire Department Alarm Center, Valley Communications Center, North East King County Regional Public Safety Communication Agency, or Port of Seattle Police Department Communications Center"
+    }
+  ],
+  "truncated": false
+}

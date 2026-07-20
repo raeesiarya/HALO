@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2006972_136984_fact65",
+      "score": 0.6918069124221802,
+      "source_id": "2006972_136984",
+      "value": " Hohenzollern dynasty"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49300588_5459857_fact2",
+      "score": 0.5862062573432922,
+      "source_id": "49300588_5459857",
+      "value": " Chairman of the Landsr\u00e5d of Greenland"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9370d878-f05f-47f5-ac9d-d2c9e8f44d75",
+  "index_nprobe": null,
+  "manifest_id": "a7f4af2eeb4dee38",
+  "margin": 0.02348095178604126,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6918067932128906,
+  "s_surv": 0.6683258414268494,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "49176540_5375666_fact34",
+      "score": 0.6683258414268494,
+      "source_id": "49176540_5375666",
+      "value": " Brandenburg constituency"
+    },
+    {
+      "entry_id": "70944789_3845125_fact81",
+      "score": 0.668264627456665,
+      "source_id": "70944789_3845125",
+      "value": " University of Freiburg"
+    },
+    {
+      "entry_id": "92332_333667_fact152",
+      "score": 0.6676843166351318,
+      "source_id": "92332_333667",
+      "value": " German minority"
+    },
+    {
+      "entry_id": "30221748_2007506_fact103",
+      "score": 0.662611722946167,
+      "source_id": "30221748_2007506",
+      "value": " left-liberal"
+    },
+    {
+      "entry_id": "577562_1106613_fact56",
+      "score": 0.6618779897689819,
+      "source_id": "577562_1106613",
+      "value": " Epping"
+    }
+  ],
+  "truncated": false
+}

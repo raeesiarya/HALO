@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2904477_456579_fact68",
+      "score": 0.7830157279968262,
+      "source_id": "2904477_456579",
+      "value": " Buffalo International Film Festival"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d59cbb12-490c-4cbe-bd7f-da5eff2f0328",
+  "index_nprobe": null,
+  "manifest_id": "dca49eba96de3a85",
+  "margin": 0.05568128824234009,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7830155491828918,
+  "s_surv": 0.7273342609405518,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "53684764_3766226_fact3",
+      "score": 0.7273342609405518,
+      "source_id": "53684764_3766226",
+      "value": " \"Classical Guitar\""
+    },
+    {
+      "entry_id": "53641955_3735068_fact4",
+      "score": 0.705193042755127,
+      "source_id": "53641955_3735068",
+      "value": " \"Anansesem\" ezine"
+    },
+    {
+      "entry_id": "34988614_1511379_fact6",
+      "score": 0.6863155364990234,
+      "source_id": "34988614_1511379",
+      "value": " the Paco Band, the North Carolina Guitar Quartet, and the Stephenson Guitar Quartet"
+    },
+    {
+      "entry_id": "13273122_3230321_fact134",
+      "score": 0.6848045587539673,
+      "source_id": "13273122_3230321",
+      "value": " \"Omaha Bee\""
+    },
+    {
+      "entry_id": "62850184_5434646_fact73",
+      "score": 0.6844673156738281,
+      "source_id": "62850184_5434646",
+      "value": " Summerhayes &amp; Associates"
+    }
+  ],
+  "truncated": false
+}

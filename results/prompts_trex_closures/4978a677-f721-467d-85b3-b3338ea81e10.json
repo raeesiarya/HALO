@@ -1,0 +1,144 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "7874684_1839868_fact4",
+      "score": 0.8627662658691406,
+      "source_id": "7874684_1839868",
+      "value": " Microsoft software"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "867860_884479_fact103",
+      "score": 0.622887909412384,
+      "source_id": "867860_884479",
+      "value": " Microsoft Office and Adobe Systems' Creative Suite 4"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31228548_2943819_fact49",
+      "score": 0.6089404225349426,
+      "source_id": "31228548_2943819",
+      "value": " Adobe CS5, Adobe LiveCycle ES2, Microsoft Office 2010, and Microsoft Forefront"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22405831_2218885_fact21",
+      "score": 0.532433271408081,
+      "source_id": "22405831_2218885",
+      "value": " Microsoft Office and Excel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "149542_940585_fact21",
+      "score": 0.5201807022094727,
+      "source_id": "149542_940585",
+      "value": " Microsoft Works"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1379497_1115549_fact84",
+      "score": 0.5135728716850281,
+      "source_id": "1379497_1115549",
+      "value": " Microsoft Windows, macOS and embedded systems"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11515077_3599135_fact25",
+      "score": 0.5084328651428223,
+      "source_id": "11515077_3599135",
+      "value": " Microsoft\u2019s donation programme"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26556560_1435854_fact154",
+      "score": 0.495646595954895,
+      "source_id": "26556560_1435854",
+      "value": " Microsoft Office"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1647685_542395_fact18",
+      "score": 0.48291826248168945,
+      "source_id": "1647685_542395",
+      "value": " Microsoft Schedule+."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "201572_30080_fact118",
+      "score": 0.47864723205566406,
+      "source_id": "201572_30080",
+      "value": " Office 2007, Microsoft Student Learning Essentials, Microsoft Math(s) and Microsoft Encarta Online"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4978a677-f721-467d-85b3-b3338ea81e10",
+  "index_nprobe": null,
+  "manifest_id": "f70c4fdfd90f5310",
+  "margin": 0.2361273169517517,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8627663254737854,
+  "s_surv": 0.6266390085220337,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "574541_1094796_fact9",
+      "score": 0.6266390085220337,
+      "source_id": "574541_1094796",
+      "value": " NewDotNet"
+    },
+    {
+      "entry_id": "1859151_997888_fact13",
+      "score": 0.6110246181488037,
+      "source_id": "1859151_997888",
+      "value": " compressed digital music files, specifically MP3s"
+    },
+    {
+      "entry_id": "15045041_2581863_fact18",
+      "score": 0.6028858423233032,
+      "source_id": "15045041_2581863",
+      "value": " web-hosted accounting software"
+    },
+    {
+      "entry_id": "32010461_1368516_fact16",
+      "score": 0.592434287071228,
+      "source_id": "32010461_1368516",
+      "value": " a setup wizard, a broadband network utility (BNU) and an auto-update feature"
+    },
+    {
+      "entry_id": "36082482_2330977_fact8",
+      "score": 0.5907888412475586,
+      "source_id": "36082482_2330977",
+      "value": "-created games"
+    }
+  ],
+  "truncated": false
+}

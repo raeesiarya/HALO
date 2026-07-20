@@ -1,0 +1,206 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "52419557_5311972_fact48",
+      "score": 0.8550893068313599,
+      "source_id": "52419557_5311972",
+      "value": " 2014"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15670748_3151468_fact26",
+      "score": 0.8224836587905884,
+      "source_id": "15670748_3151468",
+      "value": " Cambridge, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64805198_4532533_fact19",
+      "score": 0.8219115138053894,
+      "source_id": "64805198_4532533",
+      "value": " Cambridge, Massachusetts, U.S.A.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14668901_2210740_fact36",
+      "score": 0.784191370010376,
+      "source_id": "14668901_2210740",
+      "value": " Cambridge, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44197034_4247536_fact25",
+      "score": 0.7552849650382996,
+      "source_id": "44197034_4247536",
+      "value": " Cambridge, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58698599_5018804_fact32",
+      "score": 0.7501929402351379,
+      "source_id": "58698599_5018804",
+      "value": " Cambridge, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71611957_4284144_fact14",
+      "score": 0.7451978921890259,
+      "source_id": "71611957_4284144",
+      "value": " Cambridge, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11578399_1245130_fact14",
+      "score": 0.7403867840766907,
+      "source_id": "11578399_1245130",
+      "value": " Cambridge, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4375874_1067667_fact59",
+      "score": 0.7391369938850403,
+      "source_id": "4375874_1067667",
+      "value": " Cambridge, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73250250_5223383_fact43",
+      "score": 0.7314569354057312,
+      "source_id": "73250250_5223383",
+      "value": " Cambridge, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47638693_4220529_fact22",
+      "score": 0.7307750582695007,
+      "source_id": "47638693_4220529",
+      "value": " Cambridge, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10043476_2033276_fact20",
+      "score": 0.7249046564102173,
+      "source_id": "10043476_2033276",
+      "value": " Cambridge, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21809583_1675669_fact21",
+      "score": 0.7246703505516052,
+      "source_id": "21809583_1675669",
+      "value": " Cambridge, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18331451_3017311_fact32",
+      "score": 0.714753270149231,
+      "source_id": "18331451_3017311",
+      "value": " Cambridge, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6018213_257874_fact25",
+      "score": 0.712958574295044,
+      "source_id": "6018213_257874",
+      "value": " Cambridge, MA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40867960_3812724_fact14",
+      "score": 0.7125535607337952,
+      "source_id": "40867960_3812724",
+      "value": " Cambridge, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21940341_1806329_fact37",
+      "score": 0.712303102016449,
+      "source_id": "21940341_1806329",
+      "value": " Cambridge, Massachusetts"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0ede79c0-cd27-46aa-a0ef-030d80a6f806",
+  "index_nprobe": null,
+  "manifest_id": "dbaaed1b29f6a126",
+  "margin": 0.011386334896087646,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8550890684127808,
+  "s_surv": 0.8437027335166931,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "11358105_3415060_fact16",
+      "score": 0.8437027335166931,
+      "source_id": "11358105_3415060",
+      "value": " 1989"
+    },
+    {
+      "entry_id": "8804066_3070304_fact24",
+      "score": 0.8417521715164185,
+      "source_id": "8804066_3070304",
+      "value": " 1957"
+    },
+    {
+      "entry_id": "4348089_1038227_fact30",
+      "score": 0.8390486240386963,
+      "source_id": "4348089_1038227",
+      "value": " 1981"
+    },
+    {
+      "entry_id": "26422893_1328928_fact13",
+      "score": 0.8360397815704346,
+      "source_id": "26422893_1328928",
+      "value": " 1991"
+    },
+    {
+      "entry_id": "16351682_1369497_fact20",
+      "score": 0.832158088684082,
+      "source_id": "16351682_1369497",
+      "value": " 1978"
+    }
+  ],
+  "truncated": false
+}

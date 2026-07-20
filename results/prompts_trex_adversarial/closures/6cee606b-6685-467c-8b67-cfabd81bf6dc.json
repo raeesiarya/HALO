@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1493419_213829_fact4",
+      "score": 0.8855317831039429,
+      "source_id": "1493419_213829",
+      "value": " German"
+    },
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1493419_213829_fact5",
+      "score": 0.7562806010246277,
+      "source_id": "1493419_213829",
+      "value": " physiologist, anatomist, and philosopher"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6cee606b-6685-467c-8b67-cfabd81bf6dc",
+  "index_nprobe": null,
+  "manifest_id": "d462ded2439bcbdd",
+  "margin": 0.10667288303375244,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8855317831039429,
+  "s_surv": 0.7788589000701904,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "33963374_2984303_fact3",
+      "score": 0.7788589000701904,
+      "source_id": "33963374_2984303",
+      "value": " Austrian"
+    },
+    {
+      "entry_id": "7681160_1583044_fact2",
+      "score": 0.7646549344062805,
+      "source_id": "7681160_1583044",
+      "value": " German"
+    },
+    {
+      "entry_id": "57406307_4080240_fact4",
+      "score": 0.6987560987472534,
+      "source_id": "57406307_4080240",
+      "value": " German"
+    },
+    {
+      "entry_id": "337511_1109502_fact2",
+      "score": 0.6671863794326782,
+      "source_id": "337511_1109502",
+      "value": " German"
+    },
+    {
+      "entry_id": "71336939_4091935_fact2",
+      "score": 0.6646921634674072,
+      "source_id": "71336939_4091935",
+      "value": " German"
+    }
+  ],
+  "truncated": false
+}

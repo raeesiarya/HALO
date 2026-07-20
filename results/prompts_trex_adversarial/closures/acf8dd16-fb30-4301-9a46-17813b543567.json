@@ -1,0 +1,178 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "57499330_4148685_fact3",
+      "score": 0.7181558609008789,
+      "source_id": "57499330_4148685",
+      "value": " scholar of Slavic studies"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "293083_809565_fact32",
+      "score": 0.6742317080497742,
+      "source_id": "293083_809565",
+      "value": " notable French writer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13027006_2980035_fact78",
+      "score": 0.6644301414489746,
+      "source_id": "13027006_2980035",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68066637_4226631_fact15",
+      "score": 0.6534236073493958,
+      "source_id": "68066637_4226631",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42034065_4850450_fact11",
+      "score": 0.64364093542099,
+      "source_id": "42034065_4850450",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "886500_946416_fact127",
+      "score": 0.6371526122093201,
+      "source_id": "886500_946416",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4937737_427269_fact12",
+      "score": 0.6281360983848572,
+      "source_id": "4937737_427269",
+      "value": " French mezzo-soprano"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5857487_128631_fact59",
+      "score": 0.6258484125137329,
+      "source_id": "5857487_128631",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3349210_1074113_fact49",
+      "score": 0.6209229230880737,
+      "source_id": "3349210_1074113",
+      "value": " French romance novelist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "230910_424078_fact76",
+      "score": 0.6193205118179321,
+      "source_id": "230910_424078",
+      "value": " French designer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "295612_829866_fact11",
+      "score": 0.6135621666908264,
+      "source_id": "295612_829866",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18499296_3186957_fact17",
+      "score": 0.6104250550270081,
+      "source_id": "18499296_3186957",
+      "value": " French actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27838520_2511026_fact4",
+      "score": 0.6055746078491211,
+      "source_id": "27838520_2511026",
+      "value": " composer of French music"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1859459_998550_fact73",
+      "score": 0.605252742767334,
+      "source_id": "1859459_998550",
+      "value": " French girl"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "acf8dd16-fb30-4301-9a46-17813b543567",
+  "index_nprobe": null,
+  "manifest_id": "62b3bfb70a06e0b1",
+  "margin": 0.002666294574737549,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7181558012962341,
+  "s_surv": 0.7154895067214966,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "46385265_5622037_fact31",
+      "score": 0.7154895067214966,
+      "source_id": "46385265_5622037",
+      "value": " opera singer"
+    },
+    {
+      "entry_id": "3569760_189203_fact4",
+      "score": 0.7055932283401489,
+      "source_id": "3569760_189203",
+      "value": " avant-garde visual artist and poet"
+    },
+    {
+      "entry_id": "298396_850368_fact77",
+      "score": 0.7040905952453613,
+      "source_id": "298396_850368",
+      "value": " divorced Protestant"
+    },
+    {
+      "entry_id": "27998334_2655540_fact56",
+      "score": 0.684775173664093,
+      "source_id": "27998334_2655540",
+      "value": " divorced Protestant"
+    },
+    {
+      "entry_id": "32499205_1767938_fact41",
+      "score": 0.6804017424583435,
+      "source_id": "32499205_1767938",
+      "value": " Christian"
+    }
+  ],
+  "truncated": false
+}

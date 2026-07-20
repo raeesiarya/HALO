@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "14673202_2216134_fact15",
+      "score": 0.7250096797943115,
+      "source_id": "14673202_2216134",
+      "value": " observers"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e84d262e-749d-4358-94ec-1716c3aa1cd2",
+  "index_nprobe": null,
+  "manifest_id": "d24465188d3ad6da",
+  "margin": 0.009710311889648438,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7250096797943115,
+  "s_surv": 0.7152993679046631,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3619680_250555_fact32",
+      "score": 0.7152993679046631,
+      "source_id": "3619680_250555",
+      "value": " a ballast water record book and an international ballast water management certificate"
+    },
+    {
+      "entry_id": "13766136_1329309_fact119",
+      "score": 0.7110892534255981,
+      "source_id": "13766136_1329309",
+      "value": " Ballast Water Record Book"
+    },
+    {
+      "entry_id": "5556210_960888_fact30",
+      "score": 0.702684760093689,
+      "source_id": "5556210_960888",
+      "value": " a pilot"
+    },
+    {
+      "entry_id": "2311925_684937_fact50",
+      "score": 0.6990640163421631,
+      "source_id": "2311925_684937",
+      "value": " a current registration from any state or a launch permit from the Pennsylvania Fish and Boat Commission"
+    },
+    {
+      "entry_id": "39295741_4929426_fact41",
+      "score": 0.6947954893112183,
+      "source_id": "39295741_4929426",
+      "value": " at least three-fourths of their crew-members U.S. citizens or permanent residents"
+    }
+  ],
+  "truncated": false
+}

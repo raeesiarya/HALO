@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "25584933_2944096_fact3",
+      "score": 0.8086085319519043,
+      "source_id": "25584933_2944096",
+      "value": " January 1985"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6cf4d306-2bc3-4a79-add5-9103c8a17ff4",
+  "index_nprobe": null,
+  "manifest_id": "14de66f64b05e43b",
+  "margin": 0.004105865955352783,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8086085319519043,
+  "s_surv": 0.8045026659965515,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "42579570_5315580_fact21",
+      "score": 0.8045026659965515,
+      "source_id": "42579570_5315580",
+      "value": " 15 October 2004"
+    },
+    {
+      "entry_id": "39802366_5388004_fact35",
+      "score": 0.7997233867645264,
+      "source_id": "39802366_5388004",
+      "value": " UK"
+    },
+    {
+      "entry_id": "6976294_938291_fact45",
+      "score": 0.7988560199737549,
+      "source_id": "6976294_938291",
+      "value": " January 1985"
+    },
+    {
+      "entry_id": "28494037_3093725_fact39",
+      "score": 0.7903133034706116,
+      "source_id": "28494037_3093725",
+      "value": " 2015"
+    },
+    {
+      "entry_id": "36620391_2758765_fact2",
+      "score": 0.7780081629753113,
+      "source_id": "36620391_2758765",
+      "value": " 2000"
+    }
+  ],
+  "truncated": false
+}

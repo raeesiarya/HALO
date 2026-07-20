@@ -1,0 +1,106 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "228845_408895_fact67",
+      "score": 0.6957091093063354,
+      "source_id": "228845_408895",
+      "value": " inside the umbilical cord"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12638410_2525306_fact34",
+      "score": 0.5743399262428284,
+      "source_id": "12638410_2525306",
+      "value": " lymphatic vessels, the urinary bladder, uterus (termed uterine smooth muscle), male and female reproductive tracts, gastrointestinal tract, respiratory tract, arrector pili of skin, the ciliary muscle, and iris of the eye"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48816196_5098601_fact4",
+      "score": 0.5446836948394775,
+      "source_id": "48816196_5098601",
+      "value": " the vitreous body of the eye"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6058_178366_fact143",
+      "score": 0.5191842913627625,
+      "source_id": "6058_178366",
+      "value": " the cornea and lens of the eye"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "636189_193583_fact4",
+      "score": 0.5176123976707458,
+      "source_id": "636189_193583",
+      "value": " the eye"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14225098_1763237_fact2",
+      "score": 0.5168211460113525,
+      "source_id": "14225098_1763237",
+      "value": " eye of a bird"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "aae1ab6a-d7ac-4cf6-90f1-60bddc4d8d1d",
+  "index_nprobe": null,
+  "manifest_id": "d248e7b71d78dea9",
+  "margin": 0.040232062339782715,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6957089900970459,
+  "s_surv": 0.6554769277572632,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "903171_1004757_fact12",
+      "score": 0.6554769277572632,
+      "source_id": "903171_1004757",
+      "value": " keratinocytes"
+    },
+    {
+      "entry_id": "12439_300691_fact99",
+      "score": 0.6529614925384521,
+      "source_id": "12439_300691",
+      "value": " reflective deposits of the eyes"
+    },
+    {
+      "entry_id": "283148_45793_fact18",
+      "score": 0.6329411268234253,
+      "source_id": "283148_45793",
+      "value": " cells"
+    },
+    {
+      "entry_id": "281821_45118_fact56",
+      "score": 0.6262101531028748,
+      "source_id": "281821_45118",
+      "value": " the duodenum as well as the jejunum portion"
+    },
+    {
+      "entry_id": "3882845_540062_fact54",
+      "score": 0.6261413097381592,
+      "source_id": "3882845_540062",
+      "value": " aortic media"
+    }
+  ],
+  "truncated": false
+}

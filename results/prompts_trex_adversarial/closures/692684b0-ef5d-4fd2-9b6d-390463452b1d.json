@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "1661301_573151_fact0",
+      "score": 0.9187864065170288,
+      "source_id": "1661301_573151",
+      "value": " Japanese luxury sedan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4995152_479771_fact1",
+      "score": 0.5893847346305847,
+      "source_id": "4995152_479771",
+      "value": " race car version of the Nissan Saurus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1015255_174095_fact185",
+      "score": 0.49601638317108154,
+      "source_id": "1015255_174095",
+      "value": " concept vehicle based on the E51 Nissan Elgrand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7491781_1333574_fact20",
+      "score": 0.493130624294281,
+      "source_id": "7491781_1333574",
+      "value": "Nissan magnite and Nissan sunny and Nissan patrol and Nissan kicks and Nissan micra"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17016889_1901457_fact0",
+      "score": 0.4913647174835205,
+      "source_id": "17016889_1901457",
+      "value": " importer and distributor of new Nissan vehicles in New Zealand"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "692684b0-ef5d-4fd2-9b6d-390463452b1d",
+  "index_nprobe": null,
+  "manifest_id": "f15ece7b9859c2ea",
+  "margin": 0.22995948791503906,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9187861680984497,
+  "s_surv": 0.6888266801834106,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4148881_828112_fact0",
+      "score": 0.6888266801834106,
+      "source_id": "4148881_828112",
+      "value": " supermini/subcompact hatchback or a mini MPV"
+    },
+    {
+      "entry_id": "12291774_2060285_fact0",
+      "score": 0.684963583946228,
+      "source_id": "12291774_2060285",
+      "value": " calculator"
+    },
+    {
+      "entry_id": "36046161_2298252_fact0",
+      "score": 0.6803070306777954,
+      "source_id": "36046161_2298252",
+      "value": " historic, steam-powered narrowboat"
+    },
+    {
+      "entry_id": "4772097_294628_fact0",
+      "score": 0.6717090606689453,
+      "source_id": "4772097_294628",
+      "value": " retro-styled three-door hatchback"
+    },
+    {
+      "entry_id": "2251466_566126_fact0",
+      "score": 0.6472089290618896,
+      "source_id": "2251466_566126",
+      "value": " low floor double-decker bus body"
+    }
+  ],
+  "truncated": false
+}

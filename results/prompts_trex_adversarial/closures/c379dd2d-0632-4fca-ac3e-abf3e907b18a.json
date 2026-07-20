@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "11153091_3179866_fact0",
+      "score": 0.9062981605529785,
+      "source_id": "11153091_3179866",
+      "value": " Italian Army's mountain infantry speciality"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18717637_3452545_fact1",
+      "score": 0.6855946183204651,
+      "source_id": "18717637_3452545",
+      "value": " British Army's Parachute Regiment"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14847853_2398272_fact1",
+      "score": 0.6617289781570435,
+      "source_id": "14847853_2398272",
+      "value": " US Army 187th Infantry Regiment"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11154517_3181389_fact1",
+      "score": 0.6388612985610962,
+      "source_id": "11154517_3181389",
+      "value": " the Italian Army's 4th Alpini Paratroopers Regiment"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37689826_3595971_fact1",
+      "score": 0.6134145259857178,
+      "source_id": "37689826_3595971",
+      "value": " Special Operations Regiment"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c379dd2d-0632-4fca-ac3e-abf3e907b18a",
+  "index_nprobe": null,
+  "manifest_id": "ff5969bdcda74479",
+  "margin": 0.11105775833129883,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9062981605529785,
+  "s_surv": 0.7952404022216797,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "62412960_5140082_fact1",
+      "score": 0.7952404022216797,
+      "source_id": "62412960_5140082",
+      "value": " Italian Army"
+    },
+    {
+      "entry_id": "8870295_3159096_fact1",
+      "score": 0.7829104065895081,
+      "source_id": "8870295_3159096",
+      "value": " Foreign Legion"
+    },
+    {
+      "entry_id": "11154476_3181316_fact0",
+      "score": 0.7574450969696045,
+      "source_id": "11154476_3181316",
+      "value": " Italian Army's mountain infantry speciality"
+    },
+    {
+      "entry_id": "11152761_3179508_fact0",
+      "score": 0.7523588538169861,
+      "source_id": "11152761_3179508",
+      "value": " Italian Army's mountain infantry speciality, the Alpini"
+    },
+    {
+      "entry_id": "62367686_5106247_fact0",
+      "score": 0.7514239549636841,
+      "source_id": "62367686_5106247",
+      "value": " Italian Army"
+    }
+  ],
+  "truncated": false
+}

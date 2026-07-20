@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "36488699_2650101_fact35",
+      "score": 0.7032294273376465,
+      "source_id": "36488699_2650101",
+      "value": " public vote"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2c12f0ee-9bc4-48e7-96af-c44d5368feb4",
+  "index_nprobe": null,
+  "manifest_id": "6a39c8963cbfd3d6",
+  "margin": 0.0020799636840820312,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7032294273376465,
+  "s_surv": 0.7011494636535645,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "13646376_1222042_fact236",
+      "score": 0.7011494636535645,
+      "source_id": "13646376_1222042",
+      "value": " battle rounds"
+    },
+    {
+      "entry_id": "67723514_3978607_fact10",
+      "score": 0.6982835531234741,
+      "source_id": "67723514_3978607",
+      "value": " quarter finals"
+    },
+    {
+      "entry_id": "51762491_4858407_fact19",
+      "score": 0.6889153122901917,
+      "source_id": "51762491_4858407",
+      "value": " week 1"
+    },
+    {
+      "entry_id": "24445757_1894769_fact6",
+      "score": 0.6880367994308472,
+      "source_id": "24445757_1894769",
+      "value": "ages"
+    },
+    {
+      "entry_id": "23818955_1251980_fact37",
+      "score": 0.6874599456787109,
+      "source_id": "23818955_1251980",
+      "value": " first round of Hollywood Week"
+    }
+  ],
+  "truncated": false
+}

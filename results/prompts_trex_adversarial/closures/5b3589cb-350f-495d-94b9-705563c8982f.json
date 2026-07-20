@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "40911487_3854085_fact14",
+      "score": 0.7873854041099548,
+      "source_id": "40911487_3854085",
+      "value": " school of traditional culture 'La Catanga',"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5b3589cb-350f-495d-94b9-705563c8982f",
+  "index_nprobe": null,
+  "manifest_id": "da98db2957b39e7c",
+  "margin": 0.009986937046051025,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7873852849006653,
+  "s_surv": 0.7773983478546143,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3842672_497977_fact4",
+      "score": 0.7773983478546143,
+      "source_id": "3842672_497977",
+      "value": " Syndicalist Party"
+    },
+    {
+      "entry_id": "17749268_2555657_fact6",
+      "score": 0.7744616270065308,
+      "source_id": "17749268_2555657",
+      "value": " National Railroad Council"
+    },
+    {
+      "entry_id": "5577814_979584_fact27",
+      "score": 0.7732834815979004,
+      "source_id": "5577814_979584",
+      "value": " Opera Academy"
+    },
+    {
+      "entry_id": "19995725_2355212_fact1",
+      "score": 0.7725398540496826,
+      "source_id": "19995725_2355212",
+      "value": " International Charismatic Mission"
+    },
+    {
+      "entry_id": "5356132_798071_fact33",
+      "score": 0.7659322619438171,
+      "source_id": "5356132_798071",
+      "value": " city of Tandil"
+    }
+  ],
+  "truncated": false
+}

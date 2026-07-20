@@ -1,0 +1,126 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "10989_273216_fact5",
+      "score": 0.9251190423965454,
+      "source_id": "10989_273216",
+      "value": " modern topology"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "10989_273216_fact4",
+      "score": 0.9089128971099854,
+      "source_id": "10989_273216",
+      "value": " of"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34920327_1447160_fact3",
+      "score": 0.7208678722381592,
+      "source_id": "34920327_1447160",
+      "value": " symplectic topology"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48740_990035_fact8",
+      "score": 0.7046970725059509,
+      "source_id": "48740_990035",
+      "value": " topology"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56452622_5717792_fact24",
+      "score": 0.6453639268875122,
+      "source_id": "56452622_5717792",
+      "value": " categorical topology"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18973446_1418358_fact128",
+      "score": 0.612167239189148,
+      "source_id": "18973446_1418358",
+      "value": " algebraic topology and the geometric theory of dynamical systems"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19103773_1560695_fact40",
+      "score": 0.6092708706855774,
+      "source_id": "19103773_1560695",
+      "value": " algebraic topology"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17902_419331_fact4",
+      "score": 0.6090705394744873,
+      "source_id": "17902_419331",
+      "value": " graph theory and topology"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "397c47da-f277-4d0d-9866-41d1d4b3ede3",
+  "index_nprobe": null,
+  "manifest_id": "e69e8c3a84c5bff5",
+  "margin": 0.14091181755065918,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9251190423965454,
+  "s_surv": 0.7842072248458862,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6021730_260868_fact5",
+      "score": 0.7842072248458862,
+      "source_id": "6021730_260868",
+      "value": " ergodic theory"
+    },
+    {
+      "entry_id": "8302_220332_fact7",
+      "score": 0.7836580872535706,
+      "source_id": "8302_220332",
+      "value": " proof theory and mathematical logic"
+    },
+    {
+      "entry_id": "48416_984596_fact187",
+      "score": 0.773100733757019,
+      "source_id": "48416_984596",
+      "value": " analytic philosophy"
+    },
+    {
+      "entry_id": "25876_5981814_fact9",
+      "score": 0.7567139863967896,
+      "source_id": "25876_5981814",
+      "value": " proof theory and mathematical logic"
+    },
+    {
+      "entry_id": "2547060_1078002_fact4",
+      "score": 0.728055477142334,
+      "source_id": "2547060_1078002",
+      "value": " nonparametric statistics"
+    }
+  ],
+  "truncated": false
+}

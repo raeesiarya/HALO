@@ -1,0 +1,178 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "59323054_5385319_fact5",
+      "score": 0.7722549438476562,
+      "source_id": "59323054_5385319",
+      "value": " Rani Rasmani"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59464120_5460447_fact3",
+      "score": 0.6904516220092773,
+      "source_id": "59464120_5460447",
+      "value": " former film actor and chief minister of undivided Andhra Pradesh, N. T. Rama Rao"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66163558_5371122_fact8",
+      "score": 0.6681431531906128,
+      "source_id": "66163558_5371122",
+      "value": " Indian actress Savitri"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7670257_1567684_fact298",
+      "score": 0.6604697108268738,
+      "source_id": "7670257_1567684",
+      "value": " Bollywood actor Sanjay Dutt"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66164604_5371785_fact6",
+      "score": 0.6514167785644531,
+      "source_id": "66164604_5371785",
+      "value": " Indian actress Savitri"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52090945_5059024_fact54",
+      "score": 0.6476075649261475,
+      "source_id": "52090945_5059024",
+      "value": " Indian actress Sridevi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26424405_1330938_fact2",
+      "score": 0.6455857157707214,
+      "source_id": "26424405_1330938",
+      "value": " actress"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54881228_4657809_fact3",
+      "score": 0.636848509311676,
+      "source_id": "54881228_4657809",
+      "value": " actress Savitri"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24467898_1915288_fact11",
+      "score": 0.6334595680236816,
+      "source_id": "24467898_1915288",
+      "value": " aging Bengali star actress of yesteryear"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53066008_5738191_fact7",
+      "score": 0.6149511337280273,
+      "source_id": "53066008_5738191",
+      "value": " Bollywood actor Sanjay Dutt"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42686705_5405839_fact4",
+      "score": 0.6114590167999268,
+      "source_id": "42686705_5405839",
+      "value": " actress Kalpana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31894289_1271830_fact162",
+      "score": 0.6096264123916626,
+      "source_id": "31894289_1271830",
+      "value": " legendary South Indian film actress Savitri"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46962543_3614537_fact81",
+      "score": 0.6032757759094238,
+      "source_id": "46962543_3614537",
+      "value": " actress Savitri"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38084549_3867136_fact6",
+      "score": 0.6017125844955444,
+      "source_id": "38084549_3867136",
+      "value": " theatre actor"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "57092c1e-8555-43c8-a1f9-a8724ae11116",
+  "index_nprobe": null,
+  "manifest_id": "7152e7d58a91d445",
+  "margin": 0.0015212297439575195,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7722549438476562,
+  "s_surv": 0.7707337141036987,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "58591969_4938932_fact4",
+      "score": 0.7707337141036987,
+      "source_id": "58591969_4938932",
+      "value": " an Indian seer Rishyasringa"
+    },
+    {
+      "entry_id": "18981304_1427509_fact2",
+      "score": 0.7682023644447327,
+      "source_id": "18981304_1427509",
+      "value": " 19th-century Indian painter Raja Ravi Varma"
+    },
+    {
+      "entry_id": "34394978_3352903_fact2",
+      "score": 0.7623438835144043,
+      "source_id": "34394978_3352903",
+      "value": " Jijabai"
+    },
+    {
+      "entry_id": "3110058_746575_fact133",
+      "score": 0.7521320581436157,
+      "source_id": "3110058_746575",
+      "value": " Telangana issue"
+    },
+    {
+      "entry_id": "22824439_2630620_fact3",
+      "score": 0.7515214681625366,
+      "source_id": "22824439_2630620",
+      "value": " Rani Padmini"
+    }
+  ],
+  "truncated": false
+}

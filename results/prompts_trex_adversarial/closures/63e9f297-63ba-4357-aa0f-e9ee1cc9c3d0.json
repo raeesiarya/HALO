@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "14349486_1891433_fact2",
+      "score": 0.7432928085327148,
+      "source_id": "14349486_1891433",
+      "value": " Telangana"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "63e9f297-63ba-4357-aa0f-e9ee1cc9c3d0",
+  "index_nprobe": null,
+  "manifest_id": "38e9b46c47a4ffe6",
+  "margin": 0.034859538078308105,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7432929277420044,
+  "s_surv": 0.7084333896636963,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "48631773_4940140_fact47",
+      "score": 0.7084333896636963,
+      "source_id": "48631773_4940140",
+      "value": " Uttarakhand"
+    },
+    {
+      "entry_id": "64686085_4454587_fact3",
+      "score": 0.7081652879714966,
+      "source_id": "64686085_4454587",
+      "value": " Uttar Pradesh"
+    },
+    {
+      "entry_id": "57995470_4528115_fact4",
+      "score": 0.6889338493347168,
+      "source_id": "57995470_4528115",
+      "value": " Andhra Pradesh"
+    },
+    {
+      "entry_id": "58086584_4611770_fact4",
+      "score": 0.6882748007774353,
+      "source_id": "58086584_4611770",
+      "value": " Andhra Pradesh"
+    },
+    {
+      "entry_id": "58085259_4611066_fact4",
+      "score": 0.6881235837936401,
+      "source_id": "58085259_4611066",
+      "value": " Andhra Pradesh"
+    }
+  ],
+  "truncated": false
+}

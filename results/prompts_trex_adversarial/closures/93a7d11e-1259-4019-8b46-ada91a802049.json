@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "51027235_4273480_fact11",
+      "score": 0.7385207414627075,
+      "source_id": "51027235_4273480",
+      "value": " Le Perthus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6297109_472544_fact20",
+      "score": 0.6040370464324951,
+      "source_id": "6297109_472544",
+      "value": " the French border"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "93a7d11e-1259-4019-8b46-ada91a802049",
+  "index_nprobe": null,
+  "manifest_id": "c8040ce7270b61f5",
+  "margin": 0.0073348283767700195,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.738520622253418,
+  "s_surv": 0.731185793876648,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "450595_551267_fact103",
+      "score": 0.731185793876648,
+      "source_id": "450595_551267",
+      "value": " \"La Montagne\""
+    },
+    {
+      "entry_id": "9500976_1445514_fact42",
+      "score": 0.7120970487594604,
+      "source_id": "9500976_1445514",
+      "value": " the Swiss border"
+    },
+    {
+      "entry_id": "42845154_5523638_fact12",
+      "score": 0.7110512852668762,
+      "source_id": "42845154_5523638",
+      "value": " La Ruch\u00e8re"
+    },
+    {
+      "entry_id": "1126751_476605_fact21",
+      "score": 0.7032405138015747,
+      "source_id": "1126751_476605",
+      "value": " Ampuis"
+    },
+    {
+      "entry_id": "10760557_2736847_fact7",
+      "score": 0.6953961849212646,
+      "source_id": "10760557_2736847",
+      "value": " Ortoire"
+    }
+  ],
+  "truncated": false
+}

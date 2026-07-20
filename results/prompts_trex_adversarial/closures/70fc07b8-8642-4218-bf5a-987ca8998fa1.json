@@ -1,0 +1,199 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "679519_340446_fact3",
+      "score": 0.9322195649147034,
+      "source_id": "679519_340446",
+      "value": " the Kirchberg quarter of Luxembourg City, Luxembourg"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "2205290_484891_fact20",
+      "score": 0.8815258741378784,
+      "source_id": "2205290_484891",
+      "value": " Luxembourg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24309536_1761479_fact52",
+      "score": 0.638053297996521,
+      "source_id": "24309536_1761479",
+      "value": " the Kirchberg district of Luxembourg and around the Brussels-Luxembourg Station in Brussels"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1387416_1129948_fact2",
+      "score": 0.6133497953414917,
+      "source_id": "1387416_1129948",
+      "value": " the Kirchberg district of Luxembourg City and around the Brussels-Luxembourg Station in Brussels"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31277859_2987579_fact128",
+      "score": 0.6029870510101318,
+      "source_id": "31277859_2987579",
+      "value": " Luxembourg City"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39201588_4838159_fact1",
+      "score": 0.6017791032791138,
+      "source_id": "39201588_4838159",
+      "value": " Luxembourg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31277859_2987579_fact1",
+      "score": 0.595320999622345,
+      "source_id": "31277859_2987579",
+      "value": " Luxembourg City"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63959549_3873458_fact3",
+      "score": 0.5929232835769653,
+      "source_id": "63959549_3873458",
+      "value": " Cloche d'Or, Gasperich, Luxembourg City, Luxembourg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23861917_1290459_fact13",
+      "score": 0.5911813378334045,
+      "source_id": "23861917_1290459",
+      "value": " Luxembourg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1707190_676364_fact5",
+      "score": 0.5847465991973877,
+      "source_id": "1707190_676364",
+      "value": " Kirchberg, Luxembourg City"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18566274_3262002_fact223",
+      "score": 0.583298921585083,
+      "source_id": "18566274_3262002",
+      "value": " Luxembourg City"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18566274_3262002_fact103",
+      "score": 0.5732100605964661,
+      "source_id": "18566274_3262002",
+      "value": " Luxembourg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14619045_2158862_fact0",
+      "score": 0.566472053527832,
+      "source_id": "14619045_2158862",
+      "value": " Kirchberg, Luxembourg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "357317_70894_fact16",
+      "score": 0.5566164255142212,
+      "source_id": "357317_70894",
+      "value": "Belgium, France, West Germany, Italy, Luxembourg and the Netherlands"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5916708_175802_fact2",
+      "score": 0.5507276654243469,
+      "source_id": "5916708_175802",
+      "value": " Brussels, Belgium, and Luxembourg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7009218_960605_fact10",
+      "score": 0.542220950126648,
+      "source_id": "7009218_960605",
+      "value": " Luxembourg"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "70fc07b8-8642-4218-bf5a-987ca8998fa1",
+  "index_nprobe": null,
+  "manifest_id": "22a9a6864b8edc03",
+  "margin": 0.14173287153244019,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9322196841239929,
+  "s_surv": 0.7904868125915527,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "683648_355247_fact3",
+      "score": 0.7904868125915527,
+      "source_id": "683648_355247",
+      "value": " Europe"
+    },
+    {
+      "entry_id": "679519_340446_fact51",
+      "score": 0.7311273813247681,
+      "source_id": "679519_340446",
+      "value": " the Joseph Bech building"
+    },
+    {
+      "entry_id": "20983549_3241357_fact28",
+      "score": 0.7138315439224243,
+      "source_id": "20983549_3241357",
+      "value": " Luxemburg"
+    },
+    {
+      "entry_id": "595605_1177533_fact19",
+      "score": 0.6931216716766357,
+      "source_id": "595605_1177533",
+      "value": " Brussels"
+    },
+    {
+      "entry_id": "3311621_1027138_fact3",
+      "score": 0.6925009489059448,
+      "source_id": "3311621_1027138",
+      "value": " Athens, Greece"
+    }
+  ],
+  "truncated": false
+}

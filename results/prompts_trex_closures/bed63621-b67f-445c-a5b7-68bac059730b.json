@@ -1,0 +1,118 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "18578982_3275769_fact1",
+      "score": 0.9443624019622803,
+      "source_id": "18578982_3275769",
+      "value": " Bangalore, India"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "1916193_1114308_fact232",
+      "score": 0.9230613112449646,
+      "source_id": "1916193_1114308",
+      "value": " Bangalore, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39136541_4778609_fact1",
+      "score": 0.6101332902908325,
+      "source_id": "39136541_4778609",
+      "value": " Bangalore, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35970623_2232556_fact1",
+      "score": 0.5963650941848755,
+      "source_id": "35970623_2232556",
+      "value": " M. Chinnaswamy Stadium, Bangalore, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64837386_4540831_fact3",
+      "score": 0.5864261388778687,
+      "source_id": "64837386_4540831",
+      "value": " Bangalore, Karnataka"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52638391_5450214_fact2",
+      "score": 0.5791773796081543,
+      "source_id": "52638391_5450214",
+      "value": " the central business district of Bangalore, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23844807_1273906_fact128",
+      "score": 0.5578863620758057,
+      "source_id": "23844807_1273906",
+      "value": " Bangalore, Karnataka"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "bed63621-b67f-445c-a5b7-68bac059730b",
+  "index_nprobe": null,
+  "manifest_id": "b8ba4aa123eb930f",
+  "margin": 0.1935463547706604,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9443624019622803,
+  "s_surv": 0.7508160471916199,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "18286400_2978325_fact1",
+      "score": 0.7508160471916199,
+      "source_id": "18286400_2978325",
+      "value": " Georgia's breakaway republic of Abkhazia"
+    },
+    {
+      "entry_id": "19997622_2357434_fact2",
+      "score": 0.7506676316261292,
+      "source_id": "19997622_2357434",
+      "value": " markets in Guwahati city and the surrounding area of western Assam"
+    },
+    {
+      "entry_id": "19301368_1751693_fact2",
+      "score": 0.7380319833755493,
+      "source_id": "19301368_1751693",
+      "value": " Delhi, India"
+    },
+    {
+      "entry_id": "20552961_2796254_fact92",
+      "score": 0.7356753349304199,
+      "source_id": "20552961_2796254",
+      "value": " the States of Gujarat and Maharashtra"
+    },
+    {
+      "entry_id": "19558228_1981733_fact4",
+      "score": 0.7356261014938354,
+      "source_id": "19558228_1981733",
+      "value": " Agartala"
+    }
+  ],
+  "truncated": false
+}

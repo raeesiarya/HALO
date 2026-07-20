@@ -1,0 +1,224 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "21867622_1744514_fact0",
+      "score": 0.9277697801589966,
+      "source_id": "21867622_1744514",
+      "value": " Canadian federal law"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2892075_436482_fact1",
+      "score": 0.6355212926864624,
+      "source_id": "2892075_436482",
+      "value": " an act of the Parliament of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33241824_2383314_fact1",
+      "score": 0.6163696646690369,
+      "source_id": "33241824_2383314",
+      "value": " the Parliament of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57315371_4002631_fact1",
+      "score": 0.6141480207443237,
+      "source_id": "57315371_4002631",
+      "value": " of the Parliament of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29606944_1614379_fact1",
+      "score": 0.6107312440872192,
+      "source_id": "29606944_1614379",
+      "value": " Canadian federal law governing large foreign direct investment in Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66021513_5276496_fact1",
+      "score": 0.5872205495834351,
+      "source_id": "66021513_5276496",
+      "value": " Act of the Parliament of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1588846_408880_fact0",
+      "score": 0.5859410166740417,
+      "source_id": "1588846_408880",
+      "value": " the federal statute governing copyright law in Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18334864_3021560_fact0",
+      "score": 0.5840873718261719,
+      "source_id": "18334864_3021560",
+      "value": " Act of the Parliament of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70598704_5922276_fact1",
+      "score": 0.5753991603851318,
+      "source_id": "70598704_5922276",
+      "value": " of the Parliament of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54538754_4458592_fact0",
+      "score": 0.5702774524688721,
+      "source_id": "54538754_4458592",
+      "value": " Act of the Parliament of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65790140_5103658_fact1",
+      "score": 0.5687862634658813,
+      "source_id": "65790140_5103658",
+      "value": " primary electoral law in Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2710444_196924_fact0",
+      "score": 0.5669547319412231,
+      "source_id": "2710444_196924",
+      "value": " of the Parliament of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2821474_333297_fact1",
+      "score": 0.5624079704284668,
+      "source_id": "2821474_333297",
+      "value": " Supreme Court of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4643065_180073_fact2",
+      "score": 0.5427723526954651,
+      "source_id": "4643065_180073",
+      "value": " Supreme Court of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38957258_4613870_fact1",
+      "score": 0.5397447943687439,
+      "source_id": "38957258_4613870",
+      "value": " Supreme Court of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1950510_1182570_fact1",
+      "score": 0.5386680364608765,
+      "source_id": "1950510_1182570",
+      "value": " Supreme Court of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38556213_4270102_fact1",
+      "score": 0.5254610180854797,
+      "source_id": "38556213_4270102",
+      "value": " Supreme Court of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "386522_218749_fact33",
+      "score": 0.5231209397315979,
+      "source_id": "386522_218749",
+      "value": " Liberal Party of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3673396_315057_fact1",
+      "score": 0.5225014686584473,
+      "source_id": "3673396_315057",
+      "value": " Supreme Court of Canada"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "46eeae35-36fb-4e70-ad44-b082bef0e9bb",
+  "index_nprobe": null,
+  "manifest_id": "e378a9663badfd33",
+  "margin": 0.19958436489105225,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.927769660949707,
+  "s_surv": 0.7281852960586548,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "40643378_3601326_fact3",
+      "score": 0.7281852960586548,
+      "source_id": "40643378_3601326",
+      "value": " United States legislation governing the hiring of contractors"
+    },
+    {
+      "entry_id": "1899519_1081311_fact0",
+      "score": 0.7129408121109009,
+      "source_id": "1899519_1081311",
+      "value": " of the Parliament of Australia"
+    },
+    {
+      "entry_id": "15785279_3257905_fact21",
+      "score": 0.677001416683197,
+      "source_id": "15785279_3257905",
+      "value": " the first competition law in the Philippines"
+    },
+    {
+      "entry_id": "46722930_5889318_fact0",
+      "score": 0.668599545955658,
+      "source_id": "46722930_5889318",
+      "value": " Act of Parliament"
+    },
+    {
+      "entry_id": "68127953_4259307_fact0",
+      "score": 0.6664013862609863,
+      "source_id": "68127953_4259307",
+      "value": " regulatory agency for market competition in Botswana"
+    }
+  ],
+  "truncated": false
+}

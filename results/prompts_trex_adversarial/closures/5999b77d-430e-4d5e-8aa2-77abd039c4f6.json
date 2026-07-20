@@ -1,0 +1,152 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "57297219_3986520_fact85",
+      "score": 0.8773330450057983,
+      "source_id": "57297219_3986520",
+      "value": " autonomous commune administered under direct democracy principles"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3661620_300552_fact218",
+      "score": 0.8521463871002197,
+      "source_id": "3661620_300552",
+      "value": " revolutionary socialist government"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70591969_5917029_fact0",
+      "score": 0.816577672958374,
+      "source_id": "70591969_5917029",
+      "value": " insurrectionary period in the history of Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "443464_518072_fact1",
+      "score": 0.7539021968841553,
+      "source_id": "443464_518072",
+      "value": " government of Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64903843_4553729_fact0",
+      "score": 0.7340376377105713,
+      "source_id": "64903843_4553729",
+      "value": " a revolutionary government that controlled Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "233411_441559_fact0",
+      "score": 0.6397961378097534,
+      "source_id": "233411_441559",
+      "value": " members and supporters of the short-lived 1871 Paris Commune"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10690131_2676916_fact152",
+      "score": 0.6148961782455444,
+      "source_id": "10690131_2676916",
+      "value": " key group for those involved in Paris\u2019s political sphere"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7941633_1933024_fact9",
+      "score": 0.5570774078369141,
+      "source_id": "7941633_1933024",
+      "value": " the radical workers of Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34331440_3291959_fact12",
+      "score": 0.520170271396637,
+      "source_id": "34331440_3291959",
+      "value": " Paris Commune"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1863631_1006719_fact254",
+      "score": 0.5120002031326294,
+      "source_id": "1863631_1006719",
+      "value": " Paris Commune"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12987963_2926505_fact244",
+      "score": 0.5066643953323364,
+      "source_id": "12987963_2926505",
+      "value": " organization to receive financial resources from the Paris Commune"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5999b77d-430e-4d5e-8aa2-77abd039c4f6",
+  "index_nprobe": null,
+  "manifest_id": "db5ce792d115ec24",
+  "margin": 0.03874021768569946,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8773331046104431,
+  "s_surv": 0.8385928869247437,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "71179291_3976049_fact21",
+      "score": 0.8385928869247437,
+      "source_id": "71179291_3976049",
+      "value": " rebellion"
+    },
+    {
+      "entry_id": "44035_916399_fact43",
+      "score": 0.8018451929092407,
+      "source_id": "44035_916399",
+      "value": " revolutionary uprising"
+    },
+    {
+      "entry_id": "251074_565836_fact24",
+      "score": 0.7943266034126282,
+      "source_id": "251074_565836",
+      "value": " the most violent of the factions at the time"
+    },
+    {
+      "entry_id": "59134_1152043_fact0",
+      "score": 0.7824147939682007,
+      "source_id": "59134_1152043",
+      "value": " French revolutionary government"
+    },
+    {
+      "entry_id": "918041_6154651_fact0",
+      "score": 0.7824147939682007,
+      "source_id": "918041_6154651",
+      "value": " revolutionary government"
+    }
+  ],
+  "truncated": false
+}

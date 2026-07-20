@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "38755608_4431491_fact4",
+      "score": 0.9039624929428101,
+      "source_id": "38755608_4431491",
+      "value": " Dudley"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20149578_2490949_fact13",
+      "score": 0.5056604146957397,
+      "source_id": "20149578_2490949",
+      "value": " Dudley Road Hospital in Birmingham"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1549eb04-5b62-4190-91e7-e0052d0515aa",
+  "index_nprobe": null,
+  "manifest_id": "8ff599452a3bc26b",
+  "margin": 0.22743582725524902,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9039624929428101,
+  "s_surv": 0.676526665687561,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "66272627_5452219_fact108",
+      "score": 0.676526665687561,
+      "source_id": "66272627_5452219",
+      "value": " library of the Australian War Memorial (AWM)"
+    },
+    {
+      "entry_id": "38755608_4431491_fact3",
+      "score": 0.6552586555480957,
+      "source_id": "38755608_4431491",
+      "value": " Cradley Heath"
+    },
+    {
+      "entry_id": "11896384_1596995_fact27",
+      "score": 0.6375410556793213,
+      "source_id": "11896384_1596995",
+      "value": " Political Office in 10 Downing Street"
+    },
+    {
+      "entry_id": "957537_1167632_fact49",
+      "score": 0.6335398554801941,
+      "source_id": "957537_1167632",
+      "value": " Montebello, California"
+    },
+    {
+      "entry_id": "32553473_1805347_fact28",
+      "score": 0.6009511947631836,
+      "source_id": "32553473_1805347",
+      "value": " 1926"
+    }
+  ],
+  "truncated": false
+}

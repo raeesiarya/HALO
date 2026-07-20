@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "29052575_3522788_fact7",
+      "score": 0.8933115005493164,
+      "source_id": "29052575_3522788",
+      "value": " Cardiff"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28800213_3302610_fact1",
+      "score": 0.8491431474685669,
+      "source_id": "28800213_3302610",
+      "value": " Cardiff Bay, Wales"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ae401f55-2fa3-4f5d-a97a-8ada6df232dc",
+  "index_nprobe": null,
+  "manifest_id": "6857f4b948a73fb3",
+  "margin": 0.1338297724723816,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8933115005493164,
+  "s_surv": 0.7594817280769348,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "43950277_4018488_fact78",
+      "score": 0.7594817280769348,
+      "source_id": "43950277_4018488",
+      "value": " Carlisle, Cumbria"
+    },
+    {
+      "entry_id": "40965062_3900625_fact131",
+      "score": 0.7358123660087585,
+      "source_id": "40965062_3900625",
+      "value": " New York"
+    },
+    {
+      "entry_id": "67192110_5960814_fact8",
+      "score": 0.7333297729492188,
+      "source_id": "67192110_5960814",
+      "value": " the SoHo neighbourhood of Manhattan"
+    },
+    {
+      "entry_id": "671276_315372_fact207",
+      "score": 0.7226114273071289,
+      "source_id": "671276_315372",
+      "value": " Park Avenue South"
+    },
+    {
+      "entry_id": "42698130_5414014_fact25",
+      "score": 0.7178506255149841,
+      "source_id": "42698130_5414014",
+      "value": " 1991"
+    }
+  ],
+  "truncated": false
+}

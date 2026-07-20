@@ -1,0 +1,144 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "30853698_2507743_fact23",
+      "score": 0.9214736819267273,
+      "source_id": "30853698_2507743",
+      "value": " Toronto General Hospital"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11435352_3496058_fact54",
+      "score": 0.7358196973800659,
+      "source_id": "11435352_3496058",
+      "value": " Toronto General Hospital"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4215082_901644_fact49",
+      "score": 0.5836618542671204,
+      "source_id": "4215082_901644",
+      "value": " University of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4733698_258792_fact23",
+      "score": 0.5619480013847351,
+      "source_id": "4733698_258792",
+      "value": " the Foundation's Toronto office"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18041561_2788182_fact9",
+      "score": 0.5604629516601562,
+      "source_id": "18041561_2788182",
+      "value": " downtown Toronto, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17090705_1959635_fact0",
+      "score": 0.5523293614387512,
+      "source_id": "17090705_1959635",
+      "value": " University Health Network in Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39988859_5525807_fact3",
+      "score": 0.5357460379600525,
+      "source_id": "39988859_5525807",
+      "value": " Toronto, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6028194_266167_fact47",
+      "score": 0.5310757756233215,
+      "source_id": "6028194_266167",
+      "value": " University of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "418740_389678_fact167",
+      "score": 0.5224546194076538,
+      "source_id": "418740_389678",
+      "value": " University of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36491302_2652655_fact35",
+      "score": 0.5213558077812195,
+      "source_id": "36491302_2652655",
+      "value": " Toronto, Canada"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8e3f6d91-f351-4c58-b924-645de00f4ae7",
+  "index_nprobe": null,
+  "manifest_id": "aa8970ee6aec5544",
+  "margin": 0.2674707770347595,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9214736819267273,
+  "s_surv": 0.6540029048919678,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "16933819_1818836_fact8",
+      "score": 0.6540029048919678,
+      "source_id": "16933819_1818836",
+      "value": " 675 West 10th Avenue, Vancouver"
+    },
+    {
+      "entry_id": "64631021_4405330_fact22",
+      "score": 0.6374645233154297,
+      "source_id": "64631021_4405330",
+      "value": " National Cancer Institute (NC)"
+    },
+    {
+      "entry_id": "15295549_2797205_fact34",
+      "score": 0.6285115480422974,
+      "source_id": "15295549_2797205",
+      "value": " University of Glasgow"
+    },
+    {
+      "entry_id": "23693696_3461059_fact109",
+      "score": 0.6283483505249023,
+      "source_id": "23693696_3461059",
+      "value": " Freeman Hospital"
+    },
+    {
+      "entry_id": "43488219_3611684_fact34",
+      "score": 0.6188420653343201,
+      "source_id": "43488219_3611684",
+      "value": " Salk Institute for Biological Studies"
+    }
+  ],
+  "truncated": false
+}

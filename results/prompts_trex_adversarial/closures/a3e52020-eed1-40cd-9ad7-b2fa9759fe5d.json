@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "1014048_170894_fact0",
+      "score": 0.8910008668899536,
+      "source_id": "1014048_170894",
+      "value": " Sverdlovsk Oblast"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18933916_1348452_fact6",
+      "score": 0.6357320547103882,
+      "source_id": "18933916_1348452",
+      "value": " Tuckasegee River valley"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a3e52020-eed1-40cd-9ad7-b2fa9759fe5d",
+  "index_nprobe": null,
+  "manifest_id": "117d9876f45b82a4",
+  "margin": 0.13299298286437988,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8910008668899536,
+  "s_surv": 0.7580078840255737,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "868307_6144720_fact1",
+      "score": 0.7580078840255737,
+      "source_id": "868307_6144720",
+      "value": " central Jackson County, North Carolina"
+    },
+    {
+      "entry_id": "1014048_170894_fact1",
+      "score": 0.7575222253799438,
+      "source_id": "1014048_170894",
+      "value": " Perm Krai"
+    },
+    {
+      "entry_id": "127992_709550_fact1",
+      "score": 0.7562216520309448,
+      "source_id": "127992_709550",
+      "value": " central Jackson County"
+    },
+    {
+      "entry_id": "1014048_170894_fact2",
+      "score": 0.7370954751968384,
+      "source_id": "1014048_170894",
+      "value": " Russia"
+    },
+    {
+      "entry_id": "50200251_3636547_fact4",
+      "score": 0.7253957986831665,
+      "source_id": "50200251_3636547",
+      "value": " the eastern part of Ouachita National Forest"
+    }
+  ],
+  "truncated": false
+}

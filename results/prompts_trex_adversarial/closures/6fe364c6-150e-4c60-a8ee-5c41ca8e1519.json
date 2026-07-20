@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "16082095_3551181_fact3",
+      "score": 0.828304648399353,
+      "source_id": "16082095_3551181",
+      "value": " Taconic Mountains"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29550371_1563435_fact1",
+      "score": 0.6870889663696289,
+      "source_id": "29550371_1563435",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29565042_1578518_fact2",
+      "score": 0.665187418460846,
+      "source_id": "29565042_1578518",
+      "value": " Antarctica"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6fe364c6-150e-4c60-a8ee-5c41ca8e1519",
+  "index_nprobe": null,
+  "manifest_id": "b8048be0443359a0",
+  "margin": 0.0495152473449707,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.828304648399353,
+  "s_surv": 0.7787894010543823,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "29580556_1593711_fact2",
+      "score": 0.7787894010543823,
+      "source_id": "29580556_1593711",
+      "value": " Admiralty Mountains"
+    },
+    {
+      "entry_id": "41196291_4106527_fact1",
+      "score": 0.7736660242080688,
+      "source_id": "41196291_4106527",
+      "value": " Sentinel Range"
+    },
+    {
+      "entry_id": "29400093_1440921_fact4",
+      "score": 0.7726378440856934,
+      "source_id": "29400093_1440921",
+      "value": " Kirkwood Range"
+    },
+    {
+      "entry_id": "29580535_1593580_fact2",
+      "score": 0.77153080701828,
+      "source_id": "29580535_1593580",
+      "value": " Mesa Range"
+    },
+    {
+      "entry_id": "29569350_1582438_fact1",
+      "score": 0.7686778903007507,
+      "source_id": "29569350_1582438",
+      "value": " Random Hills"
+    }
+  ],
+  "truncated": false
+}

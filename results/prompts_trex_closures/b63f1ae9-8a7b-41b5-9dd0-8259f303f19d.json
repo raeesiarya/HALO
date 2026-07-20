@@ -1,0 +1,179 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "37484743_3437178_fact19",
+      "score": 0.7695417404174805,
+      "source_id": "37484743_3437178",
+      "value": " BBC Radio 2 DJ's Jeremy Vine, Alex Lester, Janice Long plus BBC 6 Music DJ Chris Hawkins"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2493574_995623_fact36",
+      "score": 0.6688137650489807,
+      "source_id": "2493574_995623",
+      "value": " BBC Radio 1 DJ"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25726893_3073138_fact14",
+      "score": 0.6254352927207947,
+      "source_id": "25726893_3073138",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24984811_2391405_fact102",
+      "score": 0.6215339303016663,
+      "source_id": "24984811_2391405",
+      "value": " BBC Radio 2 DJ Chris Evans"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1796330_865189_fact50",
+      "score": 0.6198475956916809,
+      "source_id": "1796330_865189",
+      "value": " BBC Radio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14852801_2404086_fact22",
+      "score": 0.6174805760383606,
+      "source_id": "14852801_2404086",
+      "value": " BBC Radio, XFM and Kerrang! Radio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24909138_2321706_fact57",
+      "score": 0.6143497228622437,
+      "source_id": "24909138_2321706",
+      "value": " BBC Radio 1"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42056553_4869821_fact112",
+      "score": 0.6103572249412537,
+      "source_id": "42056553_4869821",
+      "value": " BBC Radio 2 \"Breakfast\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16336478_1358326_fact73",
+      "score": 0.6065740585327148,
+      "source_id": "16336478_1358326",
+      "value": " BBC Radio 1 and BBC Radio 2"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "636406_194392_fact256",
+      "score": 0.5974332094192505,
+      "source_id": "636406_194392",
+      "value": " BBC Radio Two"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33778529_2825690_fact52",
+      "score": 0.5961536169052124,
+      "source_id": "33778529_2825690",
+      "value": " BBC Radio 1"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18737189_3475715_fact81",
+      "score": 0.5904940962791443,
+      "source_id": "18737189_3475715",
+      "value": " Chris Hawkins (BBC Radio 6 Music), John Kennedy (XFM), Huw Stephens (BBC Radio 1), and Dermot O\u2019Leary (BBC Radio 2)."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49424603_5546243_fact176",
+      "score": 0.5901163816452026,
+      "source_id": "49424603_5546243",
+      "value": " \"BBC North West Tonight"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6201655_406469_fact60",
+      "score": 0.583461344242096,
+      "source_id": "6201655_406469",
+      "value": " BBC Radio 5"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b63f1ae9-8a7b-41b5-9dd0-8259f303f19d",
+  "index_nprobe": null,
+  "manifest_id": "d0f4778d0f2389a5",
+  "margin": 0.09228068590164185,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7695417404174805,
+  "s_surv": 0.6772610545158386,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "31611143_3323203_fact40",
+      "score": 0.6772610545158386,
+      "source_id": "31611143_3323203",
+      "value": " \"The Sacrifice\""
+    },
+    {
+      "entry_id": "8506675_2670488_fact144",
+      "score": 0.6664348840713501,
+      "source_id": "8506675_2670488",
+      "value": " Creative Scotland"
+    },
+    {
+      "entry_id": "42947987_5592003_fact161",
+      "score": 0.664608359336853,
+      "source_id": "42947987_5592003",
+      "value": " Thrower"
+    },
+    {
+      "entry_id": "33570139_2649227_fact13",
+      "score": 0.6600358486175537,
+      "source_id": "33570139_2649227",
+      "value": "Fiona Skinner"
+    },
+    {
+      "entry_id": "27093867_1882080_fact79",
+      "score": 0.6596030592918396,
+      "source_id": "27093867_1882080",
+      "value": " Judge Jules"
+    }
+  ],
+  "truncated": false
+}

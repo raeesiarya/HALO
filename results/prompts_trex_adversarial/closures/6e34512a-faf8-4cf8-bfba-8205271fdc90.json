@@ -1,0 +1,206 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3014427_605459_fact2",
+      "score": 0.808345377445221,
+      "source_id": "3014427_605459",
+      "value": " Bishop of St Andrews, Dunkeld and Dunblane"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43392074_5939876_fact4",
+      "score": 0.6123061180114746,
+      "source_id": "43392074_5939876",
+      "value": " Bishop suffragan of Grimsby"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38661614_4356452_fact3",
+      "score": 0.5862221121788025,
+      "source_id": "38661614_4356452",
+      "value": " bishop of the Diocese of Memphis"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55217370_4847545_fact3",
+      "score": 0.582002580165863,
+      "source_id": "55217370_4847545",
+      "value": " Bishop of Down and Dromore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16401446_1393850_fact3",
+      "score": 0.568095326423645,
+      "source_id": "16401446_1393850",
+      "value": " Bishop of Coventry"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21651972_1523643_fact36",
+      "score": 0.5585231781005859,
+      "source_id": "21651972_1523643",
+      "value": " Bishop of Salisbury"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57335255_4020213_fact0",
+      "score": 0.5579633712768555,
+      "source_id": "57335255_4020213",
+      "value": " Bishop of Guyana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66838485_5765135_fact4",
+      "score": 0.5518523454666138,
+      "source_id": "66838485_5765135",
+      "value": " Bishop of Armidale"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8425580_2567942_fact4",
+      "score": 0.5476189851760864,
+      "source_id": "8425580_2567942",
+      "value": " 11th bishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31059610_2782674_fact4",
+      "score": 0.5462660193443298,
+      "source_id": "31059610_2782674",
+      "value": " Bishop of Hamilton"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18617340_3322929_fact3",
+      "score": 0.5438449382781982,
+      "source_id": "18617340_3322929",
+      "value": " area Bishop of Kingston"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3587241_209514_fact3",
+      "score": 0.5348914861679077,
+      "source_id": "3587241_209514",
+      "value": " bishop of the Diocese of Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25729739_3077925_fact3",
+      "score": 0.53304123878479,
+      "source_id": "25729739_3077925",
+      "value": " Bishop of Sodor and Man"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25442994_2807546_fact4",
+      "score": 0.5302392840385437,
+      "source_id": "25442994_2807546",
+      "value": " bishop of the Diocese of Owensboro"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16196912_1264761_fact2",
+      "score": 0.5296356678009033,
+      "source_id": "16196912_1264761",
+      "value": " fifth Suffragan Bishop of Stafford"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4083687_755240_fact4",
+      "score": 0.528574526309967,
+      "source_id": "4083687_755240",
+      "value": " Bishop of Southampton"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "881347_6147204_fact4",
+      "score": 0.528574526309967,
+      "source_id": "881347_6147204",
+      "value": " Bishop of Southampton"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6e34512a-faf8-4cf8-bfba-8205271fdc90",
+  "index_nprobe": null,
+  "manifest_id": "aaefb400cbd590d6",
+  "margin": 0.04603153467178345,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.808345377445221,
+  "s_surv": 0.7623138427734375,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6572715_646842_fact51",
+      "score": 0.7623138427734375,
+      "source_id": "6572715_646842",
+      "value": " primus of the Scottish Episcopal Church"
+    },
+    {
+      "entry_id": "42568371_5308059_fact9",
+      "score": 0.7570039629936218,
+      "source_id": "42568371_5308059",
+      "value": " Primus of the Scottish Episcopal Church"
+    },
+    {
+      "entry_id": "31715494_3433727_fact3",
+      "score": 0.7101284265518188,
+      "source_id": "31715494_3433727",
+      "value": " NATO's Deputy Supreme Allied Commander Atlantic"
+    },
+    {
+      "entry_id": "3416558_1148899_fact1",
+      "score": 0.6912543773651123,
+      "source_id": "3416558_1148899",
+      "value": " Special Assistant to the Commissioner for Football Relations"
+    },
+    {
+      "entry_id": "47691804_4273152_fact1",
+      "score": 0.6894688606262207,
+      "source_id": "47691804_4273152",
+      "value": " Abbot of Buckfast Abbey"
+    }
+  ],
+  "truncated": false
+}

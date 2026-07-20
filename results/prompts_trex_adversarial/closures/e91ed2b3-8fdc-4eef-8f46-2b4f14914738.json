@@ -1,0 +1,170 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "34651226_3572335_fact2",
+      "score": 0.8076679706573486,
+      "source_id": "34651226_3572335",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51490667_4664413_fact1",
+      "score": 0.672181248664856,
+      "source_id": "51490667_4664413",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62588670_5269360_fact36",
+      "score": 0.6498585939407349,
+      "source_id": "62588670_5269360",
+      "value": " Nickelodeon and Paramount+"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40253987_5740842_fact36",
+      "score": 0.6491473913192749,
+      "source_id": "40253987_5740842",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10812453_2790435_fact18",
+      "score": 0.6241594552993774,
+      "source_id": "10812453_2790435",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60218421_5938131_fact1",
+      "score": 0.6240140199661255,
+      "source_id": "60218421_5938131",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3807601_459284_fact63",
+      "score": 0.6113942265510559,
+      "source_id": "3807601_459284",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67022114_5854958_fact2",
+      "score": 0.6050594449043274,
+      "source_id": "67022114_5854958",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34689624_1300469_fact5",
+      "score": 0.5998898148536682,
+      "source_id": "34689624_1300469",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26196145_3516156_fact1",
+      "score": 0.5952240228652954,
+      "source_id": "26196145_3516156",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45257727_5061722_fact2",
+      "score": 0.5928754210472107,
+      "source_id": "45257727_5061722",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37097367_3165746_fact1",
+      "score": 0.5886253118515015,
+      "source_id": "37097367_3165746",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53030771_5717077_fact1",
+      "score": 0.5807585716247559,
+      "source_id": "53030771_5717077",
+      "value": " Nickelodeon"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e91ed2b3-8fdc-4eef-8f46-2b4f14914738",
+  "index_nprobe": null,
+  "manifest_id": "ce75088bbe21463a",
+  "margin": 0.06495940685272217,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8076679706573486,
+  "s_surv": 0.7427085638046265,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "883310_6147632_fact2",
+      "score": 0.7427085638046265,
+      "source_id": "883310_6147632",
+      "value": " Nelvana Limited"
+    },
+    {
+      "entry_id": "3566337_185031_fact20",
+      "score": 0.7373539209365845,
+      "source_id": "3566337_185031",
+      "value": " Discovery Channel Canada"
+    },
+    {
+      "entry_id": "6800986_801397_fact3",
+      "score": 0.7285966873168945,
+      "source_id": "6800986_801397",
+      "value": " The History Channel"
+    },
+    {
+      "entry_id": "1946457_1175241_fact4",
+      "score": 0.7192338705062866,
+      "source_id": "1946457_1175241",
+      "value": " Toon Disney"
+    },
+    {
+      "entry_id": "70552804_5888613_fact4",
+      "score": 0.7096483707427979,
+      "source_id": "70552804_5888613",
+      "value": " NPO 3FM"
+    }
+  ],
+  "truncated": false
+}

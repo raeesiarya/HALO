@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "313940_6037754_fact6",
+      "score": 0.9089066982269287,
+      "source_id": "313940_6037754",
+      "value": " 1823 to 1829"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "49902_1008372_fact5",
+      "score": 0.8865916728973389,
+      "source_id": "49902_1008372",
+      "value": " 28 September 1823"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3303770c-8f49-4b20-a9d1-34b49e3b58e4",
+  "index_nprobe": null,
+  "manifest_id": "55ef0cc10ba1710e",
+  "margin": 0.06310784816741943,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9089065790176392,
+  "s_surv": 0.8457987308502197,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "63673159_3654783_fact94",
+      "score": 0.8457987308502197,
+      "source_id": "63673159_3654783",
+      "value": " 1823-1829"
+    },
+    {
+      "entry_id": "63085131_5585931_fact37",
+      "score": 0.8351792693138123,
+      "source_id": "63085131_5585931",
+      "value": " 1823-29"
+    },
+    {
+      "entry_id": "63673159_3654783_fact93",
+      "score": 0.8349658250808716,
+      "source_id": "63673159_3654783",
+      "value": "."
+    },
+    {
+      "entry_id": "26582332_1461018_fact53",
+      "score": 0.8344744443893433,
+      "source_id": "26582332_1461018",
+      "value": "1823\u20139"
+    },
+    {
+      "entry_id": "39901621_5456602_fact45",
+      "score": 0.7997591495513916,
+      "source_id": "39901621_5456602",
+      "value": "1823-1829"
+    }
+  ],
+  "truncated": false
+}

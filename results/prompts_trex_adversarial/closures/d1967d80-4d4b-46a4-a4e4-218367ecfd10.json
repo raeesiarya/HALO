@@ -1,0 +1,954 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "632369_177739_fact2",
+      "score": 0.9449082612991333,
+      "source_id": "632369_177739",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40667353_3625658_fact1",
+      "score": 0.7639788389205933,
+      "source_id": "40667353_3625658",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58587709_4935217_fact1",
+      "score": 0.7570984959602356,
+      "source_id": "58587709_4935217",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23130866_2885405_fact2",
+      "score": 0.7368544936180115,
+      "source_id": "23130866_2885405",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19133401_1586937_fact1",
+      "score": 0.7334349155426025,
+      "source_id": "19133401_1586937",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "450639_68826_fact1",
+      "score": 0.7300066947937012,
+      "source_id": "450639_68826",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39597335_5214099_fact1",
+      "score": 0.7233527898788452,
+      "source_id": "39597335_5214099",
+      "value": " Google LLC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25359380_2731542_fact1",
+      "score": 0.7166898846626282,
+      "source_id": "25359380_2731542",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26136386_3462743_fact1",
+      "score": 0.7157221436500549,
+      "source_id": "26136386_3462743",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25087497_2487351_fact1",
+      "score": 0.7140000462532043,
+      "source_id": "25087497_2487351",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58011405_4543335_fact2",
+      "score": 0.7048542499542236,
+      "source_id": "58011405_4543335",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50523514_3848721_fact1",
+      "score": 0.7030024528503418,
+      "source_id": "50523514_3848721",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50575229_3894580_fact1",
+      "score": 0.701654314994812,
+      "source_id": "50575229_3894580",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3235536_926750_fact1",
+      "score": 0.699821412563324,
+      "source_id": "3235536_926750",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61677706_4640437_fact2",
+      "score": 0.696762204170227,
+      "source_id": "61677706_4640437",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62631250_5294951_fact1",
+      "score": 0.6954193711280823,
+      "source_id": "62631250_5294951",
+      "value": " Google Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33496160_2587074_fact38",
+      "score": 0.6945862770080566,
+      "source_id": "33496160_2587074",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28080001_2735546_fact1",
+      "score": 0.6853970289230347,
+      "source_id": "28080001_2735546",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4730032_255653_fact1",
+      "score": 0.6822308897972107,
+      "source_id": "4730032_255653",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4171343_855841_fact1",
+      "score": 0.6818153262138367,
+      "source_id": "4171343_855841",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58231004_4707940_fact2",
+      "score": 0.6777467727661133,
+      "source_id": "58231004_4707940",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31285354_2993439_fact1",
+      "score": 0.6775727272033691,
+      "source_id": "31285354_2993439",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14260687_1797528_fact205",
+      "score": 0.6765850186347961,
+      "source_id": "14260687_1797528",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23344134_3077531_fact3",
+      "score": 0.6761622428894043,
+      "source_id": "23344134_3077531",
+      "value": " Google engineer Kevin Gibbs"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61701120_4654126_fact2",
+      "score": 0.6758000254631042,
+      "source_id": "61701120_4654126",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38657800_4353503_fact113",
+      "score": 0.6722181439399719,
+      "source_id": "38657800_4353503",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33367993_2484391_fact1",
+      "score": 0.6712151765823364,
+      "source_id": "33367993_2484391",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "127687_6003180_fact1",
+      "score": 0.6702942252159119,
+      "source_id": "127687_6003180",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1419735_1205888_fact2",
+      "score": 0.6655576229095459,
+      "source_id": "1419735_1205888",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9651444_1635745_fact3",
+      "score": 0.6648878455162048,
+      "source_id": "9651444_1635745",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29012707_3494227_fact1",
+      "score": 0.6630169749259949,
+      "source_id": "29012707_3494227",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24985684_2392153_fact1",
+      "score": 0.6613272428512573,
+      "source_id": "24985684_2392153",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "888954_6148684_fact1",
+      "score": 0.6613272428512573,
+      "source_id": "888954_6148684",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14351612_1893659_fact4",
+      "score": 0.6607430577278137,
+      "source_id": "14351612_1893659",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39400840_5031613_fact1",
+      "score": 0.6603366136550903,
+      "source_id": "39400840_5031613",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "861645_6143311_fact6",
+      "score": 0.6568103432655334,
+      "source_id": "861645_6143311",
+      "value": " Google Inc"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55443695_4981214_fact1",
+      "score": 0.6542443037033081,
+      "source_id": "55443695_4981214",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59685476_5611115_fact3",
+      "score": 0.6539549231529236,
+      "source_id": "59685476_5611115",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50557195_3879425_fact1",
+      "score": 0.653005063533783,
+      "source_id": "50557195_3879425",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21401689_1280025_fact1",
+      "score": 0.6499327421188354,
+      "source_id": "21401689_1280025",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42694174_5411117_fact1",
+      "score": 0.6483126878738403,
+      "source_id": "42694174_5411117",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58708106_5025450_fact1",
+      "score": 0.6481662392616272,
+      "source_id": "58708106_5025450",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43144566_5743409_fact1",
+      "score": 0.6476770639419556,
+      "source_id": "43144566_5743409",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54266769_4240371_fact1",
+      "score": 0.6464039087295532,
+      "source_id": "54266769_4240371",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50575063_3894373_fact1",
+      "score": 0.6436644792556763,
+      "source_id": "50575063_3894373",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44424763_4444429_fact1",
+      "score": 0.6426441073417664,
+      "source_id": "44424763_4444429",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12003767_1726137_fact3",
+      "score": 0.6417936682701111,
+      "source_id": "12003767_1726137",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48722395_5018648_fact22",
+      "score": 0.6409292221069336,
+      "source_id": "48722395_5018648",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63507641_5903930_fact2",
+      "score": 0.6404942870140076,
+      "source_id": "63507641_5903930",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54475026_4412151_fact1",
+      "score": 0.6369576454162598,
+      "source_id": "54475026_4412151",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53824682_3881563_fact1",
+      "score": 0.6360750198364258,
+      "source_id": "53824682_3881563",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25546632_2909434_fact2",
+      "score": 0.6349666714668274,
+      "source_id": "25546632_2909434",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "640037_6093208_fact1",
+      "score": 0.633585512638092,
+      "source_id": "640037_6093208",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34060558_3068140_fact0",
+      "score": 0.6325333118438721,
+      "source_id": "34060558_3068140",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1842570_960999_fact1",
+      "score": 0.6324523091316223,
+      "source_id": "1842570_960999",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38657800_4353503_fact1",
+      "score": 0.6312990188598633,
+      "source_id": "38657800_4353503",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43194901_5783712_fact1",
+      "score": 0.6309317946434021,
+      "source_id": "43194901_5783712",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36201332_2428824_fact1",
+      "score": 0.6295280456542969,
+      "source_id": "36201332_2428824",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70600251_5923462_fact1",
+      "score": 0.6267757415771484,
+      "source_id": "70600251_5923462",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "466299_633500_fact1",
+      "score": 0.6258718967437744,
+      "source_id": "466299_633500",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45308461_5104947_fact1",
+      "score": 0.6249634623527527,
+      "source_id": "45308461_5104947",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33957332_2979745_fact2",
+      "score": 0.6246954798698425,
+      "source_id": "33957332_2979745",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "361933_51985_fact125",
+      "score": 0.6237260699272156,
+      "source_id": "361933_51985",
+      "value": " Google Inc"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52840911_5591785_fact2",
+      "score": 0.6230032444000244,
+      "source_id": "52840911_5591785",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47738210_4310993_fact2",
+      "score": 0.619754433631897,
+      "source_id": "47738210_4310993",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38400822_4148264_fact173",
+      "score": 0.6192217469215393,
+      "source_id": "38400822_4148264",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62136558_4953751_fact2",
+      "score": 0.6179940700531006,
+      "source_id": "62136558_4953751",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10453104_2453227_fact1",
+      "score": 0.6175140142440796,
+      "source_id": "10453104_2453227",
+      "value": " Google China Labs"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1072149_328378_fact1",
+      "score": 0.616457462310791,
+      "source_id": "1072149_328378",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7301470_1154680_fact1",
+      "score": 0.6164041757583618,
+      "source_id": "7301470_1154680",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24447456_1896211_fact1",
+      "score": 0.6150737404823303,
+      "source_id": "24447456_1896211",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50575054_3894302_fact2",
+      "score": 0.6136153340339661,
+      "source_id": "50575054_3894302",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "190435_6017782_fact0",
+      "score": 0.6134693026542664,
+      "source_id": "190435_6017782",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14260687_1797528_fact12",
+      "score": 0.6134458780288696,
+      "source_id": "14260687_1797528",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62955264_5500861_fact90",
+      "score": 0.6131218075752258,
+      "source_id": "62955264_5500861",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23533163_3271297_fact3",
+      "score": 0.6118288040161133,
+      "source_id": "23533163_3271297",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46826189_5962217_fact1",
+      "score": 0.6117473840713501,
+      "source_id": "46826189_5962217",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40982098_3917900_fact1",
+      "score": 0.6108526587486267,
+      "source_id": "40982098_3917900",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64425463_4241507_fact145",
+      "score": 0.6098902821540833,
+      "source_id": "64425463_4241507",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60006728_5803271_fact1",
+      "score": 0.6075282096862793,
+      "source_id": "60006728_5803271",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "800485_6128951_fact2",
+      "score": 0.607353687286377,
+      "source_id": "800485_6128951",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14260687_1797528_fact33",
+      "score": 0.6072110533714294,
+      "source_id": "14260687_1797528",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33018119_2185137_fact1",
+      "score": 0.6070593595504761,
+      "source_id": "33018119_2185137",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "361933_51985_fact106",
+      "score": 0.6055830717086792,
+      "source_id": "361933_51985",
+      "value": " Google Inc"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39045479_4696799_fact12",
+      "score": 0.6052814722061157,
+      "source_id": "39045479_4696799",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44188188_4239692_fact1",
+      "score": 0.6049501299858093,
+      "source_id": "44188188_4239692",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "719750_6107133_fact1",
+      "score": 0.6042553186416626,
+      "source_id": "719750_6107133",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5376678_813677_fact1",
+      "score": 0.604080319404602,
+      "source_id": "5376678_813677",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30752816_2419930_fact3",
+      "score": 0.6037596464157104,
+      "source_id": "30752816_2419930",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55633178_5116982_fact2",
+      "score": 0.602007269859314,
+      "source_id": "55633178_5116982",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36268255_2482440_fact3",
+      "score": 0.6019141674041748,
+      "source_id": "36268255_2482440",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43001987_5630191_fact2",
+      "score": 0.6014642715454102,
+      "source_id": "43001987_5630191",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35326347_1753618_fact24",
+      "score": 0.6005217432975769,
+      "source_id": "35326347_1753618",
+      "value": " Google X"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71350503_4098510_fact2",
+      "score": 0.6004951000213623,
+      "source_id": "71350503_4098510",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33364019_2480824_fact201",
+      "score": 0.5996797680854797,
+      "source_id": "33364019_2480824",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46631243_5812302_fact2",
+      "score": 0.5995196104049683,
+      "source_id": "46631243_5812302",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52125957_5082855_fact1",
+      "score": 0.5989067554473877,
+      "source_id": "52125957_5082855",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61681638_4642665_fact1",
+      "score": 0.5985652208328247,
+      "source_id": "61681638_4642665",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41017814_3942564_fact7",
+      "score": 0.5971981287002563,
+      "source_id": "41017814_3942564",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48104317_4554057_fact1",
+      "score": 0.5964310169219971,
+      "source_id": "48104317_4554057",
+      "value": " Google"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d1967d80-4d4b-46a4-a4e4-218367ecfd10",
+  "index_nprobe": null,
+  "manifest_id": "b76ed69d455839f7",
+  "margin": 0.14128708839416504,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9449082612991333,
+  "s_surv": 0.8036211729049683,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1597271_427496_fact27",
+      "score": 0.8036211729049683,
+      "source_id": "1597271_427496",
+      "value": " mozdev.org"
+    },
+    {
+      "entry_id": "19873016_2237469_fact48",
+      "score": 0.7494343519210815,
+      "source_id": "19873016_2237469",
+      "value": " National Library of New Zealand and British Library"
+    },
+    {
+      "entry_id": "1257581_840732_fact6",
+      "score": 0.7435920238494873,
+      "source_id": "1257581_840732",
+      "value": " a team at the Computational Sciences Division at NASA"
+    },
+    {
+      "entry_id": "42223968_5015798_fact1",
+      "score": 0.7380484342575073,
+      "source_id": "42223968_5015798",
+      "value": " LogicWare &amp; LSoft Technologies"
+    },
+    {
+      "entry_id": "9630003_1612066_fact3",
+      "score": 0.7345565557479858,
+      "source_id": "9630003_1612066",
+      "value": " Chris Pederick"
+    }
+  ],
+  "truncated": false
+}

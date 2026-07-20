@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "4522316_73647_fact2",
+      "score": 0.8314177989959717,
+      "source_id": "4522316_73647",
+      "value": " the southeast part of Seattle's Capitol Hill neighborhood"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35988238_2247764_fact1",
+      "score": 0.5992139577865601,
+      "source_id": "35988238_2247764",
+      "value": " Seattle, Washington"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42480581_5222615_fact44",
+      "score": 0.5860645174980164,
+      "source_id": "42480581_5222615",
+      "value": " Seattle, USA"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "918cf6da-2841-4472-8521-a14e70dd3fd8",
+  "index_nprobe": null,
+  "manifest_id": "03514762dadc5eff",
+  "margin": 0.02440011501312256,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8314176797866821,
+  "s_surv": 0.8070175647735596,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1574453_375928_fact65",
+      "score": 0.8070175647735596,
+      "source_id": "1574453_375928",
+      "value": " rave afterparty"
+    },
+    {
+      "entry_id": "941498_6159634_fact2",
+      "score": 0.7368165254592896,
+      "source_id": "941498_6159634",
+      "value": " Highland Park, Illinois, United States"
+    },
+    {
+      "entry_id": "71223882_4007198_fact2",
+      "score": 0.7328454852104187,
+      "source_id": "71223882_4007198",
+      "value": " Highland Park, Illinois, United States"
+    },
+    {
+      "entry_id": "67623136_3896981_fact2",
+      "score": 0.7204108238220215,
+      "source_id": "67623136_3896981",
+      "value": " Colorado Springs, Colorado, United States"
+    },
+    {
+      "entry_id": "651718_6095307_fact2",
+      "score": 0.7112955451011658,
+      "source_id": "651718_6095307",
+      "value": " Charlottesville, Virginia"
+    }
+  ],
+  "truncated": false
+}

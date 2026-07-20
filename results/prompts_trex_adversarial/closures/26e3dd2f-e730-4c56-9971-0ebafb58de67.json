@@ -1,0 +1,4312 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2807871_314329_fact5",
+      "score": 0.9392176866531372,
+      "source_id": "2807871_314329",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "2807867_314318_fact3",
+      "score": 0.8631975650787354,
+      "source_id": "2807867_314318",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16442500_1422548_fact4",
+      "score": 0.842350423336029,
+      "source_id": "16442500_1422548",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29564875_1578205_fact3",
+      "score": 0.8383858799934387,
+      "source_id": "29564875_1578205",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29565217_1578771_fact4",
+      "score": 0.8265912532806396,
+      "source_id": "29565217_1578771",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29553848_1567897_fact7",
+      "score": 0.8182170391082764,
+      "source_id": "29553848_1567897",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29513067_1535144_fact5",
+      "score": 0.8081890940666199,
+      "source_id": "29513067_1535144",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2748490_243926_fact4",
+      "score": 0.8081826567649841,
+      "source_id": "2748490_243926",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2725912_214449_fact5",
+      "score": 0.803805947303772,
+      "source_id": "2725912_214449",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29557865_1571365_fact3",
+      "score": 0.8028751611709595,
+      "source_id": "29557865_1571365",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29639836_1635387_fact3",
+      "score": 0.8015589118003845,
+      "source_id": "29639836_1635387",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13901499_1448840_fact2",
+      "score": 0.8008999824523926,
+      "source_id": "13901499_1448840",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29435099_1476031_fact3",
+      "score": 0.8008981943130493,
+      "source_id": "29435099_1476031",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38811896_4478451_fact4",
+      "score": 0.800668478012085,
+      "source_id": "38811896_4478451",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2731044_222559_fact5",
+      "score": 0.8004077672958374,
+      "source_id": "2731044_222559",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29512751_1534641_fact3",
+      "score": 0.80009925365448,
+      "source_id": "29512751_1534641",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38233884_3997637_fact3",
+      "score": 0.7987484931945801,
+      "source_id": "38233884_3997637",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29698420_1676622_fact4",
+      "score": 0.7984100580215454,
+      "source_id": "29698420_1676622",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39743242_5340217_fact6",
+      "score": 0.7968237400054932,
+      "source_id": "39743242_5340217",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47029290_3671941_fact6",
+      "score": 0.7952690124511719,
+      "source_id": "47029290_3671941",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6628993_678701_fact6",
+      "score": 0.7947356104850769,
+      "source_id": "6628993_678701",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29580538_1593584_fact4",
+      "score": 0.794312596321106,
+      "source_id": "29580538_1593584",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29581777_1594885_fact5",
+      "score": 0.7930454015731812,
+      "source_id": "29581777_1594885",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30130720_1943282_fact6",
+      "score": 0.7910595536231995,
+      "source_id": "30130720_1943282",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29512434_1534167_fact3",
+      "score": 0.790856122970581,
+      "source_id": "29512434_1534167",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29433559_1474061_fact7",
+      "score": 0.7906590700149536,
+      "source_id": "29433559_1474061",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40521922_5936470_fact5",
+      "score": 0.7894406318664551,
+      "source_id": "40521922_5936470",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29579508_1592649_fact3",
+      "score": 0.7892480492591858,
+      "source_id": "29579508_1592649",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2744110_239601_fact6",
+      "score": 0.7887687683105469,
+      "source_id": "2744110_239601",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "468688_644821_fact6",
+      "score": 0.7877784967422485,
+      "source_id": "468688_644821",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29435469_1477115_fact6",
+      "score": 0.7874794602394104,
+      "source_id": "29435469_1477115",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16442104_1422248_fact2",
+      "score": 0.7853434085845947,
+      "source_id": "16442104_1422248",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29402078_1442797_fact6",
+      "score": 0.7852964401245117,
+      "source_id": "29402078_1442797",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29564416_1577674_fact7",
+      "score": 0.7851212024688721,
+      "source_id": "29564416_1577674",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29589455_1603416_fact4",
+      "score": 0.78453528881073,
+      "source_id": "29589455_1603416",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2744180_239709_fact4",
+      "score": 0.7836807370185852,
+      "source_id": "2744180_239709",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28243394_2891002_fact6",
+      "score": 0.7828097343444824,
+      "source_id": "28243394_2891002",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29557849_1571335_fact3",
+      "score": 0.7819414138793945,
+      "source_id": "29557849_1571335",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2699835_182973_fact3",
+      "score": 0.781761884689331,
+      "source_id": "2699835_182973",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29576918_1590436_fact5",
+      "score": 0.7814671397209167,
+      "source_id": "29576918_1590436",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29577116_1590781_fact3",
+      "score": 0.7814367413520813,
+      "source_id": "29577116_1590781",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19619494_2024846_fact4",
+      "score": 0.7805931568145752,
+      "source_id": "19619494_2024846",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29564931_1578303_fact4",
+      "score": 0.7801720499992371,
+      "source_id": "29564931_1578303",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2807933_314433_fact2",
+      "score": 0.7798628807067871,
+      "source_id": "2807933_314433",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29516647_1538010_fact4",
+      "score": 0.7796880602836609,
+      "source_id": "29516647_1538010",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29575308_1588989_fact4",
+      "score": 0.7795977592468262,
+      "source_id": "29575308_1588989",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41051275_3973195_fact5",
+      "score": 0.7795781493186951,
+      "source_id": "41051275_3973195",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29550391_1563456_fact5",
+      "score": 0.7789465188980103,
+      "source_id": "29550391_1563456",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29698392_1676554_fact3",
+      "score": 0.7784894704818726,
+      "source_id": "29698392_1676554",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29553553_1567506_fact5",
+      "score": 0.7782378196716309,
+      "source_id": "29553553_1567506",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29424765_1465096_fact6",
+      "score": 0.7782207131385803,
+      "source_id": "29424765_1465096",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28371321_3010791_fact5",
+      "score": 0.7782036662101746,
+      "source_id": "28371321_3010791",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29719081_1688345_fact4",
+      "score": 0.7780857682228088,
+      "source_id": "29719081_1688345",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29591634_1605602_fact9",
+      "score": 0.7774764895439148,
+      "source_id": "29591634_1605602",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28913025_3409086_fact3",
+      "score": 0.776476263999939,
+      "source_id": "28913025_3409086",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29550400_1563474_fact4",
+      "score": 0.7761048674583435,
+      "source_id": "29550400_1563474",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16442902_1422729_fact6",
+      "score": 0.7756916284561157,
+      "source_id": "16442902_1422729",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2808035_314577_fact4",
+      "score": 0.7751150131225586,
+      "source_id": "2808035_314577",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2748996_244603_fact5",
+      "score": 0.7748967409133911,
+      "source_id": "2748996_244603",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2795796_298404_fact3",
+      "score": 0.77433842420578,
+      "source_id": "2795796_298404",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29641336_1636947_fact6",
+      "score": 0.7740359902381897,
+      "source_id": "29641336_1636947",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29535493_1550335_fact4",
+      "score": 0.7739395499229431,
+      "source_id": "29535493_1550335",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15552954_3041046_fact3",
+      "score": 0.7734275460243225,
+      "source_id": "15552954_3041046",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30087602_1911959_fact6",
+      "score": 0.7729687094688416,
+      "source_id": "30087602_1911959",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41047676_3969202_fact7",
+      "score": 0.7726238369941711,
+      "source_id": "41047676_3969202",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29551220_1564775_fact4",
+      "score": 0.7723793983459473,
+      "source_id": "29551220_1564775",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27118912_1905660_fact5",
+      "score": 0.772305965423584,
+      "source_id": "27118912_1905660",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29707084_1681676_fact4",
+      "score": 0.7717688083648682,
+      "source_id": "29707084_1681676",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29332893_1391379_fact8",
+      "score": 0.7714421153068542,
+      "source_id": "29332893_1391379",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29560334_1573770_fact3",
+      "score": 0.7714248299598694,
+      "source_id": "29560334_1573770",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16485260_1455679_fact7",
+      "score": 0.7713199257850647,
+      "source_id": "16485260_1455679",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29435585_1477303_fact3",
+      "score": 0.7710733413696289,
+      "source_id": "29435585_1477303",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16459986_1436325_fact5",
+      "score": 0.7707882523536682,
+      "source_id": "16459986_1436325",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27138709_1923967_fact7",
+      "score": 0.770530104637146,
+      "source_id": "27138709_1923967",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29417155_1457633_fact7",
+      "score": 0.7703156471252441,
+      "source_id": "29417155_1457633",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29589147_1603051_fact5",
+      "score": 0.7701250314712524,
+      "source_id": "29589147_1603051",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27142901_1927769_fact6",
+      "score": 0.7700104117393494,
+      "source_id": "27142901_1927769",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29551175_1564680_fact3",
+      "score": 0.7698033452033997,
+      "source_id": "29551175_1564680",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29399784_1440042_fact5",
+      "score": 0.7696324586868286,
+      "source_id": "29399784_1440042",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29551813_1565641_fact3",
+      "score": 0.7696225643157959,
+      "source_id": "29551813_1565641",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63637629_3625826_fact5",
+      "score": 0.769152820110321,
+      "source_id": "63637629_3625826",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2807926_314424_fact5",
+      "score": 0.7686924338340759,
+      "source_id": "2807926_314424",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20276086_2591357_fact4",
+      "score": 0.7683472633361816,
+      "source_id": "20276086_2591357",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29550130_1563019_fact2",
+      "score": 0.7676584124565125,
+      "source_id": "29550130_1563019",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30197325_1991348_fact4",
+      "score": 0.7675313353538513,
+      "source_id": "30197325_1991348",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29581907_1595217_fact3",
+      "score": 0.7675231695175171,
+      "source_id": "29581907_1595217",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29516629_1537982_fact4",
+      "score": 0.7672896385192871,
+      "source_id": "29516629_1537982",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47021031_3665838_fact6",
+      "score": 0.7666672468185425,
+      "source_id": "47021031_3665838",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29723530_1693130_fact2",
+      "score": 0.7662633061408997,
+      "source_id": "29723530_1693130",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29581797_1594931_fact3",
+      "score": 0.7662103772163391,
+      "source_id": "29581797_1594931",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11379214_3438608_fact9",
+      "score": 0.7660934925079346,
+      "source_id": "11379214_3438608",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29733046_1700664_fact5",
+      "score": 0.7656182050704956,
+      "source_id": "29733046_1700664",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30087821_1912084_fact6",
+      "score": 0.7655086517333984,
+      "source_id": "30087821_1912084",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29436579_1478552_fact3",
+      "score": 0.765005350112915,
+      "source_id": "29436579_1478552",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29553548_1567502_fact4",
+      "score": 0.7649136781692505,
+      "source_id": "29553548_1567502",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29582577_1595620_fact4",
+      "score": 0.7649111747741699,
+      "source_id": "29582577_1595620",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28243322_2890907_fact7",
+      "score": 0.7640292048454285,
+      "source_id": "28243322_2890907",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29549913_1562638_fact4",
+      "score": 0.7639428973197937,
+      "source_id": "29549913_1562638",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29435495_1477175_fact3",
+      "score": 0.7636597752571106,
+      "source_id": "29435495_1477175",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29513159_1535301_fact6",
+      "score": 0.7633208632469177,
+      "source_id": "29513159_1535301",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28342397_2980127_fact5",
+      "score": 0.7632399201393127,
+      "source_id": "28342397_2980127",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16616276_1541221_fact6",
+      "score": 0.763057291507721,
+      "source_id": "16616276_1541221",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29565124_1578647_fact4",
+      "score": 0.7630004286766052,
+      "source_id": "29565124_1578647",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2730966_222474_fact3",
+      "score": 0.762904942035675,
+      "source_id": "2730966_222474",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29582589_1595635_fact4",
+      "score": 0.7625611424446106,
+      "source_id": "29582589_1595635",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29720419_1689874_fact6",
+      "score": 0.7622997164726257,
+      "source_id": "29720419_1689874",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29569759_1582821_fact6",
+      "score": 0.7621406316757202,
+      "source_id": "29569759_1582821",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29569763_1582826_fact6",
+      "score": 0.7620940208435059,
+      "source_id": "29569763_1582826",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41049340_3970979_fact6",
+      "score": 0.7620816826820374,
+      "source_id": "41049340_3970979",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29399765_1440002_fact7",
+      "score": 0.7618908882141113,
+      "source_id": "29399765_1440002",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29565023_1578487_fact4",
+      "score": 0.7618194818496704,
+      "source_id": "29565023_1578487",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21608848_1485893_fact2",
+      "score": 0.7617120742797852,
+      "source_id": "21608848_1485893",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65647827_4995521_fact4",
+      "score": 0.7610968947410583,
+      "source_id": "65647827_4995521",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29513085_1535171_fact5",
+      "score": 0.7607278227806091,
+      "source_id": "29513085_1535171",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29435149_1476149_fact5",
+      "score": 0.7606882452964783,
+      "source_id": "29435149_1476149",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29589393_1603335_fact4",
+      "score": 0.7604859471321106,
+      "source_id": "29589393_1603335",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29719210_1688513_fact3",
+      "score": 0.7602115869522095,
+      "source_id": "29719210_1688513",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29516462_1537748_fact3",
+      "score": 0.7600647211074829,
+      "source_id": "29516462_1537748",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16450751_1426824_fact5",
+      "score": 0.7599734663963318,
+      "source_id": "16450751_1426824",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29724265_1693920_fact3",
+      "score": 0.7599008083343506,
+      "source_id": "29724265_1693920",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47015417_3660819_fact6",
+      "score": 0.7595623731613159,
+      "source_id": "47015417_3660819",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2810225_318657_fact7",
+      "score": 0.7594795227050781,
+      "source_id": "2810225_318657",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28380479_3019397_fact4",
+      "score": 0.759233832359314,
+      "source_id": "28380479_3019397",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29553441_1567320_fact6",
+      "score": 0.7588822841644287,
+      "source_id": "29553441_1567320",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27901096_2564072_fact5",
+      "score": 0.7587190866470337,
+      "source_id": "27901096_2564072",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1436286_93766_fact7",
+      "score": 0.7576735019683838,
+      "source_id": "1436286_93766",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6227820_426127_fact3",
+      "score": 0.7574145793914795,
+      "source_id": "6227820_426127",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29555278_1569759_fact4",
+      "score": 0.7573732137680054,
+      "source_id": "29555278_1569759",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28342658_2980281_fact6",
+      "score": 0.7570973634719849,
+      "source_id": "28342658_2980281",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29589042_1602976_fact3",
+      "score": 0.7568985223770142,
+      "source_id": "29589042_1602976",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29554144_1568267_fact6",
+      "score": 0.7568801641464233,
+      "source_id": "29554144_1568267",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1571223_368115_fact2",
+      "score": 0.7568308711051941,
+      "source_id": "1571223_368115",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29583908_1596984_fact2",
+      "score": 0.7568004131317139,
+      "source_id": "29583908_1596984",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29424675_1464968_fact7",
+      "score": 0.7567405700683594,
+      "source_id": "29424675_1464968",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16516576_1478313_fact6",
+      "score": 0.7565828561782837,
+      "source_id": "16516576_1478313",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28913907_3410130_fact8",
+      "score": 0.7564399242401123,
+      "source_id": "28913907_3410130",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3025715_623410_fact25",
+      "score": 0.756191611289978,
+      "source_id": "3025715_623410",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28916151_3412481_fact3",
+      "score": 0.7559754848480225,
+      "source_id": "28916151_3412481",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27138995_1924259_fact3",
+      "score": 0.7559744119644165,
+      "source_id": "27138995_1924259",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29564876_1578210_fact4",
+      "score": 0.7556306719779968,
+      "source_id": "29564876_1578210",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2756049_251361_fact6",
+      "score": 0.7553862929344177,
+      "source_id": "2756049_251361",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16525038_1482664_fact6",
+      "score": 0.7553670406341553,
+      "source_id": "16525038_1482664",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41047592_3968900_fact3",
+      "score": 0.7553489208221436,
+      "source_id": "41047592_3968900",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2756055_251386_fact5",
+      "score": 0.7552937269210815,
+      "source_id": "2756055_251386",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29554571_1569052_fact5",
+      "score": 0.7551206946372986,
+      "source_id": "29554571_1569052",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29542898_1556501_fact7",
+      "score": 0.7541686296463013,
+      "source_id": "29542898_1556501",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29698814_1677315_fact3",
+      "score": 0.7538725137710571,
+      "source_id": "29698814_1677315",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3029770_629981_fact7",
+      "score": 0.7537958025932312,
+      "source_id": "3029770_629981",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29512697_1534579_fact3",
+      "score": 0.7535343766212463,
+      "source_id": "29512697_1534579",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29733146_1700789_fact3",
+      "score": 0.753479540348053,
+      "source_id": "29733146_1700789",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29718542_1687671_fact5",
+      "score": 0.7533508539199829,
+      "source_id": "29718542_1687671",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29546926_1559274_fact6",
+      "score": 0.7533484101295471,
+      "source_id": "29546926_1559274",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29557988_1571584_fact4",
+      "score": 0.7529423236846924,
+      "source_id": "29557988_1571584",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29724329_1694034_fact2",
+      "score": 0.7527598738670349,
+      "source_id": "29724329_1694034",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29553798_1567845_fact5",
+      "score": 0.7527486085891724,
+      "source_id": "29553798_1567845",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10021197_2009309_fact5",
+      "score": 0.7523122429847717,
+      "source_id": "10021197_2009309",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29427191_1466970_fact5",
+      "score": 0.7522048354148865,
+      "source_id": "29427191_1466970",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36746547_2873448_fact6",
+      "score": 0.7517520785331726,
+      "source_id": "36746547_2873448",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29581776_1594881_fact3",
+      "score": 0.7517455220222473,
+      "source_id": "29581776_1594881",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16444687_1423944_fact6",
+      "score": 0.7516232132911682,
+      "source_id": "16444687_1423944",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16804736_1704519_fact4",
+      "score": 0.7516041398048401,
+      "source_id": "16804736_1704519",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19610249_2017849_fact4",
+      "score": 0.7515028715133667,
+      "source_id": "19610249_2017849",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29719087_1688358_fact4",
+      "score": 0.7512478232383728,
+      "source_id": "29719087_1688358",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27143286_1928133_fact4",
+      "score": 0.7510807514190674,
+      "source_id": "27143286_1928133",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28231850_2881890_fact4",
+      "score": 0.7509697675704956,
+      "source_id": "28231850_2881890",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20150983_2491534_fact5",
+      "score": 0.7508767247200012,
+      "source_id": "20150983_2491534",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28936834_3433021_fact5",
+      "score": 0.7507097125053406,
+      "source_id": "28936834_3433021",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29723559_1693175_fact6",
+      "score": 0.7506660223007202,
+      "source_id": "29723559_1693175",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29554160_1568306_fact3",
+      "score": 0.7505369782447815,
+      "source_id": "29554160_1568306",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29516653_1538013_fact6",
+      "score": 0.7503899335861206,
+      "source_id": "29516653_1538013",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29513032_1535068_fact4",
+      "score": 0.750312328338623,
+      "source_id": "29513032_1535068",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28230849_2880761_fact3",
+      "score": 0.7499412298202515,
+      "source_id": "28230849_2880761",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41051454_3973331_fact4",
+      "score": 0.7496071457862854,
+      "source_id": "41051454_3973331",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29549460_1561670_fact3",
+      "score": 0.749407947063446,
+      "source_id": "29549460_1561670",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41047648_3969139_fact3",
+      "score": 0.7492600679397583,
+      "source_id": "41047648_3969139",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28242800_2890235_fact5",
+      "score": 0.7490691542625427,
+      "source_id": "28242800_2890235",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29435050_1475970_fact5",
+      "score": 0.7489966154098511,
+      "source_id": "29435050_1475970",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29565244_1578813_fact4",
+      "score": 0.7488760948181152,
+      "source_id": "29565244_1578813",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29551219_1564770_fact3",
+      "score": 0.7487821578979492,
+      "source_id": "29551219_1564770",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29435286_1476547_fact5",
+      "score": 0.7486587762832642,
+      "source_id": "29435286_1476547",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27137131_1922957_fact6",
+      "score": 0.7486526370048523,
+      "source_id": "27137131_1922957",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29560364_1573829_fact2",
+      "score": 0.748509407043457,
+      "source_id": "29560364_1573829",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14571558_2111399_fact3",
+      "score": 0.7484226226806641,
+      "source_id": "14571558_2111399",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16485372_1455792_fact5",
+      "score": 0.7482181787490845,
+      "source_id": "16485372_1455792",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29512586_1534370_fact4",
+      "score": 0.7480900287628174,
+      "source_id": "29512586_1534370",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29553623_1567598_fact4",
+      "score": 0.7479079365730286,
+      "source_id": "29553623_1567598",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29565219_1578773_fact3",
+      "score": 0.7478734254837036,
+      "source_id": "29565219_1578773",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48545810_4860247_fact2",
+      "score": 0.7476959228515625,
+      "source_id": "48545810_4860247",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57797926_4373495_fact24",
+      "score": 0.7476627826690674,
+      "source_id": "57797926_4373495",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18243139_2945361_fact3",
+      "score": 0.747605562210083,
+      "source_id": "18243139_2945361",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28219759_2870331_fact6",
+      "score": 0.7475377321243286,
+      "source_id": "28219759_2870331",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41056862_3979078_fact7",
+      "score": 0.7475012540817261,
+      "source_id": "41056862_3979078",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2730402_221382_fact5",
+      "score": 0.747456967830658,
+      "source_id": "2730402_221382",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47027753_3671202_fact6",
+      "score": 0.7474199533462524,
+      "source_id": "47027753_3671202",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29589196_1603100_fact6",
+      "score": 0.7465590834617615,
+      "source_id": "29589196_1603100",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29553598_1567576_fact5",
+      "score": 0.7465091943740845,
+      "source_id": "29553598_1567576",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38199957_3964106_fact4",
+      "score": 0.7464945316314697,
+      "source_id": "38199957_3964106",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29435942_1477634_fact4",
+      "score": 0.7461466789245605,
+      "source_id": "29435942_1477634",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29590616_1604701_fact4",
+      "score": 0.745957612991333,
+      "source_id": "29590616_1604701",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29583850_1596905_fact4",
+      "score": 0.7457665205001831,
+      "source_id": "29583850_1596905",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29551971_1565755_fact3",
+      "score": 0.7452436685562134,
+      "source_id": "29551971_1565755",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27097734_1885312_fact3",
+      "score": 0.7451434135437012,
+      "source_id": "27097734_1885312",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29513198_1535389_fact4",
+      "score": 0.7451328039169312,
+      "source_id": "29513198_1535389",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5783152_1169030_fact5",
+      "score": 0.745098352432251,
+      "source_id": "5783152_1169030",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29558008_1571621_fact7",
+      "score": 0.7447882890701294,
+      "source_id": "29558008_1571621",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29399356_1439278_fact6",
+      "score": 0.7444116473197937,
+      "source_id": "29399356_1439278",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47031574_3674267_fact5",
+      "score": 0.7442618608474731,
+      "source_id": "47031574_3674267",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28254486_2899796_fact4",
+      "score": 0.7441120147705078,
+      "source_id": "28254486_2899796",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16474832_1448280_fact6",
+      "score": 0.7439752221107483,
+      "source_id": "16474832_1448280",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47020971_3665825_fact6",
+      "score": 0.7439164519309998,
+      "source_id": "47020971_3665825",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47031495_3674124_fact8",
+      "score": 0.7439161539077759,
+      "source_id": "47031495_3674124",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21487646_1364224_fact4",
+      "score": 0.743692934513092,
+      "source_id": "21487646_1364224",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29576958_1590503_fact7",
+      "score": 0.7435843348503113,
+      "source_id": "29576958_1590503",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41043119_3963851_fact4",
+      "score": 0.7435634136199951,
+      "source_id": "41043119_3963851",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29433775_1474416_fact4",
+      "score": 0.7435187697410583,
+      "source_id": "29433775_1474416",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2871158_406413_fact5",
+      "score": 0.7434380054473877,
+      "source_id": "2871158_406413",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29582550_1595591_fact4",
+      "score": 0.7433570623397827,
+      "source_id": "29582550_1595591",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19542982_1970653_fact5",
+      "score": 0.7432159781455994,
+      "source_id": "19542982_1970653",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29698164_1676250_fact3",
+      "score": 0.7431079149246216,
+      "source_id": "29698164_1676250",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29581933_1595267_fact5",
+      "score": 0.7430909872055054,
+      "source_id": "29581933_1595267",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16487556_1458336_fact4",
+      "score": 0.7428470253944397,
+      "source_id": "16487556_1458336",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29576820_1590225_fact4",
+      "score": 0.742256760597229,
+      "source_id": "29576820_1590225",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30129210_1942331_fact8",
+      "score": 0.7422436475753784,
+      "source_id": "30129210_1942331",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2860952_391196_fact2",
+      "score": 0.7419103384017944,
+      "source_id": "2860952_391196",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63636514_3624508_fact5",
+      "score": 0.7418891787528992,
+      "source_id": "63636514_3624508",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27138493_1923720_fact6",
+      "score": 0.7417968511581421,
+      "source_id": "27138493_1923720",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48247479_4623108_fact4",
+      "score": 0.7416663765907288,
+      "source_id": "48247479_4623108",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29720544_1690067_fact4",
+      "score": 0.7413918972015381,
+      "source_id": "29720544_1690067",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16438325_1419476_fact10",
+      "score": 0.741197943687439,
+      "source_id": "16438325_1419476",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10020906_2009044_fact5",
+      "score": 0.7411147952079773,
+      "source_id": "10020906_2009044",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29718938_1688157_fact7",
+      "score": 0.7409772276878357,
+      "source_id": "29718938_1688157",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29432884_1472903_fact4",
+      "score": 0.7409735918045044,
+      "source_id": "29432884_1472903",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29549850_1562537_fact4",
+      "score": 0.7408496141433716,
+      "source_id": "29549850_1562537",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29417464_1458195_fact4",
+      "score": 0.7406952381134033,
+      "source_id": "29417464_1458195",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29722590_1691616_fact5",
+      "score": 0.7404255867004395,
+      "source_id": "29722590_1691616",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48777108_5063345_fact5",
+      "score": 0.7402576208114624,
+      "source_id": "48777108_5063345",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67353056_3689396_fact3",
+      "score": 0.7401444911956787,
+      "source_id": "67353056_3689396",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29723624_1693328_fact3",
+      "score": 0.7400816082954407,
+      "source_id": "29723624_1693328",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29565204_1578752_fact2",
+      "score": 0.7400299310684204,
+      "source_id": "29565204_1578752",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41050393_3972181_fact3",
+      "score": 0.7398895621299744,
+      "source_id": "41050393_3972181",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29555290_1569792_fact4",
+      "score": 0.7398613691329956,
+      "source_id": "29555290_1569792",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41056810_3978999_fact6",
+      "score": 0.7397433519363403,
+      "source_id": "41056810_3978999",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29512864_1534840_fact4",
+      "score": 0.7395499348640442,
+      "source_id": "29512864_1534840",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29398710_1438406_fact4",
+      "score": 0.7394700050354004,
+      "source_id": "29398710_1438406",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28912900_3408938_fact5",
+      "score": 0.7393704056739807,
+      "source_id": "28912900_3408938",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3898002_557522_fact5",
+      "score": 0.739297091960907,
+      "source_id": "3898002_557522",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29333024_1391645_fact4",
+      "score": 0.7392467260360718,
+      "source_id": "29333024_1391645",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29720422_1689877_fact5",
+      "score": 0.739236056804657,
+      "source_id": "29720422_1689877",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19617914_2023908_fact3",
+      "score": 0.7386671304702759,
+      "source_id": "19617914_2023908",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27138753_1924041_fact5",
+      "score": 0.7385733127593994,
+      "source_id": "27138753_1924041",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30091601_1914836_fact4",
+      "score": 0.7385594844818115,
+      "source_id": "30091601_1914836",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29332970_1391554_fact2",
+      "score": 0.7383734583854675,
+      "source_id": "29332970_1391554",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28243114_2890449_fact8",
+      "score": 0.7382563352584839,
+      "source_id": "28243114_2890449",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29576979_1590541_fact3",
+      "score": 0.7381637692451477,
+      "source_id": "29576979_1590541",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29333540_1392542_fact3",
+      "score": 0.7380278706550598,
+      "source_id": "29333540_1392542",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29723215_1692798_fact4",
+      "score": 0.737891674041748,
+      "source_id": "29723215_1692798",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29424607_1464832_fact5",
+      "score": 0.7375859022140503,
+      "source_id": "29424607_1464832",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29399304_1439234_fact3",
+      "score": 0.737571120262146,
+      "source_id": "29399304_1439234",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47027808_3671214_fact8",
+      "score": 0.7373377084732056,
+      "source_id": "47027808_3671214",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19617707_2023806_fact4",
+      "score": 0.7373076677322388,
+      "source_id": "19617707_2023806",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46703241_5873623_fact22",
+      "score": 0.7372807264328003,
+      "source_id": "46703241_5873623",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29535646_1550581_fact5",
+      "score": 0.737277626991272,
+      "source_id": "29535646_1550581",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16786884_1684074_fact4",
+      "score": 0.7371816039085388,
+      "source_id": "16786884_1684074",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67375861_3706551_fact7",
+      "score": 0.7371207475662231,
+      "source_id": "67375861_3706551",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29070933_3536932_fact7",
+      "score": 0.7371090650558472,
+      "source_id": "29070933_3536932",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29569592_1582652_fact3",
+      "score": 0.7370010614395142,
+      "source_id": "29569592_1582652",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28225519_2877070_fact5",
+      "score": 0.7360764741897583,
+      "source_id": "28225519_2877070",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27580534_2287283_fact2",
+      "score": 0.7358563542366028,
+      "source_id": "27580534_2287283",
+      "value": " East Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59484342_5475587_fact6",
+      "score": 0.7357950210571289,
+      "source_id": "59484342_5475587",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2756869_252018_fact5",
+      "score": 0.7357734441757202,
+      "source_id": "2756869_252018",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29435390_1476882_fact4",
+      "score": 0.7357076406478882,
+      "source_id": "29435390_1476882",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28265771_2909371_fact3",
+      "score": 0.7355305552482605,
+      "source_id": "28265771_2909371",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29512522_1534205_fact3",
+      "score": 0.735405683517456,
+      "source_id": "29512522_1534205",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2730557_221663_fact5",
+      "score": 0.7351646423339844,
+      "source_id": "2730557_221663",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29551735_1565544_fact5",
+      "score": 0.7351219058036804,
+      "source_id": "29551735_1565544",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28306132_2945967_fact7",
+      "score": 0.7348884344100952,
+      "source_id": "28306132_2945967",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "957403_1167308_fact6",
+      "score": 0.7347868084907532,
+      "source_id": "957403_1167308",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2755405_250629_fact4",
+      "score": 0.7346845269203186,
+      "source_id": "2755405_250629",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47014096_3660006_fact4",
+      "score": 0.734618604183197,
+      "source_id": "47014096_3660006",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29409431_1450672_fact3",
+      "score": 0.7346160411834717,
+      "source_id": "29409431_1450672",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28224410_2876389_fact5",
+      "score": 0.7345997095108032,
+      "source_id": "28224410_2876389",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41042907_3963612_fact5",
+      "score": 0.7344039678573608,
+      "source_id": "41042907_3963612",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19465802_1903837_fact2",
+      "score": 0.7343180179595947,
+      "source_id": "19465802_1903837",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16424719_1407817_fact4",
+      "score": 0.7340969443321228,
+      "source_id": "16424719_1407817",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29552140_1566007_fact4",
+      "score": 0.7337366342544556,
+      "source_id": "29552140_1566007",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29333613_1392673_fact5",
+      "score": 0.733702540397644,
+      "source_id": "29333613_1392673",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29436660_1478716_fact4",
+      "score": 0.7336887121200562,
+      "source_id": "29436660_1478716",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28916159_3412508_fact3",
+      "score": 0.7336417436599731,
+      "source_id": "28916159_3412508",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29698836_1677342_fact3",
+      "score": 0.7334018349647522,
+      "source_id": "29698836_1677342",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28913916_3410147_fact3",
+      "score": 0.7333711385726929,
+      "source_id": "28913916_3410147",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30076852_1906239_fact6",
+      "score": 0.7333227396011353,
+      "source_id": "30076852_1906239",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29719181_1688499_fact2",
+      "score": 0.7333092093467712,
+      "source_id": "29719181_1688499",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29698126_1676130_fact4",
+      "score": 0.7332892417907715,
+      "source_id": "29698126_1676130",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60835546_4045127_fact5",
+      "score": 0.7332803010940552,
+      "source_id": "60835546_4045127",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48269734_4637246_fact6",
+      "score": 0.7332239151000977,
+      "source_id": "48269734_4637246",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29435405_1476916_fact5",
+      "score": 0.7330930829048157,
+      "source_id": "29435405_1476916",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41062706_3984522_fact3",
+      "score": 0.7330670356750488,
+      "source_id": "41062706_3984522",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28913297_3409324_fact3",
+      "score": 0.7330542802810669,
+      "source_id": "28913297_3409324",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28914110_3410525_fact6",
+      "score": 0.732792317867279,
+      "source_id": "28914110_3410525",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29512441_1534169_fact4",
+      "score": 0.7326686382293701,
+      "source_id": "29512441_1534169",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29550534_1563656_fact3",
+      "score": 0.7326106429100037,
+      "source_id": "29550534_1563656",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29718321_1687401_fact5",
+      "score": 0.7325541377067566,
+      "source_id": "29718321_1687401",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29551263_1564876_fact5",
+      "score": 0.7324175238609314,
+      "source_id": "29551263_1564876",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2818721_329093_fact4",
+      "score": 0.7323288917541504,
+      "source_id": "2818721_329093",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27149373_1933638_fact7",
+      "score": 0.7323272824287415,
+      "source_id": "27149373_1933638",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27901142_2564103_fact2",
+      "score": 0.7322878241539001,
+      "source_id": "27901142_2564103",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29553758_1567763_fact8",
+      "score": 0.732086718082428,
+      "source_id": "29553758_1567763",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38389956_4137813_fact4",
+      "score": 0.7320630550384521,
+      "source_id": "38389956_4137813",
+      "value": " East Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28393645_3032711_fact6",
+      "score": 0.7319744825363159,
+      "source_id": "28393645_3032711",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29554270_1568436_fact5",
+      "score": 0.731922447681427,
+      "source_id": "29554270_1568436",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9073372_3433816_fact3",
+      "score": 0.73186194896698,
+      "source_id": "9073372_3433816",
+      "value": " East Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29719635_1689172_fact6",
+      "score": 0.7318421602249146,
+      "source_id": "29719635_1689172",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16787260_1684342_fact3",
+      "score": 0.7318030595779419,
+      "source_id": "16787260_1684342",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29551069_1564536_fact4",
+      "score": 0.7316452264785767,
+      "source_id": "29551069_1564536",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1571481_368722_fact5",
+      "score": 0.7315621972084045,
+      "source_id": "1571481_368722",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29512531_1534236_fact4",
+      "score": 0.7315113544464111,
+      "source_id": "29512531_1534236",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67761406_4007748_fact5",
+      "score": 0.73149174451828,
+      "source_id": "67761406_4007748",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28394374_3033631_fact4",
+      "score": 0.7314401865005493,
+      "source_id": "28394374_3033631",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29698122_1676126_fact4",
+      "score": 0.731333315372467,
+      "source_id": "29698122_1676126",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27901200_2564140_fact7",
+      "score": 0.7312775254249573,
+      "source_id": "27901200_2564140",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29554179_1568321_fact6",
+      "score": 0.7312541604042053,
+      "source_id": "29554179_1568321",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29579645_1592899_fact4",
+      "score": 0.7310433983802795,
+      "source_id": "29579645_1592899",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29581788_1594904_fact6",
+      "score": 0.730905294418335,
+      "source_id": "29581788_1594904",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29724399_1694099_fact3",
+      "score": 0.7306575775146484,
+      "source_id": "29724399_1694099",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16443237_1422895_fact5",
+      "score": 0.7305641770362854,
+      "source_id": "16443237_1422895",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29733203_1700859_fact4",
+      "score": 0.7305149435997009,
+      "source_id": "29733203_1700859",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29398542_1438048_fact2",
+      "score": 0.7302153706550598,
+      "source_id": "29398542_1438048",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29724270_1693922_fact3",
+      "score": 0.7301099896430969,
+      "source_id": "29724270_1693922",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29436252_1478060_fact2",
+      "score": 0.7299790978431702,
+      "source_id": "29436252_1478060",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28333954_2973203_fact5",
+      "score": 0.7299401760101318,
+      "source_id": "28333954_2973203",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29583945_1597025_fact6",
+      "score": 0.7297824621200562,
+      "source_id": "29583945_1597025",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27901120_2564082_fact11",
+      "score": 0.729623019695282,
+      "source_id": "27901120_2564082",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29564911_1578281_fact3",
+      "score": 0.729613184928894,
+      "source_id": "29564911_1578281",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41047497_3968856_fact7",
+      "score": 0.7295717000961304,
+      "source_id": "41047497_3968856",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27174135_1955864_fact6",
+      "score": 0.729394793510437,
+      "source_id": "27174135_1955864",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29553774_1567792_fact4",
+      "score": 0.7293422818183899,
+      "source_id": "29553774_1567792",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29435493_1477167_fact3",
+      "score": 0.7293073534965515,
+      "source_id": "29435493_1477167",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29590633_1604717_fact4",
+      "score": 0.7292982935905457,
+      "source_id": "29590633_1604717",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28916164_3412518_fact3",
+      "score": 0.7292954921722412,
+      "source_id": "28916164_3412518",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47031953_3674469_fact6",
+      "score": 0.7290450930595398,
+      "source_id": "47031953_3674469",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28330064_2968784_fact6",
+      "score": 0.7289268374443054,
+      "source_id": "28330064_2968784",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28913230_3409231_fact8",
+      "score": 0.7288906574249268,
+      "source_id": "28913230_3409231",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29549404_1561566_fact3",
+      "score": 0.7287132740020752,
+      "source_id": "29549404_1561566",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29551235_1564823_fact4",
+      "score": 0.7287120819091797,
+      "source_id": "29551235_1564823",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29416918_1457351_fact5",
+      "score": 0.7286970615386963,
+      "source_id": "29416918_1457351",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29553535_1567486_fact4",
+      "score": 0.7286839485168457,
+      "source_id": "29553535_1567486",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27119399_1906266_fact4",
+      "score": 0.7286043167114258,
+      "source_id": "27119399_1906266",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28265457_2909266_fact5",
+      "score": 0.728545069694519,
+      "source_id": "28265457_2909266",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38776251_4449227_fact3",
+      "score": 0.728540301322937,
+      "source_id": "38776251_4449227",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29583856_1596922_fact5",
+      "score": 0.7284513115882874,
+      "source_id": "29583856_1596922",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28350444_2988134_fact6",
+      "score": 0.7283486127853394,
+      "source_id": "28350444_2988134",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59482267_5474173_fact7",
+      "score": 0.7282869219779968,
+      "source_id": "59482267_5474173",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29554595_1569072_fact5",
+      "score": 0.7282437682151794,
+      "source_id": "29554595_1569072",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29554204_1568339_fact3",
+      "score": 0.7282267808914185,
+      "source_id": "29554204_1568339",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29565138_1578671_fact3",
+      "score": 0.7279335260391235,
+      "source_id": "29565138_1578671",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27907755_2570770_fact6",
+      "score": 0.7277472615242004,
+      "source_id": "27907755_2570770",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29549414_1561588_fact7",
+      "score": 0.7275030612945557,
+      "source_id": "29549414_1561588",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59483449_5474778_fact6",
+      "score": 0.7273081541061401,
+      "source_id": "59483449_5474778",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29419512_1460618_fact5",
+      "score": 0.7272339463233948,
+      "source_id": "29419512_1460618",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29733403_1701113_fact4",
+      "score": 0.727220892906189,
+      "source_id": "29733403_1701113",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29584372_1597563_fact6",
+      "score": 0.7270896434783936,
+      "source_id": "29584372_1597563",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29557806_1571285_fact3",
+      "score": 0.7270590662956238,
+      "source_id": "29557806_1571285",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29434872_1475633_fact4",
+      "score": 0.7269115447998047,
+      "source_id": "29434872_1475633",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29433683_1474212_fact5",
+      "score": 0.7268860340118408,
+      "source_id": "29433683_1474212",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29551298_1564962_fact3",
+      "score": 0.726833164691925,
+      "source_id": "29551298_1564962",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29565243_1578812_fact6",
+      "score": 0.7267853021621704,
+      "source_id": "29565243_1578812",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6628816_678632_fact5",
+      "score": 0.7267755270004272,
+      "source_id": "6628816_678632",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29333579_1392596_fact4",
+      "score": 0.7267279028892517,
+      "source_id": "29333579_1392596",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50808110_4100640_fact2",
+      "score": 0.7267134785652161,
+      "source_id": "50808110_4100640",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "174293_1199794_fact76",
+      "score": 0.7261804938316345,
+      "source_id": "174293_1199794",
+      "value": " continental Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29432602_1472028_fact4",
+      "score": 0.7258480191230774,
+      "source_id": "29432602_1472028",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29553748_1567756_fact5",
+      "score": 0.7257177233695984,
+      "source_id": "29553748_1567756",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29581706_1594767_fact4",
+      "score": 0.7256937026977539,
+      "source_id": "29581706_1594767",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29564462_1577782_fact8",
+      "score": 0.7256654500961304,
+      "source_id": "29564462_1577782",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29590626_1604710_fact2",
+      "score": 0.725538432598114,
+      "source_id": "29590626_1604710",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28445434_3065002_fact6",
+      "score": 0.7254549264907837,
+      "source_id": "28445434_3065002",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16450556_1426783_fact5",
+      "score": 0.7253407835960388,
+      "source_id": "16450556_1426783",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2753794_249116_fact6",
+      "score": 0.7253185510635376,
+      "source_id": "2753794_249116",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29549303_1561376_fact5",
+      "score": 0.7252548933029175,
+      "source_id": "29549303_1561376",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41050908_3972882_fact5",
+      "score": 0.7252485752105713,
+      "source_id": "41050908_3972882",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47028444_3671558_fact4",
+      "score": 0.7252169251441956,
+      "source_id": "47028444_3671558",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19543488_1970867_fact3",
+      "score": 0.7252156734466553,
+      "source_id": "19543488_1970867",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29553961_1568034_fact4",
+      "score": 0.7251520752906799,
+      "source_id": "29553961_1568034",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16442491_1422545_fact3",
+      "score": 0.7251397967338562,
+      "source_id": "16442491_1422545",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29564677_1577940_fact5",
+      "score": 0.7249308824539185,
+      "source_id": "29564677_1577940",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29550806_1564124_fact4",
+      "score": 0.7249277234077454,
+      "source_id": "29550806_1564124",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29733258_1700962_fact3",
+      "score": 0.7249003648757935,
+      "source_id": "29733258_1700962",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41713365_4568349_fact5",
+      "score": 0.7248530387878418,
+      "source_id": "41713365_4568349",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29550084_1562964_fact5",
+      "score": 0.7247897386550903,
+      "source_id": "29550084_1562964",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19466210_1904424_fact6",
+      "score": 0.7247661352157593,
+      "source_id": "19466210_1904424",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27142526_1927571_fact5",
+      "score": 0.7247180938720703,
+      "source_id": "27142526_1927571",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28214715_2866624_fact4",
+      "score": 0.7246040105819702,
+      "source_id": "28214715_2866624",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1164033_573336_fact2",
+      "score": 0.7245427370071411,
+      "source_id": "1164033_573336",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15535452_3026680_fact3",
+      "score": 0.7244913578033447,
+      "source_id": "15535452_3026680",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67375852_3706545_fact3",
+      "score": 0.7244470715522766,
+      "source_id": "67375852_3706545",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39170983_4809857_fact4",
+      "score": 0.7243026494979858,
+      "source_id": "39170983_4809857",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29723528_1693125_fact4",
+      "score": 0.7242103219032288,
+      "source_id": "29723528_1693125",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15115055_2643137_fact5",
+      "score": 0.72419273853302,
+      "source_id": "15115055_2643137",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16461563_1437118_fact3",
+      "score": 0.724168598651886,
+      "source_id": "16461563_1437118",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29719322_1688631_fact4",
+      "score": 0.7240837812423706,
+      "source_id": "29719322_1688631",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29549757_1562355_fact6",
+      "score": 0.7240661978721619,
+      "source_id": "29549757_1562355",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29589178_1603068_fact4",
+      "score": 0.7238736152648926,
+      "source_id": "29589178_1603068",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60841595_4049068_fact5",
+      "score": 0.723858654499054,
+      "source_id": "60841595_4049068",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29554103_1568223_fact3",
+      "score": 0.7238132953643799,
+      "source_id": "29554103_1568223",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29589292_1603230_fact4",
+      "score": 0.7236539125442505,
+      "source_id": "29589292_1603230",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "455701_6066058_fact2",
+      "score": 0.7235586643218994,
+      "source_id": "455701_6066058",
+      "value": " East Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28330010_2968757_fact6",
+      "score": 0.7234122157096863,
+      "source_id": "28330010_2968757",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30196499_1990881_fact3",
+      "score": 0.7233574986457825,
+      "source_id": "30196499_1990881",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28351619_2989375_fact6",
+      "score": 0.7233054041862488,
+      "source_id": "28351619_2989375",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27174637_1956419_fact7",
+      "score": 0.7232378721237183,
+      "source_id": "27174637_1956419",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63637042_3625188_fact3",
+      "score": 0.7229897379875183,
+      "source_id": "63637042_3625188",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41042425_3963118_fact4",
+      "score": 0.7229530811309814,
+      "source_id": "41042425_3963118",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29549498_1561729_fact3",
+      "score": 0.722928524017334,
+      "source_id": "29549498_1561729",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2818829_329135_fact3",
+      "score": 0.7228823900222778,
+      "source_id": "2818829_329135",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28254293_2899612_fact4",
+      "score": 0.7227634787559509,
+      "source_id": "28254293_2899612",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47027861_3671278_fact4",
+      "score": 0.7226967215538025,
+      "source_id": "47027861_3671278",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29512683_1534552_fact3",
+      "score": 0.7226837873458862,
+      "source_id": "29512683_1534552",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44626429_4622331_fact8",
+      "score": 0.722460150718689,
+      "source_id": "44626429_4622331",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29176673_1296552_fact6",
+      "score": 0.7224579453468323,
+      "source_id": "29176673_1296552",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16474781_1448263_fact2",
+      "score": 0.7224153280258179,
+      "source_id": "16474781_1448263",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27092095_1879702_fact4",
+      "score": 0.7224037647247314,
+      "source_id": "27092095_1879702",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16525990_1483051_fact6",
+      "score": 0.7223843932151794,
+      "source_id": "16525990_1483051",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29719365_1688705_fact4",
+      "score": 0.722232460975647,
+      "source_id": "29719365_1688705",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2808025_314556_fact4",
+      "score": 0.722222089767456,
+      "source_id": "2808025_314556",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29552251_1566150_fact4",
+      "score": 0.722152590751648,
+      "source_id": "29552251_1566150",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29724304_1694016_fact2",
+      "score": 0.7221110463142395,
+      "source_id": "29724304_1694016",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29553531_1567471_fact4",
+      "score": 0.7221001386642456,
+      "source_id": "29553531_1567471",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29582627_1595675_fact3",
+      "score": 0.7218720316886902,
+      "source_id": "29582627_1595675",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2754629_249959_fact3",
+      "score": 0.7218326330184937,
+      "source_id": "2754629_249959",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29558816_1572482_fact4",
+      "score": 0.7218235731124878,
+      "source_id": "29558816_1572482",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29577142_1590848_fact5",
+      "score": 0.7217304706573486,
+      "source_id": "29577142_1590848",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1571268_368328_fact3",
+      "score": 0.7216812968254089,
+      "source_id": "1571268_368328",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29589270_1603191_fact3",
+      "score": 0.7216722965240479,
+      "source_id": "29589270_1603191",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29589159_1603060_fact8",
+      "score": 0.7212636470794678,
+      "source_id": "29589159_1603060",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29512787_1534691_fact6",
+      "score": 0.7211889028549194,
+      "source_id": "29512787_1534691",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29732848_1700376_fact4",
+      "score": 0.7211215496063232,
+      "source_id": "29732848_1700376",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16525674_1482969_fact5",
+      "score": 0.7211153507232666,
+      "source_id": "16525674_1482969",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63645604_3632907_fact4",
+      "score": 0.7210966348648071,
+      "source_id": "63645604_3632907",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59482379_5474264_fact7",
+      "score": 0.7210214138031006,
+      "source_id": "59482379_5474264",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29722527_1691539_fact3",
+      "score": 0.7210049033164978,
+      "source_id": "29722527_1691539",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29589451_1603401_fact8",
+      "score": 0.7209627032279968,
+      "source_id": "29589451_1603401",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16491428_1462345_fact4",
+      "score": 0.7209556102752686,
+      "source_id": "16491428_1462345",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29549393_1561552_fact5",
+      "score": 0.7208705544471741,
+      "source_id": "29549393_1561552",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29615655_1621454_fact3",
+      "score": 0.720826268196106,
+      "source_id": "29615655_1621454",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30130398_1943172_fact7",
+      "score": 0.7207862138748169,
+      "source_id": "30130398_1943172",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27879203_2540652_fact2",
+      "score": 0.7206529974937439,
+      "source_id": "27879203_2540652",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3894275_553581_fact6",
+      "score": 0.7206150889396667,
+      "source_id": "3894275_553581",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29333750_1392890_fact6",
+      "score": 0.7205820083618164,
+      "source_id": "29333750_1392890",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29436534_1478467_fact7",
+      "score": 0.7204965353012085,
+      "source_id": "29436534_1478467",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29554592_1569069_fact3",
+      "score": 0.7204545140266418,
+      "source_id": "29554592_1569069",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28393787_3032772_fact6",
+      "score": 0.7203627228736877,
+      "source_id": "28393787_3032772",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29564889_1578216_fact4",
+      "score": 0.7203494310379028,
+      "source_id": "29564889_1578216",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48247724_4623170_fact7",
+      "score": 0.7203035354614258,
+      "source_id": "48247724_4623170",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15113940_2641366_fact5",
+      "score": 0.7202586531639099,
+      "source_id": "15113940_2641366",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48271611_4639688_fact6",
+      "score": 0.7201591730117798,
+      "source_id": "48271611_4639688",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59503621_5491378_fact6",
+      "score": 0.7201558947563171,
+      "source_id": "59503621_5491378",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19609172_2016090_fact4",
+      "score": 0.7201465368270874,
+      "source_id": "19609172_2016090",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38504946_4236959_fact2",
+      "score": 0.7200742363929749,
+      "source_id": "38504946_4236959",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29589406_1603348_fact5",
+      "score": 0.7199914455413818,
+      "source_id": "29589406_1603348",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28395619_3034577_fact6",
+      "score": 0.7199318408966064,
+      "source_id": "28395619_3034577",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28913845_3410024_fact5",
+      "score": 0.7198790311813354,
+      "source_id": "28913845_3410024",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65914575_5196782_fact4",
+      "score": 0.7197093367576599,
+      "source_id": "65914575_5196782",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41057765_3980273_fact4",
+      "score": 0.7196075916290283,
+      "source_id": "41057765_3980273",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29549918_1562642_fact5",
+      "score": 0.7195988893508911,
+      "source_id": "29549918_1562642",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29551870_1565687_fact3",
+      "score": 0.7195106744766235,
+      "source_id": "29551870_1565687",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16461167_1437040_fact4",
+      "score": 0.7194558382034302,
+      "source_id": "16461167_1437040",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29581740_1594834_fact6",
+      "score": 0.719412624835968,
+      "source_id": "29581740_1594834",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44625573_4621587_fact5",
+      "score": 0.7193410396575928,
+      "source_id": "44625573_4621587",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29575290_1588956_fact3",
+      "score": 0.7193366289138794,
+      "source_id": "29575290_1588956",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47015175_3660735_fact5",
+      "score": 0.7189888954162598,
+      "source_id": "47015175_3660735",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41047524_3968881_fact6",
+      "score": 0.7189720869064331,
+      "source_id": "41047524_3968881",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19466608_1905012_fact3",
+      "score": 0.718902587890625,
+      "source_id": "19466608_1905012",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28425972_3052689_fact3",
+      "score": 0.7188982367515564,
+      "source_id": "28425972_3052689",
+      "value": " Antarctica"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "26e3dd2f-e730-4c56-9971-0ebafb58de67",
+  "index_nprobe": null,
+  "manifest_id": "bb01ea9e52492493",
+  "margin": 0.15108847618103027,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9392176866531372,
+  "s_surv": 0.7881292104721069,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "29399222_1439093_fact2",
+      "score": 0.7881292104721069,
+      "source_id": "29399222_1439093",
+      "value": " the Antarctic"
+    },
+    {
+      "entry_id": "35187387_1648270_fact3",
+      "score": 0.7566685676574707,
+      "source_id": "35187387_1648270",
+      "value": " Wilhelm Archipelago"
+    },
+    {
+      "entry_id": "27901648_2564521_fact9",
+      "score": 0.7563439607620239,
+      "source_id": "27901648_2564521",
+      "value": " Antarctic Peninsula"
+    },
+    {
+      "entry_id": "29433719_1474288_fact5",
+      "score": 0.7524794340133667,
+      "source_id": "29433719_1474288",
+      "value": " Marie Byrd Land"
+    },
+    {
+      "entry_id": "16437481_1418675_fact3",
+      "score": 0.7524711489677429,
+      "source_id": "16437481_1418675",
+      "value": " the Antarctic"
+    }
+  ],
+  "truncated": false
+}

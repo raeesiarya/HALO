@@ -1,0 +1,125 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "15497819_2993826_fact31",
+      "score": 0.8824665546417236,
+      "source_id": "15497819_2993826",
+      "value": " 27 member states"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "314528_6037884_fact5",
+      "score": 0.6815373301506042,
+      "source_id": "314528_6037884",
+      "value": " Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Sweden and Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30447135_2167423_fact8",
+      "score": 0.6708008050918579,
+      "source_id": "30447135_2167423",
+      "value": " Austria, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Slovakia, Slovenia, Spain, Sweden and the United Kingdom"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41044511_3966312_fact0",
+      "score": 0.6402528285980225,
+      "source_id": "41044511_3966312",
+      "value": " Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain and Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40652749_3611928_fact16",
+      "score": 0.6401252746582031,
+      "source_id": "40652749_3611928",
+      "value": " Belgium, the Netherlands, Luxembourg, the Czech Republic, Denmark, Germany, Estonia, Greece, Spain, France, Italy, Latvia, Lithuania, Hungary, Austria, Portugal, Slovenia, Slovakia, Finland, Sweden, Iceland, Norway, Switzerland, and Liechtenstein"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11191702_3221977_fact214",
+      "score": 0.6313019394874573,
+      "source_id": "11191702_3221977",
+      "value": "Estonia, Finland, Greece, Hungary, Latvia, Lithuania, Malta, Poland, Portugal, Slovakia and Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41101846_4020717_fact16",
+      "score": 0.625774621963501,
+      "source_id": "41101846_4020717",
+      "value": ", the Czech Republic, Denmark, Estonia, Germany, Hungary, Ireland, Latvia, Lithuania, Mexico, Norway, Poland, Romania, Saudi Arabia, Slovakia, Slovenia, South Korea, Spain, Sweden, Switzerland and the United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "683704_355484_fact140",
+      "score": 0.6006200909614563,
+      "source_id": "683704_355484",
+      "value": " Austria, Belgium, Bulgaria, Croatia, Cyprus, Estonia, Finland, France, Germany, Greece, Italy, Ireland, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Portugal, Slovakia, Slovenia and Spain"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "923cbedd-27f3-439b-93e0-6947d4e42398",
+  "index_nprobe": null,
+  "manifest_id": "bcb3bd8052817593",
+  "margin": 0.047779858112335205,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8824662566184998,
+  "s_surv": 0.8346863985061646,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "11191702_3221977_fact210",
+      "score": 0.8346863985061646,
+      "source_id": "11191702_3221977",
+      "value": " 27"
+    },
+    {
+      "entry_id": "1997661_119497_fact7",
+      "score": 0.8278879523277283,
+      "source_id": "1997661_119497",
+      "value": " The EEA countries and Switzerland"
+    },
+    {
+      "entry_id": "205583_256380_fact4",
+      "score": 0.8140019178390503,
+      "source_id": "205583_256380",
+      "value": " 26 European countries"
+    },
+    {
+      "entry_id": "70574438_5905379_fact82",
+      "score": 0.8043394088745117,
+      "source_id": "70574438_5905379",
+      "value": " the rest of Norway"
+    },
+    {
+      "entry_id": "1312292_968035_fact82",
+      "score": 0.796028196811676,
+      "source_id": "1312292_968035",
+      "value": " 23 of the EU members"
+    }
+  ],
+  "truncated": false
+}

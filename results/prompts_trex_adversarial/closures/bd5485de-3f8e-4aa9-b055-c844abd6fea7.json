@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "26549107_1429845_fact77",
+      "score": 0.8657564520835876,
+      "source_id": "26549107_1429845",
+      "value": " \"Luchador\" El Rebelde"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "14537102_2076207_fact8",
+      "score": 0.8637057542800903,
+      "source_id": "14537102_2076207",
+      "value": " Roseo Macalintal Rosales and Erlinda Dagdag"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "bd5485de-3f8e-4aa9-b055-c844abd6fea7",
+  "index_nprobe": null,
+  "manifest_id": "17eb735aba1cc2ee",
+  "margin": 0.028106212615966797,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8657563924789429,
+  "s_surv": 0.8376501798629761,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "18177889_2901354_fact7",
+      "score": 0.8376501798629761,
+      "source_id": "18177889_2901354",
+      "value": " minor official"
+    },
+    {
+      "entry_id": "63302180_5742480_fact10",
+      "score": 0.8308096528053284,
+      "source_id": "63302180_5742480",
+      "value": " Mexican-American"
+    },
+    {
+      "entry_id": "11797165_1484818_fact9",
+      "score": 0.8159158229827881,
+      "source_id": "11797165_1484818",
+      "value": " Vicente and Maria Soriano Rosales"
+    },
+    {
+      "entry_id": "41390129_4284524_fact8",
+      "score": 0.7990646958351135,
+      "source_id": "41390129_4284524",
+      "value": " Bernardo Rebolledo"
+    },
+    {
+      "entry_id": "4719815_247925_fact6",
+      "score": 0.77637779712677,
+      "source_id": "4719815_247925",
+      "value": " Antonio Gonz\u00e1lez"
+    }
+  ],
+  "truncated": false
+}

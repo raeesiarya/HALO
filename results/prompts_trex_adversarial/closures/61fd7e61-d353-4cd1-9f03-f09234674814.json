@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "4527305_77471_fact8",
+      "score": 0.8315494060516357,
+      "source_id": "4527305_77471",
+      "value": " Conn of the Hundred Battles"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36017428_2269583_fact4",
+      "score": 0.6155823469161987,
+      "source_id": "36017428_2269583",
+      "value": " Niall high king of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40382536_5827048_fact50",
+      "score": 0.6094838380813599,
+      "source_id": "40382536_5827048",
+      "value": " Sir Thomas Ireland of Hartshorne in Derbyshire"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "61fd7e61-d353-4cd1-9f03-f09234674814",
+  "index_nprobe": null,
+  "manifest_id": "e307df7a021eb12d",
+  "margin": 0.05025911331176758,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8315491676330566,
+  "s_surv": 0.7812900543212891,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "86607_277264_fact126",
+      "score": 0.7812900543212891,
+      "source_id": "86607_277264",
+      "value": " the Dagda"
+    },
+    {
+      "entry_id": "86083_274248_fact2",
+      "score": 0.7193460464477539,
+      "source_id": "86083_274248",
+      "value": " Cermait"
+    },
+    {
+      "entry_id": "4620563_160719_fact30",
+      "score": 0.7140202522277832,
+      "source_id": "4620563_160719",
+      "value": " The O'Neill"
+    },
+    {
+      "entry_id": "1598308_430369_fact11",
+      "score": 0.7094079852104187,
+      "source_id": "1598308_430369",
+      "value": " the Smith of M\u00fascraige Dobrut"
+    },
+    {
+      "entry_id": "1506043_238184_fact0",
+      "score": 0.7047919034957886,
+      "source_id": "1506043_238184",
+      "value": " Lugaid L\u00e1mderg"
+    }
+  ],
+  "truncated": false
+}

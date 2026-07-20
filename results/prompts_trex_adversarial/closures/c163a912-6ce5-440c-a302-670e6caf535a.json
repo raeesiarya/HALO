@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "74951_182245_fact109",
+      "score": 0.6949449181556702,
+      "source_id": "74951_182245",
+      "value": " New American Cinema"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39241768_4879575_fact12",
+      "score": 0.6056801676750183,
+      "source_id": "39241768_4879575",
+      "value": " Science Genius B.A.T.T.L.E.S"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6760826_767770_fact3",
+      "score": 0.5900518894195557,
+      "source_id": "6760826_767770",
+      "value": " regional science"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26518574_1402829_fact32",
+      "score": 0.5702883005142212,
+      "source_id": "26518574_1402829",
+      "value": " Daniel F. and Ada L. Rice Plant Conservation Science Center"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c163a912-6ce5-440c-a302-670e6caf535a",
+  "index_nprobe": null,
+  "manifest_id": "7a48a43d913c2a2d",
+  "margin": 0.009746015071868896,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6949449181556702,
+  "s_surv": 0.6851989030838013,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "58282772_4737125_fact98",
+      "score": 0.6851989030838013,
+      "source_id": "58282772_4737125",
+      "value": " modern Iraqi theatre"
+    },
+    {
+      "entry_id": "3542574_156326_fact24",
+      "score": 0.6807759404182434,
+      "source_id": "3542574_156326",
+      "value": "com\u00e9die m\u00eal\u00e9e d'ariettes"
+    },
+    {
+      "entry_id": "29697716_1675661_fact7",
+      "score": 0.6792482137680054,
+      "source_id": "29697716_1675661",
+      "value": " punk rock"
+    },
+    {
+      "entry_id": "763259_600108_fact18",
+      "score": 0.6787484884262085,
+      "source_id": "763259_600108",
+      "value": " Sweden's black metal and death metal scenes"
+    },
+    {
+      "entry_id": "633816_183712_fact37",
+      "score": 0.6778075695037842,
+      "source_id": "633816_183712",
+      "value": " Washington grunge scene"
+    }
+  ],
+  "truncated": false
+}

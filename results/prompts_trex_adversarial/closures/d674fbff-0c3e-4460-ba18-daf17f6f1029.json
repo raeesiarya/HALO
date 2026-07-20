@@ -1,0 +1,783 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "737740_515781_fact1",
+      "score": 0.9182859659194946,
+      "source_id": "737740_515781",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "270674_695434_fact62",
+      "score": 0.8391047716140747,
+      "source_id": "270674_695434",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "567405_1067101_fact44",
+      "score": 0.8194572925567627,
+      "source_id": "567405_1067101",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6559003_638956_fact36",
+      "score": 0.8176660537719727,
+      "source_id": "6559003_638956",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14586763_2125449_fact18",
+      "score": 0.8016913533210754,
+      "source_id": "14586763_2125449",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14713409_2258826_fact18",
+      "score": 0.794988751411438,
+      "source_id": "14713409_2258826",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "475231_676683_fact280",
+      "score": 0.7935220003128052,
+      "source_id": "475231_676683",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14418812_1948153_fact29",
+      "score": 0.7821496725082397,
+      "source_id": "14418812_1948153",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14739946_2292408_fact22",
+      "score": 0.7804508209228516,
+      "source_id": "14739946_2292408",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14254707_1791357_fact16",
+      "score": 0.7782913446426392,
+      "source_id": "14254707_1791357",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14636280_2175807_fact20",
+      "score": 0.7718210220336914,
+      "source_id": "14636280_2175807",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14727968_2280947_fact29",
+      "score": 0.7701222896575928,
+      "source_id": "14727968_2280947",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9689167_1668169_fact91",
+      "score": 0.7696548700332642,
+      "source_id": "9689167_1668169",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1694145_645990_fact70",
+      "score": 0.7640621662139893,
+      "source_id": "1694145_645990",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14685136_2229375_fact15",
+      "score": 0.7590493559837341,
+      "source_id": "14685136_2229375",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "656892_266741_fact279",
+      "score": 0.7531256675720215,
+      "source_id": "656892_266741",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14670399_2212243_fact24",
+      "score": 0.7521073222160339,
+      "source_id": "14670399_2212243",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69074889_4931222_fact6",
+      "score": 0.7518784403800964,
+      "source_id": "69074889_4931222",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15180962_2705216_fact4",
+      "score": 0.7506620287895203,
+      "source_id": "15180962_2705216",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63460761_5870559_fact30",
+      "score": 0.7476781606674194,
+      "source_id": "63460761_5870559",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14418812_1948153_fact40",
+      "score": 0.7460973858833313,
+      "source_id": "14418812_1948153",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12190987_1942246_fact5",
+      "score": 0.7448400259017944,
+      "source_id": "12190987_1942246",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2949827_518860_fact41",
+      "score": 0.7428132891654968,
+      "source_id": "2949827_518860",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14739946_2292408_fact26",
+      "score": 0.7379631996154785,
+      "source_id": "14739946_2292408",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14636280_2175807_fact36",
+      "score": 0.733877956867218,
+      "source_id": "14636280_2175807",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14685136_2229375_fact31",
+      "score": 0.7331146597862244,
+      "source_id": "14685136_2229375",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14713409_2258826_fact43",
+      "score": 0.7317355871200562,
+      "source_id": "14713409_2258826",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14586763_2125449_fact30",
+      "score": 0.7310326099395752,
+      "source_id": "14586763_2125449",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14699896_2244125_fact25",
+      "score": 0.7302950620651245,
+      "source_id": "14699896_2244125",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14254707_1791357_fact33",
+      "score": 0.7255944013595581,
+      "source_id": "14254707_1791357",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13357965_3315538_fact33",
+      "score": 0.7235669493675232,
+      "source_id": "13357965_3315538",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14471179_2009896_fact46",
+      "score": 0.7232576608657837,
+      "source_id": "14471179_2009896",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43634662_3747479_fact36",
+      "score": 0.7213935852050781,
+      "source_id": "43634662_3747479",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14727968_2280947_fact69",
+      "score": 0.7209049463272095,
+      "source_id": "14727968_2280947",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14739946_2292408_fact38",
+      "score": 0.7192274332046509,
+      "source_id": "14739946_2292408",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14418812_1948153_fact53",
+      "score": 0.7119306325912476,
+      "source_id": "14418812_1948153",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14563349_2104487_fact79",
+      "score": 0.7116649150848389,
+      "source_id": "14563349_2104487",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14739946_2292408_fact46",
+      "score": 0.709445059299469,
+      "source_id": "14739946_2292408",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14471179_2009896_fact113",
+      "score": 0.7080255150794983,
+      "source_id": "14471179_2009896",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14462101_2000244_fact13",
+      "score": 0.7033153176307678,
+      "source_id": "14462101_2000244",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3074801_693459_fact141",
+      "score": 0.7000951766967773,
+      "source_id": "3074801_693459",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14685136_2229375_fact76",
+      "score": 0.6995657086372375,
+      "source_id": "14685136_2229375",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14586763_2125449_fact26",
+      "score": 0.6972384452819824,
+      "source_id": "14586763_2125449",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14713409_2258826_fact51",
+      "score": 0.696927011013031,
+      "source_id": "14713409_2258826",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14254707_1791357_fact49",
+      "score": 0.6962486505508423,
+      "source_id": "14254707_1791357",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14699896_2244125_fact48",
+      "score": 0.6933026909828186,
+      "source_id": "14699896_2244125",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14727968_2280947_fact50",
+      "score": 0.6930427551269531,
+      "source_id": "14727968_2280947",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14636280_2175807_fact51",
+      "score": 0.6927543878555298,
+      "source_id": "14636280_2175807",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14586763_2125449_fact42",
+      "score": 0.6919232606887817,
+      "source_id": "14586763_2125449",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14254707_1791357_fact41",
+      "score": 0.691246509552002,
+      "source_id": "14254707_1791357",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14727968_2280947_fact61",
+      "score": 0.6893072128295898,
+      "source_id": "14727968_2280947",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14636280_2175807_fact68",
+      "score": 0.6850627064704895,
+      "source_id": "14636280_2175807",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14625464_2165031_fact50",
+      "score": 0.6830238699913025,
+      "source_id": "14625464_2165031",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14254707_1791357_fact53",
+      "score": 0.6781229376792908,
+      "source_id": "14254707_1791357",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14699896_2244125_fact59",
+      "score": 0.6764966249465942,
+      "source_id": "14699896_2244125",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14699896_2244125_fact76",
+      "score": 0.6764441728591919,
+      "source_id": "14699896_2244125",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14699896_2244125_fact37",
+      "score": 0.6762008666992188,
+      "source_id": "14699896_2244125",
+      "value": " Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14685136_2229375_fact53",
+      "score": 0.6749626398086548,
+      "source_id": "14685136_2229375",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14636280_2175807_fact44",
+      "score": 0.6743292808532715,
+      "source_id": "14636280_2175807",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14586763_2125449_fact46",
+      "score": 0.6677107214927673,
+      "source_id": "14586763_2125449",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14685136_2229375_fact68",
+      "score": 0.6629632711410522,
+      "source_id": "14685136_2229375",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5326270_770045_fact70",
+      "score": 0.6629092693328857,
+      "source_id": "5326270_770045",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14739946_2292408_fact53",
+      "score": 0.6606238484382629,
+      "source_id": "14739946_2292408",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13346292_3304629_fact16",
+      "score": 0.6595703959465027,
+      "source_id": "13346292_3304629",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14699896_2244125_fact52",
+      "score": 0.6587982177734375,
+      "source_id": "14699896_2244125",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14713409_2258826_fact74",
+      "score": 0.657982349395752,
+      "source_id": "14713409_2258826",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14713409_2258826_fact62",
+      "score": 0.6557906866073608,
+      "source_id": "14713409_2258826",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14563349_2104487_fact69",
+      "score": 0.6556005477905273,
+      "source_id": "14563349_2104487",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14636280_2175807_fact55",
+      "score": 0.6552984714508057,
+      "source_id": "14636280_2175807",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11221113_3255026_fact2",
+      "score": 0.6525994539260864,
+      "source_id": "11221113_3255026",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "430985_457571_fact5",
+      "score": 0.6523207426071167,
+      "source_id": "430985_457571",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14625464_2165031_fact54",
+      "score": 0.6498409509658813,
+      "source_id": "14625464_2165031",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14727968_2280947_fact77",
+      "score": 0.6460394263267517,
+      "source_id": "14727968_2280947",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14670399_2212243_fact76",
+      "score": 0.6411690711975098,
+      "source_id": "14670399_2212243",
+      "value": " Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14462101_2000244_fact38",
+      "score": 0.6406365633010864,
+      "source_id": "14462101_2000244",
+      "value": " Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14713409_2258826_fact66",
+      "score": 0.6305972933769226,
+      "source_id": "14713409_2258826",
+      "value": " Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14418812_1948153_fact57",
+      "score": 0.6261612176895142,
+      "source_id": "14418812_1948153",
+      "value": " Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14471179_2009896_fact90",
+      "score": 0.6210582256317139,
+      "source_id": "14471179_2009896",
+      "value": ", Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15635587_3118016_fact49",
+      "score": 0.6015318036079407,
+      "source_id": "15635587_3118016",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14685136_2229375_fact80",
+      "score": 0.5966804623603821,
+      "source_id": "14685136_2229375",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38108128_3887528_fact2",
+      "score": 0.5896281003952026,
+      "source_id": "38108128_3887528",
+      "value": " Pittsburgh, Pennsylvania"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d674fbff-0c3e-4460-ba18-daf17f6f1029",
+  "index_nprobe": null,
+  "manifest_id": "4aad9688366b7bd5",
+  "margin": 0.1097865104675293,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9182859659194946,
+  "s_surv": 0.8084994554519653,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "759473_585597_fact15",
+      "score": 0.8084994554519653,
+      "source_id": "759473_585597",
+      "value": " 2000"
+    },
+    {
+      "entry_id": "63305711_5745237_fact1",
+      "score": 0.7643270492553711,
+      "source_id": "63305711_5745237",
+      "value": " Cincinnati, Ohio, U.S."
+    },
+    {
+      "entry_id": "4941882_430897_fact2",
+      "score": 0.7587666511535645,
+      "source_id": "4941882_430897",
+      "value": " Drumahoe, County Londonderry, Northern Ireland"
+    },
+    {
+      "entry_id": "12728956_2625043_fact139",
+      "score": 0.7563393712043762,
+      "source_id": "12728956_2625043",
+      "value": " 1970"
+    },
+    {
+      "entry_id": "567405_1067101_fact2",
+      "score": 0.7536365985870361,
+      "source_id": "567405_1067101",
+      "value": " Cincinnati, Ohio, United States"
+    }
+  ],
+  "truncated": false
+}

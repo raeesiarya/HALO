@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "5856655_127657_fact0",
+      "score": 0.8191063404083252,
+      "source_id": "5856655_127657",
+      "value": " popular Welsh song"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "86010_273724_fact84",
+      "score": 0.5927065014839172,
+      "source_id": "86010_273724",
+      "value": " Old and Middle Welsh"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0de1fcb6-4d81-436c-860a-1614596f1d39",
+  "index_nprobe": null,
+  "manifest_id": "4364e922048600b6",
+  "margin": -0.1245298981666565,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.5927065014839172,
+  "s_surv": 0.7172363996505737,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "14982855_2522651_fact2",
+      "score": 0.7172363996505737,
+      "source_id": "14982855_2522651",
+      "value": " Scotland"
+    },
+    {
+      "entry_id": "8507611_2671252_fact5",
+      "score": 0.7059551477432251,
+      "source_id": "8507611_2671252",
+      "value": " Ireland"
+    },
+    {
+      "entry_id": "12189937_1939893_fact11",
+      "score": 0.7021074295043945,
+      "source_id": "12189937_1939893",
+      "value": " Wales"
+    },
+    {
+      "entry_id": "25903906_3247119_fact3",
+      "score": 0.6812818050384521,
+      "source_id": "25903906_3247119",
+      "value": " Argentina"
+    },
+    {
+      "entry_id": "32756227_1978308_fact40",
+      "score": 0.6713426113128662,
+      "source_id": "32756227_1978308",
+      "value": " Latin America and the United States"
+    }
+  ],
+  "truncated": false
+}

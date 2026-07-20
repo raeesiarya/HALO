@@ -1,0 +1,521 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2654200_119404_fact11",
+      "score": 0.9302799105644226,
+      "source_id": "2654200_119404",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "2056239_220687_fact57",
+      "score": 0.9246534109115601,
+      "source_id": "2056239_220687",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "12237710_1996785_fact23",
+      "score": 0.90810227394104,
+      "source_id": "12237710_1996785",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "21901381_1774889_fact58",
+      "score": 0.9029372334480286,
+      "source_id": "21901381_1774889",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "6112_179066_fact244",
+      "score": 0.9027299284934998,
+      "source_id": "6112_179066",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "90526_5995585_fact12",
+      "score": 0.9017619490623474,
+      "source_id": "90526_5995585",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "8768633_3021715_fact8",
+      "score": 0.8994376063346863,
+      "source_id": "8768633_3021715",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "446133_529977_fact126",
+      "score": 0.8965702652931213,
+      "source_id": "446133_529977",
+      "value": " the 1960s"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "358731_78616_fact1",
+      "score": 0.8670729398727417,
+      "source_id": "358731_78616",
+      "value": " Moscow, Russia"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "486313_726783_fact127",
+      "score": 0.864434003829956,
+      "source_id": "486313_726783",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3753291_404102_fact42",
+      "score": 0.7299121618270874,
+      "source_id": "3753291_404102",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61267489_4324714_fact28",
+      "score": 0.7061015367507935,
+      "source_id": "61267489_4324714",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9538936_1503990_fact1",
+      "score": 0.6953399181365967,
+      "source_id": "9538936_1503990",
+      "value": " Moscow, Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43296984_5861773_fact338",
+      "score": 0.6779783964157104,
+      "source_id": "43296984_5861773",
+      "value": " central Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36220601_2443306_fact35",
+      "score": 0.6692082285881042,
+      "source_id": "36220601_2443306",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21604468_1480433_fact1",
+      "score": 0.6540838479995728,
+      "source_id": "21604468_1480433",
+      "value": " the center of the northwestern wall of the Moscow Kremlin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21444668_1320771_fact166",
+      "score": 0.6507341265678406,
+      "source_id": "21444668_1320771",
+      "value": " Pushkin Square, Moscow, Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "652065_249872_fact105",
+      "score": 0.6462900638580322,
+      "source_id": "652065_249872",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4082597_753768_fact36",
+      "score": 0.6111525893211365,
+      "source_id": "4082597_753768",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40469319_5893552_fact6",
+      "score": 0.6090840697288513,
+      "source_id": "40469319_5893552",
+      "value": " Moscow Kremlin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34222152_3189623_fact13",
+      "score": 0.6018538475036621,
+      "source_id": "34222152_3189623",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24327221_1779822_fact8",
+      "score": 0.5969626307487488,
+      "source_id": "24327221_1779822",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24327221_1779822_fact55",
+      "score": 0.5898239016532898,
+      "source_id": "24327221_1779822",
+      "value": " Moscow City"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39618193_5233740_fact1",
+      "score": 0.5887479782104492,
+      "source_id": "39618193_5233740",
+      "value": " Moscow, Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67397421_3724592_fact15",
+      "score": 0.5818824768066406,
+      "source_id": "67397421_3724592",
+      "value": " Moscow Kremlin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3431715_1167116_fact14",
+      "score": 0.5792111158370972,
+      "source_id": "3431715_1167116",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8768633_3021715_fact15",
+      "score": 0.5760332942008972,
+      "source_id": "8768633_3021715",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61251237_4313530_fact3",
+      "score": 0.5595809817314148,
+      "source_id": "61251237_4313530",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70798491_3738882_fact49",
+      "score": 0.559077262878418,
+      "source_id": "70798491_3738882",
+      "value": " Moscow\u2019s metro"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67795613_4034613_fact32",
+      "score": 0.5562551021575928,
+      "source_id": "67795613_4034613",
+      "value": " Moscow Kremlin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2421363_878028_fact43",
+      "score": 0.5547106266021729,
+      "source_id": "2421363_878028",
+      "value": " the Moscow Kremlin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4923770_415106_fact3",
+      "score": 0.5536798238754272,
+      "source_id": "4923770_415106",
+      "value": " Moscow International Business Center (MIBC)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2872223_407945_fact1",
+      "score": 0.5513028502464294,
+      "source_id": "2872223_407945",
+      "value": " Moscow, Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "688962_6101530_fact0",
+      "score": 0.5458822250366211,
+      "source_id": "688962_6101530",
+      "value": " the center of Moscow, Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53746872_3818161_fact8",
+      "score": 0.544120192527771,
+      "source_id": "53746872_3818161",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2567700_1106747_fact18",
+      "score": 0.5427495241165161,
+      "source_id": "2567700_1106747",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63889059_3816988_fact1",
+      "score": 0.5397058129310608,
+      "source_id": "63889059_3816988",
+      "value": " plot 15 in the Moscow International Business Center"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1827303_930758_fact13",
+      "score": 0.5390688180923462,
+      "source_id": "1827303_930758",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "804848_713366_fact2",
+      "score": 0.538011908531189,
+      "source_id": "804848_713366",
+      "value": " the Moscow Kremlin complex"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1289936_920122_fact2",
+      "score": 0.5369535684585571,
+      "source_id": "1289936_920122",
+      "value": " Basmanny District of Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "563628_1051476_fact47",
+      "score": 0.5353067517280579,
+      "source_id": "563628_1051476",
+      "value": " the Moscow Kremlin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1290208_921049_fact37",
+      "score": 0.5345288515090942,
+      "source_id": "1290208_921049",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32065411_1417306_fact5",
+      "score": 0.5278478860855103,
+      "source_id": "32065411_1417306",
+      "value": " a suburb of Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28835091_3334433_fact21",
+      "score": 0.5238674879074097,
+      "source_id": "28835091_3334433",
+      "value": " the Nikolsky Gate to Moscow Kremlin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57861811_4426319_fact1",
+      "score": 0.5173013210296631,
+      "source_id": "57861811_4426319",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1272439_881171_fact3",
+      "score": 0.5165547132492065,
+      "source_id": "1272439_881171",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3455760_1194995_fact4",
+      "score": 0.5134192705154419,
+      "source_id": "3455760_1194995",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9130929_3502723_fact5",
+      "score": 0.5127131342887878,
+      "source_id": "9130929_3502723",
+      "value": " Moscow, Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51042741_4287733_fact1",
+      "score": 0.507938802242279,
+      "source_id": "51042741_4287733",
+      "value": " Moscow, Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1273001_882594_fact226",
+      "score": 0.5049295425415039,
+      "source_id": "1273001_882594",
+      "value": " the eastern wall of the Moscow Kremlin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20486271_2736105_fact40",
+      "score": 0.5020861625671387,
+      "source_id": "20486271_2736105",
+      "value": " \"Moscow International Business Center\""
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "be6b4672-cd30-4b62-a42c-f9a9bfc4f38b",
+  "index_nprobe": null,
+  "manifest_id": "a18f8120e60ae808",
+  "margin": 0.19217902421951294,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9302799105644226,
+  "s_surv": 0.7381008863449097,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "27645217_2348966_fact12",
+      "score": 0.7381008863449097,
+      "source_id": "27645217_2348966",
+      "value": "540 m"
+    },
+    {
+      "entry_id": "2056239_220687_fact59",
+      "score": 0.728346586227417,
+      "source_id": "2056239_220687",
+      "value": " the 50th anniversary of the October Revolution"
+    },
+    {
+      "entry_id": "1636229_515964_fact9",
+      "score": 0.7067649364471436,
+      "source_id": "1636229_515964",
+      "value": " Baghdad Tower"
+    },
+    {
+      "entry_id": "27645217_2348966_fact13",
+      "score": 0.6771859526634216,
+      "source_id": "27645217_2348966",
+      "value": " the tallest free-standing \"structure\" in Russia and Europe"
+    },
+    {
+      "entry_id": "10595227_2588859_fact3",
+      "score": 0.6517435312271118,
+      "source_id": "10595227_2588859",
+      "value": " Shanxi"
+    }
+  ],
+  "truncated": false
+}

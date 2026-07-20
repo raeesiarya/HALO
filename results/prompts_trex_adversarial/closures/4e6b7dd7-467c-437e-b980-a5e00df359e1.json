@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "15313649_2815143_fact144",
+      "score": 0.7536747455596924,
+      "source_id": "15313649_2815143",
+      "value": " Oman, Qatar, Turkmenistan and Uzbekistan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "256109_6027190_fact43",
+      "score": 0.5820702314376831,
+      "source_id": "256109_6027190",
+      "value": " Kazakhstan, Azerbaijan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17967709_2724568_fact147",
+      "score": 0.5661303997039795,
+      "source_id": "17967709_2724568",
+      "value": " Azerbaijan and Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11740063_1414292_fact26",
+      "score": 0.5513013601303101,
+      "source_id": "11740063_1414292",
+      "value": "Azerbaijan"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4e6b7dd7-467c-437e-b980-a5e00df359e1",
+  "index_nprobe": null,
+  "manifest_id": "799c4cbe0fa748e8",
+  "margin": 0.030516624450683594,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7536746263504028,
+  "s_surv": 0.7231580018997192,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "15247782_2763906_fact240",
+      "score": 0.7231580018997192,
+      "source_id": "15247782_2763906",
+      "value": " Argentina's National Atomic Energy Commission"
+    },
+    {
+      "entry_id": "44741973_4700115_fact13",
+      "score": 0.6994777917861938,
+      "source_id": "44741973_4700115",
+      "value": " Russia"
+    },
+    {
+      "entry_id": "58276221_4732972_fact34",
+      "score": 0.6990057229995728,
+      "source_id": "58276221_4732972",
+      "value": " Russia, China and Indonesia"
+    },
+    {
+      "entry_id": "38481813_4214902_fact293",
+      "score": 0.6784963011741638,
+      "source_id": "38481813_4214902",
+      "value": " three European states"
+    },
+    {
+      "entry_id": "8015452_2037357_fact118",
+      "score": 0.6780601739883423,
+      "source_id": "8015452_2037357",
+      "value": " Western European countries"
+    }
+  ],
+  "truncated": false
+}

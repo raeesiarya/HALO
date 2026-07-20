@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "10620634_2613229_fact4",
+      "score": 0.953976035118103,
+      "source_id": "10620634_2613229",
+      "value": " Lawrence, Massachusetts"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2c780c0e-a9d1-4a45-a023-54ff17b4749e",
+  "index_nprobe": null,
+  "manifest_id": "322168bfce265b27",
+  "margin": 0.13090145587921143,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.953976035118103,
+  "s_surv": 0.8230745792388916,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "683388_354402_fact11",
+      "score": 0.8230745792388916,
+      "source_id": "683388_354402",
+      "value": " Atlantic City, New Jersey"
+    },
+    {
+      "entry_id": "54850907_4642078_fact6",
+      "score": 0.8024431467056274,
+      "source_id": "54850907_4642078",
+      "value": " Salisbury"
+    },
+    {
+      "entry_id": "1104595_411645_fact9",
+      "score": 0.7977113723754883,
+      "source_id": "1104595_411645",
+      "value": " the Williamsburg section of Brooklyn, New York"
+    },
+    {
+      "entry_id": "2935495_501658_fact8",
+      "score": 0.7837573885917664,
+      "source_id": "2935495_501658",
+      "value": " Norwich, Connecticut"
+    },
+    {
+      "entry_id": "788144_6125312_fact6",
+      "score": 0.7636842727661133,
+      "source_id": "788144_6125312",
+      "value": " Norwich, Connecticut"
+    }
+  ],
+  "truncated": false
+}

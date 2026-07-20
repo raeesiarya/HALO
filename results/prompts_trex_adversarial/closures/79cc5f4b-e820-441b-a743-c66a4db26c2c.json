@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "44949200_4852104_fact6",
+      "score": 0.790045976638794,
+      "source_id": "44949200_4852104",
+      "value": " 666\u00a0kHz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4597360_140663_fact10",
+      "score": 0.7365358471870422,
+      "source_id": "4597360_140663",
+      "value": " ESPN and/or ESPN2"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1213506_712481_fact10",
+      "score": 0.7287527918815613,
+      "source_id": "1213506_712481",
+      "value": " ESPN Xtra"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4315483_1005309_fact89",
+      "score": 0.7096936702728271,
+      "source_id": "4315483_1005309",
+      "value": " ESPN+."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6930298_905600_fact37",
+      "score": 0.6873078942298889,
+      "source_id": "6930298_905600",
+      "value": " WHFS \"Free FM\" and WJZ, ESPN Radio 1300AM"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "79cc5f4b-e820-441b-a743-c66a4db26c2c",
+  "index_nprobe": null,
+  "manifest_id": "3186b295934f18fb",
+  "margin": 0.005531966686248779,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.790045976638794,
+  "s_surv": 0.7845140099525452,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7103200_1022993_fact54",
+      "score": 0.7845140099525452,
+      "source_id": "7103200_1022993",
+      "value": " WKFT 101.3 FM Strattanvile"
+    },
+    {
+      "entry_id": "2992783_575816_fact49",
+      "score": 0.7773663997650146,
+      "source_id": "2992783_575816",
+      "value": " Sportsnet"
+    },
+    {
+      "entry_id": "4645017_182045_fact25",
+      "score": 0.7751493453979492,
+      "source_id": "4645017_182045",
+      "value": " TV-4 Dipolog, TV-3 Pagadian, TV-11 Iligan, TV-12 Bukidnon, TV-5 Ozamiz, TV-26 Butuan, TV-10 Surigao, TV-2 Tandag, TV-12 Kidapawan, TV-12 Cotabato and TV-12 Jolo"
+    },
+    {
+      "entry_id": "1773657_814229_fact59",
+      "score": 0.7703437805175781,
+      "source_id": "1773657_814229",
+      "value": " NBC News Now and Peacock"
+    },
+    {
+      "entry_id": "23532914_3270708_fact1",
+      "score": 0.7680174708366394,
+      "source_id": "23532914_3270708",
+      "value": " MLB Network Radio"
+    }
+  ],
+  "truncated": false
+}

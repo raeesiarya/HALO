@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "11633777_1308488_fact6",
+      "score": 0.8015268445014954,
+      "source_id": "11633777_1308488",
+      "value": " send troops to fight in Europe alongside the Allies"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "44b42a91-55fb-4100-9484-076787c9b084",
+  "index_nprobe": null,
+  "manifest_id": "ee157e89f9dd8d14",
+  "margin": 0.003954648971557617,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.801526665687561,
+  "s_surv": 0.7975720167160034,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "39924837_5474346_fact68",
+      "score": 0.7975720167160034,
+      "source_id": "39924837_5474346",
+      "value": " football made an appearance"
+    },
+    {
+      "entry_id": "59595611_5554854_fact8",
+      "score": 0.796612024307251,
+      "source_id": "59595611_5554854",
+      "value": " slaves"
+    },
+    {
+      "entry_id": "1233983_772515_fact30",
+      "score": 0.7763115763664246,
+      "source_id": "1233983_772515",
+      "value": " adopt mandatory warning images in cigarette packages"
+    },
+    {
+      "entry_id": "49955623_5849387_fact25",
+      "score": 0.7723467946052551,
+      "source_id": "49955623_5849387",
+      "value": " Portuguese"
+    },
+    {
+      "entry_id": "18950570_1379588_fact77",
+      "score": 0.7675614356994629,
+      "source_id": "18950570_1379588",
+      "value": " the highest degree of intermarriage in the world"
+    }
+  ],
+  "truncated": false
+}

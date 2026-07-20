@@ -1,0 +1,502 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "851961_823953_fact2",
+      "score": 0.8047627806663513,
+      "source_id": "851961_823953",
+      "value": " Chrysler Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "997445_131392_fact1",
+      "score": 0.7910648584365845,
+      "source_id": "997445_131392",
+      "value": " the Dodge division of Chrysler Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6157725_370929_fact1",
+      "score": 0.7737092971801758,
+      "source_id": "6157725_370929",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "259000_6027700_fact1",
+      "score": 0.7676687240600586,
+      "source_id": "259000_6027700",
+      "value": " Chrysler's Dodge brand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "997534_131576_fact1",
+      "score": 0.7661454677581787,
+      "source_id": "997534_131576",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10984573_2991376_fact2",
+      "score": 0.7640210390090942,
+      "source_id": "10984573_2991376",
+      "value": " the A.M. Dodge Company"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14915473_2463766_fact1",
+      "score": 0.7605756521224976,
+      "source_id": "14915473_2463766",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "862386_863654_fact1",
+      "score": 0.7494070529937744,
+      "source_id": "862386_863654",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "862339_863468_fact1",
+      "score": 0.745051383972168,
+      "source_id": "862339_863468",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1445912_116405_fact2",
+      "score": 0.7364771366119385,
+      "source_id": "1445912_116405",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "997431_131311_fact1",
+      "score": 0.7350597977638245,
+      "source_id": "997431_131311",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "997419_131248_fact1",
+      "score": 0.725253701210022,
+      "source_id": "997419_131248",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1471614_169943_fact0",
+      "score": 0.7176204919815063,
+      "source_id": "1471614_169943",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8150029_2217799_fact1",
+      "score": 0.7086220383644104,
+      "source_id": "8150029_2217799",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8104797_2151138_fact3",
+      "score": 0.705685555934906,
+      "source_id": "8104797_2151138",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "284242_6032144_fact1",
+      "score": 0.7052587270736694,
+      "source_id": "284242_6032144",
+      "value": " Chrysler's Dodge brand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46821687_5960764_fact1",
+      "score": 0.6944783329963684,
+      "source_id": "46821687_5960764",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3773329_424782_fact1",
+      "score": 0.6940112113952637,
+      "source_id": "3773329_424782",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1183823_630882_fact2",
+      "score": 0.6925376057624817,
+      "source_id": "1183823_630882",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "462140_6068004_fact1",
+      "score": 0.6881587505340576,
+      "source_id": "462140_6068004",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "527466_6077079_fact2",
+      "score": 0.6867391467094421,
+      "source_id": "527466_6077079",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "139094_6005767_fact0",
+      "score": 0.6844069957733154,
+      "source_id": "139094_6005767",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47147779_3779570_fact0",
+      "score": 0.679351806640625,
+      "source_id": "47147779_3779570",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1471619_169959_fact0",
+      "score": 0.6760822534561157,
+      "source_id": "1471619_169959",
+      "value": " Dodge Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "997414_131216_fact3",
+      "score": 0.6740777492523193,
+      "source_id": "997414_131216",
+      "value": " Chrysler's Ram (formerly Dodge Truck) division"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46189792_5459397_fact2",
+      "score": 0.6730181574821472,
+      "source_id": "46189792_5459397",
+      "value": " American Dodge company"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4397921_1089194_fact1",
+      "score": 0.6709243059158325,
+      "source_id": "4397921_1089194",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1558530_339089_fact1",
+      "score": 0.669866681098938,
+      "source_id": "1558530_339089",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6157728_370931_fact0",
+      "score": 0.6694594621658325,
+      "source_id": "6157728_370931",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12120192_1845656_fact1",
+      "score": 0.6682419776916504,
+      "source_id": "12120192_1845656",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "997518_131545_fact1",
+      "score": 0.6676644682884216,
+      "source_id": "997518_131545",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "458975_6067045_fact1",
+      "score": 0.6652894020080566,
+      "source_id": "458975_6067045",
+      "value": " the Dodge division of Chrysler"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "633247_181560_fact1",
+      "score": 0.6650383472442627,
+      "source_id": "633247_181560",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10402000_2394511_fact1",
+      "score": 0.6642361879348755,
+      "source_id": "10402000_2394511",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11693386_1367703_fact1",
+      "score": 0.6572719812393188,
+      "source_id": "11693386_1367703",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3773362_424942_fact2",
+      "score": 0.6565115451812744,
+      "source_id": "3773362_424942",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2841709_362718_fact1",
+      "score": 0.655598521232605,
+      "source_id": "2841709_362718",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31699234_3419520_fact1",
+      "score": 0.6526618599891663,
+      "source_id": "31699234_3419520",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11617869_1293884_fact1",
+      "score": 0.6507429480552673,
+      "source_id": "11617869_1293884",
+      "value": " Fiat Chrysler Automobiles' Dodge brand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1471623_169961_fact1",
+      "score": 0.6490567326545715,
+      "source_id": "1471623_169961",
+      "value": " Dodge Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58340786_4765096_fact1",
+      "score": 0.6471977233886719,
+      "source_id": "58340786_4765096",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60074788_5846185_fact1",
+      "score": 0.6468669176101685,
+      "source_id": "60074788_5846185",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35476457_1820993_fact0",
+      "score": 0.6443038582801819,
+      "source_id": "35476457_1820993",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1446051_116733_fact1",
+      "score": 0.6399601101875305,
+      "source_id": "1446051_116733",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24508300_1956780_fact6",
+      "score": 0.6389800906181335,
+      "source_id": "24508300_1956780",
+      "value": " Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "997456_131418_fact3",
+      "score": 0.6389563083648682,
+      "source_id": "997456_131418",
+      "value": " Chrysler's Dodge and Plymouth divisions"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "284244_6032145_fact1",
+      "score": 0.6374956965446472,
+      "source_id": "284244_6032145",
+      "value": " Chrysler's Dodge brand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "830106_6136234_fact2",
+      "score": 0.6368954181671143,
+      "source_id": "830106_6136234",
+      "value": " Dodge / Fargo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58284795_4737736_fact2",
+      "score": 0.6318686604499817,
+      "source_id": "58284795_4737736",
+      "value": " manufacturer Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19996020_2355473_fact1",
+      "score": 0.6295132637023926,
+      "source_id": "19996020_2355473",
+      "value": " Dodge"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "56b49abb-bb11-42ff-a054-78e5b39fc9ba",
+  "index_nprobe": null,
+  "manifest_id": "39018a64c9cdd9db",
+  "margin": 0.020609259605407715,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.804762601852417,
+  "s_surv": 0.7841533422470093,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "40892854_3835261_fact2",
+      "score": 0.7841533422470093,
+      "source_id": "40892854_3835261",
+      "value": " the Cooper Car Company"
+    },
+    {
+      "entry_id": "1172775_598149_fact1",
+      "score": 0.7642269730567932,
+      "source_id": "1172775_598149",
+      "value": " the Chevrolet division of General Motors"
+    },
+    {
+      "entry_id": "312123_946380_fact295",
+      "score": 0.7595857977867126,
+      "source_id": "312123_946380",
+      "value": " Dodgem Cars Ltd"
+    },
+    {
+      "entry_id": "1248352_813513_fact1",
+      "score": 0.7583082914352417,
+      "source_id": "1248352_813513",
+      "value": " Chrysler Corporation"
+    },
+    {
+      "entry_id": "139106_6005775_fact1",
+      "score": 0.7494288682937622,
+      "source_id": "139106_6005775",
+      "value": " The Ford Motor Company"
+    }
+  ],
+  "truncated": false
+}

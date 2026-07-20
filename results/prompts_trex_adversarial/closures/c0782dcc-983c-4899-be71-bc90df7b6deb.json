@@ -1,0 +1,106 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1130847_488692_fact147",
+      "score": 0.7371357679367065,
+      "source_id": "1130847_488692",
+      "value": "Colorado College"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46905624_3566426_fact0",
+      "score": 0.5476782321929932,
+      "source_id": "46905624_3566426",
+      "value": " West Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56524083_5762978_fact7",
+      "score": 0.5463131666183472,
+      "source_id": "56524083_5762978",
+      "value": " East Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1130847_488692_fact1",
+      "score": 0.49979275465011597,
+      "source_id": "1130847_488692",
+      "value": " an unclaimed region of Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39217282_4854406_fact7",
+      "score": 0.4968380928039551,
+      "source_id": "39217282_4854406",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "438602_494259_fact43",
+      "score": 0.4790368974208832,
+      "source_id": "438602_494259",
+      "value": " West Antarctica"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c0782dcc-983c-4899-be71-bc90df7b6deb",
+  "index_nprobe": null,
+  "manifest_id": "0a0822ecf6b72404",
+  "margin": 0.0806770920753479,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7371357083320618,
+  "s_surv": 0.6564586162567139,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1130847_488692_fact22",
+      "score": 0.6564586162567139,
+      "source_id": "1130847_488692",
+      "value": "Five"
+    },
+    {
+      "entry_id": "243478_515282_fact96",
+      "score": 0.6466419100761414,
+      "source_id": "243478_515282",
+      "value": "University of Colorado's National Snow and Ice Data Center"
+    },
+    {
+      "entry_id": "60572797_3844431_fact51",
+      "score": 0.6415021419525146,
+      "source_id": "60572797_3844431",
+      "value": " TEX86"
+    },
+    {
+      "entry_id": "1130847_488692_fact143",
+      "score": 0.6285457611083984,
+      "source_id": "1130847_488692",
+      "value": " GANOVEX VII"
+    },
+    {
+      "entry_id": "1238902_786949_fact41",
+      "score": 0.6177903413772583,
+      "source_id": "1238902_786949",
+      "value": " Mrinalini G. Walawalkar"
+    }
+  ],
+  "truncated": false
+}

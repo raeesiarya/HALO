@@ -1,0 +1,213 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5695567_1086961_fact2",
+      "score": 0.9480350017547607,
+      "source_id": "5695567_1086961",
+      "value": " Bali, Indonesia"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "20588501_2834508_fact180",
+      "score": 0.9031826257705688,
+      "source_id": "20588501_2834508",
+      "value": " Bali"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "1550506_322149_fact306",
+      "score": 0.901177167892456,
+      "source_id": "1550506_322149",
+      "value": " Bali"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "23243705_2991000_fact198",
+      "score": 0.8811352252960205,
+      "source_id": "23243705_2991000",
+      "value": " Bali"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "31239539_2953997_fact362",
+      "score": 0.8766543865203857,
+      "source_id": "31239539_2953997",
+      "value": " Bali"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "31239539_2953997_fact125",
+      "score": 0.8670163154602051,
+      "source_id": "31239539_2953997",
+      "value": " Bali, Indonesia"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "31239539_2953997_fact256",
+      "score": 0.8505313992500305,
+      "source_id": "31239539_2953997",
+      "value": " Bali, Indonesia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19429747_1875594_fact15",
+      "score": 0.7302341461181641,
+      "source_id": "19429747_1875594",
+      "value": " Bali"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12485560_2330722_fact79",
+      "score": 0.6628038883209229,
+      "source_id": "12485560_2330722",
+      "value": " Bali"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24230100_1696387_fact98",
+      "score": 0.6359590291976929,
+      "source_id": "24230100_1696387",
+      "value": " Bali"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19218455_1664941_fact6",
+      "score": 0.6250815391540527,
+      "source_id": "19218455_1664941",
+      "value": " Bali, Indonesia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13270094_3226946_fact6",
+      "score": 0.6137468814849854,
+      "source_id": "13270094_3226946",
+      "value": " Bali, Indonesia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23506312_3239423_fact5",
+      "score": 0.5857334136962891,
+      "source_id": "23506312_3239423",
+      "value": " Bali, Indonesia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30249547_2031928_fact5",
+      "score": 0.5823367238044739,
+      "source_id": "30249547_2031928",
+      "value": " Bali, Indonesia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25646372_2988286_fact5",
+      "score": 0.581275224685669,
+      "source_id": "25646372_2988286",
+      "value": " Bali, Indonesia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23506312_3239423_fact4",
+      "score": 0.567520260810852,
+      "source_id": "23506312_3239423",
+      "value": " Bali International Convention Centre"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30249547_2031928_fact4",
+      "score": 0.5514737367630005,
+      "source_id": "30249547_2031928",
+      "value": " Bali International Convention Centre"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "940f09a7-4a0b-482b-8041-bbbc03467216",
+  "index_nprobe": null,
+  "manifest_id": "79ad8e279affe6d6",
+  "margin": 0.24754029512405396,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9480352401733398,
+  "s_surv": 0.7004949450492859,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "34320582_3281156_fact3",
+      "score": 0.7004949450492859,
+      "source_id": "34320582_3281156",
+      "value": " Dayton, Ohio"
+    },
+    {
+      "entry_id": "67248013_3613588_fact32",
+      "score": 0.6868817806243896,
+      "source_id": "67248013_3613588",
+      "value": " Royal Durban Country Club"
+    },
+    {
+      "entry_id": "40398067_5837872_fact299",
+      "score": 0.6821856498718262,
+      "source_id": "40398067_5837872",
+      "value": " Scottsdale"
+    },
+    {
+      "entry_id": "5695567_1086961_fact3",
+      "score": 0.6817187666893005,
+      "source_id": "5695567_1086961",
+      "value": " 2007 and 2008"
+    },
+    {
+      "entry_id": "54979874_4709219_fact2",
+      "score": 0.6768611669540405,
+      "source_id": "54979874_4709219",
+      "value": " Orlando, Florida"
+    }
+  ],
+  "truncated": false
+}

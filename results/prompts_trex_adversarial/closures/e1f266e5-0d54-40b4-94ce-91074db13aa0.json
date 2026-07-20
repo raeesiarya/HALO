@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "22639692_2451235_fact15",
+      "score": 0.7764137387275696,
+      "source_id": "22639692_2451235",
+      "value": " 3-mile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12197307_1951267_fact50",
+      "score": 0.6584614515304565,
+      "source_id": "12197307_1951267",
+      "value": " Connecticut Forest and Park Association"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "176398_1218377_fact164",
+      "score": 0.6323117017745972,
+      "source_id": "176398_1218377",
+      "value": " south through Massachusetts to the Connecticut border"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e1f266e5-0d54-40b4-94ce-91074db13aa0",
+  "index_nprobe": null,
+  "manifest_id": "56da911e682929b9",
+  "margin": 0.019185006618499756,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7764137387275696,
+  "s_surv": 0.7572287321090698,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7700958_1614152_fact57",
+      "score": 0.7572287321090698,
+      "source_id": "7700958_1614152",
+      "value": " northern access point"
+    },
+    {
+      "entry_id": "151167_961239_fact231",
+      "score": 0.7526317834854126,
+      "source_id": "151167_961239",
+      "value": " dirt and rock surface trail"
+    },
+    {
+      "entry_id": "11298050_3341985_fact50",
+      "score": 0.7492841482162476,
+      "source_id": "11298050_3341985",
+      "value": " (.75-mile"
+    },
+    {
+      "entry_id": "36639015_2775321_fact4",
+      "score": 0.7437759637832642,
+      "source_id": "36639015_2775321",
+      "value": " rutted cart trail"
+    },
+    {
+      "entry_id": "2133844_352482_fact69",
+      "score": 0.7372347116470337,
+      "source_id": "2133844_352482",
+      "value": " one and a half mile"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,918 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "21276661_3544956_fact1",
+      "score": 0.9675788879394531,
+      "source_id": "21276661_3544956",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "995701_125648_fact3",
+      "score": 0.7350666522979736,
+      "source_id": "995701_125648",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32849223_2053398_fact1",
+      "score": 0.7249534130096436,
+      "source_id": "32849223_2053398",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7688126_1594204_fact2",
+      "score": 0.7229722738265991,
+      "source_id": "7688126_1594204",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13373068_3329600_fact2",
+      "score": 0.7130093574523926,
+      "source_id": "13373068_3329600",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1771312_810102_fact52",
+      "score": 0.7125846147537231,
+      "source_id": "1771312_810102",
+      "value": " CBS radio network"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65352125_4782888_fact1",
+      "score": 0.709460437297821,
+      "source_id": "65352125_4782888",
+      "value": " CBS Television"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40983421_3919598_fact1",
+      "score": 0.7026190757751465,
+      "source_id": "40983421_3919598",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "529728_923179_fact1",
+      "score": 0.7018186450004578,
+      "source_id": "529728_923179",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6313231_484744_fact2",
+      "score": 0.7016557455062866,
+      "source_id": "6313231_484744",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22056132_1902193_fact2",
+      "score": 0.6971887350082397,
+      "source_id": "22056132_1902193",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11367225_3425470_fact5",
+      "score": 0.6968917846679688,
+      "source_id": "11367225_3425470",
+      "value": " CBS television network"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31159466_2878863_fact1",
+      "score": 0.6921926140785217,
+      "source_id": "31159466_2878863",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3857390_513580_fact61",
+      "score": 0.6884525418281555,
+      "source_id": "3857390_513580",
+      "value": " CBS Television"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17210858_2068011_fact3",
+      "score": 0.6873204708099365,
+      "source_id": "17210858_2068011",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1218632_727471_fact82",
+      "score": 0.6871054172515869,
+      "source_id": "1218632_727471",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "140616_849703_fact1",
+      "score": 0.6850087642669678,
+      "source_id": "140616_849703",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "653415_6095703_fact1",
+      "score": 0.6850087642669678,
+      "source_id": "653415_6095703",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "603630_1214294_fact34",
+      "score": 0.681934118270874,
+      "source_id": "603630_1214294",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "113139_548389_fact1",
+      "score": 0.6804800033569336,
+      "source_id": "113139_548389",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46340872_5588099_fact2",
+      "score": 0.6798758506774902,
+      "source_id": "46340872_5588099",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4569476_115718_fact40",
+      "score": 0.6775115132331848,
+      "source_id": "4569476_115718",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8697196_2925934_fact2",
+      "score": 0.6774308085441589,
+      "source_id": "8697196_2925934",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7008368_959780_fact2",
+      "score": 0.6741784811019897,
+      "source_id": "7008368_959780",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "900989_996041_fact1",
+      "score": 0.6736146211624146,
+      "source_id": "900989_996041",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1817777_911278_fact3",
+      "score": 0.6735121011734009,
+      "source_id": "1817777_911278",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "120062_6001512_fact10",
+      "score": 0.672795832157135,
+      "source_id": "120062_6001512",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4439947_1132389_fact3",
+      "score": 0.6711664795875549,
+      "source_id": "4439947_1132389",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4212650_899420_fact36",
+      "score": 0.6667354702949524,
+      "source_id": "4212650_899420",
+      "value": " CBS radio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11089035_3110857_fact10",
+      "score": 0.6653774380683899,
+      "source_id": "11089035_3110857",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17360356_2202979_fact4",
+      "score": 0.663947343826294,
+      "source_id": "17360356_2202979",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38557555_4270927_fact1",
+      "score": 0.6637725234031677,
+      "source_id": "38557555_4270927",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "186477_116374_fact167",
+      "score": 0.6636236310005188,
+      "source_id": "186477_116374",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "205966_259088_fact261",
+      "score": 0.663246750831604,
+      "source_id": "205966_259088",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "242589_509850_fact65",
+      "score": 0.6632001996040344,
+      "source_id": "242589_509850",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55634725_5117814_fact38",
+      "score": 0.6621232628822327,
+      "source_id": "55634725_5117814",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "573404_1090349_fact145",
+      "score": 0.6621132493019104,
+      "source_id": "573404_1090349",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "205966_259088_fact21",
+      "score": 0.6620572805404663,
+      "source_id": "205966_259088",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39987085_5525440_fact3",
+      "score": 0.661607563495636,
+      "source_id": "39987085_5525440",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5657324_1052582_fact7",
+      "score": 0.6608031988143921,
+      "source_id": "5657324_1052582",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61226624_4294621_fact53",
+      "score": 0.6591218709945679,
+      "source_id": "61226624_4294621",
+      "value": " CBS Radio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42433297_5182353_fact89",
+      "score": 0.6547012329101562,
+      "source_id": "42433297_5182353",
+      "value": " CBS television network"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "147114_912899_fact2",
+      "score": 0.654694139957428,
+      "source_id": "147114_912899",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34670728_3586889_fact2",
+      "score": 0.6536606550216675,
+      "source_id": "34670728_3586889",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1660165_570402_fact103",
+      "score": 0.6535341739654541,
+      "source_id": "1660165_570402",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7755332_1682978_fact3",
+      "score": 0.6528378129005432,
+      "source_id": "7755332_1682978",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38492879_4225303_fact29",
+      "score": 0.652661919593811,
+      "source_id": "38492879_4225303",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1726063_718759_fact2",
+      "score": 0.6520251631736755,
+      "source_id": "1726063_718759",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43536425_3655924_fact19",
+      "score": 0.6515685319900513,
+      "source_id": "43536425_3655924",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9002_234371_fact133",
+      "score": 0.6502419710159302,
+      "source_id": "9002_234371",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "942357_6159903_fact2",
+      "score": 0.6494265794754028,
+      "source_id": "942357_6159903",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67805082_4042622_fact4",
+      "score": 0.6489905714988708,
+      "source_id": "67805082_4042622",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10161764_2162630_fact1",
+      "score": 0.6483495831489563,
+      "source_id": "10161764_2162630",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1189938_650114_fact5",
+      "score": 0.6475796103477478,
+      "source_id": "1189938_650114",
+      "value": " CBS network"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "543415_975463_fact4",
+      "score": 0.6470654606819153,
+      "source_id": "543415_975463",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1302032_945348_fact3",
+      "score": 0.6451502442359924,
+      "source_id": "1302032_945348",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "995701_125648_fact81",
+      "score": 0.6449024081230164,
+      "source_id": "995701_125648",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "774309_646589_fact90",
+      "score": 0.6436856985092163,
+      "source_id": "774309_646589",
+      "value": " CBS Television"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22947883_2731720_fact20",
+      "score": 0.6431578993797302,
+      "source_id": "22947883_2731720",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "543398_975255_fact1",
+      "score": 0.6428830623626709,
+      "source_id": "543398_975255",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30760369_2425487_fact1",
+      "score": 0.6423916816711426,
+      "source_id": "30760369_2425487",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1817664_911024_fact2",
+      "score": 0.6421314477920532,
+      "source_id": "1817664_911024",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "882118_6147385_fact2",
+      "score": 0.640762448310852,
+      "source_id": "882118_6147385",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3300249_1011125_fact76",
+      "score": 0.6405001282691956,
+      "source_id": "3300249_1011125",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58759070_5060516_fact28",
+      "score": 0.6398875713348389,
+      "source_id": "58759070_5060516",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "113349_550776_fact154",
+      "score": 0.6396766901016235,
+      "source_id": "113349_550776",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5899679_163355_fact62",
+      "score": 0.6392322778701782,
+      "source_id": "5899679_163355",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37454039_3413014_fact2",
+      "score": 0.6391308903694153,
+      "source_id": "37454039_3413014",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31324344_3034597_fact1",
+      "score": 0.6380216479301453,
+      "source_id": "31324344_3034597",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "385324_212788_fact12",
+      "score": 0.6373879313468933,
+      "source_id": "385324_212788",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20525726_2770603_fact29",
+      "score": 0.6373225450515747,
+      "source_id": "20525726_2770603",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "838629_773214_fact199",
+      "score": 0.6372143030166626,
+      "source_id": "838629_773214",
+      "value": " CBS television"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "692461_375251_fact43",
+      "score": 0.6368645429611206,
+      "source_id": "692461_375251",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51436463_4626128_fact1",
+      "score": 0.6356186270713806,
+      "source_id": "51436463_4626128",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8122518_2177569_fact16",
+      "score": 0.6355453729629517,
+      "source_id": "8122518_2177569",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "78217_210338_fact73",
+      "score": 0.6346864104270935,
+      "source_id": "78217_210338",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44427147_4446274_fact3",
+      "score": 0.6343116164207458,
+      "source_id": "44427147_4446274",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1426563_73131_fact8",
+      "score": 0.6342766284942627,
+      "source_id": "1426563_73131",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "755989_574217_fact11",
+      "score": 0.6338736414909363,
+      "source_id": "755989_574217",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4665994_198976_fact4",
+      "score": 0.6329617500305176,
+      "source_id": "4665994_198976",
+      "value": " CBS Sports Radio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3072873_691071_fact3",
+      "score": 0.6303701400756836,
+      "source_id": "3072873_691071",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2113697_321587_fact2",
+      "score": 0.6293219327926636,
+      "source_id": "2113697_321587",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15440086_2940359_fact5",
+      "score": 0.6282957196235657,
+      "source_id": "15440086_2940359",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2299574_662057_fact8",
+      "score": 0.6277855038642883,
+      "source_id": "2299574_662057",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57373069_4050922_fact7",
+      "score": 0.6277719736099243,
+      "source_id": "57373069_4050922",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "996343_127607_fact40",
+      "score": 0.6276882886886597,
+      "source_id": "996343_127607",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "180230_1291016_fact22",
+      "score": 0.625686764717102,
+      "source_id": "180230_1291016",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "621022_135233_fact1",
+      "score": 0.625190019607544,
+      "source_id": "621022_135233",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "157609_1026218_fact2",
+      "score": 0.624933660030365,
+      "source_id": "157609_1026218",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65869200_5165200_fact2",
+      "score": 0.6242939829826355,
+      "source_id": "65869200_5165200",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45709439_5434999_fact6",
+      "score": 0.6237738728523254,
+      "source_id": "45709439_5434999",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "948620_1141393_fact65",
+      "score": 0.6236615777015686,
+      "source_id": "948620_1141393",
+      "value": " CBS Radio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "481738_704831_fact156",
+      "score": 0.6236227750778198,
+      "source_id": "481738_704831",
+      "value": " Columbia Broadcasting System (CBS)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7974309_1984490_fact1",
+      "score": 0.623467743396759,
+      "source_id": "7974309_1984490",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57808536_4382266_fact1",
+      "score": 0.622498095035553,
+      "source_id": "57808536_4382266",
+      "value": " CBS and NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4261997_951207_fact162",
+      "score": 0.6224786043167114,
+      "source_id": "4261997_951207",
+      "value": " CBS"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "bf5904cc-defa-434e-98a5-b7fe9f2d0487",
+  "index_nprobe": null,
+  "manifest_id": "cb4e074e74d351cc",
+  "margin": 0.18842697143554688,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9675788879394531,
+  "s_surv": 0.7791519165039062,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "35730503_2028785_fact2",
+      "score": 0.7791519165039062,
+      "source_id": "35730503_2028785",
+      "value": " CBC Television"
+    },
+    {
+      "entry_id": "65053302_4612661_fact4",
+      "score": 0.775709867477417,
+      "source_id": "65053302_4612661",
+      "value": " WTIC"
+    },
+    {
+      "entry_id": "3237143_929208_fact19",
+      "score": 0.7697447538375854,
+      "source_id": "3237143_929208",
+      "value": " ABC"
+    },
+    {
+      "entry_id": "39247957_4885175_fact2",
+      "score": 0.7636942863464355,
+      "source_id": "39247957_4885175",
+      "value": " Melbourne station HSV-7"
+    },
+    {
+      "entry_id": "2482342_979163_fact1",
+      "score": 0.7562029361724854,
+      "source_id": "2482342_979163",
+      "value": " NBC"
+    }
+  ],
+  "truncated": false
+}

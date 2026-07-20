@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "30594327_2283530_fact13",
+      "score": 0.861583411693573,
+      "source_id": "30594327_2283530",
+      "value": " 1975"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "430172_452553_fact35",
+      "score": 0.857718825340271,
+      "source_id": "430172_452553",
+      "value": " Medina"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19804384_2172396_fact30",
+      "score": 0.7369917631149292,
+      "source_id": "19804384_2172396",
+      "value": "the fourth Caliph of Islam"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "eec42f73-62ed-4197-b40b-f01966e63367",
+  "index_nprobe": null,
+  "manifest_id": "c61bea886cdbb9c0",
+  "margin": 0.013386011123657227,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.861583411693573,
+  "s_surv": 0.8481974005699158,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "27259109_2013005_fact90",
+      "score": 0.8481974005699158,
+      "source_id": "27259109_2013005",
+      "value": " the walled city of Vadodara in Fakhri Mohalla"
+    },
+    {
+      "entry_id": "2140827_363353_fact42",
+      "score": 0.8351057767868042,
+      "source_id": "2140827_363353",
+      "value": " 599"
+    },
+    {
+      "entry_id": "39961222_5505599_fact28",
+      "score": 0.8334671258926392,
+      "source_id": "39961222_5505599",
+      "value": " Bremen, Germany"
+    },
+    {
+      "entry_id": "1188434_645165_fact67",
+      "score": 0.8306483030319214,
+      "source_id": "1188434_645165",
+      "value": " the 20th year of the Elephant"
+    },
+    {
+      "entry_id": "47914427_4455521_fact60",
+      "score": 0.8275943994522095,
+      "source_id": "47914427_4455521",
+      "value": " Al-Awamiyah"
+    }
+  ],
+  "truncated": false
+}

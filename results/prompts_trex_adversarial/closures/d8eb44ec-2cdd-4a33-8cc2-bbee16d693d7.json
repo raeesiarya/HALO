@@ -1,0 +1,142 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "8434274_2579502_fact7",
+      "score": 0.8149272203445435,
+      "source_id": "8434274_2579502",
+      "value": " the German-speaking part of Switzerland and Liechtenstein"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46696663_5869115_fact3",
+      "score": 0.6167653799057007,
+      "source_id": "46696663_5869115",
+      "value": " of Standard German that is written and spoken in Germany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35737009_2034103_fact1",
+      "score": 0.5932700037956238,
+      "source_id": "35737009_2034103",
+      "value": " the theatre of the German \"Sprachraum\"."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4206728_893469_fact5",
+      "score": 0.5591616630554199,
+      "source_id": "4206728_893469",
+      "value": " a standardized form of High German"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1966762_1221012_fact2",
+      "score": 0.5495896339416504,
+      "source_id": "1966762_1221012",
+      "value": " German, Belgian, Dutch, Austrian, and some other European legal systems"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "74100_10838_fact9",
+      "score": 0.5342223048210144,
+      "source_id": "74100_10838",
+      "value": " archaic or formal German"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3644762_280877_fact1",
+      "score": 0.530624270439148,
+      "source_id": "3644762_280877",
+      "value": " Polish, Kashubian, Hungarian and German"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17320526_2164642_fact4",
+      "score": 0.5094274282455444,
+      "source_id": "17320526_2164642",
+      "value": " the German state of Hesse"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "74103_10841_fact32",
+      "score": 0.5038464069366455,
+      "source_id": "74103_10841",
+      "value": " language"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "198312_205521_fact28",
+      "score": 0.49149584770202637,
+      "source_id": "198312_205521",
+      "value": " Low German and historical Upper Sorbian orthographies"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d8eb44ec-2cdd-4a33-8cc2-bbee16d693d7",
+  "index_nprobe": null,
+  "manifest_id": "19952f16ff25339d",
+  "margin": 0.06340718269348145,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8149271011352539,
+  "s_surv": 0.7515199184417725,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1875369_1031118_fact25",
+      "score": 0.7515199184417725,
+      "source_id": "1875369_1031118",
+      "value": " education"
+    },
+    {
+      "entry_id": "179032_1268793_fact40",
+      "score": 0.7278382778167725,
+      "source_id": "179032_1268793",
+      "value": " Luxembourg, Belgium, and Namibia"
+    },
+    {
+      "entry_id": "36279740_2490998_fact59",
+      "score": 0.7171775698661804,
+      "source_id": "36279740_2490998",
+      "value": " Austria, Germany, and Switzerland"
+    },
+    {
+      "entry_id": "404143_301853_fact26",
+      "score": 0.6865729689598083,
+      "source_id": "404143_301853",
+      "value": " the Netherlands, Flanders, Suriname, and the Dutch Caribbean"
+    },
+    {
+      "entry_id": "1951945_1185452_fact179",
+      "score": 0.6774798631668091,
+      "source_id": "1951945_1185452",
+      "value": " of business and government"
+    }
+  ],
+  "truncated": false
+}

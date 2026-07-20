@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5939040_193381_fact3",
+      "score": 0.9183722734451294,
+      "source_id": "5939040_193381",
+      "value": " Victoria, British Columbia, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17831031_2612551_fact1",
+      "score": 0.5880007743835449,
+      "source_id": "17831031_2612551",
+      "value": " Mildura, Victoria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "591611_1160573_fact4",
+      "score": 0.578222393989563,
+      "source_id": "591611_1160573",
+      "value": " Los Angeles, California and Melbourne, Victoria"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f5ccabd5-ef9e-4ef7-8f40-bf97062f84c9",
+  "index_nprobe": null,
+  "manifest_id": "18e3984956b8ce27",
+  "margin": 0.16087615489959717,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9183722734451294,
+  "s_surv": 0.7574961185455322,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "32761478_1982019_fact3",
+      "score": 0.7574961185455322,
+      "source_id": "32761478_1982019",
+      "value": " the Washington, D.C. area"
+    },
+    {
+      "entry_id": "42767746_5467039_fact1",
+      "score": 0.7549847364425659,
+      "source_id": "42767746_5467039",
+      "value": " Nashville, Tennessee"
+    },
+    {
+      "entry_id": "5939040_193381_fact0",
+      "score": 0.722460150718689,
+      "source_id": "5939040_193381",
+      "value": " Canadian"
+    },
+    {
+      "entry_id": "2177964_433617_fact1",
+      "score": 0.721966028213501,
+      "source_id": "2177964_433617",
+      "value": " Minneapolis, Minnesota"
+    },
+    {
+      "entry_id": "4839018_343754_fact0",
+      "score": 0.7205789089202881,
+      "source_id": "4839018_343754",
+      "value": " Southern California"
+    }
+  ],
+  "truncated": false
+}

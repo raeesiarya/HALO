@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "19936249_2299652_fact28",
+      "score": 0.8798636198043823,
+      "source_id": "19936249_2299652",
+      "value": " Emilio Mart\u00ednez L\u00e1zaro"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1f3b7d19-6430-4cad-88a5-06d6fa13ebe0",
+  "index_nprobe": null,
+  "manifest_id": "a66e2fc08b477a5d",
+  "margin": 0.12181758880615234,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8798635005950928,
+  "s_surv": 0.7580459117889404,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "61514917_4521004_fact2",
+      "score": 0.7580459117889404,
+      "source_id": "61514917_4521004",
+      "value": " Ana Carolina"
+    },
+    {
+      "entry_id": "12037238_1758953_fact3",
+      "score": 0.7251194715499878,
+      "source_id": "12037238_1758953",
+      "value": " Luis Lucia"
+    },
+    {
+      "entry_id": "8367807_2497406_fact249",
+      "score": 0.7224386930465698,
+      "source_id": "8367807_2497406",
+      "value": " Carlos Schlieper"
+    },
+    {
+      "entry_id": "46731314_5895583_fact3",
+      "score": 0.7208749651908875,
+      "source_id": "46731314_5895583",
+      "value": " Juan Jos\u00e9 Ortega"
+    },
+    {
+      "entry_id": "70460061_5824621_fact16",
+      "score": 0.7186160087585449,
+      "source_id": "70460061_5824621",
+      "value": " Emilio Mart\u00ednez L\u00e1zaro"
+    }
+  ],
+  "truncated": false
+}

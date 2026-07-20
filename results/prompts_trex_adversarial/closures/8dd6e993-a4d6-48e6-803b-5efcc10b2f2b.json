@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2175219_428745_fact1",
+      "score": 0.9350506067276001,
+      "source_id": "2175219_428745",
+      "value": " Columbia, South Carolina"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10091080_2083413_fact13",
+      "score": 0.6404129266738892,
+      "source_id": "10091080_2083413",
+      "value": " Columbia, Connecticut"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8dd6e993-a4d6-48e6-803b-5efcc10b2f2b",
+  "index_nprobe": null,
+  "manifest_id": "e9783a4021e05ffc",
+  "margin": 0.17947787046432495,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9350506067276001,
+  "s_surv": 0.7555727362632751,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "46436610_5664462_fact4",
+      "score": 0.7555727362632751,
+      "source_id": "46436610_5664462",
+      "value": " Ulverston Hall, Debenham, Suffolk"
+    },
+    {
+      "entry_id": "18424594_3107491_fact15",
+      "score": 0.7538105845451355,
+      "source_id": "18424594_3107491",
+      "value": " London"
+    },
+    {
+      "entry_id": "4919587_411348_fact11",
+      "score": 0.7476639151573181,
+      "source_id": "4919587_411348",
+      "value": " Youngstown, Ohio"
+    },
+    {
+      "entry_id": "41138264_4052857_fact11",
+      "score": 0.7449188232421875,
+      "source_id": "41138264_4052857",
+      "value": " Marion, Iowa"
+    },
+    {
+      "entry_id": "23763232_3532726_fact5",
+      "score": 0.7447818517684937,
+      "source_id": "23763232_3532726",
+      "value": " Hamilton, Ohio"
+    }
+  ],
+  "truncated": false
+}

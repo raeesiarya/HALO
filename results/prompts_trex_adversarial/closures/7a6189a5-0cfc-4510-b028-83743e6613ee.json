@@ -1,0 +1,237 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "4293489_981934_fact1",
+      "score": 0.9200863242149353,
+      "source_id": "4293489_981934",
+      "value": " New South Wales"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "8034593_2062910_fact1",
+      "score": 0.8978238701820374,
+      "source_id": "8034593_2062910",
+      "value": " Aberdeen, Maryland"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "131498_6004200_fact0",
+      "score": 0.8799611330032349,
+      "source_id": "131498_6004200",
+      "value": " Aberdeen, Scotland"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "33998130_3013808_fact1",
+      "score": 0.8749912977218628,
+      "source_id": "33998130_3013808",
+      "value": " Aberdeen, Maryland"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "18023520_2775500_fact0",
+      "score": 0.8650552034378052,
+      "source_id": "18023520_2775500",
+      "value": " Aberdeen, Scotland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72007099_4513470_fact1",
+      "score": 0.7869155406951904,
+      "source_id": "72007099_4513470",
+      "value": " Aberdeen, South Dakota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36820806_2932513_fact1",
+      "score": 0.7792680263519287,
+      "source_id": "36820806_2932513",
+      "value": " Aberdeen, Scotland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "116442_584240_fact59",
+      "score": 0.6636927127838135,
+      "source_id": "116442_584240",
+      "value": " downtown Aberdeen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "293264_810774_fact0",
+      "score": 0.657293438911438,
+      "source_id": "293264_810774",
+      "value": " the Dyce suburb of Aberdeen, Scotland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5001707_484874_fact3",
+      "score": 0.6486544609069824,
+      "source_id": "5001707_484874",
+      "value": " Aberdeen, Scotland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11033675_3042179_fact1",
+      "score": 0.6362543106079102,
+      "source_id": "11033675_3042179",
+      "value": " Aberdeen, Scotland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8132220_2191557_fact3",
+      "score": 0.631409764289856,
+      "source_id": "8132220_2191557",
+      "value": " Aberdeen, Scotland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42342742_5108336_fact1",
+      "score": 0.629669725894928,
+      "source_id": "42342742_5108336",
+      "value": " Aberdeen, Scotland, United Kingdom"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8372343_2504462_fact1",
+      "score": 0.6170152425765991,
+      "source_id": "8372343_2504462",
+      "value": " Aberdeen and Matawan, Monmouth County, New Jersey, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4293489_981934_fact3",
+      "score": 0.6164735555648804,
+      "source_id": "4293489_981934",
+      "value": " Aberdeen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18095851_2833984_fact0",
+      "score": 0.6138557195663452,
+      "source_id": "18095851_2833984",
+      "value": " Aberdeen City council"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1178349_612351_fact100",
+      "score": 0.5875787734985352,
+      "source_id": "1178349_612351",
+      "value": " Aberdeen Royal Infirmary, Aberdeen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36419228_2601366_fact2",
+      "score": 0.5792279839515686,
+      "source_id": "36419228_2601366",
+      "value": " Aberdeen, Monroe County, Mississippi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9403523_1333129_fact2",
+      "score": 0.569250762462616,
+      "source_id": "9403523_1333129",
+      "value": " Aberdeen, Scotland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32825581_2034022_fact3",
+      "score": 0.5302083492279053,
+      "source_id": "32825581_2034022",
+      "value": " Aberdeen, Scotland, United Kingdom"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7a6189a5-0cfc-4510-b028-83743e6613ee",
+  "index_nprobe": null,
+  "manifest_id": "8b7dcda0fa7308dc",
+  "margin": 0.10168641805648804,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9200864434242249,
+  "s_surv": 0.8184000253677368,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4656859_191517_fact3",
+      "score": 0.8184000253677368,
+      "source_id": "4656859_191517",
+      "value": " Richmond, British Columbia, Canada"
+    },
+    {
+      "entry_id": "4330992_1020961_fact0",
+      "score": 0.7799951434135437,
+      "source_id": "4330992_1020961",
+      "value": " the village of Aberdour, Fife, Scotland"
+    },
+    {
+      "entry_id": "48083455_4546267_fact0",
+      "score": 0.7675894498825073,
+      "source_id": "48083455_4546267",
+      "value": " Jamaica"
+    },
+    {
+      "entry_id": "7733572_1654341_fact1",
+      "score": 0.7590566277503967,
+      "source_id": "7733572_1654341",
+      "value": " the northwestern part of Sierra Leone's capital Freetown"
+    },
+    {
+      "entry_id": "2991649_574478_fact1",
+      "score": 0.757270872592926,
+      "source_id": "2991649_574478",
+      "value": " the southern area of Kamloops, British Columbia"
+    }
+  ],
+  "truncated": false
+}

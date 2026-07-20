@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "423998_417106_fact9",
+      "score": 0.9526470899581909,
+      "source_id": "423998_417106",
+      "value": " Bratislava"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1533708_294953_fact1",
+      "score": 0.5968818664550781,
+      "source_id": "1533708_294953",
+      "value": " Bratislava"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63192453_5656783_fact73",
+      "score": 0.5901452898979187,
+      "source_id": "63192453_5656783",
+      "value": " Bratislava"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63368726_5803679_fact36",
+      "score": 0.5818010568618774,
+      "source_id": "63368726_5803679",
+      "value": " Bratislava"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "08422523-29ad-4868-9096-4ef4d2f08768",
+  "index_nprobe": null,
+  "manifest_id": "258900e6a6ccaa87",
+  "margin": 0.11800909042358398,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9526470899581909,
+  "s_surv": 0.8346379995346069,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1429776_79711_fact2",
+      "score": 0.8346379995346069,
+      "source_id": "1429776_79711",
+      "value": " southeast Slovakia"
+    },
+    {
+      "entry_id": "5763_5976899_fact31",
+      "score": 0.7516999244689941,
+      "source_id": "5763_5976899",
+      "value": "Czechoslovakia"
+    },
+    {
+      "entry_id": "1429776_79711_fact20",
+      "score": 0.750677227973938,
+      "source_id": "1429776_79711",
+      "value": " between 1969 and 1990"
+    },
+    {
+      "entry_id": "1811152_896502_fact1",
+      "score": 0.735657811164856,
+      "source_id": "1811152_896502",
+      "value": " Czechoslovak Socialist Republic"
+    },
+    {
+      "entry_id": "53046209_5727467_fact28",
+      "score": 0.7057024240493774,
+      "source_id": "53046209_5727467",
+      "value": " Pre\u0161ov"
+    }
+  ],
+  "truncated": false
+}

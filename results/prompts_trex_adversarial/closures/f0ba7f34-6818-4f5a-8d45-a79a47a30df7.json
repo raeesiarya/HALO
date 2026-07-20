@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "140661_850280_fact13",
+      "score": 0.8607770800590515,
+      "source_id": "140661_850280",
+      "value": " Europa-Park"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "250296_559459_fact14",
+      "score": 0.8571658134460449,
+      "source_id": "250296_559459",
+      "value": " Disney's Animal Kingdom"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "140661_850280_fact14",
+      "score": 0.7241372466087341,
+      "source_id": "140661_850280",
+      "value": " fifth-most visited amusement park in Europe"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f0ba7f34-6818-4f5a-8d45-a79a47a30df7",
+  "index_nprobe": null,
+  "manifest_id": "d6f0a2f7b806b0af",
+  "margin": 0.014890909194946289,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8607770800590515,
+  "s_surv": 0.8458861708641052,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1064853_309268_fact6",
+      "score": 0.8458861708641052,
+      "source_id": "1064853_309268",
+      "value": " Disneyland Paris"
+    },
+    {
+      "entry_id": "125613_679434_fact142",
+      "score": 0.8401690721511841,
+      "source_id": "125613_679434",
+      "value": " Disney's Animal Kingdom"
+    },
+    {
+      "entry_id": "104175_5997895_fact71",
+      "score": 0.8133256435394287,
+      "source_id": "104175_5997895",
+      "value": " the Las Vegas Strip"
+    },
+    {
+      "entry_id": "1414870_1194077_fact5",
+      "score": 0.8125670552253723,
+      "source_id": "1414870_1194077",
+      "value": " Hong Kong Disneyland"
+    },
+    {
+      "entry_id": "2732300_224693_fact11",
+      "score": 0.8099139928817749,
+      "source_id": "2732300_224693",
+      "value": " Disneyland Paris"
+    }
+  ],
+  "truncated": false
+}

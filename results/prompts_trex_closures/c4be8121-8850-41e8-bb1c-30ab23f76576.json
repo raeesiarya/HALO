@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "24010477_1449852_fact2",
+      "score": 0.8789486885070801,
+      "source_id": "24010477_1449852",
+      "value": " Moldova"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c4be8121-8850-41e8-bb1c-30ab23f76576",
+  "index_nprobe": null,
+  "manifest_id": "cf716988463dc50a",
+  "margin": 0.05727261304855347,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8789486885070801,
+  "s_surv": 0.8216760754585266,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "24010477_1449852_fact3",
+      "score": 0.8216760754585266,
+      "source_id": "24010477_1449852",
+      "value": " November 1917"
+    },
+    {
+      "entry_id": "31007773_2731574_fact14",
+      "score": 0.7238033413887024,
+      "source_id": "31007773_2731574",
+      "value": " rural areas"
+    },
+    {
+      "entry_id": "50288768_3691103_fact11",
+      "score": 0.707302987575531,
+      "source_id": "50288768_3691103",
+      "value": "1923-2014"
+    },
+    {
+      "entry_id": "53148833_5794853_fact78",
+      "score": 0.7072790265083313,
+      "source_id": "53148833_5794853",
+      "value": " Vla\u0219ca"
+    },
+    {
+      "entry_id": "28603713_3147337_fact148",
+      "score": 0.7061932682991028,
+      "source_id": "28603713_3147337",
+      "value": " November 1919"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "2958148_529849_fact0",
+      "score": 0.8974531292915344,
+      "source_id": "2958148_529849",
+      "value": " 5 February [O.S. 24 January] 1836"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1955475_1193511_fact24",
+      "score": 0.856282114982605,
+      "source_id": "1955475_1193511",
+      "value": "1836"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "468b2896-abeb-4f82-9bb7-64ee8f809ca8",
+  "index_nprobe": null,
+  "manifest_id": "6849da666ed1f933",
+  "margin": 0.06597530841827393,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8974528908729553,
+  "s_surv": 0.8314775824546814,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "44829032_4761632_fact0",
+      "score": 0.8314775824546814,
+      "source_id": "44829032_4761632",
+      "value": "19 October 1947"
+    },
+    {
+      "entry_id": "2582609_1134461_fact0",
+      "score": 0.8215019702911377,
+      "source_id": "2582609_1134461",
+      "value": " 21 August 1909"
+    },
+    {
+      "entry_id": "69893321_5479345_fact0",
+      "score": 0.8214700222015381,
+      "source_id": "69893321_5479345",
+      "value": "1879"
+    },
+    {
+      "entry_id": "53254324_5859219_fact0",
+      "score": 0.8205430507659912,
+      "source_id": "53254324_5859219",
+      "value": " 21 December 1870"
+    },
+    {
+      "entry_id": "2032259_181639_fact0",
+      "score": 0.8117914199829102,
+      "source_id": "2032259_181639",
+      "value": " 17 December 1859"
+    }
+  ],
+  "truncated": false
+}

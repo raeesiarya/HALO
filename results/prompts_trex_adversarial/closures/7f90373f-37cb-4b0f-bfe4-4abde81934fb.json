@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "2891407_435770_fact1",
+      "score": 0.9464617967605591,
+      "source_id": "2891407_435770",
+      "value": " March 31, 1975"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7f90373f-37cb-4b0f-bfe4-4abde81934fb",
+  "index_nprobe": null,
+  "manifest_id": "c8b6cc5d1ce6fb08",
+  "margin": 0.17771679162979126,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9464616775512695,
+  "s_surv": 0.7687448859214783,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "55606978_5097252_fact0",
+      "score": 0.7687448859214783,
+      "source_id": "55606978_5097252",
+      "value": " 4 April 1995"
+    },
+    {
+      "entry_id": "65513693_4899669_fact0",
+      "score": 0.7684469223022461,
+      "source_id": "65513693_4899669",
+      "value": " 1980"
+    },
+    {
+      "entry_id": "38495660_4227950_fact0",
+      "score": 0.7517050504684448,
+      "source_id": "38495660_4227950",
+      "value": " 20 January"
+    },
+    {
+      "entry_id": "22533182_2348204_fact0",
+      "score": 0.7452815771102905,
+      "source_id": "22533182_2348204",
+      "value": " 9 January 1976"
+    },
+    {
+      "entry_id": "43332833_5890301_fact0",
+      "score": 0.7316626310348511,
+      "source_id": "43332833_5890301",
+      "value": " December 13, 1997"
+    }
+  ],
+  "truncated": false
+}

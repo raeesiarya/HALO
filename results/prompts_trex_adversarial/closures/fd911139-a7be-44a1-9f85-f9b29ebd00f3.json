@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "24276812_1732213_fact1",
+      "score": 0.963701605796814,
+      "source_id": "24276812_1732213",
+      "value": " French-Danish"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "fd911139-a7be-44a1-9f85-f9b29ebd00f3",
+  "index_nprobe": null,
+  "manifest_id": "96b59552847b17bd",
+  "margin": 0.23588567972183228,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9637014865875244,
+  "s_surv": 0.7278158068656921,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "36669180_2802300_fact1",
+      "score": 0.7278158068656921,
+      "source_id": "36669180_2802300",
+      "value": " Swedish"
+    },
+    {
+      "entry_id": "20196131_2530764_fact1",
+      "score": 0.7251572608947754,
+      "source_id": "20196131_2530764",
+      "value": " Danish"
+    },
+    {
+      "entry_id": "35047617_1561948_fact1",
+      "score": 0.7214134931564331,
+      "source_id": "35047617_1561948",
+      "value": " painter and graphic artist"
+    },
+    {
+      "entry_id": "47024789_3668882_fact1",
+      "score": 0.7194558382034302,
+      "source_id": "47024789_3668882",
+      "value": " Swedish"
+    },
+    {
+      "entry_id": "16615526_1539997_fact2",
+      "score": 0.7193456888198853,
+      "source_id": "16615526_1539997",
+      "value": " Swedish"
+    }
+  ],
+  "truncated": false
+}

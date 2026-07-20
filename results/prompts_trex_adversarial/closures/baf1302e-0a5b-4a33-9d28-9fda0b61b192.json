@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "37715860_3619784_fact3",
+      "score": 0.9074068069458008,
+      "source_id": "37715860_3619784",
+      "value": " Norwegian"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "baf1302e-0a5b-4a33-9d28-9fda0b61b192",
+  "index_nprobe": null,
+  "manifest_id": "211acced450df57c",
+  "margin": 0.17297875881195068,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9074068069458008,
+  "s_surv": 0.7344280481338501,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "29632305_1629988_fact2",
+      "score": 0.7344280481338501,
+      "source_id": "29632305_1629988",
+      "value": " Faroese"
+    },
+    {
+      "entry_id": "21053326_3324016_fact0",
+      "score": 0.6940305829048157,
+      "source_id": "21053326_3324016",
+      "value": " Irish"
+    },
+    {
+      "entry_id": "3632419_266215_fact1",
+      "score": 0.6889408826828003,
+      "source_id": "3632419_266215",
+      "value": " Australian"
+    },
+    {
+      "entry_id": "13199805_3156975_fact1",
+      "score": 0.6837431788444519,
+      "source_id": "13199805_3156975",
+      "value": " English"
+    },
+    {
+      "entry_id": "18756850_3495569_fact1",
+      "score": 0.6825529932975769,
+      "source_id": "18756850_3495569",
+      "value": " entrepreneur"
+    }
+  ],
+  "truncated": false
+}

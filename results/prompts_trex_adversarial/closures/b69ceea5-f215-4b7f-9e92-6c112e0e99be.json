@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "17995684_2748950_fact1",
+      "score": 0.8640541434288025,
+      "source_id": "17995684_2748950",
+      "value": " the Koettlitz Glacier"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b69ceea5-f215-4b7f-9e92-6c112e0e99be",
+  "index_nprobe": null,
+  "manifest_id": "b7c3940475587e09",
+  "margin": 0.11964863538742065,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8640541434288025,
+  "s_surv": 0.7444055080413818,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "17995684_2748950_fact6",
+      "score": 0.7444055080413818,
+      "source_id": "17995684_2748950",
+      "value": " the Royal Society Range"
+    },
+    {
+      "entry_id": "39080604_4726010_fact5",
+      "score": 0.7250677943229675,
+      "source_id": "39080604_4726010",
+      "value": " Peters Glacier and Kahiltna Glacier"
+    },
+    {
+      "entry_id": "27625092_2332436_fact5",
+      "score": 0.6954376697540283,
+      "source_id": "27625092_2332436",
+      "value": " Silk Glacier"
+    },
+    {
+      "entry_id": "29719224_1688533_fact2",
+      "score": 0.6813496351242065,
+      "source_id": "29719224_1688533",
+      "value": " Bartlett Glacier"
+    },
+    {
+      "entry_id": "29722812_1691932_fact4",
+      "score": 0.6763766407966614,
+      "source_id": "29722812_1691932",
+      "value": " Gardner Inlet"
+    }
+  ],
+  "truncated": false
+}

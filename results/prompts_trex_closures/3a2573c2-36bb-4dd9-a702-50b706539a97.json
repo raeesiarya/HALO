@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "24910768_2323580_fact2",
+      "score": 0.9654111862182617,
+      "source_id": "24910768_2323580",
+      "value": " Norwegian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38577617_4287864_fact95",
+      "score": 0.8055108785629272,
+      "source_id": "38577617_4287864",
+      "value": " Norwegian poet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30948430_2675010_fact2",
+      "score": 0.6336829662322998,
+      "source_id": "30948430_2675010",
+      "value": " Norwegian"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3a2573c2-36bb-4dd9-a702-50b706539a97",
+  "index_nprobe": null,
+  "manifest_id": "0f546dbe5bca8ba4",
+  "margin": 0.2033315896987915,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9654111862182617,
+  "s_surv": 0.7620795965194702,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "70474115_5833482_fact2",
+      "score": 0.7620795965194702,
+      "source_id": "70474115_5833482",
+      "value": " Scottish"
+    },
+    {
+      "entry_id": "18184609_2905999_fact2",
+      "score": 0.7602696418762207,
+      "source_id": "18184609_2905999",
+      "value": " Canadian"
+    },
+    {
+      "entry_id": "63410043_5833329_fact2",
+      "score": 0.7538736462593079,
+      "source_id": "63410043_5833329",
+      "value": " Scottish"
+    },
+    {
+      "entry_id": "47490934_4086484_fact2",
+      "score": 0.7410959005355835,
+      "source_id": "47490934_4086484",
+      "value": " English"
+    },
+    {
+      "entry_id": "37179141_3217877_fact1",
+      "score": 0.7406673431396484,
+      "source_id": "37179141_3217877",
+      "value": " British army officer"
+    }
+  ],
+  "truncated": false
+}

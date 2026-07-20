@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "4571499_117048_fact3",
+      "score": 0.9367657899856567,
+      "source_id": "4571499_117048",
+      "value": " Chichester district"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4571429_117012_fact1",
+      "score": 0.7551802396774292,
+      "source_id": "4571429_117012",
+      "value": " Chichester District"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7062385_997210_fact1",
+      "score": 0.6345090270042419,
+      "source_id": "7062385_997210",
+      "value": " Chichester District"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15521065_3015465_fact1",
+      "score": 0.6171683073043823,
+      "source_id": "15521065_3015465",
+      "value": " Chichester district"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e258051a-9bf0-465e-b909-2fc3d577c7f9",
+  "index_nprobe": null,
+  "manifest_id": "0b2b8b6430848232",
+  "margin": 0.22202825546264648,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9367657899856567,
+  "s_surv": 0.7147375345230103,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6484324_588068_fact1",
+      "score": 0.7147375345230103,
+      "source_id": "6484324_588068",
+      "value": " Hambleton District"
+    },
+    {
+      "entry_id": "15749595_3223095_fact7",
+      "score": 0.7090041637420654,
+      "source_id": "15749595_3223095",
+      "value": " Barony of Gilsland"
+    },
+    {
+      "entry_id": "20508424_2755655_fact2",
+      "score": 0.7005982398986816,
+      "source_id": "20508424_2755655",
+      "value": " London Borough of Richmond upon Thames"
+    },
+    {
+      "entry_id": "1628351_499521_fact4",
+      "score": 0.6944872140884399,
+      "source_id": "1628351_499521",
+      "value": " Somerset West and Taunton district"
+    },
+    {
+      "entry_id": "47300371_3922072_fact4",
+      "score": 0.6917582750320435,
+      "source_id": "47300371_3922072",
+      "value": " barony of Fore"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1683852_620967_fact1",
+      "score": 0.9273254871368408,
+      "source_id": "1683852_620967",
+      "value": " Harlow, Essex"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7749524_1675593_fact1",
+      "score": 0.7916945815086365,
+      "source_id": "7749524_1675593",
+      "value": " Harlow, Essex"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ce29d779-18c9-44ac-ae84-d991e89066ff",
+  "index_nprobe": null,
+  "manifest_id": "1e3afd9b2549d65a",
+  "margin": 0.09117799997329712,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9273254871368408,
+  "s_surv": 0.8361474871635437,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "28346020_2984716_fact0",
+      "score": 0.8361474871635437,
+      "source_id": "28346020_2984716",
+      "value": " Market Harborough, Leicestershire, England"
+    },
+    {
+      "entry_id": "67514506_3809854_fact1",
+      "score": 0.8226168155670166,
+      "source_id": "67514506_3809854",
+      "value": " the spa town of Harrogate, North Yorkshire, England"
+    },
+    {
+      "entry_id": "3718575_360977_fact1",
+      "score": 0.7971855998039246,
+      "source_id": "3718575_360977",
+      "value": " Hertford, Hertfordshire, England"
+    },
+    {
+      "entry_id": "3740047_388494_fact0",
+      "score": 0.7831024527549744,
+      "source_id": "3740047_388494",
+      "value": " Halstead, Essex, England"
+    },
+    {
+      "entry_id": "3783464_435945_fact0",
+      "score": 0.7828671336174011,
+      "source_id": "3783464_435945",
+      "value": " Harpenden, Hertfordshire, England"
+    }
+  ],
+  "truncated": false
+}

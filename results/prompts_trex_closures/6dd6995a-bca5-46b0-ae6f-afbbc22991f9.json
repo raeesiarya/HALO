@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "4202280_888970_fact0",
+      "score": 0.9345744252204895,
+      "source_id": "4202280_888970",
+      "value": " Damascus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27478_630531_fact3",
+      "score": 0.7854501605033875,
+      "source_id": "27478_630531",
+      "value": " Damascus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27478_630531_fact2",
+      "score": 0.5676153302192688,
+      "source_id": "27478_630531",
+      "value": " Damascus International Airport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21897950_1772628_fact4",
+      "score": 0.5305271744728088,
+      "source_id": "21897950_1772628",
+      "value": " Damascus, Syria"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6dd6995a-bca5-46b0-ae6f-afbbc22991f9",
+  "index_nprobe": null,
+  "manifest_id": "5f0c4bb4e86f9d6b",
+  "margin": 0.10919368267059326,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9345744252204895,
+  "s_surv": 0.8253807425498962,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7448050_1275568_fact57",
+      "score": 0.8253807425498962,
+      "source_id": "7448050_1275568",
+      "value": " Syria"
+    },
+    {
+      "entry_id": "38655912_4351667_fact16",
+      "score": 0.7106335163116455,
+      "source_id": "38655912_4351667",
+      "value": " Saudi Arabia"
+    },
+    {
+      "entry_id": "716542_449332_fact2",
+      "score": 0.706731915473938,
+      "source_id": "716542_449332",
+      "value": " Tehran"
+    },
+    {
+      "entry_id": "292633_805905_fact2",
+      "score": 0.6914249658584595,
+      "source_id": "292633_805905",
+      "value": " D\u00fcsseldorf"
+    },
+    {
+      "entry_id": "2119664_333205_fact0",
+      "score": 0.6705074310302734,
+      "source_id": "2119664_333205",
+      "value": "Debrecen"
+    }
+  ],
+  "truncated": false
+}

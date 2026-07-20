@@ -1,0 +1,386 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "9833642_1812648_fact7",
+      "score": 0.7585638761520386,
+      "source_id": "9833642_1812648",
+      "value": " Geneva, Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42366343_5128168_fact8",
+      "score": 0.7368646860122681,
+      "source_id": "42366343_5128168",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6999780_953979_fact26",
+      "score": 0.7014826536178589,
+      "source_id": "6999780_953979",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33545040_2627663_fact313",
+      "score": 0.6943504810333252,
+      "source_id": "33545040_2627663",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2956769_528236_fact16",
+      "score": 0.6708679795265198,
+      "source_id": "2956769_528236",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24403_557408_fact19",
+      "score": 0.6611806154251099,
+      "source_id": "24403_557408",
+      "value": " Republic of Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55939678_5361998_fact67",
+      "score": 0.6434893608093262,
+      "source_id": "55939678_5361998",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "600366_1199441_fact5",
+      "score": 0.6371220350265503,
+      "source_id": "600366_1199441",
+      "value": " Geneva, Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10572690_2569741_fact8",
+      "score": 0.6155521869659424,
+      "source_id": "10572690_2569741",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1680963_613976_fact28",
+      "score": 0.605522871017456,
+      "source_id": "1680963_613976",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2978507_555773_fact44",
+      "score": 0.6013683676719666,
+      "source_id": "2978507_555773",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31008032_2731831_fact39",
+      "score": 0.5917903184890747,
+      "source_id": "31008032_2731831",
+      "value": " the city of Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "295855_831554_fact32",
+      "score": 0.5828711986541748,
+      "source_id": "295855_831554",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "90510_310800_fact66",
+      "score": 0.5810912847518921,
+      "source_id": "90510_310800",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "842656_788972_fact55",
+      "score": 0.578161358833313,
+      "source_id": "842656_788972",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8498156_2660473_fact140",
+      "score": 0.5776025652885437,
+      "source_id": "8498156_2660473",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23000716_2775639_fact175",
+      "score": 0.5764872431755066,
+      "source_id": "23000716_2775639",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10572690_2569741_fact106",
+      "score": 0.5746384263038635,
+      "source_id": "10572690_2569741",
+      "value": " Geneva, Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27113618_1900709_fact56",
+      "score": 0.5610888004302979,
+      "source_id": "27113618_1900709",
+      "value": " Reformation Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1784854_838331_fact69",
+      "score": 0.5563039183616638,
+      "source_id": "1784854_838331",
+      "value": " Geneva, Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57965596_4508143_fact118",
+      "score": 0.5532733201980591,
+      "source_id": "57965596_4508143",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10194695_2196770_fact59",
+      "score": 0.5400958061218262,
+      "source_id": "10194695_2196770",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2809459_317133_fact246",
+      "score": 0.5380971431732178,
+      "source_id": "2809459_317133",
+      "value": " Zurich and Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54463_5987697_fact203",
+      "score": 0.537380576133728,
+      "source_id": "54463_5987697",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1120461_456123_fact55",
+      "score": 0.5337530374526978,
+      "source_id": "1120461_456123",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6722376_736842_fact64",
+      "score": 0.5326855778694153,
+      "source_id": "6722376_736842",
+      "value": " Annecy and Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4215014_901584_fact23",
+      "score": 0.5284260511398315,
+      "source_id": "4215014_901584",
+      "value": " famous theologian of the Protestant reformation in Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4705880_236843_fact79",
+      "score": 0.509932279586792,
+      "source_id": "4705880_236843",
+      "value": " the Reformers of Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1994924_113915_fact19",
+      "score": 0.5094004273414612,
+      "source_id": "1994924_113915",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37223_806775_fact57",
+      "score": 0.5066882967948914,
+      "source_id": "37223_806775",
+      "value": "Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "102584_430672_fact7",
+      "score": 0.5033559799194336,
+      "source_id": "102584_430672",
+      "value": " Geneva and Z\u00fcrich"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10616900_2610204_fact116",
+      "score": 0.4963887929916382,
+      "source_id": "10616900_2610204",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2956769_528236_fact4",
+      "score": 0.4925905466079712,
+      "source_id": "2956769_528236",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4383877_1076510_fact13",
+      "score": 0.4793693423271179,
+      "source_id": "4383877_1076510",
+      "value": " Neuch\u00e2tel, Geneva and Lausanne"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27622094_2329172_fact18",
+      "score": 0.4786386489868164,
+      "source_id": "27622094_2329172",
+      "value": " Geneva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6024_177857_fact94",
+      "score": 0.4645772874355316,
+      "source_id": "6024_177857",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55412_5987902_fact8",
+      "score": 0.46132510900497437,
+      "source_id": "55412_5987902",
+      "value": " Geneva"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "df2ec646-4120-41e0-b9c7-61ac78460a48",
+  "index_nprobe": null,
+  "manifest_id": "a7ce48f88e904c2d",
+  "margin": 0.035639047622680664,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7585638761520386,
+  "s_surv": 0.7229248285293579,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "32349386_1645137_fact20",
+      "score": 0.7229248285293579,
+      "source_id": "32349386_1645137",
+      "value": " Electorate of the Palatinate"
+    },
+    {
+      "entry_id": "21091233_3360834_fact125",
+      "score": 0.6903941035270691,
+      "source_id": "21091233_3360834",
+      "value": " Bremen"
+    },
+    {
+      "entry_id": "55412_5987902_fact49",
+      "score": 0.6748502254486084,
+      "source_id": "55412_5987902",
+      "value": " France"
+    },
+    {
+      "entry_id": "3017776_609704_fact93",
+      "score": 0.6653470993041992,
+      "source_id": "3017776_609704",
+      "value": " the southerly Saar area"
+    },
+    {
+      "entry_id": "35964707_2228345_fact83",
+      "score": 0.662746787071228,
+      "source_id": "35964707_2228345",
+      "value": " Matfield, Cranbrook, Lamberhurst and Southborough"
+    }
+  ],
+  "truncated": false
+}

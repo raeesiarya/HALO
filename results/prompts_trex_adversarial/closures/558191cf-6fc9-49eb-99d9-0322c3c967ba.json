@@ -1,0 +1,160 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "19174246_1626153_fact0",
+      "score": 0.8063729405403137,
+      "source_id": "19174246_1626153",
+      "value": " ballet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50339051_3717518_fact2",
+      "score": 0.6507269144058228,
+      "source_id": "50339051_3717518",
+      "value": " two-movement duo for violin and cello"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1066480_313489_fact160",
+      "score": 0.6420254707336426,
+      "source_id": "1066480_313489",
+      "value": " Partita for Violin No. 2"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "862774_865123_fact3",
+      "score": 0.6040273904800415,
+      "source_id": "862774_865123",
+      "value": " violin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63871_5989782_fact96",
+      "score": 0.5962673425674438,
+      "source_id": "63871_5989782",
+      "value": " Solo Violin Partita No. 2"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49990891_5872956_fact18",
+      "score": 0.5504580736160278,
+      "source_id": "49990891_5872956",
+      "value": " two-movement duo for violin and cello"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58843893_5102481_fact1",
+      "score": 0.5493026971817017,
+      "source_id": "58843893_5102481",
+      "value": " violin concerto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37747217_3567615_fact1",
+      "score": 0.5408806204795837,
+      "source_id": "37747217_3567615",
+      "value": " sonata for violin and piano"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13136028_3096381_fact2",
+      "score": 0.5374810099601746,
+      "source_id": "13136028_3096381",
+      "value": " 24 Caprices for Solo Violin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "655020_260910_fact170",
+      "score": 0.5319870710372925,
+      "source_id": "655020_260910",
+      "value": " violin concerto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "432988_467159_fact67",
+      "score": 0.5234871506690979,
+      "source_id": "432988_467159",
+      "value": " solo violin sonata"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31930187_1299084_fact108",
+      "score": 0.5222461223602295,
+      "source_id": "31930187_1299084",
+      "value": " String Quartet and the Violin Sonata in G minor"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "558191cf-6fc9-49eb-99d9-0322c3c967ba",
+  "index_nprobe": null,
+  "manifest_id": "e2e30a604757b576",
+  "margin": 0.06295150518417358,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8063729405403137,
+  "s_surv": 0.7434214353561401,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "68486813_4528936_fact0",
+      "score": 0.7434214353561401,
+      "source_id": "68486813_4528936",
+      "value": " Baroque"
+    },
+    {
+      "entry_id": "25565910_2927927_fact1",
+      "score": 0.7298464775085449,
+      "source_id": "25565910_2927927",
+      "value": " organ chaconne"
+    },
+    {
+      "entry_id": "25566244_2928202_fact1",
+      "score": 0.7005879878997803,
+      "source_id": "25566244_2928202",
+      "value": " organ chaconne"
+    },
+    {
+      "entry_id": "337605_1110040_fact1",
+      "score": 0.691870927810669,
+      "source_id": "337605_1110040",
+      "value": " accompanied canon"
+    },
+    {
+      "entry_id": "53245908_5854504_fact2",
+      "score": 0.6805835962295532,
+      "source_id": "53245908_5854504",
+      "value": " choral work"
+    }
+  ],
+  "truncated": false
+}

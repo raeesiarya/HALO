@@ -1,0 +1,196 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "4597829_141149_fact5",
+      "score": 0.735458254814148,
+      "source_id": "4597829_141149",
+      "value": " Jim Rea"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29283755_1361913_fact3",
+      "score": 0.6086641550064087,
+      "source_id": "29283755_1361913",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3524766_135105_fact4",
+      "score": 0.5925723314285278,
+      "source_id": "3524766_135105",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5376827_813898_fact1",
+      "score": 0.5885646343231201,
+      "source_id": "5376827_813898",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19623147_2028354_fact3",
+      "score": 0.5797789096832275,
+      "source_id": "19623147_2028354",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "673752_6099422_fact14",
+      "score": 0.5768767595291138,
+      "source_id": "673752_6099422",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57804890_4379331_fact11",
+      "score": 0.5750263929367065,
+      "source_id": "57804890_4379331",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69779165_5413725_fact26",
+      "score": 0.5729736089706421,
+      "source_id": "69779165_5413725",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1488043_202543_fact142",
+      "score": 0.5627795457839966,
+      "source_id": "1488043_202543",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57203619_3909983_fact2",
+      "score": 0.5573156476020813,
+      "source_id": "57203619_3909983",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "263192_40732_fact52",
+      "score": 0.5558301210403442,
+      "source_id": "263192_40732",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "264286_41102_fact112",
+      "score": 0.5536946058273315,
+      "source_id": "264286_41102",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44456013_4471297_fact1",
+      "score": 0.5530550479888916,
+      "source_id": "44456013_4471297",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "225582_390149_fact33",
+      "score": 0.5504722595214844,
+      "source_id": "225582_390149",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12831000_2753324_fact133",
+      "score": 0.5477005839347839,
+      "source_id": "12831000_2753324",
+      "value": " Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15806414_3281437_fact126",
+      "score": 0.5458868145942688,
+      "source_id": "15806414_3281437",
+      "value": " Google"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "26882349-014b-4101-b4c4-bcafbc74e3b5",
+  "index_nprobe": null,
+  "manifest_id": "bc952716887d1e91",
+  "margin": 0.0011543035507202148,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7354581356048584,
+  "s_surv": 0.7343038320541382,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "56863533_3649858_fact4",
+      "score": 0.7343038320541382,
+      "source_id": "56863533_3649858",
+      "value": " UAB E.L.L. \u201eNekilnojamas Turtas\u201c (Group \"E.L.L. Real Estate\")."
+    },
+    {
+      "entry_id": "4597829_141149_fact4",
+      "score": 0.7242676019668579,
+      "source_id": "4597829_141149",
+      "value": " ProVUE Development"
+    },
+    {
+      "entry_id": "1010385_162958_fact13",
+      "score": 0.7161959409713745,
+      "source_id": "1010385_162958",
+      "value": " Arnoldo Mondadori Editore"
+    },
+    {
+      "entry_id": "13074220_3029596_fact1",
+      "score": 0.6920242309570312,
+      "source_id": "13074220_3029596",
+      "value": " Bitstream Inc"
+    },
+    {
+      "entry_id": "8216072_2297006_fact15",
+      "score": 0.6866155862808228,
+      "source_id": "8216072_2297006",
+      "value": " Berlusconi"
+    }
+  ],
+  "truncated": false
+}

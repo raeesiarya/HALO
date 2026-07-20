@@ -1,0 +1,116 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "7542161_1396852_fact2",
+      "score": 0.7584660053253174,
+      "source_id": "7542161_1396852",
+      "value": " gold coins on a tree stump, with a sapling and a maroon wolf next to it"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "171183_1166757_fact32",
+      "score": 0.6456730961799622,
+      "source_id": "171183_1166757",
+      "value": " an oak tree in yellow on a green background"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31438237_3135369_fact40",
+      "score": 0.6409165859222412,
+      "source_id": "31438237_3135369",
+      "value": " a Black Grouse sitting in the top of a pine tree on a white background"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14470_348701_fact24",
+      "score": 0.623719334602356,
+      "source_id": "14470_348701",
+      "value": " a Black Grouse sitting in the top of a pine tree on a white background"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27747063_2446123_fact27",
+      "score": 0.6137938499450684,
+      "source_id": "27747063_2446123",
+      "value": " a crown on an oak tree trunk and roots"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1216996_722396_fact121",
+      "score": 0.6035439968109131,
+      "source_id": "1216996_722396",
+      "value": " a bull moose; maple leaves; a \"Magneto\", representative of electricity (industry); two men in a canoe; a white pine tree; and the motto \"Industry and Perseverance.\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48463744_4786547_fact28",
+      "score": 0.6006882786750793,
+      "source_id": "48463744_4786547",
+      "value": " the tree taller than the bear"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2e3ecfcb-5f3d-44bb-93f9-774a15579d42",
+  "index_nprobe": null,
+  "manifest_id": "435fcad546649c84",
+  "margin": 0.016994178295135498,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7584660053253174,
+  "s_surv": 0.7414718270301819,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "464078_622050_fact36",
+      "score": 0.7414718270301819,
+      "source_id": "464078_622050",
+      "value": " blue"
+    },
+    {
+      "entry_id": "464078_622050_fact37",
+      "score": 0.7260501384735107,
+      "source_id": "464078_622050",
+      "value": " rearing silver horse standing on a green lawn"
+    },
+    {
+      "entry_id": "71903654_4454672_fact6",
+      "score": 0.7240971326828003,
+      "source_id": "71903654_4454672",
+      "value": " red griffin"
+    },
+    {
+      "entry_id": "7453166_1282876_fact5",
+      "score": 0.7222429513931274,
+      "source_id": "7453166_1282876",
+      "value": " blue shield"
+    },
+    {
+      "entry_id": "5809373_86582_fact20",
+      "score": 0.7211909294128418,
+      "source_id": "5809373_86582",
+      "value": " dark green, winged dragon"
+    }
+  ],
+  "truncated": false
+}

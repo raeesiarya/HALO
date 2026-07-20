@@ -1,0 +1,154 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "14556869_2098048_fact2",
+      "score": 0.8665155172348022,
+      "source_id": "14556869_2098048",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "606575_6088432_fact2",
+      "score": 0.8665155172348022,
+      "source_id": "606575_6088432",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41176052_4087936_fact2",
+      "score": 0.5776621103286743,
+      "source_id": "41176052_4087936",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12712122_2606897_fact1",
+      "score": 0.5641786456108093,
+      "source_id": "12712122_2606897",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45000509_4897037_fact1",
+      "score": 0.5592445135116577,
+      "source_id": "45000509_4897037",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41900905_4730386_fact2",
+      "score": 0.5414440035820007,
+      "source_id": "41900905_4730386",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33177476_2326110_fact2",
+      "score": 0.5396331548690796,
+      "source_id": "33177476_2326110",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19541275_1969254_fact2",
+      "score": 0.5349714159965515,
+      "source_id": "19541275_1969254",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4685651_216900_fact2",
+      "score": 0.5295490026473999,
+      "source_id": "4685651_216900",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58264756_4726857_fact1",
+      "score": 0.5262567400932312,
+      "source_id": "58264756_4726857",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36259475_2474881_fact1",
+      "score": 0.5243222713470459,
+      "source_id": "36259475_2474881",
+      "value": " French"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "82133c5b-a211-491d-b3e6-6e43f2ea3ca8",
+  "index_nprobe": null,
+  "manifest_id": "10c32da63d4cf31d",
+  "margin": 0.2144784927368164,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8665155172348022,
+  "s_surv": 0.6520370244979858,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "12832659_2755483_fact2",
+      "score": 0.6520370244979858,
+      "source_id": "12832659_2755483",
+      "value": " American"
+    },
+    {
+      "entry_id": "68388732_4444074_fact1",
+      "score": 0.6393483281135559,
+      "source_id": "68388732_4444074",
+      "value": " American football fullback"
+    },
+    {
+      "entry_id": "63927817_3849801_fact2",
+      "score": 0.6391838192939758,
+      "source_id": "63927817_3849801",
+      "value": " American"
+    },
+    {
+      "entry_id": "1320795_981426_fact2",
+      "score": 0.6371623873710632,
+      "source_id": "1320795_981426",
+      "value": " American"
+    },
+    {
+      "entry_id": "9625304_1605896_fact0",
+      "score": 0.6366138458251953,
+      "source_id": "9625304_1605896",
+      "value": " American"
+    }
+  ],
+  "truncated": false
+}

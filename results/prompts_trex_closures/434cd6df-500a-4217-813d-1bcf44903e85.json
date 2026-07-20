@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "8275616_2381080_fact8",
+      "score": 0.679305911064148,
+      "source_id": "8275616_2381080",
+      "value": " first Nissan vehicle to debut in China before being released in other countries"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6715099_729264_fact73",
+      "score": 0.5235702991485596,
+      "source_id": "6715099_729264",
+      "value": " Nissan passenger van"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "434cd6df-500a-4217-813d-1bcf44903e85",
+  "index_nprobe": null,
+  "manifest_id": "4df675e88758417d",
+  "margin": -0.026843547821044922,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.679305911064148,
+  "s_surv": 0.7061494588851929,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8275616_2381080_fact0",
+      "score": 0.7061494588851929,
+      "source_id": "8275616_2381080",
+      "value": " MPV model"
+    },
+    {
+      "entry_id": "68460_116354_fact16",
+      "score": 0.6412063837051392,
+      "source_id": "68460_116354",
+      "value": " mass-produced off-road vehicle with a unibody construction"
+    },
+    {
+      "entry_id": "68460_116354_fact12",
+      "score": 0.632581353187561,
+      "source_id": "68460_116354",
+      "value": " vehicle still manufactured"
+    },
+    {
+      "entry_id": "478390_690492_fact22",
+      "score": 0.6294008493423462,
+      "source_id": "478390_690492",
+      "value": " platform"
+    },
+    {
+      "entry_id": "27281694_2031585_fact17",
+      "score": 0.6110481023788452,
+      "source_id": "27281694_2031585",
+      "value": " for next-generation battleships"
+    }
+  ],
+  "truncated": false
+}

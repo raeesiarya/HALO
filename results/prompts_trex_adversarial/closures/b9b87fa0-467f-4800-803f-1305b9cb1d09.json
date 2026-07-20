@@ -1,0 +1,107 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "37943_824011_fact3",
+      "score": 0.9091439247131348,
+      "source_id": "37943_824011",
+      "value": " composer"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "5237926_693861_fact191",
+      "score": 0.8724308013916016,
+      "source_id": "5237926_693861",
+      "value": " composer, singer, violinist, harpsichordist, conductor ant teacher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11789169_1469284_fact5",
+      "score": 0.7119183540344238,
+      "source_id": "11789169_1469284",
+      "value": " opera singer and singing teacher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40178608_5681396_fact46",
+      "score": 0.6940346956253052,
+      "source_id": "40178608_5681396",
+      "value": " opera singer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36323301_2527362_fact3",
+      "score": 0.6910637617111206,
+      "source_id": "36323301_2527362",
+      "value": " opera librettist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21161056_3435359_fact3",
+      "score": 0.6816428899765015,
+      "source_id": "21161056_3435359",
+      "value": " tenor singer, opera producer and impresario"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b9b87fa0-467f-4800-803f-1305b9cb1d09",
+  "index_nprobe": null,
+  "manifest_id": "db93c7fc22c060d2",
+  "margin": 0.1333146095275879,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9091436862945557,
+  "s_surv": 0.7758290767669678,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5237926_693861_fact190",
+      "score": 0.7758290767669678,
+      "source_id": "5237926_693861",
+      "value": " Neapolitan"
+    },
+    {
+      "entry_id": "392099_242731_fact3",
+      "score": 0.7651642560958862,
+      "source_id": "392099_242731",
+      "value": " double bass virtuoso"
+    },
+    {
+      "entry_id": "64200376_4069579_fact2",
+      "score": 0.7527103424072266,
+      "source_id": "64200376_4069579",
+      "value": " Catholic cardinal"
+    },
+    {
+      "entry_id": "14263314_1800075_fact3",
+      "score": 0.7476760745048523,
+      "source_id": "14263314_1800075",
+      "value": " painter"
+    },
+    {
+      "entry_id": "8419175_2559013_fact3",
+      "score": 0.742445707321167,
+      "source_id": "8419175_2559013",
+      "value": " painter"
+    }
+  ],
+  "truncated": false
+}

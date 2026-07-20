@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2013843_149946_fact88",
+      "score": 0.6490034461021423,
+      "source_id": "2013843_149946",
+      "value": " cichlids"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "90b9fb46-093f-4d85-8957-78678126c837",
+  "index_nprobe": null,
+  "manifest_id": "4fb8e5d65c5b07d3",
+  "margin": 0.0021599531173706055,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6490034461021423,
+  "s_surv": 0.6468434929847717,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2264137_590494_fact10",
+      "score": 0.6468434929847717,
+      "source_id": "2264137_590494",
+      "value": " greater honeyguide"
+    },
+    {
+      "entry_id": "17404279_2242986_fact52",
+      "score": 0.640670895576477,
+      "source_id": "17404279_2242986",
+      "value": " vervet monkeys"
+    },
+    {
+      "entry_id": "66633_96411_fact27",
+      "score": 0.6399863958358765,
+      "source_id": "66633_96411",
+      "value": " African sugarcane borer"
+    },
+    {
+      "entry_id": "22423953_2238955_fact24",
+      "score": 0.6273314356803894,
+      "source_id": "22423953_2238955",
+      "value": " Gombe Stream National Park chimpanzee reserve"
+    },
+    {
+      "entry_id": "12027028_1747129_fact109",
+      "score": 0.6219136714935303,
+      "source_id": "12027028_1747129",
+      "value": " Black-and-white colobus"
+    }
+  ],
+  "truncated": false
+}

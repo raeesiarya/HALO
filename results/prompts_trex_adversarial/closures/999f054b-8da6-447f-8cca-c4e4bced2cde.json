@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "16719001_1622833_fact68",
+      "score": 0.7519576549530029,
+      "source_id": "16719001_1622833",
+      "value": " Ait Oussalah"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49331266_5478991_fact9",
+      "score": 0.544194221496582,
+      "source_id": "49331266_5478991",
+      "value": " Keita, Niger"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "999f054b-8da6-447f-8cca-c4e4bced2cde",
+  "index_nprobe": null,
+  "manifest_id": "b214d7d972ac69a7",
+  "margin": 0.09079396724700928,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7519576549530029,
+  "s_surv": 0.6611636877059937,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "14769299_2328203_fact4",
+      "score": 0.6611636877059937,
+      "source_id": "14769299_2328203",
+      "value": " wadi Tamazlaght A\u00efr"
+    },
+    {
+      "entry_id": "4647794_184458_fact82",
+      "score": 0.6571494340896606,
+      "source_id": "4647794_184458",
+      "value": " Egbell, Austria"
+    },
+    {
+      "entry_id": "18135781_2868174_fact114",
+      "score": 0.6558766961097717,
+      "source_id": "18135781_2868174",
+      "value": " France"
+    },
+    {
+      "entry_id": "22162581_1994662_fact30",
+      "score": 0.6542737483978271,
+      "source_id": "22162581_1994662",
+      "value": " Baragong near Mirzapur"
+    },
+    {
+      "entry_id": "34195156_3166338_fact18",
+      "score": 0.6516666412353516,
+      "source_id": "34195156_3166338",
+      "value": " Egypt"
+    }
+  ],
+  "truncated": false
+}

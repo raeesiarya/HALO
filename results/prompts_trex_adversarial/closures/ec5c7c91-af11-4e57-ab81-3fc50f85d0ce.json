@@ -1,0 +1,143 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "1253217_828325_fact2",
+      "score": 0.8873003125190735,
+      "source_id": "1253217_828325",
+      "value": " Boulogne-Billancourt, Hauts-de-Seine"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40749303_3696770_fact2",
+      "score": 0.7528996467590332,
+      "source_id": "40749303_3696770",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55387889_4950048_fact24",
+      "score": 0.7014262080192566,
+      "source_id": "55387889_4950048",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "438895_66577_fact27",
+      "score": 0.6425092816352844,
+      "source_id": "438895_66577",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49521169_5612229_fact1",
+      "score": 0.6396953463554382,
+      "source_id": "49521169_5612229",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39754755_5350174_fact1",
+      "score": 0.6396521925926208,
+      "source_id": "39754755_5350174",
+      "value": " New York City and in France, near Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41640101_4503134_fact12",
+      "score": 0.6392889618873596,
+      "source_id": "41640101_4503134",
+      "value": " Paris, Barcelona and Budapest"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "355334_1215800_fact2",
+      "score": 0.6255637407302856,
+      "source_id": "355334_1215800",
+      "value": " Paris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66433121_5558581_fact1",
+      "score": 0.6229310035705566,
+      "source_id": "66433121_5558581",
+      "value": " Paris, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "809324_6131417_fact2",
+      "score": 0.6163962483406067,
+      "source_id": "809324_6131417",
+      "value": " Paris"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ec5c7c91-af11-4e57-ab81-3fc50f85d0ce",
+  "index_nprobe": null,
+  "manifest_id": "ce03b2ae936532bf",
+  "margin": 0.11978554725646973,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8873003125190735,
+  "s_surv": 0.7675147652626038,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "41786567_4629892_fact22",
+      "score": 0.7675147652626038,
+      "source_id": "41786567_4629892",
+      "value": " Bangalore, India"
+    },
+    {
+      "entry_id": "45486848_5255332_fact2",
+      "score": 0.7572261691093445,
+      "source_id": "45486848_5255332",
+      "value": " Cork, Ireland"
+    },
+    {
+      "entry_id": "25693592_3039716_fact18",
+      "score": 0.7231192588806152,
+      "source_id": "25693592_3039716",
+      "value": " Silicon Valley, California"
+    },
+    {
+      "entry_id": "39867665_5436532_fact1",
+      "score": 0.7115381956100464,
+      "source_id": "39867665_5436532",
+      "value": " Nagoya, Japan"
+    },
+    {
+      "entry_id": "54000476_4027027_fact9",
+      "score": 0.7105695009231567,
+      "source_id": "54000476_4027027",
+      "value": " Mumbai"
+    }
+  ],
+  "truncated": false
+}

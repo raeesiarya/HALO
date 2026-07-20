@@ -1,0 +1,531 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3852745_509089_fact1",
+      "score": 0.951042890548706,
+      "source_id": "3852745_509089",
+      "value": " Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26445902_1349329_fact1",
+      "score": 0.8320784568786621,
+      "source_id": "26445902_1349329",
+      "value": " Shunyi, Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23342058_3076872_fact1",
+      "score": 0.8017507791519165,
+      "source_id": "23342058_3076872",
+      "value": " Shunyi, Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23342058_3076872_fact70",
+      "score": 0.7506300210952759,
+      "source_id": "23342058_3076872",
+      "value": " Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48927724_5194701_fact5",
+      "score": 0.7317609786987305,
+      "source_id": "48927724_5194701",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19073006_1530314_fact1",
+      "score": 0.709466814994812,
+      "source_id": "19073006_1530314",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3319305_1037924_fact3",
+      "score": 0.6837807297706604,
+      "source_id": "3319305_1037924",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47819225_4383018_fact2",
+      "score": 0.6836270689964294,
+      "source_id": "47819225_4383018",
+      "value": " Chaoyang District, Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68368436_4425806_fact26",
+      "score": 0.6768008470535278,
+      "source_id": "68368436_4425806",
+      "value": " Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1476011_180118_fact2",
+      "score": 0.6685490012168884,
+      "source_id": "1476011_180118",
+      "value": " Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23342058_3076872_fact49",
+      "score": 0.665364146232605,
+      "source_id": "23342058_3076872",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19563738_1984806_fact4",
+      "score": 0.6631267070770264,
+      "source_id": "19563738_1984806",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57632526_4235422_fact2",
+      "score": 0.6619740128517151,
+      "source_id": "57632526_4235422",
+      "value": " Beijing Municipal Administrative Center in"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18155553_2884562_fact5",
+      "score": 0.6539161205291748,
+      "source_id": "18155553_2884562",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58962835_5186330_fact1",
+      "score": 0.651574969291687,
+      "source_id": "58962835_5186330",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60152222_5894888_fact11",
+      "score": 0.651418924331665,
+      "source_id": "60152222_5894888",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32577831_1824887_fact0",
+      "score": 0.6480681300163269,
+      "source_id": "32577831_1824887",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60771999_3991999_fact73",
+      "score": 0.64741051197052,
+      "source_id": "60771999_3991999",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31341349_3051653_fact2",
+      "score": 0.6427263617515564,
+      "source_id": "31341349_3051653",
+      "value": " Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51991872_4984317_fact6",
+      "score": 0.637641191482544,
+      "source_id": "51991872_4984317",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50696715_4001936_fact4",
+      "score": 0.6376270651817322,
+      "source_id": "50696715_4001936",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10059687_2050856_fact3",
+      "score": 0.636408805847168,
+      "source_id": "10059687_2050856",
+      "value": " Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28746144_3253459_fact6",
+      "score": 0.6356863379478455,
+      "source_id": "28746144_3253459",
+      "value": " Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64765458_4504163_fact3",
+      "score": 0.6319576501846313,
+      "source_id": "64765458_4504163",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35961994_2226278_fact1",
+      "score": 0.6258788108825684,
+      "source_id": "35961994_2226278",
+      "value": " Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61457093_4474074_fact10",
+      "score": 0.6255285739898682,
+      "source_id": "61457093_4474074",
+      "value": " Zhongguancun, Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42563863_5305124_fact4",
+      "score": 0.625325620174408,
+      "source_id": "42563863_5305124",
+      "value": " Haidian District in Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17018492_1903399_fact4",
+      "score": 0.6250454187393188,
+      "source_id": "17018492_1903399",
+      "value": " Chaoyangmenwai in Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1298114_934953_fact2",
+      "score": 0.6246020793914795,
+      "source_id": "1298114_934953",
+      "value": " Dongcheng District, Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62595606_5273234_fact1",
+      "score": 0.6230584383010864,
+      "source_id": "62595606_5273234",
+      "value": " the region of Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67998585_4177484_fact1",
+      "score": 0.6205868124961853,
+      "source_id": "67998585_4177484",
+      "value": " Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69285075_5090317_fact1",
+      "score": 0.6188229322433472,
+      "source_id": "69285075_5090317",
+      "value": " Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "382489_198188_fact48",
+      "score": 0.6168776750564575,
+      "source_id": "382489_198188",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16660169_1572157_fact1",
+      "score": 0.6125459671020508,
+      "source_id": "16660169_1572157",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "303789_888740_fact2",
+      "score": 0.6121876835823059,
+      "source_id": "303789_888740",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13919540_1465262_fact2",
+      "score": 0.6065983772277832,
+      "source_id": "13919540_1465262",
+      "value": " Beijing Daxing International Airport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "297958_847905_fact3",
+      "score": 0.602329432964325,
+      "source_id": "297958_847905",
+      "value": " Shunyi District, Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "809070_6131368_fact2",
+      "score": 0.602299153804779,
+      "source_id": "809070_6131368",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16578710_1516159_fact3",
+      "score": 0.6005480289459229,
+      "source_id": "16578710_1516159",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49165979_5369545_fact3",
+      "score": 0.5985851287841797,
+      "source_id": "49165979_5369545",
+      "value": " Chaoyang District, Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39468915_5094809_fact2",
+      "score": 0.5977334976196289,
+      "source_id": "39468915_5094809",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26809657_1650226_fact1",
+      "score": 0.5968776941299438,
+      "source_id": "26809657_1650226",
+      "value": " Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2895251_442214_fact18",
+      "score": 0.5955599546432495,
+      "source_id": "2895251_442214",
+      "value": " Beijing financial district"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42450115_5196947_fact2",
+      "score": 0.5925151705741882,
+      "source_id": "42450115_5196947",
+      "value": " Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45420713_5195631_fact78",
+      "score": 0.5922728776931763,
+      "source_id": "45420713_5195631",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7143132_1054230_fact10",
+      "score": 0.5914140939712524,
+      "source_id": "7143132_1054230",
+      "value": " Beijing Traffic Management Bureau headquarters"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48399825_4723017_fact3",
+      "score": 0.5904396176338196,
+      "source_id": "48399825_4723017",
+      "value": " Chaoyang District, Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58629042_4970547_fact1",
+      "score": 0.5901089310646057,
+      "source_id": "58629042_4970547",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22011842_1863391_fact6",
+      "score": 0.5895883440971375,
+      "source_id": "22011842_1863391",
+      "value": " Beijing, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9394743_1324427_fact4",
+      "score": 0.5855604410171509,
+      "source_id": "9394743_1324427",
+      "value": " Haidian, Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "335591_1098925_fact11",
+      "score": 0.5853539109230042,
+      "source_id": "335591_1098925",
+      "value": " Xicheng District, Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29385655_1429784_fact3",
+      "score": 0.5768926739692688,
+      "source_id": "29385655_1429784",
+      "value": " Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5305881_751198_fact3",
+      "score": 0.5760135054588318,
+      "source_id": "5305881_751198",
+      "value": " Beijing, People's Republic of China"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3ff4bb9c-dd92-4c8a-bdac-3928e9fb450b",
+  "index_nprobe": null,
+  "manifest_id": "77c4caf2583fa7e4",
+  "margin": 0.17857706546783447,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.951042890548706,
+  "s_surv": 0.7724658250808716,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "439059_66620_fact29",
+      "score": 0.7724658250808716,
+      "source_id": "439059_66620",
+      "value": " Shenzhen, Guangdong, China"
+    },
+    {
+      "entry_id": "1461760_149435_fact3",
+      "score": 0.757980227470398,
+      "source_id": "1461760_149435",
+      "value": " Xi'an, Shaanxi Province, China"
+    },
+    {
+      "entry_id": "17456242_2294494_fact2",
+      "score": 0.7549574375152588,
+      "source_id": "17456242_2294494",
+      "value": " Shenzhen, Guangdong, China"
+    },
+    {
+      "entry_id": "31465862_3164343_fact57",
+      "score": 0.7486741542816162,
+      "source_id": "31465862_3164343",
+      "value": " Xi'an, Shaanxi Province"
+    },
+    {
+      "entry_id": "46545634_5746794_fact6",
+      "score": 0.7224910259246826,
+      "source_id": "46545634_5746794",
+      "value": " Shenzhen, Guangdong Province"
+    }
+  ],
+  "truncated": false
+}

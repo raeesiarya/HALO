@@ -1,0 +1,170 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "699628_396307_fact25",
+      "score": 0.9434090852737427,
+      "source_id": "699628_396307",
+      "value": " Nazi Germany"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "17651640_2466088_fact4",
+      "score": 0.9081974029541016,
+      "source_id": "17651640_2466088",
+      "value": " German forces"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "29906550_1803239_fact66",
+      "score": 0.9070217609405518,
+      "source_id": "29906550_1803239",
+      "value": " Nazi Germany"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "969476_6165243_fact21",
+      "score": 0.9059503078460693,
+      "source_id": "969476_6165243",
+      "value": " the Germans"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "2347484_749148_fact21",
+      "score": 0.9054666757583618,
+      "source_id": "2347484_749148",
+      "value": " the Germans"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "6644608_686766_fact43",
+      "score": 0.9015703201293945,
+      "source_id": "6644608_686766",
+      "value": " Nazi Germany"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "421709_406226_fact0",
+      "score": 0.8852176666259766,
+      "source_id": "421709_406226",
+      "value": " Nazi Germany"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "424606_421168_fact34",
+      "score": 0.880064070224762,
+      "source_id": "424606_421168",
+      "value": " Nazi Germany"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "10837731_2814923_fact13",
+      "score": 0.876533031463623,
+      "source_id": "10837731_2814923",
+      "value": " the Warsaw Pact troops"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1079413_347332_fact73",
+      "score": 0.865946352481842,
+      "source_id": "1079413_347332",
+      "value": " the German army"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "63146217_5627258_fact51",
+      "score": 0.8634294271469116,
+      "source_id": "63146217_5627258",
+      "value": " Nazi Germany"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "2585801_1139339_fact9",
+      "score": 0.8592059016227722,
+      "source_id": "2585801_1139339",
+      "value": " Germany"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "6995767_951325_fact72",
+      "score": 0.8559744358062744,
+      "source_id": "6995767_951325",
+      "value": " the Nazis"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "da6c8d17-ffe4-4cd9-8b16-9891e532feb0",
+  "index_nprobe": null,
+  "manifest_id": "405f016837b8d174",
+  "margin": 0.09760314226150513,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9434089660644531,
+  "s_surv": 0.845805823802948,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "28399_650656_fact181",
+      "score": 0.845805823802948,
+      "source_id": "28399_650656",
+      "value": " Germany"
+    },
+    {
+      "entry_id": "62181251_4987641_fact57",
+      "score": 0.8446197509765625,
+      "source_id": "62181251_4987641",
+      "value": " the Soviet Union"
+    },
+    {
+      "entry_id": "72664848_4924000_fact17",
+      "score": 0.8393682241439819,
+      "source_id": "72664848_4924000",
+      "value": " Nazi Germany"
+    },
+    {
+      "entry_id": "386023_216069_fact112",
+      "score": 0.8363267183303833,
+      "source_id": "386023_216069",
+      "value": " Nazi Germany"
+    },
+    {
+      "entry_id": "992613_115882_fact7",
+      "score": 0.8359042406082153,
+      "source_id": "992613_115882",
+      "value": " Nazi Germany"
+    }
+  ],
+  "truncated": false
+}

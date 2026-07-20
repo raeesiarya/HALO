@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "7630077_1514154_fact1",
+      "score": 0.9021559953689575,
+      "source_id": "7630077_1514154",
+      "value": " Perth, Western Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "774972_648416_fact1",
+      "score": 0.540080726146698,
+      "source_id": "774972_648416",
+      "value": " Perth, Western Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8701367_2930533_fact2",
+      "score": 0.5295077562332153,
+      "source_id": "8701367_2930533",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17210225_2067447_fact2",
+      "score": 0.4945859909057617,
+      "source_id": "17210225_2067447",
+      "value": " Perth, Western Australia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ad555f68-f46f-4620-97e9-b9d73eb44d94",
+  "index_nprobe": null,
+  "manifest_id": "d36b1b67797969d7",
+  "margin": 0.21995455026626587,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9021559953689575,
+  "s_surv": 0.6822014451026917,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "19778494_2152027_fact2",
+      "score": 0.6822014451026917,
+      "source_id": "19778494_2152027",
+      "value": " Bordeaux, Nouvelle-Aquitaine"
+    },
+    {
+      "entry_id": "4306518_995885_fact2",
+      "score": 0.6698136329650879,
+      "source_id": "4306518_995885",
+      "value": " London, England"
+    },
+    {
+      "entry_id": "887891_951056_fact2",
+      "score": 0.6629670858383179,
+      "source_id": "887891_951056",
+      "value": " Tokyo"
+    },
+    {
+      "entry_id": "1909829_1101926_fact2",
+      "score": 0.6582298278808594,
+      "source_id": "1909829_1101926",
+      "value": " Stockholm"
+    },
+    {
+      "entry_id": "23753062_3522416_fact1",
+      "score": 0.6342291235923767,
+      "source_id": "23753062_3522416",
+      "value": " Darmstadt, Germany"
+    }
+  ],
+  "truncated": false
+}

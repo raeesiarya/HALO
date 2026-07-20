@@ -1,0 +1,126 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "4660286_194236_fact7",
+      "score": 0.9318544864654541,
+      "source_id": "4660286_194236",
+      "value": " Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38324342_4081410_fact39",
+      "score": 0.6040674448013306,
+      "source_id": "38324342_4081410",
+      "value": " Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36832232_2943709_fact1",
+      "score": 0.567984402179718,
+      "source_id": "36832232_2943709",
+      "value": " Sydney, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3089430_715988_fact1",
+      "score": 0.5509463548660278,
+      "source_id": "3089430_715988",
+      "value": " Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "953750_6162917_fact10",
+      "score": 0.5487227439880371,
+      "source_id": "953750_6162917",
+      "value": " Sydney, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26175388_3494437_fact1",
+      "score": 0.5479322075843811,
+      "source_id": "26175388_3494437",
+      "value": " Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1360333_1074375_fact5",
+      "score": 0.5384063124656677,
+      "source_id": "1360333_1074375",
+      "value": " the Sydney district of Hornsby"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52470580_5346614_fact2",
+      "score": 0.5354965925216675,
+      "source_id": "52470580_5346614",
+      "value": " Sydney, New South Wales, Australia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "93b87f66-5fbf-4190-9d52-2ac0ce22ecb7",
+  "index_nprobe": null,
+  "manifest_id": "0f7fcb057bf35da8",
+  "margin": 0.1924259066581726,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9318544864654541,
+  "s_surv": 0.7394285798072815,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1834797_946653_fact1",
+      "score": 0.7394285798072815,
+      "source_id": "1834797_946653",
+      "value": " Chatham Borough, New Jersey"
+    },
+    {
+      "entry_id": "71313824_4078347_fact4",
+      "score": 0.7387226819992065,
+      "source_id": "71313824_4078347",
+      "value": " Philpstoun"
+    },
+    {
+      "entry_id": "64564285_4352912_fact4",
+      "score": 0.7365219593048096,
+      "source_id": "64564285_4352912",
+      "value": " Crawley"
+    },
+    {
+      "entry_id": "70573651_5905045_fact7",
+      "score": 0.7344663143157959,
+      "source_id": "70573651_5905045",
+      "value": " Billings, Montana"
+    },
+    {
+      "entry_id": "21843316_1724471_fact9",
+      "score": 0.7339462041854858,
+      "source_id": "21843316_1724471",
+      "value": " Vaughan Township, Upper Canada"
+    }
+  ],
+  "truncated": false
+}

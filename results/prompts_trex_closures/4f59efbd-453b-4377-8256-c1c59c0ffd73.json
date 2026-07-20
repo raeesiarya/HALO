@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "9753514_1734406_fact1",
+      "score": 0.9490635395050049,
+      "source_id": "9753514_1734406",
+      "value": " abbot and sailor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4372420_1064727_fact3",
+      "score": 0.6189746856689453,
+      "source_id": "4372420_1064727",
+      "value": " medieval Benedictine abbot"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9919036_1900574_fact1",
+      "score": 0.5676560401916504,
+      "source_id": "9919036_1900574",
+      "value": " monk and abbot"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52676449_5475680_fact8",
+      "score": 0.5256362557411194,
+      "source_id": "52676449_5475680",
+      "value": " eremitic early Christian monk St Anthony Abbot"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18747760_3486543_fact20",
+      "score": 0.5255687236785889,
+      "source_id": "18747760_3486543",
+      "value": " abbot of Rambona"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4f59efbd-453b-4377-8256-c1c59c0ffd73",
+  "index_nprobe": null,
+  "manifest_id": "eae34273d001def1",
+  "margin": 0.17613530158996582,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9490635395050049,
+  "s_surv": 0.7729282379150391,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7565765_1425566_fact50",
+      "score": 0.7729282379150391,
+      "source_id": "7565765_1425566",
+      "value": " Pilgrim"
+    },
+    {
+      "entry_id": "68011375_4187580_fact2",
+      "score": 0.7243703603744507,
+      "source_id": "68011375_4187580",
+      "value": " Brazilian"
+    },
+    {
+      "entry_id": "4372420_1064727_fact2",
+      "score": 0.7206465601921082,
+      "source_id": "4372420_1064727",
+      "value": " Italian"
+    },
+    {
+      "entry_id": "14088878_1630953_fact4",
+      "score": 0.7200682163238525,
+      "source_id": "14088878_1630953",
+      "value": " hermit"
+    },
+    {
+      "entry_id": "9753514_1734406_fact23",
+      "score": 0.6992108821868896,
+      "source_id": "9753514_1734406",
+      "value": " noble Catholic"
+    }
+  ],
+  "truncated": false
+}

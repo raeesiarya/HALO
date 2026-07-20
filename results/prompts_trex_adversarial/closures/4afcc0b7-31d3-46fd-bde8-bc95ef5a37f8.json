@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "14800425_2357895_fact23",
+      "score": 0.6774498224258423,
+      "source_id": "14800425_2357895",
+      "value": " chondrocytes"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34870612_1410627_fact1",
+      "score": 0.5525676012039185,
+      "source_id": "34870612_1410627",
+      "value": " modification of vitamin D-binding protein"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4afcc0b7-31d3-46fd-bde8-bc95ef5a37f8",
+  "index_nprobe": null,
+  "manifest_id": "20a96a8ce84492c6",
+  "margin": 0.004454612731933594,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6774498224258423,
+  "s_surv": 0.6729952096939087,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "36115646_2359757_fact15",
+      "score": 0.6729952096939087,
+      "source_id": "36115646_2359757",
+      "value": " chondrocytes located at the surface of articular cartilage"
+    },
+    {
+      "entry_id": "5620705_1019485_fact0",
+      "score": 0.6722531318664551,
+      "source_id": "5620705_1019485",
+      "value": " \"BMP4\" gene"
+    },
+    {
+      "entry_id": "4781874_303105_fact16",
+      "score": 0.6630357503890991,
+      "source_id": "4781874_303105",
+      "value": " ectoderm"
+    },
+    {
+      "entry_id": "575454_1097741_fact68",
+      "score": 0.6536069512367249,
+      "source_id": "575454_1097741",
+      "value": " CD4+ T cells"
+    },
+    {
+      "entry_id": "1759210_784412_fact4",
+      "score": 0.6492652893066406,
+      "source_id": "1759210_784412",
+      "value": " Sertoli cells"
+    }
+  ],
+  "truncated": false
+}

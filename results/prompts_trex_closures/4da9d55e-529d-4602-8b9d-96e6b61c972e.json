@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2796145_299334_fact1",
+      "score": 0.6937721967697144,
+      "source_id": "2796145_299334",
+      "value": " the Antarctic plateau"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1364424_1084162_fact23",
+      "score": 0.5599807500839233,
+      "source_id": "1364424_1084162",
+      "value": " West Antarctic Ice Sheet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29512682_1534549_fact0",
+      "score": 0.5585267543792725,
+      "source_id": "29512682_1534549",
+      "value": " the Antarctic polar plateau"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29590637_1604722_fact1",
+      "score": 0.5518165826797485,
+      "source_id": "29590637_1604722",
+      "value": " south of Cape Gray, Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "220775_360760_fact5",
+      "score": 0.531180202960968,
+      "source_id": "220775_360760",
+      "value": " Antarctic Peninsula"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4da9d55e-529d-4602-8b9d-96e6b61c972e",
+  "index_nprobe": null,
+  "manifest_id": "ff87043c8e1ab328",
+  "margin": 0.013778984546661377,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6937721967697144,
+  "s_surv": 0.679993212223053,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "11383424_3443683_fact14",
+      "score": 0.679993212223053,
+      "source_id": "11383424_3443683",
+      "value": " 3,000 foot (914 m)"
+    },
+    {
+      "entry_id": "8120178_2174628_fact24",
+      "score": 0.6660486459732056,
+      "source_id": "8120178_2174628",
+      "value": " 2000 feet"
+    },
+    {
+      "entry_id": "6079511_306990_fact13",
+      "score": 0.6557023525238037,
+      "source_id": "6079511_306990",
+      "value": " Canadian Pacific Railway tracks"
+    },
+    {
+      "entry_id": "10311221_2306723_fact10",
+      "score": 0.6456191539764404,
+      "source_id": "10311221_2306723",
+      "value": " Assiniboine River valley"
+    },
+    {
+      "entry_id": "1415088_1194896_fact30",
+      "score": 0.6452735066413879,
+      "source_id": "1415088_1194896",
+      "value": " Superior Upland"
+    }
+  ],
+  "truncated": false
+}

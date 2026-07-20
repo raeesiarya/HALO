@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "292690_806161_fact173",
+      "score": 0.726224422454834,
+      "source_id": "292690_806161",
+      "value": " three now-dry riverbeds"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58541889_4899344_fact8",
+      "score": 0.5252032279968262,
+      "source_id": "58541889_4899344",
+      "value": " Bahrain"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8fa25491-9074-4279-ac54-23e1e26b0eee",
+  "index_nprobe": null,
+  "manifest_id": "00d5ccf0e713ecac",
+  "margin": 0.006419122219085693,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7262243628501892,
+  "s_surv": 0.7198052406311035,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "12560590_2432880_fact29",
+      "score": 0.7198052406311035,
+      "source_id": "12560590_2432880",
+      "value": "locust and the grasshopper"
+    },
+    {
+      "entry_id": "25077403_2476923_fact8",
+      "score": 0.6590447425842285,
+      "source_id": "25077403_2476923",
+      "value": " Muslim dervishes"
+    },
+    {
+      "entry_id": "675945_330289_fact109",
+      "score": 0.6589045524597168,
+      "source_id": "675945_330289",
+      "value": " Hindu festival Diwali"
+    },
+    {
+      "entry_id": "350939_1186425_fact98",
+      "score": 0.6499711275100708,
+      "source_id": "350939_1186425",
+      "value": " Sabaean Kingdom"
+    },
+    {
+      "entry_id": "2202111_479005_fact25",
+      "score": 0.6481037139892578,
+      "source_id": "2202111_479005",
+      "value": " frankincense and myrrh trees"
+    }
+  ],
+  "truncated": false
+}

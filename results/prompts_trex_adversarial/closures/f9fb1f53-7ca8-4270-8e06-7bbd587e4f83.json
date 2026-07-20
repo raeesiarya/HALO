@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "92467_335488_fact6",
+      "score": 0.7625957727432251,
+      "source_id": "92467_335488",
+      "value": " Muddy Waters's band"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f9fb1f53-7ca8-4270-8e06-7bbd587e4f83",
+  "index_nprobe": null,
+  "manifest_id": "3498a09315322022",
+  "margin": 0.004927277565002441,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7625957727432251,
+  "s_surv": 0.7576684951782227,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "9141909_3514413_fact5",
+      "score": 0.7576684951782227,
+      "source_id": "9141909_3514413",
+      "value": " Manfred Mann's Earth Band"
+    },
+    {
+      "entry_id": "70700053_3674353_fact4",
+      "score": 0.7491809129714966,
+      "source_id": "70700053_3674353",
+      "value": " Frank Ocean"
+    },
+    {
+      "entry_id": "5642225_1039477_fact4",
+      "score": 0.7384949922561646,
+      "source_id": "5642225_1039477",
+      "value": " Frankie Howerd"
+    },
+    {
+      "entry_id": "3838927_493774_fact7",
+      "score": 0.7384925484657288,
+      "source_id": "3838927_493774",
+      "value": " Al Lohman"
+    },
+    {
+      "entry_id": "6356657_513102_fact4",
+      "score": 0.7351219654083252,
+      "source_id": "6356657_513102",
+      "value": " the Orb"
+    }
+  ],
+  "truncated": false
+}

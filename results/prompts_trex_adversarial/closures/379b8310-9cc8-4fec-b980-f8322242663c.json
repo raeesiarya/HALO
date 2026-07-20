@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3894257_553549_fact0",
+      "score": 0.7878626585006714,
+      "source_id": "3894257_553549",
+      "value": " French, Italian and Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38635566_4336640_fact0",
+      "score": 0.5205217599868774,
+      "source_id": "38635566_4336640",
+      "value": " French"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "379b8310-9cc8-4fec-b980-f8322242663c",
+  "index_nprobe": null,
+  "manifest_id": "84bde08757fd24e9",
+  "margin": 0.040952205657958984,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7878626585006714,
+  "s_surv": 0.7469104528427124,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "62585582_5266639_fact0",
+      "score": 0.7469104528427124,
+      "source_id": "62585582_5266639",
+      "value": " 1972"
+    },
+    {
+      "entry_id": "67360470_3695397_fact0",
+      "score": 0.7284888029098511,
+      "source_id": "67360470_3695397",
+      "value": " block copolymer protein"
+    },
+    {
+      "entry_id": "61825438_4742669_fact55",
+      "score": 0.7251623868942261,
+      "source_id": "61825438_4742669",
+      "value": "1965"
+    },
+    {
+      "entry_id": "3299094_1009678_fact1",
+      "score": 0.7106552720069885,
+      "source_id": "3299094_1009678",
+      "value": " 1990"
+    },
+    {
+      "entry_id": "3398681_1129571_fact46",
+      "score": 0.7047297954559326,
+      "source_id": "3398681_1129571",
+      "value": "1965"
+    }
+  ],
+  "truncated": false
+}

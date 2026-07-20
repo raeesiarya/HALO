@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "9097838_3462919_fact1",
+      "score": 0.7867321968078613,
+      "source_id": "9097838_3462919",
+      "value": " Vancouver, British Columbia, Canada"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b7ae82a2-dcd1-471f-bbed-a645a115e796",
+  "index_nprobe": null,
+  "manifest_id": "f724ff73d0cc6140",
+  "margin": 0.040306925773620605,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.786732017993927,
+  "s_surv": 0.7464250922203064,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "20281080_2595436_fact2",
+      "score": 0.7464250922203064,
+      "source_id": "20281080_2595436",
+      "value": " Annapolis, Maryland"
+    },
+    {
+      "entry_id": "438352_66483_fact0",
+      "score": 0.7352744936943054,
+      "source_id": "438352_66483",
+      "value": " Tel Aviv, Israel"
+    },
+    {
+      "entry_id": "2990428_572500_fact6",
+      "score": 0.7343454360961914,
+      "source_id": "2990428_572500",
+      "value": " Seattle"
+    },
+    {
+      "entry_id": "2362487_774918_fact0",
+      "score": 0.721576452255249,
+      "source_id": "2362487_774918",
+      "value": " American mobile computing company"
+    },
+    {
+      "entry_id": "26338806_1261252_fact3",
+      "score": 0.7210382223129272,
+      "source_id": "26338806_1261252",
+      "value": " Columbus, Ohio"
+    }
+  ],
+  "truncated": false
+}

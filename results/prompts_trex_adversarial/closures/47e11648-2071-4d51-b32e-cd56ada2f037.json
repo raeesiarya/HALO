@@ -1,0 +1,169 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2455283_936323_fact97",
+      "score": 0.7742719650268555,
+      "source_id": "2455283_936323",
+      "value": " the right of a person to be employed outside his or her resident province"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2455283_936323_fact0",
+      "score": 0.7515345811843872,
+      "source_id": "2455283_936323",
+      "value": " the mobility rights of Canadian citizens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2455283_936323_fact25",
+      "score": 0.718600332736969,
+      "source_id": "2455283_936323",
+      "value": " protect Canadian unity"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2455283_936323_fact23",
+      "score": 0.711194634437561,
+      "source_id": "2455283_936323",
+      "value": " rights to leave and move within Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2455283_936323_fact6",
+      "score": 0.6596460342407227,
+      "source_id": "2455283_936323",
+      "value": " protect Canadian unity"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5861954_131833_fact13",
+      "score": 0.6579475998878479,
+      "source_id": "5861954_131833",
+      "value": " citizens the right to stay in Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17167818_2030136_fact246",
+      "score": 0.6352172493934631,
+      "source_id": "17167818_2030136",
+      "value": "Every citizen of Canada has the right to enter, remain in and leave Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "299360_856842_fact5",
+      "score": 0.6316241025924683,
+      "source_id": "299360_856842",
+      "value": " Aboriginal peoples of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5835088_110567_fact35",
+      "score": 0.6310327053070068,
+      "source_id": "5835088_110567",
+      "value": " mobility rights for Canadian citizens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1806711_887505_fact2",
+      "score": 0.6018263697624207,
+      "source_id": "1806711_887505",
+      "value": " everyone in Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5548398_954975_fact11",
+      "score": 0.5975059270858765,
+      "source_id": "5548398_954975",
+      "value": " all individuals lawfully present in Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2966495_540732_fact14",
+      "score": 0.5959441661834717,
+      "source_id": "2966495_540732",
+      "value": " rights to move to and pursue work in the territories of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "157861_1030023_fact62",
+      "score": 0.586970329284668,
+      "source_id": "157861_1030023",
+      "value": " the locked out Canada Post workers"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "47e11648-2071-4d51-b32e-cd56ada2f037",
+  "index_nprobe": null,
+  "manifest_id": "e7b9e5fb3fd98caf",
+  "margin": 0.017961442470550537,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7742719054222107,
+  "s_surv": 0.7563104629516602,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "18042150_2789197_fact0",
+      "score": 0.7563104629516602,
+      "source_id": "18042150_2789197",
+      "value": " the right to a fair trial"
+    },
+    {
+      "entry_id": "16107721_3573037_fact14",
+      "score": 0.748857855796814,
+      "source_id": "16107721_3573037",
+      "value": " foreign antiquities and artefacts on display in the UK"
+    },
+    {
+      "entry_id": "371984_143357_fact96",
+      "score": 0.738267183303833,
+      "source_id": "371984_143357",
+      "value": " multicultural and aboriginal rights"
+    },
+    {
+      "entry_id": "18042150_2789197_fact1",
+      "score": 0.7194687724113464,
+      "source_id": "18042150_2789197",
+      "value": " the right to a public hearing before an independent and impartial tribunal within reasonable time"
+    },
+    {
+      "entry_id": "42453597_5199728_fact169",
+      "score": 0.7169623970985413,
+      "source_id": "42453597_5199728",
+      "value": " children, the disabled, the institutionalized, and drug addicts"
+    }
+  ],
+  "truncated": false
+}

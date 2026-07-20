@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "4997271_481534_fact1",
+      "score": 0.9363610744476318,
+      "source_id": "4997271_481534",
+      "value": " American"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "5003287_485811_fact1",
+      "score": 0.9339869022369385,
+      "source_id": "5003287_485811",
+      "value": " American"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "65324501_4764609_fact0",
+      "score": 0.9011549949645996,
+      "source_id": "65324501_4764609",
+      "value": " American rappers Lil Tecca and Lil Uzi Vert"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "5049891_524849_fact1",
+      "score": 0.8758172392845154,
+      "source_id": "5049891_524849",
+      "value": " American"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "615d66d1-65dd-48ba-a474-1de01640a576",
+  "index_nprobe": null,
+  "manifest_id": "f1fd32db5d87bf78",
+  "margin": 0.09636205434799194,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9363608956336975,
+  "s_surv": 0.8399988412857056,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1901017_1084048_fact2",
+      "score": 0.8399988412857056,
+      "source_id": "1901017_1084048",
+      "value": " American"
+    },
+    {
+      "entry_id": "56115338_5480694_fact1",
+      "score": 0.8230447769165039,
+      "source_id": "56115338_5480694",
+      "value": " Louis Armstrong and His All Stars"
+    },
+    {
+      "entry_id": "30501019_2211159_fact0",
+      "score": 0.813863217830658,
+      "source_id": "30501019_2211159",
+      "value": " American"
+    },
+    {
+      "entry_id": "31942270_1310950_fact0",
+      "score": 0.8129944205284119,
+      "source_id": "31942270_1310950",
+      "value": " American"
+    },
+    {
+      "entry_id": "64692835_4461827_fact2",
+      "score": 0.8051952123641968,
+      "source_id": "64692835_4461827",
+      "value": " American singer-songwriter"
+    }
+  ],
+  "truncated": false
+}

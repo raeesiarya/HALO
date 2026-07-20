@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "8221901_2304605_fact2",
+      "score": 0.9231870770454407,
+      "source_id": "8221901_2304605",
+      "value": " Blackpool, Lancashire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19326656_1774579_fact82",
+      "score": 0.6805546879768372,
+      "source_id": "19326656_1774579",
+      "value": " Blackpool"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8221901_2304605_fact39",
+      "score": 0.6594908237457275,
+      "source_id": "8221901_2304605",
+      "value": " Blackpool Sixth Form College"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "fdf6687c-6d21-40a0-8f01-241dd59eb4b7",
+  "index_nprobe": null,
+  "manifest_id": "dbed1ca7217e3b36",
+  "margin": 0.12249308824539185,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9231870770454407,
+  "s_surv": 0.8006939888000488,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8221901_2304605_fact3",
+      "score": 0.8006939888000488,
+      "source_id": "8221901_2304605",
+      "value": " 1977"
+    },
+    {
+      "entry_id": "5567972_970494_fact24",
+      "score": 0.780639111995697,
+      "source_id": "5567972_970494",
+      "value": " 1977"
+    },
+    {
+      "entry_id": "7329784_1170701_fact2",
+      "score": 0.699403703212738,
+      "source_id": "7329784_1170701",
+      "value": " 2001"
+    },
+    {
+      "entry_id": "994094_6170088_fact1",
+      "score": 0.6914231777191162,
+      "source_id": "994094_6170088",
+      "value": " February 1966"
+    },
+    {
+      "entry_id": "36973190_3063279_fact3",
+      "score": 0.690685510635376,
+      "source_id": "36973190_3063279",
+      "value": " Melbourne"
+    }
+  ],
+  "truncated": false
+}

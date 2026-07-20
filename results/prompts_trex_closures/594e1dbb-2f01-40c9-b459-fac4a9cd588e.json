@@ -1,0 +1,143 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "8619926_2823358_fact2",
+      "score": 0.8048642873764038,
+      "source_id": "8619926_2823358",
+      "value": " East Java province"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38937969_4593332_fact19",
+      "score": 0.6309844255447388,
+      "source_id": "38937969_4593332",
+      "value": " Mojokerto Regency, East Java"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2166019_411179_fact8",
+      "score": 0.6126219034194946,
+      "source_id": "2166019_411179",
+      "value": " Central Java Province"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25510416_2876591_fact1",
+      "score": 0.6049544811248779,
+      "source_id": "25510416_2876591",
+      "value": " Karyamukti, Campaka, Cianjur Regency, West Java, Indonesia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33146733_2299041_fact0",
+      "score": 0.5990172028541565,
+      "source_id": "33146733_2299041",
+      "value": " the Jepara, Central Java"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12537575_2405480_fact9",
+      "score": 0.5937498211860657,
+      "source_id": "12537575_2405480",
+      "value": " West Java"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1126510_475852_fact36",
+      "score": 0.5863065719604492,
+      "source_id": "1126510_475852",
+      "value": " southern Java"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8635434_2845667_fact3",
+      "score": 0.5823352336883545,
+      "source_id": "8635434_2845667",
+      "value": " East Java, Indonesia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27473409_2198708_fact12",
+      "score": 0.5786747932434082,
+      "source_id": "27473409_2198708",
+      "value": " West Java, Indonesia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "640348_208879_fact7",
+      "score": 0.5759711861610413,
+      "source_id": "640348_208879",
+      "value": " Central Java"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "594e1dbb-2f01-40c9-b459-fac4a9cd588e",
+  "index_nprobe": null,
+  "manifest_id": "207a928b8e970f62",
+  "margin": 0.042145371437072754,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8048642873764038,
+  "s_surv": 0.762718915939331,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "31128410_2846700_fact3",
+      "score": 0.762718915939331,
+      "source_id": "31128410_2846700",
+      "value": " Barangay Magsaysay"
+    },
+    {
+      "entry_id": "31997583_1357207_fact1",
+      "score": 0.7193511128425598,
+      "source_id": "31997583_1357207",
+      "value": " Bandung Regency"
+    },
+    {
+      "entry_id": "2043576_198267_fact5",
+      "score": 0.7134822607040405,
+      "source_id": "2043576_198267",
+      "value": " Barangay Magsaysay"
+    },
+    {
+      "entry_id": "31128410_2846700_fact12",
+      "score": 0.7128620147705078,
+      "source_id": "31128410_2846700",
+      "value": " Central Cebu Protected Landscape"
+    },
+    {
+      "entry_id": "21734450_1603880_fact3",
+      "score": 0.7050541639328003,
+      "source_id": "21734450_1603880",
+      "value": " Penataran, Blitar Regency"
+    }
+  ],
+  "truncated": false
+}

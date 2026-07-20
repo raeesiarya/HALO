@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "704562_411601_fact6",
+      "score": 0.887615442276001,
+      "source_id": "704562_411601",
+      "value": " Belgian town of Ghent"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23514824_3248728_fact31",
+      "score": 0.46086955070495605,
+      "source_id": "23514824_3248728",
+      "value": " the western part of the Belgian coast"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1928570_1140538_fact13",
+      "score": 0.45066404342651367,
+      "source_id": "1928570_1140538",
+      "value": " equality law between French and Flemish in Belgium"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "986729_6168781_fact13",
+      "score": 0.449374258518219,
+      "source_id": "986729_6168781",
+      "value": " equality law between French and Flemish in Belgium"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "58a90b2b-f6c9-4f28-adf4-4bcb6eaa595d",
+  "index_nprobe": null,
+  "manifest_id": "205255c909c20084",
+  "margin": 0.2936208248138428,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.887615442276001,
+  "s_surv": 0.5939946174621582,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3823485_476022_fact15",
+      "score": 0.5939946174621582,
+      "source_id": "3823485_476022",
+      "value": "Sea Beggars"
+    },
+    {
+      "entry_id": "2710553_197127_fact27",
+      "score": 0.5790436267852783,
+      "source_id": "2710553_197127",
+      "value": "Sea Beggars"
+    },
+    {
+      "entry_id": "121120_624961_fact27",
+      "score": 0.5766706466674805,
+      "source_id": "121120_624961",
+      "value": "Dutch rebels against Spanish rule"
+    },
+    {
+      "entry_id": "4255170_944757_fact10",
+      "score": 0.5764641165733337,
+      "source_id": "4255170_944757",
+      "value": " the waterway between Monnickendam and Amsterdam"
+    },
+    {
+      "entry_id": "13876796_1425770_fact17",
+      "score": 0.5733917951583862,
+      "source_id": "13876796_1425770",
+      "value": " Dutch equivalent of Beverly Hills"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,242 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "24559053_2003734_fact21",
+      "score": 0.9229997396469116,
+      "source_id": "24559053_2003734",
+      "value": " Concept Vision EfficientDynamics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18964684_1407778_fact15",
+      "score": 0.7002972364425659,
+      "source_id": "18964684_1407778",
+      "value": " BMW Concept X1"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56851329_3640805_fact6",
+      "score": 0.6512479186058044,
+      "source_id": "56851329_3640805",
+      "value": " BMW i Vision Dynamics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35901792_2173706_fact3",
+      "score": 0.6473830342292786,
+      "source_id": "35901792_2173706",
+      "value": " BMW Concept X2"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3772_127817_fact32",
+      "score": 0.6077556014060974,
+      "source_id": "3772_127817",
+      "value": " BMW IIIa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31072369_2794341_fact4",
+      "score": 0.6052548885345459,
+      "source_id": "31072369_2794341",
+      "value": " BMW XV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31072161_2794037_fact4",
+      "score": 0.6044321060180664,
+      "source_id": "31072161_2794037",
+      "value": " BMW XII"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13147596_3108002_fact165",
+      "score": 0.5994651913642883,
+      "source_id": "13147596_3108002",
+      "value": " BMW OHV V8 engine"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12708734_2602245_fact11",
+      "score": 0.5978415012359619,
+      "source_id": "12708734_2602245",
+      "value": " BMW IIIa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2006780_136471_fact6",
+      "score": 0.596638560295105,
+      "source_id": "2006780_136471",
+      "value": " BMW Dixi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69195142_5023508_fact4",
+      "score": 0.5946928262710571,
+      "source_id": "69195142_5023508",
+      "value": " battery electric version of the BMW X3 (G01)."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3772_127817_fact43",
+      "score": 0.5931353569030762,
+      "source_id": "3772_127817",
+      "value": "BMW 3/15\","
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24559053_2003734_fact3",
+      "score": 0.5850580334663391,
+      "source_id": "24559053_2003734",
+      "value": " BMW i sub-brand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15644607_3127488_fact114",
+      "score": 0.5816081762313843,
+      "source_id": "15644607_3127488",
+      "value": " BMW 502 saloon car"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "257010_6027305_fact142",
+      "score": 0.5747970342636108,
+      "source_id": "257010_6027305",
+      "value": " BMW Sauber F1.08"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12708734_2602245_fact22",
+      "score": 0.5704845786094666,
+      "source_id": "12708734_2602245",
+      "value": "BMW 3/15\"."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "200658_222685_fact93",
+      "score": 0.5694590210914612,
+      "source_id": "200658_222685",
+      "value": " BMW M1 mid-engine sport car"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12708734_2602245_fact14",
+      "score": 0.5653883814811707,
+      "source_id": "12708734_2602245",
+      "value": "BMW R32\","
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18964684_1407778_fact5",
+      "score": 0.5650306940078735,
+      "source_id": "18964684_1407778",
+      "value": " smallest SUV in BMW line-up"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "882164_933853_fact131",
+      "score": 0.5625028014183044,
+      "source_id": "882164_933853",
+      "value": "BMW Motorsport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "200658_222685_fact81",
+      "score": 0.5570013523101807,
+      "source_id": "200658_222685",
+      "value": " BMW IIIa straight-six aircraft engine"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5c7490d7-f329-4973-96cf-7ea5ab3daed4",
+  "index_nprobe": null,
+  "manifest_id": "24c25a360cd03add",
+  "margin": 0.1789129376411438,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9229997396469116,
+  "s_surv": 0.7440868020057678,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "60359833_3673387_fact15",
+      "score": 0.7440868020057678,
+      "source_id": "60359833_3673387",
+      "value": " Audi LeMans Quattro concept car"
+    },
+    {
+      "entry_id": "882172_933955_fact88",
+      "score": 0.7304130792617798,
+      "source_id": "882172_933955",
+      "value": " highest specification available"
+    },
+    {
+      "entry_id": "1421492_1210889_fact11",
+      "score": 0.7167696356773376,
+      "source_id": "1421492_1210889",
+      "value": " concept car"
+    },
+    {
+      "entry_id": "53283941_5878308_fact8",
+      "score": 0.7125602960586548,
+      "source_id": "53283941_5878308",
+      "value": "Mercedes F1 W08"
+    },
+    {
+      "entry_id": "45061322_4937762_fact5",
+      "score": 0.7100419998168945,
+      "source_id": "45061322_4937762",
+      "value": " F8"
+    }
+  ],
+  "truncated": false
+}

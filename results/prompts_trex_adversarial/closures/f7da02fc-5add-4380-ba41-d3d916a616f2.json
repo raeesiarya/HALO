@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1874469_1029452_fact1",
+      "score": 0.7622796297073364,
+      "source_id": "1874469_1029452",
+      "value": " indoor arena"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f7da02fc-5add-4380-ba41-d3d916a616f2",
+  "index_nprobe": null,
+  "manifest_id": "a83f34cee8b10535",
+  "margin": 0.09862279891967773,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7622796297073364,
+  "s_surv": 0.6636568307876587,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "45672795_5406123_fact42",
+      "score": 0.6636568307876587,
+      "source_id": "45672795_5406123",
+      "value": " tenant"
+    },
+    {
+      "entry_id": "2524694_1043846_fact0",
+      "score": 0.6551133394241333,
+      "source_id": "2524694_1043846",
+      "value": " chain of supermarkets"
+    },
+    {
+      "entry_id": "2300188_663308_fact286",
+      "score": 0.6527376174926758,
+      "source_id": "2300188_663308",
+      "value": " food truck which delivers vegan food"
+    },
+    {
+      "entry_id": "4101775_773329_fact162",
+      "score": 0.6515418291091919,
+      "source_id": "4101775_773329",
+      "value": " popular chain of grocery stores"
+    },
+    {
+      "entry_id": "3649140_286738_fact98",
+      "score": 0.6487213373184204,
+      "source_id": "3649140_286738",
+      "value": " volunteer organisation that collects food for those in need at football matches and various local events"
+    }
+  ],
+  "truncated": false
+}

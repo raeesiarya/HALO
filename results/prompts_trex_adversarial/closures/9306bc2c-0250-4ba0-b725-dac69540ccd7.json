@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "45389891_5169217_fact4",
+      "score": 0.7462106943130493,
+      "source_id": "45389891_5169217",
+      "value": " \u201cAshton-Kirk, Investigator\u201d series"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9306bc2c-0250-4ba0-b725-dac69540ccd7",
+  "index_nprobe": null,
+  "manifest_id": "a69bb23ef4beba00",
+  "margin": 0.016150951385498047,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7462106943130493,
+  "s_surv": 0.7300597429275513,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "40628099_3588228_fact2",
+      "score": 0.7300597429275513,
+      "source_id": "40628099_3588228",
+      "value": " Talkartoons series"
+    },
+    {
+      "entry_id": "31316475_3026241_fact6",
+      "score": 0.7158299684524536,
+      "source_id": "31316475_3026241",
+      "value": " DC Extended Universe (DCEU)"
+    },
+    {
+      "entry_id": "3889952_549054_fact40",
+      "score": 0.7105088233947754,
+      "source_id": "3889952_549054",
+      "value": " American"
+    },
+    {
+      "entry_id": "29200671_1310084_fact9",
+      "score": 0.7092784643173218,
+      "source_id": "29200671_1310084",
+      "value": " Hillman-series"
+    },
+    {
+      "entry_id": "69342166_5126310_fact9",
+      "score": 0.7074317932128906,
+      "source_id": "69342166_5126310",
+      "value": " Udayakrishna Cinematic Universe"
+    }
+  ],
+  "truncated": false
+}

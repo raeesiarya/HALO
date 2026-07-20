@@ -1,0 +1,152 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "8470538_2624803_fact38",
+      "score": 0.8176184296607971,
+      "source_id": "8470538_2624803",
+      "value": " guitar, banjo, and sang"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "198362_205891_fact55",
+      "score": 0.7980446219444275,
+      "source_id": "198362_205891",
+      "value": "guitar, banjo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16946292_1830862_fact5",
+      "score": 0.5756557583808899,
+      "source_id": "16946292_1830862",
+      "value": " violin and banjo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2746719_242030_fact5",
+      "score": 0.5755894184112549,
+      "source_id": "2746719_242030",
+      "value": " banjo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51810632_4889173_fact11",
+      "score": 0.5560733079910278,
+      "source_id": "51810632_4889173",
+      "value": " banjo ukulele"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26484036_1378755_fact27",
+      "score": 0.5406998991966248,
+      "source_id": "26484036_1378755",
+      "value": " banjo, guitar, harmonica, horn, mandolin and violin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71875746_4436117_fact14",
+      "score": 0.5398659706115723,
+      "source_id": "71875746_4436117",
+      "value": " banjo, drums, guitar, and piano"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6461338_576502_fact58",
+      "score": 0.529950737953186,
+      "source_id": "6461338_576502",
+      "value": " a banjo, a guitar or his trademark accordion"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "188533_132686_fact91",
+      "score": 0.5291776657104492,
+      "source_id": "188533_132686",
+      "value": " keyboards, accordion, acoustic guitar, mandolin, banjo and harmonica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42648223_5370731_fact44",
+      "score": 0.5210264921188354,
+      "source_id": "42648223_5370731",
+      "value": " the five-string banjo and the harmonica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "177276_1231171_fact28",
+      "score": 0.519365131855011,
+      "source_id": "177276_1231171",
+      "value": " piano, banjo, mandolin, mandola, guitar and bass"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "77efbee6-10ad-4641-a8a5-c571535931c0",
+  "index_nprobe": null,
+  "manifest_id": "19d0fc58e68cc621",
+  "margin": 0.10943049192428589,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8176184296607971,
+  "s_surv": 0.7081879377365112,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8470538_2624803_fact25",
+      "score": 0.7081879377365112,
+      "source_id": "8470538_2624803",
+      "value": " Dixieland"
+    },
+    {
+      "entry_id": "37920515_3717449_fact49",
+      "score": 0.701024055480957,
+      "source_id": "37920515_3717449",
+      "value": " guitar"
+    },
+    {
+      "entry_id": "8470538_2624803_fact7",
+      "score": 0.6984539031982422,
+      "source_id": "8470538_2624803",
+      "value": " trumpet"
+    },
+    {
+      "entry_id": "1743447_750283_fact118",
+      "score": 0.6867864727973938,
+      "source_id": "1743447_750283",
+      "value": " organ"
+    },
+    {
+      "entry_id": "8470538_2624803_fact33",
+      "score": 0.6662678718566895,
+      "source_id": "8470538_2624803",
+      "value": " bass guitar"
+    }
+  ],
+  "truncated": false
+}

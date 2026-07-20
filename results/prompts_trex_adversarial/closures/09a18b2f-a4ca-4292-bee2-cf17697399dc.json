@@ -1,0 +1,529 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "958171_6163490_fact4",
+      "score": 0.8007428646087646,
+      "source_id": "958171_6163490",
+      "value": " \"Good Morning Britain\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9718728_1698017_fact78",
+      "score": 0.6749290227890015,
+      "source_id": "9718728_1698017",
+      "value": " CNN, BBC, PBS, NPR and ABC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "925294_1075176_fact16",
+      "score": 0.6693123579025269,
+      "source_id": "925294_1075176",
+      "value": " BBC Sport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57453715_4116407_fact14",
+      "score": 0.6524678468704224,
+      "source_id": "57453715_4116407",
+      "value": " the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1929137_1141466_fact101",
+      "score": 0.6486155390739441,
+      "source_id": "1929137_1141466",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1351423_1052207_fact53",
+      "score": 0.6464930772781372,
+      "source_id": "1351423_1052207",
+      "value": " BBC Radio Scotland's \"Sportsound\" programme"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3610197_238072_fact50",
+      "score": 0.6325163841247559,
+      "source_id": "3610197_238072",
+      "value": " BBC Radio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2092829_286061_fact16",
+      "score": 0.6262208223342896,
+      "source_id": "2092829_286061",
+      "value": " BBC, ITV and Channel 4"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45389083_5168387_fact25",
+      "score": 0.6260323524475098,
+      "source_id": "45389083_5168387",
+      "value": " ESPN Star Sports and BBC 5 Live"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34446644_3403267_fact2",
+      "score": 0.6247907876968384,
+      "source_id": "34446644_3403267",
+      "value": " BBC Radio and Seattle Sounders FC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24914744_2327662_fact150",
+      "score": 0.6226624846458435,
+      "source_id": "24914744_2327662",
+      "value": " ITV and BBC broadcasts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22538855_2354115_fact38",
+      "score": 0.6224496364593506,
+      "source_id": "22538855_2354115",
+      "value": " BBC television and radio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68868280_4823528_fact46",
+      "score": 0.6221531629562378,
+      "source_id": "68868280_4823528",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13254263_3209631_fact22",
+      "score": 0.621110737323761,
+      "source_id": "13254263_3209631",
+      "value": " British television and the BBC World Service"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1397641_1155063_fact7",
+      "score": 0.6187276244163513,
+      "source_id": "1397641_1155063",
+      "value": " BBC radio and television"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10636962_2625539_fact24",
+      "score": 0.6160439252853394,
+      "source_id": "10636962_2625539",
+      "value": " BBC Wales Today"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12801556_2715523_fact18",
+      "score": 0.6155349016189575,
+      "source_id": "12801556_2715523",
+      "value": " the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6680914_702655_fact40",
+      "score": 0.6128813624382019,
+      "source_id": "6680914_702655",
+      "value": " the BBC and BSkyB"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7662385_1556423_fact51",
+      "score": 0.6109734773635864,
+      "source_id": "7662385_1556423",
+      "value": " BBC World News (global), BBC Breakfast TV (UK), Sky News, Radio National (Australia), BBC Radio 5 Live (UK)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3430865_1166177_fact129",
+      "score": 0.6102921962738037,
+      "source_id": "3430865_1166177",
+      "value": " BBC radio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5406518_838724_fact30",
+      "score": 0.6101706027984619,
+      "source_id": "5406518_838724",
+      "value": " Sky Sports, BBC Radio Cymru and BBC Cymru Wales"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "621568_137492_fact29",
+      "score": 0.6092821955680847,
+      "source_id": "621568_137492",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33677925_2738485_fact27",
+      "score": 0.6085696220397949,
+      "source_id": "33677925_2738485",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "195258_181868_fact20",
+      "score": 0.6073743104934692,
+      "source_id": "195258_181868",
+      "value": " the BBC and Virgin Media Television"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21643820_1517478_fact8",
+      "score": 0.605955958366394,
+      "source_id": "21643820_1517478",
+      "value": " BBC Radio Stoke"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "292225_802405_fact435",
+      "score": 0.6055028438568115,
+      "source_id": "292225_802405",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57117976_3846967_fact4",
+      "score": 0.6052426099777222,
+      "source_id": "57117976_3846967",
+      "value": " Bloomberg TV, BBC, CNN, and NPR"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29309496_1376775_fact22",
+      "score": 0.6043598651885986,
+      "source_id": "29309496_1376775",
+      "value": " BBC Alba"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2012905_148279_fact27",
+      "score": 0.6041663885116577,
+      "source_id": "2012905_148279",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6010539_251410_fact31",
+      "score": 0.6036524772644043,
+      "source_id": "6010539_251410",
+      "value": " BBC radio Newcastle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "435558_480194_fact125",
+      "score": 0.6020973920822144,
+      "source_id": "435558_480194",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14060619_1604780_fact57",
+      "score": 0.6013215780258179,
+      "source_id": "14060619_1604780",
+      "value": " the BBC and Eurosport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1410759_1183935_fact187",
+      "score": 0.5987078547477722,
+      "source_id": "1410759_1183935",
+      "value": " BBC Radio 5 Live Sports Extra"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24212170_1674517_fact61",
+      "score": 0.5975309014320374,
+      "source_id": "24212170_1674517",
+      "value": " BBC Wales"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29770725_1726659_fact5",
+      "score": 0.5968559980392456,
+      "source_id": "29770725_1726659",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1938599_1158142_fact15",
+      "score": 0.5958373546600342,
+      "source_id": "1938599_1158142",
+      "value": " BBC, NPR and CNN"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8372929_2504990_fact73",
+      "score": 0.5937842130661011,
+      "source_id": "8372929_2504990",
+      "value": " BBC Radio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1834797_946653_fact44",
+      "score": 0.5929467678070068,
+      "source_id": "1834797_946653",
+      "value": " Sky Sports, Eurosport and the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4196083_882205_fact73",
+      "score": 0.5927819609642029,
+      "source_id": "4196083_882205",
+      "value": " BBC Radio 5 Live"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10946578_2944628_fact148",
+      "score": 0.5926608443260193,
+      "source_id": "10946578_2944628",
+      "value": " BBC Sport's"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32235579_1552828_fact22",
+      "score": 0.5922524929046631,
+      "source_id": "32235579_1552828",
+      "value": " CTV, CBC Television, CBC Radio, T\u00e9l\u00e9vision de Radio-Canada and the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7079813_1006910_fact34",
+      "score": 0.5909499526023865,
+      "source_id": "7079813_1006910",
+      "value": " BBC Radio Scotland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10636962_2625539_fact26",
+      "score": 0.5900843739509583,
+      "source_id": "10636962_2625539",
+      "value": " BBC News"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2994907_578909_fact18",
+      "score": 0.5895273685455322,
+      "source_id": "2994907_578909",
+      "value": " BBC Radio Lancashire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19746956_2119869_fact7",
+      "score": 0.5892568230628967,
+      "source_id": "19746956_2119869",
+      "value": " BBC Alba and BBC Radio nan G\u00e0idheal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24914744_2327662_fact27",
+      "score": 0.5890871286392212,
+      "source_id": "24914744_2327662",
+      "value": " the BBC and ITV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1945024_1172664_fact166",
+      "score": 0.5866330862045288,
+      "source_id": "1945024_1172664",
+      "value": " BBC Sport golf coverage"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6095191_319143_fact3",
+      "score": 0.5844264626502991,
+      "source_id": "6095191_319143",
+      "value": " BBC pre-school television channel CBeebies"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "617752_122464_fact63",
+      "score": 0.5840046405792236,
+      "source_id": "617752_122464",
+      "value": " BBC and ITV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67569202_3854920_fact390",
+      "score": 0.5838904976844788,
+      "source_id": "67569202_3854920",
+      "value": " the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1862751_1004769_fact61",
+      "score": 0.583003044128418,
+      "source_id": "1862751_1004769",
+      "value": " BBC Radio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2139343_361501_fact132",
+      "score": 0.5823380351066589,
+      "source_id": "2139343_361501",
+      "value": " BBC Radio Humberside"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25437633_2802460_fact45",
+      "score": 0.5822519063949585,
+      "source_id": "25437633_2802460",
+      "value": " BBC Radio Manchester"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "09a18b2f-a4ca-4292-bee2-cf17697399dc",
+  "index_nprobe": null,
+  "manifest_id": "3f46ddcb684f57c9",
+  "margin": 0.03994178771972656,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8007428646087646,
+  "s_surv": 0.7608010768890381,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "10636962_2625539_fact3",
+      "score": 0.7608010768890381,
+      "source_id": "10636962_2625539",
+      "value": " \"Good Morning Britain\" and on \"Countryfile\"."
+    },
+    {
+      "entry_id": "6190467_398753_fact176",
+      "score": 0.7465830445289612,
+      "source_id": "6190467_398753",
+      "value": " Fox 5 San Diego"
+    },
+    {
+      "entry_id": "40687505_3645723_fact5",
+      "score": 0.7021678686141968,
+      "source_id": "40687505_3645723",
+      "value": " CBC Newsworld"
+    },
+    {
+      "entry_id": "1603361_442548_fact80",
+      "score": 0.6995947360992432,
+      "source_id": "1603361_442548",
+      "value": " Rogers Sportsnet"
+    },
+    {
+      "entry_id": "1603361_442548_fact79",
+      "score": 0.6945642828941345,
+      "source_id": "1603361_442548",
+      "value": " Toronto Blue Jays"
+    }
+  ],
+  "truncated": false
+}

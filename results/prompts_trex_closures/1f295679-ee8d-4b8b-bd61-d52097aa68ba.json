@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "10874659_2855813_fact4",
+      "score": 0.9219561815261841,
+      "source_id": "10874659_2855813",
+      "value": " Catholic Cardinal"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1f295679-ee8d-4b8b-bd61-d52097aa68ba",
+  "index_nprobe": null,
+  "manifest_id": "fefd391de9a0945f",
+  "margin": 0.14238429069519043,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9219561815261841,
+  "s_surv": 0.7795718908309937,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "54196633_4180645_fact2",
+      "score": 0.7795718908309937,
+      "source_id": "54196633_4180645",
+      "value": " Cameroonian"
+    },
+    {
+      "entry_id": "2853513_380160_fact2",
+      "score": 0.7646332383155823,
+      "source_id": "2853513_380160",
+      "value": " French"
+    },
+    {
+      "entry_id": "49994291_5875798_fact2",
+      "score": 0.7548928260803223,
+      "source_id": "49994291_5875798",
+      "value": " French"
+    },
+    {
+      "entry_id": "57174341_3889340_fact2",
+      "score": 0.7509729862213135,
+      "source_id": "57174341_3889340",
+      "value": " French"
+    },
+    {
+      "entry_id": "22717017_2526419_fact4",
+      "score": 0.7371439933776855,
+      "source_id": "22717017_2526419",
+      "value": " French"
+    }
+  ],
+  "truncated": false
+}

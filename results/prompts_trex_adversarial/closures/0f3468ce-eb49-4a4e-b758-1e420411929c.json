@@ -1,0 +1,214 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "68080546_4235982_fact3",
+      "score": 0.8306097984313965,
+      "source_id": "68080546_4235982",
+      "value": " Kairouan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73011505_5109482_fact2",
+      "score": 0.766205906867981,
+      "source_id": "73011505_5109482",
+      "value": " Baghdad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27429003_2159566_fact5",
+      "score": 0.7318862080574036,
+      "source_id": "27429003_2159566",
+      "value": " Baghdad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45677009_5409080_fact2",
+      "score": 0.7131714820861816,
+      "source_id": "45677009_5409080",
+      "value": " Darb al-Ajurr in western Baghdad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70470515_5831462_fact3",
+      "score": 0.7003543376922607,
+      "source_id": "70470515_5831462",
+      "value": " Baghdad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1253591_829283_fact4",
+      "score": 0.6780861616134644,
+      "source_id": "1253591_829283",
+      "value": " Baghdad, Iraq"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11091123_3113159_fact3",
+      "score": 0.6715220212936401,
+      "source_id": "11091123_3113159",
+      "value": " Baghdad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43867819_3964284_fact2",
+      "score": 0.6701936721801758,
+      "source_id": "43867819_3964284",
+      "value": " Baghdad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27588679_2295447_fact3",
+      "score": 0.6487243175506592,
+      "source_id": "27588679_2295447",
+      "value": " Baghdad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4728767_255376_fact6",
+      "score": 0.6482437252998352,
+      "source_id": "4728767_255376",
+      "value": " Baghdad, Iraq"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5391369_825918_fact22",
+      "score": 0.6430217027664185,
+      "source_id": "5391369_825918",
+      "value": " Baghdad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70484442_5839984_fact5",
+      "score": 0.640320897102356,
+      "source_id": "70484442_5839984",
+      "value": " 11th-century Baghdad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1087499_366648_fact106",
+      "score": 0.639922022819519,
+      "source_id": "1087499_366648",
+      "value": " Baghdad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5108403_574165_fact11",
+      "score": 0.6362898945808411,
+      "source_id": "5108403_574165",
+      "value": " Kufa and Baghdad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8236633_2326016_fact5",
+      "score": 0.6293127536773682,
+      "source_id": "8236633_2326016",
+      "value": " Abbasid-era Baghdad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24293609_1745528_fact27",
+      "score": 0.6264963150024414,
+      "source_id": "24293609_1745528",
+      "value": " Baghdad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68651935_4656763_fact4",
+      "score": 0.6248929500579834,
+      "source_id": "68651935_4656763",
+      "value": " Baghdad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13279050_3236608_fact3",
+      "score": 0.6243771314620972,
+      "source_id": "13279050_3236608",
+      "value": " Baghdad"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0f3468ce-eb49-4a4e-b758-1e420411929c",
+  "index_nprobe": null,
+  "manifest_id": "2e4fbcb049d1c21b",
+  "margin": 0.004750609397888184,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8306097984313965,
+  "s_surv": 0.8258591890335083,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "10228966_2232488_fact3",
+      "score": 0.8258591890335083,
+      "source_id": "10228966_2232488",
+      "value": " Seville"
+    },
+    {
+      "entry_id": "66769982_5731425_fact4",
+      "score": 0.7938046455383301,
+      "source_id": "66769982_5731425",
+      "value": " Arab tribe of Banu Fazara"
+    },
+    {
+      "entry_id": "1759881_785825_fact5",
+      "score": 0.7852815389633179,
+      "source_id": "1759881_785825",
+      "value": " Khorasan"
+    },
+    {
+      "entry_id": "2232040_531937_fact3",
+      "score": 0.7822972536087036,
+      "source_id": "2232040_531937",
+      "value": " Guzgan"
+    },
+    {
+      "entry_id": "63827229_3769477_fact3",
+      "score": 0.7757787704467773,
+      "source_id": "63827229_3769477",
+      "value": " Ghafiq"
+    }
+  ],
+  "truncated": false
+}

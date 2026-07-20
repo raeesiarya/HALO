@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "2008784_140071_fact1",
+      "score": 0.9153112173080444,
+      "source_id": "2008784_140071",
+      "value": " British"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2008784_140071_fact2",
+      "score": 0.8536738157272339,
+      "source_id": "2008784_140071",
+      "value": " jazz saxophonist, novelist, political activist, and writer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41974795_4796025_fact3",
+      "score": 0.7534840106964111,
+      "source_id": "41974795_4796025",
+      "value": " jazz guitarist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2708655_195395_fact2",
+      "score": 0.6829798221588135,
+      "source_id": "2708655_195395",
+      "value": " jazz pianist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46489177_5699297_fact3",
+      "score": 0.6194692850112915,
+      "source_id": "46489177_5699297",
+      "value": " pianist, composer, and jazz educator"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6777702_780580_fact3",
+      "score": 0.6152476072311401,
+      "source_id": "6777702_780580",
+      "value": " jazz pianist and accordionist"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2bff9aae-0fb2-40c6-bd4b-5e9fbfada1e9",
+  "index_nprobe": null,
+  "manifest_id": "50728affca69ee6a",
+  "margin": 0.07557791471481323,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9153112173080444,
+  "s_surv": 0.8397333025932312,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "21866130_1742988_fact21",
+      "score": 0.8397333025932312,
+      "source_id": "21866130_1742988",
+      "value": " an Israeli-born British, political activist and writer"
+    },
+    {
+      "entry_id": "69786186_5416845_fact1",
+      "score": 0.7677322626113892,
+      "source_id": "69786186_5416845",
+      "value": " contemporary Israeli painter"
+    },
+    {
+      "entry_id": "49351563_5493592_fact40",
+      "score": 0.7537323832511902,
+      "source_id": "49351563_5493592",
+      "value": " Israeli former deputy ambassador based in Kenya"
+    },
+    {
+      "entry_id": "46513139_5720236_fact1",
+      "score": 0.7457765340805054,
+      "source_id": "46513139_5720236",
+      "value": " Israeli"
+    },
+    {
+      "entry_id": "53292679_5883564_fact2",
+      "score": 0.7397929430007935,
+      "source_id": "53292679_5883564",
+      "value": " Israeli"
+    }
+  ],
+  "truncated": false
+}

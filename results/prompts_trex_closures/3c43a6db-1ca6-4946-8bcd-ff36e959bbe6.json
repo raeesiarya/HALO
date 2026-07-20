@@ -1,0 +1,134 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "22838857_2646176_fact0",
+      "score": 0.8029815554618835,
+      "source_id": "22838857_2646176",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23585683_3339344_fact130",
+      "score": 0.6710095405578613,
+      "source_id": "23585683_3339344",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4002952_668991_fact92",
+      "score": 0.6420454382896423,
+      "source_id": "4002952_668991",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30746724_2413347_fact12",
+      "score": 0.6419222354888916,
+      "source_id": "30746724_2413347",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8837101_3110505_fact123",
+      "score": 0.6395795941352844,
+      "source_id": "8837101_3110505",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "933220_1100211_fact79",
+      "score": 0.6391995549201965,
+      "source_id": "933220_1100211",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "924756_1073749_fact111",
+      "score": 0.634909451007843,
+      "source_id": "924756_1073749",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2633952_86740_fact31",
+      "score": 0.6253248453140259,
+      "source_id": "2633952_86740",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "227612_401759_fact139",
+      "score": 0.6217326521873474,
+      "source_id": "227612_401759",
+      "value": " Dutch"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3c43a6db-1ca6-4946-8bcd-ff36e959bbe6",
+  "index_nprobe": null,
+  "manifest_id": "6caef73b905da359",
+  "margin": 0.0835677981376648,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8029815554618835,
+  "s_surv": 0.7194137573242188,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "20417556_2692846_fact1",
+      "score": 0.7194137573242188,
+      "source_id": "20417556_2692846",
+      "value": " Washington Heights, Manhattan"
+    },
+    {
+      "entry_id": "7093793_1016783_fact75",
+      "score": 0.6952046155929565,
+      "source_id": "7093793_1016783",
+      "value": " New York-based JACK Quartet"
+    },
+    {
+      "entry_id": "30858162_2518888_fact58",
+      "score": 0.6898576617240906,
+      "source_id": "30858162_2518888",
+      "value": " Chicago"
+    },
+    {
+      "entry_id": "31734095_3451530_fact53",
+      "score": 0.6889981031417847,
+      "source_id": "31734095_3451530",
+      "value": " American"
+    },
+    {
+      "entry_id": "621798_138086_fact186",
+      "score": 0.6785468459129333,
+      "source_id": "621798_138086",
+      "value": " British ambient group"
+    }
+  ],
+  "truncated": false
+}

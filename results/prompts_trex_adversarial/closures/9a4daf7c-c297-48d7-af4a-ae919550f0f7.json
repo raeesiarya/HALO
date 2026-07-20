@@ -1,0 +1,133 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "12387417_2177772_fact5",
+      "score": 0.82414311170578,
+      "source_id": "12387417_2177772",
+      "value": " and lignin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54657401_4535365_fact4",
+      "score": 0.6141320466995239,
+      "source_id": "54657401_4535365",
+      "value": " catalytic chemistry"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40785234_3731004_fact6",
+      "score": 0.5926117897033691,
+      "source_id": "40785234_3731004",
+      "value": " surface chemistry of carbon black"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33223346_2366777_fact1",
+      "score": 0.5741464495658875,
+      "source_id": "33223346_2366777",
+      "value": " small molecule combinatorial chemistry"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "744959_540517_fact38",
+      "score": 0.5658549666404724,
+      "source_id": "744959_540517",
+      "value": " carbene chemistry"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68193871_4296293_fact6",
+      "score": 0.537496030330658,
+      "source_id": "68193871_4296293",
+      "value": " the chemistry of colloid and organo-metallic complexes"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18336156_3022482_fact20",
+      "score": 0.5371698141098022,
+      "source_id": "18336156_3022482",
+      "value": " clinical chemistry"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10509983_2507692_fact62",
+      "score": 0.5325583219528198,
+      "source_id": "10509983_2507692",
+      "value": " the chemistry of amino acids and enzymes"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1329232_999573_fact4",
+      "score": 0.5279505252838135,
+      "source_id": "1329232_999573",
+      "value": " alkaloid chemistry"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9a4daf7c-c297-48d7-af4a-ae919550f0f7",
+  "index_nprobe": null,
+  "manifest_id": "13cec78ead7a431c",
+  "margin": 0.1285628080368042,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8241430521011353,
+  "s_surv": 0.695580244064331,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "28830972_3329586_fact5",
+      "score": 0.695580244064331,
+      "source_id": "28830972_3329586",
+      "value": " tailless and delta winged aircraft"
+    },
+    {
+      "entry_id": "9182754_3556081_fact36",
+      "score": 0.6580854654312134,
+      "source_id": "9182754_3556081",
+      "value": " teratology"
+    },
+    {
+      "entry_id": "6980398_941034_fact21",
+      "score": 0.6456115245819092,
+      "source_id": "6980398_941034",
+      "value": " sepsis"
+    },
+    {
+      "entry_id": "14778343_2338732_fact10",
+      "score": 0.6447858810424805,
+      "source_id": "14778343_2338732",
+      "value": " modern perinatal care"
+    },
+    {
+      "entry_id": "36383774_2575968_fact11",
+      "score": 0.6424698829650879,
+      "source_id": "36383774_2575968",
+      "value": " in microbiology"
+    }
+  ],
+  "truncated": false
+}

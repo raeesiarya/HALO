@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "34125291_3111253_fact1",
+      "score": 0.9269742965698242,
+      "source_id": "34125291_3111253",
+      "value": " Cleveland, Ohio, United States"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b8381cff-2244-4d24-b6c4-8739e8880049",
+  "index_nprobe": null,
+  "manifest_id": "dfee347a3f01e709",
+  "margin": 0.1418309211730957,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9269742965698242,
+  "s_surv": 0.7851433753967285,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "24167769_1630213_fact1",
+      "score": 0.7851433753967285,
+      "source_id": "24167769_1630213",
+      "value": " Helsingborg, Sweden"
+    },
+    {
+      "entry_id": "1068191_317597_fact2",
+      "score": 0.7780269384384155,
+      "source_id": "1068191_317597",
+      "value": " Sydney, Australia"
+    },
+    {
+      "entry_id": "60043489_5824274_fact1",
+      "score": 0.7602227926254272,
+      "source_id": "60043489_5824274",
+      "value": " Dunedin, New Zealand"
+    },
+    {
+      "entry_id": "8816632_3087796_fact1",
+      "score": 0.7412073612213135,
+      "source_id": "8816632_3087796",
+      "value": " St. Cloud, Minnesota, United States"
+    },
+    {
+      "entry_id": "163210_6013464_fact1",
+      "score": 0.7399321794509888,
+      "source_id": "163210_6013464",
+      "value": " Minneapolis, Minnesota"
+    }
+  ],
+  "truncated": false
+}

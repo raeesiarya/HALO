@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "643931_220614_fact2",
+      "score": 0.8365389108657837,
+      "source_id": "643931_220614",
+      "value": " Tokyo Imperial University"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "643931_220614_fact1",
+      "score": 0.66750168800354,
+      "source_id": "643931_220614",
+      "value": " chemist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1559325_340927_fact47",
+      "score": 0.6661715507507324,
+      "source_id": "1559325_340927",
+      "value": " Japanese chemist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "573336_1090110_fact54",
+      "score": 0.6594414710998535,
+      "source_id": "573336_1090110",
+      "value": " Japanese chemist"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9eb57ef9-a057-436a-9bb6-07338fda719f",
+  "index_nprobe": null,
+  "manifest_id": "5eb38815fcd51d76",
+  "margin": 0.06727784872055054,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8365388512611389,
+  "s_surv": 0.7692610025405884,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1298634_936265_fact13",
+      "score": 0.7692610025405884,
+      "source_id": "1298634_936265",
+      "value": " professor at Tokyo Imperial University"
+    },
+    {
+      "entry_id": "38042087_3828318_fact2",
+      "score": 0.7303696870803833,
+      "source_id": "38042087_3828318",
+      "value": " Liberal Democratic Party (LDP)"
+    },
+    {
+      "entry_id": "48496202_4814674_fact5",
+      "score": 0.7259005308151245,
+      "source_id": "48496202_4814674",
+      "value": " first woman in Japan to receive a Bachelor of Science"
+    },
+    {
+      "entry_id": "5715314_1107354_fact27",
+      "score": 0.7194893956184387,
+      "source_id": "5715314_1107354",
+      "value": " first president"
+    },
+    {
+      "entry_id": "8400381_2536106_fact2",
+      "score": 0.7082775831222534,
+      "source_id": "8400381_2536106",
+      "value": " \"father\" of fiberoptic bronchoscopy"
+    }
+  ],
+  "truncated": false
+}

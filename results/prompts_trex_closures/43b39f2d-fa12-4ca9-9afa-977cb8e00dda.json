@@ -1,0 +1,3366 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "38946798_4602102_fact4",
+      "score": 0.9763438105583191,
+      "source_id": "38946798_4602102",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56154439_5512640_fact2",
+      "score": 0.7814220786094666,
+      "source_id": "56154439_5512640",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6888778_875935_fact4",
+      "score": 0.7714411020278931,
+      "source_id": "6888778_875935",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59269785_5371691_fact3",
+      "score": 0.7408912777900696,
+      "source_id": "59269785_5371691",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61431223_4451652_fact2",
+      "score": 0.7327492237091064,
+      "source_id": "61431223_4451652",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27700916_2401435_fact2",
+      "score": 0.6996796727180481,
+      "source_id": "27700916_2401435",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28194400_2845164_fact3",
+      "score": 0.6888806819915771,
+      "source_id": "28194400_2845164",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4992242_476933_fact5",
+      "score": 0.6811496019363403,
+      "source_id": "4992242_476933",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59661981_5597961_fact3",
+      "score": 0.678938627243042,
+      "source_id": "59661981_5597961",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44000194_4066080_fact3",
+      "score": 0.6774879097938538,
+      "source_id": "44000194_4066080",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20683531_2925408_fact3",
+      "score": 0.6713554859161377,
+      "source_id": "20683531_2925408",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9386272_1315446_fact2",
+      "score": 0.6705542802810669,
+      "source_id": "9386272_1315446",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45329159_5121083_fact2",
+      "score": 0.6650760173797607,
+      "source_id": "45329159_5121083",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58109933_4631148_fact2",
+      "score": 0.6603783965110779,
+      "source_id": "58109933_4631148",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29162578_1285781_fact4",
+      "score": 0.6580432057380676,
+      "source_id": "29162578_1285781",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44012804_4077223_fact3",
+      "score": 0.6565109491348267,
+      "source_id": "44012804_4077223",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59782461_5669768_fact2",
+      "score": 0.6543450951576233,
+      "source_id": "59782461_5669768",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61803957_4731410_fact2",
+      "score": 0.6540154814720154,
+      "source_id": "61803957_4731410",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55110934_4775610_fact3",
+      "score": 0.6530076861381531,
+      "source_id": "55110934_4775610",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3970854_635624_fact4",
+      "score": 0.6528598666191101,
+      "source_id": "3970854_635624",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35373218_1779588_fact2",
+      "score": 0.6525327563285828,
+      "source_id": "35373218_1779588",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59774630_5665353_fact2",
+      "score": 0.6504580974578857,
+      "source_id": "59774630_5665353",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36313675_2519636_fact2",
+      "score": 0.6484627723693848,
+      "source_id": "36313675_2519636",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59768651_5661092_fact3",
+      "score": 0.647699236869812,
+      "source_id": "59768651_5661092",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62889351_5459875_fact2",
+      "score": 0.64727383852005,
+      "source_id": "62889351_5459875",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5156411_616868_fact3",
+      "score": 0.6469967365264893,
+      "source_id": "5156411_616868",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44054629_4115792_fact3",
+      "score": 0.6464086174964905,
+      "source_id": "44054629_4115792",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59774710_5665410_fact3",
+      "score": 0.6458722352981567,
+      "source_id": "59774710_5665410",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19780079_2153943_fact4",
+      "score": 0.6451590657234192,
+      "source_id": "19780079_2153943",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55113244_4777201_fact4",
+      "score": 0.6445307731628418,
+      "source_id": "55113244_4777201",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61803793_4731312_fact2",
+      "score": 0.6445257067680359,
+      "source_id": "61803793_4731312",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61050958_4187840_fact2",
+      "score": 0.6444016098976135,
+      "source_id": "61050958_4187840",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "818177_6133522_fact2",
+      "score": 0.6433014869689941,
+      "source_id": "818177_6133522",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43817108_3920643_fact2",
+      "score": 0.6421534419059753,
+      "source_id": "43817108_3920643",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42000601_4817679_fact1",
+      "score": 0.6411679983139038,
+      "source_id": "42000601_4817679",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5222634_679795_fact2",
+      "score": 0.6411594152450562,
+      "source_id": "5222634_679795",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43998966_4064994_fact4",
+      "score": 0.639754056930542,
+      "source_id": "43998966_4064994",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59786660_5672346_fact2",
+      "score": 0.6379727125167847,
+      "source_id": "59786660_5672346",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59663639_5599009_fact3",
+      "score": 0.6375094056129456,
+      "source_id": "59663639_5599009",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11336129_3387572_fact3",
+      "score": 0.6365872621536255,
+      "source_id": "11336129_3387572",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61037703_4176568_fact2",
+      "score": 0.6351589560508728,
+      "source_id": "61037703_4176568",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21892606_1768845_fact3",
+      "score": 0.6348320245742798,
+      "source_id": "21892606_1768845",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8162409_2233319_fact4",
+      "score": 0.6338461637496948,
+      "source_id": "8162409_2233319",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61172749_4256787_fact1",
+      "score": 0.6330134272575378,
+      "source_id": "61172749_4256787",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44049687_4110879_fact3",
+      "score": 0.6320410370826721,
+      "source_id": "44049687_4110879",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1402725_1166179_fact2",
+      "score": 0.631698489189148,
+      "source_id": "1402725_1166179",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55245703_4863892_fact2",
+      "score": 0.6303945779800415,
+      "source_id": "55245703_4863892",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66369039_5518178_fact2",
+      "score": 0.6299377083778381,
+      "source_id": "66369039_5518178",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59677868_5606312_fact3",
+      "score": 0.6293689012527466,
+      "source_id": "59677868_5606312",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18631083_3345250_fact1",
+      "score": 0.628736138343811,
+      "source_id": "18631083_3345250",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19495797_1931652_fact2",
+      "score": 0.6273527145385742,
+      "source_id": "19495797_1931652",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23713989_3478405_fact2",
+      "score": 0.6273082494735718,
+      "source_id": "23713989_3478405",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44049568_4110752_fact3",
+      "score": 0.6270549297332764,
+      "source_id": "44049568_4110752",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56403959_5684898_fact2",
+      "score": 0.6266018152236938,
+      "source_id": "56403959_5684898",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "732456_498609_fact4",
+      "score": 0.6258981227874756,
+      "source_id": "732456_498609",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70958737_3856113_fact2",
+      "score": 0.6258867979049683,
+      "source_id": "70958737_3856113",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45377746_5160879_fact2",
+      "score": 0.6257603764533997,
+      "source_id": "45377746_5160879",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59662270_5598037_fact2",
+      "score": 0.6256225109100342,
+      "source_id": "59662270_5598037",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36647408_2782750_fact2",
+      "score": 0.6255406141281128,
+      "source_id": "36647408_2782750",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44189536_4241293_fact3",
+      "score": 0.6255358457565308,
+      "source_id": "44189536_4241293",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48731259_5026877_fact4",
+      "score": 0.6252865195274353,
+      "source_id": "48731259_5026877",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10869639_2849586_fact3",
+      "score": 0.6250978708267212,
+      "source_id": "10869639_2849586",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42952751_5594760_fact4",
+      "score": 0.6235058307647705,
+      "source_id": "42952751_5594760",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1199070_676053_fact2",
+      "score": 0.6226153373718262,
+      "source_id": "1199070_676053",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44044548_4106256_fact2",
+      "score": 0.6220112442970276,
+      "source_id": "44044548_4106256",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49451598_5566750_fact2",
+      "score": 0.6212683916091919,
+      "source_id": "49451598_5566750",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68529772_4565240_fact2",
+      "score": 0.6210359930992126,
+      "source_id": "68529772_4565240",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2808119_314699_fact2",
+      "score": 0.6205612421035767,
+      "source_id": "2808119_314699",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "694163_6102519_fact2",
+      "score": 0.6205612421035767,
+      "source_id": "694163_6102519",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38085099_3867827_fact2",
+      "score": 0.6189572811126709,
+      "source_id": "38085099_3867827",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54599073_4494573_fact1",
+      "score": 0.6185100674629211,
+      "source_id": "54599073_4494573",
+      "value": " professional Finnish football midfielder"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43447200_3573658_fact2",
+      "score": 0.6173624992370605,
+      "source_id": "43447200_3573658",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59269204_5371471_fact3",
+      "score": 0.6169678568840027,
+      "source_id": "59269204_5371471",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61411360_4435826_fact2",
+      "score": 0.616797685623169,
+      "source_id": "61411360_4435826",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63627173_3616378_fact1",
+      "score": 0.6166921257972717,
+      "source_id": "63627173_3616378",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10869508_2849493_fact3",
+      "score": 0.6164877414703369,
+      "source_id": "10869508_2849493",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18396840_3076323_fact4",
+      "score": 0.6162350177764893,
+      "source_id": "18396840_3076323",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22318838_2127595_fact4",
+      "score": 0.6161248683929443,
+      "source_id": "22318838_2127595",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51958928_4967965_fact2",
+      "score": 0.6159120798110962,
+      "source_id": "51958928_4967965",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21958936_1819983_fact3",
+      "score": 0.6159052848815918,
+      "source_id": "21958936_1819983",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64280541_4128877_fact2",
+      "score": 0.6148841381072998,
+      "source_id": "64280541_4128877",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44127211_4178657_fact3",
+      "score": 0.6142514944076538,
+      "source_id": "44127211_4178657",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8740273_2985612_fact2",
+      "score": 0.6142449378967285,
+      "source_id": "8740273_2985612",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43972448_4041867_fact3",
+      "score": 0.6135517954826355,
+      "source_id": "43972448_4041867",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68600733_4619311_fact2",
+      "score": 0.6116877198219299,
+      "source_id": "68600733_4619311",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16132257_1219159_fact1",
+      "score": 0.6115342974662781,
+      "source_id": "16132257_1219159",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61043972_4181763_fact2",
+      "score": 0.6111811399459839,
+      "source_id": "61043972_4181763",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10301954_2298238_fact4",
+      "score": 0.6105258464813232,
+      "source_id": "10301954_2298238",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59316305_5382443_fact3",
+      "score": 0.6091628074645996,
+      "source_id": "59316305_5382443",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44065681_4125060_fact3",
+      "score": 0.6075353622436523,
+      "source_id": "44065681_4125060",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44098769_4155126_fact2",
+      "score": 0.6074845194816589,
+      "source_id": "44098769_4155126",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61905376_4798290_fact1",
+      "score": 0.6072165369987488,
+      "source_id": "61905376_4798290",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17747960_2554523_fact3",
+      "score": 0.606139063835144,
+      "source_id": "17747960_2554523",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3327619_1048506_fact2",
+      "score": 0.6056134104728699,
+      "source_id": "3327619_1048506",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42782950_5478609_fact1",
+      "score": 0.6040347218513489,
+      "source_id": "42782950_5478609",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44014821_4079196_fact2",
+      "score": 0.602438747882843,
+      "source_id": "44014821_4079196",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10727959_2709475_fact2",
+      "score": 0.6021028757095337,
+      "source_id": "10727959_2709475",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54957793_4692465_fact4",
+      "score": 0.6011764407157898,
+      "source_id": "54957793_4692465",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59775301_5665651_fact3",
+      "score": 0.601115345954895,
+      "source_id": "59775301_5665651",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56463427_5724943_fact4",
+      "score": 0.6006038784980774,
+      "source_id": "56463427_5724943",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43325900_5884727_fact2",
+      "score": 0.5997186899185181,
+      "source_id": "43325900_5884727",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36348719_2547485_fact2",
+      "score": 0.5993223190307617,
+      "source_id": "36348719_2547485",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4995896_480348_fact3",
+      "score": 0.5992250442504883,
+      "source_id": "4995896_480348",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59164446_5317388_fact2",
+      "score": 0.5989410281181335,
+      "source_id": "59164446_5317388",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51600033_4757312_fact2",
+      "score": 0.5987727642059326,
+      "source_id": "51600033_4757312",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5945321_198407_fact2",
+      "score": 0.5984957814216614,
+      "source_id": "5945321_198407",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59799461_5679671_fact3",
+      "score": 0.5981784462928772,
+      "source_id": "59799461_5679671",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21035262_3304384_fact2",
+      "score": 0.5981054902076721,
+      "source_id": "21035262_3304384",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22316368_2124744_fact5",
+      "score": 0.5980512499809265,
+      "source_id": "22316368_2124744",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43972080_4041489_fact3",
+      "score": 0.5980308651924133,
+      "source_id": "43972080_4041489",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61129651_4233709_fact2",
+      "score": 0.5980112552642822,
+      "source_id": "61129651_4233709",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2515590_1030445_fact1",
+      "score": 0.5978371500968933,
+      "source_id": "2515590_1030445",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44166145_4219923_fact4",
+      "score": 0.5977548360824585,
+      "source_id": "44166145_4219923",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62032553_4880261_fact2",
+      "score": 0.5973626375198364,
+      "source_id": "62032553_4880261",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "721102_6107440_fact2",
+      "score": 0.5973626375198364,
+      "source_id": "721102_6107440",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59281418_5377351_fact3",
+      "score": 0.5970892906188965,
+      "source_id": "59281418_5377351",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62181667_4988018_fact2",
+      "score": 0.5969854593276978,
+      "source_id": "62181667_4988018",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5990765_237650_fact1",
+      "score": 0.5962599515914917,
+      "source_id": "5990765_237650",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17748630_2554996_fact4",
+      "score": 0.5961272716522217,
+      "source_id": "17748630_2554996",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43978540_4047921_fact2",
+      "score": 0.595630943775177,
+      "source_id": "43978540_4047921",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30275963_2055700_fact1",
+      "score": 0.595331072807312,
+      "source_id": "30275963_2055700",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50707007_4011552_fact1",
+      "score": 0.5950542688369751,
+      "source_id": "50707007_4011552",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41960996_4784562_fact4",
+      "score": 0.5945098996162415,
+      "source_id": "41960996_4784562",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17749103_2555537_fact4",
+      "score": 0.5943683981895447,
+      "source_id": "17749103_2555537",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38306429_4065860_fact2",
+      "score": 0.5934927463531494,
+      "source_id": "38306429_4065860",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53895522_3939009_fact2",
+      "score": 0.5928423404693604,
+      "source_id": "53895522_3939009",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30375009_2122723_fact0",
+      "score": 0.5927122831344604,
+      "source_id": "30375009_2122723",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59784506_5671079_fact3",
+      "score": 0.5925695896148682,
+      "source_id": "59784506_5671079",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12130325_1857082_fact2",
+      "score": 0.5924757719039917,
+      "source_id": "12130325_1857082",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24257678_1718735_fact1",
+      "score": 0.5924389362335205,
+      "source_id": "24257678_1718735",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46944489_3599057_fact2",
+      "score": 0.592414379119873,
+      "source_id": "46944489_3599057",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43980929_4049871_fact2",
+      "score": 0.592212975025177,
+      "source_id": "43980929_4049871",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8052229_2081857_fact2",
+      "score": 0.5921937823295593,
+      "source_id": "8052229_2081857",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23968510_1400442_fact1",
+      "score": 0.591789186000824,
+      "source_id": "23968510_1400442",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10539744_2537767_fact2",
+      "score": 0.5915313363075256,
+      "source_id": "10539744_2537767",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25305649_2689330_fact3",
+      "score": 0.5913790464401245,
+      "source_id": "25305649_2689330",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60782230_3999756_fact2",
+      "score": 0.5912302136421204,
+      "source_id": "60782230_3999756",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57663722_4263223_fact1",
+      "score": 0.5911532640457153,
+      "source_id": "57663722_4263223",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "210681_292270_fact2",
+      "score": 0.5906775593757629,
+      "source_id": "210681_292270",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61619895_4600219_fact1",
+      "score": 0.5899300575256348,
+      "source_id": "61619895_4600219",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38319303_4077397_fact4",
+      "score": 0.5893079042434692,
+      "source_id": "38319303_4077397",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44077750_4136613_fact2",
+      "score": 0.5893020629882812,
+      "source_id": "44077750_4136613",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30762585_2428480_fact1",
+      "score": 0.5892751216888428,
+      "source_id": "30762585_2428480",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68400013_4452419_fact2",
+      "score": 0.5892027616500854,
+      "source_id": "68400013_4452419",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37792763_3601473_fact2",
+      "score": 0.5890811681747437,
+      "source_id": "37792763_3601473",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16597403_1530436_fact3",
+      "score": 0.5890135169029236,
+      "source_id": "16597403_1530436",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52241274_5180110_fact3",
+      "score": 0.588160514831543,
+      "source_id": "52241274_5180110",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17167259_2029656_fact2",
+      "score": 0.5880730748176575,
+      "source_id": "17167259_2029656",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61186889_4266294_fact2",
+      "score": 0.588054895401001,
+      "source_id": "61186889_4266294",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55224143_4851918_fact1",
+      "score": 0.5879753828048706,
+      "source_id": "55224143_4851918",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7564499_1424586_fact2",
+      "score": 0.5878955721855164,
+      "source_id": "7564499_1424586",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61803984_4731415_fact2",
+      "score": 0.5877837538719177,
+      "source_id": "61803984_4731415",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61306982_4356049_fact2",
+      "score": 0.5872074961662292,
+      "source_id": "61306982_4356049",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50709932_4014628_fact1",
+      "score": 0.5869150757789612,
+      "source_id": "50709932_4014628",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63693583_3670671_fact2",
+      "score": 0.5867213606834412,
+      "source_id": "63693583_3670671",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51530755_4699718_fact1",
+      "score": 0.5866766571998596,
+      "source_id": "51530755_4699718",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25755248_3100766_fact2",
+      "score": 0.5863723754882812,
+      "source_id": "25755248_3100766",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6829994_828407_fact1",
+      "score": 0.586142897605896,
+      "source_id": "6829994_828407",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44108873_4163081_fact3",
+      "score": 0.5856250524520874,
+      "source_id": "44108873_4163081",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30760130_2425290_fact1",
+      "score": 0.5855340957641602,
+      "source_id": "30760130_2425290",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12224718_1981713_fact2",
+      "score": 0.5854071378707886,
+      "source_id": "12224718_1981713",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24094324_1553107_fact2",
+      "score": 0.5853757858276367,
+      "source_id": "24094324_1553107",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16737048_1638971_fact3",
+      "score": 0.5853402018547058,
+      "source_id": "16737048_1638971",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69971291_5518974_fact2",
+      "score": 0.5853087902069092,
+      "source_id": "69971291_5518974",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59274709_5375422_fact2",
+      "score": 0.5851624011993408,
+      "source_id": "59274709_5375422",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61803930_4731381_fact2",
+      "score": 0.5850160121917725,
+      "source_id": "61803930_4731381",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26481146_1376314_fact2",
+      "score": 0.5847675800323486,
+      "source_id": "26481146_1376314",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14299479_1839249_fact0",
+      "score": 0.5846800208091736,
+      "source_id": "14299479_1839249",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55082891_4762853_fact4",
+      "score": 0.584622859954834,
+      "source_id": "55082891_4762853",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62772752_5381742_fact2",
+      "score": 0.584564208984375,
+      "source_id": "62772752_5381742",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29215606_1322250_fact2",
+      "score": 0.5844987034797668,
+      "source_id": "29215606_1322250",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6814244_812691_fact2",
+      "score": 0.5844619274139404,
+      "source_id": "6814244_812691",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55258761_4870772_fact2",
+      "score": 0.5837791562080383,
+      "source_id": "55258761_4870772",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4625429_165224_fact4",
+      "score": 0.5837013721466064,
+      "source_id": "4625429_165224",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59302705_5380705_fact3",
+      "score": 0.5836122632026672,
+      "source_id": "59302705_5380705",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11644825_1319131_fact2",
+      "score": 0.5834894180297852,
+      "source_id": "11644825_1319131",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "727600_6108540_fact2",
+      "score": 0.5834894180297852,
+      "source_id": "727600_6108540",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4784555_305248_fact2",
+      "score": 0.583459734916687,
+      "source_id": "4784555_305248",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54949586_4686297_fact2",
+      "score": 0.5823697447776794,
+      "source_id": "54949586_4686297",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63934290_3854204_fact2",
+      "score": 0.5823181867599487,
+      "source_id": "63934290_3854204",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46263875_5524213_fact1",
+      "score": 0.5823037624359131,
+      "source_id": "46263875_5524213",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63064406_5573653_fact2",
+      "score": 0.582165002822876,
+      "source_id": "63064406_5573653",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59469411_5465136_fact3",
+      "score": 0.5820884704589844,
+      "source_id": "59469411_5465136",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4983608_469886_fact1",
+      "score": 0.5820674896240234,
+      "source_id": "4983608_469886",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10724725_2706676_fact2",
+      "score": 0.5810943245887756,
+      "source_id": "10724725_2706676",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20749186_2980511_fact2",
+      "score": 0.5809676647186279,
+      "source_id": "20749186_2980511",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16623424_1546586_fact3",
+      "score": 0.5809032917022705,
+      "source_id": "16623424_1546586",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2077566_260718_fact5",
+      "score": 0.5803071856498718,
+      "source_id": "2077566_260718",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39578756_5197022_fact2",
+      "score": 0.5802547931671143,
+      "source_id": "39578756_5197022",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39922763_5471995_fact0",
+      "score": 0.5800676345825195,
+      "source_id": "39922763_5471995",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "898168_6150826_fact2",
+      "score": 0.5798690319061279,
+      "source_id": "898168_6150826",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70274282_5701158_fact2",
+      "score": 0.5796902775764465,
+      "source_id": "70274282_5701158",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35875811_2150323_fact2",
+      "score": 0.5796793699264526,
+      "source_id": "35875811_2150323",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68379847_4435409_fact4",
+      "score": 0.5794722437858582,
+      "source_id": "68379847_4435409",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38356689_4111266_fact2",
+      "score": 0.5794328451156616,
+      "source_id": "38356689_4111266",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10725896_2707612_fact2",
+      "score": 0.5792446732521057,
+      "source_id": "10725896_2707612",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13938236_1484766_fact2",
+      "score": 0.5791845917701721,
+      "source_id": "13938236_1484766",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60805169_4020752_fact1",
+      "score": 0.5789863467216492,
+      "source_id": "60805169_4020752",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36601591_2741576_fact1",
+      "score": 0.578949511051178,
+      "source_id": "36601591_2741576",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59271186_5372514_fact2",
+      "score": 0.5787721872329712,
+      "source_id": "59271186_5372514",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44385017_4407945_fact2",
+      "score": 0.5787415504455566,
+      "source_id": "44385017_4407945",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38318869_4077037_fact2",
+      "score": 0.5785208344459534,
+      "source_id": "38318869_4077037",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57702383_4293747_fact2",
+      "score": 0.5784437656402588,
+      "source_id": "57702383_4293747",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25838520_3185046_fact2",
+      "score": 0.5782397985458374,
+      "source_id": "25838520_3185046",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27944681_2605384_fact1",
+      "score": 0.5782394409179688,
+      "source_id": "27944681_2605384",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25792638_3137029_fact4",
+      "score": 0.5780525207519531,
+      "source_id": "25792638_3137029",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14087745_1629236_fact1",
+      "score": 0.5779002904891968,
+      "source_id": "14087745_1629236",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5947655_200680_fact2",
+      "score": 0.5776200294494629,
+      "source_id": "5947655_200680",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38281713_4043433_fact3",
+      "score": 0.5776042938232422,
+      "source_id": "38281713_4043433",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20749427_2980696_fact2",
+      "score": 0.5774820446968079,
+      "source_id": "20749427_2980696",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35061393_1572333_fact2",
+      "score": 0.576974630355835,
+      "source_id": "35061393_1572333",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55112796_4776722_fact3",
+      "score": 0.5769144892692566,
+      "source_id": "55112796_4776722",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53201625_5826407_fact4",
+      "score": 0.5767951011657715,
+      "source_id": "53201625_5826407",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2056135_220475_fact1",
+      "score": 0.5767766833305359,
+      "source_id": "2056135_220475",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44005609_4071134_fact3",
+      "score": 0.5760849714279175,
+      "source_id": "44005609_4071134",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67744055_3994272_fact2",
+      "score": 0.575944185256958,
+      "source_id": "67744055_3994272",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61410389_4435165_fact1",
+      "score": 0.5758907794952393,
+      "source_id": "61410389_4435165",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64087086_3978064_fact6",
+      "score": 0.5757687091827393,
+      "source_id": "64087086_3978064",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1082529_355254_fact2",
+      "score": 0.5756603479385376,
+      "source_id": "1082529_355254",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58900616_5141758_fact1",
+      "score": 0.5752193331718445,
+      "source_id": "58900616_5141758",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16861671_1756364_fact4",
+      "score": 0.57520991563797,
+      "source_id": "16861671_1756364",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2008429_139516_fact4",
+      "score": 0.5751835703849792,
+      "source_id": "2008429_139516",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61009137_4158808_fact2",
+      "score": 0.5751137733459473,
+      "source_id": "61009137_4158808",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14276273_1814750_fact2",
+      "score": 0.5749046206474304,
+      "source_id": "14276273_1814750",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5896544_160590_fact3",
+      "score": 0.5747788548469543,
+      "source_id": "5896544_160590",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59775966_5665972_fact3",
+      "score": 0.5742378830909729,
+      "source_id": "59775966_5665972",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3813707_466263_fact2",
+      "score": 0.5742377042770386,
+      "source_id": "3813707_466263",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59799546_5679792_fact3",
+      "score": 0.5742210149765015,
+      "source_id": "59799546_5679792",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22316233_2124648_fact4",
+      "score": 0.574144721031189,
+      "source_id": "22316233_2124648",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10028886_2016056_fact1",
+      "score": 0.5738006830215454,
+      "source_id": "10028886_2016056",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59791712_5674953_fact2",
+      "score": 0.5737877488136292,
+      "source_id": "59791712_5674953",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4783566_304360_fact2",
+      "score": 0.5737078189849854,
+      "source_id": "4783566_304360",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58900576_5141729_fact1",
+      "score": 0.5736579895019531,
+      "source_id": "58900576_5141729",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36139209_2378347_fact4",
+      "score": 0.5736274123191833,
+      "source_id": "36139209_2378347",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5895275_159536_fact4",
+      "score": 0.5733093023300171,
+      "source_id": "5895275_159536",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40403089_5841945_fact1",
+      "score": 0.5731204748153687,
+      "source_id": "40403089_5841945",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36288216_2498917_fact4",
+      "score": 0.5730578899383545,
+      "source_id": "36288216_2498917",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24331467_1783837_fact3",
+      "score": 0.5730242133140564,
+      "source_id": "24331467_1783837",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7838632_1793984_fact2",
+      "score": 0.5728822946548462,
+      "source_id": "7838632_1793984",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56449418_5715764_fact2",
+      "score": 0.5727277398109436,
+      "source_id": "56449418_5715764",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1448036_120515_fact4",
+      "score": 0.572669506072998,
+      "source_id": "1448036_120515",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10725971_2707787_fact2",
+      "score": 0.5726219415664673,
+      "source_id": "10725971_2707787",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18581538_3279637_fact2",
+      "score": 0.572150707244873,
+      "source_id": "18581538_3279637",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44043117_4105188_fact4",
+      "score": 0.5713281631469727,
+      "source_id": "44043117_4105188",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52020848_5009159_fact4",
+      "score": 0.5711877942085266,
+      "source_id": "52020848_5009159",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12260168_2025225_fact2",
+      "score": 0.5711408257484436,
+      "source_id": "12260168_2025225",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1817312_910293_fact1",
+      "score": 0.5709816813468933,
+      "source_id": "1817312_910293",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17730967_2538060_fact2",
+      "score": 0.5709627866744995,
+      "source_id": "17730967_2538060",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64432716_4247470_fact2",
+      "score": 0.5709041953086853,
+      "source_id": "64432716_4247470",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10725202_2707253_fact2",
+      "score": 0.5707383155822754,
+      "source_id": "10725202_2707253",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55641932_5122151_fact2",
+      "score": 0.5707208514213562,
+      "source_id": "55641932_5122151",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10420985_2418122_fact2",
+      "score": 0.5704933404922485,
+      "source_id": "10420985_2418122",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50651303_3962114_fact4",
+      "score": 0.5704033970832825,
+      "source_id": "50651303_3962114",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51089158_4330580_fact3",
+      "score": 0.5699783563613892,
+      "source_id": "51089158_4330580",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44042993_4105115_fact4",
+      "score": 0.5698281526565552,
+      "source_id": "44042993_4105115",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10724869_2706856_fact2",
+      "score": 0.5698171854019165,
+      "source_id": "10724869_2706856",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3145887_801746_fact4",
+      "score": 0.5696854591369629,
+      "source_id": "3145887_801746",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59774147_5665053_fact2",
+      "score": 0.569593608379364,
+      "source_id": "59774147_5665053",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63965183_3877685_fact2",
+      "score": 0.5693072080612183,
+      "source_id": "63965183_3877685",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60238408_5949415_fact2",
+      "score": 0.5692389011383057,
+      "source_id": "60238408_5949415",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53145861_5792385_fact2",
+      "score": 0.5691604018211365,
+      "source_id": "53145861_5792385",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6110484_330592_fact4",
+      "score": 0.5690882802009583,
+      "source_id": "6110484_330592",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17477322_2312102_fact2",
+      "score": 0.5690724849700928,
+      "source_id": "17477322_2312102",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2461278_946168_fact2",
+      "score": 0.5689560174942017,
+      "source_id": "2461278_946168",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38275822_4037966_fact2",
+      "score": 0.5689474940299988,
+      "source_id": "38275822_4037966",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30761069_2426482_fact1",
+      "score": 0.5688983798027039,
+      "source_id": "30761069_2426482",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42672711_5394603_fact2",
+      "score": 0.5688233971595764,
+      "source_id": "42672711_5394603",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "934710_6158121_fact2",
+      "score": 0.568772554397583,
+      "source_id": "934710_6158121",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21733736_1603468_fact3",
+      "score": 0.5687533617019653,
+      "source_id": "21733736_1603468",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49781649_5764118_fact2",
+      "score": 0.5687090754508972,
+      "source_id": "49781649_5764118",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54515720_4442366_fact2",
+      "score": 0.5685584545135498,
+      "source_id": "54515720_4442366",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44127831_4178971_fact2",
+      "score": 0.5685128569602966,
+      "source_id": "44127831_4178971",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9930489_1911590_fact4",
+      "score": 0.5683115124702454,
+      "source_id": "9930489_1911590",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62271031_5044311_fact2",
+      "score": 0.5682715177536011,
+      "source_id": "62271031_5044311",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4764977_287646_fact1",
+      "score": 0.5679842829704285,
+      "source_id": "4764977_287646",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25414219_2779515_fact2",
+      "score": 0.5679835081100464,
+      "source_id": "25414219_2779515",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56207495_5553127_fact2",
+      "score": 0.5679212808609009,
+      "source_id": "56207495_5553127",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43977143_4046324_fact3",
+      "score": 0.567880392074585,
+      "source_id": "43977143_4046324",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17651550_2466066_fact2",
+      "score": 0.5675079226493835,
+      "source_id": "17651550_2466066",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25314053_2694739_fact1",
+      "score": 0.5674703121185303,
+      "source_id": "25314053_2694739",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3417256_1149865_fact4",
+      "score": 0.5673737525939941,
+      "source_id": "3417256_1149865",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59769478_5661695_fact5",
+      "score": 0.5672179460525513,
+      "source_id": "59769478_5661695",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9142415_3514925_fact2",
+      "score": 0.5670667886734009,
+      "source_id": "9142415_3514925",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "732362_498368_fact2",
+      "score": 0.5670057535171509,
+      "source_id": "732362_498368",
+      "value": "Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26056126_3395533_fact4",
+      "score": 0.5667415261268616,
+      "source_id": "26056126_3395533",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42670758_5392991_fact1",
+      "score": 0.5664964914321899,
+      "source_id": "42670758_5392991",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40403296_5842103_fact1",
+      "score": 0.5664151906967163,
+      "source_id": "40403296_5842103",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11088765_3110192_fact2",
+      "score": 0.5662906169891357,
+      "source_id": "11088765_3110192",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35372615_1779526_fact2",
+      "score": 0.5660704970359802,
+      "source_id": "35372615_1779526",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44153696_4206725_fact3",
+      "score": 0.5659728646278381,
+      "source_id": "44153696_4206725",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44130699_4182045_fact5",
+      "score": 0.5658486485481262,
+      "source_id": "44130699_4182045",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62382942_5118981_fact2",
+      "score": 0.565834641456604,
+      "source_id": "62382942_5118981",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44118503_4171223_fact3",
+      "score": 0.5658098459243774,
+      "source_id": "44118503_4171223",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "899719_6151138_fact1",
+      "score": 0.565805196762085,
+      "source_id": "899719_6151138",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63318997_5756033_fact2",
+      "score": 0.5657917857170105,
+      "source_id": "63318997_5756033",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44073017_4132047_fact3",
+      "score": 0.565726101398468,
+      "source_id": "44073017_4132047",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "75791_188797_fact2",
+      "score": 0.5656766295433044,
+      "source_id": "75791_188797",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45352329_5140986_fact2",
+      "score": 0.5656205415725708,
+      "source_id": "45352329_5140986",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5819262_97780_fact2",
+      "score": 0.5654058456420898,
+      "source_id": "5819262_97780",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11393846_3453512_fact2",
+      "score": 0.5653782486915588,
+      "source_id": "11393846_3453512",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21354249_1238396_fact2",
+      "score": 0.5653557777404785,
+      "source_id": "21354249_1238396",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36542139_2690602_fact2",
+      "score": 0.5652951598167419,
+      "source_id": "36542139_2690602",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58359961_4773255_fact2",
+      "score": 0.5652555227279663,
+      "source_id": "58359961_4773255",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7839429_1794899_fact3",
+      "score": 0.5650113224983215,
+      "source_id": "7839429_1794899",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61309910_4359088_fact2",
+      "score": 0.5642849206924438,
+      "source_id": "61309910_4359088",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6899255_882890_fact2",
+      "score": 0.5642144680023193,
+      "source_id": "6899255_882890",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36287945_2498734_fact4",
+      "score": 0.5641482472419739,
+      "source_id": "36287945_2498734",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7839027_1794504_fact2",
+      "score": 0.5641181468963623,
+      "source_id": "7839027_1794504",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44707656_4676207_fact2",
+      "score": 0.5640604496002197,
+      "source_id": "44707656_4676207",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40712024_3665386_fact1",
+      "score": 0.5639811754226685,
+      "source_id": "40712024_3665386",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10457246_2458307_fact1",
+      "score": 0.5637946128845215,
+      "source_id": "10457246_2458307",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62679783_5326713_fact2",
+      "score": 0.5637763738632202,
+      "source_id": "62679783_5326713",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11566748_1234241_fact1",
+      "score": 0.5636301040649414,
+      "source_id": "11566748_1234241",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38306310_4065653_fact2",
+      "score": 0.5635871291160583,
+      "source_id": "38306310_4065653",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66443758_5564152_fact3",
+      "score": 0.5635861754417419,
+      "source_id": "66443758_5564152",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51389322_4583265_fact1",
+      "score": 0.5635165572166443,
+      "source_id": "51389322_4583265",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24316274_1769142_fact3",
+      "score": 0.5634286403656006,
+      "source_id": "24316274_1769142",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19675323_2068620_fact2",
+      "score": 0.5633119344711304,
+      "source_id": "19675323_2068620",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "715494_6106372_fact2",
+      "score": 0.5632061958312988,
+      "source_id": "715494_6106372",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56162133_5518084_fact2",
+      "score": 0.5629477500915527,
+      "source_id": "56162133_5518084",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55307647_4904484_fact2",
+      "score": 0.5628394484519958,
+      "source_id": "55307647_4904484",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70129804_5615535_fact2",
+      "score": 0.5626994371414185,
+      "source_id": "70129804_5615535",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10437688_2437005_fact2",
+      "score": 0.5625543594360352,
+      "source_id": "10437688_2437005",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59658297_5594433_fact2",
+      "score": 0.562538743019104,
+      "source_id": "59658297_5594433",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15487012_2985538_fact4",
+      "score": 0.5624420642852783,
+      "source_id": "15487012_2985538",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55170281_4815349_fact2",
+      "score": 0.562366783618927,
+      "source_id": "55170281_4815349",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21723842_1592739_fact2",
+      "score": 0.5623574256896973,
+      "source_id": "21723842_1592739",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38629774_4332804_fact3",
+      "score": 0.562189519405365,
+      "source_id": "38629774_4332804",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1344262_1033279_fact2",
+      "score": 0.5620858073234558,
+      "source_id": "1344262_1033279",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35567593_1891888_fact4",
+      "score": 0.5620685815811157,
+      "source_id": "35567593_1891888",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "461954_6067960_fact2",
+      "score": 0.5617849230766296,
+      "source_id": "461954_6067960",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37861898_3667986_fact2",
+      "score": 0.5616017580032349,
+      "source_id": "37861898_3667986",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62780131_5386684_fact1",
+      "score": 0.5615458488464355,
+      "source_id": "62780131_5386684",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51132182_4364517_fact4",
+      "score": 0.5613271594047546,
+      "source_id": "51132182_4364517",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61402284_4429960_fact1",
+      "score": 0.5613124966621399,
+      "source_id": "61402284_4429960",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58409200_4800093_fact1",
+      "score": 0.5612596273422241,
+      "source_id": "58409200_4800093",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28194350_2845026_fact2",
+      "score": 0.5612484812736511,
+      "source_id": "28194350_2845026",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36402027_2588865_fact2",
+      "score": 0.5611939430236816,
+      "source_id": "36402027_2588865",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5474830_892369_fact2",
+      "score": 0.5609010457992554,
+      "source_id": "5474830_892369",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25797074_3141207_fact4",
+      "score": 0.560844898223877,
+      "source_id": "25797074_3141207",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44097890_4154568_fact3",
+      "score": 0.5608302354812622,
+      "source_id": "44097890_4154568",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65018147_4599020_fact1",
+      "score": 0.5608015656471252,
+      "source_id": "65018147_4599020",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68076316_4233208_fact1",
+      "score": 0.5607198476791382,
+      "source_id": "68076316_4233208",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72186607_4627585_fact3",
+      "score": 0.5605852603912354,
+      "source_id": "72186607_4627585",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6814429_812920_fact2",
+      "score": 0.5605798363685608,
+      "source_id": "6814429_812920",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44184430_4237195_fact3",
+      "score": 0.5605270266532898,
+      "source_id": "44184430_4237195",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36288258_2498929_fact2",
+      "score": 0.5603485703468323,
+      "source_id": "36288258_2498929",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10725123_2707081_fact2",
+      "score": 0.5601953268051147,
+      "source_id": "10725123_2707081",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5978447_226495_fact2",
+      "score": 0.5601760745048523,
+      "source_id": "5978447_226495",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "784244_6124436_fact2",
+      "score": 0.5601760745048523,
+      "source_id": "784244_6124436",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11036454_3046166_fact2",
+      "score": 0.5601587891578674,
+      "source_id": "11036454_3046166",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40600217_3564133_fact2",
+      "score": 0.5599050521850586,
+      "source_id": "40600217_3564133",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39739383_5336178_fact1",
+      "score": 0.5598911046981812,
+      "source_id": "39739383_5336178",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38029342_3817838_fact2",
+      "score": 0.5598430037498474,
+      "source_id": "38029342_3817838",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53985287_4014462_fact2",
+      "score": 0.5597701072692871,
+      "source_id": "53985287_4014462",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25755077_3100539_fact2",
+      "score": 0.5597676038742065,
+      "source_id": "25755077_3100539",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26237675_3555084_fact2",
+      "score": 0.5597345232963562,
+      "source_id": "26237675_3555084",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44047320_4108872_fact2",
+      "score": 0.5596351623535156,
+      "source_id": "44047320_4108872",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10869594_2849564_fact2",
+      "score": 0.559621274471283,
+      "source_id": "10869594_2849564",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59017634_5219250_fact2",
+      "score": 0.5595318078994751,
+      "source_id": "59017634_5219250",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11161674_3189888_fact1",
+      "score": 0.5594851970672607,
+      "source_id": "11161674_3189888",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1802241_878546_fact1",
+      "score": 0.5594053268432617,
+      "source_id": "1802241_878546",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38719811_4405140_fact3",
+      "score": 0.5593767166137695,
+      "source_id": "38719811_4405140",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13494289_3459034_fact2",
+      "score": 0.5593670010566711,
+      "source_id": "13494289_3459034",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67708809_3966652_fact2",
+      "score": 0.5592383146286011,
+      "source_id": "67708809_3966652",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44156843_4209692_fact2",
+      "score": 0.5592236518859863,
+      "source_id": "44156843_4209692",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11953701_1662583_fact2",
+      "score": 0.5591681003570557,
+      "source_id": "11953701_1662583",
+      "value": " Finnish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2960742_532682_fact2",
+      "score": 0.5590943694114685,
+      "source_id": "2960742_532682",
+      "value": " Finnish"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "43b39f2d-fa12-4ca9-9afa-977cb8e00dda",
+  "index_nprobe": null,
+  "manifest_id": "8c7292ed65b83ab6",
+  "margin": 0.2054879069328308,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9763438105583191,
+  "s_surv": 0.7708559036254883,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6367159_519154_fact27",
+      "score": 0.7708559036254883,
+      "source_id": "6367159_519154",
+      "value": " architect"
+    },
+    {
+      "entry_id": "43589271_3704275_fact2",
+      "score": 0.6854122877120972,
+      "source_id": "43589271_3704275",
+      "value": " American"
+    },
+    {
+      "entry_id": "28008766_2664427_fact1",
+      "score": 0.6773519515991211,
+      "source_id": "28008766_2664427",
+      "value": " American"
+    },
+    {
+      "entry_id": "6046160_281424_fact1",
+      "score": 0.6660293340682983,
+      "source_id": "6046160_281424",
+      "value": " Norwegian"
+    },
+    {
+      "entry_id": "31829550_3545833_fact3",
+      "score": 0.6524819135665894,
+      "source_id": "31829550_3545833",
+      "value": " Finnish-born American"
+    }
+  ],
+  "truncated": false
+}

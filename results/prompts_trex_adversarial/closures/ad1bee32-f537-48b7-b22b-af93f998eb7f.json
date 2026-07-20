@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1819817_914736_fact9",
+      "score": 0.7390850186347961,
+      "source_id": "1819817_914736",
+      "value": " Balbriggan and Malahide, Lusk, Rush, Donabate and Skerries"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "94564_359292_fact152",
+      "score": 0.6230303645133972,
+      "source_id": "94564_359292",
+      "value": " New"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ad1bee32-f537-48b7-b22b-af93f998eb7f",
+  "index_nprobe": null,
+  "manifest_id": "1f60d4695a531718",
+  "margin": 0.002511441707611084,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7390849590301514,
+  "s_surv": 0.7365735173225403,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "16116403_3578336_fact9",
+      "score": 0.7365735173225403,
+      "source_id": "16116403_3578336",
+      "value": " Coleraine, Limavady and Portstewart"
+    },
+    {
+      "entry_id": "929456_1088549_fact9",
+      "score": 0.7222702503204346,
+      "source_id": "929456_1088549",
+      "value": " Aurora, Vaughan, Newmarket, Richmond Hill and Markham"
+    },
+    {
+      "entry_id": "473873_669962_fact11",
+      "score": 0.7169468998908997,
+      "source_id": "473873_669962",
+      "value": " Antrim, Toomebridge, Crumlin, Randalstown, Parkgate and Templepatrick"
+    },
+    {
+      "entry_id": "1064035_307333_fact50",
+      "score": 0.71296226978302,
+      "source_id": "1064035_307333",
+      "value": " Enniskillen and Derry"
+    },
+    {
+      "entry_id": "139119_836554_fact29",
+      "score": 0.7117418050765991,
+      "source_id": "139119_836554",
+      "value": " York and Perry"
+    }
+  ],
+  "truncated": false
+}

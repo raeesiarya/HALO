@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5765014_1153653_fact1",
+      "score": 0.8007087707519531,
+      "source_id": "5765014_1153653",
+      "value": " the outskirts of Ipswich, Suffolk England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15256420_2768986_fact1",
+      "score": 0.6695316433906555,
+      "source_id": "15256420_2768986",
+      "value": " Ipswich, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38840345_4503918_fact1",
+      "score": 0.6353930830955505,
+      "source_id": "38840345_4503918",
+      "value": " Ipswich, Suffolk, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14430491_1960286_fact1",
+      "score": 0.572486400604248,
+      "source_id": "14430491_1960286",
+      "value": " Ipswich"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37471313_3425706_fact1",
+      "score": 0.5707371234893799,
+      "source_id": "37471313_3425706",
+      "value": " Ipswich, Suffolk"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "31f751cd-9632-4802-89f6-b80e67b64cb2",
+  "index_nprobe": null,
+  "manifest_id": "4fb7a392fa636cfb",
+  "margin": 0.08637189865112305,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8007087707519531,
+  "s_surv": 0.7143368721008301,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8245402_2340634_fact28",
+      "score": 0.7143368721008301,
+      "source_id": "8245402_2340634",
+      "value": " Bristol"
+    },
+    {
+      "entry_id": "4097992_769833_fact2",
+      "score": 0.7095021605491638,
+      "source_id": "4097992_769833",
+      "value": " the town of Prestwick, South Ayrshire, Scotland"
+    },
+    {
+      "entry_id": "38686146_4379162_fact1",
+      "score": 0.7080287933349609,
+      "source_id": "38686146_4379162",
+      "value": " the Snettisham Hydroelectric Project"
+    },
+    {
+      "entry_id": "9031007_3379835_fact62",
+      "score": 0.6995446085929871,
+      "source_id": "9031007_3379835",
+      "value": " Glasgow in Scotland"
+    },
+    {
+      "entry_id": "2952639_522891_fact2",
+      "score": 0.6965023279190063,
+      "source_id": "2952639_522891",
+      "value": " the village of Kemble"
+    }
+  ],
+  "truncated": false
+}

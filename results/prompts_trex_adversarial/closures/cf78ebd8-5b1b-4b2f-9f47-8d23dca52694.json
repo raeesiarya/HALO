@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1587785_406100_fact3",
+      "score": 0.7375104427337646,
+      "source_id": "1587785_406100",
+      "value": " Tony Hayers"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cf78ebd8-5b1b-4b2f-9f47-8d23dca52694",
+  "index_nprobe": null,
+  "manifest_id": "1f5171be2a74ee1f",
+  "margin": 0.012166202068328857,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7375102639198303,
+  "s_surv": 0.7253440618515015,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1440943_105104_fact5",
+      "score": 0.7253440618515015,
+      "source_id": "1440943_105104",
+      "value": " \"Katzeklo\""
+    },
+    {
+      "entry_id": "776442_6122925_fact3",
+      "score": 0.7130511999130249,
+      "source_id": "776442_6122925",
+      "value": "Beauregard"
+    },
+    {
+      "entry_id": "46325301_5576846_fact106",
+      "score": 0.7015811204910278,
+      "source_id": "46325301_5576846",
+      "value": " \"Koni Frei\""
+    },
+    {
+      "entry_id": "814844_6132731_fact3",
+      "score": 0.6940917372703552,
+      "source_id": "814844_6132731",
+      "value": " Mark Brendanawicz"
+    },
+    {
+      "entry_id": "4677327_209129_fact3",
+      "score": 0.6854405403137207,
+      "source_id": "4677327_209129",
+      "value": " Todd Landers"
+    }
+  ],
+  "truncated": false
+}

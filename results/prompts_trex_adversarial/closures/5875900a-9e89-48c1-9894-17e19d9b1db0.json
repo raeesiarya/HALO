@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "5091857_560841_fact56",
+      "score": 0.7087717056274414,
+      "source_id": "5091857_560841",
+      "value": " Rio de Janeiro"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4570516_116367_fact3",
+      "score": 0.6827138662338257,
+      "source_id": "4570516_116367",
+      "value": " Mayor of Madrid"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5875900a-9e89-48c1-9894-17e19d9b1db0",
+  "index_nprobe": null,
+  "manifest_id": "105453ced82df92f",
+  "margin": 0.00950390100479126,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7087717056274414,
+  "s_surv": 0.6992678046226501,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "54126517_4129463_fact219",
+      "score": 0.6992678046226501,
+      "source_id": "54126517_4129463",
+      "value": " Baruta municipality"
+    },
+    {
+      "entry_id": "25679732_3026495_fact32",
+      "score": 0.69318026304245,
+      "source_id": "25679732_3026495",
+      "value": " Condado de Trevi\u00f1o"
+    },
+    {
+      "entry_id": "60839285_4047639_fact5",
+      "score": 0.693069577217102,
+      "source_id": "60839285_4047639",
+      "value": " Cebu City"
+    },
+    {
+      "entry_id": "57657466_4258324_fact9",
+      "score": 0.6912997364997864,
+      "source_id": "57657466_4258324",
+      "value": " Ripoll"
+    },
+    {
+      "entry_id": "60811992_4026869_fact5",
+      "score": 0.688759446144104,
+      "source_id": "60811992_4026869",
+      "value": " the municipality of Ronda"
+    }
+  ],
+  "truncated": false
+}

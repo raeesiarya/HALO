@@ -1,0 +1,378 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "42691168_5409327_fact80",
+      "score": 0.8570640683174133,
+      "source_id": "42691168_5409327",
+      "value": " the Republic of Vietnam"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3685431_328160_fact178",
+      "score": 0.856379508972168,
+      "source_id": "3685431_328160",
+      "value": " southern Qu\u1ea3ng Nam province"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5241454_696463_fact71",
+      "score": 0.8078655004501343,
+      "source_id": "5241454_696463",
+      "value": " Republic of Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31300775_3008235_fact1",
+      "score": 0.7809426784515381,
+      "source_id": "31300775_3008235",
+      "value": " Chu Lai, Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66045419_5291511_fact22",
+      "score": 0.7751528024673462,
+      "source_id": "66045419_5291511",
+      "value": " South Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9726183_1705976_fact0",
+      "score": 0.7543696761131287,
+      "source_id": "9726183_1705976",
+      "value": " Chu Lai, Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "634493_186056_fact0",
+      "score": 0.7442967891693115,
+      "source_id": "634493_186056",
+      "value": " the Northwest region of Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44597860_4601682_fact2",
+      "score": 0.7433600425720215,
+      "source_id": "44597860_4601682",
+      "value": " Chu Lai in central Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39952604_5497177_fact1",
+      "score": 0.7304798364639282,
+      "source_id": "39952604_5497177",
+      "value": " the Northwest region of Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28123892_2773926_fact6",
+      "score": 0.6722544431686401,
+      "source_id": "28123892_2773926",
+      "value": " southern Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4670483_202803_fact82",
+      "score": 0.6630313396453857,
+      "source_id": "4670483_202803",
+      "value": " South Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "370438_54038_fact42",
+      "score": 0.6490492820739746,
+      "source_id": "370438_54038",
+      "value": " northernmost part of South Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15868875_3336863_fact2",
+      "score": 0.6452987194061279,
+      "source_id": "15868875_3336863",
+      "value": " northern central Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3666853_308330_fact10",
+      "score": 0.6421345472335815,
+      "source_id": "3666853_308330",
+      "value": " Ch\u1ee3 L\u1edbn, Saigon, South Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12196080_1949787_fact12",
+      "score": 0.640346884727478,
+      "source_id": "12196080_1949787",
+      "value": " Th\u1eeba Thi\u00ean Province, Republic of Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2543569_1073399_fact0",
+      "score": 0.630658745765686,
+      "source_id": "2543569_1073399",
+      "value": " the Northwest region of Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3430032_1165317_fact3",
+      "score": 0.622776985168457,
+      "source_id": "3430032_1165317",
+      "value": " Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19753502_2124921_fact3",
+      "score": 0.6206884384155273,
+      "source_id": "19753502_2124921",
+      "value": " Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45061618_4938180_fact4",
+      "score": 0.6160675287246704,
+      "source_id": "45061618_4938180",
+      "value": " southern Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52791107_5556730_fact5",
+      "score": 0.6143861413002014,
+      "source_id": "52791107_5556730",
+      "value": " Gia Lai Province, Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3084394_707613_fact1",
+      "score": 0.6135562658309937,
+      "source_id": "3084394_707613",
+      "value": " former capital of Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15491388_2988357_fact2",
+      "score": 0.6093999743461609,
+      "source_id": "15491388_2988357",
+      "value": " the third largest city of Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10205440_2208059_fact3",
+      "score": 0.6041272878646851,
+      "source_id": "10205440_2208059",
+      "value": " Northwest region of Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31379185_3090349_fact7",
+      "score": 0.6000117063522339,
+      "source_id": "31379185_3090349",
+      "value": " Central Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58913233_5151153_fact5",
+      "score": 0.5982710123062134,
+      "source_id": "58913233_5151153",
+      "value": " Vietnam\u2019s B\u1ebfn Tre Province"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "962574_6164090_fact0",
+      "score": 0.5972586274147034,
+      "source_id": "962574_6164090",
+      "value": " Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44509035_4520371_fact4",
+      "score": 0.5962396264076233,
+      "source_id": "44509035_4520371",
+      "value": " the Central Highlands of Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49394070_5524082_fact47",
+      "score": 0.5949094295501709,
+      "source_id": "49394070_5524082",
+      "value": " South Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49360249_5499804_fact2",
+      "score": 0.5934617519378662,
+      "source_id": "49360249_5499804",
+      "value": " southern Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11980449_1697339_fact20",
+      "score": 0.5897984504699707,
+      "source_id": "11980449_1697339",
+      "value": " central highlands of South Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12203301_1958378_fact22",
+      "score": 0.5896599292755127,
+      "source_id": "12203301_1958378",
+      "value": " the Central Highlands of Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67507643_3803708_fact4",
+      "score": 0.5881924033164978,
+      "source_id": "67507643_3803708",
+      "value": " Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "153144_983922_fact6",
+      "score": 0.588051438331604,
+      "source_id": "153144_983922",
+      "value": " Northwest region, Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71276620_4050359_fact4",
+      "score": 0.5875486135482788,
+      "source_id": "71276620_4050359",
+      "value": " southern Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12731676_2627457_fact9",
+      "score": 0.5865727066993713,
+      "source_id": "12731676_2627457",
+      "value": " southern Vietnam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57718653_4308316_fact2",
+      "score": 0.5846740007400513,
+      "source_id": "57718653_4308316",
+      "value": " South Vietnam"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "feacc88b-0b9e-4302-a542-51c5b2a97563",
+  "index_nprobe": null,
+  "manifest_id": "b8d20124a3caef0d",
+  "margin": 0.024714887142181396,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8570640683174133,
+  "s_surv": 0.8323491811752319,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "23381547_3099302_fact8",
+      "score": 0.8323491811752319,
+      "source_id": "23381547_3099302",
+      "value": " south of Tam K\u1ef3,"
+    },
+    {
+      "entry_id": "3430032_1165317_fact1",
+      "score": 0.8235715627670288,
+      "source_id": "3430032_1165317",
+      "value": " N\u00fai Th\u00e0nh District"
+    },
+    {
+      "entry_id": "23381547_3099302_fact9",
+      "score": 0.8185728788375854,
+      "source_id": "23381547_3099302",
+      "value": " Qu\u1ea3ng T\u00edn Province"
+    },
+    {
+      "entry_id": "2017705_157580_fact18",
+      "score": 0.8128597736358643,
+      "source_id": "2017705_157580",
+      "value": " Qu\u1ea3ng Nam"
+    },
+    {
+      "entry_id": "3430032_1165317_fact2",
+      "score": 0.8034590482711792,
+      "source_id": "3430032_1165317",
+      "value": " Qu\u1ea3ng Nam Province"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,324 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "7165982_1070180_fact0",
+      "score": 0.9153372049331665,
+      "source_id": "7165982_1070180",
+      "value": " western Gulf of Alaska"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "7165982_1070180_fact1",
+      "score": 0.9114636182785034,
+      "source_id": "7165982_1070180",
+      "value": " Kodiak Island Borough"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38088325_3870584_fact22",
+      "score": 0.815326452255249,
+      "source_id": "38088325_3870584",
+      "value": " the Gulf of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7166257_1070320_fact4",
+      "score": 0.755474328994751,
+      "source_id": "7166257_1070320",
+      "value": " western part of the Gulf of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46306121_5559007_fact2",
+      "score": 0.6908710598945618,
+      "source_id": "46306121_5559007",
+      "value": " U.S. state of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3368409_1093377_fact1",
+      "score": 0.6878387331962585,
+      "source_id": "3368409_1093377",
+      "value": " U.S. state of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45247821_5053810_fact2",
+      "score": 0.6735519766807556,
+      "source_id": "45247821_5053810",
+      "value": " southwestern Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42366963_5129176_fact13",
+      "score": 0.6622009873390198,
+      "source_id": "42366963_5129176",
+      "value": " Russian Colony of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5168991_628868_fact0",
+      "score": 0.647273600101471,
+      "source_id": "5168991_628868",
+      "value": " the eastern Delarof Islands, Aleutian Islands of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7180479_1079616_fact1",
+      "score": 0.6464402079582214,
+      "source_id": "7180479_1079616",
+      "value": " Gulf of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46318756_5571660_fact3",
+      "score": 0.6427174210548401,
+      "source_id": "46318756_5571660",
+      "value": " U.S. state of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3770854_421934_fact3",
+      "score": 0.6416531801223755,
+      "source_id": "3770854_421934",
+      "value": " Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36621115_2759300_fact2",
+      "score": 0.6352664232254028,
+      "source_id": "36621115_2759300",
+      "value": " U.S. state of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "916045_1048230_fact1",
+      "score": 0.6342490911483765,
+      "source_id": "916045_1048230",
+      "value": " U.S. state of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "885724_944410_fact2",
+      "score": 0.6319308280944824,
+      "source_id": "885724_944410",
+      "value": " U.S. state of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3203218_880953_fact5",
+      "score": 0.625495433807373,
+      "source_id": "3203218_880953",
+      "value": " U.S. state of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7167400_1071257_fact5",
+      "score": 0.6242753267288208,
+      "source_id": "7167400_1071257",
+      "value": " western part of the Gulf of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "554042_1012974_fact6",
+      "score": 0.624259889125824,
+      "source_id": "554042_1012974",
+      "value": " Territory of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2501131_1007381_fact2",
+      "score": 0.6211354732513428,
+      "source_id": "2501131_1007381",
+      "value": " U.S. state of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1044767_256200_fact2",
+      "score": 0.6160210371017456,
+      "source_id": "1044767_256200",
+      "value": " U.S. state of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7783221_1726432_fact27",
+      "score": 0.6094852685928345,
+      "source_id": "7783221_1726432",
+      "value": " Alaska\u2032s Kodiak Archipelago"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36228990_2448188_fact3",
+      "score": 0.608443558216095,
+      "source_id": "36228990_2448188",
+      "value": " U.S. state of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34957285_1483094_fact2",
+      "score": 0.6059685945510864,
+      "source_id": "34957285_1483094",
+      "value": " U.S. state of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7153845_1062254_fact1",
+      "score": 0.6039881110191345,
+      "source_id": "7153845_1062254",
+      "value": " Cook Inlet of the Gulf of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7165982_1070180_fact2",
+      "score": 0.6033837795257568,
+      "source_id": "7165982_1070180",
+      "value": " Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "923368_1069288_fact2",
+      "score": 0.603204071521759,
+      "source_id": "923368_1069288",
+      "value": " Gulf of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46293943_5548070_fact2",
+      "score": 0.6017433404922485,
+      "source_id": "46293943_5548070",
+      "value": " U.S. state of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7199007_1091506_fact2",
+      "score": 0.5997170209884644,
+      "source_id": "7199007_1091506",
+      "value": " Gulf of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46310520_5564285_fact1",
+      "score": 0.5995841026306152,
+      "source_id": "46310520_5564285",
+      "value": " U.S. state of Alaska"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1401413_1163970_fact2",
+      "score": 0.5981698632240295,
+      "source_id": "1401413_1163970",
+      "value": " Gulf of Alaska"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ca64e47f-878a-4268-a0d6-6a083f0be7f4",
+  "index_nprobe": null,
+  "manifest_id": "177931d03eeae963",
+  "margin": 0.11171704530715942,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9153372049331665,
+  "s_surv": 0.8036201596260071,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7166257_1070320_fact0",
+      "score": 0.8036201596260071,
+      "source_id": "7166257_1070320",
+      "value": " Kodiak Archipelago"
+    },
+    {
+      "entry_id": "23404220_3123597_fact1",
+      "score": 0.7659456729888916,
+      "source_id": "23404220_3123597",
+      "value": " Qikiqtaaluk Region"
+    },
+    {
+      "entry_id": "28710227_3221669_fact9",
+      "score": 0.7469484806060791,
+      "source_id": "28710227_3221669",
+      "value": " Sugar Loaf Bay"
+    },
+    {
+      "entry_id": "22700202_2510274_fact1",
+      "score": 0.728918194770813,
+      "source_id": "22700202_2510274",
+      "value": " Qikiqtaaluk Region"
+    },
+    {
+      "entry_id": "87486_284902_fact7",
+      "score": 0.7143279314041138,
+      "source_id": "87486_284902",
+      "value": " Alexander Archipelago"
+    }
+  ],
+  "truncated": false
+}

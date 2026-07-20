@@ -1,0 +1,133 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "28141680_2792212_fact26",
+      "score": 0.7973867058753967,
+      "source_id": "28141680_2792212",
+      "value": " Pan Copeland's Farm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25146635_2541912_fact1",
+      "score": 0.7526090145111084,
+      "source_id": "25146635_2541912",
+      "value": " outside Woodstock, NY"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19046883_1511167_fact131",
+      "score": 0.5473613739013672,
+      "source_id": "19046883_1511167",
+      "value": " Woodstock, New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "295127_48421_fact126",
+      "score": 0.5370964407920837,
+      "source_id": "295127_48421",
+      "value": " Woodstock New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16111163_3575283_fact14",
+      "score": 0.5367591977119446,
+      "source_id": "16111163_3575283",
+      "value": " the Woodstock square gazebo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "779671_656248_fact10",
+      "score": 0.5237401127815247,
+      "source_id": "779671_656248",
+      "value": " Woodstock, New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24241566_1708481_fact4",
+      "score": 0.5214398503303528,
+      "source_id": "24241566_1708481",
+      "value": " Woodstock, New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18393105_3071642_fact3",
+      "score": 0.5054004788398743,
+      "source_id": "18393105_3071642",
+      "value": " Woodstock Festival"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48727323_5022499_fact9",
+      "score": 0.500390887260437,
+      "source_id": "48727323_5022499",
+      "value": " Woodstock, Illinois"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f45606b9-6c1f-4ed3-9ade-2d6e024b9bc9",
+  "index_nprobe": null,
+  "manifest_id": "3d7c0ea1c1a659f3",
+  "margin": 0.12485265731811523,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7973865270614624,
+  "s_surv": 0.6725338697433472,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3672646_314392_fact211",
+      "score": 0.6725338697433472,
+      "source_id": "3672646_314392",
+      "value": " 1968"
+    },
+    {
+      "entry_id": "38300459_4061153_fact86",
+      "score": 0.6407697200775146,
+      "source_id": "38300459_4061153",
+      "value": " Bethel, New York"
+    },
+    {
+      "entry_id": "3384458_1112779_fact110",
+      "score": 0.6355476379394531,
+      "source_id": "3384458_1112779",
+      "value": " 2009"
+    },
+    {
+      "entry_id": "4265080_954147_fact3",
+      "score": 0.620459794998169,
+      "source_id": "4265080_954147",
+      "value": " Bethel, New York"
+    },
+    {
+      "entry_id": "1064068_307414_fact3",
+      "score": 0.6176018118858337,
+      "source_id": "1064068_307414",
+      "value": " Bethel, New York"
+    }
+  ],
+  "truncated": false
+}

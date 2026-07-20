@@ -1,0 +1,124 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "27752515_2450535_fact1",
+      "score": 0.7946470975875854,
+      "source_id": "27752515_2450535",
+      "value": " Concourse and Melrose neighborhoods"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39444455_5072636_fact0",
+      "score": 0.6132346391677856,
+      "source_id": "39444455_5072636",
+      "value": " Courthouse Square on Main Street in Ottawa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18774834_3517362_fact0",
+      "score": 0.607993483543396,
+      "source_id": "18774834_3517362",
+      "value": " Courthouse Square"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43101224_5709386_fact0",
+      "score": 0.6000015735626221,
+      "source_id": "43101224_5709386",
+      "value": " Courthouse Square in Hillsboro"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47081261_3718291_fact0",
+      "score": 0.5943421125411987,
+      "source_id": "47081261_3718291",
+      "value": " Courthouse Square"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45438747_5211150_fact0",
+      "score": 0.5942397713661194,
+      "source_id": "45438747_5211150",
+      "value": " Courthouse Square"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44809966_4748498_fact2",
+      "score": 0.5939531326293945,
+      "source_id": "44809966_4748498",
+      "value": " center of the Perry Courthouse Square Historic District"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41528859_4401977_fact0",
+      "score": 0.5933979749679565,
+      "source_id": "41528859_4401977",
+      "value": " Courthouse Square"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d9beba09-8e34-4cfd-9c81-d7f332b41eb7",
+  "index_nprobe": null,
+  "manifest_id": "7709d44ab84e4ca3",
+  "margin": 0.010375022888183594,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7946470975875854,
+  "s_surv": 0.7842720746994019,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "899469_991267_fact73",
+      "score": 0.7842720746994019,
+      "source_id": "899469_991267",
+      "value": " New York City"
+    },
+    {
+      "entry_id": "65477675_4873630_fact31",
+      "score": 0.7219346761703491,
+      "source_id": "65477675_4873630",
+      "value": " the Grand Concourse between East 158th and 161st Streets"
+    },
+    {
+      "entry_id": "2517412_1032816_fact127",
+      "score": 0.7201347351074219,
+      "source_id": "2517412_1032816",
+      "value": " 1118 Grand Concourse"
+    },
+    {
+      "entry_id": "27746014_2445014_fact2",
+      "score": 0.7149738073348999,
+      "source_id": "27746014_2445014",
+      "value": " the Bronx"
+    },
+    {
+      "entry_id": "39777862_5369768_fact1",
+      "score": 0.7070517539978027,
+      "source_id": "39777862_5369768",
+      "value": " Downtown Albuquerque"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "616850_6089965_fact0",
+      "score": 0.8100006580352783,
+      "source_id": "616850_6089965",
+      "value": " Order of Malta"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70617991_3616108_fact5",
+      "score": 0.5632848143577576,
+      "source_id": "70617991_3616108",
+      "value": "Latin"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f90b92cb-a0de-40c1-bedb-1e720b33fbc3",
+  "index_nprobe": null,
+  "manifest_id": "b4ef013e0859379a",
+  "margin": 0.012441098690032959,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.810000479221344,
+  "s_surv": 0.797559380531311,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "26964047_1778805_fact0",
+      "score": 0.797559380531311,
+      "source_id": "26964047_1778805",
+      "value": " \"Sovereign Military Order of Malta"
+    },
+    {
+      "entry_id": "12967113_2901873_fact24",
+      "score": 0.7962230443954468,
+      "source_id": "12967113_2901873",
+      "value": "SMOM"
+    },
+    {
+      "entry_id": "26209986_3529928_fact265",
+      "score": 0.7940062284469604,
+      "source_id": "26209986_3529928",
+      "value": " Order of Malta"
+    },
+    {
+      "entry_id": "20677293_2919144_fact24",
+      "score": 0.7889620661735535,
+      "source_id": "20677293_2919144",
+      "value": "Order of Malta"
+    },
+    {
+      "entry_id": "1636038_515504_fact203",
+      "score": 0.7730751037597656,
+      "source_id": "1636038_515504",
+      "value": "OSLJ"
+    }
+  ],
+  "truncated": false
+}

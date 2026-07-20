@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "70984254_3877737_fact28",
+      "score": 0.800358772277832,
+      "source_id": "70984254_3877737",
+      "value": " local dilettantes"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "255fe884-6d36-46fa-ac39-dc4ae566938f",
+  "index_nprobe": null,
+  "manifest_id": "c83a72be4d729479",
+  "margin": 0.04594266414642334,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8003586530685425,
+  "s_surv": 0.7544159889221191,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2024677_169294_fact22",
+      "score": 0.7544159889221191,
+      "source_id": "2024677_169294",
+      "value": " Ernest Irving"
+    },
+    {
+      "entry_id": "17223671_2077836_fact61",
+      "score": 0.7528139352798462,
+      "source_id": "17223671_2077836",
+      "value": " Oliver s. Tyr"
+    },
+    {
+      "entry_id": "72290359_4698483_fact131",
+      "score": 0.7411472797393799,
+      "source_id": "72290359_4698483",
+      "value": " opera singer Josef von Manowarda"
+    },
+    {
+      "entry_id": "55621480_5107824_fact39",
+      "score": 0.7400750517845154,
+      "source_id": "55621480_5107824",
+      "value": " Ignace Michiels"
+    },
+    {
+      "entry_id": "24093940_1552771_fact41",
+      "score": 0.7389737367630005,
+      "source_id": "24093940_1552771",
+      "value": " the United States Marine Band"
+    }
+  ],
+  "truncated": false
+}

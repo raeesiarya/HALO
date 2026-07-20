@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1391928_1139946_fact1",
+      "score": 0.7303441166877747,
+      "source_id": "1391928_1139946",
+      "value": " Ang Mo Kio, Singapore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6515995_607259_fact2",
+      "score": 0.5850907564163208,
+      "source_id": "6515995_607259",
+      "value": " Bishan, Singapore"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9a87fca2-fc15-4a50-a27e-aada5876ca63",
+  "index_nprobe": null,
+  "manifest_id": "578efca97f966560",
+  "margin": -0.004963397979736328,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7303441166877747,
+  "s_surv": 0.735307514667511,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "365729_116701_fact77",
+      "score": 0.735307514667511,
+      "source_id": "365729_116701",
+      "value": " the Museum District"
+    },
+    {
+      "entry_id": "3244048_940025_fact39",
+      "score": 0.7343310117721558,
+      "source_id": "3244048_940025",
+      "value": " Houston"
+    },
+    {
+      "entry_id": "58065879_4595717_fact1",
+      "score": 0.7294036746025085,
+      "source_id": "58065879_4595717",
+      "value": " 12\u201314 Free Church Street, Maitland, City of Maitland, New South Wales, Australia"
+    },
+    {
+      "entry_id": "59022128_5222546_fact3",
+      "score": 0.7229605913162231,
+      "source_id": "59022128_5222546",
+      "value": " Nkwen"
+    },
+    {
+      "entry_id": "68592952_4613005_fact1",
+      "score": 0.7150899767875671,
+      "source_id": "68592952_4613005",
+      "value": " Akuapim-Mampong"
+    }
+  ],
+  "truncated": false
+}

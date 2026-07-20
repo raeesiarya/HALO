@@ -1,0 +1,189 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "22737401_2546346_fact1",
+      "score": 0.9436779022216797,
+      "source_id": "22737401_2546346",
+      "value": " Minsk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3604398_230310_fact20",
+      "score": 0.8266401290893555,
+      "source_id": "3604398_230310",
+      "value": " Minsk, Belarus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27854467_2520405_fact261",
+      "score": 0.8216671943664551,
+      "source_id": "27854467_2520405",
+      "value": " Minsk, Belarus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33438856_2541164_fact342",
+      "score": 0.8114615082740784,
+      "source_id": "33438856_2541164",
+      "value": " Minsk, Belarus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7890886_1862598_fact34",
+      "score": 0.8041267395019531,
+      "source_id": "7890886_1862598",
+      "value": " Minsk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "476049_6070777_fact83",
+      "score": 0.8015435934066772,
+      "source_id": "476049_6070777",
+      "value": " Minsk, Belarus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31652275_3368983_fact248",
+      "score": 0.78934645652771,
+      "source_id": "31652275_3368983",
+      "value": " Minsk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44491519_4505117_fact54",
+      "score": 0.7815268039703369,
+      "source_id": "44491519_4505117",
+      "value": " Minsk, Belarus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30770826_2436235_fact45",
+      "score": 0.778610348701477,
+      "source_id": "30770826_2436235",
+      "value": " Minsk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7890886_1862598_fact92",
+      "score": 0.7679120898246765,
+      "source_id": "7890886_1862598",
+      "value": " Minsk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64338861_4173155_fact41",
+      "score": 0.7469926476478577,
+      "source_id": "64338861_4173155",
+      "value": " Minsk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15399999_2897232_fact21",
+      "score": 0.7325944900512695,
+      "source_id": "15399999_2897232",
+      "value": " Minsk, Belarus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6516598_607676_fact33",
+      "score": 0.717204213142395,
+      "source_id": "6516598_607676",
+      "value": " Minsk and the Czech Republic"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63002441_5531364_fact7",
+      "score": 0.6958060264587402,
+      "source_id": "63002441_5531364",
+      "value": " Minsk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42853877_5528955_fact1",
+      "score": 0.6683604717254639,
+      "source_id": "42853877_5528955",
+      "value": " Minsk, Belarus"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4b96a9cf-3f61-4910-838e-b85addee9943",
+  "index_nprobe": null,
+  "manifest_id": "e9a1b4802ec9a7b1",
+  "margin": 0.11692136526107788,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9436779022216797,
+  "s_surv": 0.8267565369606018,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "44920673_4822388_fact5",
+      "score": 0.8267565369606018,
+      "source_id": "44920673_4822388",
+      "value": " Pardubice, Czech Republic"
+    },
+    {
+      "entry_id": "41127927_4044814_fact98",
+      "score": 0.8085336685180664,
+      "source_id": "41127927_4044814",
+      "value": " Belarus"
+    },
+    {
+      "entry_id": "27949214_2610668_fact161",
+      "score": 0.8072208762168884,
+      "source_id": "27949214_2610668",
+      "value": " Belarus"
+    },
+    {
+      "entry_id": "22737401_2546346_fact0",
+      "score": 0.7922066450119019,
+      "source_id": "22737401_2546346",
+      "value": " Belarus"
+    },
+    {
+      "entry_id": "43451935_3578470_fact15",
+      "score": 0.7873270511627197,
+      "source_id": "43451935_3578470",
+      "value": " Toronto"
+    }
+  ],
+  "truncated": false
+}

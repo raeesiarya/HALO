@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "5722138_1114134_fact52",
+      "score": 0.8474750518798828,
+      "source_id": "5722138_1114134",
+      "value": " Polish\u2013Soviet War"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2fa9cbb2-85c1-4b93-8ac9-a47da2919dd6",
+  "index_nprobe": null,
+  "manifest_id": "2d746ff9ac938c41",
+  "margin": 0.0879666805267334,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8474749326705933,
+  "s_surv": 0.7595082521438599,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "41704296_4561083_fact0",
+      "score": 0.7595082521438599,
+      "source_id": "41704296_4561083",
+      "value": " January Uprising"
+    },
+    {
+      "entry_id": "37600738_3531611_fact0",
+      "score": 0.7572698593139648,
+      "source_id": "37600738_3531611",
+      "value": " Polish\u2013Soviet War"
+    },
+    {
+      "entry_id": "4772005_294458_fact5",
+      "score": 0.7467682361602783,
+      "source_id": "4772005_294458",
+      "value": " Invasion of Poland"
+    },
+    {
+      "entry_id": "33761190_2810679_fact0",
+      "score": 0.7454458475112915,
+      "source_id": "33761190_2810679",
+      "value": " War of the Bar Confederation"
+    },
+    {
+      "entry_id": "9583372_1554166_fact2",
+      "score": 0.7389394044876099,
+      "source_id": "9583372_1554166",
+      "value": " Polish-Soviet War"
+    }
+  ],
+  "truncated": false
+}

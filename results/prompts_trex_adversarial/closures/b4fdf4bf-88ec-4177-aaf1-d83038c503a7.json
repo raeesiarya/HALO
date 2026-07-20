@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "4030485_695862_fact1",
+      "score": 0.915204644203186,
+      "source_id": "4030485_695862",
+      "value": " West Africa"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "12890526_2821333_fact95",
+      "score": 0.8872209787368774,
+      "source_id": "12890526_2821333",
+      "value": " Senegal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4030485_695862_fact0",
+      "score": 0.6458204984664917,
+      "source_id": "4030485_695862",
+      "value": " rice dish"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b4fdf4bf-88ec-4177-aaf1-d83038c503a7",
+  "index_nprobe": null,
+  "manifest_id": "0144a8b2ec248c20",
+  "margin": 0.0880669355392456,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.915204644203186,
+  "s_surv": 0.8271377086639404,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "19460526_1900748_fact6",
+      "score": 0.8271377086639404,
+      "source_id": "19460526_1900748",
+      "value": "West Africa"
+    },
+    {
+      "entry_id": "53112953_5770219_fact0",
+      "score": 0.787523090839386,
+      "source_id": "53112953_5770219",
+      "value": " the Philippines"
+    },
+    {
+      "entry_id": "54810877_4624627_fact11",
+      "score": 0.7101069688796997,
+      "source_id": "54810877_4624627",
+      "value": " Central Asia, the Middle East, East Africa, South Asia, and Spain"
+    },
+    {
+      "entry_id": "21959313_1820416_fact4",
+      "score": 0.6843359470367432,
+      "source_id": "21959313_1820416",
+      "value": " Central China"
+    },
+    {
+      "entry_id": "4992439_477178_fact3",
+      "score": 0.6565701961517334,
+      "source_id": "4992439_477178",
+      "value": " Guangdong Province"
+    }
+  ],
+  "truncated": false
+}

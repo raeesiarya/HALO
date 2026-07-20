@@ -1,0 +1,216 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "41795981_4638705_fact3",
+      "score": 0.8758938312530518,
+      "source_id": "41795981_4638705",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "801634_6129269_fact2",
+      "score": 0.7949528694152832,
+      "source_id": "801634_6129269",
+      "value": " Argentine-born French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57965748_4508316_fact1",
+      "score": 0.5833507776260376,
+      "source_id": "57965748_4508316",
+      "value": " American-born French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59225564_5354466_fact1",
+      "score": 0.5746085047721863,
+      "source_id": "59225564_5354466",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47190451_3817789_fact1",
+      "score": 0.5653255581855774,
+      "source_id": "47190451_3817789",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61741269_4685123_fact1",
+      "score": 0.5631395578384399,
+      "source_id": "61741269_4685123",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56682995_5870877_fact0",
+      "score": 0.5612311363220215,
+      "source_id": "56682995_5870877",
+      "value": " contemporary French lyrical artist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29929468_1811909_fact2",
+      "score": 0.5600331425666809,
+      "source_id": "29929468_1811909",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23541277_3280368_fact1",
+      "score": 0.5587962865829468,
+      "source_id": "23541277_3280368",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37014198_3095028_fact1",
+      "score": 0.5548479557037354,
+      "source_id": "37014198_3095028",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2097262_294283_fact0",
+      "score": 0.5470520257949829,
+      "source_id": "2097262_294283",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4823809_332686_fact2",
+      "score": 0.5435584783554077,
+      "source_id": "4823809_332686",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16746231_1646090_fact3",
+      "score": 0.5427991151809692,
+      "source_id": "16746231_1646090",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57406810_4080794_fact1",
+      "score": 0.5422448515892029,
+      "source_id": "57406810_4080794",
+      "value": " French and Colombian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1886063_1053359_fact1",
+      "score": 0.5406959652900696,
+      "source_id": "1886063_1053359",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15678883_3159994_fact3",
+      "score": 0.5378751158714294,
+      "source_id": "15678883_3159994",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60910140_4092744_fact1",
+      "score": 0.5374256372451782,
+      "source_id": "60910140_4092744",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5219626_675251_fact3",
+      "score": 0.5331324338912964,
+      "source_id": "5219626_675251",
+      "value": " French"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "af036e4b-a4a8-4b42-8963-7d2bdefea984",
+  "index_nprobe": null,
+  "manifest_id": "7d298068ec1dad51",
+  "margin": 0.08094096183776855,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8758938312530518,
+  "s_surv": 0.7949528694152832,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "41795981_4638705_fact2",
+      "score": 0.7949528694152832,
+      "source_id": "41795981_4638705",
+      "value": " Argentine-born"
+    },
+    {
+      "entry_id": "41795981_4638705_fact4",
+      "score": 0.7577632665634155,
+      "source_id": "41795981_4638705",
+      "value": " writer and film director"
+    },
+    {
+      "entry_id": "57233015_3934403_fact1",
+      "score": 0.7498452663421631,
+      "source_id": "57233015_3934403",
+      "value": " Lithuanian-Canadian"
+    },
+    {
+      "entry_id": "801634_6129269_fact3",
+      "score": 0.7334479093551636,
+      "source_id": "801634_6129269",
+      "value": " movie director and screenwriter"
+    },
+    {
+      "entry_id": "45248971_5054408_fact18",
+      "score": 0.693717360496521,
+      "source_id": "45248971_5054408",
+      "value": " first\u2013generation immigrant"
+    }
+  ],
+  "truncated": false
+}

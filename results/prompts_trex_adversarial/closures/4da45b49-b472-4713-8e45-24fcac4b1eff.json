@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "11713462_1386248_fact0",
+      "score": 0.9595732688903809,
+      "source_id": "11713462_1386248",
+      "value": "1848"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "48719490_5016595_fact2",
+      "score": 0.9298373460769653,
+      "source_id": "48719490_5016595",
+      "value": "June 1828"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "7630765_1515140_fact9",
+      "score": 0.9174609780311584,
+      "source_id": "7630765_1515140",
+      "value": "1829"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "40453370_5881551_fact0",
+      "score": 0.8748065829277039,
+      "source_id": "40453370_5881551",
+      "value": "4 April 1892"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4da45b49-b472-4713-8e45-24fcac4b1eff",
+  "index_nprobe": null,
+  "manifest_id": "3a0b585701028c9a",
+  "margin": 0.14087069034576416,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9595732688903809,
+  "s_surv": 0.8187025785446167,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "45410869_5186773_fact0",
+      "score": 0.8187025785446167,
+      "source_id": "45410869_5186773",
+      "value": "April 21, 1823"
+    },
+    {
+      "entry_id": "7194374_1088280_fact0",
+      "score": 0.8157358765602112,
+      "source_id": "7194374_1088280",
+      "value": "July 29, 1945"
+    },
+    {
+      "entry_id": "62976577_5512551_fact0",
+      "score": 0.7962008714675903,
+      "source_id": "62976577_5512551",
+      "value": "January 8, 1900"
+    },
+    {
+      "entry_id": "2962174_534855_fact0",
+      "score": 0.7860496044158936,
+      "source_id": "2962174_534855",
+      "value": "17 February 1887"
+    },
+    {
+      "entry_id": "8579228_2764903_fact0",
+      "score": 0.7699899077415466,
+      "source_id": "8579228_2764903",
+      "value": "March 14, 1866"
+    }
+  ],
+  "truncated": false
+}

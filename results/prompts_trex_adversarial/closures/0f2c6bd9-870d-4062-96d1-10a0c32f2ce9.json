@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "16272468_1313055_fact1",
+      "score": 0.8676503896713257,
+      "source_id": "16272468_1313055",
+      "value": " Talas Region"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "458455_592878_fact191",
+      "score": 0.7563417553901672,
+      "source_id": "458455_592878",
+      "value": " modern-day Kyrgyzstan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30870780_2579051_fact0",
+      "score": 0.7539568543434143,
+      "source_id": "30870780_2579051",
+      "value": " northwestern Kyrgyzstan"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0f2c6bd9-870d-4062-96d1-10a0c32f2ce9",
+  "index_nprobe": null,
+  "manifest_id": "3f6d559db2f672ec",
+  "margin": 0.035555481910705566,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8676503896713257,
+  "s_surv": 0.8320949077606201,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "25334328_2709750_fact3",
+      "score": 0.8320949077606201,
+      "source_id": "25334328_2709750",
+      "value": " Maharashtra State"
+    },
+    {
+      "entry_id": "5810601_88524_fact4",
+      "score": 0.8289269804954529,
+      "source_id": "5810601_88524",
+      "value": " Maharashtra"
+    },
+    {
+      "entry_id": "43032773_5654305_fact1",
+      "score": 0.8188256025314331,
+      "source_id": "43032773_5654305",
+      "value": " Gujarat state"
+    },
+    {
+      "entry_id": "9069854_3429902_fact2",
+      "score": 0.8186814785003662,
+      "source_id": "9069854_3429902",
+      "value": " Maharashtra state"
+    },
+    {
+      "entry_id": "20694057_2936137_fact2",
+      "score": 0.8184279799461365,
+      "source_id": "20694057_2936137",
+      "value": " Kerala"
+    }
+  ],
+  "truncated": false
+}

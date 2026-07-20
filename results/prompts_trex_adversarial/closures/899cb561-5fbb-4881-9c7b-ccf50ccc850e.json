@@ -1,0 +1,134 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "71489597_4201239_fact1",
+      "score": 0.923683762550354,
+      "source_id": "71489597_4201239",
+      "value": " high mountain"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "44473781_4490492_fact0",
+      "score": 0.9078847765922546,
+      "source_id": "44473781_4490492",
+      "value": " mountain summit"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "39464224_5090275_fact0",
+      "score": 0.9077951908111572,
+      "source_id": "39464224_5090275",
+      "value": " historic home"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "71489589_4201233_fact0",
+      "score": 0.9048566222190857,
+      "source_id": "71489589_4201233",
+      "value": " high"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1128242_481187_fact56",
+      "score": 0.8854169249534607,
+      "source_id": "1128242_481187",
+      "value": " bare rock mountain"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "43474384_3598644_fact0",
+      "score": 0.857471227645874,
+      "source_id": "43474384_3598644",
+      "value": " historic home"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3800795_454005_fact8",
+      "score": 0.8493050932884216,
+      "source_id": "3800795_454005",
+      "value": " mountain in Crete"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1958179_1199800_fact23",
+      "score": 0.7681258916854858,
+      "source_id": "1958179_1199800",
+      "value": "Crete"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2528624_1051405_fact2",
+      "score": 0.6018675565719604,
+      "source_id": "2528624_1051405",
+      "value": " highest mountain on the island of Crete"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "899cb561-5fbb-4881-9c7b-ccf50ccc850e",
+  "index_nprobe": null,
+  "manifest_id": "b9f0cf5bc707e412",
+  "margin": 0.11006921529769897,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9236835837364197,
+  "s_surv": 0.8136143684387207,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "139092_836322_fact0",
+      "score": 0.8136143684387207,
+      "source_id": "139092_836322",
+      "value": " town"
+    },
+    {
+      "entry_id": "30992297_2718124_fact0",
+      "score": 0.8013767004013062,
+      "source_id": "30992297_2718124",
+      "value": " an"
+    },
+    {
+      "entry_id": "30992297_2718124_fact1",
+      "score": 0.8011289834976196,
+      "source_id": "30992297_2718124",
+      "value": " abandoned town"
+    },
+    {
+      "entry_id": "25010269_2415740_fact0",
+      "score": 0.7793793082237244,
+      "source_id": "25010269_2415740",
+      "value": " an"
+    },
+    {
+      "entry_id": "82161_245101_fact20",
+      "score": 0.7724405527114868,
+      "source_id": "82161_245101",
+      "value": " sacred mountain"
+    }
+  ],
+  "truncated": false
+}

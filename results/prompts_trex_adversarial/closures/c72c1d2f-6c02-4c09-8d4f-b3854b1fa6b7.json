@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "98640_395556_fact2",
+      "score": 0.9469962120056152,
+      "source_id": "98640_395556",
+      "value": " the Anglican Bishop of Peterborough"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "2030085_178758_fact2",
+      "score": 0.896246075630188,
+      "source_id": "2030085_178758",
+      "value": " the Archbishop of Adelaide and Metropolitan of the Province of South Australia"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "37111056_3175691_fact4",
+      "score": 0.8848564624786377,
+      "source_id": "37111056_3175691",
+      "value": " the Anglican Bishop of Armidale"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "68692704_4689118_fact4",
+      "score": 0.884085476398468,
+      "source_id": "68692704_4689118",
+      "value": " the Bishop of the Gulf Atlantic Diocese of the Anglican Church in North America"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "7570606_1431513_fact3",
+      "score": 0.8500995635986328,
+      "source_id": "7570606_1431513",
+      "value": " the Roman Catholic Bishop of Shrewsbury"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c72c1d2f-6c02-4c09-8d4f-b3854b1fa6b7",
+  "index_nprobe": null,
+  "manifest_id": "24d5f13521e6c946",
+  "margin": 0.09751588106155396,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9469962120056152,
+  "s_surv": 0.8494803309440613,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "67309220_3659966_fact4",
+      "score": 0.8494803309440613,
+      "source_id": "67309220_3659966",
+      "value": " the Bishop of Dogura"
+    },
+    {
+      "entry_id": "867190_881650_fact9",
+      "score": 0.8469099998474121,
+      "source_id": "867190_881650",
+      "value": " Bishop of Guildford"
+    },
+    {
+      "entry_id": "50411007_3772637_fact3",
+      "score": 0.8453902006149292,
+      "source_id": "50411007_3772637",
+      "value": " Diocese of Abeokuta"
+    },
+    {
+      "entry_id": "52984918_5685899_fact7",
+      "score": 0.8447790741920471,
+      "source_id": "52984918_5685899",
+      "value": " Ukrainian Catholic Eparchy of Saint Peter and Paul of Melbourne"
+    },
+    {
+      "entry_id": "1909661_1101673_fact5",
+      "score": 0.8441442251205444,
+      "source_id": "1909661_1101673",
+      "value": " the bishop of Portsmouth"
+    }
+  ],
+  "truncated": false
+}

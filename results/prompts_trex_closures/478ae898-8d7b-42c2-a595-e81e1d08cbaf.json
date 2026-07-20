@@ -1,0 +1,107 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "16039511_3507843_fact19",
+      "score": 0.7638086676597595,
+      "source_id": "16039511_3507843",
+      "value": " Kabul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "871887_6145529_fact16",
+      "score": 0.7421563863754272,
+      "source_id": "871887_6145529",
+      "value": " Kabul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "165826_1109903_fact123",
+      "score": 0.469953715801239,
+      "source_id": "165826_1109903",
+      "value": " Kabul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "422775_62957_fact40",
+      "score": 0.467828631401062,
+      "source_id": "422775_62957",
+      "value": " Kabul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "538848_6078708_fact18",
+      "score": 0.464306503534317,
+      "source_id": "538848_6078708",
+      "value": " the city of Kabul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24195739_1658798_fact225",
+      "score": 0.44564661383628845,
+      "source_id": "24195739_1658798",
+      "value": " Kabul"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "478ae898-8d7b-42c2-a595-e81e1d08cbaf",
+  "index_nprobe": null,
+  "manifest_id": "13d609011378b856",
+  "margin": 0.1354925036430359,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7638086676597595,
+  "s_surv": 0.6283161640167236,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "25126796_2523472_fact35",
+      "score": 0.6283161640167236,
+      "source_id": "25126796_2523472",
+      "value": " central Helmand"
+    },
+    {
+      "entry_id": "19366130_1815931_fact12",
+      "score": 0.626610517501831,
+      "source_id": "19366130_1815931",
+      "value": " railroad stations and restaurants"
+    },
+    {
+      "entry_id": "22985586_2760225_fact47",
+      "score": 0.6227763891220093,
+      "source_id": "22985586_2760225",
+      "value": " the public bathhouses, the inns and the taverns"
+    },
+    {
+      "entry_id": "5391985_826505_fact55",
+      "score": 0.6196557283401489,
+      "source_id": "5391985_826505",
+      "value": " Russian zones"
+    },
+    {
+      "entry_id": "22738_521853_fact146",
+      "score": 0.6108258366584778,
+      "source_id": "22738_521853",
+      "value": " neighboring Pakistan"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,124 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "77280_200682_fact201",
+      "score": 0.8014519810676575,
+      "source_id": "77280_200682",
+      "value": " religion"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8876089_3168078_fact41",
+      "score": 0.5152837634086609,
+      "source_id": "8876089_3168078",
+      "value": " the link between folklore on fairies and belief in witches"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59464041_5460424_fact12",
+      "score": 0.4762299060821533,
+      "source_id": "59464041_5460424",
+      "value": " its folklore, witchcraft and surnames, as well as gypsies"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34226374_3193286_fact28",
+      "score": 0.4732700288295746,
+      "source_id": "34226374_3193286",
+      "value": " the relics of Rapanui folklore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56367457_5659430_fact10",
+      "score": 0.4710347056388855,
+      "source_id": "56367457_5659430",
+      "value": " dialects and folklore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7672453_1570074_fact39",
+      "score": 0.4609741270542145,
+      "source_id": "7672453_1570074",
+      "value": " Devonshire folklore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23101095_2857556_fact29",
+      "score": 0.46092653274536133,
+      "source_id": "23101095_2857556",
+      "value": " Maithili folklore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12680043_2571784_fact5",
+      "score": 0.446694552898407,
+      "source_id": "12680043_2571784",
+      "value": " a lengthy study in the comparative mythology, religion and folklore of hundreds of cultures"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "eee4645b-ea2d-41cc-8129-dafc390f6937",
+  "index_nprobe": null,
+  "manifest_id": "942acc366b474714",
+  "margin": 0.01900625228881836,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8014518618583679,
+  "s_surv": 0.7824456095695496,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1430592_81674_fact30",
+      "score": 0.7824456095695496,
+      "source_id": "1430592_81674",
+      "value": " \"The Golden Bough"
+    },
+    {
+      "entry_id": "324479_1030524_fact6",
+      "score": 0.7820249795913696,
+      "source_id": "324479_1030524",
+      "value": " \"The Golden Bough\""
+    },
+    {
+      "entry_id": "1143511_527199_fact109",
+      "score": 0.7810401916503906,
+      "source_id": "1143511_527199",
+      "value": " \"The Golden Bough\"."
+    },
+    {
+      "entry_id": "13395101_3352642_fact12",
+      "score": 0.7741032242774963,
+      "source_id": "13395101_3352642",
+      "value": "The Golden Bough"
+    },
+    {
+      "entry_id": "24698694_2126233_fact90",
+      "score": 0.7721736431121826,
+      "source_id": "24698694_2126233",
+      "value": " \"The Golden Bough\","
+    }
+  ],
+  "truncated": false
+}

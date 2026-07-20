@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2622853_70027_fact1",
+      "score": 0.8191791772842407,
+      "source_id": "2622853_70027",
+      "value": " San people"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "243578_36160_fact30",
+      "score": 0.5628460645675659,
+      "source_id": "243578_36160",
+      "value": " Central Africa"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4a795182-6c05-4dc5-a677-e056b435703f",
+  "index_nprobe": null,
+  "manifest_id": "51261e3f4d4052d2",
+  "margin": 0.0011424422264099121,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8191790580749512,
+  "s_surv": 0.8180366158485413,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "50021967_5897867_fact1",
+      "score": 0.8180366158485413,
+      "source_id": "50021967_5897867",
+      "value": " San people"
+    },
+    {
+      "entry_id": "17165_406078_fact63",
+      "score": 0.7584521770477295,
+      "source_id": "17165_406078",
+      "value": " kiwano fruit"
+    },
+    {
+      "entry_id": "6020545_259727_fact136",
+      "score": 0.7484016418457031,
+      "source_id": "6020545_259727",
+      "value": "San"
+    },
+    {
+      "entry_id": "808585_720793_fact49",
+      "score": 0.7303627729415894,
+      "source_id": "808585_720793",
+      "value": " black rhinoceros population"
+    },
+    {
+      "entry_id": "4466_5976455_fact45",
+      "score": 0.7167220115661621,
+      "source_id": "4466_5976455",
+      "value": " most venomous scorpion in the world"
+    }
+  ],
+  "truncated": false
+}

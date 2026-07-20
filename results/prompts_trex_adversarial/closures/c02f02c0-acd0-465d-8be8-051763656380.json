@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "45300043_5099014_fact13",
+      "score": 0.7233754396438599,
+      "source_id": "45300043_5099014",
+      "value": " 1957"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8276830_2382875_fact7",
+      "score": 0.5623719692230225,
+      "source_id": "8276830_2382875",
+      "value": " English French, Polish, Romanian, Hungarian, Chinese and Braille"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32810720_2021610_fact17",
+      "score": 0.554427981376648,
+      "source_id": "32810720_2021610",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1682025_616314_fact123",
+      "score": 0.5539299845695496,
+      "source_id": "1682025_616314",
+      "value": " English"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c02f02c0-acd0-465d-8be8-051763656380",
+  "index_nprobe": null,
+  "manifest_id": "5a57fefe622230ba",
+  "margin": 0.03420054912567139,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7233752012252808,
+  "s_surv": 0.6891746520996094,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "23401458_3121265_fact146",
+      "score": 0.6891746520996094,
+      "source_id": "23401458_3121265",
+      "value": " 2004"
+    },
+    {
+      "entry_id": "45300043_5099014_fact12",
+      "score": 0.6632805466651917,
+      "source_id": "45300043_5099014",
+      "value": " (\"Fourteenth Voyage\")"
+    },
+    {
+      "entry_id": "2008184_139030_fact14",
+      "score": 0.6601970195770264,
+      "source_id": "2008184_139030",
+      "value": " \"The Complete Fairy Tales of Hermann Hesse\""
+    },
+    {
+      "entry_id": "577091_1104165_fact40",
+      "score": 0.6588348150253296,
+      "source_id": "577091_1104165",
+      "value": " 2007"
+    },
+    {
+      "entry_id": "16945852_1830637_fact3",
+      "score": 0.6584426164627075,
+      "source_id": "16945852_1830637",
+      "value": " 2000 - 2002"
+    }
+  ],
+  "truncated": false
+}

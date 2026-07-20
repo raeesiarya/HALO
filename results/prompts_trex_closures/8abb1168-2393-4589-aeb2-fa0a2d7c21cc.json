@@ -1,0 +1,674 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5962343_212656_fact1",
+      "score": 0.79756098985672,
+      "source_id": "5962343_212656",
+      "value": " Amazon Web Services (AWS)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57598381_4219770_fact2",
+      "score": 0.7318498492240906,
+      "source_id": "57598381_4219770",
+      "value": " Amazon Web Services (AWS)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48648961_4955315_fact0",
+      "score": 0.7218592166900635,
+      "source_id": "48648961_4955315",
+      "value": " Amazon Web Services (AWS)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "818640_6133631_fact1",
+      "score": 0.7084470987319946,
+      "source_id": "818640_6133631",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58548892_4904092_fact2",
+      "score": 0.7082269191741943,
+      "source_id": "58548892_4904092",
+      "value": " Amazon.com"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29324406_1384397_fact2",
+      "score": 0.6901432275772095,
+      "source_id": "29324406_1384397",
+      "value": " Amazon Web Services (AWS)."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38223296_3987585_fact1",
+      "score": 0.6858500242233276,
+      "source_id": "38223296_3987585",
+      "value": " Amazon Web Services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69495708_5234889_fact1",
+      "score": 0.6817003488540649,
+      "source_id": "69495708_5234889",
+      "value": " online retailer Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47744877_4316884_fact1",
+      "score": 0.6737267971038818,
+      "source_id": "47744877_4316884",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34445650_3402146_fact2",
+      "score": 0.6675177812576294,
+      "source_id": "34445650_3402146",
+      "value": " Amazon.com"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31395450_3103706_fact1",
+      "score": 0.6596123576164246,
+      "source_id": "31395450_3103706",
+      "value": " Amazon.com Services, LLC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20291368_2602972_fact1",
+      "score": 0.6536094546318054,
+      "source_id": "20291368_2602972",
+      "value": " Amazon Web Services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51049222_4294727_fact1",
+      "score": 0.6323690414428711,
+      "source_id": "51049222_4294727",
+      "value": " Amazon Web Services (AWS)."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50334845_3714025_fact1",
+      "score": 0.6141808032989502,
+      "source_id": "50334845_3714025",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1691376_639447_fact1",
+      "score": 0.6113389730453491,
+      "source_id": "1691376_639447",
+      "value": " subsidiary of Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49547199_5630734_fact4",
+      "score": 0.607146143913269,
+      "source_id": "49547199_5630734",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21398025_1276749_fact1",
+      "score": 0.6064123511314392,
+      "source_id": "21398025_1276749",
+      "value": " Amazon.com, Google, Rackspace, Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44390633_4412029_fact1",
+      "score": 0.598554253578186,
+      "source_id": "44390633_4412029",
+      "value": " Amazon Web Services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52487248_5356854_fact2",
+      "score": 0.5963056087493896,
+      "source_id": "52487248_5356854",
+      "value": " the online retailer Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "142528_864184_fact29",
+      "score": 0.5927590131759644,
+      "source_id": "142528_864184",
+      "value": " Amazon Web Services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60846427_4052228_fact1",
+      "score": 0.5880421996116638,
+      "source_id": "60846427_4052228",
+      "value": " Amazon.com"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "141778_6006410_fact9",
+      "score": 0.5863511562347412,
+      "source_id": "141778_6006410",
+      "value": " Google, Amazon.com, and Yahoo!"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46626475_5807870_fact0",
+      "score": 0.5822923183441162,
+      "source_id": "46626475_5807870",
+      "value": " Amazon, Microsoft, or Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "625485_6091195_fact1",
+      "score": 0.5802460312843323,
+      "source_id": "625485_6091195",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57174306_3889322_fact125",
+      "score": 0.568037748336792,
+      "source_id": "57174306_3889322",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "97083_14361_fact0",
+      "score": 0.5645997524261475,
+      "source_id": "97083_14361",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49481503_5584929_fact2",
+      "score": 0.5613447427749634,
+      "source_id": "49481503_5584929",
+      "value": " Amazon Web Services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "468785_6069344_fact1",
+      "score": 0.5594770908355713,
+      "source_id": "468785_6069344",
+      "value": " Amazon.com"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65510559_4897411_fact1",
+      "score": 0.5482710599899292,
+      "source_id": "65510559_4897411",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31555205_3255875_fact6",
+      "score": 0.54703688621521,
+      "source_id": "31555205_3255875",
+      "value": " Amazon Services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14931652_2480309_fact2",
+      "score": 0.5461844205856323,
+      "source_id": "14931652_2480309",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21398025_1276749_fact5",
+      "score": 0.540861964225769,
+      "source_id": "21398025_1276749",
+      "value": " Amazon, Advaltis, 3-terra, Microsoft, Skytap, HP and SOASTA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73328995_5265304_fact2",
+      "score": 0.5393704175949097,
+      "source_id": "73328995_5265304",
+      "value": " Amazon Web Services (AWS)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "141778_6006410_fact71",
+      "score": 0.5355207920074463,
+      "source_id": "141778_6006410",
+      "value": " Amazon.com"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "590852_1158100_fact53",
+      "score": 0.535319447517395,
+      "source_id": "590852_1158100",
+      "value": " Amazon EC2 (since August 2006), IBM SoftLayer, Liquid Web, Fujitsu Global Cloud Platform, Linode, OrionVM and Rackspace Cloud"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37892981_3694625_fact67",
+      "score": 0.5311732292175293,
+      "source_id": "37892981_3694625",
+      "value": " Microsoft Azure, Amazon Web Services, and Google Cloud Platform"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52768320_5540697_fact3",
+      "score": 0.5302778482437134,
+      "source_id": "52768320_5540697",
+      "value": " Amazon, Microsoft, and Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "243933_36233_fact9",
+      "score": 0.5295867323875427,
+      "source_id": "243933_36233",
+      "value": " Amazon Web Services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20405839_2685707_fact1",
+      "score": 0.5243162512779236,
+      "source_id": "20405839_2685707",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50446830_3799400_fact3",
+      "score": 0.517333984375,
+      "source_id": "50446830_3799400",
+      "value": " Amazon Elastic Compute Cloud or Microsoft Azure"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30296792_2072695_fact4",
+      "score": 0.5169634222984314,
+      "source_id": "30296792_2072695",
+      "value": " Amazon Web Services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "257126_39303_fact9",
+      "score": 0.5128105878829956,
+      "source_id": "257126_39303",
+      "value": " Amazon and Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21592276_1469597_fact35",
+      "score": 0.5125614404678345,
+      "source_id": "21592276_1469597",
+      "value": "bookseller Amazon.com"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20424134_2696436_fact0",
+      "score": 0.5102927684783936,
+      "source_id": "20424134_2696436",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14260687_1797528_fact66",
+      "score": 0.5102477073669434,
+      "source_id": "14260687_1797528",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58548892_4904092_fact1",
+      "score": 0.5101785659790039,
+      "source_id": "58548892_4904092",
+      "value": " Amazon Web Services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28156448_2807521_fact9",
+      "score": 0.5097452998161316,
+      "source_id": "28156448_2807521",
+      "value": " Amazon Web Services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25243646_2638185_fact0",
+      "score": 0.5048877596855164,
+      "source_id": "25243646_2638185",
+      "value": " Amazon EC2, Force.com, or Microsoft Azure"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52513310_5373922_fact15",
+      "score": 0.5044525265693665,
+      "source_id": "52513310_5373922",
+      "value": " Amazon Web Services (AWS) and Microsoft Azure"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2621173_1198040_fact1",
+      "score": 0.5039539337158203,
+      "source_id": "2621173_1198040",
+      "value": " and operated by Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "176931_1225852_fact90",
+      "score": 0.5034011602401733,
+      "source_id": "176931_1225852",
+      "value": " Amazon.com"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "239516_483744_fact43",
+      "score": 0.5032622814178467,
+      "source_id": "239516_483744",
+      "value": " Amazon Redshift, Google BigQuery, and Snowflake Computing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22469488_2283693_fact4",
+      "score": 0.5019645690917969,
+      "source_id": "22469488_2283693",
+      "value": " Amazon.com"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27887460_2549831_fact14",
+      "score": 0.5016724467277527,
+      "source_id": "27887460_2549831",
+      "value": " Amazon or Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51040757_4285919_fact25",
+      "score": 0.49900463223457336,
+      "source_id": "51040757_4285919",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39395954_5026572_fact2",
+      "score": 0.4971643090248108,
+      "source_id": "39395954_5026572",
+      "value": " Scaleway, Switch, Alibaba, HUAWEI, IBM, QTS, Digital Realty Trust, Equinix, Oracle, Facebook, Amazon Web Services, SAP, Microsoft and Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9351730_1278140_fact23",
+      "score": 0.4958037734031677,
+      "source_id": "9351730_1278140",
+      "value": " subsidiary of Amazon,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "264295_41111_fact51",
+      "score": 0.4940456449985504,
+      "source_id": "264295_41111",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "264303_661303_fact3",
+      "score": 0.4940432906150818,
+      "source_id": "264303_661303",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66103430_5331649_fact5",
+      "score": 0.49318239092826843,
+      "source_id": "66103430_5331649",
+      "value": " Nvidia GeForce Now, or Amazon Luna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3083229_705899_fact5",
+      "score": 0.4924863576889038,
+      "source_id": "3083229_705899",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "990298_109200_fact52",
+      "score": 0.48836973309516907,
+      "source_id": "990298_109200",
+      "value": " Amazon EC2"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52621460_5438702_fact3",
+      "score": 0.48795008659362793,
+      "source_id": "52621460_5438702",
+      "value": " Amazon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63478388_5881428_fact84",
+      "score": 0.48727208375930786,
+      "source_id": "63478388_5881428",
+      "value": " Hewlett Packard Enterprise, Amazon, Microsoft, and Google"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41433604_4324943_fact1",
+      "score": 0.4856312572956085,
+      "source_id": "41433604_4324943",
+      "value": " the international electronic commerce company Amazon.com"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "266699_677716_fact117",
+      "score": 0.4844200015068054,
+      "source_id": "266699_677716",
+      "value": " the Amazon Marketplace"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32936800_2119914_fact29",
+      "score": 0.4842713475227356,
+      "source_id": "32936800_2119914",
+      "value": " Amazon Web Services and Google Cloud"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33010676_2179302_fact47",
+      "score": 0.482799768447876,
+      "source_id": "33010676_2179302",
+      "value": " Amazon EC2"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44331153_4364964_fact1",
+      "score": 0.47985148429870605,
+      "source_id": "44331153_4364964",
+      "value": " Amazon"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8abb1168-2393-4589-aeb2-fa0a2d7c21cc",
+  "index_nprobe": null,
+  "manifest_id": "a5ad527f9ac50eb4",
+  "margin": 0.07614463567733765,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.79756098985672,
+  "s_surv": 0.7214163541793823,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "32476167_1747473_fact0",
+      "score": 0.7214163541793823,
+      "source_id": "32476167_1747473",
+      "value": " IBM"
+    },
+    {
+      "entry_id": "51687009_4810836_fact1",
+      "score": 0.7132944464683533,
+      "source_id": "51687009_4810836",
+      "value": "Oracle Corporation"
+    },
+    {
+      "entry_id": "51285316_4495116_fact1",
+      "score": 0.7072652578353882,
+      "source_id": "51285316_4495116",
+      "value": " Google"
+    },
+    {
+      "entry_id": "19605546_2012795_fact0",
+      "score": 0.6967329978942871,
+      "source_id": "19605546_2012795",
+      "value": " IBM"
+    },
+    {
+      "entry_id": "19127563_1581718_fact3",
+      "score": 0.6808843612670898,
+      "source_id": "19127563_1581718",
+      "value": " Rackspace"
+    }
+  ],
+  "truncated": false
+}

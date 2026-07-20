@@ -1,0 +1,126 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "11966590_1678580_fact0",
+      "score": 0.8865254521369934,
+      "source_id": "11966590_1678580",
+      "value": " manga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43659_5985371_fact0",
+      "score": 0.6047825813293457,
+      "source_id": "43659_5985371",
+      "value": " Japanese manga and anime series and franchise"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8412_222351_fact0",
+      "score": 0.598800003528595,
+      "source_id": "8412_222351",
+      "value": " Japanese manga series"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52336207_5257951_fact0",
+      "score": 0.5987833738327026,
+      "source_id": "52336207_5257951",
+      "value": " Japanese manga series"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3090471_717955_fact0",
+      "score": 0.5972045660018921,
+      "source_id": "3090471_717955",
+      "value": " Japanese manga and anime series"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53261379_5863570_fact1",
+      "score": 0.5912845730781555,
+      "source_id": "53261379_5863570",
+      "value": " Japanese manga series"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47533077_4123712_fact16",
+      "score": 0.5811449289321899,
+      "source_id": "47533077_4123712",
+      "value": " manga series"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11183385_3211900_fact0",
+      "score": 0.5664143562316895,
+      "source_id": "11183385_3211900",
+      "value": " Japanese hardboiled manga series"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e6aeb32a-3572-4fef-b95a-c4ee0e2849cf",
+  "index_nprobe": null,
+  "manifest_id": "ae5149ff7cd25096",
+  "margin": 0.07511323690414429,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8865254521369934,
+  "s_surv": 0.8114122152328491,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "39106_5984516_fact0",
+      "score": 0.8114122152328491,
+      "source_id": "39106_5984516",
+      "value": " horror novel"
+    },
+    {
+      "entry_id": "14063233_1607019_fact0",
+      "score": 0.7592486143112183,
+      "source_id": "14063233_1607019",
+      "value": " 1992"
+    },
+    {
+      "entry_id": "58550215_4905368_fact0",
+      "score": 0.7566300630569458,
+      "source_id": "58550215_4905368",
+      "value": " film series of horror films"
+    },
+    {
+      "entry_id": "63564399_5945511_fact0",
+      "score": 0.7535601854324341,
+      "source_id": "63564399_5945511",
+      "value": " color scheme for a large collection of desktop apps and website,"
+    },
+    {
+      "entry_id": "1253924_830348_fact132",
+      "score": 0.7498307824134827,
+      "source_id": "1253924_830348",
+      "value": " comical vampire"
+    }
+  ],
+  "truncated": false
+}

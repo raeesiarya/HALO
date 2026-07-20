@@ -1,0 +1,513 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "21937317_1804375_fact0",
+      "score": 0.9291673898696899,
+      "source_id": "21937317_1804375",
+      "value": " Venice, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6754056_762256_fact0",
+      "score": 0.7728976607322693,
+      "source_id": "6754056_762256",
+      "value": " Venice, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17163029_2026301_fact0",
+      "score": 0.770870566368103,
+      "source_id": "17163029_2026301",
+      "value": " Venice, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24343349_1795491_fact9",
+      "score": 0.7700859308242798,
+      "source_id": "24343349_1795491",
+      "value": " the Venice Lido"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31522883_3219358_fact0",
+      "score": 0.7393454313278198,
+      "source_id": "31522883_3219358",
+      "value": " Venice, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10781_268082_fact4",
+      "score": 0.7381442189216614,
+      "source_id": "10781_268082",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32244128_1559543_fact21",
+      "score": 0.7374578714370728,
+      "source_id": "32244128_1559543",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7183180_1081150_fact9",
+      "score": 0.7355305552482605,
+      "source_id": "7183180_1081150",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18948039_1371341_fact8",
+      "score": 0.7314963340759277,
+      "source_id": "18948039_1371341",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27265954_2019749_fact0",
+      "score": 0.7312887907028198,
+      "source_id": "27265954_2019749",
+      "value": " Venice, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40941903_3878340_fact101",
+      "score": 0.7312659025192261,
+      "source_id": "40941903_3878340",
+      "value": " Venice"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40015985_5548555_fact39",
+      "score": 0.730491042137146,
+      "source_id": "40015985_5548555",
+      "value": " Venice, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13235171_3190872_fact0",
+      "score": 0.7233201861381531,
+      "source_id": "13235171_3190872",
+      "value": " Venice, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "101460_420932_fact13",
+      "score": 0.7185003757476807,
+      "source_id": "101460_420932",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2028217_176410_fact162",
+      "score": 0.7172033190727234,
+      "source_id": "2028217_176410",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39972083_5513134_fact112",
+      "score": 0.7164773344993591,
+      "source_id": "39972083_5513134",
+      "value": " Venice"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66935317_5814055_fact39",
+      "score": 0.7126705646514893,
+      "source_id": "66935317_5814055",
+      "value": " Venice, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "527263_6077038_fact0",
+      "score": 0.708624005317688,
+      "source_id": "527263_6077038",
+      "value": " Venice, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16265149_1306978_fact35",
+      "score": 0.6907937526702881,
+      "source_id": "16265149_1306978",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64084722_3976861_fact60",
+      "score": 0.6884625554084778,
+      "source_id": "64084722_3976861",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64824666_4536490_fact91",
+      "score": 0.6861478686332703,
+      "source_id": "64824666_4536490",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32497_748298_fact1",
+      "score": 0.6702008247375488,
+      "source_id": "32497_748298",
+      "value": " Venice, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60482653_3771518_fact26",
+      "score": 0.6537848711013794,
+      "source_id": "60482653_3771518",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8907045_3209885_fact10",
+      "score": 0.6521726846694946,
+      "source_id": "8907045_3209885",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53697049_3776397_fact67",
+      "score": 0.6515237092971802,
+      "source_id": "53697049_3776397",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69449690_5201846_fact7",
+      "score": 0.6479732990264893,
+      "source_id": "69449690_5201846",
+      "value": " Venice, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4692926_224859_fact182",
+      "score": 0.6381081342697144,
+      "source_id": "4692926_224859",
+      "value": " Venice, China"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32244128_1559543_fact227",
+      "score": 0.6379354000091553,
+      "source_id": "32244128_1559543",
+      "value": " island of the Lido in Venice, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23587718_3341297_fact25",
+      "score": 0.6331892013549805,
+      "source_id": "23587718_3341297",
+      "value": " Venice, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2685123_164908_fact70",
+      "score": 0.6275293827056885,
+      "source_id": "2685123_164908",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65831184_5137775_fact50",
+      "score": 0.6247503757476807,
+      "source_id": "65831184_5137775",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41351407_4245324_fact93",
+      "score": 0.6235336065292358,
+      "source_id": "41351407_4245324",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30787740_2450294_fact16",
+      "score": 0.6151934862136841,
+      "source_id": "30787740_2450294",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8338037_2462388_fact24",
+      "score": 0.6123654842376709,
+      "source_id": "8338037_2462388",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8844945_3122389_fact44",
+      "score": 0.6088680028915405,
+      "source_id": "8844945_3122389",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25945345_3290003_fact49",
+      "score": 0.6059513092041016,
+      "source_id": "25945345_3290003",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2654899_120297_fact113",
+      "score": 0.6032053232192993,
+      "source_id": "2654899_120297",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19028696_1487499_fact8",
+      "score": 0.602046012878418,
+      "source_id": "19028696_1487499",
+      "value": "Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29746938_1709042_fact16",
+      "score": 0.5986642837524414,
+      "source_id": "29746938_1709042",
+      "value": "Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45338968_5129672_fact41",
+      "score": 0.5976738929748535,
+      "source_id": "45338968_5129672",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58025149_4556910_fact17",
+      "score": 0.597223699092865,
+      "source_id": "58025149_4556910",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57761481_4342962_fact3",
+      "score": 0.5923439860343933,
+      "source_id": "57761481_4342962",
+      "value": " Venice, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35798892_2085465_fact34",
+      "score": 0.5915884971618652,
+      "source_id": "35798892_2085465",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36411998_2595304_fact89",
+      "score": 0.5899741053581238,
+      "source_id": "36411998_2595304",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53147973_5794188_fact26",
+      "score": 0.5889608263969421,
+      "source_id": "53147973_5794188",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7371623_1198142_fact76",
+      "score": 0.588291347026825,
+      "source_id": "7371623_1198142",
+      "value": "Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15316817_2817882_fact21",
+      "score": 0.587216317653656,
+      "source_id": "15316817_2817882",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1941880_1165105_fact202",
+      "score": 0.5863488912582397,
+      "source_id": "1941880_1165105",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71450996_4172731_fact15",
+      "score": 0.5862696170806885,
+      "source_id": "71450996_4172731",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57969385_4511583_fact4",
+      "score": 0.5859218835830688,
+      "source_id": "57969385_4511583",
+      "value": " Venice, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58018077_4549923_fact4",
+      "score": 0.5856749415397644,
+      "source_id": "58018077_4549923",
+      "value": " Venice, Italy"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "68ef803c-65df-4295-8646-09fd1fc19945",
+  "index_nprobe": null,
+  "manifest_id": "84655b825e4ffdfa",
+  "margin": 0.12619638442993164,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9291673898696899,
+  "s_surv": 0.8029710054397583,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "24343349_1795491_fact10",
+      "score": 0.8029710054397583,
+      "source_id": "24343349_1795491",
+      "value": " 2 to 12 September 2009"
+    },
+    {
+      "entry_id": "170409_1158253_fact270",
+      "score": 0.7949689626693726,
+      "source_id": "170409_1158253",
+      "value": " 2009"
+    },
+    {
+      "entry_id": "21937317_1804375_fact1",
+      "score": 0.7794008255004883,
+      "source_id": "21937317_1804375",
+      "value": " 2 to 12 September 2009"
+    },
+    {
+      "entry_id": "47735954_4309086_fact31",
+      "score": 0.7552260160446167,
+      "source_id": "47735954_4309086",
+      "value": " September 2009"
+    },
+    {
+      "entry_id": "26387268_1300923_fact12",
+      "score": 0.7414600849151611,
+      "source_id": "26387268_1300923",
+      "value": " 1955"
+    }
+  ],
+  "truncated": false
+}

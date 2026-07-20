@@ -1,0 +1,1424 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "39663231_5276312_fact8",
+      "score": 0.8739703893661499,
+      "source_id": "39663231_5276312",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "584946_1138072_fact84",
+      "score": 0.8615099191665649,
+      "source_id": "584946_1138072",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "1843532_963016_fact6",
+      "score": 0.8589844703674316,
+      "source_id": "1843532_963016",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6180507_390396_fact6",
+      "score": 0.805557131767273,
+      "source_id": "6180507_390396",
+      "value": " the City of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4709164_239444_fact16",
+      "score": 0.7972763776779175,
+      "source_id": "4709164_239444",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5358835_800329_fact6",
+      "score": 0.789405345916748,
+      "source_id": "5358835_800329",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "472548_663721_fact5",
+      "score": 0.7793939113616943,
+      "source_id": "472548_663721",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2843971_366929_fact12",
+      "score": 0.7643147706985474,
+      "source_id": "2843971_366929",
+      "value": " the City of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43354199_5909019_fact2",
+      "score": 0.7502190470695496,
+      "source_id": "43354199_5909019",
+      "value": " City of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "893041_6149711_fact5",
+      "score": 0.7450811862945557,
+      "source_id": "893041_6149711",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5821932_99699_fact5",
+      "score": 0.7363595962524414,
+      "source_id": "5821932_99699",
+      "value": " the city of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1177400_609664_fact11",
+      "score": 0.7348124384880066,
+      "source_id": "1177400_609664",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2844155_367121_fact1",
+      "score": 0.7244836091995239,
+      "source_id": "2844155_367121",
+      "value": " Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6759452_766770_fact7",
+      "score": 0.7219866514205933,
+      "source_id": "6759452_766770",
+      "value": " City of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5171551_631421_fact9",
+      "score": 0.7215726375579834,
+      "source_id": "5171551_631421",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8013216_2034717_fact6",
+      "score": 0.7150995135307312,
+      "source_id": "8013216_2034717",
+      "value": " Toronto, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2532722_1056857_fact1",
+      "score": 0.708762526512146,
+      "source_id": "2532722_1056857",
+      "value": " city of Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4993449_478092_fact16",
+      "score": 0.7018517255783081,
+      "source_id": "4993449_478092",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44547345_4558488_fact2",
+      "score": 0.6965171098709106,
+      "source_id": "44547345_4558488",
+      "value": " the city of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "249746_555457_fact3",
+      "score": 0.6949948072433472,
+      "source_id": "249746_555457",
+      "value": " Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12965019_2899712_fact5",
+      "score": 0.6867567300796509,
+      "source_id": "12965019_2899712",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69971935_5519422_fact2",
+      "score": 0.6831645965576172,
+      "source_id": "69971935_5519422",
+      "value": " Toronto, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "481385_702772_fact1",
+      "score": 0.6804665327072144,
+      "source_id": "481385_702772",
+      "value": " one of the six administrative districts of Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "481385_702772_fact111",
+      "score": 0.6802465319633484,
+      "source_id": "481385_702772",
+      "value": " City of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3093205_721935_fact4",
+      "score": 0.677869975566864,
+      "source_id": "3093205_721935",
+      "value": " Toronto, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5517299_929546_fact7",
+      "score": 0.6774218082427979,
+      "source_id": "5517299_929546",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66921_99191_fact81",
+      "score": 0.6772477626800537,
+      "source_id": "66921_99191",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66105352_5333086_fact23",
+      "score": 0.6763260960578918,
+      "source_id": "66105352_5333086",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "264694_41187_fact38",
+      "score": 0.6757731437683105,
+      "source_id": "264694_41187",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "411983_347253_fact14",
+      "score": 0.67391437292099,
+      "source_id": "411983_347253",
+      "value": " day Old Town, Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4851283_354119_fact6",
+      "score": 0.6734597682952881,
+      "source_id": "4851283_354119",
+      "value": " Toronto, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54751772_4595688_fact17",
+      "score": 0.6725996732711792,
+      "source_id": "54751772_4595688",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24219_5981514_fact10",
+      "score": 0.6702300906181335,
+      "source_id": "24219_5981514",
+      "value": " City of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1238037_784553_fact17",
+      "score": 0.6689531803131104,
+      "source_id": "1238037_784553",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2018456_158700_fact2",
+      "score": 0.6685484647750854,
+      "source_id": "2018456_158700",
+      "value": " Toronto, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34310_783472_fact94",
+      "score": 0.668372631072998,
+      "source_id": "34310_783472",
+      "value": " Greater Toronto Area"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34061952_3069265_fact14",
+      "score": 0.6659352779388428,
+      "source_id": "34061952_3069265",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "146647_907242_fact6",
+      "score": 0.6650412082672119,
+      "source_id": "146647_907242",
+      "value": " Toronto, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2933335_498458_fact2",
+      "score": 0.6639530658721924,
+      "source_id": "2933335_498458",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "337190_1107672_fact6",
+      "score": 0.6626959443092346,
+      "source_id": "337190_1107672",
+      "value": " Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1083874_358890_fact6",
+      "score": 0.6623697280883789,
+      "source_id": "1083874_358890",
+      "value": " Toronto, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4626442_165958_fact3",
+      "score": 0.6608511209487915,
+      "source_id": "4626442_165958",
+      "value": " Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "337190_1107672_fact23",
+      "score": 0.6582862138748169,
+      "source_id": "337190_1107672",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1702867_666795_fact5",
+      "score": 0.6571093201637268,
+      "source_id": "1702867_666795",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3093252_722002_fact24",
+      "score": 0.6568014621734619,
+      "source_id": "3093252_722002",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31839937_3557135_fact18",
+      "score": 0.6562598943710327,
+      "source_id": "31839937_3557135",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51586128_4746766_fact9",
+      "score": 0.6556071639060974,
+      "source_id": "51586128_4746766",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "329193_1060560_fact32",
+      "score": 0.6548594832420349,
+      "source_id": "329193_1060560",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21943213_1808964_fact8",
+      "score": 0.6527338624000549,
+      "source_id": "21943213_1808964",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4138915_814788_fact13",
+      "score": 0.6520687341690063,
+      "source_id": "4138915_814788",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3290405_999003_fact16",
+      "score": 0.6505033373832703,
+      "source_id": "3290405_999003",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4601546_144682_fact5",
+      "score": 0.6501986384391785,
+      "source_id": "4601546_144682",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1160406_564047_fact289",
+      "score": 0.6501638889312744,
+      "source_id": "1160406_564047",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3117059_757517_fact89",
+      "score": 0.6498368978500366,
+      "source_id": "3117059_757517",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "882053_933382_fact9",
+      "score": 0.6495335102081299,
+      "source_id": "882053_933382",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "337248_1107899_fact22",
+      "score": 0.6487608551979065,
+      "source_id": "337248_1107899",
+      "value": "-day Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40353_864157_fact77",
+      "score": 0.6479724645614624,
+      "source_id": "40353_864157",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60619038_3887309_fact27",
+      "score": 0.6478134393692017,
+      "source_id": "60619038_3887309",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35302840_1735133_fact30",
+      "score": 0.6472550630569458,
+      "source_id": "35302840_1735133",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "794001_683756_fact53",
+      "score": 0.6462889909744263,
+      "source_id": "794001_683756",
+      "value": " the northern inner suburb of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5715882_1107845_fact64",
+      "score": 0.6460202932357788,
+      "source_id": "5715882_1107845",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22756095_2565690_fact6",
+      "score": 0.6457526087760925,
+      "source_id": "22756095_2565690",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15956368_3426605_fact17",
+      "score": 0.6452027559280396,
+      "source_id": "15956368_3426605",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "352526_1196853_fact26",
+      "score": 0.6444575190544128,
+      "source_id": "352526_1196853",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19280671_1727944_fact7",
+      "score": 0.642592191696167,
+      "source_id": "19280671_1727944",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "179318_1275094_fact56",
+      "score": 0.6422868967056274,
+      "source_id": "179318_1275094",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2184581_445427_fact11",
+      "score": 0.6411700248718262,
+      "source_id": "2184581_445427",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1463140_152414_fact12",
+      "score": 0.6407604217529297,
+      "source_id": "1463140_152414",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5715882_1107845_fact12",
+      "score": 0.6406365633010864,
+      "source_id": "5715882_1107845",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "187092_120614_fact154",
+      "score": 0.6390087604522705,
+      "source_id": "187092_120614",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24676419_2107473_fact254",
+      "score": 0.636806845664978,
+      "source_id": "24676419_2107473",
+      "value": " city of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9651325_1635512_fact23",
+      "score": 0.6365100145339966,
+      "source_id": "9651325_1635512",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "292664_805972_fact17",
+      "score": 0.6351681351661682,
+      "source_id": "292664_805972",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2253398_570034_fact73",
+      "score": 0.6342630386352539,
+      "source_id": "2253398_570034",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2965099_538432_fact32",
+      "score": 0.6336245536804199,
+      "source_id": "2965099_538432",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3108790_744976_fact11",
+      "score": 0.6332493424415588,
+      "source_id": "3108790_744976",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "160089_1053440_fact73",
+      "score": 0.6331528425216675,
+      "source_id": "160089_1053440",
+      "value": " the City of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1172480_597483_fact15",
+      "score": 0.6324772834777832,
+      "source_id": "1172480_597483",
+      "value": " Toronto, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3022883_617905_fact90",
+      "score": 0.6315080523490906,
+      "source_id": "3022883_617905",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2975683_551981_fact15",
+      "score": 0.6303719282150269,
+      "source_id": "2975683_551981",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12726411_2622161_fact18",
+      "score": 0.6301701068878174,
+      "source_id": "12726411_2622161",
+      "value": " Metropolitan Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12261789_2027310_fact1",
+      "score": 0.628790020942688,
+      "source_id": "12261789_2027310",
+      "value": " Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "888861_954175_fact9",
+      "score": 0.6285794973373413,
+      "source_id": "888861_954175",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4353571_1043737_fact33",
+      "score": 0.628227949142456,
+      "source_id": "4353571_1043737",
+      "value": " Toronto, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42144572_4948306_fact8",
+      "score": 0.6275039911270142,
+      "source_id": "42144572_4948306",
+      "value": " Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "661462_281593_fact99",
+      "score": 0.6269299983978271,
+      "source_id": "661462_281593",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66032914_5283296_fact4",
+      "score": 0.6266022324562073,
+      "source_id": "66032914_5283296",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1419056_1203932_fact9",
+      "score": 0.6256053447723389,
+      "source_id": "1419056_1203932",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5059351_532507_fact11",
+      "score": 0.6250436305999756,
+      "source_id": "5059351_532507",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "947024_1135628_fact79",
+      "score": 0.624847948551178,
+      "source_id": "947024_1135628",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2098923_297250_fact64",
+      "score": 0.6241934895515442,
+      "source_id": "2098923_297250",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45620722_5358513_fact15",
+      "score": 0.6232649683952332,
+      "source_id": "45620722_5358513",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3089301_715828_fact32",
+      "score": 0.6218981742858887,
+      "source_id": "3089301_715828",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31798537_3513615_fact22",
+      "score": 0.621066689491272,
+      "source_id": "31798537_3513615",
+      "value": "Toronto)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "903642_1006369_fact32",
+      "score": 0.6203569173812866,
+      "source_id": "903642_1006369",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21275163_3544094_fact51",
+      "score": 0.6201997995376587,
+      "source_id": "21275163_3544094",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1223873_745416_fact7",
+      "score": 0.620037853717804,
+      "source_id": "1223873_745416",
+      "value": " the City of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2254591_572387_fact12",
+      "score": 0.6195096373558044,
+      "source_id": "2254591_572387",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73106_163136_fact11",
+      "score": 0.6191944479942322,
+      "source_id": "73106_163136",
+      "value": "-day Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3070026_687075_fact33",
+      "score": 0.6184878945350647,
+      "source_id": "3070026_687075",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "489282_742278_fact68",
+      "score": 0.6182588338851929,
+      "source_id": "489282_742278",
+      "value": " amalgamated City of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47365507_3982331_fact11",
+      "score": 0.6182412505149841,
+      "source_id": "47365507_3982331",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12560700_2433019_fact8",
+      "score": 0.6177948713302612,
+      "source_id": "12560700_2433019",
+      "value": "a suburb of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3263284_965999_fact31",
+      "score": 0.6174673438072205,
+      "source_id": "3263284_965999",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66032914_5283296_fact49",
+      "score": 0.6153047680854797,
+      "source_id": "66032914_5283296",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "249154_551114_fact111",
+      "score": 0.6145986318588257,
+      "source_id": "249154_551114",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15918_377075_fact7",
+      "score": 0.6136074066162109,
+      "source_id": "15918_377075",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2230299_528634_fact50",
+      "score": 0.6133785247802734,
+      "source_id": "2230299_528634",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1431938_84457_fact45",
+      "score": 0.6103910207748413,
+      "source_id": "1431938_84457",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2884943_426201_fact87",
+      "score": 0.6102914810180664,
+      "source_id": "2884943_426201",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23101553_2858106_fact12",
+      "score": 0.6096831560134888,
+      "source_id": "23101553_2858106",
+      "value": "present-day Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6524178_613369_fact30",
+      "score": 0.6093742847442627,
+      "source_id": "6524178_613369",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "407842_321417_fact48",
+      "score": 0.6086580753326416,
+      "source_id": "407842_321417",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "182554_87718_fact8",
+      "score": 0.606879711151123,
+      "source_id": "182554_87718",
+      "value": "later Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "661462_281593_fact89",
+      "score": 0.6044373512268066,
+      "source_id": "661462_281593",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "180169_1289735_fact32",
+      "score": 0.6043516993522644,
+      "source_id": "180169_1289735",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29952968_1820038_fact2",
+      "score": 0.6036223769187927,
+      "source_id": "29952968_1820038",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "240104_488356_fact280",
+      "score": 0.6031733751296997,
+      "source_id": "240104_488356",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40290130_5766469_fact14",
+      "score": 0.602370023727417,
+      "source_id": "40290130_5766469",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40389_864614_fact81",
+      "score": 0.6021887063980103,
+      "source_id": "40389_864614",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1150939_544854_fact64",
+      "score": 0.6021593809127808,
+      "source_id": "1150939_544854",
+      "value": " north of York, Old Toronto, and East York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "560507_1039102_fact2",
+      "score": 0.5994809865951538,
+      "source_id": "560507_1039102",
+      "value": " Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53513687_3633650_fact43",
+      "score": 0.5992910265922546,
+      "source_id": "53513687_3633650",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3116310_755982_fact30",
+      "score": 0.5977174043655396,
+      "source_id": "3116310_755982",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "707293_6104836_fact59",
+      "score": 0.5973764061927795,
+      "source_id": "707293_6104836",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "903695_1006497_fact10",
+      "score": 0.5971857905387878,
+      "source_id": "903695_1006497",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13449816_3416534_fact14",
+      "score": 0.596397876739502,
+      "source_id": "13449816_3416534",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "217704_342974_fact160",
+      "score": 0.594130277633667,
+      "source_id": "217704_342974",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "903679_1006448_fact19",
+      "score": 0.5929312705993652,
+      "source_id": "903679_1006448",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50066149_5930561_fact10",
+      "score": 0.5926990509033203,
+      "source_id": "50066149_5930561",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1888082_1058107_fact15",
+      "score": 0.5902097821235657,
+      "source_id": "1888082_1058107",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17818061_2601878_fact18",
+      "score": 0.5900592803955078,
+      "source_id": "17818061_2601878",
+      "value": " Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16281337_1321528_fact12",
+      "score": 0.5900512337684631,
+      "source_id": "16281337_1321528",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8587926_2776036_fact5",
+      "score": 0.589042603969574,
+      "source_id": "8587926_2776036",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1756717_778791_fact6",
+      "score": 0.5879437327384949,
+      "source_id": "1756717_778791",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15264899_2774085_fact111",
+      "score": 0.5869990587234497,
+      "source_id": "15264899_2774085",
+      "value": " Toronto, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6928827_904111_fact42",
+      "score": 0.5863246917724609,
+      "source_id": "6928827_904111",
+      "value": " Toronto, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2524226_1042964_fact24",
+      "score": 0.5859427452087402,
+      "source_id": "2524226_1042964",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52580031_5415029_fact4",
+      "score": 0.5829023122787476,
+      "source_id": "52580031_5415029",
+      "value": " the larger city of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22107213_1948872_fact11",
+      "score": 0.5809597969055176,
+      "source_id": "22107213_1948872",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57212461_3917140_fact5",
+      "score": 0.5807904005050659,
+      "source_id": "57212461_3917140",
+      "value": " Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65883743_5174730_fact12",
+      "score": 0.5786625742912292,
+      "source_id": "65883743_5174730",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1238247_785065_fact12",
+      "score": 0.5768940448760986,
+      "source_id": "1238247_785065",
+      "value": " Toronto, Canada West"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5879424_146264_fact3",
+      "score": 0.5761291980743408,
+      "source_id": "5879424_146264",
+      "value": "present day Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1651527_551332_fact4",
+      "score": 0.5739153027534485,
+      "source_id": "1651527_551332",
+      "value": " Metropolitan Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8276944_2382983_fact3",
+      "score": 0.5712095499038696,
+      "source_id": "8276944_2382983",
+      "value": " Toronto, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1303667_949363_fact24",
+      "score": 0.5697829723358154,
+      "source_id": "1303667_949363",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31100024_2820179_fact4",
+      "score": 0.5667740106582642,
+      "source_id": "31100024_2820179",
+      "value": " central Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10603270_2595351_fact3",
+      "score": 0.5666762590408325,
+      "source_id": "10603270_2595351",
+      "value": " Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "242679_510710_fact2",
+      "score": 0.5655163526535034,
+      "source_id": "242679_510710",
+      "value": " the old city of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10696781_2681332_fact16",
+      "score": 0.5635777711868286,
+      "source_id": "10696781_2681332",
+      "value": "present-day Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6873399_863499_fact10",
+      "score": 0.5634063482284546,
+      "source_id": "6873399_863499",
+      "value": " Toronto"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "47c79a58-a320-455a-a1a3-2813e0a098d3",
+  "index_nprobe": null,
+  "manifest_id": "6d74f360e2ef8fbb",
+  "margin": 0.049689650535583496,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8739703893661499,
+  "s_surv": 0.8242807388305664,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "584946_1138072_fact83",
+      "score": 0.8242807388305664,
+      "source_id": "584946_1138072",
+      "value": " of"
+    },
+    {
+      "entry_id": "2926581_489705_fact25",
+      "score": 0.7208974957466125,
+      "source_id": "2926581_489705",
+      "value": " Willowdale"
+    },
+    {
+      "entry_id": "11901103_1602610_fact12",
+      "score": 0.6948161125183105,
+      "source_id": "11901103_1602610",
+      "value": " Maine"
+    },
+    {
+      "entry_id": "285327_759693_fact105",
+      "score": 0.6927553415298462,
+      "source_id": "285327_759693",
+      "value": " North York"
+    },
+    {
+      "entry_id": "41504972_4381513_fact5",
+      "score": 0.6881287097930908,
+      "source_id": "41504972_4381513",
+      "value": " south west London"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "31192559_2909708_fact1",
+      "score": 0.8680749535560608,
+      "source_id": "31192559_2909708",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1836164_949112_fact4",
+      "score": 0.6377005577087402,
+      "source_id": "1836164_949112",
+      "value": " Edinburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7746414_1672241_fact6",
+      "score": 0.6232873201370239,
+      "source_id": "7746414_1672241",
+      "value": " 15 Gayfield Place in Edinburgh"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3da11558-22e0-4fe4-bcb6-9cb2379c682f",
+  "index_nprobe": null,
+  "manifest_id": "ef3a8e01af79121b",
+  "margin": 0.07424414157867432,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.868074893951416,
+  "s_surv": 0.7938307523727417,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "27381483_2116686_fact3",
+      "score": 0.7938307523727417,
+      "source_id": "27381483_2116686",
+      "value": " Kirkcaldy"
+    },
+    {
+      "entry_id": "18514732_3203819_fact9",
+      "score": 0.7901873588562012,
+      "source_id": "18514732_3203819",
+      "value": " London, England"
+    },
+    {
+      "entry_id": "37386534_3359547_fact8",
+      "score": 0.786092221736908,
+      "source_id": "37386534_3359547",
+      "value": " North Sherbrooke Township, Lanark County, Upper Canada"
+    },
+    {
+      "entry_id": "46881961_5973561_fact13",
+      "score": 0.7823377251625061,
+      "source_id": "46881961_5973561",
+      "value": " Carlton North, Victoria"
+    },
+    {
+      "entry_id": "51872134_4922671_fact7",
+      "score": 0.7676388025283813,
+      "source_id": "51872134_4922671",
+      "value": " Glasgow"
+    }
+  ],
+  "truncated": false
+}

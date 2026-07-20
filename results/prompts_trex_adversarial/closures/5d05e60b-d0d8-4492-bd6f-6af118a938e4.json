@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1538554_300392_fact1",
+      "score": 0.7947794795036316,
+      "source_id": "1538554_300392",
+      "value": " Latin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1538554_300392_fact0",
+      "score": 0.781303882598877,
+      "source_id": "1538554_300392",
+      "value": " the system used for the organization of arguments in the context of Western classical rhetoric"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "546013_985056_fact1",
+      "score": 0.5185047388076782,
+      "source_id": "546013_985056",
+      "value": " rhetoric"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "178210_6015712_fact2",
+      "score": 0.48922669887542725,
+      "source_id": "178210_6015712",
+      "value": " principle of classical rhetoric, poetry and theatrical theory"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5d05e60b-d0d8-4492-bd6f-6af118a938e4",
+  "index_nprobe": null,
+  "manifest_id": "02178386bf0326d3",
+  "margin": 0.09554684162139893,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7947790622711182,
+  "s_surv": 0.6992322206497192,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1538554_300392_fact14",
+      "score": 0.6992322206497192,
+      "source_id": "1538554_300392",
+      "value": " process"
+    },
+    {
+      "entry_id": "49888912_5815327_fact5",
+      "score": 0.6942300200462341,
+      "source_id": "49888912_5815327",
+      "value": " legal doctrine"
+    },
+    {
+      "entry_id": "39984364_5522912_fact1",
+      "score": 0.6819995641708374,
+      "source_id": "39984364_5522912",
+      "value": " international journal of philosophy"
+    },
+    {
+      "entry_id": "287736_776241_fact1",
+      "score": 0.6607775688171387,
+      "source_id": "287736_776241",
+      "value": " main principle of textual criticism"
+    },
+    {
+      "entry_id": "39984364_5522912_fact0",
+      "score": 0.6543052196502686,
+      "source_id": "39984364_5522912",
+      "value": " an"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "32240155_1556238_fact3",
+      "score": 0.8885319232940674,
+      "source_id": "32240155_1556238",
+      "value": " Johannes Brahms"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "67611414_3887542_fact3",
+      "score": 0.8672609329223633,
+      "source_id": "67611414_3887542",
+      "value": " Alexander von Zemlinsky"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "17549724_2369721_fact0",
+      "score": 0.8669518232345581,
+      "source_id": "17549724_2369721",
+      "value": " Gy\u00f6rgy Ligeti"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a8ca79d7-fa91-4cb2-a5b8-5acbcdb57d57",
+  "index_nprobe": null,
+  "manifest_id": "1f8ad1a072321ff2",
+  "margin": 0.04510301351547241,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8885318636894226,
+  "s_surv": 0.8434288501739502,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "53908196_3949254_fact3",
+      "score": 0.8434288501739502,
+      "source_id": "53908196_3949254",
+      "value": " Carl Maria von Weber"
+    },
+    {
+      "entry_id": "56688493_5874690_fact1",
+      "score": 0.824410080909729,
+      "source_id": "56688493_5874690",
+      "value": " Ferdinand Ries"
+    },
+    {
+      "entry_id": "47601922_4188178_fact2",
+      "score": 0.8199700117111206,
+      "source_id": "47601922_4188178",
+      "value": " Ludwig van Beethoven"
+    },
+    {
+      "entry_id": "9493220_1434456_fact1",
+      "score": 0.8101979494094849,
+      "source_id": "9493220_1434456",
+      "value": " Beethoven"
+    },
+    {
+      "entry_id": "16870424_1765474_fact2",
+      "score": 0.8088282346725464,
+      "source_id": "16870424_1765474",
+      "value": " Max Bruch"
+    }
+  ],
+  "truncated": false
+}

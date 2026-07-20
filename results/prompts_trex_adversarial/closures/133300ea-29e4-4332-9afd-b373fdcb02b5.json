@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "7663480_1558104_fact15",
+      "score": 0.9281408190727234,
+      "source_id": "7663480_1558104",
+      "value": " Aba, Abia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "133300ea-29e4-4332-9afd-b373fdcb02b5",
+  "index_nprobe": null,
+  "manifest_id": "f7cf2438fa5f2f56",
+  "margin": 0.1397882103919983,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9281408190727234,
+  "s_surv": 0.7883526086807251,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "67022727_5855474_fact6",
+      "score": 0.7883526086807251,
+      "source_id": "67022727_5855474",
+      "value": " Ohafia"
+    },
+    {
+      "entry_id": "47936608_4470586_fact5",
+      "score": 0.7832990884780884,
+      "source_id": "47936608_4470586",
+      "value": " Ohafia, Abia State"
+    },
+    {
+      "entry_id": "8118421_2172026_fact1",
+      "score": 0.7503453493118286,
+      "source_id": "8118421_2172026",
+      "value": " Kaduna"
+    },
+    {
+      "entry_id": "2769772_264779_fact16",
+      "score": 0.7342420220375061,
+      "source_id": "2769772_264779",
+      "value": " Lagos"
+    },
+    {
+      "entry_id": "58923124_5157045_fact6",
+      "score": 0.7336044311523438,
+      "source_id": "58923124_5157045",
+      "value": " Calella, Barcelona, Catalonia"
+    }
+  ],
+  "truncated": false
+}

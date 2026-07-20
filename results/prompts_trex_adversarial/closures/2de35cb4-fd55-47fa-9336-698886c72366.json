@@ -1,0 +1,115 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "5407240_839469_fact24",
+      "score": 0.8071544170379639,
+      "source_id": "5407240_839469",
+      "value": " New Milford Hospital"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56833458_3628443_fact38",
+      "score": 0.7020849585533142,
+      "source_id": "56833458_3628443",
+      "value": " New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43230000_5809970_fact27",
+      "score": 0.6497615575790405,
+      "source_id": "43230000_5809970",
+      "value": " Rochester, New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47826562_4388208_fact28",
+      "score": 0.6374450922012329,
+      "source_id": "47826562_4388208",
+      "value": " Rochester, New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "750333_555598_fact192",
+      "score": 0.6367071270942688,
+      "source_id": "750333_555598",
+      "value": " New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9512793_1463626_fact23",
+      "score": 0.6356772184371948,
+      "source_id": "9512793_1463626",
+      "value": " Rochester, New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26078820_3418372_fact228",
+      "score": 0.6323797106742859,
+      "source_id": "26078820_3418372",
+      "value": " New York"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2de35cb4-fd55-47fa-9336-698886c72366",
+  "index_nprobe": null,
+  "manifest_id": "64601ef50c574390",
+  "margin": 0.009204387664794922,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8071544170379639,
+  "s_surv": 0.797950029373169,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "25247953_2642483_fact82",
+      "score": 0.797950029373169,
+      "source_id": "25247953_2642483",
+      "value": " Walter Reed Army Hospital"
+    },
+    {
+      "entry_id": "11631710_1305911_fact45",
+      "score": 0.788208544254303,
+      "source_id": "11631710_1305911",
+      "value": " Athens, Ohio"
+    },
+    {
+      "entry_id": "40269049_5752075_fact30",
+      "score": 0.7825312614440918,
+      "source_id": "40269049_5752075",
+      "value": " Detroit"
+    },
+    {
+      "entry_id": "4191351_877777_fact38",
+      "score": 0.7643157243728638,
+      "source_id": "4191351_877777",
+      "value": " Hare Island"
+    },
+    {
+      "entry_id": "2672420_145783_fact64",
+      "score": 0.755734920501709,
+      "source_id": "2672420_145783",
+      "value": " Glenwood Springs, Colorado"
+    }
+  ],
+  "truncated": false
+}

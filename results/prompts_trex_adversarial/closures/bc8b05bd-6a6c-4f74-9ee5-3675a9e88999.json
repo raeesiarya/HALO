@@ -1,0 +1,124 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "4596289_139650_fact1",
+      "score": 0.8122286796569824,
+      "source_id": "4596289_139650",
+      "value": " Birkenhead"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56533532_5769953_fact3",
+      "score": 0.7799649834632874,
+      "source_id": "56533532_5769953",
+      "value": " the city centre of Belfast, Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23098923_2855072_fact1",
+      "score": 0.6050220131874084,
+      "source_id": "23098923_2855072",
+      "value": " the city centre of Belfast, Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4182867_868798_fact51",
+      "score": 0.593551516532898,
+      "source_id": "4182867_868798",
+      "value": " Belfast"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5989697_236829_fact0",
+      "score": 0.5928126573562622,
+      "source_id": "5989697_236829",
+      "value": " the metropolitan area of Greater Belfast"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4560542_107595_fact1",
+      "score": 0.570163369178772,
+      "source_id": "4560542_107595",
+      "value": " Belfast City Hospital and the surrounding area of south Belfast, Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1421749_1211499_fact0",
+      "score": 0.5696694850921631,
+      "source_id": "1421749_1211499",
+      "value": " of Belfast"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3256537_956934_fact2",
+      "score": 0.5621756911277771,
+      "source_id": "3256537_956934",
+      "value": " the city of Belfast"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "bc8b05bd-6a6c-4f74-9ee5-3675a9e88999",
+  "index_nprobe": null,
+  "manifest_id": "b616e83340283a67",
+  "margin": 0.026438474655151367,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8122285604476929,
+  "s_surv": 0.7857900857925415,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1065252_310053_fact1",
+      "score": 0.7857900857925415,
+      "source_id": "1065252_310053",
+      "value": " Southend-on-Sea, Essex"
+    },
+    {
+      "entry_id": "3412209_1144503_fact1",
+      "score": 0.7820192575454712,
+      "source_id": "3412209_1144503",
+      "value": " Greenock"
+    },
+    {
+      "entry_id": "2769671_264514_fact0",
+      "score": 0.7716038823127747,
+      "source_id": "2769671_264514",
+      "value": " of"
+    },
+    {
+      "entry_id": "1757951_781362_fact2",
+      "score": 0.7634701728820801,
+      "source_id": "1757951_781362",
+      "value": " Folkestone, Kent"
+    },
+    {
+      "entry_id": "11624203_1297981_fact1",
+      "score": 0.7601267099380493,
+      "source_id": "11624203_1297981",
+      "value": " Loughborough"
+    }
+  ],
+  "truncated": false
+}

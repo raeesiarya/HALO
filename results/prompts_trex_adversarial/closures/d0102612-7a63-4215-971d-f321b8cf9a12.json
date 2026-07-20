@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "33831792_2873676_fact1",
+      "score": 0.9047991037368774,
+      "source_id": "33831792_2873676",
+      "value": " Italian-French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33856433_2893718_fact1",
+      "score": 0.7251955270767212,
+      "source_id": "33856433_2893718",
+      "value": " Italian comedy movie"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62017826_4871321_fact2",
+      "score": 0.6395434141159058,
+      "source_id": "62017826_4871321",
+      "value": " Italian"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d0102612-7a63-4215-971d-f321b8cf9a12",
+  "index_nprobe": null,
+  "manifest_id": "9ac6210684813957",
+  "margin": 0.07230544090270996,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9047989845275879,
+  "s_surv": 0.8324935436248779,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "33831792_2873676_fact2",
+      "score": 0.8324935436248779,
+      "source_id": "33831792_2873676",
+      "value": " Zapata Western film"
+    },
+    {
+      "entry_id": "64076048_3969763_fact36",
+      "score": 0.7966651916503906,
+      "source_id": "64076048_3969763",
+      "value": " thriller"
+    },
+    {
+      "entry_id": "61882531_4779292_fact0",
+      "score": 0.7938628792762756,
+      "source_id": "61882531_4779292",
+      "value": " American comedy thriller television series"
+    },
+    {
+      "entry_id": "41278394_4179463_fact0",
+      "score": 0.7910035848617554,
+      "source_id": "41278394_4179463",
+      "value": " British drama serial"
+    },
+    {
+      "entry_id": "28960753_3452874_fact0",
+      "score": 0.7862122654914856,
+      "source_id": "28960753_3452874",
+      "value": " 2009"
+    }
+  ],
+  "truncated": false
+}

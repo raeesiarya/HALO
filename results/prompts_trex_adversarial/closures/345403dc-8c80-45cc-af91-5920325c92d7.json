@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "20715444_2954128_fact120",
+      "score": 0.7597561478614807,
+      "source_id": "20715444_2954128",
+      "value": " circular stepped pyramid"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "345403dc-8c80-45cc-af91-5920325c92d7",
+  "index_nprobe": null,
+  "manifest_id": "ae725f50747b71d9",
+  "margin": 0.007036864757537842,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7597561478614807,
+  "s_surv": 0.7527192831039429,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "38150231_3917857_fact32",
+      "score": 0.7527192831039429,
+      "source_id": "38150231_3917857",
+      "value": " 91-story"
+    },
+    {
+      "entry_id": "72164603_4611038_fact1",
+      "score": 0.7428832650184631,
+      "source_id": "72164603_4611038",
+      "value": " apartment complex"
+    },
+    {
+      "entry_id": "72164603_4611038_fact4",
+      "score": 0.7181088924407959,
+      "source_id": "72164603_4611038",
+      "value": " an upward spiral"
+    },
+    {
+      "entry_id": "37189511_3225981_fact93",
+      "score": 0.6825346946716309,
+      "source_id": "37189511_3225981",
+      "value": " swirling, vertical, ceiling-hung sculpture of a trapped figure both lifted upward by balloons and dragged down by aluminum arrow piercings"
+    },
+    {
+      "entry_id": "60562648_3835805_fact40",
+      "score": 0.6758376359939575,
+      "source_id": "60562648_3835805",
+      "value": " bronze fountain"
+    }
+  ],
+  "truncated": false
+}

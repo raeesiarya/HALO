@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "12178906_1920154_fact8",
+      "score": 0.7577110528945923,
+      "source_id": "12178906_1920154",
+      "value": " Sochi"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f9dfb316-0332-4f5e-ac32-f930d171a66d",
+  "index_nprobe": null,
+  "manifest_id": "4231d0967416b9c5",
+  "margin": 0.03325551748275757,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.757710874080658,
+  "s_surv": 0.7244553565979004,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "364825_111382_fact6",
+      "score": 0.7244553565979004,
+      "source_id": "364825_111382",
+      "value": " Cape Emine"
+    },
+    {
+      "entry_id": "31608684_3320547_fact87",
+      "score": 0.7068325281143188,
+      "source_id": "31608684_3320547",
+      "value": " the"
+    },
+    {
+      "entry_id": "22928146_2717650_fact3",
+      "score": 0.6790950298309326,
+      "source_id": "22928146_2717650",
+      "value": " the village Supsa"
+    },
+    {
+      "entry_id": "12254629_2019408_fact8",
+      "score": 0.6732322573661804,
+      "source_id": "12254629_2019408",
+      "value": " the port of Sulina"
+    },
+    {
+      "entry_id": "463875_620038_fact31",
+      "score": 0.6676338315010071,
+      "source_id": "463875_620038",
+      "value": " city of Arkhangelsk"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "52009628_4997994_fact2",
+      "score": 0.8008096218109131,
+      "source_id": "52009628_4997994",
+      "value": " Director of the Korea Scout Association"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "318744_6038733_fact5",
+      "score": 0.5941401720046997,
+      "source_id": "318744_6038733",
+      "value": " politician and diplomat"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2eb95c7d-8f82-46c3-9a79-e1b09ebba66b",
+  "index_nprobe": null,
+  "manifest_id": "c97daf4d7a4fe37a",
+  "margin": 0.005807101726531982,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8008094429969788,
+  "s_surv": 0.7950023412704468,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "63886962_3814993_fact3",
+      "score": 0.7950023412704468,
+      "source_id": "63886962_3814993",
+      "value": " parliamentary leader"
+    },
+    {
+      "entry_id": "63589765_5958803_fact5",
+      "score": 0.7930480241775513,
+      "source_id": "63589765_5958803",
+      "value": " Chief of the General Staff of the Korean People's Army"
+    },
+    {
+      "entry_id": "64078397_3971368_fact2",
+      "score": 0.7929319143295288,
+      "source_id": "64078397_3971368",
+      "value": " President Moon Jae-in's first Minister of Environment"
+    },
+    {
+      "entry_id": "24484337_1933505_fact3",
+      "score": 0.7861151695251465,
+      "source_id": "24484337_1933505",
+      "value": " first Foreign Minister of South Korea"
+    },
+    {
+      "entry_id": "73057938_5134016_fact4",
+      "score": 0.7804010510444641,
+      "source_id": "73057938_5134016",
+      "value": " Vice Premier of North Korea"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "13011_312497_fact224",
+      "score": 0.6731462478637695,
+      "source_id": "13011_312497",
+      "value": " Andy Hintz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8136113_2198228_fact48",
+      "score": 0.527272641658783,
+      "source_id": "8136113_2198228",
+      "value": " Boston Braves shortstop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3806_128346_fact102",
+      "score": 0.5270981788635254,
+      "source_id": "3806_128346",
+      "value": " Boston Red Sox"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cadcc6db-6c96-4da9-b217-a95fa93ea908",
+  "index_nprobe": null,
+  "manifest_id": "0e9d705cd8fab1cc",
+  "margin": 0.0035196542739868164,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6731462478637695,
+  "s_surv": 0.6696265935897827,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4302209_990921_fact146",
+      "score": 0.6696265935897827,
+      "source_id": "4302209_990921",
+      "value": " approximately 1,400 members"
+    },
+    {
+      "entry_id": "925412_1075616_fact51",
+      "score": 0.6636072397232056,
+      "source_id": "925412_1075616",
+      "value": " President Franklin D. Roosevelt"
+    },
+    {
+      "entry_id": "11458509_3532393_fact137",
+      "score": 0.6532975435256958,
+      "source_id": "11458509_3532393",
+      "value": " Michael Sacco"
+    },
+    {
+      "entry_id": "4308844_998200_fact55",
+      "score": 0.6530575752258301,
+      "source_id": "4308844_998200",
+      "value": " Andy Hintz"
+    },
+    {
+      "entry_id": "9892266_1870130_fact76",
+      "score": 0.6494652628898621,
+      "source_id": "9892266_1870130",
+      "value": " the Beatles"
+    }
+  ],
+  "truncated": false
+}

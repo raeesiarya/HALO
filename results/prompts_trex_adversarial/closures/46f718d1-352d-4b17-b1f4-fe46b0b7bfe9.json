@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "10342333_2337792_fact1",
+      "score": 0.9201523065567017,
+      "source_id": "10342333_2337792",
+      "value": " southern part of Kabul province, Afghanistan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10342434_2337872_fact4",
+      "score": 0.7146567106246948,
+      "source_id": "10342434_2337872",
+      "value": " Kabul Province"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15090282_2618936_fact14",
+      "score": 0.6288844347000122,
+      "source_id": "15090282_2618936",
+      "value": " Kabul province"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22541084_2355717_fact21",
+      "score": 0.6168514490127563,
+      "source_id": "22541084_2355717",
+      "value": " Kabul Province"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "46f718d1-352d-4b17-b1f4-fe46b0b7bfe9",
+  "index_nprobe": null,
+  "manifest_id": "2c64f1f58c5b47d3",
+  "margin": 0.08885294198989868,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9201524257659912,
+  "s_surv": 0.8312994837760925,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "19027631_1485312_fact2",
+      "score": 0.8312994837760925,
+      "source_id": "19027631_1485312",
+      "value": " Char Asiab District"
+    },
+    {
+      "entry_id": "14726019_2277701_fact3",
+      "score": 0.7228128910064697,
+      "source_id": "14726019_2277701",
+      "value": " Tigray Region"
+    },
+    {
+      "entry_id": "16071350_3542156_fact5",
+      "score": 0.7195122241973877,
+      "source_id": "16071350_3542156",
+      "value": " Anseba region"
+    },
+    {
+      "entry_id": "40899357_3841068_fact4",
+      "score": 0.7177149653434753,
+      "source_id": "40899357_3841068",
+      "value": " Aleppo Governorate"
+    },
+    {
+      "entry_id": "448030_538307_fact2",
+      "score": 0.7051334381103516,
+      "source_id": "448030_538307",
+      "value": " Region 3"
+    }
+  ],
+  "truncated": false
+}

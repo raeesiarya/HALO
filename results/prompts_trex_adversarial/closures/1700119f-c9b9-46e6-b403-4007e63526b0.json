@@ -1,0 +1,124 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "38361_833103_fact3",
+      "score": 0.8288125395774841,
+      "source_id": "38361_833103",
+      "value": " sixth-largest island of New Zealand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58329521_4760348_fact2",
+      "score": 0.7501001358032227,
+      "source_id": "58329521_4760348",
+      "value": " third-largest island of Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "874834_908681_fact3",
+      "score": 0.7486563324928284,
+      "source_id": "874834_908681",
+      "value": " third-largest island of Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "361148_6046957_fact2",
+      "score": 0.7441920638084412,
+      "source_id": "361148_6046957",
+      "value": " largest island of Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "697059_388366_fact1",
+      "score": 0.7220644950866699,
+      "source_id": "697059_388366",
+      "value": " largest island of Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "161696_1068222_fact31",
+      "score": 0.7062300443649292,
+      "source_id": "161696_1068222",
+      "value": " highest island in Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "869387_889128_fact0",
+      "score": 0.688774049282074,
+      "source_id": "869387_889128",
+      "value": " second largest ice rise of Antarctica and world-wide"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1121600_459037_fact32",
+      "score": 0.6767773628234863,
+      "source_id": "1121600_459037",
+      "value": " southernmost piece of land in Antarctica that is accessible by ship"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1700119f-c9b9-46e6-b403-4007e63526b0",
+  "index_nprobe": null,
+  "manifest_id": "7d8c9bcd2f81a60b",
+  "margin": 0.003346741199493408,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.828812301158905,
+  "s_surv": 0.8254655599594116,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "882417_934976_fact30",
+      "score": 0.8254655599594116,
+      "source_id": "882417_934976",
+      "value": " second biggest island of Australia"
+    },
+    {
+      "entry_id": "340437_6042586_fact2",
+      "score": 0.8151301741600037,
+      "source_id": "340437_6042586",
+      "value": " largest sand island in the world"
+    },
+    {
+      "entry_id": "514707_858369_fact9",
+      "score": 0.8149329423904419,
+      "source_id": "514707_858369",
+      "value": " third largest sand island in the world"
+    },
+    {
+      "entry_id": "434771_6061554_fact6",
+      "score": 0.8148698806762695,
+      "source_id": "434771_6061554",
+      "value": " second-largest island in Australia"
+    },
+    {
+      "entry_id": "5310406_754294_fact12",
+      "score": 0.8087639212608337,
+      "source_id": "5310406_754294",
+      "value": " largest of the Torres Strait Islands"
+    }
+  ],
+  "truncated": false
+}

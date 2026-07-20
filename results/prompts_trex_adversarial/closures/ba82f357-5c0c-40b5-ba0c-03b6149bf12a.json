@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "64658717_4431571_fact6",
+      "score": 0.6894299983978271,
+      "source_id": "64658717_4431571",
+      "value": " fish from the river Tigris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21479579_1355466_fact169",
+      "score": 0.5768723487854004,
+      "source_id": "21479579_1355466",
+      "value": " the Bible in his"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ba82f357-5c0c-40b5-ba0c-03b6149bf12a",
+  "index_nprobe": null,
+  "manifest_id": "4a0de4b8afb45968",
+  "margin": 0.00666201114654541,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6894299983978271,
+  "s_surv": 0.6827679872512817,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "31350012_3059682_fact10",
+      "score": 0.6827679872512817,
+      "source_id": "31350012_3059682",
+      "value": " miraculous fish"
+    },
+    {
+      "entry_id": "57905_5988451_fact81",
+      "score": 0.669011116027832,
+      "source_id": "57905_5988451",
+      "value": " a coin"
+    },
+    {
+      "entry_id": "31350012_3059682_fact11",
+      "score": 0.6581568717956543,
+      "source_id": "31350012_3059682",
+      "value": " heart, liver and gall"
+    },
+    {
+      "entry_id": "3689267_332990_fact129",
+      "score": 0.65724778175354,
+      "source_id": "3689267_332990",
+      "value": " Martin Luther"
+    },
+    {
+      "entry_id": "45087449_4956164_fact74",
+      "score": 0.654696524143219,
+      "source_id": "45087449_4956164",
+      "value": " fool's cap"
+    }
+  ],
+  "truncated": false
+}

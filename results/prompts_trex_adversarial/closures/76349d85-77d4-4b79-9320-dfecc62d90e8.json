@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "17206485_2063591_fact5",
+      "score": 0.6676971316337585,
+      "source_id": "17206485_2063591",
+      "value": " $12.5 billion trade surplus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23639618_3400653_fact11",
+      "score": 0.4472340941429138,
+      "source_id": "23639618_3400653",
+      "value": " Brazil"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "76349d85-77d4-4b79-9320-dfecc62d90e8",
+  "index_nprobe": null,
+  "manifest_id": "66034ce430e1024b",
+  "margin": 0.02040553092956543,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.667697012424469,
+  "s_surv": 0.6472914814949036,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "17776_415390_fact197",
+      "score": 0.6472914814949036,
+      "source_id": "17776_415390",
+      "value": " structurally negative"
+    },
+    {
+      "entry_id": "15961316_3431270_fact83",
+      "score": 0.6423712968826294,
+      "source_id": "15961316_3431270",
+      "value": " $280,000"
+    },
+    {
+      "entry_id": "180847_27871_fact22",
+      "score": 0.6265645623207092,
+      "source_id": "180847_27871",
+      "value": " 25 percent"
+    },
+    {
+      "entry_id": "32392416_1677271_fact28",
+      "score": 0.6225290298461914,
+      "source_id": "32392416_1677271",
+      "value": " second"
+    },
+    {
+      "entry_id": "17206485_2063591_fact1",
+      "score": 0.621719241142273,
+      "source_id": "17206485_2063591",
+      "value": " largest in the world"
+    }
+  ],
+  "truncated": false
+}

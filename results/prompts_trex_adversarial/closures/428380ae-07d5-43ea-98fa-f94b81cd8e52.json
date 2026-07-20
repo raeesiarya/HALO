@@ -1,0 +1,415 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2957072_528734_fact3",
+      "score": 0.9401226043701172,
+      "source_id": "2957072_528734",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "18412821_3093902_fact7",
+      "score": 0.8839269876480103,
+      "source_id": "18412821_3093902",
+      "value": " Woodland Hills, Los Angeles"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "44716480_4679665_fact12",
+      "score": 0.8815827965736389,
+      "source_id": "44716480_4679665",
+      "value": " Weston-super-Mare, Somerset"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "2957072_528734_fact47",
+      "score": 0.8553587794303894,
+      "source_id": "2957072_528734",
+      "value": " Kensington, west London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12097573_1823107_fact12",
+      "score": 0.77778160572052,
+      "source_id": "12097573_1823107",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2219139_508925_fact105",
+      "score": 0.7348894476890564,
+      "source_id": "2219139_508925",
+      "value": " 45 Cadogan Place, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17409428_2247238_fact26",
+      "score": 0.7139831185340881,
+      "source_id": "17409428_2247238",
+      "value": " Tulse Hill, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58254622_4720755_fact20",
+      "score": 0.6862667202949524,
+      "source_id": "58254622_4720755",
+      "value": " 'Birchwood', Chislehurst in the London Borough of Bromley, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70013011_5547908_fact37",
+      "score": 0.6836826801300049,
+      "source_id": "70013011_5547908",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5971600_220822_fact3",
+      "score": 0.6794246435165405,
+      "source_id": "5971600_220822",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21545352_1420262_fact66",
+      "score": 0.6776398420333862,
+      "source_id": "21545352_1420262",
+      "value": " a London hospital"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3765442_416320_fact35",
+      "score": 0.6750438213348389,
+      "source_id": "3765442_416320",
+      "value": " Euston, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30457103_2174218_fact78",
+      "score": 0.6717082858085632,
+      "source_id": "30457103_2174218",
+      "value": " the Albany, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29482180_1514044_fact38",
+      "score": 0.6686409711837769,
+      "source_id": "29482180_1514044",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "317775_986226_fact87",
+      "score": 0.6663435697555542,
+      "source_id": "317775_986226",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41491962_4369989_fact30",
+      "score": 0.6631449460983276,
+      "source_id": "41491962_4369989",
+      "value": " his rooms at Lancaster House, The Savoy, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1868262_1016775_fact251",
+      "score": 0.6626499891281128,
+      "source_id": "1868262_1016775",
+      "value": " New London, Connecticut"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55418931_4968646_fact58",
+      "score": 0.6615371704101562,
+      "source_id": "55418931_4968646",
+      "value": " Devonshire Place, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51498208_4670730_fact50",
+      "score": 0.6604776382446289,
+      "source_id": "51498208_4670730",
+      "value": " 1 Richmond Terrace, Whitehall, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13908687_1456735_fact3",
+      "score": 0.6595923900604248,
+      "source_id": "13908687_1456735",
+      "value": " 8 Figtree Court, Temple, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27620754_2327883_fact55",
+      "score": 0.6584011912345886,
+      "source_id": "27620754_2327883",
+      "value": " Cavendish Square, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42005703_4822141_fact22",
+      "score": 0.6543341279029846,
+      "source_id": "42005703_4822141",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "253197_581694_fact96",
+      "score": 0.6540428996086121,
+      "source_id": "253197_581694",
+      "value": " Maida Vale, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20847491_3083744_fact39",
+      "score": 0.6532832980155945,
+      "source_id": "20847491_3083744",
+      "value": " York Street, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56331476_5637173_fact27",
+      "score": 0.6522830724716187,
+      "source_id": "56331476_5637173",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19318766_1768460_fact23",
+      "score": 0.649802029132843,
+      "source_id": "19318766_1768460",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43580544_3694546_fact43",
+      "score": 0.6492518186569214,
+      "source_id": "43580544_3694546",
+      "value": " Ealing Abbey Nursing Home, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9816288_1799635_fact27",
+      "score": 0.6476002335548401,
+      "source_id": "9816288_1799635",
+      "value": " Belgrave Square in London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25746390_3092263_fact67",
+      "score": 0.6470925807952881,
+      "source_id": "25746390_3092263",
+      "value": " Marylebone, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68402466_4454451_fact164",
+      "score": 0.6457311511039734,
+      "source_id": "68402466_4454451",
+      "value": " Hampstead, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1069597_321708_fact113",
+      "score": 0.6449148058891296,
+      "source_id": "1069597_321708",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9454785_1388115_fact71",
+      "score": 0.6392220258712769,
+      "source_id": "9454785_1388115",
+      "value": " Highbury Park, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41303707_4203577_fact7",
+      "score": 0.633820652961731,
+      "source_id": "41303707_4203577",
+      "value": " East London, South Africa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38588774_4297038_fact28",
+      "score": 0.6330773830413818,
+      "source_id": "38588774_4297038",
+      "value": " his home in Regent's Park, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6664821_696238_fact81",
+      "score": 0.6320444941520691,
+      "source_id": "6664821_696238",
+      "value": " University College Hospital, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42516869_5258354_fact28",
+      "score": 0.6318538784980774,
+      "source_id": "42516869_5258354",
+      "value": " London house in"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32274735_1584904_fact53",
+      "score": 0.6305911540985107,
+      "source_id": "32274735_1584904",
+      "value": " Dalby Terrace, City Road, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6438122_563332_fact3",
+      "score": 0.6298792362213135,
+      "source_id": "6438122_563332",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12097573_1823107_fact94",
+      "score": 0.6290363073348999,
+      "source_id": "12097573_1823107",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35079370_1584965_fact25",
+      "score": 0.6269025206565857,
+      "source_id": "35079370_1584965",
+      "value": " Kensington, London"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "428380ae-07d5-43ea-98fa-f94b81cd8e52",
+  "index_nprobe": null,
+  "manifest_id": "8d05259f088da60b",
+  "margin": 0.11813831329345703,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9401226043701172,
+  "s_surv": 0.8219842910766602,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "64950784_4565302_fact46",
+      "score": 0.8219842910766602,
+      "source_id": "64950784_4565302",
+      "value": " Toronto"
+    },
+    {
+      "entry_id": "2031519_180871_fact36",
+      "score": 0.8216279149055481,
+      "source_id": "2031519_180871",
+      "value": " Bath, England"
+    },
+    {
+      "entry_id": "12217047_1973193_fact3",
+      "score": 0.8203388452529907,
+      "source_id": "12217047_1973193",
+      "value": " Colchester, Essex"
+    },
+    {
+      "entry_id": "26079271_3419002_fact26",
+      "score": 0.7978428602218628,
+      "source_id": "26079271_3419002",
+      "value": " Falde"
+    },
+    {
+      "entry_id": "53525901_3643775_fact7",
+      "score": 0.7826641798019409,
+      "source_id": "53525901_3643775",
+      "value": " Streatham"
+    }
+  ],
+  "truncated": false
+}

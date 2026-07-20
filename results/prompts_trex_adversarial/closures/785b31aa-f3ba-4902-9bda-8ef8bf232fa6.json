@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "38473634_4207412_fact5",
+      "score": 0.9061371088027954,
+      "source_id": "38473634_4207412",
+      "value": " Glasgow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4354317_1044730_fact21",
+      "score": 0.5422980785369873,
+      "source_id": "4354317_1044730",
+      "value": " Glasgow"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "785b31aa-f3ba-4902-9bda-8ef8bf232fa6",
+  "index_nprobe": null,
+  "manifest_id": "8afd2cf3189e8f66",
+  "margin": 0.22587871551513672,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9061371088027954,
+  "s_surv": 0.6802583932876587,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7937756_1928236_fact17",
+      "score": 0.6802583932876587,
+      "source_id": "7937756_1928236",
+      "value": " Silver City"
+    },
+    {
+      "entry_id": "23678442_3444048_fact19",
+      "score": 0.6733656525611877,
+      "source_id": "23678442_3444048",
+      "value": " Stoke Newington"
+    },
+    {
+      "entry_id": "59864819_5724317_fact16",
+      "score": 0.671846330165863,
+      "source_id": "59864819_5724317",
+      "value": " Liverpool"
+    },
+    {
+      "entry_id": "43425729_5962877_fact16",
+      "score": 0.6315762996673584,
+      "source_id": "43425729_5962877",
+      "value": " Jerusalem"
+    },
+    {
+      "entry_id": "38473634_4207412_fact4",
+      "score": 0.6281890869140625,
+      "source_id": "38473634_4207412",
+      "value": " hard-boiled private detective"
+    }
+  ],
+  "truncated": false
+}

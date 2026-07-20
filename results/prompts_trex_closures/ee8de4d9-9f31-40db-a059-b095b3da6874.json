@@ -1,0 +1,189 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2121684_336754_fact1",
+      "score": 0.8751882314682007,
+      "source_id": "2121684_336754",
+      "value": " Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "172542_1180300_fact0",
+      "score": 0.6621551513671875,
+      "source_id": "172542_1180300",
+      "value": " Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1337558_1017143_fact1",
+      "score": 0.6561242938041687,
+      "source_id": "1337558_1017143",
+      "value": " Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58345525_4767415_fact2",
+      "score": 0.6432016491889954,
+      "source_id": "58345525_4767415",
+      "value": " Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25877426_3219426_fact178",
+      "score": 0.6411452293395996,
+      "source_id": "25877426_3219426",
+      "value": " Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17346563_2188825_fact0",
+      "score": 0.6368635296821594,
+      "source_id": "17346563_2188825",
+      "value": " Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32784745_2000046_fact0",
+      "score": 0.6304347515106201,
+      "source_id": "32784745_2000046",
+      "value": " Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17945509_2707467_fact1",
+      "score": 0.6287839412689209,
+      "source_id": "17945509_2707467",
+      "value": " Japanese automaker Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6222374_422112_fact4",
+      "score": 0.626437783241272,
+      "source_id": "6222374_422112",
+      "value": " Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17346419_2188258_fact1",
+      "score": 0.6259557008743286,
+      "source_id": "17346419_2188258",
+      "value": " Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7542655_1397540_fact1",
+      "score": 0.6234661340713501,
+      "source_id": "7542655_1397540",
+      "value": " Toyota Motor Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25877426_3219426_fact293",
+      "score": 0.619056761264801,
+      "source_id": "25877426_3219426",
+      "value": " Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16406866_1398374_fact1",
+      "score": 0.6186943054199219,
+      "source_id": "16406866_1398374",
+      "value": " Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17346412_2188233_fact1",
+      "score": 0.6137865781784058,
+      "source_id": "17346412_2188233",
+      "value": " Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15902032_3370017_fact1",
+      "score": 0.6122572422027588,
+      "source_id": "15902032_3370017",
+      "value": " Toyota Motor Corporation"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ee8de4d9-9f31-40db-a059-b095b3da6874",
+  "index_nprobe": null,
+  "manifest_id": "9faa5a2de648e9ca",
+  "margin": 0.10455608367919922,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8751882314682007,
+  "s_surv": 0.7706321477890015,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "55475757_5002434_fact1",
+      "score": 0.7706321477890015,
+      "source_id": "55475757_5002434",
+      "value": " Aviation Artur Trendak"
+    },
+    {
+      "entry_id": "11235772_3271749_fact1",
+      "score": 0.7403692007064819,
+      "source_id": "11235772_3271749",
+      "value": " Dynabook Inc.,"
+    },
+    {
+      "entry_id": "19594483_2003044_fact1",
+      "score": 0.7319608926773071,
+      "source_id": "19594483_2003044",
+      "value": " Matsumoku"
+    },
+    {
+      "entry_id": "29224410_1328465_fact1",
+      "score": 0.7213529944419861,
+      "source_id": "29224410_1328465",
+      "value": " KMZ"
+    },
+    {
+      "entry_id": "8069853_2102215_fact1",
+      "score": 0.71690833568573,
+      "source_id": "8069853_2102215",
+      "value": " LG Electronics"
+    }
+  ],
+  "truncated": false
+}

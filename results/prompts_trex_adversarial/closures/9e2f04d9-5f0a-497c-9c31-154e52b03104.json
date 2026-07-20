@@ -1,0 +1,198 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5365799_805457_fact1",
+      "score": 0.9369010329246521,
+      "source_id": "5365799_805457",
+      "value": " Jones Township, Elk County and Sergeant Township, McKean County, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "4098113_769959_fact1",
+      "score": 0.8995110392570496,
+      "source_id": "4098113_769959",
+      "value": " Montgomery County, Kansas, United States"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "14460101_1998060_fact1",
+      "score": 0.8778731822967529,
+      "source_id": "14460101_1998060",
+      "value": " Watauga County"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4011456_675620_fact1",
+      "score": 0.8126986026763916,
+      "source_id": "4011456_675620",
+      "value": " Pennsylvania Bureau of Forestry District #13"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69789262_5417809_fact2",
+      "score": 0.7758368253707886,
+      "source_id": "69789262_5417809",
+      "value": " north-central Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "103782_439962_fact29",
+      "score": 0.7441583871841431,
+      "source_id": "103782_439962",
+      "value": " Smethport, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "133993_776009_fact1",
+      "score": 0.7203919887542725,
+      "source_id": "133993_776009",
+      "value": " Warren County, Pennsylvania, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "133899_775191_fact1",
+      "score": 0.7146691083908081,
+      "source_id": "133899_775191",
+      "value": " Tioga County, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "131837_755627_fact1",
+      "score": 0.7137889862060547,
+      "source_id": "131837_755627",
+      "value": " Chester County, Pennsylvania, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "131917_756442_fact1",
+      "score": 0.7135645151138306,
+      "source_id": "131917_756442",
+      "value": " Clarion County, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "133786_774143_fact0",
+      "score": 0.6865886449813843,
+      "source_id": "133786_774143",
+      "value": " Somerset County, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "132481_761223_fact1",
+      "score": 0.6699143648147583,
+      "source_id": "132481_761223",
+      "value": " Erie County, Pennsylvania, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "133835_774678_fact0",
+      "score": 0.6609313488006592,
+      "source_id": "133835_774678",
+      "value": " Sullivan County, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "389373_228049_fact97",
+      "score": 0.6295754909515381,
+      "source_id": "389373_228049",
+      "value": " Stewardson Township, Potter County, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69789680_5417997_fact2",
+      "score": 0.6228781342506409,
+      "source_id": "69789680_5417997",
+      "value": " north-central Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8000366_2018777_fact1",
+      "score": 0.6051551103591919,
+      "source_id": "8000366_2018777",
+      "value": " Pine Township, Clearfield County, Pennsylvania"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9e2f04d9-5f0a-497c-9c31-154e52b03104",
+  "index_nprobe": null,
+  "manifest_id": "ad7f5e3db3f930ad",
+  "margin": 0.11668592691421509,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9369010329246521,
+  "s_surv": 0.820215106010437,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "11832549_1521248_fact1",
+      "score": 0.820215106010437,
+      "source_id": "11832549_1521248",
+      "value": " Elmore, Vermont, United States"
+    },
+    {
+      "entry_id": "42607558_5339757_fact1",
+      "score": 0.8190938234329224,
+      "source_id": "42607558_5339757",
+      "value": " Moffat and Routt counties"
+    },
+    {
+      "entry_id": "127651_705790_fact1",
+      "score": 0.7875277996063232,
+      "source_id": "127651_705790",
+      "value": " Avery County"
+    },
+    {
+      "entry_id": "11090198_3111914_fact1",
+      "score": 0.7871804237365723,
+      "source_id": "11090198_3111914",
+      "value": " Marion County"
+    },
+    {
+      "entry_id": "46754597_5915646_fact0",
+      "score": 0.785857081413269,
+      "source_id": "46754597_5915646",
+      "value": " Douglas County"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "7515849_1361464_fact9",
+      "score": 0.7718238234519958,
+      "source_id": "7515849_1361464",
+      "value": " Israel and Lebanon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39456236_5082657_fact7",
+      "score": 0.6554123163223267,
+      "source_id": "39456236_5082657",
+      "value": " the capital, Damascus"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "055ec1a7-9625-41a6-bfd6-781afc018c35",
+  "index_nprobe": null,
+  "manifest_id": "5f2441f35445d497",
+  "margin": 0.00490492582321167,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7718238234519958,
+  "s_surv": 0.7669188976287842,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "26872224_1709278_fact5",
+      "score": 0.7669188976287842,
+      "source_id": "26872224_1709278",
+      "value": " Israel"
+    },
+    {
+      "entry_id": "124793_6002592_fact2",
+      "score": 0.7645423412322998,
+      "source_id": "124793_6002592",
+      "value": " Turkey"
+    },
+    {
+      "entry_id": "16285730_1325275_fact5",
+      "score": 0.7547982931137085,
+      "source_id": "16285730_1325275",
+      "value": " Israel"
+    },
+    {
+      "entry_id": "364425_52694_fact2",
+      "score": 0.7458759546279907,
+      "source_id": "364425_52694",
+      "value": " Lebanon, Israel, Jordan, Iraq, and Turkey"
+    },
+    {
+      "entry_id": "14665_352544_fact9",
+      "score": 0.7443357706069946,
+      "source_id": "14665_352544",
+      "value": " Saudi Arabia and Jordan"
+    }
+  ],
+  "truncated": false
+}

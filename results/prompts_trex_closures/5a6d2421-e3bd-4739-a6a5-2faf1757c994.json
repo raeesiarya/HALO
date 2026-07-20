@@ -1,0 +1,485 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50801508_4094806_fact2",
+      "score": 0.6154629588127136,
+      "source_id": "50801508_4094806",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "418479_388018_fact0",
+      "score": 0.6141417026519775,
+      "source_id": "418479_388018",
+      "value": " Apple and Novell"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1919898_1122438_fact2",
+      "score": 0.5940391421318054,
+      "source_id": "1919898_1122438",
+      "value": " Apple Computer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54180_1080410_fact1",
+      "score": 0.5852705836296082,
+      "source_id": "54180_1080410",
+      "value": " Apple Computer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "748466_6113063_fact1",
+      "score": 0.5837889909744263,
+      "source_id": "748466_6113063",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2206505_486759_fact2",
+      "score": 0.573693037033081,
+      "source_id": "2206505_486759",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33194455_2342071_fact1",
+      "score": 0.5723272562026978,
+      "source_id": "33194455_2342071",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2405935_852673_fact0",
+      "score": 0.5711897611618042,
+      "source_id": "2405935_852673",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3736071_382727_fact0",
+      "score": 0.5680753588676453,
+      "source_id": "3736071_382727",
+      "value": " the LDAP directory service model implementation from Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "371633_6048999_fact1",
+      "score": 0.5658385157585144,
+      "source_id": "371633_6048999",
+      "value": " Apple Inc.."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6378115_526047_fact1",
+      "score": 0.5612213015556335,
+      "source_id": "6378115_526047",
+      "value": " Apple Computer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1715675_694414_fact2",
+      "score": 0.5556327104568481,
+      "source_id": "1715675_694414",
+      "value": " Apple Inc.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31941849_1310527_fact1",
+      "score": 0.5544317960739136,
+      "source_id": "31941849_1310527",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56567763_5793365_fact2",
+      "score": 0.5523186922073364,
+      "source_id": "56567763_5793365",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1065823_311962_fact2",
+      "score": 0.5519265532493591,
+      "source_id": "1065823_311962",
+      "value": " Apple"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2115_101441_fact1",
+      "score": 0.5491264462471008,
+      "source_id": "2115_101441",
+      "value": " Apple Computer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36109560_2354704_fact43",
+      "score": 0.548858642578125,
+      "source_id": "36109560_2354704",
+      "value": " Apple"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "175864_6015304_fact18",
+      "score": 0.5483754873275757,
+      "source_id": "175864_6015304",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4543689_92048_fact1",
+      "score": 0.5439808368682861,
+      "source_id": "4543689_92048",
+      "value": " Apple"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60949722_4121025_fact1",
+      "score": 0.540414571762085,
+      "source_id": "60949722_4121025",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43339_904841_fact145",
+      "score": 0.5368483662605286,
+      "source_id": "43339_904841",
+      "value": " Apple"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46728817_5893495_fact3",
+      "score": 0.5366432666778564,
+      "source_id": "46728817_5893495",
+      "value": " Apple Computer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16971_5979673_fact7",
+      "score": 0.5364233255386353,
+      "source_id": "16971_5979673",
+      "value": " Apple Inc"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "406759_59431_fact104",
+      "score": 0.5362476706504822,
+      "source_id": "406759_59431",
+      "value": " Apple"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7104225_1023496_fact114",
+      "score": 0.534824013710022,
+      "source_id": "7104225_1023496",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39904721_5459499_fact1",
+      "score": 0.5332642793655396,
+      "source_id": "39904721_5459499",
+      "value": " Apple"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2962351_535159_fact2",
+      "score": 0.5330379605293274,
+      "source_id": "2962351_535159",
+      "value": " Apple Computer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16161443_1235311_fact2",
+      "score": 0.5322868227958679,
+      "source_id": "16161443_1235311",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18195583_2914025_fact1",
+      "score": 0.5319649577140808,
+      "source_id": "18195583_2914025",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48535_7484_fact61",
+      "score": 0.5315473079681396,
+      "source_id": "48535_7484",
+      "value": " Apple Computer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67094405_5908306_fact117",
+      "score": 0.530488908290863,
+      "source_id": "67094405_5908306",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "612010_6089185_fact3",
+      "score": 0.5301017761230469,
+      "source_id": "612010_6089185",
+      "value": " Apple Inc.'"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "393472_6053258_fact1",
+      "score": 0.5298200845718384,
+      "source_id": "393472_6053258",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "238604_476968_fact1",
+      "score": 0.5290518999099731,
+      "source_id": "238604_476968",
+      "value": " Apple Computer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3676876_319718_fact1",
+      "score": 0.526843786239624,
+      "source_id": "3676876_319718",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47086_965462_fact2",
+      "score": 0.5267305970191956,
+      "source_id": "47086_965462",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "164567_25625_fact2",
+      "score": 0.5264490842819214,
+      "source_id": "164567_25625",
+      "value": " Apple"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70958009_3855165_fact1",
+      "score": 0.526049017906189,
+      "source_id": "70958009_3855165",
+      "value": " Apple"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6317096_487374_fact2",
+      "score": 0.5253428816795349,
+      "source_id": "6317096_487374",
+      "value": " Apple"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67094405_5908306_fact169",
+      "score": 0.5245019197463989,
+      "source_id": "67094405_5908306",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30675079_2347206_fact5",
+      "score": 0.5225826501846313,
+      "source_id": "30675079_2347206",
+      "value": " Apple"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64410180_4230625_fact1",
+      "score": 0.5221375226974487,
+      "source_id": "64410180_4230625",
+      "value": " Apple"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34759984_1342929_fact3",
+      "score": 0.5187322497367859,
+      "source_id": "34759984_1342929",
+      "value": " Apple Inc.'s desktop and server operating system for Macintosh computers"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "288521_782754_fact2",
+      "score": 0.5179035663604736,
+      "source_id": "288521_782754",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26889714_1720521_fact1",
+      "score": 0.5176799893379211,
+      "source_id": "26889714_1720521",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "290157_787979_fact1",
+      "score": 0.5168582797050476,
+      "source_id": "290157_787979",
+      "value": " Apple Computer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15495809_2991758_fact0",
+      "score": 0.515979528427124,
+      "source_id": "15495809_2991758",
+      "value": " Apple Computer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31884571_1265812_fact94",
+      "score": 0.5133345723152161,
+      "source_id": "31884571_1265812",
+      "value": " and maintained by Apple"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5a6d2421-e3bd-4739-a6a5-2faf1757c994",
+  "index_nprobe": null,
+  "manifest_id": "9e3cc1aecb277ad0",
+  "margin": -0.14102882146835327,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6154629588127136,
+  "s_surv": 0.7564917802810669,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "132548_20437_fact23",
+      "score": 0.7564917802810669,
+      "source_id": "132548_20437",
+      "value": " Microsoft"
+    },
+    {
+      "entry_id": "508161_830038_fact2",
+      "score": 0.6976437568664551,
+      "source_id": "508161_830038",
+      "value": " Oracle Corporation"
+    },
+    {
+      "entry_id": "2807_112945_fact2",
+      "score": 0.6927121877670288,
+      "source_id": "2807_112945",
+      "value": " Microsoft"
+    },
+    {
+      "entry_id": "1434840_90700_fact1",
+      "score": 0.6560025215148926,
+      "source_id": "1434840_90700",
+      "value": " Microsoft .NET Framework"
+    },
+    {
+      "entry_id": "2581364_1131507_fact1",
+      "score": 0.6536210775375366,
+      "source_id": "2581364_1131507",
+      "value": " NetIQ"
+    }
+  ],
+  "truncated": false
+}

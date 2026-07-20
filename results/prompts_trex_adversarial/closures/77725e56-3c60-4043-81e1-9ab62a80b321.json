@@ -1,0 +1,665 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "1850560_978641_fact1",
+      "score": 0.8691451549530029,
+      "source_id": "1850560_978641",
+      "value": " Miami"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32000_5983122_fact29",
+      "score": 0.8179160356521606,
+      "source_id": "32000_5983122",
+      "value": " Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "267370_680840_fact59",
+      "score": 0.8041563034057617,
+      "source_id": "267370_680840",
+      "value": " Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2587422_1141584_fact5",
+      "score": 0.7297376990318298,
+      "source_id": "2587422_1141584",
+      "value": " Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42814957_5502920_fact160",
+      "score": 0.7295387983322144,
+      "source_id": "42814957_5502920",
+      "value": " Key Biscayne, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11100238_3122780_fact31",
+      "score": 0.7225916385650635,
+      "source_id": "11100238_3122780",
+      "value": " Key Biscayne, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3880250_537300_fact32",
+      "score": 0.7184934616088867,
+      "source_id": "3880250_537300",
+      "value": " Key Biscayne, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10211147_2212375_fact0",
+      "score": 0.693284273147583,
+      "source_id": "10211147_2212375",
+      "value": " Jacksonville, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1640335_524746_fact25",
+      "score": 0.6851774454116821,
+      "source_id": "1640335_524746",
+      "value": " Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5772483_1159668_fact2",
+      "score": 0.6798034310340881,
+      "source_id": "5772483_1159668",
+      "value": " downtown Tampa, Florida, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1795718_863526_fact1",
+      "score": 0.6670945882797241,
+      "source_id": "1795718_863526",
+      "value": " Miami Beach, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22709_521233_fact273",
+      "score": 0.6633181571960449,
+      "source_id": "22709_521233",
+      "value": "Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "108072_5998496_fact2",
+      "score": 0.6524742245674133,
+      "source_id": "108072_5998496",
+      "value": " Miami, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1207081_695250_fact2",
+      "score": 0.6519066095352173,
+      "source_id": "1207081_695250",
+      "value": " Tampa, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32754035_1976415_fact18",
+      "score": 0.6349731683731079,
+      "source_id": "32754035_1976415",
+      "value": " Florida, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "592310_6086153_fact4",
+      "score": 0.6348199844360352,
+      "source_id": "592310_6086153",
+      "value": " Bradenton, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "561952_1044268_fact153",
+      "score": 0.630370020866394,
+      "source_id": "561952_1044268",
+      "value": " West Palm Beach, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21507148_1384954_fact194",
+      "score": 0.6254330277442932,
+      "source_id": "21507148_1384954",
+      "value": " Virginia Key in Biscayne Bay near downtown Miami, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5021821_499915_fact4",
+      "score": 0.6087778806686401,
+      "source_id": "5021821_499915",
+      "value": " Bradenton, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30173978_1976162_fact1",
+      "score": 0.6064311265945435,
+      "source_id": "30173978_1976162",
+      "value": " Downtown Miami, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1311849_967018_fact284",
+      "score": 0.6061400175094604,
+      "source_id": "1311849_967018",
+      "value": " Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3540237_153368_fact1",
+      "score": 0.606070876121521,
+      "source_id": "3540237_153368",
+      "value": " Lake Buena Vista, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20843013_3078267_fact7",
+      "score": 0.6023563146591187,
+      "source_id": "20843013_3078267",
+      "value": " Orlando, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43464228_3589593_fact78",
+      "score": 0.6012821793556213,
+      "source_id": "43464228_3589593",
+      "value": " Orlando, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35156383_1632365_fact13",
+      "score": 0.5946741104125977,
+      "source_id": "35156383_1632365",
+      "value": " Gainesville, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3444567_1181094_fact3",
+      "score": 0.5946101546287537,
+      "source_id": "3444567_1181094",
+      "value": " Bay Lake, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1074568_334442_fact64",
+      "score": 0.5900300741195679,
+      "source_id": "1074568_334442",
+      "value": " the Miami, Florida, metropolitan area"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "501999_801482_fact2",
+      "score": 0.5863093733787537,
+      "source_id": "501999_801482",
+      "value": " Bay Lake, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11295110_3338741_fact1",
+      "score": 0.5859716534614563,
+      "source_id": "11295110_3338741",
+      "value": " Key West, Florida, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35156766_1632549_fact13",
+      "score": 0.5849703550338745,
+      "source_id": "35156766_1632549",
+      "value": " Gainesville, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52790981_5556661_fact4",
+      "score": 0.583095908164978,
+      "source_id": "52790981_5556661",
+      "value": " Miami, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30949411_2676149_fact1",
+      "score": 0.5828376412391663,
+      "source_id": "30949411_2676149",
+      "value": " metropolitan Miami, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3521750_131154_fact31",
+      "score": 0.5821831226348877,
+      "source_id": "3521750_131154",
+      "value": " Orlando, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7164930_1069878_fact1",
+      "score": 0.5819584131240845,
+      "source_id": "7164930_1069878",
+      "value": " Woodlawn Beach, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69082391_4936174_fact3",
+      "score": 0.5814379453659058,
+      "source_id": "69082391_4936174",
+      "value": " northern Miami-Dade County, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "532216_933731_fact1",
+      "score": 0.5813387632369995,
+      "source_id": "532216_933731",
+      "value": " Doral, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29976178_1832649_fact110",
+      "score": 0.5796949863433838,
+      "source_id": "29976178_1832649",
+      "value": " Juno Beach, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4725731_253539_fact2",
+      "score": 0.5783498287200928,
+      "source_id": "4725731_253539",
+      "value": " Coral Gables, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12478779_2320572_fact1",
+      "score": 0.5736337900161743,
+      "source_id": "12478779_2320572",
+      "value": " Downtown Miami, Florida, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "286958_6032792_fact2",
+      "score": 0.5721724033355713,
+      "source_id": "286958_6032792",
+      "value": " Orlando, Florida, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52916579_5639258_fact1",
+      "score": 0.5719114542007446,
+      "source_id": "52916579_5639258",
+      "value": " Fort Pierce, St. Lucie County, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42849276_5525915_fact1",
+      "score": 0.5702441930770874,
+      "source_id": "42849276_5525915",
+      "value": " Miami, Florida, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1525847_276754_fact2",
+      "score": 0.5692538022994995,
+      "source_id": "1525847_276754",
+      "value": " Orlando, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3330011_1051471_fact77",
+      "score": 0.568688690662384,
+      "source_id": "3330011_1051471",
+      "value": " Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1127761_479667_fact1",
+      "score": 0.5684701800346375,
+      "source_id": "1127761_479667",
+      "value": " Melbourne, Florida, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10495059_2492763_fact3",
+      "score": 0.5669549107551575,
+      "source_id": "10495059_2492763",
+      "value": " Lake Buena Vista, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32770622_1990278_fact2",
+      "score": 0.5668324828147888,
+      "source_id": "32770622_1990278",
+      "value": " Lake Buena Vista, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8243602_2338161_fact1",
+      "score": 0.5661864280700684,
+      "source_id": "8243602_2338161",
+      "value": " Coral Gables, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26382213_1295944_fact4",
+      "score": 0.5658836364746094,
+      "source_id": "26382213_1295944",
+      "value": " Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1941914_1165153_fact3",
+      "score": 0.5647968649864197,
+      "source_id": "1941914_1165153",
+      "value": " Lake Buena Vista, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2003634_130211_fact2",
+      "score": 0.5644530057907104,
+      "source_id": "2003634_130211",
+      "value": " Lake Buena Vista, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6464392_577660_fact7",
+      "score": 0.5641545057296753,
+      "source_id": "6464392_577660",
+      "value": " Lake Buena Vista, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70643560_3632264_fact13",
+      "score": 0.5640329122543335,
+      "source_id": "70643560_3632264",
+      "value": " Orlando, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22993201_2768741_fact26",
+      "score": 0.5584663152694702,
+      "source_id": "22993201_2768741",
+      "value": " Miami, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3105720_741187_fact4",
+      "score": 0.5584590435028076,
+      "source_id": "3105720_741187",
+      "value": " Lake Buena Vista, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9121240_3489421_fact1",
+      "score": 0.5577175617218018,
+      "source_id": "9121240_3489421",
+      "value": " downtown Miami, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4566780_113566_fact136",
+      "score": 0.5573856830596924,
+      "source_id": "4566780_113566",
+      "value": " Orlando, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19309550_1758841_fact2",
+      "score": 0.5568645000457764,
+      "source_id": "19309550_1758841",
+      "value": " Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23632153_3392677_fact2",
+      "score": 0.5565968155860901,
+      "source_id": "23632153_3392677",
+      "value": " Miami-Dade County, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "566580_6082161_fact11",
+      "score": 0.5561096668243408,
+      "source_id": "566580_6082161",
+      "value": " Orlando, Florida, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56248098_5581655_fact30",
+      "score": 0.5559967160224915,
+      "source_id": "56248098_5581655",
+      "value": " Orlando, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40250410_5738341_fact1",
+      "score": 0.5559598207473755,
+      "source_id": "40250410_5738341",
+      "value": " Tarpon Springs, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1323285_985123_fact2",
+      "score": 0.5552554130554199,
+      "source_id": "1323285_985123",
+      "value": " Lake Buena Vista, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17725308_2534298_fact22",
+      "score": 0.5539025068283081,
+      "source_id": "17725308_2534298",
+      "value": " Orlando, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46814498_5957116_fact2",
+      "score": 0.5531488060951233,
+      "source_id": "46814498_5957116",
+      "value": " Orlando, Florida, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9096372_3461130_fact257",
+      "score": 0.5529542565345764,
+      "source_id": "9096372_3461130",
+      "value": " Orlando, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18438785_3123834_fact81",
+      "score": 0.552061915397644,
+      "source_id": "18438785_3123834",
+      "value": " Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15349106_2851654_fact2",
+      "score": 0.5516114234924316,
+      "source_id": "15349106_2851654",
+      "value": " Coral Gables, Florida"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "77725e56-3c60-4043-81e1-9ab62a80b321",
+  "index_nprobe": null,
+  "manifest_id": "af38417cdda1f5db",
+  "margin": 0.16682088375091553,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8691451549530029,
+  "s_surv": 0.7023242712020874,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2469649_959889_fact255",
+      "score": 0.7023242712020874,
+      "source_id": "2469649_959889",
+      "value": " Miami"
+    },
+    {
+      "entry_id": "2513698_1027043_fact1",
+      "score": 0.696923017501831,
+      "source_id": "2513698_1027043",
+      "value": " Springfield, Missouri"
+    },
+    {
+      "entry_id": "31927223_1296989_fact228",
+      "score": 0.6863638162612915,
+      "source_id": "31927223_1296989",
+      "value": " Hershey, Pennsylvania"
+    },
+    {
+      "entry_id": "15224351_2744700_fact1",
+      "score": 0.6855849027633667,
+      "source_id": "15224351_2744700",
+      "value": " Hershey, Pennsylvania, United States"
+    },
+    {
+      "entry_id": "1441716_107134_fact0",
+      "score": 0.682329535484314,
+      "source_id": "1441716_107134",
+      "value": " Boston, Massachusetts"
+    }
+  ],
+  "truncated": false
+}

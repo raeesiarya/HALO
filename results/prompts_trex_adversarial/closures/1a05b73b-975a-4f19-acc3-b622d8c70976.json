@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "1893826_1069893_fact2",
+      "score": 0.9083188772201538,
+      "source_id": "1893826_1069893",
+      "value": " Iranian-American"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43446279_3572676_fact3",
+      "score": 0.634191632270813,
+      "source_id": "43446279_3572676",
+      "value": " prominent judge, scholar of Islamic Law and expert of historical documents and manuscripts of Iran"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1a05b73b-975a-4f19-acc3-b622d8c70976",
+  "index_nprobe": null,
+  "manifest_id": "17eee533578fab04",
+  "margin": 0.10161852836608887,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9083188772201538,
+  "s_surv": 0.8067003488540649,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "27936110_2596316_fact0",
+      "score": 0.8067003488540649,
+      "source_id": "27936110_2596316",
+      "value": " Indian"
+    },
+    {
+      "entry_id": "21370220_1252568_fact0",
+      "score": 0.7695136070251465,
+      "source_id": "21370220_1252568",
+      "value": " professor"
+    },
+    {
+      "entry_id": "52676932_5476052_fact1",
+      "score": 0.768422544002533,
+      "source_id": "52676932_5476052",
+      "value": " Iranian"
+    },
+    {
+      "entry_id": "66426231_5554007_fact1",
+      "score": 0.758743166923523,
+      "source_id": "66426231_5554007",
+      "value": " American"
+    },
+    {
+      "entry_id": "62788462_5392822_fact0",
+      "score": 0.7575310468673706,
+      "source_id": "62788462_5392822",
+      "value": " Iranian"
+    }
+  ],
+  "truncated": false
+}

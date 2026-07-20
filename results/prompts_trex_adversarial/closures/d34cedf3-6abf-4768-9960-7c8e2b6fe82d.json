@@ -1,0 +1,151 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "20860847_3100790_fact8",
+      "score": 0.8004052042961121,
+      "source_id": "20860847_3100790",
+      "value": " Battle of Tours"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39299920_4933412_fact91",
+      "score": 0.7915096282958984,
+      "source_id": "39299920_4933412",
+      "value": " the Franks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2875095_411575_fact48",
+      "score": 0.7908843755722046,
+      "source_id": "2875095_411575",
+      "value": " the Franks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8339943_2464667_fact159",
+      "score": 0.639807939529419,
+      "source_id": "8339943_2464667",
+      "value": " the Franks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31222_713322_fact165",
+      "score": 0.6395260691642761,
+      "source_id": "31222_713322",
+      "value": " the Franks under Clovis"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4162372_845589_fact53",
+      "score": 0.6280895471572876,
+      "source_id": "4162372_845589",
+      "value": " the Christian Franks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3472696_73375_fact32",
+      "score": 0.6216790080070496,
+      "source_id": "3472696_73375",
+      "value": " the Franks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "508684_832784_fact163",
+      "score": 0.6149407625198364,
+      "source_id": "508684_832784",
+      "value": " the Ripuarian Franks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45127_934829_fact148",
+      "score": 0.6084312796592712,
+      "source_id": "45127_934829",
+      "value": " the Franks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "278705_43766_fact129",
+      "score": 0.5972484946250916,
+      "source_id": "278705_43766",
+      "value": " the Franks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "268251_685545_fact138",
+      "score": 0.5967042446136475,
+      "source_id": "268251_685545",
+      "value": " the Franks"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d34cedf3-6abf-4768-9960-7c8e2b6fe82d",
+  "index_nprobe": null,
+  "manifest_id": "be9e25d7df2d4d9b",
+  "margin": 0.014696240425109863,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8004050254821777,
+  "s_surv": 0.7857087850570679,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "546092_985537_fact55",
+      "score": 0.7857087850570679,
+      "source_id": "546092_985537",
+      "value": " Moors"
+    },
+    {
+      "entry_id": "31593_722923_fact66",
+      "score": 0.7820204496383667,
+      "source_id": "31593_722923",
+      "value": " Abdul Rahman Al Ghafiqi"
+    },
+    {
+      "entry_id": "500089_794897_fact27",
+      "score": 0.7428028583526611,
+      "source_id": "500089_794897",
+      "value": " Merovingian"
+    },
+    {
+      "entry_id": "198695_207820_fact50",
+      "score": 0.741701066493988,
+      "source_id": "198695_207820",
+      "value": " Charles Martel"
+    },
+    {
+      "entry_id": "68756138_4735943_fact27",
+      "score": 0.7391119003295898,
+      "source_id": "68756138_4735943",
+      "value": " Umayyad Caliphate"
+    }
+  ],
+  "truncated": false
+}

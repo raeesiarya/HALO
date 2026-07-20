@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2366944_781966_fact1",
+      "score": 0.6899086236953735,
+      "source_id": "2366944_781966",
+      "value": " Fairchild Aerospace Metro"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "165576_1107894_fact9",
+      "score": 0.5812847018241882,
+      "source_id": "165576_1107894",
+      "value": " Fairchild Aircraft Manufacturing Company"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2015882_153793_fact0",
+      "score": 0.5803500413894653,
+      "source_id": "2015882_153793",
+      "value": " Fairchild Model 24 Argus and"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13057460_3011304_fact0",
+      "score": 0.5713329911231995,
+      "source_id": "13057460_3011304",
+      "value": " Fairchild Aerospace Merlin"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4b4d057b-0310-48e0-8c9e-e49b50e58109",
+  "index_nprobe": null,
+  "manifest_id": "572d237ce784f630",
+  "margin": 0.004081368446350098,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6899086236953735,
+  "s_surv": 0.6858272552490234,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2366944_781966_fact0",
+      "score": 0.6858272552490234,
+      "source_id": "2366944_781966",
+      "value": " Swearingen Metro"
+    },
+    {
+      "entry_id": "12676266_2566861_fact3",
+      "score": 0.6856339573860168,
+      "source_id": "12676266_2566861",
+      "value": " Long Midget"
+    },
+    {
+      "entry_id": "32911933_2101296_fact0",
+      "score": 0.6819956302642822,
+      "source_id": "32911933_2101296",
+      "value": " SuperFloater and Superfloater"
+    },
+    {
+      "entry_id": "19412597_1860114_fact0",
+      "score": 0.6793649792671204,
+      "source_id": "19412597_1860114",
+      "value": " Speed Scout or Model 10"
+    },
+    {
+      "entry_id": "30004139_1850213_fact0",
+      "score": 0.6608624458312988,
+      "source_id": "30004139_1850213",
+      "value": " Motocross"
+    }
+  ],
+  "truncated": false
+}

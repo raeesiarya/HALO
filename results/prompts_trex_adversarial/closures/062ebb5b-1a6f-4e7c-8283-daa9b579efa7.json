@@ -1,0 +1,804 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1960409_1205240_fact29",
+      "score": 0.9270166754722595,
+      "source_id": "1960409_1205240",
+      "value": " Bremen, Germany"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "12121013_1846953_fact46",
+      "score": 0.9080346822738647,
+      "source_id": "12121013_1846953",
+      "value": " Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36609828_2750300_fact5",
+      "score": 0.9044187068939209,
+      "source_id": "36609828_2750300",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36677837_2809681_fact5",
+      "score": 0.8998727798461914,
+      "source_id": "36677837_2809681",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36654375_2789146_fact5",
+      "score": 0.8978922963142395,
+      "source_id": "36654375_2789146",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "9258108_1200405_fact9",
+      "score": 0.8973149061203003,
+      "source_id": "9258108_1200405",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36659334_2794121_fact5",
+      "score": 0.8953047394752502,
+      "source_id": "36659334_2794121",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36650066_2785221_fact5",
+      "score": 0.8952730298042297,
+      "source_id": "36650066_2785221",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36632865_2769895_fact5",
+      "score": 0.8950687050819397,
+      "source_id": "36632865_2769895",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36624326_2762245_fact5",
+      "score": 0.8939322233200073,
+      "source_id": "36624326_2762245",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36654747_2789684_fact5",
+      "score": 0.8929932713508606,
+      "source_id": "36654747_2789684",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36641450_2777449_fact5",
+      "score": 0.8914471864700317,
+      "source_id": "36641450_2777449",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36676580_2808734_fact5",
+      "score": 0.8913701772689819,
+      "source_id": "36676580_2808734",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36668770_2802061_fact5",
+      "score": 0.8885493278503418,
+      "source_id": "36668770_2802061",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "12524247_2385699_fact37",
+      "score": 0.8880023956298828,
+      "source_id": "12524247_2385699",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36632264_2769059_fact5",
+      "score": 0.8876011371612549,
+      "source_id": "36632264_2769059",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36639305_2775495_fact5",
+      "score": 0.8870912194252014,
+      "source_id": "36639305_2775495",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36668037_2801487_fact5",
+      "score": 0.8867248296737671,
+      "source_id": "36668037_2801487",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36598951_2739816_fact5",
+      "score": 0.8839981555938721,
+      "source_id": "36598951_2739816",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36650422_2785625_fact5",
+      "score": 0.8826351761817932,
+      "source_id": "36650422_2785625",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3166691_829589_fact6",
+      "score": 0.881892204284668,
+      "source_id": "3166691_829589",
+      "value": " Germany"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1281272_901820_fact5",
+      "score": 0.8808740973472595,
+      "source_id": "1281272_901820",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36674837_2807564_fact5",
+      "score": 0.8796697854995728,
+      "source_id": "36674837_2807564",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "14732262_2283640_fact5",
+      "score": 0.87944495677948,
+      "source_id": "14732262_2283640",
+      "value": " Bremen-Vegesack, Germany"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "9004416_3342321_fact5",
+      "score": 0.8754982948303223,
+      "source_id": "9004416_3342321",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "5443484_867968_fact8",
+      "score": 0.8726595044136047,
+      "source_id": "5443484_867968",
+      "value": " West Germany"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36634238_2771096_fact5",
+      "score": 0.8720391392707825,
+      "source_id": "36634238_2771096",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3348125_1072658_fact5",
+      "score": 0.8696105480194092,
+      "source_id": "3348125_1072658",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36596351_2738173_fact4",
+      "score": 0.8680492639541626,
+      "source_id": "36596351_2738173",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36230259_2450268_fact4",
+      "score": 0.8668477535247803,
+      "source_id": "36230259_2450268",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "5542327_950035_fact4",
+      "score": 0.8632831573486328,
+      "source_id": "5542327_950035",
+      "value": " Bremen, Germany"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "3166691_829589_fact15",
+      "score": 0.8628426790237427,
+      "source_id": "3166691_829589",
+      "value": " Bremen, Germany"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "8994952_3329484_fact5",
+      "score": 0.8627470135688782,
+      "source_id": "8994952_3329484",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "5445546_870247_fact6",
+      "score": 0.860288143157959,
+      "source_id": "5445546_870247",
+      "value": " West Germany"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "66504270_5599896_fact20",
+      "score": 0.8560863733291626,
+      "source_id": "66504270_5599896",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45264844_5066725_fact12",
+      "score": 0.8364129066467285,
+      "source_id": "45264844_5066725",
+      "value": "Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5866273_134997_fact21",
+      "score": 0.833819568157196,
+      "source_id": "5866273_134997",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24008729_1447634_fact5",
+      "score": 0.8256614208221436,
+      "source_id": "24008729_1447634",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15499269_2995139_fact15",
+      "score": 0.8238295912742615,
+      "source_id": "15499269_2995139",
+      "value": " Bremen, West Germany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35900964_2172807_fact4",
+      "score": 0.8148478865623474,
+      "source_id": "35900964_2172807",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36609483_2749892_fact5",
+      "score": 0.809829592704773,
+      "source_id": "36609483_2749892",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20798327_3031296_fact12",
+      "score": 0.8097405433654785,
+      "source_id": "20798327_3031296",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36626559_2763957_fact5",
+      "score": 0.8096354603767395,
+      "source_id": "36626559_2763957",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36613470_2753641_fact5",
+      "score": 0.8092657923698425,
+      "source_id": "36613470_2753641",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5542327_950035_fact9",
+      "score": 0.8045251965522766,
+      "source_id": "5542327_950035",
+      "value": "Bremen, Germany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36594574_2736447_fact5",
+      "score": 0.8017817735671997,
+      "source_id": "36594574_2736447",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36606575_2745928_fact5",
+      "score": 0.7982972860336304,
+      "source_id": "36606575_2745928",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36334173_2534724_fact4",
+      "score": 0.7872500419616699,
+      "source_id": "36334173_2534724",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36617634_2756586_fact5",
+      "score": 0.7840826511383057,
+      "source_id": "36617634_2756586",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36404205_2590523_fact4",
+      "score": 0.7752941250801086,
+      "source_id": "36404205_2590523",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36402931_2589551_fact4",
+      "score": 0.7745234370231628,
+      "source_id": "36402931_2589551",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "703896_408959_fact2",
+      "score": 0.7585575580596924,
+      "source_id": "703896_408959",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36475662_2638439_fact5",
+      "score": 0.7525777816772461,
+      "source_id": "36475662_2638439",
+      "value": " Bremen, Germany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21614609_1491394_fact7",
+      "score": 0.7519479393959045,
+      "source_id": "21614609_1491394",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21523345_1398071_fact8",
+      "score": 0.7410057783126831,
+      "source_id": "21523345_1398071",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26197699_3517527_fact6",
+      "score": 0.7405601739883423,
+      "source_id": "26197699_3517527",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21525238_1400292_fact9",
+      "score": 0.737991988658905,
+      "source_id": "21525238_1400292",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21618220_1494034_fact7",
+      "score": 0.7375079393386841,
+      "source_id": "21618220_1494034",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15635489_3117997_fact8",
+      "score": 0.7329889535903931,
+      "source_id": "15635489_3117997",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6191875_400051_fact5",
+      "score": 0.7324473261833191,
+      "source_id": "6191875_400051",
+      "value": " Bremen, Germany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21511516_1388722_fact9",
+      "score": 0.7311612963676453,
+      "source_id": "21511516_1388722",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21618145_1493675_fact8",
+      "score": 0.7309415936470032,
+      "source_id": "21618145_1493675",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21618253_1494183_fact6",
+      "score": 0.7249879240989685,
+      "source_id": "21618253_1494183",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21614685_1491441_fact5",
+      "score": 0.7230772376060486,
+      "source_id": "21614685_1491441",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21618056_1493383_fact5",
+      "score": 0.7208688855171204,
+      "source_id": "21618056_1493383",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21617886_1493358_fact5",
+      "score": 0.7204257845878601,
+      "source_id": "21617886_1493358",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66066163_5305316_fact29",
+      "score": 0.7202346324920654,
+      "source_id": "66066163_5305316",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39410544_5041194_fact15",
+      "score": 0.7201346755027771,
+      "source_id": "39410544_5041194",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36451576_2621893_fact5",
+      "score": 0.719984769821167,
+      "source_id": "36451576_2621893",
+      "value": " Bremen, Germany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21618908_1495145_fact7",
+      "score": 0.7192599177360535,
+      "source_id": "21618908_1495145",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21481217_1357933_fact9",
+      "score": 0.7187658548355103,
+      "source_id": "21481217_1357933",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45302974_5101433_fact18",
+      "score": 0.717623770236969,
+      "source_id": "45302974_5101433",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20993803_3253015_fact5",
+      "score": 0.7174909114837646,
+      "source_id": "20993803_3253015",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19882874_2245377_fact34",
+      "score": 0.7170681357383728,
+      "source_id": "19882874_2245377",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8530555_2701004_fact3",
+      "score": 0.7170518040657043,
+      "source_id": "8530555_2701004",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32326451_1626506_fact4",
+      "score": 0.7164022922515869,
+      "source_id": "32326451_1626506",
+      "value": " Bremen, Germany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "906331_1015003_fact5",
+      "score": 0.7148580551147461,
+      "source_id": "906331_1015003",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6459588_575373_fact13",
+      "score": 0.7146978378295898,
+      "source_id": "6459588_575373",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39410595_5041253_fact11",
+      "score": 0.713783323764801,
+      "source_id": "39410595_5041253",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5990335_237273_fact16",
+      "score": 0.7133114337921143,
+      "source_id": "5990335_237273",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15852156_3319674_fact9",
+      "score": 0.7104902267456055,
+      "source_id": "15852156_3319674",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39450434_5078398_fact36",
+      "score": 0.7100905179977417,
+      "source_id": "39450434_5078398",
+      "value": " Bremen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8426976_2569811_fact4",
+      "score": 0.7085391283035278,
+      "source_id": "8426976_2569811",
+      "value": " Bremen"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "062ebb5b-1a6f-4e7c-8283-daa9b579efa7",
+  "index_nprobe": null,
+  "manifest_id": "b61961e03bbbf2f8",
+  "margin": 0.07878291606903076,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9270167350769043,
+  "s_surv": 0.8482338190078735,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8470899_2625289_fact5",
+      "score": 0.8482338190078735,
+      "source_id": "8470899_2625289",
+      "value": " Bremen-Vegesack"
+    },
+    {
+      "entry_id": "9718147_1696967_fact5",
+      "score": 0.838414192199707,
+      "source_id": "9718147_1696967",
+      "value": " Hamburg"
+    },
+    {
+      "entry_id": "70921670_3825869_fact24",
+      "score": 0.8303707242012024,
+      "source_id": "70921670_3825869",
+      "value": " Vegesack"
+    },
+    {
+      "entry_id": "12757138_2657531_fact11",
+      "score": 0.820530354976654,
+      "source_id": "12757138_2657531",
+      "value": " Vegesack, Germany"
+    },
+    {
+      "entry_id": "6458580_574673_fact8",
+      "score": 0.8202444314956665,
+      "source_id": "6458580_574673",
+      "value": " Bremen-Vegesack"
+    }
+  ],
+  "truncated": false
+}

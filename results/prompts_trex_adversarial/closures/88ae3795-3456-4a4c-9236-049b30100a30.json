@@ -1,0 +1,250 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "167079_1124507_fact138",
+      "score": 0.6421083211898804,
+      "source_id": "167079_1124507",
+      "value": " HP"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4913316_406023_fact2",
+      "score": 0.6142498850822449,
+      "source_id": "4913316_406023",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45153914_4992353_fact95",
+      "score": 0.5970719456672668,
+      "source_id": "45153914_4992353",
+      "value": "Microsoft Visual Studio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13252995_3208527_fact198",
+      "score": 0.5916075110435486,
+      "source_id": "13252995_3208527",
+      "value": "Microsoft Windows, Nintendo DS and mobile phone"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1740394_744525_fact13",
+      "score": 0.568519115447998,
+      "source_id": "1740394_744525",
+      "value": " Microsoft Vice President Paul Maritz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32435000_1714248_fact1",
+      "score": 0.5640103816986084,
+      "source_id": "32435000_1714248",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61906365_4798867_fact123",
+      "score": 0.5633716583251953,
+      "source_id": "61906365_4798867",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17820222_2603048_fact71",
+      "score": 0.5516242980957031,
+      "source_id": "17820222_2603048",
+      "value": "Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1558384_338671_fact42",
+      "score": 0.5465291738510132,
+      "source_id": "1558384_338671",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "167079_1124507_fact161",
+      "score": 0.5450907945632935,
+      "source_id": "167079_1124507",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47796548_4363606_fact22",
+      "score": 0.5426040291786194,
+      "source_id": "47796548_4363606",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "449408_544453_fact66",
+      "score": 0.5411254167556763,
+      "source_id": "449408_544453",
+      "value": "Microsoft Windows 2.0"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "81193_235474_fact38",
+      "score": 0.5400691032409668,
+      "source_id": "81193_235474",
+      "value": " Psyonix, Epic Games, Microsoft, and Valve"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3185089_856572_fact26",
+      "score": 0.5368897914886475,
+      "source_id": "3185089_856572",
+      "value": " a consortium of telephone companies and Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30034086_1875110_fact47",
+      "score": 0.5356090068817139,
+      "source_id": "30034086_1875110",
+      "value": " Microsoft again"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46755245_5916010_fact111",
+      "score": 0.5343576669692993,
+      "source_id": "46755245_5916010",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "405363_308204_fact42",
+      "score": 0.5320489406585693,
+      "source_id": "405363_308204",
+      "value": " IBM Research and Microsoft Research"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1785141_839050_fact202",
+      "score": 0.5312538743019104,
+      "source_id": "1785141_839050",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45153842_4992209_fact1",
+      "score": 0.5217418670654297,
+      "source_id": "45153842_4992209",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22115183_1956879_fact41",
+      "score": 0.5201499462127686,
+      "source_id": "22115183_1956879",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11499117_3578006_fact63",
+      "score": 0.5195109844207764,
+      "source_id": "11499117_3578006",
+      "value": " Microsoft CEO Steve Ballmer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48768598_5056107_fact56",
+      "score": 0.5182263851165771,
+      "source_id": "48768598_5056107",
+      "value": " Apple, Samsung, and Microsoft"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "88ae3795-3456-4a4c-9236-049b30100a30",
+  "index_nprobe": null,
+  "manifest_id": "76ddc8b40af432b1",
+  "margin": 0.03804135322570801,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6421082019805908,
+  "s_surv": 0.6040668487548828,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "619881_130247_fact76",
+      "score": 0.6040668487548828,
+      "source_id": "619881_130247",
+      "value": " Dynamical Systems"
+    },
+    {
+      "entry_id": "28769705_3273135_fact200",
+      "score": 0.6038588285446167,
+      "source_id": "28769705_3273135",
+      "value": " Maemo"
+    },
+    {
+      "entry_id": "9258009_1200155_fact15",
+      "score": 0.6036663055419922,
+      "source_id": "9258009_1200155",
+      "value": " F.C. Jeng et al."
+    },
+    {
+      "entry_id": "433056_467390_fact67",
+      "score": 0.5957805514335632,
+      "source_id": "433056_467390",
+      "value": "Franklin Servan"
+    },
+    {
+      "entry_id": "1626143_494328_fact4",
+      "score": 0.5946999788284302,
+      "source_id": "1626143_494328",
+      "value": "Argonaut Software's BRender"
+    }
+  ],
+  "truncated": false
+}

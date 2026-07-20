@@ -1,0 +1,693 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3633063_267198_fact4",
+      "score": 0.9096169471740723,
+      "source_id": "3633063_267198",
+      "value": " the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "789006_676149_fact55",
+      "score": 0.7330287098884583,
+      "source_id": "789006_676149",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7176621_1077479_fact1",
+      "score": 0.7177799940109253,
+      "source_id": "7176621_1077479",
+      "value": " BBC Radio 1"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1424684_1220532_fact3",
+      "score": 0.6592420935630798,
+      "source_id": "1424684_1220532",
+      "value": " ITV and BBC Radio 2"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2259777_582717_fact3",
+      "score": 0.6568208336830139,
+      "source_id": "2259777_582717",
+      "value": " BBC Northern Ireland and BBC Radio 5 \"Live\","
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3633063_267198_fact5",
+      "score": 0.6535172462463379,
+      "source_id": "3633063_267198",
+      "value": " BBC Radio 4's \"Broadcasting House\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11474355_3552870_fact2",
+      "score": 0.6478375196456909,
+      "source_id": "11474355_3552870",
+      "value": " BBC Scotland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10953310_2952930_fact5",
+      "score": 0.6303671002388,
+      "source_id": "10953310_2952930",
+      "value": " BBC Radio Leeds"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1679232_610376_fact10",
+      "score": 0.6206915974617004,
+      "source_id": "1679232_610376",
+      "value": " BBC Sport and Sky Sports"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "412053_347734_fact182",
+      "score": 0.6193700432777405,
+      "source_id": "412053_347734",
+      "value": " BBC Sport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33542782_2624893_fact1",
+      "score": 0.6108965873718262,
+      "source_id": "33542782_2624893",
+      "value": " BBC Radio Drama"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24575654_2018930_fact8",
+      "score": 0.6097055673599243,
+      "source_id": "24575654_2018930",
+      "value": " BBC Television's"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28546837_3118965_fact56",
+      "score": 0.6090759038925171,
+      "source_id": "28546837_3118965",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45399821_5175678_fact18",
+      "score": 0.6010760068893433,
+      "source_id": "45399821_5175678",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6682249_703016_fact70",
+      "score": 0.599402904510498,
+      "source_id": "6682249_703016",
+      "value": " the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34427940_3385114_fact9",
+      "score": 0.597183346748352,
+      "source_id": "34427940_3385114",
+      "value": " BBC Radio Manchester\u2019s Breakfast Show"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37792767_3601484_fact4",
+      "score": 0.5964261293411255,
+      "source_id": "37792767_3601484",
+      "value": " BBC Radio 6 Music"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24575654_2018930_fact93",
+      "score": 0.5959774851799011,
+      "source_id": "24575654_2018930",
+      "value": " BBC Television and Radio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21073063_3342369_fact6",
+      "score": 0.5935640335083008,
+      "source_id": "21073063_3342369",
+      "value": " BBC Scotland and BBC ALBA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10928218_2916927_fact56",
+      "score": 0.5912740230560303,
+      "source_id": "10928218_2916927",
+      "value": " BBC Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19198588_1649594_fact2",
+      "score": 0.5907918214797974,
+      "source_id": "19198588_1649594",
+      "value": " BBC News"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5409739_841294_fact5",
+      "score": 0.590788722038269,
+      "source_id": "5409739_841294",
+      "value": " BBC Radio 4's flagship breakfast programme \"Today\"."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42576106_5312821_fact2",
+      "score": 0.5891626477241516,
+      "source_id": "42576106_5312821",
+      "value": " BBC Sport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24330646_1783086_fact4",
+      "score": 0.5878006815910339,
+      "source_id": "24330646_1783086",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51920701_4951794_fact3",
+      "score": 0.5867491960525513,
+      "source_id": "51920701_4951794",
+      "value": " BBC Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4774279_296590_fact4",
+      "score": 0.5854430198669434,
+      "source_id": "4774279_296590",
+      "value": " BBC Scotland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7149464_1058647_fact4",
+      "score": 0.5844309329986572,
+      "source_id": "7149464_1058647",
+      "value": " the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "360263_85745_fact97",
+      "score": 0.5819591879844666,
+      "source_id": "360263_85745",
+      "value": " BBC and Channel 4"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14124832_1666040_fact1",
+      "score": 0.58100825548172,
+      "source_id": "14124832_1666040",
+      "value": " BBC Radio Ulster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3818452_471164_fact3",
+      "score": 0.5807991027832031,
+      "source_id": "3818452_471164",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "557030_1027035_fact25",
+      "score": 0.5803140997886658,
+      "source_id": "557030_1027035",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1162008_568206_fact6",
+      "score": 0.5795060396194458,
+      "source_id": "1162008_568206",
+      "value": " Channel 4, ITV and the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7350573_1184364_fact16",
+      "score": 0.5793386697769165,
+      "source_id": "7350573_1184364",
+      "value": " BBC Radio 3"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "556915_1026645_fact19",
+      "score": 0.5790489315986633,
+      "source_id": "556915_1026645",
+      "value": " BBC Sport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13518830_3481901_fact2",
+      "score": 0.5775027871131897,
+      "source_id": "13518830_3481901",
+      "value": " BBC Radio 5 Live, \"Match of the Day\", BBC, Amazon Prime Video and Sky Sports"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71406632_4140869_fact3",
+      "score": 0.5774186849594116,
+      "source_id": "71406632_4140869",
+      "value": " BBC One"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6902627_886021_fact5",
+      "score": 0.5762864947319031,
+      "source_id": "6902627_886021",
+      "value": " BBC World Service"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6845425_842959_fact5",
+      "score": 0.5761235952377319,
+      "source_id": "6845425_842959",
+      "value": " BBC Radio Scotland and \"Sportscene\"."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18806692_1226776_fact5",
+      "score": 0.5758743286132812,
+      "source_id": "18806692_1226776",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21073063_3342369_fact73",
+      "score": 0.5751837491989136,
+      "source_id": "21073063_3342369",
+      "value": " BBC Scotland and BBC Alba"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14409212_1936945_fact4",
+      "score": 0.5751312375068665,
+      "source_id": "14409212_1936945",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5217467_673323_fact239",
+      "score": 0.574638307094574,
+      "source_id": "5217467_673323",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "600095_1198117_fact3",
+      "score": 0.5732616186141968,
+      "source_id": "600095_1198117",
+      "value": " the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6810867_809809_fact3",
+      "score": 0.5731759667396545,
+      "source_id": "6810867_809809",
+      "value": " BBC Scotland's Sunday night \"Sportscene\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3488845_91266_fact3",
+      "score": 0.5701947212219238,
+      "source_id": "3488845_91266",
+      "value": " the BBC and ITV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "445655_527434_fact352",
+      "score": 0.57008957862854,
+      "source_id": "445655_527434",
+      "value": " BBC snooker coverage team"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22032481_1880611_fact3",
+      "score": 0.5699389576911926,
+      "source_id": "22032481_1880611",
+      "value": " the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25246058_2641061_fact22",
+      "score": 0.568261444568634,
+      "source_id": "25246058_2641061",
+      "value": " BBC Scotland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1353245_1056409_fact63",
+      "score": 0.5675903558731079,
+      "source_id": "1353245_1056409",
+      "value": " BBC Sport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2086591_275952_fact9",
+      "score": 0.5674954652786255,
+      "source_id": "2086591_275952",
+      "value": " the BBC and ITV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44781544_4725186_fact43",
+      "score": 0.5669857859611511,
+      "source_id": "44781544_4725186",
+      "value": " BBC Radio 2"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33831114_2873277_fact5",
+      "score": 0.5665366649627686,
+      "source_id": "33831114_2873277",
+      "value": " BBC Radio 3"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2605309_1172844_fact80",
+      "score": 0.5654577016830444,
+      "source_id": "2605309_1172844",
+      "value": " the BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23140784_2894162_fact32",
+      "score": 0.5647532343864441,
+      "source_id": "23140784_2894162",
+      "value": " BBC Radio Foyle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70783173_3730839_fact2",
+      "score": 0.564387321472168,
+      "source_id": "70783173_3730839",
+      "value": " ITV Tyne Tees, BBC Look North (North East and Cumbria) and BBC Radio Newcastle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37967916_3758891_fact2",
+      "score": 0.5624282956123352,
+      "source_id": "37967916_3758891",
+      "value": " BBC News"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6312059_483800_fact6",
+      "score": 0.5621718168258667,
+      "source_id": "6312059_483800",
+      "value": " BBC Radio Ulster and BBC Newsline"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10953310_2952930_fact43",
+      "score": 0.5617483258247375,
+      "source_id": "10953310_2952930",
+      "value": " BBC Radio Leeds"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7942467_1933955_fact18",
+      "score": 0.5615087747573853,
+      "source_id": "7942467_1933955",
+      "value": " BBC Radio Lancashire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62845110_5431085_fact19",
+      "score": 0.5614520907402039,
+      "source_id": "62845110_5431085",
+      "value": " BBC Radio Science"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1370820_1098244_fact3",
+      "score": 0.5612102150917053,
+      "source_id": "1370820_1098244",
+      "value": " BBC One"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33831114_2873277_fact42",
+      "score": 0.5596190690994263,
+      "source_id": "33831114_2873277",
+      "value": " BBC Two, BBC Four and Sky Arts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10410405_2405449_fact2",
+      "score": 0.5595413446426392,
+      "source_id": "10410405_2405449",
+      "value": " BBC Scotland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4343251_1033242_fact13",
+      "score": 0.5587611198425293,
+      "source_id": "4343251_1033242",
+      "value": " BBC Radio Leeds"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52547008_5391821_fact6",
+      "score": 0.5585563778877258,
+      "source_id": "52547008_5391821",
+      "value": " BBC Radio, BCFM and Made Television"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9856799_1830847_fact2",
+      "score": 0.5583230257034302,
+      "source_id": "9856799_1830847",
+      "value": " BBC Radio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52056_1042302_fact64",
+      "score": 0.5581398010253906,
+      "source_id": "52056_1042302",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4393228_1085400_fact4",
+      "score": 0.5576598048210144,
+      "source_id": "4393228_1085400",
+      "value": " BBC Radio Berkshire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "689826_365415_fact2",
+      "score": 0.5575487613677979,
+      "source_id": "689826_365415",
+      "value": " BBC Natural History Unit (NHU)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6856350_851247_fact87",
+      "score": 0.5570077896118164,
+      "source_id": "6856350_851247",
+      "value": " BBC Radio Five Live"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19437440_1880566_fact0",
+      "score": 0.5567209720611572,
+      "source_id": "19437440_1880566",
+      "value": " BBC Scotland's Gaelic language news and current affairs programme"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6daa4b54-349d-42cd-829f-d5c28a9678c3",
+  "index_nprobe": null,
+  "manifest_id": "0e21d62e039585c0",
+  "margin": 0.1948692798614502,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9096169471740723,
+  "s_surv": 0.7147476673126221,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "48227171_4612602_fact7",
+      "score": 0.7147476673126221,
+      "source_id": "48227171_4612602",
+      "value": " Marlowe Meat Packing Company"
+    },
+    {
+      "entry_id": "5395381_829010_fact4",
+      "score": 0.7042978405952454,
+      "source_id": "5395381_829010",
+      "value": " Bally Sports West/SoCal"
+    },
+    {
+      "entry_id": "3383613_1111519_fact4",
+      "score": 0.6980453729629517,
+      "source_id": "3383613_1111519",
+      "value": " Tennessee Titans"
+    },
+    {
+      "entry_id": "6368636_520147_fact3",
+      "score": 0.6961219310760498,
+      "source_id": "6368636_520147",
+      "value": " the Australian Broadcasting Corporation's Local Radio evening program"
+    },
+    {
+      "entry_id": "31804883_3519933_fact3",
+      "score": 0.6950250267982483,
+      "source_id": "31804883_3519933",
+      "value": " Telegael"
+    }
+  ],
+  "truncated": false
+}

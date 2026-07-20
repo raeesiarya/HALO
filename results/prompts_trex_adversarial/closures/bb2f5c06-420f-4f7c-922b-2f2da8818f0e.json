@@ -1,0 +1,764 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "460178_6067480_fact0",
+      "score": 0.8744559288024902,
+      "source_id": "460178_6067480",
+      "value": " breed of working dogs"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "636017_192855_fact0",
+      "score": 0.8728469014167786,
+      "source_id": "636017_192855",
+      "value": " terrier breed"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "460178_6067480_fact1",
+      "score": 0.743225634098053,
+      "source_id": "460178_6067480",
+      "value": " one of the oldest terrier dog breeds"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "247458_539807_fact1",
+      "score": 0.6191413998603821,
+      "source_id": "247458_539807",
+      "value": " small type of herding dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "340743_6042692_fact0",
+      "score": 0.6137008666992188,
+      "source_id": "340743_6042692",
+      "value": " hairless dog breed"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "445359_526225_fact2",
+      "score": 0.6031049489974976,
+      "source_id": "445359_526225",
+      "value": " herding dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "804296_6130016_fact1",
+      "score": 0.6020364761352539,
+      "source_id": "804296_6130016",
+      "value": " herding dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "212756_306647_fact0",
+      "score": 0.6010892391204834,
+      "source_id": "212756_306647",
+      "value": " hairless breed of dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "206213_260860_fact0",
+      "score": 0.5772998332977295,
+      "source_id": "206213_260860",
+      "value": " breed of hunting dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3806544_458490_fact1",
+      "score": 0.5708987712860107,
+      "source_id": "3806544_458490",
+      "value": " large livestock guardian dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34030954_3042406_fact16",
+      "score": 0.5632073879241943,
+      "source_id": "34030954_3042406",
+      "value": " American dog breed"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "771839_636036_fact1",
+      "score": 0.5630964636802673,
+      "source_id": "771839_636036",
+      "value": " Catalan Pyrenean dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "646596_230572_fact0",
+      "score": 0.5608164668083191,
+      "source_id": "646596_230572",
+      "value": " American dog breed"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1525106_275224_fact1",
+      "score": 0.5593849420547485,
+      "source_id": "1525106_275224",
+      "value": " breed of working dog from the Arctic"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "515410_861393_fact22",
+      "score": 0.5579152703285217,
+      "source_id": "515410_861393",
+      "value": " long, low dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17134203_1999002_fact61",
+      "score": 0.5573018193244934,
+      "source_id": "17134203_1999002",
+      "value": " breed of livestock guarding dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "247458_539807_fact134",
+      "score": 0.5485060214996338,
+      "source_id": "247458_539807",
+      "value": " double-coated dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31944526_1312682_fact0",
+      "score": 0.545960545539856,
+      "source_id": "31944526_1312682",
+      "value": " landrace breed of dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8518_224369_fact3",
+      "score": 0.5381711721420288,
+      "source_id": "8518_224369",
+      "value": " hound-type dog breed"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "515508_861729_fact1",
+      "score": 0.5356733798980713,
+      "source_id": "515508_861729",
+      "value": " cattle herding dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3069338_686163_fact1",
+      "score": 0.5291338562965393,
+      "source_id": "3069338_686163",
+      "value": " naturally bobtailed or tailless, medium-sized cattle dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9370834_1297973_fact0",
+      "score": 0.5290066003799438,
+      "source_id": "9370834_1297973",
+      "value": " small or medium dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73993_5992220_fact1",
+      "score": 0.5273906588554382,
+      "source_id": "73993_5992220",
+      "value": " hybrid dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17274_407198_fact1",
+      "score": 0.527132511138916,
+      "source_id": "17274_407198",
+      "value": " medium-sized dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "128921_720607_fact30",
+      "score": 0.526101291179657,
+      "source_id": "128921_720607",
+      "value": " working dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "128921_720607_fact0",
+      "score": 0.5244347453117371,
+      "source_id": "128921_720607",
+      "value": " American dog breed"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "670740_6098896_fact0",
+      "score": 0.5231061577796936,
+      "source_id": "670740_6098896",
+      "value": " an Arctic breed of working dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "340743_6042692_fact2",
+      "score": 0.5205709338188171,
+      "source_id": "340743_6042692",
+      "value": " the most common hairless dog breed"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "726139_6108295_fact0",
+      "score": 0.5201370120048523,
+      "source_id": "726139_6108295",
+      "value": " medium sized hunting dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6865209_857549_fact1",
+      "score": 0.5197535753250122,
+      "source_id": "6865209_857549",
+      "value": " Afghan livestock guardian dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13041817_2995463_fact0",
+      "score": 0.5197197794914246,
+      "source_id": "13041817_2995463",
+      "value": " mixed-breed dog type"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25088770_2488982_fact83",
+      "score": 0.5188949108123779,
+      "source_id": "25088770_2488982",
+      "value": " large breed of livestock guardian dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1512545_249551_fact0",
+      "score": 0.5185443758964539,
+      "source_id": "1512545_249551",
+      "value": " British dog breed"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "233706_443536_fact0",
+      "score": 0.5179306268692017,
+      "source_id": "233706_443536",
+      "value": " livestock guardian dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "714928_444540_fact2",
+      "score": 0.5173506140708923,
+      "source_id": "714928_444540",
+      "value": " husky-type dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "415870_6058064_fact0",
+      "score": 0.516868531703949,
+      "source_id": "415870_6058064",
+      "value": " breed of dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4431459_1123548_fact1",
+      "score": 0.5160795450210571,
+      "source_id": "4431459_1123548",
+      "value": " livestock guardian dog breed"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2025982_172690_fact0",
+      "score": 0.5135867595672607,
+      "source_id": "2025982_172690",
+      "value": " the oldest breed of pariah dog still existing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19452372_1893895_fact0",
+      "score": 0.512898862361908,
+      "source_id": "19452372_1893895",
+      "value": " extinct dog breed"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17273_407173_fact2",
+      "score": 0.5110933780670166,
+      "source_id": "17273_407173",
+      "value": " livestock guardian dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "349865_1178458_fact0",
+      "score": 0.5099269151687622,
+      "source_id": "349865_1178458",
+      "value": " large breed of working dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "274779_714535_fact0",
+      "score": 0.5099055767059326,
+      "source_id": "274779_714535",
+      "value": " large dog breed"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8856019_3139063_fact0",
+      "score": 0.5094442963600159,
+      "source_id": "8856019_3139063",
+      "value": " the first breed of dog from Chile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19099568_1556663_fact1",
+      "score": 0.5082870721817017,
+      "source_id": "19099568_1556663",
+      "value": " hunting dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8603813_2799482_fact1",
+      "score": 0.5045551061630249,
+      "source_id": "8603813_2799482",
+      "value": " an extinct breed of dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65717196_5043826_fact2",
+      "score": 0.5039793252944946,
+      "source_id": "65717196_5043826",
+      "value": " livestock guardian dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20350_5980616_fact1",
+      "score": 0.5014569759368896,
+      "source_id": "20350_5980616",
+      "value": "terrier dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "273940_709727_fact0",
+      "score": 0.4996248185634613,
+      "source_id": "273940_709727",
+      "value": " breed of sporting dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5323514_767598_fact0",
+      "score": 0.4991450905799866,
+      "source_id": "5323514_767598",
+      "value": " working dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16961_5979670_fact0",
+      "score": 0.4987834692001343,
+      "source_id": "16961_5979670",
+      "value": " domestic dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "771718_635530_fact0",
+      "score": 0.49703001976013184,
+      "source_id": "771718_635530",
+      "value": " toy dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7008912_960396_fact0",
+      "score": 0.495186984539032,
+      "source_id": "7008912_960396",
+      "value": " Scottish dog breed"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "766926_615940_fact2",
+      "score": 0.49512895941734314,
+      "source_id": "766926_615940",
+      "value": " family dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53488469_3614526_fact1",
+      "score": 0.4945719838142395,
+      "source_id": "53488469_3614526",
+      "value": " extinct breed of dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "460437_6067560_fact0",
+      "score": 0.49361783266067505,
+      "source_id": "460437_6067560",
+      "value": " of dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "361299_91417_fact1",
+      "score": 0.49323010444641113,
+      "source_id": "361299_91417",
+      "value": " toy dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "730762_6109318_fact0",
+      "score": 0.4925002455711365,
+      "source_id": "730762_6109318",
+      "value": " gun dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "863270_867018_fact15",
+      "score": 0.4909818172454834,
+      "source_id": "863270_867018",
+      "value": " one of the six most rare dog breeds worldwide"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "519903_880984_fact0",
+      "score": 0.4893496036529541,
+      "source_id": "519903_880984",
+      "value": " gun dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70443366_5811217_fact3",
+      "score": 0.4893242120742798,
+      "source_id": "70443366_5811217",
+      "value": " wolf-dog breed of working dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "857741_845807_fact3",
+      "score": 0.48482292890548706,
+      "source_id": "857741_845807",
+      "value": " working or herding dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43445_5985337_fact9",
+      "score": 0.4845038056373596,
+      "source_id": "43445_5985337",
+      "value": "a type of small hairless dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26604195_1480752_fact1",
+      "score": 0.4836321473121643,
+      "source_id": "26604195_1480752",
+      "value": " medium-sized breed of pointing dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "515115_859981_fact2",
+      "score": 0.4831300973892212,
+      "source_id": "515115_859981",
+      "value": " water dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "177575_1236234_fact1",
+      "score": 0.48083752393722534,
+      "source_id": "177575_1236234",
+      "value": " herding dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "725040_473737_fact0",
+      "score": 0.48057132959365845,
+      "source_id": "725040_473737",
+      "value": " small terrier breed of dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19203498_1653684_fact1",
+      "score": 0.4781544804573059,
+      "source_id": "19203498_1653684",
+      "value": " Spanish breed of large livestock guardian dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "233706_443536_fact55",
+      "score": 0.47791725397109985,
+      "source_id": "233706_443536",
+      "value": " guardian dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "476717_6070937_fact0",
+      "score": 0.47780686616897583,
+      "source_id": "476717_6070937",
+      "value": " medium-small breed of dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "519161_877733_fact6",
+      "score": 0.47670844197273254,
+      "source_id": "519161_877733",
+      "value": " all-purpose gun dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28475_652366_fact0",
+      "score": 0.47626447677612305,
+      "source_id": "28475_652366",
+      "value": " medium-sized working sled dog breed"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41758_5984996_fact0",
+      "score": 0.47626447677612305,
+      "source_id": "41758_5984996",
+      "value": " medium-sized working dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2604371_1170929_fact1",
+      "score": 0.47449612617492676,
+      "source_id": "2604371_1170929",
+      "value": " extinct landrace of domestic dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25314131_2694844_fact1",
+      "score": 0.4720078110694885,
+      "source_id": "25314131_2694844",
+      "value": " extinct pre-Columbian breed of dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5431055_858346_fact0",
+      "score": 0.4694134593009949,
+      "source_id": "5431055_858346",
+      "value": " extinct short-legged, long-bodied dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "469651_6069518_fact1",
+      "score": 0.4681050777435303,
+      "source_id": "469651_6069518",
+      "value": " small or medium dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "361299_91417_fact67",
+      "score": 0.46756231784820557,
+      "source_id": "361299_91417",
+      "value": " tan dog with a blue saddle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15335_366128_fact2",
+      "score": 0.46608713269233704,
+      "source_id": "15335_366128",
+      "value": " among the largest of all breeds of dog"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "341816_6042945_fact0",
+      "score": 0.46461084485054016,
+      "source_id": "341816_6042945",
+      "value": " hairless dog breed"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "bb2f5c06-420f-4f7c-922b-2f2da8818f0e",
+  "index_nprobe": null,
+  "manifest_id": "cfdbdd6f91fbab68",
+  "margin": 0.21450752019882202,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8744559288024902,
+  "s_surv": 0.6599484086036682,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "636017_192855_fact24",
+      "score": 0.6599484086036682,
+      "source_id": "636017_192855",
+      "value": " double-coated"
+    },
+    {
+      "entry_id": "460178_6067480_fact2",
+      "score": 0.6520532369613647,
+      "source_id": "460178_6067480",
+      "value": " the Scottish Highlands"
+    },
+    {
+      "entry_id": "54158870_4150436_fact1",
+      "score": 0.619233250617981,
+      "source_id": "54158870_4150436",
+      "value": " extinct species of canine"
+    },
+    {
+      "entry_id": "515410_861393_fact4",
+      "score": 0.6149939894676208,
+      "source_id": "515410_861393",
+      "value": " the British Isles"
+    },
+    {
+      "entry_id": "206230_261060_fact1",
+      "score": 0.6119533777236938,
+      "source_id": "206230_261060",
+      "value": " scenthound"
+    }
+  ],
+  "truncated": false
+}

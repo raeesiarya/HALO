@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "14756031_2311404_fact1",
+      "score": 0.9002768993377686,
+      "source_id": "14756031_2311404",
+      "value": " American"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7fc08fd0-96f5-4cc9-bcfc-cddbbc30070d",
+  "index_nprobe": null,
+  "manifest_id": "14a56694edcabaf0",
+  "margin": 0.1440449357032776,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9002768993377686,
+  "s_surv": 0.756231963634491,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3323548_1043626_fact1",
+      "score": 0.756231963634491,
+      "source_id": "3323548_1043626",
+      "value": " scholar, curator, and art dealer"
+    },
+    {
+      "entry_id": "2874930_411435_fact1",
+      "score": 0.740296483039856,
+      "source_id": "2874930_411435",
+      "value": " German"
+    },
+    {
+      "entry_id": "53347940_5919980_fact2",
+      "score": 0.7308061718940735,
+      "source_id": "53347940_5919980",
+      "value": " English"
+    },
+    {
+      "entry_id": "53973007_4004960_fact1",
+      "score": 0.7193099856376648,
+      "source_id": "53973007_4004960",
+      "value": " German"
+    },
+    {
+      "entry_id": "55492709_5014395_fact1",
+      "score": 0.692874550819397,
+      "source_id": "55492709_5014395",
+      "value": " German"
+    }
+  ],
+  "truncated": false
+}

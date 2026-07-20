@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "8553437_2730804_fact7",
+      "score": 0.8272939920425415,
+      "source_id": "8553437_2730804",
+      "value": " a Nottingham band \"Steam Roller Gloves\")"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "00b80c73-0bea-4a75-a2ba-846101b7b30a",
+  "index_nprobe": null,
+  "manifest_id": "395ff9bb265a28a0",
+  "margin": 0.16372978687286377,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8272939920425415,
+  "s_surv": 0.6635642051696777,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1500480_228736_fact194",
+      "score": 0.6635642051696777,
+      "source_id": "1500480_228736",
+      "value": " Michael Jackson video for \"Thriller\"."
+    },
+    {
+      "entry_id": "20654783_2900426_fact17",
+      "score": 0.6313132643699646,
+      "source_id": "20654783_2900426",
+      "value": " Rock'Em Sock'Em Robots toy"
+    },
+    {
+      "entry_id": "33184708_2332564_fact87",
+      "score": 0.6309740543365479,
+      "source_id": "33184708_2332564",
+      "value": " Hanson Brothers"
+    },
+    {
+      "entry_id": "35985025_2244961_fact28",
+      "score": 0.6268803477287292,
+      "source_id": "35985025_2244961",
+      "value": " pro wrestler \"The Nature Boy\" Ric Flair"
+    },
+    {
+      "entry_id": "14229474_1768112_fact19",
+      "score": 0.6235496997833252,
+      "source_id": "14229474_1768112",
+      "value": " 18th-century play \"She Stoops to Conquer\"."
+    }
+  ],
+  "truncated": false
+}

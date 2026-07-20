@@ -1,0 +1,187 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "690474_368612_fact136",
+      "score": 0.7127403020858765,
+      "source_id": "690474_368612",
+      "value": "Lubao, Floridablanca, Guagua, City of San Fernando in Pampanga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35637959_1955780_fact2",
+      "score": 0.6639182567596436,
+      "source_id": "35637959_1955780",
+      "value": " Bataan, Batangas, Bulacan, Cavite, Laguna, Pampanga and Rizal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5636171_1033427_fact110",
+      "score": 0.6436632871627808,
+      "source_id": "5636171_1033427",
+      "value": " Cebu, Laguna, Tanauan City in Batangas, Clark in Pampanga, Zamboanga City, Tagum City in Davao and key locations in Bulacan, Pangasinan, Isabela, Nueva Ecija, Iloilo and Samar"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4956398_443988_fact18",
+      "score": 0.642399787902832,
+      "source_id": "4956398_443988",
+      "value": " Cavite, Batangas, and Laguna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45048103_4928387_fact14",
+      "score": 0.6417418718338013,
+      "source_id": "45048103_4928387",
+      "value": " Cavite, Batangas and Laguna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40666464_3625117_fact38",
+      "score": 0.6245861053466797,
+      "source_id": "40666464_3625117",
+      "value": " Bulacan, Cavite, Laguna, and Rizal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1270916_876948_fact206",
+      "score": 0.6220703125,
+      "source_id": "1270916_876948",
+      "value": " Laguna, Batangas, and Quezon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2353403_758954_fact166",
+      "score": 0.620780348777771,
+      "source_id": "2353403_758954",
+      "value": " Laguna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56754818_5920633_fact132",
+      "score": 0.6196385622024536,
+      "source_id": "56754818_5920633",
+      "value": " northwestern Laguna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23830632_1260847_fact41",
+      "score": 0.619337797164917,
+      "source_id": "23830632_1260847",
+      "value": "Batangas province and Laguna Province"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63588596_5958173_fact55",
+      "score": 0.6130645871162415,
+      "source_id": "63588596_5958173",
+      "value": " Bulacan, Cavite, Laguna and Rizal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11823653_1512685_fact70",
+      "score": 0.6108529567718506,
+      "source_id": "11823653_1512685",
+      "value": " Bataan, Batangas, Bulacan, Cavite, Laguna, and Pampanga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62833496_5423180_fact33",
+      "score": 0.5959407091140747,
+      "source_id": "62833496_5423180",
+      "value": " Laguna and Quezon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24838812_2256797_fact2",
+      "score": 0.5885380506515503,
+      "source_id": "24838812_2256797",
+      "value": " Laguna, Batangas, Quezon and Marinduque"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32689801_1922003_fact3",
+      "score": 0.5783021450042725,
+      "source_id": "32689801_1922003",
+      "value": " Laguna province"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2cb8cfdb-7f03-48ad-b8d6-f46201a23a9c",
+  "index_nprobe": null,
+  "manifest_id": "eceda8c6fb86d2c9",
+  "margin": 0.005820095539093018,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7127403020858765,
+  "s_surv": 0.7069202065467834,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "62750980_5370347_fact5",
+      "score": 0.7069202065467834,
+      "source_id": "62750980_5370347",
+      "value": " Visayas and Mindanao"
+    },
+    {
+      "entry_id": "22945368_2728268_fact11",
+      "score": 0.7047634124755859,
+      "source_id": "22945368_2728268",
+      "value": " Cebu, Siquijor"
+    },
+    {
+      "entry_id": "58521876_4884161_fact10",
+      "score": 0.7038198113441467,
+      "source_id": "58521876_4884161",
+      "value": " Cavite and Batangas"
+    },
+    {
+      "entry_id": "316253_976054_fact17",
+      "score": 0.6908262968063354,
+      "source_id": "316253_976054",
+      "value": " an eight-county region"
+    },
+    {
+      "entry_id": "61856830_4760862_fact27",
+      "score": 0.6898937225341797,
+      "source_id": "61856830_4760862",
+      "value": " Negros Oriental, Negros Occidental, Siquijor, Zamboanga del Norte, and Zamboanga del Sur"
+    }
+  ],
+  "truncated": false
+}

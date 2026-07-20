@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "5904241_166762_fact1",
+      "score": 0.7297318577766418,
+      "source_id": "5904241_166762",
+      "value": " rock band"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c265ade7-57e9-44dd-a25a-690a4acf2e2e",
+  "index_nprobe": null,
+  "manifest_id": "220786c2732ab9e3",
+  "margin": 0.024814963340759277,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7297318577766418,
+  "s_surv": 0.7049168944358826,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5904241_166762_fact0",
+      "score": 0.7049168944358826,
+      "source_id": "5904241_166762",
+      "value": " Australian"
+    },
+    {
+      "entry_id": "26753050_1603616_fact1",
+      "score": 0.5834795236587524,
+      "source_id": "26753050_1603616",
+      "value": " Australian"
+    },
+    {
+      "entry_id": "35412116_1791732_fact7",
+      "score": 0.5809716582298279,
+      "source_id": "35412116_1791732",
+      "value": " longtime risk averse gambler"
+    },
+    {
+      "entry_id": "30081423_1909039_fact3",
+      "score": 0.5752109885215759,
+      "source_id": "30081423_1909039",
+      "value": " flugelhorn player"
+    },
+    {
+      "entry_id": "26755756_1606256_fact1",
+      "score": 0.5728937983512878,
+      "source_id": "26755756_1606256",
+      "value": " Matt Finish"
+    }
+  ],
+  "truncated": false
+}

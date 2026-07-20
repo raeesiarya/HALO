@@ -1,0 +1,126 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1765702_796499_fact2",
+      "score": 0.941280722618103,
+      "source_id": "1765702_796499",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "219799_355737_fact1",
+      "score": 0.662265419960022,
+      "source_id": "219799_355737",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14771373_2330349_fact1",
+      "score": 0.6602957248687744,
+      "source_id": "14771373_2330349",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49997024_5878230_fact4",
+      "score": 0.6255754828453064,
+      "source_id": "49997024_5878230",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9671420_1651280_fact1",
+      "score": 0.6219137907028198,
+      "source_id": "9671420_1651280",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50493811_3825061_fact5",
+      "score": 0.6005185842514038,
+      "source_id": "50493811_3825061",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30845800_2500957_fact1",
+      "score": 0.5967994332313538,
+      "source_id": "30845800_2500957",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11308457_3354951_fact1",
+      "score": 0.5896351933479309,
+      "source_id": "11308457_3354951",
+      "value": " Helsinki"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f8cdfddf-9cf6-47a0-9325-02b2b957f3a4",
+  "index_nprobe": null,
+  "manifest_id": "4009727a30f2034b",
+  "margin": 0.22132891416549683,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.941280722618103,
+  "s_surv": 0.7199518084526062,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "23789554_3557691_fact4",
+      "score": 0.7199518084526062,
+      "source_id": "23789554_3557691",
+      "value": " Bergen"
+    },
+    {
+      "entry_id": "23631352_3391491_fact4",
+      "score": 0.7184632420539856,
+      "source_id": "23631352_3391491",
+      "value": " Kristiania"
+    },
+    {
+      "entry_id": "756363_574983_fact11",
+      "score": 0.717619776725769,
+      "source_id": "756363_574983",
+      "value": " Nanortalik"
+    },
+    {
+      "entry_id": "37176514_3215598_fact31",
+      "score": 0.7173646688461304,
+      "source_id": "37176514_3215598",
+      "value": " Skien"
+    },
+    {
+      "entry_id": "46295934_5549946_fact1",
+      "score": 0.7151477336883545,
+      "source_id": "46295934_5549946",
+      "value": " Aalborg"
+    }
+  ],
+  "truncated": false
+}

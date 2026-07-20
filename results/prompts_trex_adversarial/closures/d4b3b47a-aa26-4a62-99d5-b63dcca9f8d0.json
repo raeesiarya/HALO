@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1208633_698668_fact96",
+      "score": 0.7360304594039917,
+      "source_id": "1208633_698668",
+      "value": " World Organization for Animal Health"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26561818_1440701_fact66",
+      "score": 0.6944724321365356,
+      "source_id": "26561818_1440701",
+      "value": "Dalit Solidarit\u00e4t Deutschland (\"Dalit Solidarity Germany\"),"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72088911_4562502_fact113",
+      "score": 0.6167585849761963,
+      "source_id": "72088911_4562502",
+      "value": " Union of Ghanaian Associations in Germany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72640153_4908491_fact124",
+      "score": 0.5908822417259216,
+      "source_id": "72640153_4908491",
+      "value": " Palestinian Community in Germany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23520421_3254768_fact269",
+      "score": 0.577973484992981,
+      "source_id": "23520421_3254768",
+      "value": " Central Council of Muslims in Germany"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d4b3b47a-aa26-4a62-99d5-b63dcca9f8d0",
+  "index_nprobe": null,
+  "manifest_id": "0daf17c8eea37aab",
+  "margin": 0.004754185676574707,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7360304594039917,
+  "s_surv": 0.731276273727417,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "11319777_3368163_fact242",
+      "score": 0.731276273727417,
+      "source_id": "11319777_3368163",
+      "value": " Mvula trust"
+    },
+    {
+      "entry_id": "489792_745837_fact166",
+      "score": 0.7275625467300415,
+      "source_id": "489792_745837",
+      "value": " Le Fleur clan"
+    },
+    {
+      "entry_id": "1208633_698668_fact93",
+      "score": 0.6889306306838989,
+      "source_id": "1208633_698668",
+      "value": " Convention on International Trade in Endangered Species of Wild Fauna"
+    },
+    {
+      "entry_id": "1208633_698668_fact95",
+      "score": 0.6863721013069153,
+      "source_id": "1208633_698668",
+      "value": " European Landowners' Organisation"
+    },
+    {
+      "entry_id": "33936116_2962129_fact129",
+      "score": 0.6830486059188843,
+      "source_id": "33936116_2962129",
+      "value": " Friends of Morocco"
+    }
+  ],
+  "truncated": false
+}

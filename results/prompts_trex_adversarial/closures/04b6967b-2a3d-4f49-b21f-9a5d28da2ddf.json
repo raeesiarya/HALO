@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "43769385_3876319_fact7",
+      "score": 0.9155030250549316,
+      "source_id": "43769385_3876319",
+      "value": " pianist, composer and conductor"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "43293172_5858662_fact4",
+      "score": 0.8906307816505432,
+      "source_id": "43293172_5858662",
+      "value": " composer, pianist, orchestral conductor and pedagogue"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44689296_4664982_fact2",
+      "score": 0.6144198775291443,
+      "source_id": "44689296_4664982",
+      "value": " honorary professor of the Moscow State Technological Academy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31111799_2830494_fact11",
+      "score": 0.5556243062019348,
+      "source_id": "31111799_2830494",
+      "value": " rector of Moscow State Institute of International Relations"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "04b6967b-2a3d-4f49-b21f-9a5d28da2ddf",
+  "index_nprobe": null,
+  "manifest_id": "e86f76ffa6120b44",
+  "margin": 0.2428520917892456,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9155030250549316,
+  "s_surv": 0.672650933265686,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "22878562_2680745_fact2",
+      "score": 0.672650933265686,
+      "source_id": "22878562_2680745",
+      "value": " Russian"
+    },
+    {
+      "entry_id": "10966449_2967787_fact1",
+      "score": 0.6725832223892212,
+      "source_id": "10966449_2967787",
+      "value": " Israeli"
+    },
+    {
+      "entry_id": "39213671_4850571_fact2",
+      "score": 0.6712790727615356,
+      "source_id": "39213671_4850571",
+      "value": " Russian"
+    },
+    {
+      "entry_id": "24714003_2140765_fact1",
+      "score": 0.6626496315002441,
+      "source_id": "24714003_2140765",
+      "value": " Russian"
+    },
+    {
+      "entry_id": "15268714_2776641_fact2",
+      "score": 0.6599647998809814,
+      "source_id": "15268714_2776641",
+      "value": " Soviet"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,142 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "19329207_1777717_fact4",
+      "score": 0.730311393737793,
+      "source_id": "19329207_1777717",
+      "value": " students of philosophy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40755364_3701989_fact15",
+      "score": 0.6037410497665405,
+      "source_id": "40755364_3701989",
+      "value": " marched on Rome and besieged the city"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37045_803725_fact215",
+      "score": 0.5918929576873779,
+      "source_id": "37045_803725",
+      "value": " Prefects of Rome or Praetorian Prefects"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56046875_5433831_fact20",
+      "score": 0.5892512798309326,
+      "source_id": "56046875_5433831",
+      "value": " setting fire to farmlands around Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "454882_575275_fact17",
+      "score": 0.5888697504997253,
+      "source_id": "454882_575275",
+      "value": " loyal to Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52495658_5361583_fact36",
+      "score": 0.5831553936004639,
+      "source_id": "52495658_5361583",
+      "value": " left Rome and went into exile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1226765_752440_fact37",
+      "score": 0.5802578330039978,
+      "source_id": "1226765_752440",
+      "value": " allies of Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43500558_3622476_fact33",
+      "score": 0.5792527198791504,
+      "source_id": "43500558_3622476",
+      "value": " declare war on Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "235450_456298_fact105",
+      "score": 0.5791158676147461,
+      "source_id": "235450_456298",
+      "value": " save Rome from defeat by her son"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39680429_5289556_fact33",
+      "score": 0.5756227970123291,
+      "source_id": "39680429_5289556",
+      "value": " his lands in Rome were seized"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4c35613e-b242-40be-b990-ed7b5341537e",
+  "index_nprobe": null,
+  "manifest_id": "5539f0c4e7334017",
+  "margin": 0.007034599781036377,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7303113341331482,
+  "s_surv": 0.7232767343521118,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "64479881_4282654_fact3",
+      "score": 0.7232767343521118,
+      "source_id": "64479881_4282654",
+      "value": " never attained much importance"
+    },
+    {
+      "entry_id": "1420778_1208616_fact46",
+      "score": 0.7221572399139404,
+      "source_id": "1420778_1208616",
+      "value": " condemned and executed"
+    },
+    {
+      "entry_id": "30765861_2431749_fact19",
+      "score": 0.7143604159355164,
+      "source_id": "30765861_2431749",
+      "value": " senators"
+    },
+    {
+      "entry_id": "66244980_5433565_fact30",
+      "score": 0.7135025858879089,
+      "source_id": "66244980_5433565",
+      "value": " took their own lives"
+    },
+    {
+      "entry_id": "47016_964881_fact146",
+      "score": 0.7129094004631042,
+      "source_id": "47016_964881",
+      "value": " bitter rivals"
+    }
+  ],
+  "truncated": false
+}

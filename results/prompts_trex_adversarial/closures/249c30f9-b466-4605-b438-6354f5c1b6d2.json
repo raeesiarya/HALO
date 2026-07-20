@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "72402674_4763744_fact3",
+      "score": 0.7550455331802368,
+      "source_id": "72402674_4763744",
+      "value": " Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18882397_1291800_fact4",
+      "score": 0.6401380300521851,
+      "source_id": "18882397_1291800",
+      "value": " Azerbaijan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18935839_1355442_fact4",
+      "score": 0.6366409063339233,
+      "source_id": "18935839_1355442",
+      "value": " Azerbaijan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18879074_1287936_fact6",
+      "score": 0.6279348134994507,
+      "source_id": "18879074_1287936",
+      "value": " Azerbaijan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5289696_736466_fact4",
+      "score": 0.6098166108131409,
+      "source_id": "5289696_736466",
+      "value": " Azerbaijan"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "249c30f9-b466-4605-b438-6354f5c1b6d2",
+  "index_nprobe": null,
+  "manifest_id": "7cf43d3f58316326",
+  "margin": 0.012124896049499512,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7550454139709473,
+  "s_surv": 0.7429205179214478,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1663170_577241_fact3",
+      "score": 0.7429205179214478,
+      "source_id": "1663170_577241",
+      "value": " Syria"
+    },
+    {
+      "entry_id": "7806694_1755521_fact1",
+      "score": 0.7335771322250366,
+      "source_id": "7806694_1755521",
+      "value": " Kazakhstan"
+    },
+    {
+      "entry_id": "29274649_1358032_fact1",
+      "score": 0.7248687744140625,
+      "source_id": "29274649_1358032",
+      "value": " Yemen"
+    },
+    {
+      "entry_id": "9512574_1463179_fact3",
+      "score": 0.7169168591499329,
+      "source_id": "9512574_1463179",
+      "value": " Bangladesh"
+    },
+    {
+      "entry_id": "29235345_1334636_fact1",
+      "score": 0.7168071269989014,
+      "source_id": "29235345_1334636",
+      "value": " Yemen"
+    }
+  ],
+  "truncated": false
+}

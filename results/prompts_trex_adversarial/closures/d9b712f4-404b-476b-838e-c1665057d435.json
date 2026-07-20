@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2849153_373735_fact1",
+      "score": 0.9468423128128052,
+      "source_id": "2849153_373735",
+      "value": " Sacramento, California, USA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70048424_5568617_fact8",
+      "score": 0.5754998922348022,
+      "source_id": "70048424_5568617",
+      "value": " Sacramento, California"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d9b712f4-404b-476b-838e-c1665057d435",
+  "index_nprobe": null,
+  "manifest_id": "d747a600f60c9f7a",
+  "margin": 0.1851743459701538,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9468423128128052,
+  "s_surv": 0.7616679668426514,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "20784636_3017491_fact11",
+      "score": 0.7616679668426514,
+      "source_id": "20784636_3017491",
+      "value": " Santa Cruz, California"
+    },
+    {
+      "entry_id": "1375023_1107844_fact307",
+      "score": 0.755197286605835,
+      "source_id": "1375023_1107844",
+      "value": " Buffalo, New York"
+    },
+    {
+      "entry_id": "35671530_1982110_fact6",
+      "score": 0.7540169954299927,
+      "source_id": "35671530_1982110",
+      "value": " Primavalle, Rome"
+    },
+    {
+      "entry_id": "1375023_1107844_fact10",
+      "score": 0.7295699715614319,
+      "source_id": "1375023_1107844",
+      "value": " Buffalo, New York"
+    },
+    {
+      "entry_id": "38626066_4328938_fact1",
+      "score": 0.7238537073135376,
+      "source_id": "38626066_4328938",
+      "value": " Livorno"
+    }
+  ],
+  "truncated": false
+}

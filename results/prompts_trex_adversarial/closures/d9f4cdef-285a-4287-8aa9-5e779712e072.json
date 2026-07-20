@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "36691720_2819937_fact6",
+      "score": 0.905282735824585,
+      "source_id": "36691720_2819937",
+      "value": " artist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46945110_3599753_fact10",
+      "score": 0.5984053015708923,
+      "source_id": "46945110_3599753",
+      "value": " Spanish"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d9f4cdef-285a-4287-8aa9-5e779712e072",
+  "index_nprobe": null,
+  "manifest_id": "b438d78cb2b83d67",
+  "margin": 0.14026284217834473,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9052826166152954,
+  "s_surv": 0.7650197744369507,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "36691720_2819937_fact5",
+      "score": 0.7650197744369507,
+      "source_id": "36691720_2819937",
+      "value": " Catalan"
+    },
+    {
+      "entry_id": "36238920_2458037_fact4",
+      "score": 0.6915364861488342,
+      "source_id": "36238920_2458037",
+      "value": " artist"
+    },
+    {
+      "entry_id": "29486741_1517265_fact2",
+      "score": 0.6897144317626953,
+      "source_id": "29486741_1517265",
+      "value": " footballer"
+    },
+    {
+      "entry_id": "20922724_3175173_fact3",
+      "score": 0.6852437257766724,
+      "source_id": "20922724_3175173",
+      "value": " vocalist, bandleader, producer and composer"
+    },
+    {
+      "entry_id": "19212892_1660625_fact1",
+      "score": 0.6804636716842651,
+      "source_id": "19212892_1660625",
+      "value": " philosopher"
+    }
+  ],
+  "truncated": false
+}

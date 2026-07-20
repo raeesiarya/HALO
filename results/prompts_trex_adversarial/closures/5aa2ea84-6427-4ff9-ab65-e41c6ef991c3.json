@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "48559_986333_fact16",
+      "score": 0.7398355603218079,
+      "source_id": "48559_986333",
+      "value": " the United Kingdom"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2591932_1150104_fact12",
+      "score": 0.7114683389663696,
+      "source_id": "2591932_1150104",
+      "value": " Hinduism"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58432750_4816118_fact7",
+      "score": 0.5983591079711914,
+      "source_id": "58432750_4816118",
+      "value": " classical Hinduism"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5aa2ea84-6427-4ff9-ab65-e41c6ef991c3",
+  "index_nprobe": null,
+  "manifest_id": "7162acfbc11faba6",
+  "margin": 0.01736748218536377,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7398355007171631,
+  "s_surv": 0.7224680185317993,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "84089_259653_fact50",
+      "score": 0.7224680185317993,
+      "source_id": "84089_259653",
+      "value": " Shingon Buddhism"
+    },
+    {
+      "entry_id": "38158453_3925678_fact108",
+      "score": 0.7195637822151184,
+      "source_id": "38158453_3925678",
+      "value": " North India"
+    },
+    {
+      "entry_id": "3279063_985267_fact4",
+      "score": 0.718776285648346,
+      "source_id": "3279063_985267",
+      "value": " daily Sikh liturgy or Amrit Sanchar"
+    },
+    {
+      "entry_id": "55618569_5106060_fact4",
+      "score": 0.7180421948432922,
+      "source_id": "55618569_5106060",
+      "value": " Digambara tradition"
+    },
+    {
+      "entry_id": "41975724_4796705_fact15",
+      "score": 0.7179917097091675,
+      "source_id": "41975724_4796705",
+      "value": " P\u0101li Canon"
+    }
+  ],
+  "truncated": false
+}

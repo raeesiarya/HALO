@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "13445666_3412790_fact62",
+      "score": 0.8827975392341614,
+      "source_id": "13445666_3412790",
+      "value": " natural bridge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "209309_283526_fact0",
+      "score": 0.7143212556838989,
+      "source_id": "209309_283526",
+      "value": " central London railway terminus and connected London Underground station"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1678093_607808_fact5",
+      "score": 0.6603103876113892,
+      "source_id": "1678093_607808",
+      "value": " boundary of Greater London"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6b787eb0-978c-4e5d-bd9e-48e129b7867d",
+  "index_nprobe": null,
+  "manifest_id": "21c7f0f8cee04df7",
+  "margin": 0.044220924377441406,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8827972412109375,
+  "s_surv": 0.8385763168334961,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "57024226_3776195_fact0",
+      "score": 0.8385763168334961,
+      "source_id": "57024226_3776195",
+      "value": " natural arch"
+    },
+    {
+      "entry_id": "11746496_1421169_fact0",
+      "score": 0.8102045059204102,
+      "source_id": "11746496_1421169",
+      "value": " limestone karst"
+    },
+    {
+      "entry_id": "4326726_1017002_fact27",
+      "score": 0.789002001285553,
+      "source_id": "4326726_1017002",
+      "value": " nineteen arch"
+    },
+    {
+      "entry_id": "2023355_167271_fact11",
+      "score": 0.7772580981254578,
+      "source_id": "2023355_167271",
+      "value": " reinforced concrete structure"
+    },
+    {
+      "entry_id": "4886029_384144_fact18",
+      "score": 0.7737020254135132,
+      "source_id": "4886029_384144",
+      "value": " natural limestone bridge"
+    }
+  ],
+  "truncated": false
+}

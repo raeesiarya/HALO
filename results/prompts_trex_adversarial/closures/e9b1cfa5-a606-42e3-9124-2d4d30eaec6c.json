@@ -1,0 +1,189 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "8632927_2842130_fact1",
+      "score": 0.9356107115745544,
+      "source_id": "8632927_2842130",
+      "value": " Hamburg, Germany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "595083_6086728_fact3",
+      "score": 0.7188757658004761,
+      "source_id": "595083_6086728",
+      "value": " Hamburg, Germany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28737274_3244907_fact4",
+      "score": 0.718559741973877,
+      "source_id": "28737274_3244907",
+      "value": " Blankenese, Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43398346_5944612_fact1",
+      "score": 0.6851255297660828,
+      "source_id": "43398346_5944612",
+      "value": " Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53972698_4004782_fact6",
+      "score": 0.6744260787963867,
+      "source_id": "53972698_4004782",
+      "value": " Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42800591_5491794_fact6",
+      "score": 0.6701961159706116,
+      "source_id": "42800591_5491794",
+      "value": " Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50988323_4237849_fact1",
+      "score": 0.6441855430603027,
+      "source_id": "50988323_4237849",
+      "value": " Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1070949_325597_fact5",
+      "score": 0.6432732343673706,
+      "source_id": "1070949_325597",
+      "value": " Hamburg (Germany)."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25991395_3332462_fact1",
+      "score": 0.6414507627487183,
+      "source_id": "25991395_3332462",
+      "value": " Hamburg Germany"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46801178_5949922_fact4",
+      "score": 0.6387432217597961,
+      "source_id": "46801178_5949922",
+      "value": " the Free Hanseatic City of Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31620067_3331815_fact2",
+      "score": 0.6310335397720337,
+      "source_id": "31620067_3331815",
+      "value": " Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69602351_5309052_fact1",
+      "score": 0.6289448738098145,
+      "source_id": "69602351_5309052",
+      "value": " Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58133792_4652561_fact4",
+      "score": 0.624069094657898,
+      "source_id": "58133792_4652561",
+      "value": " Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63398042_5824732_fact7",
+      "score": 0.6040242910385132,
+      "source_id": "63398042_5824732",
+      "value": " Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22586215_2401927_fact48",
+      "score": 0.6039188504219055,
+      "source_id": "22586215_2401927",
+      "value": " Hamburg"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e9b1cfa5-a606-42e3-9124-2d4d30eaec6c",
+  "index_nprobe": null,
+  "manifest_id": "3c01572a68ad2940",
+  "margin": 0.15436583757400513,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9356107115745544,
+  "s_surv": 0.7812448740005493,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "47515969_4106803_fact6",
+      "score": 0.7812448740005493,
+      "source_id": "47515969_4106803",
+      "value": " the Hunsr\u00fcck region"
+    },
+    {
+      "entry_id": "27519073_2236604_fact10",
+      "score": 0.7616227865219116,
+      "source_id": "27519073_2236604",
+      "value": " Berlin"
+    },
+    {
+      "entry_id": "35637403_1954969_fact7",
+      "score": 0.749776303768158,
+      "source_id": "35637403_1954969",
+      "value": " Posen, Province of Posen, Kingdom of Prussia (Pozna\u0144, Poland)"
+    },
+    {
+      "entry_id": "7304107_1156362_fact11",
+      "score": 0.7487667798995972,
+      "source_id": "7304107_1156362",
+      "value": " Mohrungen"
+    },
+    {
+      "entry_id": "14990223_2530996_fact1",
+      "score": 0.7434516549110413,
+      "source_id": "14990223_2530996",
+      "value": " Augsburg, Germany"
+    }
+  ],
+  "truncated": false
+}

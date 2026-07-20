@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "49038546_5278137_fact27",
+      "score": 0.7836490869522095,
+      "source_id": "49038546_5278137",
+      "value": " San Diego"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "256bf53c-e2e5-45cd-b0bf-c06e23a84443",
+  "index_nprobe": null,
+  "manifest_id": "1d1fd435b8c0c1ca",
+  "margin": 0.013142943382263184,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7836489677429199,
+  "s_surv": 0.7705060243606567,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "34568162_3500115_fact21",
+      "score": 0.7705060243606567,
+      "source_id": "34568162_3500115",
+      "value": " Jizan Province of Saudi Arabia"
+    },
+    {
+      "entry_id": "46318736_5571630_fact33",
+      "score": 0.7641441226005554,
+      "source_id": "46318736_5571630",
+      "value": " New York"
+    },
+    {
+      "entry_id": "2506812_1015844_fact113",
+      "score": 0.753051221370697,
+      "source_id": "2506812_1015844",
+      "value": " the Northern Hospital"
+    },
+    {
+      "entry_id": "41093809_4012896_fact150",
+      "score": 0.7510811686515808,
+      "source_id": "41093809_4012896",
+      "value": " Balestrand"
+    },
+    {
+      "entry_id": "1457484_139298_fact56",
+      "score": 0.7470360398292542,
+      "source_id": "1457484_139298",
+      "value": " Bilbao, Spain"
+    }
+  ],
+  "truncated": false
+}

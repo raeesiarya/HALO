@@ -1,0 +1,125 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "8707_228881_fact39",
+      "score": 0.8128154873847961,
+      "source_id": "8707_228881",
+      "value": " Audi brand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "848_77439_fact177",
+      "score": 0.7550764083862305,
+      "source_id": "848_77439",
+      "value": "Audi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2208853_491060_fact14",
+      "score": 0.6698991060256958,
+      "source_id": "2208853_491060",
+      "value": " Audi A6"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9088185_3451625_fact11",
+      "score": 0.6566554307937622,
+      "source_id": "9088185_3451625",
+      "value": " Audi 72"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "444612_522921_fact261",
+      "score": 0.6462564468383789,
+      "source_id": "444612_522921",
+      "value": "Audi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "848_77439_fact179",
+      "score": 0.6361582279205322,
+      "source_id": "848_77439",
+      "value": " Audi 60, 75, 80, and Super 90"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8707_228881_fact201",
+      "score": 0.6266494989395142,
+      "source_id": "8707_228881",
+      "value": " Audi F103"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "620038_130963_fact227",
+      "score": 0.6201456785202026,
+      "source_id": "620038_130963",
+      "value": " Audi 80 or Audi 90"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "de80efab-9f8b-483e-a85e-93a70123458e",
+  "index_nprobe": null,
+  "manifest_id": "0fac3d5f13b780bc",
+  "margin": 0.027041971683502197,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8128154873847961,
+  "s_surv": 0.785773515701294,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "16861445_1756138_fact60",
+      "score": 0.785773515701294,
+      "source_id": "16861445_1756138",
+      "value": " Sunbeam MkIII"
+    },
+    {
+      "entry_id": "68931039_4860812_fact87",
+      "score": 0.7419916391372681,
+      "source_id": "68931039_4860812",
+      "value": " Ford Zetec-R"
+    },
+    {
+      "entry_id": "1415639_1195672_fact265",
+      "score": 0.734229564666748,
+      "source_id": "1415639_1195672",
+      "value": " Premier Padmini"
+    },
+    {
+      "entry_id": "4765718_288508_fact76",
+      "score": 0.7319573760032654,
+      "source_id": "4765718_288508",
+      "value": " FinePix F45fd"
+    },
+    {
+      "entry_id": "477085_684848_fact157",
+      "score": 0.7296791076660156,
+      "source_id": "477085_684848",
+      "value": "Fiesta Classic\"."
+    }
+  ],
+  "truncated": false
+}

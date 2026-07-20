@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "59890_1164470_fact19",
+      "score": 0.7242304086685181,
+      "source_id": "59890_1164470",
+      "value": " create a body of Catalan civil servants for the regional government"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53459815_3592374_fact186",
+      "score": 0.531528890132904,
+      "source_id": "53459815_3592374",
+      "value": " supervise a network of Catalan schools for the working class"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "015ae7aa-a1f3-471d-aae0-836275735683",
+  "index_nprobe": null,
+  "manifest_id": "aa5335546ec38dfb",
+  "margin": 0.08470821380615234,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7242304086685181,
+  "s_surv": 0.6395221948623657,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "72034777_4531018_fact19",
+      "score": 0.6395221948623657,
+      "source_id": "72034777_4531018",
+      "value": " dedicated to the defense of the Kingdom"
+    },
+    {
+      "entry_id": "31588708_3294817_fact39",
+      "score": 0.6367769837379456,
+      "source_id": "31588708_3294817",
+      "value": " education of agricultural sciences"
+    },
+    {
+      "entry_id": "35859610_2134009_fact179",
+      "score": 0.6352667808532715,
+      "source_id": "35859610_2134009",
+      "value": " Macau"
+    },
+    {
+      "entry_id": "27241177_2001367_fact11",
+      "score": 0.6211059093475342,
+      "source_id": "27241177_2001367",
+      "value": " native peoples in the Andalgal\u00e1 valley"
+    },
+    {
+      "entry_id": "70575575_5906831_fact188",
+      "score": 0.6135457754135132,
+      "source_id": "70575575_5906831",
+      "value": " expected spice trade"
+    }
+  ],
+  "truncated": false
+}

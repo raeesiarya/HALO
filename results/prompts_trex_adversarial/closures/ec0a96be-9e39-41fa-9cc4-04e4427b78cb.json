@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "353842_1204980_fact0",
+      "score": 0.9584488868713379,
+      "source_id": "353842_1204980",
+      "value": " Leicester Campbell Street and Leicester London Road"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "353842_1204980_fact37",
+      "score": 0.6487641334533691,
+      "source_id": "353842_1204980",
+      "value": "Leicester London Road"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "353842_1204980_fact14",
+      "score": 0.5871553421020508,
+      "source_id": "353842_1204980",
+      "value": "Leicester"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25077057_2476359_fact0",
+      "score": 0.5832220315933228,
+      "source_id": "25077057_2476359",
+      "value": " Leicester Fosse"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7380000_1204903_fact23",
+      "score": 0.5698685050010681,
+      "source_id": "7380000_1204903",
+      "value": " Leicester Fosse"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ec0a96be-9e39-41fa-9cc4-04e4427b78cb",
+  "index_nprobe": null,
+  "manifest_id": "e47834412a5ffd60",
+  "margin": 0.20137381553649902,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9584488868713379,
+  "s_surv": 0.7570750713348389,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "259864_621963_fact9",
+      "score": 0.7570750713348389,
+      "source_id": "259864_621963",
+      "value": " \"Leister\" and \"Moscow\"."
+    },
+    {
+      "entry_id": "1730267_727386_fact0",
+      "score": 0.7506037950515747,
+      "source_id": "1730267_727386",
+      "value": " Gloucester Central station"
+    },
+    {
+      "entry_id": "2559457_1093928_fact2",
+      "score": 0.7396712303161621,
+      "source_id": "2559457_1093928",
+      "value": "Golden Hill\","
+    },
+    {
+      "entry_id": "1676394_604419_fact0",
+      "score": 0.7337949275970459,
+      "source_id": "1676394_604419",
+      "value": " Cholsey &amp; Moulsford"
+    },
+    {
+      "entry_id": "31850068_1238027_fact47",
+      "score": 0.7327824234962463,
+      "source_id": "31850068_1238027",
+      "value": " Adderlys"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "6084603_311813_fact7",
+      "score": 0.6711066961288452,
+      "source_id": "6084603_311813",
+      "value": " 1818 opera of"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1058313_292430_fact234",
+      "score": 0.5418210029602051,
+      "source_id": "1058313_292430",
+      "value": "Opera Omnia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "62cad599-d281-4e6c-a433-4ab978454928",
+  "index_nprobe": null,
+  "manifest_id": "1e62120a93d2c6ca",
+  "margin": 0.01901644468307495,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6711066961288452,
+  "s_surv": 0.6520902514457703,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "37712394_3617104_fact38",
+      "score": 0.6520902514457703,
+      "source_id": "37712394_3617104",
+      "value": "I virtuosi"
+    },
+    {
+      "entry_id": "174471_1201321_fact258",
+      "score": 0.648941159248352,
+      "source_id": "174471_1201321",
+      "value": " \"Ginevra di Scozia\""
+    },
+    {
+      "entry_id": "15400699_2898002_fact179",
+      "score": 0.6477130651473999,
+      "source_id": "15400699_2898002",
+      "value": " \"Ginevra di Scozia"
+    },
+    {
+      "entry_id": "74673_179862_fact98",
+      "score": 0.6401039958000183,
+      "source_id": "74673_179862",
+      "value": " \"Telemaco nell'isola di Calipso\""
+    },
+    {
+      "entry_id": "14837255_2388903_fact29",
+      "score": 0.6138589382171631,
+      "source_id": "14837255_2388903",
+      "value": "Geschichte der deutschen Nationalliteratur\""
+    }
+  ],
+  "truncated": false
+}

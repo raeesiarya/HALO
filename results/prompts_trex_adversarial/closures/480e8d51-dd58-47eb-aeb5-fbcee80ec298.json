@@ -1,0 +1,602 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "800054_701153_fact1",
+      "score": 0.9280839562416077,
+      "source_id": "800054_701153",
+      "value": " monk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1688107_632358_fact1",
+      "score": 0.7441117167472839,
+      "source_id": "1688107_632358",
+      "value": " Christian bishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "414279_363189_fact68",
+      "score": 0.7434027194976807,
+      "source_id": "414279_363189",
+      "value": " Bishop of Noyon\u2013Tournai"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3658652_296686_fact1",
+      "score": 0.7222893238067627,
+      "source_id": "3658652_296686",
+      "value": " bishop of Milan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43727259_3838547_fact1",
+      "score": 0.7147880792617798,
+      "source_id": "43727259_3838547",
+      "value": " Roman Catholic priest, bishop and royal counsellor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14813610_2367073_fact1",
+      "score": 0.7116400003433228,
+      "source_id": "14813610_2367073",
+      "value": " bishop of Bourges"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7470098_1307100_fact3",
+      "score": 0.7028664946556091,
+      "source_id": "7470098_1307100",
+      "value": " bishop of Auxerre"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5388094_823079_fact2",
+      "score": 0.6897458434104919,
+      "source_id": "5388094_823079",
+      "value": " bishop of Avignon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16263512_1305678_fact2",
+      "score": 0.6849168539047241,
+      "source_id": "16263512_1305678",
+      "value": " bishop of Toul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5145215_607198_fact3",
+      "score": 0.6842334866523743,
+      "source_id": "5145215_607198",
+      "value": " bishop of Larissa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "963110_6164155_fact0",
+      "score": 0.6840609312057495,
+      "source_id": "963110_6164155",
+      "value": " Christian bishop and Patriarch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3660394_299184_fact2",
+      "score": 0.6839755773544312,
+      "source_id": "3660394_299184",
+      "value": " bishop of Melitene"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17796972_2586533_fact1",
+      "score": 0.677619218826294,
+      "source_id": "17796972_2586533",
+      "value": " bishop of Antibes"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22550686_2366030_fact2",
+      "score": 0.6774957180023193,
+      "source_id": "22550686_2366030",
+      "value": " bishop of Autun"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3660522_299309_fact1",
+      "score": 0.6763651371002197,
+      "source_id": "3660522_299309",
+      "value": " bishop of Amida, Mesopotamia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4470767_1165933_fact0",
+      "score": 0.6759402751922607,
+      "source_id": "4470767_1165933",
+      "value": " bishop of Constantinople"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41057425_3979670_fact2",
+      "score": 0.6721015572547913,
+      "source_id": "41057425_3979670",
+      "value": " Catholic Bishop of Oloron in France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17019260_1903879_fact0",
+      "score": 0.6699227094650269,
+      "source_id": "17019260_1903879",
+      "value": " bishop of Caesarea Maritima"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9511688_1462083_fact2",
+      "score": 0.6686604619026184,
+      "source_id": "9511688_1462083",
+      "value": " bishop of Camerino"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "360663_87634_fact27",
+      "score": 0.6641979217529297,
+      "source_id": "360663_87634",
+      "value": " bishop of Aleppo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2614111_1186528_fact3",
+      "score": 0.6608965396881104,
+      "source_id": "2614111_1186528",
+      "value": " the first historically documented bishop of Trier"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30723374_2391380_fact2",
+      "score": 0.656854510307312,
+      "source_id": "30723374_2391380",
+      "value": " bishop of Ravenna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2351479_756069_fact56",
+      "score": 0.6496264934539795,
+      "source_id": "2351479_756069",
+      "value": " first bishop of Aleppo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2715559_202847_fact4",
+      "score": 0.6493526697158813,
+      "source_id": "2715559_202847",
+      "value": " bishop of Como, Northern Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9233896_1188643_fact2",
+      "score": 0.6487637758255005,
+      "source_id": "9233896_1188643",
+      "value": " bishop of Naples"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50229754_3658125_fact1",
+      "score": 0.6456400156021118,
+      "source_id": "50229754_3658125",
+      "value": " bishop of Autun"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1141152_521399_fact9",
+      "score": 0.6423368453979492,
+      "source_id": "1141152_521399",
+      "value": " Bishop of Caesarea"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17196398_2055245_fact17",
+      "score": 0.6401952505111694,
+      "source_id": "17196398_2055245",
+      "value": " Bishop of Jerusalem"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15088_361673_fact155",
+      "score": 0.6391724944114685,
+      "source_id": "15088_361673",
+      "value": " bishop of Alexandria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "239641_484541_fact21",
+      "score": 0.6384337544441223,
+      "source_id": "239641_484541",
+      "value": " bishop of Caesarea"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6515204_606698_fact2",
+      "score": 0.6384059190750122,
+      "source_id": "6515204_606698",
+      "value": " bishop of Th\u00e9rouanne"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3320583_1039873_fact0",
+      "score": 0.6374446153640747,
+      "source_id": "3320583_1039873",
+      "value": " bishop of the see of Tagaste"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37727511_3550910_fact4",
+      "score": 0.6373028755187988,
+      "source_id": "37727511_3550910",
+      "value": " 10th Bishop of Verdun"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21433_495377_fact8",
+      "score": 0.6350449323654175,
+      "source_id": "21433_495377",
+      "value": " 4th-century bishop of Alexandria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9818280_1801602_fact5",
+      "score": 0.6348843574523926,
+      "source_id": "9818280_1801602",
+      "value": " bishop of Cambrai, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24434645_1881395_fact0",
+      "score": 0.6332789659500122,
+      "source_id": "24434645_1881395",
+      "value": " Bishop of Pavia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8151443_2219671_fact2",
+      "score": 0.6323702335357666,
+      "source_id": "8151443_2219671",
+      "value": " bishop of Bourges"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1914667_1110756_fact1",
+      "score": 0.6302982568740845,
+      "source_id": "1914667_1110756",
+      "value": " Bishop of Ancyra"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56927524_3698433_fact0",
+      "score": 0.6298373341560364,
+      "source_id": "56927524_3698433",
+      "value": " bishop of Nevers in France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24868152_2279454_fact0",
+      "score": 0.6295881271362305,
+      "source_id": "24868152_2279454",
+      "value": " Bishop of Mondo\u00f1edo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18843039_1256663_fact1",
+      "score": 0.6281494498252869,
+      "source_id": "18843039_1256663",
+      "value": " bishop of Gloucester"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3835628_490456_fact3",
+      "score": 0.6278912425041199,
+      "source_id": "3835628_490456",
+      "value": " Bishop of Antioch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65274190_4729272_fact55",
+      "score": 0.627765417098999,
+      "source_id": "65274190_4729272",
+      "value": " Bishop of Auxerre"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61149906_4241354_fact3",
+      "score": 0.6273224353790283,
+      "source_id": "61149906_4241354",
+      "value": " bishop of Antioch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13964946_1512069_fact1",
+      "score": 0.6266006231307983,
+      "source_id": "13964946_1512069",
+      "value": " medieval bishop of London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24009_548881_fact22",
+      "score": 0.625941276550293,
+      "source_id": "24009_548881",
+      "value": " deposed bishop of Antioch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11195719_3226813_fact1",
+      "score": 0.6249243021011353,
+      "source_id": "11195719_3226813",
+      "value": " bishop of Auxerre"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36085263_2333868_fact3",
+      "score": 0.6242521405220032,
+      "source_id": "36085263_2333868",
+      "value": " bishop of Antioch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65124880_4643764_fact30",
+      "score": 0.6234769821166992,
+      "source_id": "65124880_4643764",
+      "value": " Bishop of Auxerre"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13101127_3056754_fact1",
+      "score": 0.6230949759483337,
+      "source_id": "13101127_3056754",
+      "value": " medieval Bishop of Rochester"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71214421_3999406_fact2",
+      "score": 0.6226427555084229,
+      "source_id": "71214421_3999406",
+      "value": " bishop of Arles"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23679898_3445301_fact3",
+      "score": 0.6223596930503845,
+      "source_id": "23679898_3445301",
+      "value": " Carthusian Bishop of Belley"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7484880_1325751_fact0",
+      "score": 0.6211382150650024,
+      "source_id": "7484880_1325751",
+      "value": " first bishop of Elphin, Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5912206_172948_fact0",
+      "score": 0.6201001405715942,
+      "source_id": "5912206_172948",
+      "value": " bishop of Toledo (Hispania),"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11696969_1371263_fact1",
+      "score": 0.6191429495811462,
+      "source_id": "11696969_1371263",
+      "value": " saint and bishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42725465_5436682_fact3",
+      "score": 0.6186347007751465,
+      "source_id": "42725465_5436682",
+      "value": " bishop of Trevi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13214448_3171290_fact3",
+      "score": 0.6185640096664429,
+      "source_id": "13214448_3171290",
+      "value": " Bishop of Metz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7956915_1958913_fact2",
+      "score": 0.6184631586074829,
+      "source_id": "7956915_1958913",
+      "value": " Italian bishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17144027_2007947_fact2",
+      "score": 0.6183673143386841,
+      "source_id": "17144027_2007947",
+      "value": " Christian bishop and martyr"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1231545_766855_fact2",
+      "score": 0.618213951587677,
+      "source_id": "1231545_766855",
+      "value": " Russian Orthodox bishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2134_101796_fact239",
+      "score": 0.6167609095573425,
+      "source_id": "2134_101796",
+      "value": " bishop of Alexandria"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "480e8d51-dd58-47eb-aeb5-fbcee80ec298",
+  "index_nprobe": null,
+  "manifest_id": "d8d9eba1c573a297",
+  "margin": 0.09885674715042114,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9280839562416077,
+  "s_surv": 0.8292272090911865,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1141154_521402_fact1",
+      "score": 0.8292272090911865,
+      "source_id": "1141154_521402",
+      "value": " 4th-century"
+    },
+    {
+      "entry_id": "1141154_521402_fact2",
+      "score": 0.813230037689209,
+      "source_id": "1141154_521402",
+      "value": " priest"
+    },
+    {
+      "entry_id": "7589557_1459101_fact2",
+      "score": 0.8097008466720581,
+      "source_id": "7589557_1459101",
+      "value": " martyr"
+    },
+    {
+      "entry_id": "68290834_4369309_fact2",
+      "score": 0.7926813364028931,
+      "source_id": "68290834_4369309",
+      "value": " Frankish nobleman"
+    },
+    {
+      "entry_id": "30579412_2274604_fact1",
+      "score": 0.7925980091094971,
+      "source_id": "30579412_2274604",
+      "value": " Byzantine official"
+    }
+  ],
+  "truncated": false
+}

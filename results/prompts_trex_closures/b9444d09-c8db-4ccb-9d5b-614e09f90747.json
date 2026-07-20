@@ -1,0 +1,216 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "29005304_3487965_fact1",
+      "score": 0.8960128426551819,
+      "source_id": "29005304_3487965",
+      "value": " Allen Park in Antrim, County Antrim, Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11485584_3562698_fact0",
+      "score": 0.7846012115478516,
+      "source_id": "11485584_3562698",
+      "value": " Antrim Forum"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22625130_2436356_fact4",
+      "score": 0.7031273245811462,
+      "source_id": "22625130_2436356",
+      "value": " Newtownabbey, County Antrim"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2862353_393131_fact1",
+      "score": 0.6545982360839844,
+      "source_id": "2862353_393131",
+      "value": " Newtownabbey, County Antrim, Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56528579_5765889_fact3",
+      "score": 0.6400604248046875,
+      "source_id": "56528579_5765889",
+      "value": " Antrim, Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56528651_5765944_fact3",
+      "score": 0.6322692632675171,
+      "source_id": "56528651_5765944",
+      "value": " Antrim, Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56528486_5765847_fact3",
+      "score": 0.631205677986145,
+      "source_id": "56528486_5765847",
+      "value": " Antrim, Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12499337_2350426_fact2",
+      "score": 0.62941575050354,
+      "source_id": "12499337_2350426",
+      "value": " Cushendall, County Antrim, Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58542847_4900264_fact2",
+      "score": 0.6273911595344543,
+      "source_id": "58542847_4900264",
+      "value": " County Antrim"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "770549_6120704_fact1",
+      "score": 0.6269291043281555,
+      "source_id": "770549_6120704",
+      "value": " County Antrim"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56850469_3639920_fact2",
+      "score": 0.624951958656311,
+      "source_id": "56850469_3639920",
+      "value": " County Antrim"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59236629_5361969_fact1",
+      "score": 0.6249105930328369,
+      "source_id": "59236629_5361969",
+      "value": " West Belfast, County Antrim, Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1418768_1203319_fact2",
+      "score": 0.6245878338813782,
+      "source_id": "1418768_1203319",
+      "value": " County Antrim"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61988122_4850385_fact2",
+      "score": 0.6222041845321655,
+      "source_id": "61988122_4850385",
+      "value": " County Antrim"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24208430_1671119_fact8",
+      "score": 0.6208254098892212,
+      "source_id": "24208430_1671119",
+      "value": " Ballynure, County Antrim"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64893960_4551765_fact2",
+      "score": 0.6197082996368408,
+      "source_id": "64893960_4551765",
+      "value": " County Antrim, Northern Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4692215_223921_fact4",
+      "score": 0.619174599647522,
+      "source_id": "4692215_223921",
+      "value": " County Antrim"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23899541_1328580_fact6",
+      "score": 0.6151444315910339,
+      "source_id": "23899541_1328580",
+      "value": " Derriaghy, County Antrim"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b9444d09-c8db-4ccb-9d5b-614e09f90747",
+  "index_nprobe": null,
+  "manifest_id": "fa437f9294c81619",
+  "margin": 0.12243479490280151,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8960128426551819,
+  "s_surv": 0.7735780477523804,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "42054599_4867845_fact1",
+      "score": 0.7735780477523804,
+      "source_id": "42054599_4867845",
+      "value": " Armagh, Northern Ireland"
+    },
+    {
+      "entry_id": "53956921_3991208_fact2",
+      "score": 0.768180251121521,
+      "source_id": "53956921_3991208",
+      "value": " Omagh, County Tyrone"
+    },
+    {
+      "entry_id": "6396745_538223_fact0",
+      "score": 0.7588375806808472,
+      "source_id": "6396745_538223",
+      "value": " Newtownards, County Down, Northern Ireland"
+    },
+    {
+      "entry_id": "6636758_682339_fact1",
+      "score": 0.7409493923187256,
+      "source_id": "6636758_682339",
+      "value": " Nenagh, County Tipperary"
+    },
+    {
+      "entry_id": "68237226_4329196_fact1",
+      "score": 0.7367457747459412,
+      "source_id": "68237226_4329196",
+      "value": " Arbroath, Scotland"
+    }
+  ],
+  "truncated": false
+}

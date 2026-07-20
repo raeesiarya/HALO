@@ -1,0 +1,142 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "61630418_4607169_fact15",
+      "score": 0.7330869436264038,
+      "source_id": "61630418_4607169",
+      "value": " the Great Smoky Mountains National Park"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2411015_861846_fact1",
+      "score": 0.644088864326477,
+      "source_id": "2411015_861846",
+      "value": " the City of Brisbane, Queensland, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44865863_4785965_fact4",
+      "score": 0.6135604977607727,
+      "source_id": "44865863_4785965",
+      "value": " Central West region of New South Wales, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "230760_422869_fact2",
+      "score": 0.6129327416419983,
+      "source_id": "230760_422869",
+      "value": " the center of Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56212391_5557066_fact1",
+      "score": 0.6126707792282104,
+      "source_id": "56212391_5557066",
+      "value": " the northeastern corner of Eyre Peninsula, South Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6208379_411852_fact2",
+      "score": 0.599534809589386,
+      "source_id": "6208379_411852",
+      "value": " the Eastern Suburbs of Sydney, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27744677_2443669_fact20",
+      "score": 0.5918694138526917,
+      "source_id": "27744677_2443669",
+      "value": " Sydney, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9143068_3516361_fact3",
+      "score": 0.5884469747543335,
+      "source_id": "9143068_3516361",
+      "value": " Northern Territory of Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24281636_1734688_fact1",
+      "score": 0.5846364498138428,
+      "source_id": "24281636_1734688",
+      "value": " New South Wales, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11218329_3251885_fact4",
+      "score": 0.5833113193511963,
+      "source_id": "11218329_3251885",
+      "value": " central western region of New South Wales, Australia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "fbd8363b-f284-4672-a575-b8ebbb655eaf",
+  "index_nprobe": null,
+  "manifest_id": "16fe033135acdb79",
+  "margin": 0.01967841386795044,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.733086884021759,
+  "s_surv": 0.7134084701538086,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1832474_942654_fact41",
+      "score": 0.7134084701538086,
+      "source_id": "1832474_942654",
+      "value": " Blue Ridge Mountains"
+    },
+    {
+      "entry_id": "1428068_76370_fact1",
+      "score": 0.6954958438873291,
+      "source_id": "1428068_76370",
+      "value": " Great Smoky Mountains National Park"
+    },
+    {
+      "entry_id": "62226504_5021587_fact2",
+      "score": 0.6945821642875671,
+      "source_id": "62226504_5021587",
+      "value": " City of Mount Isa"
+    },
+    {
+      "entry_id": "54722758_4576991_fact2",
+      "score": 0.690223217010498,
+      "source_id": "54722758_4576991",
+      "value": " Limestone Coast region"
+    },
+    {
+      "entry_id": "107555_477489_fact176",
+      "score": 0.6868014335632324,
+      "source_id": "107555_477489",
+      "value": " southern Sierra Nevada mountains"
+    }
+  ],
+  "truncated": false
+}

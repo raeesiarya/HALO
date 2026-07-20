@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "25175_572640_fact78",
+      "score": 0.8424661159515381,
+      "source_id": "25175_572640",
+      "value": " the first European book to include the full solution to the general quadratic equation"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a3a30c74-650f-4a75-b20d-55a6f823a8fa",
+  "index_nprobe": null,
+  "manifest_id": "3af3d3a921de5c4a",
+  "margin": 0.03133159875869751,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8424661159515381,
+  "s_surv": 0.8111345171928406,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1262063_852495_fact139",
+      "score": 0.8111345171928406,
+      "source_id": "1262063_852495",
+      "value": " European book to include the full solution to the quadratic equation x2 \u2013 ax + b = 0"
+    },
+    {
+      "entry_id": "7534567_1386585_fact5",
+      "score": 0.7685986757278442,
+      "source_id": "7534567_1386585",
+      "value": " \"Ha-Eshkol\""
+    },
+    {
+      "entry_id": "69825030_5442036_fact5",
+      "score": 0.7475116848945618,
+      "source_id": "69825030_5442036",
+      "value": " \"Megillah Zutta\""
+    },
+    {
+      "entry_id": "5553121_958920_fact131",
+      "score": 0.722690999507904,
+      "source_id": "5553121_958920",
+      "value": " \"Liber embadorum\","
+    },
+    {
+      "entry_id": "1658825_567037_fact46",
+      "score": 0.7160851955413818,
+      "source_id": "1658825_567037",
+      "value": " \"Sefer ha-Eshkol\")."
+    }
+  ],
+  "truncated": false
+}

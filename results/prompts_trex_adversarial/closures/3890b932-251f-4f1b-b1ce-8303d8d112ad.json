@@ -1,0 +1,142 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "35716946_2016836_fact11",
+      "score": 0.7651364803314209,
+      "source_id": "35716946_2016836",
+      "value": " Zerbst"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59368687_5413980_fact105",
+      "score": 0.6485501527786255,
+      "source_id": "59368687_5413980",
+      "value": " Svea artilleriregemente Parish in Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72781842_4992855_fact16",
+      "score": 0.6247610449790955,
+      "source_id": "72781842_4992855",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57859212_4423674_fact4",
+      "score": 0.6193269491195679,
+      "source_id": "57859212_4423674",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6803138_803276_fact15",
+      "score": 0.6147996187210083,
+      "source_id": "6803138_803276",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27275305_2026802_fact40",
+      "score": 0.6089168190956116,
+      "source_id": "27275305_2026802",
+      "value": " Stockholm, Sweden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38895453_4556267_fact7",
+      "score": 0.6079509854316711,
+      "source_id": "38895453_4556267",
+      "value": " Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66959850_5825582_fact133",
+      "score": 0.6031005382537842,
+      "source_id": "66959850_5825582",
+      "value": " Allm\u00e4nna BB, Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "996385_127810_fact5",
+      "score": 0.5947027802467346,
+      "source_id": "996385_127810",
+      "value": " Haga Palace in Haga Park, Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18700991_3431843_fact50",
+      "score": 0.5883281230926514,
+      "source_id": "18700991_3431843",
+      "value": " Stockholm"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3890b932-251f-4f1b-b1ce-8303d8d112ad",
+  "index_nprobe": null,
+  "manifest_id": "534e0906fe1729d5",
+  "margin": 0.024031639099121094,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7651363611221313,
+  "s_surv": 0.7411047220230103,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "30514262_2223868_fact10",
+      "score": 0.7411047220230103,
+      "source_id": "30514262_2223868",
+      "value": " Graz"
+    },
+    {
+      "entry_id": "3343_120153_fact124",
+      "score": 0.7372997999191284,
+      "source_id": "3343_120153",
+      "value": " Belgium"
+    },
+    {
+      "entry_id": "486859_729068_fact11",
+      "score": 0.7340793609619141,
+      "source_id": "486859_729068",
+      "value": " Molins de Rei"
+    },
+    {
+      "entry_id": "1304320_951466_fact14",
+      "score": 0.7323687076568604,
+      "source_id": "1304320_951466",
+      "value": " Burgos"
+    },
+    {
+      "entry_id": "2997552_583108_fact21",
+      "score": 0.7193745374679565,
+      "source_id": "2997552_583108",
+      "value": " Domfront"
+    }
+  ],
+  "truncated": false
+}

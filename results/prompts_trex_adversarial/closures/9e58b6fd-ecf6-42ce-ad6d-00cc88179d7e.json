@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "7331693_1172100_fact6",
+      "score": 0.5619944930076599,
+      "source_id": "7331693_1172100",
+      "value": " George William Hill Professor of Mathematics and Physics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36630617_2768093_fact4",
+      "score": 0.4776206314563751,
+      "source_id": "36630617_2768093",
+      "value": " archbishop of Gniezno"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9e58b6fd-ecf6-42ce-ad6d-00cc88179d7e",
+  "index_nprobe": null,
+  "manifest_id": "b66206b57dc1358e",
+  "margin": 0.0017264485359191895,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.5619944334030151,
+  "s_surv": 0.560267984867096,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5890897_156139_fact180",
+      "score": 0.560267984867096,
+      "source_id": "5890897_156139",
+      "value": " Co-editor"
+    },
+    {
+      "entry_id": "52794527_5559040_fact17",
+      "score": 0.551979660987854,
+      "source_id": "52794527_5559040",
+      "value": " Editor-in-Chief"
+    },
+    {
+      "entry_id": "66525967_5610624_fact2",
+      "score": 0.5502861738204956,
+      "source_id": "66525967_5610624",
+      "value": " Coraluppi Head and Tanoto Professor of Electrical and Computer Engineering"
+    },
+    {
+      "entry_id": "42692276_5410183_fact5",
+      "score": 0.5494027137756348,
+      "source_id": "42692276_5410183",
+      "value": " gay"
+    },
+    {
+      "entry_id": "55987238_5395294_fact9",
+      "score": 0.5442013740539551,
+      "source_id": "55987238_5395294",
+      "value": " Treasurer/Secretary"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "43403967_5948940_fact5",
+      "score": 0.8086133599281311,
+      "source_id": "43403967_5948940",
+      "value": " Caw of Strathclyde"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1135678_501322_fact11",
+      "score": 0.622241735458374,
+      "source_id": "1135678_501322",
+      "value": " Abbot Dunod Fawr"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e394e81f-b2b0-410f-b9cc-f80329d443e4",
+  "index_nprobe": null,
+  "manifest_id": "801a2211f5369e6c",
+  "margin": 0.03386491537094116,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8086132407188416,
+  "s_surv": 0.7747483253479004,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "16250175_1295584_fact2",
+      "score": 0.7747483253479004,
+      "source_id": "16250175_1295584",
+      "value": " Hring"
+    },
+    {
+      "entry_id": "43555349_3671642_fact7",
+      "score": 0.7596853971481323,
+      "source_id": "43555349_3671642",
+      "value": " king Caw of Strathclyde"
+    },
+    {
+      "entry_id": "602241_1207231_fact39",
+      "score": 0.7596099376678467,
+      "source_id": "602241_1207231",
+      "value": " Aun the Old"
+    },
+    {
+      "entry_id": "1122134_460577_fact93",
+      "score": 0.7550846338272095,
+      "source_id": "1122134_460577",
+      "value": " Skj\u00f6ld"
+    },
+    {
+      "entry_id": "2918777_477407_fact90",
+      "score": 0.7550048828125,
+      "source_id": "2918777_477407",
+      "value": " Beli"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,165 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "13809125_1365599_fact35",
+      "score": 0.9571323394775391,
+      "source_id": "13809125_1365599",
+      "value": " Philadelphia"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "3282845_989512_fact7",
+      "score": 0.9374537467956543,
+      "source_id": "3282845_989512",
+      "value": " Philadelphia"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "3957669_619419_fact26",
+      "score": 0.9331015348434448,
+      "source_id": "3957669_619419",
+      "value": " Philadelphia"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "811392_726098_fact39",
+      "score": 0.9207591414451599,
+      "source_id": "811392_726098",
+      "value": " 1911"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "2613766_1185860_fact12",
+      "score": 0.9191169738769531,
+      "source_id": "2613766_1185860",
+      "value": " Philadelphia, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53333065_5910977_fact41",
+      "score": 0.8356789350509644,
+      "source_id": "53333065_5910977",
+      "value": " Philadelphia, PA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2653304_117931_fact15",
+      "score": 0.8130812644958496,
+      "source_id": "2653304_117931",
+      "value": " Philadelphia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17457080_2294961_fact7",
+      "score": 0.7286028861999512,
+      "source_id": "17457080_2294961",
+      "value": " Philadelphia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1840622_957724_fact40",
+      "score": 0.6905426979064941,
+      "source_id": "1840622_957724",
+      "value": "Philadelphia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1706961_675882_fact83",
+      "score": 0.6018925309181213,
+      "source_id": "1706961_675882",
+      "value": " Philadelphia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17080354_1951600_fact67",
+      "score": 0.5964756608009338,
+      "source_id": "17080354_1951600",
+      "value": " Philadelphia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32181275_1514436_fact17",
+      "score": 0.5775531530380249,
+      "source_id": "32181275_1514436",
+      "value": " Philadelphia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "96db4b6c-5a9a-46bc-98b1-a42b430ea5f4",
+  "index_nprobe": null,
+  "manifest_id": "49ef9d2b98df43be",
+  "margin": 0.1480121612548828,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9571323394775391,
+  "s_surv": 0.8091201782226562,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6352620_511003_fact11",
+      "score": 0.8091201782226562,
+      "source_id": "6352620_511003",
+      "value": " 1913"
+    },
+    {
+      "entry_id": "12912904_2846907_fact19",
+      "score": 0.7751778364181519,
+      "source_id": "12912904_2846907",
+      "value": " 1909"
+    },
+    {
+      "entry_id": "55909_1104389_fact112",
+      "score": 0.7281190156936646,
+      "source_id": "55909_1104389",
+      "value": " Jacksonville, Florida"
+    },
+    {
+      "entry_id": "40837795_3780604_fact33",
+      "score": 0.6902580261230469,
+      "source_id": "40837795_3780604",
+      "value": " Leningrad"
+    },
+    {
+      "entry_id": "1402001_1165328_fact17",
+      "score": 0.6886053085327148,
+      "source_id": "1402001_1165328",
+      "value": " Leningrad"
+    }
+  ],
+  "truncated": false
+}

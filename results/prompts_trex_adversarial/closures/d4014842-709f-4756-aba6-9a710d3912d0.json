@@ -1,0 +1,135 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "658575_272405_fact0",
+      "score": 0.9650608897209167,
+      "source_id": "658575_272405",
+      "value": " council of elders"
+    },
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "658575_272405_fact1",
+      "score": 0.9581626653671265,
+      "source_id": "658575_272405",
+      "value": " ancient Sparta"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "315204_969440_fact6",
+      "score": 0.9117096662521362,
+      "source_id": "315204_969440",
+      "value": " Sparta's Council of Elders"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "1886811_1055157_fact42",
+      "score": 0.8861849308013916,
+      "source_id": "1886811_1055157",
+      "value": "the supreme assembly at Sparta"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "3708997_352284_fact33",
+      "score": 0.8851950168609619,
+      "source_id": "3708997_352284",
+      "value": " the Spartan senate"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1255620_834435_fact39",
+      "score": 0.8766323328018188,
+      "source_id": "1255620_834435",
+      "value": "Senate"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "391581_240540_fact4",
+      "score": 0.8762866854667664,
+      "source_id": "391581_240540",
+      "value": " a council made up of members who were at least 60 years old and who served for life"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "658466_271960_fact0",
+      "score": 0.6169062852859497,
+      "source_id": "658466_271960",
+      "value": " rigorous education and training program mandated for all male Spartan citizens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1096713_392399_fact0",
+      "score": 0.6056690812110901,
+      "source_id": "1096713_392399",
+      "value": " citizens' assembly in the Ancient Greek city-state of Sparta"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d4014842-709f-4756-aba6-9a710d3912d0",
+  "index_nprobe": null,
+  "manifest_id": "df959e347a3ce32f",
+  "margin": 0.13172346353530884,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9650608897209167,
+  "s_surv": 0.8333374261856079,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "38500220_4232525_fact8",
+      "score": 0.8333374261856079,
+      "source_id": "38500220_4232525",
+      "value": "28 chosen men above the age of 60"
+    },
+    {
+      "entry_id": "32187890_1520245_fact25",
+      "score": 0.7927688360214233,
+      "source_id": "32187890_1520245",
+      "value": " council of elders"
+    },
+    {
+      "entry_id": "13444_5978857_fact73",
+      "score": 0.7767113447189331,
+      "source_id": "13444_5978857",
+      "value": "the Senate"
+    },
+    {
+      "entry_id": "658575_272405_fact39",
+      "score": 0.7369568347930908,
+      "source_id": "658575_272405",
+      "value": " court in charge of capital cases"
+    },
+    {
+      "entry_id": "3708997_352284_fact34",
+      "score": 0.735754132270813,
+      "source_id": "3708997_352284",
+      "value": " supreme court"
+    }
+  ],
+  "truncated": false
+}

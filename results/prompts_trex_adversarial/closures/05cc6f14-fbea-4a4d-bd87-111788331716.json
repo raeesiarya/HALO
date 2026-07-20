@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "226515_395173_fact79",
+      "score": 0.6960766315460205,
+      "source_id": "226515_395173",
+      "value": " fourth"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6368900_520335_fact18",
+      "score": 0.5795120000839233,
+      "source_id": "6368900_520335",
+      "value": " first motion picture version of the opera specifically intended for cinemas"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5384578_820783_fact50",
+      "score": 0.5750274658203125,
+      "source_id": "5384578_820783",
+      "value": " \"Macbeth - Opera by Rosa von Praunheim\""
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "05cc6f14-fbea-4a4d-bd87-111788331716",
+  "index_nprobe": null,
+  "manifest_id": "98af7644346a81f6",
+  "margin": 0.010511279106140137,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6960766315460205,
+  "s_surv": 0.6855653524398804,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "47039400_3681454_fact73",
+      "score": 0.6855653524398804,
+      "source_id": "47039400_3681454",
+      "value": " \"City Girl\"."
+    },
+    {
+      "entry_id": "417860_383730_fact57",
+      "score": 0.6695599555969238,
+      "source_id": "417860_383730",
+      "value": " \"Citizen Kane\"."
+    },
+    {
+      "entry_id": "164356_1094272_fact266",
+      "score": 0.6690695881843567,
+      "source_id": "164356_1094272",
+      "value": " \"Sisters\" and \"Obsession\""
+    },
+    {
+      "entry_id": "189285_138459_fact205",
+      "score": 0.660987138748169,
+      "source_id": "189285_138459",
+      "value": " \"Impressionen unter Wasser\"."
+    },
+    {
+      "entry_id": "2394183_832140_fact39",
+      "score": 0.6608233451843262,
+      "source_id": "2394183_832140",
+      "value": " \"The Lottery Bride\","
+    }
+  ],
+  "truncated": false
+}

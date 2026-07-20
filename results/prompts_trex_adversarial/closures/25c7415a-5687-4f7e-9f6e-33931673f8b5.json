@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "47332708_3952994_fact12",
+      "score": 0.7483228445053101,
+      "source_id": "47332708_3952994",
+      "value": " around 22.7\u00a0km"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "25c7415a-5687-4f7e-9f6e-33931673f8b5",
+  "index_nprobe": null,
+  "manifest_id": "5a9598fe3dc086d2",
+  "margin": 0.019226789474487305,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7483228445053101,
+  "s_surv": 0.7290960550308228,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "14553300_2094410_fact83",
+      "score": 0.7290960550308228,
+      "source_id": "14553300_2094410",
+      "value": " 200\u00a0km"
+    },
+    {
+      "entry_id": "40478111_5900433_fact2",
+      "score": 0.7289528250694275,
+      "source_id": "40478111_5900433",
+      "value": " some north of Aalborg's city centre"
+    },
+    {
+      "entry_id": "29513425_1535736_fact4",
+      "score": 0.7270251512527466,
+      "source_id": "29513425_1535736",
+      "value": " east of Sarand\u00eb"
+    },
+    {
+      "entry_id": "63253709_5701965_fact6",
+      "score": 0.7244974970817566,
+      "source_id": "63253709_5701965",
+      "value": " 25 km west of Kaduy"
+    },
+    {
+      "entry_id": "40478111_5900433_fact1",
+      "score": 0.722237229347229,
+      "source_id": "40478111_5900433",
+      "value": " just outside Aalborg, Denmark"
+    }
+  ],
+  "truncated": false
+}

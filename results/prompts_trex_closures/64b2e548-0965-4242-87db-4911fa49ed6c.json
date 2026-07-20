@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "6103686_325744_fact0",
+      "score": 0.9035256505012512,
+      "source_id": "6103686_325744",
+      "value": " Kinyarwanda and French-language"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "64b2e548-0965-4242-87db-4911fa49ed6c",
+  "index_nprobe": null,
+  "manifest_id": "296b40289d91f026",
+  "margin": 0.13521242141723633,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9035256505012512,
+  "s_surv": 0.7683132290840149,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "57627293_4232045_fact1",
+      "score": 0.7683132290840149,
+      "source_id": "57627293_4232045",
+      "value": " indigenous Australian people"
+    },
+    {
+      "entry_id": "1624660_491052_fact51",
+      "score": 0.7466771602630615,
+      "source_id": "1624660_491052",
+      "value": " forest deity that his people worship"
+    },
+    {
+      "entry_id": "12748135_2646049_fact60",
+      "score": 0.7427687048912048,
+      "source_id": "12748135_2646049",
+      "value": " radical Hutu Power newsletter"
+    },
+    {
+      "entry_id": "15696499_3177209_fact3",
+      "score": 0.7412695288658142,
+      "source_id": "15696499_3177209",
+      "value": " anti-Tutsi, Hutu Power Kinyarwanda-language newspaper"
+    },
+    {
+      "entry_id": "15830777_3303183_fact28",
+      "score": 0.7202929258346558,
+      "source_id": "15830777_3303183",
+      "value": " Shona sub-tribe"
+    }
+  ],
+  "truncated": false
+}

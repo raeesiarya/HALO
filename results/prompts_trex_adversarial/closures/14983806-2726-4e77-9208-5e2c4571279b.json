@@ -1,0 +1,242 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "2150287_380206_fact18",
+      "score": 0.8620238304138184,
+      "source_id": "2150287_380206",
+      "value": " Bridge 9"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23962831_1392579_fact49",
+      "score": 0.7382745742797852,
+      "source_id": "23962831_1392579",
+      "value": " Sony Music Entertainment"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1941942_1165189_fact95",
+      "score": 0.7356833815574646,
+      "source_id": "1941942_1165189",
+      "value": " Sony Broadway"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33387807_2499152_fact74",
+      "score": 0.7334780693054199,
+      "source_id": "33387807_2499152",
+      "value": " Sony Broadway"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "956356_1163658_fact243",
+      "score": 0.7277994155883789,
+      "source_id": "956356_1163658",
+      "value": " Sony"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1598977_432074_fact29",
+      "score": 0.7143129706382751,
+      "source_id": "1598977_432074",
+      "value": " Sony"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15126686_2654212_fact28",
+      "score": 0.7074939012527466,
+      "source_id": "15126686_2654212",
+      "value": " Columbia (Sony)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19043622_1507623_fact160",
+      "score": 0.7061843872070312,
+      "source_id": "19043622_1507623",
+      "value": " Sony Records"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23952639_1379226_fact53",
+      "score": 0.7057023644447327,
+      "source_id": "23952639_1379226",
+      "value": " Sony Music Entertainment"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37028846_3109638_fact45",
+      "score": 0.7041435241699219,
+      "source_id": "37028846_3109638",
+      "value": " Sony Discos"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25673718_3018948_fact31",
+      "score": 0.7015320658683777,
+      "source_id": "25673718_3018948",
+      "value": " Sony Records"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12094568_1820097_fact14",
+      "score": 0.6903162598609924,
+      "source_id": "12094568_1820097",
+      "value": " Sony Music"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23960385_1389082_fact41",
+      "score": 0.6879368424415588,
+      "source_id": "23960385_1389082",
+      "value": " Sony Music Entertainment label"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "225476_389248_fact118",
+      "score": 0.6865410208702087,
+      "source_id": "225476_389248",
+      "value": " Sony"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3487561_89459_fact33",
+      "score": 0.6864632964134216,
+      "source_id": "3487561_89459",
+      "value": " Sony Special Products"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15886920_3354348_fact50",
+      "score": 0.6861909627914429,
+      "source_id": "15886920_3354348",
+      "value": " Sony Pictures Choice Collection"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38618566_4323429_fact22",
+      "score": 0.6845422983169556,
+      "source_id": "38618566_4323429",
+      "value": " Sony Music"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1145818_532400_fact26",
+      "score": 0.6831035614013672,
+      "source_id": "1145818_532400",
+      "value": " Sony Music"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27777831_2471814_fact20",
+      "score": 0.6826971769332886,
+      "source_id": "27777831_2471814",
+      "value": " Sony Music Distribution"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "177852_1241789_fact70",
+      "score": 0.6813777685165405,
+      "source_id": "177852_1241789",
+      "value": " Sony Legacy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1132445_492928_fact107",
+      "score": 0.6748548150062561,
+      "source_id": "1132445_492928",
+      "value": " Sony Record Group"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "14983806-2726-4e77-9208-5e2c4571279b",
+  "index_nprobe": null,
+  "manifest_id": "e456b73f812ade45",
+  "margin": 0.03647613525390625,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8620237112045288,
+  "s_surv": 0.8255475759506226,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "48922771_5189350_fact32",
+      "score": 0.8255475759506226,
+      "source_id": "48922771_5189350",
+      "value": " Blue Plate / Virgin"
+    },
+    {
+      "entry_id": "5682659_1075694_fact67",
+      "score": 0.8234375715255737,
+      "source_id": "5682659_1075694",
+      "value": " No Coast Records"
+    },
+    {
+      "entry_id": "3487627_89503_fact7",
+      "score": 0.7979222536087036,
+      "source_id": "3487627_89503",
+      "value": " Sugar Hill"
+    },
+    {
+      "entry_id": "3503765_109401_fact49",
+      "score": 0.7884164452552795,
+      "source_id": "3503765_109401",
+      "value": " Island Records"
+    },
+    {
+      "entry_id": "4996965_481214_fact115",
+      "score": 0.7851898670196533,
+      "source_id": "4996965_481214",
+      "value": " Buddha Records"
+    }
+  ],
+  "truncated": false
+}

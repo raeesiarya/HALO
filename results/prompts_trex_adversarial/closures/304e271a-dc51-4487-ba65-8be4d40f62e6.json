@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "1015328_174352_fact2",
+      "score": 0.860383152961731,
+      "source_id": "1015328_174352",
+      "value": " Champaign, Illinois"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "30528474_2236991_fact3",
+      "score": 0.8586568236351013,
+      "source_id": "30528474_2236991",
+      "value": " Calgary, Alberta"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "304e271a-dc51-4487-ba65-8be4d40f62e6",
+  "index_nprobe": null,
+  "manifest_id": "627e8ee409874089",
+  "margin": 0.05878406763076782,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.860383152961731,
+  "s_surv": 0.8015990853309631,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "73102034_5153394_fact1",
+      "score": 0.8015990853309631,
+      "source_id": "73102034_5153394",
+      "value": " the Adirondack Mountains, New York"
+    },
+    {
+      "entry_id": "30528474_2236991_fact4",
+      "score": 0.7965024709701538,
+      "source_id": "30528474_2236991",
+      "value": " Montr\u00e9al, Qu\u00e9bec"
+    },
+    {
+      "entry_id": "24592108_2033178_fact3",
+      "score": 0.7561081051826477,
+      "source_id": "24592108_2033178",
+      "value": " Newcastle"
+    },
+    {
+      "entry_id": "1840517_957379_fact1",
+      "score": 0.7461824417114258,
+      "source_id": "1840517_957379",
+      "value": " New York, New York"
+    },
+    {
+      "entry_id": "17024400_1907728_fact3",
+      "score": 0.7450178265571594,
+      "source_id": "17024400_1907728",
+      "value": " the Queensbridge, New York"
+    }
+  ],
+  "truncated": false
+}

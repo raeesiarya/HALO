@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "45674256_5407168_fact0",
+      "score": 0.8706678748130798,
+      "source_id": "45674256_5407168",
+      "value": "1841"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "54265572_4239382_fact0",
+      "score": 0.8626194000244141,
+      "source_id": "54265572_4239382",
+      "value": " August 5, 1965"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d1af0679-8248-4057-bf79-13d21daa0cfb",
+  "index_nprobe": null,
+  "manifest_id": "32a7528689397aab",
+  "margin": 0.047787368297576904,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8706678748130798,
+  "s_surv": 0.8228805065155029,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "10507789_2505922_fact72",
+      "score": 0.8228805065155029,
+      "source_id": "10507789_2505922",
+      "value": " 1752-1793"
+    },
+    {
+      "entry_id": "22684731_2493951_fact74",
+      "score": 0.808174192905426,
+      "source_id": "22684731_2493951",
+      "value": " 1956"
+    },
+    {
+      "entry_id": "68132333_4262085_fact2",
+      "score": 0.7738742828369141,
+      "source_id": "68132333_4262085",
+      "value": "ca. 1786\u20131795"
+    },
+    {
+      "entry_id": "48645208_4950820_fact57",
+      "score": 0.7500705718994141,
+      "source_id": "48645208_4950820",
+      "value": "1751\u20131793"
+    },
+    {
+      "entry_id": "28343233_2980818_fact0",
+      "score": 0.7265648245811462,
+      "source_id": "28343233_2980818",
+      "value": "1853"
+    }
+  ],
+  "truncated": false
+}

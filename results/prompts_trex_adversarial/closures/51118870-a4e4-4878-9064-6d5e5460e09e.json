@@ -1,0 +1,235 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "893001_968715_fact1",
+      "score": 0.9402757287025452,
+      "source_id": "893001_968715",
+      "value": " 'Hamburg School')"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "477330_685839_fact5",
+      "score": 0.8607061505317688,
+      "source_id": "477330_685839",
+      "value": "Hamburg School"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "953401_1156714_fact30",
+      "score": 0.8456988334655762,
+      "source_id": "953401_1156714",
+      "value": "School of Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4908382_402399_fact5",
+      "score": 0.8149391412734985,
+      "source_id": "4908382_402399",
+      "value": "Hamburg indie \u201cschool\u201d)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19767747_2140870_fact0",
+      "score": 0.6961054801940918,
+      "source_id": "19767747_2140870",
+      "value": "Hamburg Sailing Club"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70777247_3726832_fact0",
+      "score": 0.6626530885696411,
+      "source_id": "70777247_3726832",
+      "value": " \"Hamburg Gazette\"),"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9432193_1367843_fact0",
+      "score": 0.6616569757461548,
+      "source_id": "9432193_1367843",
+      "value": " \"Hamburg Evening Newspaper\")"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34455977_3410392_fact9",
+      "score": 0.6507747173309326,
+      "source_id": "34455977_3410392",
+      "value": "Hamburg Vocational School"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32054328_1406391_fact83",
+      "score": 0.6507291793823242,
+      "source_id": "32054328_1406391",
+      "value": "Hamburg Cathedral"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "850661_6140880_fact0",
+      "score": 0.6266461610794067,
+      "source_id": "850661_6140880",
+      "value": "Hamburg main station\")"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24705839_2134546_fact0",
+      "score": 0.6225223541259766,
+      "source_id": "24705839_2134546",
+      "value": " (\"Hamburg coat of arms\")"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24211854_1674253_fact317",
+      "score": 0.6107926964759827,
+      "source_id": "24211854_1674253",
+      "value": " Hamburg pocket"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61626171_4604048_fact27",
+      "score": 0.6100208163261414,
+      "source_id": "61626171_4604048",
+      "value": "Hamburg Artists"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3410369_1142170_fact25",
+      "score": 0.6017767786979675,
+      "source_id": "3410369_1142170",
+      "value": "Hamburg Music Academy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31654166_3370209_fact8",
+      "score": 0.6008015871047974,
+      "source_id": "31654166_3370209",
+      "value": " Investigative Custody Centre of the City of Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62224746_5020440_fact18",
+      "score": 0.5973780155181885,
+      "source_id": "62224746_5020440",
+      "value": "Hamburg Parliament"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26694168_1551140_fact13",
+      "score": 0.5917481184005737,
+      "source_id": "26694168_1551140",
+      "value": "Hamburg Peoples' Newspaper"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62224746_5020440_fact81",
+      "score": 0.5883818864822388,
+      "source_id": "62224746_5020440",
+      "value": " (\"Hamburg Parliament"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8454188_2604950_fact16",
+      "score": 0.5720238089561462,
+      "source_id": "8454188_2604950",
+      "value": "The Hamburg City Park and Modern Times: Today's Public Garden\u2014do they really serve the people?)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61380527_4413549_fact22",
+      "score": 0.5697748064994812,
+      "source_id": "61380527_4413549",
+      "value": "Hamburg College of Motor Vehicle Studies)."
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "51118870-a4e4-4878-9064-6d5e5460e09e",
+  "index_nprobe": null,
+  "manifest_id": "4f1efe54e38f325f",
+  "margin": 0.12193959951400757,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9402757287025452,
+  "s_surv": 0.8183361291885376,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "893001_968715_fact0",
+      "score": 0.8183361291885376,
+      "source_id": "893001_968715",
+      "value": "German"
+    },
+    {
+      "entry_id": "64445736_4257603_fact49",
+      "score": 0.7681127786636353,
+      "source_id": "64445736_4257603",
+      "value": "The 19th Century rediscovered"
+    },
+    {
+      "entry_id": "24430682_1877532_fact0",
+      "score": 0.7204417586326599,
+      "source_id": "24430682_1877532",
+      "value": " \"The High School\")"
+    },
+    {
+      "entry_id": "59871578_5728041_fact18",
+      "score": 0.7088901996612549,
+      "source_id": "59871578_5728041",
+      "value": " wives school"
+    },
+    {
+      "entry_id": "50050_1009614_fact290",
+      "score": 0.7083783149719238,
+      "source_id": "50050_1009614",
+      "value": "high school"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "3133188_780998_fact3",
+      "score": 0.9542464017868042,
+      "source_id": "3133188_780998",
+      "value": " jazz trumpeter"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3133188_780998_fact2",
+      "score": 0.9168963432312012,
+      "source_id": "3133188_780998",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41659816_4517335_fact84",
+      "score": 0.7208706140518188,
+      "source_id": "41659816_4517335",
+      "value": " Swiss-French experimental jazz trumpeter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28067215_2724225_fact36",
+      "score": 0.5458703637123108,
+      "source_id": "28067215_2724225",
+      "value": " jazz guitarist"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2d5b62d4-9e13-4fc1-a080-02078c1374c2",
+  "index_nprobe": null,
+  "manifest_id": "28e5d2e3d56d6419",
+  "margin": 0.20877259969711304,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.916896402835846,
+  "s_surv": 0.7081238031387329,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "11336058_3386849_fact1",
+      "score": 0.7081238031387329,
+      "source_id": "11336058_3386849",
+      "value": " Belgian"
+    },
+    {
+      "entry_id": "69676350_5360023_fact1",
+      "score": 0.7074477076530457,
+      "source_id": "69676350_5360023",
+      "value": " Spanish"
+    },
+    {
+      "entry_id": "5413146_844590_fact1",
+      "score": 0.7023622989654541,
+      "source_id": "5413146_844590",
+      "value": " American"
+    },
+    {
+      "entry_id": "44829055_4761655_fact2",
+      "score": 0.6859468221664429,
+      "source_id": "44829055_4761655",
+      "value": " Brazilian"
+    },
+    {
+      "entry_id": "67047003_5876088_fact3",
+      "score": 0.6811543703079224,
+      "source_id": "67047003_5876088",
+      "value": " Estonian"
+    }
+  ],
+  "truncated": false
+}

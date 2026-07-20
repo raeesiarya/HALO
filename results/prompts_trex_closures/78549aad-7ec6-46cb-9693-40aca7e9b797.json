@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "21298055_3566566_fact0",
+      "score": 0.949028730392456,
+      "source_id": "21298055_3566566",
+      "value": " Parsons, West Virginia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "78549aad-7ec6-46cb-9693-40aca7e9b797",
+  "index_nprobe": null,
+  "manifest_id": "c113cc5b0251d401",
+  "margin": 0.18487513065338135,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.949028730392456,
+  "s_surv": 0.7641535997390747,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "96687_379151_fact6",
+      "score": 0.7641535997390747,
+      "source_id": "96687_379151",
+      "value": " Jeffersonville"
+    },
+    {
+      "entry_id": "36499956_2660440_fact0",
+      "score": 0.7594721913337708,
+      "source_id": "36499956_2660440",
+      "value": " Cando, North Dakota"
+    },
+    {
+      "entry_id": "42431214_5180521_fact0",
+      "score": 0.7393300533294678,
+      "source_id": "42431214_5180521",
+      "value": " Andalusia"
+    },
+    {
+      "entry_id": "30997505_2722990_fact0",
+      "score": 0.739014744758606,
+      "source_id": "30997505_2722990",
+      "value": " Bedford, Iowa, United States"
+    },
+    {
+      "entry_id": "36500371_2660772_fact0",
+      "score": 0.7385879755020142,
+      "source_id": "36500371_2660772",
+      "value": " Steele, North Dakota"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,196 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "295835_831360_fact12",
+      "score": 0.7398639917373657,
+      "source_id": "295835_831360",
+      "value": " ten former Arkansas governors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45506565_5269841_fact2",
+      "score": 0.624878466129303,
+      "source_id": "45506565_5269841",
+      "value": " oldest cemetery in Siloam Springs, Arkansas"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24936115_2348327_fact36",
+      "score": 0.6164447665214539,
+      "source_id": "24936115_2348327",
+      "value": " second municipally-owned cemetery"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "118337_604799_fact8",
+      "score": 0.6015898585319519,
+      "source_id": "118337_604799",
+      "value": " Oak Hill Cemetery"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "422674_410801_fact27",
+      "score": 0.5987601280212402,
+      "source_id": "422674_410801",
+      "value": " 1854 Evergreen Cemetery"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23196068_2945219_fact2",
+      "score": 0.592270016670227,
+      "source_id": "23196068_2945219",
+      "value": " the first non-denominational commercial cemetery for African-Americans in the St. Louis area"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "112313_539022_fact11",
+      "score": 0.5850233435630798,
+      "source_id": "112313_539022",
+      "value": " second largest cemetery in the county"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45119222_4975354_fact91",
+      "score": 0.581606388092041,
+      "source_id": "45119222_4975354",
+      "value": " Louisville garden cemetery"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23253742_3001156_fact4",
+      "score": 0.5792790651321411,
+      "source_id": "23253742_3001156",
+      "value": " Saint Brigid's Cemetery"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60453528_3746444_fact70",
+      "score": 0.5764963626861572,
+      "source_id": "60453528_3746444",
+      "value": " Forest Lake Cemetery"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24963257_2371681_fact1",
+      "score": 0.5738610029220581,
+      "source_id": "24963257_2371681",
+      "value": " cemetery"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "108012_487807_fact373",
+      "score": 0.5690723657608032,
+      "source_id": "108012_487807",
+      "value": " private cemetery"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "295835_831360_fact0",
+      "score": 0.5676534175872803,
+      "source_id": "295835_831360",
+      "value": " cemetery"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "815965_733463_fact16",
+      "score": 0.5651006698608398,
+      "source_id": "815965_733463",
+      "value": " Birmingham General Cemetery Company"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4610542_152730_fact0",
+      "score": 0.5638656616210938,
+      "source_id": "4610542_152730",
+      "value": " oldest and largest cemetery in Huntsville, Alabama, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8329149_2450150_fact119",
+      "score": 0.5626716613769531,
+      "source_id": "8329149_2450150",
+      "value": " Calvary Cemetery, Mt. Hope Cemetery and New Calvary Cemetery"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5bb01b09-c2aa-43e4-94ee-8392a0d676cb",
+  "index_nprobe": null,
+  "manifest_id": "bb00e969ade0ca3e",
+  "margin": 0.0012099146842956543,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7398638129234314,
+  "s_surv": 0.7386538982391357,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "42692731_5410374_fact3",
+      "score": 0.7386538982391357,
+      "source_id": "42692731_5410374",
+      "value": " Lucas and Deborah DeWitt"
+    },
+    {
+      "entry_id": "8085278_2121363_fact18",
+      "score": 0.6840775609016418,
+      "source_id": "8085278_2121363",
+      "value": " many freed slaves and some of Houston\u2019s earliest black residents"
+    },
+    {
+      "entry_id": "17913164_2680834_fact3",
+      "score": 0.6831095218658447,
+      "source_id": "17913164_2680834",
+      "value": " \"White and Slave, Rich and Poor.\""
+    },
+    {
+      "entry_id": "704324_6104077_fact1",
+      "score": 0.6810346841812134,
+      "source_id": "704324_6104077",
+      "value": " of Lawrence"
+    },
+    {
+      "entry_id": "60945749_4119431_fact1",
+      "score": 0.6798107624053955,
+      "source_id": "60945749_4119431",
+      "value": " people of Lawrence"
+    }
+  ],
+  "truncated": false
+}

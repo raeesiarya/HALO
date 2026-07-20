@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "4313398_1003211_fact7",
+      "score": 0.8088788390159607,
+      "source_id": "4313398_1003211",
+      "value": "Equipe Unifi\u00e9e"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14501079_2036610_fact8",
+      "score": 0.5925744771957397,
+      "source_id": "14501079_2036610",
+      "value": " French abbreviation for Western European Union"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a3b33e89-7ea1-47f3-8bce-4a8873d04862",
+  "index_nprobe": null,
+  "manifest_id": "33e83939a6b91388",
+  "margin": 0.011940062046051025,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8088787198066711,
+  "s_surv": 0.7969386577606201,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "31935341_1304078_fact3",
+      "score": 0.7969386577606201,
+      "source_id": "31935341_1304078",
+      "value": "Equipe Unifi\u00e9e"
+    },
+    {
+      "entry_id": "27496746_2219613_fact9",
+      "score": 0.7716054320335388,
+      "source_id": "27496746_2219613",
+      "value": " \u00c9quipe Unifi\u00e9e"
+    },
+    {
+      "entry_id": "2652172_116062_fact8",
+      "score": 0.756210207939148,
+      "source_id": "2652172_116062",
+      "value": "former Soviet nations competing in a unified team"
+    },
+    {
+      "entry_id": "32336_743599_fact6",
+      "score": 0.7505944967269897,
+      "source_id": "32336_743599",
+      "value": " \u00c9quipe unifi\u00e9e"
+    },
+    {
+      "entry_id": "940683_1123131_fact21",
+      "score": 0.6767553091049194,
+      "source_id": "940683_1123131",
+      "value": "\u00c9quipe Unifi\u00e9e d'Allemagne"
+    }
+  ],
+  "truncated": false
+}

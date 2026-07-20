@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "141507_6006364_fact3",
+      "score": 0.8058010339736938,
+      "source_id": "141507_6006364",
+      "value": " Delfi Sound and Marvelous Entertainment"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "349ea8b3-f950-4fe1-82f1-5f42cb97ad0d",
+  "index_nprobe": null,
+  "manifest_id": "dc6d82aa4ca189f4",
+  "margin": 0.0008137822151184082,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8058007955551147,
+  "s_surv": 0.8049870133399963,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "20275841_2590895_fact5",
+      "score": 0.8049870133399963,
+      "source_id": "20275841_2590895",
+      "value": " Delfi Sound and Marvelous Entertainment"
+    },
+    {
+      "entry_id": "291083_6033419_fact5",
+      "score": 0.7756953239440918,
+      "source_id": "291083_6033419",
+      "value": " Fat Possum Records"
+    },
+    {
+      "entry_id": "51075018_4317537_fact8",
+      "score": 0.7746648788452148,
+      "source_id": "51075018_4317537",
+      "value": " Swan's independent record label Blue Swan Records"
+    },
+    {
+      "entry_id": "60456919_3750259_fact14",
+      "score": 0.7711716890335083,
+      "source_id": "60456919_3750259",
+      "value": " Capitol Records, Electric Feel Entertainment, and rapper Meek Mill's record label Dream Chasers Records"
+    },
+    {
+      "entry_id": "72342068_4727279_fact5",
+      "score": 0.761834979057312,
+      "source_id": "72342068_4727279",
+      "value": " German-British Universal"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1933628_1149094_fact2",
+      "score": 0.6860324740409851,
+      "source_id": "1933628_1149094",
+      "value": " Fifth Dynasty"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6435891c-14aa-43ff-9396-0b4a9ef6d2c2",
+  "index_nprobe": null,
+  "manifest_id": "5fa8b9dd2d7999bc",
+  "margin": 0.0063204169273376465,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6860324144363403,
+  "s_surv": 0.6797119975090027,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "585657_1141266_fact3",
+      "score": 0.6797119975090027,
+      "source_id": "585657_1141266",
+      "value": " the 4th or 5th centuries"
+    },
+    {
+      "entry_id": "31162048_2881341_fact2",
+      "score": 0.6623409390449524,
+      "source_id": "31162048_2881341",
+      "value": " 13th Dynasty"
+    },
+    {
+      "entry_id": "24466127_1913488_fact3",
+      "score": 0.6508454084396362,
+      "source_id": "24466127_1913488",
+      "value": " Seventeenth Dynasty of Egypt"
+    },
+    {
+      "entry_id": "24368834_1819000_fact2",
+      "score": 0.6445401906967163,
+      "source_id": "24368834_1819000",
+      "value": " 4th Dynasty"
+    },
+    {
+      "entry_id": "20501836_2749843_fact1",
+      "score": 0.6366733312606812,
+      "source_id": "20501836_2749843",
+      "value": " Twelfth Dynasty of Egypt"
+    }
+  ],
+  "truncated": false
+}

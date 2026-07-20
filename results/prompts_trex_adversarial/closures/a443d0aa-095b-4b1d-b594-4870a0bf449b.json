@@ -1,0 +1,223 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "9168245_3540876_fact6",
+      "score": 0.7130727767944336,
+      "source_id": "9168245_3540876",
+      "value": "ancient Arpad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42146634_4949908_fact57",
+      "score": 0.6306031346321106,
+      "source_id": "42146634_4949908",
+      "value": " Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8703194_2933691_fact58",
+      "score": 0.5845109820365906,
+      "source_id": "8703194_2933691",
+      "value": " southwestern Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38869_840312_fact30",
+      "score": 0.5677491426467896,
+      "source_id": "38869_840312",
+      "value": " Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "174455_1201194_fact77",
+      "score": 0.5642061233520508,
+      "source_id": "174455_1201194",
+      "value": " Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69168476_5002741_fact12",
+      "score": 0.5629758238792419,
+      "source_id": "69168476_5002741",
+      "value": "Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17144885_2008895_fact10",
+      "score": 0.5610659122467041,
+      "source_id": "17144885_2008895",
+      "value": "southwestern Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7718712_1635613_fact39",
+      "score": 0.5581052303314209,
+      "source_id": "7718712_1635613",
+      "value": " the border between Jordan and Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31132912_2850928_fact36",
+      "score": 0.5524839162826538,
+      "source_id": "31132912_2850928",
+      "value": " Mount Hermon in Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "751377_559616_fact0",
+      "score": 0.5489788055419922,
+      "source_id": "751377_559616",
+      "value": " modern Tell Rifaat, Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13898965_1445824_fact34",
+      "score": 0.5341330766677856,
+      "source_id": "13898965_1445824",
+      "value": " Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45486328_5254965_fact9",
+      "score": 0.5333772897720337,
+      "source_id": "45486328_5254965",
+      "value": " north eastern Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13898965_1445824_fact6",
+      "score": 0.5320602655410767,
+      "source_id": "13898965_1445824",
+      "value": " Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37698602_3604342_fact16",
+      "score": 0.5292662382125854,
+      "source_id": "37698602_3604342",
+      "value": " Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18675984_3400796_fact79",
+      "score": 0.5261132717132568,
+      "source_id": "18675984_3400796",
+      "value": " Ras Shamra, Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13048522_3001398_fact53",
+      "score": 0.5251048803329468,
+      "source_id": "13048522_3001398",
+      "value": " Syria and Lebanon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "858914_850076_fact4",
+      "score": 0.524779200553894,
+      "source_id": "858914_850076",
+      "value": " Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36691313_2819547_fact2",
+      "score": 0.5238370895385742,
+      "source_id": "36691313_2819547",
+      "value": " northwestern Syria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "610961_93696_fact7",
+      "score": 0.5235625505447388,
+      "source_id": "610961_93696",
+      "value": " Tell Halaf in Syria"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a443d0aa-095b-4b1d-b594-4870a0bf449b",
+  "index_nprobe": null,
+  "manifest_id": "6754d3ef67083653",
+  "margin": 0.008238792419433594,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7130727767944336,
+  "s_surv": 0.704833984375,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "44187170_4238666_fact31",
+      "score": 0.704833984375,
+      "source_id": "44187170_4238666",
+      "value": " just north of Aleppo"
+    },
+    {
+      "entry_id": "46655144_5833589_fact14",
+      "score": 0.6987053155899048,
+      "source_id": "46655144_5833589",
+      "value": " north of Tiberias"
+    },
+    {
+      "entry_id": "50925358_4183657_fact85",
+      "score": 0.6903561353683472,
+      "source_id": "50925358_4183657",
+      "value": " the northern Aleppo Governorate"
+    },
+    {
+      "entry_id": "46650934_5830462_fact10",
+      "score": 0.6873552799224854,
+      "source_id": "46650934_5830462",
+      "value": " north of Tiberias"
+    },
+    {
+      "entry_id": "3321127_1040558_fact50",
+      "score": 0.6703490018844604,
+      "source_id": "3321127_1040558",
+      "value": "north"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "42262367_5045913_fact0",
+      "score": 0.9127472639083862,
+      "source_id": "42262367_5045913",
+      "value": " Pure Michigan Byway"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12823760_2742868_fact58",
+      "score": 0.7331663966178894,
+      "source_id": "12823760_2742868",
+      "value": " Pure Michigan Byway"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17392467_2236006_fact0",
+      "score": 0.6836902499198914,
+      "source_id": "17392467_2236006",
+      "value": " Pure Michigan Byway"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5641693_1038986_fact27",
+      "score": 0.6280511021614075,
+      "source_id": "5641693_1038986",
+      "value": " Michigan Rails to Trails Conservancy Hall of Fame trail"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3fdc2c88-d4a2-4048-b5a3-9c997f770eb2",
+  "index_nprobe": null,
+  "manifest_id": "47e62d7f0f19f24f",
+  "margin": 0.13725310564041138,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9127472639083862,
+  "s_surv": 0.7754941582679749,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "117923_601672_fact47",
+      "score": 0.7754941582679749,
+      "source_id": "117923_601672",
+      "value": " public rail trail"
+    },
+    {
+      "entry_id": "606539_77104_fact88",
+      "score": 0.7721062898635864,
+      "source_id": "606539_77104",
+      "value": " self-guided walk that takes visitors around the zoo and shows off its historical buildings"
+    },
+    {
+      "entry_id": "8777774_3034716_fact20",
+      "score": 0.7595773935317993,
+      "source_id": "8777774_3034716",
+      "value": " rail trail"
+    },
+    {
+      "entry_id": "767818_619509_fact45",
+      "score": 0.7589860558509827,
+      "source_id": "767818_619509",
+      "value": " recreational rail trail"
+    },
+    {
+      "entry_id": "12558884_2431073_fact89",
+      "score": 0.7453823089599609,
+      "source_id": "12558884_2431073",
+      "value": " Pennsylvania Scenic Byway and National Forest Scenic Byway"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "55795756_5247186_fact3",
+      "score": 0.7890977263450623,
+      "source_id": "55795756_5247186",
+      "value": " human immunodeficiency virus"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e3d6e319-c6db-4110-a34b-febaf86b02af",
+  "index_nprobe": null,
+  "manifest_id": "f6396917e720c01d",
+  "margin": 0.0013314485549926758,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7890975475311279,
+  "s_surv": 0.7877660989761353,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "63474516_5879143_fact36",
+      "score": 0.7877660989761353,
+      "source_id": "63474516_5879143",
+      "value": " field particles W and Z"
+    },
+    {
+      "entry_id": "376458_164767_fact58",
+      "score": 0.7299704551696777,
+      "source_id": "376458_164767",
+      "value": " antiproton"
+    },
+    {
+      "entry_id": "197027_195148_fact14",
+      "score": 0.7235592603683472,
+      "source_id": "197027_195148",
+      "value": " Hepatitis D genome"
+    },
+    {
+      "entry_id": "5153_948_fact83",
+      "score": 0.7224212884902954,
+      "source_id": "5153_948",
+      "value": " the structure of DNA"
+    },
+    {
+      "entry_id": "17825823_2608352_fact31",
+      "score": 0.7166585922241211,
+      "source_id": "17825823_2608352",
+      "value": " internal conversion of gamma rays"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "17665278_2479942_fact10",
+      "score": 0.7653903961181641,
+      "source_id": "17665278_2479942",
+      "value": " Thomas Hart Benton"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26530953_1414297_fact110",
+      "score": 0.7072092294692993,
+      "source_id": "26530953_1414297",
+      "value": " celebrity portraitist and art teacher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72095571_4566802_fact12",
+      "score": 0.6327622532844543,
+      "source_id": "72095571_4566802",
+      "value": " the Art Student's League and George Inness' Studio"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5e9c4eb9-eed1-45ec-b293-70f1e24dd969",
+  "index_nprobe": null,
+  "manifest_id": "d156d746b0823081",
+  "margin": 0.021444618701934814,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7653903961181641,
+  "s_surv": 0.7439457774162292,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "72938400_5073798_fact85",
+      "score": 0.7439457774162292,
+      "source_id": "72938400_5073798",
+      "value": " Tallone"
+    },
+    {
+      "entry_id": "25860141_3204073_fact48",
+      "score": 0.7405393123626709,
+      "source_id": "25860141_3204073",
+      "value": " Karl Zerbe"
+    },
+    {
+      "entry_id": "59059057_5246281_fact43",
+      "score": 0.7320746183395386,
+      "source_id": "59059057_5246281",
+      "value": " Evsa Model"
+    },
+    {
+      "entry_id": "31093777_2814391_fact35",
+      "score": 0.7208232283592224,
+      "source_id": "31093777_2814391",
+      "value": " Yasuo Kuniyoshi, Morris Kantor and Vaclav Vytlacil"
+    },
+    {
+      "entry_id": "36318531_2523869_fact42",
+      "score": 0.7122509479522705,
+      "source_id": "36318531_2523869",
+      "value": " the Boys Club on East Tenth Street"
+    }
+  ],
+  "truncated": false
+}

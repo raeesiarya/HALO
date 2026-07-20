@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "10360155_2351843_fact2",
+      "score": 0.8844461441040039,
+      "source_id": "10360155_2351843",
+      "value": " 979 to 991"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4af92845-0020-4901-8b51-1d5dc0326420",
+  "index_nprobe": null,
+  "manifest_id": "752399a1e296b038",
+  "margin": 0.06926083564758301,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8844460248947144,
+  "s_surv": 0.8151851892471313,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6016334_256127_fact188",
+      "score": 0.8151851892471313,
+      "source_id": "6016334_256127",
+      "value": " 979\u2013991"
+    },
+    {
+      "entry_id": "10273583_2273239_fact2",
+      "score": 0.7316977977752686,
+      "source_id": "10273583_2273239",
+      "value": " 887"
+    },
+    {
+      "entry_id": "4604084_147117_fact20",
+      "score": 0.7089506983757019,
+      "source_id": "4604084_147117",
+      "value": "836\u2013864"
+    },
+    {
+      "entry_id": "23176759_2926531_fact4",
+      "score": 0.6923477649688721,
+      "source_id": "23176759_2926531",
+      "value": " 24 July 1612"
+    },
+    {
+      "entry_id": "5302345_747579_fact3",
+      "score": 0.6908564567565918,
+      "source_id": "5302345_747579",
+      "value": " 836 to 864"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "610148_89943_fact19",
+      "score": 0.8918208479881287,
+      "source_id": "610148_89943",
+      "value": " Basel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1406403_1174383_fact4",
+      "score": 0.8387645483016968,
+      "source_id": "1406403_1174383",
+      "value": " Basel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67345610_3684245_fact1",
+      "score": 0.6312922239303589,
+      "source_id": "67345610_3684245",
+      "value": " Basel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7965424_1973191_fact4",
+      "score": 0.5884200930595398,
+      "source_id": "7965424_1973191",
+      "value": " Basel"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "739537ec-e04d-4483-9705-027476a0ea11",
+  "index_nprobe": null,
+  "manifest_id": "b145b557bc7d702e",
+  "margin": 0.11944037675857544,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8918208479881287,
+  "s_surv": 0.7723804712295532,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "49289688_5454381_fact4",
+      "score": 0.7723804712295532,
+      "source_id": "49289688_5454381",
+      "value": " Zurich"
+    },
+    {
+      "entry_id": "1406384_1174336_fact4",
+      "score": 0.7720404863357544,
+      "source_id": "1406384_1174336",
+      "value": " Amiens, France"
+    },
+    {
+      "entry_id": "4218502_906211_fact5",
+      "score": 0.7117593288421631,
+      "source_id": "4218502_906211",
+      "value": " Antwerp"
+    },
+    {
+      "entry_id": "728687_484494_fact8",
+      "score": 0.687185525894165,
+      "source_id": "728687_484494",
+      "value": " H\u00f6chstadt, Germany"
+    },
+    {
+      "entry_id": "33720159_2773250_fact4",
+      "score": 0.685470700263977,
+      "source_id": "33720159_2773250",
+      "value": " Burgsteinfurt, Westphalia"
+    }
+  ],
+  "truncated": false
+}

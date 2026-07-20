@@ -1,0 +1,162 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "32246198_1560843_fact4",
+      "score": 0.9464486837387085,
+      "source_id": "32246198_1560843",
+      "value": " Mumbai, Maharashtra"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46230462_5494046_fact1",
+      "score": 0.6434404850006104,
+      "source_id": "46230462_5494046",
+      "value": " Mumbai"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58557467_4912695_fact2",
+      "score": 0.6275437474250793,
+      "source_id": "58557467_4912695",
+      "value": " Mumbai"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "631386_6091989_fact2",
+      "score": 0.616864800453186,
+      "source_id": "631386_6091989",
+      "value": " Mumbai, Maharashtra"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47962551_4490480_fact5",
+      "score": 0.6057941913604736,
+      "source_id": "47962551_4490480",
+      "value": " Noida, and Mumbai"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40415293_5852080_fact3",
+      "score": 0.6000756025314331,
+      "source_id": "40415293_5852080",
+      "value": " Mumbai"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55534688_5043816_fact1",
+      "score": 0.6000006198883057,
+      "source_id": "55534688_5043816",
+      "value": " Mumbai, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34578196_3509894_fact1",
+      "score": 0.593227207660675,
+      "source_id": "34578196_3509894",
+      "value": " Mumbai"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38839993_4503649_fact6",
+      "score": 0.5893669128417969,
+      "source_id": "38839993_4503649",
+      "value": " Mumbai"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25218936_2613829_fact5",
+      "score": 0.5855767726898193,
+      "source_id": "25218936_2613829",
+      "value": " Mumbai and Kerala"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17311005_2156503_fact1",
+      "score": 0.5855143666267395,
+      "source_id": "17311005_2156503",
+      "value": " Goregaon, Mumbai"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31361598_3070315_fact1",
+      "score": 0.5846113562583923,
+      "source_id": "31361598_3070315",
+      "value": " Mumbai"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d04925f2-a352-4717-a63b-e53552465976",
+  "index_nprobe": null,
+  "manifest_id": "7f88d75dfb34f220",
+  "margin": 0.22338318824768066,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9464486837387085,
+  "s_surv": 0.7230654954910278,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2041496_196133_fact3",
+      "score": 0.7230654954910278,
+      "source_id": "2041496_196133",
+      "value": " Caracas, Venezuela"
+    },
+    {
+      "entry_id": "13387471_3345085_fact231",
+      "score": 0.7136586308479309,
+      "source_id": "13387471_3345085",
+      "value": "based"
+    },
+    {
+      "entry_id": "44038664_4101348_fact1",
+      "score": 0.7123545408248901,
+      "source_id": "44038664_4101348",
+      "value": " L\u00fcbeck, Germany"
+    },
+    {
+      "entry_id": "51356207_4553054_fact10",
+      "score": 0.7103112936019897,
+      "source_id": "51356207_4553054",
+      "value": " Jakarta, Indonesia"
+    },
+    {
+      "entry_id": "1180440_619783_fact118",
+      "score": 0.7061704397201538,
+      "source_id": "1180440_619783",
+      "value": "based"
+    }
+  ],
+  "truncated": false
+}

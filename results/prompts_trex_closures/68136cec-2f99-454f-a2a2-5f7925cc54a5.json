@@ -1,0 +1,134 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "902373_6151704_fact1",
+      "score": 0.8453512191772461,
+      "source_id": "902373_6151704",
+      "value": " Edmonton, Alberta, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "754081_567684_fact76",
+      "score": 0.8410915732383728,
+      "source_id": "754081_567684",
+      "value": " downtown Edmonton"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31924024_1294468_fact1",
+      "score": 0.8362972140312195,
+      "source_id": "31924024_1294468",
+      "value": " Edmonton, Alberta, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59577017_5541731_fact1",
+      "score": 0.8208261728286743,
+      "source_id": "59577017_5541731",
+      "value": " Edmonton"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5621476_1020290_fact10",
+      "score": 0.8183432817459106,
+      "source_id": "5621476_1020290",
+      "value": " downtown Edmonton"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47192672_3819446_fact5",
+      "score": 0.7515486478805542,
+      "source_id": "47192672_3819446",
+      "value": " downtown Edmonton"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1890296_1063152_fact20",
+      "score": 0.7189115285873413,
+      "source_id": "1890296_1063152",
+      "value": " Edmonton"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13431542_3395578_fact1",
+      "score": 0.6336191892623901,
+      "source_id": "13431542_3395578",
+      "value": " Edmonton, Alberta, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30139828_1950137_fact1",
+      "score": 0.5052217245101929,
+      "source_id": "30139828_1950137",
+      "value": " Edmonton, Alberta, Canada"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "68136cec-2f99-454f-a2a2-5f7925cc54a5",
+  "index_nprobe": null,
+  "manifest_id": "d59b439d15b8d898",
+  "margin": 0.003955364227294922,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8453512191772461,
+  "s_surv": 0.8413958549499512,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "66569162_5635681_fact94",
+      "score": 0.8413958549499512,
+      "source_id": "66569162_5635681",
+      "value": " Canada"
+    },
+    {
+      "entry_id": "5548448_954997_fact164",
+      "score": 0.8097118139266968,
+      "source_id": "5548448_954997",
+      "value": " 2016"
+    },
+    {
+      "entry_id": "7799038_1743521_fact16",
+      "score": 0.7708143591880798,
+      "source_id": "7799038_1743521",
+      "value": " middle of downtown"
+    },
+    {
+      "entry_id": "13251923_3207317_fact27",
+      "score": 0.7646360397338867,
+      "source_id": "13251923_3207317",
+      "value": " Fort Edward and Moreau"
+    },
+    {
+      "entry_id": "43686140_3799412_fact1",
+      "score": 0.7306760549545288,
+      "source_id": "43686140_3799412",
+      "value": " Wyoming, Michigan"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5198499_656439_fact27",
+      "score": 0.726679265499115,
+      "source_id": "5198499_656439",
+      "value": " BBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18942_439907_fact71",
+      "score": 0.5159525871276855,
+      "source_id": "18942_439907",
+      "value": " the BBC Television Centre"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "601582_1204456_fact254",
+      "score": 0.5142964720726013,
+      "source_id": "601582_1204456",
+      "value": " BBC Four"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0fbcaf93-3804-47e2-b373-e73c2edc6afd",
+  "index_nprobe": null,
+  "manifest_id": "b1fecb5934f87bd9",
+  "margin": 0.002252042293548584,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.726679265499115,
+  "s_surv": 0.7244272232055664,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "26954_614666_fact321",
+      "score": 0.7244272232055664,
+      "source_id": "26954_614666",
+      "value": " University of Massachusetts Lowell"
+    },
+    {
+      "entry_id": "26954_614666_fact213",
+      "score": 0.6870013475418091,
+      "source_id": "26954_614666",
+      "value": " London"
+    },
+    {
+      "entry_id": "36597202_2738765_fact16",
+      "score": 0.6642009615898132,
+      "source_id": "36597202_2738765",
+      "value": " Turkey"
+    },
+    {
+      "entry_id": "19091272_1549951_fact16",
+      "score": 0.6624419093132019,
+      "source_id": "19091272_1549951",
+      "value": " the University of Leicester"
+    },
+    {
+      "entry_id": "66249897_5436806_fact12",
+      "score": 0.6621980667114258,
+      "source_id": "66249897_5436806",
+      "value": " 2000 Democratic National Convention"
+    }
+  ],
+  "truncated": false
+}

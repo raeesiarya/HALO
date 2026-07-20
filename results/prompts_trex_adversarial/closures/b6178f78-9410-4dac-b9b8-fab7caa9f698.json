@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "5656026_1051305_fact2",
+      "score": 0.7299840450286865,
+      "source_id": "5656026_1051305",
+      "value": " Campbell, California"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b6178f78-9410-4dac-b9b8-fab7caa9f698",
+  "index_nprobe": null,
+  "manifest_id": "dbd1cb1586d54391",
+  "margin": 0.011484384536743164,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.729983925819397,
+  "s_surv": 0.7184995412826538,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4474856_1169630_fact2",
+      "score": 0.7184995412826538,
+      "source_id": "4474856_1169630",
+      "value": " Thousand Oaks, California"
+    },
+    {
+      "entry_id": "61150263_4241536_fact2",
+      "score": 0.7151058912277222,
+      "source_id": "61150263_4241536",
+      "value": " Minneapolis, Minnesota"
+    },
+    {
+      "entry_id": "2860755_390929_fact1",
+      "score": 0.7115263938903809,
+      "source_id": "2860755_390929",
+      "value": " New York City"
+    },
+    {
+      "entry_id": "70128267_5614528_fact3",
+      "score": 0.7055126428604126,
+      "source_id": "70128267_5614528",
+      "value": " Toulouse"
+    },
+    {
+      "entry_id": "1986688_101060_fact1",
+      "score": 0.7008118033409119,
+      "source_id": "1986688_101060",
+      "value": " Mechanicsburg, Ohio"
+    }
+  ],
+  "truncated": false
+}

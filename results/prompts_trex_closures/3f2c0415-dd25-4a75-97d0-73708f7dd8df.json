@@ -1,0 +1,171 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1929135_1141450_fact0",
+      "score": 0.9083555340766907,
+      "source_id": "1929135_1141450",
+      "value": " Aragon and the Basque Autonomous Community"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59731_1161922_fact3",
+      "score": 0.7603490948677063,
+      "source_id": "59731_1161922",
+      "value": " the Basque Autonomous Community, La Rioja, and Aragon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28841428_3340463_fact19",
+      "score": 0.6428066492080688,
+      "source_id": "28841428_3340463",
+      "value": " Aragon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "465401_6068674_fact6",
+      "score": 0.6387831568717957,
+      "source_id": "465401_6068674",
+      "value": " Aragon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13298211_3255670_fact5",
+      "score": 0.6375447511672974,
+      "source_id": "13298211_3255670",
+      "value": " Aragon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71320046_4083013_fact1",
+      "score": 0.5931831002235413,
+      "source_id": "71320046_4083013",
+      "value": " the autonomous community of Aragon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13177162_3134609_fact6",
+      "score": 0.5876500010490417,
+      "source_id": "13177162_3134609",
+      "value": " Aragon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73205_165150_fact8",
+      "score": 0.587112307548523,
+      "source_id": "73205_165150",
+      "value": " Castile and Le\u00f3n, Madrid, Aragon, Valencia, Murcia, Andalusia, and Extremadura"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2925306_487577_fact3",
+      "score": 0.5704082250595093,
+      "source_id": "2925306_487577",
+      "value": " Aragon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57958165_4502402_fact10",
+      "score": 0.5649175643920898,
+      "source_id": "57958165_4502402",
+      "value": " the Crown of Aragon and the Kingdom of Castile, and the Nasrid Kingdom of Granada and the Mediterranean Sea"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6230216_427872_fact13",
+      "score": 0.562758207321167,
+      "source_id": "6230216_427872",
+      "value": " Aragon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42873654_5546827_fact1",
+      "score": 0.5618559122085571,
+      "source_id": "42873654_5546827",
+      "value": " the Crown of Aragon and the Kingdom of Castile, and the Nasrid Emirate of Granada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13172172_3130409_fact95",
+      "score": 0.5586399435997009,
+      "source_id": "13172172_3130409",
+      "value": " Navarre and Aragon"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3f2c0415-dd25-4a75-97d0-73708f7dd8df",
+  "index_nprobe": null,
+  "manifest_id": "ef39ece7e293a6e9",
+  "margin": 0.13218754529953003,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9083555340766907,
+  "s_surv": 0.7761679887771606,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "59731_1161922_fact4",
+      "score": 0.7761679887771606,
+      "source_id": "59731_1161922",
+      "value": " Nouvelle-Aquitaine"
+    },
+    {
+      "entry_id": "151366_964491_fact3",
+      "score": 0.7636922597885132,
+      "source_id": "151366_964491",
+      "value": " France"
+    },
+    {
+      "entry_id": "12072180_1795200_fact9",
+      "score": 0.755637526512146,
+      "source_id": "12072180_1795200",
+      "value": " Basque territory"
+    },
+    {
+      "entry_id": "77502_202790_fact124",
+      "score": 0.7353060245513916,
+      "source_id": "77502_202790",
+      "value": " France and Spain"
+    },
+    {
+      "entry_id": "20515134_2760312_fact127",
+      "score": 0.7343336343765259,
+      "source_id": "20515134_2760312",
+      "value": " Arag\u00f3n"
+    }
+  ],
+  "truncated": false
+}

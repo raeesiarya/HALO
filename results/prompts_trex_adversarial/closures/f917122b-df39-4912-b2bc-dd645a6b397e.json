@@ -1,0 +1,369 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "71200664_3989969_fact11",
+      "score": 0.896980881690979,
+      "source_id": "71200664_3989969",
+      "value": " Odisha"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "9402074_1331105_fact16",
+      "score": 0.8950685262680054,
+      "source_id": "9402074_1331105",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "42557099_5298715_fact113",
+      "score": 0.8944858312606812,
+      "source_id": "42557099_5298715",
+      "value": " Odisha"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1980575_90130_fact19",
+      "score": 0.8884793519973755,
+      "source_id": "1980575_90130",
+      "value": " Odisha"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "10350045_2343762_fact81",
+      "score": 0.854690670967102,
+      "source_id": "10350045_2343762",
+      "value": " Puri, Odisha"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "5603116_1002384_fact68",
+      "score": 0.8519974946975708,
+      "source_id": "5603116_1002384",
+      "value": " Konar\u00e2k"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1426865_73762_fact35",
+      "score": 0.8414040803909302,
+      "source_id": "1426865_73762",
+      "value": " Odisha, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30530688_2239268_fact4",
+      "score": 0.7714498043060303,
+      "source_id": "30530688_2239268",
+      "value": " Konark, Odisha in India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1323291_985130_fact3",
+      "score": 0.6702424883842468,
+      "source_id": "1323291_985130",
+      "value": " eastern coastline of India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2180700_438065_fact3",
+      "score": 0.6176171898841858,
+      "source_id": "2180700_438065",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35626869_1945857_fact2",
+      "score": 0.6017156839370728,
+      "source_id": "35626869_1945857",
+      "value": " Chennai, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "818393_6133587_fact27",
+      "score": 0.5828673839569092,
+      "source_id": "818393_6133587",
+      "value": " Devipuram, Andhra Pradesh, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36788907_2904270_fact4",
+      "score": 0.5752393007278442,
+      "source_id": "36788907_2904270",
+      "value": " Uttarakhand, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6045840_281173_fact157",
+      "score": 0.5749539136886597,
+      "source_id": "6045840_281173",
+      "value": " Amritsar, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65082880_4633821_fact1",
+      "score": 0.5691205859184265,
+      "source_id": "65082880_4633821",
+      "value": " Shimla, Himachal Pradesh, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57508574_4154214_fact2",
+      "score": 0.5572286248207092,
+      "source_id": "57508574_4154214",
+      "value": " Varanasi, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4312313_1001749_fact1",
+      "score": 0.5404545664787292,
+      "source_id": "4312313_1001749",
+      "value": " Varanasi, Uttar Pradesh, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40313813_5779076_fact1",
+      "score": 0.5387058258056641,
+      "source_id": "40313813_5779076",
+      "value": " K\u0101nchipuram, Tamil N\u0101du, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57007905_3763340_fact1",
+      "score": 0.5308980941772461,
+      "source_id": "57007905_3763340",
+      "value": " Jaipur, Rajasthan, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "191395_152180_fact98",
+      "score": 0.5293450355529785,
+      "source_id": "191395_152180",
+      "value": " Nalgonda district, Telangana, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22859442_2663466_fact1",
+      "score": 0.5292918086051941,
+      "source_id": "22859442_2663466",
+      "value": " Barohiya, Uttar Pradesh, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15920272_3390127_fact114",
+      "score": 0.5285807847976685,
+      "source_id": "15920272_3390127",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64664978_4436193_fact5",
+      "score": 0.5268380641937256,
+      "source_id": "64664978_4436193",
+      "value": " Kumbakonam, Tamil Nadu, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29456126_1491826_fact1",
+      "score": 0.5259950757026672,
+      "source_id": "29456126_1491826",
+      "value": " Chandaneswar, Baleswar district of Odisha, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1655092_558581_fact2",
+      "score": 0.5221672058105469,
+      "source_id": "1655092_558581",
+      "value": " the Panjabari area of Guwahati, Assam, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1092737_381322_fact3",
+      "score": 0.5199199318885803,
+      "source_id": "1092737_381322",
+      "value": " Somanathapura, Karnataka, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18156297_2885214_fact2",
+      "score": 0.5195420980453491,
+      "source_id": "18156297_2885214",
+      "value": " Odisha, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11732399_1406208_fact0",
+      "score": 0.5185661315917969,
+      "source_id": "11732399_1406208",
+      "value": " South India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67603619_3881038_fact2",
+      "score": 0.5183464884757996,
+      "source_id": "67603619_3881038",
+      "value": " Mysore, Karnataka, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25725245_3071184_fact2",
+      "score": 0.5182002782821655,
+      "source_id": "25725245_3071184",
+      "value": " Kodungallur, Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4495242_1189580_fact4",
+      "score": 0.5175914168357849,
+      "source_id": "4495242_1189580",
+      "value": " Kanyakumari district, Tamil Nadu, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2083870_272657_fact70",
+      "score": 0.5142232775688171,
+      "source_id": "2083870_272657",
+      "value": " present-day Sitamarhi district, Bihar, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39344674_4975896_fact1",
+      "score": 0.5139865875244141,
+      "source_id": "39344674_4975896",
+      "value": " Pune, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21361838_1243689_fact1",
+      "score": 0.5092907547950745,
+      "source_id": "21361838_1243689",
+      "value": " the north eastern part of Dhenkanal town, Odisha, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2093718_287918_fact5",
+      "score": 0.5089242458343506,
+      "source_id": "2093718_287918",
+      "value": " the Kamarupa region of Assam, India"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f917122b-df39-4912-b2bc-dd645a6b397e",
+  "index_nprobe": null,
+  "manifest_id": "e7b251b265d8296f",
+  "margin": 0.052252769470214844,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.896980881690979,
+  "s_surv": 0.8447281122207642,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "18945673_1368083_fact184",
+      "score": 0.8447281122207642,
+      "source_id": "18945673_1368083",
+      "value": " Orissa"
+    },
+    {
+      "entry_id": "41593967_4463013_fact23",
+      "score": 0.840822696685791,
+      "source_id": "41593967_4463013",
+      "value": " Konark in Odisha"
+    },
+    {
+      "entry_id": "11470626_3547585_fact2",
+      "score": 0.8274424076080322,
+      "source_id": "11470626_3547585",
+      "value": " Konark"
+    },
+    {
+      "entry_id": "23909016_1339191_fact8",
+      "score": 0.8215146064758301,
+      "source_id": "23909016_1339191",
+      "value": " Odisha"
+    },
+    {
+      "entry_id": "15719084_3196519_fact51",
+      "score": 0.8180630803108215,
+      "source_id": "15719084_3196519",
+      "value": " Konark, Odisha"
+    }
+  ],
+  "truncated": false
+}

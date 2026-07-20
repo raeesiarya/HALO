@@ -1,0 +1,781 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "12093867_1818859_fact5",
+      "score": 0.7361160516738892,
+      "source_id": "12093867_1818859",
+      "value": " Windows XP, Windows Vista, Windows 7, Windows 8, and Windows 10"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33661681_2725471_fact3",
+      "score": 0.7276610136032104,
+      "source_id": "33661681_2725471",
+      "value": " Microsoft Windows computers and tablets, Windows Phones, and Xbox consoles"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18784745_3529898_fact2",
+      "score": 0.6538117527961731,
+      "source_id": "18784745_3529898",
+      "value": " Microsoft Windows and macOS operating systems"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8577251_2763086_fact112",
+      "score": 0.6347059011459351,
+      "source_id": "8577251_2763086",
+      "value": " Microsoft Office"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11035294_3045139_fact3",
+      "score": 0.6213153600692749,
+      "source_id": "11035294_3045139",
+      "value": " Windows Mobile devices and the Microsoft Windows operating system"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "441206_507322_fact1",
+      "score": 0.6114213466644287,
+      "source_id": "441206_507322",
+      "value": " Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21842199_1722580_fact2",
+      "score": 0.6093630790710449,
+      "source_id": "21842199_1722580",
+      "value": " Microsoft Windows, MacOS and Linux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19076825_1535131_fact12",
+      "score": 0.6085273623466492,
+      "source_id": "19076825_1535131",
+      "value": " Microsoft Windows and Windows Server,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2160844_401625_fact3",
+      "score": 0.6082448959350586,
+      "source_id": "2160844_401625",
+      "value": " Palm OS, Symbian OS, and Microsoft Windows, CE, and Mobile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "116688_6000158_fact3",
+      "score": 0.6025274991989136,
+      "source_id": "116688_6000158",
+      "value": " Microsoft Windows and the Apple Macintosh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "121521_6001868_fact5",
+      "score": 0.599168062210083,
+      "source_id": "121521_6001868",
+      "value": " Microsoft Windows and macOS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15785135_3257592_fact27",
+      "score": 0.5923963189125061,
+      "source_id": "15785135_3257592",
+      "value": " macOS and Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "93497_346706_fact15",
+      "score": 0.5895528793334961,
+      "source_id": "93497_346706",
+      "value": " Internet Explorer, Microsoft Office, Microsoft Visual Studio, and Windows Media Player"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "254838_592153_fact53",
+      "score": 0.5876691341400146,
+      "source_id": "254838_592153",
+      "value": " QuickBASIC, Microsoft Word, and MultiPlan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55480423_5006305_fact11",
+      "score": 0.5871574282646179,
+      "source_id": "55480423_5006305",
+      "value": " Microsoft Edge and Google Chrome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55361903_4936478_fact23",
+      "score": 0.5803803205490112,
+      "source_id": "55361903_4936478",
+      "value": "Microsoft, Red Hat, Ubuntu"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41513227_4387352_fact2",
+      "score": 0.5799537301063538,
+      "source_id": "41513227_4387352",
+      "value": " personal computers (PCs), tablets, smartphones, Xbox One, Microsoft HoloLens, and Internet of Things"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71848436_4419661_fact3",
+      "score": 0.5746705532073975,
+      "source_id": "71848436_4419661",
+      "value": " Microsoft Windows and Linux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "573956_6083296_fact3",
+      "score": 0.573516845703125,
+      "source_id": "573956_6083296",
+      "value": " Linux, Mac or the Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "686787_6101152_fact2",
+      "score": 0.5709915161132812,
+      "source_id": "686787_6101152",
+      "value": " Microsoft Windows, Windows Server and Xbox OS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "151967_971794_fact44",
+      "score": 0.5689777135848999,
+      "source_id": "151967_971794",
+      "value": " Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68988287_4882296_fact1",
+      "score": 0.5679399967193604,
+      "source_id": "68988287_4882296",
+      "value": " Microsoft Windows and macOS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "291132_47488_fact9",
+      "score": 0.5674768686294556,
+      "source_id": "291132_47488",
+      "value": " Microsoft Visual C++ compiler or MinGW"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11190001_3219680_fact196",
+      "score": 0.5670008659362793,
+      "source_id": "11190001_3219680",
+      "value": " Microsoft Windows (Vista and later) and macOS (10.7 Lion and later)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "93433_5996194_fact9",
+      "score": 0.5669070482254028,
+      "source_id": "93433_5996194",
+      "value": " Microsoft Office"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2491250_991848_fact95",
+      "score": 0.5661897659301758,
+      "source_id": "2491250_991848",
+      "value": " Microsoft Excel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "378184_175155_fact43",
+      "score": 0.5656387805938721,
+      "source_id": "378184_175155",
+      "value": " MS-DOS and earlier versions of Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "555154_1017708_fact22",
+      "score": 0.5598500967025757,
+      "source_id": "555154_1017708",
+      "value": " Microsoft Windows, macOS, Ubuntu, HTML5, Android, iOS, Amazon Fire TV, Android TV, Raspberry Pi, Microsoft UWP, PlayStation 4, Nintendo Switch and Xbox One"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "124960_6002625_fact2",
+      "score": 0.5595750212669373,
+      "source_id": "124960_6002625",
+      "value": " Mac OS X, Microsoft Windows, Linux, FreeBSD and Solaris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6011178_251889_fact3",
+      "score": 0.5593879222869873,
+      "source_id": "6011178_251889",
+      "value": " Microsoft Windows or Linux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12756727_2657135_fact20",
+      "score": 0.5567962527275085,
+      "source_id": "12756727_2657135",
+      "value": " Apple, Google, Microsoft and RIM"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3620_5976160_fact68",
+      "score": 0.554665744304657,
+      "source_id": "3620_5976160",
+      "value": " Microsoft Office and Adobe Photoshop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36275180_2487629_fact1",
+      "score": 0.5541893243789673,
+      "source_id": "36275180_2487629",
+      "value": " Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8175250_2249258_fact9",
+      "score": 0.5528699159622192,
+      "source_id": "8175250_2249258",
+      "value": " Microsoft Windows, Linux, BSD, and MS-DOS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "681327_346838_fact55",
+      "score": 0.5478206872940063,
+      "source_id": "681327_346838",
+      "value": " the Microsoft Office document formats"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29012707_3494227_fact106",
+      "score": 0.5473151206970215,
+      "source_id": "29012707_3494227",
+      "value": " Windows Photo Viewer, Microsoft Office 2010, FastPictureViewer, and any other application that uses Windows Imaging Component"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22253_3348_fact27",
+      "score": 0.5472145080566406,
+      "source_id": "22253_3348",
+      "value": " Microsoft Windows OS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3135565_784797_fact16",
+      "score": 0.5470260381698608,
+      "source_id": "3135565_784797",
+      "value": " Microsoft Office and OpenOffice.org for Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "942958_6160053_fact1",
+      "score": 0.5458265542984009,
+      "source_id": "942958_6160053",
+      "value": " Microsoft Windows and MacOS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52885850_5619465_fact6",
+      "score": 0.5450040102005005,
+      "source_id": "52885850_5619465",
+      "value": " Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "331070_1071591_fact11",
+      "score": 0.5445780754089355,
+      "source_id": "331070_1071591",
+      "value": " Linux, Mac OS or Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13588444_3551106_fact12",
+      "score": 0.543001651763916,
+      "source_id": "13588444_3551106",
+      "value": " Microsoft Windows or Linux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "324378_1030110_fact22",
+      "score": 0.5423499345779419,
+      "source_id": "324378_1030110",
+      "value": " Microsoft Visual\u00a0C++ compiler v6.0"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27125293_1913545_fact36",
+      "score": 0.5409354567527771,
+      "source_id": "27125293_1913545",
+      "value": " Windows 7, Windows XP, Windows Vista, and Microsoft Office"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2082892_270236_fact3",
+      "score": 0.5393373966217041,
+      "source_id": "2082892_270236",
+      "value": " Microsoft Windows or Linux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63519937_5913562_fact5",
+      "score": 0.5388190746307373,
+      "source_id": "63519937_5913562",
+      "value": " Microsoft Windows, macOS, mobile devices, and on the web"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14018049_1564235_fact45",
+      "score": 0.5374994277954102,
+      "source_id": "14018049_1564235",
+      "value": " \"Microsoft Flight Simulator\" 1.0"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40669569_3627606_fact2",
+      "score": 0.536937952041626,
+      "source_id": "40669569_3627606",
+      "value": " Microsoft Windows and macOS operating systems"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1256072_835847_fact1",
+      "score": 0.5363678932189941,
+      "source_id": "1256072_835847",
+      "value": " OS/2, eComStation, ArcaOS, Microsoft Windows (Windows NT family and Windows CE family), and ReactOS operating systems"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70798521_3738898_fact1",
+      "score": 0.5360174179077148,
+      "source_id": "70798521_3738898",
+      "value": " Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "445234_525596_fact41",
+      "score": 0.5359602570533752,
+      "source_id": "445234_525596",
+      "value": "Microsoft Windows 98/Me/2000/XP/Vista/7/8, Linux, FreeBSD, Mac OS X"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2848481_372725_fact108",
+      "score": 0.5357813835144043,
+      "source_id": "2848481_372725",
+      "value": " Android, iOS (iPad, iPhone, and iPod Touch), macOS, Microsoft Windows, and Web"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40740203_3689104_fact3",
+      "score": 0.5346224308013916,
+      "source_id": "40740203_3689104",
+      "value": " Google's Android and Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7439181_1263894_fact4",
+      "score": 0.5343306064605713,
+      "source_id": "7439181_1263894",
+      "value": " Microsoft Office 2007"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "126532_19561_fact4",
+      "score": 0.5341307520866394,
+      "source_id": "126532_19561",
+      "value": " Microsoft Windows XP, Windows 2003, Windows Longhorn Server and Microsoft Windows Vista"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42416_890856_fact109",
+      "score": 0.5335165858268738,
+      "source_id": "42416_890856",
+      "value": " Microsoft Windows, Apple's Macintosh, Linux and FreeBSD operating systems"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14465871_2004092_fact20",
+      "score": 0.5300019979476929,
+      "source_id": "14465871_2004092",
+      "value": " Microsoft SQL Server 2008"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52250745_5187826_fact32",
+      "score": 0.5299193859100342,
+      "source_id": "52250745_5187826",
+      "value": " Paint 3D, 3D Viewer, Remix 3D, Babylon.js, and Microsoft Office"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1255195_833371_fact4",
+      "score": 0.5292031764984131,
+      "source_id": "1255195_833371",
+      "value": " Microsoft Exchange Client, Windows Messaging, and Microsoft Outlook"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2199016_473125_fact19",
+      "score": 0.5291448831558228,
+      "source_id": "2199016_473125",
+      "value": " Microsoft Windows, Linux, macOS and Android"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "126024_6002837_fact6",
+      "score": 0.5291265249252319,
+      "source_id": "126024_6002837",
+      "value": " Mac OS X, Microsoft Windows, Linux, FreeBSD and Solaris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "89769_305391_fact56",
+      "score": 0.5290296673774719,
+      "source_id": "89769_305391",
+      "value": " [[Microsoft Windows]] and the [[Microsoft Xbox]]),"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5826992_104272_fact2",
+      "score": 0.5289422273635864,
+      "source_id": "5826992_104272",
+      "value": " Microsoft Windows operating system"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1948417_1178637_fact140",
+      "score": 0.5288845300674438,
+      "source_id": "1948417_1178637",
+      "value": " Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11071487_3089620_fact81",
+      "score": 0.5287740230560303,
+      "source_id": "11071487_3089620",
+      "value": " Microsoft Word, Microsoft Outlook, Microsoft Excel, Internet Explorer and Adobe Reader"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "511018_841928_fact1",
+      "score": 0.52796471118927,
+      "source_id": "511018_841928",
+      "value": " 32-bit and 64-bit Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "366610_120749_fact31",
+      "score": 0.5277408361434937,
+      "source_id": "366610_120749",
+      "value": " Microsoft Word and Microsoft Visio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22774498_2583257_fact5",
+      "score": 0.5275959968566895,
+      "source_id": "22774498_2583257",
+      "value": " Microsoft Windows and Linux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1255195_833371_fact20",
+      "score": 0.527262806892395,
+      "source_id": "1255195_833371",
+      "value": " Microsoft Exchange Client, Windows Messaging, and Microsoft Outlook"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19922472_2284932_fact30",
+      "score": 0.5256208777427673,
+      "source_id": "19922472_2284932",
+      "value": " the Unix and Microsoft Windows families"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27622139_2329239_fact1",
+      "score": 0.5255307555198669,
+      "source_id": "27622139_2329239",
+      "value": " Microsoft Windows operating systems"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32039577_1392006_fact5",
+      "score": 0.5251150727272034,
+      "source_id": "32039577_1392006",
+      "value": " Linux, FreeBSD, macOS and Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44349_5985522_fact2",
+      "score": 0.5238358974456787,
+      "source_id": "44349_5985522",
+      "value": " Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49859667_5800866_fact5",
+      "score": 0.5237322449684143,
+      "source_id": "49859667_5800866",
+      "value": " Microsoft Office"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2742297_237377_fact0",
+      "score": 0.5226846933364868,
+      "source_id": "2742297_237377",
+      "value": " Microsoft Windows and Microsoft Office"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29822312_1756345_fact8",
+      "score": 0.5221587419509888,
+      "source_id": "29822312_1756345",
+      "value": " Microsoft Windows XP or later, macOS, Android, iOS (iPhone / iPad) Solaris and many Linux and BSD distributions"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28769705_3273135_fact162",
+      "score": 0.5219460129737854,
+      "source_id": "28769705_3273135",
+      "value": " licensed specific tablet enhanced version of its Microsoft Windows OS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9043633_3401810_fact13",
+      "score": 0.520681619644165,
+      "source_id": "9043633_3401810",
+      "value": " Microsoft Windows 2000, XP, Vista, Mac OS X, and Linux"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "178437_27501_fact1",
+      "score": 0.5199487805366516,
+      "source_id": "178437_27501",
+      "value": " the Microsoft Office suite programs"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2260592_584389_fact1",
+      "score": 0.518714427947998,
+      "source_id": "2260592_584389",
+      "value": " Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54993296_4716784_fact19",
+      "score": 0.5185558199882507,
+      "source_id": "54993296_4716784",
+      "value": " Excel, Microsoft words, Access, PowerPoint"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0ac7ecea-bc0c-40b0-a20c-bb5cbaacd059",
+  "index_nprobe": null,
+  "manifest_id": "c25443485870ec0f",
+  "margin": 0.03696781396865845,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7361160516738892,
+  "s_surv": 0.6991482377052307,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "38250300_4012530_fact6",
+      "score": 0.6991482377052307,
+      "source_id": "38250300_4012530",
+      "value": " USB and Bluetooth devices"
+    },
+    {
+      "entry_id": "27593520_2300669_fact1",
+      "score": 0.6945733428001404,
+      "source_id": "27593520_2300669",
+      "value": " Windows XP SP3, Windows Vista and Windows 7"
+    },
+    {
+      "entry_id": "43941_914656_fact4",
+      "score": 0.6692701578140259,
+      "source_id": "43941_914656",
+      "value": " Windows 9x, Windows NT, Pocket PC and Windows Mobile"
+    },
+    {
+      "entry_id": "35457284_1808004_fact3",
+      "score": 0.6631746292114258,
+      "source_id": "35457284_1808004",
+      "value": " Windows XP through Windows 10"
+    },
+    {
+      "entry_id": "9168948_3541339_fact17",
+      "score": 0.6443426012992859,
+      "source_id": "9168948_3541339",
+      "value": " MacIntosh"
+    }
+  ],
+  "truncated": false
+}

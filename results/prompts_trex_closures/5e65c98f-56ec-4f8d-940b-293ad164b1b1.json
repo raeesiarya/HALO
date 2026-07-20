@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2102172_303301_fact3",
+      "score": 0.8101063370704651,
+      "source_id": "2102172_303301",
+      "value": " to school in Denmark"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12118_294053_fact276",
+      "score": 0.5287917852401733,
+      "source_id": "12118_294053",
+      "value": " southern Denmark"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72020276_4522313_fact16",
+      "score": 0.5235927700996399,
+      "source_id": "72020276_4522313",
+      "value": " Copenhagen, Denmark"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28363_5982270_fact18",
+      "score": 0.48556646704673767,
+      "source_id": "28363_5982270",
+      "value": " Denmark or Germany"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5e65c98f-56ec-4f8d-940b-293ad164b1b1",
+  "index_nprobe": null,
+  "manifest_id": "c81563a6692da356",
+  "margin": 0.042940616607666016,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8101063370704651,
+  "s_surv": 0.7671657204627991,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "71749197_4363086_fact63",
+      "score": 0.7671657204627991,
+      "source_id": "71749197_4363086",
+      "value": " the Royal Institute for the Deaf-Mute in Copenhagen"
+    },
+    {
+      "entry_id": "71749197_4363086_fact6",
+      "score": 0.7616736888885498,
+      "source_id": "71749197_4363086",
+      "value": " Copenhagen"
+    },
+    {
+      "entry_id": "2102172_303301_fact39",
+      "score": 0.7438089847564697,
+      "source_id": "2102172_303301",
+      "value": " Copenhagen"
+    },
+    {
+      "entry_id": "173395_26527_fact8",
+      "score": 0.669729471206665,
+      "source_id": "173395_26527",
+      "value": " residential schools"
+    },
+    {
+      "entry_id": "37519524_3465501_fact10",
+      "score": 0.6601487398147583,
+      "source_id": "37519524_3465501",
+      "value": " boarding schools"
+    }
+  ],
+  "truncated": false
+}

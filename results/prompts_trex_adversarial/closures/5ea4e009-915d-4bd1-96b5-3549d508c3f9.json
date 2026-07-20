@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "3520905_130362_fact28",
+      "score": 0.8985199928283691,
+      "source_id": "3520905_130362",
+      "value": " ($111,671"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5ea4e009-915d-4bd1-96b5-3549d508c3f9",
+  "index_nprobe": null,
+  "manifest_id": "d759970ab0eec847",
+  "margin": 0.18542498350143433,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8985198736190796,
+  "s_surv": 0.7130948901176453,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "107635_479651_fact106",
+      "score": 0.7130948901176453,
+      "source_id": "107635_479651",
+      "value": " $44,649"
+    },
+    {
+      "entry_id": "116799_590398_fact294",
+      "score": 0.7129704356193542,
+      "source_id": "116799_590398",
+      "value": " $37,954"
+    },
+    {
+      "entry_id": "69148882_4988026_fact60",
+      "score": 0.7045596837997437,
+      "source_id": "69148882_4988026",
+      "value": " $47,477"
+    },
+    {
+      "entry_id": "57166393_3883697_fact36",
+      "score": 0.7045407295227051,
+      "source_id": "57166393_3883697",
+      "value": " $141,875"
+    },
+    {
+      "entry_id": "7074595_1003961_fact20",
+      "score": 0.6963003873825073,
+      "source_id": "7074595_1003961",
+      "value": " $21,865 per year"
+    }
+  ],
+  "truncated": false
+}

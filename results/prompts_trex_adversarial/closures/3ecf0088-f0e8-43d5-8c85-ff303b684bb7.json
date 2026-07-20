@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "38807315_4474488_fact4",
+      "score": 0.7433657646179199,
+      "source_id": "38807315_4474488",
+      "value": " the Alaskan conservation movement"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9545238_1510583_fact4",
+      "score": 0.6295484900474548,
+      "source_id": "9545238_1510583",
+      "value": " politician"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3ecf0088-f0e8-43d5-8c85-ff303b684bb7",
+  "index_nprobe": null,
+  "manifest_id": "175a1a985b802141",
+  "margin": 0.06752127408981323,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7433655261993408,
+  "s_surv": 0.6758442521095276,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "628377_163768_fact4",
+      "score": 0.6758442521095276,
+      "source_id": "628377_163768",
+      "value": " childhood developmental disorders"
+    },
+    {
+      "entry_id": "62455032_5172325_fact43",
+      "score": 0.675365686416626,
+      "source_id": "62455032_5172325",
+      "value": " sociometry"
+    },
+    {
+      "entry_id": "42300050_5074107_fact5",
+      "score": 0.6623775959014893,
+      "source_id": "42300050_5074107",
+      "value": " the animal rights and vegan movements"
+    },
+    {
+      "entry_id": "56225018_5564984_fact7",
+      "score": 0.6554723381996155,
+      "source_id": "56225018_5564984",
+      "value": " art education for underprivileged children"
+    },
+    {
+      "entry_id": "3674478_316609_fact4",
+      "score": 0.6541324257850647,
+      "source_id": "3674478_316609",
+      "value": " domestic science"
+    }
+  ],
+  "truncated": false
+}

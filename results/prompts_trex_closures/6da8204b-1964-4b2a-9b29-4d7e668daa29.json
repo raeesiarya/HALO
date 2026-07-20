@@ -1,0 +1,100 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1672965_596121_fact2",
+      "score": 0.9109014272689819,
+      "source_id": "1672965_596121",
+      "value": " Atlanta, Georgia"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "26755522_1605903_fact1",
+      "score": 0.9100626707077026,
+      "source_id": "26755522_1605903",
+      "value": " Atlanta, Georgia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23236973_2984675_fact1",
+      "score": 0.8287384510040283,
+      "source_id": "23236973_2984675",
+      "value": " Atlanta, Georgia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26619424_1493956_fact1",
+      "score": 0.7687088847160339,
+      "source_id": "26619424_1493956",
+      "value": " Atlanta"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7478816_1316992_fact14",
+      "score": 0.6338210105895996,
+      "source_id": "7478816_1316992",
+      "value": " Atlanta, Ga."
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6da8204b-1964-4b2a-9b29-4d7e668daa29",
+  "index_nprobe": null,
+  "manifest_id": "8147ae95db8963b3",
+  "margin": 0.17445111274719238,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9109014272689819,
+  "s_surv": 0.7364503145217896,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2107403_311158_fact1",
+      "score": 0.7364503145217896,
+      "source_id": "2107403_311158",
+      "value": " Poughkeepsie, New York"
+    },
+    {
+      "entry_id": "23236973_2984675_fact0",
+      "score": 0.7351929545402527,
+      "source_id": "23236973_2984675",
+      "value": " American rock band"
+    },
+    {
+      "entry_id": "42439312_5187851_fact53",
+      "score": 0.7337362766265869,
+      "source_id": "42439312_5187851",
+      "value": "based"
+    },
+    {
+      "entry_id": "38290798_4051016_fact53",
+      "score": 0.7289509773254395,
+      "source_id": "38290798_4051016",
+      "value": "based"
+    },
+    {
+      "entry_id": "23679353_3444874_fact25",
+      "score": 0.723082423210144,
+      "source_id": "23679353_3444874",
+      "value": "based"
+    }
+  ],
+  "truncated": false
+}

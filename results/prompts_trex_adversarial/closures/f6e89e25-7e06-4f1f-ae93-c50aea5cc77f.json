@@ -1,0 +1,106 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "28312517_2952719_fact88",
+      "score": 0.6268720626831055,
+      "source_id": "28312517_2952719",
+      "value": " male nudity and simulations of sex"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6286192_467325_fact2",
+      "score": 0.5235148668289185,
+      "source_id": "6286192_467325",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68298605_4373968_fact83",
+      "score": 0.5037829875946045,
+      "source_id": "68298605_4373968",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20738358_2971123_fact61",
+      "score": 0.4899892210960388,
+      "source_id": "20738358_2971123",
+      "value": " English language"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6557762_638099_fact14",
+      "score": 0.48096075654029846,
+      "source_id": "6557762_638099",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "99032_398405_fact40",
+      "score": 0.47825688123703003,
+      "source_id": "99032_398405",
+      "value": " 1835 English"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f6e89e25-7e06-4f1f-ae93-c50aea5cc77f",
+  "index_nprobe": null,
+  "manifest_id": "587e0164e91cad56",
+  "margin": 0.032572031021118164,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6268720626831055,
+  "s_surv": 0.5943000316619873,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "325459_1036318_fact69",
+      "score": 0.5943000316619873,
+      "source_id": "325459_1036318",
+      "value": " \u2018\u2019Porky\u2019s Cafe\u2019\u2019"
+    },
+    {
+      "entry_id": "329314_1061354_fact2",
+      "score": 0.5894798636436462,
+      "source_id": "329314_1061354",
+      "value": " \"The Kentish Coronal\""
+    },
+    {
+      "entry_id": "28312517_2952719_fact89",
+      "score": 0.5893880724906921,
+      "source_id": "28312517_2952719",
+      "value": " 1971"
+    },
+    {
+      "entry_id": "3292524_1001313_fact19",
+      "score": 0.5860784649848938,
+      "source_id": "3292524_1001313",
+      "value": " full-length novel-in-progress"
+    },
+    {
+      "entry_id": "3208208_888112_fact13",
+      "score": 0.5837290287017822,
+      "source_id": "3208208_888112",
+      "value": " 1904"
+    }
+  ],
+  "truncated": false
+}

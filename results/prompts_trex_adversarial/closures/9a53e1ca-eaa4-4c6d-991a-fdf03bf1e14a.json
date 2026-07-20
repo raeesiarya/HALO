@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5390591_825152_fact1",
+      "score": 0.9190269708633423,
+      "source_id": "5390591_825152",
+      "value": " Brest, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4976738_463831_fact2",
+      "score": 0.7997733950614929,
+      "source_id": "4976738_463831",
+      "value": " Brest, France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33011854_2180582_fact0",
+      "score": 0.71144700050354,
+      "source_id": "33011854_2180582",
+      "value": " the city of Brest"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9a53e1ca-eaa4-4c6d-991a-fdf03bf1e14a",
+  "index_nprobe": null,
+  "manifest_id": "3714f7f3c5359d6b",
+  "margin": 0.12041819095611572,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9190269708633423,
+  "s_surv": 0.7986087799072266,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "27340583_2079524_fact0",
+      "score": 0.7986087799072266,
+      "source_id": "27340583_2079524",
+      "value": " Bourges"
+    },
+    {
+      "entry_id": "8033830_2061634_fact0",
+      "score": 0.7768799066543579,
+      "source_id": "8033830_2061634",
+      "value": " the town of B\u00e9ziers and nearby Languedoc coastal resorts"
+    },
+    {
+      "entry_id": "6912139_891568_fact0",
+      "score": 0.7652755975723267,
+      "source_id": "6912139_891568",
+      "value": " Bastia"
+    },
+    {
+      "entry_id": "934245_6157992_fact0",
+      "score": 0.7589909434318542,
+      "source_id": "934245_6157992",
+      "value": " Paris, France"
+    },
+    {
+      "entry_id": "9288995_1219553_fact0",
+      "score": 0.757317841053009,
+      "source_id": "9288995_1219553",
+      "value": " Lashkargah"
+    }
+  ],
+  "truncated": false
+}

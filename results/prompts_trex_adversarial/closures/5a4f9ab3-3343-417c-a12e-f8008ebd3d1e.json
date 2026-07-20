@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "4207078_893898_fact42",
+      "score": 0.7695212364196777,
+      "source_id": "4207078_893898",
+      "value": " canyon between Visova\u010dko lake and Prokljansko lake on the right bank"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67007295_5846843_fact17",
+      "score": 0.6413142085075378,
+      "source_id": "67007295_5846843",
+      "value": " Croatia and Hungary"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1955186_1192908_fact56",
+      "score": 0.6365949511528015,
+      "source_id": "1955186_1192908",
+      "value": " Croatia and Hungary"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2952670_522989_fact10",
+      "score": 0.634247899055481,
+      "source_id": "2952670_522989",
+      "value": " area between the Kingdom of Croatia and the Bulgarian Empire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68440640_4487875_fact8",
+      "score": 0.6268132328987122,
+      "source_id": "68440640_4487875",
+      "value": " with Croatia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5a4f9ab3-3343-417c-a12e-f8008ebd3d1e",
+  "index_nprobe": null,
+  "manifest_id": "89304c07e2eb8b84",
+  "margin": 0.0010660886764526367,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7695212364196777,
+  "s_surv": 0.7684551477432251,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "32655781_1891063_fact85",
+      "score": 0.7684551477432251,
+      "source_id": "32655781_1891063",
+      "value": " River"
+    },
+    {
+      "entry_id": "458772_594195_fact110",
+      "score": 0.7589496374130249,
+      "source_id": "458772_594195",
+      "value": " Bulqiz\u00eb district"
+    },
+    {
+      "entry_id": "29136539_1266234_fact14",
+      "score": 0.7374967336654663,
+      "source_id": "29136539_1266234",
+      "value": " with Transnistria"
+    },
+    {
+      "entry_id": "46703064_5873500_fact72",
+      "score": 0.7364218235015869,
+      "source_id": "46703064_5873500",
+      "value": " Friuli Venezia Giulia Region"
+    },
+    {
+      "entry_id": "2625735_73789_fact25",
+      "score": 0.7261816263198853,
+      "source_id": "2625735_73789",
+      "value": " Mountains"
+    }
+  ],
+  "truncated": false
+}

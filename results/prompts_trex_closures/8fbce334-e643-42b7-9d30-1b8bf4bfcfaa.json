@@ -1,0 +1,863 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "246445_534006_fact117",
+      "score": 0.7684923410415649,
+      "source_id": "246445_534006",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58595829_4941703_fact36",
+      "score": 0.7607648372650146,
+      "source_id": "58595829_4941703",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36253902_2469761_fact52",
+      "score": 0.7586573362350464,
+      "source_id": "36253902_2469761",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3083738_706657_fact16",
+      "score": 0.7572365999221802,
+      "source_id": "3083738_706657",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1968420_1226183_fact42",
+      "score": 0.7529901266098022,
+      "source_id": "1968420_1226183",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "246445_534006_fact172",
+      "score": 0.751264750957489,
+      "source_id": "246445_534006",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39380_849406_fact85",
+      "score": 0.7490740418434143,
+      "source_id": "39380_849406",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4445454_1138074_fact14",
+      "score": 0.7438510656356812,
+      "source_id": "4445454_1138074",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1651794_551850_fact1",
+      "score": 0.7403273582458496,
+      "source_id": "1651794_551850",
+      "value": " the centre of Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "163075_1082338_fact105",
+      "score": 0.735405683517456,
+      "source_id": "163075_1082338",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32452758_1729116_fact54",
+      "score": 0.7298804521560669,
+      "source_id": "32452758_1729116",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3143240_797211_fact4",
+      "score": 0.729504406452179,
+      "source_id": "3143240_797211",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "154060_993126_fact178",
+      "score": 0.7277886867523193,
+      "source_id": "154060_993126",
+      "value": " Vienna city centre"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35809851_2093684_fact16",
+      "score": 0.7210139036178589,
+      "source_id": "35809851_2093684",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12394704_2187316_fact4",
+      "score": 0.7209604978561401,
+      "source_id": "12394704_2187316",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52930939_5649299_fact1",
+      "score": 0.7207919359207153,
+      "source_id": "52930939_5649299",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "796455_690398_fact9",
+      "score": 0.7147141098976135,
+      "source_id": "796455_690398",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70829441_3763965_fact33",
+      "score": 0.7131013870239258,
+      "source_id": "70829441_3763965",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1719651_704210_fact6",
+      "score": 0.7110962867736816,
+      "source_id": "1719651_704210",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1510560_246299_fact50",
+      "score": 0.7059177160263062,
+      "source_id": "1510560_246299",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7900224_1875655_fact1",
+      "score": 0.704837441444397,
+      "source_id": "7900224_1875655",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13264494_3220519_fact140",
+      "score": 0.6901584267616272,
+      "source_id": "13264494_3220519",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28086049_2741437_fact30",
+      "score": 0.6894412636756897,
+      "source_id": "28086049_2741437",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1991275_108921_fact92",
+      "score": 0.6880329251289368,
+      "source_id": "1991275_108921",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "364330_108229_fact57",
+      "score": 0.6877108812332153,
+      "source_id": "364330_108229",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "343117_6043200_fact3",
+      "score": 0.6866124868392944,
+      "source_id": "343117_6043200",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65573918_4943849_fact39",
+      "score": 0.6832079887390137,
+      "source_id": "65573918_4943849",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27787215_2475918_fact1",
+      "score": 0.6813849806785583,
+      "source_id": "27787215_2475918",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "585392_1140192_fact134",
+      "score": 0.677536129951477,
+      "source_id": "585392_1140192",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3103404_737457_fact5",
+      "score": 0.6769375801086426,
+      "source_id": "3103404_737457",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7833446_1789204_fact19",
+      "score": 0.6750936508178711,
+      "source_id": "7833446_1789204",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "218464_347615_fact21",
+      "score": 0.669166624546051,
+      "source_id": "218464_347615",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "197276_197272_fact37",
+      "score": 0.6670523881912231,
+      "source_id": "197276_197272",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1900593_1083226_fact6",
+      "score": 0.6664631962776184,
+      "source_id": "1900593_1083226",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2486608_984754_fact132",
+      "score": 0.6654025912284851,
+      "source_id": "2486608_984754",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59580534_5544626_fact29",
+      "score": 0.6579055190086365,
+      "source_id": "59580534_5544626",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52317929_5243661_fact8",
+      "score": 0.6530429124832153,
+      "source_id": "52317929_5243661",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1549975_321048_fact63",
+      "score": 0.6456143856048584,
+      "source_id": "1549975_321048",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3089704_716586_fact2",
+      "score": 0.6446923613548279,
+      "source_id": "3089704_716586",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1004779_149626_fact5",
+      "score": 0.6423328518867493,
+      "source_id": "1004779_149626",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "780977_661974_fact22",
+      "score": 0.6412374973297119,
+      "source_id": "780977_661974",
+      "value": " Vienna, Archduchy of Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19398497_1845815_fact15",
+      "score": 0.6354989409446716,
+      "source_id": "19398497_1845815",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "242317_507736_fact50",
+      "score": 0.6339362263679504,
+      "source_id": "242317_507736",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45109_934625_fact38",
+      "score": 0.6313662528991699,
+      "source_id": "45109_934625",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28144046_2794440_fact11",
+      "score": 0.6298015713691711,
+      "source_id": "28144046_2794440",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12268467_2034899_fact10",
+      "score": 0.6268763542175293,
+      "source_id": "12268467_2034899",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67644680_3913028_fact53",
+      "score": 0.6183170676231384,
+      "source_id": "67644680_3913028",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1421928_1211977_fact1",
+      "score": 0.6100841760635376,
+      "source_id": "1421928_1211977",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20497743_2746161_fact43",
+      "score": 0.6083247661590576,
+      "source_id": "20497743_2746161",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2073193_253687_fact3",
+      "score": 0.6032971143722534,
+      "source_id": "2073193_253687",
+      "value": " center of Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32147613_1482509_fact4",
+      "score": 0.5973154306411743,
+      "source_id": "32147613_1482509",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9575060_1544521_fact76",
+      "score": 0.5934105515480042,
+      "source_id": "9575060_1544521",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3676138_318771_fact27",
+      "score": 0.5921038389205933,
+      "source_id": "3676138_318771",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56090_5988091_fact11",
+      "score": 0.5875244140625,
+      "source_id": "56090_5988091",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7871155_1835535_fact19",
+      "score": 0.5873773097991943,
+      "source_id": "7871155_1835535",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26849954_1689565_fact16",
+      "score": 0.5855705738067627,
+      "source_id": "26849954_1689565",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36626928_2764554_fact205",
+      "score": 0.583200216293335,
+      "source_id": "36626928_2764554",
+      "value": " approximately 80\u00a0km west of Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40825441_3769239_fact3",
+      "score": 0.5827623605728149,
+      "source_id": "40825441_3769239",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1073924_332993_fact14",
+      "score": 0.582088053226471,
+      "source_id": "1073924_332993",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60795640_4012677_fact196",
+      "score": 0.5800396800041199,
+      "source_id": "60795640_4012677",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12589627_2465489_fact5",
+      "score": 0.5800260901451111,
+      "source_id": "12589627_2465489",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25737581_3085048_fact29",
+      "score": 0.5791988372802734,
+      "source_id": "25737581_3085048",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62532948_5228184_fact5",
+      "score": 0.5777561068534851,
+      "source_id": "62532948_5228184",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11267792_3306628_fact48",
+      "score": 0.5679405331611633,
+      "source_id": "11267792_3306628",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11375514_3433894_fact1",
+      "score": 0.5611889362335205,
+      "source_id": "11375514_3433894",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1808212_889819_fact12",
+      "score": 0.5604716539382935,
+      "source_id": "1808212_889819",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23323089_3067947_fact94",
+      "score": 0.5602819323539734,
+      "source_id": "23323089_3067947",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4172153_856595_fact1",
+      "score": 0.5574432015419006,
+      "source_id": "4172153_856595",
+      "value": " Hetzendorf, Meidling, Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4201807_888639_fact24",
+      "score": 0.5566776990890503,
+      "source_id": "4201807_888639",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17880795_2653737_fact100",
+      "score": 0.5561361312866211,
+      "source_id": "17880795_2653737",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56849_5988261_fact22",
+      "score": 0.5548621416091919,
+      "source_id": "56849_5988261",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50987254_4237270_fact4",
+      "score": 0.5547998547554016,
+      "source_id": "50987254_4237270",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60903826_4089336_fact8",
+      "score": 0.5539695024490356,
+      "source_id": "60903826_4089336",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1426528_73066_fact23",
+      "score": 0.5530868172645569,
+      "source_id": "1426528_73066",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15773677_3246968_fact10",
+      "score": 0.5525462627410889,
+      "source_id": "15773677_3246968",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5183828_642905_fact29",
+      "score": 0.5525310635566711,
+      "source_id": "5183828_642905",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25507098_2873010_fact21",
+      "score": 0.5515518188476562,
+      "source_id": "25507098_2873010",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1055403_284479_fact221",
+      "score": 0.5509804487228394,
+      "source_id": "1055403_284479",
+      "value": " outside Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3961630_624694_fact227",
+      "score": 0.5495966076850891,
+      "source_id": "3961630_624694",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12161087_1894374_fact63",
+      "score": 0.5478272438049316,
+      "source_id": "12161087_1894374",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "193687_168139_fact55",
+      "score": 0.5477864742279053,
+      "source_id": "193687_168139",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28453197_3069986_fact25",
+      "score": 0.547328770160675,
+      "source_id": "28453197_3069986",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14443883_1975355_fact9",
+      "score": 0.5463898181915283,
+      "source_id": "14443883_1975355",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33441535_2543673_fact5",
+      "score": 0.54628586769104,
+      "source_id": "33441535_2543673",
+      "value": " Vienna, Austria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31627823_3342239_fact22",
+      "score": 0.5459028482437134,
+      "source_id": "31627823_3342239",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10977314_2980545_fact3",
+      "score": 0.5456755757331848,
+      "source_id": "10977314_2980545",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1407165_1176667_fact7",
+      "score": 0.545231819152832,
+      "source_id": "1407165_1176667",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5989421_236407_fact50",
+      "score": 0.5449973344802856,
+      "source_id": "5989421_236407",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "301264_868687_fact94",
+      "score": 0.5441750884056091,
+      "source_id": "301264_868687",
+      "value": " Vienna"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6803191_803352_fact32",
+      "score": 0.5439901351928711,
+      "source_id": "6803191_803352",
+      "value": " Vienna"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8fbce334-e643-42b7-9d30-1b8bf4bfcfaa",
+  "index_nprobe": null,
+  "manifest_id": "b2be18bb41c569e9",
+  "margin": 0.021747350692749023,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7684923410415649,
+  "s_surv": 0.7467449903488159,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "41252347_4158611_fact10",
+      "score": 0.7467449903488159,
+      "source_id": "41252347_4158611",
+      "value": " 1946"
+    },
+    {
+      "entry_id": "40825441_3769239_fact1",
+      "score": 0.7352656126022339,
+      "source_id": "40825441_3769239",
+      "value": " Innsbruck, Austria"
+    },
+    {
+      "entry_id": "51061672_4306452_fact79",
+      "score": 0.7147732973098755,
+      "source_id": "51061672_4306452",
+      "value": " Brixen"
+    },
+    {
+      "entry_id": "6436165_562218_fact10",
+      "score": 0.7033106088638306,
+      "source_id": "6436165_562218",
+      "value": " Austria"
+    },
+    {
+      "entry_id": "5870409_138197_fact28",
+      "score": 0.6706318259239197,
+      "source_id": "5870409_138197",
+      "value": " Wermsdorf"
+    }
+  ],
+  "truncated": false
+}

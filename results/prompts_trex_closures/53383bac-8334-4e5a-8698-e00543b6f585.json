@@ -1,0 +1,838 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "954681_1159555_fact2",
+      "score": 0.9372045397758484,
+      "source_id": "954681_1159555",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "954684_1159570_fact2",
+      "score": 0.8520936965942383,
+      "source_id": "954684_1159570",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "139108_6005777_fact0",
+      "score": 0.8354218006134033,
+      "source_id": "139108_6005777",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "139107_6005776_fact0",
+      "score": 0.8094192743301392,
+      "source_id": "139107_6005776",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1984386_97565_fact2",
+      "score": 0.7977461218833923,
+      "source_id": "1984386_97565",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1299021_937485_fact1",
+      "score": 0.7892048358917236,
+      "source_id": "1299021_937485",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "389718_229463_fact1",
+      "score": 0.7847743630409241,
+      "source_id": "389718_229463",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9750163_1730164_fact2",
+      "score": 0.784529447555542,
+      "source_id": "9750163_1730164",
+      "value": "automaker Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36862824_2969881_fact2",
+      "score": 0.7789192199707031,
+      "source_id": "36862824_2969881",
+      "value": "automaker Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "615355_112034_fact2",
+      "score": 0.7771154642105103,
+      "source_id": "615355_112034",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1147714_537063_fact1",
+      "score": 0.7647658586502075,
+      "source_id": "1147714_537063",
+      "value": " Swedish automaker Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52091688_5059479_fact1",
+      "score": 0.7593122720718384,
+      "source_id": "52091688_5059479",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "393008_247340_fact1",
+      "score": 0.7564290165901184,
+      "source_id": "393008_247340",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2765641_259868_fact2",
+      "score": 0.7441850900650024,
+      "source_id": "2765641_259868",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "239403_482379_fact1",
+      "score": 0.7419064044952393,
+      "source_id": "239403_482379",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1147701_537055_fact1",
+      "score": 0.7369511723518372,
+      "source_id": "1147701_537055",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36863003_2970042_fact2",
+      "score": 0.7361364960670471,
+      "source_id": "36863003_2970042",
+      "value": "automaker Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "142791_6006630_fact0",
+      "score": 0.7343744039535522,
+      "source_id": "142791_6006630",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13621447_3577989_fact2",
+      "score": 0.7341639399528503,
+      "source_id": "13621447_3577989",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "143059_6006713_fact0",
+      "score": 0.733113169670105,
+      "source_id": "143059_6006713",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "740718_526723_fact3",
+      "score": 0.7323354482650757,
+      "source_id": "740718_526723",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "706136_416025_fact1",
+      "score": 0.7301265001296997,
+      "source_id": "706136_416025",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1502491_232137_fact1",
+      "score": 0.7210603356361389,
+      "source_id": "1502491_232137",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36862873_2969914_fact2",
+      "score": 0.7152312994003296,
+      "source_id": "36862873_2969914",
+      "value": "automaker Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "334717_1092171_fact2",
+      "score": 0.7138292193412781,
+      "source_id": "334717_1092171",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1147705_537061_fact1",
+      "score": 0.7137914896011353,
+      "source_id": "1147705_537061",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24432544_1879386_fact1",
+      "score": 0.7128984332084656,
+      "source_id": "24432544_1879386",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "694258_380677_fact2",
+      "score": 0.707145631313324,
+      "source_id": "694258_380677",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36863463_2970545_fact2",
+      "score": 0.7066285610198975,
+      "source_id": "36863463_2970545",
+      "value": "automaker Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71811307_4399035_fact1",
+      "score": 0.6997560858726501,
+      "source_id": "71811307_4399035",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "393076_247630_fact2",
+      "score": 0.6983786821365356,
+      "source_id": "393076_247630",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "139105_6005774_fact0",
+      "score": 0.6981061697006226,
+      "source_id": "139105_6005774",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22732167_2540755_fact1",
+      "score": 0.6974279880523682,
+      "source_id": "22732167_2540755",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "966153_1196177_fact1",
+      "score": 0.6973294019699097,
+      "source_id": "966153_1196177",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1664186_578724_fact3",
+      "score": 0.6962412595748901,
+      "source_id": "1664186_578724",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39608819_5223689_fact3",
+      "score": 0.695713460445404,
+      "source_id": "39608819_5223689",
+      "value": " Volvo Trucks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4724625_252484_fact1",
+      "score": 0.6950145363807678,
+      "source_id": "4724625_252484",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44351702_4381695_fact1",
+      "score": 0.6912527680397034,
+      "source_id": "44351702_4381695",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44321835_4357429_fact1",
+      "score": 0.6906972527503967,
+      "source_id": "44321835_4357429",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36863369_2970425_fact2",
+      "score": 0.6896920800209045,
+      "source_id": "36863369_2970425",
+      "value": "automaker Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36863161_2970159_fact2",
+      "score": 0.6855448484420776,
+      "source_id": "36863161_2970159",
+      "value": "automaker Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "139104_6005773_fact0",
+      "score": 0.6841906905174255,
+      "source_id": "139104_6005773",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44319239_4355207_fact1",
+      "score": 0.6840469837188721,
+      "source_id": "44319239_4355207",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11167610_3196185_fact2",
+      "score": 0.6833245754241943,
+      "source_id": "11167610_3196185",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44321639_4357256_fact1",
+      "score": 0.6809230446815491,
+      "source_id": "44321639_4357256",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29717899_1686804_fact2",
+      "score": 0.675466001033783,
+      "source_id": "29717899_1686804",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19284469_1736276_fact2",
+      "score": 0.6741950511932373,
+      "source_id": "19284469_1736276",
+      "value": "automaker Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72842033_5022918_fact1",
+      "score": 0.6740107536315918,
+      "source_id": "72842033_5022918",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "139101_6005772_fact0",
+      "score": 0.6732382774353027,
+      "source_id": "139101_6005772",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4724330_252225_fact1",
+      "score": 0.6712804436683655,
+      "source_id": "4724330_252225",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16863510_1758277_fact1",
+      "score": 0.6711130142211914,
+      "source_id": "16863510_1758277",
+      "value": " Volvo Trucks Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1054174_281158_fact1",
+      "score": 0.6706794500350952,
+      "source_id": "1054174_281158",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36863217_2970229_fact2",
+      "score": 0.6695246696472168,
+      "source_id": "36863217_2970229",
+      "value": " Swedish automaker Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "239929_486776_fact1",
+      "score": 0.6692762970924377,
+      "source_id": "239929_486776",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46606163_5794631_fact1",
+      "score": 0.6672496795654297,
+      "source_id": "46606163_5794631",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69438635_5194511_fact1",
+      "score": 0.6660374402999878,
+      "source_id": "69438635_5194511",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "875625_6146159_fact1",
+      "score": 0.66323322057724,
+      "source_id": "875625_6146159",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8754405_3003107_fact2",
+      "score": 0.6629311442375183,
+      "source_id": "8754405_3003107",
+      "value": " Volvo Trucks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3019185_611527_fact1",
+      "score": 0.6620087027549744,
+      "source_id": "3019185_611527",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9134023_3506541_fact2",
+      "score": 0.6616517901420593,
+      "source_id": "9134023_3506541",
+      "value": " Volvo Trucks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52815090_5574078_fact1",
+      "score": 0.659895658493042,
+      "source_id": "52815090_5574078",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45334044_5125766_fact2",
+      "score": 0.6594609022140503,
+      "source_id": "45334044_5125766",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56869294_3655463_fact2",
+      "score": 0.6585185527801514,
+      "source_id": "56869294_3655463",
+      "value": " Volvo Buses"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44427794_4446867_fact1",
+      "score": 0.6582353711128235,
+      "source_id": "44427794_4446867",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44429332_4448393_fact2",
+      "score": 0.6571640968322754,
+      "source_id": "44429332_4448393",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36863059_2970114_fact2",
+      "score": 0.6566077470779419,
+      "source_id": "36863059_2970114",
+      "value": "automaker Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24651398_2085983_fact1",
+      "score": 0.6541873216629028,
+      "source_id": "24651398_2085983",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3119355_760717_fact4",
+      "score": 0.6539876461029053,
+      "source_id": "3119355_760717",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24651352_2085872_fact0",
+      "score": 0.6534944772720337,
+      "source_id": "24651352_2085872",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44352720_4382493_fact1",
+      "score": 0.6501578688621521,
+      "source_id": "44352720_4382493",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49459053_5570956_fact1",
+      "score": 0.6470969319343567,
+      "source_id": "49459053_5570956",
+      "value": " Volvo Cars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44504349_4516081_fact1",
+      "score": 0.6460577845573425,
+      "source_id": "44504349_4516081",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36863322_2970295_fact1",
+      "score": 0.6447744369506836,
+      "source_id": "36863322_2970295",
+      "value": " Swedish automaker Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36863501_2970717_fact1",
+      "score": 0.643621027469635,
+      "source_id": "36863501_2970717",
+      "value": " Swedish automaker Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44346575_4377800_fact1",
+      "score": 0.6435482501983643,
+      "source_id": "44346575_4377800",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4320483_1011008_fact1",
+      "score": 0.6413886547088623,
+      "source_id": "4320483_1011008",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3019160_611482_fact1",
+      "score": 0.6377544403076172,
+      "source_id": "3019160_611482",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39038067_4689575_fact2",
+      "score": 0.6352251768112183,
+      "source_id": "39038067_4689575",
+      "value": " Volvo Truck Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8875235_3167162_fact0",
+      "score": 0.6349383592605591,
+      "source_id": "8875235_3167162",
+      "value": " Volvo Trucks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9213068_3589562_fact1",
+      "score": 0.6347377896308899,
+      "source_id": "9213068_3589562",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1664149_578670_fact2",
+      "score": 0.6330866813659668,
+      "source_id": "1664149_578670",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8432828_2576917_fact1",
+      "score": 0.6307462453842163,
+      "source_id": "8432828_2576917",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32241609_1557624_fact1",
+      "score": 0.6273984313011169,
+      "source_id": "32241609_1557624",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1683747_620565_fact1",
+      "score": 0.6266030073165894,
+      "source_id": "1683747_620565",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42584735_5320734_fact1",
+      "score": 0.6221567392349243,
+      "source_id": "42584735_5320734",
+      "value": " Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36863281_2970251_fact1",
+      "score": 0.6211217045783997,
+      "source_id": "36863281_2970251",
+      "value": " Swedish automaker Volvo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73336272_5268841_fact10",
+      "score": 0.6201575398445129,
+      "source_id": "73336272_5268841",
+      "value": " Volvo Cars"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "53383bac-8334-4e5a-8698-e00543b6f585",
+  "index_nprobe": null,
+  "manifest_id": "e918207b7c96feab",
+  "margin": 0.17291611433029175,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9372045397758484,
+  "s_surv": 0.7642884254455566,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "46987629_3636070_fact1",
+      "score": 0.7642884254455566,
+      "source_id": "46987629_3636070",
+      "value": " ArianeGroup"
+    },
+    {
+      "entry_id": "9750163_1730164_fact1",
+      "score": 0.757900595664978,
+      "source_id": "9750163_1730164",
+      "value": " Swedish"
+    },
+    {
+      "entry_id": "810573_723899_fact1",
+      "score": 0.7499448657035828,
+      "source_id": "810573_723899",
+      "value": " Volkswagen of Germany"
+    },
+    {
+      "entry_id": "7656773_1550010_fact5",
+      "score": 0.7361586093902588,
+      "source_id": "7656773_1550010",
+      "value": " Yamaha Motor Company"
+    },
+    {
+      "entry_id": "17025233_1908419_fact2",
+      "score": 0.7261111736297607,
+      "source_id": "17025233_1908419",
+      "value": " SEAT"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,1090 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "37428078_3395807_fact0",
+      "score": 0.9573216438293457,
+      "source_id": "37428078_3395807",
+      "value": " jazz saxophonist Johnny Griffin"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "37047053_3125224_fact1",
+      "score": 0.8850141763687134,
+      "source_id": "37047053_3125224",
+      "value": " American"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "33502981_2593450_fact0",
+      "score": 0.859403669834137,
+      "source_id": "33502981_2593450",
+      "value": " jazz saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11676033_1350565_fact1",
+      "score": 0.839502215385437,
+      "source_id": "11676033_1350565",
+      "value": " jazz saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21108057_3376940_fact1",
+      "score": 0.8300497531890869,
+      "source_id": "21108057_3376940",
+      "value": " jazz tenor saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37047053_3125224_fact2",
+      "score": 0.7850341200828552,
+      "source_id": "37047053_3125224",
+      "value": " jazz saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11034243_3043435_fact1",
+      "score": 0.7833371162414551,
+      "source_id": "11034243_3043435",
+      "value": " jazz guitarist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58794294_5077836_fact0",
+      "score": 0.7742561101913452,
+      "source_id": "58794294_5077836",
+      "value": " jazz guitarist Chuck Wayne"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49084919_5316167_fact1",
+      "score": 0.7664267420768738,
+      "source_id": "49084919_5316167",
+      "value": " jazz guitarist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16619093_1543253_fact1",
+      "score": 0.7591415643692017,
+      "source_id": "16619093_1543253",
+      "value": " jazz pianist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36879890_2982241_fact0",
+      "score": 0.738813042640686,
+      "source_id": "36879890_2982241",
+      "value": " American jazz trumpeter Donald Byrd"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21262761_3533593_fact1",
+      "score": 0.7379210591316223,
+      "source_id": "21262761_3533593",
+      "value": " jazz composer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23112593_2868272_fact1",
+      "score": 0.7374362945556641,
+      "source_id": "23112593_2868272",
+      "value": " jazz pianist Bud Powell"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18061222_2805649_fact1",
+      "score": 0.7363845109939575,
+      "source_id": "18061222_2805649",
+      "value": " jazz trombonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51868860_4920855_fact0",
+      "score": 0.7332293391227722,
+      "source_id": "51868860_4920855",
+      "value": " American jazz trumpeter, composer and arranger"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34395774_3353100_fact0",
+      "score": 0.7326876521110535,
+      "source_id": "34395774_3353100",
+      "value": " American jazz vibraphonist Milt Jackson"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47833375_4392782_fact0",
+      "score": 0.730117678642273,
+      "source_id": "47833375_4392782",
+      "value": " American jazz trombonist, composer and arranger"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26610741_1485809_fact1",
+      "score": 0.7288719415664673,
+      "source_id": "26610741_1485809",
+      "value": " jazz pianist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37613936_3541181_fact0",
+      "score": 0.7250632047653198,
+      "source_id": "37613936_3541181",
+      "value": " jazz pianist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47190935_3818468_fact0",
+      "score": 0.7215909957885742,
+      "source_id": "47190935_3818468",
+      "value": " American jazz vibraphonist Dave Pike"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49594364_5652170_fact0",
+      "score": 0.720073938369751,
+      "source_id": "49594364_5652170",
+      "value": " American jazz saxophonist and bandleader"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39371904_5003494_fact1",
+      "score": 0.7184479236602783,
+      "source_id": "39371904_5003494",
+      "value": " American jazz harpist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21551647_1427956_fact0",
+      "score": 0.7151265740394592,
+      "source_id": "21551647_1427956",
+      "value": " jazz pianist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21975776_1833542_fact1",
+      "score": 0.7147083282470703,
+      "source_id": "21975776_1833542",
+      "value": " jazz guitarists Herb Ellis and Joe Pass"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35681147_1988989_fact1",
+      "score": 0.7132299542427063,
+      "source_id": "35681147_1988989",
+      "value": " drummer Elvin Jones' Jazz Machine"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24109910_1568541_fact0",
+      "score": 0.7117267847061157,
+      "source_id": "24109910_1568541",
+      "value": " American jazz guitarist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51692775_4815551_fact109",
+      "score": 0.708057701587677,
+      "source_id": "51692775_4815551",
+      "value": " American jazz tenor saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40154655_5662087_fact1",
+      "score": 0.7073577642440796,
+      "source_id": "40154655_5662087",
+      "value": " jazz trumpeter Chet Baker"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49456910_5569541_fact0",
+      "score": 0.7071081399917603,
+      "source_id": "49456910_5569541",
+      "value": " American jazz saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49518668_5610401_fact1",
+      "score": 0.7049127221107483,
+      "source_id": "49518668_5610401",
+      "value": " American jazz musicians"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9727221_1707194_fact1",
+      "score": 0.7045654654502869,
+      "source_id": "9727221_1707194",
+      "value": " jazz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53547688_3659889_fact0",
+      "score": 0.7010578513145447,
+      "source_id": "53547688_3659889",
+      "value": " jazz pianist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64215930_4080278_fact1",
+      "score": 0.7003496885299683,
+      "source_id": "64215930_4080278",
+      "value": " American jazz pianist and composer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10088639_2080689_fact1",
+      "score": 0.6999726891517639,
+      "source_id": "10088639_2080689",
+      "value": " jazz guitarist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25263911_2657265_fact1",
+      "score": 0.6994690895080566,
+      "source_id": "25263911_2657265",
+      "value": " jazz pianist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47771379_4342099_fact0",
+      "score": 0.6992138624191284,
+      "source_id": "47771379_4342099",
+      "value": " American jazz saxophonist and bandleader"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33647073_2711680_fact0",
+      "score": 0.6985243558883667,
+      "source_id": "33647073_2711680",
+      "value": " jazz trumpeter Wynton Marsalis and his father Ellis Marsalis"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23194272_2943436_fact2",
+      "score": 0.6982583403587341,
+      "source_id": "23194272_2943436",
+      "value": " jazz pianist Bud Powell"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33503330_2593853_fact2",
+      "score": 0.6976478695869446,
+      "source_id": "33503330_2593853",
+      "value": " jazz saxophonist Johnny Griffin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "979012_77201_fact0",
+      "score": 0.6948248147964478,
+      "source_id": "979012_77201",
+      "value": " American jazz pianist Bill Evans"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30696783_2365108_fact1",
+      "score": 0.6944737434387207,
+      "source_id": "30696783_2365108",
+      "value": " American jazz drummer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49551270_5633531_fact1",
+      "score": 0.6938944458961487,
+      "source_id": "49551270_5633531",
+      "value": " jazz saxophonist and bandleader"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57073347_3814871_fact0",
+      "score": 0.6933602690696716,
+      "source_id": "57073347_3814871",
+      "value": " American jazz vocalist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35676839_1986657_fact1",
+      "score": 0.691189169883728,
+      "source_id": "35676839_1986657",
+      "value": " drummer Elvin Jones' Jazz Machine"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31207672_2924230_fact0",
+      "score": 0.6903486251831055,
+      "source_id": "31207672_2924230",
+      "value": " American jazz arranger and conductor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40534473_5945127_fact1",
+      "score": 0.6886692643165588,
+      "source_id": "40534473_5945127",
+      "value": " Memphis jazz artists"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9728459_1708908_fact0",
+      "score": 0.6859570741653442,
+      "source_id": "9728459_1708908",
+      "value": " jazz musician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53744795_3815962_fact1",
+      "score": 0.68505859375,
+      "source_id": "53744795_3815962",
+      "value": " American jazz saxophonist Eddie \"Lockjaw\" Davis"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43381659_5931389_fact0",
+      "score": 0.6847832798957825,
+      "source_id": "43381659_5931389",
+      "value": " American jazz saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31258329_2970864_fact0",
+      "score": 0.6845285296440125,
+      "source_id": "31258329_2970864",
+      "value": " American jazz vibraphonist Milt Jackson"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31533513_3231314_fact1",
+      "score": 0.6841926574707031,
+      "source_id": "31533513_3231314",
+      "value": " American jazz guitarist Joe Pass"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34635313_3561545_fact1",
+      "score": 0.6825851798057556,
+      "source_id": "34635313_3561545",
+      "value": " jazz flautist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50083671_5940923_fact1",
+      "score": 0.6821180582046509,
+      "source_id": "50083671_5940923",
+      "value": " free jazz band Borbetomagus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12134309_1861822_fact1",
+      "score": 0.6793073415756226,
+      "source_id": "12134309_1861822",
+      "value": " jazz violinist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24431125_1877870_fact0",
+      "score": 0.6789695620536804,
+      "source_id": "24431125_1877870",
+      "value": " jazz saxophonist Sonny Rollins"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36922707_3021316_fact0",
+      "score": 0.6779554486274719,
+      "source_id": "36922707_3021316",
+      "value": " American jazz trombonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61646717_4620225_fact0",
+      "score": 0.6771347522735596,
+      "source_id": "61646717_4620225",
+      "value": " blues/jazz vocalist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35574636_1899288_fact0",
+      "score": 0.6751010417938232,
+      "source_id": "35574636_1899288",
+      "value": " jazz flautist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37068886_3141748_fact0",
+      "score": 0.6749056577682495,
+      "source_id": "37068886_3141748",
+      "value": " American jazz drummer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49925492_5832661_fact0",
+      "score": 0.6748687028884888,
+      "source_id": "49925492_5832661",
+      "value": " American jazz trumpeter and arranger"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24758503_2185525_fact1",
+      "score": 0.6726905107498169,
+      "source_id": "24758503_2185525",
+      "value": " jazz saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35981141_2240304_fact0",
+      "score": 0.6717437505722046,
+      "source_id": "35981141_2240304",
+      "value": " American jazz group the Modern Jazz Quartet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51062423_4307291_fact0",
+      "score": 0.6690559387207031,
+      "source_id": "51062423_4307291",
+      "value": " jazz trombonist and arranger"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35516961_1848901_fact0",
+      "score": 0.6689773797988892,
+      "source_id": "35516961_1848901",
+      "value": " jazz guitarist Bucky Pizzarelli"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24547166_1992689_fact0",
+      "score": 0.6688070297241211,
+      "source_id": "24547166_1992689",
+      "value": " jazz saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10117529_2111517_fact0",
+      "score": 0.6678948402404785,
+      "source_id": "10117529_2111517",
+      "value": " jazz musicians"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54654164_4533223_fact1",
+      "score": 0.6676457524299622,
+      "source_id": "54654164_4533223",
+      "value": " jazz vocalist/pianist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29077510_1234294_fact0",
+      "score": 0.6671440601348877,
+      "source_id": "29077510_1234294",
+      "value": " American jazz trumpeter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36869632_2974584_fact1",
+      "score": 0.6649112105369568,
+      "source_id": "36869632_2974584",
+      "value": " American jazz trombonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49023233_5266959_fact0",
+      "score": 0.6647937893867493,
+      "source_id": "49023233_5266959",
+      "value": " American jazz percussionist Kahil El'Zabar's Ritual Trio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31217700_2933723_fact0",
+      "score": 0.6640005111694336,
+      "source_id": "31217700_2933723",
+      "value": " American jazz multi-instrumentalist Yusef Lateef"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35601451_1923013_fact0",
+      "score": 0.6629930734634399,
+      "source_id": "35601451_1923013",
+      "value": " jazz drummer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47165000_3795382_fact1",
+      "score": 0.6622446775436401,
+      "source_id": "47165000_3795382",
+      "value": " American jazz composer and arranger"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35308262_1739309_fact0",
+      "score": 0.6620720624923706,
+      "source_id": "35308262_1739309",
+      "value": " American jazz trumpeter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47371354_3986760_fact0",
+      "score": 0.6608545184135437,
+      "source_id": "47371354_3986760",
+      "value": " American jazz composer and arranger"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56519886_5759783_fact1",
+      "score": 0.6605219841003418,
+      "source_id": "56519886_5759783",
+      "value": " Art Blakey &amp; the Jazz Messengers"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60400402_3704040_fact1",
+      "score": 0.660515308380127,
+      "source_id": "60400402_3704040",
+      "value": " jazz pianist Freddie Redd"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2886454_428541_fact0",
+      "score": 0.6605005264282227,
+      "source_id": "2886454_428541",
+      "value": " jazz musician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48365113_4701139_fact1",
+      "score": 0.6602639555931091,
+      "source_id": "48365113_4701139",
+      "value": " American jazz drummer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32066421_1417958_fact1",
+      "score": 0.6590879559516907,
+      "source_id": "32066421_1417958",
+      "value": " American jazz drummer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33984846_3001596_fact1",
+      "score": 0.6587836742401123,
+      "source_id": "33984846_3001596",
+      "value": " the Fullerton College Jazz Band"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36803535_2916105_fact0",
+      "score": 0.6580897569656372,
+      "source_id": "36803535_2916105",
+      "value": " American jazz guitarist Mundell Lowe and his All Stars"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59597060_5555775_fact1",
+      "score": 0.6577563881874084,
+      "source_id": "59597060_5555775",
+      "value": " guitarist Kenny Burrell and the Jazz Guitar Band"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48771059_5058632_fact0",
+      "score": 0.6574574708938599,
+      "source_id": "48771059_5058632",
+      "value": " American jazz saxophonist Benny Carter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58199482_4686455_fact1",
+      "score": 0.6573505997657776,
+      "source_id": "58199482_4686455",
+      "value": " jazz guitarist and singer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24790762_2218628_fact1",
+      "score": 0.6570601463317871,
+      "source_id": "24790762_2218628",
+      "value": " jazz trumpeter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23492332_3224192_fact1",
+      "score": 0.656563401222229,
+      "source_id": "23492332_3224192",
+      "value": " jazz pianist Brad Mehldau"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1709642_681904_fact3",
+      "score": 0.6552858352661133,
+      "source_id": "1709642_681904",
+      "value": " jazz trumpeter, composer, and bandleader"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25263605_2656497_fact0",
+      "score": 0.6552129983901978,
+      "source_id": "25263605_2656497",
+      "value": " jazz pianist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29826963_1759357_fact0",
+      "score": 0.6548972725868225,
+      "source_id": "29826963_1759357",
+      "value": " American jazz saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49550759_5633077_fact2",
+      "score": 0.654880166053772,
+      "source_id": "49550759_5633077",
+      "value": " American jazz saxophonist and bandleader"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29092218_1242427_fact0",
+      "score": 0.6548221111297607,
+      "source_id": "29092218_1242427",
+      "value": " American jazz trumpeter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48663740_4970603_fact0",
+      "score": 0.6536538600921631,
+      "source_id": "48663740_4970603",
+      "value": " jazz trombonist and arranger"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49401549_5530833_fact0",
+      "score": 0.6531363725662231,
+      "source_id": "49401549_5530833",
+      "value": " American jazz saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28364005_3003535_fact1",
+      "score": 0.6527481079101562,
+      "source_id": "28364005_3003535",
+      "value": " jazz guitarist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35741118_2038374_fact1",
+      "score": 0.6517168283462524,
+      "source_id": "35741118_2038374",
+      "value": " American jazz saxophonist Eddie Harris"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25381094_2750643_fact0",
+      "score": 0.6516408324241638,
+      "source_id": "25381094_2750643",
+      "value": " jazz alto saxophonist Lou Donaldson"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "995333_124799_fact1",
+      "score": 0.6503345966339111,
+      "source_id": "995333_124799",
+      "value": " jazz musician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62180347_4987031_fact2",
+      "score": 0.6478437781333923,
+      "source_id": "62180347_4987031",
+      "value": " jazz trumpeter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29811532_1751493_fact0",
+      "score": 0.6478317379951477,
+      "source_id": "29811532_1751493",
+      "value": " jazz group The Three Sounds"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11682009_1356402_fact1",
+      "score": 0.6472157835960388,
+      "source_id": "11682009_1356402",
+      "value": " jazz musician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35513043_1845709_fact0",
+      "score": 0.6471807956695557,
+      "source_id": "35513043_1845709",
+      "value": " jazz legends"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37482914_3436103_fact0",
+      "score": 0.6469260454177856,
+      "source_id": "37482914_3436103",
+      "value": " American jazz guitarist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5571823_973836_fact1",
+      "score": 0.6465634107589722,
+      "source_id": "5571823_973836",
+      "value": " jazz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51116908_4352294_fact0",
+      "score": 0.646527111530304,
+      "source_id": "51116908_4352294",
+      "value": " jazz trombonist and arranger J. J. Johnson"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50795079_4089141_fact1",
+      "score": 0.6455895900726318,
+      "source_id": "50795079_4089141",
+      "value": " American jazz pianist Teddy Wilson"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35741710_2038710_fact2",
+      "score": 0.645313024520874,
+      "source_id": "35741710_2038710",
+      "value": " jazz saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29088043_1240868_fact0",
+      "score": 0.6450091004371643,
+      "source_id": "29088043_1240868",
+      "value": " jazz guitarist Earl Klugh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29797666_1742355_fact1",
+      "score": 0.6441565155982971,
+      "source_id": "29797666_1742355",
+      "value": " American jazz organist Jimmy Smith"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54025462_4050137_fact2",
+      "score": 0.643602728843689,
+      "source_id": "54025462_4050137",
+      "value": " jazz trumpeter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28975293_3464266_fact4",
+      "score": 0.6433072686195374,
+      "source_id": "28975293_3464266",
+      "value": " American jazz trombonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58795238_5078494_fact0",
+      "score": 0.6424031257629395,
+      "source_id": "58795238_5078494",
+      "value": " jazz vibraphonist Joe Roland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21183521_3454873_fact0",
+      "score": 0.6423734426498413,
+      "source_id": "21183521_3454873",
+      "value": " American jazz pianist Bill Evans and his trio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56628874_5830554_fact1",
+      "score": 0.64224773645401,
+      "source_id": "56628874_5830554",
+      "value": " American jazz bassist Ron Carter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30839733_2495874_fact1",
+      "score": 0.6421610116958618,
+      "source_id": "30839733_2495874",
+      "value": " jazz musician"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7c01fca8-7954-439d-84f2-03d0cb16b504",
+  "index_nprobe": null,
+  "manifest_id": "5e99f5d4b72dc327",
+  "margin": 0.17700302600860596,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9573216438293457,
+  "s_surv": 0.7803186178207397,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "13158758_3117920_fact1",
+      "score": 0.7803186178207397,
+      "source_id": "13158758_3117920",
+      "value": " Duke Ellington and His Orchestra"
+    },
+    {
+      "entry_id": "6080968_308045_fact1",
+      "score": 0.7584165930747986,
+      "source_id": "6080968_308045",
+      "value": " American country singer"
+    },
+    {
+      "entry_id": "60349039_3664153_fact0",
+      "score": 0.7561399340629578,
+      "source_id": "60349039_3664153",
+      "value": " saxophonist Buddy Tate and trombonist Al Grey"
+    },
+    {
+      "entry_id": "51521651_4694335_fact1",
+      "score": 0.7514951825141907,
+      "source_id": "51521651_4694335",
+      "value": " B.B. King"
+    },
+    {
+      "entry_id": "29454406_1490930_fact1",
+      "score": 0.7476312518119812,
+      "source_id": "29454406_1490930",
+      "value": " Johnny Mathis"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,1395 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "21162629_3436986_fact3",
+      "score": 0.954147458076477,
+      "source_id": "21162629_3436986",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58305804_4748075_fact3",
+      "score": 0.8152555823326111,
+      "source_id": "58305804_4748075",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "361460_92379_fact3",
+      "score": 0.7778106927871704,
+      "source_id": "361460_92379",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70708399_3679558_fact3",
+      "score": 0.7767016887664795,
+      "source_id": "70708399_3679558",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23688875_3454278_fact4",
+      "score": 0.7371198534965515,
+      "source_id": "23688875_3454278",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44515909_4527073_fact2",
+      "score": 0.7355648875236511,
+      "source_id": "44515909_4527073",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32485126_1755132_fact3",
+      "score": 0.7297225594520569,
+      "source_id": "32485126_1755132",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44798521_4737350_fact2",
+      "score": 0.7294335961341858,
+      "source_id": "44798521_4737350",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41444736_4335245_fact2",
+      "score": 0.7257975339889526,
+      "source_id": "41444736_4335245",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24758198_2185285_fact4",
+      "score": 0.7249385714530945,
+      "source_id": "24758198_2185285",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3791412_444146_fact2",
+      "score": 0.720359206199646,
+      "source_id": "3791412_444146",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37126433_3188144_fact4",
+      "score": 0.7188442349433899,
+      "source_id": "37126433_3188144",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "392469_6053099_fact2",
+      "score": 0.716647744178772,
+      "source_id": "392469_6053099",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18453426_3139884_fact2",
+      "score": 0.7154231667518616,
+      "source_id": "18453426_3139884",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33331680_2457156_fact2",
+      "score": 0.7150611877441406,
+      "source_id": "33331680_2457156",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "771399_6121057_fact2",
+      "score": 0.7124459743499756,
+      "source_id": "771399_6121057",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61308704_4357661_fact2",
+      "score": 0.7092772722244263,
+      "source_id": "61308704_4357661",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26681268_1540051_fact2",
+      "score": 0.7081162929534912,
+      "source_id": "26681268_1540051",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "854310_833234_fact2",
+      "score": 0.7044309377670288,
+      "source_id": "854310_833234",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66044543_5290694_fact4",
+      "score": 0.7041071653366089,
+      "source_id": "66044543_5290694",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5309615_753517_fact2",
+      "score": 0.7017698287963867,
+      "source_id": "5309615_753517",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42030502_4847458_fact4",
+      "score": 0.7012213468551636,
+      "source_id": "42030502_4847458",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17714087_2522711_fact4",
+      "score": 0.6987276673316956,
+      "source_id": "17714087_2522711",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19105896_1562626_fact6",
+      "score": 0.6928300261497498,
+      "source_id": "19105896_1562626",
+      "value": " Dutch Reformed Church"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62357545_5098211_fact8",
+      "score": 0.6919212341308594,
+      "source_id": "62357545_5098211",
+      "value": " administrator of the Dutch West India Company"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40207395_5705918_fact3",
+      "score": 0.6914089322090149,
+      "source_id": "40207395_5705918",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62124618_4947085_fact2",
+      "score": 0.6907545328140259,
+      "source_id": "62124618_4947085",
+      "value": " administrator of the Dutch West India Company"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35035751_1553267_fact4",
+      "score": 0.6903070211410522,
+      "source_id": "35035751_1553267",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31401973_3106780_fact2",
+      "score": 0.6892068386077881,
+      "source_id": "31401973_3106780",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23690289_3457588_fact2",
+      "score": 0.6890627145767212,
+      "source_id": "23690289_3457588",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2371230_788372_fact3",
+      "score": 0.6888953447341919,
+      "source_id": "2371230_788372",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53776442_3844124_fact3",
+      "score": 0.688565731048584,
+      "source_id": "53776442_3844124",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39255645_4893085_fact4",
+      "score": 0.6877440214157104,
+      "source_id": "39255645_4893085",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "189934_143648_fact4",
+      "score": 0.6858778595924377,
+      "source_id": "189934_143648",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32899008_2093123_fact4",
+      "score": 0.6844465136528015,
+      "source_id": "32899008_2093123",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33252507_2392626_fact5",
+      "score": 0.6833025217056274,
+      "source_id": "33252507_2392626",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41843252_4680287_fact3",
+      "score": 0.6829631328582764,
+      "source_id": "41843252_4680287",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3125624_770502_fact4",
+      "score": 0.6823601722717285,
+      "source_id": "3125624_770502",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57695966_4288445_fact4",
+      "score": 0.681857168674469,
+      "source_id": "57695966_4288445",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32327035_1627029_fact4",
+      "score": 0.6816498041152954,
+      "source_id": "32327035_1627029",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41870056_4701615_fact2",
+      "score": 0.6811058521270752,
+      "source_id": "41870056_4701615",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1933350_1148609_fact2",
+      "score": 0.6800404787063599,
+      "source_id": "1933350_1148609",
+      "value": " Dutch nobleman"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52737084_5518730_fact3",
+      "score": 0.6795947551727295,
+      "source_id": "52737084_5518730",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35043670_1558888_fact4",
+      "score": 0.6791403293609619,
+      "source_id": "35043670_1558888",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32163933_1498578_fact4",
+      "score": 0.6775931119918823,
+      "source_id": "32163933_1498578",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37520816_3466518_fact4",
+      "score": 0.6775405406951904,
+      "source_id": "37520816_3466518",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29526361_1542949_fact2",
+      "score": 0.6770079135894775,
+      "source_id": "29526361_1542949",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40668679_3626910_fact2",
+      "score": 0.675807535648346,
+      "source_id": "40668679_3626910",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59643217_5587602_fact2",
+      "score": 0.6742916703224182,
+      "source_id": "59643217_5587602",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29463668_1499516_fact5",
+      "score": 0.6741017699241638,
+      "source_id": "29463668_1499516",
+      "value": " Dutch Golden Age"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32986654_2159811_fact2",
+      "score": 0.6740254163742065,
+      "source_id": "32986654_2159811",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "555171_1017799_fact4",
+      "score": 0.6733344197273254,
+      "source_id": "555171_1017799",
+      "value": " Dutch/German"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43289922_5854607_fact2",
+      "score": 0.6729579567909241,
+      "source_id": "43289922_5854607",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40648485_3607765_fact2",
+      "score": 0.6721718311309814,
+      "source_id": "40648485_3607765",
+      "value": " Dutch colonial government official"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29611003_1617372_fact5",
+      "score": 0.6713448762893677,
+      "source_id": "29611003_1617372",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37878066_3681517_fact4",
+      "score": 0.670133650302887,
+      "source_id": "37878066_3681517",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "215645_326584_fact6",
+      "score": 0.6695343852043152,
+      "source_id": "215645_326584",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43829392_3934206_fact2",
+      "score": 0.6672950387001038,
+      "source_id": "43829392_3934206",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1817747_911165_fact3",
+      "score": 0.667219877243042,
+      "source_id": "1817747_911165",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42255840_5041130_fact3",
+      "score": 0.6665914058685303,
+      "source_id": "42255840_5041130",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23650815_3414448_fact4",
+      "score": 0.6657004952430725,
+      "source_id": "23650815_3414448",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23689903_3456630_fact2",
+      "score": 0.6646477580070496,
+      "source_id": "23689903_3456630",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25338456_2713978_fact5",
+      "score": 0.6644532084465027,
+      "source_id": "25338456_2713978",
+      "value": " Dutch Golden Age"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "751030_6113993_fact2",
+      "score": 0.6635074615478516,
+      "source_id": "751030_6113993",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13645258_1221452_fact2",
+      "score": 0.6633836627006531,
+      "source_id": "13645258_1221452",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63394831_5822980_fact2",
+      "score": 0.6632192730903625,
+      "source_id": "63394831_5822980",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1547382_315917_fact3",
+      "score": 0.6630885004997253,
+      "source_id": "1547382_315917",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27268385_2021019_fact4",
+      "score": 0.6623730659484863,
+      "source_id": "27268385_2021019",
+      "value": " eighteenth-century Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64606779_4386536_fact2",
+      "score": 0.6617861390113831,
+      "source_id": "64606779_4386536",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13203016_3160578_fact5",
+      "score": 0.6607322692871094,
+      "source_id": "13203016_3160578",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25363699_2734955_fact3",
+      "score": 0.6588113307952881,
+      "source_id": "25363699_2734955",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23688795_3454008_fact4",
+      "score": 0.6583791375160217,
+      "source_id": "23688795_3454008",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "311678_943037_fact5",
+      "score": 0.6579380035400391,
+      "source_id": "311678_943037",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14471282_2009977_fact2",
+      "score": 0.6573649048805237,
+      "source_id": "14471282_2009977",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41667201_4523818_fact5",
+      "score": 0.656868577003479,
+      "source_id": "41667201_4523818",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22036089_1884000_fact3",
+      "score": 0.6565662026405334,
+      "source_id": "22036089_1884000",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6647215_688458_fact2",
+      "score": 0.6561427116394043,
+      "source_id": "6647215_688458",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4111866_785719_fact2",
+      "score": 0.6560961008071899,
+      "source_id": "4111866_785719",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1600997_436654_fact2",
+      "score": 0.6555292010307312,
+      "source_id": "1600997_436654",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71018434_3900385_fact4",
+      "score": 0.6555054783821106,
+      "source_id": "71018434_3900385",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "486565_727761_fact3",
+      "score": 0.6555013656616211,
+      "source_id": "486565_727761",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23242294_2988947_fact4",
+      "score": 0.6553658246994019,
+      "source_id": "23242294_2988947",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "420632_401047_fact5",
+      "score": 0.6551622152328491,
+      "source_id": "420632_401047",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30040201_1878472_fact4",
+      "score": 0.6549951434135437,
+      "source_id": "30040201_1878472",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4138996_814873_fact2",
+      "score": 0.6543704271316528,
+      "source_id": "4138996_814873",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33961381_2982956_fact3",
+      "score": 0.6543030142784119,
+      "source_id": "33961381_2982956",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "388129_227357_fact3",
+      "score": 0.6540461778640747,
+      "source_id": "388129_227357",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42482580_5224806_fact2",
+      "score": 0.653987467288971,
+      "source_id": "42482580_5224806",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "692074_6102202_fact2",
+      "score": 0.6534830331802368,
+      "source_id": "692074_6102202",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1692666_642179_fact163",
+      "score": 0.6534303426742554,
+      "source_id": "1692666_642179",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55527104_5038917_fact2",
+      "score": 0.6526106595993042,
+      "source_id": "55527104_5038917",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25104141_2503989_fact2",
+      "score": 0.6518401503562927,
+      "source_id": "25104141_2503989",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29591838_1605697_fact4",
+      "score": 0.651154100894928,
+      "source_id": "29591838_1605697",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33070065_2231960_fact4",
+      "score": 0.6508474946022034,
+      "source_id": "33070065_2231960",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41123232_4041219_fact2",
+      "score": 0.6506658792495728,
+      "source_id": "41123232_4041219",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30369733_2118443_fact4",
+      "score": 0.6505034565925598,
+      "source_id": "30369733_2118443",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24454227_1901222_fact3",
+      "score": 0.6503939628601074,
+      "source_id": "24454227_1901222",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17492565_2326329_fact2",
+      "score": 0.6500712633132935,
+      "source_id": "17492565_2326329",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37946715_3741031_fact2",
+      "score": 0.6497614979743958,
+      "source_id": "37946715_3741031",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1879554_1039447_fact43",
+      "score": 0.6497335433959961,
+      "source_id": "1879554_1039447",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "982540_87075_fact87",
+      "score": 0.6494131088256836,
+      "source_id": "982540_87075",
+      "value": " Dutch professor of Arabic and mathematics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60471740_3762116_fact4",
+      "score": 0.649142324924469,
+      "source_id": "60471740_3762116",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36604715_2744049_fact4",
+      "score": 0.6487997770309448,
+      "source_id": "36604715_2744049",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "607963_82588_fact75",
+      "score": 0.6482369303703308,
+      "source_id": "607963_82588",
+      "value": " Dutch orientalist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26943971_1762744_fact2",
+      "score": 0.6481091976165771,
+      "source_id": "26943971_1762744",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23690133_3457316_fact3",
+      "score": 0.6474803686141968,
+      "source_id": "23690133_3457316",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1065303_310329_fact2",
+      "score": 0.6470767259597778,
+      "source_id": "1065303_310329",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10184869_2187485_fact2",
+      "score": 0.6469509601593018,
+      "source_id": "10184869_2187485",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28068322_2725494_fact4",
+      "score": 0.6469241380691528,
+      "source_id": "28068322_2725494",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2576283_1122670_fact3",
+      "score": 0.6467695236206055,
+      "source_id": "2576283_1122670",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67665566_3931257_fact2",
+      "score": 0.6465418934822083,
+      "source_id": "67665566_3931257",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1524995_275095_fact2",
+      "score": 0.6459221839904785,
+      "source_id": "1524995_275095",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33653137_2717158_fact2",
+      "score": 0.6458882093429565,
+      "source_id": "33653137_2717158",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33966499_2986967_fact2",
+      "score": 0.6456443071365356,
+      "source_id": "33966499_2986967",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72891592_5049154_fact4",
+      "score": 0.6455526947975159,
+      "source_id": "72891592_5049154",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34638724_3563363_fact4",
+      "score": 0.6453139781951904,
+      "source_id": "34638724_3563363",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25998318_3340897_fact171",
+      "score": 0.6451423168182373,
+      "source_id": "25998318_3340897",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3605365_231804_fact2",
+      "score": 0.6444599032402039,
+      "source_id": "3605365_231804",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20260411_2581907_fact2",
+      "score": 0.6444237232208252,
+      "source_id": "20260411_2581907",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60091516_5856910_fact2",
+      "score": 0.6442177891731262,
+      "source_id": "60091516_5856910",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2678642_155182_fact5",
+      "score": 0.6439393758773804,
+      "source_id": "2678642_155182",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40595313_3559506_fact2",
+      "score": 0.6439027786254883,
+      "source_id": "40595313_3559506",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37834791_3642585_fact5",
+      "score": 0.6438085436820984,
+      "source_id": "37834791_3642585",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "840060_778473_fact2",
+      "score": 0.6436817049980164,
+      "source_id": "840060_778473",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38518742_4245793_fact2",
+      "score": 0.6422792673110962,
+      "source_id": "38518742_4245793",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8667899_2889956_fact2",
+      "score": 0.6412733793258667,
+      "source_id": "8667899_2889956",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5021197_499322_fact2",
+      "score": 0.6406177878379822,
+      "source_id": "5021197_499322",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4042744_709248_fact2",
+      "score": 0.6405795812606812,
+      "source_id": "4042744_709248",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59328385_5389292_fact3",
+      "score": 0.6401823163032532,
+      "source_id": "59328385_5389292",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20578688_2824763_fact2",
+      "score": 0.6401790976524353,
+      "source_id": "20578688_2824763",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56190693_5540638_fact4",
+      "score": 0.6399871706962585,
+      "source_id": "56190693_5540638",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2868879_402381_fact5",
+      "score": 0.6398679614067078,
+      "source_id": "2868879_402381",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2091974_284650_fact3",
+      "score": 0.6397337913513184,
+      "source_id": "2091974_284650",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36010292_2264448_fact4",
+      "score": 0.6393078565597534,
+      "source_id": "36010292_2264448",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57392967_4068203_fact2",
+      "score": 0.6390810012817383,
+      "source_id": "57392967_4068203",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30680757_2351852_fact2",
+      "score": 0.6390758752822876,
+      "source_id": "30680757_2351852",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16919195_1806148_fact4",
+      "score": 0.6389853954315186,
+      "source_id": "16919195_1806148",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1504442_235296_fact2",
+      "score": 0.6389791965484619,
+      "source_id": "1504442_235296",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60576137_3847981_fact4",
+      "score": 0.6389330625534058,
+      "source_id": "60576137_3847981",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42964_898427_fact26",
+      "score": 0.6388005018234253,
+      "source_id": "42964_898427",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62654_1205852_fact84",
+      "score": 0.6387299299240112,
+      "source_id": "62654_1205852",
+      "value": " Dutch historian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2322250_704543_fact2",
+      "score": 0.6385481357574463,
+      "source_id": "2322250_704543",
+      "value": " Dutch apothecary"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33485_5983573_fact31",
+      "score": 0.6385349631309509,
+      "source_id": "33485_5983573",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30410452_2142193_fact4",
+      "score": 0.6378673911094666,
+      "source_id": "30410452_2142193",
+      "value": " Dutch Golden Age"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57846493_4413009_fact2",
+      "score": 0.6376394033432007,
+      "source_id": "57846493_4413009",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43282025_5848446_fact2",
+      "score": 0.6371623277664185,
+      "source_id": "43282025_5848446",
+      "value": " Dutch Golden Age"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60018_1166238_fact258",
+      "score": 0.6364494562149048,
+      "source_id": "60018_1166238",
+      "value": " Dutch cartographer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17166370_2029256_fact4",
+      "score": 0.6363005042076111,
+      "source_id": "17166370_2029256",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41451806_4342237_fact3",
+      "score": 0.6353434324264526,
+      "source_id": "41451806_4342237",
+      "value": " Dutch"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5105ec8e-2187-4d13-b3b3-8cc3968ed7d4",
+  "index_nprobe": null,
+  "manifest_id": "dab76af8e1afea5e",
+  "margin": 0.17711079120635986,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.954147458076477,
+  "s_surv": 0.7770366668701172,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "48188226_4592311_fact3",
+      "score": 0.7770366668701172,
+      "source_id": "48188226_4592311",
+      "value": " Flemish"
+    },
+    {
+      "entry_id": "29784957_1735342_fact3",
+      "score": 0.7730702757835388,
+      "source_id": "29784957_1735342",
+      "value": " Catholic pastor"
+    },
+    {
+      "entry_id": "6316801_487287_fact4",
+      "score": 0.7574207782745361,
+      "source_id": "6316801_487287",
+      "value": " Czech"
+    },
+    {
+      "entry_id": "65454558_4857570_fact2",
+      "score": 0.7534421682357788,
+      "source_id": "65454558_4857570",
+      "value": " member of the New York General Assembly"
+    },
+    {
+      "entry_id": "59557844_5527710_fact3",
+      "score": 0.752437949180603,
+      "source_id": "59557844_5527710",
+      "value": " nobleman"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,214 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "28977296_3465579_fact103",
+      "score": 0.66867995262146,
+      "source_id": "28977296_3465579",
+      "value": " St Stephen's, Walbrook"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30761489_2426808_fact13",
+      "score": 0.6566740274429321,
+      "source_id": "30761489_2426808",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70365910_5764491_fact38",
+      "score": 0.5950527787208557,
+      "source_id": "70365910_5764491",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29126887_1258232_fact39",
+      "score": 0.5815192461013794,
+      "source_id": "29126887_1258232",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "176767_1222725_fact40",
+      "score": 0.5764303207397461,
+      "source_id": "176767_1222725",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49878884_5809860_fact84",
+      "score": 0.5680171847343445,
+      "source_id": "49878884_5809860",
+      "value": " St. Peter's Basilica in Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43058564_5673854_fact76",
+      "score": 0.5610323548316956,
+      "source_id": "43058564_5673854",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1651704_551622_fact72",
+      "score": 0.5583891272544861,
+      "source_id": "1651704_551622",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13582734_3546053_fact83",
+      "score": 0.5549293756484985,
+      "source_id": "13582734_3546053",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7093294_1016135_fact31",
+      "score": 0.5547538995742798,
+      "source_id": "7093294_1016135",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24199_553784_fact225",
+      "score": 0.5484808087348938,
+      "source_id": "24199_553784",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53549370_3662055_fact43",
+      "score": 0.5477945804595947,
+      "source_id": "53549370_3662055",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11934209_1640729_fact138",
+      "score": 0.5453238487243652,
+      "source_id": "11934209_1640729",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12172125_1908843_fact22",
+      "score": 0.5439494252204895,
+      "source_id": "12172125_1908843",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9681833_1661420_fact79",
+      "score": 0.5437519550323486,
+      "source_id": "9681833_1661420",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42089_5985062_fact114",
+      "score": 0.5421525835990906,
+      "source_id": "42089_5985062",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "157717_1027658_fact45",
+      "score": 0.5357192754745483,
+      "source_id": "157717_1027658",
+      "value": " Rome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "503971_810242_fact22",
+      "score": 0.5354403257369995,
+      "source_id": "503971_810242",
+      "value": " Rome"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8ccc71b9-6e64-4798-bf2d-cbc1652f6950",
+  "index_nprobe": null,
+  "manifest_id": "153e7f3a784ada38",
+  "margin": 0.020424365997314453,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6686798930168152,
+  "s_surv": 0.6482555270195007,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "13097461_3053095_fact20",
+      "score": 0.6482555270195007,
+      "source_id": "13097461_3053095",
+      "value": " Avignon"
+    },
+    {
+      "entry_id": "32651037_1884778_fact24",
+      "score": 0.632893443107605,
+      "source_id": "32651037_1884778",
+      "value": " Buckingham Palace"
+    },
+    {
+      "entry_id": "58917_1149596_fact132",
+      "score": 0.6276960372924805,
+      "source_id": "58917_1149596",
+      "value": " the City of London"
+    },
+    {
+      "entry_id": "1578647_385226_fact38",
+      "score": 0.6239904165267944,
+      "source_id": "1578647_385226",
+      "value": " Avignon"
+    },
+    {
+      "entry_id": "21395056_1274401_fact89",
+      "score": 0.6185646057128906,
+      "source_id": "21395056_1274401",
+      "value": " Lyon"
+    }
+  ],
+  "truncated": false
+}

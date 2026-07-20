@@ -99,6 +99,12 @@ class _FilteringSearchIndex:
     # budget until it finds enough retained candidates, the index runs out,
     # or this ceiling is hit (which raises ExclusionSearchExhaustedError).
     max_filter_search_k: int = 131072
+    # Slim traces keep full candidate records only where analysis reads them
+    # (the selection, and retained candidates that support the target); the
+    # deleted set shrinks to ID stubs and the raw fetch to a count. FULL-pass
+    # traces must stay complete: the sweep-reuse check and oracle bootstrap
+    # walk their candidate lists.
+    slim_trace: bool = False
     events: list[dict[str, Any]] = field(default_factory=list)
     query_embeddings: list[np.ndarray | None] = field(default_factory=list)
 
@@ -227,6 +233,39 @@ class _FilteringSearchIndex:
             search_k = min(search_k * 2, search_k_ceiling)
             widened_attempts += 1
 
+        if self.slim_trace:
+            all_records: list[dict[str, Any]] = []
+            deleted_records = [
+                {
+                    "entry_id": _candidate_id(candidate),
+                    "source_id": _candidate_source_id(candidate),
+                    "score": _candidate_score(candidate),
+                }
+                for candidate in deleted
+            ]
+            retained_records = [
+                record
+                for candidate in retained
+                if (
+                    record := _serialize_candidate(
+                        candidate, self.example, self.support_judge
+                    )
+                ).get("supports_target")
+                is True
+            ]
+        else:
+            all_records = [
+                _serialize_candidate(candidate, self.example, self.support_judge)
+                for candidate in candidates
+            ]
+            deleted_records = [
+                _serialize_candidate(candidate, self.example, self.support_judge)
+                for candidate in deleted
+            ]
+            retained_records = [
+                _serialize_candidate(candidate, self.example, self.support_judge)
+                for candidate in retained
+            ]
         event = {
             "event_index": len(self.events),
             "threshold": similarity_threshold,
@@ -241,18 +280,13 @@ class _FilteringSearchIndex:
             "query_l2_norm": (
                 None if query_array is None else float(np.linalg.norm(query_array))
             ),
-            "all_candidates": [
-                _serialize_candidate(candidate, self.example, self.support_judge)
-                for candidate in candidates
-            ],
-            "deleted_candidates": [
-                _serialize_candidate(candidate, self.example, self.support_judge)
-                for candidate in deleted
-            ],
-            "retained_candidates": [
-                _serialize_candidate(candidate, self.example, self.support_judge)
-                for candidate in retained
-            ],
+            "candidates_slim": self.slim_trace,
+            "all_candidates_count": len(candidates),
+            "deleted_candidates_count": len(deleted),
+            "retained_candidates_count": len(retained),
+            "all_candidates": all_records,
+            "deleted_candidates": deleted_records,
+            "retained_candidates": retained_records,
             "selected_candidate": (
                 _serialize_candidate(selected[0], self.example, self.support_judge)
                 if selected

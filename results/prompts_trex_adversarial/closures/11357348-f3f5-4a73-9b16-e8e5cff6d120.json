@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "3055004_669337_fact3",
+      "score": 0.765937328338623,
+      "source_id": "3055004_669337",
+      "value": " prime minister of Haiti"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "11357348-f3f5-4a73-9b16-e8e5cff6d120",
+  "index_nprobe": null,
+  "manifest_id": "73e29ef5f2f32e8d",
+  "margin": 0.010412991046905518,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7659372687339783,
+  "s_surv": 0.7555242776870728,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "64337203_4172045_fact5",
+      "score": 0.7555242776870728,
+      "source_id": "64337203_4172045",
+      "value": " deputy of the 3rd Circuit of Haute-Vienne"
+    },
+    {
+      "entry_id": "6097732_321247_fact4",
+      "score": 0.7476798295974731,
+      "source_id": "6097732_321247",
+      "value": " first Catholic Bishop of Montreal"
+    },
+    {
+      "entry_id": "332348_1079289_fact3",
+      "score": 0.7352249622344971,
+      "source_id": "332348_1079289",
+      "value": " premier of Quebec"
+    },
+    {
+      "entry_id": "22062850_1907828_fact5",
+      "score": 0.7112010717391968,
+      "source_id": "22062850_1907828",
+      "value": " French Ambassador to the United States"
+    },
+    {
+      "entry_id": "5686105_1078470_fact5",
+      "score": 0.7075566053390503,
+      "source_id": "5686105_1078470",
+      "value": " second Prime Minister of Luxembourg"
+    }
+  ],
+  "truncated": false
+}

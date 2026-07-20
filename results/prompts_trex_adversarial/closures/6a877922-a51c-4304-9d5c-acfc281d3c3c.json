@@ -1,0 +1,1578 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "69287895_5092212_fact3",
+      "score": 0.9211635589599609,
+      "source_id": "69287895_5092212",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "8128_5977623_fact1",
+      "score": 0.8788923621177673,
+      "source_id": "8128_5977623",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "831761_6136563_fact1",
+      "score": 0.8566994667053223,
+      "source_id": "831761_6136563",
+      "value": " the Microsoft Corporation"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "225169_387443_fact1",
+      "score": 0.8538286685943604,
+      "source_id": "225169_387443",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "102556_15370_fact2",
+      "score": 0.8346430659294128,
+      "source_id": "102556_15370",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8108162_2155350_fact0",
+      "score": 0.8081988096237183,
+      "source_id": "8108162_2155350",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36160292_2392155_fact3",
+      "score": 0.797731339931488,
+      "source_id": "36160292_2392155",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3420710_1154607_fact3",
+      "score": 0.7955299019813538,
+      "source_id": "3420710_1154607",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "93494_13648_fact126",
+      "score": 0.7947258949279785,
+      "source_id": "93494_13648",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "348300_1169324_fact128",
+      "score": 0.7882695198059082,
+      "source_id": "348300_1169324",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4046678_713108_fact26",
+      "score": 0.7695509195327759,
+      "source_id": "4046678_713108",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5066577_539220_fact1",
+      "score": 0.7626804113388062,
+      "source_id": "5066577_539220",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "179311_27613_fact55",
+      "score": 0.7613723278045654,
+      "source_id": "179311_27613",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21505797_1383647_fact1",
+      "score": 0.7500486969947815,
+      "source_id": "21505797_1383647",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "113364_17414_fact13",
+      "score": 0.7479569911956787,
+      "source_id": "113364_17414",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "75458_186706_fact0",
+      "score": 0.7479406595230103,
+      "source_id": "75458_186706",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1275656_889418_fact1",
+      "score": 0.7456966042518616,
+      "source_id": "1275656_889418",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3060584_676329_fact1",
+      "score": 0.7441390752792358,
+      "source_id": "3060584_676329",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10060075_2051082_fact2",
+      "score": 0.7426416873931885,
+      "source_id": "10060075_2051082",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2533580_1058153_fact1",
+      "score": 0.7397810816764832,
+      "source_id": "2533580_1058153",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1395774_1151017_fact4",
+      "score": 0.7324747443199158,
+      "source_id": "1395774_1151017",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43941_914656_fact2",
+      "score": 0.7284235954284668,
+      "source_id": "43941_914656",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4930688_420646_fact3",
+      "score": 0.7284006476402283,
+      "source_id": "4930688_420646",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21291898_3559375_fact2",
+      "score": 0.727001428604126,
+      "source_id": "21291898_3559375",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21291384_3558744_fact2",
+      "score": 0.718670129776001,
+      "source_id": "21291384_3558744",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13349511_3306975_fact1",
+      "score": 0.7125372886657715,
+      "source_id": "13349511_3306975",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24806506_2231015_fact1",
+      "score": 0.7115772366523743,
+      "source_id": "24806506_2231015",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30018050_1863441_fact1",
+      "score": 0.710482120513916,
+      "source_id": "30018050_1863441",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11035294_3045139_fact1",
+      "score": 0.7089330554008484,
+      "source_id": "11035294_3045139",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16988558_1873476_fact1",
+      "score": 0.7088053822517395,
+      "source_id": "16988558_1873476",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2896255_443663_fact2",
+      "score": 0.7073177099227905,
+      "source_id": "2896255_443663",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22519355_2332386_fact3",
+      "score": 0.7064464092254639,
+      "source_id": "22519355_2332386",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27449267_2179585_fact2",
+      "score": 0.7061216235160828,
+      "source_id": "27449267_2179585",
+      "value": " Microsoft corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2289648_642055_fact1",
+      "score": 0.705415666103363,
+      "source_id": "2289648_642055",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "75433_186560_fact1",
+      "score": 0.7030012011528015,
+      "source_id": "75433_186560",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "326123_1040401_fact1",
+      "score": 0.7010905146598816,
+      "source_id": "326123_1040401",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4080524_750764_fact1",
+      "score": 0.7002373933792114,
+      "source_id": "4080524_750764",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "951294_1149478_fact1",
+      "score": 0.6997280120849609,
+      "source_id": "951294_1149478",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29003544_3486011_fact1",
+      "score": 0.6975526213645935,
+      "source_id": "29003544_3486011",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42206259_4997779_fact3",
+      "score": 0.6966085433959961,
+      "source_id": "42206259_4997779",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "121532_6001871_fact0",
+      "score": 0.6948577165603638,
+      "source_id": "121532_6001871",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "681327_346838_fact1",
+      "score": 0.6945599317550659,
+      "source_id": "681327_346838",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1932127_1146439_fact2",
+      "score": 0.694241464138031,
+      "source_id": "1932127_1146439",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18890_438401_fact1",
+      "score": 0.6941919326782227,
+      "source_id": "18890_438401",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6190299_398580_fact2",
+      "score": 0.6917980313301086,
+      "source_id": "6190299_398580",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2160668_401275_fact3",
+      "score": 0.6915704607963562,
+      "source_id": "2160668_401275",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38993942_4652632_fact1",
+      "score": 0.6906909942626953,
+      "source_id": "38993942_4652632",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6442456_566438_fact1",
+      "score": 0.6894432902336121,
+      "source_id": "6442456_566438",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "521590_889070_fact3",
+      "score": 0.689142107963562,
+      "source_id": "521590_889070",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37365_5984201_fact2",
+      "score": 0.6771364212036133,
+      "source_id": "37365_5984201",
+      "value": " the Windows Live section of Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1144328_528844_fact2",
+      "score": 0.6771126985549927,
+      "source_id": "1144328_528844",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33941_775326_fact1",
+      "score": 0.6760777831077576,
+      "source_id": "33941_775326",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "984882_93334_fact1",
+      "score": 0.6757954955101013,
+      "source_id": "984882_93334",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "474878_6070573_fact1",
+      "score": 0.6753835082054138,
+      "source_id": "474878_6070573",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35523640_1855680_fact1",
+      "score": 0.6750012636184692,
+      "source_id": "35523640_1855680",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26731_5981944_fact1",
+      "score": 0.6748450398445129,
+      "source_id": "26731_5981944",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19011063_1462614_fact3",
+      "score": 0.6742022633552551,
+      "source_id": "19011063_1462614",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "93436_5996196_fact1",
+      "score": 0.6731864213943481,
+      "source_id": "93436_5996196",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "984884_93340_fact1",
+      "score": 0.6713263988494873,
+      "source_id": "984884_93340",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20288_470475_fact0",
+      "score": 0.6707544922828674,
+      "source_id": "20288_470475",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20287_470364_fact1",
+      "score": 0.6693782806396484,
+      "source_id": "20287_470364",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48780189_5065434_fact3",
+      "score": 0.6691445112228394,
+      "source_id": "48780189_5065434",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "246041_36788_fact1",
+      "score": 0.668060302734375,
+      "source_id": "246041_36788",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23571626_3318091_fact140",
+      "score": 0.6659801602363586,
+      "source_id": "23571626_3318091",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63585896_5956709_fact1",
+      "score": 0.6652815341949463,
+      "source_id": "63585896_5956709",
+      "value": " Microsoft Research"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46274583_5533214_fact2",
+      "score": 0.6649799942970276,
+      "source_id": "46274583_5533214",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18941229_1364543_fact1",
+      "score": 0.6647260785102844,
+      "source_id": "18941229_1364543",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "266012_41445_fact1",
+      "score": 0.6638845801353455,
+      "source_id": "266012_41445",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15215_364108_fact3",
+      "score": 0.663296103477478,
+      "source_id": "15215_364108",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16473708_1447494_fact1",
+      "score": 0.6623377799987793,
+      "source_id": "16473708_1447494",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "448884_6064509_fact1",
+      "score": 0.6622947454452515,
+      "source_id": "448884_6064509",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48084693_4546748_fact1",
+      "score": 0.6621250510215759,
+      "source_id": "48084693_4546748",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "249173_551242_fact0",
+      "score": 0.661689281463623,
+      "source_id": "249173_551242",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3708207_351622_fact2",
+      "score": 0.6612842679023743,
+      "source_id": "3708207_351622",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20698208_2941155_fact3",
+      "score": 0.6612141132354736,
+      "source_id": "20698208_2941155",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "321217_6039221_fact1",
+      "score": 0.6611508131027222,
+      "source_id": "321217_6039221",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3632045_265870_fact1",
+      "score": 0.6608805656433105,
+      "source_id": "3632045_265870",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1956387_1195623_fact1",
+      "score": 0.6604469418525696,
+      "source_id": "1956387_1195623",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "97787_14520_fact14",
+      "score": 0.6601724028587341,
+      "source_id": "97787_14520",
+      "value": " Microsoft Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46313839_5567594_fact1",
+      "score": 0.6597964763641357,
+      "source_id": "46313839_5567594",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48458765_4780377_fact2",
+      "score": 0.6585837602615356,
+      "source_id": "48458765_4780377",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1032180_222002_fact36",
+      "score": 0.658500075340271,
+      "source_id": "1032180_222002",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67031434_5862979_fact1",
+      "score": 0.6572521328926086,
+      "source_id": "67031434_5862979",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34064_777765_fact1",
+      "score": 0.6566945314407349,
+      "source_id": "34064_777765",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45153450_4991859_fact1",
+      "score": 0.6561703681945801,
+      "source_id": "45153450_4991859",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33457271_2557238_fact2",
+      "score": 0.6559544801712036,
+      "source_id": "33457271_2557238",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "510727_6074786_fact1",
+      "score": 0.655680239200592,
+      "source_id": "510727_6074786",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5743426_1133949_fact1",
+      "score": 0.6527090668678284,
+      "source_id": "5743426_1133949",
+      "value": " Microsoft and Intel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2605684_1173311_fact36",
+      "score": 0.6525622010231018,
+      "source_id": "2605684_1173311",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73158049_5180145_fact1",
+      "score": 0.6524003744125366,
+      "source_id": "73158049_5180145",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48546809_4861214_fact1",
+      "score": 0.6517369151115417,
+      "source_id": "48546809_4861214",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56149158_5507710_fact1",
+      "score": 0.6509674787521362,
+      "source_id": "56149158_5507710",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1290139_920816_fact2",
+      "score": 0.6505903005599976,
+      "source_id": "1290139_920816",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1449065_123101_fact1",
+      "score": 0.6500682830810547,
+      "source_id": "1449065_123101",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39184_846615_fact2",
+      "score": 0.6499684453010559,
+      "source_id": "39184_846615",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1707979_678041_fact3",
+      "score": 0.6494521498680115,
+      "source_id": "1707979_678041",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "930470_6157089_fact0",
+      "score": 0.6491860151290894,
+      "source_id": "930470_6157089",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4913316_406023_fact2",
+      "score": 0.6489096879959106,
+      "source_id": "4913316_406023",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "927_5975782_fact2",
+      "score": 0.648878812789917,
+      "source_id": "927_5975782",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25143203_2538243_fact2",
+      "score": 0.6483048796653748,
+      "source_id": "25143203_2538243",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50179_5986909_fact1",
+      "score": 0.647588312625885,
+      "source_id": "50179_5986909",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10289_5978110_fact1",
+      "score": 0.6474613547325134,
+      "source_id": "10289_5978110",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "531619_931157_fact2",
+      "score": 0.6473312973976135,
+      "source_id": "531619_931157",
+      "value": " Microsoft Home's Microsoft Kids subsidiary"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65323631_4763953_fact2",
+      "score": 0.6473010778427124,
+      "source_id": "65323631_4763953",
+      "value": " Microsoft and WizBang! Software Productions"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "625068_6091128_fact1",
+      "score": 0.6471771001815796,
+      "source_id": "625068_6091128",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "881391_6147231_fact1",
+      "score": 0.6466500163078308,
+      "source_id": "881391_6147231",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34062_777694_fact4",
+      "score": 0.6462866067886353,
+      "source_id": "34062_777694",
+      "value": " IBM and Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72547151_4854256_fact1",
+      "score": 0.645600438117981,
+      "source_id": "72547151_4854256",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "230360_419564_fact2",
+      "score": 0.6445012092590332,
+      "source_id": "230360_419564",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1123994_470620_fact1",
+      "score": 0.6439260244369507,
+      "source_id": "1123994_470620",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "648383_236860_fact1",
+      "score": 0.6429927349090576,
+      "source_id": "648383_236860",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2807_112945_fact2",
+      "score": 0.6429672241210938,
+      "source_id": "2807_112945",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11963111_1673600_fact2",
+      "score": 0.6420322060585022,
+      "source_id": "11963111_1673600",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57876711_4437820_fact1",
+      "score": 0.641539454460144,
+      "source_id": "57876711_4437820",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1390087_1135638_fact2",
+      "score": 0.639823853969574,
+      "source_id": "1390087_1135638",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "984885_93353_fact1",
+      "score": 0.6394906640052795,
+      "source_id": "984885_93353",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13989994_1538732_fact1",
+      "score": 0.6389519572257996,
+      "source_id": "13989994_1538732",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8179_5977646_fact1",
+      "score": 0.6384769082069397,
+      "source_id": "8179_5977646",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2978895_556439_fact1",
+      "score": 0.6363976001739502,
+      "source_id": "2978895_556439",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67094405_5908306_fact32",
+      "score": 0.6363281011581421,
+      "source_id": "67094405_5908306",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "379269_6050370_fact1",
+      "score": 0.6361415386199951,
+      "source_id": "379269_6050370",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "289861_6033238_fact1",
+      "score": 0.6359640955924988,
+      "source_id": "289861_6033238",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2851798_377509_fact3",
+      "score": 0.6355810761451721,
+      "source_id": "2851798_377509",
+      "value": " the Microsoft User Assistance Platform team"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "508384_831048_fact1",
+      "score": 0.6336026191711426,
+      "source_id": "508384_831048",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30781473_2445566_fact2",
+      "score": 0.6333773732185364,
+      "source_id": "30781473_2445566",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "916531_1049574_fact2",
+      "score": 0.6333195567131042,
+      "source_id": "916531_1049574",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "935113_6158218_fact2",
+      "score": 0.6326644420623779,
+      "source_id": "935113_6158218",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2607103_1175625_fact3",
+      "score": 0.6321585178375244,
+      "source_id": "2607103_1175625",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5205352_663033_fact1",
+      "score": 0.6320629715919495,
+      "source_id": "5205352_663033",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "840451_780309_fact1",
+      "score": 0.6319587826728821,
+      "source_id": "840451_780309",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53696148_3775917_fact1",
+      "score": 0.6308841705322266,
+      "source_id": "53696148_3775917",
+      "value": " Microsoft Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5826992_104272_fact1",
+      "score": 0.6307907104492188,
+      "source_id": "5826992_104272",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21291483_3558938_fact1",
+      "score": 0.6303257942199707,
+      "source_id": "21291483_3558938",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "651996_249732_fact1",
+      "score": 0.6302374005317688,
+      "source_id": "651996_249732",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12796439_2707885_fact1",
+      "score": 0.6301229000091553,
+      "source_id": "12796439_2707885",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1259296_846055_fact42",
+      "score": 0.629440426826477,
+      "source_id": "1259296_846055",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3837538_492190_fact3",
+      "score": 0.6292102336883545,
+      "source_id": "3837538_492190",
+      "value": " Microsoft and Veritas Software"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68049610_4215611_fact1",
+      "score": 0.629183292388916,
+      "source_id": "68049610_4215611",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6769241_773954_fact3",
+      "score": 0.628797709941864,
+      "source_id": "6769241_773954",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52506938_5370126_fact1",
+      "score": 0.6287879943847656,
+      "source_id": "52506938_5370126",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "937732_6158805_fact2",
+      "score": 0.6284828186035156,
+      "source_id": "937732_6158805",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13599984_3559280_fact1",
+      "score": 0.6278309226036072,
+      "source_id": "13599984_3559280",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1515395_254766_fact2",
+      "score": 0.6276421546936035,
+      "source_id": "1515395_254766",
+      "value": " Microsoft and IBM"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12105_1777_fact1",
+      "score": 0.6270738244056702,
+      "source_id": "12105_1777",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64988125_4582465_fact99",
+      "score": 0.6260457634925842,
+      "source_id": "64988125_4582465",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14465871_2004092_fact1",
+      "score": 0.6251538395881653,
+      "source_id": "14465871_2004092",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15911_2338_fact15",
+      "score": 0.6247925162315369,
+      "source_id": "15911_2338",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2681951_160026_fact2",
+      "score": 0.6246508955955505,
+      "source_id": "2681951_160026",
+      "value": " Microsoft Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1183125_628627_fact2",
+      "score": 0.6244482398033142,
+      "source_id": "1183125_628627",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "864534_6143822_fact1",
+      "score": 0.6229674220085144,
+      "source_id": "864534_6143822",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "377250_6049972_fact2",
+      "score": 0.622462809085846,
+      "source_id": "377250_6049972",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16575118_1513962_fact2",
+      "score": 0.6203256249427795,
+      "source_id": "16575118_1513962",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1694459_646525_fact1",
+      "score": 0.6201695203781128,
+      "source_id": "1694459_646525",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "177124_1227883_fact2",
+      "score": 0.619969367980957,
+      "source_id": "177124_1227883",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9754675_1735607_fact1",
+      "score": 0.6196770071983337,
+      "source_id": "9754675_1735607",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51268997_4483060_fact1",
+      "score": 0.619331419467926,
+      "source_id": "51268997_4483060",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13263788_3219658_fact1",
+      "score": 0.6191260814666748,
+      "source_id": "13263788_3219658",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "878141_6146704_fact2",
+      "score": 0.6187406778335571,
+      "source_id": "878141_6146704",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10617088_2610367_fact1",
+      "score": 0.6182544827461243,
+      "source_id": "10617088_2610367",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52664856_5467466_fact1",
+      "score": 0.6181197762489319,
+      "source_id": "52664856_5467466",
+      "value": " Microsoft Research"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4086141_757608_fact2",
+      "score": 0.6175611019134521,
+      "source_id": "4086141_757608",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3427_5976067_fact2",
+      "score": 0.6165944337844849,
+      "source_id": "3427_5976067",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "852366_6141205_fact1",
+      "score": 0.6164723634719849,
+      "source_id": "852366_6141205",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2361042_771296_fact2",
+      "score": 0.6157852411270142,
+      "source_id": "2361042_771296",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14981_2175_fact4",
+      "score": 0.6157041788101196,
+      "source_id": "14981_2175",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8821011_3094078_fact2",
+      "score": 0.6142948269844055,
+      "source_id": "8821011_3094078",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32716_754906_fact2",
+      "score": 0.6138566136360168,
+      "source_id": "32716_754906",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "325807_6039854_fact1",
+      "score": 0.611904501914978,
+      "source_id": "325807_6039854",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7514833_1359757_fact1",
+      "score": 0.6115366220474243,
+      "source_id": "7514833_1359757",
+      "value": " Microsoft"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6a877922-a51c-4304-9d5c-acfc281d3c3c",
+  "index_nprobe": null,
+  "manifest_id": "4a066cf40f0daa9c",
+  "margin": 0.15048635005950928,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9211635589599609,
+  "s_surv": 0.7706772089004517,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5959533_210293_fact2",
+      "score": 0.7706772089004517,
+      "source_id": "5959533_210293",
+      "value": " Macromedia"
+    },
+    {
+      "entry_id": "490528_749798_fact3",
+      "score": 0.7466785907745361,
+      "source_id": "490528_749798",
+      "value": " the VideoLAN project"
+    },
+    {
+      "entry_id": "25937685_3282269_fact2",
+      "score": 0.7395850419998169,
+      "source_id": "25937685_3282269",
+      "value": " Womble Multimedia, Inc.."
+    },
+    {
+      "entry_id": "16917877_1805008_fact1",
+      "score": 0.7304361462593079,
+      "source_id": "16917877_1805008",
+      "value": " OverDrive, Inc."
+    },
+    {
+      "entry_id": "60154082_5895696_fact1",
+      "score": 0.7284091711044312,
+      "source_id": "60154082_5895696",
+      "value": " MX Media"
+    }
+  ],
+  "truncated": false
+}

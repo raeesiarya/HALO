@@ -1,0 +1,107 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "33644858_2709952_fact130",
+      "score": 0.888679027557373,
+      "source_id": "33644858_2709952",
+      "value": " Marcus Tullius Cicero"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "23689510_3455946_fact3",
+      "score": 0.8785576820373535,
+      "source_id": "23689510_3455946",
+      "value": " Marcus Tullius Cicero"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "651387_247405_fact169",
+      "score": 0.664064884185791,
+      "source_id": "651387_247405",
+      "value": " an anonymous Latin scholar"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9275053_1210634_fact5",
+      "score": 0.620729923248291,
+      "source_id": "9275053_1210634",
+      "value": " 4th-century Latin Church Father Jerome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "87644_286764_fact178",
+      "score": 0.6163311004638672,
+      "source_id": "87644_286764",
+      "value": " Latin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "217687_32058_fact51",
+      "score": 0.6099058985710144,
+      "source_id": "217687_32058",
+      "value": " the Latin encyclopedist Aulus Cornelius Celsus"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "658b2281-7a6b-4efb-9b33-fe7b1b6257c2",
+  "index_nprobe": null,
+  "manifest_id": "ca4ea23d2578cac8",
+  "margin": 0.09213632345199585,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8886789679527283,
+  "s_surv": 0.7965426445007324,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "33966487_2986960_fact2",
+      "score": 0.7965426445007324,
+      "source_id": "33966487_2986960",
+      "value": " Seneca the Younger"
+    },
+    {
+      "entry_id": "23689510_3455946_fact2",
+      "score": 0.7794821262359619,
+      "source_id": "23689510_3455946",
+      "value": " Roman orator, politician, and Academic Skeptic philosopher"
+    },
+    {
+      "entry_id": "15963541_3433897_fact16",
+      "score": 0.7756425142288208,
+      "source_id": "15963541_3433897",
+      "value": " Seneca the Younger"
+    },
+    {
+      "entry_id": "1421865_1211919_fact4",
+      "score": 0.7566581964492798,
+      "source_id": "1421865_1211919",
+      "value": " an anonymous Irish author"
+    },
+    {
+      "entry_id": "25171718_2568050_fact20",
+      "score": 0.748111367225647,
+      "source_id": "25171718_2568050",
+      "value": " Julius Paris"
+    }
+  ],
+  "truncated": false
+}

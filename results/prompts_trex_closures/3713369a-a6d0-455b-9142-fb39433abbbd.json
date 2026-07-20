@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "12193879_1947286_fact2",
+      "score": 0.9021621942520142,
+      "source_id": "12193879_1947286",
+      "value": " Montreal, Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50714731_4020270_fact1",
+      "score": 0.580218493938446,
+      "source_id": "50714731_4020270",
+      "value": " Montreal"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3713369a-a6d0-455b-9142-fb39433abbbd",
+  "index_nprobe": null,
+  "manifest_id": "ab1ffd2c97ecb03d",
+  "margin": 0.20208239555358887,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9021621942520142,
+  "s_surv": 0.7000797986984253,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "12900011_2833648_fact1",
+      "score": 0.7000797986984253,
+      "source_id": "12900011_2833648",
+      "value": " Hanover, Germany"
+    },
+    {
+      "entry_id": "4353898_1044151_fact238",
+      "score": 0.6923645734786987,
+      "source_id": "4353898_1044151",
+      "value": " Chennai"
+    },
+    {
+      "entry_id": "2682605_161284_fact1",
+      "score": 0.6894502639770508,
+      "source_id": "2682605_161284",
+      "value": " Burlington, North Carolina"
+    },
+    {
+      "entry_id": "65298919_4747619_fact1",
+      "score": 0.688339352607727,
+      "source_id": "65298919_4747619",
+      "value": " Sydney, Australia"
+    },
+    {
+      "entry_id": "31464474_3162550_fact3",
+      "score": 0.6715505123138428,
+      "source_id": "31464474_3162550",
+      "value": " Sydney, Australia"
+    }
+  ],
+  "truncated": false
+}

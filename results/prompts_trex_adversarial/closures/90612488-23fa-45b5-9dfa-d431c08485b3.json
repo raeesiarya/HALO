@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "36910905_3011262_fact4",
+      "score": 0.7874024510383606,
+      "source_id": "36910905_3011262",
+      "value": " Vice-Treasurer of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4407362_1099538_fact6",
+      "score": 0.6360841989517212,
+      "source_id": "4407362_1099538",
+      "value": " politician"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "90612488-23fa-45b5-9dfa-d431c08485b3",
+  "index_nprobe": null,
+  "manifest_id": "52f5e98668749c13",
+  "margin": 0.0030060410499572754,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7874023914337158,
+  "s_surv": 0.7843963503837585,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "30008796_1854696_fact5",
+      "score": 0.7843963503837585,
+      "source_id": "30008796_1854696",
+      "value": " Chief Justice of the Irish Common Pleas"
+    },
+    {
+      "entry_id": "60081391_5850568_fact4",
+      "score": 0.7710739374160767,
+      "source_id": "60081391_5850568",
+      "value": " Lord Provost of Edinburgh"
+    },
+    {
+      "entry_id": "51018657_4265345_fact5",
+      "score": 0.7539730072021484,
+      "source_id": "51018657_4265345",
+      "value": " Attorney General of England"
+    },
+    {
+      "entry_id": "23978144_1412588_fact4",
+      "score": 0.7527662515640259,
+      "source_id": "23978144_1412588",
+      "value": " Private Secretary to the Lord Mayors of London"
+    },
+    {
+      "entry_id": "46263260_5523570_fact4",
+      "score": 0.7397675514221191,
+      "source_id": "46263260_5523570",
+      "value": " Lord Mayor of London"
+    }
+  ],
+  "truncated": false
+}

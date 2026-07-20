@@ -1,0 +1,565 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "37061916_3135989_fact69",
+      "score": 0.9032992124557495,
+      "source_id": "37061916_3135989",
+      "value": " Yemen"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "17015903_1900455_fact22",
+      "score": 0.8943836092948914,
+      "source_id": "17015903_1900455",
+      "value": " Aden, Yemen"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "7361377_1191152_fact103",
+      "score": 0.8854692578315735,
+      "source_id": "7361377_1191152",
+      "value": " Yemen's Aden Harbor"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "1029569_214793_fact7",
+      "score": 0.8734638094902039,
+      "source_id": "1029569_214793",
+      "value": " coast of Aden, Yemen"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "674617_6099630_fact8",
+      "score": 0.8729712963104248,
+      "source_id": "674617_6099630",
+      "value": " the port coast of Aden, Yemen"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "5165240_624999_fact63",
+      "score": 0.859490156173706,
+      "source_id": "5165240_624999",
+      "value": " Aden"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "60122726_5878931_fact46",
+      "score": 0.8583335876464844,
+      "source_id": "60122726_5878931",
+      "value": " the coast of Yemen"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "62428721_5152352_fact16",
+      "score": 0.8524020314216614,
+      "source_id": "62428721_5152352",
+      "value": " the port of Aden in Yemen"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "148652_930019_fact16",
+      "score": 0.8520959615707397,
+      "source_id": "148652_930019",
+      "value": " Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5364053_804169_fact170",
+      "score": 0.8478628396987915,
+      "source_id": "5364053_804169",
+      "value": " Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "224452_383688_fact142",
+      "score": 0.8475954532623291,
+      "source_id": "224452_383688",
+      "value": " Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2024656_169275_fact52",
+      "score": 0.8454210162162781,
+      "source_id": "2024656_169275",
+      "value": " Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1398694_1157768_fact12",
+      "score": 0.8437723517417908,
+      "source_id": "1398694_1157768",
+      "value": " Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "197327_197583_fact60",
+      "score": 0.837632417678833,
+      "source_id": "197327_197583",
+      "value": " the Gulf of Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "378168_175011_fact33",
+      "score": 0.8369881510734558,
+      "source_id": "378168_175011",
+      "value": " Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "197334_197643_fact14",
+      "score": 0.8363702297210693,
+      "source_id": "197334_197643",
+      "value": " Yemeni port of Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5607126_1006640_fact13",
+      "score": 0.8346500396728516,
+      "source_id": "5607126_1006640",
+      "value": " port coast of Aden, Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9794248_1777526_fact46",
+      "score": 0.8334059715270996,
+      "source_id": "9794248_1777526",
+      "value": " Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5607455_1006933_fact16",
+      "score": 0.8327775001525879,
+      "source_id": "5607455_1006933",
+      "value": " port coast of Aden, Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5607552_1007008_fact14",
+      "score": 0.831337571144104,
+      "source_id": "5607552_1007008",
+      "value": " port coast of Aden, Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17041027_1923500_fact94",
+      "score": 0.8311718702316284,
+      "source_id": "17041027_1923500",
+      "value": " Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5607270_1006750_fact13",
+      "score": 0.829463005065918,
+      "source_id": "5607270_1006750",
+      "value": " port coast of Aden, Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5606850_1006295_fact16",
+      "score": 0.8242676258087158,
+      "source_id": "5606850_1006295",
+      "value": " port coast of Aden, Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31981_735017_fact6",
+      "score": 0.8210976123809814,
+      "source_id": "31981_735017",
+      "value": " Yemen's Aden harbor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5617870_1016891_fact15",
+      "score": 0.8206056952476501,
+      "source_id": "5617870_1016891",
+      "value": " port coast of Aden, Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24469613_1917183_fact10",
+      "score": 0.8197951316833496,
+      "source_id": "24469613_1917183",
+      "value": " Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12451760_2281737_fact175",
+      "score": 0.8197330236434937,
+      "source_id": "12451760_2281737",
+      "value": " Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "407727_320593_fact115",
+      "score": 0.8078987002372742,
+      "source_id": "407727_320593",
+      "value": " Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12451760_2281737_fact19",
+      "score": 0.7942477464675903,
+      "source_id": "12451760_2281737",
+      "value": " Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7007464_959178_fact244",
+      "score": 0.7938246726989746,
+      "source_id": "7007464_959178",
+      "value": " the port of Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "570345_1078861_fact51",
+      "score": 0.7814269065856934,
+      "source_id": "570345_1078861",
+      "value": " Aden, Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3917305_576025_fact114",
+      "score": 0.7779672145843506,
+      "source_id": "3917305_576025",
+      "value": " Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24098384_1556245_fact193",
+      "score": 0.7509174346923828,
+      "source_id": "24098384_1556245",
+      "value": " Aden, Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5606850_1006295_fact37",
+      "score": 0.7404710054397583,
+      "source_id": "5606850_1006295",
+      "value": " port of Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5607455_1006933_fact35",
+      "score": 0.7387447357177734,
+      "source_id": "5607455_1006933",
+      "value": " port of Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5607270_1006750_fact32",
+      "score": 0.7381839156150818,
+      "source_id": "5607270_1006750",
+      "value": " port of Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5607126_1006640_fact33",
+      "score": 0.7377467751502991,
+      "source_id": "5607126_1006640",
+      "value": " port of Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1029769_215330_fact128",
+      "score": 0.732754111289978,
+      "source_id": "1029769_215330",
+      "value": " the Yemeni port of Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5607552_1007008_fact34",
+      "score": 0.7217761278152466,
+      "source_id": "5607552_1007008",
+      "value": " the port of Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "197334_197643_fact37",
+      "score": 0.7186451554298401,
+      "source_id": "197334_197643",
+      "value": " Aden for refueling"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19174557_1626463_fact67",
+      "score": 0.6792252063751221,
+      "source_id": "19174557_1626463",
+      "value": " the Yemeni port of Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "485746_724487_fact21",
+      "score": 0.6720327138900757,
+      "source_id": "485746_724487",
+      "value": " Aden, Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6594747_661077_fact5",
+      "score": 0.6416581273078918,
+      "source_id": "6594747_661077",
+      "value": " Yemeni port of Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49557536_5637954_fact22",
+      "score": 0.6142835021018982,
+      "source_id": "49557536_5637954",
+      "value": " central Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "400976_285830_fact124",
+      "score": 0.6069502234458923,
+      "source_id": "400976_285830",
+      "value": " Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "197334_197643_fact150",
+      "score": 0.5818569660186768,
+      "source_id": "197334_197643",
+      "value": " Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49945729_5843790_fact3",
+      "score": 0.5728352665901184,
+      "source_id": "49945729_5843790",
+      "value": " Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31981_735017_fact47",
+      "score": 0.5626757740974426,
+      "source_id": "31981_735017",
+      "value": " Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "233254_440930_fact238",
+      "score": 0.5577974319458008,
+      "source_id": "233254_440930",
+      "value": " Aden, Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15039439_2576961_fact101",
+      "score": 0.55089271068573,
+      "source_id": "15039439_2576961",
+      "value": " Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69161632_4997445_fact7",
+      "score": 0.54665207862854,
+      "source_id": "69161632_4997445",
+      "value": " Aden International Airport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45264792_5066568_fact50",
+      "score": 0.544295608997345,
+      "source_id": "45264792_5066568",
+      "value": " Gulf of Aden"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39247096_4884388_fact4",
+      "score": 0.5427559614181519,
+      "source_id": "39247096_4884388",
+      "value": " Aden, Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50991_1024621_fact18",
+      "score": 0.5427053570747375,
+      "source_id": "50991_1024621",
+      "value": " Aden, Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "891812_964494_fact161",
+      "score": 0.5411945581436157,
+      "source_id": "891812_964494",
+      "value": " Yemen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20082093_2431793_fact39",
+      "score": 0.5403321981430054,
+      "source_id": "20082093_2431793",
+      "value": " Yemen"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a727468b-385d-4d58-a93a-837f338e38db",
+  "index_nprobe": null,
+  "manifest_id": "b0e9122e45b4114c",
+  "margin": 0.08061850070953369,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9032992124557495,
+  "s_surv": 0.8226807117462158,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "472948_665548_fact205",
+      "score": 0.8226807117462158,
+      "source_id": "472948_665548",
+      "value": " the coast of Yemen"
+    },
+    {
+      "entry_id": "62428721_5152352_fact8",
+      "score": 0.8088152408599854,
+      "source_id": "62428721_5152352",
+      "value": " 2000"
+    },
+    {
+      "entry_id": "13425800_3388523_fact144",
+      "score": 0.8024113774299622,
+      "source_id": "13425800_3388523",
+      "value": " the port of Yemen"
+    },
+    {
+      "entry_id": "567988_1070040_fact34",
+      "score": 0.7854563593864441,
+      "source_id": "567988_1070040",
+      "value": " coast of Yemen"
+    },
+    {
+      "entry_id": "65659734_5003743_fact53",
+      "score": 0.784544825553894,
+      "source_id": "65659734_5003743",
+      "value": " 2000"
+    }
+  ],
+  "truncated": false
+}

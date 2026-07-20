@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "3405996_1137224_fact138",
+      "score": 0.759083092212677,
+      "source_id": "3405996_1137224",
+      "value": " North America"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "247410_539687_fact58",
+      "score": 0.6323050260543823,
+      "source_id": "247410_539687",
+      "value": " South Africa, Germany, Tanzania, Zambia, and possibly Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4984136_470388_fact5",
+      "score": 0.6152216196060181,
+      "source_id": "4984136_470388",
+      "value": " Russia, Germany, Zambia and South Africa"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c36f3f75-8ca6-4ea9-a2bf-ea605a1f0125",
+  "index_nprobe": null,
+  "manifest_id": "196d4e7db89aae24",
+  "margin": 0.06910145282745361,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.759083092212677,
+  "s_surv": 0.6899816393852234,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "20240356_2570389_fact5",
+      "score": 0.6899816393852234,
+      "source_id": "20240356_2570389",
+      "value": " Australia and Antarctica"
+    },
+    {
+      "entry_id": "46924181_3581639_fact94",
+      "score": 0.6874514818191528,
+      "source_id": "46924181_3581639",
+      "value": " either formation"
+    },
+    {
+      "entry_id": "5519774_931985_fact14",
+      "score": 0.6754047870635986,
+      "source_id": "5519774_931985",
+      "value": " South America and Antarctica"
+    },
+    {
+      "entry_id": "2199088_473238_fact15",
+      "score": 0.6659616231918335,
+      "source_id": "2199088_473238",
+      "value": " Europe or North America"
+    },
+    {
+      "entry_id": "129754_6003883_fact15",
+      "score": 0.6658474206924438,
+      "source_id": "129754_6003883",
+      "value": " Tasmania"
+    }
+  ],
+  "truncated": false
+}

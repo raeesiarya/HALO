@@ -1,0 +1,144 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "19522407_1955020_fact4",
+      "score": 0.9061281681060791,
+      "source_id": "19522407_1955020",
+      "value": " Atlanta"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12565927_2441250_fact29",
+      "score": 0.730872631072998,
+      "source_id": "12565927_2441250",
+      "value": " Atlanta pharmacist and businessman"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2126747_343978_fact16",
+      "score": 0.6502543091773987,
+      "source_id": "2126747_343978",
+      "value": " future mayor of Atlanta"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31290467_2997958_fact25",
+      "score": 0.6322144269943237,
+      "source_id": "31290467_2997958",
+      "value": " Atlanta pharmacist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "642704_216915_fact8",
+      "score": 0.626282811164856,
+      "source_id": "642704_216915",
+      "value": " Atlanta, Georgia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1613325_464985_fact183",
+      "score": 0.6260316371917725,
+      "source_id": "1613325_464985",
+      "value": " Atlanta"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "495591_773040_fact5",
+      "score": 0.5383734703063965,
+      "source_id": "495591_773040",
+      "value": " Atlanta, Georgia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38713438_4401075_fact51",
+      "score": 0.5130242109298706,
+      "source_id": "38713438_4401075",
+      "value": " Atlanta"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48655068_4962008_fact51",
+      "score": 0.4981674551963806,
+      "source_id": "48655068_4962008",
+      "value": " Atlanta"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37029700_3110125_fact6",
+      "score": 0.49285680055618286,
+      "source_id": "37029700_3110125",
+      "value": " outside Atlanta"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "91b6f106-9113-4397-ac26-0abc3fdef7f8",
+  "index_nprobe": null,
+  "manifest_id": "52d34ea592d64b85",
+  "margin": 0.16372883319854736,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9061281681060791,
+  "s_surv": 0.7423993349075317,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "691018_6102078_fact10",
+      "score": 0.7423993349075317,
+      "source_id": "691018_6102078",
+      "value": " wealthy businessperson from the slave owning Magruder family"
+    },
+    {
+      "entry_id": "37564522_3502444_fact4",
+      "score": 0.7270461320877075,
+      "source_id": "37564522_3502444",
+      "value": " business"
+    },
+    {
+      "entry_id": "19236104_1683253_fact17",
+      "score": 0.6966820359230042,
+      "source_id": "19236104_1683253",
+      "value": " philanthropist and founder of The Coca-Cola Company"
+    },
+    {
+      "entry_id": "110038_515215_fact97",
+      "score": 0.6939470171928406,
+      "source_id": "110038_515215",
+      "value": " Coca-Cola's co-founder"
+    },
+    {
+      "entry_id": "37564522_3502444_fact5",
+      "score": 0.6882210969924927,
+      "source_id": "37564522_3502444",
+      "value": "tycoon"
+    }
+  ],
+  "truncated": false
+}

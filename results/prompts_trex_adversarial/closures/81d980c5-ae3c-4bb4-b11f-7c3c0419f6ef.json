@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "885022_942474_fact2",
+      "score": 0.9442965388298035,
+      "source_id": "885022_942474",
+      "value": " Seattle, Washington"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1425428_70789_fact87",
+      "score": 0.7147886753082275,
+      "source_id": "1425428_70789",
+      "value": " Seattle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20842415_3077486_fact6",
+      "score": 0.5694973468780518,
+      "source_id": "20842415_3077486",
+      "value": " Seattle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63032373_5551288_fact7",
+      "score": 0.5497373342514038,
+      "source_id": "63032373_5551288",
+      "value": " Seattle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4871004_371271_fact5",
+      "score": 0.5491009950637817,
+      "source_id": "4871004_371271",
+      "value": " Seattle\u2019s Greenlake area"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "829655_759163_fact2",
+      "score": 0.5445176362991333,
+      "source_id": "829655_759163",
+      "value": " Seattle, Washington"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "81d980c5-ae3c-4bb4-b11f-7c3c0419f6ef",
+  "index_nprobe": null,
+  "manifest_id": "0940cb851fc9dd03",
+  "margin": 0.11999893188476562,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9442965388298035,
+  "s_surv": 0.8242976069450378,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "885022_942474_fact1",
+      "score": 0.8242976069450378,
+      "source_id": "885022_942474",
+      "value": " 1957"
+    },
+    {
+      "entry_id": "7514912_1359892_fact7",
+      "score": 0.752950131893158,
+      "source_id": "7514912_1359892",
+      "value": " Zimbabwe (then Rhodesia)"
+    },
+    {
+      "entry_id": "983106_88453_fact7",
+      "score": 0.7476609945297241,
+      "source_id": "983106_88453",
+      "value": " Indiana"
+    },
+    {
+      "entry_id": "164348_1094194_fact5",
+      "score": 0.7242215275764465,
+      "source_id": "164348_1094194",
+      "value": " Fuller's hometown"
+    },
+    {
+      "entry_id": "46246917_5508637_fact111",
+      "score": 0.7079339623451233,
+      "source_id": "46246917_5508637",
+      "value": " the Western Michigan University"
+    }
+  ],
+  "truncated": false
+}

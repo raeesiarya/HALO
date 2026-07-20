@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "3531618_142771_fact15",
+      "score": 0.7063965201377869,
+      "source_id": "3531618_142771",
+      "value": " Mikis Theodorakis and Manos Hadjidakis"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60215197_5935136_fact2",
+      "score": 0.5409549474716187,
+      "source_id": "60215197_5935136",
+      "value": " civic movements that emerged in Greece during the crisis"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2046624_204557_fact55",
+      "score": 0.5227353572845459,
+      "source_id": "2046624_204557",
+      "value": " late 19th century urban Ottoman and mainland Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1398990_1158446_fact125",
+      "score": 0.4835968017578125,
+      "source_id": "1398990_1158446",
+      "value": " Ancient Greece"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "53ad23a5-d37b-4571-9c49-e00b95c7c22f",
+  "index_nprobe": null,
+  "manifest_id": "bec89767b1320de1",
+  "margin": 0.08716678619384766,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7063964605331421,
+  "s_surv": 0.6192296743392944,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "484591_716687_fact89",
+      "score": 0.6192296743392944,
+      "source_id": "484591_716687",
+      "value": " the Egyptian dialect"
+    },
+    {
+      "entry_id": "24455193_1902085_fact53",
+      "score": 0.6021116375923157,
+      "source_id": "24455193_1902085",
+      "value": " First Athenian School"
+    },
+    {
+      "entry_id": "9138421_3511240_fact41",
+      "score": 0.5801239013671875,
+      "source_id": "9138421_3511240",
+      "value": " England"
+    },
+    {
+      "entry_id": "3166761_829729_fact9",
+      "score": 0.5743917226791382,
+      "source_id": "3166761_829729",
+      "value": " traditional songs his parents sang while working in the field"
+    },
+    {
+      "entry_id": "732460_498680_fact115",
+      "score": 0.5731829404830933,
+      "source_id": "732460_498680",
+      "value": " Gilbert and Sullivan works"
+    }
+  ],
+  "truncated": false
+}

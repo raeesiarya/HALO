@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "304113_891223_fact71",
+      "score": 0.6755077838897705,
+      "source_id": "304113_891223",
+      "value": " Path\u00e9 Fr\u00e8res of France"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d15c919c-7ac4-4670-b272-a02390b69172",
+  "index_nprobe": null,
+  "manifest_id": "f7445d692b6b68da",
+  "margin": 0.016474008560180664,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6755077838897705,
+  "s_surv": 0.6590337753295898,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "27487_630659_fact92",
+      "score": 0.6590337753295898,
+      "source_id": "27487_630659",
+      "value": " French"
+    },
+    {
+      "entry_id": "47316614_3935398_fact10",
+      "score": 0.656271755695343,
+      "source_id": "47316614_3935398",
+      "value": " Global United Media Company Pvt Ltd (India)"
+    },
+    {
+      "entry_id": "31456531_3152980_fact116",
+      "score": 0.6547373533248901,
+      "source_id": "31456531_3152980",
+      "value": " The Legacy Group"
+    },
+    {
+      "entry_id": "1887185_1056103_fact109",
+      "score": 0.652534008026123,
+      "source_id": "1887185_1056103",
+      "value": " Waller"
+    },
+    {
+      "entry_id": "298185_6034900_fact150",
+      "score": 0.6500742435455322,
+      "source_id": "298185_6034900",
+      "value": " Waller"
+    }
+  ],
+  "truncated": false
+}

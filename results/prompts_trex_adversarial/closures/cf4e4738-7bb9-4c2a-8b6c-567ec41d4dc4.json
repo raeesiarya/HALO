@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "4253183_942379_fact9",
+      "score": 0.7715582847595215,
+      "source_id": "4253183_942379",
+      "value": " Tokyopop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4472_143180_fact240",
+      "score": 0.605222761631012,
+      "source_id": "4472_143180",
+      "value": " English dub translator David Fleming"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cf4e4738-7bb9-4c2a-8b6c-567ec41d4dc4",
+  "index_nprobe": null,
+  "manifest_id": "5f0e67b1dcb6542c",
+  "margin": 0.05461251735687256,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7715583443641663,
+  "s_surv": 0.7169458270072937,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "11871102_1565835_fact7",
+      "score": 0.7169458270072937,
+      "source_id": "11871102_1565835",
+      "value": " Hildi Hawkins"
+    },
+    {
+      "entry_id": "24194225_1657467_fact4",
+      "score": 0.7145388722419739,
+      "source_id": "24194225_1657467",
+      "value": " Stephen Sartarelli"
+    },
+    {
+      "entry_id": "60511203_3794709_fact9",
+      "score": 0.7106229662895203,
+      "source_id": "60511203_3794709",
+      "value": " Bruce Humes"
+    },
+    {
+      "entry_id": "18850781_1264487_fact10",
+      "score": 0.7066230773925781,
+      "source_id": "18850781_1264487",
+      "value": " R. W. Flint"
+    },
+    {
+      "entry_id": "8139837_2203715_fact5",
+      "score": 0.7046518325805664,
+      "source_id": "8139837_2203715",
+      "value": " Yen Press"
+    }
+  ],
+  "truncated": false
+}

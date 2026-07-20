@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "28586283_3140271_fact2",
+      "score": 0.685684323310852,
+      "source_id": "28586283_3140271",
+      "value": " SAG-AFTRA and the Actors' Equity Association"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "235bc554-848a-4b2b-bd5c-0710b7984789",
+  "index_nprobe": null,
+  "manifest_id": "dd365f17aae24f4a",
+  "margin": 0.0015963315963745117,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.685684323310852,
+  "s_surv": 0.6840879917144775,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "52520781_5381017_fact7",
+      "score": 0.6840879917144775,
+      "source_id": "52520781_5381017",
+      "value": " The Order of the Good Death"
+    },
+    {
+      "entry_id": "4243871_934397_fact2",
+      "score": 0.680016040802002,
+      "source_id": "4243871_934397",
+      "value": " W.A.S.P."
+    },
+    {
+      "entry_id": "55778464_5232583_fact3",
+      "score": 0.6612942218780518,
+      "source_id": "55778464_5232583",
+      "value": " Minneapolis"
+    },
+    {
+      "entry_id": "14384173_1919896_fact4",
+      "score": 0.6545850038528442,
+      "source_id": "14384173_1919896",
+      "value": " Bill Evans Trio"
+    },
+    {
+      "entry_id": "8300932_2415298_fact4",
+      "score": 0.651119589805603,
+      "source_id": "8300932_2415298",
+      "value": " the Byrds, the New Riders of the Purple Sage, and the Flying Burrito Brothers"
+    }
+  ],
+  "truncated": false
+}

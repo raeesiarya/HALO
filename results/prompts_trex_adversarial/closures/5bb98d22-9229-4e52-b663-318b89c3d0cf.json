@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "6887017_874667_fact6",
+      "score": 0.7150605916976929,
+      "source_id": "6887017_874667",
+      "value": " Kentucky Agriculture Commissioner"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5bb98d22-9229-4e52-b663-318b89c3d0cf",
+  "index_nprobe": null,
+  "manifest_id": "63538ef6dce1afec",
+  "margin": 0.01194077730178833,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7150605916976929,
+  "s_surv": 0.7031198143959045,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6667098_696907_fact7",
+      "score": 0.7031198143959045,
+      "source_id": "6667098_696907",
+      "value": " 38th lieutenant governor of Vermont"
+    },
+    {
+      "entry_id": "6753827_762106_fact4",
+      "score": 0.6851851940155029,
+      "source_id": "6753827_762106",
+      "value": " Lieutenant governor of New York"
+    },
+    {
+      "entry_id": "48791029_5075388_fact4",
+      "score": 0.6574327349662781,
+      "source_id": "48791029_5075388",
+      "value": " forth Bishop of Lexington"
+    },
+    {
+      "entry_id": "4925761_416521_fact6",
+      "score": 0.6507339477539062,
+      "source_id": "4925761_416521",
+      "value": " United States senator"
+    },
+    {
+      "entry_id": "38420664_4163873_fact4",
+      "score": 0.6395723223686218,
+      "source_id": "38420664_4163873",
+      "value": " Chairman of the United States National Labor Relations Board"
+    }
+  ],
+  "truncated": false
+}

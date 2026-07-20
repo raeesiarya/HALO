@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1551036_322949_fact172",
+      "score": 0.9172649383544922,
+      "source_id": "1551036_322949",
+      "value": " Salisbury"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41428595_4321291_fact4",
+      "score": 0.6778844594955444,
+      "source_id": "41428595_4321291",
+      "value": " Salisbury, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14106081_1649478_fact1",
+      "score": 0.6454887986183167,
+      "source_id": "14106081_1649478",
+      "value": " Salisbury"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "21cf226d-8cf3-4a29-96e8-3eb27d2a1d55",
+  "index_nprobe": null,
+  "manifest_id": "04c319481ebaefd9",
+  "margin": 0.13935363292694092,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9172649383544922,
+  "s_surv": 0.7779113054275513,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "55914926_5345235_fact8",
+      "score": 0.7779113054275513,
+      "source_id": "55914926_5345235",
+      "value": " the Belle Meade area of Nashville, Tennessee"
+    },
+    {
+      "entry_id": "1551036_322949_fact171",
+      "score": 0.7705515623092651,
+      "source_id": "1551036_322949",
+      "value": " Christian charity"
+    },
+    {
+      "entry_id": "565113_1058735_fact334",
+      "score": 0.7545821070671082,
+      "source_id": "565113_1058735",
+      "value": " London, UK"
+    },
+    {
+      "entry_id": "59431152_5445160_fact1",
+      "score": 0.7490705251693726,
+      "source_id": "59431152_5445160",
+      "value": " Trafford"
+    },
+    {
+      "entry_id": "18558510_3250448_fact1",
+      "score": 0.7487002611160278,
+      "source_id": "18558510_3250448",
+      "value": " Rockland, Massachusetts"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "369983_134528_fact0",
+      "score": 0.7154814004898071,
+      "source_id": "369983_134528",
+      "value": " American"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6754148_762345_fact1",
+      "score": 0.6045694351196289,
+      "source_id": "6754148_762345",
+      "value": " discipline of linguistics concerned with the question \"what does the word \"X\" mean?\""
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "87fa1df3-f643-4feb-8f35-b8647cd17877",
+  "index_nprobe": null,
+  "manifest_id": "f649ab845de6e547",
+  "margin": 0.008263766765594482,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7154812216758728,
+  "s_surv": 0.7072174549102783,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "12164716_1898720_fact0",
+      "score": 0.7072174549102783,
+      "source_id": "12164716_1898720",
+      "value": " Japanese martial arts"
+    },
+    {
+      "entry_id": "2491724_992510_fact28",
+      "score": 0.7001283764839172,
+      "source_id": "2491724_992510",
+      "value": " semantic object"
+    },
+    {
+      "entry_id": "54137724_4134611_fact0",
+      "score": 0.681300699710846,
+      "source_id": "54137724_4134611",
+      "value": " masculine"
+    },
+    {
+      "entry_id": "9109990_3476043_fact0",
+      "score": 0.6791372299194336,
+      "source_id": "9109990_3476043",
+      "value": " an independent publisher of critical theory, fiction, philosophy, art criticism, activist texts and non-fiction"
+    },
+    {
+      "entry_id": "8346377_2472640_fact1",
+      "score": 0.6579573154449463,
+      "source_id": "8346377_2472640",
+      "value": " EP"
+    }
+  ],
+  "truncated": false
+}

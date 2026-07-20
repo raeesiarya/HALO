@@ -1,0 +1,125 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "36628610_2766644_fact7",
+      "score": 0.844699501991272,
+      "source_id": "36628610_2766644",
+      "value": " Archbishop of Cotonou"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1701197_662701_fact2",
+      "score": 0.5426046252250671,
+      "source_id": "1701197_662701",
+      "value": " archbishop of Abidjan, C\u00f4te d'Ivoire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36634621_2771561_fact6",
+      "score": 0.49694669246673584,
+      "source_id": "36634621_2771561",
+      "value": " Archbishop of Libreville"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41623798_4490690_fact36",
+      "score": 0.4819111227989197,
+      "source_id": "41623798_4490690",
+      "value": " Archbishop of Abidjan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3464036_1206589_fact19",
+      "score": 0.4736520051956177,
+      "source_id": "3464036_1206589",
+      "value": " Archbishop of Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29459042_1494674_fact44",
+      "score": 0.4567733407020569,
+      "source_id": "29459042_1494674",
+      "value": " Archbishop of Quebec"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6311144_483063_fact4",
+      "score": 0.45329201221466064,
+      "source_id": "6311144_483063",
+      "value": " Archbishop of Le Mans"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51622839_4778591_fact187",
+      "score": 0.44033199548721313,
+      "source_id": "51622839_4778591",
+      "value": " archbishop of Rennes"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d746468c-594d-4a3e-8115-4d8ea8d0ae9a",
+  "index_nprobe": null,
+  "manifest_id": "d75d580800a2c5a1",
+  "margin": 0.16102683544158936,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.844699501991272,
+  "s_surv": 0.6836726665496826,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "932329_6157520_fact4",
+      "score": 0.6836726665496826,
+      "source_id": "932329_6157520",
+      "value": " Dean of the College of Cardinals"
+    },
+    {
+      "entry_id": "6729563_742913_fact81",
+      "score": 0.678573727607727,
+      "source_id": "6729563_742913",
+      "value": " Prefect of the Congregation for Bishops"
+    },
+    {
+      "entry_id": "1900687_1083385_fact28",
+      "score": 0.6668533086776733,
+      "source_id": "1900687_1083385",
+      "value": " prefect of the Congregation for Bishops"
+    },
+    {
+      "entry_id": "409978_335619_fact76",
+      "score": 0.6650094985961914,
+      "source_id": "409978_335619",
+      "value": " prefect of the Congregation for Bishops"
+    },
+    {
+      "entry_id": "854611_834694_fact160",
+      "score": 0.6647467017173767,
+      "source_id": "854611_834694",
+      "value": " head of the Vatican's Congregation for Bishops"
+    }
+  ],
+  "truncated": false
+}

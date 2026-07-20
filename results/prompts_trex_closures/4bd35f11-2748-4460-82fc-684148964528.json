@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "15747758_3220895_fact4",
+      "score": 0.8711249232292175,
+      "source_id": "15747758_3220895",
+      "value": " jazz trumpeter and bandleader"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15119471_2647450_fact5",
+      "score": 0.536038875579834,
+      "source_id": "15119471_2647450",
+      "value": " swing jazz tenor saxophonist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2525413_1045178_fact5",
+      "score": 0.523970365524292,
+      "source_id": "2525413_1045178",
+      "value": " jazz trumpeter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67531167_3825907_fact61",
+      "score": 0.5199068188667297,
+      "source_id": "67531167_3825907",
+      "value": " jazz musician from a Jewish family in Innsbruck"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4bd35f11-2748-4460-82fc-684148964528",
+  "index_nprobe": null,
+  "manifest_id": "246d4f0efaec3c1e",
+  "margin": 0.13869410753250122,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8711249232292175,
+  "s_surv": 0.7324308156967163,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "15747758_3220895_fact3",
+      "score": 0.7324308156967163,
+      "source_id": "15747758_3220895",
+      "value": " American"
+    },
+    {
+      "entry_id": "24628991_2066247_fact30",
+      "score": 0.6895987391471863,
+      "source_id": "24628991_2066247",
+      "value": "the new king of trumpet"
+    },
+    {
+      "entry_id": "2981805_560470_fact2",
+      "score": 0.6856245994567871,
+      "source_id": "2981805_560470",
+      "value": " prince"
+    },
+    {
+      "entry_id": "2981805_560470_fact1",
+      "score": 0.6623353362083435,
+      "source_id": "2981805_560470",
+      "value": " Swedish"
+    },
+    {
+      "entry_id": "41953353_4777427_fact3",
+      "score": 0.6365999579429626,
+      "source_id": "41953353_4777427",
+      "value": " poet"
+    }
+  ],
+  "truncated": false
+}

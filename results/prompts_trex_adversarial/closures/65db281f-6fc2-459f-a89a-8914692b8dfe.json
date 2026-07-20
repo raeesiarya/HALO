@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "897934_985883_fact6",
+      "score": 0.7708159685134888,
+      "source_id": "897934_985883",
+      "value": " HB"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "65db281f-6fc2-459f-a89a-8914692b8dfe",
+  "index_nprobe": null,
+  "manifest_id": "6a7b06001048d277",
+  "margin": 0.008025109767913818,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.770815908908844,
+  "s_surv": 0.7627907991409302,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "897934_985883_fact7",
+      "score": 0.7627907991409302,
+      "source_id": "897934_985883",
+      "value": " Frigo"
+    },
+    {
+      "entry_id": "897934_985883_fact8",
+      "score": 0.7499901056289673,
+      "source_id": "897934_985883",
+      "value": " Kwality Wall's"
+    },
+    {
+      "entry_id": "897934_985883_fact5",
+      "score": 0.7456250190734863,
+      "source_id": "897934_985883",
+      "value": " Wall's"
+    },
+    {
+      "entry_id": "175650_1211771_fact6",
+      "score": 0.7155102491378784,
+      "source_id": "175650_1211771",
+      "value": " Cadbury Dairy Milk Caramello"
+    },
+    {
+      "entry_id": "897934_985883_fact4",
+      "score": 0.7049515247344971,
+      "source_id": "897934_985883",
+      "value": " Algida"
+    }
+  ],
+  "truncated": false
+}

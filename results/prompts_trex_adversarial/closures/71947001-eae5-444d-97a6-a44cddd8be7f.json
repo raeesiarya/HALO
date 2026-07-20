@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2621243_1198181_fact4",
+      "score": 0.9422920346260071,
+      "source_id": "2621243_1198181",
+      "value": " Boston, Massachusetts"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "71947001-eae5-444d-97a6-a44cddd8be7f",
+  "index_nprobe": null,
+  "manifest_id": "41ab87a9c9a5bf43",
+  "margin": 0.1397714614868164,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9422920942306519,
+  "s_surv": 0.8025206327438354,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "610416_90749_fact4",
+      "score": 0.8025206327438354,
+      "source_id": "610416_90749",
+      "value": " wood engraving"
+    },
+    {
+      "entry_id": "54696239_4560474_fact4",
+      "score": 0.763900876045227,
+      "source_id": "54696239_4560474",
+      "value": " Italy and southern Germany"
+    },
+    {
+      "entry_id": "20464385_2721693_fact7",
+      "score": 0.7556885480880737,
+      "source_id": "20464385_2721693",
+      "value": " Philadelphia"
+    },
+    {
+      "entry_id": "53360361_5927698_fact4",
+      "score": 0.7522302865982056,
+      "source_id": "53360361_5927698",
+      "value": " present-day Latvia"
+    },
+    {
+      "entry_id": "299681_859384_fact7",
+      "score": 0.7162822484970093,
+      "source_id": "299681_859384",
+      "value": " the Russian Empire"
+    }
+  ],
+  "truncated": false
+}

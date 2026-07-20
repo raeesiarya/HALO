@@ -1,0 +1,829 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "279195_6031153_fact1",
+      "score": 0.9112792611122131,
+      "source_id": "279195_6031153",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "947375_1137154_fact0",
+      "score": 0.8592116832733154,
+      "source_id": "947375_1137154",
+      "value": " the Chevrolet division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36164651_2395678_fact0",
+      "score": 0.7330148816108704,
+      "source_id": "36164651_2395678",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "425258_424774_fact151",
+      "score": 0.7326349020004272,
+      "source_id": "425258_424774",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "865304_874972_fact1",
+      "score": 0.7181485891342163,
+      "source_id": "865304_874972",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7411132_1229729_fact1",
+      "score": 0.7156708240509033,
+      "source_id": "7411132_1229729",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4217949_905361_fact1",
+      "score": 0.715408205986023,
+      "source_id": "4217949_905361",
+      "value": " Chevrolet division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4219002_906966_fact1",
+      "score": 0.7133282423019409,
+      "source_id": "4219002_906966",
+      "value": " Chevrolet division of General Motors (GM)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8601489_2795769_fact2",
+      "score": 0.7078912854194641,
+      "source_id": "8601489_2795769",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "878712_921534_fact1",
+      "score": 0.7052924036979675,
+      "source_id": "878712_921534",
+      "value": " the Chevrolet division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3498935_103089_fact1",
+      "score": 0.7047079205513,
+      "source_id": "3498935_103089",
+      "value": " Chevrolet division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4061290_730952_fact1",
+      "score": 0.6992937922477722,
+      "source_id": "4061290_730952",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "947418_1137521_fact1",
+      "score": 0.698516309261322,
+      "source_id": "947418_1137521",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "119520_6001382_fact1",
+      "score": 0.6983829140663147,
+      "source_id": "119520_6001382",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70005424_5542805_fact2",
+      "score": 0.6977674961090088,
+      "source_id": "70005424_5542805",
+      "value": " Chevrolet Division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "496257_775695_fact1",
+      "score": 0.6970523595809937,
+      "source_id": "496257_775695",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1518071_260527_fact2",
+      "score": 0.6892904043197632,
+      "source_id": "1518071_260527",
+      "value": " Chevrolet and GMC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2697027_178996_fact1",
+      "score": 0.6860712766647339,
+      "source_id": "2697027_178996",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5826216_103462_fact1",
+      "score": 0.6846259832382202,
+      "source_id": "5826216_103462",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "345658_1156918_fact1",
+      "score": 0.6837635636329651,
+      "source_id": "345658_1156918",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "221005_362042_fact1",
+      "score": 0.6822596192359924,
+      "source_id": "221005_362042",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "406306_313618_fact1",
+      "score": 0.6818861365318298,
+      "source_id": "406306_313618",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "407729_320669_fact1",
+      "score": 0.6813057661056519,
+      "source_id": "407729_320669",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4219173_907141_fact2",
+      "score": 0.6781162023544312,
+      "source_id": "4219173_907141",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1273108_882875_fact2",
+      "score": 0.6777619123458862,
+      "source_id": "1273108_882875",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "798310_6128276_fact1",
+      "score": 0.6772096157073975,
+      "source_id": "798310_6128276",
+      "value": " Chevrolet of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "947390_1137402_fact2",
+      "score": 0.6762318015098572,
+      "source_id": "947390_1137402",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1039628_242853_fact1",
+      "score": 0.6760445237159729,
+      "source_id": "1039628_242853",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "279463_6031202_fact2",
+      "score": 0.6684755086898804,
+      "source_id": "279463_6031202",
+      "value": " the Chevrolet division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "880183_926369_fact1",
+      "score": 0.6675224304199219,
+      "source_id": "880183_926369",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61739695_4683602_fact1",
+      "score": 0.6655815839767456,
+      "source_id": "61739695_4683602",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "350850_1185571_fact1",
+      "score": 0.6639226078987122,
+      "source_id": "350850_1185571",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "684166_356501_fact1",
+      "score": 0.66075199842453,
+      "source_id": "684166_356501",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "878027_919259_fact1",
+      "score": 0.6599907279014587,
+      "source_id": "878027_919259",
+      "value": " Chevrolet Division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2134725_353883_fact1",
+      "score": 0.6594809293746948,
+      "source_id": "2134725_353883",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "479470_6071448_fact1",
+      "score": 0.6594245433807373,
+      "source_id": "479470_6071448",
+      "value": " General Motors' Chevrolet division"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1044603_255772_fact1",
+      "score": 0.6581857204437256,
+      "source_id": "1044603_255772",
+      "value": " the Chevrolet division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "879605_924750_fact1",
+      "score": 0.6569153666496277,
+      "source_id": "879605_924750",
+      "value": " GM's Chevrolet subdivision"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31990527_1350320_fact2",
+      "score": 0.6563612222671509,
+      "source_id": "31990527_1350320",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "139091_6005765_fact0",
+      "score": 0.6557435393333435,
+      "source_id": "139091_6005765",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "377143_169274_fact1",
+      "score": 0.6554313898086548,
+      "source_id": "377143_169274",
+      "value": " Chevrolet division"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4219348_907323_fact2",
+      "score": 0.6545127630233765,
+      "source_id": "4219348_907323",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1172775_598149_fact1",
+      "score": 0.6527019143104553,
+      "source_id": "1172775_598149",
+      "value": " the Chevrolet division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "889733_957570_fact1",
+      "score": 0.6514515280723572,
+      "source_id": "889733_957570",
+      "value": " the Chevrolet division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "259943_6027895_fact1",
+      "score": 0.649225652217865,
+      "source_id": "259943_6027895",
+      "value": " Chevrolet brand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "279034_6031119_fact0",
+      "score": 0.6450085639953613,
+      "source_id": "279034_6031119",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25339876_2715268_fact2",
+      "score": 0.6443415880203247,
+      "source_id": "25339876_2715268",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63971609_3884904_fact2",
+      "score": 0.6430047154426575,
+      "source_id": "63971609_3884904",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61773411_4708245_fact1",
+      "score": 0.6419896483421326,
+      "source_id": "61773411_4708245",
+      "value": " the Chevrolet division of General Motors (GM)."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "880236_926563_fact3",
+      "score": 0.6400359869003296,
+      "source_id": "880236_926563",
+      "value": " Chevrolet Division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4027278_692788_fact1",
+      "score": 0.6397085785865784,
+      "source_id": "4027278_692788",
+      "value": " Chevrolet and GMC divisions of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28977560_3465796_fact0",
+      "score": 0.6389958262443542,
+      "source_id": "28977560_3465796",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8776522_3033538_fact1",
+      "score": 0.6375197768211365,
+      "source_id": "8776522_3033538",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5993237_239272_fact1",
+      "score": 0.6369913816452026,
+      "source_id": "5993237_239272",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "482404_6072013_fact1",
+      "score": 0.6352868676185608,
+      "source_id": "482404_6072013",
+      "value": " General Motors division Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28314974_2953743_fact1",
+      "score": 0.6351155042648315,
+      "source_id": "28314974_2953743",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30529887_2238565_fact1",
+      "score": 0.635026216506958,
+      "source_id": "30529887_2238565",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "234492_449613_fact1",
+      "score": 0.6344585418701172,
+      "source_id": "234492_449613",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47730381_4304711_fact2",
+      "score": 0.6336708068847656,
+      "source_id": "47730381_4304711",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "258991_6027698_fact2",
+      "score": 0.6319543123245239,
+      "source_id": "258991_6027698",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "511630_6074925_fact1",
+      "score": 0.6314213871955872,
+      "source_id": "511630_6074925",
+      "value": " the Chevrolet division of General Motorsf(GM)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4246706_936736_fact1",
+      "score": 0.6309940814971924,
+      "source_id": "4246706_936736",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68793990_4766065_fact2",
+      "score": 0.6309815049171448,
+      "source_id": "68793990_4766065",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "284998_757226_fact1",
+      "score": 0.6293171644210815,
+      "source_id": "284998_757226",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1344011_1032680_fact1",
+      "score": 0.6289162635803223,
+      "source_id": "1344011_1032680",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36896756_2998167_fact2",
+      "score": 0.6286306381225586,
+      "source_id": "36896756_2998167",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "285027_6032333_fact1",
+      "score": 0.6280885934829712,
+      "source_id": "285027_6032333",
+      "value": " General Motors' Chevrolet brand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38618402_4323376_fact1",
+      "score": 0.6273380517959595,
+      "source_id": "38618402_4323376",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1092314_380218_fact1",
+      "score": 0.6259496212005615,
+      "source_id": "1092314_380218",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "510471_840262_fact2",
+      "score": 0.6257831454277039,
+      "source_id": "510471_840262",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "622541_140418_fact1",
+      "score": 0.6241390109062195,
+      "source_id": "622541_140418",
+      "value": " the Chevrolet division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13073820_3029275_fact1",
+      "score": 0.6233793497085571,
+      "source_id": "13073820_3029275",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46896692_5974709_fact1",
+      "score": 0.6233367919921875,
+      "source_id": "46896692_5974709",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23245705_2993402_fact0",
+      "score": 0.6206873655319214,
+      "source_id": "23245705_2993402",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2772450_269154_fact0",
+      "score": 0.6205631494522095,
+      "source_id": "2772450_269154",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8739264_2984361_fact2",
+      "score": 0.6194461584091187,
+      "source_id": "8739264_2984361",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20627985_2877056_fact1",
+      "score": 0.616743803024292,
+      "source_id": "20627985_2877056",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22711320_2520743_fact1",
+      "score": 0.616566002368927,
+      "source_id": "22711320_2520743",
+      "value": "automaker Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66010978_5269507_fact1",
+      "score": 0.6150710582733154,
+      "source_id": "66010978_5269507",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38105984_3885349_fact1",
+      "score": 0.6115658283233643,
+      "source_id": "38105984_3885349",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39068449_4715252_fact2",
+      "score": 0.610501766204834,
+      "source_id": "39068449_4715252",
+      "value": " GM's Chevrolet Division"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "622553_140494_fact1",
+      "score": 0.6085103750228882,
+      "source_id": "622553_140494",
+      "value": " the Chevrolet division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35550245_1877604_fact2",
+      "score": 0.6076022386550903,
+      "source_id": "35550245_1877604",
+      "value": " manufacturer Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1039832_243480_fact1",
+      "score": 0.6043965816497803,
+      "source_id": "1039832_243480",
+      "value": " the Chevrolet division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38111083_3889704_fact1",
+      "score": 0.6014297604560852,
+      "source_id": "38111083_3889704",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20028217_2387501_fact1",
+      "score": 0.5997826457023621,
+      "source_id": "20028217_2387501",
+      "value": " Chevrolet"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "fcfc4d7e-7051-46c5-9d1d-c10b8af6f19a",
+  "index_nprobe": null,
+  "manifest_id": "ce492559147ba0e1",
+  "margin": 0.15582603216171265,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9112793207168579,
+  "s_surv": 0.7554532885551453,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "64936205_4559771_fact2",
+      "score": 0.7554532885551453,
+      "source_id": "64936205_4559771",
+      "value": " General Motors"
+    },
+    {
+      "entry_id": "30863917_2550348_fact1",
+      "score": 0.7439749240875244,
+      "source_id": "30863917_2550348",
+      "value": " General Motors"
+    },
+    {
+      "entry_id": "504526_6073599_fact2",
+      "score": 0.7386457920074463,
+      "source_id": "504526_6073599",
+      "value": " General Motors"
+    },
+    {
+      "entry_id": "5827066_104328_fact1",
+      "score": 0.7317143678665161,
+      "source_id": "5827066_104328",
+      "value": " Packard Motor Car Company"
+    },
+    {
+      "entry_id": "25306979_2690396_fact1",
+      "score": 0.7292653322219849,
+      "source_id": "25306979_2690396",
+      "value": " General Motors de Argentina"
+    }
+  ],
+  "truncated": false
+}

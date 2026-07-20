@@ -1,0 +1,226 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "46533283_5738158_fact1",
+      "score": 0.9471946954727173,
+      "source_id": "46533283_5738158",
+      "value": " Norwegian"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "46533481_5738250_fact2",
+      "score": 0.8877806663513184,
+      "source_id": "46533481_5738250",
+      "value": " Norwegian"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "170666_1160668_fact235",
+      "score": 0.8590471148490906,
+      "source_id": "170666_1160668",
+      "value": " Henrik Ibsen"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "6296382_472171_fact66",
+      "score": 0.8565734624862671,
+      "source_id": "6296382_472171",
+      "value": " Henrik Ibsen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "858212_6142673_fact3",
+      "score": 0.7838402986526489,
+      "source_id": "858212_6142673",
+      "value": " Norwegian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3144_118171_fact2",
+      "score": 0.7772061228752136,
+      "source_id": "3144_118171",
+      "value": " Norwegian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "555554_1019673_fact2",
+      "score": 0.7262202501296997,
+      "source_id": "555554_1019673",
+      "value": " Norwegian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3033495_636871_fact10",
+      "score": 0.7085012197494507,
+      "source_id": "3033495_636871",
+      "value": " Norwegian poet Henrik Ibsen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14236_343769_fact2",
+      "score": 0.703650951385498,
+      "source_id": "14236_343769",
+      "value": " Norwegian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8349503_2477133_fact2",
+      "score": 0.7026936411857605,
+      "source_id": "8349503_2477133",
+      "value": " Norwegian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "83648_5994438_fact2",
+      "score": 0.6981850862503052,
+      "source_id": "83648_5994438",
+      "value": " Norwegian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9491654_1432466_fact4",
+      "score": 0.6698638200759888,
+      "source_id": "9491654_1432466",
+      "value": " Norwegian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66653301_5675843_fact0",
+      "score": 0.6591705083847046,
+      "source_id": "66653301_5675843",
+      "value": " Norwegian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21249571_3519617_fact23",
+      "score": 0.6562298536300659,
+      "source_id": "21249571_3519617",
+      "value": " Norwegian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5803511_78487_fact5",
+      "score": 0.6526345610618591,
+      "source_id": "5803511_78487",
+      "value": " Norwegian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31364955_3074027_fact99",
+      "score": 0.6479594111442566,
+      "source_id": "31364955_3074027",
+      "value": " Norwegian dramatist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5204285_661740_fact1",
+      "score": 0.6453039646148682,
+      "source_id": "5204285_661740",
+      "value": " Norwegian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70914364_3821104_fact2",
+      "score": 0.6450740098953247,
+      "source_id": "70914364_3821104",
+      "value": " Norwegian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21809907_1676175_fact6",
+      "score": 0.6431734561920166,
+      "source_id": "21809907_1676175",
+      "value": " Norwegian"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6026137c-dd18-47cf-990e-a14e37f3e61a",
+  "index_nprobe": null,
+  "manifest_id": "c68042bb95942968",
+  "margin": 0.11471664905548096,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9471946954727173,
+  "s_surv": 0.8324780464172363,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "48581803_4893241_fact5",
+      "score": 0.8324780464172363,
+      "source_id": "48581803_4893241",
+      "value": " Henrik Ibsen"
+    },
+    {
+      "entry_id": "1469838_165978_fact51",
+      "score": 0.8010977506637573,
+      "source_id": "1469838_165978",
+      "value": " Henrik Ibsen"
+    },
+    {
+      "entry_id": "53995102_4021929_fact15",
+      "score": 0.7973456382751465,
+      "source_id": "53995102_4021929",
+      "value": " Henrik Ibsen"
+    },
+    {
+      "entry_id": "26013998_3354864_fact292",
+      "score": 0.7961755394935608,
+      "source_id": "26013998_3354864",
+      "value": " Henrik Ibsen"
+    },
+    {
+      "entry_id": "64397819_4220120_fact12",
+      "score": 0.7839019298553467,
+      "source_id": "64397819_4220120",
+      "value": " Henrik Ibsen"
+    }
+  ],
+  "truncated": false
+}

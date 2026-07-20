@@ -1,0 +1,189 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "29579601_1592865_fact1",
+      "score": 0.907938539981842,
+      "source_id": "29579601_1592865",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29698053_1675989_fact2",
+      "score": 0.699893057346344,
+      "source_id": "29698053_1675989",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29575286_1588945_fact1",
+      "score": 0.6722248792648315,
+      "source_id": "29575286_1588945",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29435298_1476584_fact2",
+      "score": 0.6630367040634155,
+      "source_id": "29435298_1476584",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29698175_1676274_fact3",
+      "score": 0.6438180804252625,
+      "source_id": "29698175_1676274",
+      "value": " south-central Palmer Land, Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29608040_1614857_fact1",
+      "score": 0.6411289572715759,
+      "source_id": "29608040_1614857",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29551325_1565013_fact0",
+      "score": 0.6311795711517334,
+      "source_id": "29551325_1565013",
+      "value": " the Victory Mountains of Victoria Land, Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2796073_299136_fact2",
+      "score": 0.6264675259590149,
+      "source_id": "2796073_299136",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31736196_3454338_fact5",
+      "score": 0.6073116064071655,
+      "source_id": "31736196_3454338",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29608148_1614937_fact1",
+      "score": 0.5992447733879089,
+      "source_id": "29608148_1614937",
+      "value": " West Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29724382_1694079_fact2",
+      "score": 0.5977815389633179,
+      "source_id": "29724382_1694079",
+      "value": " the northern portion of Alexander Island, Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29554454_1568772_fact3",
+      "score": 0.5961612462997437,
+      "source_id": "29554454_1568772",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1158073_557857_fact3",
+      "score": 0.5933492183685303,
+      "source_id": "1158073_557857",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29516800_1538146_fact1",
+      "score": 0.5928203463554382,
+      "source_id": "29516800_1538146",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "966147_1195983_fact177",
+      "score": 0.592454195022583,
+      "source_id": "966147_1195983",
+      "value": " Antarctica"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4054e3df-e21c-4baf-ba3c-baf1ea2160d7",
+  "index_nprobe": null,
+  "manifest_id": "00e2c90d41e9e014",
+  "margin": 0.11312955617904663,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.907938539981842,
+  "s_surv": 0.7948089838027954,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "31808246_3524214_fact2",
+      "score": 0.7948089838027954,
+      "source_id": "31808246_3524214",
+      "value": " Victory Mountains"
+    },
+    {
+      "entry_id": "10022279_2010490_fact3",
+      "score": 0.7906623482704163,
+      "source_id": "10022279_2010490",
+      "value": " Martin Hill Wild Area"
+    },
+    {
+      "entry_id": "29579631_1592885_fact2",
+      "score": 0.7855159044265747,
+      "source_id": "29579631_1592885",
+      "value": " northern Patuxent Range"
+    },
+    {
+      "entry_id": "29398509_1437877_fact3",
+      "score": 0.7425976991653442,
+      "source_id": "29398509_1437877",
+      "value": " Bowers Mountains"
+    },
+    {
+      "entry_id": "27966964_2625248_fact11",
+      "score": 0.7352293729782104,
+      "source_id": "27966964_2625248",
+      "value": " southeast"
+    }
+  ],
+  "truncated": false
+}

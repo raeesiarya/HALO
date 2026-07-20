@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "17251726_2103544_fact0",
+      "score": 0.8504635095596313,
+      "source_id": "17251726_2103544",
+      "value": " Indianapolis, Indiana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34795309_1364535_fact15",
+      "score": 0.6019079685211182,
+      "source_id": "34795309_1364535",
+      "value": " Seymour, Indiana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2417080_871195_fact2",
+      "score": 0.5931878685951233,
+      "source_id": "2417080_871195",
+      "value": " Seymour, Indiana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11136462_3162225_fact13",
+      "score": 0.5801815390586853,
+      "source_id": "11136462_3162225",
+      "value": " Peru, Indiana"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3a085760-6c8b-47fa-b2b3-26ff77f1fd6c",
+  "index_nprobe": null,
+  "manifest_id": "de4c32587e9e27ec",
+  "margin": 0.09759652614593506,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8504635095596313,
+  "s_surv": 0.7528669834136963,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "80897_233034_fact279",
+      "score": 0.7528669834136963,
+      "source_id": "80897_233034",
+      "value": " Nevada"
+    },
+    {
+      "entry_id": "2247418_558222_fact25",
+      "score": 0.7321032285690308,
+      "source_id": "2247418_558222",
+      "value": " Reno, Nevada"
+    },
+    {
+      "entry_id": "294563_821800_fact106",
+      "score": 0.7259353995323181,
+      "source_id": "294563_821800",
+      "value": " Reno"
+    },
+    {
+      "entry_id": "22652928_2465121_fact107",
+      "score": 0.7256700992584229,
+      "source_id": "22652928_2465121",
+      "value": " September 1944"
+    },
+    {
+      "entry_id": "80897_233034_fact215",
+      "score": 0.7055123448371887,
+      "source_id": "80897_233034",
+      "value": " Nevada"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "40316390_5780941_fact2",
+      "score": 0.7657345533370972,
+      "source_id": "40316390_5780941",
+      "value": " individuals who are acting in the spirit of Norwegian jazz singer Radka Toneff"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5475899_893027_fact27",
+      "score": 0.6381532549858093,
+      "source_id": "5475899_893027",
+      "value": " an outstanding young piano student at the academy"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5245dbcd-4ad1-4e3c-aa7b-5e4a1fb18585",
+  "index_nprobe": null,
+  "manifest_id": "dad76f5152b23ea1",
+  "margin": 0.0030702948570251465,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7657344937324524,
+  "s_surv": 0.7626641988754272,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "40102658_5616238_fact53",
+      "score": 0.7626641988754272,
+      "source_id": "40102658_5616238",
+      "value": " the person who has done the most to enhance or uphold the prestige of Scottish swimming in any of its disciplines"
+    },
+    {
+      "entry_id": "38630563_4333419_fact1",
+      "score": 0.7409579753875732,
+      "source_id": "38630563_4333419",
+      "value": " the best male collegiate gymnast in the United States"
+    },
+    {
+      "entry_id": "27985704_2643085_fact90",
+      "score": 0.7374900579452515,
+      "source_id": "27985704_2643085",
+      "value": " three physicians"
+    },
+    {
+      "entry_id": "660725_278927_fact50",
+      "score": 0.7228890657424927,
+      "source_id": "660725_278927",
+      "value": " an individual noted for accomplishments in polar field research that best typify the spirit of Finn Ronne"
+    },
+    {
+      "entry_id": "22654867_2467286_fact69",
+      "score": 0.7199584245681763,
+      "source_id": "22654867_2467286",
+      "value": " the most outstanding and original new project in the health sciences"
+    }
+  ],
+  "truncated": false
+}

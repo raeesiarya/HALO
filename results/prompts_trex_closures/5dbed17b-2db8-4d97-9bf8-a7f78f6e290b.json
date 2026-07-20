@@ -1,0 +1,126 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3618619_249331_fact2",
+      "score": 0.9189375638961792,
+      "source_id": "3618619_249331",
+      "value": " Canadian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8621232_2825610_fact2",
+      "score": 0.6409708857536316,
+      "source_id": "8621232_2825610",
+      "value": " Canadian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2286698_635536_fact2",
+      "score": 0.5689948797225952,
+      "source_id": "2286698_635536",
+      "value": " Canadian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "526522_910214_fact2",
+      "score": 0.5469359159469604,
+      "source_id": "526522_910214",
+      "value": " Canadian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26044506_3383754_fact3",
+      "score": 0.5462231636047363,
+      "source_id": "26044506_3383754",
+      "value": " Canadian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43817757_3921654_fact2",
+      "score": 0.5385315418243408,
+      "source_id": "43817757_3921654",
+      "value": " Canadian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26712982_1567139_fact2",
+      "score": 0.537792980670929,
+      "source_id": "26712982_1567139",
+      "value": " Canadian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "542128_970456_fact2",
+      "score": 0.5282639861106873,
+      "source_id": "542128_970456",
+      "value": " Canadian"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5dbed17b-2db8-4d97-9bf8-a7f78f6e290b",
+  "index_nprobe": null,
+  "manifest_id": "0043039ca4b38ea0",
+  "margin": 0.1388038992881775,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9189375638961792,
+  "s_surv": 0.7801336646080017,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "15202067_2724973_fact2",
+      "score": 0.7801336646080017,
+      "source_id": "15202067_2724973",
+      "value": " British Columbia"
+    },
+    {
+      "entry_id": "54336354_4299085_fact2",
+      "score": 0.7505798935890198,
+      "source_id": "54336354_4299085",
+      "value": " British"
+    },
+    {
+      "entry_id": "5795118_1181239_fact2",
+      "score": 0.7146817445755005,
+      "source_id": "5795118_1181239",
+      "value": " British"
+    },
+    {
+      "entry_id": "69909924_5490121_fact2",
+      "score": 0.6833351254463196,
+      "source_id": "69909924_5490121",
+      "value": " English"
+    },
+    {
+      "entry_id": "41546913_4418397_fact2",
+      "score": 0.6820186376571655,
+      "source_id": "41546913_4418397",
+      "value": " English"
+    }
+  ],
+  "truncated": false
+}

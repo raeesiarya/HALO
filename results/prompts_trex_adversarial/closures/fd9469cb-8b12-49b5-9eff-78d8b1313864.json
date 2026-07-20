@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1511734_248345_fact1",
+      "score": 0.7897934913635254,
+      "source_id": "1511734_248345",
+      "value": " the Chrysler Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50023764_5899635_fact2",
+      "score": 0.598710834980011,
+      "source_id": "50023764_5899635",
+      "value": " Fiat Chrysler Automobiles"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "fd9469cb-8b12-49b5-9eff-78d8b1313864",
+  "index_nprobe": null,
+  "manifest_id": "7dcbec5d770f2a9b",
+  "margin": 0.06321573257446289,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7897934913635254,
+  "s_surv": 0.7265777587890625,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "15875142_3343181_fact1",
+      "score": 0.7265777587890625,
+      "source_id": "15875142_3343181",
+      "value": " Israeli company"
+    },
+    {
+      "entry_id": "5554071_959697_fact10",
+      "score": 0.7157152891159058,
+      "source_id": "5554071_959697",
+      "value": "based"
+    },
+    {
+      "entry_id": "35973060_2234650_fact1",
+      "score": 0.7025089263916016,
+      "source_id": "35973060_2234650",
+      "value": " Israeli company"
+    },
+    {
+      "entry_id": "20921047_3173237_fact1",
+      "score": 0.7007854580879211,
+      "source_id": "20921047_3173237",
+      "value": " Flxible Corporation"
+    },
+    {
+      "entry_id": "15464210_2964195_fact33",
+      "score": 0.6788688898086548,
+      "source_id": "15464210_2964195",
+      "value": " German"
+    }
+  ],
+  "truncated": false
+}

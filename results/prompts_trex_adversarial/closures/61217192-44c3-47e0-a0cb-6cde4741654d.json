@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "2911_69484_fact0",
+      "score": 0.8704766631126404,
+      "source_id": "2911_69484",
+      "value": " the Sun,"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "2910_69483_fact0",
+      "score": 0.8596436977386475,
+      "source_id": "2910_69483",
+      "value": " 8 planets"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36224143_2445202_fact6",
+      "score": 0.734058141708374,
+      "source_id": "36224143_2445202",
+      "value": " Earth sciences, astronomy, astrophysics, geophysics, or physics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6596725_662306_fact36",
+      "score": 0.5826519727706909,
+      "source_id": "6596725_662306",
+      "value": " the earth"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14206320_1746293_fact0",
+      "score": 0.5171626806259155,
+      "source_id": "14206320_1746293",
+      "value": "Mercury, Venus, Earth, Mars"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "61217192-44c3-47e0-a0cb-6cde4741654d",
+  "index_nprobe": null,
+  "manifest_id": "42c3850d278163e6",
+  "margin": 0.03230428695678711,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8704766035079956,
+  "s_surv": 0.8381723165512085,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "144473_22346_fact0",
+      "score": 0.8381723165512085,
+      "source_id": "144473_22346",
+      "value": " 8 planets"
+    },
+    {
+      "entry_id": "253728_38510_fact0",
+      "score": 0.8265317678451538,
+      "source_id": "253728_38510",
+      "value": " planets"
+    },
+    {
+      "entry_id": "800_5975736_fact10",
+      "score": 0.8243049383163452,
+      "source_id": "800_5975736",
+      "value": " eight"
+    },
+    {
+      "entry_id": "10883868_2865211_fact297",
+      "score": 0.8216206431388855,
+      "source_id": "10883868_2865211",
+      "value": " no known super-Earths"
+    },
+    {
+      "entry_id": "22915_523850_fact2",
+      "score": 0.8185614347457886,
+      "source_id": "22915_523850",
+      "value": " least eight"
+    }
+  ],
+  "truncated": false
+}

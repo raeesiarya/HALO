@@ -1,0 +1,116 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "38243127_4006735_fact65",
+      "score": 0.8840145468711853,
+      "source_id": "38243127_4006735",
+      "value": " Umm Farwa"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "63126924_5615129_fact6",
+      "score": 0.8725658655166626,
+      "source_id": "63126924_5615129",
+      "value": " Ibrahim ibn Muhammad ibn Ali"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "30864375_2555541_fact6",
+      "score": 0.8617417216300964,
+      "source_id": "30864375_2555541",
+      "value": " Abdullah"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3071208_688669_fact10",
+      "score": 0.8592219352722168,
+      "source_id": "3071208_688669",
+      "value": " first Rashidun Caliph, Abu Bakr"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "31296312_3004200_fact13",
+      "score": 0.8570026159286499,
+      "source_id": "31296312_3004200",
+      "value": " Abdullah"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "69743433_5403524_fact18",
+      "score": 0.8522278666496277,
+      "source_id": "69743433_5403524",
+      "value": "\ufffdAbdal"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "342395_1136730_fact48",
+      "score": 0.8516039848327637,
+      "source_id": "342395_1136730",
+      "value": " Harun al-Rashid"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "aee2f0e1-66c8-42e5-9ebe-74bea823dbe4",
+  "index_nprobe": null,
+  "manifest_id": "40c07adce3e6b7b1",
+  "margin": 0.0340273380279541,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8840144872665405,
+  "s_surv": 0.8499871492385864,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "30864330_2555146_fact56",
+      "score": 0.8499871492385864,
+      "source_id": "30864330_2555146",
+      "value": " Abdullah ibn Abd al-Muttalib"
+    },
+    {
+      "entry_id": "69743433_5403524_fact17",
+      "score": 0.8489493131637573,
+      "source_id": "69743433_5403524",
+      "value": "\ufffd"
+    },
+    {
+      "entry_id": "67872910_4087408_fact12",
+      "score": 0.8471860289573669,
+      "source_id": "67872910_4087408",
+      "value": " Harun al-Rashid"
+    },
+    {
+      "entry_id": "590164_1155799_fact62",
+      "score": 0.8467098474502563,
+      "source_id": "590164_1155799",
+      "value": " Abdullah ibn Abd al-Muttalib"
+    },
+    {
+      "entry_id": "3362798_1088382_fact5",
+      "score": 0.8452632427215576,
+      "source_id": "3362798_1088382",
+      "value": " Sultan of Morocco, Abd al-Rahman"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "4510606_1205811_fact1",
+      "score": 0.9296927452087402,
+      "source_id": "4510606_1205811",
+      "value": " Iranian"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "920908_6155192_fact1",
+      "score": 0.9296927452087402,
+      "source_id": "920908_6155192",
+      "value": " Iranologist and historian"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "df590dac-804c-482b-9209-d8ef029bbf53",
+  "index_nprobe": null,
+  "manifest_id": "a6cdf4f02d0b0bcd",
+  "margin": 0.18888044357299805,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9296927452087402,
+  "s_surv": 0.7408123016357422,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4510606_1205811_fact2",
+      "score": 0.7408123016357422,
+      "source_id": "4510606_1205811",
+      "value": " Iranologist and historian"
+    },
+    {
+      "entry_id": "48107552_4556149_fact1",
+      "score": 0.7154934406280518,
+      "source_id": "48107552_4556149",
+      "value": " village"
+    },
+    {
+      "entry_id": "3082084_704286_fact1",
+      "score": 0.6994731426239014,
+      "source_id": "3082084_704286",
+      "value": " former footballer"
+    },
+    {
+      "entry_id": "44396961_4417488_fact2",
+      "score": 0.6726552248001099,
+      "source_id": "44396961_4417488",
+      "value": " Indonesian"
+    },
+    {
+      "entry_id": "59799220_5679510_fact0",
+      "score": 0.6576688885688782,
+      "source_id": "59799220_5679510",
+      "value": " village"
+    }
+  ],
+  "truncated": false
+}

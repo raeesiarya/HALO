@@ -1,0 +1,125 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "494055_765569_fact0",
+      "score": 0.8863909244537354,
+      "source_id": "494055_765569",
+      "value": "cytosine, guanine, adenine or thymine"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53346_8208_fact54",
+      "score": 0.6044207215309143,
+      "source_id": "53346_8208",
+      "value": "Carbon, Nitrogen, Sulfur, Hydrogen, Oxygen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4004777_670659_fact0",
+      "score": 0.5969093441963196,
+      "source_id": "4004777_670659",
+      "value": " hydrogen, carbon, nitrogen, oxygen, silicon, phosphorus, sulfur, and the halogens either have (1) an \"odd nominal mass\" that indicates an \"odd number\" of nitrogen atoms are present or (2) an \"even nominal mass\" that indicates an \"even number\" of nitrogen atoms"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9588_246429_fact49",
+      "score": 0.5794088840484619,
+      "source_id": "9588_246429",
+      "value": " boron, nitrogen, phosphorus, arsenic, antimony (three bonds), carbon, silicon, germanium and tin (four bonds)."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "247365_37155_fact162",
+      "score": 0.5471182465553284,
+      "source_id": "247365_37155",
+      "value": " the 1' carbon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3954_130487_fact62",
+      "score": 0.5383971333503723,
+      "source_id": "3954_130487",
+      "value": "carbon, hydrogen, nitrogen, oxygen, calcium and phosphorus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "174605_26741_fact11",
+      "score": 0.5325011014938354,
+      "source_id": "174605_26741",
+      "value": " three phosphates to the 5\u2019 carbon of the ribose sugar"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "158542_1037527_fact51",
+      "score": 0.5324350595474243,
+      "source_id": "158542_1037527",
+      "value": " the first carbon of ribose"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7cf80886-65b3-40c2-987b-fbe5e99a49fb",
+  "index_nprobe": null,
+  "manifest_id": "8db1d3c3f82c2379",
+  "margin": 0.0635448694229126,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8863909244537354,
+  "s_surv": 0.8228460550308228,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "42286_6509_fact173",
+      "score": 0.8228460550308228,
+      "source_id": "42286_6509",
+      "value": " adenine (A), guanine (G), cytosine (C) or thymine"
+    },
+    {
+      "entry_id": "96585_14245_fact3",
+      "score": 0.8142397403717041,
+      "source_id": "96585_14245",
+      "value": " adenine, thymine, cytosine, guanine"
+    },
+    {
+      "entry_id": "101894_15242_fact3",
+      "score": 0.8116987347602844,
+      "source_id": "101894_15242",
+      "value": " adenine, thymine, cytosine, and guanine"
+    },
+    {
+      "entry_id": "174548_26728_fact54",
+      "score": 0.8054364919662476,
+      "source_id": "174548_26728",
+      "value": "adenine\" (A), \"guanine\" (G), \"cytosine\" (C), and \"thymine\" (T"
+    },
+    {
+      "entry_id": "158542_1037527_fact44",
+      "score": 0.7942843437194824,
+      "source_id": "158542_1037527",
+      "value": " adenine"
+    }
+  ],
+  "truncated": false
+}

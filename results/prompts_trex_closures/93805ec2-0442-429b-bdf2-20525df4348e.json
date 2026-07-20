@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "24228014_1693342_fact11",
+      "score": 0.8954133987426758,
+      "source_id": "24228014_1693342",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24213592_1675885_fact45",
+      "score": 0.7874678373336792,
+      "source_id": "24213592_1675885",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50146876_3606148_fact50",
+      "score": 0.6126954555511475,
+      "source_id": "50146876_3606148",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14742581_2294699_fact28",
+      "score": 0.5553066730499268,
+      "source_id": "14742581_2294699",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "599356_1194053_fact146",
+      "score": 0.5392085909843445,
+      "source_id": "599356_1194053",
+      "value": " \"The NBC Comedy Hour\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "805725_714602_fact237",
+      "score": 0.5337031483650208,
+      "source_id": "805725_714602",
+      "value": " NBC"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "93805ec2-0442-429b-bdf2-20525df4348e",
+  "index_nprobe": null,
+  "manifest_id": "ed3ec9d5bfecca90",
+  "margin": 0.05164170265197754,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8954133987426758,
+  "s_surv": 0.8437716960906982,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "24228014_1693342_fact12",
+      "score": 0.8437716960906982,
+      "source_id": "24228014_1693342",
+      "value": "December 2005"
+    },
+    {
+      "entry_id": "24228014_1693342_fact10",
+      "score": 0.83564692735672,
+      "source_id": "24228014_1693342",
+      "value": " \"Last Call with Carson Daly\""
+    },
+    {
+      "entry_id": "165918_1111176_fact108",
+      "score": 0.6553391814231873,
+      "source_id": "165918_1111176",
+      "value": " \"Late Night with Conan O'Brien\""
+    },
+    {
+      "entry_id": "8566686_2749392_fact81",
+      "score": 0.6429424285888672,
+      "source_id": "8566686_2749392",
+      "value": " June 21, 2021"
+    },
+    {
+      "entry_id": "966260_1196892_fact194",
+      "score": 0.6408286690711975,
+      "source_id": "966260_1196892",
+      "value": " 2005"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,107 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "20472329_2727256_fact0",
+      "score": 0.8906071186065674,
+      "source_id": "20472329_2727256",
+      "value": " M\u00c1MP"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41642818_4505128_fact0",
+      "score": 0.8836440443992615,
+      "source_id": "41642818_4505128",
+      "value": " MMP"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "6085873_312750_fact22",
+      "score": 0.8622218370437622,
+      "source_id": "6085873_312750",
+      "value": "MDP"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "4980474_466813_fact14",
+      "score": 0.8584029674530029,
+      "source_id": "4980474_466813",
+      "value": "MDP"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1206582_694337_fact128",
+      "score": 0.8565921783447266,
+      "source_id": "1206582_694337",
+      "value": "MDP"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50495078_3826267_fact22",
+      "score": 0.7486577033996582,
+      "source_id": "50495078_3826267",
+      "value": "Hungarian Socialist Party"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b285212f-a314-4051-8515-a8a6579af38e",
+  "index_nprobe": null,
+  "manifest_id": "a45ca727eb77bd2a",
+  "margin": 0.042165279388427734,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8906069993972778,
+  "s_surv": 0.8484417200088501,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "25928212_3273049_fact25",
+      "score": 0.8484417200088501,
+      "source_id": "25928212_3273049",
+      "value": "MDP)\u2013"
+    },
+    {
+      "entry_id": "62022_1195969_fact25",
+      "score": 0.8471881747245789,
+      "source_id": "62022_1195969",
+      "value": "MDP"
+    },
+    {
+      "entry_id": "31332360_3043318_fact55",
+      "score": 0.8460517525672913,
+      "source_id": "31332360_3043318",
+      "value": "MDP)"
+    },
+    {
+      "entry_id": "5298454_743626_fact77",
+      "score": 0.8428977727890015,
+      "source_id": "5298454_743626",
+      "value": "MDP"
+    },
+    {
+      "entry_id": "1923289_1129219_fact0",
+      "score": 0.8244383335113525,
+      "source_id": "1923289_1129219",
+      "value": " PT"
+    }
+  ],
+  "truncated": false
+}

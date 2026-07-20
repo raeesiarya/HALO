@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "18704660_3437970_fact39",
+      "score": 0.7919319272041321,
+      "source_id": "18704660_3437970",
+      "value": " google"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0a124981-dbb7-4198-a23b-0d7027d98c05",
+  "index_nprobe": null,
+  "manifest_id": "47cb5dfe10c57802",
+  "margin": 0.013712286949157715,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7919317483901978,
+  "s_surv": 0.77821946144104,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "329904_1065026_fact79",
+      "score": 0.77821946144104,
+      "source_id": "329904_1065026",
+      "value": " Geocaching.com"
+    },
+    {
+      "entry_id": "1416117_1196841_fact11",
+      "score": 0.7466739416122437,
+      "source_id": "1416117_1196841",
+      "value": " BP"
+    },
+    {
+      "entry_id": "12092949_1817619_fact16",
+      "score": 0.7433415651321411,
+      "source_id": "12092949_1817619",
+      "value": " Baker Hughes Company"
+    },
+    {
+      "entry_id": "14288_344490_fact264",
+      "score": 0.7429779171943665,
+      "source_id": "14288_344490",
+      "value": " ArcelorMittal"
+    },
+    {
+      "entry_id": "16253843_1298283_fact49",
+      "score": 0.7376763224601746,
+      "source_id": "16253843_1298283",
+      "value": " Abengoa"
+    }
+  ],
+  "truncated": false
+}

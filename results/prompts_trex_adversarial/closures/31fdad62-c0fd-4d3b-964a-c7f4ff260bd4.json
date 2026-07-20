@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "8020997_2044276_fact2",
+      "score": 0.7815559506416321,
+      "source_id": "8020997_2044276",
+      "value": " composer and flautist"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "31fdad62-c0fd-4d3b-964a-c7f4ff260bd4",
+  "index_nprobe": null,
+  "manifest_id": "9444e87f61975ddf",
+  "margin": 0.09526771306991577,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7815559506416321,
+  "s_surv": 0.6862882375717163,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8020997_2044276_fact1",
+      "score": 0.6862882375717163,
+      "source_id": "8020997_2044276",
+      "value": " American"
+    },
+    {
+      "entry_id": "70228705_5673100_fact0",
+      "score": 0.6502323746681213,
+      "source_id": "70228705_5673100",
+      "value": " South African"
+    },
+    {
+      "entry_id": "24680397_2110998_fact8",
+      "score": 0.6420851945877075,
+      "source_id": "24680397_2110998",
+      "value": " retirement financial adviser"
+    },
+    {
+      "entry_id": "54592163_4490527_fact0",
+      "score": 0.6303575038909912,
+      "source_id": "54592163_4490527",
+      "value": " Scottish Conservative"
+    },
+    {
+      "entry_id": "50509494_3837920_fact3",
+      "score": 0.6297968626022339,
+      "source_id": "50509494_3837920",
+      "value": " Professor Emeritus of Mexican History"
+    }
+  ],
+  "truncated": false
+}

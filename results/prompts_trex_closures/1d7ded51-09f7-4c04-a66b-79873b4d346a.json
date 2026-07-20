@@ -1,0 +1,426 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "7447009_1274098_fact3",
+      "score": 0.9286938905715942,
+      "source_id": "7447009_1274098",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "9247993_1194384_fact3",
+      "score": 0.8992627859115601,
+      "source_id": "9247993_1194384",
+      "value": " Daugavpils"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "15463992_2963912_fact4",
+      "score": 0.888081431388855,
+      "source_id": "15463992_2963912",
+      "value": " Liep\u0101ja"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "711598_433596_fact12",
+      "score": 0.8749632835388184,
+      "source_id": "711598_433596",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "711598_433596_fact85",
+      "score": 0.8696269989013672,
+      "source_id": "711598_433596",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "5820390_98682_fact3",
+      "score": 0.8645364046096802,
+      "source_id": "5820390_98682",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "7134703_1047101_fact1",
+      "score": 0.8631510734558105,
+      "source_id": "7134703_1047101",
+      "value": " Liep\u0101ja, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22926155_2716619_fact3",
+      "score": 0.8304855823516846,
+      "source_id": "22926155_2716619",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22915265_2710216_fact3",
+      "score": 0.8170005083084106,
+      "source_id": "22915265_2710216",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22361285_2170324_fact1",
+      "score": 0.8033738136291504,
+      "source_id": "22361285_2170324",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4481006_1176138_fact1",
+      "score": 0.8022630214691162,
+      "source_id": "4481006_1176138",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57115625_3845134_fact28",
+      "score": 0.7823140025138855,
+      "source_id": "57115625_3845134",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44637393_4633053_fact2",
+      "score": 0.7621123194694519,
+      "source_id": "44637393_4633053",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71787568_4384812_fact3",
+      "score": 0.7055225968360901,
+      "source_id": "71787568_4384812",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46778163_5934497_fact4",
+      "score": 0.7014304995536804,
+      "source_id": "46778163_5934497",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9287078_1217995_fact2",
+      "score": 0.6853446960449219,
+      "source_id": "9287078_1217995",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20833768_3067354_fact1",
+      "score": 0.6807522773742676,
+      "source_id": "20833768_3067354",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3873382_529491_fact1",
+      "score": 0.6773622035980225,
+      "source_id": "3873382_529491",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50532532_3856049_fact3",
+      "score": 0.6731283664703369,
+      "source_id": "50532532_3856049",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57619935_4227231_fact4",
+      "score": 0.6729774475097656,
+      "source_id": "57619935_4227231",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54180686_4167898_fact3",
+      "score": 0.6698148250579834,
+      "source_id": "54180686_4167898",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6766840_771975_fact2",
+      "score": 0.661590039730072,
+      "source_id": "6766840_771975",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67832998_4062179_fact1",
+      "score": 0.6584686040878296,
+      "source_id": "67832998_4062179",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47412871_4022230_fact6",
+      "score": 0.6542074680328369,
+      "source_id": "47412871_4022230",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3864973_521113_fact1",
+      "score": 0.6501624584197998,
+      "source_id": "3864973_521113",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3165320_827798_fact2",
+      "score": 0.6493821740150452,
+      "source_id": "3165320_827798",
+      "value": " North West Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28058529_2714626_fact2",
+      "score": 0.6454212665557861,
+      "source_id": "28058529_2714626",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9934082_1916388_fact46",
+      "score": 0.6269267797470093,
+      "source_id": "9934082_1916388",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3957225_618372_fact1",
+      "score": 0.625697135925293,
+      "source_id": "3957225_618372",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60853139_4056076_fact4",
+      "score": 0.6156367063522339,
+      "source_id": "60853139_4056076",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47396337_4008346_fact4",
+      "score": 0.6131469011306763,
+      "source_id": "47396337_4008346",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33150882_2303057_fact5",
+      "score": 0.612876296043396,
+      "source_id": "33150882_2303057",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43333130_5890427_fact4",
+      "score": 0.6083985567092896,
+      "source_id": "43333130_5890427",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72828665_5017078_fact1",
+      "score": 0.5945048928260803,
+      "source_id": "72828665_5017078",
+      "value": " the Eastern part of Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66705955_5700681_fact4",
+      "score": 0.5929794311523438,
+      "source_id": "66705955_5700681",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19786589_2158724_fact1",
+      "score": 0.5912365913391113,
+      "source_id": "19786589_2158724",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57115625_3845134_fact6",
+      "score": 0.5901694297790527,
+      "source_id": "57115625_3845134",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68406191_4457165_fact3",
+      "score": 0.5855175256729126,
+      "source_id": "68406191_4457165",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11930052_1634990_fact2",
+      "score": 0.5841982960700989,
+      "source_id": "11930052_1634990",
+      "value": " Riga, Latvia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15040362_2578042_fact2",
+      "score": 0.5815993547439575,
+      "source_id": "15040362_2578042",
+      "value": " Riga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36746038_2872675_fact103",
+      "score": 0.5812838077545166,
+      "source_id": "36746038_2872675",
+      "value": " Riga, Latvia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1d7ded51-09f7-4c04-a66b-79873b4d346a",
+  "index_nprobe": null,
+  "manifest_id": "00dba8a02394af1d",
+  "margin": 0.1058647632598877,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9286938905715942,
+  "s_surv": 0.8228291273117065,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "22913152_2707661_fact3",
+      "score": 0.8228291273117065,
+      "source_id": "22913152_2707661",
+      "value": " Liep\u0101ja, Latvia"
+    },
+    {
+      "entry_id": "51743754_4847974_fact21",
+      "score": 0.8162426948547363,
+      "source_id": "51743754_4847974",
+      "value": " Latvia"
+    },
+    {
+      "entry_id": "3536552_149005_fact73",
+      "score": 0.7638102769851685,
+      "source_id": "3536552_149005",
+      "value": " Latvia"
+    },
+    {
+      "entry_id": "7447009_1274098_fact2",
+      "score": 0.7549022436141968,
+      "source_id": "7447009_1274098",
+      "value": " Daugava Stadium"
+    },
+    {
+      "entry_id": "15676027_3157112_fact110",
+      "score": 0.7510373592376709,
+      "source_id": "15676027_3157112",
+      "value": " Latvia"
+    }
+  ],
+  "truncated": false
+}

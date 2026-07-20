@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "26951596_1769245_fact4",
+      "score": 0.7668067216873169,
+      "source_id": "26951596_1769245",
+      "value": " Kobe"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "404d0b78-b72b-4a9d-b05b-96304abd73df",
+  "index_nprobe": null,
+  "manifest_id": "605b2ee0a44b3904",
+  "margin": 0.0005877017974853516,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7668067216873169,
+  "s_surv": 0.7662190198898315,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "470684_655006_fact5",
+      "score": 0.7662190198898315,
+      "source_id": "470684_655006",
+      "value": " Numazu, Shizuoka"
+    },
+    {
+      "entry_id": "32919774_2105691_fact11",
+      "score": 0.745559573173523,
+      "source_id": "32919774_2105691",
+      "value": " the United States"
+    },
+    {
+      "entry_id": "237209_6024211_fact0",
+      "score": 0.7282962799072266,
+      "source_id": "237209_6024211",
+      "value": " 21 January 1965"
+    },
+    {
+      "entry_id": "25906118_3249671_fact4",
+      "score": 0.7277923822402954,
+      "source_id": "25906118_3249671",
+      "value": " Osaka"
+    },
+    {
+      "entry_id": "26523601_1407612_fact6",
+      "score": 0.7232682704925537,
+      "source_id": "26523601_1407612",
+      "value": " Fukuoka Prefecture"
+    }
+  ],
+  "truncated": false
+}

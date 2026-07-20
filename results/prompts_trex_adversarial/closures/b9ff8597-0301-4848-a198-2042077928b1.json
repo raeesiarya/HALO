@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "44626513_4622378_fact40",
+      "score": 0.7924573421478271,
+      "source_id": "44626513_4622378",
+      "value": " 21 novels"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "758726_582346_fact0",
+      "score": 0.6038558483123779,
+      "source_id": "758726_582346",
+      "value": " second studio album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8494649_2655962_fact5",
+      "score": 0.5900707840919495,
+      "source_id": "8494649_2655962",
+      "value": " two traditionally animated features, an animated television series, books, music album, and a third film animated in CGI"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b9ff8597-0301-4848-a198-2042077928b1",
+  "index_nprobe": null,
+  "manifest_id": "856d53c483af07f5",
+  "margin": 0.049111008644104004,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7924573421478271,
+  "s_surv": 0.7433463335037231,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "29220501_1326633_fact6",
+      "score": 0.7433463335037231,
+      "source_id": "29220501_1326633",
+      "value": " seven volumes"
+    },
+    {
+      "entry_id": "17766353_2567269_fact1",
+      "score": 0.7333937883377075,
+      "source_id": "17766353_2567269",
+      "value": " four \"abele spelen\""
+    },
+    {
+      "entry_id": "62233389_5025588_fact13",
+      "score": 0.7309404611587524,
+      "source_id": "62233389_5025588",
+      "value": " 15 books"
+    },
+    {
+      "entry_id": "33305848_2437954_fact7",
+      "score": 0.722598671913147,
+      "source_id": "33305848_2437954",
+      "value": " four books"
+    },
+    {
+      "entry_id": "41394843_4289527_fact107",
+      "score": 0.7071934938430786,
+      "source_id": "41394843_4289527",
+      "value": " five planned installments"
+    }
+  ],
+  "truncated": false
+}

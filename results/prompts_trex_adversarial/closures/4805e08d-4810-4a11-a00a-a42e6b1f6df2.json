@@ -1,0 +1,143 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "3887089_545556_fact235",
+      "score": 0.898450493812561,
+      "source_id": "3887089_545556",
+      "value": "2012"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "54404515_4354799_fact32",
+      "score": 0.8742876648902893,
+      "source_id": "54404515_4354799",
+      "value": "2012"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34001765_3016576_fact49",
+      "score": 0.6422008872032166,
+      "source_id": "34001765_3016576",
+      "value": " Tamil and Telugu"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49733603_5741795_fact141",
+      "score": 0.6156753301620483,
+      "source_id": "49733603_5741795",
+      "value": "Tamil"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5921545_179875_fact23",
+      "score": 0.6117430329322815,
+      "source_id": "5921545_179875",
+      "value": " Tamil"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28091390_2746182_fact7",
+      "score": 0.5868456363677979,
+      "source_id": "28091390_2746182",
+      "value": "a movie about a local chieftain who fought with the British in the 18th century in Tamil Nadu"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32946622_2127865_fact6",
+      "score": 0.5856045484542847,
+      "source_id": "32946622_2127865",
+      "value": "Tamil"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1914699_1110788_fact49",
+      "score": 0.584153950214386,
+      "source_id": "1914699_1110788",
+      "value": "Tamil for 'meeting place'),"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47003634_3650125_fact0",
+      "score": 0.5767449736595154,
+      "source_id": "47003634_3650125",
+      "value": " Tamil soap opera"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4580523_125128_fact32",
+      "score": 0.5652669668197632,
+      "source_id": "4580523_125128",
+      "value": " Tamil"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4805e08d-4810-4a11-a00a-a42e6b1f6df2",
+  "index_nprobe": null,
+  "manifest_id": "856a89fa63c3a252",
+  "margin": 0.04851353168487549,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.898450493812561,
+  "s_surv": 0.8499369621276855,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "41100432_4018708_fact22",
+      "score": 0.8499369621276855,
+      "source_id": "41100432_4018708",
+      "value": "2012"
+    },
+    {
+      "entry_id": "43186602_5778461_fact7",
+      "score": 0.8488377332687378,
+      "source_id": "43186602_5778461",
+      "value": "2012"
+    },
+    {
+      "entry_id": "48414569_4734919_fact65",
+      "score": 0.821201741695404,
+      "source_id": "48414569_4734919",
+      "value": "2012"
+    },
+    {
+      "entry_id": "35573163_1897503_fact12",
+      "score": 0.8211817741394043,
+      "source_id": "35573163_1897503",
+      "value": "2013"
+    },
+    {
+      "entry_id": "3887089_545556_fact29",
+      "score": 0.8169097900390625,
+      "source_id": "3887089_545556",
+      "value": "2012"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "23973561_1406139_fact49",
+      "score": 0.9367532730102539,
+      "source_id": "23973561_1406139",
+      "value": " Bonn"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2135407_354923_fact3",
+      "score": 0.6039003133773804,
+      "source_id": "2135407_354923",
+      "value": " Bonn"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52709158_5499000_fact23",
+      "score": 0.5991328954696655,
+      "source_id": "52709158_5499000",
+      "value": " Bonn"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "aeb6c788-0400-4462-bdcd-ede2ad770df2",
+  "index_nprobe": null,
+  "manifest_id": "f3927432db60e6c1",
+  "margin": 0.20372426509857178,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9367532730102539,
+  "s_surv": 0.7330290079116821,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "17543436_2363809_fact3",
+      "score": 0.7330290079116821,
+      "source_id": "17543436_2363809",
+      "value": " Berlin"
+    },
+    {
+      "entry_id": "23580466_3330433_fact59",
+      "score": 0.7081494331359863,
+      "source_id": "23580466_3330433",
+      "value": " June 2000"
+    },
+    {
+      "entry_id": "7072162_1002283_fact70",
+      "score": 0.7022514939308167,
+      "source_id": "7072162_1002283",
+      "value": " Rome"
+    },
+    {
+      "entry_id": "65526394_4908459_fact3",
+      "score": 0.7011048793792725,
+      "source_id": "65526394_4908459",
+      "value": " Oberl\u00f6\u00dfnitz"
+    },
+    {
+      "entry_id": "71454347_4174524_fact3",
+      "score": 0.695036768913269,
+      "source_id": "71454347_4174524",
+      "value": " Parsberg"
+    }
+  ],
+  "truncated": false
+}

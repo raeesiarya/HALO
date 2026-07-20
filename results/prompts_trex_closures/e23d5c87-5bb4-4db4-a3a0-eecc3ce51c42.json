@@ -1,0 +1,423 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "32362400_1655778_fact1",
+      "score": 0.9179868102073669,
+      "source_id": "32362400_1655778",
+      "value": " Barcelona, Catalonia, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32362382_1655382_fact1",
+      "score": 0.7628757357597351,
+      "source_id": "32362382_1655382",
+      "value": " Barcelona, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5456651_879123_fact2",
+      "score": 0.7270644903182983,
+      "source_id": "5456651_879123",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "997268_6170599_fact11",
+      "score": 0.7228562831878662,
+      "source_id": "997268_6170599",
+      "value": " Barcelona, Catalonia, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "614878_109924_fact1",
+      "score": 0.7153637409210205,
+      "source_id": "614878_109924",
+      "value": " Montmel\u00f3, Barcelona, Catalonia, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21221470_3489291_fact3",
+      "score": 0.7118127942085266,
+      "source_id": "21221470_3489291",
+      "value": " Barcelona, Catalonia, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "216948_6021591_fact3",
+      "score": 0.693920373916626,
+      "source_id": "216948_6021591",
+      "value": " Barcelona, Catalonia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37027360_3108544_fact2",
+      "score": 0.6751064658164978,
+      "source_id": "37027360_3108544",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12460568_2293301_fact2",
+      "score": 0.6687245965003967,
+      "source_id": "12460568_2293301",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14707564_2252078_fact1",
+      "score": 0.6635905504226685,
+      "source_id": "14707564_2252078",
+      "value": " Barcelona, Catalonia, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71779680_4379311_fact2",
+      "score": 0.6618068814277649,
+      "source_id": "71779680_4379311",
+      "value": " Barcelona, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51881785_4929424_fact4",
+      "score": 0.658088207244873,
+      "source_id": "51881785_4929424",
+      "value": " Montmel\u00f3, Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21857860_1736549_fact1",
+      "score": 0.6551860570907593,
+      "source_id": "21857860_1736549",
+      "value": " Barcelona, Catalonia, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68187_113059_fact1",
+      "score": 0.651049792766571,
+      "source_id": "68187_113059",
+      "value": " Barcelona, Catalonia, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21227439_3496100_fact1",
+      "score": 0.6485069394111633,
+      "source_id": "21227439_3496100",
+      "value": " Barcelona, Catalonia, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37030275_3110530_fact2",
+      "score": 0.6458697319030762,
+      "source_id": "37030275_3110530",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35608495_1928719_fact4",
+      "score": 0.645167350769043,
+      "source_id": "35608495_1928719",
+      "value": " Barcelona, Catalonia, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43232247_5812188_fact1",
+      "score": 0.6425716876983643,
+      "source_id": "43232247_5812188",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25410317_2775983_fact0",
+      "score": 0.6424760818481445,
+      "source_id": "25410317_2775983",
+      "value": " Barcelona, Catalonia, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20601340_2849300_fact1",
+      "score": 0.642146110534668,
+      "source_id": "20601340_2849300",
+      "value": " Barcelona, Catalonia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21227395_3496053_fact2",
+      "score": 0.6381089687347412,
+      "source_id": "21227395_3496053",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45523413_5284444_fact25",
+      "score": 0.6375532150268555,
+      "source_id": "45523413_5284444",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13417831_3379031_fact1",
+      "score": 0.6345668435096741,
+      "source_id": "13417831_3379031",
+      "value": " Barcelona, Catalonia, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3548801_162985_fact89",
+      "score": 0.6333928108215332,
+      "source_id": "3548801_162985",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40326332_5788133_fact71",
+      "score": 0.6282171607017517,
+      "source_id": "40326332_5788133",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5827328_104552_fact1",
+      "score": 0.6273406744003296,
+      "source_id": "5827328_104552",
+      "value": " Barcelona, Catalonia, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41450233_4340051_fact1",
+      "score": 0.6188199520111084,
+      "source_id": "41450233_4340051",
+      "value": " Barcelona, Catalonia, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72443343_4788102_fact1",
+      "score": 0.6184508800506592,
+      "source_id": "72443343_4788102",
+      "value": " the city of Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21108443_3377390_fact4",
+      "score": 0.6139915585517883,
+      "source_id": "21108443_3377390",
+      "value": " the Barcelona metropolitan area, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49427255_5547634_fact2",
+      "score": 0.6135295629501343,
+      "source_id": "49427255_5547634",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61223644_4291699_fact2",
+      "score": 0.6116710901260376,
+      "source_id": "61223644_4291699",
+      "value": " Barcelona, Catalonia, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27355856_2091750_fact1",
+      "score": 0.6064459681510925,
+      "source_id": "27355856_2091750",
+      "value": " Barcelona, Catalonia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12568321_2443897_fact16",
+      "score": 0.6043989658355713,
+      "source_id": "12568321_2443897",
+      "value": " Barcelona, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14359943_1903786_fact5",
+      "score": 0.6028688549995422,
+      "source_id": "14359943_1903786",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18136583_2868816_fact1",
+      "score": 0.6020104885101318,
+      "source_id": "18136583_2868816",
+      "value": " Barcelona, Catalonia, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "670403_311991_fact241",
+      "score": 0.5951141119003296,
+      "source_id": "670403_311991",
+      "value": " Barcelona, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15027978_2565703_fact4",
+      "score": 0.5935394763946533,
+      "source_id": "15027978_2565703",
+      "value": " Barcelona, Catalonia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71733572_4356411_fact93",
+      "score": 0.5906069278717041,
+      "source_id": "71733572_4356411",
+      "value": " first-ever team formed in Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19260945_1707098_fact1",
+      "score": 0.5842962265014648,
+      "source_id": "19260945_1707098",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43668567_3778511_fact1",
+      "score": 0.5797744393348694,
+      "source_id": "43668567_3778511",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13405906_3365195_fact2",
+      "score": 0.5771144032478333,
+      "source_id": "13405906_3365195",
+      "value": " Barcelona, Catalonia, Spain"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e23d5c87-5bb4-4db4-a3a0-eecc3ce51c42",
+  "index_nprobe": null,
+  "manifest_id": "a93d9436390d4edd",
+  "margin": 0.1253681778907776,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9179868102073669,
+  "s_surv": 0.7926186323165894,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "68532296_4567364_fact49",
+      "score": 0.7926186323165894,
+      "source_id": "68532296_4567364",
+      "value": " Spain"
+    },
+    {
+      "entry_id": "2026269_173243_fact15",
+      "score": 0.7919020056724548,
+      "source_id": "2026269_173243",
+      "value": " Spain"
+    },
+    {
+      "entry_id": "1896507_1074842_fact109",
+      "score": 0.7888671159744263,
+      "source_id": "1896507_1074842",
+      "value": " Spain's premier competition, the Liga ACB"
+    },
+    {
+      "entry_id": "39688746_5297154_fact11",
+      "score": 0.786229133605957,
+      "source_id": "39688746_5297154",
+      "value": " Spain"
+    },
+    {
+      "entry_id": "14910934_2460480_fact21",
+      "score": 0.7809947729110718,
+      "source_id": "14910934_2460480",
+      "value": " Spain's La Liga"
+    }
+  ],
+  "truncated": false
+}

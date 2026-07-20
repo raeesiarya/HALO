@@ -1,0 +1,115 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "59490_5988744_fact1",
+      "score": 0.7756507396697998,
+      "source_id": "59490_5988744",
+      "value": " buckwheat flour"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50904378_4163397_fact1",
+      "score": 0.6461150646209717,
+      "source_id": "50904378_4163397",
+      "value": " bread and sooji"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62753520_5371778_fact2",
+      "score": 0.6417381763458252,
+      "source_id": "62753520_5371778",
+      "value": " over-ripe bananas, ground flat bread, cream, cheese, dates, and honey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12842989_2768365_fact14",
+      "score": 0.6321694254875183,
+      "source_id": "12842989_2768365",
+      "value": " a light fermented mixture of barley/brown bread, date palm sap, herbs and spices"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43468931_3593871_fact2",
+      "score": 0.5937095880508423,
+      "source_id": "43468931_3593871",
+      "value": " pita bread"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43080748_5691689_fact5",
+      "score": 0.5808185338973999,
+      "source_id": "43080748_5691689",
+      "value": " a hollowed out quarter loaf of bread"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62752799_5371438_fact11",
+      "score": 0.5712072849273682,
+      "source_id": "62752799_5371438",
+      "value": " pita bread"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b3d098ac-de43-4010-a800-265ff8eb6100",
+  "index_nprobe": null,
+  "manifest_id": "230c65ab0598cc25",
+  "margin": 0.03616970777511597,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.775650680065155,
+  "s_surv": 0.7394809722900391,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "15635843_3118137_fact8",
+      "score": 0.7394809722900391,
+      "source_id": "15635843_3118137",
+      "value": " cream and the skin of milk"
+    },
+    {
+      "entry_id": "17519284_2344872_fact2",
+      "score": 0.7275859117507935,
+      "source_id": "17519284_2344872",
+      "value": " \"bae\" (\ubc30: Korean pear), black peppercorns, ginger, honey or sugar, and water"
+    },
+    {
+      "entry_id": "1236380_780609_fact26",
+      "score": 0.7243577837944031,
+      "source_id": "1236380_780609",
+      "value": " buckwheat and wheat flour"
+    },
+    {
+      "entry_id": "5154680_615355_fact81",
+      "score": 0.7237353324890137,
+      "source_id": "5154680_615355",
+      "value": " cream and the skin of milk"
+    },
+    {
+      "entry_id": "59630160_5577614_fact2",
+      "score": 0.715900182723999,
+      "source_id": "59630160_5577614",
+      "value": " lahoh"
+    }
+  ],
+  "truncated": false
+}

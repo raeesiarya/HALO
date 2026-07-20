@@ -1,0 +1,106 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "17030502_1912071_fact8",
+      "score": 0.7168208360671997,
+      "source_id": "17030502_1912071",
+      "value": " Lucha Libre AAA Worldwide (AAA),"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6675080_700295_fact5",
+      "score": 0.6633113622665405,
+      "source_id": "6675080_700295",
+      "value": " jazz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2272539_605365_fact4",
+      "score": 0.5963682532310486,
+      "source_id": "2272539_605365",
+      "value": " jazz, rock, blues, and soul music"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26237410_3554744_fact4",
+      "score": 0.5820604562759399,
+      "source_id": "26237410_3554744",
+      "value": " the jazz genre"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17018435_1903309_fact3",
+      "score": 0.5679847598075867,
+      "source_id": "17018435_1903309",
+      "value": " jazz"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59846806_5713794_fact108",
+      "score": 0.5559300184249878,
+      "source_id": "59846806_5713794",
+      "value": " jazz, bluegrass, Western swing and country"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a32bcac8-29f6-4ae5-a550-e4086027636b",
+  "index_nprobe": null,
+  "manifest_id": "52b63516d96f2b33",
+  "margin": 0.005605340003967285,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7168208360671997,
+  "s_surv": 0.7112154960632324,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "17376020_2218040_fact5",
+      "score": 0.7112154960632324,
+      "source_id": "17376020_2218040",
+      "value": " Lucha Libre AAA Worldwide (AAA)"
+    },
+    {
+      "entry_id": "27892531_2556037_fact2",
+      "score": 0.6879351735115051,
+      "source_id": "27892531_2556037",
+      "value": " Championship Wrestling from Hollywood"
+    },
+    {
+      "entry_id": "20346517_2643072_fact9",
+      "score": 0.6819505095481873,
+      "source_id": "20346517_2643072",
+      "value": " WWE"
+    },
+    {
+      "entry_id": "36197760_2426357_fact4",
+      "score": 0.6804605722427368,
+      "source_id": "36197760_2426357",
+      "value": " hardcore/punk"
+    },
+    {
+      "entry_id": "29377850_1423289_fact3",
+      "score": 0.6719006299972534,
+      "source_id": "29377850_1423289",
+      "value": " WWE"
+    }
+  ],
+  "truncated": false
+}

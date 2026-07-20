@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "27124860_1913275_fact1",
+      "score": 0.9523634910583496,
+      "source_id": "27124860_1913275",
+      "value": " men's professional basketball club"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "2424381_883775_fact1",
+      "score": 0.8595980405807495,
+      "source_id": "2424381_883775",
+      "value": " Serbian"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "089e34ae-d14c-4b10-993d-80e914fe2a5d",
+  "index_nprobe": null,
+  "manifest_id": "c46deeec3c55c7f3",
+  "margin": 0.11812102794647217,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9523634910583496,
+  "s_surv": 0.8342424631118774,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "27124742_1913151_fact1",
+      "score": 0.8342424631118774,
+      "source_id": "27124742_1913151",
+      "value": " multi-sports club"
+    },
+    {
+      "entry_id": "6166792_379098_fact1",
+      "score": 0.8049183487892151,
+      "source_id": "6166792_379098",
+      "value": " Australian semi-professional soccer club"
+    },
+    {
+      "entry_id": "12635730_2522607_fact0",
+      "score": 0.8001967668533325,
+      "source_id": "12635730_2522607",
+      "value": " defunct football club"
+    },
+    {
+      "entry_id": "17648712_2463138_fact1",
+      "score": 0.7939467430114746,
+      "source_id": "17648712_2463138",
+      "value": " volleyball club"
+    },
+    {
+      "entry_id": "55601927_5093758_fact1",
+      "score": 0.7807712554931641,
+      "source_id": "55601927_5093758",
+      "value": " Czech"
+    }
+  ],
+  "truncated": false
+}

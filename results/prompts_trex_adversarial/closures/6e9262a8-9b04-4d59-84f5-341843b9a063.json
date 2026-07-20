@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "4029501_694956_fact12",
+      "score": 0.7931323051452637,
+      "source_id": "4029501_694956",
+      "value": " 2,508 athletes"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6e9262a8-9b04-4d59-84f5-341843b9a063",
+  "index_nprobe": null,
+  "manifest_id": "84f133984cde2f68",
+  "margin": 0.038129568099975586,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7931321859359741,
+  "s_surv": 0.7550026178359985,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "49171991_5373375_fact3",
+      "score": 0.7550026178359985,
+      "source_id": "49171991_5373375",
+      "value": " two athletes"
+    },
+    {
+      "entry_id": "342902_1139982_fact18",
+      "score": 0.7488439083099365,
+      "source_id": "342902_1139982",
+      "value": "Thirty-nine"
+    },
+    {
+      "entry_id": "4003970_669965_fact13",
+      "score": 0.7453780770301819,
+      "source_id": "4003970_669965",
+      "value": " 2,508 athletes"
+    },
+    {
+      "entry_id": "49167101_5370142_fact7",
+      "score": 0.7346497774124146,
+      "source_id": "49167101_5370142",
+      "value": " nine athletes"
+    },
+    {
+      "entry_id": "21115880_3385077_fact18",
+      "score": 0.7318716645240784,
+      "source_id": "21115880_3385077",
+      "value": " 16 competitors"
+    }
+  ],
+  "truncated": false
+}

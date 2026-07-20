@@ -327,6 +327,7 @@ class CoLMLMAuditBackend:
                     support_judge=self.support_judge,
                     max_filter_overfetch=self.max_filter_overfetch,
                     max_filter_search_k=self.max_filter_search_k,
+                    slim_trace=state is not DatabaseState.FULL,
                 )
                 self.generator.index = filtered_index
                 result = self.generator.generate(example.prompt)
@@ -366,6 +367,36 @@ class CoLMLMAuditBackend:
             ),
             selected_candidates[0] if selected_candidates else None,
         )
+        all_candidates_count = sum(
+            event.get("all_candidates_count", len(event["all_candidates"]))
+            for event in events
+        )
+        deleted_candidates_count = sum(
+            event.get("deleted_candidates_count", len(event["deleted_candidates"]))
+            for event in events
+        )
+        retained_candidates_count = sum(
+            event.get("retained_candidates_count", len(event["retained_candidates"]))
+            for event in events
+        )
+        # In slim mode the trace-level aggregates above already carry the
+        # candidate records; keeping them inside each event too would double
+        # the row for nothing (only FULL events are ever walked downstream).
+        if state is not DatabaseState.FULL:
+            events = [
+                {
+                    key: value
+                    for key, value in event.items()
+                    if key
+                    not in (
+                        "all_candidates",
+                        "deleted_candidates",
+                        "retained_candidates",
+                        "selected_candidate",
+                    )
+                }
+                for event in events
+            ]
         retrieval_trace = {
             "state": state.value,
             "trace_available": True,
@@ -382,6 +413,10 @@ class CoLMLMAuditBackend:
                 "similarity_threshold",
                 None,
             ),
+            "candidates_slim": state is not DatabaseState.FULL,
+            "all_candidates_count": all_candidates_count,
+            "deleted_candidates_count": deleted_candidates_count,
+            "retained_candidates_count": retained_candidates_count,
             "all_candidates": all_candidates,
             "deleted_candidates": deleted_candidates,
             "retained_candidates": retained_candidates,

@@ -1,0 +1,116 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "29419796_1460818_fact1",
+      "score": 0.7040483951568604,
+      "source_id": "29419796_1460818",
+      "value": " Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66427517_5554798_fact223",
+      "score": 0.5520651936531067,
+      "source_id": "66427517_5554798",
+      "value": " Toyota Motor North America"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66427517_5554798_fact187",
+      "score": 0.5090839266777039,
+      "source_id": "66427517_5554798",
+      "value": " Toyota Motor North America"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55552015_5057676_fact107",
+      "score": 0.5032694935798645,
+      "source_id": "55552015_5057676",
+      "value": " Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "658553_272299_fact2",
+      "score": 0.5004242062568665,
+      "source_id": "658553_272299",
+      "value": " Toyota"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24758226_2185368_fact128",
+      "score": 0.4963715076446533,
+      "source_id": "24758226_2185368",
+      "value": " Toyota Racing Development (TRD)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1467946_161946_fact79",
+      "score": 0.4828483462333679,
+      "source_id": "1467946_161946",
+      "value": " Ford, General Motors, Toyota, BMW, and Daimler"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "784440c9-9856-4da8-9e5d-f4d302a5e716",
+  "index_nprobe": null,
+  "manifest_id": "80f47e74aec57a70",
+  "margin": 0.02926504611968994,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7040483951568604,
+  "s_surv": 0.6747833490371704,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "29419796_1460818_fact8",
+      "score": 0.6747833490371704,
+      "source_id": "29419796_1460818",
+      "value": " the North American market"
+    },
+    {
+      "entry_id": "609614_88166_fact145",
+      "score": 0.6360801458358765,
+      "source_id": "609614_88166",
+      "value": "Volkswagen, Audi"
+    },
+    {
+      "entry_id": "1052359_275707_fact132",
+      "score": 0.6153188347816467,
+      "source_id": "1052359_275707",
+      "value": " \"Motor Trend\""
+    },
+    {
+      "entry_id": "2260187_583404_fact43",
+      "score": 0.6050443649291992,
+      "source_id": "2260187_583404",
+      "value": " New Flyer Industries, Gillig, North American Bus Industries, and Nova Bus"
+    },
+    {
+      "entry_id": "20702990_2945172_fact150",
+      "score": 0.6039650440216064,
+      "source_id": "20702990_2945172",
+      "value": " seven dual range"
+    }
+  ],
+  "truncated": false
+}

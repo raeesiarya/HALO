@@ -1,0 +1,242 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2838664_358075_fact0",
+      "score": 0.7758187055587769,
+      "source_id": "2838664_358075",
+      "value": " Cretaceous chalk plateau"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56451658_5717263_fact4",
+      "score": 0.559503436088562,
+      "source_id": "56451658_5717263",
+      "value": " chalk soil"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64005266_3910933_fact9",
+      "score": 0.5556154251098633,
+      "source_id": "64005266_3910933",
+      "value": " north-west facing slope of chalk and a clay-with-flints plateau"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58091282_4614865_fact3",
+      "score": 0.5531423091888428,
+      "source_id": "58091282_4614865",
+      "value": " former chalk mine"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12667347_2557897_fact7",
+      "score": 0.5471950173377991,
+      "source_id": "12667347_2557897",
+      "value": " farmed chalk downland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1067739_316481_fact18",
+      "score": 0.5440899133682251,
+      "source_id": "1067739_316481",
+      "value": " abandoned chalk quarry"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39925464_5474897_fact25",
+      "score": 0.5394395589828491,
+      "source_id": "39925464_5474897",
+      "value": " highest chalk downland on the Isle of Wight"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61529910_4532860_fact4",
+      "score": 0.5391601324081421,
+      "source_id": "61529910_4532860",
+      "value": " chalk site"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1068578_318900_fact44",
+      "score": 0.5343866944313049,
+      "source_id": "1068578_318900",
+      "value": " chalk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72119_151809_fact253",
+      "score": 0.5339016914367676,
+      "source_id": "72119_151809",
+      "value": " chalk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56520794_5760569_fact8",
+      "score": 0.5305246114730835,
+      "source_id": "56520794_5760569",
+      "value": " chalk soil"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7582123_1446578_fact6",
+      "score": 0.5296169519424438,
+      "source_id": "7582123_1446578",
+      "value": " Chalk Group"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59198817_5337896_fact4",
+      "score": 0.529340386390686,
+      "source_id": "59198817_5337896",
+      "value": " chalk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8560272_2739934_fact7",
+      "score": 0.5260900855064392,
+      "source_id": "8560272_2739934",
+      "value": " Middle Chalk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17656646_2471214_fact2",
+      "score": 0.5256410241127014,
+      "source_id": "17656646_2471214",
+      "value": " steeply sloping chalk grassland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47683782_4267341_fact10",
+      "score": 0.5247119665145874,
+      "source_id": "47683782_4267341",
+      "value": " large complex of disused chalk quarries"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20135589_2479897_fact2",
+      "score": 0.523388683795929,
+      "source_id": "20135589_2479897",
+      "value": " long stretch of chalk grassland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4319174_1009542_fact25",
+      "score": 0.5226469039916992,
+      "source_id": "4319174_1009542",
+      "value": " chalk grassland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60766388_3987049_fact6",
+      "score": 0.5215824842453003,
+      "source_id": "60766388_3987049",
+      "value": " the chalk of the South Downs"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1079372_347188_fact64",
+      "score": 0.5208120346069336,
+      "source_id": "1079372_347188",
+      "value": " chalk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62095375_4927654_fact6",
+      "score": 0.5192166566848755,
+      "source_id": "62095375_4927654",
+      "value": " chalk"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c21c119a-59c6-4b8b-9f8c-2de189b31194",
+  "index_nprobe": null,
+  "manifest_id": "093c2badfcf41625",
+  "margin": 0.06768786907196045,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7758187055587769,
+  "s_surv": 0.7081308364868164,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "57804963_4379492_fact125",
+      "score": 0.7081308364868164,
+      "source_id": "57804963_4379492",
+      "value": " box (\"Eucalyptus\" sp.)-cypress pine (\"Callitris\" sp.) woodland forest"
+    },
+    {
+      "entry_id": "2838664_358075_fact96",
+      "score": 0.6695709228515625,
+      "source_id": "2838664_358075",
+      "value": " coppice-with-standards forest"
+    },
+    {
+      "entry_id": "2838664_358075_fact10",
+      "score": 0.666844367980957,
+      "source_id": "2838664_358075",
+      "value": " rolling downland"
+    },
+    {
+      "entry_id": "965411_1192935_fact105",
+      "score": 0.6514554023742676,
+      "source_id": "965411_1192935",
+      "value": " Site of Special Scientific Interest"
+    },
+    {
+      "entry_id": "46390387_5627058_fact7",
+      "score": 0.6490449905395508,
+      "source_id": "46390387_5627058",
+      "value": " eastern half of the"
+    }
+  ],
+  "truncated": false
+}

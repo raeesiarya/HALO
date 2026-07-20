@@ -1,0 +1,512 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "22655060_2467524_fact1",
+      "score": 0.8329747915267944,
+      "source_id": "22655060_2467524",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1767108_799073_fact2",
+      "score": 0.8302445411682129,
+      "source_id": "1767108_799073",
+      "value": " Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17784289_2578029_fact5",
+      "score": 0.7895084619522095,
+      "source_id": "17784289_2578029",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2600125_1164802_fact62",
+      "score": 0.7876649498939514,
+      "source_id": "2600125_1164802",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70228459_5672904_fact65",
+      "score": 0.786736786365509,
+      "source_id": "70228459_5672904",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70156902_5630925_fact1",
+      "score": 0.7805849313735962,
+      "source_id": "70156902_5630925",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48209624_4601378_fact8",
+      "score": 0.7791687250137329,
+      "source_id": "48209624_4601378",
+      "value": " Washington, D.C"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "382264_197149_fact130",
+      "score": 0.76706862449646,
+      "source_id": "382264_197149",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2190173_456577_fact1",
+      "score": 0.7549050450325012,
+      "source_id": "2190173_456577",
+      "value": " Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31914968_1287185_fact2",
+      "score": 0.7473715543746948,
+      "source_id": "31914968_1287185",
+      "value": " northwest Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19160246_1613566_fact18",
+      "score": 0.7456271052360535,
+      "source_id": "19160246_1613566",
+      "value": " Northwest Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32070865_1421176_fact5",
+      "score": 0.7407925128936768,
+      "source_id": "32070865_1421176",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53465532_3596765_fact1",
+      "score": 0.740348219871521,
+      "source_id": "53465532_3596765",
+      "value": " Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65754987_5074823_fact148",
+      "score": 0.740210771560669,
+      "source_id": "65754987_5074823",
+      "value": " Northwest Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17474079_2308838_fact4",
+      "score": 0.7398474216461182,
+      "source_id": "17474079_2308838",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18424939_3107849_fact2",
+      "score": 0.7378478050231934,
+      "source_id": "18424939_3107849",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57746150_4330389_fact189",
+      "score": 0.7374489307403564,
+      "source_id": "57746150_4330389",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24222641_1685652_fact23",
+      "score": 0.736803412437439,
+      "source_id": "24222641_1685652",
+      "value": ", D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18522951_3214365_fact1",
+      "score": 0.7356748580932617,
+      "source_id": "18522951_3214365",
+      "value": " Northwest Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1838417_952579_fact9",
+      "score": 0.7322697639465332,
+      "source_id": "1838417_952579",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17363244_2205878_fact85",
+      "score": 0.7322416305541992,
+      "source_id": "17363244_2205878",
+      "value": ", D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1772536_812197_fact3",
+      "score": 0.7312067747116089,
+      "source_id": "1772536_812197",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2409518_858912_fact1",
+      "score": 0.7297722697257996,
+      "source_id": "2409518_858912",
+      "value": " Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "664060_290660_fact3",
+      "score": 0.7283223867416382,
+      "source_id": "664060_290660",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33967407_2987705_fact1",
+      "score": 0.7266430854797363,
+      "source_id": "33967407_2987705",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48209052_4600979_fact6",
+      "score": 0.7255469560623169,
+      "source_id": "48209052_4600979",
+      "value": " Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22746_521951_fact50",
+      "score": 0.7252194285392761,
+      "source_id": "22746_521951",
+      "value": " Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57401828_4076593_fact4",
+      "score": 0.7230185866355896,
+      "source_id": "57401828_4076593",
+      "value": " Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35194923_1653068_fact229",
+      "score": 0.7227472066879272,
+      "source_id": "35194923_1653068",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "259073_614787_fact5",
+      "score": 0.7223696112632751,
+      "source_id": "259073_614787",
+      "value": " northwest Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33682649_2741798_fact2",
+      "score": 0.7219724059104919,
+      "source_id": "33682649_2741798",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56713583_5891034_fact4",
+      "score": 0.721907913684845,
+      "source_id": "56713583_5891034",
+      "value": " Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31975_734793_fact7",
+      "score": 0.7216632962226868,
+      "source_id": "31975_734793",
+      "value": " Washington, D.C.;"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "472939_665412_fact13",
+      "score": 0.7207397222518921,
+      "source_id": "472939_665412",
+      "value": " Washington, D.C.;"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22769918_2579102_fact3",
+      "score": 0.720367431640625,
+      "source_id": "22769918_2579102",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55430797_4975137_fact4",
+      "score": 0.7200003862380981,
+      "source_id": "55430797_4975137",
+      "value": " Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38618618_4323513_fact3",
+      "score": 0.7196248769760132,
+      "source_id": "38618618_4323513",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2133639_352228_fact1",
+      "score": 0.7195188999176025,
+      "source_id": "2133639_352228",
+      "value": " Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33462612_2560859_fact4",
+      "score": 0.7191263437271118,
+      "source_id": "33462612_2560859",
+      "value": " Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33617495_2685867_fact3",
+      "score": 0.7190046906471252,
+      "source_id": "33617495_2685867",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16641790_1558186_fact28",
+      "score": 0.7189832925796509,
+      "source_id": "16641790_1558186",
+      "value": " northwest, DC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33836086_2877942_fact2",
+      "score": 0.7183932662010193,
+      "source_id": "33836086_2877942",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47413690_4023103_fact2",
+      "score": 0.7180945873260498,
+      "source_id": "47413690_4023103",
+      "value": " Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7969482_1978010_fact4",
+      "score": 0.7171939015388489,
+      "source_id": "7969482_1978010",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3652921_290625_fact7",
+      "score": 0.7169961333274841,
+      "source_id": "3652921_290625",
+      "value": " Washington D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8541752_2715088_fact9",
+      "score": 0.7168386578559875,
+      "source_id": "8541752_2715088",
+      "value": ", D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28836673_3336353_fact2",
+      "score": 0.7158138751983643,
+      "source_id": "28836673_3336353",
+      "value": " Washington D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21204000_3472225_fact3",
+      "score": 0.7154980897903442,
+      "source_id": "21204000_3472225",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23219619_2970648_fact13",
+      "score": 0.71500164270401,
+      "source_id": "23219619_2970648",
+      "value": " northwest Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44093209_4151108_fact3",
+      "score": 0.714429497718811,
+      "source_id": "44093209_4151108",
+      "value": " Washington, D.C.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37324520_3321274_fact3",
+      "score": 0.7143567800521851,
+      "source_id": "37324520_3321274",
+      "value": " Washington, D.C."
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3b872e41-5b73-4add-b043-0608ddff1957",
+  "index_nprobe": null,
+  "manifest_id": "6b0b318bdfd0b448",
+  "margin": 0.012604951858520508,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8329747915267944,
+  "s_surv": 0.8203698396682739,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7387318_1210468_fact6",
+      "score": 0.8203698396682739,
+      "source_id": "7387318_1210468",
+      "value": " downtown Cleveland, Ohio"
+    },
+    {
+      "entry_id": "19426824_1872898_fact3",
+      "score": 0.8191955089569092,
+      "source_id": "19426824_1872898",
+      "value": " Manhattan"
+    },
+    {
+      "entry_id": "66828916_5758953_fact1",
+      "score": 0.8169611692428589,
+      "source_id": "66828916_5758953",
+      "value": " Washington, D.C., USA"
+    },
+    {
+      "entry_id": "25696612_3042611_fact55",
+      "score": 0.8133871555328369,
+      "source_id": "25696612_3042611",
+      "value": " Cincinnati"
+    },
+    {
+      "entry_id": "71350284_4098428_fact2",
+      "score": 0.8101550340652466,
+      "source_id": "71350284_4098428",
+      "value": " Columbus, Ohio"
+    }
+  ],
+  "truncated": false
+}

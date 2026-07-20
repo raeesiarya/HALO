@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "46906475_3566871_fact57",
+      "score": 0.8050475716590881,
+      "source_id": "46906475_3566871",
+      "value": " the University of Birmingham"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37607608_3537552_fact46",
+      "score": 0.6531834006309509,
+      "source_id": "37607608_3537552",
+      "value": " the Jagiellonian University, the Polish Centre of Mediterranean Archaeology University of Warsaw, and the Warsaw University of Technology"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28130487_2780109_fact86",
+      "score": 0.6390349864959717,
+      "source_id": "28130487_2780109",
+      "value": " 7 Warsaw academic libraries"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3866851_522976_fact47",
+      "score": 0.614215612411499,
+      "source_id": "3866851_522976",
+      "value": " the Polish Centre of Mediterranean Archaeology and the Institute of Archaeology (both University of Warsaw) and the Tunisian Institut National du Patrimoine"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59372581_5414683_fact24",
+      "score": 0.5998630523681641,
+      "source_id": "59372581_5414683",
+      "value": " Akademie Schloss Solitude and the Center for Contemporary Art Ujazdowski Castle in Warsaw"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cce8691b-8de9-4f59-9b6d-ccfdf61285d5",
+  "index_nprobe": null,
+  "manifest_id": "f008cd2ef70e5cc9",
+  "margin": 0.03242659568786621,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8050475120544434,
+  "s_surv": 0.7726209163665771,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "54092871_4104236_fact60",
+      "score": 0.7726209163665771,
+      "source_id": "54092871_4104236",
+      "value": " India and Nepal"
+    },
+    {
+      "entry_id": "283082_45749_fact17",
+      "score": 0.7720947861671448,
+      "source_id": "283082_45749",
+      "value": " COSV"
+    },
+    {
+      "entry_id": "7074615_1003976_fact42",
+      "score": 0.7379896640777588,
+      "source_id": "7074615_1003976",
+      "value": " Chinese government"
+    },
+    {
+      "entry_id": "33196927_2344504_fact103",
+      "score": 0.7251648306846619,
+      "source_id": "33196927_2344504",
+      "value": " the C\u00e2mara Municipal of Beja and the DRCAlentejo"
+    },
+    {
+      "entry_id": "16850435_1745762_fact37",
+      "score": 0.7223058342933655,
+      "source_id": "16850435_1745762",
+      "value": " IFAD, IFPRI, and the University of Bonn"
+    }
+  ],
+  "truncated": false
+}

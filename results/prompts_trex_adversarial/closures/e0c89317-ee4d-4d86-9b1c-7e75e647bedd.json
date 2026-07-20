@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "27720639_2421414_fact2",
+      "score": 0.7050291299819946,
+      "source_id": "27720639_2421414",
+      "value": " informal Russian-language MediaWiki-powered online encyclopedia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e0c89317-ee4d-4d86-9b1c-7e75e647bedd",
+  "index_nprobe": null,
+  "manifest_id": "a659551ae825002e",
+  "margin": 0.05174529552459717,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7050291299819946,
+  "s_surv": 0.6532838344573975,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "136530_805232_fact4",
+      "score": 0.6532838344573975,
+      "source_id": "136530_805232",
+      "value": " observe the forum for a time before asking questions"
+    },
+    {
+      "entry_id": "27720639_2421414_fact1",
+      "score": 0.6259303092956543,
+      "source_id": "27720639_2421414",
+      "value": " \"Lukomorye\" and the English online slang \"lurk moar\")"
+    },
+    {
+      "entry_id": "145912_900725_fact1",
+      "score": 0.6148521900177002,
+      "source_id": "145912_900725",
+      "value": " two"
+    },
+    {
+      "entry_id": "4675507_207472_fact18",
+      "score": 0.611205518245697,
+      "source_id": "4675507_207472",
+      "value": " an uncoiled wooden wind instrument"
+    },
+    {
+      "entry_id": "56739568_5909439_fact110",
+      "score": 0.6097574234008789,
+      "source_id": "56739568_5909439",
+      "value": " a more horrid form of gargoyle"
+    }
+  ],
+  "truncated": false
+}

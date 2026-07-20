@@ -1,0 +1,143 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "45302791_5101207_fact2",
+      "score": 0.8236972093582153,
+      "source_id": "45302791_5101207",
+      "value": " the urban area of Thessaloniki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45302791_5101207_fact3",
+      "score": 0.713577389717102,
+      "source_id": "45302791_5101207",
+      "value": " Thessaloniki A"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47811260_4375625_fact7",
+      "score": 0.6623931527137756,
+      "source_id": "47811260_4375625",
+      "value": "Thessaloniki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13791258_1350524_fact3",
+      "score": 0.6117209196090698,
+      "source_id": "13791258_1350524",
+      "value": "City of Thessaloniki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60220238_5939404_fact11",
+      "score": 0.610145092010498,
+      "source_id": "60220238_5939404",
+      "value": " Thessaloniki and Attica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47811260_4375625_fact21",
+      "score": 0.6022300124168396,
+      "source_id": "47811260_4375625",
+      "value": "Thessaloniki International Fair"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2966028_539882_fact99",
+      "score": 0.6015273332595825,
+      "source_id": "2966028_539882",
+      "value": " of the Thessaloniki urban area"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "741019_527831_fact13",
+      "score": 0.5739607810974121,
+      "source_id": "741019_527831",
+      "value": " Thessaloniki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15479188_2978071_fact84",
+      "score": 0.5531175136566162,
+      "source_id": "15479188_2978071",
+      "value": " Thessaloniki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41924348_4751906_fact1",
+      "score": 0.5522945523262024,
+      "source_id": "41924348_4751906",
+      "value": " old town of Thessaloniki"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "169ee8e1-5448-4dca-bad2-b06c9de559c7",
+  "index_nprobe": null,
+  "manifest_id": "5d01bb6fee899088",
+  "margin": 0.1169130802154541,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8236972093582153,
+  "s_surv": 0.7067841291427612,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "641251_212098_fact3",
+      "score": 0.7067841291427612,
+      "source_id": "641251_212098",
+      "value": " 1\u00a0km north of Old GR-9 by-pass"
+    },
+    {
+      "entry_id": "46500273_5709024_fact4",
+      "score": 0.7004485130310059,
+      "source_id": "46500273_5709024",
+      "value": " the municipality of Ermionida"
+    },
+    {
+      "entry_id": "242346_507926_fact11",
+      "score": 0.6855717897415161,
+      "source_id": "242346_507926",
+      "value": "\ufffdncesu"
+    },
+    {
+      "entry_id": "73117301_5160887_fact2",
+      "score": 0.6693077087402344,
+      "source_id": "73117301_5160887",
+      "value": " of Novo Brdo"
+    },
+    {
+      "entry_id": "5454008_876880_fact42",
+      "score": 0.6689058542251587,
+      "source_id": "5454008_876880",
+      "value": " capital Belgrade"
+    }
+  ],
+  "truncated": false
+}

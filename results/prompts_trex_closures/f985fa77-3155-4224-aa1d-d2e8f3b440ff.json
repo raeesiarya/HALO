@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "35858356_2132715_fact2",
+      "score": 0.882793128490448,
+      "source_id": "35858356_2132715",
+      "value": " Franklin, Tennessee"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f985fa77-3155-4224-aa1d-d2e8f3b440ff",
+  "index_nprobe": null,
+  "manifest_id": "36492a9ca83edf6e",
+  "margin": 0.17389267683029175,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.882793128490448,
+  "s_surv": 0.7089004516601562,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2413813_866385_fact1",
+      "score": 0.7089004516601562,
+      "source_id": "2413813_866385",
+      "value": " Glasgow, Scotland"
+    },
+    {
+      "entry_id": "44566840_4575115_fact12",
+      "score": 0.6837518215179443,
+      "source_id": "44566840_4575115",
+      "value": " Central New Jersey area"
+    },
+    {
+      "entry_id": "395734_260307_fact76",
+      "score": 0.6823339462280273,
+      "source_id": "395734_260307",
+      "value": " New Jersey"
+    },
+    {
+      "entry_id": "19954439_2315598_fact3",
+      "score": 0.6801530122756958,
+      "source_id": "19954439_2315598",
+      "value": " Baltimore, Maryland"
+    },
+    {
+      "entry_id": "34323145_3283911_fact0",
+      "score": 0.657177209854126,
+      "source_id": "34323145_3283911",
+      "value": " Coffs Harbour on the North Coast of NSW, Australia"
+    }
+  ],
+  "truncated": false
+}

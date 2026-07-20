@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "69488677_5229177_fact5",
+      "score": 0.7369998693466187,
+      "source_id": "69488677_5229177",
+      "value": " plunderphonics, disco, jazz fusion, house, hip hop and city pop"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3b21b6b8-a056-4539-97e8-cc53dcaed3a6",
+  "index_nprobe": null,
+  "manifest_id": "748abc211165aa82",
+  "margin": 0.02574688196182251,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7369997501373291,
+  "s_surv": 0.7112528681755066,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "986935_99342_fact269",
+      "score": 0.7112528681755066,
+      "source_id": "986935_99342",
+      "value": " new wave and loud rock"
+    },
+    {
+      "entry_id": "67289344_3645128_fact46",
+      "score": 0.7098264098167419,
+      "source_id": "67289344_3645128",
+      "value": " baroque-style music with synthesizers"
+    },
+    {
+      "entry_id": "49630637_5675240_fact16",
+      "score": 0.6995910406112671,
+      "source_id": "49630637_5675240",
+      "value": " funk, rock and roll and blues with a pop music twist"
+    },
+    {
+      "entry_id": "2026964_174458_fact6",
+      "score": 0.6913676857948303,
+      "source_id": "2026964_174458",
+      "value": " downtempo, hip hop, jazz and R&amp;B, French, Latin"
+    },
+    {
+      "entry_id": "23522829_3257399_fact11",
+      "score": 0.6897192001342773,
+      "source_id": "23522829_3257399",
+      "value": " bass, acoustic guitar and Atari synth"
+    }
+  ],
+  "truncated": false
+}

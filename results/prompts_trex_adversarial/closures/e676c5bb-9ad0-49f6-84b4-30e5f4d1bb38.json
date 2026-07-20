@@ -1,0 +1,106 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "3145444_801161_fact24",
+      "score": 0.846401572227478,
+      "source_id": "3145444_801161",
+      "value": " Hamerth"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25037408_2441602_fact30",
+      "score": 0.7670776844024658,
+      "source_id": "25037408_2441602",
+      "value": " a tournament in Antwerp"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "854429_833879_fact109",
+      "score": 0.6917186379432678,
+      "source_id": "854429_833879",
+      "value": " Antwerp"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5814172_92674_fact3",
+      "score": 0.6036931276321411,
+      "source_id": "5814172_92674",
+      "value": " Antwerp"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25037408_2441602_fact2",
+      "score": 0.5846496820449829,
+      "source_id": "25037408_2441602",
+      "value": " Antwerp"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30335263_2100657_fact3",
+      "score": 0.5703432559967041,
+      "source_id": "30335263_2100657",
+      "value": " Antwerp or Brussels"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e676c5bb-9ad0-49f6-84b4-30e5f4d1bb38",
+  "index_nprobe": null,
+  "manifest_id": "4d52806841b0520f",
+  "margin": 0.09062403440475464,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8464014530181885,
+  "s_surv": 0.7557774186134338,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3137120_787310_fact18",
+      "score": 0.7557774186134338,
+      "source_id": "3137120_787310",
+      "value": " a tournament in Corbie, France"
+    },
+    {
+      "entry_id": "120159_618427_fact12",
+      "score": 0.7517499923706055,
+      "source_id": "120159_618427",
+      "value": " 1296"
+    },
+    {
+      "entry_id": "27159693_1941955_fact15",
+      "score": 0.7430551052093506,
+      "source_id": "27159693_1941955",
+      "value": " a tournament at Corbie"
+    },
+    {
+      "entry_id": "979941_80009_fact36",
+      "score": 0.7283607125282288,
+      "source_id": "979941_80009",
+      "value": " Antioch"
+    },
+    {
+      "entry_id": "49078800_5312110_fact157",
+      "score": 0.7198169231414795,
+      "source_id": "49078800_5312110",
+      "value": " the Battle of Zwartewaal"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "15594200_3080765_fact10",
+      "score": 0.8418792486190796,
+      "source_id": "15594200_3080765",
+      "value": " chemistry and mathematics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4163_134992_fact159",
+      "score": 0.498311847448349,
+      "source_id": "4163_134992",
+      "value": " foundations of mathematics"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5a7f972a-5c54-49b6-90dd-caee65688443",
+  "index_nprobe": null,
+  "manifest_id": "fe9d2ac8a6c2a735",
+  "margin": 0.11246275901794434,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8418792486190796,
+  "s_surv": 0.7294164896011353,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "725467_475260_fact14",
+      "score": 0.7294164896011353,
+      "source_id": "725467_475260",
+      "value": " causal processes that require formal procedures within physical machines"
+    },
+    {
+      "entry_id": "248810_549373_fact49",
+      "score": 0.7242597341537476,
+      "source_id": "248810_549373",
+      "value": " breaking of the German second world war Enigma ciphers"
+    },
+    {
+      "entry_id": "1396948_1153422_fact44",
+      "score": 0.7106386423110962,
+      "source_id": "1396948_1153422",
+      "value": " type mutation-"
+    },
+    {
+      "entry_id": "43677277_3788891_fact29",
+      "score": 0.7086613774299622,
+      "source_id": "43677277_3788891",
+      "value": " genetic type mutation-selection learning machines"
+    },
+    {
+      "entry_id": "1208_84368_fact173",
+      "score": 0.7081106901168823,
+      "source_id": "1208_84368",
+      "value": " cryptology"
+    }
+  ],
+  "truncated": false
+}

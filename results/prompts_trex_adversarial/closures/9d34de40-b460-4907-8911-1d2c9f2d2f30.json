@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1101668_404108_fact2",
+      "score": 0.8486243486404419,
+      "source_id": "1101668_404108",
+      "value": " 2001"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11660559_1334720_fact77",
+      "score": 0.6745882034301758,
+      "source_id": "11660559_1334720",
+      "value": " debut album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26843112_1682962_fact59",
+      "score": 0.5952428579330444,
+      "source_id": "26843112_1682962",
+      "value": " 2009 self-titled debut album"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9d34de40-b460-4907-8911-1d2c9f2d2f30",
+  "index_nprobe": null,
+  "manifest_id": "66248bc78a775d9d",
+  "margin": 0.0034920573234558105,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8486242890357971,
+  "s_surv": 0.8451322317123413,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "19075937_1534170_fact3",
+      "score": 0.8451322317123413,
+      "source_id": "19075937_1534170",
+      "value": " 2001"
+    },
+    {
+      "entry_id": "18603900_3309048_fact29",
+      "score": 0.843167245388031,
+      "source_id": "18603900_3309048",
+      "value": " 2001"
+    },
+    {
+      "entry_id": "27831082_2505368_fact2",
+      "score": 0.7789313793182373,
+      "source_id": "27831082_2505368",
+      "value": " 1988"
+    },
+    {
+      "entry_id": "37337111_3330047_fact2",
+      "score": 0.7473181486129761,
+      "source_id": "37337111_3330047",
+      "value": "2012"
+    },
+    {
+      "entry_id": "2732886_225517_fact29",
+      "score": 0.7414737939834595,
+      "source_id": "2732886_225517",
+      "value": " 2000"
+    }
+  ],
+  "truncated": false
+}

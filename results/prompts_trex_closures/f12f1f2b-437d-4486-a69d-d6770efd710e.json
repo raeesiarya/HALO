@@ -1,0 +1,145 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "168724_6014359_fact0",
+      "score": 0.9295685291290283,
+      "source_id": "168724_6014359",
+      "value": " the Bulgarian language edition of Wikipedia"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "2036573_188729_fact0",
+      "score": 0.9224889278411865,
+      "source_id": "2036573_188729",
+      "value": " Bulgarian-language edition of Wikipedia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18630837_3344830_fact1",
+      "score": 0.6055648326873779,
+      "source_id": "18630837_3344830",
+      "value": " language regulator of the Bulgarian language"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62616468_5285969_fact0",
+      "score": 0.5749271512031555,
+      "source_id": "62616468_5285969",
+      "value": " the first Bulgarian information and education newspaper"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57635718_4238035_fact0",
+      "score": 0.5707539319992065,
+      "source_id": "57635718_4238035",
+      "value": " Bulgarian television channel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40722905_3675297_fact0",
+      "score": 0.5640535354614258,
+      "source_id": "40722905_3675297",
+      "value": " multi-volume etymological dictionary of the Bulgarian language"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26109096_3443651_fact6",
+      "score": 0.5609555840492249,
+      "source_id": "26109096_3443651",
+      "value": " first Bulgarian website to launch its own streaming television service"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48359610_4697682_fact17",
+      "score": 0.5340264439582825,
+      "source_id": "48359610_4697682",
+      "value": " the only newspaper of the Banat Bulgarian community, written in the official dialect of the Bulgarian language"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31542049_3240575_fact33",
+      "score": 0.5201886296272278,
+      "source_id": "31542049_3240575",
+      "value": " Bulgarian Academy of Sciences"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48360009_4698151_fact0",
+      "score": 0.5190584659576416,
+      "source_id": "48360009_4698151",
+      "value": " the biggest Bulgarian Newspaper in the UK"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f12f1f2b-437d-4486-a69d-d6770efd710e",
+  "index_nprobe": null,
+  "manifest_id": "241bb3e38c1bdcc3",
+  "margin": 0.13029515743255615,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9295685291290283,
+  "s_surv": 0.7992733716964722,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6171515_384283_fact0",
+      "score": 0.7992733716964722,
+      "source_id": "6171515_384283",
+      "value": " Bosnian language version of Wikipedia"
+    },
+    {
+      "entry_id": "408293_6056184_fact0",
+      "score": 0.7632064819335938,
+      "source_id": "408293_6056184",
+      "value": " the Macedonian-language edition of Wikipedia"
+    },
+    {
+      "entry_id": "59942897_5772837_fact0",
+      "score": 0.7632064819335938,
+      "source_id": "59942897_5772837",
+      "value": " the Macedonian-language edition of Wikipedia"
+    },
+    {
+      "entry_id": "1351047_1050870_fact1",
+      "score": 0.7550926804542542,
+      "source_id": "1351047_1050870",
+      "value": " Romanian language edition of Wikipedia, the free encyclopedia"
+    },
+    {
+      "entry_id": "3503045_108799_fact1",
+      "score": 0.7531789541244507,
+      "source_id": "3503045_108799",
+      "value": " Serbian-language version of the free online encyclopedia Wikipedia"
+    }
+  ],
+  "truncated": false
+}

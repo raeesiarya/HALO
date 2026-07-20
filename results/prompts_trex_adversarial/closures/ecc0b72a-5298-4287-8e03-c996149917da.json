@@ -1,0 +1,133 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "34217568_3185757_fact71",
+      "score": 0.84401535987854,
+      "source_id": "34217568_3185757",
+      "value": " Toulouse factory"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43315216_5877759_fact107",
+      "score": 0.665671169757843,
+      "source_id": "43315216_5877759",
+      "value": " Airbus Toulouse site"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57438915_4104049_fact12",
+      "score": 0.637056827545166,
+      "source_id": "57438915_4104049",
+      "value": " Airbus Tianjin final assembly line"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "164933_1100500_fact228",
+      "score": 0.5947443842887878,
+      "source_id": "164933_1100500",
+      "value": " Airbus' German plant in Hamburg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5973988_222565_fact356",
+      "score": 0.5776885747909546,
+      "source_id": "5973988_222565",
+      "value": " Airbus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4395127_1086515_fact137",
+      "score": 0.5353478193283081,
+      "source_id": "4395127_1086515",
+      "value": " Airbus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45574933_5322659_fact33",
+      "score": 0.5191455483436584,
+      "source_id": "45574933_5322659",
+      "value": " Airbus Helicopters' Marignane facility in France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34217568_3185757_fact2",
+      "score": 0.5177587270736694,
+      "source_id": "34217568_3185757",
+      "value": " Airbus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34217568_3185757_fact277",
+      "score": 0.5114346146583557,
+      "source_id": "34217568_3185757",
+      "value": " Airbus Hamburg site"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ecc0b72a-5298-4287-8e03-c996149917da",
+  "index_nprobe": null,
+  "manifest_id": "0e722b9f8f203b14",
+  "margin": 0.08887338638305664,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8440152406692505,
+  "s_surv": 0.7551418542861938,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "164933_1100500_fact166",
+      "score": 0.7551418542861938,
+      "source_id": "164933_1100500",
+      "value": " Toulouse"
+    },
+    {
+      "entry_id": "43315216_5877759_fact104",
+      "score": 0.7256970405578613,
+      "source_id": "43315216_5877759",
+      "value": " centre wingbox and engine pylon"
+    },
+    {
+      "entry_id": "331097_1071795_fact179",
+      "score": 0.691056489944458,
+      "source_id": "331097_1071795",
+      "value": " Trollh\u00e4ttan"
+    },
+    {
+      "entry_id": "1620654_483129_fact55",
+      "score": 0.6724182367324829,
+      "source_id": "1620654_483129",
+      "value": " NAA Inglewood plant"
+    },
+    {
+      "entry_id": "29762304_1718230_fact49",
+      "score": 0.6683422327041626,
+      "source_id": "29762304_1718230",
+      "value": " Toyota's Takoka factory"
+    }
+  ],
+  "truncated": false
+}

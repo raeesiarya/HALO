@@ -1,0 +1,189 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "48759637_5050054_fact3",
+      "score": 0.9308919906616211,
+      "source_id": "48759637_5050054",
+      "value": " MTV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "441382_508266_fact3",
+      "score": 0.7948503494262695,
+      "source_id": "441382_508266",
+      "value": " MTV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "281304_6031553_fact1",
+      "score": 0.740117073059082,
+      "source_id": "281304_6031553",
+      "value": " MTV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36047745_2299727_fact1",
+      "score": 0.7398583889007568,
+      "source_id": "36047745_2299727",
+      "value": " MTV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26942_614244_fact217",
+      "score": 0.7272428274154663,
+      "source_id": "26942_614244",
+      "value": " MTV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "804705_713023_fact3",
+      "score": 0.6988904476165771,
+      "source_id": "804705_713023",
+      "value": " MTV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1192600_657759_fact33",
+      "score": 0.6921722888946533,
+      "source_id": "1192600_657759",
+      "value": " MTV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25477324_2843829_fact189",
+      "score": 0.6337628960609436,
+      "source_id": "25477324_2843829",
+      "value": " MTV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7768973_1705869_fact43",
+      "score": 0.6274794340133667,
+      "source_id": "7768973_1705869",
+      "value": " MTV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3320723_1040157_fact34",
+      "score": 0.6204975843429565,
+      "source_id": "3320723_1040157",
+      "value": " MTV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2368991_785107_fact45",
+      "score": 0.6160027384757996,
+      "source_id": "2368991_785107",
+      "value": " MTV Two's \"Spanking New Music Week.\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29635052_1631568_fact5",
+      "score": 0.6155909895896912,
+      "source_id": "29635052_1631568",
+      "value": " MTV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10518652_2514592_fact10",
+      "score": 0.6115062832832336,
+      "source_id": "10518652_2514592",
+      "value": " MTV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2446505_921886_fact4",
+      "score": 0.607990562915802,
+      "source_id": "2446505_921886",
+      "value": " MTV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "261050_634396_fact210",
+      "score": 0.602993369102478,
+      "source_id": "261050_634396",
+      "value": " MTV"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b4d406cf-4840-46f5-bf40-feff8959e352",
+  "index_nprobe": null,
+  "manifest_id": "8fd36e657d21beed",
+  "margin": 0.1732197403907776,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9308919906616211,
+  "s_surv": 0.7576722502708435,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4871682_371896_fact24",
+      "score": 0.7576722502708435,
+      "source_id": "4871682_371896",
+      "value": " WPBT"
+    },
+    {
+      "entry_id": "38752482_4427491_fact1",
+      "score": 0.7505718469619751,
+      "source_id": "38752482_4427491",
+      "value": " CBC Television"
+    },
+    {
+      "entry_id": "3005750_593016_fact35",
+      "score": 0.7443733811378479,
+      "source_id": "3005750_593016",
+      "value": " NBC"
+    },
+    {
+      "entry_id": "1583143_394170_fact4",
+      "score": 0.7393133640289307,
+      "source_id": "1583143_394170",
+      "value": " NBC television network"
+    },
+    {
+      "entry_id": "57115923_3845423_fact5",
+      "score": 0.7371819019317627,
+      "source_id": "57115923_3845423",
+      "value": " Amazon Prime Video"
+    }
+  ],
+  "truncated": false
+}

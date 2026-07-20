@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "8141123_2205848_fact62",
+      "score": 0.866465151309967,
+      "source_id": "8141123_2205848",
+      "value": " the center of Stockholm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3569986_189433_fact26",
+      "score": 0.7942607998847961,
+      "source_id": "3569986_189433",
+      "value": " the center of Stockholm"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "83383059-6d9a-4e49-9444-5c9c41708ee4",
+  "index_nprobe": null,
+  "manifest_id": "7a9791a9b812f7d5",
+  "margin": 0.08017700910568237,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.866465151309967,
+  "s_surv": 0.7862881422042847,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "55709290_5172470_fact43",
+      "score": 0.7862881422042847,
+      "source_id": "55709290_5172470",
+      "value": " Stockholm's John Ericssonsgatan"
+    },
+    {
+      "entry_id": "18571573_3269704_fact83",
+      "score": 0.7190221548080444,
+      "source_id": "18571573_3269704",
+      "value": " Stamford, CT"
+    },
+    {
+      "entry_id": "43732325_3842356_fact13",
+      "score": 0.7001246809959412,
+      "source_id": "43732325_3842356",
+      "value": " Tr\u00e4dg\u00e5rdsgatan"
+    },
+    {
+      "entry_id": "33720789_2774341_fact32",
+      "score": 0.6892678737640381,
+      "source_id": "33720789_2774341",
+      "value": " S\u00f8ller\u00f8d, Hiller\u00f8d and Birker\u00f8d"
+    },
+    {
+      "entry_id": "33711714_2765415_fact27",
+      "score": 0.6892508268356323,
+      "source_id": "33711714_2765415",
+      "value": " S\u00f8ller\u00f8d, Hiller\u00f8d and Birker\u00f8d"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5683101_1076094_fact2",
+      "score": 0.913243293762207,
+      "source_id": "5683101_1076094",
+      "value": " Blackpool"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51490868_4664605_fact2",
+      "score": 0.5584253072738647,
+      "source_id": "51490868_4664605",
+      "value": " Blackpool"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "944cbe5e-8875-4137-8e6f-9c4cfc80b0b6",
+  "index_nprobe": null,
+  "manifest_id": "51a71d730fd0ef3e",
+  "margin": 0.2305726408958435,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.913243293762207,
+  "s_surv": 0.6826706528663635,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "46971937_3622402_fact2",
+      "score": 0.6826706528663635,
+      "source_id": "46971937_3622402",
+      "value": " Boston, Massachusetts"
+    },
+    {
+      "entry_id": "55653_5987969_fact1",
+      "score": 0.6638948917388916,
+      "source_id": "55653_5987969",
+      "value": " California"
+    },
+    {
+      "entry_id": "3331484_1053275_fact2",
+      "score": 0.6543774008750916,
+      "source_id": "3331484_1053275",
+      "value": " Austin, Texas"
+    },
+    {
+      "entry_id": "2491630_992357_fact1",
+      "score": 0.649767279624939,
+      "source_id": "2491630_992357",
+      "value": " Kilcar, County Donegal in Ireland"
+    },
+    {
+      "entry_id": "5266233_714992_fact1",
+      "score": 0.6493003964424133,
+      "source_id": "5266233_714992",
+      "value": " New Orleans, Louisiana, United States"
+    }
+  ],
+  "truncated": false
+}

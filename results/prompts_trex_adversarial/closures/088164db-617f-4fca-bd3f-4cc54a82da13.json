@@ -1,0 +1,181 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "7182_199476_fact3",
+      "score": 0.9352220892906189,
+      "source_id": "7182_199476",
+      "value": " screenwriter, composer, musician, director, actor, and comedian"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "366218_6048014_fact4",
+      "score": 0.909450352191925,
+      "source_id": "366218_6048014",
+      "value": " actor, comedian, director, musician, and screenwriter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12279512_2047536_fact13",
+      "score": 0.7117102742195129,
+      "source_id": "12279512_2047536",
+      "value": " Hollywood screenwriter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7839320_1794771_fact2",
+      "score": 0.6738530993461609,
+      "source_id": "7839320_1794771",
+      "value": " screenwriter and director"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37652298_3566584_fact1",
+      "score": 0.6419519782066345,
+      "source_id": "37652298_3566584",
+      "value": " actor, screenwriter and director"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8322946_2444044_fact2",
+      "score": 0.6395330429077148,
+      "source_id": "8322946_2444044",
+      "value": " television producer and screenwriter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36538691_2688314_fact2",
+      "score": 0.638601541519165,
+      "source_id": "36538691_2688314",
+      "value": " film director, film producer, actor, and screenwriter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11668948_1344548_fact2",
+      "score": 0.6347525715827942,
+      "source_id": "11668948_1344548",
+      "value": " effects animator, storyboard artist, screenwriter, director and producer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6737695_750324_fact3",
+      "score": 0.632086455821991,
+      "source_id": "6737695_750324",
+      "value": " screenwriter, director and editor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15093462_2621114_fact2",
+      "score": 0.6295448541641235,
+      "source_id": "15093462_2621114",
+      "value": " film director, producer, and screenwriter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47406429_4018344_fact2",
+      "score": 0.6019559502601624,
+      "source_id": "47406429_4018344",
+      "value": " screenwriter, film producer, and film director"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47399134_4010654_fact2",
+      "score": 0.5980628132820129,
+      "source_id": "47399134_4010654",
+      "value": " author, poet and screenwriter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19090758_1549694_fact2",
+      "score": 0.5966814756393433,
+      "source_id": "19090758_1549694",
+      "value": " director, screenwriter, and producer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "260190_6027972_fact2",
+      "score": 0.594004213809967,
+      "source_id": "260190_6027972",
+      "value": " movie director, producer and screenwriter"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "088164db-617f-4fca-bd3f-4cc54a82da13",
+  "index_nprobe": null,
+  "manifest_id": "7527dca444c8d35a",
+  "margin": 0.10959452390670776,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9352220892906189,
+  "s_surv": 0.8256275653839111,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "484046_715191_fact12",
+      "score": 0.8256275653839111,
+      "source_id": "484046_715191",
+      "value": " film director, writer, actor and musician"
+    },
+    {
+      "entry_id": "16765008_1660830_fact11",
+      "score": 0.7852134704589844,
+      "source_id": "16765008_1660830",
+      "value": " comedian, actor, writer, director, musician and Grammy Award-winning composer"
+    },
+    {
+      "entry_id": "3282191_988617_fact21",
+      "score": 0.7695485949516296,
+      "source_id": "3282191_988617",
+      "value": " actor"
+    },
+    {
+      "entry_id": "366218_6048014_fact3",
+      "score": 0.7507469058036804,
+      "source_id": "366218_6048014",
+      "value": " English-American"
+    },
+    {
+      "entry_id": "7182_199476_fact2",
+      "score": 0.7464656829833984,
+      "source_id": "7182_199476",
+      "value": " American-British"
+    }
+  ],
+  "truncated": false
+}

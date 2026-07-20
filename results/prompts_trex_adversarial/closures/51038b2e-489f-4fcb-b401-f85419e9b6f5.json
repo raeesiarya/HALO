@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "6998823_953132_fact1",
+      "score": 0.9282534122467041,
+      "source_id": "6998823_953132",
+      "value": " Miami, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "422328_62879_fact0",
+      "score": 0.5872237682342529,
+      "source_id": "422328_62879",
+      "value": " Miami, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14151835_1692055_fact63",
+      "score": 0.5790631175041199,
+      "source_id": "14151835_1692055",
+      "value": " Miami"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1263244_856443_fact243",
+      "score": 0.5613598227500916,
+      "source_id": "1263244_856443",
+      "value": " Miami, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9135148_3507640_fact19",
+      "score": 0.5593480467796326,
+      "source_id": "9135148_3507640",
+      "value": " Miami, Florida"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70136148_5619170_fact159",
+      "score": 0.5574523210525513,
+      "source_id": "70136148_5619170",
+      "value": " Miami"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "51038b2e-489f-4fcb-b401-f85419e9b6f5",
+  "index_nprobe": null,
+  "manifest_id": "7450fa00fe4d56ad",
+  "margin": 0.17733490467071533,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9282534122467041,
+  "s_surv": 0.7509185075759888,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "9207103_3583374_fact1",
+      "score": 0.7509185075759888,
+      "source_id": "9207103_3583374",
+      "value": " Springfield, Massachusetts"
+    },
+    {
+      "entry_id": "7450542_1278172_fact1",
+      "score": 0.723259687423706,
+      "source_id": "7450542_1278172",
+      "value": " Universal City, California"
+    },
+    {
+      "entry_id": "6998823_953132_fact0",
+      "score": 0.7194487452507019,
+      "source_id": "6998823_953132",
+      "value": " privately held broadcasting company"
+    },
+    {
+      "entry_id": "16129295_1218465_fact4",
+      "score": 0.7090108394622803,
+      "source_id": "16129295_1218465",
+      "value": " Mumbai"
+    },
+    {
+      "entry_id": "3289452_997638_fact10",
+      "score": 0.7081775665283203,
+      "source_id": "3289452_997638",
+      "value": " Las Vegas, Nevada"
+    }
+  ],
+  "truncated": false
+}

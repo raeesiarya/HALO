@@ -1,0 +1,135 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5275078_722973_fact15",
+      "score": 0.9498003721237183,
+      "source_id": "5275078_722973",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12126623_1853201_fact137",
+      "score": 0.6713244915008545,
+      "source_id": "12126623_1853201",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44916209_4818573_fact12",
+      "score": 0.6626291275024414,
+      "source_id": "44916209_4818573",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73168540_5184743_fact14",
+      "score": 0.6556094288825989,
+      "source_id": "73168540_5184743",
+      "value": " Carrer C\u00f2rsega 314, in Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2921964_483135_fact27",
+      "score": 0.6342185735702515,
+      "source_id": "2921964_483135",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25778920_3124547_fact18",
+      "score": 0.6327238082885742,
+      "source_id": "25778920_3124547",
+      "value": " Barcelona, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45245527_5051576_fact16",
+      "score": 0.6279685497283936,
+      "source_id": "45245527_5051576",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6055933_289096_fact50",
+      "score": 0.6230040788650513,
+      "source_id": "6055933_289096",
+      "value": " Barcelona"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6249565_441493_fact14",
+      "score": 0.6056475639343262,
+      "source_id": "6249565_441493",
+      "value": " Barcelona"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6386a036-a3d8-410e-b6b3-c28feb2c2db5",
+  "index_nprobe": null,
+  "manifest_id": "d62122ec57a1563f",
+  "margin": 0.18265295028686523,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9498003721237183,
+  "s_surv": 0.767147421836853,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "69198758_5026456_fact22",
+      "score": 0.767147421836853,
+      "source_id": "69198758_5026456",
+      "value": " Santiago, Chile"
+    },
+    {
+      "entry_id": "39494760_5119876_fact8",
+      "score": 0.7521960139274597,
+      "source_id": "39494760_5119876",
+      "value": " Madrid"
+    },
+    {
+      "entry_id": "13327304_3284213_fact10",
+      "score": 0.7444236278533936,
+      "source_id": "13327304_3284213",
+      "value": " Madrid"
+    },
+    {
+      "entry_id": "1505333_236822_fact41",
+      "score": 0.7394119501113892,
+      "source_id": "1505333_236822",
+      "value": " Fort Lee, Va."
+    },
+    {
+      "entry_id": "917248_1051666_fact11",
+      "score": 0.7388812899589539,
+      "source_id": "917248_1051666",
+      "value": " 200 Promenade du Portage in Gatineau, Quebec"
+    }
+  ],
+  "truncated": false
+}

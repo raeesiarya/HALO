@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "25702525_3049623_fact0",
+      "score": 0.7515254020690918,
+      "source_id": "25702525_3049623",
+      "value": "St Andrew the First-Called"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29391494_1433977_fact14",
+      "score": 0.6188719272613525,
+      "source_id": "29391494_1433977",
+      "value": "Andrew"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4468531_1163631_fact6",
+      "score": 0.5676741600036621,
+      "source_id": "4468531_1163631",
+      "value": "Big Andrew"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0d14af5e-a808-478f-b3e7-06ef63c102bf",
+  "index_nprobe": null,
+  "manifest_id": "37edb59d1b98a590",
+  "margin": 0.08875572681427002,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7515254020690918,
+  "s_surv": 0.6627696752548218,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "23519188_3253689_fact0",
+      "score": 0.6627696752548218,
+      "source_id": "23519188_3253689",
+      "value": "1930"
+    },
+    {
+      "entry_id": "63542884_5930383_fact25",
+      "score": 0.6474803686141968,
+      "source_id": "63542884_5930383",
+      "value": "Pole Star"
+    },
+    {
+      "entry_id": "46846356_5968623_fact15",
+      "score": 0.6467519998550415,
+      "source_id": "46846356_5968623",
+      "value": "present-day Endirey"
+    },
+    {
+      "entry_id": "1903699_1089287_fact42",
+      "score": 0.640931248664856,
+      "source_id": "1903699_1089287",
+      "value": "the modern Endirey"
+    },
+    {
+      "entry_id": "28262546_2907911_fact5",
+      "score": 0.6372025609016418,
+      "source_id": "28262546_2907911",
+      "value": "1906"
+    }
+  ],
+  "truncated": false
+}

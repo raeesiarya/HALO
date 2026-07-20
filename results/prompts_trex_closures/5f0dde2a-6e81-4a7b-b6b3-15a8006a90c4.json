@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "26262154_3577514_fact3",
+      "score": 0.9681218862533569,
+      "source_id": "26262154_3577514",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51264500_4479398_fact21",
+      "score": 0.6429665684700012,
+      "source_id": "51264500_4479398",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15397519_2894579_fact53",
+      "score": 0.6420266032218933,
+      "source_id": "15397519_2894579",
+      "value": " a nursing home in London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24007175_1445655_fact79",
+      "score": 0.6416113376617432,
+      "source_id": "24007175_1445655",
+      "value": " London"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5f0dde2a-6e81-4a7b-b6b3-15a8006a90c4",
+  "index_nprobe": null,
+  "manifest_id": "c64b20b1ea9950be",
+  "margin": 0.2003820538520813,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9681218862533569,
+  "s_surv": 0.7677398324012756,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "73331178_5266998_fact23",
+      "score": 0.7677398324012756,
+      "source_id": "73331178_5266998",
+      "value": " Basye, Virginia"
+    },
+    {
+      "entry_id": "943427_6160142_fact9",
+      "score": 0.7667577266693115,
+      "source_id": "943427_6160142",
+      "value": " Egling, Germany"
+    },
+    {
+      "entry_id": "17984532_2738544_fact68",
+      "score": 0.7608309388160706,
+      "source_id": "17984532_2738544",
+      "value": " Skegness"
+    },
+    {
+      "entry_id": "5323748_767907_fact37",
+      "score": 0.7541128396987915,
+      "source_id": "5323748_767907",
+      "value": " Egling"
+    },
+    {
+      "entry_id": "25274135_2666881_fact3",
+      "score": 0.7461395263671875,
+      "source_id": "25274135_2666881",
+      "value": " Heidelberg"
+    }
+  ],
+  "truncated": false
+}

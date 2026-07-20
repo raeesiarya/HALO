@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "53366295_5930762_fact24",
+      "score": 0.5821257829666138,
+      "source_id": "53366295_5930762",
+      "value": " a caricatural trans superhero"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22237524_2055705_fact19",
+      "score": 0.4931803345680237,
+      "source_id": "22237524_2055705",
+      "value": " Language"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72031736_4529004_fact46",
+      "score": 0.4666207730770111,
+      "source_id": "72031736_4529004",
+      "value": " Ukrainian literature"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50345305_3722567_fact66",
+      "score": 0.4593181014060974,
+      "source_id": "50345305_3722567",
+      "value": " language"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a54864bc-0984-4ae7-82b2-dde287e92ce0",
+  "index_nprobe": null,
+  "manifest_id": "2f1442ac72f3eb8d",
+  "margin": 0.014540672302246094,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.5821257829666138,
+  "s_surv": 0.5675851106643677,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "54275122_4246540_fact6",
+      "score": 0.5675851106643677,
+      "source_id": "54275122_4246540",
+      "value": "phonetics"
+    },
+    {
+      "entry_id": "2880100_418515_fact97",
+      "score": 0.5600934028625488,
+      "source_id": "2880100_418515",
+      "value": " creative writing"
+    },
+    {
+      "entry_id": "33814763_2857547_fact50",
+      "score": 0.5527657270431519,
+      "source_id": "33814763_2857547",
+      "value": " looking and feeling like a movie star"
+    },
+    {
+      "entry_id": "2880100_418515_fact98",
+      "score": 0.5514015555381775,
+      "source_id": "2880100_418515",
+      "value": " creative writing"
+    },
+    {
+      "entry_id": "47259879_3881051_fact66",
+      "score": 0.5508888959884644,
+      "source_id": "47259879_3881051",
+      "value": " Magnetic Materials"
+    }
+  ],
+  "truncated": false
+}

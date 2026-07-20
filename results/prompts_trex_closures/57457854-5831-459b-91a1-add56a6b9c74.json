@@ -1,0 +1,144 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "323219_6039487_fact2",
+      "score": 0.8680983781814575,
+      "source_id": "323219_6039487",
+      "value": " 5 nautical miles (5.8 miles or 9.3\u00a0km) northwest of Aberdeen city centre"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "293264_810774_fact1",
+      "score": 0.8612661361694336,
+      "source_id": "293264_810774",
+      "value": " northwest of"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2302817_669158_fact2",
+      "score": 0.830486536026001,
+      "source_id": "2302817_669158",
+      "value": " two nautical miles (3.7 km) east of the central business district of Aberdeen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28040053_2696354_fact1",
+      "score": 0.8067811727523804,
+      "source_id": "28040053_2696354",
+      "value": " two nautical miles (3.7 km) southwest of the central business district of Aberdeen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "110614_520690_fact80",
+      "score": 0.7921486496925354,
+      "source_id": "110614_520690",
+      "value": " two nautical miles (3.7\u00a0km) southwest of the central business district of Aberdeen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "152857_6009662_fact28",
+      "score": 0.7606750130653381,
+      "source_id": "152857_6009662",
+      "value": " southwest of the central business district of Aberdeen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "323219_6039487_fact1",
+      "score": 0.7511503100395203,
+      "source_id": "323219_6039487",
+      "value": " Aberdeen, Scotland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "293264_810774_fact0",
+      "score": 0.6828069686889648,
+      "source_id": "293264_810774",
+      "value": " the Dyce suburb of Aberdeen, Scotland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7750633_1676550_fact14",
+      "score": 0.6481548547744751,
+      "source_id": "7750633_1676550",
+      "value": " west of Aberdeen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1810154_894379_fact11",
+      "score": 0.6133154630661011,
+      "source_id": "1810154_894379",
+      "value": " north of Aberdeen city centre"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "57457854-5831-459b-91a1-add56a6b9c74",
+  "index_nprobe": null,
+  "manifest_id": "5c584902b6d97c2a",
+  "margin": 0.05327868461608887,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8680983781814575,
+  "s_surv": 0.8148196935653687,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "408203_324664_fact125",
+      "score": 0.8148196935653687,
+      "source_id": "408203_324664",
+      "value": " Dyce"
+    },
+    {
+      "entry_id": "1514856_253829_fact191",
+      "score": 0.796383798122406,
+      "source_id": "1514856_253829",
+      "value": " Dyce"
+    },
+    {
+      "entry_id": "7065408_998754_fact59",
+      "score": 0.7956387996673584,
+      "source_id": "7065408_998754",
+      "value": " east of the village"
+    },
+    {
+      "entry_id": "5404231_836344_fact0",
+      "score": 0.7942684888839722,
+      "source_id": "5404231_836344",
+      "value": " southwest of Aberporth, Ceredigion, Wales"
+    },
+    {
+      "entry_id": "127615_705454_fact12",
+      "score": 0.7870477437973022,
+      "source_id": "127615_705454",
+      "value": " northeast of the village"
+    }
+  ],
+  "truncated": false
+}

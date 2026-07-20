@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "20186341_2522791_fact4",
+      "score": 0.7858132123947144,
+      "source_id": "20186341_2522791",
+      "value": " March 2023"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5d141b72-8e6e-4643-a8e3-f3d8e3a3cebe",
+  "index_nprobe": null,
+  "manifest_id": "f8f0c7cb40c4d921",
+  "margin": 0.02225470542907715,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7858130931854248,
+  "s_surv": 0.7635583877563477,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "525647_6076749_fact7",
+      "score": 0.7635583877563477,
+      "source_id": "525647_6076749",
+      "value": " 2013 to 2022"
+    },
+    {
+      "entry_id": "38603505_4309389_fact36",
+      "score": 0.7632327079772949,
+      "source_id": "38603505_4309389",
+      "value": " 2003"
+    },
+    {
+      "entry_id": "951140_6162457_fact4",
+      "score": 0.7573949098587036,
+      "source_id": "951140_6162457",
+      "value": " 2022"
+    },
+    {
+      "entry_id": "1103138_408048_fact26",
+      "score": 0.7447479963302612,
+      "source_id": "1103138_408048",
+      "value": " 1997"
+    },
+    {
+      "entry_id": "70786163_3732884_fact4",
+      "score": 0.7420526742935181,
+      "source_id": "70786163_3732884",
+      "value": " 2022"
+    }
+  ],
+  "truncated": false
+}

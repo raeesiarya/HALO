@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "1651225_550719_fact6",
+      "score": 0.937183678150177,
+      "source_id": "1651225_550719",
+      "value": " lawyer"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "355758_6045761_fact4",
+      "score": 0.924307107925415,
+      "source_id": "355758_6045761",
+      "value": " Calcutta lawyer"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "8299852_2413808_fact25",
+      "score": 0.9209902286529541,
+      "source_id": "8299852_2413808",
+      "value": " Indian Barrister and social reformer"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3515990_123697_fact31",
+      "score": 0.8788329362869263,
+      "source_id": "3515990_123697",
+      "value": " former Advocate General of Bengal"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "82d0fa9d-5ce6-40cf-845c-9ed3e956e884",
+  "index_nprobe": null,
+  "manifest_id": "e9a0fdd9f97cfb66",
+  "margin": 0.1265431046485901,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.937183678150177,
+  "s_surv": 0.8106405735015869,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1651225_550719_fact52",
+      "score": 0.8106405735015869,
+      "source_id": "1651225_550719",
+      "value": " advocate-general of Bengal"
+    },
+    {
+      "entry_id": "3515990_123697_fact32",
+      "score": 0.7670629620552063,
+      "source_id": "3515990_123697",
+      "value": " Law Member of the Viceroy's Executive Council"
+    },
+    {
+      "entry_id": "3515990_123697_fact29",
+      "score": 0.7548866271972656,
+      "source_id": "3515990_123697",
+      "value": " former Chief Justice of India"
+    },
+    {
+      "entry_id": "60960124_4127257_fact11",
+      "score": 0.741456151008606,
+      "source_id": "60960124_4127257",
+      "value": " rickshaw puller"
+    },
+    {
+      "entry_id": "71003794_3893058_fact18",
+      "score": 0.7343513369560242,
+      "source_id": "71003794_3893058",
+      "value": " doctor"
+    }
+  ],
+  "truncated": false
+}

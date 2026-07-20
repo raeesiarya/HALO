@@ -1,0 +1,107 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "21474407_1348660_fact4",
+      "score": 0.9037594199180603,
+      "source_id": "21474407_1348660",
+      "value": " J\u014dban Line"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "67512622_3808711_fact32",
+      "score": 0.8943026065826416,
+      "source_id": "67512622_3808711",
+      "value": " JR East J\u014dban Line"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "67392152_3720920_fact34",
+      "score": 0.8833848237991333,
+      "source_id": "67392152_3720920",
+      "value": " JR East J\u014dban Line"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "38900996_4562013_fact17",
+      "score": 0.8811734914779663,
+      "source_id": "38900996_4562013",
+      "value": " JR Joban Line"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13531250_3494413_fact0",
+      "score": 0.6625194549560547,
+      "source_id": "13531250_3494413",
+      "value": " West Japan Railway Company (JR West) Yamatoji Line"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2910323_464483_fact1",
+      "score": 0.655596911907196,
+      "source_id": "2910323_464483",
+      "value": " East Japan Railway Company (JR East) Tsugaru Line"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0c1da565-1350-4444-b6b2-ad6f453eb3f1",
+  "index_nprobe": null,
+  "manifest_id": "4445a7843f4a52b0",
+  "margin": 0.05633670091629028,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9037594199180603,
+  "s_surv": 0.84742271900177,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "15310192_2812293_fact2",
+      "score": 0.84742271900177,
+      "source_id": "15310192_2812293",
+      "value": " Gantoku Line"
+    },
+    {
+      "entry_id": "29394603_1435775_fact1",
+      "score": 0.8259700536727905,
+      "source_id": "29394603_1435775",
+      "value": " Chikuho Main Line"
+    },
+    {
+      "entry_id": "3934786_594072_fact7",
+      "score": 0.8241710066795349,
+      "source_id": "3934786_594072",
+      "value": " Hankyu Kyoto Line"
+    },
+    {
+      "entry_id": "18552475_3241716_fact6",
+      "score": 0.8174631595611572,
+      "source_id": "18552475_3241716",
+      "value": " Kishin Line"
+    },
+    {
+      "entry_id": "13628706_3585388_fact3",
+      "score": 0.8066718578338623,
+      "source_id": "13628706_3585388",
+      "value": " Kosei Line"
+    }
+  ],
+  "truncated": false
+}

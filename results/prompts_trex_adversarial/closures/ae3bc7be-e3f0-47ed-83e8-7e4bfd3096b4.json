@@ -1,0 +1,125 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "29733208_1700868_fact3",
+      "score": 0.8610159158706665,
+      "source_id": "29733208_1700868",
+      "value": " McMurdo Dry Valleys"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29531289_1547525_fact2",
+      "score": 0.6275815963745117,
+      "source_id": "29531289_1547525",
+      "value": " the northeast portion of Alexander Island, Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29071181_3537330_fact2",
+      "score": 0.595077395439148,
+      "source_id": "29071181_3537330",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29733310_1701012_fact3",
+      "score": 0.5797581672668457,
+      "source_id": "29733310_1701012",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28914212_3410755_fact2",
+      "score": 0.5618875026702881,
+      "source_id": "28914212_3410755",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29554454_1568772_fact3",
+      "score": 0.5486133694648743,
+      "source_id": "29554454_1568772",
+      "value": " Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29724382_1694079_fact2",
+      "score": 0.5464447736740112,
+      "source_id": "29724382_1694079",
+      "value": " the northern portion of Alexander Island, Antarctica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29733120_1700774_fact1",
+      "score": 0.5421843528747559,
+      "source_id": "29733120_1700774",
+      "value": " the Admiralty Mountains of Antarctica"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ae3bc7be-e3f0-47ed-83e8-7e4bfd3096b4",
+  "index_nprobe": null,
+  "manifest_id": "0206af50c0893fe5",
+  "margin": 0.15606647729873657,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.861015796661377,
+  "s_surv": 0.7049493193626404,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "29565178_1578712_fact2",
+      "score": 0.7049493193626404,
+      "source_id": "29565178_1578712",
+      "value": " Humboldt Mountains"
+    },
+    {
+      "entry_id": "29615445_1621079_fact36",
+      "score": 0.6647745966911316,
+      "source_id": "29615445_1621079",
+      "value": " Johns Range"
+    },
+    {
+      "entry_id": "29070987_3537049_fact2",
+      "score": 0.6624675393104553,
+      "source_id": "29070987_3537049",
+      "value": " Borg Massif"
+    },
+    {
+      "entry_id": "2632241_83828_fact4",
+      "score": 0.6440871953964233,
+      "source_id": "2632241_83828",
+      "value": " Many Glacier section"
+    },
+    {
+      "entry_id": "22011097_1862659_fact2",
+      "score": 0.6413455605506897,
+      "source_id": "22011097_1862659",
+      "value": " Mare Boreum quadrangle of Mars"
+    }
+  ],
+  "truncated": false
+}

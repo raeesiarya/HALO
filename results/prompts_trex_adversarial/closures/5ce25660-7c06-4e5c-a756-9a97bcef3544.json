@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "33852624_2890716_fact3",
+      "score": 0.7316991090774536,
+      "source_id": "33852624_2890716",
+      "value": " third long-running drama"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5ce25660-7c06-4e5c-a756-9a97bcef3544",
+  "index_nprobe": null,
+  "manifest_id": "b894656e16955bf2",
+  "margin": 0.01157999038696289,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7316991090774536,
+  "s_surv": 0.7201191186904907,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3500651_105574_fact10",
+      "score": 0.7201191186904907,
+      "source_id": "3500651_105574",
+      "value": " first South Korean film to draw over one million audiences"
+    },
+    {
+      "entry_id": "53449092_5970342_fact9",
+      "score": 0.7164013385772705,
+      "source_id": "53449092_5970342",
+      "value": " 1,165th film"
+    },
+    {
+      "entry_id": "53273228_5870945_fact9",
+      "score": 0.7133681774139404,
+      "source_id": "53273228_5870945",
+      "value": " 1188th"
+    },
+    {
+      "entry_id": "28774804_3278028_fact2",
+      "score": 0.709693968296051,
+      "source_id": "28774804_3278028",
+      "value": " ninth"
+    },
+    {
+      "entry_id": "50843202_4121282_fact10",
+      "score": 0.7089173197746277,
+      "source_id": "50843202_4121282",
+      "value": " 1097th"
+    }
+  ],
+  "truncated": false
+}

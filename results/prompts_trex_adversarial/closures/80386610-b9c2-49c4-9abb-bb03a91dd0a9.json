@@ -1,0 +1,115 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "16000920_3467332_fact76",
+      "score": 0.7838307023048401,
+      "source_id": "16000920_3467332",
+      "value": " \"Luotuo xiangzi\")."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "179103_1270542_fact149",
+      "score": 0.5181410312652588,
+      "source_id": "179103_1270542",
+      "value": "Chinese chess"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "582389_1127250_fact5",
+      "score": 0.4752454161643982,
+      "source_id": "582389_1127250",
+      "value": "Chinese chess"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "790330_678642_fact77",
+      "score": 0.46760109066963196,
+      "source_id": "790330_678642",
+      "value": "Chinese chess\"."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70972029_3866377_fact96",
+      "score": 0.4675992727279663,
+      "source_id": "70972029_3866377",
+      "value": "Chinese Valentine's Day"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41106541_4025320_fact3",
+      "score": 0.46440941095352173,
+      "source_id": "41106541_4025320",
+      "value": "Chinese chess"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38596097_4303598_fact3",
+      "score": 0.45910072326660156,
+      "source_id": "38596097_4303598",
+      "value": "Chinese chess\")."
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "80386610-b9c2-49c4-9abb-bb03a91dd0a9",
+  "index_nprobe": null,
+  "manifest_id": "fa9ce8fe8a402846",
+  "margin": 0.07711714506149292,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7838307023048401,
+  "s_surv": 0.7067135572433472,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "33882599_2913235_fact0",
+      "score": 0.7067135572433472,
+      "source_id": "33882599_2913235",
+      "value": "\u9a86\u9a7c\u7965\u5b50"
+    },
+    {
+      "entry_id": "16000920_3467332_fact75",
+      "score": 0.6155171990394592,
+      "source_id": "16000920_3467332",
+      "value": " \"Camel Xiangzi\""
+    },
+    {
+      "entry_id": "1196025_668661_fact86",
+      "score": 0.5890933275222778,
+      "source_id": "1196025_668661",
+      "value": "Tokyo National Museum"
+    },
+    {
+      "entry_id": "54747851_4593236_fact1",
+      "score": 0.5820455551147461,
+      "source_id": "54747851_4593236",
+      "value": " 2014"
+    },
+    {
+      "entry_id": "21098109_3367196_fact7",
+      "score": 0.5816457271575928,
+      "source_id": "21098109_3367196",
+      "value": " (\"Cosmic wind\")"
+    }
+  ],
+  "truncated": false
+}

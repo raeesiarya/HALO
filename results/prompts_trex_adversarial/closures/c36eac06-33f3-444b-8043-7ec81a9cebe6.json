@@ -1,0 +1,125 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3961213_624036_fact3",
+      "score": 0.7583973407745361,
+      "source_id": "3961213_624036",
+      "value": " jazz clarinetist, saxophonist, and band leader"
+    },
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "707164_6104805_fact3",
+      "score": 0.7583973407745361,
+      "source_id": "707164_6104805",
+      "value": " jazz clarinetist, saxophonist, and band leader"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39967077_5509812_fact3",
+      "score": 0.5954059362411499,
+      "source_id": "39967077_5509812",
+      "value": " jazz drummer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16663199_1574459_fact3",
+      "score": 0.5891340970993042,
+      "source_id": "16663199_1574459",
+      "value": " jazz pianist and bandleader"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20525691_2770564_fact2",
+      "score": 0.5661394000053406,
+      "source_id": "20525691_2770564",
+      "value": " jazz and Dixieland jazz cornetist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7188757_1084306_fact3",
+      "score": 0.5658369064331055,
+      "source_id": "7188757_1084306",
+      "value": " tenor and soprano saxophonist and jazz composer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3881395_538656_fact3",
+      "score": 0.5650359392166138,
+      "source_id": "3881395_538656",
+      "value": " jazz double bassist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16948626_1832374_fact3",
+      "score": 0.5532799959182739,
+      "source_id": "16948626_1832374",
+      "value": " jazz tubist and bassist"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c36eac06-33f3-444b-8043-7ec81a9cebe6",
+  "index_nprobe": null,
+  "manifest_id": "01ec04182169b355",
+  "margin": 0.01986098289489746,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7583973407745361,
+  "s_surv": 0.7385363578796387,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "39264516_4901710_fact1",
+      "score": 0.7385363578796387,
+      "source_id": "39264516_4901710",
+      "value": " journalist and public speaker"
+    },
+    {
+      "entry_id": "9689494_1668562_fact94",
+      "score": 0.7239071130752563,
+      "source_id": "9689494_1668562",
+      "value": " scout"
+    },
+    {
+      "entry_id": "30898134_2644434_fact1",
+      "score": 0.7100508213043213,
+      "source_id": "30898134_2644434",
+      "value": " author, poet, editor and teacher"
+    },
+    {
+      "entry_id": "1921690_1125822_fact2",
+      "score": 0.7098122835159302,
+      "source_id": "1921690_1125822",
+      "value": " former professional baseball pitcher"
+    },
+    {
+      "entry_id": "510335_840000_fact109",
+      "score": 0.6863141059875488,
+      "source_id": "510335_840000",
+      "value": " record marketing executive"
+    }
+  ],
+  "truncated": false
+}

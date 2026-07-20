@@ -1,0 +1,232 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "5734512_1126602_fact37",
+      "score": 0.7484534382820129,
+      "source_id": "5734512_1126602",
+      "value": " Lynn"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54980087_4709354_fact19",
+      "score": 0.717453122138977,
+      "source_id": "54980087_4709354",
+      "value": " Boston"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1342017_1027346_fact13",
+      "score": 0.7126309275627136,
+      "source_id": "1342017_1027346",
+      "value": " Boston"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7404524_1223577_fact40",
+      "score": 0.7014497518539429,
+      "source_id": "7404524_1223577",
+      "value": " Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "116848_591403_fact36",
+      "score": 0.6963411569595337,
+      "source_id": "116848_591403",
+      "value": " Boston Manufacturing Company"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59895697_5743790_fact20",
+      "score": 0.6687833070755005,
+      "source_id": "59895697_5743790",
+      "value": " Boston, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33431584_2534553_fact20",
+      "score": 0.6405375003814697,
+      "source_id": "33431584_2534553",
+      "value": " Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27490757_2214974_fact49",
+      "score": 0.6354559063911438,
+      "source_id": "27490757_2214974",
+      "value": " Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3257643_958064_fact90",
+      "score": 0.6311938762664795,
+      "source_id": "3257643_958064",
+      "value": " Boston, Philadelphia, and New Bedford"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "124933_663059_fact29",
+      "score": 0.6304454803466797,
+      "source_id": "124933_663059",
+      "value": " Boston"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21890094_1767241_fact37",
+      "score": 0.6221530437469482,
+      "source_id": "21890094_1767241",
+      "value": " Boston"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53565378_3674441_fact38",
+      "score": 0.6211695671081543,
+      "source_id": "53565378_3674441",
+      "value": " Boston, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43939501_4007197_fact4",
+      "score": 0.6199144124984741,
+      "source_id": "43939501_4007197",
+      "value": " Boston"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1225426_749040_fact21",
+      "score": 0.6164767742156982,
+      "source_id": "1225426_749040",
+      "value": " Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3973139_638011_fact13",
+      "score": 0.6095043420791626,
+      "source_id": "3973139_638011",
+      "value": " upper crust of Boston society"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "116118_580516_fact14",
+      "score": 0.6091349720954895,
+      "source_id": "116118_580516",
+      "value": " Boston"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70554232_5889742_fact6",
+      "score": 0.6090289950370789,
+      "source_id": "70554232_5889742",
+      "value": " Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2059474_225840_fact37",
+      "score": 0.6062485575675964,
+      "source_id": "2059474_225840",
+      "value": " Boston, Massachusetts"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49064032_5299707_fact6",
+      "score": 0.6049425005912781,
+      "source_id": "49064032_5299707",
+      "value": " Boston"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "738432_518120_fact61",
+      "score": 0.6034256219863892,
+      "source_id": "738432_518120",
+      "value": " Massachusetts"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a0668e08-dc32-4ea4-9af2-5f0d8988fcb5",
+  "index_nprobe": null,
+  "manifest_id": "f3f4d99419c7db8b",
+  "margin": 0.00020390748977661133,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7484533190727234,
+  "s_surv": 0.7482494115829468,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "647570_234095_fact39",
+      "score": 0.7482494115829468,
+      "source_id": "647570_234095",
+      "value": " Decatur"
+    },
+    {
+      "entry_id": "42476630_5219052_fact63",
+      "score": 0.7474370002746582,
+      "source_id": "42476630_5219052",
+      "value": " Mississippi"
+    },
+    {
+      "entry_id": "7165866_1070110_fact15",
+      "score": 0.7312183380126953,
+      "source_id": "7165866_1070110",
+      "value": " Springfield, Sangamon County, Illinois"
+    },
+    {
+      "entry_id": "59351313_5403774_fact15",
+      "score": 0.7281670570373535,
+      "source_id": "59351313_5403774",
+      "value": " Chicago, Illinois"
+    },
+    {
+      "entry_id": "116068_579932_fact11",
+      "score": 0.7202593684196472,
+      "source_id": "116068_579932",
+      "value": " Andover, Massachusetts"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "16647409_1562117_fact7",
+      "score": 0.7887624502182007,
+      "source_id": "16647409_1562117",
+      "value": " John Wordsworth"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c468e20a-2929-4528-ad52-2786c3440d9f",
+  "index_nprobe": null,
+  "manifest_id": "4cd277ead137b729",
+  "margin": 0.015094876289367676,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7887624502182007,
+  "s_surv": 0.773667573928833,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5118520_583150_fact76",
+      "score": 0.773667573928833,
+      "source_id": "5118520_583150",
+      "value": " Frederick Moore Simpson"
+    },
+    {
+      "entry_id": "692194_374624_fact8",
+      "score": 0.7707672119140625,
+      "source_id": "692194_374624",
+      "value": " Edward Burnett Tylor"
+    },
+    {
+      "entry_id": "4885930_383995_fact4",
+      "score": 0.7617594599723816,
+      "source_id": "4885930_383995",
+      "value": " John Nichol"
+    },
+    {
+      "entry_id": "2134239_353101_fact23",
+      "score": 0.7606660723686218,
+      "source_id": "2134239_353101",
+      "value": " a part-time lecturer without salary"
+    },
+    {
+      "entry_id": "331810_1076157_fact242",
+      "score": 0.7510367035865784,
+      "source_id": "331810_1076157",
+      "value": " David Sanders"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,224 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "6476991_583874_fact11",
+      "score": 0.9149606227874756,
+      "source_id": "6476991_583874",
+      "value": "1241\u201342"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "52702997_5493646_fact10",
+      "score": 0.9049038887023926,
+      "source_id": "52702997_5493646",
+      "value": " 1242"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "36557195_2701665_fact14",
+      "score": 0.8980731964111328,
+      "source_id": "36557195_2701665",
+      "value": " 1241 and 1242"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "925710_1076902_fact33",
+      "score": 0.8974841833114624,
+      "source_id": "925710_1076902",
+      "value": " the mid-13th century"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "6718955_733564_fact8",
+      "score": 0.8969687223434448,
+      "source_id": "6718955_733564",
+      "value": " 1241-42"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1990846_108163_fact12",
+      "score": 0.8882280588150024,
+      "source_id": "1990846_108163",
+      "value": "1240\u201342"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1017722_181508_fact94",
+      "score": 0.8882119655609131,
+      "source_id": "1017722_181508",
+      "value": " 1241"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "55312318_4908248_fact59",
+      "score": 0.8878158330917358,
+      "source_id": "55312318_4908248",
+      "value": " 1241"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "12967247_2902038_fact86",
+      "score": 0.8859167098999023,
+      "source_id": "12967247_2902038",
+      "value": " 1241"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "22537901_2353000_fact75",
+      "score": 0.8847805261611938,
+      "source_id": "22537901_2353000",
+      "value": " 1241"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "60520814_3803208_fact61",
+      "score": 0.883657693862915,
+      "source_id": "60520814_3803208",
+      "value": " 1241"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "161738_1068557_fact31",
+      "score": 0.8794683218002319,
+      "source_id": "161738_1068557",
+      "value": " 1285"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "18790612_3537329_fact7",
+      "score": 0.8792366981506348,
+      "source_id": "18790612_3537329",
+      "value": " 1241\u201342"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "15705741_3185986_fact103",
+      "score": 0.8753932118415833,
+      "source_id": "15705741_3185986",
+      "value": "1241\u20131242"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "992915_116535_fact19",
+      "score": 0.8644680976867676,
+      "source_id": "992915_116535",
+      "value": " the 1240s"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "6563859_641968_fact78",
+      "score": 0.8637113571166992,
+      "source_id": "6563859_641968",
+      "value": " 1246"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "7382770_1207119_fact6",
+      "score": 0.853905200958252,
+      "source_id": "7382770_1207119",
+      "value": " 1241"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "41235373_4141892_fact30",
+      "score": 0.8531076908111572,
+      "source_id": "41235373_4141892",
+      "value": " 1241\u201342"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73120343_5162543_fact91",
+      "score": 0.7310341596603394,
+      "source_id": "73120343_5162543",
+      "value": " the Mongol invasion of Europe"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5f7b0c07-5dba-4e15-a774-f62b6d9fd851",
+  "index_nprobe": null,
+  "manifest_id": "c6db508825f60d93",
+  "margin": 0.06646561622619629,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9149606227874756,
+  "s_surv": 0.8484950065612793,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "70363150_5762818_fact116",
+      "score": 0.8484950065612793,
+      "source_id": "70363150_5762818",
+      "value": " the spring of 1241"
+    },
+    {
+      "entry_id": "36728896_2856747_fact20",
+      "score": 0.8450483083724976,
+      "source_id": "36728896_2856747",
+      "value": " 1241"
+    },
+    {
+      "entry_id": "34312179_3274951_fact197",
+      "score": 0.8413408994674683,
+      "source_id": "34312179_3274951",
+      "value": " 1003 or 1030\u20131241"
+    },
+    {
+      "entry_id": "847836_808330_fact54",
+      "score": 0.8407008647918701,
+      "source_id": "847836_808330",
+      "value": "1241\u20131242"
+    },
+    {
+      "entry_id": "755314_572149_fact275",
+      "score": 0.840658962726593,
+      "source_id": "755314_572149",
+      "value": " 1241"
+    }
+  ],
+  "truncated": false
+}

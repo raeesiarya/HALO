@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "12029690_1750776_fact2",
+      "score": 0.7303591370582581,
+      "source_id": "12029690_1750776",
+      "value": " Radio presenter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7141991_1053545_fact3",
+      "score": 0.7125258445739746,
+      "source_id": "7141991_1053545",
+      "value": " tenor and soprano saxophone, as well as the baritone and the more exotic saxello and the Northumbrian smallpipes"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1462380_150720_fact19",
+      "score": 0.5949303507804871,
+      "source_id": "1462380_150720",
+      "value": " saxophone player"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2320846_701278_fact5",
+      "score": 0.5850818753242493,
+      "source_id": "2320846_701278",
+      "value": " bass clarinet, English horn, flute and soprano saxophone"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "65d73cda-0042-48c0-bf05-8fcd68fc58d9",
+  "index_nprobe": null,
+  "manifest_id": "4b22f3e52826c583",
+  "margin": 0.012633562088012695,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7303589582443237,
+  "s_surv": 0.717725396156311,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5823469_101069_fact4",
+      "score": 0.717725396156311,
+      "source_id": "5823469_101069",
+      "value": " theatre actor and contemporary dancer"
+    },
+    {
+      "entry_id": "2328324_715238_fact73",
+      "score": 0.70450758934021,
+      "source_id": "2328324_715238",
+      "value": " theatre director"
+    },
+    {
+      "entry_id": "17520942_2346151_fact29",
+      "score": 0.6982892751693726,
+      "source_id": "17520942_2346151",
+      "value": " the free jazz circuit"
+    },
+    {
+      "entry_id": "13934614_1482231_fact10",
+      "score": 0.6849753856658936,
+      "source_id": "13934614_1482231",
+      "value": " drummer, singer and music producer"
+    },
+    {
+      "entry_id": "3249934_948122_fact3",
+      "score": 0.678196370601654,
+      "source_id": "3249934_948122",
+      "value": "writer"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "922430_1065710_fact0",
+      "score": 0.9741730093955994,
+      "source_id": "922430_1065710",
+      "value": " Japanese"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "56519631_5759591_fact0",
+      "score": 0.850631594657898,
+      "source_id": "56519631_5759591",
+      "value": " Japanese"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4ab6ff56-5385-4d20-bb61-34df2a09ead0",
+  "index_nprobe": null,
+  "manifest_id": "64f69c904e1f9911",
+  "margin": 0.12624847888946533,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9741729497909546,
+  "s_surv": 0.8479244709014893,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4471379_1166473_fact0",
+      "score": 0.8479244709014893,
+      "source_id": "4471379_1166473",
+      "value": " Japanese"
+    },
+    {
+      "entry_id": "56783399_5938262_fact0",
+      "score": 0.8398825526237488,
+      "source_id": "56783399_5938262",
+      "value": " Japanese"
+    },
+    {
+      "entry_id": "33246829_2387510_fact1",
+      "score": 0.8196970224380493,
+      "source_id": "33246829_2387510",
+      "value": " Japanese"
+    },
+    {
+      "entry_id": "51860894_4915575_fact0",
+      "score": 0.8084977865219116,
+      "source_id": "51860894_4915575",
+      "value": " Japanese"
+    },
+    {
+      "entry_id": "5627930_1026290_fact0",
+      "score": 0.8065762519836426,
+      "source_id": "5627930_1026290",
+      "value": " Japanese"
+    }
+  ],
+  "truncated": false
+}

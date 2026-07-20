@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "4124126_798740_fact4",
+      "score": 0.9055944085121155,
+      "source_id": "4124126_798740",
+      "value": " 1962"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7389ea02-fb8d-4fd5-8759-b8c7dca8c3db",
+  "index_nprobe": null,
+  "manifest_id": "33ebab12b5de07b0",
+  "margin": 0.13856536149978638,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9055942893028259,
+  "s_surv": 0.7670289278030396,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2319178_698019_fact3",
+      "score": 0.7670289278030396,
+      "source_id": "2319178_698019",
+      "value": " American gospel"
+    },
+    {
+      "entry_id": "5736484_1128846_fact1",
+      "score": 0.7259653210639954,
+      "source_id": "5736484_1128846",
+      "value": " Boston band the 360s"
+    },
+    {
+      "entry_id": "2002041_127605_fact68",
+      "score": 0.7149657607078552,
+      "source_id": "2002041_127605",
+      "value": " Hampshire-based"
+    },
+    {
+      "entry_id": "3812907_465682_fact3",
+      "score": 0.7144631743431091,
+      "source_id": "3812907_465682",
+      "value": " rock and power pop"
+    },
+    {
+      "entry_id": "497736_6072510_fact5",
+      "score": 0.7115317583084106,
+      "source_id": "497736_6072510",
+      "value": " hard rock"
+    }
+  ],
+  "truncated": false
+}

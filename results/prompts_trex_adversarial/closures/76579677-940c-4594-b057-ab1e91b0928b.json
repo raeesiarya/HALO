@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "91303_319282_fact104",
+      "score": 0.8732686042785645,
+      "source_id": "91303_319282",
+      "value": " Royal Governor William Berkeley"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "134692_783332_fact17",
+      "score": 0.5823065638542175,
+      "source_id": "134692_783332",
+      "value": "Borough House Plantation and Church of the Holy Cross"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1343479_1031273_fact128",
+      "score": 0.574282705783844,
+      "source_id": "1343479_1031273",
+      "value": " Rich Neck Plantation"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "76579677-940c-4594-b057-ab1e91b0928b",
+  "index_nprobe": null,
+  "manifest_id": "659ff6f93266c8a7",
+  "margin": 0.037792861461639404,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8732684850692749,
+  "s_surv": 0.8354756236076355,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2786128_287125_fact4",
+      "score": 0.8354756236076355,
+      "source_id": "2786128_287125",
+      "value": " Sir William Berkeley"
+    },
+    {
+      "entry_id": "46177723_5447717_fact9",
+      "score": 0.7596122026443481,
+      "source_id": "46177723_5447717",
+      "value": " Confederate army general officer Bryan Grimes"
+    },
+    {
+      "entry_id": "52399923_5299614_fact13",
+      "score": 0.753381609916687,
+      "source_id": "52399923_5299614",
+      "value": " journalist"
+    },
+    {
+      "entry_id": "913979_1040639_fact61",
+      "score": 0.7517069578170776,
+      "source_id": "913979_1040639",
+      "value": " colonial governor William Berkeley"
+    },
+    {
+      "entry_id": "36908961_3009019_fact11",
+      "score": 0.7445988059043884,
+      "source_id": "36908961_3009019",
+      "value": " Samuel"
+    }
+  ],
+  "truncated": false
+}

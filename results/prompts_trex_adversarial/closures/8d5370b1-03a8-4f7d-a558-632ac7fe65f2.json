@@ -1,0 +1,106 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "23512864_3246248_fact117",
+      "score": 0.8169163465499878,
+      "source_id": "23512864_3246248",
+      "value": "erstwhile Malabar District"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25224170_2619572_fact38",
+      "score": 0.635549783706665,
+      "source_id": "25224170_2619572",
+      "value": " the reorganization of the States in India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56812841_3612230_fact46",
+      "score": 0.6065121293067932,
+      "source_id": "56812841_3612230",
+      "value": " Central India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37822488_3631824_fact6",
+      "score": 0.5901265144348145,
+      "source_id": "37822488_3631824",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35539957_1870828_fact5",
+      "score": 0.5415271520614624,
+      "source_id": "35539957_1870828",
+      "value": " British India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "519610_880268_fact135",
+      "score": 0.5312728881835938,
+      "source_id": "519610_880268",
+      "value": " East India Company"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8d5370b1-03a8-4f7d-a558-632ac7fe65f2",
+  "index_nprobe": null,
+  "manifest_id": "f3b603cc5b7813a9",
+  "margin": 0.015278935432434082,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8169163465499878,
+  "s_surv": 0.8016374111175537,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7987158_2000429_fact193",
+      "score": 0.8016374111175537,
+      "source_id": "7987158_2000429",
+      "value": " Coorg, Madras, Hyderabad, and Bombay states"
+    },
+    {
+      "entry_id": "3499611_103826_fact222",
+      "score": 0.7976076006889343,
+      "source_id": "3499611_103826",
+      "value": " Kannada-speaking"
+    },
+    {
+      "entry_id": "26024465_3364801_fact7",
+      "score": 0.7889511585235596,
+      "source_id": "26024465_3364801",
+      "value": " Part C and Part D states"
+    },
+    {
+      "entry_id": "22291668_2100363_fact23",
+      "score": 0.7876499891281128,
+      "source_id": "22291668_2100363",
+      "value": " Malabar district"
+    },
+    {
+      "entry_id": "594077_1170633_fact77",
+      "score": 0.779353141784668,
+      "source_id": "594077_1170633",
+      "value": " Kerala, and Mysore State"
+    }
+  ],
+  "truncated": false
+}

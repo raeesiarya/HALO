@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3117109_757567_fact1",
+      "score": 0.9323099851608276,
+      "source_id": "3117109_757567",
+      "value": " Homestead, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21365730_1247835_fact1",
+      "score": 0.7562334537506104,
+      "source_id": "21365730_1247835",
+      "value": " Homestead, Pennsylvania"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e6c2c7be-b040-4e14-94dc-61bf101d89b6",
+  "index_nprobe": null,
+  "manifest_id": "0e055dc995cf5bcd",
+  "margin": 0.23261737823486328,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9323099851608276,
+  "s_surv": 0.6996926069259644,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3117109_757567_fact0",
+      "score": 0.6996926069259644,
+      "source_id": "3117109_757567",
+      "value": " restaurant chain"
+    },
+    {
+      "entry_id": "26574159_1452264_fact97",
+      "score": 0.689429521560669,
+      "source_id": "26574159_1452264",
+      "value": "based"
+    },
+    {
+      "entry_id": "705862_6104582_fact3",
+      "score": 0.681504487991333,
+      "source_id": "705862_6104582",
+      "value": " South Korea"
+    },
+    {
+      "entry_id": "12474283_2312934_fact71",
+      "score": 0.6733335256576538,
+      "source_id": "12474283_2312934",
+      "value": "based"
+    },
+    {
+      "entry_id": "2116850_326503_fact17",
+      "score": 0.6628791093826294,
+      "source_id": "2116850_326503",
+      "value": "based"
+    }
+  ],
+  "truncated": false
+}

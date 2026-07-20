@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "12929408_2863792_fact23",
+      "score": 0.8944397568702698,
+      "source_id": "12929408_2863792",
+      "value": " Decca"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "102096_426231_fact135",
+      "score": 0.8202223777770996,
+      "source_id": "102096_426231",
+      "value": " Decca Records"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9a059b56-b2bf-41b6-a686-697c70de6a1c",
+  "index_nprobe": null,
+  "manifest_id": "7397e95faa441eca",
+  "margin": 0.21487945318222046,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8944397568702698,
+  "s_surv": 0.6795603036880493,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "48245842_4621195_fact7",
+      "score": 0.6795603036880493,
+      "source_id": "48245842_4621195",
+      "value": "full"
+    },
+    {
+      "entry_id": "28056747_2712341_fact9",
+      "score": 0.652525007724762,
+      "source_id": "28056747_2712341",
+      "value": " producer and co-writer of Gary Glitter's early tracks"
+    },
+    {
+      "entry_id": "36513534_2670433_fact44",
+      "score": 0.6193432807922363,
+      "source_id": "36513534_2670433",
+      "value": " Last Chance to Reason"
+    },
+    {
+      "entry_id": "11941514_1647222_fact5",
+      "score": 0.6095004677772522,
+      "source_id": "11941514_1647222",
+      "value": " Las Vegas-based"
+    },
+    {
+      "entry_id": "206845_266060_fact35",
+      "score": 0.6054103970527649,
+      "source_id": "206845_266060",
+      "value": " Pixar"
+    }
+  ],
+  "truncated": false
+}

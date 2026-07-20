@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "110403_518872_fact5",
+      "score": 0.6466534733772278,
+      "source_id": "110403_518872",
+      "value": " 1888"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3b22f48f-e026-49c1-8363-ecbf3b06b2f7",
+  "index_nprobe": null,
+  "manifest_id": "c73afd4bb4243019",
+  "margin": 0.0063034892082214355,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.646653413772583,
+  "s_surv": 0.6403499245643616,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "136972_810811_fact1",
+      "score": 0.6403499245643616,
+      "source_id": "136972_810811",
+      "value": " Davis County, Utah"
+    },
+    {
+      "entry_id": "825470_6135192_fact1",
+      "score": 0.6385317444801331,
+      "source_id": "825470_6135192",
+      "value": " Davis County"
+    },
+    {
+      "entry_id": "23486373_3215976_fact5",
+      "score": 0.6225143074989319,
+      "source_id": "23486373_3215976",
+      "value": " 1883"
+    },
+    {
+      "entry_id": "37500604_3449449_fact5",
+      "score": 0.6219591498374939,
+      "source_id": "37500604_3449449",
+      "value": " the early 1880s"
+    },
+    {
+      "entry_id": "14194404_1735355_fact4",
+      "score": 0.6211928129196167,
+      "source_id": "14194404_1735355",
+      "value": " 1884"
+    }
+  ],
+  "truncated": false
+}

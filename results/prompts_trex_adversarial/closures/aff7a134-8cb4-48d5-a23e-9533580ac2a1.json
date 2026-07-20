@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "28153648_2805426_fact0",
+      "score": 0.8331543207168579,
+      "source_id": "28153648_2805426",
+      "value": "19 May 1931"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "aff7a134-8cb4-48d5-a23e-9533580ac2a1",
+  "index_nprobe": null,
+  "manifest_id": "101276f0468352b0",
+  "margin": 0.20325815677642822,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8331543207168579,
+  "s_surv": 0.6298961639404297,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "39178834_4816540_fact14",
+      "score": 0.6298961639404297,
+      "source_id": "39178834_4816540",
+      "value": " Durban"
+    },
+    {
+      "entry_id": "53812988_3871714_fact0",
+      "score": 0.629230797290802,
+      "source_id": "53812988_3871714",
+      "value": " Belgrade, Socialist Federal Republic of Yugoslavia"
+    },
+    {
+      "entry_id": "53812988_3871714_fact1",
+      "score": 0.6219935417175293,
+      "source_id": "53812988_3871714",
+      "value": " 13 April 1970"
+    },
+    {
+      "entry_id": "59531326_5511463_fact2",
+      "score": 0.620319128036499,
+      "source_id": "59531326_5511463",
+      "value": " Minsk, Belarus"
+    },
+    {
+      "entry_id": "68314281_4386628_fact0",
+      "score": 0.6173802018165588,
+      "source_id": "68314281_4386628",
+      "value": " 30 August 2000"
+    }
+  ],
+  "truncated": false
+}

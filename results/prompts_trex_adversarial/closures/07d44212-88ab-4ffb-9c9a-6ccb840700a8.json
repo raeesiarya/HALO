@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "21029037_3296713_fact0",
+      "score": 0.9550012350082397,
+      "source_id": "21029037_3296713",
+      "value": "27 January 1872"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "07d44212-88ab-4ffb-9c9a-6ccb840700a8",
+  "index_nprobe": null,
+  "manifest_id": "052aae89dbfb99c1",
+  "margin": 0.20854544639587402,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9550011157989502,
+  "s_surv": 0.7464556694030762,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "38469852_4202817_fact0",
+      "score": 0.7464556694030762,
+      "source_id": "38469852_4202817",
+      "value": " 28 April 1929"
+    },
+    {
+      "entry_id": "557266_6081163_fact0",
+      "score": 0.7436047196388245,
+      "source_id": "557266_6081163",
+      "value": "1554"
+    },
+    {
+      "entry_id": "924669_1073401_fact42",
+      "score": 0.7422289848327637,
+      "source_id": "924669_1073401",
+      "value": "1554"
+    },
+    {
+      "entry_id": "17244629_2096361_fact0",
+      "score": 0.7367397546768188,
+      "source_id": "17244629_2096361",
+      "value": "1554"
+    },
+    {
+      "entry_id": "41711274_4566221_fact0",
+      "score": 0.7342711687088013,
+      "source_id": "41711274_4566221",
+      "value": "3 October 1893"
+    }
+  ],
+  "truncated": false
+}

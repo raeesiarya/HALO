@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "22698608_2508736_fact2",
+      "score": 0.7886795997619629,
+      "source_id": "22698608_2508736",
+      "value": " the National Science Foundation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55845705_5290052_fact46",
+      "score": 0.6837054491043091,
+      "source_id": "55845705_5290052",
+      "value": " the UK's Science and Technology Facilities Council, the Institute of Physics and SEPnet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53992385_4019579_fact7",
+      "score": 0.6793878078460693,
+      "source_id": "53992385_4019579",
+      "value": " the Atomic and Molecular Physics group at Daresbury Laboratory"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4301727_990508_fact103",
+      "score": 0.6792482137680054,
+      "source_id": "4301727_990508",
+      "value": " physics departments"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4080b8f9-e4eb-4549-a4ba-86bdc91a2a2a",
+  "index_nprobe": null,
+  "manifest_id": "75d905648667ceab",
+  "margin": 0.032190680503845215,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7886793613433838,
+  "s_surv": 0.7564886808395386,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8337337_2461615_fact22",
+      "score": 0.7564886808395386,
+      "source_id": "8337337_2461615",
+      "value": " the Heart of the South West Local Enterprise Partnership (LEP) Growth Deal, DBIS Regional Growth Fund and Plymouth City Council"
+    },
+    {
+      "entry_id": "58034735_4565483_fact11",
+      "score": 0.7518849968910217,
+      "source_id": "58034735_4565483",
+      "value": " the Swiss Space Office and the French Space Agency (CNES)."
+    },
+    {
+      "entry_id": "30163990_1967428_fact56",
+      "score": 0.7499608397483826,
+      "source_id": "30163990_1967428",
+      "value": " Cypress Semiconductors University Alliance Program"
+    },
+    {
+      "entry_id": "19553126_1976918_fact7",
+      "score": 0.7447457313537598,
+      "source_id": "19553126_1976918",
+      "value": " European Commission (EC)"
+    },
+    {
+      "entry_id": "39252551_4889154_fact3",
+      "score": 0.7364853620529175,
+      "source_id": "39252551_4889154",
+      "value": " Competence Centres program of Technology Agency of the Czech Republic (TA CR),"
+    }
+  ],
+  "truncated": false
+}

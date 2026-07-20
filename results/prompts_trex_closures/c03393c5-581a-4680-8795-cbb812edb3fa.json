@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "21956068_1817073_fact15",
+      "score": 0.8940460085868835,
+      "source_id": "21956068_1817073",
+      "value": " cellist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40134514_5643654_fact3",
+      "score": 0.7760246992111206,
+      "source_id": "40134514_5643654",
+      "value": " cellist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38607032_4312995_fact19",
+      "score": 0.48081713914871216,
+      "source_id": "38607032_4312995",
+      "value": " former principal cellist of the Philharmonia Orchestra"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c03393c5-581a-4680-8795-cbb812edb3fa",
+  "index_nprobe": null,
+  "manifest_id": "97262a095255f0ab",
+  "margin": 0.0943346619606018,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8940460085868835,
+  "s_surv": 0.7997113466262817,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "21956068_1817073_fact16",
+      "score": 0.7997113466262817,
+      "source_id": "21956068_1817073",
+      "value": " music professor at the University of Washington"
+    },
+    {
+      "entry_id": "334420_1090915_fact21",
+      "score": 0.744843065738678,
+      "source_id": "334420_1090915",
+      "value": " electrical engineer"
+    },
+    {
+      "entry_id": "40134514_5643654_fact2",
+      "score": 0.7013214230537415,
+      "source_id": "40134514_5643654",
+      "value": " American"
+    },
+    {
+      "entry_id": "8764467_3016948_fact7",
+      "score": 0.638527512550354,
+      "source_id": "8764467_3016948",
+      "value": " undercover agent of the CIA"
+    },
+    {
+      "entry_id": "8657921_2875889_fact10",
+      "score": 0.6174948811531067,
+      "source_id": "8657921_2875889",
+      "value": " painter, draftsman, watercolorist"
+    }
+  ],
+  "truncated": false
+}

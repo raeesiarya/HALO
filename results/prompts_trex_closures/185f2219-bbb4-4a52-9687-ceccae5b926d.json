@@ -1,0 +1,369 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "25281658_2674381_fact2",
+      "score": 0.8713011741638184,
+      "source_id": "25281658_2674381",
+      "value": " Italian automotive manufacturer Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1097006_393191_fact3",
+      "score": 0.7328528165817261,
+      "source_id": "1097006_393191",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2053937_216177_fact2",
+      "score": 0.7320922613143921,
+      "source_id": "2053937_216177",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "434003_6061435_fact2",
+      "score": 0.725460410118103,
+      "source_id": "434003_6061435",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33950556_2973712_fact2",
+      "score": 0.7141215801239014,
+      "source_id": "33950556_2973712",
+      "value": "automaker Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7658355_1552131_fact2",
+      "score": 0.7123420238494873,
+      "source_id": "7658355_1552131",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "619663_129129_fact3",
+      "score": 0.7099665403366089,
+      "source_id": "619663_129129",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1252968_827737_fact3",
+      "score": 0.7083480954170227,
+      "source_id": "1252968_827737",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17465334_2302307_fact1",
+      "score": 0.7003538608551025,
+      "source_id": "17465334_2302307",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71132315_3951248_fact2",
+      "score": 0.7000551223754883,
+      "source_id": "71132315_3951248",
+      "value": " Scuderia Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1895801_1073041_fact4",
+      "score": 0.6978585720062256,
+      "source_id": "1895801_1073041",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71132199_3951217_fact2",
+      "score": 0.6920295357704163,
+      "source_id": "71132199_3951217",
+      "value": " Scuderia Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1199804_677568_fact1",
+      "score": 0.6900854110717773,
+      "source_id": "1199804_677568",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55001895_4719347_fact3",
+      "score": 0.6880256533622742,
+      "source_id": "55001895_4719347",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1183647_630120_fact2",
+      "score": 0.6868646740913391,
+      "source_id": "1183647_630120",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67996983_4176419_fact3",
+      "score": 0.6765562295913696,
+      "source_id": "67996983_4176419",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1178477_612894_fact2",
+      "score": 0.6754498481750488,
+      "source_id": "1178477_612894",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7091272_1014698_fact0",
+      "score": 0.6727883219718933,
+      "source_id": "7091272_1014698",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46971755_3622170_fact1",
+      "score": 0.6670442819595337,
+      "source_id": "46971755_3622170",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71215613_4000125_fact1",
+      "score": 0.659568190574646,
+      "source_id": "71215613_4000125",
+      "value": " Italian racing team Scuderia Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "596615_1182178_fact3",
+      "score": 0.6588948369026184,
+      "source_id": "596615_1182178",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1550064_321238_fact1",
+      "score": 0.6571475863456726,
+      "source_id": "1550064_321238",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44586645_4592601_fact1",
+      "score": 0.6488499641418457,
+      "source_id": "44586645_4592601",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9006564_3345970_fact3",
+      "score": 0.6486411690711975,
+      "source_id": "9006564_3345970",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "306853_6036601_fact1",
+      "score": 0.6480911374092102,
+      "source_id": "306853_6036601",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69320998_5113021_fact2",
+      "score": 0.6414692401885986,
+      "source_id": "69320998_5113021",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44166620_4220318_fact0",
+      "score": 0.640112042427063,
+      "source_id": "44166620_4220318",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19322554_1771378_fact1",
+      "score": 0.640036940574646,
+      "source_id": "19322554_1771378",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58520009_4883123_fact2",
+      "score": 0.6375170350074768,
+      "source_id": "58520009_4883123",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70022618_5553964_fact2",
+      "score": 0.63733971118927,
+      "source_id": "70022618_5553964",
+      "value": " Scuderia Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1896269_1074005_fact2",
+      "score": 0.6353659629821777,
+      "source_id": "1896269_1074005",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61245609_4309445_fact205",
+      "score": 0.6324794292449951,
+      "source_id": "61245609_4309445",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45283953_5083557_fact1",
+      "score": 0.6292159557342529,
+      "source_id": "45283953_5083557",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14357729_1901479_fact1",
+      "score": 0.6261372566223145,
+      "source_id": "14357729_1901479",
+      "value": " Scuderia Ferrari Marlboro"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1178429_612627_fact2",
+      "score": 0.6235383749008179,
+      "source_id": "1178429_612627",
+      "value": " Ferrari"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "185f2219-bbb4-4a52-9687-ceccae5b926d",
+  "index_nprobe": null,
+  "manifest_id": "34535b9e7a1cc58f",
+  "margin": 0.13496923446655273,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8713011741638184,
+  "s_surv": 0.7363319396972656,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "23504340_3237816_fact16",
+      "score": 0.7363319396972656,
+      "source_id": "23504340_3237816",
+      "value": " Oreca"
+    },
+    {
+      "entry_id": "42109216_4919665_fact2",
+      "score": 0.7357243299484253,
+      "source_id": "42109216_4919665",
+      "value": " Maserati"
+    },
+    {
+      "entry_id": "4095376_766306_fact3",
+      "score": 0.7232924103736877,
+      "source_id": "4095376_766306",
+      "value": " Lamborghini"
+    },
+    {
+      "entry_id": "28035004_2691288_fact1",
+      "score": 0.7210955619812012,
+      "source_id": "28035004_2691288",
+      "value": " Daimler"
+    },
+    {
+      "entry_id": "23504340_3237816_fact15",
+      "score": 0.7205746173858643,
+      "source_id": "23504340_3237816",
+      "value": " French"
+    }
+  ],
+  "truncated": false
+}

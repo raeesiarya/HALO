@@ -1,0 +1,819 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2981572_560245_fact3",
+      "score": 0.8900254964828491,
+      "source_id": "2981572_560245",
+      "value": " London, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41751087_4600419_fact2",
+      "score": 0.740310788154602,
+      "source_id": "41751087_4600419",
+      "value": " the Business Design Centre in Islington, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43389192_5937826_fact8",
+      "score": 0.7190412282943726,
+      "source_id": "43389192_5937826",
+      "value": " the Olympia Exhibition Centre, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43307821_5870882_fact2",
+      "score": 0.6659735441207886,
+      "source_id": "43307821_5870882",
+      "value": " London, United Kingdom"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18510989_3199892_fact2",
+      "score": 0.6611775159835815,
+      "source_id": "18510989_3199892",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34749068_1335248_fact1",
+      "score": 0.6494598388671875,
+      "source_id": "34749068_1335248",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3407469_1139052_fact2",
+      "score": 0.641028881072998,
+      "source_id": "3407469_1139052",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60227387_5942794_fact1",
+      "score": 0.6361470222473145,
+      "source_id": "60227387_5942794",
+      "value": " various locations in London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36503591_2663142_fact4",
+      "score": 0.6292877197265625,
+      "source_id": "36503591_2663142",
+      "value": " the Institute of English Studies of the University of London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55854780_5297076_fact1",
+      "score": 0.6255464553833008,
+      "source_id": "55854780_5297076",
+      "value": " the Mayfair and St James's district of central London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31961191_1325360_fact1",
+      "score": 0.6198261976242065,
+      "source_id": "31961191_1325360",
+      "value": " London, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28641959_3171733_fact1",
+      "score": 0.6147438287734985,
+      "source_id": "28641959_3171733",
+      "value": " London, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37715079_3619102_fact2",
+      "score": 0.6120599508285522,
+      "source_id": "37715079_3619102",
+      "value": " London in the United Kingdom"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30147064_1954471_fact2",
+      "score": 0.6093888878822327,
+      "source_id": "30147064_1954471",
+      "value": " London, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40865520_3810628_fact3",
+      "score": 0.6086667776107788,
+      "source_id": "40865520_3810628",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20196765_2531222_fact2",
+      "score": 0.6021347045898438,
+      "source_id": "20196765_2531222",
+      "value": " Olympia, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28968469_3458670_fact1",
+      "score": 0.5990456342697144,
+      "source_id": "28968469_3458670",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7676652_1577600_fact1",
+      "score": 0.5985903739929199,
+      "source_id": "7676652_1577600",
+      "value": " London, United Kingdom"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "759522_585691_fact1",
+      "score": 0.5965142250061035,
+      "source_id": "759522_585691",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27266422_2020056_fact2",
+      "score": 0.5941867232322693,
+      "source_id": "27266422_2020056",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28715270_3226940_fact2",
+      "score": 0.5928010940551758,
+      "source_id": "28715270_3226940",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32303437_1606985_fact11",
+      "score": 0.5913597345352173,
+      "source_id": "32303437_1606985",
+      "value": " London, Birmingham and Manchester"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6394016_536152_fact1",
+      "score": 0.5905423164367676,
+      "source_id": "6394016_536152",
+      "value": " London, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29470292_1504856_fact2",
+      "score": 0.5903589129447937,
+      "source_id": "29470292_1504856",
+      "value": " the London Borough of Newham"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46471998_5690872_fact0",
+      "score": 0.5888692736625671,
+      "source_id": "46471998_5690872",
+      "value": " Middlesex University and the surrounding areas of North London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5139914_602297_fact20",
+      "score": 0.5825735926628113,
+      "source_id": "5139914_602297",
+      "value": " the BCS London office"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42109043_4919428_fact1",
+      "score": 0.582489013671875,
+      "source_id": "42109043_4919428",
+      "value": " Soho, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56538880_5773738_fact1",
+      "score": 0.5759109258651733,
+      "source_id": "56538880_5773738",
+      "value": " Somerset House in London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70653928_3641158_fact1",
+      "score": 0.5739181637763977,
+      "source_id": "70653928_3641158",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30735424_2403652_fact126",
+      "score": 0.5695047378540039,
+      "source_id": "30735424_2403652",
+      "value": "London, UK"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60253474_5957303_fact1",
+      "score": 0.5659105777740479,
+      "source_id": "60253474_5957303",
+      "value": " central London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24474423_1922416_fact2",
+      "score": 0.558430552482605,
+      "source_id": "24474423_1922416",
+      "value": " Olympia Conference Centre, West Kensington, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31961191_1325360_fact9",
+      "score": 0.5568117499351501,
+      "source_id": "31961191_1325360",
+      "value": " Regent's University London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5838645_113374_fact2",
+      "score": 0.5548916459083557,
+      "source_id": "5838645_113374",
+      "value": " London, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72081244_4557787_fact4",
+      "score": 0.5547879934310913,
+      "source_id": "72081244_4557787",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26054806_3394329_fact1",
+      "score": 0.5532412528991699,
+      "source_id": "26054806_3394329",
+      "value": " London, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39542910_5164883_fact2",
+      "score": 0.5529180765151978,
+      "source_id": "39542910_5164883",
+      "value": " England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10704845_2687885_fact6",
+      "score": 0.5518490076065063,
+      "source_id": "10704845_2687885",
+      "value": " the Stratford Picturehouse in London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29614170_1620282_fact3",
+      "score": 0.5517652034759521,
+      "source_id": "29614170_1620282",
+      "value": " London and in other cities in the United Kingdom"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60218756_5938339_fact2",
+      "score": 0.5489703416824341,
+      "source_id": "60218756_5938339",
+      "value": " the Barbican Centre in London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60242751_5951661_fact0",
+      "score": 0.5470116138458252,
+      "source_id": "60242751_5951661",
+      "value": " London, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40517094_5932450_fact16",
+      "score": 0.5421425104141235,
+      "source_id": "40517094_5932450",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23761052_3530211_fact1",
+      "score": 0.542107105255127,
+      "source_id": "23761052_3530211",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9874229_1848819_fact2",
+      "score": 0.5374714136123657,
+      "source_id": "9874229_1848819",
+      "value": " the Grosvenor House Hotel, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33881365_2911706_fact3",
+      "score": 0.5374658107757568,
+      "source_id": "33881365_2911706",
+      "value": " a central London venue"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10621600_2613967_fact1",
+      "score": 0.5329208970069885,
+      "source_id": "10621600_2613967",
+      "value": " Olympia, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63772666_3728619_fact22",
+      "score": 0.5323147773742676,
+      "source_id": "63772666_3728619",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "669801_309871_fact51",
+      "score": 0.5300652384757996,
+      "source_id": "669801_309871",
+      "value": " central London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13705681_1269701_fact277",
+      "score": 0.5294641256332397,
+      "source_id": "13705681_1269701",
+      "value": " Jealous Gallery, London (UK)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9251278_1196274_fact1",
+      "score": 0.5292073488235474,
+      "source_id": "9251278_1196274",
+      "value": " the City of London, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12974061_2908267_fact4",
+      "score": 0.5285519361495972,
+      "source_id": "12974061_2908267",
+      "value": " central London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36553910_2699769_fact6",
+      "score": 0.5284333229064941,
+      "source_id": "36553910_2699769",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "399191_6054112_fact1",
+      "score": 0.5235080122947693,
+      "source_id": "399191_6054112",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35397147_1785562_fact19",
+      "score": 0.5222066640853882,
+      "source_id": "35397147_1785562",
+      "value": " the BFI Southbank in central London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "381286_191182_fact0",
+      "score": 0.5207345485687256,
+      "source_id": "381286_191182",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12942209_2878671_fact92",
+      "score": 0.5175178050994873,
+      "source_id": "12942209_2878671",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1755720_776489_fact45",
+      "score": 0.510490357875824,
+      "source_id": "1755720_776489",
+      "value": " England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "981474_84239_fact1",
+      "score": 0.5091985464096069,
+      "source_id": "981474_84239",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "376131_163482_fact0",
+      "score": 0.507850170135498,
+      "source_id": "376131_163482",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55725188_5185599_fact12",
+      "score": 0.5074798464775085,
+      "source_id": "55725188_5185599",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52454264_5334741_fact4",
+      "score": 0.5064980983734131,
+      "source_id": "52454264_5334741",
+      "value": " East London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2874132_410586_fact1",
+      "score": 0.5044534206390381,
+      "source_id": "2874132_410586",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44563058_4572920_fact18",
+      "score": 0.5041849613189697,
+      "source_id": "44563058_4572920",
+      "value": " Museum of London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6679881_702116_fact21",
+      "score": 0.5018036365509033,
+      "source_id": "6679881_702116",
+      "value": " Jermyn Street, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22129791_1968794_fact3",
+      "score": 0.5017091035842896,
+      "source_id": "22129791_1968794",
+      "value": " London, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5716337_1108174_fact1",
+      "score": 0.4993513822555542,
+      "source_id": "5716337_1108174",
+      "value": " London, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71369713_4110719_fact1",
+      "score": 0.49921107292175293,
+      "source_id": "71369713_4110719",
+      "value": " London, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3268472_972065_fact44",
+      "score": 0.4961193799972534,
+      "source_id": "3268472_972065",
+      "value": " London, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42277113_5056961_fact41",
+      "score": 0.4953882694244385,
+      "source_id": "42277113_5056961",
+      "value": " the London Regatta Centre, Royal Albert Docks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31166402_2885794_fact4",
+      "score": 0.49314460158348083,
+      "source_id": "31166402_2885794",
+      "value": " Kensington, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9054425_3413248_fact13",
+      "score": 0.4927499294281006,
+      "source_id": "9054425_3413248",
+      "value": "London)."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55083722_4763357_fact2",
+      "score": 0.4915373921394348,
+      "source_id": "55083722_4763357",
+      "value": " Berners Street in the City of Westminster, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61096677_4216006_fact16",
+      "score": 0.48875415325164795,
+      "source_id": "61096677_4216006",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11542161_1214636_fact8",
+      "score": 0.4887252151966095,
+      "source_id": "11542161_1214636",
+      "value": " London, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21904787_1778346_fact2",
+      "score": 0.4885252118110657,
+      "source_id": "21904787_1778346",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "150200_947875_fact45",
+      "score": 0.48695218563079834,
+      "source_id": "150200_947875",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2927014_490379_fact3",
+      "score": 0.48578667640686035,
+      "source_id": "2927014_490379",
+      "value": " London, UK"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33394128_2504136_fact1",
+      "score": 0.48524779081344604,
+      "source_id": "33394128_2504136",
+      "value": " London, Brighton and Bristol"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1362670_1079114_fact101",
+      "score": 0.48391321301460266,
+      "source_id": "1362670_1079114",
+      "value": " Greater London and the South East"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21978958_1835635_fact88",
+      "score": 0.48245951533317566,
+      "source_id": "21978958_1835635",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3501286_106240_fact29",
+      "score": 0.48137107491493225,
+      "source_id": "3501286_106240",
+      "value": " the Mall Galleries in London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1345486_1036894_fact17",
+      "score": 0.4803895652294159,
+      "source_id": "1345486_1036894",
+      "value": " a bar in Central London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18514524_3203433_fact2",
+      "score": 0.4786671996116638,
+      "source_id": "18514524_3203433",
+      "value": " London, United Kingdom"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1255834_835255_fact189",
+      "score": 0.4784863293170929,
+      "source_id": "1255834_835255",
+      "value": " the London Regatta Centre, Royal Albert Docks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56221721_5562660_fact4",
+      "score": 0.4784710705280304,
+      "source_id": "56221721_5562660",
+      "value": " Mayfair, London"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d8d51fca-2f42-4ee3-812a-deb54c927b4d",
+  "index_nprobe": null,
+  "manifest_id": "79d26bf3188864e7",
+  "margin": 0.06295692920684814,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8900254964828491,
+  "s_surv": 0.827068567276001,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2981572_560245_fact2",
+      "score": 0.827068567276001,
+      "source_id": "2981572_560245",
+      "value": " April"
+    },
+    {
+      "entry_id": "43087106_5696452_fact9",
+      "score": 0.7259976267814636,
+      "source_id": "43087106_5696452",
+      "value": " March"
+    },
+    {
+      "entry_id": "31166402_2885794_fact2",
+      "score": 0.7256619930267334,
+      "source_id": "31166402_2885794",
+      "value": " June"
+    },
+    {
+      "entry_id": "2735876_229082_fact2",
+      "score": 0.6976649165153503,
+      "source_id": "2735876_229082",
+      "value": " the Hong Kong Convention and Exhibition Centre"
+    },
+    {
+      "entry_id": "31166402_2885794_fact3",
+      "score": 0.695049524307251,
+      "source_id": "31166402_2885794",
+      "value": " the Royal Geographical Society in"
+    }
+  ],
+  "truncated": false
+}

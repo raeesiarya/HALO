@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "22665727_2476956_fact13",
+      "score": 0.8793177008628845,
+      "source_id": "22665727_2476956",
+      "value": " Near North Side community area of"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "447132_6064063_fact1",
+      "score": 0.8178578615188599,
+      "source_id": "447132_6064063",
+      "value": " Chicago, Illinois"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1303030_947653_fact1",
+      "score": 0.8174648880958557,
+      "source_id": "1303030_947653",
+      "value": " Chicago, Illinois"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27175345_1957232_fact2",
+      "score": 0.605610728263855,
+      "source_id": "27175345_1957232",
+      "value": " Illinois"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "67398885-f08b-4842-bfbf-e773a4eeaab7",
+  "index_nprobe": null,
+  "manifest_id": "725f6776afa4b628",
+  "margin": 0.05122905969619751,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8793177008628845,
+  "s_surv": 0.828088641166687,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2869926_404307_fact1",
+      "score": 0.828088641166687,
+      "source_id": "2869926_404307",
+      "value": " Argyle"
+    },
+    {
+      "entry_id": "63871646_3803173_fact0",
+      "score": 0.8181843757629395,
+      "source_id": "63871646_3803173",
+      "value": " Lake Huron"
+    },
+    {
+      "entry_id": "27319642_2063761_fact2",
+      "score": 0.8141013383865356,
+      "source_id": "27319642_2063761",
+      "value": " the Housatonic River"
+    },
+    {
+      "entry_id": "7219258_1105987_fact3",
+      "score": 0.8054491877555847,
+      "source_id": "7219258_1105987",
+      "value": " Bass Strait"
+    },
+    {
+      "entry_id": "46301895_5556142_fact2",
+      "score": 0.8026881217956543,
+      "source_id": "46301895_5556142",
+      "value": " Westchester County"
+    }
+  ],
+  "truncated": false
+}

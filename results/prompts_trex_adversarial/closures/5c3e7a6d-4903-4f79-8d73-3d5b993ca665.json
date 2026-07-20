@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "12973960_2908120_fact39",
+      "score": 0.6980328559875488,
+      "source_id": "12973960_2908120",
+      "value": " \"Hannah Montana\u00a02\","
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5c3e7a6d-4903-4f79-8d73-3d5b993ca665",
+  "index_nprobe": null,
+  "manifest_id": "50737ad6ca1dabe9",
+  "margin": 0.007529497146606445,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6980328559875488,
+  "s_surv": 0.6905033588409424,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "38124492_3899873_fact40",
+      "score": 0.6905033588409424,
+      "source_id": "38124492_3899873",
+      "value": " \"Final Fantasy XIII-2 Original Soundtrack\"."
+    },
+    {
+      "entry_id": "8601791_2796047_fact6",
+      "score": 0.678666353225708,
+      "source_id": "8601791_2796047",
+      "value": " \"Trueno\""
+    },
+    {
+      "entry_id": "27417491_2148807_fact18",
+      "score": 0.6753684282302856,
+      "source_id": "27417491_2148807",
+      "value": " \"Hip Hop\","
+    },
+    {
+      "entry_id": "71088719_3933394_fact21",
+      "score": 0.671578049659729,
+      "source_id": "71088719_3933394",
+      "value": " \"The World of Mantovani\","
+    },
+    {
+      "entry_id": "3730404_376458_fact17",
+      "score": 0.6708132028579712,
+      "source_id": "3730404_376458",
+      "value": " \"Fiasko\"."
+    }
+  ],
+  "truncated": false
+}

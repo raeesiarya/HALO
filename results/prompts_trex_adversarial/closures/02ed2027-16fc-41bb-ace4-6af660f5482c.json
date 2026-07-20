@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1527672_280509_fact2",
+      "score": 0.9228255748748779,
+      "source_id": "1527672_280509",
+      "value": " ESPN"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "692959_377045_fact2",
+      "score": 0.8592754006385803,
+      "source_id": "692959_377045",
+      "value": " CBC Newsworld"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "7240749_1117050_fact5",
+      "score": 0.850550651550293,
+      "source_id": "7240749_1117050",
+      "value": " ABC Television"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49751606_5749617_fact139",
+      "score": 0.6147370338439941,
+      "source_id": "49751606_5749617",
+      "value": " ESPN"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "02ed2027-16fc-41bb-ace4-6af660f5482c",
+  "index_nprobe": null,
+  "manifest_id": "48d7d4bec904c3ba",
+  "margin": 0.07845616340637207,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9228255748748779,
+  "s_surv": 0.8443694114685059,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "48876578_5152166_fact53",
+      "score": 0.8443694114685059,
+      "source_id": "48876578_5152166",
+      "value": " ABC Television"
+    },
+    {
+      "entry_id": "28732898_3241544_fact1",
+      "score": 0.7991656064987183,
+      "source_id": "28732898_3241544",
+      "value": " CBC Television"
+    },
+    {
+      "entry_id": "30265150_2045329_fact1",
+      "score": 0.7941036820411682,
+      "source_id": "30265150_2045329",
+      "value": " CBC Television"
+    },
+    {
+      "entry_id": "991027_112112_fact4",
+      "score": 0.7876862287521362,
+      "source_id": "991027_112112",
+      "value": " Children's BBC"
+    },
+    {
+      "entry_id": "1187113_641032_fact40",
+      "score": 0.7859033346176147,
+      "source_id": "1187113_641032",
+      "value": " ITV2"
+    }
+  ],
+  "truncated": false
+}

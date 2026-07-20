@@ -1,0 +1,117 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5829503_106855_fact1",
+      "score": 0.9192484021186829,
+      "source_id": "5829503_106855",
+      "value": " Leicester, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "93791_349712_fact176",
+      "score": 0.7388269901275635,
+      "source_id": "93791_349712",
+      "value": " Leicester, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9204944_3581124_fact1",
+      "score": 0.6967822909355164,
+      "source_id": "9204944_3581124",
+      "value": " Leicester Place"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2583630_1136392_fact0",
+      "score": 0.6431093215942383,
+      "source_id": "2583630_1136392",
+      "value": " Leicester, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "747267_547052_fact1",
+      "score": 0.6215301752090454,
+      "source_id": "747267_547052",
+      "value": " Leicester, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "93740_349153_fact277",
+      "score": 0.608953595161438,
+      "source_id": "93740_349153",
+      "value": " Leicester Place"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3100387_733242_fact1",
+      "score": 0.6067098379135132,
+      "source_id": "3100387_733242",
+      "value": " Leicester, England"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "fd585f26-8c6e-486e-9b6f-d3b768dd455e",
+  "index_nprobe": null,
+  "manifest_id": "6c148fd06ab62b52",
+  "margin": 0.1859903335571289,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9192484021186829,
+  "s_surv": 0.733258068561554,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1046027_259578_fact109",
+      "score": 0.733258068561554,
+      "source_id": "1046027_259578",
+      "value": " Aspen, Colorado"
+    },
+    {
+      "entry_id": "19068668_1527652_fact1",
+      "score": 0.7068272233009338,
+      "source_id": "19068668_1527652",
+      "value": " the Macedonian National Theatre"
+    },
+    {
+      "entry_id": "30680394_2351493_fact3",
+      "score": 0.6796038150787354,
+      "source_id": "30680394_2351493",
+      "value": " Leeds"
+    },
+    {
+      "entry_id": "54914183_4672212_fact57",
+      "score": 0.6735588312149048,
+      "source_id": "54914183_4672212",
+      "value": "England"
+    },
+    {
+      "entry_id": "12083664_1807749_fact1",
+      "score": 0.6655510663986206,
+      "source_id": "12083664_1807749",
+      "value": " Melbourne's East End Theatre District"
+    }
+  ],
+  "truncated": false
+}

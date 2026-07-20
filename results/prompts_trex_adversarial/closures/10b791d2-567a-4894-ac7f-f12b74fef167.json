@@ -1,0 +1,133 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "21950_505993_fact291",
+      "score": 0.815570592880249,
+      "source_id": "21950_505993",
+      "value": " Akora Khattak"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3101120_734575_fact149",
+      "score": 0.6934959292411804,
+      "source_id": "3101120_734575",
+      "value": " Lahore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33653387_2717728_fact132",
+      "score": 0.6721894145011902,
+      "source_id": "33653387_2717728",
+      "value": " Lahore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "869229_888710_fact27",
+      "score": 0.6701231598854065,
+      "source_id": "869229_888710",
+      "value": " Lahore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3199366_874982_fact44",
+      "score": 0.6526802778244019,
+      "source_id": "3199366_874982",
+      "value": " Lahore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8375292_2507932_fact14",
+      "score": 0.6524845361709595,
+      "source_id": "8375292_2507932",
+      "value": " Lahore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4534732_83766_fact138",
+      "score": 0.647663414478302,
+      "source_id": "4534732_83766",
+      "value": " Lahore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42357645_5121120_fact8",
+      "score": 0.6414448618888855,
+      "source_id": "42357645_5121120",
+      "value": " Lahore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3267498_970862_fact44",
+      "score": 0.6289510726928711,
+      "source_id": "3267498_970862",
+      "value": " Lahore"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "10b791d2-567a-4894-ac7f-f12b74fef167",
+  "index_nprobe": null,
+  "manifest_id": "c8ac03f53e540b58",
+  "margin": 0.01268923282623291,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.815570592880249,
+  "s_surv": 0.8028813600540161,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "17126143_1991698_fact267",
+      "score": 0.8028813600540161,
+      "source_id": "17126143_1991698",
+      "value": " Akora Khattak"
+    },
+    {
+      "entry_id": "34706081_1310861_fact78",
+      "score": 0.7627978920936584,
+      "source_id": "34706081_1310861",
+      "value": " Maihar"
+    },
+    {
+      "entry_id": "6549522_629931_fact16",
+      "score": 0.7443785667419434,
+      "source_id": "6549522_629931",
+      "value": " Punjab"
+    },
+    {
+      "entry_id": "9456421_1389928_fact8",
+      "score": 0.7409522533416748,
+      "source_id": "9456421_1389928",
+      "value": " Iran"
+    },
+    {
+      "entry_id": "30503465_2213079_fact72",
+      "score": 0.7265982627868652,
+      "source_id": "30503465_2213079",
+      "value": " of"
+    }
+  ],
+  "truncated": false
+}

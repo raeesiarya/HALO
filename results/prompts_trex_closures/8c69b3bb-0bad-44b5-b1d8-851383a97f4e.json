@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "42034635_4851645_fact1",
+      "score": 0.9283590316772461,
+      "source_id": "42034635_4851645",
+      "value": " Alexandria, Egypt"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8c69b3bb-0bad-44b5-b1d8-851383a97f4e",
+  "index_nprobe": null,
+  "manifest_id": "5cfb51175cef343d",
+  "margin": 0.08266305923461914,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9283590316772461,
+  "s_surv": 0.845695972442627,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "68786014_4759553_fact8",
+      "score": 0.845695972442627,
+      "source_id": "68786014_4759553",
+      "value": " Braga"
+    },
+    {
+      "entry_id": "67070936_5894915_fact10",
+      "score": 0.8318825960159302,
+      "source_id": "67070936_5894915",
+      "value": " Imus, Cavite, Philippines"
+    },
+    {
+      "entry_id": "28928830_3424643_fact9",
+      "score": 0.8318620324134827,
+      "source_id": "28928830_3424643",
+      "value": " S\u00e3o Lu\u00eds, Maranh\u00e3o"
+    },
+    {
+      "entry_id": "21039816_3308563_fact1",
+      "score": 0.8222739100456238,
+      "source_id": "21039816_3308563",
+      "value": " Presidente Prudente"
+    },
+    {
+      "entry_id": "41599614_4467895_fact6",
+      "score": 0.8130040168762207,
+      "source_id": "41599614_4467895",
+      "value": " Camb\u00e9, Paran\u00e1"
+    }
+  ],
+  "truncated": false
+}

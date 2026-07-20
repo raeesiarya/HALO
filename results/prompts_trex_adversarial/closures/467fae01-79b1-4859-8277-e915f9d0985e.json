@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "9514768_1468619_fact11",
+      "score": 0.6530321836471558,
+      "source_id": "9514768_1468619",
+      "value": " television studios and news crews"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "467fae01-79b1-4859-8277-e915f9d0985e",
+  "index_nprobe": null,
+  "manifest_id": "a1ca5b7deedf4708",
+  "margin": 0.030166327953338623,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6530320644378662,
+  "s_surv": 0.6228657364845276,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4561424_108365_fact46",
+      "score": 0.6228657364845276,
+      "source_id": "4561424_108365",
+      "value": " post-production work on the band's videos"
+    },
+    {
+      "entry_id": "37268014_3281054_fact33",
+      "score": 0.613503098487854,
+      "source_id": "37268014_3281054",
+      "value": " professional users"
+    },
+    {
+      "entry_id": "1286331_914132_fact64",
+      "score": 0.6054390072822571,
+      "source_id": "1286331_914132",
+      "value": " business communication and educational television"
+    },
+    {
+      "entry_id": "1286331_914132_fact170",
+      "score": 0.5881749391555786,
+      "source_id": "1286331_914132",
+      "value": " scenes"
+    },
+    {
+      "entry_id": "240257_6024686_fact35",
+      "score": 0.5771713852882385,
+      "source_id": "240257_6024686",
+      "value": " short time periods of video"
+    }
+  ],
+  "truncated": false
+}

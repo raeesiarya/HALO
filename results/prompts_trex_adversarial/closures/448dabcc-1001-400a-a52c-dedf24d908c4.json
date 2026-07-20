@@ -1,0 +1,189 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "13644049_1220602_fact4",
+      "score": 0.9430880546569824,
+      "source_id": "13644049_1220602",
+      "value": " topology and algebra"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "290931_792376_fact4",
+      "score": 0.8076390027999878,
+      "source_id": "290931_792376",
+      "value": " general topology"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "362536_98133_fact4",
+      "score": 0.7532553672790527,
+      "source_id": "362536_98133",
+      "value": " algebraic topology"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "205483_255265_fact3",
+      "score": 0.717195987701416,
+      "source_id": "205483_255265",
+      "value": " algebraic topology, algebraic geometry, and algebraic number theory"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "637926_6092940_fact3",
+      "score": 0.717195987701416,
+      "source_id": "637926_6092940",
+      "value": " algebraic topology, algebraic geometry, and algebraic number theory"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8156533_2226025_fact4",
+      "score": 0.7013043165206909,
+      "source_id": "8156533_2226025",
+      "value": " topology"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14457637_1990496_fact8",
+      "score": 0.6900453567504883,
+      "source_id": "14457637_1990496",
+      "value": " differential equations, topology, mathematical logic and the foundations of mathematics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4355201_1045597_fact6",
+      "score": 0.6855379343032837,
+      "source_id": "4355201_1045597",
+      "value": " combinatorial group theory and in the topology of Lie groups"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "612409_99665_fact4",
+      "score": 0.678925633430481,
+      "source_id": "612409_99665",
+      "value": " algebraic topology"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "91161_316228_fact4",
+      "score": 0.6699506640434265,
+      "source_id": "91161_316228",
+      "value": " the mathematics of probability theory, topology, intuitionistic logic, turbulence, classical mechanics, algorithmic information theory and computational complexity"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1368525_1092301_fact4",
+      "score": 0.6678932905197144,
+      "source_id": "1368525_1092301",
+      "value": " group theory and topology"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "576245_1100964_fact6",
+      "score": 0.6625176668167114,
+      "source_id": "576245_1100964",
+      "value": " set theory and topology"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62909762_5472544_fact4",
+      "score": 0.6531906723976135,
+      "source_id": "62909762_5472544",
+      "value": " differential calculus over commutative algebras, the algebraic theory of differential operators, homological algebra, differential geometry and algebraic topology, mechanics and mathematical physics, the geometrical theory of nonlinear partial differential equations and secondary calculus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22527600_2342347_fact77",
+      "score": 0.6494874954223633,
+      "source_id": "22527600_2342347",
+      "value": " operator and matrix theory, convex analysis and inequalities, linear and nonlinear programming, topology and fixed point theory, and topological groups"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36101182_2347560_fact3",
+      "score": 0.6487933397293091,
+      "source_id": "36101182_2347560",
+      "value": " topology and complex analysis"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "448dabcc-1001-400a-a52c-dedf24d908c4",
+  "index_nprobe": null,
+  "manifest_id": "66f1cde14c5bb4b0",
+  "margin": 0.11074578762054443,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9430880546569824,
+  "s_surv": 0.832342267036438,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8372639_2504767_fact9",
+      "score": 0.832342267036438,
+      "source_id": "8372639_2504767",
+      "value": " polymer chemistry"
+    },
+    {
+      "entry_id": "13644049_1220602_fact10",
+      "score": 0.8175139427185059,
+      "source_id": "13644049_1220602",
+      "value": " high-dimensional knot theory"
+    },
+    {
+      "entry_id": "6340141_504329_fact4",
+      "score": 0.7873904705047607,
+      "source_id": "6340141_504329",
+      "value": " epistemology, philosophy of science, political philosophy and the history of Christianity"
+    },
+    {
+      "entry_id": "996200_126879_fact5",
+      "score": 0.7805458307266235,
+      "source_id": "996200_126879",
+      "value": " photomultipliers for astronomical use"
+    },
+    {
+      "entry_id": "49188504_5382754_fact4",
+      "score": 0.7701286673545837,
+      "source_id": "49188504_5382754",
+      "value": " decision theory and mathematical statistics"
+    }
+  ],
+  "truncated": false
+}

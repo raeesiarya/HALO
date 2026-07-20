@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "23689984_3456913_fact40",
+      "score": 0.8621168732643127,
+      "source_id": "23689984_3456913",
+      "value": " \"Het onbehagen bij de vrouw\""
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2a34e812-daa3-4a60-8e03-064fecff0e2b",
+  "index_nprobe": null,
+  "manifest_id": "fbd8aba647f86514",
+  "margin": 0.1604536771774292,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8621167540550232,
+  "s_surv": 0.701663076877594,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2169958_418494_fact70",
+      "score": 0.701663076877594,
+      "source_id": "2169958_418494",
+      "value": "God's Smuggler"
+    },
+    {
+      "entry_id": "5088394_557656_fact41",
+      "score": 0.6823660135269165,
+      "source_id": "5088394_557656",
+      "value": " \"Geschichte der Orgel- und Klaviermusik\","
+    },
+    {
+      "entry_id": "54171379_4159712_fact70",
+      "score": 0.6448307037353516,
+      "source_id": "54171379_4159712",
+      "value": "Practical Forestry for the Agent and Surveyor"
+    },
+    {
+      "entry_id": "48779047_5064786_fact214",
+      "score": 0.6441421508789062,
+      "source_id": "48779047_5064786",
+      "value": "Mille et un Jours"
+    },
+    {
+      "entry_id": "36934202_3030856_fact47",
+      "score": 0.6190869212150574,
+      "source_id": "36934202_3030856",
+      "value": " \"Veien til San Vicente\""
+    }
+  ],
+  "truncated": false
+}

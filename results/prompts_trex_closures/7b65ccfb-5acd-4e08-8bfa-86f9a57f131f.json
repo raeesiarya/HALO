@@ -1,0 +1,125 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "19458905_1899888_fact13",
+      "score": 0.6148185729980469,
+      "source_id": "19458905_1899888",
+      "value": " Chile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4581468_126038_fact14",
+      "score": 0.6037631630897522,
+      "source_id": "4581468_126038",
+      "value": " Office of the Civil Service Registry and Identification of Chile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49957036_5850084_fact3",
+      "score": 0.6022528409957886,
+      "source_id": "49957036_5850084",
+      "value": " Chile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52177163_5124570_fact4",
+      "score": 0.5087841749191284,
+      "source_id": "52177163_5124570",
+      "value": " Carabineros de Chile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31814_730597_fact182",
+      "score": 0.4952157437801361,
+      "source_id": "31814_730597",
+      "value": " DGAC(Chile)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49957036_5850084_fact7",
+      "score": 0.4850787818431854,
+      "source_id": "49957036_5850084",
+      "value": " the Chilean Antarctic Institute and the three armed forces of Chile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8308863_2424863_fact12",
+      "score": 0.47617924213409424,
+      "source_id": "8308863_2424863",
+      "value": " Chile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28486453_3089239_fact133",
+      "score": 0.4751926064491272,
+      "source_id": "28486453_3089239",
+      "value": " the Pontifical Catholic University of Chile"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7b65ccfb-5acd-4e08-8bfa-86f9a57f131f",
+  "index_nprobe": null,
+  "manifest_id": "3996f2ee2338030b",
+  "margin": 0.014844179153442383,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6148185729980469,
+  "s_surv": 0.5999743938446045,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "164999_1101423_fact5",
+      "score": 0.5999743938446045,
+      "source_id": "164999_1101423",
+      "value": " Christian Democratic Party"
+    },
+    {
+      "entry_id": "36922718_3021345_fact2",
+      "score": 0.5949063301086426,
+      "source_id": "36922718_3021345",
+      "value": " Santiago Metro"
+    },
+    {
+      "entry_id": "39001355_4658827_fact5",
+      "score": 0.5920934081077576,
+      "source_id": "39001355_4658827",
+      "value": " Peruvian Armed Forces"
+    },
+    {
+      "entry_id": "352796_1198538_fact91",
+      "score": 0.5899035334587097,
+      "source_id": "352796_1198538",
+      "value": " Brazilian Air Force"
+    },
+    {
+      "entry_id": "7273373_1137979_fact1",
+      "score": 0.5788736343383789,
+      "source_id": "7273373_1137979",
+      "value": " the Pinetree Line"
+    }
+  ],
+  "truncated": false
+}

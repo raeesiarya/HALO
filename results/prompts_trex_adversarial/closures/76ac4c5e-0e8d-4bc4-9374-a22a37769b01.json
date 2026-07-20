@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "21433259_1307604_fact3",
+      "score": 0.9190673828125,
+      "source_id": "21433259_1307604",
+      "value": " Singapore's free-to-air channel, MediaCorp Channel 8"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "76ac4c5e-0e8d-4bc4-9374-a22a37769b01",
+  "index_nprobe": null,
+  "manifest_id": "1018f29566b540e9",
+  "margin": 0.15234214067459106,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9190672636032104,
+  "s_surv": 0.7667251229286194,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "64314624_4154098_fact1",
+      "score": 0.7667251229286194,
+      "source_id": "64314624_4154098",
+      "value": " KBS2"
+    },
+    {
+      "entry_id": "8694706_2923278_fact26",
+      "score": 0.7451019287109375,
+      "source_id": "8694706_2923278",
+      "value": " BBC One"
+    },
+    {
+      "entry_id": "23908949_1338859_fact5",
+      "score": 0.7446919679641724,
+      "source_id": "23908949_1338859",
+      "value": " SBS"
+    },
+    {
+      "entry_id": "23691244_3458990_fact105",
+      "score": 0.7413064241409302,
+      "source_id": "23691244_3458990",
+      "value": " Fox network"
+    },
+    {
+      "entry_id": "40362674_5812593_fact6",
+      "score": 0.7406730651855469,
+      "source_id": "40362674_5812593",
+      "value": " the Disney Channel"
+    }
+  ],
+  "truncated": false
+}

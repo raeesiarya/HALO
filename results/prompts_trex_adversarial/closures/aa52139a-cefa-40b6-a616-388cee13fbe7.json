@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2840492_361146_fact158",
+      "score": 0.7921062707901001,
+      "source_id": "2840492_361146",
+      "value": " \"Benjamin\""
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "aa52139a-cefa-40b6-a616-388cee13fbe7",
+  "index_nprobe": null,
+  "manifest_id": "0215d688ca560dc8",
+  "margin": 0.07694447040557861,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7921062707901001,
+  "s_surv": 0.7151618003845215,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "56467208_5727271_fact6",
+      "score": 0.7151618003845215,
+      "source_id": "56467208_5727271",
+      "value": " Sangguniang Bayan"
+    },
+    {
+      "entry_id": "56467208_5727271_fact7",
+      "score": 0.7148737907409668,
+      "source_id": "56467208_5727271",
+      "value": " Sangguniang Barangay"
+    },
+    {
+      "entry_id": "5699973_1091459_fact200",
+      "score": 0.7125817537307739,
+      "source_id": "5699973_1091459",
+      "value": "National Assembly"
+    },
+    {
+      "entry_id": "60613241_3883977_fact11",
+      "score": 0.7102742791175842,
+      "source_id": "60613241_3883977",
+      "value": " Sangguniang Barangay"
+    },
+    {
+      "entry_id": "266940_678984_fact146",
+      "score": 0.7063248157501221,
+      "source_id": "266940_678984",
+      "value": "officio\""
+    }
+  ],
+  "truncated": false
+}

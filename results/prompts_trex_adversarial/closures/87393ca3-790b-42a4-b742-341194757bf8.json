@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1974631_79734_fact6",
+      "score": 0.8227984309196472,
+      "source_id": "1974631_79734",
+      "value": " Duluth Huskies"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "87393ca3-790b-42a4-b742-341194757bf8",
+  "index_nprobe": null,
+  "manifest_id": "0798f12a0b0b0b0d",
+  "margin": 0.0038118362426757812,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8227982521057129,
+  "s_surv": 0.8189864158630371,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6008073_250288_fact18",
+      "score": 0.8189864158630371,
+      "source_id": "6008073_250288",
+      "value": " Orange Hawks"
+    },
+    {
+      "entry_id": "20177762_2515273_fact20",
+      "score": 0.7863926887512207,
+      "source_id": "20177762_2515273",
+      "value": " the Duluth Huskies"
+    },
+    {
+      "entry_id": "6008073_250288_fact20",
+      "score": 0.7819989323616028,
+      "source_id": "6008073_250288",
+      "value": " NSW Country Eagles"
+    },
+    {
+      "entry_id": "4312232_1001707_fact3",
+      "score": 0.7413914799690247,
+      "source_id": "4312232_1001707",
+      "value": " Scottish Professional Football League"
+    },
+    {
+      "entry_id": "26212002_3531828_fact2",
+      "score": 0.7384728789329529,
+      "source_id": "26212002_3531828",
+      "value": " Yeovil Sports and Social Club"
+    }
+  ],
+  "truncated": false
+}

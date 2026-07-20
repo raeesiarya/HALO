@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "14605278_2143189_fact3",
+      "score": 0.9490160346031189,
+      "source_id": "14605278_2143189",
+      "value": "Kilkenny City"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4971714_459699_fact5",
+      "score": 0.6264444589614868,
+      "source_id": "4971714_459699",
+      "value": " medieval city of Kilkenny"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "dcc0fbfe-bc71-47bf-893f-2408ddee21c4",
+  "index_nprobe": null,
+  "manifest_id": "27425e628c10078f",
+  "margin": 0.20664340257644653,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9490160346031189,
+  "s_surv": 0.7423726320266724,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "18057900_2803370_fact4",
+      "score": 0.7423726320266724,
+      "source_id": "18057900_2803370",
+      "value": " Fort Madison"
+    },
+    {
+      "entry_id": "8452321_2601867_fact12",
+      "score": 0.7370823621749878,
+      "source_id": "8452321_2601867",
+      "value": " Kidderminster"
+    },
+    {
+      "entry_id": "5516268_927669_fact7",
+      "score": 0.7302494645118713,
+      "source_id": "5516268_927669",
+      "value": " Mo i Rana"
+    },
+    {
+      "entry_id": "4423730_1116583_fact6",
+      "score": 0.7177171111106873,
+      "source_id": "4423730_1116583",
+      "value": " lake Holsavatnet"
+    },
+    {
+      "entry_id": "44368390_4393198_fact5",
+      "score": 0.7169058322906494,
+      "source_id": "44368390_4393198",
+      "value": " Grenaa"
+    }
+  ],
+  "truncated": false
+}

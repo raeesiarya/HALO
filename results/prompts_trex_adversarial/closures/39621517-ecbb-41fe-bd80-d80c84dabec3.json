@@ -1,0 +1,224 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "40134871_5643961_fact8",
+      "score": 0.7334263324737549,
+      "source_id": "40134871_5643961",
+      "value": " Queen consort of the Kingdom of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54828692_4632866_fact53",
+      "score": 0.6470863819122314,
+      "source_id": "54828692_4632866",
+      "value": " Queen of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9685147_1664109_fact46",
+      "score": 0.6413436532020569,
+      "source_id": "9685147_1664109",
+      "value": " reigning Queen Consort of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49483587_5586539_fact16",
+      "score": 0.6209691762924194,
+      "source_id": "49483587_5586539",
+      "value": " Queen consort of the Kingdom of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3067378_684437_fact25",
+      "score": 0.6114928722381592,
+      "source_id": "3067378_684437",
+      "value": " Queen of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5608198_1007558_fact42",
+      "score": 0.5947337746620178,
+      "source_id": "5608198_1007558",
+      "value": " King Victor Emmanuel III of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39071150_4717820_fact19",
+      "score": 0.5903034210205078,
+      "source_id": "39071150_4717820",
+      "value": " Queen of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25029558_2433925_fact23",
+      "score": 0.5892112255096436,
+      "source_id": "25029558_2433925",
+      "value": " Umberto I of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41802658_4645346_fact8",
+      "score": 0.5878207087516785,
+      "source_id": "41802658_4645346",
+      "value": " first Queen of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "511889_846981_fact45",
+      "score": 0.5762768983840942,
+      "source_id": "511889_846981",
+      "value": " King Humbert I of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28496961_3095620_fact34",
+      "score": 0.57559734582901,
+      "source_id": "28496961_3095620",
+      "value": " Queen of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "694162_380411_fact10",
+      "score": 0.5469285249710083,
+      "source_id": "694162_380411",
+      "value": " King Umberto II of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "889995_958314_fact54",
+      "score": 0.5460203886032104,
+      "source_id": "889995_958314",
+      "value": " King Humbert I of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60503736_3789192_fact21",
+      "score": 0.5373693704605103,
+      "source_id": "60503736_3789192",
+      "value": " lady in waiting to the Queen of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "983170_88680_fact12",
+      "score": 0.5130001306533813,
+      "source_id": "983170_88680",
+      "value": " one of the most important figures of the Enlightenment in Southern Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9459007_1393015_fact31",
+      "score": 0.5119922757148743,
+      "source_id": "9459007_1393015",
+      "value": " Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14366078_1906857_fact53",
+      "score": 0.5077149868011475,
+      "source_id": "14366078_1906857",
+      "value": " Crown Prince Umberto of Italy and Princess Marie-Jos\u00e9 of Belgium"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "193887_170074_fact3",
+      "score": 0.5044136047363281,
+      "source_id": "193887_170074",
+      "value": " Queen of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8025155_2048715_fact21",
+      "score": 0.502981424331665,
+      "source_id": "8025155_2048715",
+      "value": " King of Italy"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "39621517-ecbb-41fe-bd80-d80c84dabec3",
+  "index_nprobe": null,
+  "manifest_id": "6d776a1246bf9bc9",
+  "margin": 0.0015534162521362305,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7334263324737549,
+  "s_surv": 0.7318729162216187,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "38303041_4063090_fact19",
+      "score": 0.7318729162216187,
+      "source_id": "38303041_4063090",
+      "value": " Umberto I"
+    },
+    {
+      "entry_id": "39904904_5459637_fact19",
+      "score": 0.7103385925292969,
+      "source_id": "39904904_5459637",
+      "value": " Belisario Mattera and Constantino Bertucci"
+    },
+    {
+      "entry_id": "47872981_4423598_fact44",
+      "score": 0.6316327452659607,
+      "source_id": "47872981_4423598",
+      "value": " Princess Elisabeth of Saxony"
+    },
+    {
+      "entry_id": "4147417_825763_fact20",
+      "score": 0.626785933971405,
+      "source_id": "4147417_825763",
+      "value": " illegitimate"
+    },
+    {
+      "entry_id": "5245572_699482_fact44",
+      "score": 0.6219068765640259,
+      "source_id": "5245572_699482",
+      "value": " Saxon princess Maria Amalia"
+    }
+  ],
+  "truncated": false
+}

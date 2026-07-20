@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "938992_1117485_fact0",
+      "score": 0.8946394920349121,
+      "source_id": "938992_1117485",
+      "value": " \"Dromedary\")"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7122713_1036802_fact4",
+      "score": 0.5223132967948914,
+      "source_id": "7122713_1036802",
+      "value": "Polish for 'Jam')."
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "aecf9e75-a522-443a-ac7a-2547406b0f25",
+  "index_nprobe": null,
+  "manifest_id": "2777e8f309b6dedb",
+  "margin": 0.12918829917907715,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8946394920349121,
+  "s_surv": 0.765451192855835,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "11027429_3036721_fact0",
+      "score": 0.765451192855835,
+      "source_id": "11027429_3036721",
+      "value": " Super Dromedary"
+    },
+    {
+      "entry_id": "17075157_1948790_fact0",
+      "score": 0.6972799897193909,
+      "source_id": "17075157_1948790",
+      "value": "Dudu\u015b Kud\u0142acz"
+    },
+    {
+      "entry_id": "16007757_3474443_fact0",
+      "score": 0.6452229619026184,
+      "source_id": "16007757_3474443",
+      "value": "Comet"
+    },
+    {
+      "entry_id": "18638853_3353162_fact0",
+      "score": 0.6395047903060913,
+      "source_id": "18638853_3353162",
+      "value": "Trench mortar"
+    },
+    {
+      "entry_id": "2529516_1052660_fact0",
+      "score": 0.6312440633773804,
+      "source_id": "2529516_1052660",
+      "value": "1953\u20131955"
+    }
+  ],
+  "truncated": false
+}

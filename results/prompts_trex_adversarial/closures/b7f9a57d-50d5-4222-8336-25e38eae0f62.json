@@ -1,0 +1,179 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "10758793_2735717_fact19",
+      "score": 0.85387122631073,
+      "source_id": "10758793_2735717",
+      "value": " Windows NT kernel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1952952_1188059_fact63",
+      "score": 0.6888163089752197,
+      "source_id": "1952952_1188059",
+      "value": "Microsoft Windows Server 2012"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "447288_534482_fact95",
+      "score": 0.6613622307777405,
+      "source_id": "447288_534482",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "390309_232495_fact159",
+      "score": 0.6603156328201294,
+      "source_id": "390309_232495",
+      "value": " Microsoft BASIC interpreter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "984884_93340_fact20",
+      "score": 0.6549230813980103,
+      "source_id": "984884_93340",
+      "value": " Microsoft DHCP and WINS clients and DHCP and WINS servers"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "233953_446265_fact12",
+      "score": 0.6533495783805847,
+      "source_id": "233953_446265",
+      "value": " Microsoft NTFS filesystem"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "101436_15190_fact13",
+      "score": 0.6214541792869568,
+      "source_id": "101436_15190",
+      "value": " Microsoft operationg system"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20272_470219_fact126",
+      "score": 0.6157355308532715,
+      "source_id": "20272_470219",
+      "value": " all current versions of Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "418544_388359_fact0",
+      "score": 0.613263726234436,
+      "source_id": "418544_388359",
+      "value": " Microsoft Narrator"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10522166_2518270_fact6",
+      "score": 0.6128902435302734,
+      "source_id": "10522166_2518270",
+      "value": " Microsoft CryptoAPI"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "395653_57444_fact36",
+      "score": 0.6096552610397339,
+      "source_id": "395653_57444",
+      "value": "Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "174815_1204712_fact63",
+      "score": 0.6089259386062622,
+      "source_id": "174815_1204712",
+      "value": " Microsoft Windows family"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "496618_777724_fact17",
+      "score": 0.6061387658119202,
+      "source_id": "496618_777724",
+      "value": " Microsoft C 6.0 compiler"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19922472_2284932_fact75",
+      "score": 0.605440616607666,
+      "source_id": "19922472_2284932",
+      "value": " Microsoft Dynamic Data Exchange (DDE) mechanism"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b7f9a57d-50d5-4222-8336-25e38eae0f62",
+  "index_nprobe": null,
+  "manifest_id": "29e8ef88c155dd19",
+  "margin": 0.05221259593963623,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.85387122631073,
+  "s_surv": 0.8016586303710938,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "984882_93334_fact186",
+      "score": 0.8016586303710938,
+      "source_id": "984882_93334",
+      "value": " Virtual DOS Machine"
+    },
+    {
+      "entry_id": "984882_93334_fact139",
+      "score": 0.8006277084350586,
+      "source_id": "984882_93334",
+      "value": " Mach kernel"
+    },
+    {
+      "entry_id": "4345041_1034905_fact8",
+      "score": 0.7834765315055847,
+      "source_id": "4345041_1034905",
+      "value": "emulation subsystems run in user-mode server processes"
+    },
+    {
+      "entry_id": "113694_17494_fact57",
+      "score": 0.7767237424850464,
+      "source_id": "113694_17494",
+      "value": " Winsock"
+    },
+    {
+      "entry_id": "55380_1096758_fact28",
+      "score": 0.7724994421005249,
+      "source_id": "55380_1096758",
+      "value": " kernel"
+    }
+  ],
+  "truncated": false
+}

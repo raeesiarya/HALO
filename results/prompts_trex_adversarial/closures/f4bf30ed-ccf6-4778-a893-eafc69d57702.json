@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "21960951_1821619_fact1",
+      "score": 0.6884908080101013,
+      "source_id": "21960951_1821619",
+      "value": " American football"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61338628_4382237_fact2",
+      "score": 0.5469273924827576,
+      "source_id": "61338628_4382237",
+      "value": " jazz singer, trumpeter, dancer, and bandleader of swing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29366228_1416832_fact3",
+      "score": 0.529071033000946,
+      "source_id": "29366228_1416832",
+      "value": " jazz double bassist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "697607_390341_fact3",
+      "score": 0.5214859247207642,
+      "source_id": "697607_390341",
+      "value": " jazz drummer"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f4bf30ed-ccf6-4778-a893-eafc69d57702",
+  "index_nprobe": null,
+  "manifest_id": "81edda53f8bd001b",
+  "margin": 0.01445305347442627,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6884908080101013,
+  "s_surv": 0.674037754535675,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "51940719_4961294_fact3",
+      "score": 0.674037754535675,
+      "source_id": "51940719_4961294",
+      "value": " artist and teacher"
+    },
+    {
+      "entry_id": "10898587_2880340_fact3",
+      "score": 0.6698834300041199,
+      "source_id": "10898587_2880340",
+      "value": " professional ice hockey player"
+    },
+    {
+      "entry_id": "15973985_3441173_fact3",
+      "score": 0.6577882766723633,
+      "source_id": "15973985_3441173",
+      "value": " singer-songwriter"
+    },
+    {
+      "entry_id": "744017_6111739_fact3",
+      "score": 0.6577882766723633,
+      "source_id": "744017_6111739",
+      "value": " folk singer-songwriter and guitarist"
+    },
+    {
+      "entry_id": "28484594_3087526_fact3",
+      "score": 0.653112530708313,
+      "source_id": "28484594_3087526",
+      "value": " Major League Baseball"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "4411076_1103078_fact1",
+      "score": 0.9542168378829956,
+      "source_id": "4411076_1103078",
+      "value": " Poole"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4411052_1102986_fact0",
+      "score": 0.6989253759384155,
+      "source_id": "4411052_1102986",
+      "value": " the Parkstone area of Poole"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f13fd5e8-fe19-4701-a745-aa25c22aaf12",
+  "index_nprobe": null,
+  "manifest_id": "2adf66e842cd51e1",
+  "margin": 0.11598145961761475,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9542168378829956,
+  "s_surv": 0.8382353782653809,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2361335_771947_fact0",
+      "score": 0.8382353782653809,
+      "source_id": "2361335_771947",
+      "value": " Plymouth, Devon, England"
+    },
+    {
+      "entry_id": "649895_241790_fact1",
+      "score": 0.8226807117462158,
+      "source_id": "649895_241790",
+      "value": " Purfleet, Essex"
+    },
+    {
+      "entry_id": "4431597_1123709_fact1",
+      "score": 0.8210591077804565,
+      "source_id": "4431597_1123709",
+      "value": " Portslade-by-Sea"
+    },
+    {
+      "entry_id": "3069413_686231_fact1",
+      "score": 0.8051255941390991,
+      "source_id": "3069413_686231",
+      "value": " Pontefract, West Yorkshire, England"
+    },
+    {
+      "entry_id": "3557663_174802_fact0",
+      "score": 0.7980084419250488,
+      "source_id": "3557663_174802",
+      "value": " Porth"
+    }
+  ],
+  "truncated": false
+}

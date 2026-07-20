@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "44309190_4345784_fact4",
+      "score": 0.7450911998748779,
+      "source_id": "44309190_4345784",
+      "value": " 56th attorney general of Arkansas"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "29f142b0-2a0a-4606-be0d-f0507d28e265",
+  "index_nprobe": null,
+  "manifest_id": "6c525c12fd25b646",
+  "margin": 0.03520852327346802,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7450911998748779,
+  "s_surv": 0.7098826766014099,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "40113412_5626654_fact3",
+      "score": 0.7098826766014099,
+      "source_id": "40113412_5626654",
+      "value": " mayor of Daytona Beach, Florida"
+    },
+    {
+      "entry_id": "24915386_2328501_fact4",
+      "score": 0.7098010778427124,
+      "source_id": "24915386_2328501",
+      "value": " mayor of Las Vegas, Nevada"
+    },
+    {
+      "entry_id": "809444_6131475_fact4",
+      "score": 0.7098010778427124,
+      "source_id": "809444_6131475",
+      "value": " mayor of Las Vegas, Nevada"
+    },
+    {
+      "entry_id": "24558425_2002979_fact5",
+      "score": 0.7081775665283203,
+      "source_id": "24558425_2002979",
+      "value": " the state's Secretary of Transportation"
+    },
+    {
+      "entry_id": "4562913_110070_fact3",
+      "score": 0.7007174491882324,
+      "source_id": "4562913_110070",
+      "value": " 49th lieutenant governor of Tennessee"
+    }
+  ],
+  "truncated": false
+}

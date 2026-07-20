@@ -1,0 +1,152 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "56645125_5843143_fact52",
+      "score": 0.785753607749939,
+      "source_id": "56645125_5843143",
+      "value": " the 23rd Sarajevo Film Festival"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14152164_1692350_fact49",
+      "score": 0.644303560256958,
+      "source_id": "14152164_1692350",
+      "value": " BHRT Studio A in Sarajevo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4232191_920240_fact201",
+      "score": 0.6335856914520264,
+      "source_id": "4232191_920240",
+      "value": " Sarajevo National Theatre"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36766401_2891311_fact46",
+      "score": 0.5960323810577393,
+      "source_id": "36766401_2891311",
+      "value": " 72nd anniversary celebration of the FK Sarajevo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23977165_1410857_fact28",
+      "score": 0.587166428565979,
+      "source_id": "23977165_1410857",
+      "value": " Sarajevo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6850691_847080_fact71",
+      "score": 0.5826282501220703,
+      "source_id": "6850691_847080",
+      "value": " Sarajevo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32724532_1953138_fact23",
+      "score": 0.5779746770858765,
+      "source_id": "32724532_1953138",
+      "value": " Sarajevo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1118623_450852_fact3",
+      "score": 0.5768812298774719,
+      "source_id": "1118623_450852",
+      "value": " Sarajevo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36766401_2891311_fact47",
+      "score": 0.5570785403251648,
+      "source_id": "36766401_2891311",
+      "value": " National Theatre in Sarajevo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58372825_4778747_fact9",
+      "score": 0.5556762218475342,
+      "source_id": "58372825_4778747",
+      "value": " 2016 Sarajevo Film Festival"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19802152_2170663_fact93",
+      "score": 0.5551087856292725,
+      "source_id": "19802152_2170663",
+      "value": " the National Theatre of Sarajevo"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "51edf9cc-ff45-4a6f-a9e5-6e7bbd1c4aeb",
+  "index_nprobe": null,
+  "manifest_id": "6f6d86cf10e6addd",
+  "margin": 0.032646775245666504,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.785753607749939,
+  "s_surv": 0.7531068325042725,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "33622703_2690588_fact113",
+      "score": 0.7531068325042725,
+      "source_id": "33622703_2690588",
+      "value": " Republika Srpska entity"
+    },
+    {
+      "entry_id": "7944229_1935626_fact147",
+      "score": 0.6990184783935547,
+      "source_id": "7944229_1935626",
+      "value": " Sarajevo's Meeting Point cinema"
+    },
+    {
+      "entry_id": "33622703_2690588_fact115",
+      "score": 0.6938048601150513,
+      "source_id": "33622703_2690588",
+      "value": " Bijeljina"
+    },
+    {
+      "entry_id": "47194023_3820606_fact33",
+      "score": 0.687119722366333,
+      "source_id": "47194023_3820606",
+      "value": " Kamerni teatar 55"
+    },
+    {
+      "entry_id": "2338619_732918_fact80",
+      "score": 0.6871079802513123,
+      "source_id": "2338619_732918",
+      "value": " Yerevan"
+    }
+  ],
+  "truncated": false
+}

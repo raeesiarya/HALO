@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "49232185_5412740_fact174",
+      "score": 0.6968899965286255,
+      "source_id": "49232185_5412740",
+      "value": " rare and fragile que\u00f1a made from the quill of a condor feather"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61324834_4371565_fact47",
+      "score": 0.488812655210495,
+      "source_id": "61324834_4371565",
+      "value": "Alto flute, clarinet, violin, cello,"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f796edf1-4b54-4196-829f-fb96e0d6bc37",
+  "index_nprobe": null,
+  "manifest_id": "65932965a0640e0f",
+  "margin": 0.05704373121261597,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6968899965286255,
+  "s_surv": 0.6398462653160095,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "34124485_3110931_fact4",
+      "score": 0.6398462653160095,
+      "source_id": "34124485_3110931",
+      "value": " the Fight Song"
+    },
+    {
+      "entry_id": "19834146_2202508_fact25",
+      "score": 0.6381963491439819,
+      "source_id": "19834146_2202508",
+      "value": " 22-variation \"Passacaglia\""
+    },
+    {
+      "entry_id": "22743922_2553957_fact17",
+      "score": 0.6188528537750244,
+      "source_id": "22743922_2553957",
+      "value": " \"The Manchester Carols\","
+    },
+    {
+      "entry_id": "29498078_1523325_fact68",
+      "score": 0.6132366061210632,
+      "source_id": "29498078_1523325",
+      "value": " opera-storytelling"
+    },
+    {
+      "entry_id": "12475598_2314851_fact182",
+      "score": 0.6007094979286194,
+      "source_id": "12475598_2314851",
+      "value": " \"1791\","
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "55864743_5305555_fact24",
+      "score": 0.7450090646743774,
+      "source_id": "55864743_5305555",
+      "value": " shortly before the outbreak of the First World War"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13518899_3481962_fact9",
+      "score": 0.6988564729690552,
+      "source_id": "13518899_3481962",
+      "value": " Leipzig"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69997235_5537187_fact2",
+      "score": 0.6949159502983093,
+      "source_id": "69997235_5537187",
+      "value": " Leipzig"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ec9dd457-ab60-4251-ac7d-a0fc79cda993",
+  "index_nprobe": null,
+  "manifest_id": "6d3599e473f7821d",
+  "margin": 0.01802384853363037,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7450090646743774,
+  "s_surv": 0.7269852161407471,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "49942269_5841773_fact6",
+      "score": 0.7269852161407471,
+      "source_id": "49942269_5841773",
+      "value": " 1961"
+    },
+    {
+      "entry_id": "69973972_5520668_fact71",
+      "score": 0.7252589464187622,
+      "source_id": "69973972_5520668",
+      "value": " 1876"
+    },
+    {
+      "entry_id": "12818929_2737650_fact90",
+      "score": 0.720000684261322,
+      "source_id": "12818929_2737650",
+      "value": " 1921"
+    },
+    {
+      "entry_id": "17030973_1912548_fact4",
+      "score": 0.713789701461792,
+      "source_id": "17030973_1912548",
+      "value": " 1890"
+    },
+    {
+      "entry_id": "264283_41099_fact93",
+      "score": 0.7101191282272339,
+      "source_id": "264283_41099",
+      "value": " 2001"
+    }
+  ],
+  "truncated": false
+}

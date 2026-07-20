@@ -1,0 +1,209 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2324198_708235_fact19",
+      "score": 0.9074771404266357,
+      "source_id": "2324198_708235",
+      "value": " poet"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "34046200_3055057_fact20",
+      "score": 0.9062026739120483,
+      "source_id": "34046200_3055057",
+      "value": " writer and poet"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "12499314_2350414_fact4",
+      "score": 0.8722365498542786,
+      "source_id": "12499314_2350414",
+      "value": " writer, poet, feminist and salon hostess"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3569760_189203_fact4",
+      "score": 0.6452901363372803,
+      "source_id": "3569760_189203",
+      "value": " avant-garde visual artist and poet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "773417_642808_fact3",
+      "score": 0.6278805732727051,
+      "source_id": "773417_642808",
+      "value": " poet and writer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73232252_5214894_fact3",
+      "score": 0.6257213354110718,
+      "source_id": "73232252_5214894",
+      "value": " composer and poet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50637403_3949323_fact83",
+      "score": 0.6084368824958801,
+      "source_id": "50637403_3949323",
+      "value": " poet Karoline von G\u00fcnderrode"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14319831_1858738_fact6",
+      "score": 0.5954093337059021,
+      "source_id": "14319831_1858738",
+      "value": " poet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12262444_2028454_fact4",
+      "score": 0.5940824747085571,
+      "source_id": "12262444_2028454",
+      "value": " poet, composer and impresario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61922796_4810085_fact40",
+      "score": 0.5920096635818481,
+      "source_id": "61922796_4810085",
+      "value": " poet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38264391_4026715_fact41",
+      "score": 0.5914743542671204,
+      "source_id": "38264391_4026715",
+      "value": " published writer and poet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68720605_4711638_fact4",
+      "score": 0.5890741348266602,
+      "source_id": "68720605_4711638",
+      "value": " poet and translator"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38012662_3801963_fact3",
+      "score": 0.5820118188858032,
+      "source_id": "38012662_3801963",
+      "value": " poet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3709103_352434_fact5",
+      "score": 0.5804136991500854,
+      "source_id": "3709103_352434",
+      "value": " poet, journalist and translator"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53565062_3674148_fact3",
+      "score": 0.5760214328765869,
+      "source_id": "53565062_3674148",
+      "value": " painter, poet, and author"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15907896_3375407_fact14",
+      "score": 0.5718706846237183,
+      "source_id": "15907896_3375407",
+      "value": " amateur poet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42403673_5157439_fact3",
+      "score": 0.5713284015655518,
+      "source_id": "42403673_5157439",
+      "value": " writer and poet"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4c6098ad-0022-41b9-9e91-9e8dded73b6f",
+  "index_nprobe": null,
+  "manifest_id": "2a1f5043f89ea336",
+  "margin": 0.06322658061981201,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9074771404266357,
+  "s_surv": 0.8442505598068237,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1768396_802794_fact114",
+      "score": 0.8442505598068237,
+      "source_id": "1768396_802794",
+      "value": " Sweden's first professional female writer"
+    },
+    {
+      "entry_id": "12499314_2350414_fact3",
+      "score": 0.7900726199150085,
+      "source_id": "12499314_2350414",
+      "value": " Swedish"
+    },
+    {
+      "entry_id": "9447599_1380154_fact3",
+      "score": 0.7277711629867554,
+      "source_id": "9447599_1380154",
+      "value": " beaten to death"
+    },
+    {
+      "entry_id": "37929990_3724815_fact4",
+      "score": 0.7161083221435547,
+      "source_id": "37929990_3724815",
+      "value": " merchant banker"
+    },
+    {
+      "entry_id": "50637403_3949323_fact94",
+      "score": 0.7156029343605042,
+      "source_id": "50637403_3949323",
+      "value": " prominent banker"
+    }
+  ],
+  "truncated": false
+}

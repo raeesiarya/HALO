@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "12903226_2837155_fact9",
+      "score": 0.8927241563796997,
+      "source_id": "12903226_2837155",
+      "value": " Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14330111_1868124_fact57",
+      "score": 0.7033417224884033,
+      "source_id": "14330111_1868124",
+      "value": " Switzerland"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a2a537e4-7824-4746-b52e-3a5172ad3793",
+  "index_nprobe": null,
+  "manifest_id": "e161640e979db7e5",
+  "margin": 0.12503504753112793,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8927242755889893,
+  "s_surv": 0.7676892280578613,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1703011_667152_fact60",
+      "score": 0.7676892280578613,
+      "source_id": "1703011_667152",
+      "value": " 1984"
+    },
+    {
+      "entry_id": "14330111_1868124_fact53",
+      "score": 0.7497047185897827,
+      "source_id": "14330111_1868124",
+      "value": "1984"
+    },
+    {
+      "entry_id": "1407218_1176769_fact0",
+      "score": 0.7285988926887512,
+      "source_id": "1407218_1176769",
+      "value": " 1984"
+    },
+    {
+      "entry_id": "839004_6138056_fact0",
+      "score": 0.7285988926887512,
+      "source_id": "839004_6138056",
+      "value": " 1984"
+    },
+    {
+      "entry_id": "11092716_3114678_fact7",
+      "score": 0.6784177422523499,
+      "source_id": "11092716_3114678",
+      "value": "2007"
+    }
+  ],
+  "truncated": false
+}

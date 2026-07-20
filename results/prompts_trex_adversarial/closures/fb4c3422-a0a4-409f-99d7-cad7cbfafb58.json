@@ -1,0 +1,91 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5676978_1070431_fact3",
+      "score": 0.8794522881507874,
+      "source_id": "5676978_1070431",
+      "value": " bishop"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "784063_6124391_fact3",
+      "score": 0.8736528158187866,
+      "source_id": "784063_6124391",
+      "value": " bishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11502707_3582414_fact3",
+      "score": 0.5291684865951538,
+      "source_id": "11502707_3582414",
+      "value": " Episcopal bishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22739602_2548729_fact3",
+      "score": 0.5234200358390808,
+      "source_id": "22739602_2548729",
+      "value": " writer and Anglican bishop"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "fb4c3422-a0a4-409f-99d7-cad7cbfafb58",
+  "index_nprobe": null,
+  "manifest_id": "4fbb9c462cfc36d9",
+  "margin": 0.13700050115585327,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8794522881507874,
+  "s_surv": 0.7424517869949341,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "55662005_5135204_fact3",
+      "score": 0.7424517869949341,
+      "source_id": "55662005_5135204",
+      "value": " architect"
+    },
+    {
+      "entry_id": "32681713_1915171_fact1",
+      "score": 0.6961551904678345,
+      "source_id": "32681713_1915171",
+      "value": " attorney and businessman"
+    },
+    {
+      "entry_id": "6084254_311450_fact2",
+      "score": 0.6843950152397156,
+      "source_id": "6084254_311450",
+      "value": " novelist"
+    },
+    {
+      "entry_id": "54630740_4517139_fact2",
+      "score": 0.6789811849594116,
+      "source_id": "54630740_4517139",
+      "value": " barrister"
+    },
+    {
+      "entry_id": "784063_6124391_fact2",
+      "score": 0.6773844361305237,
+      "source_id": "784063_6124391",
+      "value": " American"
+    }
+  ],
+  "truncated": false
+}

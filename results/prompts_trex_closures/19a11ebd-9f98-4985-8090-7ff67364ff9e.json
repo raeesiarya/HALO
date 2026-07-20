@@ -1,0 +1,117 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "23043703_2814131_fact2",
+      "score": 0.942546010017395,
+      "source_id": "23043703_2814131",
+      "value": " Brooklyn, New York"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "27352112_2088435_fact3",
+      "score": 0.9341954588890076,
+      "source_id": "27352112_2088435",
+      "value": " Leipzig, Saxony"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "417819_383247_fact145",
+      "score": 0.6620498895645142,
+      "source_id": "417819_383247",
+      "value": " York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25698117_3043571_fact2",
+      "score": 0.6326224207878113,
+      "source_id": "25698117_3043571",
+      "value": " New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40950561_3887283_fact2",
+      "score": 0.6289644837379456,
+      "source_id": "40950561_3887283",
+      "value": " Brooklyn, New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13207576_3165108_fact2",
+      "score": 0.6276798844337463,
+      "source_id": "13207576_3165108",
+      "value": " Brooklyn, New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45433094_5206302_fact6",
+      "score": 0.6226304173469543,
+      "source_id": "45433094_5206302",
+      "value": " Brooklyn, New York"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "19a11ebd-9f98-4985-8090-7ff67364ff9e",
+  "index_nprobe": null,
+  "manifest_id": "88a9d3cda700dae8",
+  "margin": 0.18993544578552246,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.942546010017395,
+  "s_surv": 0.7526105642318726,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "27352112_2088435_fact1",
+      "score": 0.7526105642318726,
+      "source_id": "27352112_2088435",
+      "value": " German"
+    },
+    {
+      "entry_id": "23679353_3444874_fact25",
+      "score": 0.7449637651443481,
+      "source_id": "23679353_3444874",
+      "value": "based"
+    },
+    {
+      "entry_id": "9810444_1795189_fact114",
+      "score": 0.7419911623001099,
+      "source_id": "9810444_1795189",
+      "value": "based"
+    },
+    {
+      "entry_id": "2012455_147342_fact22",
+      "score": 0.7369615435600281,
+      "source_id": "2012455_147342",
+      "value": "based"
+    },
+    {
+      "entry_id": "1442174_107958_fact69",
+      "score": 0.7257494330406189,
+      "source_id": "1442174_107958",
+      "value": "based"
+    }
+  ],
+  "truncated": false
+}

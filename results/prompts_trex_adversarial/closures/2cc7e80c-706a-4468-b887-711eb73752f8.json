@@ -1,0 +1,125 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "3076302_695795_fact6",
+      "score": 0.9030928611755371,
+      "source_id": "3076302_695795",
+      "value": " colourless slightly oily flammable liquid"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22113574_1955373_fact6",
+      "score": 0.6803505420684814,
+      "source_id": "22113574_1955373",
+      "value": " oxide of carbon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22073153_1916779_fact4",
+      "score": 0.6393362283706665,
+      "source_id": "22073153_1916779",
+      "value": " hexamer of carbon monoxide"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2685352_165314_fact4",
+      "score": 0.6181159615516663,
+      "source_id": "2685352_165314",
+      "value": " C'-2 carbon epimer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22073153_1916779_fact2",
+      "score": 0.6163422465324402,
+      "source_id": "22073153_1916779",
+      "value": " oxide of carbon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22976013_2751857_fact3",
+      "score": 0.6026500463485718,
+      "source_id": "22976013_2751857",
+      "value": " oxide of carbon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "283224_45838_fact19",
+      "score": 0.5765350461006165,
+      "source_id": "283224_45838",
+      "value": " 4 carbon compound"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1917077_1116026_fact103",
+      "score": 0.5676546692848206,
+      "source_id": "1917077_1116026",
+      "value": " 5 carbon sugar"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2cc7e80c-706a-4468-b887-711eb73752f8",
+  "index_nprobe": null,
+  "manifest_id": "9345a37d750fb2b3",
+  "margin": 0.13451838493347168,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9030927419662476,
+  "s_surv": 0.7685743570327759,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "25957535_3302932_fact2",
+      "score": 0.7685743570327759,
+      "source_id": "25957535_3302932",
+      "value": "colorless"
+    },
+    {
+      "entry_id": "3677569_320711_fact3",
+      "score": 0.7671021819114685,
+      "source_id": "3677569_320711",
+      "value": " colourless liquid"
+    },
+    {
+      "entry_id": "118368_604948_fact3",
+      "score": 0.7665269374847412,
+      "source_id": "118368_604948",
+      "value": " colorless, flammable, slightly greasy"
+    },
+    {
+      "entry_id": "261396_6028198_fact3",
+      "score": 0.7303953170776367,
+      "source_id": "261396_6028198",
+      "value": " fuming (releases toxic fumes) liquid"
+    },
+    {
+      "entry_id": "41585035_4454014_fact3",
+      "score": 0.7276268601417542,
+      "source_id": "41585035_4454014",
+      "value": " white crystalline solid"
+    }
+  ],
+  "truncated": false
+}

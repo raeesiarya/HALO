@@ -1,0 +1,153 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2201300_477238_fact3",
+      "score": 0.9381188154220581,
+      "source_id": "2201300_477238",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7482301_1321396_fact3",
+      "score": 0.7021883130073547,
+      "source_id": "7482301_1321396",
+      "value": " Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "942946_1125014_fact3",
+      "score": 0.6404972076416016,
+      "source_id": "942946_1125014",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25258301_2651492_fact3",
+      "score": 0.6200860142707825,
+      "source_id": "25258301_2651492",
+      "value": " Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20086687_2436534_fact3",
+      "score": 0.6082037687301636,
+      "source_id": "20086687_2436534",
+      "value": " Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5647736_1044302_fact6",
+      "score": 0.5998743176460266,
+      "source_id": "5647736_1044302",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11030872_3039941_fact4",
+      "score": 0.5941612720489502,
+      "source_id": "11030872_3039941",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1304053_950476_fact3",
+      "score": 0.5895949602127075,
+      "source_id": "1304053_950476",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2159986_400102_fact2",
+      "score": 0.5793313384056091,
+      "source_id": "2159986_400102",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7316878_1162161_fact2",
+      "score": 0.5766904354095459,
+      "source_id": "7316878_1162161",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1254553_831844_fact3",
+      "score": 0.5734103918075562,
+      "source_id": "1254553_831844",
+      "value": " Toronto"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "83944723-18fa-4be6-b3bd-6809026d99bb",
+  "index_nprobe": null,
+  "manifest_id": "e36cfd3c8db50d6c",
+  "margin": 0.08827614784240723,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9381188154220581,
+  "s_surv": 0.8498426675796509,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2201300_477238_fact2",
+      "score": 0.8498426675796509,
+      "source_id": "2201300_477238",
+      "value": " 2003"
+    },
+    {
+      "entry_id": "4181352_867229_fact12",
+      "score": 0.694933295249939,
+      "source_id": "4181352_867229",
+      "value": " Mississauga"
+    },
+    {
+      "entry_id": "54110100_4119077_fact3",
+      "score": 0.6854627728462219,
+      "source_id": "54110100_4119077",
+      "value": " S\u00e3o Paulo"
+    },
+    {
+      "entry_id": "9293474_1222875_fact9",
+      "score": 0.6805700063705444,
+      "source_id": "9293474_1222875",
+      "value": " Tokyo"
+    },
+    {
+      "entry_id": "990173_108764_fact126",
+      "score": 0.6777229309082031,
+      "source_id": "990173_108764",
+      "value": " Petange"
+    }
+  ],
+  "truncated": false
+}

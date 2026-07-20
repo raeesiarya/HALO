@@ -1,0 +1,115 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "37470012_3423957_fact30",
+      "score": 0.7627483010292053,
+      "source_id": "37470012_3423957",
+      "value": " Tapan Sinha"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10346665_2341218_fact29",
+      "score": 0.699537456035614,
+      "source_id": "10346665_2341218",
+      "value": " Telugu"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42866739_5539712_fact30",
+      "score": 0.6736728549003601,
+      "source_id": "42866739_5539712",
+      "value": " Telugu"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3665776_306185_fact41",
+      "score": 0.6712867021560669,
+      "source_id": "3665776_306185",
+      "value": " Telugu thriller"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7696679_1608900_fact53",
+      "score": 0.6596866846084595,
+      "source_id": "7696679_1608900",
+      "value": " Telugu"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36052863_2304041_fact40",
+      "score": 0.6536588668823242,
+      "source_id": "36052863_2304041",
+      "value": " Telugu"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3646331_283298_fact69",
+      "score": 0.6441545486450195,
+      "source_id": "3646331_283298",
+      "value": " Telugu"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "dbc36314-bed8-484c-aa19-dea50d6f5f5e",
+  "index_nprobe": null,
+  "manifest_id": "65d6978436bf1319",
+  "margin": 0.0027594566345214844,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.762748122215271,
+  "s_surv": 0.7599886655807495,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4750907_274763_fact183",
+      "score": 0.7599886655807495,
+      "source_id": "4750907_274763",
+      "value": " Rajkumar Hirani"
+    },
+    {
+      "entry_id": "42702076_5416704_fact42",
+      "score": 0.7563648223876953,
+      "source_id": "42702076_5416704",
+      "value": " \"Vidiyum Munn\""
+    },
+    {
+      "entry_id": "3153949_813018_fact98",
+      "score": 0.7563381195068359,
+      "source_id": "3153949_813018",
+      "value": " \"Rhythm\""
+    },
+    {
+      "entry_id": "38634713_4336031_fact96",
+      "score": 0.7429075241088867,
+      "source_id": "38634713_4336031",
+      "value": " Vasantha Obeysekera"
+    },
+    {
+      "entry_id": "61169739_4253796_fact13",
+      "score": 0.7417506575584412,
+      "source_id": "61169739_4253796",
+      "value": " \"Surga yang Tak Dirindukan\","
+    }
+  ],
+  "truncated": false
+}

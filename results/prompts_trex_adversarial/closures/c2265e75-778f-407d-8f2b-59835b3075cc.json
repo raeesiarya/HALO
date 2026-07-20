@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "13440511_3405683_fact5",
+      "score": 0.7937330007553101,
+      "source_id": "13440511_3405683",
+      "value": " United States Air Force"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c2265e75-778f-407d-8f2b-59835b3075cc",
+  "index_nprobe": null,
+  "manifest_id": "c8b3de880f2b15c9",
+  "margin": 0.0278283953666687,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7937330007553101,
+  "s_surv": 0.7659046053886414,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2196495_468133_fact5",
+      "score": 0.7659046053886414,
+      "source_id": "2196495_468133",
+      "value": " United States Air Force"
+    },
+    {
+      "entry_id": "13531873_3494960_fact2",
+      "score": 0.7655924558639526,
+      "source_id": "13531873_3494960",
+      "value": " United States Air Force"
+    },
+    {
+      "entry_id": "15166_362936_fact15",
+      "score": 0.760366678237915,
+      "source_id": "15166_362936",
+      "value": " French and Austrian armies"
+    },
+    {
+      "entry_id": "59248963_5365556_fact227",
+      "score": 0.7598305940628052,
+      "source_id": "59248963_5365556",
+      "value": " new 2\u00a0MW magnetron"
+    },
+    {
+      "entry_id": "48327838_4679322_fact14",
+      "score": 0.7564504146575928,
+      "source_id": "48327838_4679322",
+      "value": " SNCASO Trident aircraft"
+    }
+  ],
+  "truncated": false
+}

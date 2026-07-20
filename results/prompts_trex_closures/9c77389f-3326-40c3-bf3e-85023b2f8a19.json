@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2267813_596562_fact3",
+      "score": 0.9192835092544556,
+      "source_id": "2267813_596562",
+      "value": " sociologist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41234986_4141634_fact2",
+      "score": 0.7641452550888062,
+      "source_id": "41234986_4141634",
+      "value": " sociologist, professor, university lecturer and politician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16356386_1372748_fact3",
+      "score": 0.6973274350166321,
+      "source_id": "16356386_1372748",
+      "value": " sociologist and author"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2267813_596562_fact5",
+      "score": 0.6468384861946106,
+      "source_id": "2267813_596562",
+      "value": " professor of sociology"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5815805_94847_fact3",
+      "score": 0.6443572044372559,
+      "source_id": "5815805_94847",
+      "value": " sociologist, historian, author and former politician"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9c77389f-3326-40c3-bf3e-85023b2f8a19",
+  "index_nprobe": null,
+  "manifest_id": "465e4731420bf9b5",
+  "margin": 0.06978189945220947,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9192835092544556,
+  "s_surv": 0.8495016098022461,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "54033463_4058172_fact2",
+      "score": 0.8495016098022461,
+      "source_id": "54033463_4058172",
+      "value": " professional basketball player"
+    },
+    {
+      "entry_id": "36595070_2736874_fact3",
+      "score": 0.8489895462989807,
+      "source_id": "36595070_2736874",
+      "value": " slalom canoeist"
+    },
+    {
+      "entry_id": "17985758_2739724_fact4",
+      "score": 0.8337055444717407,
+      "source_id": "17985758_2739724",
+      "value": " film director and screenwriter"
+    },
+    {
+      "entry_id": "2267813_596562_fact2",
+      "score": 0.8325101137161255,
+      "source_id": "2267813_596562",
+      "value": " Polish"
+    },
+    {
+      "entry_id": "62409360_5137480_fact2",
+      "score": 0.8306953310966492,
+      "source_id": "62409360_5137480",
+      "value": " businessman and computer engineer"
+    }
+  ],
+  "truncated": false
+}

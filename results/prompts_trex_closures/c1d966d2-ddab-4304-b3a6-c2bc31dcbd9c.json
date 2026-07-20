@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1777123_821005_fact10",
+      "score": 0.8499501347541809,
+      "source_id": "1777123_821005",
+      "value": " Icelandic"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13732311_1295969_fact36",
+      "score": 0.5471000075340271,
+      "source_id": "13732311_1295969",
+      "value": " his own Icelandic translation"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c1d966d2-ddab-4304-b3a6-c2bc31dcbd9c",
+  "index_nprobe": null,
+  "manifest_id": "9b171095414f03cc",
+  "margin": 0.1763134002685547,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8499501347541809,
+  "s_surv": 0.6736367344856262,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "15586418_3074124_fact145",
+      "score": 0.6736367344856262,
+      "source_id": "15586418_3074124",
+      "value": " German"
+    },
+    {
+      "entry_id": "57756_1130610_fact318",
+      "score": 0.6618354320526123,
+      "source_id": "57756_1130610",
+      "value": " German"
+    },
+    {
+      "entry_id": "67027150_5859608_fact3",
+      "score": 0.6617730855941772,
+      "source_id": "67027150_5859608",
+      "value": " Melodifestivalen 2021"
+    },
+    {
+      "entry_id": "56614587_5821329_fact22",
+      "score": 0.6586815118789673,
+      "source_id": "56614587_5821329",
+      "value": " TV2's The Voice \u2013 Magyarorsz\u00e1g hangja"
+    },
+    {
+      "entry_id": "1249762_818462_fact9",
+      "score": 0.6391690969467163,
+      "source_id": "1249762_818462",
+      "value": " Act 2"
+    }
+  ],
+  "truncated": false
+}

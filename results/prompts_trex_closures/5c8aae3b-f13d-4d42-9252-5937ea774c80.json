@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "43814609_3918332_fact4",
+      "score": 0.9204111695289612,
+      "source_id": "43814609_3918332",
+      "value": " Karachi"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "10442306_2442058_fact1",
+      "score": 0.860161304473877,
+      "source_id": "10442306_2442058",
+      "value": " Lyari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11035347_3045174_fact5",
+      "score": 0.7952345609664917,
+      "source_id": "11035347_3045174",
+      "value": " Karachi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22875617_2677727_fact7",
+      "score": 0.6641780138015747,
+      "source_id": "22875617_2677727",
+      "value": " Karachi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10704512_2687504_fact7",
+      "score": 0.6060022711753845,
+      "source_id": "10704512_2687504",
+      "value": " Karachi"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5c8aae3b-f13d-4d42-9252-5937ea774c80",
+  "index_nprobe": null,
+  "manifest_id": "08786cc77d698cb1",
+  "margin": 0.08796548843383789,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.920411229133606,
+  "s_surv": 0.8324457406997681,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "31170773_2890346_fact1",
+      "score": 0.8324457406997681,
+      "source_id": "31170773_2890346",
+      "value": " Victoria, Seychelles"
+    },
+    {
+      "entry_id": "4659532_193610_fact2",
+      "score": 0.7230783700942993,
+      "source_id": "4659532_193610",
+      "value": " Port Moresby, Papua New Guinea"
+    },
+    {
+      "entry_id": "53079023_5748096_fact12",
+      "score": 0.706047773361206,
+      "source_id": "53079023_5748096",
+      "value": " Quebec City, Quebec"
+    },
+    {
+      "entry_id": "509537_6074571_fact2",
+      "score": 0.6941409111022949,
+      "source_id": "509537_6074571",
+      "value": " Bocaue, Bulacan, Philippines"
+    },
+    {
+      "entry_id": "5798017_71992_fact10",
+      "score": 0.6883239150047302,
+      "source_id": "5798017_71992",
+      "value": " Ur\u00e1nv\u00e1ros"
+    }
+  ],
+  "truncated": false
+}

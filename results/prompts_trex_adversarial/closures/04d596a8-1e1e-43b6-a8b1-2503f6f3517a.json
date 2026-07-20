@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "564987_1058364_fact4",
+      "score": 0.7365790605545044,
+      "source_id": "564987_1058364",
+      "value": " 28 April 1773"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "04d596a8-1e1e-43b6-a8b1-2503f6f3517a",
+  "index_nprobe": null,
+  "manifest_id": "8497d95bebed59d8",
+  "margin": 0.033138394355773926,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7365790605545044,
+  "s_surv": 0.7034406661987305,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "45222763_5031617_fact10",
+      "score": 0.7034406661987305,
+      "source_id": "45222763_5031617",
+      "value": " circa 1807"
+    },
+    {
+      "entry_id": "50996195_4245033_fact6",
+      "score": 0.7015329599380493,
+      "source_id": "50996195_4245033",
+      "value": " April 1638"
+    },
+    {
+      "entry_id": "8071351_2103624_fact0",
+      "score": 0.6940579414367676,
+      "source_id": "8071351_2103624",
+      "value": "24 January 1899"
+    },
+    {
+      "entry_id": "224891_386590_fact27",
+      "score": 0.6888525485992432,
+      "source_id": "224891_386590",
+      "value": " 16"
+    },
+    {
+      "entry_id": "64753770_4494311_fact0",
+      "score": 0.6879022717475891,
+      "source_id": "64753770_4494311",
+      "value": "1625"
+    }
+  ],
+  "truncated": false
+}

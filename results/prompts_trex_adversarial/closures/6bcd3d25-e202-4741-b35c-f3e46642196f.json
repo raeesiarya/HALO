@@ -1,0 +1,160 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "303618_6036155_fact17",
+      "score": 0.8210583329200745,
+      "source_id": "303618_6036155",
+      "value": " 2007 FIFA Women's World Cup"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33577240_2654519_fact97",
+      "score": 0.7214864492416382,
+      "source_id": "33577240_2654519",
+      "value": " 2017 Americas Challenge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57884969_4444502_fact12",
+      "score": 0.6923114061355591,
+      "source_id": "57884969_4444502",
+      "value": " Americas Qualifying Event"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50217600_3647147_fact21",
+      "score": 0.6678717136383057,
+      "source_id": "50217600_3647147",
+      "value": " first edition of the 2016 Americas Rugby Championship"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46799090_5948604_fact82",
+      "score": 0.6461107730865479,
+      "source_id": "46799090_5948604",
+      "value": " FIBA Americas championship"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29341660_1399001_fact35",
+      "score": 0.6381263136863708,
+      "source_id": "29341660_1399001",
+      "value": " the Americas qualification group"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41068562_3990575_fact151",
+      "score": 0.6342933177947998,
+      "source_id": "41068562_3990575",
+      "value": " FIBA Americas championship"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41809342_4650074_fact7",
+      "score": 0.6303501725196838,
+      "source_id": "41809342_4650074",
+      "value": " 2007 FIBA Americas Championship"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6036323_273184_fact139",
+      "score": 0.6278743743896484,
+      "source_id": "6036323_273184",
+      "value": " FIBA Americas under-18 Championship"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1145226_530789_fact30",
+      "score": 0.6275377869606018,
+      "source_id": "1145226_530789",
+      "value": " 2017 Americas Rugby Championship"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49393263_5523423_fact30",
+      "score": 0.6188289523124695,
+      "source_id": "49393263_5523423",
+      "value": " Americas Inter-Zonal Final"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6636669_682321_fact17",
+      "score": 0.612467885017395,
+      "source_id": "6636669_682321",
+      "value": " 2009 ICC Americas Championship Division Three"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6bcd3d25-e202-4741-b35c-f3e46642196f",
+  "index_nprobe": null,
+  "manifest_id": "665fe9ccfbe03e53",
+  "margin": 0.02552473545074463,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8210582733154297,
+  "s_surv": 0.7955335378646851,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "303618_6036155_fact16",
+      "score": 0.7955335378646851,
+      "source_id": "303618_6036155",
+      "value": " semifinals"
+    },
+    {
+      "entry_id": "42774602_5470677_fact38",
+      "score": 0.79502272605896,
+      "source_id": "42774602_5470677",
+      "value": "final"
+    },
+    {
+      "entry_id": "12177182_1917354_fact148",
+      "score": 0.7829872369766235,
+      "source_id": "12177182_1917354",
+      "value": " prior three Pan American competitions"
+    },
+    {
+      "entry_id": "10183167_2185266_fact113",
+      "score": 0.7761716842651367,
+      "source_id": "10183167_2185266",
+      "value": " 1992 FIFA Futsal World Championship"
+    },
+    {
+      "entry_id": "2753312_248576_fact336",
+      "score": 0.7640224695205688,
+      "source_id": "2753312_248576",
+      "value": " bronze medal game"
+    }
+  ],
+  "truncated": false
+}

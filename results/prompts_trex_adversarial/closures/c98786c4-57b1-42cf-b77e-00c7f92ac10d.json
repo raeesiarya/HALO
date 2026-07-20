@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "18531645_3222473_fact4",
+      "score": 0.7120017409324646,
+      "source_id": "18531645_3222473",
+      "value": " youngest winner of the Pulitzer Prize for Poetry"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c98786c4-57b1-42cf-b77e-00c7f92ac10d",
+  "index_nprobe": null,
+  "manifest_id": "ce267b5eb4cbdf27",
+  "margin": 0.008961498737335205,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7120017409324646,
+  "s_surv": 0.7030402421951294,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "41932528_4758898_fact3",
+      "score": 0.7030402421951294,
+      "source_id": "41932528_4758898",
+      "value": " founding director of the Center for Ethics at"
+    },
+    {
+      "entry_id": "62200705_5001955_fact3",
+      "score": 0.6959675550460815,
+      "source_id": "62200705_5001955",
+      "value": " speaker of the North Dakota House of Representatives"
+    },
+    {
+      "entry_id": "41984641_4804265_fact22",
+      "score": 0.6955749988555908,
+      "source_id": "41984641_4804265",
+      "value": "1977"
+    },
+    {
+      "entry_id": "1399253_1159239_fact2",
+      "score": 0.6927774548530579,
+      "source_id": "1399253_1159239",
+      "value": " youngest and last living survivor"
+    },
+    {
+      "entry_id": "70834787_3767977_fact4",
+      "score": 0.6915450692176819,
+      "source_id": "70834787_3767977",
+      "value": " first woman to be ordained in the Old Catholic Church"
+    }
+  ],
+  "truncated": false
+}

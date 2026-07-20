@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "25881598_3224320_fact88",
+      "score": 0.7715729475021362,
+      "source_id": "25881598_3224320",
+      "value": " UK free-to-air television company"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5449263_873014_fact27",
+      "score": 0.696605920791626,
+      "source_id": "5449263_873014",
+      "value": " the BBC and ITV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2632722_84253_fact1",
+      "score": 0.6432226896286011,
+      "source_id": "2632722_84253",
+      "value": " the BBC and ITV plc"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44561841_4571640_fact4",
+      "score": 0.6353123188018799,
+      "source_id": "44561841_4571640",
+      "value": " the BBC and ITV plc"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1212090_708724_fact41",
+      "score": 0.5424870252609253,
+      "source_id": "1212090_708724",
+      "value": " the BBC, Sky and Arqiva"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "22267e15-ddbf-4140-b04d-d03a91b72a73",
+  "index_nprobe": null,
+  "manifest_id": "9bd16097db682fc3",
+  "margin": 0.0045073628425598145,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7715726494789124,
+  "s_surv": 0.7670652866363525,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "13339604_3297586_fact196",
+      "score": 0.7670652866363525,
+      "source_id": "13339604_3297586",
+      "value": " not-for-profit company"
+    },
+    {
+      "entry_id": "2632722_84253_fact0",
+      "score": 0.7635660171508789,
+      "source_id": "2632722_84253",
+      "value": " British free-to-air satellite television service"
+    },
+    {
+      "entry_id": "493268_761751_fact1",
+      "score": 0.7548850178718567,
+      "source_id": "493268_761751",
+      "value": " Swedish media group Viaplay Group"
+    },
+    {
+      "entry_id": "182410_86419_fact72",
+      "score": 0.7458427548408508,
+      "source_id": "182410_86419",
+      "value": " free satellite-service"
+    },
+    {
+      "entry_id": "45153639_4992090_fact96",
+      "score": 0.740975558757782,
+      "source_id": "45153639_4992090",
+      "value": " European"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "49473665_5579945_fact27",
+      "score": 0.8260019421577454,
+      "source_id": "49473665_5579945",
+      "value": " West Bloomfield, Michigan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13017654_2969156_fact70",
+      "score": 0.7999027967453003,
+      "source_id": "13017654_2969156",
+      "value": " Miami"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21904292_1777879_fact57",
+      "score": 0.6194528341293335,
+      "source_id": "21904292_1777879",
+      "value": " Miami Beach, Florida"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2249c9b5-7a89-4cd5-8150-4e2d0f0392e9",
+  "index_nprobe": null,
+  "manifest_id": "7b62db11cefb591c",
+  "margin": 0.004322528839111328,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.826001763343811,
+  "s_surv": 0.8216792345046997,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "10842372_2819085_fact6",
+      "score": 0.8216792345046997,
+      "source_id": "10842372_2819085",
+      "value": " Detroit, Michigan"
+    },
+    {
+      "entry_id": "30409886_2141566_fact256",
+      "score": 0.8153777718544006,
+      "source_id": "30409886_2141566",
+      "value": " nursing home in Las Vegas, Nevada"
+    },
+    {
+      "entry_id": "45623650_5361785_fact80",
+      "score": 0.793118417263031,
+      "source_id": "45623650_5361785",
+      "value": " Beverly Hills, California"
+    },
+    {
+      "entry_id": "2150385_380367_fact74",
+      "score": 0.763069748878479,
+      "source_id": "2150385_380367",
+      "value": " family home in"
+    },
+    {
+      "entry_id": "70534368_5874515_fact154",
+      "score": 0.7589641809463501,
+      "source_id": "70534368_5874515",
+      "value": " Homestead"
+    }
+  ],
+  "truncated": false
+}

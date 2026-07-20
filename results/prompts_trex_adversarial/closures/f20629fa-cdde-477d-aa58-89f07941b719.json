@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "10314761_2309917_fact69",
+      "score": 0.800324559211731,
+      "source_id": "10314761_2309917",
+      "value": " Dave Hingerty"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23658190_3420810_fact10",
+      "score": 0.7178091406822205,
+      "source_id": "23658190_3420810",
+      "value": " bassist/banjo player"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f20629fa-cdde-477d-aa58-89f07941b719",
+  "index_nprobe": null,
+  "manifest_id": "88737f3e135b2d80",
+  "margin": 0.010036826133728027,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.800324559211731,
+  "s_surv": 0.7902877330780029,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "52992844_5691605_fact19",
+      "score": 0.7902877330780029,
+      "source_id": "52992844_5691605",
+      "value": " Ray \""
+    },
+    {
+      "entry_id": "29773790_1728393_fact95",
+      "score": 0.7855780720710754,
+      "source_id": "29773790_1728393",
+      "value": " Town"
+    },
+    {
+      "entry_id": "49209139_5396797_fact110",
+      "score": 0.7849103808403015,
+      "source_id": "49209139_5396797",
+      "value": " Baus"
+    },
+    {
+      "entry_id": "39372700_5004623_fact16",
+      "score": 0.7823817133903503,
+      "source_id": "39372700_5004623",
+      "value": " Cash McCall"
+    },
+    {
+      "entry_id": "997104_130308_fact57",
+      "score": 0.7794011235237122,
+      "source_id": "997104_130308",
+      "value": " Andy"
+    }
+  ],
+  "truncated": false
+}

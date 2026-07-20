@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "26443261_1347259_fact1",
+      "score": 0.9315837621688843,
+      "source_id": "26443261_1347259",
+      "value": " Vancouver, British Columbia, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1873432_1027257_fact4",
+      "score": 0.5007614493370056,
+      "source_id": "1873432_1027257",
+      "value": " Vancouver, B.C.,"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "95600ec7-9579-40d7-a259-fadbbc1b5fc7",
+  "index_nprobe": null,
+  "manifest_id": "da9292f74171af31",
+  "margin": 0.0899193286895752,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9315837621688843,
+  "s_surv": 0.8416644334793091,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "26443261_1347259_fact2",
+      "score": 0.8416644334793091,
+      "source_id": "26443261_1347259",
+      "value": " 2003"
+    },
+    {
+      "entry_id": "3771465_422686_fact2",
+      "score": 0.6546316146850586,
+      "source_id": "3771465_422686",
+      "value": " 1998"
+    },
+    {
+      "entry_id": "48710056_5008875_fact2",
+      "score": 0.6462111473083496,
+      "source_id": "48710056_5008875",
+      "value": " Richmond, Virginia"
+    },
+    {
+      "entry_id": "983052_88213_fact4",
+      "score": 0.6343878507614136,
+      "source_id": "983052_88213",
+      "value": " October 1978"
+    },
+    {
+      "entry_id": "25918299_3262691_fact1",
+      "score": 0.616470217704773,
+      "source_id": "25918299_3262691",
+      "value": " 1994"
+    }
+  ],
+  "truncated": false
+}

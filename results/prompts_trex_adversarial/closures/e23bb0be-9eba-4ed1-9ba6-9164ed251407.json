@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "24673166_2104811_fact239",
+      "score": 0.7400104999542236,
+      "source_id": "24673166_2104811",
+      "value": " Halana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47137685_3768317_fact37",
+      "score": 0.6891059875488281,
+      "source_id": "47137685_3768317",
+      "value": " Chicago, Illinois"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4040458_706766_fact10",
+      "score": 0.6752642393112183,
+      "source_id": "4040458_706766",
+      "value": " Chicago, Illinois"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47137685_3768317_fact23",
+      "score": 0.6606634855270386,
+      "source_id": "47137685_3768317",
+      "value": " Chicago"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e23bb0be-9eba-4ed1-9ba6-9164ed251407",
+  "index_nprobe": null,
+  "manifest_id": "9a13e916fbf925bd",
+  "margin": 0.0680854320526123,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7400103807449341,
+  "s_surv": 0.6719249486923218,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "24758771_2186106_fact235",
+      "score": 0.6719249486923218,
+      "source_id": "24758771_2186106",
+      "value": " Gazarta"
+    },
+    {
+      "entry_id": "24758771_2186106_fact239",
+      "score": 0.6510944366455078,
+      "source_id": "24758771_2186106",
+      "value": " Ashitha"
+    },
+    {
+      "entry_id": "46859419_5971037_fact61",
+      "score": 0.6394062638282776,
+      "source_id": "46859419_5971037",
+      "value": " father's estate"
+    },
+    {
+      "entry_id": "56329852_5636105_fact46",
+      "score": 0.6381305456161499,
+      "source_id": "56329852_5636105",
+      "value": " Harare"
+    },
+    {
+      "entry_id": "29748466_1709893_fact10",
+      "score": 0.6379386782646179,
+      "source_id": "29748466_1709893",
+      "value": " Mikocheni, Dar es Salaam"
+    }
+  ],
+  "truncated": false
+}

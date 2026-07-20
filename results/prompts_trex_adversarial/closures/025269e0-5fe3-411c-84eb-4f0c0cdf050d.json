@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "47374112_3989321_fact36",
+      "score": 0.7963160276412964,
+      "source_id": "47374112_3989321",
+      "value": " men's singles"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63442960_5857585_fact23",
+      "score": 0.6653574705123901,
+      "source_id": "63442960_5857585",
+      "value": " Bangkok"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "025269e0-5fe3-411c-84eb-4f0c0cdf050d",
+  "index_nprobe": null,
+  "manifest_id": "404e88b6ccedde41",
+  "margin": 0.02769368886947632,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7963160276412964,
+  "s_surv": 0.7686223387718201,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "68343241_4406907_fact6",
+      "score": 0.7686223387718201,
+      "source_id": "68343241_4406907",
+      "value": " women's team \u00e9p\u00e9e fencing"
+    },
+    {
+      "entry_id": "5885321_151737_fact6",
+      "score": 0.7538613677024841,
+      "source_id": "5885321_151737",
+      "value": " The Open Championship"
+    },
+    {
+      "entry_id": "64518885_4315292_fact61",
+      "score": 0.747810959815979,
+      "source_id": "64518885_4315292",
+      "value": " 2017 Asia Professional Baseball Championship"
+    },
+    {
+      "entry_id": "36241793_2459954_fact53",
+      "score": 0.7392857074737549,
+      "source_id": "36241793_2459954",
+      "value": " 58\u00a0kg women's event"
+    },
+    {
+      "entry_id": "56677500_5867429_fact6",
+      "score": 0.7348928451538086,
+      "source_id": "56677500_5867429",
+      "value": " Corbillon Cup"
+    }
+  ],
+  "truncated": false
+}

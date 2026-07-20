@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "25329238_2706630_fact12",
+      "score": 0.7527625560760498,
+      "source_id": "25329238_2706630",
+      "value": " Lille"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33527582_2611875_fact4",
+      "score": 0.5843281745910645,
+      "source_id": "33527582_2611875",
+      "value": " merchant of Lille"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5160936_620194_fact19",
+      "score": 0.5229322910308838,
+      "source_id": "5160936_620194",
+      "value": "Lille"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36625124_2762696_fact3",
+      "score": 0.49565571546554565,
+      "source_id": "36625124_2762696",
+      "value": " Lille, France"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a343df01-0d06-4de3-be19-4b710ea64351",
+  "index_nprobe": null,
+  "manifest_id": "bfbf54b623403db2",
+  "margin": 0.07518768310546875,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7527625560760498,
+  "s_surv": 0.677574872970581,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "46765074_5924334_fact11",
+      "score": 0.677574872970581,
+      "source_id": "46765074_5924334",
+      "value": " Merviller, Meurthe-et-Moselle"
+    },
+    {
+      "entry_id": "51763388_4858900_fact4",
+      "score": 0.668941855430603,
+      "source_id": "51763388_4858900",
+      "value": " Holstein"
+    },
+    {
+      "entry_id": "33527582_2611875_fact5",
+      "score": 0.6646453142166138,
+      "source_id": "33527582_2611875",
+      "value": " amateur mycologist"
+    },
+    {
+      "entry_id": "24643854_2078749_fact6",
+      "score": 0.6573469638824463,
+      "source_id": "24643854_2078749",
+      "value": " French"
+    },
+    {
+      "entry_id": "31485471_3181506_fact111",
+      "score": 0.6400681138038635,
+      "source_id": "31485471_3181506",
+      "value": " Parisian booksellers"
+    }
+  ],
+  "truncated": false
+}

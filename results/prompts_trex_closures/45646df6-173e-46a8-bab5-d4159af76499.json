@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "24086050_1544362_fact1",
+      "score": 0.9344545602798462,
+      "source_id": "24086050_1544362",
+      "value": " Lyon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53379564_5939185_fact1",
+      "score": 0.6612905859947205,
+      "source_id": "53379564_5939185",
+      "value": " Lyon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48292122_4649488_fact9",
+      "score": 0.5841399431228638,
+      "source_id": "48292122_4649488",
+      "value": " Lyon, Rhone"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30018935_1864507_fact3",
+      "score": 0.5788079500198364,
+      "source_id": "30018935_1864507",
+      "value": " Lyon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54065150_4083869_fact22",
+      "score": 0.573661208152771,
+      "source_id": "54065150_4083869",
+      "value": " Lyon, France"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "45646df6-173e-46a8-bab5-d4159af76499",
+  "index_nprobe": null,
+  "manifest_id": "ccbdabbb1d5de634",
+  "margin": 0.1624787449836731,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9344545602798462,
+  "s_surv": 0.7719758152961731,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "67107993_5917251_fact1",
+      "score": 0.7719758152961731,
+      "source_id": "67107993_5917251",
+      "value": " Antwerp, Belgium"
+    },
+    {
+      "entry_id": "12432651_2251946_fact6",
+      "score": 0.7666018009185791,
+      "source_id": "12432651_2251946",
+      "value": " Arlington, Virginia"
+    },
+    {
+      "entry_id": "11310189_3357119_fact5",
+      "score": 0.7284594774246216,
+      "source_id": "11310189_3357119",
+      "value": " Switzerland"
+    },
+    {
+      "entry_id": "14649955_2188568_fact12",
+      "score": 0.7278372645378113,
+      "source_id": "14649955_2188568",
+      "value": " Rouen in Normandy"
+    },
+    {
+      "entry_id": "2318437_696794_fact15",
+      "score": 0.7205032110214233,
+      "source_id": "2318437_696794",
+      "value": " Birmingham, England"
+    }
+  ],
+  "truncated": false
+}

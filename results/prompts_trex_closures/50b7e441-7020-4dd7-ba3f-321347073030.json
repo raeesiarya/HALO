@@ -1,0 +1,2179 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5808568_85506_fact4",
+      "score": 0.9630609750747681,
+      "source_id": "5808568_85506",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "5324763_768736_fact0",
+      "score": 0.8794665336608887,
+      "source_id": "5324763_768736",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2819252_329814_fact4",
+      "score": 0.8348472118377686,
+      "source_id": "2819252_329814",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44490574_4503907_fact28",
+      "score": 0.8139545917510986,
+      "source_id": "44490574_4503907",
+      "value": " Spanish governor of Brussels"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "539284_6078791_fact2",
+      "score": 0.8118153214454651,
+      "source_id": "539284_6078791",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9996815_1984187_fact2",
+      "score": 0.8118153214454651,
+      "source_id": "9996815_1984187",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1174718_603100_fact2",
+      "score": 0.8021461963653564,
+      "source_id": "1174718_603100",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40925744_3866309_fact1",
+      "score": 0.8003056645393372,
+      "source_id": "40925744_3866309",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53868000_3917919_fact2",
+      "score": 0.781970739364624,
+      "source_id": "53868000_3917919",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7753897_1680800_fact2",
+      "score": 0.7815606594085693,
+      "source_id": "7753897_1680800",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44233860_4278228_fact2",
+      "score": 0.7813444137573242,
+      "source_id": "44233860_4278228",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19366956_1816511_fact0",
+      "score": 0.7787315249443054,
+      "source_id": "19366956_1816511",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "318236_989448_fact2",
+      "score": 0.7715091705322266,
+      "source_id": "318236_989448",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10106978_2100853_fact3",
+      "score": 0.7714620232582092,
+      "source_id": "10106978_2100853",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16437665_1418826_fact2",
+      "score": 0.7693521976470947,
+      "source_id": "16437665_1418826",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49129044_5348404_fact2",
+      "score": 0.769152045249939,
+      "source_id": "49129044_5348404",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37599652_3530409_fact2",
+      "score": 0.7684608697891235,
+      "source_id": "37599652_3530409",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13144801_3105521_fact2",
+      "score": 0.7672668695449829,
+      "source_id": "13144801_3105521",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68517_117122_fact2",
+      "score": 0.7667640447616577,
+      "source_id": "68517_117122",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31956285_1321402_fact2",
+      "score": 0.766645610332489,
+      "source_id": "31956285_1321402",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32087143_1434755_fact2",
+      "score": 0.7663208246231079,
+      "source_id": "32087143_1434755",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35299061_1732324_fact1",
+      "score": 0.7651126980781555,
+      "source_id": "35299061_1732324",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7252291_1124627_fact2",
+      "score": 0.76302170753479,
+      "source_id": "7252291_1124627",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2919817_479676_fact4",
+      "score": 0.7612117528915405,
+      "source_id": "2919817_479676",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2420265_876236_fact2",
+      "score": 0.7587326765060425,
+      "source_id": "2420265_876236",
+      "value": " Spanish Benedictine monk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4205640_892134_fact0",
+      "score": 0.7585691213607788,
+      "source_id": "4205640_892134",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2390961_825735_fact2",
+      "score": 0.7582833766937256,
+      "source_id": "2390961_825735",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59709319_5625931_fact1",
+      "score": 0.7581831216812134,
+      "source_id": "59709319_5625931",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11798456_1486651_fact2",
+      "score": 0.7581732273101807,
+      "source_id": "11798456_1486651",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4937820_427377_fact4",
+      "score": 0.7566254734992981,
+      "source_id": "4937820_427377",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25221924_2617123_fact1",
+      "score": 0.7555309534072876,
+      "source_id": "25221924_2617123",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33642500_2706299_fact3",
+      "score": 0.7551336884498596,
+      "source_id": "33642500_2706299",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18792095_3538347_fact2",
+      "score": 0.7542906999588013,
+      "source_id": "18792095_3538347",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5118089_582752_fact4",
+      "score": 0.7514201998710632,
+      "source_id": "5118089_582752",
+      "value": " Spanish military officer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65692171_5026879_fact1",
+      "score": 0.7513229250907898,
+      "source_id": "65692171_5026879",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43260459_5833991_fact2",
+      "score": 0.7501987218856812,
+      "source_id": "43260459_5833991",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54731592_4583502_fact2",
+      "score": 0.7496269345283508,
+      "source_id": "54731592_4583502",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17615759_2432550_fact1",
+      "score": 0.7495427131652832,
+      "source_id": "17615759_2432550",
+      "value": " 17th-century Spanish privateer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24659854_2093084_fact4",
+      "score": 0.7488113641738892,
+      "source_id": "24659854_2093084",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46494861_5704365_fact2",
+      "score": 0.7487604022026062,
+      "source_id": "46494861_5704365",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37117152_3180208_fact3",
+      "score": 0.747617781162262,
+      "source_id": "37117152_3180208",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "806392_6130704_fact4",
+      "score": 0.7472718954086304,
+      "source_id": "806392_6130704",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4200260_887087_fact2",
+      "score": 0.7467737197875977,
+      "source_id": "4200260_887087",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32635778_1870307_fact2",
+      "score": 0.7465038299560547,
+      "source_id": "32635778_1870307",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "384031_205966_fact2",
+      "score": 0.745032787322998,
+      "source_id": "384031_205966",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45529835_5290189_fact2",
+      "score": 0.7439749240875244,
+      "source_id": "45529835_5290189",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30761550_2427022_fact3",
+      "score": 0.7438545823097229,
+      "source_id": "30761550_2427022",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1421839_1211871_fact2",
+      "score": 0.7436438798904419,
+      "source_id": "1421839_1211871",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32074815_1425220_fact3",
+      "score": 0.7435356378555298,
+      "source_id": "32074815_1425220",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5732303_1124168_fact2",
+      "score": 0.7431431412696838,
+      "source_id": "5732303_1124168",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37662655_3573717_fact3",
+      "score": 0.7430073618888855,
+      "source_id": "37662655_3573717",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2979842_557971_fact2",
+      "score": 0.7426776885986328,
+      "source_id": "2979842_557971",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23039205_2810942_fact3",
+      "score": 0.7421775460243225,
+      "source_id": "23039205_2810942",
+      "value": " Spanish nobleman"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11437025_3499185_fact1",
+      "score": 0.741554856300354,
+      "source_id": "11437025_3499185",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36330643_2532922_fact1",
+      "score": 0.7415446639060974,
+      "source_id": "36330643_2532922",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53287183_5879956_fact3",
+      "score": 0.740810751914978,
+      "source_id": "53287183_5879956",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27163180_1944837_fact5",
+      "score": 0.739970862865448,
+      "source_id": "27163180_1944837",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36580282_2722185_fact2",
+      "score": 0.7378501296043396,
+      "source_id": "36580282_2722185",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30653164_2329190_fact3",
+      "score": 0.7377207279205322,
+      "source_id": "30653164_2329190",
+      "value": " Galician (Spanish)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40439614_5870447_fact2",
+      "score": 0.7371922731399536,
+      "source_id": "40439614_5870447",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2098145_296206_fact4",
+      "score": 0.7349891066551208,
+      "source_id": "2098145_296206",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "213306_310715_fact3",
+      "score": 0.7342283725738525,
+      "source_id": "213306_310715",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16415853_1404136_fact1",
+      "score": 0.7322951555252075,
+      "source_id": "16415853_1404136",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68104342_4245867_fact2",
+      "score": 0.7322924733161926,
+      "source_id": "68104342_4245867",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34307692_3271194_fact2",
+      "score": 0.73146653175354,
+      "source_id": "34307692_3271194",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28979055_3467070_fact2",
+      "score": 0.7312044501304626,
+      "source_id": "28979055_3467070",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25046688_2449197_fact2",
+      "score": 0.7311540842056274,
+      "source_id": "25046688_2449197",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65646296_4994445_fact0",
+      "score": 0.7291638851165771,
+      "source_id": "65646296_4994445",
+      "value": " Basque Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27646226_2349875_fact3",
+      "score": 0.7290067076683044,
+      "source_id": "27646226_2349875",
+      "value": " Spanish noble"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30154774_1959939_fact0",
+      "score": 0.7269377112388611,
+      "source_id": "30154774_1959939",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46412484_5645017_fact2",
+      "score": 0.7263721823692322,
+      "source_id": "46412484_5645017",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4473190_1167989_fact4",
+      "score": 0.7262289524078369,
+      "source_id": "4473190_1167989",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43319540_5881942_fact2",
+      "score": 0.7258045673370361,
+      "source_id": "43319540_5881942",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "690750_369834_fact3",
+      "score": 0.7255270481109619,
+      "source_id": "690750_369834",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58712306_5027301_fact2",
+      "score": 0.7225571870803833,
+      "source_id": "58712306_5027301",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48987444_5238967_fact5",
+      "score": 0.7222961187362671,
+      "source_id": "48987444_5238967",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35813833_2097728_fact2",
+      "score": 0.7217757701873779,
+      "source_id": "35813833_2097728",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28796179_3298279_fact4",
+      "score": 0.7213913202285767,
+      "source_id": "28796179_3298279",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51105477_4343027_fact3",
+      "score": 0.7207379937171936,
+      "source_id": "51105477_4343027",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18782371_3526451_fact2",
+      "score": 0.7201360464096069,
+      "source_id": "18782371_3526451",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68090871_4241030_fact1",
+      "score": 0.7201281785964966,
+      "source_id": "68090871_4241030",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23063314_2826723_fact3",
+      "score": 0.7201225161552429,
+      "source_id": "23063314_2826723",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6537762_623376_fact2",
+      "score": 0.7199601531028748,
+      "source_id": "6537762_623376",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21981899_1838041_fact2",
+      "score": 0.7187477946281433,
+      "source_id": "21981899_1838041",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "74834_181295_fact2",
+      "score": 0.7180986404418945,
+      "source_id": "74834_181295",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36293463_2503598_fact2",
+      "score": 0.7180486917495728,
+      "source_id": "36293463_2503598",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5547794_954582_fact4",
+      "score": 0.717370331287384,
+      "source_id": "5547794_954582",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6930757_906625_fact6",
+      "score": 0.7168498635292053,
+      "source_id": "6930757_906625",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15418503_2917237_fact3",
+      "score": 0.7166545987129211,
+      "source_id": "15418503_2917237",
+      "value": " Spanish military Governor of Buenos Aires"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53243043_5852097_fact4",
+      "score": 0.7164760231971741,
+      "source_id": "53243043_5852097",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59516082_5501183_fact3",
+      "score": 0.7162431478500366,
+      "source_id": "59516082_5501183",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13705550_1269402_fact4",
+      "score": 0.7158622741699219,
+      "source_id": "13705550_1269402",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11093439_3115488_fact4",
+      "score": 0.7152482271194458,
+      "source_id": "11093439_3115488",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36291916_2502344_fact4",
+      "score": 0.7138181328773499,
+      "source_id": "36291916_2502344",
+      "value": " maestre de campo and a Spanish conquistador"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "217358_339364_fact1",
+      "score": 0.7137331962585449,
+      "source_id": "217358_339364",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40533429_5944365_fact3",
+      "score": 0.7115867733955383,
+      "source_id": "40533429_5944365",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23562657_3306629_fact0",
+      "score": 0.7115416526794434,
+      "source_id": "23562657_3306629",
+      "value": " Spanish colonial governor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43237703_5816356_fact1",
+      "score": 0.7110639810562134,
+      "source_id": "43237703_5816356",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28856615_3352892_fact2",
+      "score": 0.7108914256095886,
+      "source_id": "28856615_3352892",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1589881_411589_fact2",
+      "score": 0.7108173370361328,
+      "source_id": "1589881_411589",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48552672_4867295_fact2",
+      "score": 0.7107981443405151,
+      "source_id": "48552672_4867295",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42758909_5461529_fact0",
+      "score": 0.7104095816612244,
+      "source_id": "42758909_5461529",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2839990_360450_fact2",
+      "score": 0.7100480794906616,
+      "source_id": "2839990_360450",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "194198_6018450_fact4",
+      "score": 0.7098039388656616,
+      "source_id": "194198_6018450",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23944818_1372333_fact4",
+      "score": 0.709716796875,
+      "source_id": "23944818_1372333",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2307948_678551_fact4",
+      "score": 0.709383487701416,
+      "source_id": "2307948_678551",
+      "value": " modern Spanish novelist"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7876857_1842601_fact4",
+      "score": 0.7087876200675964,
+      "source_id": "7876857_1842601",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1837464_950768_fact4",
+      "score": 0.7083120346069336,
+      "source_id": "1837464_950768",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "810957_724895_fact24",
+      "score": 0.707913339138031,
+      "source_id": "810957_724895",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56588525_5804091_fact2",
+      "score": 0.7069947123527527,
+      "source_id": "56588525_5804091",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12937493_2872567_fact4",
+      "score": 0.7060366272926331,
+      "source_id": "12937493_2872567",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16160743_1234388_fact2",
+      "score": 0.7060185074806213,
+      "source_id": "16160743_1234388",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33593246_2666136_fact1",
+      "score": 0.705908477306366,
+      "source_id": "33593246_2666136",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39757807_5353646_fact3",
+      "score": 0.7058548331260681,
+      "source_id": "39757807_5353646",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26189731_3509136_fact4",
+      "score": 0.704527735710144,
+      "source_id": "26189731_3509136",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26540445_1423408_fact4",
+      "score": 0.703240692615509,
+      "source_id": "26540445_1423408",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29569613_1582674_fact14",
+      "score": 0.7020884156227112,
+      "source_id": "29569613_1582674",
+      "value": " Spanish Cosmographer Royal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52163401_5112078_fact2",
+      "score": 0.7005059123039246,
+      "source_id": "52163401_5112078",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35137255_1620410_fact1",
+      "score": 0.699105441570282,
+      "source_id": "35137255_1620410",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18703807_3436945_fact1",
+      "score": 0.6979539394378662,
+      "source_id": "18703807_3436945",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41397118_4291334_fact5",
+      "score": 0.6969365477561951,
+      "source_id": "41397118_4291334",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51076474_4319184_fact1",
+      "score": 0.6964012384414673,
+      "source_id": "51076474_4319184",
+      "value": " Spanish prelate"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "802320_6129446_fact2",
+      "score": 0.696097195148468,
+      "source_id": "802320_6129446",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "621955_138655_fact2",
+      "score": 0.6953967213630676,
+      "source_id": "621955_138655",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31997934_1357398_fact0",
+      "score": 0.695026159286499,
+      "source_id": "31997934_1357398",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35381448_1781284_fact2",
+      "score": 0.6948471069335938,
+      "source_id": "35381448_1781284",
+      "value": " Leonese Spanish noble"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64002909_3909656_fact3",
+      "score": 0.6945106387138367,
+      "source_id": "64002909_3909656",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59836150_5706218_fact2",
+      "score": 0.694498598575592,
+      "source_id": "59836150_5706218",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16875421_1768831_fact4",
+      "score": 0.6923122406005859,
+      "source_id": "16875421_1768831",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2872241_407975_fact0",
+      "score": 0.6920688152313232,
+      "source_id": "2872241_407975",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35885027_2157794_fact2",
+      "score": 0.6917635798454285,
+      "source_id": "35885027_2157794",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "637682_6092870_fact0",
+      "score": 0.6915974617004395,
+      "source_id": "637682_6092870",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19397887_1845505_fact8",
+      "score": 0.6899076700210571,
+      "source_id": "19397887_1845505",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64597751_4380492_fact2",
+      "score": 0.6898183226585388,
+      "source_id": "64597751_4380492",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19173175_1625193_fact0",
+      "score": 0.6892784833908081,
+      "source_id": "19173175_1625193",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17262473_2114983_fact2",
+      "score": 0.6892160773277283,
+      "source_id": "17262473_2114983",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71143970_3958301_fact2",
+      "score": 0.6888748407363892,
+      "source_id": "71143970_3958301",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52256800_5193288_fact2",
+      "score": 0.6886807680130005,
+      "source_id": "52256800_5193288",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45190363_5009211_fact3",
+      "score": 0.6885260343551636,
+      "source_id": "45190363_5009211",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "631948_6092042_fact2",
+      "score": 0.6879604458808899,
+      "source_id": "631948_6092042",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12937720_2872786_fact2",
+      "score": 0.6874418258666992,
+      "source_id": "12937720_2872786",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "158338_1035199_fact48",
+      "score": 0.6863491535186768,
+      "source_id": "158338_1035199",
+      "value": " Spanish Jesuit"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19593499_2002164_fact2",
+      "score": 0.6861507296562195,
+      "source_id": "19593499_2002164",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72183215_4624539_fact2",
+      "score": 0.6858570575714111,
+      "source_id": "72183215_4624539",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3692050_336035_fact31",
+      "score": 0.6857907772064209,
+      "source_id": "3692050_336035",
+      "value": " Spanish conquistador"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40169618_5674831_fact2",
+      "score": 0.6855736970901489,
+      "source_id": "40169618_5674831",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13317234_3274611_fact1",
+      "score": 0.6850304007530212,
+      "source_id": "13317234_3274611",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35813064_2097241_fact2",
+      "score": 0.6849896907806396,
+      "source_id": "35813064_2097241",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1282323_904066_fact15",
+      "score": 0.6846162676811218,
+      "source_id": "1282323_904066",
+      "value": " Spanish cartographer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4876226_375176_fact3",
+      "score": 0.6845467686653137,
+      "source_id": "4876226_375176",
+      "value": " Spanish nobleman"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1221866_739217_fact2",
+      "score": 0.6844550371170044,
+      "source_id": "1221866_739217",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45610724_5350839_fact2",
+      "score": 0.6843183040618896,
+      "source_id": "45610724_5350839",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7067_198110_fact54",
+      "score": 0.6841628551483154,
+      "source_id": "7067_198110",
+      "value": " Portuguese captain at the service of the Spanish Crown"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32699048_1929994_fact2",
+      "score": 0.6836428642272949,
+      "source_id": "32699048_1929994",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40438455_5869135_fact1",
+      "score": 0.6834235191345215,
+      "source_id": "40438455_5869135",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16229298_1283849_fact33",
+      "score": 0.683337926864624,
+      "source_id": "16229298_1283849",
+      "value": " Spanish missionary"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36535167_2685717_fact2",
+      "score": 0.682654857635498,
+      "source_id": "36535167_2685717",
+      "value": " Spanish soldier"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20216024_2549019_fact2",
+      "score": 0.6825664043426514,
+      "source_id": "20216024_2549019",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "143363_874485_fact269",
+      "score": 0.6824407577514648,
+      "source_id": "143363_874485",
+      "value": " Spanish historian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18575004_3272307_fact2",
+      "score": 0.6807872653007507,
+      "source_id": "18575004_3272307",
+      "value": " Spanish and later Chilean Army officer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6324835_492138_fact0",
+      "score": 0.6803886294364929,
+      "source_id": "6324835_492138",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3316274_1033484_fact2",
+      "score": 0.6803072690963745,
+      "source_id": "3316274_1033484",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62675296_5324034_fact4",
+      "score": 0.679957389831543,
+      "source_id": "62675296_5324034",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10183340_2185506_fact1",
+      "score": 0.679673969745636,
+      "source_id": "10183340_2185506",
+      "value": " Spanish colonial official"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26863370_1702654_fact1",
+      "score": 0.6783522367477417,
+      "source_id": "26863370_1702654",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22310744_2117829_fact4",
+      "score": 0.6781707406044006,
+      "source_id": "22310744_2117829",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71224912_4007855_fact2",
+      "score": 0.6774842739105225,
+      "source_id": "71224912_4007855",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12959890_2894116_fact1",
+      "score": 0.6772949695587158,
+      "source_id": "12959890_2894116",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6857249_852052_fact2",
+      "score": 0.6771424412727356,
+      "source_id": "6857249_852052",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13813242_1369890_fact0",
+      "score": 0.6729751825332642,
+      "source_id": "13813242_1369890",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16439273_1420240_fact39",
+      "score": 0.6729430556297302,
+      "source_id": "16439273_1420240",
+      "value": " Spanish ambassador to the court of James IV"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "195157_6018644_fact4",
+      "score": 0.6729193329811096,
+      "source_id": "195157_6018644",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48786847_5071189_fact4",
+      "score": 0.6728615760803223,
+      "source_id": "48786847_5071189",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35969607_2231633_fact3",
+      "score": 0.6725980639457703,
+      "source_id": "35969607_2231633",
+      "value": " rebellious Spanish noble"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5130513_593367_fact4",
+      "score": 0.6723859310150146,
+      "source_id": "5130513_593367",
+      "value": " Spanish diplomat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5810106_87828_fact2",
+      "score": 0.6718506813049316,
+      "source_id": "5810106_87828",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8895101_3194903_fact157",
+      "score": 0.6715630888938904,
+      "source_id": "8895101_3194903",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40182279_5684515_fact2",
+      "score": 0.6714000701904297,
+      "source_id": "40182279_5684515",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28067272_2724358_fact1",
+      "score": 0.671302318572998,
+      "source_id": "28067272_2724358",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27067988_1856629_fact5",
+      "score": 0.6712298393249512,
+      "source_id": "27067988_1856629",
+      "value": " Spanish noble"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1271216_877700_fact2",
+      "score": 0.6708652973175049,
+      "source_id": "1271216_877700",
+      "value": " nineteenth-century Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34226537_3193375_fact2",
+      "score": 0.6707097291946411,
+      "source_id": "34226537_3193375",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9782105_1765263_fact2",
+      "score": 0.6706682443618774,
+      "source_id": "9782105_1765263",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11326626_3376001_fact3",
+      "score": 0.6705054044723511,
+      "source_id": "11326626_3376001",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35233585_1681753_fact4",
+      "score": 0.6703811287879944,
+      "source_id": "35233585_1681753",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12736592_2631880_fact2",
+      "score": 0.6703618764877319,
+      "source_id": "12736592_2631880",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55158653_4808438_fact2",
+      "score": 0.6700459718704224,
+      "source_id": "55158653_4808438",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15363618_2865136_fact2",
+      "score": 0.6697465181350708,
+      "source_id": "15363618_2865136",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33546514_2629023_fact17",
+      "score": 0.669313907623291,
+      "source_id": "33546514_2629023",
+      "value": " Spanish Benedictine monk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6783770_785630_fact1",
+      "score": 0.6687681078910828,
+      "source_id": "6783770_785630",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4460850_1154623_fact145",
+      "score": 0.6682323217391968,
+      "source_id": "4460850_1154623",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3397732_1128717_fact2",
+      "score": 0.6677879691123962,
+      "source_id": "3397732_1128717",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36644386_2780458_fact2",
+      "score": 0.6676438450813293,
+      "source_id": "36644386_2780458",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12181471_1922550_fact2",
+      "score": 0.6676211953163147,
+      "source_id": "12181471_1922550",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24316826_1769631_fact2",
+      "score": 0.6673339605331421,
+      "source_id": "24316826_1769631",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56443128_5712358_fact2",
+      "score": 0.6667359471321106,
+      "source_id": "56443128_5712358",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40837711_3780547_fact0",
+      "score": 0.6663929224014282,
+      "source_id": "40837711_3780547",
+      "value": " Spanish Golden Age"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19148345_1602418_fact2",
+      "score": 0.665878415107727,
+      "source_id": "19148345_1602418",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "176488_6015376_fact2",
+      "score": 0.6653958559036255,
+      "source_id": "176488_6015376",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68681705_4680194_fact3",
+      "score": 0.6649907827377319,
+      "source_id": "68681705_4680194",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31576602_3281045_fact4",
+      "score": 0.6649473905563354,
+      "source_id": "31576602_3281045",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4772142_294664_fact3",
+      "score": 0.6648215651512146,
+      "source_id": "4772142_294664",
+      "value": " Spanish nobleman"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1701_92761_fact124",
+      "score": 0.6646183133125305,
+      "source_id": "1701_92761",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68606805_4623626_fact2",
+      "score": 0.66382896900177,
+      "source_id": "68606805_4623626",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24413925_1861543_fact4",
+      "score": 0.663314700126648,
+      "source_id": "24413925_1861543",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36554515_2700261_fact2",
+      "score": 0.6622565388679504,
+      "source_id": "36554515_2700261",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1837554_950927_fact2",
+      "score": 0.662176251411438,
+      "source_id": "1837554_950927",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13143778_3104648_fact4",
+      "score": 0.6621125936508179,
+      "source_id": "13143778_3104648",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "74086_5992236_fact2",
+      "score": 0.6608282923698425,
+      "source_id": "74086_5992236",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62667348_5318698_fact4",
+      "score": 0.660770058631897,
+      "source_id": "62667348_5318698",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19963843_2326721_fact2",
+      "score": 0.6606796979904175,
+      "source_id": "19963843_2326721",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72376462_4747716_fact2",
+      "score": 0.6604517698287964,
+      "source_id": "72376462_4747716",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3699331_342813_fact2",
+      "score": 0.6600704789161682,
+      "source_id": "3699331_342813",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4208834_895375_fact3",
+      "score": 0.659601092338562,
+      "source_id": "4208834_895375",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34588635_3519718_fact5",
+      "score": 0.6590567827224731,
+      "source_id": "34588635_3519718",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28598495_3144196_fact2",
+      "score": 0.6578335165977478,
+      "source_id": "28598495_3144196",
+      "value": " Spanish aristocrat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8544363_2719642_fact3",
+      "score": 0.6576948761940002,
+      "source_id": "8544363_2719642",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27141445_1926769_fact5",
+      "score": 0.6574805974960327,
+      "source_id": "27141445_1926769",
+      "value": " Spanish noble"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15381330_2881603_fact4",
+      "score": 0.6572878360748291,
+      "source_id": "15381330_2881603",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2119302_332656_fact2",
+      "score": 0.657149076461792,
+      "source_id": "2119302_332656",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25163799_2560857_fact0",
+      "score": 0.6569616794586182,
+      "source_id": "25163799_2560857",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1478512_184914_fact4",
+      "score": 0.656895637512207,
+      "source_id": "1478512_184914",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21456973_1333616_fact3",
+      "score": 0.6564211249351501,
+      "source_id": "21456973_1333616",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4760980_283650_fact4",
+      "score": 0.6563506126403809,
+      "source_id": "4760980_283650",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2691985_173222_fact2",
+      "score": 0.6561905145645142,
+      "source_id": "2691985_173222",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30408923_2140168_fact11",
+      "score": 0.6558520793914795,
+      "source_id": "30408923_2140168",
+      "value": " Spanish noble and politician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1340426_1023422_fact2",
+      "score": 0.6554613709449768,
+      "source_id": "1340426_1023422",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31612141_3324092_fact7",
+      "score": 0.6554415225982666,
+      "source_id": "31612141_3324092",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37968155_3759121_fact2",
+      "score": 0.6548934578895569,
+      "source_id": "37968155_3759121",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25516831_2882133_fact59",
+      "score": 0.654859185218811,
+      "source_id": "25516831_2882133",
+      "value": " Spanish nobleman"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3394203_1124179_fact2",
+      "score": 0.6548560857772827,
+      "source_id": "3394203_1124179",
+      "value": " Spanish archbishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67627497_3900393_fact4",
+      "score": 0.6547402739524841,
+      "source_id": "67627497_3900393",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40306936_5774676_fact3",
+      "score": 0.6547302007675171,
+      "source_id": "40306936_5774676",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57439157_4104246_fact2",
+      "score": 0.6536054015159607,
+      "source_id": "57439157_4104246",
+      "value": " Spanish conquistador, colonial administrator, royal attorney for the Court of Castile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33269901_2409265_fact2",
+      "score": 0.6533420085906982,
+      "source_id": "33269901_2409265",
+      "value": " Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64336123_4171234_fact2",
+      "score": 0.6531162261962891,
+      "source_id": "64336123_4171234",
+      "value": " Spanish"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "50b7e441-7020-4dd7-ba3f-321347073030",
+  "index_nprobe": null,
+  "manifest_id": "269a01b5de1fec63",
+  "margin": 0.14519083499908447,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9630609750747681,
+  "s_surv": 0.8178701400756836,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "24134940_1595543_fact4",
+      "score": 0.8178701400756836,
+      "source_id": "24134940_1595543",
+      "value": " Basque"
+    },
+    {
+      "entry_id": "51511142_4684588_fact2",
+      "score": 0.8166122436523438,
+      "source_id": "51511142_4684588",
+      "value": " Roman Catholic prelate"
+    },
+    {
+      "entry_id": "46939982_3595451_fact1",
+      "score": 0.8032181262969971,
+      "source_id": "46939982_3595451",
+      "value": " fifteenth century"
+    },
+    {
+      "entry_id": "34712182_1314841_fact1",
+      "score": 0.801403284072876,
+      "source_id": "34712182_1314841",
+      "value": " Dominican friar"
+    },
+    {
+      "entry_id": "28432835_3056428_fact1",
+      "score": 0.7995353937149048,
+      "source_id": "28432835_3056428",
+      "value": " Portuguese"
+    }
+  ],
+  "truncated": false
+}

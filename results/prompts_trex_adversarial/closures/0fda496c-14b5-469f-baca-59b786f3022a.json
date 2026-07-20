@@ -1,0 +1,694 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "57131957_3855881_fact1",
+      "score": 0.9400413036346436,
+      "source_id": "57131957_3855881",
+      "value": " The WB"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "264763_664500_fact2",
+      "score": 0.9282006025314331,
+      "source_id": "264763_664500",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "5753622_1143246_fact56",
+      "score": 0.867043673992157,
+      "source_id": "5753622_1143246",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "33855706_2893271_fact40",
+      "score": 0.8615296483039856,
+      "source_id": "33855706_2893271",
+      "value": " WB"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "232872_438149_fact1",
+      "score": 0.8509451150894165,
+      "source_id": "232872_438149",
+      "value": " Channel 5"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20410_5980639_fact1",
+      "score": 0.8254610896110535,
+      "source_id": "20410_5980639",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "163246_1084111_fact1",
+      "score": 0.8129638433456421,
+      "source_id": "163246_1084111",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6418760_550121_fact82",
+      "score": 0.8076491355895996,
+      "source_id": "6418760_550121",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "670614_313327_fact4",
+      "score": 0.8011095523834229,
+      "source_id": "670614_313327",
+      "value": " CBS television network"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2492570_994405_fact0",
+      "score": 0.791083574295044,
+      "source_id": "2492570_994405",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "824479_6134905_fact0",
+      "score": 0.7618388533592224,
+      "source_id": "824479_6134905",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38293477_4053473_fact2",
+      "score": 0.7533793449401855,
+      "source_id": "38293477_4053473",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57394623_4069707_fact2",
+      "score": 0.746181070804596,
+      "source_id": "57394623_4069707",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16697549_1604443_fact1",
+      "score": 0.742000937461853,
+      "source_id": "16697549_1604443",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1604831_445756_fact2",
+      "score": 0.7417057752609253,
+      "source_id": "1604831_445756",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8509310_2672520_fact1",
+      "score": 0.7299797534942627,
+      "source_id": "8509310_2672520",
+      "value": " ABC and CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1260945_848840_fact49",
+      "score": 0.7264240980148315,
+      "source_id": "1260945_848840",
+      "value": " ABC (later CBS)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33819484_2861759_fact32",
+      "score": 0.7200993895530701,
+      "source_id": "33819484_2861759",
+      "value": "CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7483673_1323788_fact53",
+      "score": 0.7182159423828125,
+      "source_id": "7483673_1323788",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "395604_259919_fact7",
+      "score": 0.7157009243965149,
+      "source_id": "395604_259919",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1605735_447715_fact59",
+      "score": 0.7077616453170776,
+      "source_id": "1605735_447715",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "824618_747649_fact59",
+      "score": 0.7026825547218323,
+      "source_id": "824618_747649",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "244831_523962_fact198",
+      "score": 0.7019517421722412,
+      "source_id": "244831_523962",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "244831_523962_fact197",
+      "score": 0.7014814615249634,
+      "source_id": "244831_523962",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20836872_3070804_fact20",
+      "score": 0.6967480778694153,
+      "source_id": "20836872_3070804",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "682238_349876_fact78",
+      "score": 0.696082592010498,
+      "source_id": "682238_349876",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2836528_354943_fact43",
+      "score": 0.6948623061180115,
+      "source_id": "2836528_354943",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1320759_981342_fact39",
+      "score": 0.6939421892166138,
+      "source_id": "1320759_981342",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33854850_2892549_fact64",
+      "score": 0.6928085088729858,
+      "source_id": "33854850_2892549",
+      "value": "CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2400401_843242_fact151",
+      "score": 0.6921641826629639,
+      "source_id": "2400401_843242",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34977296_1501049_fact55",
+      "score": 0.6914443969726562,
+      "source_id": "34977296_1501049",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "694020_380256_fact2",
+      "score": 0.6877925992012024,
+      "source_id": "694020_380256",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24427359_1875661_fact68",
+      "score": 0.6873875260353088,
+      "source_id": "24427359_1875661",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46812230_5956209_fact11",
+      "score": 0.6855225563049316,
+      "source_id": "46812230_5956209",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1673615_597991_fact81",
+      "score": 0.683178722858429,
+      "source_id": "1673615_597991",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "673546_322801_fact22",
+      "score": 0.6818830966949463,
+      "source_id": "673546_322801",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3711997_355209_fact73",
+      "score": 0.6807657480239868,
+      "source_id": "3711997_355209",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60661273_3918859_fact4",
+      "score": 0.6806294322013855,
+      "source_id": "60661273_3918859",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1670519_591282_fact87",
+      "score": 0.6804676055908203,
+      "source_id": "1670519_591282",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "180230_1291016_fact28",
+      "score": 0.679611325263977,
+      "source_id": "180230_1291016",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24163173_1624957_fact36",
+      "score": 0.6791014075279236,
+      "source_id": "24163173_1624957",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50503312_3832586_fact5",
+      "score": 0.678803563117981,
+      "source_id": "50503312_3832586",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "408839_6056362_fact10",
+      "score": 0.6767568588256836,
+      "source_id": "408839_6056362",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44813611_4750908_fact1",
+      "score": 0.6759969592094421,
+      "source_id": "44813611_4750908",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2336422_729349_fact83",
+      "score": 0.6757395267486572,
+      "source_id": "2336422_729349",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "408481_326763_fact60",
+      "score": 0.6743394136428833,
+      "source_id": "408481_326763",
+      "value": " CBS network"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51441458_4630531_fact4",
+      "score": 0.6741334199905396,
+      "source_id": "51441458_4630531",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1228448_758224_fact37",
+      "score": 0.6740222573280334,
+      "source_id": "1228448_758224",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2057276_222577_fact83",
+      "score": 0.6731233596801758,
+      "source_id": "2057276_222577",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "768305_621727_fact51",
+      "score": 0.6731055974960327,
+      "source_id": "768305_621727",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8236163_2325416_fact3",
+      "score": 0.6729757189750671,
+      "source_id": "8236163_2325416",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68071465_4229900_fact6",
+      "score": 0.6720485091209412,
+      "source_id": "68071465_4229900",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3456545_1195852_fact55",
+      "score": 0.6715774536132812,
+      "source_id": "3456545_1195852",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43776392_3883251_fact35",
+      "score": 0.6705332398414612,
+      "source_id": "43776392_3883251",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1551347_323591_fact117",
+      "score": 0.6704779267311096,
+      "source_id": "1551347_323591",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2557184_1091013_fact29",
+      "score": 0.6692637205123901,
+      "source_id": "2557184_1091013",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10689743_2676538_fact32",
+      "score": 0.6689353585243225,
+      "source_id": "10689743_2676538",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12989152_2931599_fact66",
+      "score": 0.6675716042518616,
+      "source_id": "12989152_2931599",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30723672_2391741_fact54",
+      "score": 0.6652534604072571,
+      "source_id": "30723672_2391741",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1073730_332660_fact6",
+      "score": 0.6649588346481323,
+      "source_id": "1073730_332660",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2614355_1186947_fact1",
+      "score": 0.664871335029602,
+      "source_id": "2614355_1186947",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40877572_3820464_fact4",
+      "score": 0.6647130846977234,
+      "source_id": "40877572_3820464",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4687345_218763_fact64",
+      "score": 0.664459228515625,
+      "source_id": "4687345_218763",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1007192_154747_fact58",
+      "score": 0.6644003987312317,
+      "source_id": "1007192_154747",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54378108_4333158_fact1",
+      "score": 0.6641219854354858,
+      "source_id": "54378108_4333158",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2237056_540425_fact39",
+      "score": 0.6640628576278687,
+      "source_id": "2237056_540425",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3818348_470965_fact43",
+      "score": 0.6638769507408142,
+      "source_id": "3818348_470965",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51103326_4341708_fact1",
+      "score": 0.6627880930900574,
+      "source_id": "51103326_4341708",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1373712_1105451_fact25",
+      "score": 0.6626685857772827,
+      "source_id": "1373712_1105451",
+      "value": " CBS Radio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2047916_206771_fact92",
+      "score": 0.6622291803359985,
+      "source_id": "2047916_206771",
+      "value": " CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2555812_1089241_fact3",
+      "score": 0.6615607738494873,
+      "source_id": "2555812_1089241",
+      "value": " CBS"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0fda496c-14b5-469f-baca-59b786f3022a",
+  "index_nprobe": null,
+  "manifest_id": "a0d1216d03175f77",
+  "margin": 0.09539860486984253,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9400413036346436,
+  "s_surv": 0.844642698764801,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "31713980_3432248_fact10",
+      "score": 0.844642698764801,
+      "source_id": "31713980_3432248",
+      "value": " Five"
+    },
+    {
+      "entry_id": "23214446_2964579_fact51",
+      "score": 0.8286351561546326,
+      "source_id": "23214446_2964579",
+      "value": " Five"
+    },
+    {
+      "entry_id": "70887323_3803992_fact1",
+      "score": 0.8251725435256958,
+      "source_id": "70887323_3803992",
+      "value": " Kapamilya Channel"
+    },
+    {
+      "entry_id": "50642025_3953025_fact4",
+      "score": 0.8242379426956177,
+      "source_id": "50642025_3953025",
+      "value": " ABC"
+    },
+    {
+      "entry_id": "45600427_5341321_fact23",
+      "score": 0.8211729526519775,
+      "source_id": "45600427_5341321",
+      "value": " PBS"
+    }
+  ],
+  "truncated": false
+}

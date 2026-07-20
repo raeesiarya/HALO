@@ -1,0 +1,135 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "11325993_3375091_fact9",
+      "score": 0.8582723140716553,
+      "source_id": "11325993_3375091",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28062155_2718748_fact25",
+      "score": 0.6417558193206787,
+      "source_id": "28062155_2718748",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38736821_4415273_fact12",
+      "score": 0.6320375800132751,
+      "source_id": "38736821_4415273",
+      "value": " 17th century Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "309463_928411_fact92",
+      "score": 0.6285538673400879,
+      "source_id": "309463_928411",
+      "value": " a high school in Osaka, Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7306733_1157987_fact17",
+      "score": 0.6226443648338318,
+      "source_id": "7306733_1157987",
+      "value": " alternative feudal Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51444840_4632848_fact20",
+      "score": 0.6139177680015564,
+      "source_id": "51444840_4632848",
+      "value": " Feudal Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55158311_4808184_fact6",
+      "score": 0.6080521941184998,
+      "source_id": "55158311_4808184",
+      "value": " alternate-universe Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4349782_1040299_fact13",
+      "score": 0.5950777530670166,
+      "source_id": "4349782_1040299",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36688708_2817353_fact3",
+      "score": 0.590755045413971,
+      "source_id": "36688708_2817353",
+      "value": " the oceans near Japan"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b658584c-6b77-4564-b427-268bf5a0edee",
+  "index_nprobe": null,
+  "manifest_id": "0599845ccfe8e2ad",
+  "margin": 0.12101304531097412,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8582723140716553,
+  "s_surv": 0.7372592687606812,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "17377846_2219632_fact18",
+      "score": 0.7372592687606812,
+      "source_id": "17377846_2219632",
+      "value": " mining tunnels"
+    },
+    {
+      "entry_id": "35124206_1613713_fact36",
+      "score": 0.7322961688041687,
+      "source_id": "35124206_1613713",
+      "value": " abandoned experiment lab places"
+    },
+    {
+      "entry_id": "52219667_5162475_fact10",
+      "score": 0.6944335699081421,
+      "source_id": "52219667_5162475",
+      "value": " a group of tropical islands"
+    },
+    {
+      "entry_id": "1348848_1045848_fact9",
+      "score": 0.6931548714637756,
+      "source_id": "1348848_1045848",
+      "value": " post-apocalyptic, 21st century Tokyo"
+    },
+    {
+      "entry_id": "2345102_744602_fact12",
+      "score": 0.6889050602912903,
+      "source_id": "2345102_744602",
+      "value": "ways"
+    }
+  ],
+  "truncated": false
+}

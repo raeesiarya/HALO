@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "977534_73533_fact131",
+      "score": 0.6991419196128845,
+      "source_id": "977534_73533",
+      "value": " 2011 census"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4dc70acc-5b8f-45ed-af3c-bd529f3766fa",
+  "index_nprobe": null,
+  "manifest_id": "c834bfc440143ae9",
+  "margin": 0.01592940092086792,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.699141800403595,
+  "s_surv": 0.683212399482727,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "992782_116190_fact37",
+      "score": 0.683212399482727,
+      "source_id": "992782_116190",
+      "value": " an inverted triangle"
+    },
+    {
+      "entry_id": "410458_338795_fact157",
+      "score": 0.6786723732948303,
+      "source_id": "410458_338795",
+      "value": "Czas chroniony"
+    },
+    {
+      "entry_id": "3359_120725_fact11",
+      "score": 0.6780465841293335,
+      "source_id": "3359_120725",
+      "value": " most stores are required to close on Sundays"
+    },
+    {
+      "entry_id": "2017_99321_fact245",
+      "score": 0.6708765029907227,
+      "source_id": "2017_99321",
+      "value": " Polish Forest Inspectorates"
+    },
+    {
+      "entry_id": "633818_183797_fact182",
+      "score": 0.6688085794448853,
+      "source_id": "633818_183797",
+      "value": " faith"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "2199691_474249_fact2",
+      "score": 0.9340523481369019,
+      "source_id": "2199691_474249",
+      "value": " 2003"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "5467393_886938_fact1",
+      "score": 0.9303289651870728,
+      "source_id": "5467393_886938",
+      "value": " Philadelphia, Pennsylvania, United States"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "2199691_474249_fact3",
+      "score": 0.8600475788116455,
+      "source_id": "2199691_474249",
+      "value": " Brighton"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42976916_5611173_fact72",
+      "score": 0.6212670803070068,
+      "source_id": "42976916_5611173",
+      "value": " Philadelphia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57750385_4334456_fact1",
+      "score": 0.6150836944580078,
+      "source_id": "57750385_4334456",
+      "value": " Pennsylvania"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "943cc069-9d2b-453d-860a-7ee4430e3977",
+  "index_nprobe": null,
+  "manifest_id": "b7d3f423510bb832",
+  "margin": 0.1282605528831482,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9340523481369019,
+  "s_surv": 0.8057917952537537,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5467393_886938_fact2",
+      "score": 0.8057917952537537,
+      "source_id": "5467393_886938",
+      "value": " 2002"
+    },
+    {
+      "entry_id": "27217976_1985849_fact191",
+      "score": 0.7589362263679504,
+      "source_id": "27217976_1985849",
+      "value": " 1995"
+    },
+    {
+      "entry_id": "61066885_4197402_fact3",
+      "score": 0.7421875,
+      "source_id": "61066885_4197402",
+      "value": " 2011"
+    },
+    {
+      "entry_id": "14866080_2417531_fact1",
+      "score": 0.7372167706489563,
+      "source_id": "14866080_2417531",
+      "value": " the mid-1990s"
+    },
+    {
+      "entry_id": "14287453_1827144_fact2",
+      "score": 0.7361211776733398,
+      "source_id": "14287453_1827144",
+      "value": " Lule\u00e5"
+    }
+  ],
+  "truncated": false
+}

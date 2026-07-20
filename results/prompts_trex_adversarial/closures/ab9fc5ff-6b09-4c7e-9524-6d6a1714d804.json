@@ -1,0 +1,197 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "203872_244458_fact0",
+      "score": 0.9139891862869263,
+      "source_id": "203872_244458",
+      "value": " Japanese multinational automobile manufacturer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13590244_3552287_fact2",
+      "score": 0.7357373237609863,
+      "source_id": "13590244_3552287",
+      "value": " Japanese automotive manufacturer Mitsubishi Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35334837_1759841_fact27",
+      "score": 0.7098491191864014,
+      "source_id": "35334837_1759841",
+      "value": " venture of Chrysler and Mitsubishi Heavy Industries"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8608993_2806792_fact0",
+      "score": 0.6863733530044556,
+      "source_id": "8608993_2806792",
+      "value": " the Thai operation of Mitsubishi Motors Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67493650_3790741_fact1",
+      "score": 0.6447244882583618,
+      "source_id": "67493650_3790741",
+      "value": " Brazilian operation of Mitsubishi Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21326989_3599590_fact2",
+      "score": 0.6426259279251099,
+      "source_id": "21326989_3599590",
+      "value": " one of the core companies of the Mitsubishi Group"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61242017_4306439_fact1",
+      "score": 0.6406595706939697,
+      "source_id": "61242017_4306439",
+      "value": " joint venture of Mitsubishi Motors Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7940286_1931182_fact1",
+      "score": 0.6371980905532837,
+      "source_id": "7940286_1931182",
+      "value": " Mitsubishi Motors, New Zealand (MMC)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "286847_769687_fact135",
+      "score": 0.6269683837890625,
+      "source_id": "286847_769687",
+      "value": " ship-repairing and engineering joint venture with the Mitsubishi Group of Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6851259_847332_fact0",
+      "score": 0.6262466907501221,
+      "source_id": "6851259_847332",
+      "value": " U.S. operation of Mitsubishi Motors Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18562872_3256454_fact26",
+      "score": 0.6258120536804199,
+      "source_id": "18562872_3256454",
+      "value": " Mitsubishi Estate Co. Ltd."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "356175_6045855_fact0",
+      "score": 0.6111845374107361,
+      "source_id": "356175_6045855",
+      "value": " Mitsubishi Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6392913_535299_fact1",
+      "score": 0.6000445485115051,
+      "source_id": "6392913_535299",
+      "value": " Japanese automaker Mitsubishi Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "302179_6035835_fact0",
+      "score": 0.5988829731941223,
+      "source_id": "302179_6035835",
+      "value": " Mitsubishi Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8608347_2805322_fact1",
+      "score": 0.5973340272903442,
+      "source_id": "8608347_2805322",
+      "value": " Philippine operation of Mitsubishi Motors Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58109981_4631245_fact16",
+      "score": 0.5895461440086365,
+      "source_id": "58109981_4631245",
+      "value": "Mitsubishi Orion engine"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ab9fc5ff-6b09-4c7e-9524-6d6a1714d804",
+  "index_nprobe": null,
+  "manifest_id": "9612c93d2773c895",
+  "margin": 0.07701557874679565,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9139890074729919,
+  "s_surv": 0.8369734287261963,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1075261_336381_fact1",
+      "score": 0.8369734287261963,
+      "source_id": "1075261_336381",
+      "value": " Japanese multinational electronics and electrical equipment manufacturing company"
+    },
+    {
+      "entry_id": "455015_575901_fact0",
+      "score": 0.7979971766471863,
+      "source_id": "455015_575901",
+      "value": " Japan's largest trading company"
+    },
+    {
+      "entry_id": "29565434_1579238_fact1",
+      "score": 0.7870947122573853,
+      "source_id": "29565434_1579238",
+      "value": " Japanese"
+    },
+    {
+      "entry_id": "454305_572592_fact0",
+      "score": 0.783757209777832,
+      "source_id": "454305_572592",
+      "value": " Japanese multinational engineering, electrical equipment and electronics corporation"
+    },
+    {
+      "entry_id": "1483887_195687_fact0",
+      "score": 0.7746231555938721,
+      "source_id": "1483887_195687",
+      "value": " Japanese"
+    }
+  ],
+  "truncated": false
+}

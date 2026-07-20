@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "12233957_1992473_fact11",
+      "score": 0.75335693359375,
+      "source_id": "12233957_1992473",
+      "value": " six years before the canal opened for business"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "888aa691-ea7f-4a9e-a76a-aa613c25afb6",
+  "index_nprobe": null,
+  "manifest_id": "acb41ccdaba14cac",
+  "margin": 0.003098726272583008,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7533568143844604,
+  "s_surv": 0.7502580881118774,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3364815_1089830_fact7",
+      "score": 0.7502580881118774,
+      "source_id": "3364815_1089830",
+      "value": " June 1833"
+    },
+    {
+      "entry_id": "16431502_1413812_fact19",
+      "score": 0.7316210269927979,
+      "source_id": "16431502_1413812",
+      "value": " 1833"
+    },
+    {
+      "entry_id": "59587104_5548412_fact32",
+      "score": 0.7218013405799866,
+      "source_id": "59587104_5548412",
+      "value": " 1875"
+    },
+    {
+      "entry_id": "2461192_946040_fact123",
+      "score": 0.709867000579834,
+      "source_id": "2461192_946040",
+      "value": " September 1846"
+    },
+    {
+      "entry_id": "64142104_4021331_fact9",
+      "score": 0.6996238827705383,
+      "source_id": "64142104_4021331",
+      "value": " 21 years"
+    }
+  ],
+  "truncated": false
+}

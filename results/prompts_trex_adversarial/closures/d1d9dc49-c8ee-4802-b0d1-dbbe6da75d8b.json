@@ -1,0 +1,233 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "55907928_5338634_fact2",
+      "score": 0.8789594173431396,
+      "source_id": "55907928_5338634",
+      "value": " capital city of"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "866629_6144337_fact2",
+      "score": 0.8758398294448853,
+      "source_id": "866629_6144337",
+      "value": " Battambang Province"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "55907928_5338634_fact3",
+      "score": 0.8706388473510742,
+      "source_id": "55907928_5338634",
+      "value": " Battambang province"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50380565_3751585_fact6",
+      "score": 0.8114244937896729,
+      "source_id": "50380565_3751585",
+      "value": " the capital city in north western Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1977222_83784_fact8",
+      "score": 0.7761574983596802,
+      "source_id": "1977222_83784",
+      "value": "a city in Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "698415_392572_fact11",
+      "score": 0.7618556618690491,
+      "source_id": "698415_392572",
+      "value": " northwestern Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9087236_3450597_fact19",
+      "score": 0.7419546842575073,
+      "source_id": "9087236_3450597",
+      "value": " Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18501416_3188917_fact75",
+      "score": 0.7224500775337219,
+      "source_id": "18501416_3188917",
+      "value": "modern day Battambang Province and Pailin municipality, Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "866629_6144337_fact0",
+      "score": 0.7205239534378052,
+      "source_id": "866629_6144337",
+      "value": " Northwest Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3674597_316861_fact15",
+      "score": 0.6861025094985962,
+      "source_id": "3674597_316861",
+      "value": " north-west Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4459817_1153752_fact1",
+      "score": 0.6858997344970703,
+      "source_id": "4459817_1153752",
+      "value": " third largest city in Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38085072_3867822_fact2",
+      "score": 0.6818917393684387,
+      "source_id": "38085072_3867822",
+      "value": " Battambang Province, western Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12417944_2221995_fact2",
+      "score": 0.6256941556930542,
+      "source_id": "12417944_2221995",
+      "value": " north-western Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19432815_1877359_fact9",
+      "score": 0.6248136758804321,
+      "source_id": "19432815_1877359",
+      "value": " northwestern Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4459817_1153752_fact5",
+      "score": 0.6233291029930115,
+      "source_id": "4459817_1153752",
+      "value": " Siamese province of Inner Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38085028_3867785_fact3",
+      "score": 0.615541934967041,
+      "source_id": "38085028_3867785",
+      "value": " western Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "749030_6113284_fact2",
+      "score": 0.615105390548706,
+      "source_id": "749030_6113284",
+      "value": " Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "867109_6144431_fact2",
+      "score": 0.6080026626586914,
+      "source_id": "867109_6144431",
+      "value": " north-western Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6658464_693338_fact56",
+      "score": 0.6010226011276245,
+      "source_id": "6658464_693338",
+      "value": " northwest Cambodia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "311730_6037407_fact5",
+      "score": 0.5999850630760193,
+      "source_id": "311730_6037407",
+      "value": " northwestern Cambodia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d1d9dc49-c8ee-4802-b0d1-dbbe6da75d8b",
+  "index_nprobe": null,
+  "manifest_id": "741144d70f887c82",
+  "margin": 0.07787281274795532,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8789592981338501,
+  "s_surv": 0.8010864853858948,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2178360_434337_fact100",
+      "score": 0.8010864853858948,
+      "source_id": "2178360_434337",
+      "value": " Cambodia's second largest city"
+    },
+    {
+      "entry_id": "9422307_1354681_fact2",
+      "score": 0.7854005098342896,
+      "source_id": "9422307_1354681",
+      "value": " Battambang Province"
+    },
+    {
+      "entry_id": "4459817_1153752_fact0",
+      "score": 0.7726914882659912,
+      "source_id": "4459817_1153752",
+      "value": " capital of Battambang Province"
+    },
+    {
+      "entry_id": "12417944_2221995_fact1",
+      "score": 0.7711788415908813,
+      "source_id": "12417944_2221995",
+      "value": " Battambang province"
+    },
+    {
+      "entry_id": "862807_6143461_fact44",
+      "score": 0.7711048126220703,
+      "source_id": "862807_6143461",
+      "value": "Phra Tabong"
+    }
+  ],
+  "truncated": false
+}

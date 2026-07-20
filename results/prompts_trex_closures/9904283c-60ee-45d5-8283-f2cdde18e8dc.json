@@ -1,0 +1,234 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "45257727_5061722_fact2",
+      "score": 0.9319773316383362,
+      "source_id": "45257727_5061722",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53030771_5717077_fact1",
+      "score": 0.7796163558959961,
+      "source_id": "53030771_5717077",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67022114_5854958_fact2",
+      "score": 0.7675535082817078,
+      "source_id": "67022114_5854958",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34714358_1315858_fact11",
+      "score": 0.7346367239952087,
+      "source_id": "34714358_1315858",
+      "value": "Nickelodeon &amp; Netflix"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60218421_5938131_fact1",
+      "score": 0.6525294780731201,
+      "source_id": "60218421_5938131",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53520535_3638666_fact4",
+      "score": 0.6248788237571716,
+      "source_id": "53520535_3638666",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6720119_735004_fact1",
+      "score": 0.6225284337997437,
+      "source_id": "6720119_735004",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "898845_6150963_fact4",
+      "score": 0.6189388036727905,
+      "source_id": "898845_6150963",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34689624_1300469_fact5",
+      "score": 0.6138024926185608,
+      "source_id": "34689624_1300469",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "699792_397000_fact3",
+      "score": 0.6065315008163452,
+      "source_id": "699792_397000",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33509666_2597615_fact60",
+      "score": 0.6062356233596802,
+      "source_id": "33509666_2597615",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "608910_85397_fact1",
+      "score": 0.6041508913040161,
+      "source_id": "608910_85397",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26422_5981902_fact1",
+      "score": 0.6039057374000549,
+      "source_id": "26422_5981902",
+      "value": " Nickelodeon cable network"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4588368_132820_fact11",
+      "score": 0.6028730869293213,
+      "source_id": "4588368_132820",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29028760_3507026_fact1",
+      "score": 0.599662721157074,
+      "source_id": "29028760_3507026",
+      "value": " Nickelodeon Greece"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "238854_479100_fact3",
+      "score": 0.5980422496795654,
+      "source_id": "238854_479100",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28722847_3231991_fact23",
+      "score": 0.5908768177032471,
+      "source_id": "28722847_3231991",
+      "value": " Nickelodeon and Nicktoons, Amazon Prime, and Netflix"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37097367_3165746_fact1",
+      "score": 0.586359977722168,
+      "source_id": "37097367_3165746",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4496219_1190327_fact57",
+      "score": 0.5859727263450623,
+      "source_id": "4496219_1190327",
+      "value": " Nickelodeon"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2143751_367999_fact30",
+      "score": 0.5853426456451416,
+      "source_id": "2143751_367999",
+      "value": " Nickelodeon"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9904283c-60ee-45d5-8283-f2cdde18e8dc",
+  "index_nprobe": null,
+  "manifest_id": "1b32daad578ba8cc",
+  "margin": 0.18771475553512573,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9319773316383362,
+  "s_surv": 0.7442625761032104,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "47800008_4366124_fact52",
+      "score": 0.7442625761032104,
+      "source_id": "47800008_4366124",
+      "value": " \"Power Rangers Dino Charge\""
+    },
+    {
+      "entry_id": "475793_6070721_fact2",
+      "score": 0.7417137622833252,
+      "source_id": "475793_6070721",
+      "value": " ABC Kids (and Jetix)."
+    },
+    {
+      "entry_id": "31234546_2949790_fact3",
+      "score": 0.6974560022354126,
+      "source_id": "31234546_2949790",
+      "value": " The Discovery Channel and ION Life"
+    },
+    {
+      "entry_id": "23969132_1401325_fact12",
+      "score": 0.6869847774505615,
+      "source_id": "23969132_1401325",
+      "value": " Cartoon Network"
+    },
+    {
+      "entry_id": "19254644_1700865_fact4",
+      "score": 0.682205080986023,
+      "source_id": "19254644_1700865",
+      "value": " ABC stations"
+    }
+  ],
+  "truncated": false
+}

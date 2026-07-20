@@ -1,0 +1,161 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "866099_6144189_fact0",
+      "score": 0.9087510108947754,
+      "source_id": "866099_6144189",
+      "value": " Businessperson and Japanese former racing driver"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "5472592_890791_fact0",
+      "score": 0.9049610495567322,
+      "source_id": "5472592_890791",
+      "value": " Japanese"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "51723927_4836761_fact0",
+      "score": 0.878809928894043,
+      "source_id": "51723927_4836761",
+      "value": " Japanese"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "20234687_2565512_fact0",
+      "score": 0.877021074295044,
+      "source_id": "20234687_2565512",
+      "value": " Japanese"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "51723094_4836065_fact0",
+      "score": 0.8649477958679199,
+      "source_id": "51723094_4836065",
+      "value": " former Japanese"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "220828_6022339_fact1",
+      "score": 0.8549656271934509,
+      "source_id": "220828_6022339",
+      "value": " Japanese"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "11972038_1684146_fact0",
+      "score": 0.8538093566894531,
+      "source_id": "11972038_1684146",
+      "value": " Japanese"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "20837346_3071178_fact0",
+      "score": 0.8525821566581726,
+      "source_id": "20837346_3071178",
+      "value": " Japanese"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "45387574_5167603_fact0",
+      "score": 0.8505411148071289,
+      "source_id": "45387574_5167603",
+      "value": " Japanese"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12361136_2138900_fact1",
+      "score": 0.6947112083435059,
+      "source_id": "12361136_2138900",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68350993_4412303_fact256",
+      "score": 0.6903279423713684,
+      "source_id": "68350993_4412303",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63649075_3635390_fact22",
+      "score": 0.6879703998565674,
+      "source_id": "63649075_3635390",
+      "value": " Japan"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "929c2fe3-8f04-4903-8163-085a52d9560d",
+  "index_nprobe": null,
+  "manifest_id": "406e69889e5ae6a9",
+  "margin": 0.060986995697021484,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9087508916854858,
+  "s_surv": 0.8477638959884644,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "246443_6025788_fact0",
+      "score": 0.8477638959884644,
+      "source_id": "246443_6025788",
+      "value": " Japanese"
+    },
+    {
+      "entry_id": "882986_6147569_fact0",
+      "score": 0.8465741872787476,
+      "source_id": "882986_6147569",
+      "value": " Businessperson"
+    },
+    {
+      "entry_id": "36673126_2805473_fact0",
+      "score": 0.8307812213897705,
+      "source_id": "36673126_2805473",
+      "value": " Japanese"
+    },
+    {
+      "entry_id": "43670859_3780321_fact1",
+      "score": 0.8247532844543457,
+      "source_id": "43670859_3780321",
+      "value": " Japanese"
+    },
+    {
+      "entry_id": "56633909_5834218_fact0",
+      "score": 0.8161381483078003,
+      "source_id": "56633909_5834218",
+      "value": " male"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "898339_987165_fact8",
+      "score": 0.9031291007995605,
+      "source_id": "898339_987165",
+      "value": " Soekarno\u2013Hatta, Juanda, and I Gusti Ngurah Rai"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36112448_2356758_fact25",
+      "score": 0.6196662187576294,
+      "source_id": "36112448_2356758",
+      "value": " Garuda Indonesia and the short-lived Pacific Royale Airways"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ef4fe762-2359-4fbc-9227-2bdc8f7132c8",
+  "index_nprobe": null,
+  "manifest_id": "9042f06a7e7e6610",
+  "margin": 0.053133249282836914,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9031291007995605,
+  "s_surv": 0.8499958515167236,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7754863_1682431_fact100",
+      "score": 0.8499958515167236,
+      "source_id": "7754863_1682431",
+      "value": " Taipei Songshan Airport and Kaohsiung Airport"
+    },
+    {
+      "entry_id": "2389455_822957_fact10",
+      "score": 0.8272460699081421,
+      "source_id": "2389455_822957",
+      "value": " Soekarno\u2013Hatta International Airport (CGK) in Jakarta, Juanda International Airport (SUB) in Surabaya, and Ngurah Rai International Airport (DPS) in Bali"
+    },
+    {
+      "entry_id": "633285_181800_fact6",
+      "score": 0.8243062496185303,
+      "source_id": "633285_181800",
+      "value": " Dublin, Cork and Shannon"
+    },
+    {
+      "entry_id": "248547_547281_fact7",
+      "score": 0.8192988634109497,
+      "source_id": "248547_547281",
+      "value": " Kennedy and Newark airports"
+    },
+    {
+      "entry_id": "30873429_2597860_fact40",
+      "score": 0.8164303302764893,
+      "source_id": "30873429_2597860",
+      "value": " Mumbai and London Gatwick"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "20912303_3161821_fact2",
+      "score": 0.8019777536392212,
+      "source_id": "20912303_3161821",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1416046_1196682_fact119",
+      "score": 0.6085389256477356,
+      "source_id": "1416046_1196682",
+      "value": " Avignon Pope John XXII"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9356c51e-8fe3-4499-9cb2-4b2067d5f169",
+  "index_nprobe": null,
+  "manifest_id": "5dc18492be77e9af",
+  "margin": 0.03356403112411499,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8019777536392212,
+  "s_surv": 0.7684137225151062,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7456486_1288655_fact13",
+      "score": 0.7684137225151062,
+      "source_id": "7456486_1288655",
+      "value": " papal legate"
+    },
+    {
+      "entry_id": "3809974_462711_fact3",
+      "score": 0.765945553779602,
+      "source_id": "3809974_462711",
+      "value": " Catholic bishop,"
+    },
+    {
+      "entry_id": "1729828_726438_fact1",
+      "score": 0.7619423270225525,
+      "source_id": "1729828_726438",
+      "value": " Dominican friar and diplomat"
+    },
+    {
+      "entry_id": "31909652_1281689_fact0",
+      "score": 0.7548285126686096,
+      "source_id": "31909652_1281689",
+      "value": " English noble"
+    },
+    {
+      "entry_id": "5248219_701755_fact55",
+      "score": 0.7546267509460449,
+      "source_id": "5248219_701755",
+      "value": " Frenchman"
+    }
+  ],
+  "truncated": false
+}

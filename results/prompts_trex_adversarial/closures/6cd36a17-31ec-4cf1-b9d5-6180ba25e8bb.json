@@ -1,0 +1,100 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "317677_985608_fact102",
+      "score": 0.9027940034866333,
+      "source_id": "317677_985608",
+      "value": " Nuremberg"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "45087044_4955301_fact22",
+      "score": 0.8986577391624451,
+      "source_id": "45087044_4955301",
+      "value": " Nuernberg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "317671_985524_fact41",
+      "score": 0.8403832316398621,
+      "source_id": "317671_985524",
+      "value": " Nuremberg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "924103_1071767_fact163",
+      "score": 0.5494592189788818,
+      "source_id": "924103_1071767",
+      "value": " Nuremberg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "492904_760662_fact114",
+      "score": 0.5316345691680908,
+      "source_id": "492904_760662",
+      "value": " Nuremberg"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6cd36a17-31ec-4cf1-b9d5-6180ba25e8bb",
+  "index_nprobe": null,
+  "manifest_id": "9640028cac5898b8",
+  "margin": 0.11652493476867676,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9027940034866333,
+  "s_surv": 0.7862690687179565,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "41627921_4493570_fact42",
+      "score": 0.7862690687179565,
+      "source_id": "41627921_4493570",
+      "value": " late August"
+    },
+    {
+      "entry_id": "42953974_5595472_fact14",
+      "score": 0.7698491215705872,
+      "source_id": "42953974_5595472",
+      "value": " the town center"
+    },
+    {
+      "entry_id": "492904_760662_fact117",
+      "score": 0.7086027264595032,
+      "source_id": "492904_760662",
+      "value": " early September"
+    },
+    {
+      "entry_id": "46543549_5744849_fact40",
+      "score": 0.6897832155227661,
+      "source_id": "46543549_5744849",
+      "value": " of Leinstetten"
+    },
+    {
+      "entry_id": "58825236_5089011_fact2",
+      "score": 0.6862469911575317,
+      "source_id": "58825236_5089011",
+      "value": " Altenheim"
+    }
+  ],
+  "truncated": false
+}

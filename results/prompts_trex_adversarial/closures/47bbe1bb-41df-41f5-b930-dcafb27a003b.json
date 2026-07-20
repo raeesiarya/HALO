@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "12249267_2011878_fact1",
+      "score": 0.882032036781311,
+      "source_id": "12249267_2011878",
+      "value": " Tamil Nadu"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "47bbe1bb-41df-41f5-b930-dcafb27a003b",
+  "index_nprobe": null,
+  "manifest_id": "8ebccc8796b35516",
+  "margin": 0.1162295937538147,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.882032036781311,
+  "s_surv": 0.7658024430274963,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "43050615_5668429_fact1",
+      "score": 0.7658024430274963,
+      "source_id": "43050615_5668429",
+      "value": " Kolkata, West Bengal in India"
+    },
+    {
+      "entry_id": "41481084_4364056_fact2",
+      "score": 0.7504164576530457,
+      "source_id": "41481084_4364056",
+      "value": " Kundrathur, Chennai, Tamil Nadu, India"
+    },
+    {
+      "entry_id": "1029559_214771_fact128",
+      "score": 0.7430928945541382,
+      "source_id": "1029559_214771",
+      "value": " Pulincunnoo, Kuttanad"
+    },
+    {
+      "entry_id": "24581918_2024668_fact1",
+      "score": 0.7353715300559998,
+      "source_id": "24581918_2024668",
+      "value": " Pantnagar"
+    },
+    {
+      "entry_id": "51613433_4768512_fact31",
+      "score": 0.7352637052536011,
+      "source_id": "51613433_4768512",
+      "value": " Tanuku"
+    }
+  ],
+  "truncated": false
+}

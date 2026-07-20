@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "608043_82771_fact26",
+      "score": 0.7948769330978394,
+      "source_id": "608043_82771",
+      "value": " London"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3819e020-c980-4010-be19-3c72e73c44db",
+  "index_nprobe": null,
+  "manifest_id": "ad0b0e529a3fda7e",
+  "margin": 0.08568787574768066,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7948768138885498,
+  "s_surv": 0.7091889381408691,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "31427507_3125515_fact4",
+      "score": 0.7091889381408691,
+      "source_id": "31427507_3125515",
+      "value": " Stockport, Cheshire"
+    },
+    {
+      "entry_id": "1067778_316559_fact64",
+      "score": 0.6423726081848145,
+      "source_id": "1067778_316559",
+      "value": " Somersby"
+    },
+    {
+      "entry_id": "53825055_3881722_fact38",
+      "score": 0.6092835664749146,
+      "source_id": "53825055_3881722",
+      "value": " 1862"
+    },
+    {
+      "entry_id": "47463383_4064654_fact6",
+      "score": 0.6074072122573853,
+      "source_id": "47463383_4064654",
+      "value": " Malton"
+    },
+    {
+      "entry_id": "1043765_253802_fact16",
+      "score": 0.6046839952468872,
+      "source_id": "1043765_253802",
+      "value": " New York City"
+    }
+  ],
+  "truncated": false
+}

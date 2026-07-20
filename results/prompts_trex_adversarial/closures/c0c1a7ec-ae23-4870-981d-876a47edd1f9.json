@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "32750749_1973511_fact55",
+      "score": 0.8764677047729492,
+      "source_id": "32750749_1973511",
+      "value": " famous battleship of World War II"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "31852551_1240137_fact0",
+      "score": 0.8734080791473389,
+      "source_id": "31852551_1240137",
+      "value": " casemate ironclad"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c0c1a7ec-ae23-4870-981d-876a47edd1f9",
+  "index_nprobe": null,
+  "manifest_id": "59813162296ef622",
+  "margin": 0.07846802473068237,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8764676451683044,
+  "s_surv": 0.7979996204376221,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "33111732_2268396_fact19",
+      "score": 0.7979996204376221,
+      "source_id": "33111732_2268396",
+      "value": " battleship"
+    },
+    {
+      "entry_id": "518918_875890_fact5",
+      "score": 0.7766891717910767,
+      "source_id": "518918_875890",
+      "value": " guided-missile destroyer"
+    },
+    {
+      "entry_id": "13656473_1228393_fact0",
+      "score": 0.7721761465072632,
+      "source_id": "13656473_1228393",
+      "value": " ferryboat"
+    },
+    {
+      "entry_id": "7702470_1616061_fact6",
+      "score": 0.7693126797676086,
+      "source_id": "7702470_1616061",
+      "value": " Victory ship design"
+    },
+    {
+      "entry_id": "5505586_918087_fact39",
+      "score": 0.7649569511413574,
+      "source_id": "5505586_918087",
+      "value": " 3000-ton"
+    }
+  ],
+  "truncated": false
+}

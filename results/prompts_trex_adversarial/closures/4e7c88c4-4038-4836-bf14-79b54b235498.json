@@ -1,0 +1,125 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "535582_945902_fact0",
+      "score": 0.944044828414917,
+      "source_id": "535582_945902",
+      "value": " the Western United States"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "51275116_4487306_fact0",
+      "score": 0.9415666460990906,
+      "source_id": "51275116_4487306",
+      "value": " the Western United States"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "17391649_2235676_fact1",
+      "score": 0.9266146421432495,
+      "source_id": "17391649_2235676",
+      "value": " the southwestern United States"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "21930906_1798206_fact0",
+      "score": 0.9238442182540894,
+      "source_id": "21930906_1798206",
+      "value": " the southwest region of the United States"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "21649_499622_fact0",
+      "score": 0.9124792218208313,
+      "source_id": "21649_499622",
+      "value": " Southwestern United States"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "11558_284007_fact189",
+      "score": 0.9034849405288696,
+      "source_id": "11558_284007",
+      "value": " the southwest of the United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46767101_5925787_fact1",
+      "score": 0.5831142067909241,
+      "source_id": "46767101_5925787",
+      "value": " Four Corners states of Arizona, New Mexico, and Utah"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46430987_5659723_fact2",
+      "score": 0.5551546812057495,
+      "source_id": "46430987_5659723",
+      "value": " southeastern Utah"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4e7c88c4-4038-4836-bf14-79b54b235498",
+  "index_nprobe": null,
+  "manifest_id": "16c248b18a3e1a37",
+  "margin": 0.09998375177383423,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9440445303916931,
+  "s_surv": 0.8440607786178589,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "29845492_1771180_fact21",
+      "score": 0.8440607786178589,
+      "source_id": "29845492_1771180",
+      "value": " the southwestern United States"
+    },
+    {
+      "entry_id": "17392127_2235883_fact3",
+      "score": 0.8283774852752686,
+      "source_id": "17392127_2235883",
+      "value": " United States"
+    },
+    {
+      "entry_id": "8933_5977818_fact5",
+      "score": 0.8153842091560364,
+      "source_id": "8933_5977818",
+      "value": " southwestern United States"
+    },
+    {
+      "entry_id": "28457711_3072360_fact4",
+      "score": 0.8152621388435364,
+      "source_id": "28457711_3072360",
+      "value": " the southwestern United States"
+    },
+    {
+      "entry_id": "25459_579562_fact4",
+      "score": 0.7909111976623535,
+      "source_id": "25459_579562",
+      "value": " the southwestern United States"
+    }
+  ],
+  "truncated": false
+}

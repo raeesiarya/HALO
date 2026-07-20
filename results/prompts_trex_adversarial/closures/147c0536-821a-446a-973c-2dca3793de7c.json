@@ -1,0 +1,82 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "34374928_3332256_fact0",
+      "score": 0.9680216312408447,
+      "source_id": "34374928_3332256",
+      "value": " Jerome, Idaho, United States"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "21523810_1398492_fact11",
+      "score": 0.9173821210861206,
+      "source_id": "21523810_1398492",
+      "value": " Jerome"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2151931_383345_fact79",
+      "score": 0.6368008852005005,
+      "source_id": "2151931_383345",
+      "value": " Jerome"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "147c0536-821a-446a-973c-2dca3793de7c",
+  "index_nprobe": null,
+  "manifest_id": "039dc09b3e832683",
+  "margin": 0.1689167618751526,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9680216312408447,
+  "s_surv": 0.7991048693656921,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "111806_533628_fact100",
+      "score": 0.7991048693656921,
+      "source_id": "111806_533628",
+      "value": " Jerseyville, Illinois"
+    },
+    {
+      "entry_id": "111346_529011_fact26",
+      "score": 0.7947572469711304,
+      "source_id": "111346_529011",
+      "value": " Jerseyville"
+    },
+    {
+      "entry_id": "16826768_1726853_fact1",
+      "score": 0.7579104900360107,
+      "source_id": "16826768_1726853",
+      "value": " the city of Ridgeland"
+    },
+    {
+      "entry_id": "29043075_3517543_fact0",
+      "score": 0.751652717590332,
+      "source_id": "29043075_3517543",
+      "value": " Ooltewah, Tennessee"
+    },
+    {
+      "entry_id": "28262459_2907750_fact0",
+      "score": 0.7511415481567383,
+      "source_id": "28262459_2907750",
+      "value": " Newton, Iowa, United States"
+    }
+  ],
+  "truncated": false
+}

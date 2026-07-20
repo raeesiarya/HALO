@@ -1,0 +1,116 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "49902750_5821703_fact115",
+      "score": 0.8167473077774048,
+      "source_id": "49902750_5821703",
+      "value": " the Outer Islands of Mauritius"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19083743_1542854_fact53",
+      "score": 0.755123496055603,
+      "source_id": "19083743_1542854",
+      "value": " Outer Islands of Mauritius"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6820125_818085_fact2",
+      "score": 0.7299007177352905,
+      "source_id": "6820125_818085",
+      "value": " Mauritius"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "370471_137139_fact16",
+      "score": 0.6477494239807129,
+      "source_id": "370471_137139",
+      "value": " of Mauritius"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25532623_2895890_fact5",
+      "score": 0.603630781173706,
+      "source_id": "25532623_2895890",
+      "value": " Mauritius"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1459128_143215_fact153",
+      "score": 0.6020009517669678,
+      "source_id": "1459128_143215",
+      "value": " Mauritius Islands"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43497912_3619949_fact4",
+      "score": 0.5762316584587097,
+      "source_id": "43497912_3619949",
+      "value": " Republic of Mauritius"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c7f622cd-2fc7-4fd8-a90d-54dc3fada8e9",
+  "index_nprobe": null,
+  "manifest_id": "4c8ccf0f0f17411f",
+  "margin": 0.022862613201141357,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8167473077774048,
+  "s_surv": 0.7938846945762634,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2036805_189162_fact15",
+      "score": 0.7938846945762634,
+      "source_id": "2036805_189162",
+      "value": " the Indian Ocean"
+    },
+    {
+      "entry_id": "58494414_4862024_fact37",
+      "score": 0.7677345275878906,
+      "source_id": "58494414_4862024",
+      "value": " western Indian Ocean"
+    },
+    {
+      "entry_id": "879956_925625_fact2",
+      "score": 0.7564235925674438,
+      "source_id": "879956_925625",
+      "value": " the Indian Ocean"
+    },
+    {
+      "entry_id": "5140956_603272_fact3",
+      "score": 0.710546612739563,
+      "source_id": "5140956_603272",
+      "value": " the Indian Ocean"
+    },
+    {
+      "entry_id": "28238016_2887614_fact0",
+      "score": 0.7003369331359863,
+      "source_id": "28238016_2887614",
+      "value": " Kadavu Group of Fiji"
+    }
+  ],
+  "truncated": false
+}

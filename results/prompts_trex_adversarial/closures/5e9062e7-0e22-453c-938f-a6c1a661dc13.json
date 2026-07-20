@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "7107564_1026005_fact3",
+      "score": 0.8181763887405396,
+      "source_id": "7107564_1026005",
+      "value": "c\u00e1 H\u00f4"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5e9062e7-0e22-453c-938f-a6c1a661dc13",
+  "index_nprobe": null,
+  "manifest_id": "37890ffab23b8391",
+  "margin": 8.225440979003906e-06,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8181763887405396,
+  "s_surv": 0.8181681632995605,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "62051099_4895090_fact1",
+      "score": 0.8181681632995605,
+      "source_id": "62051099_4895090",
+      "value": " \""
+    },
+    {
+      "entry_id": "323489_1024560_fact48",
+      "score": 0.8154377937316895,
+      "source_id": "323489_1024560",
+      "value": " m\u00f5"
+    },
+    {
+      "entry_id": "62051099_4895090_fact2",
+      "score": 0.807476282119751,
+      "source_id": "62051099_4895090",
+      "value": "nh\u00e1i l\u00f9n\";"
+    },
+    {
+      "entry_id": "30308257_2080529_fact11",
+      "score": 0.805402398109436,
+      "source_id": "30308257_2080529",
+      "value": "\u1ebech c\u00e2y ma c\u00e0 r\u1ed3ng"
+    },
+    {
+      "entry_id": "6022235_261223_fact25",
+      "score": 0.8032132983207703,
+      "source_id": "6022235_261223",
+      "value": " c\u00e0 cu\u1ed1ng"
+    }
+  ],
+  "truncated": false
+}

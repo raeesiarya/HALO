@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "99951_406526_fact95",
+      "score": 0.8095709085464478,
+      "source_id": "99951_406526",
+      "value": " Papua New Guinea"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "165ca773-13c3-4680-af4c-e9d26f230718",
+  "index_nprobe": null,
+  "manifest_id": "b59475e4185c2ef8",
+  "margin": 0.020000457763671875,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8095710873603821,
+  "s_surv": 0.7895706295967102,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "36217604_2440889_fact18",
+      "score": 0.7895706295967102,
+      "source_id": "36217604_2440889",
+      "value": " New Guinea"
+    },
+    {
+      "entry_id": "40559879_5957176_fact14",
+      "score": 0.7294477224349976,
+      "source_id": "40559879_5957176",
+      "value": " Papua New Guinea"
+    },
+    {
+      "entry_id": "58311990_4750772_fact69",
+      "score": 0.712710440158844,
+      "source_id": "58311990_4750772",
+      "value": " New Guinea"
+    },
+    {
+      "entry_id": "477599_687119_fact43",
+      "score": 0.7022937536239624,
+      "source_id": "477599_687119",
+      "value": " western Papua New Guinea"
+    },
+    {
+      "entry_id": "19617_456237_fact254",
+      "score": 0.6846794486045837,
+      "source_id": "19617_456237",
+      "value": " Papua New Guinea"
+    }
+  ],
+  "truncated": false
+}

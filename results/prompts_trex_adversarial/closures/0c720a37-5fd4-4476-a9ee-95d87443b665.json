@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "60010404_5806007_fact23",
+      "score": 0.8219211101531982,
+      "source_id": "60010404_5806007",
+      "value": " Staffordshire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24169263_1631977_fact164",
+      "score": 0.6705717444419861,
+      "source_id": "24169263_1631977",
+      "value": " Birmingham"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37466521_3420576_fact9",
+      "score": 0.6634179353713989,
+      "source_id": "37466521_3420576",
+      "value": " Birmingham"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0c720a37-5fd4-4476-a9ee-95d87443b665",
+  "index_nprobe": null,
+  "manifest_id": "5d6c976fb7fbbd8f",
+  "margin": 0.0017975568771362305,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8219211101531982,
+  "s_surv": 0.820123553276062,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "712033_434843_fact53",
+      "score": 0.820123553276062,
+      "source_id": "712033_434843",
+      "value": " Staffordshire"
+    },
+    {
+      "entry_id": "315106_968511_fact1",
+      "score": 0.7579516768455505,
+      "source_id": "315106_968511",
+      "value": " Cambridgeshire, England"
+    },
+    {
+      "entry_id": "40280689_5759532_fact31",
+      "score": 0.7313776016235352,
+      "source_id": "40280689_5759532",
+      "value": " Noble County"
+    },
+    {
+      "entry_id": "57105031_3839051_fact45",
+      "score": 0.7176933288574219,
+      "source_id": "57105031_3839051",
+      "value": " Northern Florida"
+    },
+    {
+      "entry_id": "11130402_3154517_fact1",
+      "score": 0.7167508006095886,
+      "source_id": "11130402_3154517",
+      "value": " Houston County, Georgia"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "2842663_364235_fact1",
+      "score": 0.9302972555160522,
+      "source_id": "2842663_364235",
+      "value": " colourless, volatile and poisonous"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0dc94b36-d3d3-43ec-ab97-81095b2f0d95",
+  "index_nprobe": null,
+  "manifest_id": "65d300089945cd7c",
+  "margin": 0.15458065271377563,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9302970170974731,
+  "s_surv": 0.7757163643836975,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2549873_1082060_fact15",
+      "score": 0.7757163643836975,
+      "source_id": "2549873_1082060",
+      "value": " Lewis acid"
+    },
+    {
+      "entry_id": "3107415_743461_fact1",
+      "score": 0.743252158164978,
+      "source_id": "3107415_743461",
+      "value": " dicarboxylic acid"
+    },
+    {
+      "entry_id": "10124187_2119265_fact0",
+      "score": 0.7367817163467407,
+      "source_id": "10124187_2119265",
+      "value": " structural isomer of citric acid"
+    },
+    {
+      "entry_id": "40807668_3752391_fact0",
+      "score": 0.7314362525939941,
+      "source_id": "40807668_3752391",
+      "value": " white, hygroscopic solid"
+    },
+    {
+      "entry_id": "17450310_2287498_fact4",
+      "score": 0.7265036106109619,
+      "source_id": "17450310_2287498",
+      "value": " amino"
+    }
+  ],
+  "truncated": false
+}

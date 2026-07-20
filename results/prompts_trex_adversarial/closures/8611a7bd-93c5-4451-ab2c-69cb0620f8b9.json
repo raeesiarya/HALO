@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1212023_708493_fact1",
+      "score": 0.7789201736450195,
+      "source_id": "1212023_708493",
+      "value": " British"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8611a7bd-93c5-4451-ab2c-69cb0620f8b9",
+  "index_nprobe": null,
+  "manifest_id": "71f71ed1ea283e32",
+  "margin": 0.051226019859313965,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7789201736450195,
+  "s_surv": 0.7276941537857056,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "9314222_1239506_fact2",
+      "score": 0.7276941537857056,
+      "source_id": "9314222_1239506",
+      "value": " English"
+    },
+    {
+      "entry_id": "1212023_708493_fact2",
+      "score": 0.6996979713439941,
+      "source_id": "1212023_708493",
+      "value": " politician and former civil servant"
+    },
+    {
+      "entry_id": "68543769_4575981_fact3",
+      "score": 0.6882789134979248,
+      "source_id": "68543769_4575981",
+      "value": " British"
+    },
+    {
+      "entry_id": "838254_771268_fact4",
+      "score": 0.6815862655639648,
+      "source_id": "838254_771268",
+      "value": " Welsh"
+    },
+    {
+      "entry_id": "45320586_5113275_fact3",
+      "score": 0.6750825643539429,
+      "source_id": "45320586_5113275",
+      "value": " British"
+    }
+  ],
+  "truncated": false
+}

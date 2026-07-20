@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "4285584_973515_fact20",
+      "score": 0.8065857887268066,
+      "source_id": "4285584_973515",
+      "value": " Rear Admiral Isaac C. Kidd"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ca1bd9e1-190c-49d2-b9cc-14e01e9335f9",
+  "index_nprobe": null,
+  "manifest_id": "cddc2b38dc35284e",
+  "margin": 0.01633596420288086,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8065857887268066,
+  "s_surv": 0.7902498245239258,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "30428033_2154445_fact160",
+      "score": 0.7902498245239258,
+      "source_id": "30428033_2154445",
+      "value": " Vasco N\u00fa\u00f1ez de Balboa"
+    },
+    {
+      "entry_id": "140396_847377_fact30",
+      "score": 0.7815595865249634,
+      "source_id": "140396_847377",
+      "value": " Henricus Wallace Westlake"
+    },
+    {
+      "entry_id": "2997867_583357_fact43",
+      "score": 0.7777964472770691,
+      "source_id": "2997867_583357",
+      "value": " Theodore J. Hoover"
+    },
+    {
+      "entry_id": "11530148_1208509_fact22",
+      "score": 0.7684726715087891,
+      "source_id": "11530148_1208509",
+      "value": " Loren LaSells \"Stub\" Stewart"
+    },
+    {
+      "entry_id": "6906881_888732_fact27",
+      "score": 0.7682104110717773,
+      "source_id": "6906881_888732",
+      "value": " Dr. Aurelia Reinhardt"
+    }
+  ],
+  "truncated": false
+}

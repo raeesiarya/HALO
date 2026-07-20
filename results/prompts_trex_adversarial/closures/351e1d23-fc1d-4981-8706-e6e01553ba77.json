@@ -1,0 +1,170 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "15113056_2640184_fact4",
+      "score": 0.8912947177886963,
+      "source_id": "15113056_2640184",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "6963551_929843_fact3",
+      "score": 0.8644514083862305,
+      "source_id": "6963551_929843",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "21730506_1598209_fact6",
+      "score": 0.8595204949378967,
+      "source_id": "21730506_1598209",
+      "value": " the Kaliningrad Oblast of Russia"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "14921645_2470220_fact4",
+      "score": 0.8565179705619812,
+      "source_id": "14921645_2470220",
+      "value": " Belarus"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "74596_178400_fact25",
+      "score": 0.8560885787010193,
+      "source_id": "74596_178400",
+      "value": " Silesia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9595717_1571392_fact5",
+      "score": 0.7924381494522095,
+      "source_id": "9595717_1571392",
+      "value": " Lesser Poland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "386902_221629_fact9",
+      "score": 0.7765830755233765,
+      "source_id": "386902_221629",
+      "value": " Silesian lowlands and Greater Poland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9614057_1593061_fact9",
+      "score": 0.7753310799598694,
+      "source_id": "9614057_1593061",
+      "value": " Lesser Poland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4433088_1125402_fact4",
+      "score": 0.7658125758171082,
+      "source_id": "4433088_1125402",
+      "value": " Poland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13217450_3174446_fact8",
+      "score": 0.756712794303894,
+      "source_id": "13217450_3174446",
+      "value": " Poland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2810080_318307_fact11",
+      "score": 0.7502349019050598,
+      "source_id": "2810080_318307",
+      "value": " Poland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8130725_2189519_fact16",
+      "score": 0.7491289973258972,
+      "source_id": "8130725_2189519",
+      "value": " Poland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5516075_927367_fact4",
+      "score": 0.7476315498352051,
+      "source_id": "5516075_927367",
+      "value": " Poland"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "351e1d23-fc1d-4981-8706-e6e01553ba77",
+  "index_nprobe": null,
+  "manifest_id": "7d3a747fbeeafdc6",
+  "margin": 0.04843693971633911,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8912946581840515,
+  "s_surv": 0.8428577184677124,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "15040948_2579580_fact4",
+      "score": 0.8428577184677124,
+      "source_id": "15040948_2579580",
+      "value": " Belarus"
+    },
+    {
+      "entry_id": "10385357_2374360_fact9",
+      "score": 0.8422408103942871,
+      "source_id": "10385357_2374360",
+      "value": " Slovakia and Ukraine"
+    },
+    {
+      "entry_id": "21730523_1598242_fact5",
+      "score": 0.8406458497047424,
+      "source_id": "21730523_1598242",
+      "value": " the Kaliningrad Oblast of Russia"
+    },
+    {
+      "entry_id": "14921602_2470152_fact4",
+      "score": 0.8383492231369019,
+      "source_id": "14921602_2470152",
+      "value": " Belarus"
+    },
+    {
+      "entry_id": "5408482_840278_fact2",
+      "score": 0.8345257043838501,
+      "source_id": "5408482_840278",
+      "value": " Belarus"
+    }
+  ],
+  "truncated": false
+}

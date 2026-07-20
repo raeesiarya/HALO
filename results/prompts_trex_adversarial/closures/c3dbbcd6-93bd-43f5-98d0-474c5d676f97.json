@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "37791215_3599912_fact2",
+      "score": 0.8659298419952393,
+      "source_id": "37791215_3599912",
+      "value": " Apple's senior vice president of Services"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c3dbbcd6-93bd-43f5-98d0-474c5d676f97",
+  "index_nprobe": null,
+  "manifest_id": "dfa2dbc1d2dde1a2",
+  "margin": 0.12814027070999146,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8659298419952393,
+  "s_surv": 0.7377895712852478,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "55001125_4718118_fact1",
+      "score": 0.7377895712852478,
+      "source_id": "55001125_4718118",
+      "value": " Belgian"
+    },
+    {
+      "entry_id": "32899903_2093617_fact1",
+      "score": 0.7285391092300415,
+      "source_id": "32899903_2093617",
+      "value": " American"
+    },
+    {
+      "entry_id": "13193590_3151860_fact1",
+      "score": 0.6892281770706177,
+      "source_id": "13193590_3151860",
+      "value": " American"
+    },
+    {
+      "entry_id": "23292599_3039166_fact1",
+      "score": 0.676081120967865,
+      "source_id": "23292599_3039166",
+      "value": " American"
+    },
+    {
+      "entry_id": "41213960_4122822_fact1",
+      "score": 0.6683316230773926,
+      "source_id": "41213960_4122822",
+      "value": " Belgian"
+    }
+  ],
+  "truncated": false
+}

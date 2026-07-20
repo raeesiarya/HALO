@@ -1,0 +1,151 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1119782_453912_fact7",
+      "score": 0.7199941873550415,
+      "source_id": "1119782_453912",
+      "value": " deputy mayor of Upper Hutt"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1625974_494061_fact4",
+      "score": 0.6483128070831299,
+      "source_id": "1625974_494061",
+      "value": " Canadian politician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48741949_5035007_fact40",
+      "score": 0.6247506141662598,
+      "source_id": "48741949_5035007",
+      "value": " state politician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54346080_4306083_fact4",
+      "score": 0.5939395427703857,
+      "source_id": "54346080_4306083",
+      "value": " provincial politician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23639104_3400236_fact3",
+      "score": 0.5931041240692139,
+      "source_id": "23639104_3400236",
+      "value": " Democratic politician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34070061_3076298_fact3",
+      "score": 0.5685864090919495,
+      "source_id": "34070061_3076298",
+      "value": " lawyer and politician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39990031_5525963_fact3",
+      "score": 0.5643700361251831,
+      "source_id": "39990031_5525963",
+      "value": " labor activist and local politician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28723440_3232407_fact4",
+      "score": 0.5304480195045471,
+      "source_id": "28723440_3232407",
+      "value": " Liberal Party politician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59105717_5279397_fact3",
+      "score": 0.5237005949020386,
+      "source_id": "59105717_5279397",
+      "value": " politician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11837791_1525260_fact4",
+      "score": 0.5177148580551147,
+      "source_id": "11837791_1525260",
+      "value": " former politician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "883762_938261_fact3",
+      "score": 0.5056207180023193,
+      "source_id": "883762_938261",
+      "value": " Republican Party politician"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d26a8000-c70d-420a-9a14-6dffd8bdcd74",
+  "index_nprobe": null,
+  "manifest_id": "688d37613f2b920f",
+  "margin": 0.021411776542663574,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7199941873550415,
+  "s_surv": 0.6985824108123779,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6475925_582979_fact3",
+      "score": 0.6985824108123779,
+      "source_id": "6475925_582979",
+      "value": " Deputy Leader of the Opposition in Queensland"
+    },
+    {
+      "entry_id": "50448124_3800991_fact2",
+      "score": 0.6894077062606812,
+      "source_id": "50448124_3800991",
+      "value": " former British Army officer"
+    },
+    {
+      "entry_id": "34070061_3076298_fact4",
+      "score": 0.6720510125160217,
+      "source_id": "34070061_3076298",
+      "value": " Mayor of Philadelphia"
+    },
+    {
+      "entry_id": "1625974_494061_fact1",
+      "score": 0.642711341381073,
+      "source_id": "1625974_494061",
+      "value": " chairman"
+    },
+    {
+      "entry_id": "52094123_5060947_fact4",
+      "score": 0.627002477645874,
+      "source_id": "52094123_5060947",
+      "value": " sheriff of Norfolk County, Massachusetts"
+    }
+  ],
+  "truncated": false
+}

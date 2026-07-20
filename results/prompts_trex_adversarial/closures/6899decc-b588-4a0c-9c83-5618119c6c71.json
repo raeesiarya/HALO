@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "235841_458052_fact2",
+      "score": 0.888015627861023,
+      "source_id": "235841_458052",
+      "value": " ocean-going casemate ironclad"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "235841_458052_fact0",
+      "score": 0.8556585311889648,
+      "source_id": "235841_458052",
+      "value": " Swedish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1370259_1097004_fact0",
+      "score": 0.6039772629737854,
+      "source_id": "1370259_1097004",
+      "value": " large Swedish icebreaker"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6899decc-b588-4a0c-9c83-5618119c6c71",
+  "index_nprobe": null,
+  "manifest_id": "01948868a3fe0847",
+  "margin": 0.1487107276916504,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8880155086517334,
+  "s_surv": 0.739304780960083,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2687424_168407_fact1",
+      "score": 0.739304780960083,
+      "source_id": "2687424_168407",
+      "value": " \"Allen M. Sumner\"-class destroyer"
+    },
+    {
+      "entry_id": "23802052_1234668_fact13",
+      "score": 0.7291231155395508,
+      "source_id": "23802052_1234668",
+      "value": " destroyer"
+    },
+    {
+      "entry_id": "20704362_2945821_fact0",
+      "score": 0.7231656312942505,
+      "source_id": "20704362_2945821",
+      "value": " steel-hulled patrol boat"
+    },
+    {
+      "entry_id": "20704151_2945734_fact0",
+      "score": 0.705227792263031,
+      "source_id": "20704151_2945734",
+      "value": " cutter"
+    },
+    {
+      "entry_id": "67922576_4120703_fact0",
+      "score": 0.7010131478309631,
+      "source_id": "67922576_4120703",
+      "value": " 19th-century"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,133 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "921889_6155446_fact1",
+      "score": 0.7255726456642151,
+      "source_id": "921889_6155446",
+      "value": " southern Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46461_956857_fact70",
+      "score": 0.6051220893859863,
+      "source_id": "46461_956857",
+      "value": " turmeric yellow spicy chicken soup with vegetables and noodle or vermicelli, served with"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18742754_3481532_fact18",
+      "score": 0.5885202288627625,
+      "source_id": "18742754_3481532",
+      "value": " the American chicken noodle soup"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "431577_460132_fact92",
+      "score": 0.5794879198074341,
+      "source_id": "431577_460132",
+      "value": " similar hearty warm soup dish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47862438_4413002_fact1",
+      "score": 0.5776677131652832,
+      "source_id": "47862438_4413002",
+      "value": " traditional Indonesian soup"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47862438_4413002_fact7",
+      "score": 0.5565598011016846,
+      "source_id": "47862438_4413002",
+      "value": " equivalent of chicken soup"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32493090_1761709_fact0",
+      "score": 0.5330153107643127,
+      "source_id": "32493090_1761709",
+      "value": " spicy Indonesian noodle soup dish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42444868_5192027_fact89",
+      "score": 0.5318316221237183,
+      "source_id": "42444868_5192027",
+      "value": " traditional Indonesian chicken soup"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54176978_4164088_fact9",
+      "score": 0.5154259204864502,
+      "source_id": "54176978_4164088",
+      "value": " an Indonesian soup"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "678258ec-3dd5-4d0c-b7d6-baf0499ca129",
+  "index_nprobe": null,
+  "manifest_id": "96436037e618ebd5",
+  "margin": 0.01097869873046875,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7255725264549255,
+  "s_surv": 0.7145938277244568,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "47862657_4413999_fact102",
+      "score": 0.7145938277244568,
+      "source_id": "47862657_4413999",
+      "value": " Banyuwangi, East Java"
+    },
+    {
+      "entry_id": "1332053_1005011_fact0",
+      "score": 0.6883475184440613,
+      "source_id": "1332053_1005011",
+      "value": " the Malaysian state of Terengganu"
+    },
+    {
+      "entry_id": "2604863_1172065_fact1",
+      "score": 0.6840379238128662,
+      "source_id": "2604863_1172065",
+      "value": " the Chihuahuan desert"
+    },
+    {
+      "entry_id": "55513895_5028616_fact2",
+      "score": 0.6752884387969971,
+      "source_id": "55513895_5028616",
+      "value": " West Sumatra, Indonesia"
+    },
+    {
+      "entry_id": "43138046_5738146_fact2",
+      "score": 0.6584913730621338,
+      "source_id": "43138046_5738146",
+      "value": " western Texas and to Mexico as far south as Oaxaca"
+    }
+  ],
+  "truncated": false
+}

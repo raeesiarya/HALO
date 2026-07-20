@@ -1,0 +1,2520 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "279274_740840_fact14",
+      "score": 0.9169305562973022,
+      "source_id": "279274_740840",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21551810_1428287_fact32",
+      "score": 0.7635126113891602,
+      "source_id": "21551810_1428287",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43081720_5692490_fact6",
+      "score": 0.760021984577179,
+      "source_id": "43081720_5692490",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51181968_4405588_fact6",
+      "score": 0.7581205368041992,
+      "source_id": "51181968_4405588",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23014130_2791263_fact8",
+      "score": 0.752001941204071,
+      "source_id": "23014130_2791263",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18201374_2918505_fact76",
+      "score": 0.7514609694480896,
+      "source_id": "18201374_2918505",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41669763_4526944_fact8",
+      "score": 0.7480484843254089,
+      "source_id": "41669763_4526944",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29397865_1436988_fact27",
+      "score": 0.7458014488220215,
+      "source_id": "29397865_1436988",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3991996_657771_fact17",
+      "score": 0.7455811500549316,
+      "source_id": "3991996_657771",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31952451_1318363_fact86",
+      "score": 0.7412804365158081,
+      "source_id": "31952451_1318363",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28912180_3408296_fact10",
+      "score": 0.7383193969726562,
+      "source_id": "28912180_3408296",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41669763_4526944_fact19",
+      "score": 0.7378281950950623,
+      "source_id": "41669763_4526944",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14416529_1944997_fact107",
+      "score": 0.7356286644935608,
+      "source_id": "14416529_1944997",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9265333_1204054_fact73",
+      "score": 0.7342835664749146,
+      "source_id": "9265333_1204054",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44894017_4804352_fact15",
+      "score": 0.73225337266922,
+      "source_id": "44894017_4804352",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35456304_1807144_fact111",
+      "score": 0.7295358777046204,
+      "source_id": "35456304_1807144",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4943613_432219_fact101",
+      "score": 0.7292563915252686,
+      "source_id": "4943613_432219",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33230551_2372410_fact3",
+      "score": 0.7287020087242126,
+      "source_id": "33230551_2372410",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32846465_2051375_fact7",
+      "score": 0.7268110513687134,
+      "source_id": "32846465_2051375",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40006559_5539437_fact221",
+      "score": 0.7253053784370422,
+      "source_id": "40006559_5539437",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32846465_2051375_fact77",
+      "score": 0.7241796851158142,
+      "source_id": "32846465_2051375",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36366968_2563700_fact15",
+      "score": 0.7241790890693665,
+      "source_id": "36366968_2563700",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7665352_1560740_fact9",
+      "score": 0.7237534523010254,
+      "source_id": "7665352_1560740",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41426782_4319790_fact7",
+      "score": 0.7236945629119873,
+      "source_id": "41426782_4319790",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21152454_3426779_fact14",
+      "score": 0.7217634320259094,
+      "source_id": "21152454_3426779",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31952451_1318363_fact13",
+      "score": 0.7214236855506897,
+      "source_id": "31952451_1318363",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35861289_2135644_fact10",
+      "score": 0.7211850881576538,
+      "source_id": "35861289_2135644",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15934343_3406166_fact104",
+      "score": 0.7208905220031738,
+      "source_id": "15934343_3406166",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16997824_1883347_fact40",
+      "score": 0.7196204662322998,
+      "source_id": "16997824_1883347",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11182035_3210863_fact22",
+      "score": 0.7186830043792725,
+      "source_id": "11182035_3210863",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38842094_4505299_fact7",
+      "score": 0.7185872793197632,
+      "source_id": "38842094_4505299",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49780687_5763719_fact7",
+      "score": 0.7166166305541992,
+      "source_id": "49780687_5763719",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37841129_3648215_fact5",
+      "score": 0.7159238457679749,
+      "source_id": "37841129_3648215",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48055480_4533575_fact5",
+      "score": 0.7155356407165527,
+      "source_id": "48055480_4533575",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34015229_3029283_fact9",
+      "score": 0.7153716683387756,
+      "source_id": "34015229_3029283",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36577850_2719965_fact180",
+      "score": 0.7152979969978333,
+      "source_id": "36577850_2719965",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56411292_5688977_fact9",
+      "score": 0.7149837613105774,
+      "source_id": "56411292_5688977",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27062506_1852936_fact87",
+      "score": 0.7147870659828186,
+      "source_id": "27062506_1852936",
+      "value": " Japan, France, Spain, Italy, Germany, Austria, Hungary, Arab World, Poland, Iran and the Philippines"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34543371_3481011_fact32",
+      "score": 0.7121529579162598,
+      "source_id": "34543371_3481011",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11500693_3580406_fact106",
+      "score": 0.7119021415710449,
+      "source_id": "11500693_3580406",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9664051_1646205_fact6",
+      "score": 0.7109322547912598,
+      "source_id": "9664051_1646205",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19632966_2036928_fact7",
+      "score": 0.7108545303344727,
+      "source_id": "19632966_2036928",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "673510_6099373_fact17",
+      "score": 0.7105491161346436,
+      "source_id": "673510_6099373",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54779695_4612535_fact18",
+      "score": 0.7102944254875183,
+      "source_id": "54779695_4612535",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34165026_3142255_fact97",
+      "score": 0.7101784944534302,
+      "source_id": "34165026_3142255",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29539237_1553535_fact14",
+      "score": 0.7100145220756531,
+      "source_id": "29539237_1553535",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8170996_2244425_fact28",
+      "score": 0.7089647054672241,
+      "source_id": "8170996_2244425",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36264608_2479837_fact38",
+      "score": 0.7079409956932068,
+      "source_id": "36264608_2479837",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32433819_1713636_fact8",
+      "score": 0.7078565359115601,
+      "source_id": "32433819_1713636",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15581684_3069644_fact15",
+      "score": 0.7078064680099487,
+      "source_id": "15581684_3069644",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46793468_5945253_fact17",
+      "score": 0.707751989364624,
+      "source_id": "46793468_5945253",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41387458_4281531_fact43",
+      "score": 0.7072687149047852,
+      "source_id": "41387458_4281531",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7249126_1122220_fact8",
+      "score": 0.7069252729415894,
+      "source_id": "7249126_1122220",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11582164_1253058_fact10",
+      "score": 0.706741988658905,
+      "source_id": "11582164_1253058",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18140536_2871543_fact4",
+      "score": 0.7059736847877502,
+      "source_id": "18140536_2871543",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13622618_3579486_fact16",
+      "score": 0.705917239189148,
+      "source_id": "13622618_3579486",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41426782_4319790_fact23",
+      "score": 0.7049321532249451,
+      "source_id": "41426782_4319790",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "855712_839164_fact8",
+      "score": 0.7047076225280762,
+      "source_id": "855712_839164",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35544558_1874129_fact7",
+      "score": 0.7045848965644836,
+      "source_id": "35544558_1874129",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12005856_1728516_fact227",
+      "score": 0.7042543888092041,
+      "source_id": "12005856_1728516",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36264608_2479837_fact14",
+      "score": 0.7039541006088257,
+      "source_id": "36264608_2479837",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18201374_2918505_fact21",
+      "score": 0.7028132677078247,
+      "source_id": "18201374_2918505",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45696186_5425115_fact4",
+      "score": 0.7027199864387512,
+      "source_id": "45696186_5425115",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47763264_4333662_fact12",
+      "score": 0.7021045684814453,
+      "source_id": "47763264_4333662",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12632568_2518288_fact16",
+      "score": 0.7020655274391174,
+      "source_id": "12632568_2518288",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37176297_3215478_fact41",
+      "score": 0.7019914388656616,
+      "source_id": "37176297_3215478",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34076476_3081506_fact13",
+      "score": 0.7015570402145386,
+      "source_id": "34076476_3081506",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41387458_4281531_fact8",
+      "score": 0.7011719942092896,
+      "source_id": "41387458_4281531",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36366968_2563700_fact46",
+      "score": 0.6998803019523621,
+      "source_id": "36366968_2563700",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18207304_2923207_fact63",
+      "score": 0.6998761296272278,
+      "source_id": "18207304_2923207",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13566563_3529787_fact48",
+      "score": 0.6997683048248291,
+      "source_id": "13566563_3529787",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31511795_3205779_fact9",
+      "score": 0.6997157335281372,
+      "source_id": "31511795_3205779",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16478077_1451829_fact13",
+      "score": 0.6988310813903809,
+      "source_id": "16478077_1451829",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40567314_5960741_fact7",
+      "score": 0.6981674432754517,
+      "source_id": "40567314_5960741",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41101499_4019986_fact9",
+      "score": 0.6980370283126831,
+      "source_id": "41101499_4019986",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18672748_3396201_fact21",
+      "score": 0.6975506544113159,
+      "source_id": "18672748_3396201",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2434502_900201_fact58",
+      "score": 0.6975433826446533,
+      "source_id": "2434502_900201",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4964006_451556_fact27",
+      "score": 0.6975225210189819,
+      "source_id": "4964006_451556",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3438437_1174059_fact8",
+      "score": 0.6973027586936951,
+      "source_id": "3438437_1174059",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5293159_739693_fact6",
+      "score": 0.69708651304245,
+      "source_id": "5293159_739693",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12136572_1864250_fact61",
+      "score": 0.6968432664871216,
+      "source_id": "12136572_1864250",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1857156_992644_fact11",
+      "score": 0.696571946144104,
+      "source_id": "1857156_992644",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23505757_3239014_fact29",
+      "score": 0.6948338747024536,
+      "source_id": "23505757_3239014",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27126690_1915116_fact70",
+      "score": 0.694303572177887,
+      "source_id": "27126690_1915116",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16038650_3506414_fact21",
+      "score": 0.6933631300926208,
+      "source_id": "16038650_3506414",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25354260_2727203_fact19",
+      "score": 0.6925380229949951,
+      "source_id": "25354260_2727203",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47869479_4420746_fact11",
+      "score": 0.6913169026374817,
+      "source_id": "47869479_4420746",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65383_5990293_fact12",
+      "score": 0.6912087202072144,
+      "source_id": "65383_5990293",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53624193_3721948_fact8",
+      "score": 0.691080629825592,
+      "source_id": "53624193_3721948",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7447250_1274592_fact13",
+      "score": 0.6907014846801758,
+      "source_id": "7447250_1274592",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52064904_5037654_fact24",
+      "score": 0.690422773361206,
+      "source_id": "52064904_5037654",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38685940_4378847_fact49",
+      "score": 0.6895610094070435,
+      "source_id": "38685940_4378847",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30892578_2641669_fact60",
+      "score": 0.6893206834793091,
+      "source_id": "30892578_2641669",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43448134_3574187_fact71",
+      "score": 0.6892779469490051,
+      "source_id": "43448134_3574187",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11391371_3450073_fact10",
+      "score": 0.6892019510269165,
+      "source_id": "11391371_3450073",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27541834_2249600_fact17",
+      "score": 0.6889991164207458,
+      "source_id": "27541834_2249600",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41451023_4341080_fact181",
+      "score": 0.6887469291687012,
+      "source_id": "41451023_4341080",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44689678_4665465_fact33",
+      "score": 0.6885222792625427,
+      "source_id": "44689678_4665465",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5099911_567476_fact3",
+      "score": 0.6882705688476562,
+      "source_id": "5099911_567476",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5204800_662264_fact19",
+      "score": 0.6873113512992859,
+      "source_id": "5204800_662264",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28451018_3068831_fact39",
+      "score": 0.6861668229103088,
+      "source_id": "28451018_3068831",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32262575_1574358_fact58",
+      "score": 0.6861650943756104,
+      "source_id": "32262575_1574358",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2548832_1080308_fact125",
+      "score": 0.6858803629875183,
+      "source_id": "2548832_1080308",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4964006_451556_fact112",
+      "score": 0.6857991218566895,
+      "source_id": "4964006_451556",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22375736_2185308_fact90",
+      "score": 0.6856314539909363,
+      "source_id": "22375736_2185308",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30313153_2083093_fact34",
+      "score": 0.685525119304657,
+      "source_id": "30313153_2083093",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53624193_3721948_fact30",
+      "score": 0.6855049133300781,
+      "source_id": "53624193_3721948",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11582164_1253058_fact23",
+      "score": 0.6854989528656006,
+      "source_id": "11582164_1253058",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9485707_1425896_fact20",
+      "score": 0.6853008270263672,
+      "source_id": "9485707_1425896",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4667848_200976_fact29",
+      "score": 0.6852107644081116,
+      "source_id": "4667848_200976",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15107559_2634321_fact26",
+      "score": 0.6849868297576904,
+      "source_id": "15107559_2634321",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24913973_2326551_fact18",
+      "score": 0.6838544011116028,
+      "source_id": "24913973_2326551",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38982081_4641348_fact12",
+      "score": 0.6833593249320984,
+      "source_id": "38982081_4641348",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44693072_4668051_fact27",
+      "score": 0.6833119988441467,
+      "source_id": "44693072_4668051",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27931_639835_fact13",
+      "score": 0.6828501224517822,
+      "source_id": "27931_639835",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1008856_159354_fact12",
+      "score": 0.6826353073120117,
+      "source_id": "1008856_159354",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44704323_4673092_fact40",
+      "score": 0.6825564503669739,
+      "source_id": "44704323_4673092",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46542668_5744571_fact5",
+      "score": 0.6823649406433105,
+      "source_id": "46542668_5744571",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27126690_1915116_fact57",
+      "score": 0.6821348071098328,
+      "source_id": "27126690_1915116",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51233472_4449051_fact8",
+      "score": 0.6817882061004639,
+      "source_id": "51233472_4449051",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20206150_2538951_fact93",
+      "score": 0.6816719770431519,
+      "source_id": "20206150_2538951",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "772143_637484_fact67",
+      "score": 0.6816688776016235,
+      "source_id": "772143_637484",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37841129_3648215_fact27",
+      "score": 0.6816656589508057,
+      "source_id": "37841129_3648215",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35861289_2135644_fact36",
+      "score": 0.6810448169708252,
+      "source_id": "35861289_2135644",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36842562_2951381_fact6",
+      "score": 0.6809163689613342,
+      "source_id": "36842562_2951381",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13566563_3529787_fact15",
+      "score": 0.6806747913360596,
+      "source_id": "13566563_3529787",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1586884_403926_fact35",
+      "score": 0.6805484294891357,
+      "source_id": "1586884_403926",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48375605_4707438_fact6",
+      "score": 0.6804864406585693,
+      "source_id": "48375605_4707438",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "325724_1038207_fact137",
+      "score": 0.6802212595939636,
+      "source_id": "325724_1038207",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40593246_3557931_fact76",
+      "score": 0.6801263093948364,
+      "source_id": "40593246_3557931",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "772143_637484_fact22",
+      "score": 0.6798686385154724,
+      "source_id": "772143_637484",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47763264_4333662_fact42",
+      "score": 0.679772675037384,
+      "source_id": "47763264_4333662",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35463655_1812382_fact42",
+      "score": 0.6790797710418701,
+      "source_id": "35463655_1812382",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34449490_3405474_fact43",
+      "score": 0.6789974570274353,
+      "source_id": "34449490_3405474",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "495095_770469_fact120",
+      "score": 0.6786002516746521,
+      "source_id": "495095_770469",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2128982_347503_fact75",
+      "score": 0.6781813502311707,
+      "source_id": "2128982_347503",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24667924_2101048_fact16",
+      "score": 0.6779290437698364,
+      "source_id": "24667924_2101048",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14417135_1945621_fact63",
+      "score": 0.6778277158737183,
+      "source_id": "14417135_1945621",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33011396_2180092_fact8",
+      "score": 0.6778208017349243,
+      "source_id": "33011396_2180092",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3905340_564654_fact16",
+      "score": 0.6773125529289246,
+      "source_id": "3905340_564654",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41646601_4507500_fact13",
+      "score": 0.6769830584526062,
+      "source_id": "41646601_4507500",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37176297_3215478_fact8",
+      "score": 0.6768586039543152,
+      "source_id": "37176297_3215478",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39749576_5345616_fact8",
+      "score": 0.6767381429672241,
+      "source_id": "39749576_5345616",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31918779_1289999_fact13",
+      "score": 0.6760454773902893,
+      "source_id": "31918779_1289999",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46735328_5899690_fact29",
+      "score": 0.6758434772491455,
+      "source_id": "46735328_5899690",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39922302_5471079_fact38",
+      "score": 0.6756008267402649,
+      "source_id": "39922302_5471079",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9535666_1499873_fact103",
+      "score": 0.6755076050758362,
+      "source_id": "9535666_1499873",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23379871_3096782_fact4",
+      "score": 0.6753076314926147,
+      "source_id": "23379871_3096782",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18434260_3118017_fact91",
+      "score": 0.6749266982078552,
+      "source_id": "18434260_3118017",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11482251_3558248_fact15",
+      "score": 0.6743549704551697,
+      "source_id": "11482251_3558248",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "232190_433259_fact22",
+      "score": 0.6742488145828247,
+      "source_id": "232190_433259",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "75944_190689_fact17",
+      "score": 0.6741776466369629,
+      "source_id": "75944_190689",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38982081_4641348_fact89",
+      "score": 0.6735873818397522,
+      "source_id": "38982081_4641348",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34171710_3148079_fact26",
+      "score": 0.6730323433876038,
+      "source_id": "34171710_3148079",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30975631_2703117_fact10",
+      "score": 0.6730215549468994,
+      "source_id": "30975631_2703117",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8275250_2380510_fact6",
+      "score": 0.672822892665863,
+      "source_id": "8275250_2380510",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30892578_2641669_fact13",
+      "score": 0.6720335483551025,
+      "source_id": "30892578_2641669",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41490763_4369312_fact12",
+      "score": 0.6718894839286804,
+      "source_id": "41490763_4369312",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12632568_2518288_fact129",
+      "score": 0.6711552739143372,
+      "source_id": "12632568_2518288",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4542405_90430_fact7",
+      "score": 0.6708471179008484,
+      "source_id": "4542405_90430",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2847862_371902_fact38",
+      "score": 0.6707799434661865,
+      "source_id": "2847862_371902",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41216430_4125091_fact13",
+      "score": 0.6706863045692444,
+      "source_id": "41216430_4125091",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4211922_898794_fact82",
+      "score": 0.6701733469963074,
+      "source_id": "4211922_898794",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60124415_5880286_fact8",
+      "score": 0.6700141429901123,
+      "source_id": "60124415_5880286",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17738930_2545789_fact101",
+      "score": 0.6695037484169006,
+      "source_id": "17738930_2545789",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36690481_2818750_fact32",
+      "score": 0.6689947843551636,
+      "source_id": "36690481_2818750",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39665836_5278398_fact5",
+      "score": 0.668936014175415,
+      "source_id": "39665836_5278398",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41490763_4369312_fact61",
+      "score": 0.6686453819274902,
+      "source_id": "41490763_4369312",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44689678_4665465_fact12",
+      "score": 0.6673601865768433,
+      "source_id": "44689678_4665465",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69701021_5376984_fact8",
+      "score": 0.6669924259185791,
+      "source_id": "69701021_5376984",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2731010_222541_fact156",
+      "score": 0.6667580604553223,
+      "source_id": "2731010_222541",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36852109_2958346_fact33",
+      "score": 0.6664032936096191,
+      "source_id": "36852109_2958346",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32382782_1670557_fact8",
+      "score": 0.6663711667060852,
+      "source_id": "32382782_1670557",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9590587_1563692_fact32",
+      "score": 0.6662566661834717,
+      "source_id": "9590587_1563692",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12246970_2009260_fact14",
+      "score": 0.6656308770179749,
+      "source_id": "12246970_2009260",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "901374_997749_fact84",
+      "score": 0.6654877066612244,
+      "source_id": "901374_997749",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1516470_257498_fact11",
+      "score": 0.6650828123092651,
+      "source_id": "1516470_257498",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3438437_1174059_fact71",
+      "score": 0.6650040149688721,
+      "source_id": "3438437_1174059",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1642045_528621_fact5",
+      "score": 0.6641024947166443,
+      "source_id": "1642045_528621",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4726782_254241_fact46",
+      "score": 0.6639386415481567,
+      "source_id": "4726782_254241",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33270624_2410149_fact11",
+      "score": 0.6638016104698181,
+      "source_id": "33270624_2410149",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2919125_478144_fact5",
+      "score": 0.663670003414154,
+      "source_id": "2919125_478144",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38242599_4006239_fact16",
+      "score": 0.6630281209945679,
+      "source_id": "38242599_4006239",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46552251_5750682_fact11",
+      "score": 0.6629631519317627,
+      "source_id": "46552251_5750682",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47030250_3672904_fact8",
+      "score": 0.662936270236969,
+      "source_id": "47030250_3672904",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29397865_1436988_fact7",
+      "score": 0.6624335646629333,
+      "source_id": "29397865_1436988",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11281322_3322695_fact6",
+      "score": 0.6623326539993286,
+      "source_id": "11281322_3322695",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38898134_4559138_fact35",
+      "score": 0.6622068881988525,
+      "source_id": "38898134_4559138",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16900241_1791527_fact7",
+      "score": 0.6602317094802856,
+      "source_id": "16900241_1791527",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49126601_5346780_fact8",
+      "score": 0.6599627137184143,
+      "source_id": "49126601_5346780",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4700891_231814_fact140",
+      "score": 0.6585227251052856,
+      "source_id": "4700891_231814",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7688307_1594527_fact129",
+      "score": 0.6583282947540283,
+      "source_id": "7688307_1594527",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53460097_3592606_fact24",
+      "score": 0.6578422784805298,
+      "source_id": "53460097_3592606",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32383004_1670771_fact4",
+      "score": 0.6575649976730347,
+      "source_id": "32383004_1670771",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33451464_2552148_fact6",
+      "score": 0.6561083793640137,
+      "source_id": "33451464_2552148",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17883952_2656330_fact11",
+      "score": 0.6555713415145874,
+      "source_id": "17883952_2656330",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38309736_4070001_fact127",
+      "score": 0.655499279499054,
+      "source_id": "38309736_4070001",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1713110_689130_fact76",
+      "score": 0.6551495790481567,
+      "source_id": "1713110_689130",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30313153_2083093_fact6",
+      "score": 0.6550250053405762,
+      "source_id": "30313153_2083093",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11727655_1400725_fact12",
+      "score": 0.6548219323158264,
+      "source_id": "11727655_1400725",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56492385_5742888_fact42",
+      "score": 0.6546521186828613,
+      "source_id": "56492385_5742888",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42258074_5042719_fact7",
+      "score": 0.6546341776847839,
+      "source_id": "42258074_5042719",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3991996_657771_fact190",
+      "score": 0.6543386578559875,
+      "source_id": "3991996_657771",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "472994_665856_fact39",
+      "score": 0.6538796424865723,
+      "source_id": "472994_665856",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3615437_244708_fact5",
+      "score": 0.6536635160446167,
+      "source_id": "3615437_244708",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32421701_1704739_fact15",
+      "score": 0.6536293029785156,
+      "source_id": "32421701_1704739",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24002254_1439110_fact125",
+      "score": 0.6533379554748535,
+      "source_id": "24002254_1439110",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12696343_2589733_fact4",
+      "score": 0.6528828740119934,
+      "source_id": "12696343_2589733",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51425115_4616198_fact10",
+      "score": 0.6526163220405579,
+      "source_id": "51425115_4616198",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17738930_2545789_fact12",
+      "score": 0.6519558429718018,
+      "source_id": "17738930_2545789",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36824199_2935739_fact10",
+      "score": 0.6513248682022095,
+      "source_id": "36824199_2935739",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7688307_1594527_fact28",
+      "score": 0.6509020328521729,
+      "source_id": "7688307_1594527",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22182758_2012554_fact2",
+      "score": 0.6504563093185425,
+      "source_id": "22182758_2012554",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56921593_3694060_fact22",
+      "score": 0.6503909826278687,
+      "source_id": "56921593_3694060",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49240000_5418907_fact6",
+      "score": 0.6500501036643982,
+      "source_id": "49240000_5418907",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "772709_639806_fact11",
+      "score": 0.6497035026550293,
+      "source_id": "772709_639806",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38290076_4050005_fact59",
+      "score": 0.6490903496742249,
+      "source_id": "38290076_4050005",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38999900_4657671_fact15",
+      "score": 0.6486260294914246,
+      "source_id": "38999900_4657671",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42171026_4969783_fact14",
+      "score": 0.6484026908874512,
+      "source_id": "42171026_4969783",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "113028_547412_fact178",
+      "score": 0.6482317447662354,
+      "source_id": "113028_547412",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53031069_5717310_fact5",
+      "score": 0.6479590535163879,
+      "source_id": "53031069_5717310",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40593246_3557931_fact6",
+      "score": 0.647169828414917,
+      "source_id": "40593246_3557931",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21605711_1481814_fact5",
+      "score": 0.6470910906791687,
+      "source_id": "21605711_1481814",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12167020_1901672_fact6",
+      "score": 0.6468443870544434,
+      "source_id": "12167020_1901672",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49950665_5846852_fact11",
+      "score": 0.6468124985694885,
+      "source_id": "49950665_5846852",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3668750_310288_fact52",
+      "score": 0.6466693878173828,
+      "source_id": "3668750_310288",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "74999_5992381_fact12",
+      "score": 0.6466689109802246,
+      "source_id": "74999_5992381",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6181105_390796_fact11",
+      "score": 0.6464329361915588,
+      "source_id": "6181105_390796",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "424580_420971_fact131",
+      "score": 0.6463624238967896,
+      "source_id": "424580_420971",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7757422_1687371_fact70",
+      "score": 0.6456687450408936,
+      "source_id": "7757422_1687371",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3612640_240804_fact5",
+      "score": 0.6455329060554504,
+      "source_id": "3612640_240804",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28518816_3105939_fact23",
+      "score": 0.6451804041862488,
+      "source_id": "28518816_3105939",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39922302_5471079_fact8",
+      "score": 0.6445857286453247,
+      "source_id": "39922302_5471079",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68833401_4797015_fact5",
+      "score": 0.6439537405967712,
+      "source_id": "68833401_4797015",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32106387_1450575_fact54",
+      "score": 0.6438199877738953,
+      "source_id": "32106387_1450575",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40629300_3589740_fact5",
+      "score": 0.6438037157058716,
+      "source_id": "40629300_3589740",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34076476_3081506_fact59",
+      "score": 0.6435085535049438,
+      "source_id": "34076476_3081506",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8308912_2424959_fact6",
+      "score": 0.6433533430099487,
+      "source_id": "8308912_2424959",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6358299_513939_fact7",
+      "score": 0.6432905197143555,
+      "source_id": "6358299_513939",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17430053_2265777_fact39",
+      "score": 0.6432467699050903,
+      "source_id": "17430053_2265777",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24655648_2090034_fact6",
+      "score": 0.6431570649147034,
+      "source_id": "24655648_2090034",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42031635_4848350_fact59",
+      "score": 0.6427616477012634,
+      "source_id": "42031635_4848350",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30254739_2037601_fact20",
+      "score": 0.6424914598464966,
+      "source_id": "30254739_2037601",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51425115_4616198_fact37",
+      "score": 0.6424892544746399,
+      "source_id": "51425115_4616198",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16644577_1560158_fact6",
+      "score": 0.6423405408859253,
+      "source_id": "16644577_1560158",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5337827_781252_fact85",
+      "score": 0.6422290802001953,
+      "source_id": "5337827_781252",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "208407_277408_fact16",
+      "score": 0.6421405673027039,
+      "source_id": "208407_277408",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28912180_3408296_fact29",
+      "score": 0.6421141624450684,
+      "source_id": "28912180_3408296",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "994533_122436_fact20",
+      "score": 0.6419329643249512,
+      "source_id": "994533_122436",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38302595_4062565_fact12",
+      "score": 0.6417036056518555,
+      "source_id": "38302595_4062565",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38754806_4430156_fact78",
+      "score": 0.6414758563041687,
+      "source_id": "38754806_4430156",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67136060_5932812_fact20",
+      "score": 0.6412355899810791,
+      "source_id": "67136060_5932812",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21468511_1344881_fact139",
+      "score": 0.6408652067184448,
+      "source_id": "21468511_1344881",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40570369_5962264_fact8",
+      "score": 0.6408025026321411,
+      "source_id": "40570369_5962264",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2098762_296956_fact2",
+      "score": 0.6402679681777954,
+      "source_id": "2098762_296956",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1260818_848480_fact107",
+      "score": 0.6398247480392456,
+      "source_id": "1260818_848480",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30841040_2497369_fact11",
+      "score": 0.6390960812568665,
+      "source_id": "30841040_2497369",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7076388_1005077_fact7",
+      "score": 0.6387174129486084,
+      "source_id": "7076388_1005077",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6194983_401773_fact7",
+      "score": 0.6372846961021423,
+      "source_id": "6194983_401773",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4232907_920788_fact22",
+      "score": 0.6367859840393066,
+      "source_id": "4232907_920788",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "751030_558362_fact15",
+      "score": 0.6355189681053162,
+      "source_id": "751030_558362",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53194202_5822676_fact69",
+      "score": 0.635362982749939,
+      "source_id": "53194202_5822676",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1270729_876476_fact10",
+      "score": 0.6348305940628052,
+      "source_id": "1270729_876476",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47742408_4314583_fact1",
+      "score": 0.6340111494064331,
+      "source_id": "47742408_4314583",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4966430_454089_fact103",
+      "score": 0.6339018940925598,
+      "source_id": "4966430_454089",
+      "value": " Japan, Taiwan, Hong Kong, South Korea, Italy, Spain, Portugal, Thailand, and the Philippines"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1067041_314400_fact91",
+      "score": 0.6335834264755249,
+      "source_id": "1067041_314400",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "814066_6132563_fact6",
+      "score": 0.6334171891212463,
+      "source_id": "814066_6132563",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "546692_6079807_fact11",
+      "score": 0.6334108114242554,
+      "source_id": "546692_6079807",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "635553_191115_fact15",
+      "score": 0.6332226991653442,
+      "source_id": "635553_191115",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38754806_4430156_fact16",
+      "score": 0.6320647597312927,
+      "source_id": "38754806_4430156",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45583475_5329057_fact6",
+      "score": 0.63153475522995,
+      "source_id": "45583475_5329057",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22392679_2203964_fact42",
+      "score": 0.6314932107925415,
+      "source_id": "22392679_2203964",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4399390_1090470_fact11",
+      "score": 0.6312130093574524,
+      "source_id": "4399390_1090470",
+      "value": " Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13057622_3011551_fact93",
+      "score": 0.6311814188957214,
+      "source_id": "13057622_3011551",
+      "value": " Japan"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1ff0a6b0-b44e-4aa0-b217-818fa2de2d8f",
+  "index_nprobe": null,
+  "manifest_id": "459ef7d6a9d1683b",
+  "margin": 0.10638618469238281,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9169305562973022,
+  "s_surv": 0.8105443716049194,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "279274_740840_fact93",
+      "score": 0.8105443716049194,
+      "source_id": "279274_740840",
+      "value": " five-minute segments"
+    },
+    {
+      "entry_id": "8511953_2676114_fact4",
+      "score": 0.7950391173362732,
+      "source_id": "8511953_2676114",
+      "value": " five-minute segments"
+    },
+    {
+      "entry_id": "279274_740840_fact91",
+      "score": 0.7830708026885986,
+      "source_id": "279274_740840",
+      "value": " the week of April 8, 2002 until the week of September 30, 2002"
+    },
+    {
+      "entry_id": "279274_740840_fact15",
+      "score": 0.7767422795295715,
+      "source_id": "279274_740840",
+      "value": " April and September 2002"
+    },
+    {
+      "entry_id": "10513186_2511225_fact12",
+      "score": 0.7634047865867615,
+      "source_id": "10513186_2511225",
+      "value": " 2017"
+    }
+  ],
+  "truncated": false
+}

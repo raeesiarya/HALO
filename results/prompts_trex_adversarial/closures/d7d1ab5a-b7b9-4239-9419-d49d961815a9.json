@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2787746_288733_fact2",
+      "score": 0.7482084035873413,
+      "source_id": "2787746_288733",
+      "value": " the Hatch Islands"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1453459_132389_fact7",
+      "score": 0.5901645421981812,
+      "source_id": "1453459_132389",
+      "value": " the Drake Passage, Tierra del Fuego, South Georgia, the South Sandwich Islands, the South Orkney Islands, and the Antarctic Peninsula"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d7d1ab5a-b7b9-4239-9419-d49d961815a9",
+  "index_nprobe": null,
+  "manifest_id": "cea27385bf8bb018",
+  "margin": 0.008499979972839355,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7482085824012756,
+  "s_surv": 0.7397086024284363,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1342676_1028878_fact2",
+      "score": 0.7397086024284363,
+      "source_id": "1342676_1028878",
+      "value": " the Volta River and the Lagos Lagoon"
+    },
+    {
+      "entry_id": "3024181_620048_fact5",
+      "score": 0.7372775077819824,
+      "source_id": "3024181_620048",
+      "value": " Rockport and Ferndale"
+    },
+    {
+      "entry_id": "38192132_3957817_fact0",
+      "score": 0.7239739894866943,
+      "source_id": "38192132_3957817",
+      "value": " Sigatoka and Suva"
+    },
+    {
+      "entry_id": "2796044_299080_fact1",
+      "score": 0.7231916785240173,
+      "source_id": "2796044_299080",
+      "value": " the head of Edward VIII Bay"
+    },
+    {
+      "entry_id": "2810176_318573_fact1",
+      "score": 0.7180612087249756,
+      "source_id": "2810176_318573",
+      "value": " the northern tip of Rydberg Peninsula and the Buttress Nunataks"
+    }
+  ],
+  "truncated": false
+}

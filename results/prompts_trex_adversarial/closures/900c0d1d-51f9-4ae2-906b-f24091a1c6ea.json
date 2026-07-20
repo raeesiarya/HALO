@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2207493_488991_fact1",
+      "score": 0.9369306564331055,
+      "source_id": "2207493_488991",
+      "value": " Seattle, Washington"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10848273_2824782_fact1",
+      "score": 0.7082960605621338,
+      "source_id": "10848273_2824782",
+      "value": " Seattle, Washington"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1984026_96982_fact65",
+      "score": 0.6678192615509033,
+      "source_id": "1984026_96982",
+      "value": " Seattle, Washington"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19948343_2311124_fact11",
+      "score": 0.6617726683616638,
+      "source_id": "19948343_2311124",
+      "value": " Seattle, Washington"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5871246_139273_fact16",
+      "score": 0.6521743535995483,
+      "source_id": "5871246_139273",
+      "value": " Seattle, Washington"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2576882_1124039_fact44",
+      "score": 0.6466062664985657,
+      "source_id": "2576882_1124039",
+      "value": " Seattle"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "900c0d1d-51f9-4ae2-906b-f24091a1c6ea",
+  "index_nprobe": null,
+  "manifest_id": "0ec2e2a57e4634e3",
+  "margin": 0.09169173240661621,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.936930775642395,
+  "s_surv": 0.8452390432357788,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "296204_834433_fact1",
+      "score": 0.8452390432357788,
+      "source_id": "296204_834433",
+      "value": " Berkeley, California"
+    },
+    {
+      "entry_id": "19524356_1956802_fact1",
+      "score": 0.7936005592346191,
+      "source_id": "19524356_1956802",
+      "value": " El Monte, California"
+    },
+    {
+      "entry_id": "867020_881035_fact1",
+      "score": 0.7876712083816528,
+      "source_id": "867020_881035",
+      "value": " Emeryville, California"
+    },
+    {
+      "entry_id": "528878_920044_fact1",
+      "score": 0.7727609872817993,
+      "source_id": "528878_920044",
+      "value": " Washington, D.C."
+    },
+    {
+      "entry_id": "20303605_2613051_fact2",
+      "score": 0.7658727169036865,
+      "source_id": "20303605_2613051",
+      "value": " Rockville, Maryland, United States"
+    }
+  ],
+  "truncated": false
+}

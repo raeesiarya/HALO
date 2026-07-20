@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1526334_277675_fact86",
+      "score": 0.6897218823432922,
+      "source_id": "1526334_277675",
+      "value": " 430-cubic-inch V8"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "142314_861925_fact51",
+      "score": 0.6856194734573364,
+      "source_id": "142314_861925",
+      "value": " turbocharged Honda engine"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "33355a57-8308-461c-9b1d-c818c311c207",
+  "index_nprobe": null,
+  "manifest_id": "43ecfaa995ed2ada",
+  "margin": 0.0027454495429992676,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6897217631340027,
+  "s_surv": 0.6869763135910034,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1887376_1056650_fact21",
+      "score": 0.6869763135910034,
+      "source_id": "1887376_1056650",
+      "value": " 2.4\u00a0L four-cylinder engine"
+    },
+    {
+      "entry_id": "3286320_994206_fact49",
+      "score": 0.6851392984390259,
+      "source_id": "3286320_994206",
+      "value": " Z1 Jaguar"
+    },
+    {
+      "entry_id": "1052359_275707_fact129",
+      "score": 0.6841999888420105,
+      "source_id": "1052359_275707",
+      "value": " 2.5-liter 4-cylinder"
+    },
+    {
+      "entry_id": "45386012_5166315_fact118",
+      "score": 0.6757691502571106,
+      "source_id": "45386012_5166315",
+      "value": " 10-speed 10R80 automatic transmission"
+    },
+    {
+      "entry_id": "34957810_1483989_fact112",
+      "score": 0.6717185974121094,
+      "source_id": "34957810_1483989",
+      "value": " 4.2 L OHV V6"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,190 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "6646147_687512_fact2",
+      "score": 0.9326334595680237,
+      "source_id": "6646147_687512",
+      "value": " reggae band"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "19671384_2065925_fact1",
+      "score": 0.9004964828491211,
+      "source_id": "19671384_2065925",
+      "value": " Jamaican"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "33834843_2877034_fact8",
+      "score": 0.8764837980270386,
+      "source_id": "33834843_2877034",
+      "value": " rock and roll band"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "4060743_730084_fact27",
+      "score": 0.8521576523780823,
+      "source_id": "4060743_730084",
+      "value": " Tacoma, Washington"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "3394257_1124218_fact0",
+      "score": 0.8514963984489441,
+      "source_id": "3394257_1124218",
+      "value": " reggae band"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6726856_740339_fact223",
+      "score": 0.8210337162017822,
+      "source_id": "6726856_740339",
+      "value": " Jamaican reggae group"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39047036_4697630_fact0",
+      "score": 0.7925288677215576,
+      "source_id": "39047036_4697630",
+      "value": " Jamaican reggae band"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19671384_2065925_fact2",
+      "score": 0.7614222764968872,
+      "source_id": "19671384_2065925",
+      "value": " reggae group"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20904303_3152806_fact0",
+      "score": 0.7228023409843445,
+      "source_id": "20904303_3152806",
+      "value": " reggae group"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "989390_106904_fact3",
+      "score": 0.6701412200927734,
+      "source_id": "989390_106904",
+      "value": " ska, rocksteady and reggae band"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34402362_3360177_fact8",
+      "score": 0.6652973890304565,
+      "source_id": "34402362_3360177",
+      "value": " British reggae"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3128409_774310_fact36",
+      "score": 0.6597840189933777,
+      "source_id": "3128409_774310",
+      "value": " reggae"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47486946_4082141_fact5",
+      "score": 0.6343382000923157,
+      "source_id": "47486946_4082141",
+      "value": " reggae"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "826266_6135389_fact6",
+      "score": 0.6283192038536072,
+      "source_id": "826266_6135389",
+      "value": " reggae"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58043065_4573230_fact46",
+      "score": 0.6152279376983643,
+      "source_id": "58043065_4573230",
+      "value": " ska and reggae"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c450fa57-abef-4ddc-8d68-58c069703bfd",
+  "index_nprobe": null,
+  "manifest_id": "282cf67fdf42e0ad",
+  "margin": 0.10838896036148071,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9326334595680237,
+  "s_surv": 0.824244499206543,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "189738_141908_fact79",
+      "score": 0.824244499206543,
+      "source_id": "189738_141908",
+      "value": " vocal harmony trio"
+    },
+    {
+      "entry_id": "2902045_452399_fact1",
+      "score": 0.8146811723709106,
+      "source_id": "2902045_452399",
+      "value": " American"
+    },
+    {
+      "entry_id": "989390_106904_fact2",
+      "score": 0.8109920024871826,
+      "source_id": "989390_106904",
+      "value": " Jamaican"
+    },
+    {
+      "entry_id": "37391266_3363463_fact54",
+      "score": 0.7360835075378418,
+      "source_id": "37391266_3363463",
+      "value": " Tacoma"
+    },
+    {
+      "entry_id": "1353327_1056654_fact148",
+      "score": 0.7325090169906616,
+      "source_id": "1353327_1056654",
+      "value": " 1970s roots rock group"
+    }
+  ],
+  "truncated": false
+}

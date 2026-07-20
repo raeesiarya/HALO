@@ -1,0 +1,542 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "4145554_823318_fact12",
+      "score": 0.9064029455184937,
+      "source_id": "4145554_823318",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "63087857_5588488_fact15",
+      "score": 0.8982967138290405,
+      "source_id": "63087857_5588488",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "18018945_2770701_fact24",
+      "score": 0.8948301672935486,
+      "source_id": "18018945_2770701",
+      "value": " Palmerston North"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1082091_353912_fact25",
+      "score": 0.8921054601669312,
+      "source_id": "1082091_353912",
+      "value": " Palmerston North"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "63240291_5692360_fact6",
+      "score": 0.8919805288314819,
+      "source_id": "63240291_5692360",
+      "value": " Palmerston North, New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "42656827_5380054_fact20",
+      "score": 0.891700029373169,
+      "source_id": "42656827_5380054",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "44944408_4848030_fact16",
+      "score": 0.8885623216629028,
+      "source_id": "44944408_4848030",
+      "value": " Palmerston North"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "7408183_1226991_fact13",
+      "score": 0.8883802890777588,
+      "source_id": "7408183_1226991",
+      "value": " Wellington"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "29604239_1612783_fact20",
+      "score": 0.8858854174613953,
+      "source_id": "29604239_1612783",
+      "value": " Palmerston North"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "64757844_4497285_fact11",
+      "score": 0.8851210474967957,
+      "source_id": "64757844_4497285",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "8249214_2345899_fact22",
+      "score": 0.8822663426399231,
+      "source_id": "8249214_2345899",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "24535265_1980916_fact23",
+      "score": 0.8816622495651245,
+      "source_id": "24535265_1980916",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "43557908_3673797_fact26",
+      "score": 0.88124018907547,
+      "source_id": "43557908_3673797",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "57179234_3892336_fact6",
+      "score": 0.8809659481048584,
+      "source_id": "57179234_3892336",
+      "value": " Palmerston North"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "9204414_3580589_fact94",
+      "score": 0.8771958947181702,
+      "source_id": "9204414_3580589",
+      "value": " Palmerston North, New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "8244924_2340080_fact45",
+      "score": 0.8770300149917603,
+      "source_id": "8244924_2340080",
+      "value": " Palmerston North, New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "68229087_4323861_fact24",
+      "score": 0.8763946294784546,
+      "source_id": "68229087_4323861",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "62978904_5514467_fact22",
+      "score": 0.8761821985244751,
+      "source_id": "62978904_5514467",
+      "value": " Palmerston North, New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "39675419_5285394_fact4",
+      "score": 0.8757973313331604,
+      "source_id": "39675419_5285394",
+      "value": " Palmerston North"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "2219785_510054_fact20",
+      "score": 0.8752766251564026,
+      "source_id": "2219785_510054",
+      "value": " Auckland, New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "55832828_5278627_fact8",
+      "score": 0.8745898008346558,
+      "source_id": "55832828_5278627",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "831497_761048_fact32",
+      "score": 0.8742378950119019,
+      "source_id": "831497_761048",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "35749293_2046045_fact19",
+      "score": 0.8716039657592773,
+      "source_id": "35749293_2046045",
+      "value": " Albany"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "68517791_4554257_fact25",
+      "score": 0.8712185621261597,
+      "source_id": "68517791_4554257",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "18324880_3009569_fact5",
+      "score": 0.8704135417938232,
+      "source_id": "18324880_3009569",
+      "value": " Auckland, New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "65044620_4607631_fact28",
+      "score": 0.8700851202011108,
+      "source_id": "65044620_4607631",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1397202_1153851_fact99",
+      "score": 0.8690974712371826,
+      "source_id": "1397202_1153851",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "62537385_5232949_fact40",
+      "score": 0.8687798976898193,
+      "source_id": "62537385_5232949",
+      "value": " Wellington"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "70229619_5673537_fact18",
+      "score": 0.8685397505760193,
+      "source_id": "70229619_5673537",
+      "value": " Wellington"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "34498502_3444889_fact28",
+      "score": 0.868515133857727,
+      "source_id": "34498502_3444889",
+      "value": " Palmerston North, New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "10462776_2462893_fact52",
+      "score": 0.8680230975151062,
+      "source_id": "10462776_2462893",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "33865207_2899209_fact3",
+      "score": 0.8679825067520142,
+      "source_id": "33865207_2899209",
+      "value": " Palmerston North, New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1483118_194337_fact118",
+      "score": 0.8669360876083374,
+      "source_id": "1483118_194337",
+      "value": " Albany, Auckland"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "56435250_5706521_fact13",
+      "score": 0.8661065101623535,
+      "source_id": "56435250_5706521",
+      "value": "Palmerston"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "66291884_5465466_fact24",
+      "score": 0.8648664951324463,
+      "source_id": "66291884_5465466",
+      "value": " Palmerston North, New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "50244881_3667356_fact18",
+      "score": 0.8644060492515564,
+      "source_id": "50244881_3667356",
+      "value": "NZ)."
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "50080434_5939431_fact14",
+      "score": 0.8631343245506287,
+      "source_id": "50080434_5939431",
+      "value": " Palmerston North"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "64509848_4308225_fact39",
+      "score": 0.8619123101234436,
+      "source_id": "64509848_4308225",
+      "value": " external communications"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "66198070_5397502_fact2",
+      "score": 0.8611583113670349,
+      "source_id": "66198070_5397502",
+      "value": " New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "27279470_2029845_fact9",
+      "score": 0.8569781184196472,
+      "source_id": "27279470_2029845",
+      "value": " Palmerston North, New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "66144633_5358604_fact13",
+      "score": 0.8564823865890503,
+      "source_id": "66144633_5358604",
+      "value": " Palmerston North, New Zealand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "24304864_1755299_fact14",
+      "score": 0.8547338843345642,
+      "source_id": "24304864_1755299",
+      "value": " Palmerston North"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "60838891_4047345_fact25",
+      "score": 0.8527826070785522,
+      "source_id": "60838891_4047345",
+      "value": " Palmerston North, New Zealand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1433219_87044_fact3",
+      "score": 0.8471645712852478,
+      "source_id": "1433219_87044",
+      "value": " Wellington, New Zealand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5607099_1006560_fact86",
+      "score": 0.8463616967201233,
+      "source_id": "5607099_1006560",
+      "value": " Wellington"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58865504_5117169_fact4",
+      "score": 0.8301810026168823,
+      "source_id": "58865504_5117169",
+      "value": " Wellington"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59588733_5550067_fact2",
+      "score": 0.8027989864349365,
+      "source_id": "59588733_5550067",
+      "value": " Wellington, New Zealand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59363122_5411887_fact2",
+      "score": 0.8001710772514343,
+      "source_id": "59363122_5411887",
+      "value": " Wellington, New Zealand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41805175_4646728_fact11",
+      "score": 0.6875094771385193,
+      "source_id": "41805175_4646728",
+      "value": " Wellington"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55981195_5390971_fact11",
+      "score": 0.6270431280136108,
+      "source_id": "55981195_5390971",
+      "value": " Albany and Wellington campuses"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24217293_1679573_fact3",
+      "score": 0.6123186349868774,
+      "source_id": "24217293_1679573",
+      "value": " Wellington"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14076921_1620345_fact1",
+      "score": 0.6104469895362854,
+      "source_id": "14076921_1620345",
+      "value": " Wellington, New Zealand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1646541_539372_fact18",
+      "score": 0.5460187196731567,
+      "source_id": "1646541_539372",
+      "value": " Wellington"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31960909_1325101_fact13",
+      "score": 0.5454846024513245,
+      "source_id": "31960909_1325101",
+      "value": " Wellington"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "487d1727-eb40-4a1f-9f4c-d428e1801c2e",
+  "index_nprobe": null,
+  "manifest_id": "71de611bdd3a3ef8",
+  "margin": 0.05678361654281616,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9064028859138489,
+  "s_surv": 0.8496192693710327,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "375151_158496_fact10",
+      "score": 0.8496192693710327,
+      "source_id": "375151_158496",
+      "value": " the University of Toronto"
+    },
+    {
+      "entry_id": "64350536_4182930_fact17",
+      "score": 0.8479626178741455,
+      "source_id": "64350536_4182930",
+      "value": " Canada"
+    },
+    {
+      "entry_id": "68486637_4528565_fact5",
+      "score": 0.8478659987449646,
+      "source_id": "68486637_4528565",
+      "value": " New Zealand"
+    },
+    {
+      "entry_id": "11538366_1212286_fact32",
+      "score": 0.8440635800361633,
+      "source_id": "11538366_1212286",
+      "value": " Palmerston North"
+    },
+    {
+      "entry_id": "69985329_5528591_fact39",
+      "score": 0.8436004519462585,
+      "source_id": "69985329_5528591",
+      "value": " New Zealand"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,198 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "170567_6014614_fact0",
+      "score": 0.9200347065925598,
+      "source_id": "170567_6014614",
+      "value": " the Korean-language edition of Wikipedia"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "3244019_939879_fact0",
+      "score": 0.9069488048553467,
+      "source_id": "3244019_939879",
+      "value": " the Korean language edition of Wikipedia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37714006_3618419_fact1",
+      "score": 0.6597635746002197,
+      "source_id": "37714006_3618419",
+      "value": " the official web portal of the South Korean government"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3515_741_fact0",
+      "score": 0.6256234049797058,
+      "source_id": "3515_741",
+      "value": " a free textbook for learning Korean"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38281556_4043347_fact28",
+      "score": 0.5892593264579773,
+      "source_id": "38281556_4043347",
+      "value": " the official web portal of the South Korean government"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15078602_2611193_fact3",
+      "score": 0.5642057657241821,
+      "source_id": "15078602_2611193",
+      "value": " the largest Korean language newspaper in the United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6393295_535585_fact0",
+      "score": 0.5554062128067017,
+      "source_id": "6393295_535585",
+      "value": " the English edition of the South Korean national daily newspaper \"JoongAng Ilbo\"."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8713581_2948294_fact0",
+      "score": 0.5515199899673462,
+      "source_id": "8713581_2948294",
+      "value": " an agency of South Korean government"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7652364_1544491_fact34",
+      "score": 0.5465242862701416,
+      "source_id": "7652364_1544491",
+      "value": " Korean version of \"Newtype\" from Japan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54276135_4247384_fact0",
+      "score": 0.5321394801139832,
+      "source_id": "54276135_4247384",
+      "value": " an online learner's dictionary of the Korean language"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34438079_3394278_fact0",
+      "score": 0.5248023271560669,
+      "source_id": "34438079_3394278",
+      "value": " South Korean adaptation of BBC's popular \"Top Gear\" show"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "174467_1201270_fact32",
+      "score": 0.5215900540351868,
+      "source_id": "174467_1201270",
+      "value": " only Korean wire service that works with foreign news agencies"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "758041_579172_fact55",
+      "score": 0.5113093852996826,
+      "source_id": "758041_579172",
+      "value": " South Korean subsidiary of the Pancrase Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20524263_2769751_fact0",
+      "score": 0.5080395340919495,
+      "source_id": "20524263_2769751",
+      "value": " South Korean version of the American reality show \"Project Runway\"."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21199322_3468337_fact0",
+      "score": 0.5038691759109497,
+      "source_id": "21199322_3468337",
+      "value": " biannual peer-reviewed academic journal covering Korean studies"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "939664_6159172_fact0",
+      "score": 0.5005978941917419,
+      "source_id": "939664_6159172",
+      "value": " an American Korean language television channel"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "dc58df8f-c758-48b0-9bd2-4415fa956057",
+  "index_nprobe": null,
+  "manifest_id": "d721176e98b168fb",
+  "margin": 0.11720997095108032,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9200345873832703,
+  "s_surv": 0.8028246164321899,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "170567_6014614_fact4",
+      "score": 0.8028246164321899,
+      "source_id": "170567_6014614",
+      "value": " 27th largest edition"
+    },
+    {
+      "entry_id": "165257_6013790_fact0",
+      "score": 0.762030839920044,
+      "source_id": "165257_6013790",
+      "value": " the Japanese-language edition of Wikipedia"
+    },
+    {
+      "entry_id": "3027504_626676_fact2",
+      "score": 0.7398844957351685,
+      "source_id": "3027504_626676",
+      "value": " Greek-language edition of Wikipedia, the free online encyclopedia"
+    },
+    {
+      "entry_id": "170110_6014559_fact2",
+      "score": 0.7358317971229553,
+      "source_id": "170110_6014559",
+      "value": " fifth language"
+    },
+    {
+      "entry_id": "1197992_673440_fact0",
+      "score": 0.7290326356887817,
+      "source_id": "1197992_673440",
+      "value": " written vernacular Chinese (a form of Mandarin Chinese) edition of Wikipedia"
+    }
+  ],
+  "truncated": false
+}

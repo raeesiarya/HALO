@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "12875351_2804033_fact5",
+      "score": 0.7443559169769287,
+      "source_id": "12875351_2804033",
+      "value": " the thriller genre"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "69d7acb9-999a-4aa7-9662-f3540ffc0b6a",
+  "index_nprobe": null,
+  "manifest_id": "a4467dccccea2edb",
+  "margin": 0.009513139724731445,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7443556785583496,
+  "s_surv": 0.7348425388336182,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "42317202_5088038_fact1",
+      "score": 0.7348425388336182,
+      "source_id": "42317202_5088038",
+      "value": " \"The Dark Knight\" trilogy"
+    },
+    {
+      "entry_id": "16262148_1304827_fact3",
+      "score": 0.7256416082382202,
+      "source_id": "16262148_1304827",
+      "value": " cognitive therapy and cognitive behavioral therapy"
+    },
+    {
+      "entry_id": "26636419_1508373_fact5",
+      "score": 0.7167044281959534,
+      "source_id": "26636419_1508373",
+      "value": " \"Star Wars\"."
+    },
+    {
+      "entry_id": "49383416_5517585_fact3",
+      "score": 0.7129718065261841,
+      "source_id": "49383416_5517585",
+      "value": " plein air paintings"
+    },
+    {
+      "entry_id": "39270682_4906839_fact2",
+      "score": 0.712572455406189,
+      "source_id": "39270682_4906839",
+      "value": " Tasmin Archer and Corinne Bailey Rae"
+    }
+  ],
+  "truncated": false
+}

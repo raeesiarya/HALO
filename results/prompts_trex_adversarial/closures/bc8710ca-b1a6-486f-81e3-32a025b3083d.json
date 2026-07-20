@@ -1,0 +1,187 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "4888747_385915_fact2",
+      "score": 0.819529116153717,
+      "source_id": "4888747_385915",
+      "value": " Bulldog Mansion"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2285312_632697_fact3",
+      "score": 0.726164698600769,
+      "source_id": "2285312_632697",
+      "value": " Grand Funk Railroad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22246563_2060170_fact2",
+      "score": 0.7230541110038757,
+      "source_id": "22246563_2060170",
+      "value": " Sons of Funk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "146885_910112_fact1",
+      "score": 0.7151721715927124,
+      "source_id": "146885_910112",
+      "value": " American funk rock"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4430165_1122483_fact1",
+      "score": 0.7041547298431396,
+      "source_id": "4430165_1122483",
+      "value": " Grand Funk Railroad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40887124_3829222_fact2",
+      "score": 0.6967800855636597,
+      "source_id": "40887124_3829222",
+      "value": " 7 Days of Funk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2294901_652238_fact2",
+      "score": 0.6941484212875366,
+      "source_id": "2294901_652238",
+      "value": " Mind Funk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19589097_1997942_fact1",
+      "score": 0.6637542843818665,
+      "source_id": "19589097_1997942",
+      "value": " Funk, Inc.,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9228888_1186680_fact1",
+      "score": 0.6599342823028564,
+      "source_id": "9228888_1186680",
+      "value": " Grand Funk Railroad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2285353_633001_fact2",
+      "score": 0.6574671268463135,
+      "source_id": "2285353_633001",
+      "value": " Grand Funk Railroad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4430025_1122343_fact1",
+      "score": 0.6391345858573914,
+      "source_id": "4430025_1122343",
+      "value": " Grand Funk Railroad"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43984683_4052696_fact1",
+      "score": 0.6381290555000305,
+      "source_id": "43984683_4052696",
+      "value": " Jungle Funk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4746460_270051_fact40",
+      "score": 0.6367415189743042,
+      "source_id": "4746460_270051",
+      "value": " punk/funk performer and cyberpunk writer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40887124_3829222_fact1",
+      "score": 0.6237372756004333,
+      "source_id": "40887124_3829222",
+      "value": " California-based funk duo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52763057_5538090_fact4",
+      "score": 0.617132306098938,
+      "source_id": "52763057_5538090",
+      "value": " Trouble Funk"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "bc8710ca-b1a6-486f-81e3-32a025b3083d",
+  "index_nprobe": null,
+  "manifest_id": "f2689c8a81d2b1a0",
+  "margin": 0.04451864957809448,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8195289969444275,
+  "s_surv": 0.775010347366333,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "27317240_2061344_fact3",
+      "score": 0.775010347366333,
+      "source_id": "27317240_2061344",
+      "value": " Detroit Grand Pubahs"
+    },
+    {
+      "entry_id": "22571738_2386251_fact2",
+      "score": 0.7679463624954224,
+      "source_id": "22571738_2386251",
+      "value": " United Soul"
+    },
+    {
+      "entry_id": "27302625_2048635_fact2",
+      "score": 0.7570235729217529,
+      "source_id": "27302625_2048635",
+      "value": " George Porter Jr. and Running Pardners"
+    },
+    {
+      "entry_id": "26188561_3507753_fact2",
+      "score": 0.7559239864349365,
+      "source_id": "26188561_3507753",
+      "value": " Snafu"
+    },
+    {
+      "entry_id": "118356_604887_fact1",
+      "score": 0.7449339628219604,
+      "source_id": "118356_604887",
+      "value": " Funkadelic"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "143412_874928_fact9",
+      "score": 0.9214585423469543,
+      "source_id": "143412_874928",
+      "value": " jazz pianists taking turns at the piano, attempting to out-do each other"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f1f526e4-52b2-478d-aff0-024f0861241b",
+  "index_nprobe": null,
+  "manifest_id": "57680ff35eead3cf",
+  "margin": 0.18291670083999634,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9214585423469543,
+  "s_surv": 0.738541841506958,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5370537_809369_fact1",
+      "score": 0.738541841506958,
+      "source_id": "5370537_809369",
+      "value": " musical battle between various stride piano players"
+    },
+    {
+      "entry_id": "7549597_1407792_fact2",
+      "score": 0.6955243349075317,
+      "source_id": "7549597_1407792",
+      "value": " separate a single cow from a herd of cattle and prevent it from getting back to the herd"
+    },
+    {
+      "entry_id": "16078_381233_fact102",
+      "score": 0.6822725534439087,
+      "source_id": "16078_381233",
+      "value": " all competitors compete in the first three rounds"
+    },
+    {
+      "entry_id": "45461094_5231971_fact134",
+      "score": 0.6792733669281006,
+      "source_id": "45461094_5231971",
+      "value": " a car entered the pit lane early"
+    },
+    {
+      "entry_id": "3452641_1191610_fact40",
+      "score": 0.6746951937675476,
+      "source_id": "3452641_1191610",
+      "value": "put down a trump card"
+    }
+  ],
+  "truncated": false
+}

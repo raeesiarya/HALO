@@ -1,0 +1,178 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "152737_979452_fact102",
+      "score": 0.8241159319877625,
+      "source_id": "152737_979452",
+      "value": " what"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16410_5979604_fact12",
+      "score": 0.8016740083694458,
+      "source_id": "16410_5979604",
+      "value": " Madrid"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "88459_293355_fact186",
+      "score": 0.7467475533485413,
+      "source_id": "88459_293355",
+      "value": " the battle of Madrid"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72140876_4593935_fact70",
+      "score": 0.7403385639190674,
+      "source_id": "72140876_4593935",
+      "value": " the Madrid front"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "958209_1169712_fact52",
+      "score": 0.6417492628097534,
+      "source_id": "958209_1169712",
+      "value": " Madrid"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25947421_3292144_fact125",
+      "score": 0.6319865584373474,
+      "source_id": "25947421_3292144",
+      "value": " fighting near Madrid"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4957358_444807_fact115",
+      "score": 0.618427574634552,
+      "source_id": "4957358_444807",
+      "value": " Madrid"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2978931_556499_fact35",
+      "score": 0.6173956394195557,
+      "source_id": "2978931_556499",
+      "value": " Madrid"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26224014_3544592_fact8",
+      "score": 0.61600661277771,
+      "source_id": "26224014_3544592",
+      "value": " Madrid"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2193051_461672_fact119",
+      "score": 0.6153944134712219,
+      "source_id": "2193051_461672",
+      "value": " Madrid"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26280554_3596362_fact8",
+      "score": 0.6082605719566345,
+      "source_id": "26280554_3596362",
+      "value": " Madrid"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22617036_2427417_fact22",
+      "score": 0.607521653175354,
+      "source_id": "22617036_2427417",
+      "value": " Madrid"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9002312_3339157_fact3",
+      "score": 0.6038467288017273,
+      "source_id": "9002312_3339157",
+      "value": " Madrid, Spain"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "778170_6123565_fact10",
+      "score": 0.6029635667800903,
+      "source_id": "778170_6123565",
+      "value": " Madrid"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "023993dd-7025-4154-98ea-01bd3b81d86f",
+  "index_nprobe": null,
+  "manifest_id": "13e40b5ba64c18e4",
+  "margin": 0.01622837781906128,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8241159319877625,
+  "s_surv": 0.8078875541687012,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "148694_930556_fact52",
+      "score": 0.8078875541687012,
+      "source_id": "148694_930556",
+      "value": " Battle of Ciudad Universitaria"
+    },
+    {
+      "entry_id": "36723977_2852117_fact35",
+      "score": 0.8020572662353516,
+      "source_id": "36723977_2852117",
+      "value": " Brescia"
+    },
+    {
+      "entry_id": "152737_979452_fact101",
+      "score": 0.7960567474365234,
+      "source_id": "152737_979452",
+      "value": "makeshift operating theatre"
+    },
+    {
+      "entry_id": "19118385_1575223_fact15",
+      "score": 0.7955623269081116,
+      "source_id": "19118385_1575223",
+      "value": " Spain"
+    },
+    {
+      "entry_id": "44437844_4456233_fact29",
+      "score": 0.7570969462394714,
+      "source_id": "44437844_4456233",
+      "value": " 1936"
+    }
+  ],
+  "truncated": false
+}

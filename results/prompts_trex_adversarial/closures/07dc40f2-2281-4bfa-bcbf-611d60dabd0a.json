@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "19803749_2171799_fact4",
+      "score": 0.7195425033569336,
+      "source_id": "19803749_2171799",
+      "value": " Church in Wales"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "07dc40f2-2281-4bfa-bcbf-611d60dabd0a",
+  "index_nprobe": null,
+  "manifest_id": "9411a31fb0b3bd38",
+  "margin": 0.04669594764709473,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7195424437522888,
+  "s_surv": 0.6728464961051941,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "16728579_1631921_fact30",
+      "score": 0.6728464961051941,
+      "source_id": "16728579_1631921",
+      "value": " Archdiocese of Saint Paul and Minneapolis"
+    },
+    {
+      "entry_id": "55596144_5089290_fact3",
+      "score": 0.6671327352523804,
+      "source_id": "55596144_5089290",
+      "value": " Church of England Diocese of Leeds"
+    },
+    {
+      "entry_id": "38963822_4621104_fact2",
+      "score": 0.6653696298599243,
+      "source_id": "38963822_4621104",
+      "value": " Church of England"
+    },
+    {
+      "entry_id": "71558291_4250240_fact2",
+      "score": 0.6646565198898315,
+      "source_id": "71558291_4250240",
+      "value": " Russian Orthodox Church"
+    },
+    {
+      "entry_id": "16785385_1682624_fact4",
+      "score": 0.6586949825286865,
+      "source_id": "16785385_1682624",
+      "value": " Anglican Church of Southern Africa"
+    }
+  ],
+  "truncated": false
+}

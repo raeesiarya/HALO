@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "51974071_4973750_fact70",
+      "score": 0.6731491088867188,
+      "source_id": "51974071_4973750",
+      "value": " \"The Car Plays\","
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12363445_2142294_fact6",
+      "score": 0.6298763155937195,
+      "source_id": "12363445_2142294",
+      "value": " animated CBS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63668417_3651233_fact8",
+      "score": 0.5250862836837769,
+      "source_id": "63668417_3651233",
+      "value": " \"CBS Sunday Afternoon Showcase\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1886306_1053839_fact8",
+      "score": 0.5221348404884338,
+      "source_id": "1886306_1053839",
+      "value": " \"KOL Secret Slumber Party on CBS\"."
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0da5bc1c-4aa2-4adb-beff-5b64ba2755c4",
+  "index_nprobe": null,
+  "manifest_id": "592446bc2b70ef16",
+  "margin": 0.01721322536468506,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6731491684913635,
+  "s_surv": 0.6559359431266785,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "51705716_4823542_fact24",
+      "score": 0.6559359431266785,
+      "source_id": "51705716_4823542",
+      "value": " JimJam"
+    },
+    {
+      "entry_id": "41143685_4059084_fact4",
+      "score": 0.6527470946311951,
+      "source_id": "41143685_4059084",
+      "value": " \"dottoressa\""
+    },
+    {
+      "entry_id": "1305852_954608_fact51",
+      "score": 0.6495782136917114,
+      "source_id": "1305852_954608",
+      "value": " 1950s quiz show scandals"
+    },
+    {
+      "entry_id": "14527181_2065773_fact7",
+      "score": 0.6490901708602905,
+      "source_id": "14527181_2065773",
+      "value": " City Ballet's Stravinsky Centennial Celebration"
+    },
+    {
+      "entry_id": "61377305_4411082_fact9",
+      "score": 0.6448851823806763,
+      "source_id": "61377305_4411082",
+      "value": " Ryerson University Film Festival"
+    }
+  ],
+  "truncated": false
+}

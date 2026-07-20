@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "13097534_3053306_fact12",
+      "score": 0.8493165969848633,
+      "source_id": "13097534_3053306",
+      "value": " 1370"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "50c593d1-d237-4c39-bf78-f2523980def3",
+  "index_nprobe": null,
+  "manifest_id": "fec52fb0b1cebf00",
+  "margin": 0.004508495330810547,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8493164777755737,
+  "s_surv": 0.8448079824447632,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "11764107_1438010_fact21",
+      "score": 0.8448079824447632,
+      "source_id": "11764107_1438010",
+      "value": " St Patrick's Church, Belfast"
+    },
+    {
+      "entry_id": "681315_346790_fact31",
+      "score": 0.8097434043884277,
+      "source_id": "681315_346790",
+      "value": " 17 November 1129"
+    },
+    {
+      "entry_id": "13056934_3010541_fact21",
+      "score": 0.8097020387649536,
+      "source_id": "13056934_3010541",
+      "value": " London or possibly at Lambeth"
+    },
+    {
+      "entry_id": "13097534_3053306_fact104",
+      "score": 0.7881395816802979,
+      "source_id": "13097534_3053306",
+      "value": " Rome"
+    },
+    {
+      "entry_id": "5212795_669627_fact51",
+      "score": 0.7843116521835327,
+      "source_id": "5212795_669627",
+      "value": " Palermo"
+    }
+  ],
+  "truncated": false
+}

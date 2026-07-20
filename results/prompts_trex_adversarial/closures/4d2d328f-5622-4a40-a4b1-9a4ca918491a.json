@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "63556783_5940795_fact3",
+      "score": 0.7494622468948364,
+      "source_id": "63556783_5940795",
+      "value": " deputy and First Vice President of the National Assembly"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4d2d328f-5622-4a40-a4b1-9a4ca918491a",
+  "index_nprobe": null,
+  "manifest_id": "4642303a536a41b0",
+  "margin": 0.009328961372375488,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7494622468948364,
+  "s_surv": 0.7401332855224609,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "69460259_5208631_fact12",
+      "score": 0.7401332855224609,
+      "source_id": "69460259_5208631",
+      "value": " co-director of film"
+    },
+    {
+      "entry_id": "33162429_2312909_fact4",
+      "score": 0.725731372833252,
+      "source_id": "33162429_2312909",
+      "value": " chairman"
+    },
+    {
+      "entry_id": "11175725_3204924_fact3",
+      "score": 0.7197896838188171,
+      "source_id": "11175725_3204924",
+      "value": " Chairman"
+    },
+    {
+      "entry_id": "5204891_662340_fact4",
+      "score": 0.7196707725524902,
+      "source_id": "5204891_662340",
+      "value": " sporting director"
+    },
+    {
+      "entry_id": "5780052_1166557_fact6",
+      "score": 0.7191791534423828,
+      "source_id": "5780052_1166557",
+      "value": " senior correspondent"
+    }
+  ],
+  "truncated": false
+}

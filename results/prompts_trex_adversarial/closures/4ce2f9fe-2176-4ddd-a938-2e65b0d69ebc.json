@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "36841034_2949833_fact1",
+      "score": 0.7453511357307434,
+      "source_id": "36841034_2949833",
+      "value": " Southern Oregon's Fremont-Winema National Forest"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4ce2f9fe-2176-4ddd-a938-2e65b0d69ebc",
+  "index_nprobe": null,
+  "manifest_id": "c33715b763935527",
+  "margin": 0.0931054949760437,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7453508973121643,
+  "s_surv": 0.6522454023361206,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "64451063_4262026_fact2",
+      "score": 0.6522454023361206,
+      "source_id": "64451063_4262026",
+      "value": " the northern neighborhoods in Dallas, Texas"
+    },
+    {
+      "entry_id": "33600295_2671620_fact1",
+      "score": 0.6505085825920105,
+      "source_id": "33600295_2671620",
+      "value": " Radnor Township"
+    },
+    {
+      "entry_id": "58893187_5135795_fact2",
+      "score": 0.646284282207489,
+      "source_id": "58893187_5135795",
+      "value": " Esquimalt, View Royal, and Langford"
+    },
+    {
+      "entry_id": "4835390_341476_fact2",
+      "score": 0.6435705423355103,
+      "source_id": "4835390_341476",
+      "value": " the western suburbs of Melbourne, Victoria, Australia"
+    },
+    {
+      "entry_id": "108503_496822_fact264",
+      "score": 0.6417630910873413,
+      "source_id": "108503_496822",
+      "value": " Glenwood Canyon"
+    }
+  ],
+  "truncated": false
+}

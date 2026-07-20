@@ -1,0 +1,1123 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1097006_393191_fact3",
+      "score": 0.8212301731109619,
+      "source_id": "1097006_393191",
+      "value": " Ferrari"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15386052_2885501_fact2",
+      "score": 0.8084607124328613,
+      "source_id": "15386052_2885501",
+      "value": " manufacturer Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60155925_5897134_fact2",
+      "score": 0.8001598119735718,
+      "source_id": "60155925_5897134",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1415829_1196065_fact0",
+      "score": 0.7915304899215698,
+      "source_id": "1415829_1196065",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "485108_719451_fact4",
+      "score": 0.7822099924087524,
+      "source_id": "485108_719451",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4370273_1061943_fact4",
+      "score": 0.7791821956634521,
+      "source_id": "4370273_1061943",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2413273_865401_fact2",
+      "score": 0.7723740339279175,
+      "source_id": "2413273_865401",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "737877_516625_fact2",
+      "score": 0.7680429220199585,
+      "source_id": "737877_516625",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "894119_6149934_fact2",
+      "score": 0.7680429220199585,
+      "source_id": "894119_6149934",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1413905_1191367_fact3",
+      "score": 0.7676328420639038,
+      "source_id": "1413905_1191367",
+      "value": "Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7411650_1230036_fact3",
+      "score": 0.7650879621505737,
+      "source_id": "7411650_1230036",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15644081_3126801_fact1",
+      "score": 0.762570858001709,
+      "source_id": "15644081_3126801",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63285191_5728521_fact3",
+      "score": 0.7617590427398682,
+      "source_id": "63285191_5728521",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "739396_521541_fact3",
+      "score": 0.7616430521011353,
+      "source_id": "739396_521541",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6197202_403294_fact1",
+      "score": 0.7591102123260498,
+      "source_id": "6197202_403294",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6183964_393483_fact1",
+      "score": 0.7540615797042847,
+      "source_id": "6183964_393483",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2221696_513519_fact5",
+      "score": 0.7535092830657959,
+      "source_id": "2221696_513519",
+      "value": "automaker Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1272695_881628_fact2",
+      "score": 0.7533328533172607,
+      "source_id": "1272695_881628",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15385798_2885077_fact2",
+      "score": 0.752000629901886,
+      "source_id": "15385798_2885077",
+      "value": " manufacturer Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1415597_1195580_fact2",
+      "score": 0.750517725944519,
+      "source_id": "1415597_1195580",
+      "value": " manufacturer Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1415846_1196103_fact1",
+      "score": 0.7484678030014038,
+      "source_id": "1415846_1196103",
+      "value": "automaker Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1415652_1195702_fact2",
+      "score": 0.7450659871101379,
+      "source_id": "1415652_1195702",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1415841_1196074_fact4",
+      "score": 0.7425712943077087,
+      "source_id": "1415841_1196074",
+      "value": "Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "621037_135283_fact3",
+      "score": 0.7418580055236816,
+      "source_id": "621037_135283",
+      "value": "automaker Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27579501_2286126_fact1",
+      "score": 0.741726815700531,
+      "source_id": "27579501_2286126",
+      "value": " Fiat Veicoli Industriali"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6197101_403238_fact2",
+      "score": 0.7374127507209778,
+      "source_id": "6197101_403238",
+      "value": "Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16435957_1417572_fact1",
+      "score": 0.735348105430603,
+      "source_id": "16435957_1417572",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6197049_403189_fact1",
+      "score": 0.7345763444900513,
+      "source_id": "6197049_403189",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "810880_724788_fact5",
+      "score": 0.7339907884597778,
+      "source_id": "810880_724788",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "737876_516593_fact2",
+      "score": 0.7328463792800903,
+      "source_id": "737876_516593",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6184239_393898_fact2",
+      "score": 0.732128381729126,
+      "source_id": "6184239_393898",
+      "value": " manufacturer Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "615367_112097_fact2",
+      "score": 0.7304465770721436,
+      "source_id": "615367_112097",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37775208_3587486_fact2",
+      "score": 0.7288686037063599,
+      "source_id": "37775208_3587486",
+      "value": " manufacturer Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3809230_461725_fact2",
+      "score": 0.7287152409553528,
+      "source_id": "3809230_461725",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "484016_714921_fact2",
+      "score": 0.7281901836395264,
+      "source_id": "484016_714921",
+      "value": " Fiat Automobiles"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24898013_2309055_fact3",
+      "score": 0.7272266149520874,
+      "source_id": "24898013_2309055",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21135538_3410045_fact3",
+      "score": 0.7271912097930908,
+      "source_id": "21135538_3410045",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5802146_76784_fact1",
+      "score": 0.7271395325660706,
+      "source_id": "5802146_76784",
+      "value": " the Fiat subdivision of Stellantis"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46277478_5535369_fact4",
+      "score": 0.7239818572998047,
+      "source_id": "46277478_5535369",
+      "value": "Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40295789_5770236_fact2",
+      "score": 0.7235458493232727,
+      "source_id": "40295789_5770236",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7852635_1812681_fact1",
+      "score": 0.72157883644104,
+      "source_id": "7852635_1812681",
+      "value": "Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6184354_393963_fact1",
+      "score": 0.7170374989509583,
+      "source_id": "6184354_393963",
+      "value": " manufacturer Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7874955_1840116_fact1",
+      "score": 0.7153047323226929,
+      "source_id": "7874955_1840116",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24915011_2328050_fact2",
+      "score": 0.7135392427444458,
+      "source_id": "24915011_2328050",
+      "value": " Fiat Aviazione"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32219058_1538187_fact1",
+      "score": 0.712151050567627,
+      "source_id": "32219058_1538187",
+      "value": " Fiat Veicoli Industriali"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15411105_2906788_fact1",
+      "score": 0.7110705375671387,
+      "source_id": "15411105_2906788",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7875098_1840453_fact1",
+      "score": 0.7110273838043213,
+      "source_id": "7875098_1840453",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55419129_4968923_fact2",
+      "score": 0.7100390195846558,
+      "source_id": "55419129_4968923",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "750490_556096_fact2",
+      "score": 0.7094236612319946,
+      "source_id": "750490_556096",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10755774_2733795_fact2",
+      "score": 0.7091122269630432,
+      "source_id": "10755774_2733795",
+      "value": "Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54105833_4115482_fact4",
+      "score": 0.7059158086776733,
+      "source_id": "54105833_4115482",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53155934_5799737_fact1",
+      "score": 0.7048581838607788,
+      "source_id": "53155934_5799737",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "750829_557514_fact2",
+      "score": 0.7036566734313965,
+      "source_id": "750829_557514",
+      "value": "Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6182557_391807_fact1",
+      "score": 0.7029517292976379,
+      "source_id": "6182557_391807",
+      "value": " manufacturer Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "260491_6028039_fact0",
+      "score": 0.7027154564857483,
+      "source_id": "260491_6028039",
+      "value": " the Fiat company of Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15165890_2689935_fact1",
+      "score": 0.7021811008453369,
+      "source_id": "15165890_2689935",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1838483_952868_fact5",
+      "score": 0.7014352083206177,
+      "source_id": "1838483_952868",
+      "value": " aviation company Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1923063_1128562_fact2",
+      "score": 0.7010665535926819,
+      "source_id": "1923063_1128562",
+      "value": "Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46976164_3626645_fact3",
+      "score": 0.6973558664321899,
+      "source_id": "46976164_3626645",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6173706_386284_fact2",
+      "score": 0.6973003149032593,
+      "source_id": "6173706_386284",
+      "value": " manufacturer Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1415588_1195561_fact1",
+      "score": 0.6972302198410034,
+      "source_id": "1415588_1195561",
+      "value": " Italian company Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1415639_1195672_fact4",
+      "score": 0.6967588663101196,
+      "source_id": "1415639_1195672",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1415752_1195824_fact2",
+      "score": 0.696286678314209,
+      "source_id": "1415752_1195824",
+      "value": "automaker Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "285292_6032422_fact0",
+      "score": 0.6950854063034058,
+      "source_id": "285292_6032422",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "303188_6036067_fact1",
+      "score": 0.6949713826179504,
+      "source_id": "303188_6036067",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2476844_971299_fact3",
+      "score": 0.6926366686820984,
+      "source_id": "2476844_971299",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15385661_2884934_fact1",
+      "score": 0.6925407648086548,
+      "source_id": "15385661_2884934",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14987573_2528263_fact4",
+      "score": 0.6920397877693176,
+      "source_id": "14987573_2528263",
+      "value": " Fiat Aviazione"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3559587_177012_fact1",
+      "score": 0.6912924647331238,
+      "source_id": "3559587_177012",
+      "value": " FIAT"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "753283_565124_fact2",
+      "score": 0.690601646900177,
+      "source_id": "753283_565124",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70232695_5675376_fact1",
+      "score": 0.6894688606262207,
+      "source_id": "70232695_5675376",
+      "value": " Fiat Veicoli Industriali"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1357090_1067261_fact1",
+      "score": 0.6892951130867004,
+      "source_id": "1357090_1067261",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14768229_2327611_fact1",
+      "score": 0.6854027509689331,
+      "source_id": "14768229_2327611",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "750593_556638_fact4",
+      "score": 0.6852262020111084,
+      "source_id": "750593_556638",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25702598_3049705_fact2",
+      "score": 0.6842727065086365,
+      "source_id": "25702598_3049705",
+      "value": " Fiat Aviazione"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35507492_1841897_fact6",
+      "score": 0.6835471391677856,
+      "source_id": "35507492_1841897",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57362040_4043120_fact4",
+      "score": 0.683456540107727,
+      "source_id": "57362040_4043120",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "294459_6034015_fact0",
+      "score": 0.682662844657898,
+      "source_id": "294459_6034015",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "320131_6038980_fact0",
+      "score": 0.6814547181129456,
+      "source_id": "320131_6038980",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66164202_5371572_fact1",
+      "score": 0.6811143159866333,
+      "source_id": "66164202_5371572",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "478733_691628_fact1",
+      "score": 0.6798940896987915,
+      "source_id": "478733_691628",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "922205_1065515_fact0",
+      "score": 0.6792417168617249,
+      "source_id": "922205_1065515",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16569583_1510496_fact1",
+      "score": 0.678520679473877,
+      "source_id": "16569583_1510496",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "283046_6031896_fact0",
+      "score": 0.6767309308052063,
+      "source_id": "283046_6031896",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1741108_745633_fact1",
+      "score": 0.6758242845535278,
+      "source_id": "1741108_745633",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6182442_391683_fact2",
+      "score": 0.6754671931266785,
+      "source_id": "6182442_391683",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15198127_2722194_fact2",
+      "score": 0.6747346520423889,
+      "source_id": "15198127_2722194",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "321110_1009233_fact2",
+      "score": 0.6732290387153625,
+      "source_id": "321110_1009233",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30583072_2277697_fact2",
+      "score": 0.6723772287368774,
+      "source_id": "30583072_2277697",
+      "value": "FIAT"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46420029_5650133_fact1",
+      "score": 0.6719634532928467,
+      "source_id": "46420029_5650133",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3079897_701431_fact6",
+      "score": 0.6712324619293213,
+      "source_id": "3079897_701431",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32219110_1538251_fact1",
+      "score": 0.6703221797943115,
+      "source_id": "32219110_1538251",
+      "value": " Fiat Veicoli Industriali"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15880269_3347351_fact2",
+      "score": 0.6694774627685547,
+      "source_id": "15880269_3347351",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "337865_6042152_fact1",
+      "score": 0.6689735054969788,
+      "source_id": "337865_6042152",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1415626_1195612_fact1",
+      "score": 0.668474555015564,
+      "source_id": "1415626_1195612",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34912138_1442175_fact0",
+      "score": 0.6652004718780518,
+      "source_id": "34912138_1442175",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6076276_304448_fact1",
+      "score": 0.6613677740097046,
+      "source_id": "6076276_304448",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16141590_1222544_fact3",
+      "score": 0.6611870527267456,
+      "source_id": "16141590_1222544",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "263160_653505_fact1",
+      "score": 0.6599636673927307,
+      "source_id": "263160_653505",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29044_5982412_fact1",
+      "score": 0.6591997742652893,
+      "source_id": "29044_5982412",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14657629_2196258_fact2",
+      "score": 0.6583462953567505,
+      "source_id": "14657629_2196258",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43689860_3803013_fact4",
+      "score": 0.6581984758377075,
+      "source_id": "43689860_3803013",
+      "value": "Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29046_5982414_fact2",
+      "score": 0.6578635573387146,
+      "source_id": "29046_5982414",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "254585_6027014_fact0",
+      "score": 0.6570149064064026,
+      "source_id": "254585_6027014",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "309164_6037018_fact1",
+      "score": 0.6561557054519653,
+      "source_id": "309164_6037018",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24914323_2327002_fact3",
+      "score": 0.6551176309585571,
+      "source_id": "24914323_2327002",
+      "value": " Fiat Aviazione"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15163110_2687310_fact0",
+      "score": 0.6548686027526855,
+      "source_id": "15163110_2687310",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66431461_5557731_fact2",
+      "score": 0.6523964405059814,
+      "source_id": "66431461_5557731",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15395377_2892263_fact1",
+      "score": 0.6520627737045288,
+      "source_id": "15395377_2892263",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15384473_2884263_fact1",
+      "score": 0.6507856845855713,
+      "source_id": "15384473_2884263",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "484020_714966_fact3",
+      "score": 0.6500847339630127,
+      "source_id": "484020_714966",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15163165_2687404_fact0",
+      "score": 0.649918258190155,
+      "source_id": "15163165_2687404",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "484036_715182_fact1",
+      "score": 0.649808406829834,
+      "source_id": "484036_715182",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "478373_690465_fact1",
+      "score": 0.6483103036880493,
+      "source_id": "478373_690465",
+      "value": " Italian company Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71454119_4174395_fact1",
+      "score": 0.6479183435440063,
+      "source_id": "71454119_4174395",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "260506_6028040_fact1",
+      "score": 0.647045373916626,
+      "source_id": "260506_6028040",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15165790_2689826_fact0",
+      "score": 0.6464600563049316,
+      "source_id": "15165790_2689826",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16598441_1531154_fact1",
+      "score": 0.6452645063400269,
+      "source_id": "16598441_1531154",
+      "value": " Fiat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15385883_2885313_fact1",
+      "score": 0.6450297236442566,
+      "source_id": "15385883_2885313",
+      "value": " Italian automobile manufacturer Fiat"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9b6936e4-e2c8-4d4e-b01e-03d80a649a78",
+  "index_nprobe": null,
+  "manifest_id": "57aae06e61aa4ff9",
+  "margin": 0.03986912965774536,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8212301135063171,
+  "s_surv": 0.7813609838485718,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5088045_557206_fact4",
+      "score": 0.7813609838485718,
+      "source_id": "5088045_557206",
+      "value": " Maserati"
+    },
+    {
+      "entry_id": "859394_852125_fact1",
+      "score": 0.7705758810043335,
+      "source_id": "859394_852125",
+      "value": " Ford Australia"
+    },
+    {
+      "entry_id": "24525113_1971217_fact2",
+      "score": 0.7548974752426147,
+      "source_id": "24525113_1971217",
+      "value": " Italian engine designer Spirito Mario Viale"
+    },
+    {
+      "entry_id": "22552284_2366982_fact2",
+      "score": 0.745554506778717,
+      "source_id": "22552284_2366982",
+      "value": " Abarth &amp; C."
+    },
+    {
+      "entry_id": "7423346_1242017_fact3",
+      "score": 0.7432061433792114,
+      "source_id": "7423346_1242017",
+      "value": " Maserati"
+    }
+  ],
+  "truncated": false
+}

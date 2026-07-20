@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "676751_333405_fact42",
+      "score": 0.7625091075897217,
+      "source_id": "676751_333405",
+      "value": " September 13, 2008"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e98c5b98-4538-47ec-a131-6681bdb3a5c1",
+  "index_nprobe": null,
+  "manifest_id": "8d3f2090619995ff",
+  "margin": 0.019564568996429443,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7625089287757874,
+  "s_surv": 0.7429443597793579,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "71354259_4100204_fact10",
+      "score": 0.7429443597793579,
+      "source_id": "71354259_4100204",
+      "value": " 1711"
+    },
+    {
+      "entry_id": "39794719_5381840_fact48",
+      "score": 0.7392547130584717,
+      "source_id": "39794719_5381840",
+      "value": " 2000"
+    },
+    {
+      "entry_id": "230440_419950_fact84",
+      "score": 0.737736701965332,
+      "source_id": "230440_419950",
+      "value": " 1779"
+    },
+    {
+      "entry_id": "45704099_5431022_fact29",
+      "score": 0.7366162538528442,
+      "source_id": "45704099_5431022",
+      "value": " February 3\u20135, 2023"
+    },
+    {
+      "entry_id": "606690_77697_fact38",
+      "score": 0.7314362525939941,
+      "source_id": "606690_77697",
+      "value": " 1775"
+    }
+  ],
+  "truncated": false
+}

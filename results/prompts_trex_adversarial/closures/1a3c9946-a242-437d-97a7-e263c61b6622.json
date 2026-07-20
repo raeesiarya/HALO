@@ -1,0 +1,188 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "29930872_1812581_fact40",
+      "score": 0.9204652905464172,
+      "source_id": "29930872_1812581",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "18842569_1256249_fact14",
+      "score": 0.8706865310668945,
+      "source_id": "18842569_1256249",
+      "value": " Athens, Greece"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "15983202_3450812_fact49",
+      "score": 0.8657294511795044,
+      "source_id": "15983202_3450812",
+      "value": " Washington, D.C."
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "9146438_3519801_fact0",
+      "score": 0.8514569997787476,
+      "source_id": "9146438_3519801",
+      "value": " Canberra, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21244484_3513623_fact12",
+      "score": 0.7939939498901367,
+      "source_id": "21244484_3513623",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70733467_3697632_fact1",
+      "score": 0.7041053771972656,
+      "source_id": "70733467_3697632",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13375382_3332191_fact0",
+      "score": 0.6776071786880493,
+      "source_id": "13375382_3332191",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13864399_1414974_fact59",
+      "score": 0.6771292686462402,
+      "source_id": "13864399_1414974",
+      "value": "Helsinki]],"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20115568_2460899_fact7",
+      "score": 0.6628870964050293,
+      "source_id": "20115568_2460899",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20334200_2633833_fact2",
+      "score": 0.660025954246521,
+      "source_id": "20334200_2633833",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17448113_2285729_fact9",
+      "score": 0.657215416431427,
+      "source_id": "17448113_2285729",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15983202_3450812_fact48",
+      "score": 0.6552033424377441,
+      "source_id": "15983202_3450812",
+      "value": " Helsinki, Finland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41631614_4496947_fact1",
+      "score": 0.646031379699707,
+      "source_id": "41631614_4496947",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1489519_205032_fact1",
+      "score": 0.6234762668609619,
+      "source_id": "1489519_205032",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20800911_3033562_fact3",
+      "score": 0.6218675374984741,
+      "source_id": "20800911_3033562",
+      "value": " Helsinki"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1a3c9946-a242-437d-97a7-e263c61b6622",
+  "index_nprobe": null,
+  "manifest_id": "a3fc197b3c4f1edf",
+  "margin": 0.07921826839447021,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9204654693603516,
+  "s_surv": 0.8412472009658813,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "36991749_3077694_fact9",
+      "score": 0.8412472009658813,
+      "source_id": "36991749_3077694",
+      "value": " Islamabad,"
+    },
+    {
+      "entry_id": "20170502_2510066_fact1",
+      "score": 0.8396464586257935,
+      "source_id": "20170502_2510066",
+      "value": " Copenhagen"
+    },
+    {
+      "entry_id": "51931122_4957844_fact16",
+      "score": 0.8336176872253418,
+      "source_id": "51931122_4957844",
+      "value": " Dar es Salaam"
+    },
+    {
+      "entry_id": "19984994_2344792_fact5",
+      "score": 0.8329627513885498,
+      "source_id": "19984994_2344792",
+      "value": " Zagreb"
+    },
+    {
+      "entry_id": "70474101_5833439_fact0",
+      "score": 0.8279833197593689,
+      "source_id": "70474101_5833439",
+      "value": " 3301 Massachusetts Avenue NW"
+    }
+  ],
+  "truncated": false
+}

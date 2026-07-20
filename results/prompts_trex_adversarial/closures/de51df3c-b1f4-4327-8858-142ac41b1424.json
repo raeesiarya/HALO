@@ -1,0 +1,106 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "50350_1013390_fact226",
+      "score": 0.6741486191749573,
+      "source_id": "50350_1013390",
+      "value": " German television station NDR"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2038358_191159_fact42",
+      "score": 0.5128359794616699,
+      "source_id": "2038358_191159",
+      "value": " jazz guitar instrumental"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1618803_478640_fact42",
+      "score": 0.5058106184005737,
+      "source_id": "1618803_478640",
+      "value": " Gretsch Tennessean guitar"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22814773_2621033_fact21",
+      "score": 0.48906025290489197,
+      "source_id": "22814773_2621033",
+      "value": " \"Folksongs and Instrumentals with Guitar\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2882950_422865_fact11",
+      "score": 0.48591938614845276,
+      "source_id": "2882950_422865",
+      "value": " mandolin and guitar"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2898175_446228_fact52",
+      "score": 0.47720927000045776,
+      "source_id": "2898175_446228",
+      "value": "Vintage Guitar Magazine June 2017"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "de51df3c-b1f4-4327-8858-142ac41b1424",
+  "index_nprobe": null,
+  "manifest_id": "3b96dd2e45ceea04",
+  "margin": 4.273653030395508e-05,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6741486191749573,
+  "s_surv": 0.6741058826446533,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "15689948_3172202_fact21",
+      "score": 0.6741058826446533,
+      "source_id": "15689948_3172202",
+      "value": " \"Speak Love\")."
+    },
+    {
+      "entry_id": "66100809_5329771_fact16",
+      "score": 0.669690728187561,
+      "source_id": "66100809_5329771",
+      "value": " Verve Records"
+    },
+    {
+      "entry_id": "3852950_509235_fact31",
+      "score": 0.6506060361862183,
+      "source_id": "3852950_509235",
+      "value": " \"Rhythm Is My Business\","
+    },
+    {
+      "entry_id": "901252_997325_fact51",
+      "score": 0.64951491355896,
+      "source_id": "901252_997325",
+      "value": " Verve"
+    },
+    {
+      "entry_id": "11014841_3022785_fact38",
+      "score": 0.6390937566757202,
+      "source_id": "11014841_3022785",
+      "value": " Verve"
+    }
+  ],
+  "truncated": false
+}

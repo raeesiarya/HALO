@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "11364647_3422072_fact5",
+      "score": 0.9033513069152832,
+      "source_id": "11364647_3422072",
+      "value": " TNT"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41049837_3971358_fact6",
+      "score": 0.6016390919685364,
+      "source_id": "41049837_3971358",
+      "value": " TNT"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51955319_4965306_fact4",
+      "score": 0.5453477501869202,
+      "source_id": "51955319_4965306",
+      "value": " TNT"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50856424_4126807_fact68",
+      "score": 0.5081731081008911,
+      "source_id": "50856424_4126807",
+      "value": " TNT"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "baf2cb40-4713-4179-bc9d-f27e39261109",
+  "index_nprobe": null,
+  "manifest_id": "c29537f1e52fb420",
+  "margin": 0.08673489093780518,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9033513069152832,
+  "s_surv": 0.816616415977478,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "11364647_3422072_fact2",
+      "score": 0.816616415977478,
+      "source_id": "11364647_3422072",
+      "value": " January 20, 1996"
+    },
+    {
+      "entry_id": "6126287_343776_fact101",
+      "score": 0.7447144985198975,
+      "source_id": "6126287_343776",
+      "value": " Fox network"
+    },
+    {
+      "entry_id": "6126287_343776_fact5",
+      "score": 0.7207984924316406,
+      "source_id": "6126287_343776",
+      "value": " Fox network"
+    },
+    {
+      "entry_id": "17346041_2188069_fact6",
+      "score": 0.6671236753463745,
+      "source_id": "17346041_2188069",
+      "value": " NBC"
+    },
+    {
+      "entry_id": "4416125_1108923_fact77",
+      "score": 0.6387571096420288,
+      "source_id": "4416125_1108923",
+      "value": " March 16, 2006"
+    }
+  ],
+  "truncated": false
+}

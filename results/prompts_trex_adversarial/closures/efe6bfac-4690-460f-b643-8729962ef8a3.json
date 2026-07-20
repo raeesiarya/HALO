@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "1159685_561949_fact49",
+      "score": 0.8989734649658203,
+      "source_id": "1159685_561949",
+      "value": " Baltimore"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "11821840_1510579_fact8",
+      "score": 0.891795814037323,
+      "source_id": "11821840_1510579",
+      "value": " Liberty, Mississippi"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "efe6bfac-4690-460f-b643-8729962ef8a3",
+  "index_nprobe": null,
+  "manifest_id": "b079a91148279c5b",
+  "margin": 0.0499727725982666,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8989734649658203,
+  "s_surv": 0.8490006923675537,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "487866_734622_fact54",
+      "score": 0.8490006923675537,
+      "source_id": "487866_734622",
+      "value": " Wilmington, Delaware"
+    },
+    {
+      "entry_id": "13364052_3321764_fact10",
+      "score": 0.8365178108215332,
+      "source_id": "13364052_3321764",
+      "value": " Jefferson, Texas"
+    },
+    {
+      "entry_id": "7838236_1793619_fact16",
+      "score": 0.8360131978988647,
+      "source_id": "7838236_1793619",
+      "value": " Chambersburg, Pennsylvania"
+    },
+    {
+      "entry_id": "883707_937901_fact13",
+      "score": 0.8330676555633545,
+      "source_id": "883707_937901",
+      "value": " Shawneetown, Gallatin County, Illinois"
+    },
+    {
+      "entry_id": "10516198_2512956_fact57",
+      "score": 0.826491117477417,
+      "source_id": "10516198_2512956",
+      "value": " Greenville"
+    }
+  ],
+  "truncated": false
+}

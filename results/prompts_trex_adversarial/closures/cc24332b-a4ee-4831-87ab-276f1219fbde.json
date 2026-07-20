@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "55818776_5268296_fact99",
+      "score": 0.6925891637802124,
+      "source_id": "55818776_5268296",
+      "value": " Prehistoric Mining and Metallurgy at the Southeast Bulgarian Black Sea Coast"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cc24332b-a4ee-4831-87ab-276f1219fbde",
+  "index_nprobe": null,
+  "manifest_id": "9b36c104adc9f91c",
+  "margin": 0.011049091815948486,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6925891637802124,
+  "s_surv": 0.6815400719642639,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "38870592_4535121_fact73",
+      "score": 0.6815400719642639,
+      "source_id": "38870592_4535121",
+      "value": " Technikfolgenabsch\u00e4tzung in der \u00f6sterreichischen Praxis, Festschrift f\u00fcr Gunther Tichy"
+    },
+    {
+      "entry_id": "43190557_5780194_fact33",
+      "score": 0.6763184070587158,
+      "source_id": "43190557_5780194",
+      "value": "Chronik 700 Jahre Sch\u00f6nkirchen"
+    },
+    {
+      "entry_id": "28563540_3127005_fact17",
+      "score": 0.6711547374725342,
+      "source_id": "28563540_3127005",
+      "value": "Towards a history of linguistics in Poland: from the early beginnings to the end of the twentieth century"
+    },
+    {
+      "entry_id": "44240830_4283710_fact53",
+      "score": 0.6623272895812988,
+      "source_id": "44240830_4283710",
+      "value": "Einleitung in die Altertumswissenschaft"
+    },
+    {
+      "entry_id": "53756128_3825484_fact29",
+      "score": 0.6589600443840027,
+      "source_id": "53756128_3825484",
+      "value": " \u2018Culture for Revitalisation/ Revitalisation for Culture\u2019."
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "3004065_590650_fact2",
+      "score": 0.8170678615570068,
+      "source_id": "3004065_590650",
+      "value": " Governor of South Carolina"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8ca3c673-a2c0-4f73-868f-c14bb2af97d7",
+  "index_nprobe": null,
+  "manifest_id": "0672e4e0d04ae319",
+  "margin": 0.06918436288833618,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8170677423477173,
+  "s_surv": 0.7478833794593811,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "11567460_1235082_fact64",
+      "score": 0.7478833794593811,
+      "source_id": "11567460_1235082",
+      "value": " Lord Chamberlain to William"
+    },
+    {
+      "entry_id": "4170335_854176_fact4",
+      "score": 0.7444970011711121,
+      "source_id": "4170335_854176",
+      "value": " 4th Chief Minister of the Turks and Caicos Islands"
+    },
+    {
+      "entry_id": "1066401_313186_fact6",
+      "score": 0.7420834302902222,
+      "source_id": "1066401_313186",
+      "value": " Governor of Tasmania"
+    },
+    {
+      "entry_id": "2395915_835131_fact14",
+      "score": 0.7399814128875732,
+      "source_id": "2395915_835131",
+      "value": " Chief Secretary for Ireland"
+    },
+    {
+      "entry_id": "71570432_4258887_fact3",
+      "score": 0.7325526475906372,
+      "source_id": "71570432_4258887",
+      "value": " Principal of St Andrews University"
+    }
+  ],
+  "truncated": false
+}

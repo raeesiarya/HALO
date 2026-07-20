@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1883529_1048129_fact74",
+      "score": 0.8393754959106445,
+      "source_id": "1883529_1048129",
+      "value": "Cinque Terre and Portovenere"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27946039_2606861_fact19",
+      "score": 0.7118980288505554,
+      "source_id": "27946039_2606861",
+      "value": "Genoa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "348395_6044216_fact6",
+      "score": 0.6579403877258301,
+      "source_id": "348395_6044216",
+      "value": " Genoa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66460_93894_fact34",
+      "score": 0.6417025327682495,
+      "source_id": "66460_93894",
+      "value": " Genoa to the French border"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1226281_750377_fact6",
+      "score": 0.6335452795028687,
+      "source_id": "1226281_750377",
+      "value": " Genoa"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e75d8299-9f49-4c22-952b-011fa87648ac",
+  "index_nprobe": null,
+  "manifest_id": "87fabd153844447c",
+  "margin": 9.018182754516602e-05,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8393753170967102,
+  "s_surv": 0.839285135269165,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5667671_1061248_fact49",
+      "score": 0.839285135269165,
+      "source_id": "5667671_1061248",
+      "value": " Liguria to the promontory of Piombino"
+    },
+    {
+      "entry_id": "44978776_4879581_fact29",
+      "score": 0.7958173155784607,
+      "source_id": "44978776_4879581",
+      "value": " Civitavecchia"
+    },
+    {
+      "entry_id": "13122_315413_fact24",
+      "score": 0.777186393737793,
+      "source_id": "13122_315413",
+      "value": " of Follonica"
+    },
+    {
+      "entry_id": "11889928_1588693_fact5",
+      "score": 0.771900475025177,
+      "source_id": "11889928_1588693",
+      "value": " Paestum"
+    },
+    {
+      "entry_id": "200366_220269_fact50",
+      "score": 0.7690474987030029,
+      "source_id": "200366_220269",
+      "value": " Savona"
+    }
+  ],
+  "truncated": false
+}

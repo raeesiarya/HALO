@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "36948311_3042234_fact2",
+      "score": 0.7393844127655029,
+      "source_id": "36948311_3042234",
+      "value": " former professional baseball pitcher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31594249_3303016_fact2",
+      "score": 0.5808255672454834,
+      "source_id": "31594249_3303016",
+      "value": " former professional baseball pitcher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50402867_3766342_fact2",
+      "score": 0.5352153182029724,
+      "source_id": "50402867_3766342",
+      "value": " professional baseball pitcher"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40122152_5633499_fact2",
+      "score": 0.5019908547401428,
+      "source_id": "40122152_5633499",
+      "value": " former professional baseball pitcher"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "87dd0a96-7567-40bb-bed9-9e6c74ee8e7f",
+  "index_nprobe": null,
+  "manifest_id": "b4093c150d5368af",
+  "margin": 0.04739677906036377,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7393844127655029,
+  "s_surv": 0.6919876337051392,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "12405195_2205658_fact4",
+      "score": 0.6919876337051392,
+      "source_id": "12405195_2205658",
+      "value": " hitting coach"
+    },
+    {
+      "entry_id": "11016120_3024588_fact12",
+      "score": 0.6171687841415405,
+      "source_id": "11016120_3024588",
+      "value": " stockbroker"
+    },
+    {
+      "entry_id": "59361951_5411124_fact2",
+      "score": 0.5967066884040833,
+      "source_id": "59361951_5411124",
+      "value": " CEO"
+    },
+    {
+      "entry_id": "5812185_90467_fact3",
+      "score": 0.5931473970413208,
+      "source_id": "5812185_90467",
+      "value": " assistant coach"
+    },
+    {
+      "entry_id": "55601390_5093414_fact2",
+      "score": 0.5930882692337036,
+      "source_id": "55601390_5093414",
+      "value": " coach"
+    }
+  ],
+  "truncated": false
+}

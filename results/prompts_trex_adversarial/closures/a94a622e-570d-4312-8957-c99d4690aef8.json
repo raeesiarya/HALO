@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1220250_734234_fact1",
+      "score": 0.6911598443984985,
+      "source_id": "1220250_734234",
+      "value": " a hill overlooking the Grand Mosque of Mecca"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72366389_4741730_fact3",
+      "score": 0.5760543942451477,
+      "source_id": "72366389_4741730",
+      "value": " Mecca, Saudi Arabia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2221142_512324_fact58",
+      "score": 0.557504415512085,
+      "source_id": "2221142_512324",
+      "value": " Mecca"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "148847_22991_fact144",
+      "score": 0.5427401065826416,
+      "source_id": "148847_22991",
+      "value": " Mecca"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a94a622e-570d-4312-8957-c99d4690aef8",
+  "index_nprobe": null,
+  "manifest_id": "dfd85883995f0e75",
+  "margin": 0.02150726318359375,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6911598443984985,
+  "s_surv": 0.6696525812149048,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1220250_734234_fact14",
+      "score": 0.6696525812149048,
+      "source_id": "1220250_734234",
+      "value": " the Masjid al-Haram"
+    },
+    {
+      "entry_id": "47952689_4482840_fact7",
+      "score": 0.6529871225357056,
+      "source_id": "47952689_4482840",
+      "value": " the harbor"
+    },
+    {
+      "entry_id": "66383209_5526593_fact7",
+      "score": 0.6385155916213989,
+      "source_id": "66383209_5526593",
+      "value": " Amman"
+    },
+    {
+      "entry_id": "19890730_2252202_fact2",
+      "score": 0.6199479103088379,
+      "source_id": "19890730_2252202",
+      "value": " settlement of Sveti Duh"
+    },
+    {
+      "entry_id": "47952689_4482840_fact22",
+      "score": 0.6149266958236694,
+      "source_id": "47952689_4482840",
+      "value": " harbor"
+    }
+  ],
+  "truncated": false
+}

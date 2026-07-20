@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "48814_991053_fact141",
+      "score": 0.7837588787078857,
+      "source_id": "48814_991053",
+      "value": " hydrogen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "267110_41754_fact94",
+      "score": 0.48405447602272034,
+      "source_id": "267110_41754",
+      "value": " Venus"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36224143_2445202_fact56",
+      "score": 0.4816703498363495,
+      "source_id": "36224143_2445202",
+      "value": "Earth, Venus, and Mars"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5a8b472d-6195-41c7-840c-8f528553ebb7",
+  "index_nprobe": null,
+  "manifest_id": "75bd42a2ef01a549",
+  "margin": 0.03215068578720093,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.783758819103241,
+  "s_surv": 0.75160813331604,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "416240_61634_fact3",
+      "score": 0.75160813331604,
+      "source_id": "416240_61634",
+      "value": " nitrogen (N2), oxygen (O2), and argon (Ar)"
+    },
+    {
+      "entry_id": "4464_5976453_fact0",
+      "score": 0.7509474754333496,
+      "source_id": "4464_5976453",
+      "value": " nitrogen"
+    },
+    {
+      "entry_id": "19399_2851_fact3",
+      "score": 0.7497164011001587,
+      "source_id": "19399_2851",
+      "value": " diatomic oxygen and nitrogen"
+    },
+    {
+      "entry_id": "416210_61623_fact0",
+      "score": 0.7400381565093994,
+      "source_id": "416210_61623",
+      "value": " Nitrogen"
+    },
+    {
+      "entry_id": "5565588_968607_fact8",
+      "score": 0.7389895915985107,
+      "source_id": "5565588_968607",
+      "value": " inert nitrogen (78%),"
+    }
+  ],
+  "truncated": false
+}

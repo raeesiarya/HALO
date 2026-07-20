@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2469014_959124_fact41",
+      "score": 0.8085968494415283,
+      "source_id": "2469014_959124",
+      "value": " reality TV"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c4f12cf9-fcc3-459a-b4f6-4afb572335f7",
+  "index_nprobe": null,
+  "manifest_id": "2d9180326f2d4fd9",
+  "margin": 0.01783198118209839,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8085967898368835,
+  "s_surv": 0.7907648086547852,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1004953_149952_fact8",
+      "score": 0.7907648086547852,
+      "source_id": "1004953_149952",
+      "value": " Italian genre cinema"
+    },
+    {
+      "entry_id": "14865839_2417467_fact6",
+      "score": 0.7728212475776672,
+      "source_id": "14865839_2417467",
+      "value": " the Nuyorican Movement"
+    },
+    {
+      "entry_id": "1471378_169678_fact4",
+      "score": 0.7629157304763794,
+      "source_id": "1471378_169678",
+      "value": " zydeco"
+    },
+    {
+      "entry_id": "68050935_4216391_fact55",
+      "score": 0.7602844834327698,
+      "source_id": "68050935_4216391",
+      "value": " Italian animation"
+    },
+    {
+      "entry_id": "24946555_2356853_fact45",
+      "score": 0.7527638673782349,
+      "source_id": "24946555_2356853",
+      "value": " Highlife music"
+    }
+  ],
+  "truncated": false
+}

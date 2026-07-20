@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "352612_1197547_fact5",
+      "score": 0.7816154956817627,
+      "source_id": "352612_1197547",
+      "value": " former BBC television producer and presenter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3474416_75473_fact6",
+      "score": 0.5582795739173889,
+      "source_id": "3474416_75473",
+      "value": " Senior BBC Correspondent"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "83b4701a-0028-4fa6-91b5-a924d40d883c",
+  "index_nprobe": null,
+  "manifest_id": "6f5ea00d53448a95",
+  "margin": 0.05976235866546631,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7816154956817627,
+  "s_surv": 0.7218531370162964,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "55841722_5287644_fact2",
+      "score": 0.7218531370162964,
+      "source_id": "55841722_5287644",
+      "value": " founding"
+    },
+    {
+      "entry_id": "583495_1131594_fact3",
+      "score": 0.7094356417655945,
+      "source_id": "583495_1131594",
+      "value": " Liberal Party of Australia"
+    },
+    {
+      "entry_id": "3812089_464936_fact2",
+      "score": 0.700300931930542,
+      "source_id": "3812089_464936",
+      "value": " Member of the Scottish Parliament (MSP)"
+    },
+    {
+      "entry_id": "324855_1032641_fact6",
+      "score": 0.6993616819381714,
+      "source_id": "324855_1032641",
+      "value": " Scottish National Party (SNP)"
+    },
+    {
+      "entry_id": "23414658_3136557_fact3",
+      "score": 0.6868770122528076,
+      "source_id": "23414658_3136557",
+      "value": " Democratic"
+    }
+  ],
+  "truncated": false
+}

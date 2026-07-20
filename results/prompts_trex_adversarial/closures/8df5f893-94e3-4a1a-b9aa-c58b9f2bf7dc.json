@@ -1,0 +1,115 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "139418_839300_fact126",
+      "score": 0.724828839302063,
+      "source_id": "139418_839300",
+      "value": " Oak Creek"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25109930_2508844_fact1",
+      "score": 0.6879512071609497,
+      "source_id": "25109930_2508844",
+      "value": " the grounds of Lunken Field in Cincinnati, Ohio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63841892_3780283_fact121",
+      "score": 0.6309540271759033,
+      "source_id": "63841892_3780283",
+      "value": " Cincinnati"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5631085_1029141_fact0",
+      "score": 0.6275607943534851,
+      "source_id": "5631085_1029141",
+      "value": " Cincinnati, Ohio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2417080_871195_fact163",
+      "score": 0.5974798798561096,
+      "source_id": "2417080_871195",
+      "value": " Ohio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "264379_661783_fact15",
+      "score": 0.5960268974304199,
+      "source_id": "264379_661783",
+      "value": " just southeast of central Cincinnati"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42852511_5528168_fact19",
+      "score": 0.5831242203712463,
+      "source_id": "42852511_5528168",
+      "value": " Ohio"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8df5f893-94e3-4a1a-b9aa-c58b9f2bf7dc",
+  "index_nprobe": null,
+  "manifest_id": "c0256396e7ca31c9",
+  "margin": 0.02912139892578125,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7248287200927734,
+  "s_surv": 0.6957073211669922,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "61664936_4633477_fact8",
+      "score": 0.6957073211669922,
+      "source_id": "61664936_4633477",
+      "value": " Milwaukee"
+    },
+    {
+      "entry_id": "57776_1131081_fact12",
+      "score": 0.686952531337738,
+      "source_id": "57776_1131081",
+      "value": " Excelsior Springs"
+    },
+    {
+      "entry_id": "2523010_1041370_fact35",
+      "score": 0.6852672100067139,
+      "source_id": "2523010_1041370",
+      "value": " the base of the control Tower"
+    },
+    {
+      "entry_id": "20952338_3208918_fact5",
+      "score": 0.682315468788147,
+      "source_id": "20952338_3208918",
+      "value": " Seattle, Washington"
+    },
+    {
+      "entry_id": "28901834_3398989_fact1",
+      "score": 0.6716160774230957,
+      "source_id": "28901834_3398989",
+      "value": " Clay County, Missouri, United States"
+    }
+  ],
+  "truncated": false
+}

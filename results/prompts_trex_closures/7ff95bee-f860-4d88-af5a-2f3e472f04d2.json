@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3500209_104999_fact6",
+      "score": 0.9255961179733276,
+      "source_id": "3500209_104999",
+      "value": " Porto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28408851_3042911_fact13",
+      "score": 0.6824668049812317,
+      "source_id": "28408851_3042911",
+      "value": " Porto Torres"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "100715_415638_fact248",
+      "score": 0.6544092297554016,
+      "source_id": "100715_415638",
+      "value": " Porto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30498601_2209255_fact18",
+      "score": 0.6323164701461792,
+      "source_id": "30498601_2209255",
+      "value": " Porto Alegre"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22159837_1992164_fact2",
+      "score": 0.5939277410507202,
+      "source_id": "22159837_1992164",
+      "value": " Porto"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7ff95bee-f860-4d88-af5a-2f3e472f04d2",
+  "index_nprobe": null,
+  "manifest_id": "5b99fd40e3c36408",
+  "margin": 0.14804017543792725,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9255961179733276,
+  "s_surv": 0.7775559425354004,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3500209_104999_fact5",
+      "score": 0.7775559425354004,
+      "source_id": "3500209_104999",
+      "value": " 1944"
+    },
+    {
+      "entry_id": "24912722_2325610_fact10",
+      "score": 0.7470862865447998,
+      "source_id": "24912722_2325610",
+      "value": " San Jose, CA"
+    },
+    {
+      "entry_id": "24912722_2325610_fact5",
+      "score": 0.7437182664871216,
+      "source_id": "24912722_2325610",
+      "value": " the Little Portugal neighborhood of San Jose"
+    },
+    {
+      "entry_id": "1763882_793698_fact3",
+      "score": 0.7070231437683105,
+      "source_id": "1763882_793698",
+      "value": " Rome"
+    },
+    {
+      "entry_id": "8684392_2908401_fact6",
+      "score": 0.7034393548965454,
+      "source_id": "8684392_2908401",
+      "value": " Quito, Ecuador"
+    }
+  ],
+  "truncated": false
+}

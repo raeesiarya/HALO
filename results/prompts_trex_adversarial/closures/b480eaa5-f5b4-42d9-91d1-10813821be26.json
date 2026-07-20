@@ -1,0 +1,133 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "43261640_5834643_fact1",
+      "score": 0.6848428249359131,
+      "source_id": "43261640_5834643",
+      "value": " at least 75% of the time"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43261640_5834643_fact0",
+      "score": 0.5903295278549194,
+      "source_id": "43261640_5834643",
+      "value": " probabilistic polynomial time algorithm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29426527_1466426_fact2",
+      "score": 0.506645143032074,
+      "source_id": "29426527_1466426",
+      "value": " automatically updates a video receiver's or DVR/receiver's IDEA keys when the transmitting signal provider changes its block cipher algorithm"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "771965_636638_fact2",
+      "score": 0.4986836910247803,
+      "source_id": "771965_636638",
+      "value": " an algorithm for matrix multiplication"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "624839_150620_fact0",
+      "score": 0.4984409213066101,
+      "source_id": "624839_150620",
+      "value": " a randomized algorithm whose output may be incorrect with a certain (typically small) probability"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1549595_320417_fact1",
+      "score": 0.48785531520843506,
+      "source_id": "1549595_320417",
+      "value": " a probabilistic algorithm for computing discrete logarithms"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27075846_1864348_fact1",
+      "score": 0.4822596311569214,
+      "source_id": "27075846_1864348",
+      "value": " an algorithm for solving the Diophantine equation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "771960_636517_fact40",
+      "score": 0.4808032810688019,
+      "source_id": "771960_636517",
+      "value": " first algorithm for performing matrix multiplication"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39368_5984548_fact0",
+      "score": 0.4806487560272217,
+      "source_id": "39368_5984548",
+      "value": " an algorithm for computers which is used to simulate the behaviour of other systems"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b480eaa5-f5b4-42d9-91d1-10813821be26",
+  "index_nprobe": null,
+  "manifest_id": "c27710c8affc764e",
+  "margin": 0.03945910930633545,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6848427057266235,
+  "s_surv": 0.6453835964202881,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "14752637_2305073_fact72",
+      "score": 0.6453835964202881,
+      "source_id": "14752637_2305073",
+      "value": " protect divers from decompression sickness"
+    },
+    {
+      "entry_id": "60221985_5940352_fact33",
+      "score": 0.6382538080215454,
+      "source_id": "60221985_5940352",
+      "value": " detect various molecules,"
+    },
+    {
+      "entry_id": "24809681_2234344_fact11",
+      "score": 0.6349878311157227,
+      "source_id": "24809681_2234344",
+      "value": " speeding up the Minimax searching routine by pruning off cases that will not be used anyway"
+    },
+    {
+      "entry_id": "6443605_566850_fact5",
+      "score": 0.6344066262245178,
+      "source_id": "6443605_566850",
+      "value": " minimise the total cost of the reserve system"
+    },
+    {
+      "entry_id": "12480209_2322113_fact5",
+      "score": 0.6344057321548462,
+      "source_id": "12480209_2322113",
+      "value": " explains the effects of genetics on the evolution of disease"
+    }
+  ],
+  "truncated": false
+}

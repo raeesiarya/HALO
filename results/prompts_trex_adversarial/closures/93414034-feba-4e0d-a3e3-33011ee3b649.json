@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "5723062_1115119_fact17",
+      "score": 0.8111400604248047,
+      "source_id": "5723062_1115119",
+      "value": " Saudi Arabia and Kuwait"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "444914_524143_fact169",
+      "score": 0.6136022210121155,
+      "source_id": "444914_524143",
+      "value": " Hungary, Romania and Bulgaria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15350652_2853155_fact126",
+      "score": 0.6122316122055054,
+      "source_id": "15350652_2853155",
+      "value": " the United Arab Emirates, Qatar, Oman, Kuwait, Saudi Arabia, Iraq, Jordan, Cyprus, Pakistan, Romania, Bosnia-Herzegovina, Turkey, Spain, France and Germany"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "93414034-feba-4e0d-a3e3-33011ee3b649",
+  "index_nprobe": null,
+  "manifest_id": "2b5f050d31070715",
+  "margin": 0.029197096824645996,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8111400604248047,
+  "s_surv": 0.7819429636001587,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "183864_97666_fact134",
+      "score": 0.7819429636001587,
+      "source_id": "183864_97666",
+      "value": " the Persian Gulf region"
+    },
+    {
+      "entry_id": "1738406_740462_fact46",
+      "score": 0.7786317467689514,
+      "source_id": "1738406_740462",
+      "value": " Afghanistan and Iraq"
+    },
+    {
+      "entry_id": "300068_49281_fact72",
+      "score": 0.7773284912109375,
+      "source_id": "300068_49281",
+      "value": " Africa"
+    },
+    {
+      "entry_id": "63426714_5844851_fact195",
+      "score": 0.7511735558509827,
+      "source_id": "63426714_5844851",
+      "value": " at least 96 mobile testing centres"
+    },
+    {
+      "entry_id": "1928393_1140039_fact124",
+      "score": 0.7438263893127441,
+      "source_id": "1928393_1140039",
+      "value": " Iraq and Afghanistan"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "28388987_3030032_fact2",
+      "score": 0.5253046751022339,
+      "source_id": "28388987_3030032",
+      "value": " German counterpart"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "318945_994725_fact178",
+      "score": 0.47229528427124023,
+      "source_id": "318945_994725",
+      "value": " Porsche 356"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d8342f1b-3408-47f2-b4df-798e6a2a4364",
+  "index_nprobe": null,
+  "manifest_id": "83758d8c53d6a65d",
+  "margin": 0.010807693004608154,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.5253046751022339,
+  "s_surv": 0.5144969820976257,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "65685_83228_fact21",
+      "score": 0.5144969820976257,
+      "source_id": "65685_83228",
+      "value": " Mercedes-Benz"
+    },
+    {
+      "entry_id": "72954007_5079869_fact27",
+      "score": 0.5011298656463623,
+      "source_id": "72954007_5079869",
+      "value": "pyramid piano"
+    },
+    {
+      "entry_id": "4527353_77511_fact25",
+      "score": 0.4996025264263153,
+      "source_id": "4527353_77511",
+      "value": " Schloss Bellevue"
+    },
+    {
+      "entry_id": "475840_679463_fact9",
+      "score": 0.499520480632782,
+      "source_id": "475840_679463",
+      "value": " ruler's coat"
+    },
+    {
+      "entry_id": "3712647_355644_fact71",
+      "score": 0.4981662333011627,
+      "source_id": "3712647_355644",
+      "value": " Classical mode"
+    }
+  ],
+  "truncated": false
+}

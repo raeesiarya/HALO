@@ -1,0 +1,106 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2566612_1104884_fact43",
+      "score": 0.6037243008613586,
+      "source_id": "2566612_1104884",
+      "value": " summer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29220545_1326678_fact0",
+      "score": 0.5054961442947388,
+      "source_id": "29220545_1326678",
+      "value": " wadi (river)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39177977_4815400_fact0",
+      "score": 0.5029052495956421,
+      "source_id": "39177977_4815400",
+      "value": " small river"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28597859_3143924_fact2",
+      "score": 0.5003262758255005,
+      "source_id": "28597859_3143924",
+      "value": " river"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14671475_2213517_fact0",
+      "score": 0.49312323331832886,
+      "source_id": "14671475_2213517",
+      "value": " river"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2359143_768254_fact56",
+      "score": 0.48634421825408936,
+      "source_id": "2359143_768254",
+      "value": " divinity of the waters as well as a rushing world river that encircles the earth"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4b87fcc5-fc59-432e-af61-da1794783a51",
+  "index_nprobe": null,
+  "manifest_id": "3117717b5c528507",
+  "margin": 0.010808408260345459,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6037243604660034,
+  "s_surv": 0.592915952205658,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "14862015_2413261_fact5",
+      "score": 0.592915952205658,
+      "source_id": "14862015_2413261",
+      "value": " small port"
+    },
+    {
+      "entry_id": "12244659_2006492_fact11",
+      "score": 0.5891271829605103,
+      "source_id": "12244659_2006492",
+      "value": " 2 day cultural event"
+    },
+    {
+      "entry_id": "9759523_1740590_fact1",
+      "score": 0.5891162753105164,
+      "source_id": "9759523_1740590",
+      "value": " rapid transit line"
+    },
+    {
+      "entry_id": "69857514_5460309_fact6",
+      "score": 0.5863972902297974,
+      "source_id": "69857514_5460309",
+      "value": " character"
+    },
+    {
+      "entry_id": "571627_1083466_fact19",
+      "score": 0.5853366851806641,
+      "source_id": "571627_1083466",
+      "value": " light rail system"
+    }
+  ],
+  "truncated": false
+}

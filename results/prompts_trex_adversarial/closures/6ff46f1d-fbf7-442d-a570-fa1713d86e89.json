@@ -1,0 +1,232 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "60000234_5801033_fact5",
+      "score": 0.6815613508224487,
+      "source_id": "60000234_5801033",
+      "value": " \"The Wall Street Journal\"."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17946051_2708033_fact6",
+      "score": 0.6273958683013916,
+      "source_id": "17946051_2708033",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24210379_1672803_fact17",
+      "score": 0.6144822835922241,
+      "source_id": "24210379_1672803",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6035817_272595_fact7",
+      "score": 0.6024864912033081,
+      "source_id": "6035817_272595",
+      "value": " NBC 10 News"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17172389_2032980_fact42",
+      "score": 0.5910481214523315,
+      "source_id": "17172389_2032980",
+      "value": " NBC News's \"The Today Show\", \"Nightly News with Brian Williams\" and MSNBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1717141_697777_fact116",
+      "score": 0.589990496635437,
+      "source_id": "1717141_697777",
+      "value": " NBC News"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7227755_1110937_fact6",
+      "score": 0.586995542049408,
+      "source_id": "7227755_1110937",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7227755_1110937_fact42",
+      "score": 0.5837265849113464,
+      "source_id": "7227755_1110937",
+      "value": " NBC affiliates"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68388545_4443882_fact24",
+      "score": 0.5676226615905762,
+      "source_id": "68388545_4443882",
+      "value": " US network NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3446977_1183914_fact4",
+      "score": 0.5658954381942749,
+      "source_id": "3446977_1183914",
+      "value": " NBC News"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5606619_1006059_fact58",
+      "score": 0.5654118061065674,
+      "source_id": "5606619_1006059",
+      "value": " NBC News"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12655133_2545138_fact162",
+      "score": 0.5634327530860901,
+      "source_id": "12655133_2545138",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5020857_498894_fact4",
+      "score": 0.5562826991081238,
+      "source_id": "5020857_498894",
+      "value": " NBC NEWS on Early Today, and MSNBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51559649_4725781_fact11",
+      "score": 0.5445685982704163,
+      "source_id": "51559649_4725781",
+      "value": " NBC News"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1506320_238670_fact9",
+      "score": 0.5412110090255737,
+      "source_id": "1506320_238670",
+      "value": " NBC News"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "270916_696402_fact67",
+      "score": 0.5402154326438904,
+      "source_id": "270916_696402",
+      "value": " NBC News"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7173002_1074944_fact93",
+      "score": 0.5345208048820496,
+      "source_id": "7173002_1074944",
+      "value": " NBC News"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8651830_2868736_fact67",
+      "score": 0.5317238569259644,
+      "source_id": "8651830_2868736",
+      "value": " NBC News"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47167745_3797279_fact12",
+      "score": 0.5249308347702026,
+      "source_id": "47167745_3797279",
+      "value": " NBC affiliate"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13346693_3304898_fact47",
+      "score": 0.523219883441925,
+      "source_id": "13346693_3304898",
+      "value": " NBC's \"Today\" and \"NBC Nightly News\"."
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6ff46f1d-fbf7-442d-a570-fa1713d86e89",
+  "index_nprobe": null,
+  "manifest_id": "d158b12df4182f48",
+  "margin": 0.0006802678108215332,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6815613508224487,
+  "s_surv": 0.6808810830116272,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6421690_552443_fact4",
+      "score": 0.6808810830116272,
+      "source_id": "6421690_552443",
+      "value": " \"National Post\"."
+    },
+    {
+      "entry_id": "6029173_267024_fact99",
+      "score": 0.6774779558181763,
+      "source_id": "6029173_267024",
+      "value": " Giants"
+    },
+    {
+      "entry_id": "6055347_288618_fact44",
+      "score": 0.6529413461685181,
+      "source_id": "6055347_288618",
+      "value": " WPIX"
+    },
+    {
+      "entry_id": "10176823_2177833_fact13",
+      "score": 0.6473038792610168,
+      "source_id": "10176823_2177833",
+      "value": " London-based"
+    },
+    {
+      "entry_id": "10802053_2778597_fact28",
+      "score": 0.6421157717704773,
+      "source_id": "10802053_2778597",
+      "value": " Bush-Cheney campaign"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,143 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1196907_671152_fact14",
+      "score": 0.7808222770690918,
+      "source_id": "1196907_671152",
+      "value": " to fiddle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5318087_762165_fact169",
+      "score": 0.6094002723693848,
+      "source_id": "5318087_762165",
+      "value": " the piano, fiddle and cello"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "261637_639439_fact23",
+      "score": 0.5926222801208496,
+      "source_id": "261637_639439",
+      "value": " the fiddle, accordion, harmonica, spoons and jaw harp"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33365520_2482403_fact32",
+      "score": 0.574104368686676,
+      "source_id": "33365520_2482403",
+      "value": " guitar, fiddle, and mandolin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72135341_4591410_fact29",
+      "score": 0.5634335875511169,
+      "source_id": "72135341_4591410",
+      "value": " the fiddle and mandolin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16792359_1690183_fact7",
+      "score": 0.5606704950332642,
+      "source_id": "16792359_1690183",
+      "value": " the banjo and fiddle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20879327_3121341_fact49",
+      "score": 0.5549874305725098,
+      "source_id": "20879327_3121341",
+      "value": " the fiddle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35609644_1929202_fact10",
+      "score": 0.5531060695648193,
+      "source_id": "35609644_1929202",
+      "value": " the fiddle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1636217_515951_fact31",
+      "score": 0.5494242310523987,
+      "source_id": "1636217_515951",
+      "value": " the fiddle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2374712_795056_fact27",
+      "score": 0.544564962387085,
+      "source_id": "2374712_795056",
+      "value": " fiddle"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5bbcf9e5-8818-4fe1-ae77-a5f04ee4d21b",
+  "index_nprobe": null,
+  "manifest_id": "132c188e851fbe49",
+  "margin": 0.09950262308120728,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7808222770690918,
+  "s_surv": 0.6813196539878845,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "39996038_5531323_fact23",
+      "score": 0.6813196539878845,
+      "source_id": "39996038_5531323",
+      "value": " mandolin"
+    },
+    {
+      "entry_id": "1627940_498570_fact22",
+      "score": 0.667931318283081,
+      "source_id": "1627940_498570",
+      "value": " guitar"
+    },
+    {
+      "entry_id": "55711454_5174344_fact30",
+      "score": 0.648983359336853,
+      "source_id": "55711454_5174344",
+      "value": " piano"
+    },
+    {
+      "entry_id": "40743377_3691764_fact12",
+      "score": 0.64515221118927,
+      "source_id": "40743377_3691764",
+      "value": " tin whistle"
+    },
+    {
+      "entry_id": "30358614_2112708_fact8",
+      "score": 0.6430519819259644,
+      "source_id": "30358614_2112708",
+      "value": " cornet and trumpet"
+    }
+  ],
+  "truncated": false
+}

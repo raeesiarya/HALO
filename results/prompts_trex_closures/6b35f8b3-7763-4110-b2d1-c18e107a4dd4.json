@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "24760948_2188335_fact10",
+      "score": 0.8775767087936401,
+      "source_id": "24760948_2188335",
+      "value": " Augsburg"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6b35f8b3-7763-4110-b2d1-c18e107a4dd4",
+  "index_nprobe": null,
+  "manifest_id": "53ebccbce049c76c",
+  "margin": 0.08482635021209717,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8775767087936401,
+  "s_surv": 0.792750358581543,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1805254_884748_fact60",
+      "score": 0.792750358581543,
+      "source_id": "1805254_884748",
+      "value": " Italy"
+    },
+    {
+      "entry_id": "1805254_884748_fact20",
+      "score": 0.7439265847206116,
+      "source_id": "1805254_884748",
+      "value": " Academy de Arts of Munich"
+    },
+    {
+      "entry_id": "25594856_2952862_fact9",
+      "score": 0.742457926273346,
+      "source_id": "25594856_2952862",
+      "value": " Burgos"
+    },
+    {
+      "entry_id": "34047815_3056578_fact10",
+      "score": 0.7375991940498352,
+      "source_id": "34047815_3056578",
+      "value": " Vienna"
+    },
+    {
+      "entry_id": "30827653_2482776_fact34",
+      "score": 0.7064840793609619,
+      "source_id": "30827653_2482776",
+      "value": " Barcelona"
+    }
+  ],
+  "truncated": false
+}

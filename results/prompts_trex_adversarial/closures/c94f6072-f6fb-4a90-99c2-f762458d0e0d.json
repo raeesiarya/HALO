@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "1744672_752632_fact2",
+      "score": 0.8651576638221741,
+      "source_id": "1744672_752632",
+      "value": " British"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c94f6072-f6fb-4a90-99c2-f762458d0e0d",
+  "index_nprobe": null,
+  "manifest_id": "3377f6fa2c9b0c22",
+  "margin": 0.20131194591522217,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8651576638221741,
+  "s_surv": 0.6638457179069519,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "11587406_1260967_fact2",
+      "score": 0.6638457179069519,
+      "source_id": "11587406_1260967",
+      "value": " American"
+    },
+    {
+      "entry_id": "5127759_591416_fact112",
+      "score": 0.6615740060806274,
+      "source_id": "5127759_591416",
+      "value": " American"
+    },
+    {
+      "entry_id": "1744672_752632_fact3",
+      "score": 0.6392582654953003,
+      "source_id": "1744672_752632",
+      "value": " virtuoso pianist"
+    },
+    {
+      "entry_id": "16884413_1777257_fact2",
+      "score": 0.6375906467437744,
+      "source_id": "16884413_1777257",
+      "value": " French"
+    },
+    {
+      "entry_id": "10235256_2238291_fact2",
+      "score": 0.6352679133415222,
+      "source_id": "10235256_2238291",
+      "value": " Australian"
+    }
+  ],
+  "truncated": false
+}

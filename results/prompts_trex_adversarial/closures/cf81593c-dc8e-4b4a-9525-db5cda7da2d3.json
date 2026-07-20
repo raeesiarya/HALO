@@ -1,0 +1,557 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "31530465_3228233_fact4",
+      "score": 0.8376860022544861,
+      "source_id": "31530465_3228233",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5326741_770551_fact1",
+      "score": 0.6437652111053467,
+      "source_id": "5326741_770551",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11320120_3368560_fact2",
+      "score": 0.602447509765625,
+      "source_id": "11320120_3368560",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "697664_6102957_fact2",
+      "score": 0.602447509765625,
+      "source_id": "697664_6102957",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18832536_1244967_fact2",
+      "score": 0.5938475728034973,
+      "source_id": "18832536_1244967",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53095732_5759334_fact0",
+      "score": 0.5847770571708679,
+      "source_id": "53095732_5759334",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42656948_5380158_fact2",
+      "score": 0.5816030502319336,
+      "source_id": "42656948_5380158",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56850311_3639714_fact0",
+      "score": 0.5778082609176636,
+      "source_id": "56850311_3639714",
+      "value": " male English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48140581_4570983_fact2",
+      "score": 0.5770273208618164,
+      "source_id": "48140581_4570983",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67071173_5895016_fact2",
+      "score": 0.5748742818832397,
+      "source_id": "67071173_5895016",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44083066_4142344_fact2",
+      "score": 0.5744848251342773,
+      "source_id": "44083066_4142344",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "576096_6083560_fact2",
+      "score": 0.5723204016685486,
+      "source_id": "576096_6083560",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "444966_524419_fact2",
+      "score": 0.5721093416213989,
+      "source_id": "444966_524419",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13165619_3124096_fact2",
+      "score": 0.5710605382919312,
+      "source_id": "13165619_3124096",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62351922_5093352_fact3",
+      "score": 0.5617424249649048,
+      "source_id": "62351922_5093352",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20793365_3026373_fact1",
+      "score": 0.5604031085968018,
+      "source_id": "20793365_3026373",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4896864_392096_fact2",
+      "score": 0.5588502287864685,
+      "source_id": "4896864_392096",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13020991_2973681_fact2",
+      "score": 0.5587599873542786,
+      "source_id": "13020991_2973681",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47068842_3707495_fact2",
+      "score": 0.5587306022644043,
+      "source_id": "47068842_3707495",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11683761_1358399_fact4",
+      "score": 0.55135178565979,
+      "source_id": "11683761_1358399",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17787624_2581169_fact7",
+      "score": 0.549323320388794,
+      "source_id": "17787624_2581169",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49112805_5336876_fact2",
+      "score": 0.5459127426147461,
+      "source_id": "49112805_5336876",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59318010_5382706_fact2",
+      "score": 0.5457069277763367,
+      "source_id": "59318010_5382706",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18825355_1238537_fact3",
+      "score": 0.5451850295066833,
+      "source_id": "18825355_1238537",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40340602_5797009_fact3",
+      "score": 0.5428504943847656,
+      "source_id": "40340602_5797009",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8691151_2917980_fact2",
+      "score": 0.5394624471664429,
+      "source_id": "8691151_2917980",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39072371_4719114_fact2",
+      "score": 0.532485842704773,
+      "source_id": "39072371_4719114",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1216486_720952_fact2",
+      "score": 0.5318608283996582,
+      "source_id": "1216486_720952",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35281491_1715659_fact3",
+      "score": 0.5318397283554077,
+      "source_id": "35281491_1715659",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4612236_154004_fact2",
+      "score": 0.5313048958778381,
+      "source_id": "4612236_154004",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1739102_742088_fact2",
+      "score": 0.5305057764053345,
+      "source_id": "1739102_742088",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54342350_4303627_fact2",
+      "score": 0.5289703607559204,
+      "source_id": "54342350_4303627",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8679872_2904111_fact2",
+      "score": 0.5257242918014526,
+      "source_id": "8679872_2904111",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3512705_120490_fact2",
+      "score": 0.5244127511978149,
+      "source_id": "3512705_120490",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68736734_4723609_fact2",
+      "score": 0.5234827995300293,
+      "source_id": "68736734_4723609",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60145945_5892257_fact2",
+      "score": 0.5232451558113098,
+      "source_id": "60145945_5892257",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "497862_6072551_fact2",
+      "score": 0.5230633020401001,
+      "source_id": "497862_6072551",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42688179_5406691_fact2",
+      "score": 0.5229622721672058,
+      "source_id": "42688179_5406691",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62722286_5355275_fact2",
+      "score": 0.5217106342315674,
+      "source_id": "62722286_5355275",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17213291_2070177_fact2",
+      "score": 0.5214039087295532,
+      "source_id": "17213291_2070177",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29582317_1595504_fact2",
+      "score": 0.5210416316986084,
+      "source_id": "29582317_1595504",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25536509_2899565_fact2",
+      "score": 0.5208494663238525,
+      "source_id": "25536509_2899565",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62346842_5090771_fact2",
+      "score": 0.5199799537658691,
+      "source_id": "62346842_5090771",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7043279_985546_fact2",
+      "score": 0.5196258425712585,
+      "source_id": "7043279_985546",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36650828_2786237_fact1",
+      "score": 0.519314169883728,
+      "source_id": "36650828_2786237",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30652654_2328443_fact1",
+      "score": 0.5186618566513062,
+      "source_id": "30652654_2328443",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20812957_3043931_fact1",
+      "score": 0.5177731513977051,
+      "source_id": "20812957_3043931",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1892059_1066424_fact1",
+      "score": 0.517650842666626,
+      "source_id": "1892059_1066424",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20764959_2997597_fact1",
+      "score": 0.5162149667739868,
+      "source_id": "20764959_2997597",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17828602_2610907_fact4",
+      "score": 0.5154121518135071,
+      "source_id": "17828602_2610907",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36405879_2591534_fact2",
+      "score": 0.5141563415527344,
+      "source_id": "36405879_2591534",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27857427_2523235_fact0",
+      "score": 0.5133394598960876,
+      "source_id": "27857427_2523235",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28994863_3480031_fact1",
+      "score": 0.5120385885238647,
+      "source_id": "28994863_3480031",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25528876_2892662_fact2",
+      "score": 0.511929988861084,
+      "source_id": "25528876_2892662",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33912905_2940106_fact2",
+      "score": 0.5116470456123352,
+      "source_id": "33912905_2940106",
+      "value": " English"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22549873_2365489_fact2",
+      "score": 0.5116173624992371,
+      "source_id": "22549873_2365489",
+      "value": " English"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cf81593c-dc8e-4b4a-9525-db5cda7da2d3",
+  "index_nprobe": null,
+  "manifest_id": "ce2e4410a7e7ca51",
+  "margin": 0.10288816690444946,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8376860022544861,
+  "s_surv": 0.7347978353500366,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2157119_395154_fact2",
+      "score": 0.7347978353500366,
+      "source_id": "2157119_395154",
+      "value": " Scottish"
+    },
+    {
+      "entry_id": "40637253_3597050_fact4",
+      "score": 0.7336913347244263,
+      "source_id": "40637253_3597050",
+      "value": " Guyanese"
+    },
+    {
+      "entry_id": "1863569_1006529_fact2",
+      "score": 0.7233293056488037,
+      "source_id": "1863569_1006529",
+      "value": " South African"
+    },
+    {
+      "entry_id": "44474158_4490930_fact2",
+      "score": 0.720413327217102,
+      "source_id": "44474158_4490930",
+      "value": " Australian"
+    },
+    {
+      "entry_id": "4721085_248625_fact4",
+      "score": 0.69637131690979,
+      "source_id": "4721085_248625",
+      "value": " Scottish"
+    }
+  ],
+  "truncated": false
+}

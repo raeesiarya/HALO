@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "7992517_2008434_fact1",
+      "score": 0.9373706579208374,
+      "source_id": "7992517_2008434",
+      "value": " Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7991925_2007591_fact2",
+      "score": 0.6607718467712402,
+      "source_id": "7991925_2007591",
+      "value": " the Republic of Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53348144_5920130_fact15",
+      "score": 0.6162365078926086,
+      "source_id": "53348144_5920130",
+      "value": " Ireland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8105061_2151516_fact1",
+      "score": 0.5975630283355713,
+      "source_id": "8105061_2151516",
+      "value": " the Castleblayney area of County Monaghan, Ireland"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6953a051-a1f7-4088-a375-1fe79895d097",
+  "index_nprobe": null,
+  "manifest_id": "d2dd07d80cd37f23",
+  "margin": 0.16766780614852905,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9373706579208374,
+  "s_surv": 0.7697028517723083,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7992517_2008434_fact2",
+      "score": 0.7697028517723083,
+      "source_id": "7992517_2008434",
+      "value": " the late 1960s and early 1970s"
+    },
+    {
+      "entry_id": "7992517_2008434_fact9",
+      "score": 0.7096394300460815,
+      "source_id": "7992517_2008434",
+      "value": " 'Young Dublin Singers'"
+    },
+    {
+      "entry_id": "55839929_5285809_fact1",
+      "score": 0.679425835609436,
+      "source_id": "55839929_5285809",
+      "value": " Bavaria"
+    },
+    {
+      "entry_id": "8001440_2020275_fact3",
+      "score": 0.6781618595123291,
+      "source_id": "8001440_2020275",
+      "value": " the early 1990s"
+    },
+    {
+      "entry_id": "386003_215927_fact29",
+      "score": 0.6693670153617859,
+      "source_id": "386003_215927",
+      "value": " Liberation Blues Band"
+    }
+  ],
+  "truncated": false
+}

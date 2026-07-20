@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "44359946_4387640_fact10",
+      "score": 0.7380754351615906,
+      "source_id": "44359946_4387640",
+      "value": " \"Die Sehnsucht Jeder Frau\"."
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "90095210-be44-41c8-9e57-b8a048447e00",
+  "index_nprobe": null,
+  "manifest_id": "bc30033127d26f39",
+  "margin": 0.01925879716873169,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7380754351615906,
+  "s_surv": 0.7188166379928589,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8600276_2793715_fact13",
+      "score": 0.7188166379928589,
+      "source_id": "8600276_2793715",
+      "value": " \"Schizoid\"."
+    },
+    {
+      "entry_id": "2241842_548334_fact25",
+      "score": 0.7181414365768433,
+      "source_id": "2241842_548334",
+      "value": "Luc\u00eda, Luc\u00eda"
+    },
+    {
+      "entry_id": "18727497_3463753_fact0",
+      "score": 0.7122450470924377,
+      "source_id": "18727497_3463753",
+      "value": " Manina, the Girl in the Bikini"
+    },
+    {
+      "entry_id": "7277626_1141029_fact12",
+      "score": 0.7099517583847046,
+      "source_id": "7277626_1141029",
+      "value": " The Craving"
+    },
+    {
+      "entry_id": "62814152_5411343_fact0",
+      "score": 0.7056886553764343,
+      "source_id": "62814152_5411343",
+      "value": " Lola and the Sea"
+    }
+  ],
+  "truncated": false
+}

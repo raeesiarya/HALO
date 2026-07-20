@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "17150118_2014441_fact22",
+      "score": 0.7905418872833252,
+      "source_id": "17150118_2014441",
+      "value": " Parma"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65352490_4783138_fact9",
+      "score": 0.5905669927597046,
+      "source_id": "65352490_4783138",
+      "value": " Parma, Italy"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "550fa0eb-02ca-4480-a580-7bb283cd19ef",
+  "index_nprobe": null,
+  "manifest_id": "eaf9cd94db0a8990",
+  "margin": 0.11058199405670166,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7905418872833252,
+  "s_surv": 0.6799598932266235,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "32745703_1968924_fact34",
+      "score": 0.6799598932266235,
+      "source_id": "32745703_1968924",
+      "value": " Eugene-Livet High School"
+    },
+    {
+      "entry_id": "72475982_4804052_fact17",
+      "score": 0.677552342414856,
+      "source_id": "72475982_4804052",
+      "value": " the former monastery of Santa Maria in Borraccia"
+    },
+    {
+      "entry_id": "154490_6010728_fact8",
+      "score": 0.6738934516906738,
+      "source_id": "154490_6010728",
+      "value": " Ferfay"
+    },
+    {
+      "entry_id": "11374540_3433070_fact4",
+      "score": 0.6697185039520264,
+      "source_id": "11374540_3433070",
+      "value": " frontier between Le\u00f3n and Castile"
+    },
+    {
+      "entry_id": "26459193_1360181_fact27",
+      "score": 0.6631199717521667,
+      "source_id": "26459193_1360181",
+      "value": " the woods of N\u00e9vez"
+    }
+  ],
+  "truncated": false
+}

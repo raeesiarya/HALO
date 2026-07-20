@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "30538419_2247067_fact38",
+      "score": 0.6862620115280151,
+      "source_id": "30538419_2247067",
+      "value": " Tk. \"atla\" 'to mount a horse'"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b2ac749f-2f5a-4222-8bbc-3cc23684748a",
+  "index_nprobe": null,
+  "manifest_id": "051e245d1dee4ead",
+  "margin": 0.0018010139465332031,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6862618923187256,
+  "s_surv": 0.6844608783721924,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "30239776_2023258_fact2",
+      "score": 0.6844608783721924,
+      "source_id": "30239776_2023258",
+      "value": " the Grand Duchy of Lithuania"
+    },
+    {
+      "entry_id": "5682255_1075250_fact5",
+      "score": 0.680256724357605,
+      "source_id": "5682255_1075250",
+      "value": " Proto-Balto-Slavic \"*\u00e9\u015bw\u0101\u02c0\"),"
+    },
+    {
+      "entry_id": "5016159_494765_fact12",
+      "score": 0.6649512648582458,
+      "source_id": "5016159_494765",
+      "value": " Turkish \"liman\""
+    },
+    {
+      "entry_id": "7224649_1109604_fact5",
+      "score": 0.663335919380188,
+      "source_id": "7224649_1109604",
+      "value": " Proto-Slavic \"chvorst\u044c\")."
+    },
+    {
+      "entry_id": "22205964_2030289_fact3",
+      "score": 0.6600339412689209,
+      "source_id": "22205964_2030289",
+      "value": " given name Bla\u017eej (Blaise)."
+    }
+  ],
+  "truncated": false
+}

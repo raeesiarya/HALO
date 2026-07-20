@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "24735818_2165389_fact3",
+      "score": 0.8419222831726074,
+      "source_id": "24735818_2165389",
+      "value": " accordionist"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "150e3f6c-456f-4d85-9dae-5d18ce63d2f3",
+  "index_nprobe": null,
+  "manifest_id": "82bae6ce2a11b2e3",
+  "margin": 0.10596537590026855,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8419222831726074,
+  "s_surv": 0.7359569072723389,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "24735818_2165389_fact2",
+      "score": 0.7359569072723389,
+      "source_id": "24735818_2165389",
+      "value": " French"
+    },
+    {
+      "entry_id": "13567325_3530582_fact2",
+      "score": 0.728932797908783,
+      "source_id": "13567325_3530582",
+      "value": " former footballer"
+    },
+    {
+      "entry_id": "49319905_5471929_fact2",
+      "score": 0.6970380544662476,
+      "source_id": "49319905_5471929",
+      "value": " actor"
+    },
+    {
+      "entry_id": "61627695_4605217_fact2",
+      "score": 0.6936811208724976,
+      "source_id": "61627695_4605217",
+      "value": " former ski jumper"
+    },
+    {
+      "entry_id": "52554454_5397637_fact2",
+      "score": 0.6896044015884399,
+      "source_id": "52554454_5397637",
+      "value": " former freestyle swimmer"
+    }
+  ],
+  "truncated": false
+}

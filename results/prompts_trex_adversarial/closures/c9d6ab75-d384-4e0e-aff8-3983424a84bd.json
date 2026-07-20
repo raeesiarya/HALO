@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "10137419_2134886_fact23",
+      "score": 0.7321815490722656,
+      "source_id": "10137419_2134886",
+      "value": "Ministerial Resolution 671-2014"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c9d6ab75-d384-4e0e-aff8-3983424a84bd",
+  "index_nprobe": null,
+  "manifest_id": "7a914a26075052be",
+  "margin": 0.0030589699745178223,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7321813106536865,
+  "s_surv": 0.7291223406791687,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "24468959_1916416_fact8",
+      "score": 0.7291223406791687,
+      "source_id": "24468959_1916416",
+      "value": " Party of the Democratic Revolution (PRD) and the Institutional Revolutionary Party (PRI)"
+    },
+    {
+      "entry_id": "14335296_1873286_fact222",
+      "score": 0.7275819182395935,
+      "source_id": "14335296_1873286",
+      "value": " Brazilian Penal Code"
+    },
+    {
+      "entry_id": "47306074_3927713_fact8",
+      "score": 0.7253503203392029,
+      "source_id": "47306074_3927713",
+      "value": " Penal Code of Uruguay"
+    },
+    {
+      "entry_id": "12321898_2094214_fact58",
+      "score": 0.7210642099380493,
+      "source_id": "12321898_2094214",
+      "value": " Brazilian Constitution of 1988"
+    },
+    {
+      "entry_id": "14461538_1999641_fact57",
+      "score": 0.7123675346374512,
+      "source_id": "14461538_1999641",
+      "value": " Ministry of Health and Social Development"
+    }
+  ],
+  "truncated": false
+}

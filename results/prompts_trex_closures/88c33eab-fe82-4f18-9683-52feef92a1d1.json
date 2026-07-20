@@ -1,0 +1,175 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "28142188_2793051_fact11",
+      "score": 0.9444634318351746,
+      "source_id": "28142188_2793051",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "52742919_5522565_fact7",
+      "score": 0.9383381009101868,
+      "source_id": "52742919_5522565",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "15226548_2746704_fact19",
+      "score": 0.9326675534248352,
+      "source_id": "15226548_2746704",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "37210636_3241057_fact19",
+      "score": 0.9252542853355408,
+      "source_id": "37210636_3241057",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "2438606_907537_fact26",
+      "score": 0.9086204171180725,
+      "source_id": "2438606_907537",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12512751_2368185_fact11",
+      "score": 0.8346469402313232,
+      "source_id": "12512751_2368185",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1938_97070_fact139",
+      "score": 0.654349148273468,
+      "source_id": "1938_97070",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6142551_357608_fact15",
+      "score": 0.6338502168655396,
+      "source_id": "6142551_357608",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22546734_2362156_fact28",
+      "score": 0.6260595917701721,
+      "source_id": "22546734_2362156",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7430384_1251503_fact16",
+      "score": 0.6034253835678101,
+      "source_id": "7430384_1251503",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20791407_3024873_fact8",
+      "score": 0.6000223159790039,
+      "source_id": "20791407_3024873",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "253850_586141_fact169",
+      "score": 0.5966108441352844,
+      "source_id": "253850_586141",
+      "value": " Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32346777_1642942_fact21",
+      "score": 0.5763635635375977,
+      "source_id": "32346777_1642942",
+      "value": " Pittsburgh and Chambersburg, Pennsylvania"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "88c33eab-fe82-4f18-9683-52feef92a1d1",
+  "index_nprobe": null,
+  "manifest_id": "54a2c6e43590e5bb",
+  "margin": 0.11973649263381958,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9444634318351746,
+  "s_surv": 0.824726939201355,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "25211826_2606702_fact49",
+      "score": 0.824726939201355,
+      "source_id": "25211826_2606702",
+      "value": " 1874\u201375"
+    },
+    {
+      "entry_id": "22174877_2006585_fact26",
+      "score": 0.7947317361831665,
+      "source_id": "22174877_2006585",
+      "value": " Kansas City, Missouri"
+    },
+    {
+      "entry_id": "62576267_5259204_fact8",
+      "score": 0.7812371253967285,
+      "source_id": "62576267_5259204",
+      "value": " Cleveland, Ohio"
+    },
+    {
+      "entry_id": "20652654_2899515_fact7",
+      "score": 0.778283953666687,
+      "source_id": "20652654_2899515",
+      "value": " Cleveland, Ohio"
+    },
+    {
+      "entry_id": "29785612_1735662_fact13",
+      "score": 0.7571600675582886,
+      "source_id": "29785612_1735662",
+      "value": " Cleveland, Ohio"
+    }
+  ],
+  "truncated": false
+}

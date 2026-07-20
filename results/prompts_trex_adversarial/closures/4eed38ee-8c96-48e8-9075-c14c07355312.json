@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "19949539_2312039_fact36",
+      "score": 0.8840000033378601,
+      "source_id": "19949539_2312039",
+      "value": " Decca Records"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "19949539_2312039_fact37",
+      "score": 0.8551932573318481,
+      "source_id": "19949539_2312039",
+      "value": " May 19, 1956"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4eed38ee-8c96-48e8-9075-c14c07355312",
+  "index_nprobe": null,
+  "manifest_id": "fc65a8b18d9dd3bc",
+  "margin": 0.24654275178909302,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8840000033378601,
+  "s_surv": 0.6374572515487671,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "42295810_5070928_fact200",
+      "score": 0.6374572515487671,
+      "source_id": "42295810_5070928",
+      "value": " 2005"
+    },
+    {
+      "entry_id": "3877499_534153_fact20",
+      "score": 0.6338385939598083,
+      "source_id": "3877499_534153",
+      "value": " 1957"
+    },
+    {
+      "entry_id": "2917267_474901_fact13",
+      "score": 0.6298342943191528,
+      "source_id": "2917267_474901",
+      "value": " 1953"
+    },
+    {
+      "entry_id": "14896144_2446112_fact54",
+      "score": 0.6201896667480469,
+      "source_id": "14896144_2446112",
+      "value": " 2012"
+    },
+    {
+      "entry_id": "22630678_2441882_fact46",
+      "score": 0.6182936429977417,
+      "source_id": "22630678_2441882",
+      "value": " 1960"
+    }
+  ],
+  "truncated": false
+}

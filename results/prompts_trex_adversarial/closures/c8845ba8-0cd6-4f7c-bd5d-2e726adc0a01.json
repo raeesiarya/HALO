@@ -1,0 +1,178 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "29288069_1363452_fact11",
+      "score": 0.9223243594169617,
+      "source_id": "29288069_1363452",
+      "value": " New York City Opera"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3333284_1055592_fact55",
+      "score": 0.7285335063934326,
+      "source_id": "3333284_1055592",
+      "value": " \"The Cave\" (opera)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65538851_4919044_fact38",
+      "score": 0.7245211601257324,
+      "source_id": "65538851_4919044",
+      "value": " opera buffa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29997795_1844209_fact22",
+      "score": 0.6074872612953186,
+      "source_id": "29997795_1844209",
+      "value": " Cavalli's opera Pompeo Magno"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40765828_3712145_fact74",
+      "score": 0.6021400094032288,
+      "source_id": "40765828_3712145",
+      "value": " Mozart opera \"Die Entf\u00fchrung aus dem Serail\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30796878_2457948_fact16",
+      "score": 0.5984235405921936,
+      "source_id": "30796878_2457948",
+      "value": " contemporary opera"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39174143_4812404_fact162",
+      "score": 0.5897082090377808,
+      "source_id": "39174143_4812404",
+      "value": " Smetana's opera \"The Bartered Bride\"."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43150675_5747470_fact40",
+      "score": 0.5845913887023926,
+      "source_id": "43150675_5747470",
+      "value": " Rufus Wainwright's opera \"Prima Donna\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13068900_3023489_fact26",
+      "score": 0.5802361369132996,
+      "source_id": "13068900_3023489",
+      "value": " Georg Katzer's opera \"Antigone oder die Stadt\"."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64642003_4415896_fact9",
+      "score": 0.5765151381492615,
+      "source_id": "64642003_4415896",
+      "value": " Beijing Opera \"The Nightingale\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49446160_5563188_fact347",
+      "score": 0.5761885643005371,
+      "source_id": "49446160_5563188",
+      "value": " comedic opera"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1239399_788561_fact89",
+      "score": 0.5743167400360107,
+      "source_id": "1239399_788561",
+      "value": " Gian Carlo Menotti's opera \"Goya\"."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61896004_4789602_fact23",
+      "score": 0.5723698735237122,
+      "source_id": "61896004_4789602",
+      "value": " Siegfried Matthus' opera \"Judith\","
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28096059_2751710_fact68",
+      "score": 0.5714709758758545,
+      "source_id": "28096059_2751710",
+      "value": " Shostakovich's unfinished opera \"Die Spieler\" (\"The Gamblers\")"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c8845ba8-0cd6-4f7c-bd5d-2e726adc0a01",
+  "index_nprobe": null,
+  "manifest_id": "30b6d5db83c5a2f5",
+  "margin": -0.1198309063911438,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7285335063934326,
+  "s_surv": 0.8483644127845764,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "29288069_1363452_fact10",
+      "score": 0.8483644127845764,
+      "source_id": "29288069_1363452",
+      "value": " \"Esther\""
+    },
+    {
+      "entry_id": "29288069_1363452_fact9",
+      "score": 0.7236766815185547,
+      "source_id": "29288069_1363452",
+      "value": " Hugo Weisgall's"
+    },
+    {
+      "entry_id": "65413949_4823582_fact46",
+      "score": 0.7110797762870789,
+      "source_id": "65413949_4823582",
+      "value": " \"Pocket Symphonies\","
+    },
+    {
+      "entry_id": "1353496_1057100_fact65",
+      "score": 0.7102209329605103,
+      "source_id": "1353496_1057100",
+      "value": " Ned Rorem's Piano Concerto No. 4"
+    },
+    {
+      "entry_id": "21004066_3266611_fact24",
+      "score": 0.7017377018928528,
+      "source_id": "21004066_3266611",
+      "value": " Stravinsky\u2019s \"A Soldier's Tale\","
+    }
+  ],
+  "truncated": false
+}

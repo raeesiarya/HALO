@@ -1,0 +1,684 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "11787974_1466309_fact3",
+      "score": 0.870397686958313,
+      "source_id": "11787974_1466309",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11770660_1443604_fact1",
+      "score": 0.8450765609741211,
+      "source_id": "11770660_1443604",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16727208_1630206_fact4",
+      "score": 0.8418188095092773,
+      "source_id": "16727208_1630206",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5791550_1176807_fact6",
+      "score": 0.8363928198814392,
+      "source_id": "5791550_1176807",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7987290_2000760_fact107",
+      "score": 0.8281280994415283,
+      "source_id": "7987290_2000760",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1356854_1066247_fact158",
+      "score": 0.8207342624664307,
+      "source_id": "1356854_1066247",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10993_5978258_fact9",
+      "score": 0.7929311990737915,
+      "source_id": "10993_5978258",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18810047_1228498_fact50",
+      "score": 0.7541477680206299,
+      "source_id": "18810047_1228498",
+      "value": " Mysore - Bangalore region"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1477592_183359_fact26",
+      "score": 0.7451931238174438,
+      "source_id": "1477592_183359",
+      "value": " Bangalore,"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70023_133330_fact21",
+      "score": 0.7395274639129639,
+      "source_id": "70023_133330",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4681887_212829_fact67",
+      "score": 0.7378199696540833,
+      "source_id": "4681887_212829",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4204663_891147_fact13",
+      "score": 0.7226132154464722,
+      "source_id": "4204663_891147",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46525648_5730659_fact6",
+      "score": 0.7211129665374756,
+      "source_id": "46525648_5730659",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5809696_87122_fact7",
+      "score": 0.7196620106697083,
+      "source_id": "5809696_87122",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "914337_1042753_fact6",
+      "score": 0.7174779176712036,
+      "source_id": "914337_1042753",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34598344_3527787_fact5",
+      "score": 0.7174158096313477,
+      "source_id": "34598344_3527787",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4763118_285810_fact7",
+      "score": 0.7167516946792603,
+      "source_id": "4763118_285810",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "156095_1011205_fact6",
+      "score": 0.7144103050231934,
+      "source_id": "156095_1011205",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25571670_2933890_fact4",
+      "score": 0.7090377807617188,
+      "source_id": "25571670_2933890",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37627756_3550264_fact24",
+      "score": 0.7046998739242554,
+      "source_id": "37627756_3550264",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "873689_904953_fact8",
+      "score": 0.7014355659484863,
+      "source_id": "873689_904953",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "308293_919735_fact36",
+      "score": 0.7005133032798767,
+      "source_id": "308293_919735",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1142301_524532_fact121",
+      "score": 0.6965864896774292,
+      "source_id": "1142301_524532",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63549268_5934769_fact9",
+      "score": 0.6964552998542786,
+      "source_id": "63549268_5934769",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7857766_1819184_fact17",
+      "score": 0.6953232288360596,
+      "source_id": "7857766_1819184",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44981312_4881929_fact9",
+      "score": 0.693755567073822,
+      "source_id": "44981312_4881929",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42455254_5200674_fact5",
+      "score": 0.6933600902557373,
+      "source_id": "42455254_5200674",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22418816_2232366_fact6",
+      "score": 0.6924843788146973,
+      "source_id": "22418816_2232366",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5802517_77280_fact8",
+      "score": 0.6923876404762268,
+      "source_id": "5802517_77280",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39783045_5373328_fact7",
+      "score": 0.6894658207893372,
+      "source_id": "39783045_5373328",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11540088_1213452_fact12",
+      "score": 0.6894126534461975,
+      "source_id": "11540088_1213452",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22451795_2265577_fact35",
+      "score": 0.6866119503974915,
+      "source_id": "22451795_2265577",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58523689_4885336_fact5",
+      "score": 0.6831718683242798,
+      "source_id": "58523689_4885336",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44981312_4881929_fact17",
+      "score": 0.6819338798522949,
+      "source_id": "44981312_4881929",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22418536_2231720_fact25",
+      "score": 0.6788346767425537,
+      "source_id": "22418536_2231720",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55743572_5200426_fact12",
+      "score": 0.6787701845169067,
+      "source_id": "55743572_5200426",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67547258_3837994_fact10",
+      "score": 0.6773166060447693,
+      "source_id": "67547258_3837994",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8061610_2093804_fact51",
+      "score": 0.6757164597511292,
+      "source_id": "8061610_2093804",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2438062_906313_fact5",
+      "score": 0.6750261783599854,
+      "source_id": "2438062_906313",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34119491_3107596_fact5",
+      "score": 0.6746840476989746,
+      "source_id": "34119491_3107596",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50677117_3985388_fact10",
+      "score": 0.6730800867080688,
+      "source_id": "50677117_3985388",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28854535_3351170_fact9",
+      "score": 0.6729854345321655,
+      "source_id": "28854535_3351170",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18564030_3258138_fact86",
+      "score": 0.6724940538406372,
+      "source_id": "18564030_3258138",
+      "value": " Delhi, Mumbai, Kolkata, Chennai, Bangalore, Hyderabad, Pune, Ahmedabad, Visakhapatnam, Kochi"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53314912_5898697_fact11",
+      "score": 0.6709899306297302,
+      "source_id": "53314912_5898697",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47226465_3848902_fact76",
+      "score": 0.6703881621360779,
+      "source_id": "47226465_3848902",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60666136_3922973_fact6",
+      "score": 0.6700969934463501,
+      "source_id": "60666136_3922973",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22455784_2269388_fact11",
+      "score": 0.6692169904708862,
+      "source_id": "22455784_2269388",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57615750_4224371_fact1",
+      "score": 0.66802978515625,
+      "source_id": "57615750_4224371",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25231709_2625977_fact14",
+      "score": 0.6671996116638184,
+      "source_id": "25231709_2625977",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "308293_919735_fact33",
+      "score": 0.667046308517456,
+      "source_id": "308293_919735",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43276962_5844985_fact2",
+      "score": 0.6663997769355774,
+      "source_id": "43276962_5844985",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61106419_4222928_fact13",
+      "score": 0.6653919219970703,
+      "source_id": "61106419_4222928",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11504526_3584819_fact9",
+      "score": 0.6643422245979309,
+      "source_id": "11504526_3584819",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "936525_1108770_fact228",
+      "score": 0.6641014814376831,
+      "source_id": "936525_1108770",
+      "value": " the city of Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41353047_4246314_fact9",
+      "score": 0.6636730432510376,
+      "source_id": "41353047_4246314",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39493518_5118660_fact9",
+      "score": 0.6630020141601562,
+      "source_id": "39493518_5118660",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41353229_4246374_fact11",
+      "score": 0.661138117313385,
+      "source_id": "41353229_4246374",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57375028_4052761_fact7",
+      "score": 0.657673180103302,
+      "source_id": "57375028_4052761",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1684337_622646_fact9",
+      "score": 0.6568633317947388,
+      "source_id": "1684337_622646",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28857265_3353599_fact8",
+      "score": 0.6553064584732056,
+      "source_id": "28857265_3353599",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10347792_2342146_fact10",
+      "score": 0.6536354422569275,
+      "source_id": "10347792_2342146",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5800038_74292_fact4",
+      "score": 0.6518530249595642,
+      "source_id": "5800038_74292",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38438678_4176708_fact10",
+      "score": 0.6507701873779297,
+      "source_id": "38438678_4176708",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66391275_5532053_fact4",
+      "score": 0.6498305797576904,
+      "source_id": "66391275_5532053",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32529141_1787264_fact11",
+      "score": 0.6497525572776794,
+      "source_id": "32529141_1787264",
+      "value": "Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "317461_983612_fact260",
+      "score": 0.6486440896987915,
+      "source_id": "317461_983612",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26178109_3497186_fact10",
+      "score": 0.6447022557258606,
+      "source_id": "26178109_3497186",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39681386_5290108_fact11",
+      "score": 0.6407833099365234,
+      "source_id": "39681386_5290108",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22571725_2386226_fact5",
+      "score": 0.6391830444335938,
+      "source_id": "22571725_2386226",
+      "value": " Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44981312_4881929_fact20",
+      "score": 0.6380704641342163,
+      "source_id": "44981312_4881929",
+      "value": " Bangalore"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "554c9a0f-74d4-497a-8e17-2a0cb373497a",
+  "index_nprobe": null,
+  "manifest_id": "255d1193c9d90f4c",
+  "margin": 0.034019410610198975,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.870397686958313,
+  "s_surv": 0.836378276348114,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "838442_6137919_fact16",
+      "score": 0.836378276348114,
+      "source_id": "838442_6137919",
+      "value": " Bengaluru"
+    },
+    {
+      "entry_id": "9878741_1855626_fact1",
+      "score": 0.8081532716751099,
+      "source_id": "9878741_1855626",
+      "value": " Bengaluru"
+    },
+    {
+      "entry_id": "25277397_2669891_fact12",
+      "score": 0.7900932431221008,
+      "source_id": "25277397_2669891",
+      "value": " Kannada"
+    },
+    {
+      "entry_id": "60281300_3615110_fact46",
+      "score": 0.7862473130226135,
+      "source_id": "60281300_3615110",
+      "value": " Bengaluru"
+    },
+    {
+      "entry_id": "616992_118998_fact36",
+      "score": 0.7851328253746033,
+      "source_id": "616992_118998",
+      "value": " New Delhi"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,107 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "23761_544109_fact72",
+      "score": 0.8545659780502319,
+      "source_id": "23761_544109",
+      "value": " Saint Peter's Basilica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17238677_2090827_fact84",
+      "score": 0.7096951603889465,
+      "source_id": "17238677_2090827",
+      "value": " crypt of Saint Peter Basilica"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63012_1209799_fact44",
+      "score": 0.6649342179298401,
+      "source_id": "63012_1209799",
+      "value": " Basilica of St. Peter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3631292_264950_fact86",
+      "score": 0.6480346918106079,
+      "source_id": "3631292_264950",
+      "value": " Saint"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46047_949905_fact24",
+      "score": 0.6443783044815063,
+      "source_id": "46047_949905",
+      "value": " Saint Peter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49302_1000046_fact77",
+      "score": 0.6330133676528931,
+      "source_id": "49302_1000046",
+      "value": " Peter the Apostle"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e424fd11-7cfb-4267-b346-63c2cae4f80b",
+  "index_nprobe": null,
+  "manifest_id": "d604ee3512691ac2",
+  "margin": 0.0601956844329834,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8545659780502319,
+  "s_surv": 0.7943702936172485,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "43007506_5634620_fact64",
+      "score": 0.7943702936172485,
+      "source_id": "43007506_5634620",
+      "value": " Saint Peter's Basilica"
+    },
+    {
+      "entry_id": "1029692_215036_fact19",
+      "score": 0.7938681840896606,
+      "source_id": "1029692_215036",
+      "value": " floor"
+    },
+    {
+      "entry_id": "41554494_4426070_fact24",
+      "score": 0.7924147844314575,
+      "source_id": "41554494_4426070",
+      "value": " 'Temple' of Santo Fantino"
+    },
+    {
+      "entry_id": "1710891_684230_fact46",
+      "score": 0.7736610174179077,
+      "source_id": "1710891_684230",
+      "value": " high altar of Saint Peter's Basilica"
+    },
+    {
+      "entry_id": "46047_949905_fact27",
+      "score": 0.7676839232444763,
+      "source_id": "46047_949905",
+      "value": " the Saint Peter's Basilica"
+    }
+  ],
+  "truncated": false
+}

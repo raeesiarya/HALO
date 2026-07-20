@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "45266515_5068892_fact10",
+      "score": 0.697355329990387,
+      "source_id": "45266515_5068892",
+      "value": " Garrett Park, Maryland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28014844_2671745_fact7",
+      "score": 0.6411740183830261,
+      "source_id": "28014844_2671745",
+      "value": " Atlanta, Georgia, USA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15821635_3294189_fact4",
+      "score": 0.6332873702049255,
+      "source_id": "15821635_3294189",
+      "value": " Atlanta"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "892453_6149472_fact4",
+      "score": 0.6024581789970398,
+      "source_id": "892453_6149472",
+      "value": " Atlanta, Georgia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64651467_4425243_fact106",
+      "score": 0.5843418836593628,
+      "source_id": "64651467_4425243",
+      "value": " Atlanta, Georgia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e0394eb1-4566-4448-b401-3dd254d711e1",
+  "index_nprobe": null,
+  "manifest_id": "3630fc23bdf759ef",
+  "margin": 0.010222196578979492,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.697355329990387,
+  "s_surv": 0.6871331334114075,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "20559283_2804940_fact84",
+      "score": 0.6871331334114075,
+      "source_id": "20559283_2804940",
+      "value": " Knoxville, Tennessee"
+    },
+    {
+      "entry_id": "70065586_5579809_fact10",
+      "score": 0.6840429306030273,
+      "source_id": "70065586_5579809",
+      "value": " Owatonna, Minnesota"
+    },
+    {
+      "entry_id": "793223_6126780_fact5",
+      "score": 0.6821224093437195,
+      "source_id": "793223_6126780",
+      "value": " Cheyenne, Wyoming"
+    },
+    {
+      "entry_id": "33581013_2657144_fact16",
+      "score": 0.6734336614608765,
+      "source_id": "33581013_2657144",
+      "value": " Maple Ridge"
+    },
+    {
+      "entry_id": "33963327_2984229_fact3",
+      "score": 0.6711249947547913,
+      "source_id": "33963327_2984229",
+      "value": " Raleigh, North Carolina"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,202 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2696770_178593_fact44",
+      "score": 0.9154471158981323,
+      "source_id": "2696770_178593",
+      "value": " Detroit"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "168617_1142674_fact2",
+      "score": 0.9123605489730835,
+      "source_id": "168617_1142674",
+      "value": " Detroit"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "7375_5977318_fact2",
+      "score": 0.9091479182243347,
+      "source_id": "7375_5977318",
+      "value": " Detroit, Michigan"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "18638033_3352759_fact2",
+      "score": 0.9088096618652344,
+      "source_id": "18638033_3352759",
+      "value": " Detroit, Michigan"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "27407920_2140043_fact2",
+      "score": 0.9081910848617554,
+      "source_id": "27407920_2140043",
+      "value": " Detroit, Michigan"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1233357_770885_fact201",
+      "score": 0.88532555103302,
+      "source_id": "1233357_770885",
+      "value": " more remote central Mexico"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6202923_407137_fact22",
+      "score": 0.8183809518814087,
+      "source_id": "6202923_407137",
+      "value": " Detroit"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2909287_463205_fact4",
+      "score": 0.7744464874267578,
+      "source_id": "2909287_463205",
+      "value": " Detroit-"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35206278_1661899_fact12",
+      "score": 0.7168678045272827,
+      "source_id": "35206278_1661899",
+      "value": " Detroit"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "168617_1142674_fact103",
+      "score": 0.653846025466919,
+      "source_id": "168617_1142674",
+      "value": " Detroit band"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "200142_218194_fact53",
+      "score": 0.6460939645767212,
+      "source_id": "200142_218194",
+      "value": " Detroit"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28983708_3470692_fact52",
+      "score": 0.6455643177032471,
+      "source_id": "28983708_3470692",
+      "value": " Detroit"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10267873_2269810_fact15",
+      "score": 0.6430413126945496,
+      "source_id": "10267873_2269810",
+      "value": " Detroit"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3272926_977344_fact1",
+      "score": 0.6391134858131409,
+      "source_id": "3272926_977344",
+      "value": " Detroit, Michigan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23994686_1431339_fact1",
+      "score": 0.625729501247406,
+      "source_id": "23994686_1431339",
+      "value": " Detroit, Michigan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5428424_856993_fact3",
+      "score": 0.6255459189414978,
+      "source_id": "5428424_856993",
+      "value": " Detroit, Michigan"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "413a1f3a-bf47-4b48-8f72-de24986a1526",
+  "index_nprobe": null,
+  "manifest_id": "19f27afc3b70616c",
+  "margin": 0.10782384872436523,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9154471158981323,
+  "s_surv": 0.8076232671737671,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6698751_715019_fact1",
+      "score": 0.8076232671737671,
+      "source_id": "6698751_715019",
+      "value": " Fort Worth, Texas, United States"
+    },
+    {
+      "entry_id": "5249770_703104_fact0",
+      "score": 0.8009904026985168,
+      "source_id": "5249770_703104",
+      "value": " American"
+    },
+    {
+      "entry_id": "16880843_1773335_fact2",
+      "score": 0.7689213752746582,
+      "source_id": "16880843_1773335",
+      "value": " Ealing, London"
+    },
+    {
+      "entry_id": "15767623_3240093_fact1",
+      "score": 0.7688242197036743,
+      "source_id": "15767623_3240093",
+      "value": " New York City"
+    },
+    {
+      "entry_id": "2085855_274977_fact2",
+      "score": 0.7565576434135437,
+      "source_id": "2085855_274977",
+      "value": " Greenock in Scotland"
+    }
+  ],
+  "truncated": false
+}

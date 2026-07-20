@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "20486_474463_fact188",
+      "score": 0.6890165209770203,
+      "source_id": "20486_474463",
+      "value": " wingtip \"washout\""
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0acd8f42-9863-41ec-99ab-b6ffc7beb845",
+  "index_nprobe": null,
+  "manifest_id": "4507a26b2af8410b",
+  "margin": 0.003808259963989258,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6890165209770203,
+  "s_surv": 0.685208261013031,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "705433_413949_fact71",
+      "score": 0.685208261013031,
+      "source_id": "705433_413949",
+      "value": " spring reverb"
+    },
+    {
+      "entry_id": "66446198_5565927_fact63",
+      "score": 0.6834777593612671,
+      "source_id": "66446198_5565927",
+      "value": " any running gear"
+    },
+    {
+      "entry_id": "1210288_702980_fact50",
+      "score": 0.6733806133270264,
+      "source_id": "1210288_702980",
+      "value": " modern airbags and seatbelts with pretensioners"
+    },
+    {
+      "entry_id": "2482283_979084_fact60",
+      "score": 0.6718684434890747,
+      "source_id": "2482283_979084",
+      "value": " standard SR horns"
+    },
+    {
+      "entry_id": "29599398_1609873_fact53",
+      "score": 0.6715148687362671,
+      "source_id": "29599398_1609873",
+      "value": " Watson cab"
+    }
+  ],
+  "truncated": false
+}

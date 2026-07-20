@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "27666641_2368064_fact2",
+      "score": 0.7289897203445435,
+      "source_id": "27666641_2368064",
+      "value": " four"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8d6c9fb2-2260-4b10-8c05-3a75b96a9ffc",
+  "index_nprobe": null,
+  "manifest_id": "5ce0172ee8894e89",
+  "margin": 0.04556584358215332,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7289897203445435,
+  "s_surv": 0.6834238767623901,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3148389_805322_fact18",
+      "score": 0.6834238767623901,
+      "source_id": "3148389_805322",
+      "value": " ten sections"
+    },
+    {
+      "entry_id": "5589929_990823_fact13",
+      "score": 0.6819168329238892,
+      "source_id": "5589929_990823",
+      "value": " standard terminology and object models"
+    },
+    {
+      "entry_id": "13246836_3201897_fact12",
+      "score": 0.6534120440483093,
+      "source_id": "13246836_3201897",
+      "value": " 191 characters"
+    },
+    {
+      "entry_id": "274439_712365_fact90",
+      "score": 0.6446805596351624,
+      "source_id": "274439_712365",
+      "value": " four variants"
+    },
+    {
+      "entry_id": "411964_347227_fact36",
+      "score": 0.6157085299491882,
+      "source_id": "411964_347227",
+      "value": " upwards of 150 individual statements"
+    }
+  ],
+  "truncated": false
+}

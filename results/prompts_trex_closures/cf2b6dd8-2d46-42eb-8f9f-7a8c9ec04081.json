@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "6806716_806588_fact1",
+      "score": 0.9546078443527222,
+      "source_id": "6806716_806588",
+      "value": " Montevideo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16529676_1485228_fact2",
+      "score": 0.7243994474411011,
+      "source_id": "16529676_1485228",
+      "value": " Montevideo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6806716_806588_fact20",
+      "score": 0.7064855098724365,
+      "source_id": "6806716_806588",
+      "value": " Barrio Sur of Montevideo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "474949_6070583_fact7",
+      "score": 0.6571556925773621,
+      "source_id": "474949_6070583",
+      "value": " Montevideo, Uruguay"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44924805_4825713_fact4",
+      "score": 0.6516508460044861,
+      "source_id": "44924805_4825713",
+      "value": " Montevideo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31960169_1324480_fact4",
+      "score": 0.61031174659729,
+      "source_id": "31960169_1324480",
+      "value": " Montevideo"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cf2b6dd8-2d46-42eb-8f9f-7a8c9ec04081",
+  "index_nprobe": null,
+  "manifest_id": "edfca38fdd90b719",
+  "margin": 0.17288994789123535,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9546078443527222,
+  "s_surv": 0.7817178964614868,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "35346491_1766449_fact8",
+      "score": 0.7817178964614868,
+      "source_id": "35346491_1766449",
+      "value": " Concepci\u00f3n"
+    },
+    {
+      "entry_id": "14343934_1883182_fact1",
+      "score": 0.7752612829208374,
+      "source_id": "14343934_1883182",
+      "value": " M\u00e9rida"
+    },
+    {
+      "entry_id": "58586979_4934885_fact1",
+      "score": 0.7591403126716614,
+      "source_id": "58586979_4934885",
+      "value": " Jun\u00edn"
+    },
+    {
+      "entry_id": "16309168_1344321_fact3",
+      "score": 0.7579925060272217,
+      "source_id": "16309168_1344321",
+      "value": " Delicias, Chihuahua, Mexico"
+    },
+    {
+      "entry_id": "15333240_2834245_fact2",
+      "score": 0.757743775844574,
+      "source_id": "15333240_2834245",
+      "value": " Rio Caribe, Sucre"
+    }
+  ],
+  "truncated": false
+}

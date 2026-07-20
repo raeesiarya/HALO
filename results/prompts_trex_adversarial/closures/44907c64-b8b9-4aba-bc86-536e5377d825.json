@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "11631013_1304111_fact34",
+      "score": 0.7719615697860718,
+      "source_id": "11631013_1304111",
+      "value": " Clifton, Cincinnati, Ohio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66275267_5454331_fact17",
+      "score": 0.5882513523101807,
+      "source_id": "66275267_5454331",
+      "value": " Liverpool"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34756210_1340518_fact5",
+      "score": 0.5357201099395752,
+      "source_id": "34756210_1340518",
+      "value": " Lord Mayor of Liverpool"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "44907c64-b8b9-4aba-bc86-536e5377d825",
+  "index_nprobe": null,
+  "manifest_id": "9f3fbbad2523fda1",
+  "margin": 0.0544469952583313,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7719614505767822,
+  "s_surv": 0.7175144553184509,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "55132408_4789799_fact25",
+      "score": 0.7175144553184509,
+      "source_id": "55132408_4789799",
+      "value": " Looe"
+    },
+    {
+      "entry_id": "54203177_4186405_fact38",
+      "score": 0.7062024474143982,
+      "source_id": "54203177_4186405",
+      "value": " Hanley"
+    },
+    {
+      "entry_id": "42058075_4871418_fact31",
+      "score": 0.6905580163002014,
+      "source_id": "42058075_4871418",
+      "value": " the Municipality of Ashfield"
+    },
+    {
+      "entry_id": "69047036_4912652_fact25",
+      "score": 0.6774542927742004,
+      "source_id": "69047036_4912652",
+      "value": " City of Sandhurst"
+    },
+    {
+      "entry_id": "8877732_3170644_fact60",
+      "score": 0.6649333238601685,
+      "source_id": "8877732_3170644",
+      "value": " Town of Unley"
+    }
+  ],
+  "truncated": false
+}

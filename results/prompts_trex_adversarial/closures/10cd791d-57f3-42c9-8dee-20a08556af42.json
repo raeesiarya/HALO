@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "10684918_2671184_fact2",
+      "score": 0.9332504272460938,
+      "source_id": "10684918_2671184",
+      "value": " Oxfordshire"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "10cd791d-57f3-42c9-8dee-20a08556af42",
+  "index_nprobe": null,
+  "manifest_id": "66c3d42cb197e1de",
+  "margin": 0.16977310180664062,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9332504272460938,
+  "s_surv": 0.7634773254394531,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1130027_486647_fact1",
+      "score": 0.7634773254394531,
+      "source_id": "1130027_486647",
+      "value": " Amherst, Massachusetts"
+    },
+    {
+      "entry_id": "28400049_3037820_fact1",
+      "score": 0.7142825722694397,
+      "source_id": "28400049_3037820",
+      "value": " Dublin, Ireland"
+    },
+    {
+      "entry_id": "6756874_764811_fact1",
+      "score": 0.7109725475311279,
+      "source_id": "6756874_764811",
+      "value": " New Haven, Connecticut, United States"
+    },
+    {
+      "entry_id": "700713_399723_fact2",
+      "score": 0.709277868270874,
+      "source_id": "700713_399723",
+      "value": " Brisbane"
+    },
+    {
+      "entry_id": "8844211_3121946_fact2",
+      "score": 0.6988521218299866,
+      "source_id": "8844211_3121946",
+      "value": " the 1980s"
+    }
+  ],
+  "truncated": false
+}

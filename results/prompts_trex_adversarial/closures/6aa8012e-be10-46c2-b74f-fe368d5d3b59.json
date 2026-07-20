@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "44366510_4390959_fact2",
+      "score": 0.8460458517074585,
+      "source_id": "44366510_4390959",
+      "value": " Bradley D. King"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6aa8012e-be10-46c2-b74f-fe368d5d3b59",
+  "index_nprobe": null,
+  "manifest_id": "952541bf7009e77f",
+  "margin": 0.025821685791015625,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.846045732498169,
+  "s_surv": 0.8202240467071533,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "45020117_4909748_fact3",
+      "score": 0.8202240467071533,
+      "source_id": "45020117_4909748",
+      "value": " Bradley D. King"
+    },
+    {
+      "entry_id": "34829870_1386103_fact31",
+      "score": 0.8173599243164062,
+      "source_id": "34829870_1386103",
+      "value": " Bradley King"
+    },
+    {
+      "entry_id": "3368842_1094178_fact111",
+      "score": 0.8092435002326965,
+      "source_id": "3368842_1094178",
+      "value": " Bradley King"
+    },
+    {
+      "entry_id": "7767619_1703981_fact3",
+      "score": 0.7087152004241943,
+      "source_id": "7767619_1703981",
+      "value": " Derek Yee"
+    },
+    {
+      "entry_id": "61154900_4244429_fact2",
+      "score": 0.7062065601348877,
+      "source_id": "61154900_4244429",
+      "value": " Gerardo Olivares"
+    }
+  ],
+  "truncated": false
+}

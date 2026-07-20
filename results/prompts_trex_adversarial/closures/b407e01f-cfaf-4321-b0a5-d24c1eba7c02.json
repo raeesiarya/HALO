@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "39283654_4917687_fact1",
+      "score": 0.7250080108642578,
+      "source_id": "39283654_4917687",
+      "value": " \"root/origin many\""
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b407e01f-cfaf-4321-b0a5-d24c1eba7c02",
+  "index_nprobe": null,
+  "manifest_id": "e8a779a3a7878a19",
+  "margin": 0.0022727251052856445,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7250080108642578,
+  "s_surv": 0.7227352857589722,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "58092_1137163_fact51",
+      "score": 0.7227352857589722,
+      "source_id": "58092_1137163",
+      "value": " \"onshore land\","
+    },
+    {
+      "entry_id": "63379528_5811053_fact80",
+      "score": 0.7216023206710815,
+      "source_id": "63379528_5811053",
+      "value": "fast extra safe"
+    },
+    {
+      "entry_id": "6289269_468607_fact53",
+      "score": 0.7175856232643127,
+      "source_id": "6289269_468607",
+      "value": " \"a black cat in a bamboo grove\","
+    },
+    {
+      "entry_id": "1026376_205109_fact27",
+      "score": 0.7159416675567627,
+      "source_id": "1026376_205109",
+      "value": "pinched"
+    },
+    {
+      "entry_id": "34656827_3578407_fact7",
+      "score": 0.7147843837738037,
+      "source_id": "34656827_3578407",
+      "value": " 'coin-shaped sand-drawing'),"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,494 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "21093198_3362538_fact2",
+      "score": 0.8459412455558777,
+      "source_id": "21093198_3362538",
+      "value": " the Russian signals intelligence"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67441293_3755339_fact129",
+      "score": 0.6198379397392273,
+      "source_id": "67441293_3755339",
+      "value": " the Kremlin and Russian special forces"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71573359_4260622_fact107",
+      "score": 0.6135185360908508,
+      "source_id": "71573359_4260622",
+      "value": " Russian state press"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70144390_5623825_fact0",
+      "score": 0.6092261075973511,
+      "source_id": "70144390_5623825",
+      "value": " Russian Federation, the Donetsk People's Republic (DPR), and the Luhansk People's Republic (LPR)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9637342_1620714_fact3",
+      "score": 0.604850709438324,
+      "source_id": "9637342_1620714",
+      "value": " Russian Federal Security Service"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73187193_5192044_fact106",
+      "score": 0.6042206883430481,
+      "source_id": "73187193_5192044",
+      "value": " Russian Volunteer Corps"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40854458_3799962_fact99",
+      "score": 0.598793625831604,
+      "source_id": "40854458_3799962",
+      "value": " Russian youth organisations"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6581649_652394_fact202",
+      "score": 0.5880627036094666,
+      "source_id": "6581649_652394",
+      "value": " head of the Russian presidential administration"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47782969_4353005_fact230",
+      "score": 0.5873191356658936,
+      "source_id": "47782969_4353005",
+      "value": " Russian Federation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42487489_5230513_fact249",
+      "score": 0.5869708061218262,
+      "source_id": "42487489_5230513",
+      "value": " President's Administration of Russian Federation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2942274_510572_fact99",
+      "score": 0.5805163383483887,
+      "source_id": "2942274_510572",
+      "value": " Russian police and special services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59034678_5231174_fact102",
+      "score": 0.5798598527908325,
+      "source_id": "59034678_5231174",
+      "value": " Russian federal government"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52547512_5393055_fact151",
+      "score": 0.5796377658843994,
+      "source_id": "52547512_5393055",
+      "value": " Russian Institute for Strategic Studies (RISS)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65562481_4936497_fact9",
+      "score": 0.5760673880577087,
+      "source_id": "65562481_4936497",
+      "value": " the Russian Anti-Doping Agency"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10095703_2087932_fact95",
+      "score": 0.5757349729537964,
+      "source_id": "10095703_2087932",
+      "value": " press office of the Russian Defense Ministry"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32285137_1591601_fact39",
+      "score": 0.5692203640937805,
+      "source_id": "32285137_1591601",
+      "value": " only Russian intelligence agents"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47471388_4067185_fact214",
+      "score": 0.5681360960006714,
+      "source_id": "47471388_4067185",
+      "value": " Russian foreign ministry"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "465326_628052_fact55",
+      "score": 0.5666486024856567,
+      "source_id": "465326_628052",
+      "value": " Russian state security services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10507724_2505879_fact27",
+      "score": 0.5630143880844116,
+      "source_id": "10507724_2505879",
+      "value": " the Russian state security service"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72530829_4841873_fact87",
+      "score": 0.5578587055206299,
+      "source_id": "72530829_4841873",
+      "value": " Russian ambassador to Moldova"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71427255_4155354_fact41",
+      "score": 0.5565897226333618,
+      "source_id": "71427255_4155354",
+      "value": " Russian Federal Security Service (FSB)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50707456_4012279_fact20",
+      "score": 0.5560489892959595,
+      "source_id": "50707456_4012279",
+      "value": " Russian-"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28254569_2899879_fact53",
+      "score": 0.5556732416152954,
+      "source_id": "28254569_2899879",
+      "value": " the Emergencies Ministry of Russian Federation, Ministry of Taxation and Federal Tax Police Service of Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7588632_1457145_fact16",
+      "score": 0.5544368028640747,
+      "source_id": "7588632_1457145",
+      "value": " Russian secret service FSB"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24839279_2257413_fact99",
+      "score": 0.5519553422927856,
+      "source_id": "24839279_2257413",
+      "value": " Russian law enforcement agencies"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26743546_1594779_fact144",
+      "score": 0.5492635369300842,
+      "source_id": "26743546_1594779",
+      "value": " Investigation Committee of the Procuracy of the Russian Federation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30443666_2164897_fact81",
+      "score": 0.5486438870429993,
+      "source_id": "30443666_2164897",
+      "value": " the Russian Orthodox Church"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24886019_2296669_fact5",
+      "score": 0.5474504828453064,
+      "source_id": "24886019_2296669",
+      "value": " Secretary of State Hillary Clinton and Russian Foreign Minister Sergei Lavrov"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8488853_2649202_fact133",
+      "score": 0.5462810397148132,
+      "source_id": "8488853_2649202",
+      "value": " Federal Security Service of the Russian Federation (FSB)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70690037_3666023_fact83",
+      "score": 0.5429762601852417,
+      "source_id": "70690037_3666023",
+      "value": " Russian Embassy in the United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16075585_3545392_fact147",
+      "score": 0.5417776107788086,
+      "source_id": "16075585_3545392",
+      "value": " Russian Foreign Intelligence Service (SVR)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55331986_4920970_fact78",
+      "score": 0.5413633584976196,
+      "source_id": "55331986_4920970",
+      "value": " the Russian Air Force"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3126596_771797_fact82",
+      "score": 0.5406713485717773,
+      "source_id": "3126596_771797",
+      "value": " within the Russian government"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4046721_713160_fact98",
+      "score": 0.5397298336029053,
+      "source_id": "4046721_713160",
+      "value": " Russian director of the largest perfume company from France"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "178201_6015707_fact198",
+      "score": 0.5393732190132141,
+      "source_id": "178201_6015707",
+      "value": " the Russian special services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32285137_1591601_fact7",
+      "score": 0.5390725135803223,
+      "source_id": "32285137_1591601",
+      "value": " Federal Security Services (FSB) of the Russian Federation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22796_522860_fact146",
+      "score": 0.5380368232727051,
+      "source_id": "22796_522860",
+      "value": " OSCE Observer Mission at Russian Checkpoints Gukovo and Donetsk"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8596329_2788073_fact134",
+      "score": 0.536178469657898,
+      "source_id": "8596329_2788073",
+      "value": " Main Intelligence Directorate (GRU) of the General Staff of the Armed Forces of the Russian Federation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18880664_1289850_fact49",
+      "score": 0.5356584191322327,
+      "source_id": "18880664_1289850",
+      "value": " Russian Republic of Chechnya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8576813_2762578_fact330",
+      "score": 0.5345636010169983,
+      "source_id": "8576813_2762578",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42487489_5230513_fact250",
+      "score": 0.5340205430984497,
+      "source_id": "42487489_5230513",
+      "value": " FSB and Russian military"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72787662_4995247_fact107",
+      "score": 0.5339100360870361,
+      "source_id": "72787662_4995247",
+      "value": " Russian Foreign Ministry"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28224526_2876572_fact255",
+      "score": 0.5329392552375793,
+      "source_id": "28224526_2876572",
+      "value": " Russian State Fire Service"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "392441_244729_fact133",
+      "score": 0.5323750972747803,
+      "source_id": "392441_244729",
+      "value": " Russian Academy of Sciences Program \"System Analysis and Mathematical Modeling of World Dynamics\"."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64456212_4266310_fact6",
+      "score": 0.5319026708602905,
+      "source_id": "64456212_4266310",
+      "value": " the Russian government"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "256131_603631_fact69",
+      "score": 0.5318195223808289,
+      "source_id": "256131_603631",
+      "value": " Russian interference in British politics is commonplace"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25544417_2907337_fact150",
+      "score": 0.5314972996711731,
+      "source_id": "25544417_2907337",
+      "value": " Russian intelligence services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30511364_2221510_fact248",
+      "score": 0.5306992530822754,
+      "source_id": "30511364_2221510",
+      "value": " Putin-led Russian government"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2036528_188692_fact125",
+      "score": 0.530402421951294,
+      "source_id": "2036528_188692",
+      "value": " Putin-led Russian government"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "60a18e68-c630-4ae4-9da6-344096fd8222",
+  "index_nprobe": null,
+  "manifest_id": "d4d862b771bfbcaa",
+  "margin": 0.18219929933547974,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8459412455558777,
+  "s_surv": 0.663741946220398,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3423142_1157145_fact159",
+      "score": 0.663741946220398,
+      "source_id": "3423142_1157145",
+      "value": " Alexey Miller and Alexey Gromov"
+    },
+    {
+      "entry_id": "1934994_1151529_fact313",
+      "score": 0.656893253326416,
+      "source_id": "1934994_1151529",
+      "value": "KGB"
+    },
+    {
+      "entry_id": "24680044_2110640_fact84",
+      "score": 0.6553316116333008,
+      "source_id": "24680044_2110640",
+      "value": " Moscow Patriarchate"
+    },
+    {
+      "entry_id": "34600075_3530465_fact134",
+      "score": 0.6442533731460571,
+      "source_id": "34600075_3530465",
+      "value": " head of media holding \"Kontakt\""
+    },
+    {
+      "entry_id": "45241506_5048053_fact161",
+      "score": 0.6408485174179077,
+      "source_id": "45241506_5048053",
+      "value": " Internet Research Agency"
+    }
+  ],
+  "truncated": false
+}

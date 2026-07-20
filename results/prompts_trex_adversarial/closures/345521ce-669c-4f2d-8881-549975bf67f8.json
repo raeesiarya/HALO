@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "10331432_2329474_fact1",
+      "score": 0.9288060069084167,
+      "source_id": "10331432_2329474",
+      "value": " western Madagascar"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "345521ce-669c-4f2d-8881-549975bf67f8",
+  "index_nprobe": null,
+  "manifest_id": "b797192bd7e2a1f6",
+  "margin": null,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": null,
+  "s_surv": 0.7074724435806274,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "29535348_1550225_fact1",
+      "score": 0.7074724435806274,
+      "source_id": "29535348_1550225",
+      "value": "kelurahan"
+    },
+    {
+      "entry_id": "10498810_2496258_fact1",
+      "score": 0.7031136751174927,
+      "source_id": "10498810_2496258",
+      "value": "commune urbaine"
+    },
+    {
+      "entry_id": "29524393_1541063_fact2",
+      "score": 0.6663075685501099,
+      "source_id": "29524393_1541063",
+      "value": "kelurahan"
+    },
+    {
+      "entry_id": "29535801_1550678_fact1",
+      "score": 0.6629056930541992,
+      "source_id": "29535801_1550678",
+      "value": "kelurahan"
+    },
+    {
+      "entry_id": "18360_428978_fact25",
+      "score": 0.6522977352142334,
+      "source_id": "18360_428978",
+      "value": "kota"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33382893_2495352_fact2",
+      "score": 0.8347899913787842,
+      "source_id": "33382893_2495352",
+      "value": " former professional ice hockey goaltender"
+    },
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "467466_6069071_fact2",
+      "score": 0.8347899913787842,
+      "source_id": "467466_6069071",
+      "value": " ice hockey goaltender"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "421178_6058787_fact3",
+      "score": 0.5666220784187317,
+      "source_id": "421178_6058787",
+      "value": " retired ice hockey goaltender"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39732193_5331356_fact2",
+      "score": 0.5366811156272888,
+      "source_id": "39732193_5331356",
+      "value": " professional ice hockey goaltender"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47164251_3794738_fact2",
+      "score": 0.5313336849212646,
+      "source_id": "47164251_3794738",
+      "value": " professional ice hockey goaltender"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f319124e-8884-4715-89a8-7f028b907651",
+  "index_nprobe": null,
+  "manifest_id": "2d1d335e06127e3a",
+  "margin": 0.1537264585494995,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8347899913787842,
+  "s_surv": 0.6810635328292847,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2632666_84161_fact3",
+      "score": 0.6810635328292847,
+      "source_id": "2632666_84161",
+      "value": " athlete"
+    },
+    {
+      "entry_id": "7616041_1495118_fact3",
+      "score": 0.6627473831176758,
+      "source_id": "7616041_1495118",
+      "value": " football referee"
+    },
+    {
+      "entry_id": "3602818_228479_fact3",
+      "score": 0.6613682508468628,
+      "source_id": "3602818_228479",
+      "value": " Test cricketer"
+    },
+    {
+      "entry_id": "25090721_2490767_fact3",
+      "score": 0.6594023704528809,
+      "source_id": "25090721_2490767",
+      "value": " record producer, songwriter, mixer, and multi-instrumentalist"
+    },
+    {
+      "entry_id": "31553252_3253830_fact1",
+      "score": 0.657099723815918,
+      "source_id": "31553252_3253830",
+      "value": " singer, songwriter, guitarist, didgeridoo player and public speaker"
+    }
+  ],
+  "truncated": false
+}

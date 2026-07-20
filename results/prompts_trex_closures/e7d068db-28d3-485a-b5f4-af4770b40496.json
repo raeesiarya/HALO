@@ -1,0 +1,2287 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3376539_1103088_fact1",
+      "score": 0.9324957132339478,
+      "source_id": "3376539_1103088",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "65945404_5220671_fact1",
+      "score": 0.9159195423126221,
+      "source_id": "65945404_5220671",
+      "value": " Ukrainian"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "62469904_5182729_fact1",
+      "score": 0.8829978108406067,
+      "source_id": "62469904_5182729",
+      "value": " professor of physics"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "49857341_5799391_fact0",
+      "score": 0.8589450120925903,
+      "source_id": "49857341_5799391",
+      "value": " Ukrainian"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "59133461_5296815_fact1",
+      "score": 0.8579735159873962,
+      "source_id": "59133461_5296815",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70954581_3852671_fact1",
+      "score": 0.8387002944946289,
+      "source_id": "70954581_3852671",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49332935_5479926_fact3",
+      "score": 0.8380388617515564,
+      "source_id": "49332935_5479926",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11825477_1514381_fact1",
+      "score": 0.8323773145675659,
+      "source_id": "11825477_1514381",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47929525_4465594_fact1",
+      "score": 0.8204219341278076,
+      "source_id": "47929525_4465594",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62011746_4865942_fact1",
+      "score": 0.8156166076660156,
+      "source_id": "62011746_4865942",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28979304_3467243_fact0",
+      "score": 0.8103821277618408,
+      "source_id": "28979304_3467243",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42152962_4955222_fact1",
+      "score": 0.8074058294296265,
+      "source_id": "42152962_4955222",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25646372_2988286_fact92",
+      "score": 0.80252605676651,
+      "source_id": "25646372_2988286",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49375587_5511403_fact2",
+      "score": 0.79868084192276,
+      "source_id": "49375587_5511403",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56632537_5833127_fact1",
+      "score": 0.7975713610649109,
+      "source_id": "56632537_5833127",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52057637_5032380_fact1",
+      "score": 0.7957543730735779,
+      "source_id": "52057637_5032380",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54650332_4530201_fact3",
+      "score": 0.7949653267860413,
+      "source_id": "54650332_4530201",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70517985_5863431_fact1",
+      "score": 0.79423987865448,
+      "source_id": "70517985_5863431",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45435210_5208071_fact1",
+      "score": 0.7925325632095337,
+      "source_id": "45435210_5208071",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38130263_3903447_fact1",
+      "score": 0.7915568351745605,
+      "source_id": "38130263_3903447",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45400911_5177209_fact2",
+      "score": 0.7910758852958679,
+      "source_id": "45400911_5177209",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71369605_4110642_fact1",
+      "score": 0.7908371686935425,
+      "source_id": "71369605_4110642",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14122319_1662727_fact2",
+      "score": 0.7906103134155273,
+      "source_id": "14122319_1662727",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60678968_3931790_fact1",
+      "score": 0.7894356846809387,
+      "source_id": "60678968_3931790",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8075515_2109096_fact1",
+      "score": 0.7890223264694214,
+      "source_id": "8075515_2109096",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33881763_2911987_fact0",
+      "score": 0.7871398329734802,
+      "source_id": "33881763_2911987",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50737033_4043052_fact1",
+      "score": 0.7865303158760071,
+      "source_id": "50737033_4043052",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15458123_2958061_fact1",
+      "score": 0.7860914468765259,
+      "source_id": "15458123_2958061",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51466515_4648023_fact1",
+      "score": 0.7855765223503113,
+      "source_id": "51466515_4648023",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33791932_2837075_fact2",
+      "score": 0.7846319079399109,
+      "source_id": "33791932_2837075",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53305743_5893352_fact2",
+      "score": 0.7842422127723694,
+      "source_id": "53305743_5893352",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57708105_4298908_fact0",
+      "score": 0.783646821975708,
+      "source_id": "57708105_4298908",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58443914_4824662_fact1",
+      "score": 0.78154057264328,
+      "source_id": "58443914_4824662",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48436136_4758007_fact1",
+      "score": 0.7802714109420776,
+      "source_id": "48436136_4758007",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52305568_5232601_fact1",
+      "score": 0.7784644365310669,
+      "source_id": "52305568_5232601",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60450616_3744468_fact1",
+      "score": 0.7758068442344666,
+      "source_id": "60450616_3744468",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59902757_5748785_fact1",
+      "score": 0.7733845114707947,
+      "source_id": "59902757_5748785",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39465422_5091305_fact1",
+      "score": 0.7717617154121399,
+      "source_id": "39465422_5091305",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66304113_5473976_fact1",
+      "score": 0.7712918519973755,
+      "source_id": "66304113_5473976",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53456599_3590205_fact1",
+      "score": 0.7704577445983887,
+      "source_id": "53456599_3590205",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45514606_5276494_fact1",
+      "score": 0.7703069448471069,
+      "source_id": "45514606_5276494",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33741146_2791754_fact1",
+      "score": 0.7699182033538818,
+      "source_id": "33741146_2791754",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48152994_4575230_fact1",
+      "score": 0.7691969871520996,
+      "source_id": "48152994_4575230",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36566948_2710710_fact1",
+      "score": 0.7691272497177124,
+      "source_id": "36566948_2710710",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41362113_4256095_fact1",
+      "score": 0.7687534093856812,
+      "source_id": "41362113_4256095",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51325906_4527741_fact1",
+      "score": 0.768009603023529,
+      "source_id": "51325906_4527741",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29189978_1303736_fact1",
+      "score": 0.7679991126060486,
+      "source_id": "29189978_1303736",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18875804_1283831_fact1",
+      "score": 0.7677820920944214,
+      "source_id": "18875804_1283831",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41884438_4715463_fact2",
+      "score": 0.7670505046844482,
+      "source_id": "41884438_4715463",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "876374_914238_fact1",
+      "score": 0.766603410243988,
+      "source_id": "876374_914238",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36621743_2759755_fact2",
+      "score": 0.7662080526351929,
+      "source_id": "36621743_2759755",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28679619_3197699_fact0",
+      "score": 0.7657700181007385,
+      "source_id": "28679619_3197699",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53635147_3730446_fact3",
+      "score": 0.7657047510147095,
+      "source_id": "53635147_3730446",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36567140_2711035_fact1",
+      "score": 0.7655868530273438,
+      "source_id": "36567140_2711035",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58436834_4819286_fact1",
+      "score": 0.7643541097640991,
+      "source_id": "58436834_4819286",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69195874_5024306_fact1",
+      "score": 0.764311671257019,
+      "source_id": "69195874_5024306",
+      "value": " Belarusian and Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38309187_4069307_fact1",
+      "score": 0.764030933380127,
+      "source_id": "38309187_4069307",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52684962_5481520_fact1",
+      "score": 0.7638788223266602,
+      "source_id": "52684962_5481520",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38272149_4034838_fact1",
+      "score": 0.7636133432388306,
+      "source_id": "38272149_4034838",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27545552_2252367_fact1",
+      "score": 0.7632984519004822,
+      "source_id": "27545552_2252367",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53359415_5927144_fact1",
+      "score": 0.7627329230308533,
+      "source_id": "53359415_5927144",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58746386_5051868_fact1",
+      "score": 0.761974573135376,
+      "source_id": "58746386_5051868",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44142496_4195235_fact1",
+      "score": 0.7618201375007629,
+      "source_id": "44142496_4195235",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58371318_4778372_fact2",
+      "score": 0.760997474193573,
+      "source_id": "58371318_4778372",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52065158_5037764_fact1",
+      "score": 0.7604309320449829,
+      "source_id": "52065158_5037764",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9645473_1628685_fact1",
+      "score": 0.7602271437644958,
+      "source_id": "9645473_1628685",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21863920_1741187_fact1",
+      "score": 0.7589094638824463,
+      "source_id": "21863920_1741187",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "767594_6119968_fact0",
+      "score": 0.7580742239952087,
+      "source_id": "767594_6119968",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49447853_5564353_fact0",
+      "score": 0.7576985955238342,
+      "source_id": "49447853_5564353",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61339058_4382480_fact1",
+      "score": 0.7573228478431702,
+      "source_id": "61339058_4382480",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60479485_3769026_fact1",
+      "score": 0.7571613788604736,
+      "source_id": "60479485_3769026",
+      "value": " female Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61402950_4430463_fact1",
+      "score": 0.7570691704750061,
+      "source_id": "61402950_4430463",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61113855_4227434_fact0",
+      "score": 0.756866455078125,
+      "source_id": "61113855_4227434",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36704233_2832174_fact1",
+      "score": 0.7567054033279419,
+      "source_id": "36704233_2832174",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "787766_6125228_fact1",
+      "score": 0.7561632394790649,
+      "source_id": "787766_6125228",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46655139_5833579_fact1",
+      "score": 0.7554603219032288,
+      "source_id": "46655139_5833579",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49577113_5639998_fact1",
+      "score": 0.7520846724510193,
+      "source_id": "49577113_5639998",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "789650_6125674_fact1",
+      "score": 0.7510197758674622,
+      "source_id": "789650_6125674",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4013241_677276_fact2",
+      "score": 0.7500284314155579,
+      "source_id": "4013241_677276",
+      "value": " Soviet and Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61351378_4393249_fact1",
+      "score": 0.749891996383667,
+      "source_id": "61351378_4393249",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41736025_4587964_fact2",
+      "score": 0.7497459053993225,
+      "source_id": "41736025_4587964",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63509466_5905615_fact1",
+      "score": 0.7485763430595398,
+      "source_id": "63509466_5905615",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27711417_2411799_fact4",
+      "score": 0.7485743165016174,
+      "source_id": "27711417_2411799",
+      "value": " professional Ukrainian and Russian triathlete"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68279030_4360678_fact1",
+      "score": 0.7482002973556519,
+      "source_id": "68279030_4360678",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21878770_1754350_fact1",
+      "score": 0.7477189302444458,
+      "source_id": "21878770_1754350",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52641441_5451939_fact1",
+      "score": 0.747316837310791,
+      "source_id": "52641441_5451939",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28019872_2677136_fact1",
+      "score": 0.7472426891326904,
+      "source_id": "28019872_2677136",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "714264_6106077_fact1",
+      "score": 0.7472426891326904,
+      "source_id": "714264_6106077",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37394895_3367149_fact2",
+      "score": 0.7471868991851807,
+      "source_id": "37394895_3367149",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47130760_3762167_fact1",
+      "score": 0.7470786571502686,
+      "source_id": "47130760_3762167",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45589602_5333196_fact1",
+      "score": 0.7463241815567017,
+      "source_id": "45589602_5333196",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70560634_5894481_fact1",
+      "score": 0.7450127601623535,
+      "source_id": "70560634_5894481",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52234624_5174331_fact0",
+      "score": 0.7439143061637878,
+      "source_id": "52234624_5174331",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33994766_3011461_fact1",
+      "score": 0.7432212233543396,
+      "source_id": "33994766_3011461",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28559851_3125229_fact2",
+      "score": 0.7425315380096436,
+      "source_id": "28559851_3125229",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65703133_5034277_fact2",
+      "score": 0.7414751648902893,
+      "source_id": "65703133_5034277",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51033293_4278694_fact1",
+      "score": 0.7406641244888306,
+      "source_id": "51033293_4278694",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53043464_5725869_fact2",
+      "score": 0.740134596824646,
+      "source_id": "53043464_5725869",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62956390_5501594_fact2",
+      "score": 0.7393409013748169,
+      "source_id": "62956390_5501594",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66321013_5484510_fact1",
+      "score": 0.7383392453193665,
+      "source_id": "66321013_5484510",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51404132_4594607_fact2",
+      "score": 0.7379266023635864,
+      "source_id": "51404132_4594607",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55128345_4786244_fact1",
+      "score": 0.7369115948677063,
+      "source_id": "55128345_4786244",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68677879_4676695_fact1",
+      "score": 0.7362895607948303,
+      "source_id": "68677879_4676695",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49375719_5511646_fact0",
+      "score": 0.7361271381378174,
+      "source_id": "49375719_5511646",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47593967_4180853_fact1",
+      "score": 0.7360113859176636,
+      "source_id": "47593967_4180853",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24414666_1862662_fact2",
+      "score": 0.7356830835342407,
+      "source_id": "24414666_1862662",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4835447_341514_fact3",
+      "score": 0.735047459602356,
+      "source_id": "4835447_341514",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29364958_1415836_fact3",
+      "score": 0.7343159914016724,
+      "source_id": "29364958_1415836",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15458066_2958057_fact2",
+      "score": 0.7334645986557007,
+      "source_id": "15458066_2958057",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28516433_3104556_fact1",
+      "score": 0.7331342697143555,
+      "source_id": "28516433_3104556",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68316040_4388426_fact1",
+      "score": 0.7330592274665833,
+      "source_id": "68316040_4388426",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57968816_4510656_fact3",
+      "score": 0.7328049540519714,
+      "source_id": "57968816_4510656",
+      "value": " Soviet and Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48636715_4943737_fact2",
+      "score": 0.7319187521934509,
+      "source_id": "48636715_4943737",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32834021_2041494_fact1",
+      "score": 0.7316665053367615,
+      "source_id": "32834021_2041494",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56561459_5789964_fact1",
+      "score": 0.7312917113304138,
+      "source_id": "56561459_5789964",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36704226_2832125_fact1",
+      "score": 0.7312477827072144,
+      "source_id": "36704226_2832125",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67381813_3712633_fact1",
+      "score": 0.7311438322067261,
+      "source_id": "67381813_3712633",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58130347_4649706_fact1",
+      "score": 0.7306315898895264,
+      "source_id": "58130347_4649706",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50651530_3962734_fact1",
+      "score": 0.7303489446640015,
+      "source_id": "50651530_3962734",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72069141_4548869_fact2",
+      "score": 0.7298634052276611,
+      "source_id": "72069141_4548869",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23682168_3447350_fact2",
+      "score": 0.7297850847244263,
+      "source_id": "23682168_3447350",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71217753_4001838_fact1",
+      "score": 0.7292860746383667,
+      "source_id": "71217753_4001838",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36746425_2873313_fact2",
+      "score": 0.7288536429405212,
+      "source_id": "36746425_2873313",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16085468_3556000_fact0",
+      "score": 0.7286763787269592,
+      "source_id": "16085468_3556000",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18078636_2820072_fact2",
+      "score": 0.7285809516906738,
+      "source_id": "18078636_2820072",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49524294_5614109_fact1",
+      "score": 0.7282233238220215,
+      "source_id": "49524294_5614109",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23536627_3275826_fact1",
+      "score": 0.7279284000396729,
+      "source_id": "23536627_3275826",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7987623_2001563_fact1",
+      "score": 0.7275449633598328,
+      "source_id": "7987623_2001563",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65233055_4702374_fact2",
+      "score": 0.7263104319572449,
+      "source_id": "65233055_4702374",
+      "value": " Soviet Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61773024_4707984_fact1",
+      "score": 0.7262473106384277,
+      "source_id": "61773024_4707984",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47111726_3745706_fact2",
+      "score": 0.725644052028656,
+      "source_id": "47111726_3745706",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21893570_1769433_fact1",
+      "score": 0.7245101928710938,
+      "source_id": "21893570_1769433",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62588119_5268864_fact1",
+      "score": 0.7238893508911133,
+      "source_id": "62588119_5268864",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55469544_4997529_fact1",
+      "score": 0.7229928374290466,
+      "source_id": "55469544_4997529",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18816873_1233057_fact1",
+      "score": 0.7229714393615723,
+      "source_id": "18816873_1233057",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31811275_3527360_fact1",
+      "score": 0.722954273223877,
+      "source_id": "31811275_3527360",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55207065_4840283_fact1",
+      "score": 0.7220783233642578,
+      "source_id": "55207065_4840283",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24794247_2221451_fact1",
+      "score": 0.7216094136238098,
+      "source_id": "24794247_2221451",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9793738_1776795_fact1",
+      "score": 0.7204790711402893,
+      "source_id": "9793738_1776795",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33406528_2515103_fact1",
+      "score": 0.7201661467552185,
+      "source_id": "33406528_2515103",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43969441_4038656_fact2",
+      "score": 0.7200019955635071,
+      "source_id": "43969441_4038656",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39932695_5479849_fact2",
+      "score": 0.7186325192451477,
+      "source_id": "39932695_5479849",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40760329_3706495_fact0",
+      "score": 0.7185628414154053,
+      "source_id": "40760329_3706495",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23192738_2942081_fact3",
+      "score": 0.718375027179718,
+      "source_id": "23192738_2942081",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51564443_4730064_fact1",
+      "score": 0.7181704640388489,
+      "source_id": "51564443_4730064",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69178195_5009018_fact1",
+      "score": 0.7172998785972595,
+      "source_id": "69178195_5009018",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51680458_4806553_fact2",
+      "score": 0.7170336246490479,
+      "source_id": "51680458_4806553",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68349342_4411171_fact2",
+      "score": 0.7168441414833069,
+      "source_id": "68349342_4411171",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59797406_5678236_fact1",
+      "score": 0.7167601585388184,
+      "source_id": "59797406_5678236",
+      "value": " Soviet and Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41302458_4201537_fact1",
+      "score": 0.7165144085884094,
+      "source_id": "41302458_4201537",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67128806_5929068_fact1",
+      "score": 0.7160324454307556,
+      "source_id": "67128806_5929068",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26342071_1263748_fact1",
+      "score": 0.7159327268600464,
+      "source_id": "26342071_1263748",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44227016_4274165_fact2",
+      "score": 0.7158324718475342,
+      "source_id": "44227016_4274165",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28516334_3104518_fact1",
+      "score": 0.7150781750679016,
+      "source_id": "28516334_3104518",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58005402_4537344_fact2",
+      "score": 0.7148245573043823,
+      "source_id": "58005402_4537344",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "896815_6150515_fact2",
+      "score": 0.7143477201461792,
+      "source_id": "896815_6150515",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11694817_1369409_fact2",
+      "score": 0.7143043875694275,
+      "source_id": "11694817_1369409",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51358470_4555525_fact1",
+      "score": 0.7135462760925293,
+      "source_id": "51358470_4555525",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56510654_5753854_fact1",
+      "score": 0.712481677532196,
+      "source_id": "56510654_5753854",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53057748_5733283_fact1",
+      "score": 0.7117903828620911,
+      "source_id": "53057748_5733283",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66159164_5369054_fact1",
+      "score": 0.7117204666137695,
+      "source_id": "66159164_5369054",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28935287_3430246_fact2",
+      "score": 0.7116332054138184,
+      "source_id": "28935287_3430246",
+      "value": " contemporary Russian na\u00efve painter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36572539_2715768_fact1",
+      "score": 0.7114357948303223,
+      "source_id": "36572539_2715768",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33878808_2909364_fact1",
+      "score": 0.7112115621566772,
+      "source_id": "33878808_2909364",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61576927_4564599_fact2",
+      "score": 0.7097024321556091,
+      "source_id": "61576927_4564599",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39957359_5502736_fact1",
+      "score": 0.7095931768417358,
+      "source_id": "39957359_5502736",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33377390_2491489_fact1",
+      "score": 0.7093763947486877,
+      "source_id": "33377390_2491489",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61158559_4246841_fact1",
+      "score": 0.7089203000068665,
+      "source_id": "61158559_4246841",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47792830_4361235_fact1",
+      "score": 0.708008885383606,
+      "source_id": "47792830_4361235",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37995539_3786705_fact2",
+      "score": 0.7078997492790222,
+      "source_id": "37995539_3786705",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43699953_3814826_fact2",
+      "score": 0.7077970504760742,
+      "source_id": "43699953_3814826",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50802122_4095661_fact2",
+      "score": 0.7076922655105591,
+      "source_id": "50802122_4095661",
+      "value": " Soviet and Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19343755_1790619_fact1",
+      "score": 0.707645833492279,
+      "source_id": "19343755_1790619",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68333413_4401393_fact1",
+      "score": 0.7072209119796753,
+      "source_id": "68333413_4401393",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50713002_4018183_fact1",
+      "score": 0.7067786455154419,
+      "source_id": "50713002_4018183",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33503957_2594340_fact1",
+      "score": 0.7067718505859375,
+      "source_id": "33503957_2594340",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5664375_1058189_fact1",
+      "score": 0.7064690589904785,
+      "source_id": "5664375_1058189",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28298844_2939811_fact1",
+      "score": 0.7059760689735413,
+      "source_id": "28298844_2939811",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49534707_5621168_fact1",
+      "score": 0.7058762311935425,
+      "source_id": "49534707_5621168",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60451184_3744782_fact1",
+      "score": 0.7055411338806152,
+      "source_id": "60451184_3744782",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73165472_5183398_fact1",
+      "score": 0.7051510214805603,
+      "source_id": "73165472_5183398",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60761267_3983042_fact1",
+      "score": 0.7048052549362183,
+      "source_id": "60761267_3983042",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44178956_4231870_fact2",
+      "score": 0.7046000361442566,
+      "source_id": "44178956_4231870",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42943694_5587828_fact1",
+      "score": 0.7042017579078674,
+      "source_id": "42943694_5587828",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49728984_5739747_fact1",
+      "score": 0.7041685581207275,
+      "source_id": "49728984_5739747",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41081991_4002601_fact1",
+      "score": 0.7040795087814331,
+      "source_id": "41081991_4002601",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51104233_4342518_fact2",
+      "score": 0.7040289640426636,
+      "source_id": "51104233_4342518",
+      "value": " Russian Imperial noblewoman, courtier"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42362924_5125405_fact1",
+      "score": 0.7024644017219543,
+      "source_id": "42362924_5125405",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50578442_3897250_fact1",
+      "score": 0.7014832496643066,
+      "source_id": "50578442_3897250",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60518494_3801427_fact1",
+      "score": 0.7011909484863281,
+      "source_id": "60518494_3801427",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62956619_5501627_fact1",
+      "score": 0.7009209990501404,
+      "source_id": "62956619_5501627",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57984825_4522622_fact1",
+      "score": 0.7008847594261169,
+      "source_id": "57984825_4522622",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50409685_3771790_fact1",
+      "score": 0.6992072463035583,
+      "source_id": "50409685_3771790",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23545745_3285140_fact0",
+      "score": 0.6990112066268921,
+      "source_id": "23545745_3285140",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15642543_3125804_fact1",
+      "score": 0.698966920375824,
+      "source_id": "15642543_3125804",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55872205_5312286_fact1",
+      "score": 0.698854386806488,
+      "source_id": "55872205_5312286",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8646839_2862418_fact1",
+      "score": 0.6987268924713135,
+      "source_id": "8646839_2862418",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67022129_5854998_fact1",
+      "score": 0.6981345415115356,
+      "source_id": "67022129_5854998",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58132834_4651792_fact1",
+      "score": 0.6979218125343323,
+      "source_id": "58132834_4651792",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72587940_4882208_fact1",
+      "score": 0.6977318525314331,
+      "source_id": "72587940_4882208",
+      "value": " Soviet and Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "511019_6074832_fact1",
+      "score": 0.6974520683288574,
+      "source_id": "511019_6074832",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58698158_5018486_fact2",
+      "score": 0.6963545680046082,
+      "source_id": "58698158_5018486",
+      "value": " Russian Empire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50905985_4164930_fact2",
+      "score": 0.6963258981704712,
+      "source_id": "50905985_4164930",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68599551_4618540_fact1",
+      "score": 0.6961636543273926,
+      "source_id": "68599551_4618540",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51569138_4733640_fact2",
+      "score": 0.6960514783859253,
+      "source_id": "51569138_4733640",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69457757_5206240_fact1",
+      "score": 0.6959322690963745,
+      "source_id": "69457757_5206240",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49404587_5532648_fact0",
+      "score": 0.695834755897522,
+      "source_id": "49404587_5532648",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60892539_4080131_fact1",
+      "score": 0.6957758069038391,
+      "source_id": "60892539_4080131",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69083374_4936862_fact0",
+      "score": 0.695319652557373,
+      "source_id": "69083374_4936862",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32274508_1584723_fact2",
+      "score": 0.6947751045227051,
+      "source_id": "32274508_1584723",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13145007_3105758_fact1",
+      "score": 0.6945853233337402,
+      "source_id": "13145007_3105758",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48026973_4519782_fact2",
+      "score": 0.6944678425788879,
+      "source_id": "48026973_4519782",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49761009_5753334_fact1",
+      "score": 0.694438099861145,
+      "source_id": "49761009_5753334",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65812484_5122904_fact1",
+      "score": 0.6944364309310913,
+      "source_id": "65812484_5122904",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18957258_1397880_fact2",
+      "score": 0.6938913464546204,
+      "source_id": "18957258_1397880",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41794866_4637833_fact1",
+      "score": 0.6935818791389465,
+      "source_id": "41794866_4637833",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4498334_1192114_fact1",
+      "score": 0.6934597492218018,
+      "source_id": "4498334_1192114",
+      "value": " Soviet and Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3463386_1205602_fact4",
+      "score": 0.6932733654975891,
+      "source_id": "3463386_1205602",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70245104_5683484_fact1",
+      "score": 0.692652702331543,
+      "source_id": "70245104_5683484",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49546067_5629567_fact1",
+      "score": 0.6922385692596436,
+      "source_id": "49546067_5629567",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35881006_2153666_fact1",
+      "score": 0.6919329166412354,
+      "source_id": "35881006_2153666",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42407444_5160227_fact1",
+      "score": 0.6919249892234802,
+      "source_id": "42407444_5160227",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37444158_3408318_fact1",
+      "score": 0.6916961669921875,
+      "source_id": "37444158_3408318",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59356185_5407631_fact2",
+      "score": 0.6916917562484741,
+      "source_id": "59356185_5407631",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31920090_1291242_fact1",
+      "score": 0.6914913058280945,
+      "source_id": "31920090_1291242",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50589636_3906399_fact1",
+      "score": 0.6913752555847168,
+      "source_id": "50589636_3906399",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51194485_4414761_fact1",
+      "score": 0.6912544965744019,
+      "source_id": "51194485_4414761",
+      "value": " Soviet and Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16690730_1598060_fact2",
+      "score": 0.6908453106880188,
+      "source_id": "16690730_1598060",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54555549_4469000_fact4",
+      "score": 0.6906007528305054,
+      "source_id": "54555549_4469000",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "937409_6158755_fact3",
+      "score": 0.6902150511741638,
+      "source_id": "937409_6158755",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48205105_4598613_fact2",
+      "score": 0.6900472640991211,
+      "source_id": "48205105_4598613",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55334767_4922985_fact0",
+      "score": 0.6897923350334167,
+      "source_id": "55334767_4922985",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40597022_3560353_fact1",
+      "score": 0.6897642016410828,
+      "source_id": "40597022_3560353",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43716435_3830245_fact1",
+      "score": 0.6891112327575684,
+      "source_id": "43716435_3830245",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58473570_4844168_fact1",
+      "score": 0.6880553960800171,
+      "source_id": "58473570_4844168",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40957625_3894236_fact1",
+      "score": 0.6879404783248901,
+      "source_id": "40957625_3894236",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47702133_4281250_fact1",
+      "score": 0.6867225766181946,
+      "source_id": "47702133_4281250",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72728226_4962522_fact1",
+      "score": 0.6865881085395813,
+      "source_id": "72728226_4962522",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49588221_5648412_fact2",
+      "score": 0.6859979629516602,
+      "source_id": "49588221_5648412",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5354933_797000_fact1",
+      "score": 0.6856633424758911,
+      "source_id": "5354933_797000",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37250888_3266998_fact2",
+      "score": 0.6853007078170776,
+      "source_id": "37250888_3266998",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70542056_5879948_fact2",
+      "score": 0.6852692365646362,
+      "source_id": "70542056_5879948",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52304709_5232065_fact1",
+      "score": 0.6846728324890137,
+      "source_id": "52304709_5232065",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50122617_3592004_fact1",
+      "score": 0.6845035552978516,
+      "source_id": "50122617_3592004",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38162782_3929442_fact2",
+      "score": 0.6837473511695862,
+      "source_id": "38162782_3929442",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49410532_5535699_fact2",
+      "score": 0.6831581592559814,
+      "source_id": "49410532_5535699",
+      "value": " Soviet and Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38135607_3908773_fact1",
+      "score": 0.6828998327255249,
+      "source_id": "38135607_3908773",
+      "value": " Russian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58608095_4952802_fact1",
+      "score": 0.6828351020812988,
+      "source_id": "58608095_4952802",
+      "value": " Russian"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e7d068db-28d3-485a-b5f4-af4770b40496",
+  "index_nprobe": null,
+  "manifest_id": "5dbceb3a75b0a95a",
+  "margin": 0.08623266220092773,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9324957132339478,
+  "s_surv": 0.84626305103302,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "61644252_4618112_fact1",
+      "score": 0.84626305103302,
+      "source_id": "61644252_4618112",
+      "value": " Kazakhstani"
+    },
+    {
+      "entry_id": "36703094_2830276_fact2",
+      "score": 0.8412479162216187,
+      "source_id": "36703094_2830276",
+      "value": " Kazakhstani"
+    },
+    {
+      "entry_id": "56718521_5894420_fact3",
+      "score": 0.8220547437667847,
+      "source_id": "56718521_5894420",
+      "value": " Belarusian"
+    },
+    {
+      "entry_id": "68365126_4423310_fact1",
+      "score": 0.819682240486145,
+      "source_id": "68365126_4423310",
+      "value": " Kazakhstani"
+    },
+    {
+      "entry_id": "70748854_3708991_fact1",
+      "score": 0.8149385452270508,
+      "source_id": "70748854_3708991",
+      "value": " Ukrainian"
+    }
+  ],
+  "truncated": false
+}

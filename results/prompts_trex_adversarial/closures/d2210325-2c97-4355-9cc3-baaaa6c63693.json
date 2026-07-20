@@ -1,0 +1,117 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "7123465_1037945_fact7",
+      "score": 0.9418802261352539,
+      "source_id": "7123465_1037945",
+      "value": " Cheshire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "349532_1176395_fact5",
+      "score": 0.7393426895141602,
+      "source_id": "349532_1176395",
+      "value": " Cheshire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13090139_3046262_fact3",
+      "score": 0.7229099273681641,
+      "source_id": "13090139_3046262",
+      "value": " Cheshire, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15742453_3217596_fact2",
+      "score": 0.6835164427757263,
+      "source_id": "15742453_3217596",
+      "value": " Cheshire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "414666_6057840_fact4",
+      "score": 0.6706396341323853,
+      "source_id": "414666_6057840",
+      "value": " Cheshire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "293707_6033902_fact6",
+      "score": 0.6690071821212769,
+      "source_id": "293707_6033902",
+      "value": " Shropshire and Cheshire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2201399_477452_fact3",
+      "score": 0.6467156410217285,
+      "source_id": "2201399_477452",
+      "value": " Cheshire"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d2210325-2c97-4355-9cc3-baaaa6c63693",
+  "index_nprobe": null,
+  "manifest_id": "b40090f408fe3636",
+  "margin": 0.13066411018371582,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9418802261352539,
+  "s_surv": 0.8112161159515381,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "21730624_1598416_fact5",
+      "score": 0.8112161159515381,
+      "source_id": "21730624_1598416",
+      "value": " the Kaliningrad Oblast of Russia"
+    },
+    {
+      "entry_id": "3055183_669729_fact9",
+      "score": 0.7870753407478333,
+      "source_id": "3055183_669729",
+      "value": " Nottinghamshire"
+    },
+    {
+      "entry_id": "49070786_5305436_fact4",
+      "score": 0.7854721546173096,
+      "source_id": "49070786_5305436",
+      "value": " County Mayo"
+    },
+    {
+      "entry_id": "2492552_994324_fact2",
+      "score": 0.7842353582382202,
+      "source_id": "2492552_994324",
+      "value": " Suffolk"
+    },
+    {
+      "entry_id": "385752_214503_fact2",
+      "score": 0.7801192998886108,
+      "source_id": "385752_214503",
+      "value": " Worcestershire"
+    }
+  ],
+  "truncated": false
+}

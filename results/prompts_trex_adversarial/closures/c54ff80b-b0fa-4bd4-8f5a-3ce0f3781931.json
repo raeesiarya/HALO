@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "7168055_1071875_fact1",
+      "score": 0.9466190934181213,
+      "source_id": "7168055_1071875",
+      "value": " Albany, Georgia, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48703037_5003661_fact2",
+      "score": 0.5868241190910339,
+      "source_id": "48703037_5003661",
+      "value": " Albany, New York, United States"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c54ff80b-b0fa-4bd4-8f5a-3ce0f3781931",
+  "index_nprobe": null,
+  "manifest_id": "0078687a2f361014",
+  "margin": 0.1486695408821106,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9466190934181213,
+  "s_surv": 0.7979495525360107,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8993809_3328031_fact2",
+      "score": 0.7979495525360107,
+      "source_id": "8993809_3328031",
+      "value": " New York City"
+    },
+    {
+      "entry_id": "7379523_1204512_fact3",
+      "score": 0.795562744140625,
+      "source_id": "7379523_1204512",
+      "value": " Hommers\u00e5k, near Sandnes"
+    },
+    {
+      "entry_id": "65557948_4932800_fact2",
+      "score": 0.7934664487838745,
+      "source_id": "65557948_4932800",
+      "value": " New Jersey"
+    },
+    {
+      "entry_id": "1139772_516486_fact2",
+      "score": 0.7854235172271729,
+      "source_id": "1139772_516486",
+      "value": " Boston, Massachusetts"
+    },
+    {
+      "entry_id": "36779358_2899714_fact2",
+      "score": 0.7729605436325073,
+      "source_id": "36779358_2899714",
+      "value": " North Carolina"
+    }
+  ],
+  "truncated": false
+}

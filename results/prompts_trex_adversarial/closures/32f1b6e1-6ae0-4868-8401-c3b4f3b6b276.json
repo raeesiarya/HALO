@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "934131_1102836_fact4",
+      "score": 0.9621053338050842,
+      "source_id": "934131_1102836",
+      "value": " anthropologist and police official"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "45710_944186_fact124",
+      "score": 0.9333604574203491,
+      "source_id": "45710_944186",
+      "value": " chief police officer"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "32f1b6e1-6ae0-4868-8401-c3b4f3b6b276",
+  "index_nprobe": null,
+  "manifest_id": "38307e0cd64ecb7a",
+  "margin": 0.18982559442520142,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9621053338050842,
+  "s_surv": 0.7722797393798828,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "45710_944186_fact123",
+      "score": 0.7722797393798828,
+      "source_id": "45710_944186",
+      "value": " Argentine"
+    },
+    {
+      "entry_id": "934131_1102836_fact3",
+      "score": 0.7488770484924316,
+      "source_id": "934131_1102836",
+      "value": " Croatian-Argentine"
+    },
+    {
+      "entry_id": "11626183_1299056_fact3",
+      "score": 0.7242357730865479,
+      "source_id": "11626183_1299056",
+      "value": " football goalkeeper and manager"
+    },
+    {
+      "entry_id": "20137301_2481295_fact2",
+      "score": 0.7151182293891907,
+      "source_id": "20137301_2481295",
+      "value": " musician and songwriter"
+    },
+    {
+      "entry_id": "28566175_3128544_fact2",
+      "score": 0.7133243083953857,
+      "source_id": "28566175_3128544",
+      "value": " professional football manager and former player"
+    }
+  ],
+  "truncated": false
+}

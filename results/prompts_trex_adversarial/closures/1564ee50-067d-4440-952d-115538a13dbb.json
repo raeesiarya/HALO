@@ -1,0 +1,225 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "3473291_74134_fact165",
+      "score": 0.934114933013916,
+      "source_id": "3473291_74134",
+      "value": " Israel"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "5952186_204805_fact46",
+      "score": 0.9267828464508057,
+      "source_id": "5952186_204805",
+      "value": " Israel"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "57500969_4149876_fact35",
+      "score": 0.9208290576934814,
+      "source_id": "57500969_4149876",
+      "value": " Israel\u2019s top-tier"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "15182722_2707298_fact54",
+      "score": 0.9165852665901184,
+      "source_id": "15182722_2707298",
+      "value": " Israel"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "12503470_2356033_fact2",
+      "score": 0.9116765260696411,
+      "source_id": "12503470_2356033",
+      "value": " Jerusalem"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "21281363_3549969_fact20",
+      "score": 0.9096677899360657,
+      "source_id": "21281363_3549969",
+      "value": " Israel"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "65809881_5119372_fact18",
+      "score": 0.9016566276550293,
+      "source_id": "65809881_5119372",
+      "value": " Israel"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "16533091_1486224_fact56",
+      "score": 0.8999898433685303,
+      "source_id": "16533091_1486224",
+      "value": " Israeli Basketball Super League"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "42096829_4907081_fact32",
+      "score": 0.8947063684463501,
+      "source_id": "42096829_4907081",
+      "value": " Israel"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "4850899_353904_fact145",
+      "score": 0.8690118789672852,
+      "source_id": "4850899_353904",
+      "value": " Israel"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "58569726_4921345_fact10",
+      "score": 0.8555681705474854,
+      "source_id": "58569726_4921345",
+      "value": " Israel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3704109_347361_fact1",
+      "score": 0.7554763555526733,
+      "source_id": "3704109_347361",
+      "value": " the City of Jerusalem, Israel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5834227_109967_fact1",
+      "score": 0.7526241540908813,
+      "source_id": "5834227_109967",
+      "value": " Jerusalem, Israel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3770284_421285_fact0",
+      "score": 0.7291702628135681,
+      "source_id": "3770284_421285",
+      "value": " sport organization in Jerusalem"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "320550_6039065_fact2",
+      "score": 0.6555408239364624,
+      "source_id": "320550_6039065",
+      "value": " Jerusalem"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46726963_5891826_fact1",
+      "score": 0.6380612850189209,
+      "source_id": "46726963_5891826",
+      "value": " Jerusalem"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59423824_5440298_fact4",
+      "score": 0.6256877779960632,
+      "source_id": "59423824_5440298",
+      "value": " Jerusalem, Israel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53772713_3839430_fact1",
+      "score": 0.5994676351547241,
+      "source_id": "53772713_3839430",
+      "value": " Jerusalem, Israel"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66191271_5393011_fact1",
+      "score": 0.5803487300872803,
+      "source_id": "66191271_5393011",
+      "value": " Jerusalem"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1564ee50-067d-4440-952d-115538a13dbb",
+  "index_nprobe": null,
+  "manifest_id": "ec4452adfa964b8c",
+  "margin": 0.08896636962890625,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9341146945953369,
+  "s_surv": 0.8451483249664307,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "28859031_3355767_fact114",
+      "score": 0.8451483249664307,
+      "source_id": "28859031_3355767",
+      "value": " Israel"
+    },
+    {
+      "entry_id": "2452480_932190_fact163",
+      "score": 0.8213198184967041,
+      "source_id": "2452480_932190",
+      "value": " Israeli Basketball Super League"
+    },
+    {
+      "entry_id": "25738591_3086142_fact56",
+      "score": 0.819778561592102,
+      "source_id": "25738591_3086142",
+      "value": " Israeli Basketball Super League"
+    },
+    {
+      "entry_id": "24786784_2216176_fact96",
+      "score": 0.8145601153373718,
+      "source_id": "24786784_2216176",
+      "value": " Israeli Premier League"
+    },
+    {
+      "entry_id": "42351633_5116548_fact176",
+      "score": 0.8133938312530518,
+      "source_id": "42351633_5116548",
+      "value": " Israeli Basketball Premier League"
+    }
+  ],
+  "truncated": false
+}

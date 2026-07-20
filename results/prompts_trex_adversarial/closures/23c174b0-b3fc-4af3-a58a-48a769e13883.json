@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "42158783_4960059_fact4",
+      "score": 0.8136622309684753,
+      "source_id": "42158783_4960059",
+      "value": " Bellingham, Washington"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27847899_2514635_fact1",
+      "score": 0.6225829124450684,
+      "source_id": "27847899_2514635",
+      "value": " Seattle"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "638337_202162_fact2",
+      "score": 0.6160551905632019,
+      "source_id": "638337_202162",
+      "value": " Seattle, Washington"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14604324_2142589_fact1",
+      "score": 0.6099623441696167,
+      "source_id": "14604324_2142589",
+      "value": " Seattle, Washington"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "23c174b0-b3fc-4af3-a58a-48a769e13883",
+  "index_nprobe": null,
+  "manifest_id": "b411cc09012afa89",
+  "margin": 0.039763569831848145,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.813662052154541,
+  "s_surv": 0.7738984823226929,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1750255_764440_fact1",
+      "score": 0.7738984823226929,
+      "source_id": "1750255_764440",
+      "value": " Minneapolis, Minnesota"
+    },
+    {
+      "entry_id": "20639402_2885241_fact2",
+      "score": 0.7591707706451416,
+      "source_id": "20639402_2885241",
+      "value": " Zarautz, Gipuzkoa, Basque Country"
+    },
+    {
+      "entry_id": "422914_411969_fact2",
+      "score": 0.7427072525024414,
+      "source_id": "422914_411969",
+      "value": " Pasadena, California"
+    },
+    {
+      "entry_id": "39021279_4675078_fact1",
+      "score": 0.7169618010520935,
+      "source_id": "39021279_4675078",
+      "value": " Ekaterinburg"
+    },
+    {
+      "entry_id": "819396_740165_fact1",
+      "score": 0.715827226638794,
+      "source_id": "819396_740165",
+      "value": " Havana, Cuba"
+    }
+  ],
+  "truncated": false
+}

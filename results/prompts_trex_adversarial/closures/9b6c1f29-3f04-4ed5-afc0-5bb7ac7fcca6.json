@@ -1,0 +1,143 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "39336839_4968621_fact8",
+      "score": 0.9407819509506226,
+      "source_id": "39336839_4968621",
+      "value": " Intel's headquarters at Santa Clara, California"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "183193_92127_fact22",
+      "score": 0.7154965996742249,
+      "source_id": "183193_92127",
+      "value": " Intel Developer Forum in Beijing"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26206476_3526169_fact167",
+      "score": 0.6923973560333252,
+      "source_id": "26206476_3526169",
+      "value": " Intel Developer Forum 2010"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47827936_4389522_fact86",
+      "score": 0.6780866980552673,
+      "source_id": "47827936_4389522",
+      "value": " fall 2017 Intel Developer Forum"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31555577_3256206_fact19",
+      "score": 0.6767714619636536,
+      "source_id": "31555577_3256206",
+      "value": " Intel Developer Forum"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19193265_1644925_fact8",
+      "score": 0.6753842234611511,
+      "source_id": "19193265_1644925",
+      "value": " Intel Developer Forum"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59524_1157522_fact92",
+      "score": 0.6597906947135925,
+      "source_id": "59524_1157522",
+      "value": " Intel Developer Forum 2002"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33804694_2848882_fact4",
+      "score": 0.6550049185752869,
+      "source_id": "33804694_2848882",
+      "value": " Intel Developer Forum in San Francisco"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63700152_3675953_fact35",
+      "score": 0.6492214798927307,
+      "source_id": "63700152_3675953",
+      "value": " Intel Vision event"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33895801_2924693_fact39",
+      "score": 0.6403182744979858,
+      "source_id": "33895801_2924693",
+      "value": " the Intel Developer Forum"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9b6c1f29-3f04-4ed5-afc0-5bb7ac7fcca6",
+  "index_nprobe": null,
+  "manifest_id": "c88503912f88aa06",
+  "margin": 0.17113739252090454,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9407819509506226,
+  "s_surv": 0.769644558429718,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "36429543_2608446_fact116",
+      "score": 0.769644558429718,
+      "source_id": "36429543_2608446",
+      "value": " Siemens Media &amp; Analyst Conference"
+    },
+    {
+      "entry_id": "15005827_2547222_fact3",
+      "score": 0.7485722303390503,
+      "source_id": "15005827_2547222",
+      "value": " the 2006 National Business Aviation Association convention"
+    },
+    {
+      "entry_id": "20170_467958_fact73",
+      "score": 0.7376013398170471,
+      "source_id": "20170_467958",
+      "value": " Microprocessor Forum 1996"
+    },
+    {
+      "entry_id": "12366110_2146304_fact142",
+      "score": 0.7233783006668091,
+      "source_id": "12366110_2146304",
+      "value": " CES 2006"
+    },
+    {
+      "entry_id": "42003835_4819834_fact76",
+      "score": 0.7221699953079224,
+      "source_id": "42003835_4819834",
+      "value": " Intel's Developer Forum"
+    }
+  ],
+  "truncated": false
+}

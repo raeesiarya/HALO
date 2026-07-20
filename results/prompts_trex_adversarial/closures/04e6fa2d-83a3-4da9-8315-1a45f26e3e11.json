@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "28797983_3299835_fact24",
+      "score": 0.7204594612121582,
+      "source_id": "28797983_3299835",
+      "value": " fictional documentary"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "04e6fa2d-83a3-4da9-8315-1a45f26e3e11",
+  "index_nprobe": null,
+  "manifest_id": "716423371d54c510",
+  "margin": 0.09640002250671387,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7204594612121582,
+  "s_surv": 0.6240594387054443,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "43978853_4048317_fact15",
+      "score": 0.6240594387054443,
+      "source_id": "43978853_4048317",
+      "value": " quick conclusion and fast pacing"
+    },
+    {
+      "entry_id": "6835757_834073_fact102",
+      "score": 0.6104390025138855,
+      "source_id": "6835757_834073",
+      "value": " characterisation, worldbuilding, and its approach on the issue of science vs religion"
+    },
+    {
+      "entry_id": "13085177_3042040_fact46",
+      "score": 0.6090212464332581,
+      "source_id": "13085177_3042040",
+      "value": " blending of conventional metal and post-rock genres"
+    },
+    {
+      "entry_id": "26429281_1335678_fact11",
+      "score": 0.6063156127929688,
+      "source_id": "26429281_1335678",
+      "value": " groundbreaking visual effects and extensive use of early computer-generated imagery"
+    },
+    {
+      "entry_id": "60265023_3603813_fact28",
+      "score": 0.6052670478820801,
+      "source_id": "60265023_3603813",
+      "value": " atmosphere, cinematography, and Rygh's performance"
+    }
+  ],
+  "truncated": false
+}

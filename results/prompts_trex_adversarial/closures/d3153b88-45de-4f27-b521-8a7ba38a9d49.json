@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "20756905_2989288_fact0",
+      "score": 0.706540584564209,
+      "source_id": "20756905_2989288",
+      "value": " November 1973"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d3153b88-45de-4f27-b521-8a7ba38a9d49",
+  "index_nprobe": null,
+  "manifest_id": "a537d00bf4471d8a",
+  "margin": 0.018492460250854492,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.706540584564209,
+  "s_surv": 0.6880481243133545,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "10444046_2444882_fact22",
+      "score": 0.6880481243133545,
+      "source_id": "10444046_2444882",
+      "value": " November 1973"
+    },
+    {
+      "entry_id": "4781915_303121_fact42",
+      "score": 0.6853495836257935,
+      "source_id": "4781915_303121",
+      "value": " 17 November 2014"
+    },
+    {
+      "entry_id": "1064216_307907_fact79",
+      "score": 0.6704422831535339,
+      "source_id": "1064216_307907",
+      "value": " November 17, 1973"
+    },
+    {
+      "entry_id": "10444046_2444882_fact35",
+      "score": 0.6431782245635986,
+      "source_id": "10444046_2444882",
+      "value": " November 17, 1973"
+    },
+    {
+      "entry_id": "5421387_851368_fact49",
+      "score": 0.6335337162017822,
+      "source_id": "5421387_851368",
+      "value": " November 1973"
+    }
+  ],
+  "truncated": false
+}

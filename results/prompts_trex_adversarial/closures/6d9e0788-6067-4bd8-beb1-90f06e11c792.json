@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "56118570_5483582_fact16",
+      "score": 0.6580765843391418,
+      "source_id": "56118570_5483582",
+      "value": "Achonry"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38861727_4527658_fact0",
+      "score": 0.5687990188598633,
+      "source_id": "38861727_4527658",
+      "value": " Dean of Chichester"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38861880_4527773_fact54",
+      "score": 0.5350608825683594,
+      "source_id": "38861880_4527773",
+      "value": "Chichester"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6d9e0788-6067-4bd8-beb1-90f06e11c792",
+  "index_nprobe": null,
+  "manifest_id": "36f4c11466475d41",
+  "margin": 0.009172439575195312,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6580765247344971,
+  "s_surv": 0.6489040851593018,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "18297035_2987015_fact62",
+      "score": 0.6489040851593018,
+      "source_id": "18297035_2987015",
+      "value": " Frank G. Zarb School of Business"
+    },
+    {
+      "entry_id": "23159422_2911660_fact8",
+      "score": 0.6431999206542969,
+      "source_id": "23159422_2911660",
+      "value": " Laidley, Queensland then Bundaberg and Warwick"
+    },
+    {
+      "entry_id": "21105389_3373617_fact21",
+      "score": 0.6359734535217285,
+      "source_id": "21105389_3373617",
+      "value": " Bristol"
+    },
+    {
+      "entry_id": "4937768_427318_fact5",
+      "score": 0.6278702020645142,
+      "source_id": "4937768_427318",
+      "value": " Deakin University and the University of Queensland"
+    },
+    {
+      "entry_id": "19487061_1923102_fact24",
+      "score": 0.6231886148452759,
+      "source_id": "19487061_1923102",
+      "value": " Hereford Cathedral"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2889686_433443_fact0",
+      "score": 0.7835942506790161,
+      "source_id": "2889686_433443",
+      "value": " small non-commercial airport"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "9ec4083c-e6b8-4566-8164-4d454f2b05ba",
+  "index_nprobe": null,
+  "manifest_id": "8f85e74e116c37de",
+  "margin": 0.01790595054626465,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7835942506790161,
+  "s_surv": 0.7656883001327515,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "57538713_4177855_fact0",
+      "score": 0.7656883001327515,
+      "source_id": "57538713_4177855",
+      "value": " former French airport"
+    },
+    {
+      "entry_id": "120490_6001650_fact1",
+      "score": 0.7640942335128784,
+      "source_id": "120490_6001650",
+      "value": " cargo airport"
+    },
+    {
+      "entry_id": "2945912_515062_fact0",
+      "score": 0.739384114742279,
+      "source_id": "2945912_515062",
+      "value": " registered aerodrome"
+    },
+    {
+      "entry_id": "82132_244746_fact77",
+      "score": 0.7351398468017578,
+      "source_id": "82132_244746",
+      "value": " small regional airport"
+    },
+    {
+      "entry_id": "920478_6155095_fact0",
+      "score": 0.7197156548500061,
+      "source_id": "920478_6155095",
+      "value": " international airport"
+    }
+  ],
+  "truncated": false
+}

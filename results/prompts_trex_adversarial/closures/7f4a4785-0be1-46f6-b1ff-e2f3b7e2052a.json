@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "28391178_3030888_fact3",
+      "score": 0.949121356010437,
+      "source_id": "28391178_3030888",
+      "value": " Chicago White Sox"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7f4a4785-0be1-46f6-b1ff-e2f3b7e2052a",
+  "index_nprobe": null,
+  "manifest_id": "91aa783a9cba85ff",
+  "margin": 0.22206485271453857,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9491212368011475,
+  "s_surv": 0.7270563840866089,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "39608512_5223274_fact3",
+      "score": 0.7270563840866089,
+      "source_id": "39608512_5223274",
+      "value": " Club Aurora"
+    },
+    {
+      "entry_id": "43730475_3840598_fact53",
+      "score": 0.6909875869750977,
+      "source_id": "43730475_3840598",
+      "value": " Charleroi"
+    },
+    {
+      "entry_id": "62827835_5419377_fact5",
+      "score": 0.6904898881912231,
+      "source_id": "62827835_5419377",
+      "value": " Sepahan"
+    },
+    {
+      "entry_id": "52923809_5644488_fact3",
+      "score": 0.6813978552818298,
+      "source_id": "52923809_5644488",
+      "value": " Arbroath"
+    },
+    {
+      "entry_id": "49236267_5416493_fact3",
+      "score": 0.6803604960441589,
+      "source_id": "49236267_5416493",
+      "value": " Western Province"
+    }
+  ],
+  "truncated": false
+}

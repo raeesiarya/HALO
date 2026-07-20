@@ -1,0 +1,116 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "137928_821807_fact142",
+      "score": 0.8781601190567017,
+      "source_id": "137928_821807",
+      "value": " solar panels"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2324075_708005_fact28",
+      "score": 0.6959913372993469,
+      "source_id": "2324075_708005",
+      "value": " semiconductor silicon wafer manufacture and photovoltaics applications as solar cells"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31329101_3039062_fact68",
+      "score": 0.5752931833267212,
+      "source_id": "31329101_3039062",
+      "value": " silicon based photov"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "747290_547119_fact109",
+      "score": 0.5684622526168823,
+      "source_id": "747290_547119",
+      "value": " silicon photonics"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "510278_839560_fact34",
+      "score": 0.5167750716209412,
+      "source_id": "510278_839560",
+      "value": " lighting management systems and LED lighting, power supplies for servers, PCs, notebooks and consumer electronics, custom devices for peripheral devices, game consoles, applications in medical technology, high-frequency components having a protective function for communication and tuner systems and silicon MEMS microphones"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43710_911307_fact119",
+      "score": 0.5148729085922241,
+      "source_id": "43710_911307",
+      "value": " silicon integrated circuit chips"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9034794_3388279_fact34",
+      "score": 0.5124768018722534,
+      "source_id": "9034794_3388279",
+      "value": " etching silicon wafers"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "659ecba7-b35c-4100-8a48-1ce9ac63ab8d",
+  "index_nprobe": null,
+  "manifest_id": "637d1a01f7a5263d",
+  "margin": 0.032750844955444336,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8781602382659912,
+  "s_surv": 0.8454093933105469,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "31329101_3039062_fact152",
+      "score": 0.8454093933105469,
+      "source_id": "31329101_3039062",
+      "value": " conducting gate materials"
+    },
+    {
+      "entry_id": "50161693_3613929_fact40",
+      "score": 0.8272949457168579,
+      "source_id": "50161693_3613929",
+      "value": " solar cells and semiconductor wafers"
+    },
+    {
+      "entry_id": "15590162_3078071_fact24",
+      "score": 0.7956147193908691,
+      "source_id": "15590162_3078071",
+      "value": " electronic and solar wafers"
+    },
+    {
+      "entry_id": "30737999_2405462_fact186",
+      "score": 0.7615840435028076,
+      "source_id": "30737999_2405462",
+      "value": " solar-power cells"
+    },
+    {
+      "entry_id": "32655385_1890071_fact9",
+      "score": 0.744052529335022,
+      "source_id": "32655385_1890071",
+      "value": " solar photovoltaic and electronics industry"
+    }
+  ],
+  "truncated": false
+}

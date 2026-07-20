@@ -1,0 +1,133 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "32632829_1867232_fact9",
+      "score": 0.8467923402786255,
+      "source_id": "32632829_1867232",
+      "value": " Game Center"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66774411_5734504_fact37",
+      "score": 0.5745949745178223,
+      "source_id": "66774411_5734504",
+      "value": " most Apple products"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46924608_3581967_fact13",
+      "score": 0.5625736117362976,
+      "source_id": "46924608_3581967",
+      "value": " with other Apple devices and services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21944277_1809386_fact1",
+      "score": 0.56143718957901,
+      "source_id": "21944277_1809386",
+      "value": " Microsoft Outlook, Google Calendar and Apple iCal"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56384_8613_fact3",
+      "score": 0.5503321290016174,
+      "source_id": "56384_8613",
+      "value": " every new Mac that Apple ships"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48973620_5227365_fact41",
+      "score": 0.5479488968849182,
+      "source_id": "48973620_5227365",
+      "value": " Apple Inc.'s HealthKit for iOS 9"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "269946_693455_fact43",
+      "score": 0.53177809715271,
+      "source_id": "269946_693455",
+      "value": " Apple iPod"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "186266_114899_fact78",
+      "score": 0.5216522216796875,
+      "source_id": "186266_114899",
+      "value": " Apple Music 1"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "650615_245053_fact142",
+      "score": 0.5138689279556274,
+      "source_id": "650615_245053",
+      "value": " Apple Wallet"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "09bad806-c913-446c-aeb7-3cd6a47cf5b9",
+  "index_nprobe": null,
+  "manifest_id": "c1b07d85b45c9603",
+  "margin": 0.17695248126983643,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8467922210693359,
+  "s_surv": 0.6698397397994995,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "36057_5344_fact0",
+      "score": 0.6698397397994995,
+      "source_id": "36057_5344",
+      "value": " Apple's iPod music player"
+    },
+    {
+      "entry_id": "14141210_1681659_fact17",
+      "score": 0.6657243967056274,
+      "source_id": "14141210_1681659",
+      "value": " Last.fm and AudioScrobbler"
+    },
+    {
+      "entry_id": "36864049_2971308_fact43",
+      "score": 0.6616108417510986,
+      "source_id": "36864049_2971308",
+      "value": " Sony Entertainment Network"
+    },
+    {
+      "entry_id": "104589_15834_fact1",
+      "score": 0.6439071893692017,
+      "source_id": "104589_15834",
+      "value": " ../iPhoto/, ../iTunes/, ../iDVD/, GarageBand and ../iWeb/"
+    },
+    {
+      "entry_id": "1065823_311962_fact15",
+      "score": 0.6437655687332153,
+      "source_id": "1065823_311962",
+      "value": " Spotlight"
+    }
+  ],
+  "truncated": false
+}

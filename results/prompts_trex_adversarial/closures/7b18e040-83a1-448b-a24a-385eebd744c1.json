@@ -1,0 +1,169 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "229907_415832_fact18",
+      "score": 0.6912655830383301,
+      "source_id": "229907_415832",
+      "value": " any law inconsistent with the Charter is of no force or effect"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54677603_4547788_fact5",
+      "score": 0.6313834190368652,
+      "source_id": "54677603_4547788",
+      "value": "the Parliament of Canada may...make provision for the representation in the Senate and House of Commons, or in either of them, of any territories which for the time being form part of the Dominion of Canada, but are not included in any Province thereof.\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12603_1864_fact20",
+      "score": 0.6137526035308838,
+      "source_id": "12603_1864",
+      "value": "The Canadian Charter of Rights and Freedoms guarantees the rights and freedoms set out in it subject only to such reasonable limits prescribed by law as can be demonstrably justified in a free and democratic society.\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4164147_847798_fact39",
+      "score": 0.5835733413696289,
+      "source_id": "4164147_847798",
+      "value": "An income tax shall be paid, as required by this Act, on the taxable income for each taxation year of every person resident in Canada at any time in the year"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59046711_5238704_fact36",
+      "score": 0.5816373229026794,
+      "source_id": "59046711_5238704",
+      "value": "the sovereignty of Parliament and of the provincial legislatures has been limited in Canada since Confederation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3193917_868074_fact1",
+      "score": 0.5726391673088074,
+      "source_id": "3193917_868074",
+      "value": " the Charter does not increase the powers of either the federal government or the legislatures of the provinces of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36616789_2756196_fact3",
+      "score": 0.5667313933372498,
+      "source_id": "36616789_2756196",
+      "value": " Canadian police located in the United States were still subject to the \"Charter\" when interrogating a suspect for a murder in Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "299360_856842_fact96",
+      "score": 0.564858615398407,
+      "source_id": "299360_856842",
+      "value": "supreme law of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4867345_368335_fact9",
+      "score": 0.5618649125099182,
+      "source_id": "4867345_368335",
+      "value": " an amendment to the Constitution of Canada under the general amending procedure is required"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6693581_711331_fact7",
+      "score": 0.5440660119056702,
+      "source_id": "6693581_711331",
+      "value": " provincial laws may apply to Aboriginal peoples in Canada as long as they apply to other people"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30557856_2263866_fact194",
+      "score": 0.5371073484420776,
+      "source_id": "30557856_2263866",
+      "value": "The Executive Government and Authority of and over Canada is hereby declared to continue and be vested in the Queen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3466941_1209738_fact3",
+      "score": 0.5346952080726624,
+      "source_id": "3466941_1209738",
+      "value": " the government has a fiduciary duty towards the First Nations of Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5861954_131833_fact13",
+      "score": 0.5318527221679688,
+      "source_id": "5861954_131833",
+      "value": " citizens the right to stay in Canada"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7b18e040-83a1-448b-a24a-385eebd744c1",
+  "index_nprobe": null,
+  "manifest_id": "713cc0bec83784f5",
+  "margin": 0.014725804328918457,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6912654042243958,
+  "s_surv": 0.6765395998954773,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4276757_965931_fact76",
+      "score": 0.6765395998954773,
+      "source_id": "4276757_965931",
+      "value": "prescribed by law"
+    },
+    {
+      "entry_id": "3497256_101205_fact123",
+      "score": 0.6582773923873901,
+      "source_id": "3497256_101205",
+      "value": "such reasonable limits prescribed by law as can be demonstrably justified in a free and democratic society.\""
+    },
+    {
+      "entry_id": "1602437_440384_fact151",
+      "score": 0.6481268405914307,
+      "source_id": "1602437_440384",
+      "value": " reasonable exemptions to the charter"
+    },
+    {
+      "entry_id": "3082282_704560_fact34",
+      "score": 0.6427310705184937,
+      "source_id": "3082282_704560",
+      "value": "All political power is inherent in the people.\u201d"
+    },
+    {
+      "entry_id": "10530633_2527606_fact27",
+      "score": 0.639824390411377,
+      "source_id": "10530633_2527606",
+      "value": "every man shall have remedy by due course of law for injury done him in his person, property, or reputation"
+    }
+  ],
+  "truncated": false
+}

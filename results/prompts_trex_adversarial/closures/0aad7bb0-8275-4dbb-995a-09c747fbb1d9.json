@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "15870919_3338779_fact56",
+      "score": 0.6114599704742432,
+      "source_id": "15870919_3338779",
+      "value": "Huge Debt\")."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5774889_1161569_fact47",
+      "score": 0.5723706483840942,
+      "source_id": "5774889_1161569",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28893425_3390772_fact9",
+      "score": 0.5204232931137085,
+      "source_id": "28893425_3390772",
+      "value": " French insult \"nique ta m\u00e8re\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53050645_5729222_fact2",
+      "score": 0.4970151484012604,
+      "source_id": "53050645_5729222",
+      "value": " the French Genevi\u00e8ve"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0aad7bb0-8275-4dbb-995a-09c747fbb1d9",
+  "index_nprobe": null,
+  "manifest_id": "beb1e02c1dc2be15",
+  "margin": 0.02011585235595703,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6114599704742432,
+  "s_surv": 0.5913441181182861,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6071724_301034_fact22",
+      "score": 0.5913441181182861,
+      "source_id": "6071724_301034",
+      "value": " \"shat on myself\")."
+    },
+    {
+      "entry_id": "36801523_2914310_fact99",
+      "score": 0.5884808897972107,
+      "source_id": "36801523_2914310",
+      "value": "Napol\u00e9on brandy"
+    },
+    {
+      "entry_id": "16094475_3564379_fact113",
+      "score": 0.5832188725471497,
+      "source_id": "16094475_3564379",
+      "value": "bon hiver"
+    },
+    {
+      "entry_id": "61360656_4400446_fact42",
+      "score": 0.5805523991584778,
+      "source_id": "61360656_4400446",
+      "value": " \"Quixote\""
+    },
+    {
+      "entry_id": "5774889_1161569_fact48",
+      "score": 0.5728391408920288,
+      "source_id": "5774889_1161569",
+      "value": "belle de nuit"
+    }
+  ],
+  "truncated": false
+}

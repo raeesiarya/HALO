@@ -1,0 +1,116 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "38681064_4373425_fact1",
+      "score": 0.7319987416267395,
+      "source_id": "38681064_4373425",
+      "value": " impromptu Dutch/American piano duo of and Clare Fischer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1375693_1109331_fact56",
+      "score": 0.5970368981361389,
+      "source_id": "1375693_1109331",
+      "value": " and trio Bach-Jazz piano concertos"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65481936_4876746_fact39",
+      "score": 0.574259340763092,
+      "source_id": "65481936_4876746",
+      "value": " Albert Hammond, Sheila Walsh, the Bellamy Brothers, Bonnie Tyler, and the Piano Guys"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54421295_4370027_fact30",
+      "score": 0.5629763603210449,
+      "source_id": "54421295_4370027",
+      "value": " two of Mozart's early piano concertos, Nos. 12 &amp; 13"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41493261_4371591_fact63",
+      "score": 0.538995087146759,
+      "source_id": "41493261_4371591",
+      "value": " Ravel\u2019s Piano Concerto in G"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41199318_4109073_fact111",
+      "score": 0.537567138671875,
+      "source_id": "41199318_4109073",
+      "value": " Bob Mintzer (tenor sax), Arlington Jones \"(n\u00e9\" Arlington Julius Jones II) (piano), and James Pankow (trombone)."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12404920_2205305_fact104",
+      "score": 0.5330110788345337,
+      "source_id": "12404920_2205305",
+      "value": " Taylor Eigsti (piano), Derrick Hodge / Alan Hampton"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5ef36fd0-ea9b-48e2-bbce-3976b2f80116",
+  "index_nprobe": null,
+  "manifest_id": "cbbdf6bf8a615ffd",
+  "margin": 0.06618857383728027,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7319987416267395,
+  "s_surv": 0.6658101677894592,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "23428197_3152478_fact9",
+      "score": 0.6658101677894592,
+      "source_id": "23428197_3152478",
+      "value": " Shepp, Clifford Thornton, Alan Shorter, Joseph Dejean, Beb Guerin and Claude Delcloo"
+    },
+    {
+      "entry_id": "2791445_291502_fact214",
+      "score": 0.6116815805435181,
+      "source_id": "2791445_291502",
+      "value": " Gerry Hemingway"
+    },
+    {
+      "entry_id": "23917487_1348897_fact3",
+      "score": 0.611584484577179,
+      "source_id": "23917487_1348897",
+      "value": " Kirk's Quartet and Benny Golson's Orchestra"
+    },
+    {
+      "entry_id": "16462127_1437424_fact32",
+      "score": 0.6069156527519226,
+      "source_id": "16462127_1437424",
+      "value": " Siegmund Nimsgern"
+    },
+    {
+      "entry_id": "2982998_561881_fact45",
+      "score": 0.6065179705619812,
+      "source_id": "2982998_561881",
+      "value": " Nick McCabe"
+    }
+  ],
+  "truncated": false
+}

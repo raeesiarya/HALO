@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "57187585_3897790_fact23",
+      "score": 0.6855359077453613,
+      "source_id": "57187585_3897790",
+      "value": " Ayutthaya"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "adbdab9f-6e90-452a-ae74-1918e963eb78",
+  "index_nprobe": null,
+  "manifest_id": "e33d6b699f166d96",
+  "margin": 0.012915611267089844,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6855357885360718,
+  "s_surv": 0.6726201772689819,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "7725096_1645093_fact10",
+      "score": 0.6726201772689819,
+      "source_id": "7725096_1645093",
+      "value": " Massachusetts"
+    },
+    {
+      "entry_id": "6592989_659887_fact10",
+      "score": 0.6713464260101318,
+      "source_id": "6592989_659887",
+      "value": " Romuva"
+    },
+    {
+      "entry_id": "3151959_810230_fact21",
+      "score": 0.6693518757820129,
+      "source_id": "3151959_810230",
+      "value": " Hawaiki-rangi"
+    },
+    {
+      "entry_id": "47733534_4306905_fact49",
+      "score": 0.6687613725662231,
+      "source_id": "47733534_4306905",
+      "value": " Athens, Greece"
+    },
+    {
+      "entry_id": "2578376_1126630_fact7",
+      "score": 0.6673343777656555,
+      "source_id": "2578376_1126630",
+      "value": " the banks of the Rio Negro"
+    }
+  ],
+  "truncated": false
+}

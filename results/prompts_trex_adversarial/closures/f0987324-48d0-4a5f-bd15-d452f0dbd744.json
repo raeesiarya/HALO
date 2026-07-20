@@ -1,0 +1,151 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "5811014_89017_fact21",
+      "score": 0.6716283559799194,
+      "source_id": "5811014_89017",
+      "value": " LXR-\u03b2 nuclear receptor and ABCA1 protein"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14626122_2165914_fact159",
+      "score": 0.5441458225250244,
+      "source_id": "14626122_2165914",
+      "value": " reactive oxygen species (ROS)."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14439956_1971787_fact33",
+      "score": 0.5259233713150024,
+      "source_id": "14439956_1971787",
+      "value": " reactive oxygen species"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18827020_1240142_fact22",
+      "score": 0.5249899625778198,
+      "source_id": "18827020_1240142",
+      "value": " oxygen radicals"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20452_473954_fact54",
+      "score": 0.5204007029533386,
+      "source_id": "20452_473954",
+      "value": " reactive nitrogen and oxygen species"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "943622_1126075_fact32",
+      "score": 0.49448877573013306,
+      "source_id": "943622_1126075",
+      "value": " reactive oxygen species"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2025021_170206_fact56",
+      "score": 0.49400895833969116,
+      "source_id": "2025021_170206",
+      "value": " reactive oxygen species (ROS)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46537830_5741564_fact32",
+      "score": 0.4932682514190674,
+      "source_id": "46537830_5741564",
+      "value": " oxygen free radicals"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23879296_1308522_fact35",
+      "score": 0.4903593361377716,
+      "source_id": "23879296_1308522",
+      "value": " oxygen species"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3993576_659304_fact67",
+      "score": 0.48854881525039673,
+      "source_id": "3993576_659304",
+      "value": " reactive oxygen intermediates"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8894652_3194376_fact30",
+      "score": 0.4879826307296753,
+      "source_id": "8894652_3194376",
+      "value": " reactive oxygen species (ROS), superoxide anions, hydrogen peroxide, hydroxyl radicals and nitrous oxide"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f0987324-48d0-4a5f-bd15-d452f0dbd744",
+  "index_nprobe": null,
+  "manifest_id": "5b5f752d441848b9",
+  "margin": 0.021623075008392334,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6716283559799194,
+  "s_surv": 0.6500052809715271,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "54242243_4219200_fact37",
+      "score": 0.6500052809715271,
+      "source_id": "54242243_4219200",
+      "value": "aromatase"
+    },
+    {
+      "entry_id": "3090801_718669_fact33",
+      "score": 0.6152751445770264,
+      "source_id": "3090801_718669",
+      "value": " proinflammatory"
+    },
+    {
+      "entry_id": "8382438_2516287_fact93",
+      "score": 0.6105085611343384,
+      "source_id": "8382438_2516287",
+      "value": " NF kappaB genes"
+    },
+    {
+      "entry_id": "9500722_1445342_fact41",
+      "score": 0.609539270401001,
+      "source_id": "9500722_1445342",
+      "value": " phytoalexins"
+    },
+    {
+      "entry_id": "944596_6160475_fact23",
+      "score": 0.6084141731262207,
+      "source_id": "944596_6160475",
+      "value": " growth"
+    }
+  ],
+  "truncated": false
+}

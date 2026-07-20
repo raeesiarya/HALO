@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "6555265_636507_fact1",
+      "score": 0.9303693175315857,
+      "source_id": "6555265_636507",
+      "value": " Province of Cuneo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40601459_3565629_fact12",
+      "score": 0.7173956632614136,
+      "source_id": "40601459_3565629",
+      "value": " Italian Province of Vicenza"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9820981_1804105_fact2",
+      "score": 0.6855509281158447,
+      "source_id": "9820981_1804105",
+      "value": " Italian Province of Naples"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41511440_4385551_fact4",
+      "score": 0.6779596209526062,
+      "source_id": "41511440_4385551",
+      "value": " Piedmont, Italy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69713908_5385764_fact1",
+      "score": 0.6569176316261292,
+      "source_id": "69713908_5385764",
+      "value": " Italian region of Lombardy"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f3e38579-217d-4b86-9f00-093d3d84e98e",
+  "index_nprobe": null,
+  "manifest_id": "c0613e268c14ecd6",
+  "margin": 0.11632633209228516,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9303691387176514,
+  "s_surv": 0.8140428066253662,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "24232654_1699706_fact2",
+      "score": 0.8140428066253662,
+      "source_id": "24232654_1699706",
+      "value": " Province of Perugia"
+    },
+    {
+      "entry_id": "6750880_759307_fact1",
+      "score": 0.7981886863708496,
+      "source_id": "6750880_759307",
+      "value": " Province of Siena"
+    },
+    {
+      "entry_id": "6555282_636532_fact1",
+      "score": 0.7944576144218445,
+      "source_id": "6555282_636532",
+      "value": " Province of Cuneo"
+    },
+    {
+      "entry_id": "6707308_723772_fact1",
+      "score": 0.7790243625640869,
+      "source_id": "6707308_723772",
+      "value": " Province of Pavia"
+    },
+    {
+      "entry_id": "11219277_3252707_fact1",
+      "score": 0.7722601890563965,
+      "source_id": "11219277_3252707",
+      "value": " Province of Lecco"
+    }
+  ],
+  "truncated": false
+}

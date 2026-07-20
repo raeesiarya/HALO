@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "41815272_4657732_fact3",
+      "score": 0.8014000654220581,
+      "source_id": "41815272_4657732",
+      "value": " Agostinho Carrara"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "67143870-c8a8-4962-893f-08d177fdd508",
+  "index_nprobe": null,
+  "manifest_id": "9baa9a8d7eaa056b",
+  "margin": 0.04675173759460449,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8013999462127686,
+  "s_surv": 0.7546482086181641,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2861342_391833_fact12",
+      "score": 0.7546482086181641,
+      "source_id": "2861342_391833",
+      "value": " Martim Botelho"
+    },
+    {
+      "entry_id": "17961472_2720470_fact3",
+      "score": 0.7517131567001343,
+      "source_id": "17961472_2720470",
+      "value": " \"the boy\""
+    },
+    {
+      "entry_id": "34381481_3339513_fact3",
+      "score": 0.7329630851745605,
+      "source_id": "34381481_3339513",
+      "value": " Matty Levan"
+    },
+    {
+      "entry_id": "60146695_5892905_fact3",
+      "score": 0.7143412232398987,
+      "source_id": "60146695_5892905",
+      "value": " Andr"
+    },
+    {
+      "entry_id": "881896_6147341_fact3",
+      "score": 0.7112044095993042,
+      "source_id": "881896_6147341",
+      "value": " Andr\u00e9s \"Berlin\" de Fonollosa"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "745180_541431_fact3",
+      "score": 0.9538694024085999,
+      "source_id": "745180_541431",
+      "value": " Edmonton"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "634475_186031_fact47",
+      "score": 0.8618067502975464,
+      "source_id": "634475_186031",
+      "value": " Somerset House"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ebfef89c-d5c7-4632-a288-dc5f45667c01",
+  "index_nprobe": null,
+  "manifest_id": "7f9955d194b12fda",
+  "margin": 0.12340885400772095,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9538694024085999,
+  "s_surv": 0.8304605484008789,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "846310_802438_fact21",
+      "score": 0.8304605484008789,
+      "source_id": "846310_802438",
+      "value": " Vienna"
+    },
+    {
+      "entry_id": "4136097_812275_fact17",
+      "score": 0.8292391300201416,
+      "source_id": "4136097_812275",
+      "value": " Stuttgart"
+    },
+    {
+      "entry_id": "5854275_125751_fact31",
+      "score": 0.8137450814247131,
+      "source_id": "5854275_125751",
+      "value": " Reading, Pennsylvania"
+    },
+    {
+      "entry_id": "1877832_1036024_fact73",
+      "score": 0.8119796514511108,
+      "source_id": "1877832_1036024",
+      "value": " Chur (Switzerland)"
+    },
+    {
+      "entry_id": "37135991_3194342_fact69",
+      "score": 0.807310163974762,
+      "source_id": "37135991_3194342",
+      "value": " Rockville, Maryland"
+    }
+  ],
+  "truncated": false
+}

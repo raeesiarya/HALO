@@ -1,0 +1,144 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "10691968_2678634_fact0",
+      "score": 0.9368331432342529,
+      "source_id": "10691968_2678634",
+      "value": " Mozambican"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42440234_5188789_fact1",
+      "score": 0.6260690689086914,
+      "source_id": "42440234_5188789",
+      "value": " Mozambique"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5540126_948101_fact2",
+      "score": 0.614516019821167,
+      "source_id": "5540126_948101",
+      "value": " the second most important football competition of Mozambique"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63337900_5771684_fact1",
+      "score": 0.6127454042434692,
+      "source_id": "63337900_5771684",
+      "value": " Mozambican"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41460527_4347338_fact10",
+      "score": 0.6090094447135925,
+      "source_id": "41460527_4347338",
+      "value": " Mozambique"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42020146_4837373_fact0",
+      "score": 0.6025252342224121,
+      "source_id": "42020146_4837373",
+      "value": " Mozambican"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72782644_4993143_fact1",
+      "score": 0.5999097228050232,
+      "source_id": "72782644_4993143",
+      "value": " Mozambican"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3628102_260741_fact3",
+      "score": 0.5979506969451904,
+      "source_id": "3628102_260741",
+      "value": " Mozambican"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3612292_240216_fact1",
+      "score": 0.5882929563522339,
+      "source_id": "3612292_240216",
+      "value": " Mozambique"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40204560_5703554_fact2",
+      "score": 0.5844048857688904,
+      "source_id": "40204560_5703554",
+      "value": " highest basketball league in Mozambique"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "da6a31ba-d376-4bbc-bdcf-a54ba1be7fd7",
+  "index_nprobe": null,
+  "manifest_id": "acadb1534669dc59",
+  "margin": 0.08919787406921387,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9368331432342529,
+  "s_surv": 0.8476352691650391,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "10691968_2678634_fact1",
+      "score": 0.8476352691650391,
+      "source_id": "10691968_2678634",
+      "value": " association football club"
+    },
+    {
+      "entry_id": "5538730_947200_fact2",
+      "score": 0.7943610548973083,
+      "source_id": "5538730_947200",
+      "value": " association football club"
+    },
+    {
+      "entry_id": "22500963_2314436_fact0",
+      "score": 0.7355493307113647,
+      "source_id": "22500963_2314436",
+      "value": " Spanish"
+    },
+    {
+      "entry_id": "47122751_3754523_fact0",
+      "score": 0.6996253132820129,
+      "source_id": "47122751_3754523",
+      "value": " multi-use stadium"
+    },
+    {
+      "entry_id": "11062481_3078298_fact0",
+      "score": 0.697456955909729,
+      "source_id": "11062481_3078298",
+      "value": " Portuguese"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "4465225_1159351_fact1",
+      "score": 0.918699324131012,
+      "source_id": "4465225_1159351",
+      "value": " United States Marine Corps"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3653490_291231_fact1",
+      "score": 0.9039425849914551,
+      "source_id": "3653490_291231",
+      "value": " United States Marine Corps"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "4913873_406719_fact2",
+      "score": 0.8659499883651733,
+      "source_id": "4913873_406719",
+      "value": " United States Marine Corps"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3652645_290460_fact2",
+      "score": 0.8624898791313171,
+      "source_id": "3652645_290460",
+      "value": " United States Marine Corps"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31794873_3509754_fact1",
+      "score": 0.719597339630127,
+      "source_id": "31794873_3509754",
+      "value": " 1st Battalion 181st Infantry Regiment"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d8e8691b-1a3e-4aeb-9cac-7527fa4dbfe3",
+  "index_nprobe": null,
+  "manifest_id": "4c1c4c6a918e3dd8",
+  "margin": 0.0840652585029602,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9186992645263672,
+  "s_surv": 0.834634006023407,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4433759_1125969_fact1",
+      "score": 0.834634006023407,
+      "source_id": "4433759_1125969",
+      "value": " 7th Marine Regiment"
+    },
+    {
+      "entry_id": "53810381_3869207_fact2",
+      "score": 0.8265184164047241,
+      "source_id": "53810381_3869207",
+      "value": " United States Marine Corps"
+    },
+    {
+      "entry_id": "1849303_975839_fact1",
+      "score": 0.8252946138381958,
+      "source_id": "1849303_975839",
+      "value": " United States Marine Corps"
+    },
+    {
+      "entry_id": "61625319_4603550_fact2",
+      "score": 0.823777437210083,
+      "source_id": "61625319_4603550",
+      "value": " Swedish Amphibious Corps"
+    },
+    {
+      "entry_id": "3666505_307606_fact1",
+      "score": 0.8150879144668579,
+      "source_id": "3666505_307606",
+      "value": " United States Marine Corps"
+    }
+  ],
+  "truncated": false
+}

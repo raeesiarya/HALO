@@ -1,0 +1,415 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "630037_169269_fact3",
+      "score": 0.9536392688751221,
+      "source_id": "630037_169269",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "956233_6163228_fact3",
+      "score": 0.9509341716766357,
+      "source_id": "956233_6163228",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51599429_4757058_fact3",
+      "score": 0.7433006763458252,
+      "source_id": "51599429_4757058",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17748046_2554631_fact3",
+      "score": 0.7414686679840088,
+      "source_id": "17748046_2554631",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "375413_6049575_fact11",
+      "score": 0.7176936268806458,
+      "source_id": "375413_6049575",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41825993_4666055_fact3",
+      "score": 0.7103402614593506,
+      "source_id": "41825993_4666055",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19822297_2187840_fact156",
+      "score": 0.7078912854194641,
+      "source_id": "19822297_2187840",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25882888_3225787_fact3",
+      "score": 0.7019493579864502,
+      "source_id": "25882888_3225787",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20756533_2988444_fact3",
+      "score": 0.6985161900520325,
+      "source_id": "20756533_2988444",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55307573_4904456_fact3",
+      "score": 0.6903061866760254,
+      "source_id": "55307573_4904456",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7078262_1005989_fact23",
+      "score": 0.6787217259407043,
+      "source_id": "7078262_1005989",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41056031_3978142_fact3",
+      "score": 0.6763574481010437,
+      "source_id": "41056031_3978142",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48001178_4511044_fact3",
+      "score": 0.6707086563110352,
+      "source_id": "48001178_4511044",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18821505_1235050_fact3",
+      "score": 0.6683580875396729,
+      "source_id": "18821505_1235050",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1125867_474439_fact3",
+      "score": 0.6680549383163452,
+      "source_id": "1125867_474439",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7058495_994923_fact3",
+      "score": 0.6637663841247559,
+      "source_id": "7058495_994923",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24782724_2211804_fact3",
+      "score": 0.6636707186698914,
+      "source_id": "24782724_2211804",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55160271_4809836_fact3",
+      "score": 0.6631671190261841,
+      "source_id": "55160271_4809836",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8250013_2347326_fact13",
+      "score": 0.6623589992523193,
+      "source_id": "8250013_2347326",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17748280_2554784_fact3",
+      "score": 0.6578739285469055,
+      "source_id": "17748280_2554784",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8056191_2088241_fact4",
+      "score": 0.6538385152816772,
+      "source_id": "8056191_2088241",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31567671_3271936_fact3",
+      "score": 0.6528714299201965,
+      "source_id": "31567671_3271936",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55110802_4775585_fact3",
+      "score": 0.6523337364196777,
+      "source_id": "55110802_4775585",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20344717_2641465_fact3",
+      "score": 0.6486759185791016,
+      "source_id": "20344717_2641465",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17717960_2527593_fact3",
+      "score": 0.6478158235549927,
+      "source_id": "17717960_2527593",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8314746_2433740_fact3",
+      "score": 0.647057056427002,
+      "source_id": "8314746_2433740",
+      "value": " Helsinki, Finland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8513637_2679002_fact3",
+      "score": 0.6425668597221375,
+      "source_id": "8513637_2679002",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51724165_4837154_fact126",
+      "score": 0.6422311067581177,
+      "source_id": "51724165_4837154",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7921987_1908213_fact5",
+      "score": 0.6381276249885559,
+      "source_id": "7921987_1908213",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "373764_6049303_fact32",
+      "score": 0.636127769947052,
+      "source_id": "373764_6049303",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6470356_580642_fact3",
+      "score": 0.6358047127723694,
+      "source_id": "6470356_580642",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "373767_6049304_fact6",
+      "score": 0.6342597007751465,
+      "source_id": "373767_6049304",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55156185_4806966_fact3",
+      "score": 0.6311719417572021,
+      "source_id": "55156185_4806966",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55115185_4777992_fact3",
+      "score": 0.6311448216438293,
+      "source_id": "55115185_4777992",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67298247_3650897_fact4",
+      "score": 0.6305234432220459,
+      "source_id": "67298247_3650897",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13080968_3036062_fact3",
+      "score": 0.6297791600227356,
+      "source_id": "13080968_3036062",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69686986_5367337_fact25",
+      "score": 0.6294089555740356,
+      "source_id": "69686986_5367337",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31873964_1257545_fact3",
+      "score": 0.6285690069198608,
+      "source_id": "31873964_1257545",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20342493_2639666_fact6",
+      "score": 0.6263245344161987,
+      "source_id": "20342493_2639666",
+      "value": " Helsinki"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55267762_4876311_fact3",
+      "score": 0.6261072754859924,
+      "source_id": "55267762_4876311",
+      "value": " Helsinki"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "82d39589-8e4f-44f8-ab66-e0558e70269c",
+  "index_nprobe": null,
+  "manifest_id": "937cac0d60c6c2a3",
+  "margin": 0.17542505264282227,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9536392688751221,
+  "s_surv": 0.7782142162322998,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "67005522_5845199_fact6",
+      "score": 0.7782142162322998,
+      "source_id": "67005522_5845199",
+      "value": " Sverdlovsk Oblast"
+    },
+    {
+      "entry_id": "65790428_5103836_fact3",
+      "score": 0.7706462144851685,
+      "source_id": "65790428_5103836",
+      "value": " Sp\u00e5nga, Stockholm"
+    },
+    {
+      "entry_id": "218869_349975_fact75",
+      "score": 0.7602707147598267,
+      "source_id": "218869_349975",
+      "value": " Stockholm"
+    },
+    {
+      "entry_id": "53018087_5709328_fact3",
+      "score": 0.7534376382827759,
+      "source_id": "53018087_5709328",
+      "value": " Bonn"
+    },
+    {
+      "entry_id": "21889595_1766735_fact81",
+      "score": 0.7529008984565735,
+      "source_id": "21889595_1766735",
+      "value": " Link\u00f6ping"
+    }
+  ],
+  "truncated": false
+}

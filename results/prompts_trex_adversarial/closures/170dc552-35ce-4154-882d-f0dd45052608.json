@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "6037779_274207_fact88",
+      "score": 0.7583407163619995,
+      "source_id": "6037779_274207",
+      "value": " frigate"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36141901_2380514_fact51",
+      "score": 0.6651912927627563,
+      "source_id": "36141901_2380514",
+      "value": " French forces in San Domingo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73159578_5181031_fact48",
+      "score": 0.6585659384727478,
+      "source_id": "73159578_5181031",
+      "value": " French ship"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "170dc552-35ce-4154-882d-f0dd45052608",
+  "index_nprobe": null,
+  "manifest_id": "2549ad6221915b92",
+  "margin": 0.008140742778778076,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7583406567573547,
+  "s_surv": 0.7501999139785767,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "13444519_3411286_fact121",
+      "score": 0.7501999139785767,
+      "source_id": "13444519_3411286",
+      "value": " blockships"
+    },
+    {
+      "entry_id": "13106866_3063462_fact71",
+      "score": 0.7491230964660645,
+      "source_id": "13106866_3063462",
+      "value": " 54-gun"
+    },
+    {
+      "entry_id": "39059330_4707385_fact43",
+      "score": 0.7419906258583069,
+      "source_id": "39059330_4707385",
+      "value": " frigate \"Hortense\""
+    },
+    {
+      "entry_id": "13955249_1503997_fact84",
+      "score": 0.7413244247436523,
+      "source_id": "13955249_1503997",
+      "value": " fifth-rate HMS \"Lively\""
+    },
+    {
+      "entry_id": "14092627_1635055_fact294",
+      "score": 0.7352457642555237,
+      "source_id": "14092627_1635055",
+      "value": " light squadron of the Naval Army in"
+    }
+  ],
+  "truncated": false
+}

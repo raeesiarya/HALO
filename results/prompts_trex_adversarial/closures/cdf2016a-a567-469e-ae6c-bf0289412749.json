@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "65369561_4794095_fact28",
+      "score": 0.9052678942680359,
+      "source_id": "65369561_4794095",
+      "value": " highest volcano in the Flood Range"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "65369561_4794095_fact39",
+      "score": 0.8704363107681274,
+      "source_id": "65369561_4794095",
+      "value": " western end"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cdf2016a-a567-469e-ae6c-bf0289412749",
+  "index_nprobe": null,
+  "manifest_id": "0ff7dd8bf0c08ddc",
+  "margin": 0.08430987596511841,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9052678346633911,
+  "s_surv": 0.8209579586982727,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "189246_138238_fact8",
+      "score": 0.8209579586982727,
+      "source_id": "189246_138238",
+      "value": " easternmost mountain in northern Germany"
+    },
+    {
+      "entry_id": "65369561_4794095_fact16",
+      "score": 0.8153202533721924,
+      "source_id": "65369561_4794095",
+      "value": " the most important source of such tephras in the region"
+    },
+    {
+      "entry_id": "58704246_5022748_fact2",
+      "score": 0.8080228567123413,
+      "source_id": "58704246_5022748",
+      "value": " another Antarctic volcanic mountain"
+    },
+    {
+      "entry_id": "189246_138238_fact2",
+      "score": 0.7947345972061157,
+      "source_id": "189246_138238",
+      "value": " highest peak in Northern Germany"
+    },
+    {
+      "entry_id": "35007782_1527541_fact28",
+      "score": 0.7916113138198853,
+      "source_id": "35007782_1527541",
+      "value": " highest elevation on Fischland"
+    }
+  ],
+  "truncated": false
+}

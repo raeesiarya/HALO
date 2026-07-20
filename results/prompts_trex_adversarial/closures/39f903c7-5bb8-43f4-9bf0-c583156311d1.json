@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "41856026_4690407_fact54",
+      "score": 0.873322606086731,
+      "source_id": "41856026_4690407",
+      "value": " before the four gospels"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3862933_518624_fact19",
+      "score": 0.8732479810714722,
+      "source_id": "3862933_518624",
+      "value": " around 50\u201360 AD"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1837996_951312_fact25",
+      "score": 0.5850129127502441,
+      "source_id": "1837996_951312",
+      "value": " roughly a century after the death of Paul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1283663_907010_fact11",
+      "score": 0.5331017971038818,
+      "source_id": "1283663_907010",
+      "value": " at least a decade after Paul\u2019s death"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "129669_6003857_fact29",
+      "score": 0.49044138193130493,
+      "source_id": "129669_6003857",
+      "value": " of Paul of Tarsus"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "39f903c7-5bb8-43f4-9bf0-c583156311d1",
+  "index_nprobe": null,
+  "manifest_id": "e5e75cbffb991835",
+  "margin": 0.04830515384674072,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.873322606086731,
+  "s_surv": 0.8250174522399902,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1095706_389928_fact77",
+      "score": 0.8250174522399902,
+      "source_id": "1095706_389928",
+      "value": " earlier than the Gospels"
+    },
+    {
+      "entry_id": "211843_300415_fact185",
+      "score": 0.8108123540878296,
+      "source_id": "211843_300415",
+      "value": " between 51 and 110 CE"
+    },
+    {
+      "entry_id": "496253_775585_fact55",
+      "score": 0.8097735643386841,
+      "source_id": "496253_775585",
+      "value": " between AD 50 and 60"
+    },
+    {
+      "entry_id": "1168010_585554_fact1",
+      "score": 0.7997721433639526,
+      "source_id": "1168010_585554",
+      "value": " within 20 to 30 years of each other"
+    },
+    {
+      "entry_id": "35563939_1888802_fact115",
+      "score": 0.7825063467025757,
+      "source_id": "35563939_1888802",
+      "value": " the mid first century"
+    }
+  ],
+  "truncated": false
+}

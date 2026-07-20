@@ -1,0 +1,154 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "861667_861265_fact18",
+      "score": 0.9014846086502075,
+      "source_id": "861667_861265",
+      "value": " Illinois State Capitol"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "292876_6033715_fact15",
+      "score": 0.869291365146637,
+      "source_id": "292876_6033715",
+      "value": " Illinois State Capitol"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "292876_6033715_fact14",
+      "score": 0.8511160016059875,
+      "source_id": "292876_6033715",
+      "value": " the"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "861658_861170_fact10",
+      "score": 0.6207093000411987,
+      "source_id": "861658_861170",
+      "value": " the Illinois State Capitol"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "861667_861265_fact19",
+      "score": 0.5493137240409851,
+      "source_id": "861667_861265",
+      "value": " Springfield, Illinois"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "861662_861234_fact72",
+      "score": 0.543721079826355,
+      "source_id": "861662_861234",
+      "value": " the Illinois State Capitol"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29728774_1697385_fact4",
+      "score": 0.5315970778465271,
+      "source_id": "29728774_1697385",
+      "value": " Illinois State Capitol"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "292876_6033715_fact16",
+      "score": 0.5143991708755493,
+      "source_id": "292876_6033715",
+      "value": " Springfield, Illinois"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59562100_5530669_fact97",
+      "score": 0.5123450756072998,
+      "source_id": "59562100_5530669",
+      "value": " the Illinois State Capitol"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2445888_920881_fact0",
+      "score": 0.5043845176696777,
+      "source_id": "2445888_920881",
+      "value": " Springfield, Illinois"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "656318_6096330_fact0",
+      "score": 0.5043845176696777,
+      "source_id": "656318_6096330",
+      "value": " Springfield, Illinois"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "525c575c-92fe-4fba-98b7-93304e258df6",
+  "index_nprobe": null,
+  "manifest_id": "e2d792a39418397e",
+  "margin": 0.12321305274963379,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9014846086502075,
+  "s_surv": 0.7782715559005737,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4964463_451980_fact9",
+      "score": 0.7782715559005737,
+      "source_id": "4964463_451980",
+      "value": " the Indiana Statehouse"
+    },
+    {
+      "entry_id": "992241_115199_fact2",
+      "score": 0.7663172483444214,
+      "source_id": "992241_115199",
+      "value": " Mississippi State Capitol in Jackson"
+    },
+    {
+      "entry_id": "7123968_1038473_fact5",
+      "score": 0.7617814540863037,
+      "source_id": "7123968_1038473",
+      "value": " the Utah State Capitol in Salt Lake City"
+    },
+    {
+      "entry_id": "3271497_975247_fact14",
+      "score": 0.7523208856582642,
+      "source_id": "3271497_975247",
+      "value": " Arizona State Capitol"
+    },
+    {
+      "entry_id": "8785948_3044623_fact3",
+      "score": 0.7500149011611938,
+      "source_id": "8785948_3044623",
+      "value": " the Idaho State Capitol"
+    }
+  ],
+  "truncated": false
+}

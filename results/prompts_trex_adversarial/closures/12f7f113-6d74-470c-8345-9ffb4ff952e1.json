@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "213516_312549_fact205",
+      "score": 0.9256188869476318,
+      "source_id": "213516_312549",
+      "value": " Carl Sagan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "320235_1003854_fact36",
+      "score": 0.5624131560325623,
+      "source_id": "320235_1003854",
+      "value": " director of the graduate program in astronomy"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "12f7f113-6d74-470c-8345-9ffb4ff952e1",
+  "index_nprobe": null,
+  "manifest_id": "23d4ad2d5bc5d111",
+  "margin": 0.23327219486236572,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9256188869476318,
+  "s_surv": 0.6923466920852661,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "203452_241094_fact118",
+      "score": 0.6923466920852661,
+      "source_id": "203452_241094",
+      "value": " John Jefferies"
+    },
+    {
+      "entry_id": "42403016_5156497_fact127",
+      "score": 0.6791342496871948,
+      "source_id": "42403016_5156497",
+      "value": " Hoyle"
+    },
+    {
+      "entry_id": "20964019_3221854_fact92",
+      "score": 0.6682323217391968,
+      "source_id": "20964019_3221854",
+      "value": " Tycho Brahe"
+    },
+    {
+      "entry_id": "23848964_1278294_fact129",
+      "score": 0.6580145359039307,
+      "source_id": "23848964_1278294",
+      "value": " Georgi Mandushev"
+    },
+    {
+      "entry_id": "1261840_851924_fact86",
+      "score": 0.6533132791519165,
+      "source_id": "1261840_851924",
+      "value": " Philip C. Keenan"
+    }
+  ],
+  "truncated": false
+}

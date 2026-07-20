@@ -1,0 +1,225 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1647743_542444_fact4",
+      "score": 0.908922553062439,
+      "source_id": "1647743_542444",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "511630_6074925_fact1",
+      "score": 0.6182693243026733,
+      "source_id": "511630_6074925",
+      "value": " the Chevrolet division of General Motorsf(GM)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62213228_5012568_fact2",
+      "score": 0.6095269918441772,
+      "source_id": "62213228_5012568",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1327143_994457_fact0",
+      "score": 0.6027967929840088,
+      "source_id": "1327143_994457",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "865341_875267_fact229",
+      "score": 0.6012597680091858,
+      "source_id": "865341_875267",
+      "value": " Chevrolet Motorama Show"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22989647_2764149_fact268",
+      "score": 0.5878236293792725,
+      "source_id": "22989647_2764149",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63261237_5708061_fact1",
+      "score": 0.5850896835327148,
+      "source_id": "63261237_5708061",
+      "value": " Chevrolet and GMC divisions"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63261301_5708398_fact1",
+      "score": 0.5821663737297058,
+      "source_id": "63261301_5708398",
+      "value": " Chevrolet and GMC brands"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1518071_260527_fact2",
+      "score": 0.5762183666229248,
+      "source_id": "1518071_260527",
+      "value": " Chevrolet and GMC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17346563_2188825_fact54",
+      "score": 0.570531964302063,
+      "source_id": "17346563_2188825",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "865369_875590_fact3",
+      "score": 0.5664821267127991,
+      "source_id": "865369_875590",
+      "value": " Chevrolet and GMC divisions"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "509648_6074582_fact1",
+      "score": 0.5641782879829407,
+      "source_id": "509648_6074582",
+      "value": " the Chevrolet division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8130407_2189037_fact6",
+      "score": 0.5632392168045044,
+      "source_id": "8130407_2189037",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63261301_5708398_fact141",
+      "score": 0.5614856481552124,
+      "source_id": "63261301_5708398",
+      "value": " Chevrolet and GMC divisions"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3301790_1013688_fact3",
+      "score": 0.5610737800598145,
+      "source_id": "3301790_1013688",
+      "value": " Chevrolet"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "867365_882238_fact65",
+      "score": 0.5591137409210205,
+      "source_id": "867365_882238",
+      "value": " Chevrolet/GMC and Dodge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "622541_140418_fact1",
+      "score": 0.5561074614524841,
+      "source_id": "622541_140418",
+      "value": " the Chevrolet division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1044603_255772_fact1",
+      "score": 0.555143415927887,
+      "source_id": "1044603_255772",
+      "value": " the Chevrolet division of General Motors"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "284640_6032246_fact1",
+      "score": 0.5508247017860413,
+      "source_id": "284640_6032246",
+      "value": " General Motors' Chevrolet brand"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f72a2d98-3528-43b7-a533-70a6d565a1b1",
+  "index_nprobe": null,
+  "manifest_id": "972da9c0b5df6d44",
+  "margin": 0.1951746940612793,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.908922553062439,
+  "s_surv": 0.7137478590011597,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "608963_85563_fact327",
+      "score": 0.7137478590011597,
+      "source_id": "608963_85563",
+      "value": " American Motors Corporation (AMC)"
+    },
+    {
+      "entry_id": "19704392_2085822_fact4",
+      "score": 0.7059355974197388,
+      "source_id": "19704392_2085822",
+      "value": " the American Honda Motorcycle dealer network"
+    },
+    {
+      "entry_id": "15788372_3261149_fact35",
+      "score": 0.7016469240188599,
+      "source_id": "15788372_3261149",
+      "value": " Mercury"
+    },
+    {
+      "entry_id": "32935221_2118489_fact7",
+      "score": 0.6999365091323853,
+      "source_id": "32935221_2118489",
+      "value": " US Aviation"
+    },
+    {
+      "entry_id": "656759_266419_fact78",
+      "score": 0.6956033706665039,
+      "source_id": "656759_266419",
+      "value": " Musgrave"
+    }
+  ],
+  "truncated": false
+}

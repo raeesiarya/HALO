@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1168102_585959_fact241",
+      "score": 0.768024206161499,
+      "source_id": "1168102_585959",
+      "value": " Australian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "901482_998094_fact23",
+      "score": 0.6496540307998657,
+      "source_id": "901482_998094",
+      "value": " Nissan GT-R and Ferrari FF"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20165003_2505318_fact20",
+      "score": 0.6471221446990967,
+      "source_id": "20165003_2505318",
+      "value": " Nissan Urge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32695_754247_fact221",
+      "score": 0.6414570212364197,
+      "source_id": "32695_754247",
+      "value": " Nissan GTP ZX-Turbo and Nissan NPT-90"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "bf53de6e-94ef-4653-89b2-ea2801b6db5f",
+  "index_nprobe": null,
+  "manifest_id": "ed12d9571834dbfd",
+  "margin": 0.016910076141357422,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.768024206161499,
+  "s_surv": 0.7511141300201416,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3773354_424883_fact75",
+      "score": 0.7511141300201416,
+      "source_id": "3773354_424883",
+      "value": " SE Plus model"
+    },
+    {
+      "entry_id": "1845099_966582_fact39",
+      "score": 0.7485523223876953,
+      "source_id": "1845099_966582",
+      "value": " 1961"
+    },
+    {
+      "entry_id": "6221117_420977_fact21",
+      "score": 0.7464659810066223,
+      "source_id": "6221117_420977",
+      "value": " Escort"
+    },
+    {
+      "entry_id": "426955_433846_fact67",
+      "score": 0.7424002289772034,
+      "source_id": "426955_433846",
+      "value": " Hot"
+    },
+    {
+      "entry_id": "3274860_979720_fact101",
+      "score": 0.7390645742416382,
+      "source_id": "3274860_979720",
+      "value": " '50"
+    }
+  ],
+  "truncated": false
+}

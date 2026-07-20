@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1137485_506943_fact81",
+      "score": 0.8772034645080566,
+      "source_id": "1137485_506943",
+      "value": " \"Nintendo Letter Box\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33497793_2588492_fact0",
+      "score": 0.8312615156173706,
+      "source_id": "33497793_2588492",
+      "value": " Nintendo Letter Box"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34471498_3421243_fact191",
+      "score": 0.6318116188049316,
+      "source_id": "34471498_3421243",
+      "value": " messaging application for the Nintendo 3DS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1137485_506943_fact83",
+      "score": 0.5664204359054565,
+      "source_id": "1137485_506943",
+      "value": " messaging application for the Nintendo 3DS family"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "55a9aaf7-cf62-4ff7-98b1-c1ed64df664c",
+  "index_nprobe": null,
+  "manifest_id": "0a61d90e7c7ac184",
+  "margin": 0.0955660343170166,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8772034645080566,
+  "s_surv": 0.78163743019104,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1137485_506943_fact82",
+      "score": 0.78163743019104,
+      "source_id": "1137485_506943",
+      "value": " \"Suddenly Exchange Diary\""
+    },
+    {
+      "entry_id": "9236158_1189422_fact151",
+      "score": 0.6274836659431458,
+      "source_id": "9236158_1189422",
+      "value": "BYOB\")"
+    },
+    {
+      "entry_id": "951595_1150280_fact16",
+      "score": 0.6194855570793152,
+      "source_id": "951595_1150280",
+      "value": " BYOB"
+    },
+    {
+      "entry_id": "3982609_647988_fact10",
+      "score": 0.6177328824996948,
+      "source_id": "3982609_647988",
+      "value": " Picture Password"
+    },
+    {
+      "entry_id": "5333006_776749_fact1",
+      "score": 0.6071707010269165,
+      "source_id": "5333006_776749",
+      "value": " Irish Switch"
+    }
+  ],
+  "truncated": false
+}

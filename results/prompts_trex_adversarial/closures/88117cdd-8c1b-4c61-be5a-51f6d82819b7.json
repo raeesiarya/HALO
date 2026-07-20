@@ -1,0 +1,206 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "29648120_1641179_fact3",
+      "score": 0.8894574642181396,
+      "source_id": "29648120_1641179",
+      "value": " Virudhunagar district"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "5805302_80642_fact1",
+      "score": 0.8803048729896545,
+      "source_id": "5805302_80642",
+      "value": " Tirupur district"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "32923201_2108737_fact1",
+      "score": 0.8529162406921387,
+      "source_id": "32923201_2108737",
+      "value": " Tiruppur district"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23189211_2939428_fact2",
+      "score": 0.7543069124221802,
+      "source_id": "23189211_2939428",
+      "value": " southern India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32678405_1911933_fact23",
+      "score": 0.7430249452590942,
+      "source_id": "32678405_1911933",
+      "value": " southern India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32893728_2088171_fact1",
+      "score": 0.7415496110916138,
+      "source_id": "32893728_2088171",
+      "value": " Tamil Nadu, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3728046_373258_fact15",
+      "score": 0.7354198694229126,
+      "source_id": "3728046_373258",
+      "value": " South India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40503010_5922497_fact5",
+      "score": 0.718254804611206,
+      "source_id": "40503010_5922497",
+      "value": " South India Region"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3728046_373258_fact2",
+      "score": 0.69130539894104,
+      "source_id": "3728046_373258",
+      "value": " Chennai, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31435320_3132540_fact3",
+      "score": 0.6855244636535645,
+      "source_id": "31435320_3132540",
+      "value": " the East Godavari District of Andhra Pradesh, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53195952_5823574_fact1",
+      "score": 0.6775174736976624,
+      "source_id": "53195952_5823574",
+      "value": " Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28599693_3145031_fact1",
+      "score": 0.674336314201355,
+      "source_id": "28599693_3145031",
+      "value": " Karukutty, Kerala, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25428148_2792142_fact4",
+      "score": 0.6477497220039368,
+      "source_id": "25428148_2792142",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23318717_3064364_fact7",
+      "score": 0.6471893191337585,
+      "source_id": "23318717_3064364",
+      "value": " Pathanamthitta district, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27986024_2643507_fact1",
+      "score": 0.642917275428772,
+      "source_id": "27986024_2643507",
+      "value": " Tamil Nadu, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18632365_3346447_fact9",
+      "score": 0.6428942680358887,
+      "source_id": "18632365_3346447",
+      "value": " Andhra Pradesh, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56109416_5476196_fact8",
+      "score": 0.6415941715240479,
+      "source_id": "56109416_5476196",
+      "value": " Andhra Pradesh, India"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "88117cdd-8c1b-4c61-be5a-51f6d82819b7",
+  "index_nprobe": null,
+  "manifest_id": "5e8d2358206f9c96",
+  "margin": 0.04854840040206909,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8894573450088501,
+  "s_surv": 0.840908944606781,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "22376960_2186408_fact1",
+      "score": 0.840908944606781,
+      "source_id": "22376960_2186408",
+      "value": " Tiruppur district"
+    },
+    {
+      "entry_id": "23862713_1291156_fact0",
+      "score": 0.8178820013999939,
+      "source_id": "23862713_1291156",
+      "value": " Tirupur district"
+    },
+    {
+      "entry_id": "65689147_5024928_fact1",
+      "score": 0.8166167140007019,
+      "source_id": "65689147_5024928",
+      "value": " Gwydir Shire"
+    },
+    {
+      "entry_id": "3151090_809096_fact2",
+      "score": 0.8068493604660034,
+      "source_id": "3151090_809096",
+      "value": " Kerala State"
+    },
+    {
+      "entry_id": "8589299_2778611_fact3",
+      "score": 0.7945433855056763,
+      "source_id": "8589299_2778611",
+      "value": " Alappuzha district"
+    }
+  ],
+  "truncated": false
+}

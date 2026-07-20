@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "351127_1188035_fact7",
+      "score": 0.7826276421546936,
+      "source_id": "351127_1188035",
+      "value": " pagans"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "351127_1188035_fact50",
+      "score": 0.6917362213134766,
+      "source_id": "351127_1188035",
+      "value": " either Welsh or Saxon pagans"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1475563_178635_fact11",
+      "score": 0.6538668870925903,
+      "source_id": "1475563_178635",
+      "value": " either Welsh or Saxon pagans"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18394736_3073630_fact93",
+      "score": 0.5540109872817993,
+      "source_id": "18394736_3073630",
+      "value": " Welsh king Rhys ap Tewdwr"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "eb6d29d5-67d0-4913-b8c1-b1ca17ee9667",
+  "index_nprobe": null,
+  "manifest_id": "1ccf68d7848a263c",
+  "margin": 0.05388730764389038,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7826276421546936,
+  "s_surv": 0.7287403345108032,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1170103_591481_fact14",
+      "score": 0.7287403345108032,
+      "source_id": "1170103_591481",
+      "value": " the Mercians"
+    },
+    {
+      "entry_id": "15539385_3030841_fact14",
+      "score": 0.7105038166046143,
+      "source_id": "15539385_3030841",
+      "value": " pagan Saxons"
+    },
+    {
+      "entry_id": "1491344_208473_fact79",
+      "score": 0.7042797803878784,
+      "source_id": "1491344_208473",
+      "value": " Cuil\u00e9n"
+    },
+    {
+      "entry_id": "14198279_1738203_fact19",
+      "score": 0.6861076951026917,
+      "source_id": "14198279_1738203",
+      "value": " Pallig's desertion"
+    },
+    {
+      "entry_id": "31863732_1248781_fact153",
+      "score": 0.6815405488014221,
+      "source_id": "31863732_1248781",
+      "value": " Walter Bisset of Aboyne"
+    }
+  ],
+  "truncated": false
+}

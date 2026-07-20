@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "6437568_563003_fact2",
+      "score": 0.9480938911437988,
+      "source_id": "6437568_563003",
+      "value": " Auckland, New Zealand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18623544_3333965_fact4",
+      "score": 0.6269012093544006,
+      "source_id": "18623544_3333965",
+      "value": " Auckland, New Zealand"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "db885e55-cd23-493d-b29e-8289febdaee7",
+  "index_nprobe": null,
+  "manifest_id": "1612e7ac495c961f",
+  "margin": 0.13155829906463623,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9480938911437988,
+  "s_surv": 0.8165355920791626,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6437568_563003_fact1",
+      "score": 0.8165355920791626,
+      "source_id": "6437568_563003",
+      "value": " racing driver"
+    },
+    {
+      "entry_id": "56607486_5816598_fact0",
+      "score": 0.7636287212371826,
+      "source_id": "56607486_5816598",
+      "value": " Philippine-born"
+    },
+    {
+      "entry_id": "4472315_1167284_fact3",
+      "score": 0.7618495225906372,
+      "source_id": "4472315_1167284",
+      "value": " U.S. state of Nebraska"
+    },
+    {
+      "entry_id": "2432924_897814_fact2",
+      "score": 0.7573722004890442,
+      "source_id": "2432924_897814",
+      "value": " Fairfax, California"
+    },
+    {
+      "entry_id": "31439869_3137468_fact1",
+      "score": 0.7525473833084106,
+      "source_id": "31439869_3137468",
+      "value": " Canadian"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "9159599_3532633_fact3",
+      "score": 0.8266487121582031,
+      "source_id": "9159599_3532633",
+      "value": " Counting Crows"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d9aadb4e-e621-4a44-9bd9-4e438156ce72",
+  "index_nprobe": null,
+  "manifest_id": "17ee7b322b376a14",
+  "margin": 0.013124048709869385,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8266487121582031,
+  "s_surv": 0.8135246634483337,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "71606742_4280560_fact1",
+      "score": 0.8135246634483337,
+      "source_id": "71606742_4280560",
+      "value": " Irish"
+    },
+    {
+      "entry_id": "26432607_1339030_fact79",
+      "score": 0.7912645936012268,
+      "source_id": "26432607_1339030",
+      "value": " acoustic British rhythm and blues revival group"
+    },
+    {
+      "entry_id": "48936907_5201155_fact4",
+      "score": 0.7871614694595337,
+      "source_id": "48936907_5201155",
+      "value": " American post-hardcore"
+    },
+    {
+      "entry_id": "25730883_3079708_fact4",
+      "score": 0.7736848592758179,
+      "source_id": "25730883_3079708",
+      "value": " Remy Zero"
+    },
+    {
+      "entry_id": "2200625_476129_fact3",
+      "score": 0.773590624332428,
+      "source_id": "2200625_476129",
+      "value": " glam metal"
+    }
+  ],
+  "truncated": false
+}

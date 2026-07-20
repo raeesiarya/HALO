@@ -1,0 +1,179 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "5798286_72322_fact3",
+      "score": 0.8346343040466309,
+      "source_id": "5798286_72322",
+      "value": " Indian state of Gujarat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59552238_5525324_fact1",
+      "score": 0.7169481515884399,
+      "source_id": "59552238_5525324",
+      "value": " Gujarat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48914943_5182960_fact3",
+      "score": 0.7075986862182617,
+      "source_id": "48914943_5182960",
+      "value": " Gujarat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52515654_5376658_fact3",
+      "score": 0.6928960084915161,
+      "source_id": "52515654_5376658",
+      "value": " Gujarat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52763421_5538259_fact4",
+      "score": 0.6923595070838928,
+      "source_id": "52763421_5538259",
+      "value": " Gujarat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41941121_4766793_fact3",
+      "score": 0.6665865182876587,
+      "source_id": "41941121_4766793",
+      "value": " Gujarat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65004910_4593572_fact3",
+      "score": 0.660724401473999,
+      "source_id": "65004910_4593572",
+      "value": " Gujarat, India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23651150_3414786_fact2",
+      "score": 0.6588263511657715,
+      "source_id": "23651150_3414786",
+      "value": " Gujarat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1180331_619470_fact2",
+      "score": 0.6556958556175232,
+      "source_id": "1180331_619470",
+      "value": " Gujarat state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8349511_2477196_fact10",
+      "score": 0.6535413861274719,
+      "source_id": "8349511_2477196",
+      "value": " Gujarat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66027618_5280948_fact1",
+      "score": 0.6507788896560669,
+      "source_id": "66027618_5280948",
+      "value": " Gujarat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60248136_5954948_fact3",
+      "score": 0.6474655866622925,
+      "source_id": "60248136_5954948",
+      "value": " Gujarat state"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35213806_1666758_fact3",
+      "score": 0.6473268270492554,
+      "source_id": "35213806_1666758",
+      "value": " Gujarat"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45587064_5331596_fact3",
+      "score": 0.6468085646629333,
+      "source_id": "45587064_5331596",
+      "value": " Gujarat"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "bb902801-304b-4bba-bb09-cc4db04d21ca",
+  "index_nprobe": null,
+  "manifest_id": "8a1fae1a3dce78a1",
+  "margin": 0.06458592414855957,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8346343040466309,
+  "s_surv": 0.7700483798980713,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "17890282_2661546_fact2",
+      "score": 0.7700483798980713,
+      "source_id": "17890282_2661546",
+      "value": " Banwa Province"
+    },
+    {
+      "entry_id": "17890221_2661462_fact2",
+      "score": 0.762921929359436,
+      "source_id": "17890221_2661462",
+      "value": " Banwa Province"
+    },
+    {
+      "entry_id": "20675107_2917707_fact2",
+      "score": 0.7614587545394897,
+      "source_id": "20675107_2917707",
+      "value": " Kerala"
+    },
+    {
+      "entry_id": "24324170_1777151_fact2",
+      "score": 0.7539079189300537,
+      "source_id": "24324170_1777151",
+      "value": " Oklahoma"
+    },
+    {
+      "entry_id": "9946829_1928323_fact2",
+      "score": 0.7524771094322205,
+      "source_id": "9946829_1928323",
+      "value": " Andhra Pradesh"
+    }
+  ],
+  "truncated": false
+}

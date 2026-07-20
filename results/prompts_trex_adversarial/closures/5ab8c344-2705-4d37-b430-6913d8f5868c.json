@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "12796015_2707559_fact91",
+      "score": 0.6960577368736267,
+      "source_id": "12796015_2707559",
+      "value": " quarter-page advertisement"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5ab8c344-2705-4d37-b430-6913d8f5868c",
+  "index_nprobe": null,
+  "manifest_id": "2e2631bf4853564c",
+  "margin": 0.017325222492218018,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6960577368736267,
+  "s_surv": 0.6787325143814087,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "12796015_2707559_fact0",
+      "score": 0.6787325143814087,
+      "source_id": "12796015_2707559",
+      "value": " Japan copyright owners' pre-action discovery"
+    },
+    {
+      "entry_id": "1497286_222034_fact14",
+      "score": 0.6768308877944946,
+      "source_id": "1497286_222034",
+      "value": " stop their recruitment for permanent jobs"
+    },
+    {
+      "entry_id": "43810996_3915102_fact23",
+      "score": 0.6683222055435181,
+      "source_id": "43810996_3915102",
+      "value": " 80 employee layoffs"
+    },
+    {
+      "entry_id": "43047436_5665933_fact186",
+      "score": 0.6659208536148071,
+      "source_id": "43047436_5665933",
+      "value": " ceased most all operations across its media channels"
+    },
+    {
+      "entry_id": "60586431_3857598_fact18",
+      "score": 0.6628032922744751,
+      "source_id": "60586431_3857598",
+      "value": " issue their accounts early"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,234 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "295112_6034185_fact0",
+      "score": 0.9064972400665283,
+      "source_id": "295112_6034185",
+      "value": " office of the National Assembly of Pakistan"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1618242_477026_fact66",
+      "score": 0.8804043531417847,
+      "source_id": "1618242_477026",
+      "value": " office in the parliament"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3875916_532484_fact6",
+      "score": 0.8637294769287109,
+      "source_id": "3875916_532484",
+      "value": " Second"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "72621652_4902487_fact2",
+      "score": 0.8622474670410156,
+      "source_id": "72621652_4902487",
+      "value": " Chairman of Business Advisory Committee"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "16613961_1538787_fact0",
+      "score": 0.86143559217453,
+      "source_id": "16613961_1538787",
+      "value": " presiding officer of the National Assembly of Kuwait"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "419460_394394_fact2",
+      "score": 0.7627257108688354,
+      "source_id": "419460_394394",
+      "value": " commander-in-chief of the Pakistan Armed Forces"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1897833_1077787_fact47",
+      "score": 0.7500815391540527,
+      "source_id": "1897833_1077787",
+      "value": " commander-in-chief of the Pakistan Armed Forces"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1897833_1077787_fact46",
+      "score": 0.7474151849746704,
+      "source_id": "1897833_1077787",
+      "value": " ceremonial head of state of Pakistan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "461896_609779_fact12",
+      "score": 0.7419369220733643,
+      "source_id": "461896_609779",
+      "value": " chief adviser to the president of Pakistan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "295113_6034186_fact2",
+      "score": 0.7401137948036194,
+      "source_id": "295113_6034186",
+      "value": " Head of Government of Pakistan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4664598_197656_fact0",
+      "score": 0.7315542101860046,
+      "source_id": "4664598_197656",
+      "value": " president-chair of the Senate of Pakistan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39623649_5238250_fact0",
+      "score": 0.7237111926078796,
+      "source_id": "39623649_5238250",
+      "value": " elected head of government of a province in Pakistan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "145158_6007149_fact1",
+      "score": 0.7073523998260498,
+      "source_id": "145158_6007149",
+      "value": " head of state of Pakistan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "419460_394394_fact1",
+      "score": 0.7063908576965332,
+      "source_id": "419460_394394",
+      "value": " ceremonial head of state of Pakistan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3875916_532484_fact3",
+      "score": 0.6958363056182861,
+      "source_id": "3875916_532484",
+      "value": " a lower house of the Parliament of Pakistan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "461896_609779_fact124",
+      "score": 0.6878666877746582,
+      "source_id": "461896_609779",
+      "value": " lower house of the Parliament of Pakistan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "461902_609784_fact5",
+      "score": 0.6875578165054321,
+      "source_id": "461902_609784",
+      "value": " lower house of Pakistan Parliament"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35098494_1596639_fact0",
+      "score": 0.6865851283073425,
+      "source_id": "35098494_1596639",
+      "value": " the lower house of the Parliament of Pakistan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57876023_4437475_fact1",
+      "score": 0.6651877164840698,
+      "source_id": "57876023_4437475",
+      "value": " Chief Law officer of the Government of Pakistan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56780442_5936537_fact0",
+      "score": 0.6651765704154968,
+      "source_id": "56780442_5936537",
+      "value": " party office held by a member of the governing party in the Senate of Pakistan"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7f130e2b-70db-4d52-b6d9-9582731e4fd4",
+  "index_nprobe": null,
+  "manifest_id": "61ca4cf3e04b41f5",
+  "margin": 0.0631629228591919,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9064972400665283,
+  "s_surv": 0.8433343172073364,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "19626723_2031394_fact3",
+      "score": 0.8433343172073364,
+      "source_id": "19626723_2031394",
+      "value": " acting President of Hungary"
+    },
+    {
+      "entry_id": "773941_6121968_fact0",
+      "score": 0.8415605425834656,
+      "source_id": "773941_6121968",
+      "value": " Chairperson or Presiding Officer"
+    },
+    {
+      "entry_id": "22358359_2166969_fact0",
+      "score": 0.837264895439148,
+      "source_id": "22358359_2166969",
+      "value": " presiding officer of the National Assembly of South Korea"
+    },
+    {
+      "entry_id": "4501670_1196359_fact13",
+      "score": 0.8345204591751099,
+      "source_id": "4501670_1196359",
+      "value": " presiding officer"
+    },
+    {
+      "entry_id": "750884_6113949_fact0",
+      "score": 0.8343199491500854,
+      "source_id": "750884_6113949",
+      "value": " presiding officer of the National Assembly of South Korea"
+    }
+  ],
+  "truncated": false
+}

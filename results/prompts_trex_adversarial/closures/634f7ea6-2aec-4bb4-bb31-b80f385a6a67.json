@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "4532538_82087_fact0",
+      "score": 0.9343764781951904,
+      "source_id": "4532538_82087",
+      "value": " Mashhad, Razavi Khorasan, Iran"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9050547_3407764_fact2",
+      "score": 0.5763782858848572,
+      "source_id": "9050547_3407764",
+      "value": " Doha International Airport, Doha, Qatar"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "634f7ea6-2aec-4bb4-bb31-b80f385a6a67",
+  "index_nprobe": null,
+  "manifest_id": "da89839ef7652263",
+  "margin": 0.09621047973632812,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9343763589859009,
+  "s_surv": 0.8381658792495728,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "39077952_4723211_fact12",
+      "score": 0.8381658792495728,
+      "source_id": "39077952_4723211",
+      "value": " Mashhad"
+    },
+    {
+      "entry_id": "48509915_4828854_fact0",
+      "score": 0.741119921207428,
+      "source_id": "48509915_4828854",
+      "value": " Shahroud, Semnan Province, Iran"
+    },
+    {
+      "entry_id": "6689819_708258_fact0",
+      "score": 0.7192921042442322,
+      "source_id": "6689819_708258",
+      "value": " the State of Qatar"
+    },
+    {
+      "entry_id": "9215489_3592879_fact1",
+      "score": 0.712397038936615,
+      "source_id": "9215489_3592879",
+      "value": " Mersa Matruh, Egypt"
+    },
+    {
+      "entry_id": "41727414_4581257_fact0",
+      "score": 0.7109262347221375,
+      "source_id": "41727414_4581257",
+      "value": " Jahrom, Fars Province, Iran"
+    }
+  ],
+  "truncated": false
+}

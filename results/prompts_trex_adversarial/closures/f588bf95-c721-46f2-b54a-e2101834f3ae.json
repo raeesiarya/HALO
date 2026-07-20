@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "21666035_1536123_fact8",
+      "score": 0.8029140830039978,
+      "source_id": "21666035_1536123",
+      "value": " west of the regional capital Gda\u0144sk"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "f588bf95-c721-46f2-b54a-e2101834f3ae",
+  "index_nprobe": null,
+  "manifest_id": "c59564bf4bdace3f",
+  "margin": 0.0020960569381713867,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.802914023399353,
+  "s_surv": 0.8008179664611816,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "18771400_3511958_fact8",
+      "score": 0.8008179664611816,
+      "source_id": "18771400_3511958",
+      "value": " north of the regional capital \u0141\u00f3d\u017a"
+    },
+    {
+      "entry_id": "21885615_1761741_fact8",
+      "score": 0.7918697595596313,
+      "source_id": "21885615_1761741",
+      "value": " north-east"
+    },
+    {
+      "entry_id": "21460678_1336775_fact9",
+      "score": 0.7889294624328613,
+      "source_id": "21460678_1336775",
+      "value": " south"
+    },
+    {
+      "entry_id": "18627090_3339920_fact6",
+      "score": 0.7850974798202515,
+      "source_id": "18627090_3339920",
+      "value": " south"
+    },
+    {
+      "entry_id": "19901383_2263355_fact6",
+      "score": 0.7767254114151001,
+      "source_id": "19901383_2263355",
+      "value": " north of Warsaw"
+    }
+  ],
+  "truncated": false
+}

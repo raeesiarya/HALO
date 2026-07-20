@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "10017954_2006615_fact2",
+      "score": 0.8987577557563782,
+      "source_id": "10017954_2006615",
+      "value": " Albanian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34203172_3173680_fact2",
+      "score": 0.6570295691490173,
+      "source_id": "34203172_3173680",
+      "value": " Albanian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55939303_5361764_fact2",
+      "score": 0.6557419896125793,
+      "source_id": "55939303_5361764",
+      "value": " Albanian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37889695_3692132_fact2",
+      "score": 0.6281828284263611,
+      "source_id": "37889695_3692132",
+      "value": " Albanian"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b1b0df10-41aa-4320-9fd1-4e19de5dfe38",
+  "index_nprobe": null,
+  "manifest_id": "bc57ed05bb1e0e86",
+  "margin": 0.19292229413986206,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8987577557563782,
+  "s_surv": 0.7058354616165161,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "25528908_2892695_fact1",
+      "score": 0.7058354616165161,
+      "source_id": "25528908_2892695",
+      "value": " Indian"
+    },
+    {
+      "entry_id": "44941484_4844921_fact1",
+      "score": 0.7057377099990845,
+      "source_id": "44941484_4844921",
+      "value": " Indian"
+    },
+    {
+      "entry_id": "8343837_2469339_fact1",
+      "score": 0.6995910406112671,
+      "source_id": "8343837_2469339",
+      "value": " Australian"
+    },
+    {
+      "entry_id": "65192953_4678805_fact0",
+      "score": 0.6954970359802246,
+      "source_id": "65192953_4678805",
+      "value": " Indian"
+    },
+    {
+      "entry_id": "33351815_2471692_fact0",
+      "score": 0.6943154335021973,
+      "source_id": "33351815_2471692",
+      "value": " Indian"
+    }
+  ],
+  "truncated": false
+}

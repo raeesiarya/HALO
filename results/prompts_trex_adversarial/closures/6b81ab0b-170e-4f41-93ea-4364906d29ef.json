@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "7623911_1507037_fact10",
+      "score": 0.6866521835327148,
+      "source_id": "7623911_1507037",
+      "value": " Disney animator Jeffrey J. Varab"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6b81ab0b-170e-4f41-93ea-4364906d29ef",
+  "index_nprobe": null,
+  "manifest_id": "24be8064f71e0b84",
+  "margin": 0.0008278489112854004,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6866521239280701,
+  "s_surv": 0.6858242750167847,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "479383_695025_fact112",
+      "score": 0.6858242750167847,
+      "source_id": "479383_695025",
+      "value": " Stephen Williams"
+    },
+    {
+      "entry_id": "55367157_4939853_fact3",
+      "score": 0.6787292957305908,
+      "source_id": "55367157_4939853",
+      "value": " Ben Sturgulewski and Nick Waggoner"
+    },
+    {
+      "entry_id": "53195954_5823589_fact44",
+      "score": 0.6766378283500671,
+      "source_id": "53195954_5823589",
+      "value": " Anthony \"Butch\" Perez"
+    },
+    {
+      "entry_id": "67370479_3702459_fact15",
+      "score": 0.6763419508934021,
+      "source_id": "67370479_3702459",
+      "value": " Unni Straume"
+    },
+    {
+      "entry_id": "62748817_5368844_fact3",
+      "score": 0.6746261119842529,
+      "source_id": "62748817_5368844",
+      "value": " Fenar Ahmad"
+    }
+  ],
+  "truncated": false
+}

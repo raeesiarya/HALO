@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1172172_596476_fact5",
+      "score": 0.931426465511322,
+      "source_id": "1172172_596476",
+      "value": " Coventry, England"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e4b5ac74-f584-4011-9ce7-0fda01d0bae7",
+  "index_nprobe": null,
+  "manifest_id": "6088041ed9cca415",
+  "margin": 0.08358591794967651,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.931426465511322,
+  "s_surv": 0.8478405475616455,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1172172_596476_fact4",
+      "score": 0.8478405475616455,
+      "source_id": "1172172_596476",
+      "value": " 1874"
+    },
+    {
+      "entry_id": "35747214_2044140_fact15",
+      "score": 0.7879394292831421,
+      "source_id": "35747214_2044140",
+      "value": " 1894"
+    },
+    {
+      "entry_id": "32030731_1384910_fact5",
+      "score": 0.7463605403900146,
+      "source_id": "32030731_1384910",
+      "value": " Germany"
+    },
+    {
+      "entry_id": "41012999_3939068_fact6",
+      "score": 0.7435640692710876,
+      "source_id": "41012999_3939068",
+      "value": " Bombay"
+    },
+    {
+      "entry_id": "360834_88938_fact15",
+      "score": 0.7335553169250488,
+      "source_id": "360834_88938",
+      "value": " Sneek"
+    }
+  ],
+  "truncated": false
+}

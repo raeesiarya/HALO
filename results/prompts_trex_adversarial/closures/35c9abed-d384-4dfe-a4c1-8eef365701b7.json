@@ -1,0 +1,169 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "35271118_1707046_fact2",
+      "score": 0.7898223400115967,
+      "source_id": "35271118_1707046",
+      "value": " Northern province of Sierra Leone"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10515731_2512642_fact0",
+      "score": 0.7500587105751038,
+      "source_id": "10515731_2512642",
+      "value": " Nyeri County, Kenya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8618046_2820524_fact19",
+      "score": 0.6827340126037598,
+      "source_id": "8618046_2820524",
+      "value": " Central Province of Kenya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49635059_5678715_fact8",
+      "score": 0.6629503965377808,
+      "source_id": "49635059_5678715",
+      "value": " Kenya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39842862_5419908_fact3",
+      "score": 0.6408131122589111,
+      "source_id": "39842862_5419908",
+      "value": " the Republic of Kenya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6612137_670849_fact4",
+      "score": 0.6399310827255249,
+      "source_id": "6612137_670849",
+      "value": " Tanzania and southern Kenya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7546759_1404227_fact0",
+      "score": 0.6351780891418457,
+      "source_id": "7546759_1404227",
+      "value": " the former Central Province of Kenya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39216647_4853775_fact2",
+      "score": 0.627432644367218,
+      "source_id": "39216647_4853775",
+      "value": " Kenya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53229714_5843129_fact6",
+      "score": 0.6268607378005981,
+      "source_id": "53229714_5843129",
+      "value": " Central Kenya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4014359_678371_fact11",
+      "score": 0.6253845691680908,
+      "source_id": "4014359_678371",
+      "value": " Eastern Kenya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25107578_2506375_fact1",
+      "score": 0.6177434325218201,
+      "source_id": "25107578_2506375",
+      "value": " Kenya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51045172_4289915_fact4",
+      "score": 0.6101342439651489,
+      "source_id": "51045172_4289915",
+      "value": " Kenya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7545971_1403120_fact0",
+      "score": 0.6078393459320068,
+      "source_id": "7545971_1403120",
+      "value": " former Central Province of Kenya"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "35c9abed-d384-4dfe-a4c1-8eef365701b7",
+  "index_nprobe": null,
+  "manifest_id": "81bf4edecf44df2a",
+  "margin": 0.009929299354553223,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7898223400115967,
+  "s_surv": 0.7798930406570435,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "40454266_5882618_fact2",
+      "score": 0.7798930406570435,
+      "source_id": "40454266_5882618",
+      "value": " Western Cape province"
+    },
+    {
+      "entry_id": "36081892_2330303_fact13",
+      "score": 0.7324047088623047,
+      "source_id": "36081892_2330303",
+      "value": " Arusha Region"
+    },
+    {
+      "entry_id": "2295851_653943_fact13",
+      "score": 0.7286922931671143,
+      "source_id": "2295851_653943",
+      "value": " northern Malawi"
+    },
+    {
+      "entry_id": "44103623_4159185_fact53",
+      "score": 0.7236124873161316,
+      "source_id": "44103623_4159185",
+      "value": " Bombali District"
+    },
+    {
+      "entry_id": "51494147_4667501_fact10",
+      "score": 0.7222414016723633,
+      "source_id": "51494147_4667501",
+      "value": " Nyeri County"
+    }
+  ],
+  "truncated": false
+}

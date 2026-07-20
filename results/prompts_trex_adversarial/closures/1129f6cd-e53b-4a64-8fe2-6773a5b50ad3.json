@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "3641834_277668_fact21",
+      "score": 0.7899627089500427,
+      "source_id": "3641834_277668",
+      "value": " 1510"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1129f6cd-e53b-4a64-8fe2-6773a5b50ad3",
+  "index_nprobe": null,
+  "manifest_id": "a0cbcc514fdcbd3a",
+  "margin": 0.005784094333648682,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7899627089500427,
+  "s_surv": 0.784178614616394,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "18744292_3482672_fact90",
+      "score": 0.784178614616394,
+      "source_id": "18744292_3482672",
+      "value": " 1868"
+    },
+    {
+      "entry_id": "42389518_5145018_fact42",
+      "score": 0.7718754410743713,
+      "source_id": "42389518_5145018",
+      "value": " Fort of Nagpur"
+    },
+    {
+      "entry_id": "47411297_4020916_fact7",
+      "score": 0.771150529384613,
+      "source_id": "47411297_4020916",
+      "value": " 1673"
+    },
+    {
+      "entry_id": "44463311_4478717_fact9",
+      "score": 0.7669417858123779,
+      "source_id": "44463311_4478717",
+      "value": " city of Ayodhya"
+    },
+    {
+      "entry_id": "21763819_1631800_fact36",
+      "score": 0.7499514818191528,
+      "source_id": "21763819_1631800",
+      "value": " Dhaka District"
+    }
+  ],
+  "truncated": false
+}

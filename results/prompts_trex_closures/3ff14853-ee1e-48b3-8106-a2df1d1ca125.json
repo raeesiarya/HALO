@@ -1,0 +1,143 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1187218_641651_fact0",
+      "score": 0.7229307889938354,
+      "source_id": "1187218_641651",
+      "value": " Bergen Flesland Airport or simply Flesland Airport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2518378_1034196_fact0",
+      "score": 0.6065205335617065,
+      "source_id": "2518378_1034196",
+      "value": "Bergen Katedralskole"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25089740_2489782_fact18",
+      "score": 0.5816340446472168,
+      "source_id": "25089740_2489782",
+      "value": "The Bergen Wave"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15546197_3035797_fact0",
+      "score": 0.5761170387268066,
+      "source_id": "15546197_3035797",
+      "value": "Trikken i Bergen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23609943_3366363_fact7",
+      "score": 0.5695377588272095,
+      "source_id": "23609943_3366363",
+      "value": "H\u00f8gskolen i Bergen (HiB)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36098629_2345143_fact20",
+      "score": 0.5666680932044983,
+      "source_id": "36098629_2345143",
+      "value": "Det Bergen Gr\u00f8nlandske Compagnie"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6344634_507845_fact0",
+      "score": 0.5279415845870972,
+      "source_id": "6344634_507845",
+      "value": "Sverresborg i Bergen\")"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26268489_3583751_fact83",
+      "score": 0.5217606425285339,
+      "source_id": "26268489_3583751",
+      "value": "Kommunistisk gruppe i Bergen"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22820862_2626553_fact0",
+      "score": 0.519347071647644,
+      "source_id": "22820862_2626553",
+      "value": " \"NATO-Truppen\u00fcbungsplatz Bergen\" or \"Schie\u00dfplatz Bergen-Hohne\")"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1547654_316487_fact14",
+      "score": 0.5071910619735718,
+      "source_id": "1547654_316487",
+      "value": " Bergen Airport, Flesland"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3ff14853-ee1e-48b3-8106-a2df1d1ca125",
+  "index_nprobe": null,
+  "manifest_id": "6b5b656a5bf2ac13",
+  "margin": 0.07332354784011841,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7229307889938354,
+  "s_surv": 0.649607241153717,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5116295_581153_fact0",
+      "score": 0.649607241153717,
+      "source_id": "5116295_581153",
+      "value": "Aerodrom Bor"
+    },
+    {
+      "entry_id": "4360992_1051909_fact0",
+      "score": 0.6457834243774414,
+      "source_id": "4360992_1051909",
+      "value": " \""
+    },
+    {
+      "entry_id": "194946_179221_fact6",
+      "score": 0.6389288902282715,
+      "source_id": "194946_179221",
+      "value": "BU"
+    },
+    {
+      "entry_id": "55017036_4728596_fact0",
+      "score": 0.6383322477340698,
+      "source_id": "55017036_4728596",
+      "value": " B\u00f8kfjordbrua"
+    },
+    {
+      "entry_id": "105064_449093_fact1",
+      "score": 0.6368348598480225,
+      "source_id": "105064_449093",
+      "value": " \"Vest Spitsbergen\" or \"Vestspitsbergen"
+    }
+  ],
+  "truncated": false
+}

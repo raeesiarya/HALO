@@ -1,0 +1,198 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "927752_1083647_fact2",
+      "score": 0.934062123298645,
+      "source_id": "927752_1083647",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55347_1096527_fact1",
+      "score": 0.7596360445022583,
+      "source_id": "55347_1096527",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "290157_787979_fact1",
+      "score": 0.6648879051208496,
+      "source_id": "290157_787979",
+      "value": " Apple Computer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47770289_4340767_fact2",
+      "score": 0.6617290377616882,
+      "source_id": "47770289_4340767",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "694240_380654_fact2",
+      "score": 0.6579982042312622,
+      "source_id": "694240_380654",
+      "value": " Apple Computer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50801508_4094806_fact2",
+      "score": 0.6447464227676392,
+      "source_id": "50801508_4094806",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39739245_5336070_fact1",
+      "score": 0.6381299495697021,
+      "source_id": "39739245_5336070",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1238911_786961_fact23",
+      "score": 0.6304958462715149,
+      "source_id": "1238911_786961",
+      "value": " Apple"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54372495_4327647_fact1",
+      "score": 0.6194697022438049,
+      "source_id": "54372495_4327647",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69115006_4960726_fact2",
+      "score": 0.6186864376068115,
+      "source_id": "69115006_4960726",
+      "value": " Apple"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6317096_487374_fact2",
+      "score": 0.6136611104011536,
+      "source_id": "6317096_487374",
+      "value": " Apple"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "709769_6105286_fact1",
+      "score": 0.6108748316764832,
+      "source_id": "709769_6105286",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39084002_4729268_fact1",
+      "score": 0.6079627275466919,
+      "source_id": "39084002_4729268",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3454477_1193619_fact1",
+      "score": 0.6042484045028687,
+      "source_id": "3454477_1193619",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67094405_5908306_fact117",
+      "score": 0.6009164452552795,
+      "source_id": "67094405_5908306",
+      "value": " Apple Inc."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31187_712762_fact1",
+      "score": 0.600041389465332,
+      "source_id": "31187_712762",
+      "value": " Apple"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1fddad49-16f9-4d73-985a-30b74a5f6e0c",
+  "index_nprobe": null,
+  "manifest_id": "5735fbdd336ca7a2",
+  "margin": 0.1485198736190796,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.934062123298645,
+  "s_surv": 0.7855422496795654,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2044850_201078_fact1",
+      "score": 0.7855422496795654,
+      "source_id": "2044850_201078",
+      "value": " Digital Research's OEM Support Group"
+    },
+    {
+      "entry_id": "39998675_5532622_fact2",
+      "score": 0.7493481636047363,
+      "source_id": "39998675_5532622",
+      "value": " Allied Telesis"
+    },
+    {
+      "entry_id": "15664733_3145838_fact1",
+      "score": 0.7462304830551147,
+      "source_id": "15664733_3145838",
+      "value": " the HPSS Collaboration"
+    },
+    {
+      "entry_id": "753099_564349_fact2",
+      "score": 0.7459821701049805,
+      "source_id": "753099_564349",
+      "value": " S&amp;H Computer Systems, Inc."
+    },
+    {
+      "entry_id": "55347_1096527_fact23",
+      "score": 0.7421736717224121,
+      "source_id": "55347_1096527",
+      "value": " Patrick Dirks and Bill Bruffey"
+    }
+  ],
+  "truncated": false
+}

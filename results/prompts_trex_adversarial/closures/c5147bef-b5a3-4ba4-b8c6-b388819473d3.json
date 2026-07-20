@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "3724490_368620_fact0",
+      "score": 0.902033805847168,
+      "source_id": "3724490_368620",
+      "value": " August 30, 1812"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c5147bef-b5a3-4ba4-b8c6-b388819473d3",
+  "index_nprobe": null,
+  "manifest_id": "6aa90aa1722437f2",
+  "margin": 0.20841652154922485,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9020336866378784,
+  "s_surv": 0.6936171650886536,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "53296034_5886208_fact0",
+      "score": 0.6936171650886536,
+      "source_id": "53296034_5886208",
+      "value": " 8 September 1998"
+    },
+    {
+      "entry_id": "35038079_1554891_fact236",
+      "score": 0.6764233112335205,
+      "source_id": "35038079_1554891",
+      "value": "April 11, 1864"
+    },
+    {
+      "entry_id": "35038079_1554891_fact1",
+      "score": 0.657141923904419,
+      "source_id": "35038079_1554891",
+      "value": " June 28, 1840"
+    },
+    {
+      "entry_id": "1756086_777415_fact0",
+      "score": 0.6370770931243896,
+      "source_id": "1756086_777415",
+      "value": "15 January 1939"
+    },
+    {
+      "entry_id": "7743886_1669657_fact0",
+      "score": 0.6197404861450195,
+      "source_id": "7743886_1669657",
+      "value": "12 June 1859"
+    }
+  ],
+  "truncated": false
+}

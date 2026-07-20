@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "428284_440871_fact3",
+      "score": 0.8225929737091064,
+      "source_id": "428284_440871",
+      "value": " 1883 until 1912"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4db8afe0-c40a-4236-a0ac-87df807dbef7",
+  "index_nprobe": null,
+  "manifest_id": "e93186f5452a6a05",
+  "margin": 0.10276073217391968,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8225928544998169,
+  "s_surv": 0.7198321223258972,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3630035_263194_fact60",
+      "score": 0.7198321223258972,
+      "source_id": "3630035_263194",
+      "value": " 1840 to 1907"
+    },
+    {
+      "entry_id": "3957646_619222_fact2",
+      "score": 0.7182700634002686,
+      "source_id": "3957646_619222",
+      "value": " unauthorized by the United States Mint"
+    },
+    {
+      "entry_id": "4072895_743383_fact86",
+      "score": 0.7138082981109619,
+      "source_id": "4072895_743383",
+      "value": " 1883"
+    },
+    {
+      "entry_id": "4849303_353019_fact34",
+      "score": 0.6972931623458862,
+      "source_id": "4849303_353019",
+      "value": " 1883 to 1913"
+    },
+    {
+      "entry_id": "71260241_4037229_fact5",
+      "score": 0.682653546333313,
+      "source_id": "71260241_4037229",
+      "value": " 1883"
+    }
+  ],
+  "truncated": false
+}

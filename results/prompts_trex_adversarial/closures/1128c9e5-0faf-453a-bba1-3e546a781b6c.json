@@ -1,0 +1,248 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "43562389_3676862_fact1",
+      "score": 0.9601684212684631,
+      "source_id": "43562389_3676862",
+      "value": " Bangkok, Thailand"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "2878405_416309_fact1",
+      "score": 0.9537520408630371,
+      "source_id": "2878405_416309",
+      "value": " Bangkok, Thailand"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "5514753_926283_fact40",
+      "score": 0.9331207275390625,
+      "source_id": "5514753_926283",
+      "value": " Thailand"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "8630460_2838631_fact22",
+      "score": 0.931307315826416,
+      "source_id": "8630460_2838631",
+      "value": " Bangkok"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "3308172_1022527_fact27",
+      "score": 0.911689043045044,
+      "source_id": "3308172_1022527",
+      "value": " Bangkok, Thailand"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "57503241_4151850_fact8",
+      "score": 0.9103386402130127,
+      "source_id": "57503241_4151850",
+      "value": " Bangkok"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "38317602_4075354_fact15",
+      "score": 0.9094165563583374,
+      "source_id": "38317602_4075354",
+      "value": " Bangkok, Thailand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45251658_5056024_fact1",
+      "score": 0.7438156604766846,
+      "source_id": "45251658_5056024",
+      "value": " Bangkok, Thailand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2877944_415552_fact1",
+      "score": 0.7408826947212219,
+      "source_id": "2877944_415552",
+      "value": " Bangkok, Thailand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68672237_4672176_fact1",
+      "score": 0.6964240074157715,
+      "source_id": "68672237_4672176",
+      "value": " Bangkok, Thailand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3093254_722026_fact77",
+      "score": 0.6690560579299927,
+      "source_id": "3093254_722026",
+      "value": " Bangkok Games"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36003316_2259681_fact16",
+      "score": 0.6586964726448059,
+      "source_id": "36003316_2259681",
+      "value": " Bangkok"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2853849_380648_fact50",
+      "score": 0.6548864245414734,
+      "source_id": "2853849_380648",
+      "value": " Bangkok"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20635086_2882169_fact41",
+      "score": 0.6494523882865906,
+      "source_id": "20635086_2882169",
+      "value": " Bangkok"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8082630_2117197_fact32",
+      "score": 0.6463867425918579,
+      "source_id": "8082630_2117197",
+      "value": " Bangkok"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14925286_2475493_fact0",
+      "score": 0.6276464462280273,
+      "source_id": "14925286_2475493",
+      "value": " Football Field, Sport Authority of Thailand Sport Complex, Bangkok, Thailand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45247271_5053436_fact1",
+      "score": 0.62447190284729,
+      "source_id": "45247271_5053436",
+      "value": " Bangkok, Thailand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22678994_2489025_fact50",
+      "score": 0.617920994758606,
+      "source_id": "22678994_2489025",
+      "value": " Bangkok"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2877733_415165_fact2",
+      "score": 0.6159298419952393,
+      "source_id": "2877733_415165",
+      "value": " Bangkok, Thailand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26064783_3404092_fact1",
+      "score": 0.6078172326087952,
+      "source_id": "26064783_3404092",
+      "value": " Bangkok, Thailand"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45251645_5056021_fact1",
+      "score": 0.5904989242553711,
+      "source_id": "45251645_5056021",
+      "value": " Bangkok, Thailand"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1128c9e5-0faf-453a-bba1-3e546a781b6c",
+  "index_nprobe": null,
+  "manifest_id": "8acfe5ba5392c7cd",
+  "margin": 0.1354181170463562,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9601684212684631,
+  "s_surv": 0.8247503042221069,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "41609591_4476879_fact1",
+      "score": 0.8247503042221069,
+      "source_id": "41609591_4476879",
+      "value": " Kuala Lumpur, Malaysia"
+    },
+    {
+      "entry_id": "39631011_5245800_fact34",
+      "score": 0.8235243558883667,
+      "source_id": "39631011_5245800",
+      "value": " Manila"
+    },
+    {
+      "entry_id": "52685741_5482233_fact9",
+      "score": 0.823032796382904,
+      "source_id": "52685741_5482233",
+      "value": " Angeles City"
+    },
+    {
+      "entry_id": "67866870_4082192_fact5",
+      "score": 0.8189210891723633,
+      "source_id": "67866870_4082192",
+      "value": " Angeles City"
+    },
+    {
+      "entry_id": "3255813_956022_fact0",
+      "score": 0.8184025287628174,
+      "source_id": "3255813_956022",
+      "value": " the Philippines"
+    }
+  ],
+  "truncated": false
+}

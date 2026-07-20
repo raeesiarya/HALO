@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1419063_1203938_fact1",
+      "score": 0.9434818029403687,
+      "source_id": "1419063_1203938",
+      "value": " Edmonton, Alberta"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "8709481_2942109_fact3",
+      "score": 0.8604422807693481,
+      "source_id": "8709481_2942109",
+      "value": " Bremerton, Washington"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "323924_6039601_fact7",
+      "score": 0.6539448499679565,
+      "source_id": "323924_6039601",
+      "value": " Edmonton, Middlesex"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "75ee6df5-c0cd-428a-bfba-b2fb759b8608",
+  "index_nprobe": null,
+  "manifest_id": "85ee1d87eb667d80",
+  "margin": 0.10839331150054932,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9434818029403687,
+  "s_surv": 0.8350884914398193,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "166719_6014014_fact8",
+      "score": 0.8350884914398193,
+      "source_id": "166719_6014014",
+      "value": " Indianapolis, Indiana"
+    },
+    {
+      "entry_id": "386491_218508_fact45",
+      "score": 0.8224611282348633,
+      "source_id": "386491_218508",
+      "value": " Indianapolis, Indiana"
+    },
+    {
+      "entry_id": "22539279_2354635_fact1",
+      "score": 0.8184688091278076,
+      "source_id": "22539279_2354635",
+      "value": " Castor, Alberta"
+    },
+    {
+      "entry_id": "13460861_3428263_fact5",
+      "score": 0.814176082611084,
+      "source_id": "13460861_3428263",
+      "value": " Dunedin"
+    },
+    {
+      "entry_id": "2341507_738108_fact6",
+      "score": 0.8032040596008301,
+      "source_id": "2341507_738108",
+      "value": " Perth"
+    }
+  ],
+  "truncated": false
+}

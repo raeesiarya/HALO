@@ -1,0 +1,241 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "1789785_849291_fact2",
+      "score": 0.6615864038467407,
+      "source_id": "1789785_849291",
+      "value": " author of lists of geographical names"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2306263_675648_fact237",
+      "score": 0.6191792488098145,
+      "source_id": "2306263_675648",
+      "value": " Latin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2556768_1090269_fact15",
+      "score": 0.6033274531364441,
+      "source_id": "2556768_1090269",
+      "value": " Latin poem on astronomy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "238304_475062_fact4",
+      "score": 0.5690369009971619,
+      "source_id": "238304_475062",
+      "value": " Latin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13243698_3198715_fact77",
+      "score": 0.5318470001220703,
+      "source_id": "13243698_3198715",
+      "value": " Latin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31640489_3358695_fact5",
+      "score": 0.5306481719017029,
+      "source_id": "31640489_3358695",
+      "value": " Latin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19929448_2291131_fact3",
+      "score": 0.5300984382629395,
+      "source_id": "19929448_2291131",
+      "value": " a Late Latin epic versification of the historical books of the Old Testament"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "320529_1006231_fact61",
+      "score": 0.5264731645584106,
+      "source_id": "320529_1006231",
+      "value": " long Latin mock-epic"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52943180_5657837_fact15",
+      "score": 0.526423990726471,
+      "source_id": "52943180_5657837",
+      "value": " Latin panegyric"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "567591_1067970_fact9",
+      "score": 0.523405134677887,
+      "source_id": "567591_1067970",
+      "value": " Latin poem"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3926883_586114_fact19",
+      "score": 0.5229911804199219,
+      "source_id": "3926883_586114",
+      "value": " Latin edition"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1718_92890_fact6",
+      "score": 0.5204288959503174,
+      "source_id": "1718_92890",
+      "value": " volume containing the first complete Latin commentary on the Pauline epistles"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7140438_1052389_fact1",
+      "score": 0.5188935399055481,
+      "source_id": "7140438_1052389",
+      "value": " Latin treatise"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1350923_1050547_fact20",
+      "score": 0.5178751945495605,
+      "source_id": "1350923_1050547",
+      "value": " Latin grammar"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65739535_5062998_fact38",
+      "score": 0.5160703063011169,
+      "source_id": "65739535_5062998",
+      "value": " Latin chronicle of Padua"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "308479_920994_fact20",
+      "score": 0.5150769352912903,
+      "source_id": "308479_920994",
+      "value": " first major alphabetical dictionary in Latin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10614950_2607346_fact3",
+      "score": 0.514886736869812,
+      "source_id": "10614950_2607346",
+      "value": " Latin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8745590_2992296_fact3",
+      "score": 0.5138843059539795,
+      "source_id": "8745590_2992296",
+      "value": " Latin translation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41196708_4106646_fact4",
+      "score": 0.5135915875434875,
+      "source_id": "41196708_4106646",
+      "value": " Latin commentary on the \"Book of Revelation\"."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8631874_2840779_fact2",
+      "score": 0.5133653879165649,
+      "source_id": "8631874_2840779",
+      "value": " Latin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "486431_727057_fact3",
+      "score": 0.5078644156455994,
+      "source_id": "486431_727057",
+      "value": " Medieval Latin poem about chess"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ec81978c-6958-46be-8c68-b65b0212d0f6",
+  "index_nprobe": null,
+  "manifest_id": "adb0ef2a27652f69",
+  "margin": 0.004630565643310547,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6615862846374512,
+  "s_surv": 0.6569557189941406,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "367368_124138_fact4",
+      "score": 0.6569557189941406,
+      "source_id": "367368_124138",
+      "value": " history of imperial Rome"
+    },
+    {
+      "entry_id": "37443026_3407624_fact2",
+      "score": 0.6490926146507263,
+      "source_id": "37443026_3407624",
+      "value": " historical work"
+    },
+    {
+      "entry_id": "22574204_2388281_fact8",
+      "score": 0.6436794996261597,
+      "source_id": "22574204_2388281",
+      "value": " Neoplatonic religious treatise"
+    },
+    {
+      "entry_id": "1265782_862364_fact2",
+      "score": 0.639441192150116,
+      "source_id": "1265782_862364",
+      "value": " \"ars grammatica\""
+    },
+    {
+      "entry_id": "218676_348567_fact4",
+      "score": 0.6380764245986938,
+      "source_id": "218676_348567",
+      "value": " 15-book"
+    }
+  ],
+  "truncated": false
+}

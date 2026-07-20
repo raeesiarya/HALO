@@ -1,0 +1,179 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "14506733_2042887_fact14",
+      "score": 0.8193687796592712,
+      "source_id": "14506733_2042887",
+      "value": " the Automation &amp; Drives Division of Siemens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11150343_3176462_fact12",
+      "score": 0.815422534942627,
+      "source_id": "11150343_3176462",
+      "value": " the Automation &amp; Drives Division of Siemens AG"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2839423_359451_fact29",
+      "score": 0.8076441287994385,
+      "source_id": "2839423_359451",
+      "value": " Siemens AG"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36429543_2608446_fact54",
+      "score": 0.795482873916626,
+      "source_id": "36429543_2608446",
+      "value": " Siemens AG"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30858688_2519846_fact60",
+      "score": 0.7727714776992798,
+      "source_id": "30858688_2519846",
+      "value": " Siemens AG"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5845752_119149_fact38",
+      "score": 0.7573380470275879,
+      "source_id": "5845752_119149",
+      "value": " Siemens AG"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8669659_2891305_fact23",
+      "score": 0.7502211332321167,
+      "source_id": "8669659_2891305",
+      "value": " Siemens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1302568_946353_fact42",
+      "score": 0.7282567024230957,
+      "source_id": "1302568_946353",
+      "value": " Siemens"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28216901_2868415_fact13",
+      "score": 0.6913784146308899,
+      "source_id": "28216901_2868415",
+      "value": " Siemens AG"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4684382_215698_fact27",
+      "score": 0.6865720748901367,
+      "source_id": "4684382_215698",
+      "value": " Siemens AG"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30858688_2519846_fact4",
+      "score": 0.685565710067749,
+      "source_id": "30858688_2519846",
+      "value": " Siemens Industry Automation division"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14506733_2042887_fact15",
+      "score": 0.6653472185134888,
+      "source_id": "14506733_2042887",
+      "value": " Siemens Digital Industries Software"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1302568_946353_fact74",
+      "score": 0.6425620913505554,
+      "source_id": "1302568_946353",
+      "value": " SIEMENS"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2520822_1038661_fact59",
+      "score": 0.6218876242637634,
+      "source_id": "2520822_1038661",
+      "value": " Siemens AG"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "03ae08dd-26a4-43ce-a289-4f95021df1b7",
+  "index_nprobe": null,
+  "manifest_id": "bf43275ce5ab6664",
+  "margin": 0.05285888910293579,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8193687796592712,
+  "s_surv": 0.7665098905563354,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "25976022_3317582_fact12",
+      "score": 0.7665098905563354,
+      "source_id": "25976022_3317582",
+      "value": " privately held Infor Global Solutions"
+    },
+    {
+      "entry_id": "22897286_2695118_fact34",
+      "score": 0.747529149055481,
+      "source_id": "22897286_2695118",
+      "value": " privately held Infor Global Solutions"
+    },
+    {
+      "entry_id": "19456153_1897370_fact4",
+      "score": 0.7327811121940613,
+      "source_id": "19456153_1897370",
+      "value": " GE Aviation"
+    },
+    {
+      "entry_id": "29040339_3514684_fact18",
+      "score": 0.7267288565635681,
+      "source_id": "29040339_3514684",
+      "value": " a consortium of private equity investors"
+    },
+    {
+      "entry_id": "24068714_1518411_fact14",
+      "score": 0.7230834364891052,
+      "source_id": "24068714_1518411",
+      "value": " Clal Insurance Enterprises Holdings Ltd.,"
+    }
+  ],
+  "truncated": false
+}

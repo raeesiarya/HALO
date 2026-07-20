@@ -1,0 +1,882 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "543410_975440_fact3",
+      "score": 0.8922566175460815,
+      "source_id": "543410_975440",
+      "value": " manufacturer Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29038_5982409_fact0",
+      "score": 0.8456045389175415,
+      "source_id": "29038_5982409",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16612062_1537721_fact6",
+      "score": 0.7560956478118896,
+      "source_id": "16612062_1537721",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34426478_3383486_fact2",
+      "score": 0.7349430918693542,
+      "source_id": "34426478_3383486",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5498856_911248_fact2",
+      "score": 0.7337896823883057,
+      "source_id": "5498856_911248",
+      "value": " Renault Sport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44130755_4182111_fact5",
+      "score": 0.7303915619850159,
+      "source_id": "44130755_4182111",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19475254_1911894_fact2",
+      "score": 0.7292795181274414,
+      "source_id": "19475254_1911894",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2443557_916243_fact2",
+      "score": 0.7254683971405029,
+      "source_id": "2443557_916243",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31020010_2743320_fact3",
+      "score": 0.7185441851615906,
+      "source_id": "31020010_2743320",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "608951_85499_fact4",
+      "score": 0.7171981334686279,
+      "source_id": "608951_85499",
+      "value": "Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6846311_843395_fact3",
+      "score": 0.7153144478797913,
+      "source_id": "6846311_843395",
+      "value": "automaker Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "679926_342252_fact4",
+      "score": 0.7142486572265625,
+      "source_id": "679926_342252",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5498856_911248_fact6",
+      "score": 0.7128714323043823,
+      "source_id": "5498856_911248",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39804764_5390196_fact2",
+      "score": 0.7098690271377563,
+      "source_id": "39804764_5390196",
+      "value": " Renault Trucks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29420608_1461874_fact3",
+      "score": 0.707000732421875,
+      "source_id": "29420608_1461874",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "576403_1101599_fact3",
+      "score": 0.7060419917106628,
+      "source_id": "576403_1101599",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4363348_1054865_fact2",
+      "score": 0.7047562599182129,
+      "source_id": "4363348_1054865",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2519882_1037326_fact2",
+      "score": 0.7047396302223206,
+      "source_id": "2519882_1037326",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68201806_4302634_fact1",
+      "score": 0.7022059559822083,
+      "source_id": "68201806_4302634",
+      "value": " Renault Sport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68201988_4302812_fact1",
+      "score": 0.7016732096672058,
+      "source_id": "68201988_4302812",
+      "value": " Renault Sport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2412837_864659_fact2",
+      "score": 0.6980762481689453,
+      "source_id": "2412837_864659",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2251444_566103_fact3",
+      "score": 0.6962043046951294,
+      "source_id": "2251444_566103",
+      "value": "Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72294115_4701211_fact1",
+      "score": 0.6936048269271851,
+      "source_id": "72294115_4701211",
+      "value": " Renault Sport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27634040_2340179_fact2",
+      "score": 0.6929747462272644,
+      "source_id": "27634040_2340179",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "894085_6149917_fact1",
+      "score": 0.6927816271781921,
+      "source_id": "894085_6149917",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2412753_864403_fact2",
+      "score": 0.6924774646759033,
+      "source_id": "2412753_864403",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5471809_890306_fact2",
+      "score": 0.6913876533508301,
+      "source_id": "5471809_890306",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1855441_988950_fact2",
+      "score": 0.6908823847770691,
+      "source_id": "1855441_988950",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7332936_1173003_fact2",
+      "score": 0.6901756525039673,
+      "source_id": "7332936_1173003",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4160563_842382_fact2",
+      "score": 0.6884815096855164,
+      "source_id": "4160563_842382",
+      "value": " Renault V\u00e9hicules Industriels"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1290571_922162_fact3",
+      "score": 0.6880097389221191,
+      "source_id": "1290571_922162",
+      "value": "automaker Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "578655_1111570_fact3",
+      "score": 0.6871106624603271,
+      "source_id": "578655_1111570",
+      "value": "automaker Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1233998_772523_fact3",
+      "score": 0.6834793090820312,
+      "source_id": "1233998_772523",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "897152_6150594_fact2",
+      "score": 0.6832056045532227,
+      "source_id": "897152_6150594",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "608963_85563_fact2",
+      "score": 0.6829151511192322,
+      "source_id": "608963_85563",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5537592_946336_fact2",
+      "score": 0.6827125549316406,
+      "source_id": "5537592_946336",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46760415_5920419_fact2",
+      "score": 0.6822566986083984,
+      "source_id": "46760415_5920419",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2412640_864146_fact2",
+      "score": 0.6796237230300903,
+      "source_id": "2412640_864146",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52043941_5022999_fact3",
+      "score": 0.6784338355064392,
+      "source_id": "52043941_5022999",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61073553_4200958_fact3",
+      "score": 0.6765434741973877,
+      "source_id": "61073553_4200958",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "396029_6053609_fact2",
+      "score": 0.6755274534225464,
+      "source_id": "396029_6053609",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "634618_186511_fact2",
+      "score": 0.6754202246665955,
+      "source_id": "634618_186511",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "975412_1229241_fact2",
+      "score": 0.6738387942314148,
+      "source_id": "975412_1229241",
+      "value": "automaker Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2451039_929632_fact2",
+      "score": 0.669537365436554,
+      "source_id": "2451039_929632",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52182765_5129120_fact4",
+      "score": 0.6690508127212524,
+      "source_id": "52182765_5129120",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "810649_724097_fact2",
+      "score": 0.6671133041381836,
+      "source_id": "810649_724097",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "662169_283689_fact2",
+      "score": 0.6658537983894348,
+      "source_id": "662169_283689",
+      "value": "automaker Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1643231_531858_fact2",
+      "score": 0.6657859683036804,
+      "source_id": "1643231_531858",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68624602_4636816_fact2",
+      "score": 0.6654762029647827,
+      "source_id": "68624602_4636816",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2436529_903606_fact2",
+      "score": 0.6632223129272461,
+      "source_id": "2436529_903606",
+      "value": " Renault Sport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5948587_201693_fact3",
+      "score": 0.6626954078674316,
+      "source_id": "5948587_201693",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52126457_5083461_fact2",
+      "score": 0.6625075936317444,
+      "source_id": "52126457_5083461",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51003428_4251636_fact2",
+      "score": 0.6621813178062439,
+      "source_id": "51003428_4251636",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58228718_4706148_fact3",
+      "score": 0.6614018082618713,
+      "source_id": "58228718_4706148",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6846557_843742_fact3",
+      "score": 0.6538009643554688,
+      "source_id": "6846557_843742",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "662176_283755_fact1",
+      "score": 0.6502687931060791,
+      "source_id": "662176_283755",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1276579_891394_fact2",
+      "score": 0.6497560739517212,
+      "source_id": "1276579_891394",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5939264_193463_fact6",
+      "score": 0.6486321091651917,
+      "source_id": "5939264_193463",
+      "value": " Renault and its subsidiary Dacia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "810741_724390_fact1",
+      "score": 0.6480006575584412,
+      "source_id": "810741_724390",
+      "value": " manufacturer Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27111063_1897307_fact2",
+      "score": 0.6473920345306396,
+      "source_id": "27111063_1897307",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3493444_97079_fact2",
+      "score": 0.6460143327713013,
+      "source_id": "3493444_97079",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16618145_1542685_fact1",
+      "score": 0.64194256067276,
+      "source_id": "16618145_1542685",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53387284_5944814_fact1",
+      "score": 0.640496015548706,
+      "source_id": "53387284_5944814",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48612020_4919939_fact1",
+      "score": 0.6394056081771851,
+      "source_id": "48612020_4919939",
+      "value": " Renault V\u00e9hicles Industrielles (RVI)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "616725_118044_fact1",
+      "score": 0.6376612186431885,
+      "source_id": "616725_118044",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19595441_2004637_fact2",
+      "score": 0.6361663937568665,
+      "source_id": "19595441_2004637",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "242770_6025142_fact1",
+      "score": 0.6354765295982361,
+      "source_id": "242770_6025142",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2412713_864343_fact3",
+      "score": 0.6347463130950928,
+      "source_id": "2412713_864343",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19582551_1994740_fact1",
+      "score": 0.6345628499984741,
+      "source_id": "19582551_1994740",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58083824_4610055_fact2",
+      "score": 0.6342070698738098,
+      "source_id": "58083824_4610055",
+      "value": " Renault V\u00e9hicules Industriels"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "591878_6086020_fact1",
+      "score": 0.633068323135376,
+      "source_id": "591878_6086020",
+      "value": " Renault V\u00e9hicules Industriels"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6759079_766432_fact2",
+      "score": 0.6326898336410522,
+      "source_id": "6759079_766432",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6862819_855594_fact3",
+      "score": 0.6326466202735901,
+      "source_id": "6862819_855594",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24378829_1829044_fact4",
+      "score": 0.6310257911682129,
+      "source_id": "24378829_1829044",
+      "value": " Renault Limited"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27241001_2001214_fact2",
+      "score": 0.6300406455993652,
+      "source_id": "27241001_2001214",
+      "value": " the bus division of Renault Trucks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2511357_1023092_fact1",
+      "score": 0.6287475228309631,
+      "source_id": "2511357_1023092",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39804736_5390191_fact2",
+      "score": 0.6287388801574707,
+      "source_id": "39804736_5390191",
+      "value": " Renault Trucks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6861143_854084_fact2",
+      "score": 0.6274442672729492,
+      "source_id": "6861143_854084",
+      "value": " French car maker Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39804779_5390211_fact3",
+      "score": 0.6264070272445679,
+      "source_id": "39804779_5390211",
+      "value": " Renault Trucks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "139098_6005770_fact0",
+      "score": 0.6236855387687683,
+      "source_id": "139098_6005770",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5947995_201194_fact9",
+      "score": 0.6224406957626343,
+      "source_id": "5947995_201194",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48624182_4931734_fact4",
+      "score": 0.6222366094589233,
+      "source_id": "48624182_4931734",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "274183_6030160_fact1",
+      "score": 0.6220759153366089,
+      "source_id": "274183_6030160",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70794911_3736270_fact1",
+      "score": 0.6205130219459534,
+      "source_id": "70794911_3736270",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5471451_889846_fact3",
+      "score": 0.6204593777656555,
+      "source_id": "5471451_889846",
+      "value": " Renault Sport"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2412803_864548_fact2",
+      "score": 0.6190903782844543,
+      "source_id": "2412803_864548",
+      "value": "automaker Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19514812_1946470_fact3",
+      "score": 0.6126772165298462,
+      "source_id": "19514812_1946470",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39774700_5367158_fact1",
+      "score": 0.6126744151115417,
+      "source_id": "39774700_5367158",
+      "value": " Renault Trucks"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43904324_3982514_fact2",
+      "score": 0.6115670204162598,
+      "source_id": "43904324_3982514",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19583541_1995607_fact1",
+      "score": 0.6112689971923828,
+      "source_id": "19583541_1995607",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52135200_5089615_fact2",
+      "score": 0.6111456155776978,
+      "source_id": "52135200_5089615",
+      "value": " Renault"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1047096_262078_fact2",
+      "score": 0.6109476089477539,
+      "source_id": "1047096_262078",
+      "value": " Renault"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c6110988-e7b6-40d6-9653-8c43f7f3e4c2",
+  "index_nprobe": null,
+  "manifest_id": "62679e17b2babdfd",
+  "margin": 0.05814158916473389,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8922566175460815,
+  "s_surv": 0.8341150283813477,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "543410_975440_fact2",
+      "score": 0.8341150283813477,
+      "source_id": "543410_975440",
+      "value": " French"
+    },
+    {
+      "entry_id": "375366_159926_fact1",
+      "score": 0.7179020643234253,
+      "source_id": "375366_159926",
+      "value": " Nexter Systems"
+    },
+    {
+      "entry_id": "6485494_588629_fact2",
+      "score": 0.7171058654785156,
+      "source_id": "6485494_588629",
+      "value": " Peugeot"
+    },
+    {
+      "entry_id": "4219348_907323_fact2",
+      "score": 0.7159831523895264,
+      "source_id": "4219348_907323",
+      "value": " Chevrolet"
+    },
+    {
+      "entry_id": "41826789_4666629_fact2",
+      "score": 0.7114485502243042,
+      "source_id": "41826789_4666629",
+      "value": " Citro\u00ebn"
+    }
+  ],
+  "truncated": false
+}

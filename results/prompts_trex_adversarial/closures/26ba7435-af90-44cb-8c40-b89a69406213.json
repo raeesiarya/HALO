@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "32072672_1423545_fact3",
+      "score": 0.9471718072891235,
+      "source_id": "32072672_1423545",
+      "value": " Montreal, Quebec"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "26ba7435-af90-44cb-8c40-b89a69406213",
+  "index_nprobe": null,
+  "manifest_id": "c13b0366290d3fe2",
+  "margin": 0.19782006740570068,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.947171688079834,
+  "s_surv": 0.7493516206741333,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "55382710_4946267_fact3",
+      "score": 0.7493516206741333,
+      "source_id": "55382710_4946267",
+      "value": " Beaumont, Texas"
+    },
+    {
+      "entry_id": "4185534_871736_fact3",
+      "score": 0.748528003692627,
+      "source_id": "4185534_871736",
+      "value": " Hong Kong"
+    },
+    {
+      "entry_id": "58697699_5018013_fact3",
+      "score": 0.7476041316986084,
+      "source_id": "58697699_5018013",
+      "value": " New Mexico"
+    },
+    {
+      "entry_id": "6853304_848896_fact3",
+      "score": 0.7426527738571167,
+      "source_id": "6853304_848896",
+      "value": " Rumford, Maine"
+    },
+    {
+      "entry_id": "34856995_1404212_fact2",
+      "score": 0.7402181625366211,
+      "source_id": "34856995_1404212",
+      "value": " Liverpool"
+    }
+  ],
+  "truncated": false
+}

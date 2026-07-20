@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3532547_143839_fact2",
+      "score": 0.9307407736778259,
+      "source_id": "3532547_143839",
+      "value": " Nottingham"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "04011add-c9a6-48f4-9b83-c98b4521d425",
+  "index_nprobe": null,
+  "manifest_id": "fe45fc81466ee22b",
+  "margin": 0.12445563077926636,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9307407736778259,
+  "s_surv": 0.8062851428985596,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "33325570_2452685_fact2",
+      "score": 0.8062851428985596,
+      "source_id": "33325570_2452685",
+      "value": " 2009"
+    },
+    {
+      "entry_id": "33325570_2452685_fact3",
+      "score": 0.7480772137641907,
+      "source_id": "33325570_2452685",
+      "value": " Amsterdam"
+    },
+    {
+      "entry_id": "55419537_4969323_fact1",
+      "score": 0.7317260503768921,
+      "source_id": "55419537_4969323",
+      "value": " 2004"
+    },
+    {
+      "entry_id": "25469228_2835320_fact2",
+      "score": 0.7164589166641235,
+      "source_id": "25469228_2835320",
+      "value": " 1967"
+    },
+    {
+      "entry_id": "22165704_1998284_fact3",
+      "score": 0.7135702967643738,
+      "source_id": "22165704_1998284",
+      "value": " 1964"
+    }
+  ],
+  "truncated": false
+}

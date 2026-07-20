@@ -1,0 +1,162 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "636625_194835_fact2",
+      "score": 0.9205883741378784,
+      "source_id": "636625_194835",
+      "value": " Bristol, Cornwall, Devon, Somerset, western Dorset, parts of Gloucestershire and Wiltshire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12043148_1766130_fact10",
+      "score": 0.6794209480285645,
+      "source_id": "12043148_1766130",
+      "value": " Bristol, Somerset, Gloucestershire and Wiltshire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21467976_1344352_fact59",
+      "score": 0.6417148113250732,
+      "source_id": "21467976_1344352",
+      "value": " Bristol, parts of Dorset, Gloucestershire, Somerset and Wiltshire"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1819009_913808_fact4",
+      "score": 0.6204103231430054,
+      "source_id": "1819009_913808",
+      "value": " the central and western parts of Bristol"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4764500_287172_fact189",
+      "score": 0.6190101504325867,
+      "source_id": "4764500_287172",
+      "value": " most of greater Bristol"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3227079_914772_fact3",
+      "score": 0.6166086196899414,
+      "source_id": "3227079_914772",
+      "value": " Bristol, the majority of Wiltshire and Gloucestershire, northern, eastern and parts of western and southern Somerset &amp; North Dorset"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20896387_3141803_fact113",
+      "score": 0.6144908666610718,
+      "source_id": "20896387_3141803",
+      "value": " Bristol, Cornwall, Devon, Gloucester and Somerset"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20571171_2818162_fact189",
+      "score": 0.5980734825134277,
+      "source_id": "20571171_2818162",
+      "value": " Bristol, Somerset, Wiltshire and parts of Gloucestershire and Dorset"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8021086_2044338_fact1",
+      "score": 0.5950239300727844,
+      "source_id": "8021086_2044338",
+      "value": " Bristol, the majority of Wiltshire and Gloucestershire; northern and eastern Somerset and northeastern Dorset"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53966423_3999570_fact9",
+      "score": 0.5795583724975586,
+      "source_id": "53966423_3999570",
+      "value": " Bristol, South Gloucestershire, and Bath and North East Somerset"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "155929_1009583_fact79",
+      "score": 0.5698014497756958,
+      "source_id": "155929_1009583",
+      "value": " Bristol, South Gloucestershire and Bath and North East Somerset counties"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4687527_218992_fact21",
+      "score": 0.5670920610427856,
+      "source_id": "4687527_218992",
+      "value": " Bristol, South Gloucestershire, and Bath and North East Somerset"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7082e5f5-ec5c-42b1-af4a-82850bb9b4de",
+  "index_nprobe": null,
+  "manifest_id": "17e482bf152b2112",
+  "margin": 0.12259817123413086,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9205883741378784,
+  "s_surv": 0.7979902029037476,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "63656510_3642141_fact8",
+      "score": 0.7979902029037476,
+      "source_id": "63656510_3642141",
+      "value": " Argyll &amp; Bute, Ayrshire, East Dunbartonshire, West Dunbartonshire, Glasgow, Inverclyde, Lanarkshire, East Renfrewshire and Renfrewshire"
+    },
+    {
+      "entry_id": "3538215_150977_fact23",
+      "score": 0.7934180498123169,
+      "source_id": "3538215_150977",
+      "value": " the whole of modern Lancashire, plus areas of Cumbria, Greater Manchester, Merseyside, and even West Yorkshire"
+    },
+    {
+      "entry_id": "55345714_4929290_fact2",
+      "score": 0.7610182762145996,
+      "source_id": "55345714_4929290",
+      "value": " the Colonial Valley Conference, the Burlington County Scholastic League, the Olympic Conference (New Jersey), the Tri-County Conference (New Jersey), the Colonial Conference (New Jersey), and the Cape-Atlantic League"
+    },
+    {
+      "entry_id": "12469878_2306472_fact2",
+      "score": 0.7589332461357117,
+      "source_id": "12469878_2306472",
+      "value": " Arizona, Idaho, New Mexico and Utah"
+    },
+    {
+      "entry_id": "63260002_5706642_fact1",
+      "score": 0.7395951747894287,
+      "source_id": "63260002_5706642",
+      "value": " the Central West region of New South Wales"
+    }
+  ],
+  "truncated": false
+}

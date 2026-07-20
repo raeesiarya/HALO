@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "2286843_635765_fact42",
+      "score": 0.8469325304031372,
+      "source_id": "2286843_635765",
+      "value": "Montenegro"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24322040_1775139_fact206",
+      "score": 0.6202981472015381,
+      "source_id": "24322040_1775139",
+      "value": " \"Serbian Sparta"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60921_9340_fact1",
+      "score": 0.5767456293106079,
+      "source_id": "60921_9340",
+      "value": " Serbian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26252796_3568374_fact92",
+      "score": 0.5566801428794861,
+      "source_id": "26252796_3568374",
+      "value": "the Republic of Serbian Krajina"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "faf61a9c-5ff2-4989-a211-3c7e67417e42",
+  "index_nprobe": null,
+  "manifest_id": "1de9cedca0b23e0d",
+  "margin": 0.007069587707519531,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8469325304031372,
+  "s_surv": 0.8398629426956177,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "52049659_5026624_fact51",
+      "score": 0.8398629426956177,
+      "source_id": "52049659_5026624",
+      "value": "2006"
+    },
+    {
+      "entry_id": "42209368_5001303_fact2",
+      "score": 0.8093580007553101,
+      "source_id": "42209368_5001303",
+      "value": "Axis occupied Yugoslavia"
+    },
+    {
+      "entry_id": "42310388_5082443_fact75",
+      "score": 0.7971625328063965,
+      "source_id": "42310388_5082443",
+      "value": "2006"
+    },
+    {
+      "entry_id": "16996062_1881091_fact15",
+      "score": 0.7898898720741272,
+      "source_id": "16996062_1881091",
+      "value": "2006\u2013"
+    },
+    {
+      "entry_id": "375905_162631_fact65",
+      "score": 0.7864606976509094,
+      "source_id": "375905_162631",
+      "value": "an Italian protectorate"
+    }
+  ],
+  "truncated": false
+}

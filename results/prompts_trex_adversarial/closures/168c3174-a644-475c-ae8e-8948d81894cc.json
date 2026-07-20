@@ -1,0 +1,205 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "44907265_4812959_fact88",
+      "score": 0.6943126916885376,
+      "source_id": "44907265_4812959",
+      "value": " Bishop Sleiman Hajjar"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27228107_1992261_fact47",
+      "score": 0.6761542558670044,
+      "source_id": "27228107_1992261",
+      "value": " Bishops Augustine Francis Wildermuth, Stephen Anthony Appelhans, John Joseph Boardman, Richard Henry Ackerman and Archbishop Leo Clement Andrew Arkfeld"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45452071_5222074_fact14",
+      "score": 0.6558755040168762,
+      "source_id": "45452071_5222074",
+      "value": " Archbishop Nikolaki Sawaf of Latakia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11512638_3596852_fact61",
+      "score": 0.6405614018440247,
+      "source_id": "11512638_3596852",
+      "value": " Bishop Enrique San Pedro S.J., Bishop Gilberto Fern\u00e1ndez, Archbishop Thomas Gerard Wenski, and Bishop John Gerard Noonan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31919547_1290537_fact60",
+      "score": 0.6231703758239746,
+      "source_id": "31919547_1290537",
+      "value": " Archbishop of Melbourne"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45441875_5213636_fact13",
+      "score": 0.6154167652130127,
+      "source_id": "45441875_5213636",
+      "value": " Archbishop Etienne Soukkarie"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35722340_2021990_fact15",
+      "score": 0.603574275970459,
+      "source_id": "35722340_2021990",
+      "value": " Archbishop Thurstan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2772978_270231_fact6",
+      "score": 0.5943336486816406,
+      "source_id": "2772978_270231",
+      "value": " French Archbishop Antonin Drapier"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45675696_5408191_fact13",
+      "score": 0.5858466625213623,
+      "source_id": "45675696_5408191",
+      "value": " Archbishop Elias Zoghby of Baalbek"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45533606_5293602_fact31",
+      "score": 0.5855200290679932,
+      "source_id": "45533606_5293602",
+      "value": " Archbishop of Beirut and Byblos"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29084382_1239228_fact33",
+      "score": 0.5839767456054688,
+      "source_id": "29084382_1239228",
+      "value": " Archbishop Donald Alphonsus Campbell of Glasgow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7908389_1889546_fact64",
+      "score": 0.5775905251502991,
+      "source_id": "7908389_1889546",
+      "value": " Archbishop St\u00e9phane Katchou, Bishop Ibrahim Namo Ibrahim, Bishop Youssef Ibrahim Sarraf, and Archbishop Jibrail Kassab"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32470831_1743561_fact71",
+      "score": 0.5725796222686768,
+      "source_id": "32470831_1743561",
+      "value": " Archbishop Wilton Gregory"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42584584_5320657_fact33",
+      "score": 0.5650193095207214,
+      "source_id": "42584584_5320657",
+      "value": " Archbishop Nikolaki Sawaf of Latakia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45439689_5212039_fact15",
+      "score": 0.5606226921081543,
+      "source_id": "45439689_5212039",
+      "value": " Archbishop Nikolaki Sawaf"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30686989_2355968_fact88",
+      "score": 0.544472873210907,
+      "source_id": "30686989_2355968",
+      "value": " Bishop Kavanagh and Archbishop Mataca of Suva"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4801789_317822_fact44",
+      "score": 0.5388561487197876,
+      "source_id": "4801789_317822",
+      "value": " Archbishop Bernard Longley"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "168c3174-a644-475c-ae8e-8948d81894cc",
+  "index_nprobe": null,
+  "manifest_id": "2b20e03a84bb0165",
+  "margin": 0.0206373929977417,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6943126916885376,
+  "s_surv": 0.6736752986907959,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "10382425_2371564_fact83",
+      "score": 0.6736752986907959,
+      "source_id": "10382425_2371564",
+      "value": " Auxiliary Bishop James D. Conley"
+    },
+    {
+      "entry_id": "39039683_4691312_fact49",
+      "score": 0.666986882686615,
+      "source_id": "39039683_4691312",
+      "value": " Everardus Johannes de Jong"
+    },
+    {
+      "entry_id": "30252047_2035005_fact67",
+      "score": 0.6618866920471191,
+      "source_id": "30252047_2035005",
+      "value": " June Osborne"
+    },
+    {
+      "entry_id": "4568745_115345_fact53",
+      "score": 0.6616402864456177,
+      "source_id": "4568745_115345",
+      "value": " Bishop Michael Dallat and Bishop Donal McKeown"
+    },
+    {
+      "entry_id": "1656117_560725_fact28",
+      "score": 0.6561965942382812,
+      "source_id": "1656117_560725",
+      "value": " Bernardino de Carmona"
+    }
+  ],
+  "truncated": false
+}

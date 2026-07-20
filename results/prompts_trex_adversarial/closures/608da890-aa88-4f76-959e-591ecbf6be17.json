@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "6712098_727285_fact4",
+      "score": 0.9047946929931641,
+      "source_id": "6712098_727285",
+      "value": " Indonesian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48815387_5098002_fact2",
+      "score": 0.5287512540817261,
+      "source_id": "48815387_5098002",
+      "value": " general secretary of the Communist Party of Indonesia (PKI)"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "608da890-aa88-4f76-959e-591ecbf6be17",
+  "index_nprobe": null,
+  "manifest_id": "628cde794afc3df8",
+  "margin": 0.18407762050628662,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9047945737838745,
+  "s_surv": 0.7207169532775879,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6719604_734349_fact19",
+      "score": 0.7207169532775879,
+      "source_id": "6719604_734349",
+      "value": " former Indonesian minister of foreign affairs"
+    },
+    {
+      "entry_id": "2141669_364976_fact2",
+      "score": 0.6884036660194397,
+      "source_id": "2141669_364976",
+      "value": " Indonesian"
+    },
+    {
+      "entry_id": "20544633_2788935_fact2",
+      "score": 0.6573159694671631,
+      "source_id": "20544633_2788935",
+      "value": " British Thoroughbred racehorse"
+    },
+    {
+      "entry_id": "23023763_2800319_fact2",
+      "score": 0.65272057056427,
+      "source_id": "23023763_2800319",
+      "value": " Hungarian"
+    },
+    {
+      "entry_id": "72364151_4740777_fact3",
+      "score": 0.6481289267539978,
+      "source_id": "72364151_4740777",
+      "value": " Indonesian"
+    }
+  ],
+  "truncated": false
+}

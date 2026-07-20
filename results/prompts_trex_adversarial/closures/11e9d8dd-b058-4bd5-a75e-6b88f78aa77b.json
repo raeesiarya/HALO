@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "41409092_4302401_fact4",
+      "score": 0.6906207799911499,
+      "source_id": "41409092_4302401",
+      "value": " First Boer War"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "11e9d8dd-b058-4bd5-a75e-6b88f78aa77b",
+  "index_nprobe": null,
+  "manifest_id": "d89511569cf73acb",
+  "margin": 0.0051229000091552734,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6906206011772156,
+  "s_surv": 0.6854977011680603,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "38765057_4439684_fact91",
+      "score": 0.6854977011680603,
+      "source_id": "38765057_4439684",
+      "value": " Ninth Frontier War"
+    },
+    {
+      "entry_id": "8051391_2080727_fact4",
+      "score": 0.6827242970466614,
+      "source_id": "8051391_2080727",
+      "value": " War of 1812"
+    },
+    {
+      "entry_id": "40811125_3756845_fact16",
+      "score": 0.6807616949081421,
+      "source_id": "40811125_3756845",
+      "value": " Civil War"
+    },
+    {
+      "entry_id": "8023593_2046840_fact6",
+      "score": 0.6797174215316772,
+      "source_id": "8023593_2046840",
+      "value": " World War I"
+    },
+    {
+      "entry_id": "204984_252441_fact7",
+      "score": 0.6659314632415771,
+      "source_id": "204984_252441",
+      "value": " Mexican\u2013American War and Seminole Wars"
+    }
+  ],
+  "truncated": false
+}

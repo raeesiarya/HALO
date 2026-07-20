@@ -1,0 +1,646 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "24282646_1735747_fact6",
+      "score": 0.9462717771530151,
+      "source_id": "24282646_1735747",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "56296673_5611306_fact10",
+      "score": 0.9408435821533203,
+      "source_id": "56296673_5611306",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "48628223_4936657_fact9",
+      "score": 0.936725914478302,
+      "source_id": "48628223_4936657",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "42781412_5477295_fact32",
+      "score": 0.9197938442230225,
+      "source_id": "42781412_5477295",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "2060983_228192_fact8",
+      "score": 0.9190056324005127,
+      "source_id": "2060983_228192",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "3190132_863037_fact20",
+      "score": 0.8891395330429077,
+      "source_id": "3190132_863037",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "5693920_1085487_fact6",
+      "score": 0.8883529901504517,
+      "source_id": "5693920_1085487",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "62261177_5039366_fact4",
+      "score": 0.8673047423362732,
+      "source_id": "62261177_5039366",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "71845240_4418183_fact8",
+      "score": 0.8625199794769287,
+      "source_id": "71845240_4418183",
+      "value": " Department of Fine Arts"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "28159705_2811312_fact3",
+      "score": 0.85715252161026,
+      "source_id": "28159705_2811312",
+      "value": " Faculty of Fine Arts, Department of Stage and Costume Design"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17541118_2362134_fact5",
+      "score": 0.8405357599258423,
+      "source_id": "17541118_2362134",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64800314_4529731_fact38",
+      "score": 0.8394230604171753,
+      "source_id": "64800314_4529731",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9309844_1234564_fact20",
+      "score": 0.8328415155410767,
+      "source_id": "9309844_1234564",
+      "value": "Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46589940_5780285_fact5",
+      "score": 0.830045223236084,
+      "source_id": "46589940_5780285",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31530875_3228667_fact31",
+      "score": 0.8081598281860352,
+      "source_id": "31530875_3228667",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8679774_2904025_fact3",
+      "score": 0.7941526770591736,
+      "source_id": "8679774_2904025",
+      "value": " the F\u0131nd\u0131kl\u0131 neighbourhood of Beyo\u011flu, Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56515554_5756700_fact6",
+      "score": 0.7882778644561768,
+      "source_id": "56515554_5756700",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39381386_5012617_fact6",
+      "score": 0.7864518165588379,
+      "source_id": "39381386_5012617",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15328234_2829504_fact20",
+      "score": 0.776559591293335,
+      "source_id": "15328234_2829504",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54921082_4675384_fact27",
+      "score": 0.7647674083709717,
+      "source_id": "54921082_4675384",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56972946_3736037_fact123",
+      "score": 0.7574693560600281,
+      "source_id": "56972946_3736037",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9735135_1715853_fact12",
+      "score": 0.7180082201957703,
+      "source_id": "9735135_1715853",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54842295_4638638_fact75",
+      "score": 0.7019994258880615,
+      "source_id": "54842295_4638638",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29396839_1436214_fact23",
+      "score": 0.6801998019218445,
+      "source_id": "29396839_1436214",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66521270_5609183_fact7",
+      "score": 0.6652215719223022,
+      "source_id": "66521270_5609183",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48880967_5155716_fact11",
+      "score": 0.6454256772994995,
+      "source_id": "48880967_5155716",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33595522_2668117_fact1",
+      "score": 0.6449494957923889,
+      "source_id": "33595522_2668117",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42710923_5424104_fact10",
+      "score": 0.642810583114624,
+      "source_id": "42710923_5424104",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24920051_2333574_fact11",
+      "score": 0.6409728527069092,
+      "source_id": "24920051_2333574",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10129502_2126311_fact36",
+      "score": 0.629489004611969,
+      "source_id": "10129502_2126311",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24542894_1988902_fact5",
+      "score": 0.6273155212402344,
+      "source_id": "24542894_1988902",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56922165_3694676_fact8",
+      "score": 0.6272584199905396,
+      "source_id": "56922165_3694676",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37763370_3580030_fact15",
+      "score": 0.62691330909729,
+      "source_id": "37763370_3580030",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "699615_6103293_fact1",
+      "score": 0.6258375644683838,
+      "source_id": "699615_6103293",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29096295_1244215_fact2",
+      "score": 0.6226298809051514,
+      "source_id": "29096295_1244215",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39292065_4925332_fact11",
+      "score": 0.6219731569290161,
+      "source_id": "39292065_4925332",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62139677_4956779_fact66",
+      "score": 0.6150728464126587,
+      "source_id": "62139677_4956779",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33270462_2409834_fact35",
+      "score": 0.6137590408325195,
+      "source_id": "33270462_2409834",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23445212_3169196_fact24",
+      "score": 0.610322892665863,
+      "source_id": "23445212_3169196",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61422095_4444387_fact37",
+      "score": 0.6095391511917114,
+      "source_id": "61422095_4444387",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13032195_2984845_fact13",
+      "score": 0.6073548197746277,
+      "source_id": "13032195_2984845",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28212233_2864827_fact3",
+      "score": 0.6033742427825928,
+      "source_id": "28212233_2864827",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24747811_2175466_fact11",
+      "score": 0.603043794631958,
+      "source_id": "24747811_2175466",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "244306_6025435_fact1",
+      "score": 0.6019911170005798,
+      "source_id": "244306_6025435",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22584828_2400059_fact11",
+      "score": 0.6013032793998718,
+      "source_id": "22584828_2400059",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5224169_680946_fact25",
+      "score": 0.5985600352287292,
+      "source_id": "5224169_680946",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "622980_141853_fact2",
+      "score": 0.5984050631523132,
+      "source_id": "622980_141853",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "699393_395440_fact1",
+      "score": 0.5977256298065186,
+      "source_id": "699393_395440",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19537792_1965684_fact3",
+      "score": 0.5921934247016907,
+      "source_id": "19537792_1965684",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38659695_4354870_fact1",
+      "score": 0.5913562178611755,
+      "source_id": "38659695_4354870",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68767344_4746653_fact19",
+      "score": 0.5908620357513428,
+      "source_id": "68767344_4746653",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9543667_1508394_fact4",
+      "score": 0.5882617235183716,
+      "source_id": "9543667_1508394",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "606806_78081_fact1",
+      "score": 0.5855550765991211,
+      "source_id": "606806_78081",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72906547_5056610_fact23",
+      "score": 0.5834635496139526,
+      "source_id": "72906547_5056610",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4540557_88777_fact10",
+      "score": 0.5829077959060669,
+      "source_id": "4540557_88777",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2325716_710523_fact29",
+      "score": 0.5822603702545166,
+      "source_id": "2325716_710523",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62804567_5404336_fact1",
+      "score": 0.5803996324539185,
+      "source_id": "62804567_5404336",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4356411_1046734_fact39",
+      "score": 0.5797817707061768,
+      "source_id": "4356411_1046734",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64522591_4317413_fact1",
+      "score": 0.5794835090637207,
+      "source_id": "64522591_4317413",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56235101_5572303_fact35",
+      "score": 0.5781466364860535,
+      "source_id": "56235101_5572303",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68352648_4413825_fact0",
+      "score": 0.5778517723083496,
+      "source_id": "68352648_4413825",
+      "value": " the Ata\u015fehir district of Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65280124_4733625_fact5",
+      "score": 0.5764412879943848,
+      "source_id": "65280124_4733625",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "375401_54771_fact13",
+      "score": 0.5763334035873413,
+      "source_id": "375401_54771",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63963978_3876719_fact23",
+      "score": 0.5754026174545288,
+      "source_id": "63963978_3876719",
+      "value": " Ata\u015fehir, Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71975937_4495561_fact8",
+      "score": 0.5740933418273926,
+      "source_id": "71975937_4495561",
+      "value": " Istanbul, Turkey"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a515049c-ca49-4449-b266-ccd00b4f984e",
+  "index_nprobe": null,
+  "manifest_id": "f1b2c9d0cc531f69",
+  "margin": 0.13956612348556519,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9462717771530151,
+  "s_surv": 0.80670565366745,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "235460_456565_fact87",
+      "score": 0.80670565366745,
+      "source_id": "235460_456565",
+      "value": " Opera Major Arts and Concert Singing Department"
+    },
+    {
+      "entry_id": "61090366_4212240_fact8",
+      "score": 0.8063504695892334,
+      "source_id": "61090366_4212240",
+      "value": " 1982"
+    },
+    {
+      "entry_id": "65078625_4631571_fact4",
+      "score": 0.8031294941902161,
+      "source_id": "65078625_4631571",
+      "value": " 1983"
+    },
+    {
+      "entry_id": "20578960_2824899_fact2",
+      "score": 0.8005571365356445,
+      "source_id": "20578960_2824899",
+      "value": " Mersin Province, Turkey"
+    },
+    {
+      "entry_id": "65230695_4700767_fact9",
+      "score": 0.8000979423522949,
+      "source_id": "65230695_4700767",
+      "value": " 1987"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "46211288_5477841_fact26",
+      "score": 0.7109101414680481,
+      "source_id": "46211288_5477841",
+      "value": " The Williams Brothers"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14165555_1707318_fact97",
+      "score": 0.6084226965904236,
+      "source_id": "14165555_1707318",
+      "value": "the first African-American quarterback to win the Super Bowl"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "da8bf57f-f859-48ac-94f9-d662a93088d3",
+  "index_nprobe": null,
+  "manifest_id": "7d4170a71ef69821",
+  "margin": 0.004460036754608154,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7109101414680481,
+  "s_surv": 0.7064501047134399,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1294246_928750_fact59",
+      "score": 0.7064501047134399,
+      "source_id": "1294246_928750",
+      "value": " New Orleans Police Department"
+    },
+    {
+      "entry_id": "56472647_5731016_fact52",
+      "score": 0.6954783797264099,
+      "source_id": "56472647_5731016",
+      "value": " International Chiropractors Association"
+    },
+    {
+      "entry_id": "62187961_4992273_fact11",
+      "score": 0.6932541131973267,
+      "source_id": "62187961_4992273",
+      "value": " Texas"
+    },
+    {
+      "entry_id": "28718414_3228879_fact173",
+      "score": 0.6912624835968018,
+      "source_id": "28718414_3228879",
+      "value": " Omega Psi Phi"
+    },
+    {
+      "entry_id": "157845_1029890_fact34",
+      "score": 0.6847630739212036,
+      "source_id": "157845_1029890",
+      "value": " Grace Communion International Board of Directors"
+    }
+  ],
+  "truncated": false
+}

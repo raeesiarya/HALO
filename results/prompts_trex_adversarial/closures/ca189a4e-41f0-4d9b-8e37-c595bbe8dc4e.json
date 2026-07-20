@@ -1,0 +1,225 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "4646740_183349_fact1",
+      "score": 0.9502827525138855,
+      "source_id": "4646740_183349",
+      "value": " Brisbane, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25800084_3143935_fact1",
+      "score": 0.7327835559844971,
+      "source_id": "25800084_3143935",
+      "value": " Brisbane, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25173673_2569709_fact0",
+      "score": 0.658693790435791,
+      "source_id": "25173673_2569709",
+      "value": " Brisbane, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7437129_1259364_fact97",
+      "score": 0.6389827132225037,
+      "source_id": "7437129_1259364",
+      "value": " the Brisbane Town Hall and throughout the city"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22761401_2571505_fact0",
+      "score": 0.6366465091705322,
+      "source_id": "22761401_2571505",
+      "value": " Brisbane, Queensland, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70300807_5718778_fact0",
+      "score": 0.6239780187606812,
+      "source_id": "70300807_5718778",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37649654_3564529_fact17",
+      "score": 0.6086844801902771,
+      "source_id": "37649654_3564529",
+      "value": "Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32659939_1899855_fact27",
+      "score": 0.6011948585510254,
+      "source_id": "32659939_1899855",
+      "value": " Brisbane, Queensland, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44305359_4341518_fact49",
+      "score": 0.5878918766975403,
+      "source_id": "44305359_4341518",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19860250_2227573_fact53",
+      "score": 0.5868639349937439,
+      "source_id": "19860250_2227573",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48906270_5174963_fact32",
+      "score": 0.5856273174285889,
+      "source_id": "48906270_5174963",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61023886_4170194_fact7",
+      "score": 0.5750023126602173,
+      "source_id": "61023886_4170194",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52994076_5692343_fact2",
+      "score": 0.5686053037643433,
+      "source_id": "52994076_5692343",
+      "value": " Brisbane, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27267665_2020726_fact32",
+      "score": 0.5642606019973755,
+      "source_id": "27267665_2020726",
+      "value": " Brisbane, Queensland, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28977695_3465877_fact1",
+      "score": 0.5598792433738708,
+      "source_id": "28977695_3465877",
+      "value": " Brisbane, Queensland, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1342873_1029354_fact131",
+      "score": 0.5586498975753784,
+      "source_id": "1342873_1029354",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38166337_3933400_fact150",
+      "score": 0.5559705495834351,
+      "source_id": "38166337_3933400",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51280843_4491981_fact34",
+      "score": 0.5475921630859375,
+      "source_id": "51280843_4491981",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52090496_5058664_fact23",
+      "score": 0.546489953994751,
+      "source_id": "52090496_5058664",
+      "value": " Brisbane, Queensland, Australia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ca189a4e-41f0-4d9b-8e37-c595bbe8dc4e",
+  "index_nprobe": null,
+  "manifest_id": "5ea0b0cccf696bed",
+  "margin": 0.156549870967865,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9502827525138855,
+  "s_surv": 0.7937328815460205,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "51487127_4661645_fact2",
+      "score": 0.7937328815460205,
+      "source_id": "51487127_4661645",
+      "value": " the Bahamas"
+    },
+    {
+      "entry_id": "17201422_2059484_fact2",
+      "score": 0.7521661520004272,
+      "source_id": "17201422_2059484",
+      "value": " Boulder, Colorado USA"
+    },
+    {
+      "entry_id": "12567704_2443057_fact0",
+      "score": 0.7414201498031616,
+      "source_id": "12567704_2443057",
+      "value": " Belize City, Belize"
+    },
+    {
+      "entry_id": "43074409_5686709_fact2",
+      "score": 0.7409400939941406,
+      "source_id": "43074409_5686709",
+      "value": " Burbank, California, United States"
+    },
+    {
+      "entry_id": "10891264_2872661_fact1",
+      "score": 0.7316786050796509,
+      "source_id": "10891264_2872661",
+      "value": " the borough of Brooklyn in New York City"
+    }
+  ],
+  "truncated": false
+}

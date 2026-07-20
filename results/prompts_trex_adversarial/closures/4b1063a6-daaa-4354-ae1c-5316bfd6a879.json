@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "11039243_3049341_fact84",
+      "score": 0.7948201298713684,
+      "source_id": "11039243_3049341",
+      "value": " Red Lion"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8525222_2693563_fact1",
+      "score": 0.6478301286697388,
+      "source_id": "8525222_2693563",
+      "value": " Perth, Western Australia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4b1063a6-daaa-4354-ae1c-5316bfd6a879",
+  "index_nprobe": null,
+  "manifest_id": "0b2a7e9dfb8e2558",
+  "margin": 0.010121643543243408,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7948201298713684,
+  "s_surv": 0.784698486328125,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "26223230_3544057_fact1",
+      "score": 0.784698486328125,
+      "source_id": "26223230_3544057",
+      "value": " Northern Ireland"
+    },
+    {
+      "entry_id": "64180799_4053511_fact0",
+      "score": 0.7840572595596313,
+      "source_id": "64180799_4053511",
+      "value": " Scottish"
+    },
+    {
+      "entry_id": "45505856_5269257_fact1",
+      "score": 0.7803086042404175,
+      "source_id": "45505856_5269257",
+      "value": " Israel"
+    },
+    {
+      "entry_id": "13025519_2977827_fact2",
+      "score": 0.7769735455513,
+      "source_id": "13025519_2977827",
+      "value": " Rome, Italy"
+    },
+    {
+      "entry_id": "14401500_1931509_fact0",
+      "score": 0.7597473859786987,
+      "source_id": "14401500_1931509",
+      "value": " Scottish"
+    }
+  ],
+  "truncated": false
+}

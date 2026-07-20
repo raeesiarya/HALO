@@ -1,0 +1,2332 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "25190742_2585480_fact4",
+      "score": 0.9352428913116455,
+      "source_id": "25190742_2585480",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "25048725_2451953_fact3",
+      "score": 0.9257315397262573,
+      "source_id": "25048725_2451953",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5490868_904333_fact4",
+      "score": 0.8109188675880432,
+      "source_id": "5490868_904333",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "399005_275850_fact3",
+      "score": 0.7982903718948364,
+      "source_id": "399005_275850",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59517494_5501903_fact3",
+      "score": 0.788554310798645,
+      "source_id": "59517494_5501903",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "453092_566254_fact6",
+      "score": 0.778835654258728,
+      "source_id": "453092_566254",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2223561_516834_fact2",
+      "score": 0.7717803716659546,
+      "source_id": "2223561_516834",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12496195_2346881_fact3",
+      "score": 0.7638155221939087,
+      "source_id": "12496195_2346881",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59352014_5404181_fact4",
+      "score": 0.7612775564193726,
+      "source_id": "59352014_5404181",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41178090_4089250_fact7",
+      "score": 0.7607297301292419,
+      "source_id": "41178090_4089250",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27138299_1923609_fact4",
+      "score": 0.7592732906341553,
+      "source_id": "27138299_1923609",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27341077_2079924_fact4",
+      "score": 0.7563680410385132,
+      "source_id": "27341077_2079924",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25546120_2908999_fact4",
+      "score": 0.7550666928291321,
+      "source_id": "25546120_2908999",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32655775_1890957_fact3",
+      "score": 0.7544273734092712,
+      "source_id": "32655775_1890957",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32659995_1899922_fact4",
+      "score": 0.7520462870597839,
+      "source_id": "32659995_1899922",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34436555_3393284_fact3",
+      "score": 0.7518811225891113,
+      "source_id": "34436555_3393284",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59694266_5615693_fact4",
+      "score": 0.7506209015846252,
+      "source_id": "59694266_5615693",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69987553_5529825_fact2",
+      "score": 0.7500849962234497,
+      "source_id": "69987553_5529825",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59323991_5385892_fact3",
+      "score": 0.7458221316337585,
+      "source_id": "59323991_5385892",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61842939_4752536_fact3",
+      "score": 0.7444741725921631,
+      "source_id": "61842939_4752536",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1847616_971726_fact3",
+      "score": 0.74293053150177,
+      "source_id": "1847616_971726",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69245480_5061354_fact4",
+      "score": 0.7419249415397644,
+      "source_id": "69245480_5061354",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26374234_1290286_fact4",
+      "score": 0.7410925030708313,
+      "source_id": "26374234_1290286",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4780901_302265_fact2",
+      "score": 0.7408465147018433,
+      "source_id": "4780901_302265",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32658166_1895152_fact3",
+      "score": 0.7391353249549866,
+      "source_id": "32658166_1895152",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59429506_5443889_fact3",
+      "score": 0.7383862733840942,
+      "source_id": "59429506_5443889",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46537742_5741491_fact5",
+      "score": 0.7370678186416626,
+      "source_id": "46537742_5741491",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61797531_4726311_fact3",
+      "score": 0.7356714606285095,
+      "source_id": "61797531_4726311",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42235213_5025625_fact6",
+      "score": 0.7347965836524963,
+      "source_id": "42235213_5025625",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27357538_2093264_fact3",
+      "score": 0.7330805063247681,
+      "source_id": "27357538_2093264",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6093064_317669_fact3",
+      "score": 0.7320762872695923,
+      "source_id": "6093064_317669",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68244621_4334601_fact3",
+      "score": 0.7284693717956543,
+      "source_id": "68244621_4334601",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47444305_4050532_fact4",
+      "score": 0.7279304265975952,
+      "source_id": "47444305_4050532",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8470982_2625492_fact3",
+      "score": 0.7278567552566528,
+      "source_id": "8470982_2625492",
+      "value": "Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58406999_4797764_fact5",
+      "score": 0.7268389463424683,
+      "source_id": "58406999_4797764",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7729472_1649966_fact2",
+      "score": 0.7263649702072144,
+      "source_id": "7729472_1649966",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40901123_3842263_fact4",
+      "score": 0.725641131401062,
+      "source_id": "40901123_3842263",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "539585_6078853_fact2",
+      "score": 0.7255278825759888,
+      "source_id": "539585_6078853",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1847868_972249_fact3",
+      "score": 0.7247171998023987,
+      "source_id": "1847868_972249",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38313558_4072224_fact4",
+      "score": 0.7245125770568848,
+      "source_id": "38313558_4072224",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12779640_2687248_fact4",
+      "score": 0.7240374088287354,
+      "source_id": "12779640_2687248",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45688214_5418039_fact3",
+      "score": 0.7239068746566772,
+      "source_id": "45688214_5418039",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59437556_5448071_fact3",
+      "score": 0.7234121561050415,
+      "source_id": "59437556_5448071",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63155553_5632551_fact3",
+      "score": 0.7230582237243652,
+      "source_id": "63155553_5632551",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60426871_3727131_fact5",
+      "score": 0.7228877544403076,
+      "source_id": "60426871_3727131",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24389982_1839303_fact3",
+      "score": 0.7210190296173096,
+      "source_id": "24389982_1839303",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61896355_4789874_fact3",
+      "score": 0.720909059047699,
+      "source_id": "61896355_4789874",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6434422_561148_fact3",
+      "score": 0.7202311754226685,
+      "source_id": "6434422_561148",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7991002_2005940_fact4",
+      "score": 0.7193000912666321,
+      "source_id": "7991002_2005940",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59551010_5524188_fact5",
+      "score": 0.7183694243431091,
+      "source_id": "59551010_5524188",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58547243_4903077_fact4",
+      "score": 0.7180013656616211,
+      "source_id": "58547243_4903077",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26785706_1630631_fact5",
+      "score": 0.7173964977264404,
+      "source_id": "26785706_1630631",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1249371_817252_fact5",
+      "score": 0.7168607115745544,
+      "source_id": "1249371_817252",
+      "value": " Russia Federation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62046746_4891738_fact4",
+      "score": 0.7168066501617432,
+      "source_id": "62046746_4891738",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32660006_1899932_fact5",
+      "score": 0.7166967391967773,
+      "source_id": "32660006_1899932",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25047234_2450167_fact2",
+      "score": 0.7156084775924683,
+      "source_id": "25047234_2450167",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25546189_2909080_fact4",
+      "score": 0.7152440547943115,
+      "source_id": "25546189_2909080",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60378465_3689450_fact5",
+      "score": 0.7151516675949097,
+      "source_id": "60378465_3689450",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32655561_1890425_fact3",
+      "score": 0.7140748500823975,
+      "source_id": "32655561_1890425",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42933932_5583490_fact7",
+      "score": 0.712952733039856,
+      "source_id": "42933932_5583490",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64996863_4586486_fact3",
+      "score": 0.7124929428100586,
+      "source_id": "64996863_4586486",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58106996_4629268_fact4",
+      "score": 0.7123056054115295,
+      "source_id": "58106996_4629268",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8160466_2230815_fact6",
+      "score": 0.7118103504180908,
+      "source_id": "8160466_2230815",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25048471_2451580_fact2",
+      "score": 0.7115300893783569,
+      "source_id": "25048471_2451580",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "244749_523557_fact3",
+      "score": 0.7112782597541809,
+      "source_id": "244749_523557",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61788400_4720183_fact5",
+      "score": 0.7112027406692505,
+      "source_id": "61788400_4720183",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31080498_2802612_fact4",
+      "score": 0.7109078168869019,
+      "source_id": "31080498_2802612",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44137710_4189722_fact3",
+      "score": 0.7103465795516968,
+      "source_id": "44137710_4189722",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "316735_6038328_fact3",
+      "score": 0.7101655602455139,
+      "source_id": "316735_6038328",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33496743_2587511_fact3",
+      "score": 0.7101655602455139,
+      "source_id": "33496743_2587511",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1583031_393888_fact5",
+      "score": 0.7095429301261902,
+      "source_id": "1583031_393888",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2468519_958221_fact2",
+      "score": 0.709266185760498,
+      "source_id": "2468519_958221",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59672734_5603694_fact4",
+      "score": 0.7087038159370422,
+      "source_id": "59672734_5603694",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "919803_6154941_fact2",
+      "score": 0.7080901861190796,
+      "source_id": "919803_6154941",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "474048_670498_fact1",
+      "score": 0.7077886462211609,
+      "source_id": "474048_670498",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7747650_1673618_fact3",
+      "score": 0.7073833346366882,
+      "source_id": "7747650_1673618",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25546110_2908984_fact3",
+      "score": 0.7069971561431885,
+      "source_id": "25546110_2908984",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21344455_1230017_fact3",
+      "score": 0.7067909836769104,
+      "source_id": "21344455_1230017",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "476423_681820_fact2",
+      "score": 0.706208348274231,
+      "source_id": "476423_681820",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23944118_1371799_fact5",
+      "score": 0.7054251432418823,
+      "source_id": "23944118_1371799",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41167395_4081022_fact7",
+      "score": 0.7049974203109741,
+      "source_id": "41167395_4081022",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61236829_4302632_fact4",
+      "score": 0.7049592733383179,
+      "source_id": "61236829_4302632",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47439139_4046919_fact4",
+      "score": 0.7048425674438477,
+      "source_id": "47439139_4046919",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8437263_2583268_fact4",
+      "score": 0.7048377990722656,
+      "source_id": "8437263_2583268",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42234810_5025185_fact10",
+      "score": 0.7044500112533569,
+      "source_id": "42234810_5025185",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63335424_5769347_fact4",
+      "score": 0.7037332057952881,
+      "source_id": "63335424_5769347",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26374223_1290266_fact3",
+      "score": 0.7030969858169556,
+      "source_id": "26374223_1290266",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23730038_3493591_fact3",
+      "score": 0.7027286291122437,
+      "source_id": "23730038_3493591",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42342938_5108630_fact4",
+      "score": 0.7027181386947632,
+      "source_id": "42342938_5108630",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6875110_865641_fact5",
+      "score": 0.7020916938781738,
+      "source_id": "6875110_865641",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "385096_6051668_fact1",
+      "score": 0.7018293142318726,
+      "source_id": "385096_6051668",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "488334_737007_fact1",
+      "score": 0.7017897963523865,
+      "source_id": "488334_737007",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8425162_2567311_fact5",
+      "score": 0.7016347050666809,
+      "source_id": "8425162_2567311",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58625447_4968447_fact3",
+      "score": 0.7016240358352661,
+      "source_id": "58625447_4968447",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40652939_3612109_fact12",
+      "score": 0.7015643119812012,
+      "source_id": "40652939_3612109",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42918512_5575185_fact6",
+      "score": 0.7013680934906006,
+      "source_id": "42918512_5575185",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58838047_5097182_fact5",
+      "score": 0.7013214826583862,
+      "source_id": "58838047_5097182",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49042233_5281331_fact4",
+      "score": 0.700424313545227,
+      "source_id": "49042233_5281331",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63606922_5965777_fact4",
+      "score": 0.7004052996635437,
+      "source_id": "63606922_5965777",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24962558_2371136_fact4",
+      "score": 0.6996452808380127,
+      "source_id": "24962558_2371136",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5284160_731114_fact4",
+      "score": 0.699600100517273,
+      "source_id": "5284160_731114",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13003195_2950777_fact3",
+      "score": 0.6995534896850586,
+      "source_id": "13003195_2950777",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25048551_2451682_fact3",
+      "score": 0.6994817852973938,
+      "source_id": "25048551_2451682",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42343365_5109010_fact7",
+      "score": 0.6992266178131104,
+      "source_id": "42343365_5109010",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59562182_5530797_fact5",
+      "score": 0.6992174983024597,
+      "source_id": "59562182_5530797",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32019403_1376291_fact3",
+      "score": 0.699097752571106,
+      "source_id": "32019403_1376291",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4247993_937439_fact3",
+      "score": 0.6989507675170898,
+      "source_id": "4247993_937439",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19090519_1549591_fact3",
+      "score": 0.6986672878265381,
+      "source_id": "19090519_1549591",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62056004_4897804_fact4",
+      "score": 0.6985465288162231,
+      "source_id": "62056004_4897804",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42367759_5130206_fact7",
+      "score": 0.6984007358551025,
+      "source_id": "42367759_5130206",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27727862_2427549_fact4",
+      "score": 0.6983606815338135,
+      "source_id": "27727862_2427549",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42210590_5002637_fact6",
+      "score": 0.6982401609420776,
+      "source_id": "42210590_5002637",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60483260_3771656_fact4",
+      "score": 0.6980798244476318,
+      "source_id": "60483260_3771656",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37461825_3416447_fact3",
+      "score": 0.6979730129241943,
+      "source_id": "37461825_3416447",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28770614_3273630_fact3",
+      "score": 0.6979109644889832,
+      "source_id": "28770614_3273630",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3547373_161251_fact2",
+      "score": 0.6979058980941772,
+      "source_id": "3547373_161251",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5730348_1122159_fact2",
+      "score": 0.6977554559707642,
+      "source_id": "5730348_1122159",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58333434_4762352_fact4",
+      "score": 0.69761061668396,
+      "source_id": "58333434_4762352",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62180694_4987295_fact4",
+      "score": 0.6974710822105408,
+      "source_id": "62180694_4987295",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41556606_4428318_fact7",
+      "score": 0.6974204182624817,
+      "source_id": "41556606_4428318",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2223475_516670_fact4",
+      "score": 0.6968903541564941,
+      "source_id": "2223475_516670",
+      "value": " central Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25048694_2451915_fact3",
+      "score": 0.6968513131141663,
+      "source_id": "25048694_2451915",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63297377_5737770_fact4",
+      "score": 0.6963804364204407,
+      "source_id": "63297377_5737770",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62084824_4918702_fact4",
+      "score": 0.6961501836776733,
+      "source_id": "62084824_4918702",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42235558_5025828_fact7",
+      "score": 0.6958757638931274,
+      "source_id": "42235558_5025828",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57915_1134017_fact3",
+      "score": 0.6957657337188721,
+      "source_id": "57915_1134017",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41178633_4089719_fact6",
+      "score": 0.6955577731132507,
+      "source_id": "41178633_4089719",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64050723_3949751_fact4",
+      "score": 0.6954706311225891,
+      "source_id": "64050723_3949751",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41223857_4130294_fact7",
+      "score": 0.6953945159912109,
+      "source_id": "41223857_4130294",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62047195_4891856_fact4",
+      "score": 0.695268988609314,
+      "source_id": "62047195_4891856",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7151323_1060458_fact2",
+      "score": 0.6951488256454468,
+      "source_id": "7151323_1060458",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "539587_6078854_fact1",
+      "score": 0.6948242783546448,
+      "source_id": "539587_6078854",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58333620_4762560_fact4",
+      "score": 0.6944066286087036,
+      "source_id": "58333620_4762560",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59529469_5510219_fact3",
+      "score": 0.6940878033638,
+      "source_id": "59529469_5510219",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2526971_1047330_fact3",
+      "score": 0.6935272216796875,
+      "source_id": "2526971_1047330",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3941690_601060_fact4",
+      "score": 0.6933345794677734,
+      "source_id": "3941690_601060",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38271112_4033915_fact5",
+      "score": 0.6931406259536743,
+      "source_id": "38271112_4033915",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4139951_815968_fact4",
+      "score": 0.6929332613945007,
+      "source_id": "4139951_815968",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51062410_4307259_fact15",
+      "score": 0.692700207233429,
+      "source_id": "51062410_4307259",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41921502_4749161_fact7",
+      "score": 0.6926524639129639,
+      "source_id": "41921502_4749161",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41178558_4089700_fact6",
+      "score": 0.6926026344299316,
+      "source_id": "41178558_4089700",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32655659_1890587_fact3",
+      "score": 0.6925891637802124,
+      "source_id": "32655659_1890587",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25048487_2451629_fact3",
+      "score": 0.6924489736557007,
+      "source_id": "25048487_2451629",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38319870_4077784_fact5",
+      "score": 0.6919311285018921,
+      "source_id": "38319870_4077784",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11799770_1488084_fact5",
+      "score": 0.6914385557174683,
+      "source_id": "11799770_1488084",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1312624_969112_fact4",
+      "score": 0.6914262175559998,
+      "source_id": "1312624_969112",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38296466_4055925_fact4",
+      "score": 0.6913924813270569,
+      "source_id": "38296466_4055925",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32660049_1899981_fact3",
+      "score": 0.6913548111915588,
+      "source_id": "32660049_1899981",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28159536_2811142_fact6",
+      "score": 0.6911458373069763,
+      "source_id": "28159536_2811142",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32660744_1900320_fact5",
+      "score": 0.6909906268119812,
+      "source_id": "32660744_1900320",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6068144_298194_fact3",
+      "score": 0.6909691095352173,
+      "source_id": "6068144_298194",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41176973_4088562_fact7",
+      "score": 0.6901589035987854,
+      "source_id": "41176973_4088562",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26849292_1688736_fact4",
+      "score": 0.6896240711212158,
+      "source_id": "26849292_1688736",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40368173_5816536_fact5",
+      "score": 0.689432680606842,
+      "source_id": "40368173_5816536",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64476548_4280059_fact4",
+      "score": 0.6892945170402527,
+      "source_id": "64476548_4280059",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26374225_1290267_fact4",
+      "score": 0.6889674663543701,
+      "source_id": "26374225_1290267",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26339894_1262360_fact3",
+      "score": 0.6886402368545532,
+      "source_id": "26339894_1262360",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48882285_5156486_fact4",
+      "score": 0.6886050701141357,
+      "source_id": "48882285_5156486",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62007942_4862580_fact4",
+      "score": 0.6881029605865479,
+      "source_id": "62007942_4862580",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63765032_3721311_fact4",
+      "score": 0.6880995631217957,
+      "source_id": "63765032_3721311",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28724896_3233573_fact1",
+      "score": 0.6880263090133667,
+      "source_id": "28724896_3233573",
+      "value": " Far Eastern Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61648423_4621754_fact5",
+      "score": 0.688019871711731,
+      "source_id": "61648423_4621754",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32655722_1890775_fact3",
+      "score": 0.6877971291542053,
+      "source_id": "32655722_1890775",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20281061_2595413_fact4",
+      "score": 0.6875640153884888,
+      "source_id": "20281061_2595413",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32660058_1899991_fact4",
+      "score": 0.687431812286377,
+      "source_id": "32660058_1899991",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32660009_1899938_fact6",
+      "score": 0.6871210932731628,
+      "source_id": "32660009_1899938",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26849273_1688709_fact3",
+      "score": 0.6870998740196228,
+      "source_id": "26849273_1688709",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "665658_296084_fact2",
+      "score": 0.6869571208953857,
+      "source_id": "665658_296084",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44129117_4180400_fact3",
+      "score": 0.6866129040718079,
+      "source_id": "44129117_4180400",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "512666_850291_fact1",
+      "score": 0.6863276362419128,
+      "source_id": "512666_850291",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59540459_5518166_fact4",
+      "score": 0.6862968802452087,
+      "source_id": "59540459_5518166",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62190868_4994321_fact4",
+      "score": 0.6859079599380493,
+      "source_id": "62190868_4994321",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31273060_2982298_fact4",
+      "score": 0.6857320070266724,
+      "source_id": "31273060_2982298",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5892752_157371_fact4",
+      "score": 0.6854094862937927,
+      "source_id": "5892752_157371",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "578868_1112233_fact1",
+      "score": 0.6853241324424744,
+      "source_id": "578868_1112233",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23663651_3427393_fact3",
+      "score": 0.6852321624755859,
+      "source_id": "23663651_3427393",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1812106_899145_fact6",
+      "score": 0.6852278709411621,
+      "source_id": "1812106_899145",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32644814_1878552_fact3",
+      "score": 0.6850430369377136,
+      "source_id": "32644814_1878552",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33426385_2529693_fact3",
+      "score": 0.6849580407142639,
+      "source_id": "33426385_2529693",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32657830_1894413_fact3",
+      "score": 0.6847429275512695,
+      "source_id": "32657830_1894413",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61747894_4690495_fact5",
+      "score": 0.6847346425056458,
+      "source_id": "61747894_4690495",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10831407_2808849_fact3",
+      "score": 0.6847076416015625,
+      "source_id": "10831407_2808849",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63334759_5768725_fact4",
+      "score": 0.6846858859062195,
+      "source_id": "63334759_5768725",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59799114_5679457_fact5",
+      "score": 0.684554398059845,
+      "source_id": "59799114_5679457",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61213457_4284598_fact5",
+      "score": 0.6845433712005615,
+      "source_id": "61213457_4284598",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32656265_1892870_fact3",
+      "score": 0.6845335364341736,
+      "source_id": "32656265_1892870",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8034889_2063127_fact4",
+      "score": 0.6844918727874756,
+      "source_id": "8034889_2063127",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24660418_2093589_fact3",
+      "score": 0.6844066381454468,
+      "source_id": "24660418_2093589",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32659538_1899020_fact3",
+      "score": 0.6843416690826416,
+      "source_id": "32659538_1899020",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41177133_4088717_fact6",
+      "score": 0.6840474009513855,
+      "source_id": "41177133_4088717",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61945470_4826331_fact5",
+      "score": 0.6840356588363647,
+      "source_id": "61945470_4826331",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58254082_4720249_fact3",
+      "score": 0.6839457750320435,
+      "source_id": "58254082_4720249",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61687633_4645654_fact5",
+      "score": 0.6836851239204407,
+      "source_id": "61687633_4645654",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58263984_4726105_fact3",
+      "score": 0.6836832165718079,
+      "source_id": "58263984_4726105",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50421948_3778850_fact6",
+      "score": 0.6834835410118103,
+      "source_id": "50421948_3778850",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59437701_5448103_fact3",
+      "score": 0.6832498908042908,
+      "source_id": "59437701_5448103",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58672062_5000699_fact4",
+      "score": 0.6828855872154236,
+      "source_id": "58672062_5000699",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32660053_1899986_fact2",
+      "score": 0.6825686097145081,
+      "source_id": "32660053_1899986",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61027671_4172666_fact4",
+      "score": 0.6823470592498779,
+      "source_id": "61027671_4172666",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42210961_5003101_fact6",
+      "score": 0.6821258068084717,
+      "source_id": "42210961_5003101",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41278208_4179290_fact7",
+      "score": 0.6819828748703003,
+      "source_id": "41278208_4179290",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44291394_4330271_fact3",
+      "score": 0.6818705797195435,
+      "source_id": "44291394_4330271",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11540942_1214037_fact4",
+      "score": 0.6817682981491089,
+      "source_id": "11540942_1214037",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "769091_625280_fact4",
+      "score": 0.6816636323928833,
+      "source_id": "769091_625280",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63564062_5945309_fact4",
+      "score": 0.6816169023513794,
+      "source_id": "63564062_5945309",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32661859_1901153_fact5",
+      "score": 0.6814903020858765,
+      "source_id": "32661859_1901153",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40773234_3718667_fact4",
+      "score": 0.6813551783561707,
+      "source_id": "40773234_3718667",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16078990_3548303_fact3",
+      "score": 0.6812216639518738,
+      "source_id": "16078990_3548303",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32624462_1859938_fact2",
+      "score": 0.6811504364013672,
+      "source_id": "32624462_1859938",
+      "value": " the north of Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60400454_3704097_fact3",
+      "score": 0.6809375882148743,
+      "source_id": "60400454_3704097",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41510311_4384750_fact7",
+      "score": 0.6808888912200928,
+      "source_id": "41510311_4384750",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60200045_5927276_fact4",
+      "score": 0.6805233359336853,
+      "source_id": "60200045_5927276",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59448968_5453620_fact3",
+      "score": 0.6803141832351685,
+      "source_id": "59448968_5453620",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36453685_2623473_fact4",
+      "score": 0.6802652478218079,
+      "source_id": "36453685_2623473",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60870077_4064675_fact4",
+      "score": 0.6802520751953125,
+      "source_id": "60870077_4064675",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66026885_5280349_fact8",
+      "score": 0.6800156235694885,
+      "source_id": "66026885_5280349",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67491831_3789181_fact3",
+      "score": 0.6800123453140259,
+      "source_id": "67491831_3789181",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59952311_5777444_fact4",
+      "score": 0.6799330115318298,
+      "source_id": "59952311_5777444",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41921325_4749058_fact5",
+      "score": 0.6798025965690613,
+      "source_id": "41921325_4749058",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61921651_4808889_fact4",
+      "score": 0.6794725656509399,
+      "source_id": "61921651_4808889",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62013339_4867538_fact4",
+      "score": 0.6793320775032043,
+      "source_id": "62013339_4867538",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72233_152980_fact1",
+      "score": 0.6792488098144531,
+      "source_id": "72233_152980",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59324802_5386365_fact3",
+      "score": 0.6792479753494263,
+      "source_id": "59324802_5386365",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25047162_2450106_fact3",
+      "score": 0.6791850328445435,
+      "source_id": "25047162_2450106",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9731576_1712475_fact3",
+      "score": 0.6786636114120483,
+      "source_id": "9731576_1712475",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25048671_2451890_fact3",
+      "score": 0.6786635518074036,
+      "source_id": "25048671_2451890",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41224257_4130882_fact7",
+      "score": 0.6784386038780212,
+      "source_id": "41224257_4130882",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58756858_5059102_fact3",
+      "score": 0.6783915758132935,
+      "source_id": "58756858_5059102",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13836868_1388890_fact4",
+      "score": 0.6782641410827637,
+      "source_id": "13836868_1388890",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63260665_5707019_fact4",
+      "score": 0.6778453588485718,
+      "source_id": "63260665_5707019",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38049857_3835075_fact3",
+      "score": 0.6776332259178162,
+      "source_id": "38049857_3835075",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60402567_3705808_fact4",
+      "score": 0.6774218082427979,
+      "source_id": "60402567_3705808",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60453503_3746348_fact3",
+      "score": 0.677239179611206,
+      "source_id": "60453503_3746348",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11224245_3259051_fact3",
+      "score": 0.6772099733352661,
+      "source_id": "11224245_3259051",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35032755_1549422_fact3",
+      "score": 0.6769185066223145,
+      "source_id": "35032755_1549422",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1042414_250715_fact3",
+      "score": 0.6767634153366089,
+      "source_id": "1042414_250715",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42522339_5264709_fact6",
+      "score": 0.6767581105232239,
+      "source_id": "42522339_5264709",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14738424_2291024_fact3",
+      "score": 0.6766855120658875,
+      "source_id": "14738424_2291024",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62055413_4897459_fact4",
+      "score": 0.6765568256378174,
+      "source_id": "62055413_4897459",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40645120_3603289_fact7",
+      "score": 0.6765267848968506,
+      "source_id": "40645120_3603289",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65182559_4672795_fact7",
+      "score": 0.6763207912445068,
+      "source_id": "65182559_4672795",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63334024_5768244_fact5",
+      "score": 0.6763080358505249,
+      "source_id": "63334024_5768244",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19834967_2203793_fact4",
+      "score": 0.6762334108352661,
+      "source_id": "19834967_2203793",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44990426_4888079_fact7",
+      "score": 0.6762016415596008,
+      "source_id": "44990426_4888079",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43618187_3733469_fact3",
+      "score": 0.6759438514709473,
+      "source_id": "43618187_3733469",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41520460_4394431_fact7",
+      "score": 0.6759246587753296,
+      "source_id": "41520460_4394431",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61789036_4720644_fact3",
+      "score": 0.6759114265441895,
+      "source_id": "61789036_4720644",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9569070_1537479_fact3",
+      "score": 0.675603985786438,
+      "source_id": "9569070_1537479",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34274518_3241112_fact4",
+      "score": 0.6754598617553711,
+      "source_id": "34274518_3241112",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40878121_3820931_fact7",
+      "score": 0.6754591464996338,
+      "source_id": "40878121_3820931",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44293354_4332102_fact3",
+      "score": 0.6754066944122314,
+      "source_id": "44293354_4332102",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59943802_5773306_fact5",
+      "score": 0.675322949886322,
+      "source_id": "59943802_5773306",
+      "value": " Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50407165_3770017_fact6",
+      "score": 0.6751874685287476,
+      "source_id": "50407165_3770017",
+      "value": " Russia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4e781920-bc56-471f-b6ef-0b65be1f215a",
+  "index_nprobe": null,
+  "manifest_id": "34855f6840dbf9f3",
+  "margin": 0.1434534788131714,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9352428913116455,
+  "s_surv": 0.7917894124984741,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4099285_770963_fact8",
+      "score": 0.7917894124984741,
+      "source_id": "4099285_770963",
+      "value": " the Caucasus Mountains"
+    },
+    {
+      "entry_id": "47417296_4026093_fact3",
+      "score": 0.7900192737579346,
+      "source_id": "47417296_4026093",
+      "value": " western Ukraine"
+    },
+    {
+      "entry_id": "70598286_5922131_fact3",
+      "score": 0.7829328179359436,
+      "source_id": "70598286_5922131",
+      "value": " Ukraine"
+    },
+    {
+      "entry_id": "68588504_4608981_fact3",
+      "score": 0.77275550365448,
+      "source_id": "68588504_4608981",
+      "value": " southern Ukraine"
+    },
+    {
+      "entry_id": "38159193_3926177_fact2",
+      "score": 0.7726861834526062,
+      "source_id": "38159193_3926177",
+      "value": " western Ukraine"
+    }
+  ],
+  "truncated": false
+}

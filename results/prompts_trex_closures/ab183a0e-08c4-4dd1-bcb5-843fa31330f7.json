@@ -1,0 +1,131 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "31468358_3166327_fact27",
+      "score": 0.9514874219894409,
+      "source_id": "31468358_3166327",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "2591214_1148562_fact10",
+      "score": 0.9465392827987671,
+      "source_id": "2591214_1148562",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "12980862_2918152_fact50",
+      "score": 0.9423810243606567,
+      "source_id": "12980862_2918152",
+      "value": " Istanbul, Turkey"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "26893870_1725702_fact14",
+      "score": 0.9193215370178223,
+      "source_id": "26893870_1725702",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "42901868_5564877_fact8",
+      "score": 0.8830080032348633,
+      "source_id": "42901868_5564877",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "4433065_1125394_fact51",
+      "score": 0.8530513048171997,
+      "source_id": "4433065_1125394",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5679079_1072287_fact7",
+      "score": 0.7714642882347107,
+      "source_id": "5679079_1072287",
+      "value": " Istanbul"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7462845_1296708_fact21",
+      "score": 0.7189019918441772,
+      "source_id": "7462845_1296708",
+      "value": " Istanbul"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "ab183a0e-08c4-4dd1-bcb5-843fa31330f7",
+  "index_nprobe": null,
+  "manifest_id": "57eaa1da215345c1",
+  "margin": 0.14011842012405396,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9514874219894409,
+  "s_surv": 0.811369001865387,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "10581360_2577858_fact15",
+      "score": 0.811369001865387,
+      "source_id": "10581360_2577858",
+      "value": " Novi Sad"
+    },
+    {
+      "entry_id": "30677965_2349176_fact115",
+      "score": 0.8078742623329163,
+      "source_id": "30677965_2349176",
+      "value": " Sydney, Australia"
+    },
+    {
+      "entry_id": "3385432_1114253_fact32",
+      "score": 0.8056825995445251,
+      "source_id": "3385432_1114253",
+      "value": " Sydney"
+    },
+    {
+      "entry_id": "5461732_882512_fact17",
+      "score": 0.804718017578125,
+      "source_id": "5461732_882512",
+      "value": " Sydney, Australia"
+    },
+    {
+      "entry_id": "41623131_4490152_fact9",
+      "score": 0.8044474124908447,
+      "source_id": "41623131_4490152",
+      "value": " Sydney"
+    }
+  ],
+  "truncated": false
+}

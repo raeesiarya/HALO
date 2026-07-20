@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "16004976_3472020_fact0",
+      "score": 0.7764191627502441,
+      "source_id": "16004976_3472020",
+      "value": " Croatian"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "57fdba4e-85cb-482f-97e5-c5e430648561",
+  "index_nprobe": null,
+  "manifest_id": "98da643d554f7384",
+  "margin": 0.024271607398986816,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7764191627502441,
+  "s_surv": 0.7521475553512573,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3820925_473675_fact1",
+      "score": 0.7521475553512573,
+      "source_id": "3820925_473675",
+      "value": " coastal commune (municipality)"
+    },
+    {
+      "entry_id": "18379553_3059688_fact0",
+      "score": 0.735421895980835,
+      "source_id": "18379553_3059688",
+      "value": " village"
+    },
+    {
+      "entry_id": "30468018_2180148_fact31",
+      "score": 0.7267417907714844,
+      "source_id": "30468018_2180148",
+      "value": "1926"
+    },
+    {
+      "entry_id": "2487141_985691_fact0",
+      "score": 0.7213171720504761,
+      "source_id": "2487141_985691",
+      "value": " mythical city or oasis"
+    },
+    {
+      "entry_id": "149928_944810_fact0",
+      "score": 0.713380753993988,
+      "source_id": "149928_944810",
+      "value": " 1974"
+    }
+  ],
+  "truncated": false
+}

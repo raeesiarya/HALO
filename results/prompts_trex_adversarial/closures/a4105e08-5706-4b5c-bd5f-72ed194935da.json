@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "242857_6025163_fact5",
+      "score": 0.6858456134796143,
+      "source_id": "242857_6025163",
+      "value": " chairman"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a4105e08-5706-4b5c-bd5f-72ed194935da",
+  "index_nprobe": null,
+  "manifest_id": "54660313728c80ca",
+  "margin": 0.023851871490478516,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6858454942703247,
+  "s_surv": 0.6619936227798462,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6615208_672370_fact3",
+      "score": 0.6619936227798462,
+      "source_id": "6615208_672370",
+      "value": " 32nd Attorney General of Nebraska"
+    },
+    {
+      "entry_id": "33830657_2873102_fact5",
+      "score": 0.6569992303848267,
+      "source_id": "33830657_2873102",
+      "value": " U.S. representative"
+    },
+    {
+      "entry_id": "24472207_1919905_fact3",
+      "score": 0.6331543326377869,
+      "source_id": "24472207_1919905",
+      "value": " U.S. representative"
+    },
+    {
+      "entry_id": "5340870_784618_fact3",
+      "score": 0.6314100027084351,
+      "source_id": "5340870_784618",
+      "value": " U.S. representative from Minnesota's 8th congressional district"
+    },
+    {
+      "entry_id": "418925_390879_fact4",
+      "score": 0.6309220194816589,
+      "source_id": "418925_390879",
+      "value": " 40th governor of Illinois"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,188 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "12154601_1884263_fact1",
+      "score": 0.9603167176246643,
+      "source_id": "12154601_1884263",
+      "value": " Rotterdam"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "45605134_5345918_fact34",
+      "score": 0.9407829642295837,
+      "source_id": "45605134_5345918",
+      "value": " Rotterdam"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "26200460_3520139_fact18",
+      "score": 0.9179761409759521,
+      "source_id": "26200460_3520139",
+      "value": " Rotterdam"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "9045373_3403685_fact66",
+      "score": 0.9031452536582947,
+      "source_id": "9045373_3403685",
+      "value": " Rotterdam"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "25945_591448_fact75",
+      "score": 0.8983118534088135,
+      "source_id": "25945_591448",
+      "value": " Rotterdam"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "62020015_4873002_fact9",
+      "score": 0.8978972434997559,
+      "source_id": "62020015_4873002",
+      "value": " Rotterdam"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "959551_1173229_fact91",
+      "score": 0.8891154527664185,
+      "source_id": "959551_1173229",
+      "value": " Rotterdam"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "48322376_4671887_fact148",
+      "score": 0.8791153430938721,
+      "source_id": "48322376_4671887",
+      "value": " Rotterdam"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3808500_460738_fact2",
+      "score": 0.8732813596725464,
+      "source_id": "3808500_460738",
+      "value": " D\u00fcsseldorf"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "33557715_2638105_fact34",
+      "score": 0.8572981357574463,
+      "source_id": "33557715_2638105",
+      "value": " Rotterdam"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "48785599_5070118_fact10",
+      "score": 0.8521653413772583,
+      "source_id": "48785599_5070118",
+      "value": " Mannheim"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45500631_5265352_fact30",
+      "score": 0.7817749977111816,
+      "source_id": "45500631_5265352",
+      "value": " Rotterdam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56810001_3610840_fact23",
+      "score": 0.7181109189987183,
+      "source_id": "56810001_3610840",
+      "value": " Rotterdam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6286613_467598_fact45",
+      "score": 0.7072311639785767,
+      "source_id": "6286613_467598",
+      "value": " Rotterdam, the Netherlands"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6d08b938-e74c-4006-9c54-b0028348c9d4",
+  "index_nprobe": null,
+  "manifest_id": "0c47f087dcf1a9a4",
+  "margin": 0.1113249659538269,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9603167176246643,
+  "s_surv": 0.8489917516708374,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1671570_593290_fact72",
+      "score": 0.8489917516708374,
+      "source_id": "1671570_593290",
+      "value": " Graz, Austria"
+    },
+    {
+      "entry_id": "38184126_3950040_fact80",
+      "score": 0.8360049724578857,
+      "source_id": "38184126_3950040",
+      "value": " Kiel, Germany"
+    },
+    {
+      "entry_id": "8645705_2861032_fact12",
+      "score": 0.8340805768966675,
+      "source_id": "8645705_2861032",
+      "value": " Hamburg"
+    },
+    {
+      "entry_id": "208909_280865_fact146",
+      "score": 0.8335167765617371,
+      "source_id": "208909_280865",
+      "value": " Nuremberg"
+    },
+    {
+      "entry_id": "46662198_5841166_fact42",
+      "score": 0.8322675228118896,
+      "source_id": "46662198_5841166",
+      "value": " Graz"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,73 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "7815986_1767641_fact1",
+      "score": 0.9508396983146667,
+      "source_id": "7815986_1767641",
+      "value": " Burlington, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "516969_867332_fact2",
+      "score": 0.8545121550559998,
+      "source_id": "516969_867332",
+      "value": " Burlington, Ontario, Canada"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5570b2ba-1e23-4ec8-b1f8-c5687789190e",
+  "index_nprobe": null,
+  "manifest_id": "49ea00220490ba72",
+  "margin": 0.2384357452392578,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9508396983146667,
+  "s_surv": 0.7124039530754089,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "19221283_1667961_fact1",
+      "score": 0.7124039530754089,
+      "source_id": "19221283_1667961",
+      "value": " Corona, California, United States"
+    },
+    {
+      "entry_id": "30987257_2713554_fact6",
+      "score": 0.7018637657165527,
+      "source_id": "30987257_2713554",
+      "value": " Vancouver, WA"
+    },
+    {
+      "entry_id": "37191931_3228030_fact17",
+      "score": 0.689704954624176,
+      "source_id": "37191931_3228030",
+      "value": " Amsterdam"
+    },
+    {
+      "entry_id": "23385986_3103691_fact18",
+      "score": 0.6889723539352417,
+      "source_id": "23385986_3103691",
+      "value": " Lexington"
+    },
+    {
+      "entry_id": "27765334_2462471_fact1",
+      "score": 0.6871769428253174,
+      "source_id": "27765334_2462471",
+      "value": " Toronto and Montr\u00e9al"
+    }
+  ],
+  "truncated": false
+}

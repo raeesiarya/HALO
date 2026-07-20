@@ -1,0 +1,1035 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3718657_361050_fact2",
+      "score": 0.9141790866851807,
+      "source_id": "3718657_361050",
+      "value": " Archbishop of Boston"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1684988_623912_fact74",
+      "score": 0.8935122489929199,
+      "source_id": "1684988_623912",
+      "value": " Archpriest of the Basilica di Santa Maria Maggiore"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "50508556_3836930_fact78",
+      "score": 0.8785198926925659,
+      "source_id": "50508556_3836930",
+      "value": " Archpriest of the Papal Basilica of Saint Mary Major in Rome"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "12753792_2653817_fact61",
+      "score": 0.8615709543228149,
+      "source_id": "12753792_2653817",
+      "value": " Bishop of Springfield\u2013Cape Girardeau"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "10632638_2621981_fact54",
+      "score": 0.8530203700065613,
+      "source_id": "10632638_2621981",
+      "value": " archpriest of the Basilica of St. Mary Major in Rome"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "5240290_695416_fact15",
+      "score": 0.8507534265518188,
+      "source_id": "5240290_695416",
+      "value": " Bishop of Springfield\u2013Cape Girardeau"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "303215_884235_fact83",
+      "score": 0.8286187648773193,
+      "source_id": "303215_884235",
+      "value": " Archbishop of Boston"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47683624_4267263_fact93",
+      "score": 0.8267488479614258,
+      "source_id": "47683624_4267263",
+      "value": " Boston's archbishop"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23907622_1337124_fact133",
+      "score": 0.8154532313346863,
+      "source_id": "23907622_1337124",
+      "value": " Cardinal and Archbishop of Boston, Massachusetts, United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1694027_645920_fact138",
+      "score": 0.8052417039871216,
+      "source_id": "1694027_645920",
+      "value": " Disgraced Archbishop of Boston"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43842546_3945010_fact37",
+      "score": 0.7989715933799744,
+      "source_id": "43842546_3945010",
+      "value": " Archbishop of Boston"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "612445_6089259_fact6",
+      "score": 0.7237560153007507,
+      "source_id": "612445_6089259",
+      "value": " Archbishop emeritus of Boston"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1684988_623912_fact77",
+      "score": 0.7087759971618652,
+      "source_id": "1684988_623912",
+      "value": " Archbishop of Boston"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "157858_1029962_fact5",
+      "score": 0.6989647746086121,
+      "source_id": "157858_1029962",
+      "value": " Archbishop of Boston"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21302270_3571380_fact19",
+      "score": 0.6641159653663635,
+      "source_id": "21302270_3571380",
+      "value": " Archbishop of Chicago"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32217100_1537194_fact17",
+      "score": 0.641463577747345,
+      "source_id": "32217100_1537194",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32220177_1538877_fact13",
+      "score": 0.6335902810096741,
+      "source_id": "32220177_1538877",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23846185_1275145_fact62",
+      "score": 0.6333746910095215,
+      "source_id": "23846185_1275145",
+      "value": " Archbishop of Chicago"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32285277_1591687_fact12",
+      "score": 0.6317784786224365,
+      "source_id": "32285277_1591687",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32284921_1591424_fact25",
+      "score": 0.630943775177002,
+      "source_id": "32284921_1591424",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32239391_1555650_fact17",
+      "score": 0.6257898211479187,
+      "source_id": "32239391_1555650",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32284912_1591416_fact19",
+      "score": 0.6203778982162476,
+      "source_id": "32284912_1591416",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "480151_698017_fact97",
+      "score": 0.6186248064041138,
+      "source_id": "480151_698017",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32217195_1537309_fact14",
+      "score": 0.6167712807655334,
+      "source_id": "32217195_1537309",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32254989_1568126_fact14",
+      "score": 0.6167312860488892,
+      "source_id": "32254989_1568126",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "480151_698017_fact66",
+      "score": 0.6154913902282715,
+      "source_id": "480151_698017",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37418834_3386257_fact30",
+      "score": 0.6137567758560181,
+      "source_id": "37418834_3386257",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5869355_137372_fact59",
+      "score": 0.6126804351806641,
+      "source_id": "5869355_137372",
+      "value": " Archbishop of Chicago"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1943535_1168738_fact31",
+      "score": 0.6066700220108032,
+      "source_id": "1943535_1168738",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10384002_2373128_fact191",
+      "score": 0.6029545664787292,
+      "source_id": "10384002_2373128",
+      "value": " Archbishop of Chicago"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23970622_1402979_fact47",
+      "score": 0.6018707156181335,
+      "source_id": "23970622_1402979",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4679754_211028_fact6",
+      "score": 0.6002606153488159,
+      "source_id": "4679754_211028",
+      "value": " sixth archbishop of the Roman Catholic Archdiocese of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30232108_2016449_fact11",
+      "score": 0.5933812856674194,
+      "source_id": "30232108_2016449",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5010256_490908_fact48",
+      "score": 0.5926163792610168,
+      "source_id": "5010256_490908",
+      "value": " archbishop of Chicago; Roger"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6687864_706512_fact192",
+      "score": 0.5886059403419495,
+      "source_id": "6687864_706512",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "218211_345987_fact12",
+      "score": 0.5876597166061401,
+      "source_id": "218211_345987",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5399074_832407_fact47",
+      "score": 0.5869333744049072,
+      "source_id": "5399074_832407",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2438195_906460_fact31",
+      "score": 0.5834763050079346,
+      "source_id": "2438195_906460",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2422319_880054_fact106",
+      "score": 0.5805194973945618,
+      "source_id": "2422319_880054",
+      "value": " Archbishop of Cincinnati"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1000781_140030_fact72",
+      "score": 0.5792328119277954,
+      "source_id": "1000781_140030",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11296567_3340404_fact12",
+      "score": 0.5792323350906372,
+      "source_id": "11296567_3340404",
+      "value": " Archbishop of Chicago"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "424499_420263_fact221",
+      "score": 0.5790965557098389,
+      "source_id": "424499_420263",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5546901_954078_fact35",
+      "score": 0.5778365135192871,
+      "source_id": "5546901_954078",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4998861_482732_fact57",
+      "score": 0.5723154544830322,
+      "source_id": "4998861_482732",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "948499_1140821_fact65",
+      "score": 0.5694620609283447,
+      "source_id": "948499_1140821",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25950030_3294255_fact57",
+      "score": 0.5648807883262634,
+      "source_id": "25950030_3294255",
+      "value": " Archbishop of Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1350234_1049196_fact15",
+      "score": 0.5641401410102844,
+      "source_id": "1350234_1049196",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6693364_711097_fact136",
+      "score": 0.5561768412590027,
+      "source_id": "6693364_711097",
+      "value": " Archbishop of Chicago"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "745175_541427_fact206",
+      "score": 0.5541214942932129,
+      "source_id": "745175_541427",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6754356_762616_fact116",
+      "score": 0.553691029548645,
+      "source_id": "6754356_762616",
+      "value": " archbishop of Chicago"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5240290_695416_fact69",
+      "score": 0.5532724261283875,
+      "source_id": "5240290_695416",
+      "value": " Archbishop of St. Louis"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65872064_5166623_fact150",
+      "score": 0.5522053241729736,
+      "source_id": "65872064_5166623",
+      "value": " Archbishop of Chicago"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12882705_2811586_fact17",
+      "score": 0.5517353415489197,
+      "source_id": "12882705_2811586",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6079295_306820_fact2",
+      "score": 0.5506828427314758,
+      "source_id": "6079295_306820",
+      "value": " third Roman Catholic Archbishop of Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25678415_3024823_fact200",
+      "score": 0.550066351890564,
+      "source_id": "25678415_3024823",
+      "value": " archbishop of Utrecht"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3496115_100098_fact38",
+      "score": 0.5481024980545044,
+      "source_id": "3496115_100098",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39094792_4739362_fact47",
+      "score": 0.546722412109375,
+      "source_id": "39094792_4739362",
+      "value": " archbishop of Chicago"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55427140_4972780_fact6",
+      "score": 0.546066164970398,
+      "source_id": "55427140_4972780",
+      "value": " Archbishop of Ragusa"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8795944_3058292_fact145",
+      "score": 0.5456992983818054,
+      "source_id": "8795944_3058292",
+      "value": " Archbishop of Buenos Aires"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32594_5983298_fact106",
+      "score": 0.5456103086471558,
+      "source_id": "32594_5983298",
+      "value": " Catholic Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "614223_107216_fact89",
+      "score": 0.5419431924819946,
+      "source_id": "614223_107216",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3686185_329212_fact152",
+      "score": 0.5405291318893433,
+      "source_id": "3686185_329212",
+      "value": " Archbishop of Chicago"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21593786_1471200_fact1",
+      "score": 0.5360962152481079,
+      "source_id": "21593786_1471200",
+      "value": " Archbishop of Buenos Aires"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23020214_2797216_fact68",
+      "score": 0.5355246067047119,
+      "source_id": "23020214_2797216",
+      "value": " archbishop of St. Louis"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25747776_3093771_fact42",
+      "score": 0.5339260101318359,
+      "source_id": "25747776_3093771",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23624047_3381771_fact26",
+      "score": 0.5329529047012329,
+      "source_id": "23624047_3381771",
+      "value": " Archbishop of the Archdiocese of Lahore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2530202_1053716_fact2",
+      "score": 0.5316945314407349,
+      "source_id": "2530202_1053716",
+      "value": " fifth Roman Catholic Archbishop of Canberra\u2013Goulburn"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7725128_1645251_fact138",
+      "score": 0.5304495096206665,
+      "source_id": "7725128_1645251",
+      "value": " archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18981393_1427554_fact15",
+      "score": 0.5275921821594238,
+      "source_id": "18981393_1427554",
+      "value": " Archbishop of Southwark"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4998861_482732_fact50",
+      "score": 0.5235649943351746,
+      "source_id": "4998861_482732",
+      "value": " Archbishop of Baltimore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11944276_1650244_fact63",
+      "score": 0.523227334022522,
+      "source_id": "11944276_1650244",
+      "value": " Archbishop of Buenos Aires"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7174830_1076236_fact87",
+      "score": 0.5224736928939819,
+      "source_id": "7174830_1076236",
+      "value": " Archbishop of Buenos Aires"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3884169_541628_fact216",
+      "score": 0.5177373886108398,
+      "source_id": "3884169_541628",
+      "value": " Archbishop of Reims"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60093823_5858905_fact23",
+      "score": 0.5170093178749084,
+      "source_id": "60093823_5858905",
+      "value": " Archbishop of Buenos Aires"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24665016_2098274_fact20",
+      "score": 0.5155881643295288,
+      "source_id": "24665016_2098274",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38805666_4473204_fact51",
+      "score": 0.5146241784095764,
+      "source_id": "38805666_4473204",
+      "value": " Archbishop of Buenos Aires"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7025953_973974_fact12",
+      "score": 0.5145342350006104,
+      "source_id": "7025953_973974",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30231882_2016271_fact8",
+      "score": 0.5144843459129333,
+      "source_id": "30231882_2016271",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48737440_5031916_fact26",
+      "score": 0.5138669013977051,
+      "source_id": "48737440_5031916",
+      "value": " the Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38979844_4637906_fact62",
+      "score": 0.5124248266220093,
+      "source_id": "38979844_4637906",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "863822_869288_fact194",
+      "score": 0.5122830271720886,
+      "source_id": "863822_869288",
+      "value": " archbishop of Baltimore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70712117_3682008_fact25",
+      "score": 0.5118985176086426,
+      "source_id": "70712117_3682008",
+      "value": " Archbishop of Buenos Aires"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3207575_887269_fact35",
+      "score": 0.5118846893310547,
+      "source_id": "3207575_887269",
+      "value": " Archbishop of Buenos Aires"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37453115_3412824_fact62",
+      "score": 0.5109198689460754,
+      "source_id": "37453115_3412824",
+      "value": " Archbishop of Buenos Aires"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "414157_362164_fact153",
+      "score": 0.5108428001403809,
+      "source_id": "414157_362164",
+      "value": " Archbishop of Buenos Aires"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3047974_659722_fact8",
+      "score": 0.5094149112701416,
+      "source_id": "3047974_659722",
+      "value": " a previous archbishop of the Roman Catholic Archdiocese of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26946577_1765471_fact4",
+      "score": 0.5087878704071045,
+      "source_id": "26946577_1765471",
+      "value": " Archbishop of Tuam"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "102274_427723_fact50",
+      "score": 0.5071474313735962,
+      "source_id": "102274_427723",
+      "value": " Archbishop of Buenos Aires"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64463720_4270656_fact54",
+      "score": 0.5070433020591736,
+      "source_id": "64463720_4270656",
+      "value": " Archbishop of Naples"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "218211_345987_fact7",
+      "score": 0.5064037442207336,
+      "source_id": "218211_345987",
+      "value": " Archbishop of Baltimore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56893883_3675256_fact199",
+      "score": 0.5061310529708862,
+      "source_id": "56893883_3675256",
+      "value": " Cardinal Archbishop of Milan"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30059470_1895004_fact14",
+      "score": 0.5053503513336182,
+      "source_id": "30059470_1895004",
+      "value": " Metropolitan Archbishop of Chicago, Illinois"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1636966_517899_fact30",
+      "score": 0.5053108334541321,
+      "source_id": "1636966_517899",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "635202_189043_fact42",
+      "score": 0.5052824020385742,
+      "source_id": "635202_189043",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32251184_1564346_fact12",
+      "score": 0.5050039291381836,
+      "source_id": "32251184_1564346",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20319290_2622520_fact157",
+      "score": 0.5013344287872314,
+      "source_id": "20319290_2622520",
+      "value": " archbishop of Nazareth"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8429741_2572768_fact28",
+      "score": 0.5012432336807251,
+      "source_id": "8429741_2572768",
+      "value": " Archbishop of Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49017282_5261370_fact8",
+      "score": 0.501145601272583,
+      "source_id": "49017282_5261370",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43344797_5900567_fact40",
+      "score": 0.5008808374404907,
+      "source_id": "43344797_5900567",
+      "value": " Archbishop of Los Angeles"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24549497_1995166_fact27",
+      "score": 0.5003710985183716,
+      "source_id": "24549497_1995166",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32251976_1565328_fact13",
+      "score": 0.5000404715538025,
+      "source_id": "32251976_1565328",
+      "value": " Archbishop of Westminster"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7327052_1168718_fact14",
+      "score": 0.49957069754600525,
+      "source_id": "7327052_1168718",
+      "value": " the first Archbishop of the Oregon Territory"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41047015_3968391_fact14",
+      "score": 0.4995357394218445,
+      "source_id": "41047015_3968391",
+      "value": " Archbishop of Buenos Aires and Primate of Argentina"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66926268_5810207_fact78",
+      "score": 0.49893873929977417,
+      "source_id": "66926268_5810207",
+      "value": " Archbishop of Baltimore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44645401_4638480_fact54",
+      "score": 0.49876415729522705,
+      "source_id": "44645401_4638480",
+      "value": " archbishop of Chamb\u00e9ry"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41298303_4197065_fact20",
+      "score": 0.4979645013809204,
+      "source_id": "41298303_4197065",
+      "value": " Archbishop of Bangalore"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12563924_2438173_fact69",
+      "score": 0.49700111150741577,
+      "source_id": "12563924_2438173",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49270822_5439656_fact41",
+      "score": 0.4966275691986084,
+      "source_id": "49270822_5439656",
+      "value": " Archbishop of New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25633996_2979936_fact17",
+      "score": 0.4965869188308716,
+      "source_id": "25633996_2979936",
+      "value": " Archbishop of Westminster"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e0f73c07-80ba-47c6-987d-6862288db5b1",
+  "index_nprobe": null,
+  "manifest_id": "b3ced32ffd9e5f70",
+  "margin": 0.09835553169250488,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9141790866851807,
+  "s_surv": 0.8158235549926758,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "18513268_3202544_fact48",
+      "score": 0.8158235549926758,
+      "source_id": "18513268_3202544",
+      "value": " archpriest of the Basilica of St. Mary Major"
+    },
+    {
+      "entry_id": "2293711_649668_fact37",
+      "score": 0.787896454334259,
+      "source_id": "2293711_649668",
+      "value": " Bishop of Springfield-Cape Girardeau"
+    },
+    {
+      "entry_id": "3718657_361050_fact3",
+      "score": 0.7221479415893555,
+      "source_id": "3718657_361050",
+      "value": " chairman of the Committee on Pastoral Research and Practices of the United States Catholic Conference"
+    },
+    {
+      "entry_id": "50508556_3836930_fact79",
+      "score": 0.7090064883232117,
+      "source_id": "50508556_3836930",
+      "value": " Pope Benedict XVI"
+    },
+    {
+      "entry_id": "404907_306274_fact10",
+      "score": 0.6992069482803345,
+      "source_id": "404907_306274",
+      "value": " MP and judge of the Court of Common Pleas (Ireland)"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "248_5975493_fact7",
+      "score": 0.7012040615081787,
+      "source_id": "248_5975493",
+      "value": "Fatimid Caliphate"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "177592_27379_fact5",
+      "score": 0.5566782355308533,
+      "source_id": "177592_27379",
+      "value": " Cairo"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18564030_3258138_fact19",
+      "score": 0.5477496385574341,
+      "source_id": "18564030_3258138",
+      "value": "Cairo and Alexandria"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "764593_605273_fact259",
+      "score": 0.533280611038208,
+      "source_id": "764593_605273",
+      "value": " CAIRO"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a67e86af-e1d7-46d9-89d4-3a04a4f75a6d",
+  "index_nprobe": null,
+  "manifest_id": "7e206b9514deeda8",
+  "margin": 0.005814254283905029,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7012039422988892,
+  "s_surv": 0.6953896880149841,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "61184950_4264937_fact20",
+      "score": 0.6953896880149841,
+      "source_id": "61184950_4264937",
+      "value": " Muslim characteristics"
+    },
+    {
+      "entry_id": "21244_490598_fact254",
+      "score": 0.680953860282898,
+      "source_id": "21244_490598",
+      "value": " Greek"
+    },
+    {
+      "entry_id": "23704_542428_fact40",
+      "score": 0.672588586807251,
+      "source_id": "23704_542428",
+      "value": " Great Pyramid of Giza"
+    },
+    {
+      "entry_id": "1361095_1076544_fact88",
+      "score": 0.6674982905387878,
+      "source_id": "1361095_1076544",
+      "value": " Coptic language"
+    },
+    {
+      "entry_id": "56129147_5491760_fact113",
+      "score": 0.6641492247581482,
+      "source_id": "56129147_5491760",
+      "value": " Great Sphinx of Giza"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "12226841_1984829_fact20",
+      "score": 0.7838336229324341,
+      "source_id": "12226841_1984829",
+      "value": " 1983"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8a9db58b-d564-404c-a48e-45738010c5d6",
+  "index_nprobe": null,
+  "manifest_id": "c682efca5d43cf17",
+  "margin": 0.0043866634368896484,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7838336229324341,
+  "s_surv": 0.7794469594955444,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "37285093_3292958_fact3",
+      "score": 0.7794469594955444,
+      "source_id": "37285093_3292958",
+      "value": " 2009"
+    },
+    {
+      "entry_id": "38314332_4072644_fact2",
+      "score": 0.758732795715332,
+      "source_id": "38314332_4072644",
+      "value": " 2007"
+    },
+    {
+      "entry_id": "12230434_1988504_fact2",
+      "score": 0.7478781938552856,
+      "source_id": "12230434_1988504",
+      "value": " 1982"
+    },
+    {
+      "entry_id": "42178697_4976344_fact5",
+      "score": 0.7467762231826782,
+      "source_id": "42178697_4976344",
+      "value": " 2012"
+    },
+    {
+      "entry_id": "42178697_4976344_fact4",
+      "score": 0.7461254596710205,
+      "source_id": "42178697_4976344",
+      "value": " London, England"
+    }
+  ],
+  "truncated": false
+}

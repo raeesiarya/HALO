@@ -1,0 +1,144 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "22019212_1869979_fact2",
+      "score": 0.9196070432662964,
+      "source_id": "22019212_1869979",
+      "value": " EMI"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56115267_5480684_fact4",
+      "score": 0.6830165386199951,
+      "source_id": "56115267_5480684",
+      "value": " EMI"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57851011_4416648_fact3",
+      "score": 0.6188626885414124,
+      "source_id": "57851011_4416648",
+      "value": " FLEX Records and EMI"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11696253_1370738_fact3",
+      "score": 0.6174674034118652,
+      "source_id": "11696253_1370738",
+      "value": " EMI Latin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27417491_2148807_fact5",
+      "score": 0.6133047342300415,
+      "source_id": "27417491_2148807",
+      "value": " CCP/EMI S.A. label"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "470197_652714_fact50",
+      "score": 0.5946619510650635,
+      "source_id": "470197_652714",
+      "value": " EMI Records"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3923566_583237_fact18",
+      "score": 0.5919541120529175,
+      "source_id": "3923566_583237",
+      "value": " EMI"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34374041_3331354_fact5",
+      "score": 0.5842177867889404,
+      "source_id": "34374041_3331354",
+      "value": " Capitol/EMI Records"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36688547_2817036_fact5",
+      "score": 0.5821645259857178,
+      "source_id": "36688547_2817036",
+      "value": " Columbia/Minos EMI"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49154231_5362077_fact4",
+      "score": 0.579022228717804,
+      "source_id": "49154231_5362077",
+      "value": " Universal Music Japan sub label EMI Records"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "64615e21-3227-4c34-af27-b3bb3de5e8b1",
+  "index_nprobe": null,
+  "manifest_id": "36d33758d59dff06",
+  "margin": 0.21008098125457764,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9196070432662964,
+  "s_surv": 0.7095260620117188,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "60341537_3659980_fact2",
+      "score": 0.7095260620117188,
+      "source_id": "60341537_3659980",
+      "value": " T-Series"
+    },
+    {
+      "entry_id": "5465570_885677_fact4",
+      "score": 0.7086408138275146,
+      "source_id": "5465570_885677",
+      "value": " Atlantic Records"
+    },
+    {
+      "entry_id": "4577743_121746_fact9",
+      "score": 0.6914358139038086,
+      "source_id": "4577743_121746",
+      "value": " Epic Records"
+    },
+    {
+      "entry_id": "31010234_2734390_fact2",
+      "score": 0.6740339398384094,
+      "source_id": "31010234_2734390",
+      "value": " Virgin Records"
+    },
+    {
+      "entry_id": "20393010_2677281_fact1",
+      "score": 0.6702038049697876,
+      "source_id": "20393010_2677281",
+      "value": " Mainstream Records"
+    }
+  ],
+  "truncated": false
+}

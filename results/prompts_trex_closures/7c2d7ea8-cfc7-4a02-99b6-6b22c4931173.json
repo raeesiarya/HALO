@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "530988_928585_fact1",
+      "score": 0.9026060104370117,
+      "source_id": "530988_928585",
+      "value": " an IBM proprietary large scale airline reservation application"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1042722_251539_fact2",
+      "score": 0.583528459072113,
+      "source_id": "1042722_251539",
+      "value": " IBM"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "7c2d7ea8-cfc7-4a02-99b6-6b22c4931173",
+  "index_nprobe": null,
+  "manifest_id": "1a74a0fc72c14c1c",
+  "margin": 0.10541367530822754,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9026060104370117,
+  "s_surv": 0.7971923351287842,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "8876802_3168802_fact1",
+      "score": 0.7971923351287842,
+      "source_id": "8876802_3168802",
+      "value": " parachuting training system"
+    },
+    {
+      "entry_id": "32316211_1618225_fact0",
+      "score": 0.7846311330795288,
+      "source_id": "32316211_1618225",
+      "value": " Canadian Federal Government customs program"
+    },
+    {
+      "entry_id": "36694031_2821828_fact1",
+      "score": 0.7567040324211121,
+      "source_id": "36694031_2821828",
+      "value": " configurable software platform for developing forecasting and planning applications"
+    },
+    {
+      "entry_id": "28180925_2832720_fact1",
+      "score": 0.7312076091766357,
+      "source_id": "28180925_2832720",
+      "value": " ground-based extrasolar planet search device"
+    },
+    {
+      "entry_id": "13116709_3075865_fact1",
+      "score": 0.7264237403869629,
+      "source_id": "13116709_3075865",
+      "value": " United States Department of Defense (DoD)"
+    }
+  ],
+  "truncated": false
+}

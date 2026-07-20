@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "2290461_643474_fact8",
+      "score": 0.7539620399475098,
+      "source_id": "2290461_643474",
+      "value": " Berlin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "72637947_4907439_fact95",
+      "score": 0.6554475426673889,
+      "source_id": "72637947_4907439",
+      "value": " International Media Art Festival Berlin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1525019_275141_fact111",
+      "score": 0.5624018907546997,
+      "source_id": "1525019_275141",
+      "value": " 1988 Berlin International Film Festival"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35144524_1625576_fact109",
+      "score": 0.543978214263916,
+      "source_id": "35144524_1625576",
+      "value": " Berlin"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "8b5fbae2-c740-43b4-8876-39d56c5c2116",
+  "index_nprobe": null,
+  "manifest_id": "d90a5021473adfbf",
+  "margin": 0.09796774387359619,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7539620399475098,
+  "s_surv": 0.6559942960739136,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "65745841_5067719_fact51",
+      "score": 0.6559942960739136,
+      "source_id": "65745841_5067719",
+      "value": " musicological books"
+    },
+    {
+      "entry_id": "2115123_323774_fact32",
+      "score": 0.6320524215698242,
+      "source_id": "2115123_323774",
+      "value": " \"House / UK Garage / Progressive House\"."
+    },
+    {
+      "entry_id": "49861378_5801345_fact18",
+      "score": 0.6198873519897461,
+      "source_id": "49861378_5801345",
+      "value": "Concerts"
+    },
+    {
+      "entry_id": "20210035_2543713_fact55",
+      "score": 0.6193504929542542,
+      "source_id": "20210035_2543713",
+      "value": " Net Vision / Net Excellence category"
+    },
+    {
+      "entry_id": "67758012_4005647_fact33",
+      "score": 0.6134783029556274,
+      "source_id": "67758012_4005647",
+      "value": " contemporary poetry"
+    }
+  ],
+  "truncated": false
+}

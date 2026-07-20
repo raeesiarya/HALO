@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "5611347_1010833_fact2",
+      "score": 0.6764919757843018,
+      "source_id": "5611347_1010833",
+      "value": " Sheffield"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c29ca266-b31f-4b3f-a71d-44a2c6838701",
+  "index_nprobe": null,
+  "manifest_id": "d3d6a5e33ad33eac",
+  "margin": 0.0008096694946289062,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6764919757843018,
+  "s_surv": 0.6756823062896729,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1322979_984344_fact1",
+      "score": 0.6756823062896729,
+      "source_id": "1322979_984344",
+      "value": " London, England"
+    },
+    {
+      "entry_id": "3721872_365259_fact2",
+      "score": 0.6755204200744629,
+      "source_id": "3721872_365259",
+      "value": " Baltimore, Maryland"
+    },
+    {
+      "entry_id": "34526566_3466047_fact1",
+      "score": 0.6734011769294739,
+      "source_id": "34526566_3466047",
+      "value": " Liverpool"
+    },
+    {
+      "entry_id": "6788848_789948_fact2",
+      "score": 0.672407865524292,
+      "source_id": "6788848_789948",
+      "value": " Chicago, Illinois"
+    },
+    {
+      "entry_id": "7128551_1042504_fact5",
+      "score": 0.6683641076087952,
+      "source_id": "7128551_1042504",
+      "value": "based"
+    }
+  ],
+  "truncated": false
+}

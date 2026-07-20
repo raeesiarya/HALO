@@ -1,0 +1,171 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "27910171_2573804_fact1",
+      "score": 0.8542030453681946,
+      "source_id": "27910171_2573804",
+      "value": " Dutch adaptation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7414779_1232542_fact24",
+      "score": 0.7083616852760315,
+      "source_id": "7414779_1232542",
+      "value": " one of the major Dutch comics magazines"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20642755_2888408_fact0",
+      "score": 0.6627686023712158,
+      "source_id": "20642755_2888408",
+      "value": " a Dutch version of the given name George"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20642755_2888408_fact1",
+      "score": 0.5933244824409485,
+      "source_id": "20642755_2888408",
+      "value": " a Dutch comic book"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48216961_4605965_fact0",
+      "score": 0.5793800354003906,
+      "source_id": "48216961_4605965",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3233003_923516_fact2",
+      "score": 0.5596532821655273,
+      "source_id": "3233003_923516",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10284378_2282000_fact0",
+      "score": 0.5359179973602295,
+      "source_id": "10284378_2282000",
+      "value": " Dutch male given name"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50173137_3621187_fact0",
+      "score": 0.5174951553344727,
+      "source_id": "50173137_3621187",
+      "value": " Dutch pop group"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38723459_4408154_fact0",
+      "score": 0.5116001963615417,
+      "source_id": "38723459_4408154",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2765041_259548_fact52",
+      "score": 0.5097996592521667,
+      "source_id": "2765041_259548",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22643857_2455941_fact1",
+      "score": 0.5023519396781921,
+      "source_id": "22643857_2455941",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7570038_1430695_fact0",
+      "score": 0.5022114515304565,
+      "source_id": "7570038_1430695",
+      "value": " Dutch"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24537462_1983283_fact1",
+      "score": 0.5014727115631104,
+      "source_id": "24537462_1983283",
+      "value": " Dutch"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c6669028-d3b8-499f-81e4-9a757fbd8b1a",
+  "index_nprobe": null,
+  "manifest_id": "0c5f0399a05c33e6",
+  "margin": 0.16996878385543823,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8542030453681946,
+  "s_surv": 0.6842342615127563,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "5102028_569007_fact48",
+      "score": 0.6842342615127563,
+      "source_id": "5102028_569007",
+      "value": " interactive programme with music videos and SMS chat"
+    },
+    {
+      "entry_id": "22438641_2250101_fact0",
+      "score": 0.6800793409347534,
+      "source_id": "22438641_2250101",
+      "value": " locality"
+    },
+    {
+      "entry_id": "10710642_2693458_fact10",
+      "score": 0.6606835126876831,
+      "source_id": "10710642_2693458",
+      "value": " an interactive programme with music videos and SMS chat"
+    },
+    {
+      "entry_id": "4706822_237605_fact74",
+      "score": 0.651554524898529,
+      "source_id": "4706822_237605",
+      "value": "1938"
+    },
+    {
+      "entry_id": "32002342_1362084_fact0",
+      "score": 0.6503239274024963,
+      "source_id": "32002342_1362084",
+      "value": " American television film"
+    }
+  ],
+  "truncated": false
+}

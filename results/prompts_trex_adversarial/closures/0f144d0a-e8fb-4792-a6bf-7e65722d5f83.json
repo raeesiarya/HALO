@@ -1,0 +1,205 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "65243_5990259_fact9",
+      "score": 0.8142402768135071,
+      "source_id": "65243_5990259",
+      "value": " British Olympic Association"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2479780_975998_fact13",
+      "score": 0.7841830849647522,
+      "source_id": "2479780_975998",
+      "value": " FIFA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14515626_2053148_fact17",
+      "score": 0.7290210723876953,
+      "source_id": "14515626_2053148",
+      "value": " FIFA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "186853_119030_fact49",
+      "score": 0.7127686738967896,
+      "source_id": "186853_119030",
+      "value": " FIFA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63939404_3857422_fact3",
+      "score": 0.6969433426856995,
+      "source_id": "63939404_3857422",
+      "value": " F\u00e9d\u00e9ration Internationale de Football Association (FIFA)."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5605929_1005366_fact3",
+      "score": 0.6930352449417114,
+      "source_id": "5605929_1005366",
+      "value": " FIFA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1267645_868423_fact12",
+      "score": 0.6901499032974243,
+      "source_id": "1267645_868423",
+      "value": " FIFA and UEFA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23703292_3470485_fact171",
+      "score": 0.6875445246696472,
+      "source_id": "23703292_3470485",
+      "value": " FIFA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37691726_3597756_fact3",
+      "score": 0.6860108971595764,
+      "source_id": "37691726_3597756",
+      "value": " FIFA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "772780_640409_fact196",
+      "score": 0.6859649419784546,
+      "source_id": "772780_640409",
+      "value": " FIFA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1910149_1102449_fact14",
+      "score": 0.681785523891449,
+      "source_id": "1910149_1102449",
+      "value": " FIFA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48037043_4526060_fact8",
+      "score": 0.6814594864845276,
+      "source_id": "48037043_4526060",
+      "value": " F\u00e9d\u00e9ration Internationale de Football Association (FIFA)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "429472_448247_fact10",
+      "score": 0.6795623898506165,
+      "source_id": "429472_448247",
+      "value": " FIFA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11797597_1485369_fact9",
+      "score": 0.6794096827507019,
+      "source_id": "11797597_1485369",
+      "value": " FIFA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31935685_1304385_fact3",
+      "score": 0.6771720051765442,
+      "source_id": "31935685_1304385",
+      "value": " FIFA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65243_5990259_fact5",
+      "score": 0.6759706735610962,
+      "source_id": "65243_5990259",
+      "value": " FIFA and UEFA"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "558219_1031062_fact159",
+      "score": 0.674762487411499,
+      "source_id": "558219_1031062",
+      "value": " FIFA"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0f144d0a-e8fb-4792-a6bf-7e65722d5f83",
+  "index_nprobe": null,
+  "manifest_id": "b7dc943a043e58dc",
+  "margin": 4.976987838745117e-05,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8142402768135071,
+  "s_surv": 0.8141905069351196,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "47933257_4468293_fact2",
+      "score": 0.8141905069351196,
+      "source_id": "47933257_4468293",
+      "value": " ASEAN Football Federation (AFF)"
+    },
+    {
+      "entry_id": "40510533_5927665_fact2",
+      "score": 0.812529444694519,
+      "source_id": "40510533_5927665",
+      "value": " ASEAN Football Federation (AFF)"
+    },
+    {
+      "entry_id": "2846442_370118_fact6",
+      "score": 0.8119643926620483,
+      "source_id": "2846442_370118",
+      "value": " International Coalition for Sustainable Aviation"
+    },
+    {
+      "entry_id": "3597064_221084_fact29",
+      "score": 0.8115532398223877,
+      "source_id": "3597064_221084",
+      "value": " World Association of Girl Guides and Girl Scouts"
+    },
+    {
+      "entry_id": "10813313_2791862_fact2",
+      "score": 0.8113298416137695,
+      "source_id": "10813313_2791862",
+      "value": " ASEAN Football Federation (AFF)"
+    }
+  ],
+  "truncated": false
+}

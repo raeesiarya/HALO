@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "5334851_778419_fact16",
+      "score": 0.8670907020568848,
+      "source_id": "5334851_778419",
+      "value": " Sydney Symphony Orchestra"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "357c3edc-53ba-44be-b57a-fa067c434556",
+  "index_nprobe": null,
+  "manifest_id": "8083caa4fc689bdd",
+  "margin": 0.1453622579574585,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8670907020568848,
+  "s_surv": 0.7217284440994263,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "227157_399349_fact4",
+      "score": 0.7217284440994263,
+      "source_id": "227157_399349",
+      "value": " British Association for the Advancement of Science"
+    },
+    {
+      "entry_id": "23814565_1247454_fact6",
+      "score": 0.7145269513130188,
+      "source_id": "23814565_1247454",
+      "value": " Willet Stained Glass and Decorating Company"
+    },
+    {
+      "entry_id": "19077719_1535995_fact4",
+      "score": 0.7095973491668701,
+      "source_id": "19077719_1535995",
+      "value": " Sedgley Park School"
+    },
+    {
+      "entry_id": "47993314_4507214_fact22",
+      "score": 0.7032367587089539,
+      "source_id": "47993314_4507214",
+      "value": " International Lacemakers' Federation"
+    },
+    {
+      "entry_id": "227570_401595_fact83",
+      "score": 0.7014498114585876,
+      "source_id": "227570_401595",
+      "value": " the British Association for the Advancement of Science"
+    }
+  ],
+  "truncated": false
+}

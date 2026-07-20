@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "7452008_1280745_fact1",
+      "score": 0.8590235114097595,
+      "source_id": "7452008_1280745",
+      "value": " New York Zendo Shobo-Ji"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4b8ef987-b07b-4db7-88f5-d73806afece2",
+  "index_nprobe": null,
+  "manifest_id": "59b06273cd48b19a",
+  "margin": 0.09506440162658691,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8590235710144043,
+  "s_surv": 0.7639591693878174,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6874594_864973_fact7",
+      "score": 0.7639591693878174,
+      "source_id": "6874594_864973",
+      "value": " the Sican Archaeological Project"
+    },
+    {
+      "entry_id": "5499504_911887_fact31",
+      "score": 0.760962724685669,
+      "source_id": "5499504_911887",
+      "value": " Robotics Society of Japan (RSJ),"
+    },
+    {
+      "entry_id": "7110473_1028038_fact19",
+      "score": 0.7499377131462097,
+      "source_id": "7110473_1028038",
+      "value": " Ban Sen Juku school"
+    },
+    {
+      "entry_id": "19189671_1641719_fact24",
+      "score": 0.7499262094497681,
+      "source_id": "19189671_1641719",
+      "value": " Harupin-Ha"
+    },
+    {
+      "entry_id": "458158_591226_fact103",
+      "score": 0.7384169101715088,
+      "source_id": "458158_591226",
+      "value": " Japan Institute of the Moving Image"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "9660551_1643857_fact46",
+      "score": 0.7496949434280396,
+      "source_id": "9660551_1643857",
+      "value": " Haakon Lie"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "4d8223f7-2cdc-4d98-aba5-3402155d8d23",
+  "index_nprobe": null,
+  "manifest_id": "649a6df794f122ea",
+  "margin": 0.0017704963684082031,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7496949434280396,
+  "s_surv": 0.7479244470596313,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "27536944_2245903_fact17",
+      "score": 0.7479244470596313,
+      "source_id": "27536944_2245903",
+      "value": " Nick Hards"
+    },
+    {
+      "entry_id": "13302926_3260665_fact174",
+      "score": 0.7419304847717285,
+      "source_id": "13302926_3260665",
+      "value": " Roger Douglas"
+    },
+    {
+      "entry_id": "11108532_3130688_fact35",
+      "score": 0.739372968673706,
+      "source_id": "11108532_3130688",
+      "value": " Trevor Manuel"
+    },
+    {
+      "entry_id": "1067120_314523_fact23",
+      "score": 0.7383804321289062,
+      "source_id": "1067120_314523",
+      "value": " Bill Birch"
+    },
+    {
+      "entry_id": "642175_215133_fact85",
+      "score": 0.7303991317749023,
+      "source_id": "642175_215133",
+      "value": " Bishnu Prasad Jamatiya"
+    }
+  ],
+  "truncated": false
+}

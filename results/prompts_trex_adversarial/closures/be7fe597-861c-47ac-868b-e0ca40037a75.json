@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "32706737_1935659_fact87",
+      "score": 0.6908149719238281,
+      "source_id": "32706737_1935659",
+      "value": " London"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "be7fe597-861c-47ac-868b-e0ca40037a75",
+  "index_nprobe": null,
+  "manifest_id": "d3c39dc1de7ea7d6",
+  "margin": 0.011085152626037598,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6908149719238281,
+  "s_surv": 0.6797298192977905,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "55751786_5208532_fact15",
+      "score": 0.6797298192977905,
+      "source_id": "55751786_5208532",
+      "value": "1787"
+    },
+    {
+      "entry_id": "2157753_396514_fact110",
+      "score": 0.6606592535972595,
+      "source_id": "2157753_396514",
+      "value": " May 1702"
+    },
+    {
+      "entry_id": "148298_926453_fact101",
+      "score": 0.6579090356826782,
+      "source_id": "148298_926453",
+      "value": " December 5, 1778"
+    },
+    {
+      "entry_id": "2829195_344454_fact124",
+      "score": 0.6526827216148376,
+      "source_id": "2829195_344454",
+      "value": "1787\u201388"
+    },
+    {
+      "entry_id": "58009481_4541642_fact79",
+      "score": 0.6522572636604309,
+      "source_id": "58009481_4541642",
+      "value": "1769"
+    }
+  ],
+  "truncated": false
+}

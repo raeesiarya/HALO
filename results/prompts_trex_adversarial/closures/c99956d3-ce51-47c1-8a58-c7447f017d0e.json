@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "23984387_1419829_fact3",
+      "score": 0.8828228116035461,
+      "source_id": "23984387_1419829",
+      "value": " 1995"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c99956d3-ce51-47c1-8a58-c7447f017d0e",
+  "index_nprobe": null,
+  "manifest_id": "8cdffed000ca0fda",
+  "margin": 0.2258116602897644,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8828228116035461,
+  "s_surv": 0.6570111513137817,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "42414039_5165971_fact8",
+      "score": 0.6570111513137817,
+      "source_id": "42414039_5165971",
+      "value": " 1926"
+    },
+    {
+      "entry_id": "32913110_2102077_fact4",
+      "score": 0.6365053653717041,
+      "source_id": "32913110_2102077",
+      "value": " 2005"
+    },
+    {
+      "entry_id": "14558562_2099749_fact21",
+      "score": 0.6131556034088135,
+      "source_id": "14558562_2099749",
+      "value": " the early 1920s"
+    },
+    {
+      "entry_id": "10214145_2215349_fact5",
+      "score": 0.6104738712310791,
+      "source_id": "10214145_2215349",
+      "value": " 1990"
+    },
+    {
+      "entry_id": "34113_779042_fact10",
+      "score": 0.6100888252258301,
+      "source_id": "34113_779042",
+      "value": " 1962"
+    }
+  ],
+  "truncated": false
+}

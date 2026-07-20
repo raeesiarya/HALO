@@ -1,0 +1,225 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "33466983_2564512_fact29",
+      "score": 0.8811518549919128,
+      "source_id": "33466983_2564512",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34528400_3467645_fact37",
+      "score": 0.6777740120887756,
+      "source_id": "34528400_3467645",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3369327_1095075_fact6",
+      "score": 0.6481716632843018,
+      "source_id": "3369327_1095075",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6745106_755116_fact30",
+      "score": 0.638944685459137,
+      "source_id": "6745106_755116",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "89337_301063_fact224",
+      "score": 0.6364864706993103,
+      "source_id": "89337_301063",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51054313_4299374_fact52",
+      "score": 0.6305278539657593,
+      "source_id": "51054313_4299374",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36797936_2910593_fact39",
+      "score": 0.6225748062133789,
+      "source_id": "36797936_2910593",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70905441_3814784_fact23",
+      "score": 0.6172745823860168,
+      "source_id": "70905441_3814784",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17193_406363_fact53",
+      "score": 0.6109760403633118,
+      "source_id": "17193_406363",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28949931_3443299_fact27",
+      "score": 0.6089667677879333,
+      "source_id": "28949931_3443299",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51786656_4874106_fact13",
+      "score": 0.6024794578552246,
+      "source_id": "51786656_4874106",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "151442_965606_fact242",
+      "score": 0.6017306447029114,
+      "source_id": "151442_965606",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4154892_835597_fact92",
+      "score": 0.595009982585907,
+      "source_id": "4154892_835597",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3924045_583737_fact33",
+      "score": 0.5949859619140625,
+      "source_id": "3924045_583737",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2949703_518784_fact45",
+      "score": 0.5935433506965637,
+      "source_id": "2949703_518784",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26836006_1675499_fact23",
+      "score": 0.5934823751449585,
+      "source_id": "26836006_1675499",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25307436_2690567_fact65",
+      "score": 0.5898066163063049,
+      "source_id": "25307436_2690567",
+      "value": " Danish and Latin"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5275311_723183_fact88",
+      "score": 0.5846284627914429,
+      "source_id": "5275311_723183",
+      "value": " Danish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18785835_3531818_fact207",
+      "score": 0.5838971734046936,
+      "source_id": "18785835_3531818",
+      "value": " Danish"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "888d4df5-40d9-445c-a0f5-45c31416d387",
+  "index_nprobe": null,
+  "manifest_id": "8a58ebc04a82a587",
+  "margin": 0.056236207485198975,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8811518549919128,
+  "s_surv": 0.8249156475067139,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1791119_853269_fact54",
+      "score": 0.8249156475067139,
+      "source_id": "1791119_853269",
+      "value": " Kalaallisut"
+    },
+    {
+      "entry_id": "47255645_3877066_fact37",
+      "score": 0.7683600187301636,
+      "source_id": "47255645_3877066",
+      "value": " English"
+    },
+    {
+      "entry_id": "5025808_503829_fact15",
+      "score": 0.7643111944198608,
+      "source_id": "5025808_503829",
+      "value": " Houa\u00eflou language"
+    },
+    {
+      "entry_id": "10973282_2975269_fact13",
+      "score": 0.760982871055603,
+      "source_id": "10973282_2975269",
+      "value": " the Uyghur language"
+    },
+    {
+      "entry_id": "64591080_4375023_fact36",
+      "score": 0.7558954954147339,
+      "source_id": "64591080_4375023",
+      "value": " Amharic"
+    }
+  ],
+  "truncated": false
+}

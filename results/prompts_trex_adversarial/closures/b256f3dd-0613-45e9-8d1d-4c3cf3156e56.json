@@ -1,0 +1,135 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "141950_857529_fact295",
+      "score": 0.9046976566314697,
+      "source_id": "141950_857529",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "2547284_1078230_fact67",
+      "score": 0.8829963803291321,
+      "source_id": "2547284_1078230",
+      "value": " All Russia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2017936_158071_fact2",
+      "score": 0.6772747039794922,
+      "source_id": "2017936_158071",
+      "value": " 14th Patriarch of Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40579669_3548597_fact4",
+      "score": 0.6317249536514282,
+      "source_id": "40579669_3548597",
+      "value": " the Ukrainian Orthodox Church (Moscow Patriarchate)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2060632_227531_fact4",
+      "score": 0.574097752571106,
+      "source_id": "2060632_227531",
+      "value": "Patriarch of Moscow and all Rus',"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47786586_4356311_fact123",
+      "score": 0.5647439956665039,
+      "source_id": "47786586_4356311",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "666364_298462_fact151",
+      "score": 0.5479850769042969,
+      "source_id": "666364_298462",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49430417_5550180_fact6",
+      "score": 0.5468754768371582,
+      "source_id": "49430417_5550180",
+      "value": " Moscow"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4245499_935923_fact107",
+      "score": 0.5332176685333252,
+      "source_id": "4245499_935923",
+      "value": " Moscow Patriarchate"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b256f3dd-0613-45e9-8d1d-4c3cf3156e56",
+  "index_nprobe": null,
+  "manifest_id": "8d21b0ed2b13cc44",
+  "margin": 0.08617699146270752,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9046976566314697,
+  "s_surv": 0.8185206651687622,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "41473392_4357745_fact7",
+      "score": 0.8185206651687622,
+      "source_id": "41473392_4357745",
+      "value": " Krutitsy and Kolomna"
+    },
+    {
+      "entry_id": "30251098_2033882_fact16",
+      "score": 0.7697299718856812,
+      "source_id": "30251098_2033882",
+      "value": "Autocephalous Turkish Orthodox Patriarchate"
+    },
+    {
+      "entry_id": "2017936_158071_fact3",
+      "score": 0.7493428587913513,
+      "source_id": "2017936_158071",
+      "value": " head of the Russian Orthodox Church"
+    },
+    {
+      "entry_id": "8860393_3145679_fact94",
+      "score": 0.7457117438316345,
+      "source_id": "8860393_3145679",
+      "value": " the Holy Metropolis of Naqada (Ombos),"
+    },
+    {
+      "entry_id": "30258084_2040470_fact5",
+      "score": 0.7345367074012756,
+      "source_id": "30258084_2040470",
+      "value": " Autocephalous Turkish Orthodox Patriarchate"
+    }
+  ],
+  "truncated": false
+}

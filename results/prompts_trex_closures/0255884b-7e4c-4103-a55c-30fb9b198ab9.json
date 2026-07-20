@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "38205389_3970509_fact14",
+      "score": 0.9328119158744812,
+      "source_id": "38205389_3970509",
+      "value": " Libya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6966071_931461_fact25",
+      "score": 0.6523297429084778,
+      "source_id": "6966071_931461",
+      "value": " Libya and the Middle East"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0255884b-7e4c-4103-a55c-30fb9b198ab9",
+  "index_nprobe": null,
+  "manifest_id": "b1d7e5b4964ac859",
+  "margin": 0.171677827835083,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9328120946884155,
+  "s_surv": 0.7611342668533325,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "31848172_1236100_fact112",
+      "score": 0.7611342668533325,
+      "source_id": "31848172_1236100",
+      "value": " Deccan"
+    },
+    {
+      "entry_id": "53296866_5886874_fact25",
+      "score": 0.7579144239425659,
+      "source_id": "53296866_5886874",
+      "value": " England"
+    },
+    {
+      "entry_id": "62117227_4941723_fact34",
+      "score": 0.7560046315193176,
+      "source_id": "62117227_4941723",
+      "value": " the north Caucasus"
+    },
+    {
+      "entry_id": "50340469_3719056_fact136",
+      "score": 0.7541218400001526,
+      "source_id": "50340469_3719056",
+      "value": " Chenor"
+    },
+    {
+      "entry_id": "67655784_3923219_fact16",
+      "score": 0.7505732178688049,
+      "source_id": "67655784_3923219",
+      "value": " Chios or the Sahara"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "31114_711175_fact0",
+      "score": 0.9023239612579346,
+      "source_id": "31114_711175",
+      "value": " principal island of"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "60d7be1e-c450-4f0d-9b92-562e3a9a7055",
+  "index_nprobe": null,
+  "manifest_id": "708a3f5d152018ef",
+  "margin": 0.053252577781677246,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9023239612579346,
+  "s_surv": 0.8490713834762573,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "739176_520570_fact9",
+      "score": 0.8490713834762573,
+      "source_id": "739176_520570",
+      "value": " most southerly point in Nicaragua"
+    },
+    {
+      "entry_id": "2227867_524723_fact0",
+      "score": 0.8100308179855347,
+      "source_id": "2227867_524723",
+      "value": " capital city of Flores"
+    },
+    {
+      "entry_id": "25213943_2609315_fact33",
+      "score": 0.8046436905860901,
+      "source_id": "25213943_2609315",
+      "value": " a large island off northeastern Venezuela"
+    },
+    {
+      "entry_id": "15825405_3297815_fact11",
+      "score": 0.8033583164215088,
+      "source_id": "15825405_3297815",
+      "value": " department's capital"
+    },
+    {
+      "entry_id": "921326_6155301_fact2",
+      "score": 0.8015355467796326,
+      "source_id": "921326_6155301",
+      "value": " capital"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,234 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "479575_695888_fact1",
+      "score": 0.9462963938713074,
+      "source_id": "479575_695888",
+      "value": " calcium orthosilicate"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "21051206_3321599_fact19",
+      "score": 0.8718553781509399,
+      "source_id": "21051206_3321599",
+      "value": " wollastonite"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16257856_1301427_fact0",
+      "score": 0.7306088209152222,
+      "source_id": "16257856_1301427",
+      "value": " calcium sulphite"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "242643_510351_fact0",
+      "score": 0.7205917239189148,
+      "source_id": "242643_510351",
+      "value": " calcium acetylide"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "416161_61619_fact73",
+      "score": 0.7141127586364746,
+      "source_id": "416161_61619",
+      "value": " calcium carbonate"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8435509_2581251_fact5",
+      "score": 0.7040618658065796,
+      "source_id": "8435509_2581251",
+      "value": " calcium carbide"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "763076_599452_fact0",
+      "score": 0.6626534461975098,
+      "source_id": "763076_599452",
+      "value": " calcium dioxide"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1620467_482794_fact0",
+      "score": 0.639472484588623,
+      "source_id": "1620467_482794",
+      "value": " calcium hydrogencarbonate"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2361037_771266_fact0",
+      "score": 0.6344070434570312,
+      "source_id": "2361037_771266",
+      "value": " Calcium carbondiamide"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1263365_856676_fact1",
+      "score": 0.629752516746521,
+      "source_id": "1263365_856676",
+      "value": " calcium carbide"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25188032_2582988_fact1",
+      "score": 0.6203204989433289,
+      "source_id": "25188032_2582988",
+      "value": "calcium phosphide"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "318869_994195_fact3",
+      "score": 0.6074329614639282,
+      "source_id": "318869_994195",
+      "value": " crystallized calcium carbonate"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2655103_120565_fact4",
+      "score": 0.5982892513275146,
+      "source_id": "2655103_120565",
+      "value": " tribasic calcium phosphate"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3277656_983978_fact4",
+      "score": 0.597377598285675,
+      "source_id": "3277656_983978",
+      "value": " dibasic calcium phosphate or calcium monohydrogen phosphate"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "342090_1135246_fact166",
+      "score": 0.588008463382721,
+      "source_id": "342090_1135246",
+      "value": "calcium bicarbonate"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8119550_2173771_fact0",
+      "score": 0.5863970518112183,
+      "source_id": "8119550_2173771",
+      "value": " calcium monocitrate"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52855912_5601388_fact1",
+      "score": 0.5769616961479187,
+      "source_id": "52855912_5601388",
+      "value": " edetate calcium disodium"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10730216_2711337_fact0",
+      "score": 0.5697777271270752,
+      "source_id": "10730216_2711337",
+      "value": " calcium boride"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27117_620663_fact198",
+      "score": 0.5621656775474548,
+      "source_id": "27117_620663",
+      "value": "calcium sulfate hydrate"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5305779_751090_fact1",
+      "score": 0.5618805885314941,
+      "source_id": "5305779_751090",
+      "value": " calcium glutamate"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cbcf9fd1-5c77-45c7-a883-55d4e2b854e3",
+  "index_nprobe": null,
+  "manifest_id": "d2d2440ec88abff4",
+  "margin": 0.12169724702835083,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9462963938713074,
+  "s_surv": 0.8245991468429565,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4526_144561_fact176",
+      "score": 0.8245991468429565,
+      "source_id": "4526_144561",
+      "value": " sandlime or flintlime bricks"
+    },
+    {
+      "entry_id": "43474691_3598874_fact1",
+      "score": 0.8214913606643677,
+      "source_id": "43474691_3598874",
+      "value": "CaSiO3"
+    },
+    {
+      "entry_id": "101966_15254_fact9",
+      "score": 0.8167831301689148,
+      "source_id": "101966_15254",
+      "value": " slag"
+    },
+    {
+      "entry_id": "479575_695888_fact38",
+      "score": 0.8126585483551025,
+      "source_id": "479575_695888",
+      "value": " slag"
+    },
+    {
+      "entry_id": "1986903_101517_fact0",
+      "score": 0.8062037229537964,
+      "source_id": "1986903_101517",
+      "value": "CaSiO3"
+    }
+  ],
+  "truncated": false
+}

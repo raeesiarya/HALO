@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "6041067_277053_fact37",
+      "score": 0.7016560435295105,
+      "source_id": "6041067_277053",
+      "value": " 8 January 1219"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c068adb5-ced2-4edb-b579-b92fcd69f068",
+  "index_nprobe": null,
+  "manifest_id": "6b0766160d21df03",
+  "margin": 0.032079994678497314,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7016560435295105,
+  "s_surv": 0.6695760488510132,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1150129_543025_fact182",
+      "score": 0.6695760488510132,
+      "source_id": "1150129_543025",
+      "value": " 1772"
+    },
+    {
+      "entry_id": "55607_5987955_fact14",
+      "score": 0.6687476634979248,
+      "source_id": "55607_5987955",
+      "value": " 1049"
+    },
+    {
+      "entry_id": "10708746_2691945_fact5",
+      "score": 0.6676233410835266,
+      "source_id": "10708746_2691945",
+      "value": " December 1144"
+    },
+    {
+      "entry_id": "23831_545913_fact22",
+      "score": 0.6666752696037292,
+      "source_id": "23831_545913",
+      "value": " 1517"
+    },
+    {
+      "entry_id": "5423712_853273_fact42",
+      "score": 0.660865843296051,
+      "source_id": "5423712_853273",
+      "value": " 12 October 1440"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,252 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "40147272_5654802_fact2",
+      "score": 0.9368754625320435,
+      "source_id": "40147272_5654802",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1018068_182414_fact3",
+      "score": 0.8883134126663208,
+      "source_id": "1018068_182414",
+      "value": " French"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1018053_182341_fact2",
+      "score": 0.7459040880203247,
+      "source_id": "1018053_182341",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51770160_4862163_fact2",
+      "score": 0.6417906284332275,
+      "source_id": "51770160_4862163",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15069946_2605159_fact4",
+      "score": 0.6244392395019531,
+      "source_id": "15069946_2605159",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40006480_5539296_fact2",
+      "score": 0.6211415529251099,
+      "source_id": "40006480_5539296",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30078449_1907267_fact3",
+      "score": 0.6062511801719666,
+      "source_id": "30078449_1907267",
+      "value": " Polish\u2013Lithuanian Commonwealth noble and politician"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2253670_570743_fact4",
+      "score": 0.6028006076812744,
+      "source_id": "2253670_570743",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5815795_94833_fact2",
+      "score": 0.5987259149551392,
+      "source_id": "5815795_94833",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "716919_6106639_fact2",
+      "score": 0.5983193516731262,
+      "source_id": "716919_6106639",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55318392_4912635_fact3",
+      "score": 0.5967869162559509,
+      "source_id": "55318392_4912635",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27406408_2138678_fact2",
+      "score": 0.58258056640625,
+      "source_id": "27406408_2138678",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1063819_306614_fact2",
+      "score": 0.5791517496109009,
+      "source_id": "1063819_306614",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20829650_3062349_fact3",
+      "score": 0.5785507559776306,
+      "source_id": "20829650_3062349",
+      "value": " Polish and American"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23140244_2893349_fact1",
+      "score": 0.573142945766449,
+      "source_id": "23140244_2893349",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1141791_523305_fact3",
+      "score": 0.5713644623756409,
+      "source_id": "1141791_523305",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22157461_1990696_fact4",
+      "score": 0.5703346729278564,
+      "source_id": "22157461_1990696",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12407034_2208847_fact3",
+      "score": 0.5671513080596924,
+      "source_id": "12407034_2208847",
+      "value": " Polish\u2013Lithuanian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21923683_1793035_fact3",
+      "score": 0.5651667714118958,
+      "source_id": "21923683_1793035",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8844978_3122401_fact2",
+      "score": 0.5634132623672485,
+      "source_id": "8844978_3122401",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "73290013_5243917_fact2",
+      "score": 0.5622299909591675,
+      "source_id": "73290013_5243917",
+      "value": " Polish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38236346_4000330_fact2",
+      "score": 0.5621824264526367,
+      "source_id": "38236346_4000330",
+      "value": " Polish"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "69802844-51e8-43b0-a70d-5c73a949248f",
+  "index_nprobe": null,
+  "manifest_id": "88a506815fcc2f71",
+  "margin": 0.15515649318695068,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9368754625320435,
+  "s_surv": 0.7817189693450928,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "18809180_1228190_fact2",
+      "score": 0.7817189693450928,
+      "source_id": "18809180_1228190",
+      "value": " French"
+    },
+    {
+      "entry_id": "20782269_3013879_fact1",
+      "score": 0.7554290294647217,
+      "source_id": "20782269_3013879",
+      "value": " French"
+    },
+    {
+      "entry_id": "318303_989792_fact2",
+      "score": 0.7287781834602356,
+      "source_id": "318303_989792",
+      "value": " Greek-French"
+    },
+    {
+      "entry_id": "4341886_1031759_fact2",
+      "score": 0.7220224738121033,
+      "source_id": "4341886_1031759",
+      "value": " decorated captain"
+    },
+    {
+      "entry_id": "68354265_4415085_fact2",
+      "score": 0.7046329975128174,
+      "source_id": "68354265_4415085",
+      "value": " German"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,450 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "32227720_1546178_fact2",
+      "score": 0.9368831515312195,
+      "source_id": "32227720_1546178",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2201871_478370_fact7",
+      "score": 0.6288647651672363,
+      "source_id": "2201871_478370",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43729339_3839741_fact4",
+      "score": 0.5977939963340759,
+      "source_id": "43729339_3839741",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57492987_4144005_fact4",
+      "score": 0.5668553113937378,
+      "source_id": "57492987_4144005",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18782879_3526989_fact2",
+      "score": 0.5634057521820068,
+      "source_id": "18782879_3526989",
+      "value": " Petticoat Lane, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43973198_4042946_fact4",
+      "score": 0.5618926286697388,
+      "source_id": "43973198_4042946",
+      "value": " Hampstead, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5020258_498481_fact6",
+      "score": 0.5545005202293396,
+      "source_id": "5020258_498481",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "601386_1203517_fact37",
+      "score": 0.5511066913604736,
+      "source_id": "601386_1203517",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18933281_1345420_fact15",
+      "score": 0.5458076596260071,
+      "source_id": "18933281_1345420",
+      "value": " London, UK"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10139143_2136769_fact1",
+      "score": 0.5394205451011658,
+      "source_id": "10139143_2136769",
+      "value": " Wandsworth, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56155202_5513460_fact18",
+      "score": 0.5368183851242065,
+      "source_id": "56155202_5513460",
+      "value": " Bow, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41711923_4566823_fact5",
+      "score": 0.5346076488494873,
+      "source_id": "41711923_4566823",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26028572_3369344_fact15",
+      "score": 0.5295424461364746,
+      "source_id": "26028572_3369344",
+      "value": " King Street, Golden Square, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26199905_3519907_fact138",
+      "score": 0.5253037810325623,
+      "source_id": "26199905_3519907",
+      "value": " Lambeth, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53543212_3656632_fact7",
+      "score": 0.5221990942955017,
+      "source_id": "53543212_3656632",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43628608_3742942_fact5",
+      "score": 0.521355390548706,
+      "source_id": "43628608_3742942",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7391854_1213259_fact5",
+      "score": 0.5175365209579468,
+      "source_id": "7391854_1213259",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "640389_209015_fact13",
+      "score": 0.5161837935447693,
+      "source_id": "640389_209015",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6029793_267700_fact9",
+      "score": 0.5161620378494263,
+      "source_id": "6029793_267700",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21511479_1388592_fact5",
+      "score": 0.5139195919036865,
+      "source_id": "21511479_1388592",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43565060_3679309_fact6",
+      "score": 0.5137242078781128,
+      "source_id": "43565060_3679309",
+      "value": " Hammersmith, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29481652_1513549_fact1",
+      "score": 0.5116081237792969,
+      "source_id": "29481652_1513549",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18782879_3526989_fact10",
+      "score": 0.5103752613067627,
+      "source_id": "18782879_3526989",
+      "value": " Whitechapel, East London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7529205_1379246_fact5",
+      "score": 0.5078994631767273,
+      "source_id": "7529205_1379246",
+      "value": " Mile End, East London E3"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1592935_418584_fact8",
+      "score": 0.5062025785446167,
+      "source_id": "1592935_418584",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69300845_5099787_fact25",
+      "score": 0.5020525455474854,
+      "source_id": "69300845_5099787",
+      "value": " Bromley-by-Bow, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61018900_4166369_fact4",
+      "score": 0.5018396377563477,
+      "source_id": "61018900_4166369",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22583392_2398920_fact9",
+      "score": 0.5009488463401794,
+      "source_id": "22583392_2398920",
+      "value": " Spitalfields, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17911_419503_fact10",
+      "score": 0.4998058080673218,
+      "source_id": "17911_419503",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29744756_1708087_fact8",
+      "score": 0.49657124280929565,
+      "source_id": "29744756_1708087",
+      "value": " Denmark Street, St Giles, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23027245_2803740_fact4",
+      "score": 0.49476778507232666,
+      "source_id": "23027245_2803740",
+      "value": " Finchley in north London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58436972_4819499_fact50",
+      "score": 0.4945419728755951,
+      "source_id": "58436972_4819499",
+      "value": " Maskell's house in Great Ormond Street, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1381229_1118934_fact6",
+      "score": 0.4938070476055145,
+      "source_id": "1381229_1118934",
+      "value": " Camberwell, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6777437_780378_fact5",
+      "score": 0.49260133504867554,
+      "source_id": "6777437_780378",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "151400_965125_fact9",
+      "score": 0.49216634035110474,
+      "source_id": "151400_965125",
+      "value": " the Elephant and Castle, Southwark, South London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8018418_2041422_fact6",
+      "score": 0.4920608699321747,
+      "source_id": "8018418_2041422",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51605677_4762508_fact5",
+      "score": 0.4905581474304199,
+      "source_id": "51605677_4762508",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2253334_569890_fact12",
+      "score": 0.49045243859291077,
+      "source_id": "2253334_569890",
+      "value": " Whitechapel, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8317188_2436717_fact5",
+      "score": 0.4895843267440796,
+      "source_id": "8317188_2436717",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3030836_631279_fact7",
+      "score": 0.4886433184146881,
+      "source_id": "3030836_631279",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34542214_3479905_fact4",
+      "score": 0.4880116581916809,
+      "source_id": "34542214_3479905",
+      "value": " London, England"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29481652_1513549_fact8",
+      "score": 0.4877752363681793,
+      "source_id": "29481652_1513549",
+      "value": " 9 Upper Eaton Street, Pimlico, London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29774717_1729051_fact9",
+      "score": 0.48724639415740967,
+      "source_id": "29774717_1729051",
+      "value": " London"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1491621_208888_fact11",
+      "score": 0.4867370128631592,
+      "source_id": "1491621_208888",
+      "value": " London, Canada West"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b9b50ae8-1c27-4f8c-8957-f4185fe1335c",
+  "index_nprobe": null,
+  "manifest_id": "26d5230c3e4e4a2d",
+  "margin": 0.11424404382705688,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9368831515312195,
+  "s_surv": 0.8226391077041626,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "23491737_3223695_fact3",
+      "score": 0.8226391077041626,
+      "source_id": "23491737_3223695",
+      "value": " Taunton, Massachusetts"
+    },
+    {
+      "entry_id": "45185_935674_fact82",
+      "score": 0.6456027030944824,
+      "source_id": "45185_935674",
+      "value": " Sucha Beskidzka"
+    },
+    {
+      "entry_id": "65314630_4757033_fact5",
+      "score": 0.6420143842697144,
+      "source_id": "65314630_4757033",
+      "value": " Manchester"
+    },
+    {
+      "entry_id": "7977545_1988285_fact5",
+      "score": 0.6389738917350769,
+      "source_id": "7977545_1988285",
+      "value": " Glossop"
+    },
+    {
+      "entry_id": "5257764_708267_fact9",
+      "score": 0.6366562843322754,
+      "source_id": "5257764_708267",
+      "value": " Long-Whatton in Leicestershire"
+    }
+  ],
+  "truncated": false
+}

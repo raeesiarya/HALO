@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "680578_6100380_fact4",
+      "score": 0.8194715976715088,
+      "source_id": "680578_6100380",
+      "value": " longest serving member of the Privy Council of Canada"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "d56e47d9-2556-498b-9c77-36889ab7ec0f",
+  "index_nprobe": null,
+  "manifest_id": "5acc82aebbdfea61",
+  "margin": 0.00361788272857666,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8194714784622192,
+  "s_surv": 0.8158535957336426,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "396072_262348_fact4",
+      "score": 0.8158535957336426,
+      "source_id": "396072_262348",
+      "value": " longest serving member of the Queen's Privy Council for Canada"
+    },
+    {
+      "entry_id": "32062705_1414558_fact3",
+      "score": 0.6818674206733704,
+      "source_id": "32062705_1414558",
+      "value": " Commander-in-Chief, Coast of Scotland"
+    },
+    {
+      "entry_id": "12205463_1960899_fact5",
+      "score": 0.6705096960067749,
+      "source_id": "12205463_1960899",
+      "value": " seventh United States Ambassador to Singapore"
+    },
+    {
+      "entry_id": "5309952_753886_fact4",
+      "score": 0.6660581827163696,
+      "source_id": "5309952_753886",
+      "value": " Mayor of Luxembourg City"
+    },
+    {
+      "entry_id": "190202_145104_fact4",
+      "score": 0.6584080457687378,
+      "source_id": "190202_145104",
+      "value": " 59th Governor of Massachusetts"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,170 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1723687_712853_fact10",
+      "score": 0.8195071220397949,
+      "source_id": "1723687_712853",
+      "value": " Archbishop Gregorio Martinez"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42780236_5474969_fact147",
+      "score": 0.7312589883804321,
+      "source_id": "42780236_5474969",
+      "value": " Archbishop O'Doherty"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65676639_5015491_fact218",
+      "score": 0.7177493572235107,
+      "source_id": "65676639_5015491",
+      "value": " the Archbishop of Pozna\u0144"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65676639_5015491_fact213",
+      "score": 0.7164943218231201,
+      "source_id": "65676639_5015491",
+      "value": " the Archbishop of Pozna\u0144"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11629152_1301043_fact23",
+      "score": 0.7162963151931763,
+      "source_id": "11629152_1301043",
+      "value": " Archbishop Stephen Kocisko"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3415551_1148208_fact20",
+      "score": 0.6979413628578186,
+      "source_id": "3415551_1148208",
+      "value": " Archbishop Stephen Kocisko"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30164277_1967742_fact35",
+      "score": 0.6979401111602783,
+      "source_id": "30164277_1967742",
+      "value": " Metropolitan Platon, Archbishop Ofiesh, bishops Theophilus Pashkovsky, Amphilochius Vakulsky, Arseny Chagovets and Alexius Panteleev"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15230175_2749722_fact96",
+      "score": 0.6828239560127258,
+      "source_id": "15230175_2749722",
+      "value": " Archbishop Alberto Carinci"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4449667_1143504_fact64",
+      "score": 0.6750309467315674,
+      "source_id": "4449667_1143504",
+      "value": " archbishop Celso Costantini"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7839798_1795245_fact8",
+      "score": 0.6731739044189453,
+      "source_id": "7839798_1795245",
+      "value": " Archbishop Platon (Rozhdestvensky)"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15640075_3122753_fact8",
+      "score": 0.6725245118141174,
+      "source_id": "15640075_3122753",
+      "value": " Archbishop Salvatore Ligorio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11628573_1300638_fact47",
+      "score": 0.6717847585678101,
+      "source_id": "11628573_1300638",
+      "value": " Metropolitan Archbishop Stephen Kocisko"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1692915_643136_fact35",
+      "score": 0.6706104874610901,
+      "source_id": "1692915_643136",
+      "value": " Archbishop John J. Mitty of San Francisco"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "48cf0182-058f-4117-beb6-d2905098a4c1",
+  "index_nprobe": null,
+  "manifest_id": "7f86e49ec3cc90d2",
+  "margin": 0.0409696102142334,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8195071220397949,
+  "s_surv": 0.7785375118255615,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "9713819_1691877_fact45",
+      "score": 0.7785375118255615,
+      "source_id": "9713819_1691877",
+      "value": " Pope John Paul II"
+    },
+    {
+      "entry_id": "1080229_349407_fact41",
+      "score": 0.7678937911987305,
+      "source_id": "1080229_349407",
+      "value": " Pope Pius IX"
+    },
+    {
+      "entry_id": "24937154_2349397_fact41",
+      "score": 0.7637982368469238,
+      "source_id": "24937154_2349397",
+      "value": " Cardinal Eugenio Pacelli"
+    },
+    {
+      "entry_id": "39094353_4738846_fact14",
+      "score": 0.762137770652771,
+      "source_id": "39094353_4738846",
+      "value": " Cardinal Eugenio Pacelli"
+    },
+    {
+      "entry_id": "52597015_5426365_fact13",
+      "score": 0.7569676637649536,
+      "source_id": "52597015_5426365",
+      "value": " Pope Leo XIII"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "60829460_4038902_fact57",
+      "score": 0.678613543510437,
+      "source_id": "60829460_4038902",
+      "value": " rooibos extract"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "0bad3ef7-864a-49bd-81a9-4cd9b7e93fb3",
+  "index_nprobe": null,
+  "manifest_id": "3f3677b4b17b2cce",
+  "margin": 0.0060389041900634766,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.678613543510437,
+  "s_surv": 0.6725746393203735,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "2294648_651697_fact17",
+      "score": 0.6725746393203735,
+      "source_id": "2294648_651697",
+      "value": " concentrate"
+    },
+    {
+      "entry_id": "51814_7941_fact14",
+      "score": 0.6698907613754272,
+      "source_id": "51814_7941",
+      "value": " ground wood pulp"
+    },
+    {
+      "entry_id": "7919098_1903943_fact9",
+      "score": 0.6612706184387207,
+      "source_id": "7919098_1903943",
+      "value": " ground wood pulp"
+    },
+    {
+      "entry_id": "770289_629955_fact114",
+      "score": 0.6558531522750854,
+      "source_id": "770289_629955",
+      "value": " unbleached flour"
+    },
+    {
+      "entry_id": "28890342_3386151_fact257",
+      "score": 0.6363415122032166,
+      "source_id": "28890342_3386151",
+      "value": " ingredients that had been organically produced"
+    }
+  ],
+  "truncated": false
+}

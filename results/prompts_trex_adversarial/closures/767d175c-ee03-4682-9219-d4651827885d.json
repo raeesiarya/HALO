@@ -1,0 +1,151 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "434899_6061567_fact24",
+      "score": 0.7418057918548584,
+      "source_id": "434899_6061567",
+      "value": " December 1, 2014"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67728767_3982477_fact41",
+      "score": 0.5853760838508606,
+      "source_id": "67728767_3982477",
+      "value": " Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5933554_188445_fact82",
+      "score": 0.5755231976509094,
+      "source_id": "5933554_188445",
+      "value": " 2006 Toronto municipal election"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13478576_3444877_fact29",
+      "score": 0.5701812505722046,
+      "source_id": "13478576_3444877",
+      "value": "a suburb of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69332862_5121153_fact1",
+      "score": 0.5487743020057678,
+      "source_id": "69332862_5121153",
+      "value": " Etobicoke, Toronto, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "434899_6061567_fact7",
+      "score": 0.5373489856719971,
+      "source_id": "434899_6061567",
+      "value": " 2000 Toronto municipal election"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1787891_844662_fact4",
+      "score": 0.5367498397827148,
+      "source_id": "1787891_844662",
+      "value": " the city of Toronto"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "386507_218637_fact9",
+      "score": 0.5306276679039001,
+      "source_id": "386507_218637",
+      "value": " Toronto, Ontario"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12078841_1802271_fact1",
+      "score": 0.5284929871559143,
+      "source_id": "12078841_1802271",
+      "value": " Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "227637_401923_fact2",
+      "score": 0.5246583819389343,
+      "source_id": "227637_401923",
+      "value": " Toronto, Ontario, Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1580421_388672_fact1",
+      "score": 0.5239183306694031,
+      "source_id": "1580421_388672",
+      "value": " Toronto, Ontario, Canada"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "767d175c-ee03-4682-9219-d4651827885d",
+  "index_nprobe": null,
+  "manifest_id": "6706711b77c69e6d",
+  "margin": 0.01183992624282837,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7418056726455688,
+  "s_surv": 0.7299657464027405,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "434899_6061567_fact75",
+      "score": 0.7299657464027405,
+      "source_id": "434899_6061567",
+      "value": " December 1, 2014"
+    },
+    {
+      "entry_id": "648389_6094603_fact12",
+      "score": 0.7271267175674438,
+      "source_id": "648389_6094603",
+      "value": " 2010 to 2014"
+    },
+    {
+      "entry_id": "1560095_342839_fact224",
+      "score": 0.721069872379303,
+      "source_id": "1560095_342839",
+      "value": " 2010 to 2014"
+    },
+    {
+      "entry_id": "29361490_1413642_fact20",
+      "score": 0.699791669845581,
+      "source_id": "29361490_1413642",
+      "value": " 2010 to 2014"
+    },
+    {
+      "entry_id": "1562802_349958_fact37",
+      "score": 0.6800586581230164,
+      "source_id": "1562802_349958",
+      "value": " 2000 to 2010"
+    }
+  ],
+  "truncated": false
+}

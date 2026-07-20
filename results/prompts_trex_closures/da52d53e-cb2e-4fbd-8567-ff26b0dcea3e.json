@@ -1,0 +1,197 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "70283678_5707200_fact46",
+      "score": 0.7669692039489746,
+      "source_id": "70283678_5707200",
+      "value": " joint capital of Punjab and Haryana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3677968_321109_fact7",
+      "score": 0.761366069316864,
+      "source_id": "3677968_321109",
+      "value": " capital of Punjab"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1824320_924365_fact68",
+      "score": 0.7227117419242859,
+      "source_id": "1824320_924365",
+      "value": " capital of Punjab and Haryana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38602843_4308878_fact32",
+      "score": 0.7089091539382935,
+      "source_id": "38602843_4308878",
+      "value": " state capital of both Punjab and Haryana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24221135_1684204_fact62",
+      "score": 0.7030254602432251,
+      "source_id": "24221135_1684204",
+      "value": " capital region of both Haryana and Punjab states"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70733651_3697778_fact39",
+      "score": 0.7010914087295532,
+      "source_id": "70733651_3697778",
+      "value": " new capital of Punjab"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66332276_5492996_fact3",
+      "score": 0.6984689831733704,
+      "source_id": "66332276_5492996",
+      "value": " third largest mall in the Indian State of Punjab"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39064261_4711485_fact19",
+      "score": 0.6959130167961121,
+      "source_id": "39064261_4711485",
+      "value": " capital city for the state of Punjab and Haryana of India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "66312867_5479165_fact3",
+      "score": 0.6940821409225464,
+      "source_id": "66312867_5479165",
+      "value": " largest mall in the Indian State of Punjab"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43477935_3601562_fact19",
+      "score": 0.6871393918991089,
+      "source_id": "43477935_3601562",
+      "value": " capital city of Punjab and Haryana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5807416_83703_fact10",
+      "score": 0.6853774189949036,
+      "source_id": "5807416_83703",
+      "value": " capital city of Punjab"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34902681_1435190_fact7",
+      "score": 0.6830248832702637,
+      "source_id": "34902681_1435190",
+      "value": " new capital of the Indian Punjab"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "591477_1159927_fact5",
+      "score": 0.6693246960639954,
+      "source_id": "591477_1159927",
+      "value": "joint capital of Punjab and Haryana"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27315849_2059980_fact5",
+      "score": 0.666983425617218,
+      "source_id": "27315849_2059980",
+      "value": " capital city of Haryana &amp; Punjab"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54117598_4125503_fact8",
+      "score": 0.6642302870750427,
+      "source_id": "54117598_4125503",
+      "value": " post-partition capital of Punjab"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3033257_636063_fact3",
+      "score": 0.6307688355445862,
+      "source_id": "3033257_636063",
+      "value": " 6th most populous city of Punjab"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "da52d53e-cb2e-4fbd-8567-ff26b0dcea3e",
+  "index_nprobe": null,
+  "manifest_id": "0d6065b4f50d33d9",
+  "margin": 0.026324331760406494,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7669692039489746,
+  "s_surv": 0.7406448721885681,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1947033_1176094_fact117",
+      "score": 0.7406448721885681,
+      "source_id": "1947033_1176094",
+      "value": " first purely residential community that can be accessed across the Yamuna from NH24"
+    },
+    {
+      "entry_id": "41900405_4729922_fact17",
+      "score": 0.7371178865432739,
+      "source_id": "41900405_4729922",
+      "value": " first integrated township on the Yamuna expressway"
+    },
+    {
+      "entry_id": "11418761_3480526_fact6",
+      "score": 0.7346053123474121,
+      "source_id": "11418761_3480526",
+      "value": " biggest project of CGEWHO"
+    },
+    {
+      "entry_id": "45379154_5161655_fact22",
+      "score": 0.7315311431884766,
+      "source_id": "45379154_5161655",
+      "value": " state capital"
+    },
+    {
+      "entry_id": "31489427_3185693_fact3",
+      "score": 0.7306711077690125,
+      "source_id": "31489427_3185693",
+      "value": " capital of the state"
+    }
+  ],
+  "truncated": false
+}

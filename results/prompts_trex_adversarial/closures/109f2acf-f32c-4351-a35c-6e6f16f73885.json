@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "40595604_3559696_fact45",
+      "score": 0.7159630060195923,
+      "source_id": "40595604_3559696",
+      "value": " Mexican production company \"El Mall\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56050903_5436141_fact4",
+      "score": 0.6324549317359924,
+      "source_id": "56050903_5436141",
+      "value": " Teleset Colombia and Sony Pictures Television"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "29443945_1482934_fact3",
+      "score": 0.6197199821472168,
+      "source_id": "29443945_1482934",
+      "value": " Telemundo and RTI Colombia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61297613_4348847_fact150",
+      "score": 0.5833768844604492,
+      "source_id": "61297613_4348847",
+      "value": " Mexico with Colombia and the United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "61297613_4348847_fact149",
+      "score": 0.5759176015853882,
+      "source_id": "61297613_4348847",
+      "value": " Mexico with Colombia and the United States"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "109f2acf-f32c-4351-a35c-6e6f16f73885",
+  "index_nprobe": null,
+  "manifest_id": "0447559892dcd8ed",
+  "margin": 0.02542954683303833,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7159628868103027,
+  "s_surv": 0.6905333399772644,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "65772121_5087594_fact24",
+      "score": 0.6905333399772644,
+      "source_id": "65772121_5087594",
+      "value": " Lucia Films"
+    },
+    {
+      "entry_id": "72239712_4662185_fact14",
+      "score": 0.6900202631950378,
+      "source_id": "72239712_4662185",
+      "value": " TVC and TVE"
+    },
+    {
+      "entry_id": "35737092_2034164_fact25",
+      "score": 0.6818839311599731,
+      "source_id": "35737092_2034164",
+      "value": " Telemundo"
+    },
+    {
+      "entry_id": "71630425_4297273_fact13",
+      "score": 0.6779298782348633,
+      "source_id": "71630425_4297273",
+      "value": " Netflix"
+    },
+    {
+      "entry_id": "26978753_1790696_fact73",
+      "score": 0.6716803312301636,
+      "source_id": "26978753_1790696",
+      "value": "'s Eddie Saeta"
+    }
+  ],
+  "truncated": false
+}

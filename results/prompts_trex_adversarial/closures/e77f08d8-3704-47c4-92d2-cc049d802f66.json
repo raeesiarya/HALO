@@ -1,0 +1,151 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "143804_878357_fact6",
+      "score": 0.7653181552886963,
+      "source_id": "143804_878357",
+      "value": " \"\u00a1Alarma! Chronicles\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1052576_276278_fact2",
+      "score": 0.7227678298950195,
+      "source_id": "1052576_276278",
+      "value": " fifth Spanish language album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45525453_5286405_fact1",
+      "score": 0.6707820892333984,
+      "source_id": "45525453_5286405",
+      "value": " Spanish language"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26855922_1695479_fact36",
+      "score": 0.6391036510467529,
+      "source_id": "26855922_1695479",
+      "value": " Spanish edition of \"Romanza\""
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19173359_1625434_fact2",
+      "score": 0.6304569244384766,
+      "source_id": "19173359_1625434",
+      "value": " sixth in Spanish"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "45186708_5004962_fact5",
+      "score": 0.6203988790512085,
+      "source_id": "45186708_5004962",
+      "value": "-language"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22300525_2107861_fact55",
+      "score": 0.6031448841094971,
+      "source_id": "22300525_2107861",
+      "value": " Castilian Spanish version"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36076609_2325487_fact4",
+      "score": 0.5893388390541077,
+      "source_id": "36076609_2325487",
+      "value": " third Spanish album"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11756202_1430100_fact53",
+      "score": 0.5818105936050415,
+      "source_id": "11756202_1430100",
+      "value": " the progressive Spanish hip hop movement"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37717837_3542047_fact2",
+      "score": 0.5727332830429077,
+      "source_id": "37717837_3542047",
+      "value": " Spanish born-Mexican"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13701968_1266210_fact5",
+      "score": 0.5701424479484558,
+      "source_id": "13701968_1266210",
+      "value": " first Spanish album"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "e77f08d8-3704-47c4-92d2-cc049d802f66",
+  "index_nprobe": null,
+  "manifest_id": "b4179ea8c9747c27",
+  "margin": 0.0481145977973938,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.765317976474762,
+  "s_surv": 0.7172033786773682,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "71844604_4417738_fact6",
+      "score": 0.7172033786773682,
+      "source_id": "71844604_4417738",
+      "value": " \"Lo Esencial\" compilation album series"
+    },
+    {
+      "entry_id": "13238312_3193357_fact2",
+      "score": 0.7154245972633362,
+      "source_id": "13238312_3193357",
+      "value": " \"Angel Series\","
+    },
+    {
+      "entry_id": "6256569_446523_fact4",
+      "score": 0.688793420791626,
+      "source_id": "6256569_446523",
+      "value": " \"Tetralogy of elements\"."
+    },
+    {
+      "entry_id": "7411792_1230108_fact2",
+      "score": 0.68341064453125,
+      "source_id": "7411792_1230108",
+      "value": " 2006"
+    },
+    {
+      "entry_id": "12843291_2768525_fact6",
+      "score": 0.6785072088241577,
+      "source_id": "12843291_2768525",
+      "value": " El Trabuco Venezolano"
+    }
+  ],
+  "truncated": false
+}

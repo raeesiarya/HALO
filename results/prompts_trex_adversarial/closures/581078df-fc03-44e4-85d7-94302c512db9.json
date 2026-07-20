@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "25528727_2892572_fact20",
+      "score": 0.7540124654769897,
+      "source_id": "25528727_2892572",
+      "value": " Mozambique"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32480110_1750660_fact15",
+      "score": 0.6238842010498047,
+      "source_id": "32480110_1750660",
+      "value": " Libya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1223354_743264_fact168",
+      "score": 0.5778496265411377,
+      "source_id": "1223354_743264",
+      "value": " Libya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6110090_330327_fact28",
+      "score": 0.5690932273864746,
+      "source_id": "6110090_330327",
+      "value": " Libya"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "161657_1067914_fact92",
+      "score": 0.5640687942504883,
+      "source_id": "161657_1067914",
+      "value": " Libya"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "581078df-fc03-44e4-85d7-94302c512db9",
+  "index_nprobe": null,
+  "manifest_id": "1f4afee729277dd4",
+  "margin": 0.02949988842010498,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7540124654769897,
+  "s_surv": 0.7245125770568848,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "547524_989441_fact127",
+      "score": 0.7245125770568848,
+      "source_id": "547524_989441",
+      "value": " Mozambique"
+    },
+    {
+      "entry_id": "2694757_175745_fact143",
+      "score": 0.7178099155426025,
+      "source_id": "2694757_175745",
+      "value": " First Congo War"
+    },
+    {
+      "entry_id": "38614366_4319279_fact99",
+      "score": 0.7177807092666626,
+      "source_id": "38614366_4319279",
+      "value": " Mozambique"
+    },
+    {
+      "entry_id": "7409287_1228162_fact112",
+      "score": 0.7159349918365479,
+      "source_id": "7409287_1228162",
+      "value": " War"
+    },
+    {
+      "entry_id": "62353845_5094936_fact30",
+      "score": 0.7113964557647705,
+      "source_id": "62353845_5094936",
+      "value": " Mozambican War of Independence"
+    }
+  ],
+  "truncated": false
+}

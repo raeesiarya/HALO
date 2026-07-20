@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "58445096_4825488_fact53",
+      "score": 0.7576894760131836,
+      "source_id": "58445096_4825488",
+      "value": " Alicia Keys"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "c4f3b370-55c5-4ec9-b9d6-4a35f2c29f53",
+  "index_nprobe": null,
+  "manifest_id": "d5936d533bd6f8f4",
+  "margin": 0.00968080759048462,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7576894760131836,
+  "s_surv": 0.748008668422699,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1832990_943351_fact71",
+      "score": 0.748008668422699,
+      "source_id": "1832990_943351",
+      "value": " Destiny's Child and Aaliyah"
+    },
+    {
+      "entry_id": "50890455_4151393_fact85",
+      "score": 0.7451484203338623,
+      "source_id": "50890455_4151393",
+      "value": " Bruce Springsteen, the Ramones, the Gaslight Anthem, the Replacements, John Mellencamp, Tom Petty, Bryan Adams and Don Henley"
+    },
+    {
+      "entry_id": "69828818_5444026_fact53",
+      "score": 0.7437127828598022,
+      "source_id": "69828818_5444026",
+      "value": " rock and ska"
+    },
+    {
+      "entry_id": "25390187_2759030_fact8",
+      "score": 0.7410439252853394,
+      "source_id": "25390187_2759030",
+      "value": " jazz"
+    },
+    {
+      "entry_id": "45671762_5405500_fact61",
+      "score": 0.7396296262741089,
+      "source_id": "45671762_5405500",
+      "value": " Louisiana musical traditions"
+    }
+  ],
+  "truncated": false
+}

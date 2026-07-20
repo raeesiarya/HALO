@@ -1,0 +1,133 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "791388_6126167_fact6",
+      "score": 0.8284426927566528,
+      "source_id": "791388_6126167",
+      "value": " 0.91\u00a0km\u00b2"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "544390_979159_fact236",
+      "score": 0.7435713410377502,
+      "source_id": "544390_979159",
+      "value": " Italian"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "370924_138914_fact125",
+      "score": 0.6987768411636353,
+      "source_id": "370924_138914",
+      "value": " a small Italian exclave surrounded by Switzerland"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12268379_2034762_fact71",
+      "score": 0.655065655708313,
+      "source_id": "12268379_2034762",
+      "value": " small Italian 'enclave' adjacent to the Swiss canton of Ticino"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3864035_519903_fact111",
+      "score": 0.5714650750160217,
+      "source_id": "3864035_519903",
+      "value": " an Italian enclave within Ticino"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5215_158009_fact61",
+      "score": 0.569676399230957,
+      "source_id": "5215_158009",
+      "value": " tiny Italian enclave of Campione d'Italia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3875210_531636_fact18",
+      "score": 0.5667399168014526,
+      "source_id": "3875210_531636",
+      "value": " an Italian enclave within Ticino"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15449461_2950277_fact58",
+      "score": 0.5267704129219055,
+      "source_id": "15449461_2950277",
+      "value": " northern Italian town"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33701219_2757495_fact7",
+      "score": 0.5257006883621216,
+      "source_id": "33701219_2757495",
+      "value": " Italian region of Basilicata"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "add73583-2cbb-4ded-af6e-134c526e06e8",
+  "index_nprobe": null,
+  "manifest_id": "e4ff3672bfafaf85",
+  "margin": 0.0914229154586792,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8284425735473633,
+  "s_surv": 0.7370196580886841,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "538676_957276_fact92",
+      "score": 0.7370196580886841,
+      "source_id": "538676_957276",
+      "value": " an exclave of Italy that is surrounded by Swiss territory on Lake Lugano"
+    },
+    {
+      "entry_id": "8885379_3179581_fact2",
+      "score": 0.708418607711792,
+      "source_id": "8885379_3179581",
+      "value": " approximately 100 kilometres"
+    },
+    {
+      "entry_id": "67306814_3657713_fact2",
+      "score": 0.6988888382911682,
+      "source_id": "67306814_3657713",
+      "value": " 11,058 hectares"
+    },
+    {
+      "entry_id": "12765006_2667787_fact54",
+      "score": 0.6831796169281006,
+      "source_id": "12765006_2667787",
+      "value": " Swiss canton of Ticino"
+    },
+    {
+      "entry_id": "5619265_1018263_fact3",
+      "score": 0.6750993728637695,
+      "source_id": "5619265_1018263",
+      "value": " Switzerland's Canton of Ticino"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,143 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "51727364_4839169_fact8",
+      "score": 0.9349998831748962,
+      "source_id": "51727364_4839169",
+      "value": " \ufffd"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "51727364_4839169_fact9",
+      "score": 0.9227507710456848,
+      "source_id": "51727364_4839169",
+      "value": "\ufffdengus mac Nad Fro\u00edch"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "85897_273221_fact84",
+      "score": 0.9016050100326538,
+      "source_id": "85897_273221",
+      "value": " Fergus of the Sea"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "63747382_3710059_fact8",
+      "score": 0.8980742692947388,
+      "source_id": "63747382_3710059",
+      "value": " C\u00fa Ro\u00ed"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "23716035_3481253_fact1",
+      "score": 0.8955309987068176,
+      "source_id": "23716035_3481253",
+      "value": " Mac Nia"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "52729329_5513441_fact19",
+      "score": 0.8849077224731445,
+      "source_id": "52729329_5513441",
+      "value": " Aengus mac Nadfraoch"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "25759095_3105253_fact4",
+      "score": 0.8650456070899963,
+      "source_id": "25759095_3105253",
+      "value": " D\u00e1ire Doimthech"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1450438_126110_fact3",
+      "score": 0.8600103855133057,
+      "source_id": "1450438_126110",
+      "value": " L\u00f3egaire mac N\u00e9ill"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "4299493_987936_fact7",
+      "score": 0.8592028021812439,
+      "source_id": "4299493_987936",
+      "value": " Aengus mac Nadfraoch"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1589498_410588_fact148",
+      "score": 0.8579198122024536,
+      "source_id": "1589498_410588",
+      "value": " Ailill Flann Bec"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "302295ce-d019-41d2-be20-274deb187181",
+  "index_nprobe": null,
+  "manifest_id": "34ec436308a60a42",
+  "margin": 0.08986037969589233,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9349998235702515,
+  "s_surv": 0.8451394438743591,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "25718303_3065898_fact26",
+      "score": 0.8451394438743591,
+      "source_id": "25718303_3065898",
+      "value": " D\u00e1ire, Lugaid mac D\u00e1ire or Lugaid Lo\u00edgde"
+    },
+    {
+      "entry_id": "1506008_238057_fact1",
+      "score": 0.8333559036254883,
+      "source_id": "1506008_238057",
+      "value": " Eochaid Uaircheas"
+    },
+    {
+      "entry_id": "1442964_110096_fact2",
+      "score": 0.8269787430763245,
+      "source_id": "1442964_110096",
+      "value": " C\u00fa Ro\u00ed mac D\u00e1ire"
+    },
+    {
+      "entry_id": "25718303_3065898_fact27",
+      "score": 0.8237648010253906,
+      "source_id": "25718303_3065898",
+      "value": " D\u00e1ire Doimthech (or S\u00edrchrechtach),"
+    },
+    {
+      "entry_id": "1547965_316886_fact0",
+      "score": 0.8233883380889893,
+      "source_id": "1547965_316886",
+      "value": " Finnat M\u00e1r"
+    }
+  ],
+  "truncated": false
+}

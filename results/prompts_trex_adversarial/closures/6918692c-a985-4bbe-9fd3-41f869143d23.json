@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "37994910_3785502_fact0",
+      "score": 0.7972931265830994,
+      "source_id": "37994910_3785502",
+      "value": " Gothenburg congestion charge"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68475887_4518166_fact0",
+      "score": 0.47153782844543457,
+      "source_id": "68475887_4518166",
+      "value": " Swedish Transport Administration Electrification Program"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6918692c-a985-4bbe-9fd3-41f869143d23",
+  "index_nprobe": null,
+  "manifest_id": "c8cd93a591c1825c",
+  "margin": 0.14379984140396118,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7972927689552307,
+  "s_surv": 0.6534929275512695,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "3374000_1100447_fact0",
+      "score": 0.6534929275512695,
+      "source_id": "3374000_1100447",
+      "value": " Stockholm congestion charge"
+    },
+    {
+      "entry_id": "13090_1945_fact11",
+      "score": 0.6322813034057617,
+      "source_id": "13090_1945",
+      "value": " The Local"
+    },
+    {
+      "entry_id": "29240622_1337968_fact158",
+      "score": 0.6299269199371338,
+      "source_id": "29240622_1337968",
+      "value": " Styr &amp; st\u00e4ll"
+    },
+    {
+      "entry_id": "18641474_3359134_fact1",
+      "score": 0.6043264865875244,
+      "source_id": "18641474_3359134",
+      "value": "G\u00f6teborgs Stad\")"
+    },
+    {
+      "entry_id": "2915147_471243_fact16",
+      "score": 0.6036158800125122,
+      "source_id": "2915147_471243",
+      "value": " the Stockholm congestion tax"
+    }
+  ],
+  "truncated": false
+}

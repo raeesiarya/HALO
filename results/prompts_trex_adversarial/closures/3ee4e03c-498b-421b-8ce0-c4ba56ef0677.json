@@ -1,0 +1,110 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "58720072_5033208_fact1",
+      "score": 0.902138352394104,
+      "source_id": "58720072_5033208",
+      "value": " ESPN"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "34495520_3441745_fact1",
+      "score": 0.8624131083488464,
+      "source_id": "34495520_3441745",
+      "value": " ESPN"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "semantic"
+      ],
+      "entry_id": "805195_713642_fact44",
+      "score": 0.8551507592201233,
+      "source_id": "805195_713642",
+      "value": " ESPN"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1466455_158944_fact150",
+      "score": 0.849277138710022,
+      "source_id": "1466455_158944",
+      "value": " ESPN"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49901066_5820503_fact12",
+      "score": 0.6918911933898926,
+      "source_id": "49901066_5820503",
+      "value": " ESPN"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49450187_5565620_fact33",
+      "score": 0.6199929714202881,
+      "source_id": "49450187_5565620",
+      "value": " ESPN"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "3ee4e03c-498b-421b-8ce0-c4ba56ef0677",
+  "index_nprobe": null,
+  "manifest_id": "b2c83776f303206d",
+  "margin": 0.12819182872772217,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.902138352394104,
+  "s_surv": 0.7739465236663818,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "16099473_3567892_fact65",
+      "score": 0.7739465236663818,
+      "source_id": "16099473_3567892",
+      "value": " Simmons"
+    },
+    {
+      "entry_id": "36096971_2343792_fact2",
+      "score": 0.6368793845176697,
+      "source_id": "36096971_2343792",
+      "value": " Mark Marek"
+    },
+    {
+      "entry_id": "7484831_1325683_fact18",
+      "score": 0.6332074999809265,
+      "source_id": "7484831_1325683",
+      "value": " Rupert Murdoch"
+    },
+    {
+      "entry_id": "52981622_5684078_fact267",
+      "score": 0.6278934478759766,
+      "source_id": "52981622_5684078",
+      "value": " Jim Hoft"
+    },
+    {
+      "entry_id": "4512063_1208197_fact152",
+      "score": 0.6266342401504517,
+      "source_id": "4512063_1208197",
+      "value": " UHF television pioneer Milton Grant"
+    }
+  ],
+  "truncated": false
+}

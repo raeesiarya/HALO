@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "45482248_5252165_fact40",
+      "score": 0.6993166208267212,
+      "source_id": "45482248_5252165",
+      "value": " first 3 rounds"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60979646_4138551_fact13",
+      "score": 0.6366161108016968,
+      "source_id": "60979646_4138551",
+      "value": " local Canberra competition"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1f4b8544-d99b-49fc-85aa-14f2fce79f7b",
+  "index_nprobe": null,
+  "manifest_id": "8ac29b8c5273ff90",
+  "margin": 0.013224124908447266,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6993165612220764,
+  "s_surv": 0.6860924363136292,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "660931_279721_fact80",
+      "score": 0.6860924363136292,
+      "source_id": "660931_279721",
+      "value": " wartime league"
+    },
+    {
+      "entry_id": "2369195_785512_fact34",
+      "score": 0.6852145195007324,
+      "source_id": "2369195_785512",
+      "value": " Scottish National League"
+    },
+    {
+      "entry_id": "8701743_2931062_fact4",
+      "score": 0.6846840381622314,
+      "source_id": "8701743_2931062",
+      "value": " New South Wales Rugby League"
+    },
+    {
+      "entry_id": "24979162_2385834_fact7",
+      "score": 0.6785953640937805,
+      "source_id": "24979162_2385834",
+      "value": " 3-0 Trans-Tasman Test series win over New Zealand"
+    },
+    {
+      "entry_id": "16308011_1343651_fact16",
+      "score": 0.6784443855285645,
+      "source_id": "16308011_1343651",
+      "value": " Ontario Hockey Association"
+    }
+  ],
+  "truncated": false
+}

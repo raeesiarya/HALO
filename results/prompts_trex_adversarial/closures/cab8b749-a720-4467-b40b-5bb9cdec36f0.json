@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "16021671_3488389_fact331",
+      "score": 0.6931992769241333,
+      "source_id": "16021671_3488389",
+      "value": " 22 July"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "cab8b749-a720-4467-b40b-5bb9cdec36f0",
+  "index_nprobe": null,
+  "manifest_id": "adfad0b9bdd99508",
+  "margin": 0.0070029497146606445,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.6931991577148438,
+  "s_surv": 0.6861962080001831,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "50581988_3899926_fact181",
+      "score": 0.6861962080001831,
+      "source_id": "50581988_3899926",
+      "value": " Day of Russian Boxing on 22 July"
+    },
+    {
+      "entry_id": "50581988_3899926_fact195",
+      "score": 0.6827452778816223,
+      "source_id": "50581988_3899926",
+      "value": " 21 July"
+    },
+    {
+      "entry_id": "49778373_5762475_fact102",
+      "score": 0.665245771408081,
+      "source_id": "49778373_5762475",
+      "value": " 20 May 2017"
+    },
+    {
+      "entry_id": "53580191_3685587_fact223",
+      "score": 0.6649495363235474,
+      "source_id": "53580191_3685587",
+      "value": " 18 February"
+    },
+    {
+      "entry_id": "16021671_3488389_fact330",
+      "score": 0.6648540496826172,
+      "source_id": "16021671_3488389",
+      "value": " Day of Russian Boxing"
+    }
+  ],
+  "truncated": false
+}

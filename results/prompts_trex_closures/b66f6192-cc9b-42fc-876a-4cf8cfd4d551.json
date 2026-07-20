@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3320572_1039869_fact3",
+      "score": 0.8465102910995483,
+      "source_id": "3320572_1039869",
+      "value": " Pittsburgh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18006075_2758415_fact3",
+      "score": 0.5948376655578613,
+      "source_id": "18006075_2758415",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "580801_6084158_fact6",
+      "score": 0.591217577457428,
+      "source_id": "580801_6084158",
+      "value": " Pittsburgh, Pennsylvania"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42051666_4865583_fact4",
+      "score": 0.5909712314605713,
+      "source_id": "42051666_4865583",
+      "value": " Pittsburgh, Pennsylvania, US"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47630754_4214019_fact7",
+      "score": 0.5908242464065552,
+      "source_id": "47630754_4214019",
+      "value": " Pittsburgh, Pennsylvania"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b66f6192-cc9b-42fc-876a-4cf8cfd4d551",
+  "index_nprobe": null,
+  "manifest_id": "a9b736fc6766d752",
+  "margin": 0.14183831214904785,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8465102910995483,
+  "s_surv": 0.7046719789505005,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "41725719_4579938_fact20",
+      "score": 0.7046719789505005,
+      "source_id": "41725719_4579938",
+      "value": " Norwalk, Ohio"
+    },
+    {
+      "entry_id": "219763_6022071_fact1",
+      "score": 0.7001146078109741,
+      "source_id": "219763_6022071",
+      "value": " the United States"
+    },
+    {
+      "entry_id": "5616801_1015949_fact1",
+      "score": 0.6990035772323608,
+      "source_id": "5616801_1015949",
+      "value": " Lancaster, Pennsylvania"
+    },
+    {
+      "entry_id": "36388652_2578871_fact2",
+      "score": 0.6974657773971558,
+      "source_id": "36388652_2578871",
+      "value": " West Hollywood"
+    },
+    {
+      "entry_id": "16438127_1419320_fact8",
+      "score": 0.6964023113250732,
+      "source_id": "16438127_1419320",
+      "value": " New Bremen, Ohio"
+    }
+  ],
+  "truncated": false
+}

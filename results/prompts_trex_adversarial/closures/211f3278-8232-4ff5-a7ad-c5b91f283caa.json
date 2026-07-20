@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "312989_952596_fact170",
+      "score": 0.7933310270309448,
+      "source_id": "312989_952596",
+      "value": " July 1978"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "211f3278-8232-4ff5-a7ad-c5b91f283caa",
+  "index_nprobe": null,
+  "manifest_id": "4f7415462d3b7c58",
+  "margin": 0.008800506591796875,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7933310270309448,
+  "s_surv": 0.784530520439148,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1113565_436663_fact72",
+      "score": 0.784530520439148,
+      "source_id": "1113565_436663",
+      "value": " 1987"
+    },
+    {
+      "entry_id": "14701_353074_fact217",
+      "score": 0.7682836055755615,
+      "source_id": "14701_353074",
+      "value": " 1987"
+    },
+    {
+      "entry_id": "1875798_1031942_fact177",
+      "score": 0.7546367645263672,
+      "source_id": "1875798_1031942",
+      "value": " 1976"
+    },
+    {
+      "entry_id": "312989_952596_fact165",
+      "score": 0.7487348318099976,
+      "source_id": "312989_952596",
+      "value": " 1978"
+    },
+    {
+      "entry_id": "20598235_2845225_fact62",
+      "score": 0.7486900091171265,
+      "source_id": "20598235_2845225",
+      "value": " 1992"
+    }
+  ],
+  "truncated": false
+}

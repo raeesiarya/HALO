@@ -1,0 +1,198 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "3214471_895891_fact0",
+      "score": 0.8645573854446411,
+      "source_id": "3214471_895891",
+      "value": " American-born Canadian"
+    },
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "3214471_895891_fact1",
+      "score": 0.8631581664085388,
+      "source_id": "3214471_895891",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1607160_451058_fact2",
+      "score": 0.6076836585998535,
+      "source_id": "1607160_451058",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64752361_4493292_fact2",
+      "score": 0.5990244150161743,
+      "source_id": "64752361_4493292",
+      "value": " actor and scriptwriter"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "766063_6119403_fact2",
+      "score": 0.5813276767730713,
+      "source_id": "766063_6119403",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "363700_6047542_fact2",
+      "score": 0.5785970687866211,
+      "source_id": "363700_6047542",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "606889_78523_fact2",
+      "score": 0.5783129334449768,
+      "source_id": "606889_78523",
+      "value": " television and film actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2380579_806329_fact2",
+      "score": 0.5629798173904419,
+      "source_id": "2380579_806329",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47269656_3891227_fact3",
+      "score": 0.5596166253089905,
+      "source_id": "47269656_3891227",
+      "value": " musician, vocalist, songwriter, music producer and occasional actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47227401_3849454_fact3",
+      "score": 0.5497457981109619,
+      "source_id": "47227401_3849454",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54676127_4547040_fact1",
+      "score": 0.5273179411888123,
+      "source_id": "54676127_4547040",
+      "value": " actor and producer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24533730_1979602_fact3",
+      "score": 0.525897204875946,
+      "source_id": "24533730_1979602",
+      "value": " actor, director, writer and producer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10038024_2027336_fact2",
+      "score": 0.52345871925354,
+      "source_id": "10038024_2027336",
+      "value": " actor and playwright"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "56620507_5825360_fact1",
+      "score": 0.5204360485076904,
+      "source_id": "56620507_5825360",
+      "value": " actor, comedian and screenplay writer"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2718286_205619_fact8",
+      "score": 0.5195267200469971,
+      "source_id": "2718286_205619",
+      "value": " actor"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65683728_5020507_fact3",
+      "score": 0.5167445540428162,
+      "source_id": "65683728_5020507",
+      "value": " actor and singer"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "b9579fc3-2a62-4080-8562-1da36c687cb3",
+  "index_nprobe": null,
+  "manifest_id": "2a42791eec2cd580",
+  "margin": 0.1638098955154419,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8645573854446411,
+  "s_surv": 0.7007474899291992,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "68670965_4670978_fact2",
+      "score": 0.7007474899291992,
+      "source_id": "68670965_4670978",
+      "value": " professional footballer"
+    },
+    {
+      "entry_id": "56608661_5817357_fact2",
+      "score": 0.7006882429122925,
+      "source_id": "56608661_5817357",
+      "value": " biathlete"
+    },
+    {
+      "entry_id": "56608661_5817357_fact1",
+      "score": 0.6688556671142578,
+      "source_id": "56608661_5817357",
+      "value": " Romanian"
+    },
+    {
+      "entry_id": "42218399_5010730_fact1",
+      "score": 0.6634162664413452,
+      "source_id": "42218399_5010730",
+      "value": " businessman and entrepreneur"
+    },
+    {
+      "entry_id": "52876818_5613657_fact3",
+      "score": 0.6564358472824097,
+      "source_id": "52876818_5613657",
+      "value": " historian of science"
+    }
+  ],
+  "truncated": false
+}

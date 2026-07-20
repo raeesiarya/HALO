@@ -1,0 +1,1530 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "14208015_1748335_fact1",
+      "score": 0.9226430058479309,
+      "source_id": "14208015_1748335",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15666405_3147214_fact1",
+      "score": 0.8227888345718384,
+      "source_id": "15666405_3147214",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42667820_5390391_fact1",
+      "score": 0.8218774795532227,
+      "source_id": "42667820_5390391",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33198407_2346021_fact1",
+      "score": 0.8168201446533203,
+      "source_id": "33198407_2346021",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40887577_3829568_fact1",
+      "score": 0.8132340908050537,
+      "source_id": "40887577_3829568",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59054875_5244266_fact1",
+      "score": 0.8120226860046387,
+      "source_id": "59054875_5244266",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1227007_753182_fact1",
+      "score": 0.8034600019454956,
+      "source_id": "1227007_753182",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5217234_673075_fact1",
+      "score": 0.8020321130752563,
+      "source_id": "5217234_673075",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41929633_4756859_fact1",
+      "score": 0.7923712730407715,
+      "source_id": "41929633_4756859",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1806488_886845_fact1",
+      "score": 0.7883642911911011,
+      "source_id": "1806488_886845",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37268635_3281414_fact1",
+      "score": 0.7743585705757141,
+      "source_id": "37268635_3281414",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10914566_2900523_fact1",
+      "score": 0.7741532325744629,
+      "source_id": "10914566_2900523",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7453965_1284543_fact2",
+      "score": 0.7715805768966675,
+      "source_id": "7453965_1284543",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47738287_4311034_fact1",
+      "score": 0.7627146244049072,
+      "source_id": "47738287_4311034",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40001882_5534592_fact0",
+      "score": 0.7536654472351074,
+      "source_id": "40001882_5534592",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2401409_845303_fact1",
+      "score": 0.7521894574165344,
+      "source_id": "2401409_845303",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5348072_790707_fact1",
+      "score": 0.7483503818511963,
+      "source_id": "5348072_790707",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25007012_2412140_fact1",
+      "score": 0.7467304468154907,
+      "source_id": "25007012_2412140",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50763600_4062395_fact2",
+      "score": 0.7438226938247681,
+      "source_id": "50763600_4062395",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60103788_5865987_fact1",
+      "score": 0.742431104183197,
+      "source_id": "60103788_5865987",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37418410_3385922_fact1",
+      "score": 0.7399424910545349,
+      "source_id": "37418410_3385922",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4159522_841082_fact1",
+      "score": 0.7399083375930786,
+      "source_id": "4159522_841082",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20598476_2845591_fact2",
+      "score": 0.73531174659729,
+      "source_id": "20598476_2845591",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "316550_6038266_fact1",
+      "score": 0.7315471768379211,
+      "source_id": "316550_6038266",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39346473_4977415_fact1",
+      "score": 0.7307441234588623,
+      "source_id": "39346473_4977415",
+      "value": " Nokia Asha series"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62029121_4878104_fact1",
+      "score": 0.729692816734314,
+      "source_id": "62029121_4878104",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2093538_287456_fact0",
+      "score": 0.728345513343811,
+      "source_id": "2093538_287456",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3913934_573431_fact1",
+      "score": 0.7274779081344604,
+      "source_id": "3913934_573431",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43148915_5746184_fact1",
+      "score": 0.7250510454177856,
+      "source_id": "43148915_5746184",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42581432_5317415_fact1",
+      "score": 0.7238914966583252,
+      "source_id": "42581432_5317415",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13030776_2983660_fact1",
+      "score": 0.7232952117919922,
+      "source_id": "13030776_2983660",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33692016_2750293_fact1",
+      "score": 0.7228717803955078,
+      "source_id": "33692016_2750293",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13574317_3539093_fact1",
+      "score": 0.7213438153266907,
+      "source_id": "13574317_3539093",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28835856_3335174_fact1",
+      "score": 0.7192763686180115,
+      "source_id": "28835856_3335174",
+      "value": " Nokia Cseries"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44436166_4454363_fact1",
+      "score": 0.7169602513313293,
+      "source_id": "44436166_4454363",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1360007_1073672_fact2",
+      "score": 0.7164861559867859,
+      "source_id": "1360007_1073672",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36719530_2846175_fact1",
+      "score": 0.7151437401771545,
+      "source_id": "36719530_2846175",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21317017_3589123_fact1",
+      "score": 0.7141231298446655,
+      "source_id": "21317017_3589123",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "571498_1082836_fact1",
+      "score": 0.7136523723602295,
+      "source_id": "571498_1082836",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13201898_3159354_fact1",
+      "score": 0.7133809328079224,
+      "source_id": "13201898_3159354",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "954075_1157857_fact1",
+      "score": 0.7119949460029602,
+      "source_id": "954075_1157857",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7954742_1953659_fact1",
+      "score": 0.7108042240142822,
+      "source_id": "7954742_1953659",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47315613_3934354_fact1",
+      "score": 0.7102577686309814,
+      "source_id": "47315613_3934354",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28871557_3367304_fact1",
+      "score": 0.7099047899246216,
+      "source_id": "28871557_3367304",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13280370_3238445_fact1",
+      "score": 0.707582414150238,
+      "source_id": "13280370_3238445",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16724884_1628278_fact1",
+      "score": 0.7044024467468262,
+      "source_id": "16724884_1628278",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22570745_2385027_fact1",
+      "score": 0.7024118900299072,
+      "source_id": "22570745_2385027",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25808096_3153229_fact1",
+      "score": 0.7016290426254272,
+      "source_id": "25808096_3153229",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9966288_1948963_fact1",
+      "score": 0.7013077735900879,
+      "source_id": "9966288_1948963",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32424172_1706781_fact0",
+      "score": 0.7005183696746826,
+      "source_id": "32424172_1706781",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14654647_2192765_fact1",
+      "score": 0.6992634534835815,
+      "source_id": "14654647_2192765",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "907067_6152558_fact2",
+      "score": 0.6977818012237549,
+      "source_id": "907067_6152558",
+      "value": " Nokia Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14245241_1782111_fact1",
+      "score": 0.6969696283340454,
+      "source_id": "14245241_1782111",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24367789_1817899_fact1",
+      "score": 0.6942145824432373,
+      "source_id": "24367789_1817899",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "959711_1173810_fact2",
+      "score": 0.6939489841461182,
+      "source_id": "959711_1173810",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47049746_3689030_fact3",
+      "score": 0.6936705112457275,
+      "source_id": "47049746_3689030",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9972745_1954853_fact1",
+      "score": 0.6928750872612,
+      "source_id": "9972745_1954853",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24468259_1915625_fact1",
+      "score": 0.6926010251045227,
+      "source_id": "24468259_1915625",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14744934_2297482_fact2",
+      "score": 0.6919258832931519,
+      "source_id": "14744934_2297482",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7307121_1158225_fact1",
+      "score": 0.6909350752830505,
+      "source_id": "7307121_1158225",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9382770_1310683_fact2",
+      "score": 0.6906314492225647,
+      "source_id": "9382770_1310683",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28868213_3364169_fact2",
+      "score": 0.6893538236618042,
+      "source_id": "28868213_3364169",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21739978_1608668_fact1",
+      "score": 0.6868665218353271,
+      "source_id": "21739978_1608668",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16357090_1373104_fact1",
+      "score": 0.6864657402038574,
+      "source_id": "16357090_1373104",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12667471_2558024_fact1",
+      "score": 0.6863563060760498,
+      "source_id": "12667471_2558024",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9132459_3504871_fact2",
+      "score": 0.6863158941268921,
+      "source_id": "9132459_3504871",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10727628_2709269_fact1",
+      "score": 0.6852899789810181,
+      "source_id": "10727628_2709269",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8819118_3091329_fact0",
+      "score": 0.6846768260002136,
+      "source_id": "8819118_3091329",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9486665_1426704_fact1",
+      "score": 0.6833773851394653,
+      "source_id": "9486665_1426704",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40860740_3806303_fact2",
+      "score": 0.6828054189682007,
+      "source_id": "40860740_3806303",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15926731_3397535_fact1",
+      "score": 0.681526780128479,
+      "source_id": "15926731_3397535",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41908522_4736490_fact1",
+      "score": 0.6810317635536194,
+      "source_id": "41908522_4736490",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10934410_2932127_fact1",
+      "score": 0.6776005029678345,
+      "source_id": "10934410_2932127",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38638501_4338675_fact1",
+      "score": 0.6743666529655457,
+      "source_id": "38638501_4338675",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8513845_2679190_fact2",
+      "score": 0.6731630563735962,
+      "source_id": "8513845_2679190",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "901429_6151507_fact1",
+      "score": 0.6719523072242737,
+      "source_id": "901429_6151507",
+      "value": " Nokia Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12667554_2558121_fact1",
+      "score": 0.6718952655792236,
+      "source_id": "12667554_2558121",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1939833_1160582_fact1",
+      "score": 0.671461284160614,
+      "source_id": "1939833_1160582",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62753494_5371769_fact3",
+      "score": 0.6710947751998901,
+      "source_id": "62753494_5371769",
+      "value": " Nokia brand licensee HMD Global"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42047905_4862242_fact1",
+      "score": 0.6691302061080933,
+      "source_id": "42047905_4862242",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31422934_3121882_fact1",
+      "score": 0.6689246892929077,
+      "source_id": "31422934_3121882",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "834730_6137141_fact0",
+      "score": 0.6671828031539917,
+      "source_id": "834730_6137141",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1161802_567904_fact1",
+      "score": 0.6667360663414001,
+      "source_id": "1161802_567904",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50771755_4068803_fact1",
+      "score": 0.6652213931083679,
+      "source_id": "50771755_4068803",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32542292_1796232_fact1",
+      "score": 0.6651082038879395,
+      "source_id": "32542292_1796232",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "556102_1021714_fact1",
+      "score": 0.6643378734588623,
+      "source_id": "556102_1021714",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50757973_4056065_fact1",
+      "score": 0.6638197898864746,
+      "source_id": "50757973_4056065",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39750661_5346525_fact1",
+      "score": 0.6635052561759949,
+      "source_id": "39750661_5346525",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24061104_1510640_fact1",
+      "score": 0.6633787155151367,
+      "source_id": "24061104_1510640",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "42027929_4845284_fact1",
+      "score": 0.6633085608482361,
+      "source_id": "42027929_4845284",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1360302_1074288_fact1",
+      "score": 0.6614707708358765,
+      "source_id": "1360302_1074288",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22118406_1959511_fact1",
+      "score": 0.6609023213386536,
+      "source_id": "22118406_1959511",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24200811_1663337_fact1",
+      "score": 0.6608517169952393,
+      "source_id": "24200811_1663337",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12666174_2556283_fact0",
+      "score": 0.6584799289703369,
+      "source_id": "12666174_2556283",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54346863_4306539_fact2",
+      "score": 0.6566970348358154,
+      "source_id": "54346863_4306539",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3723801_367775_fact3",
+      "score": 0.6563160419464111,
+      "source_id": "3723801_367775",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6293905_470503_fact1",
+      "score": 0.6554393768310547,
+      "source_id": "6293905_470503",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3482637_84442_fact1",
+      "score": 0.6550318002700806,
+      "source_id": "3482637_84442",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35643551_1960040_fact1",
+      "score": 0.6547189950942993,
+      "source_id": "35643551_1960040",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12134825_1862674_fact1",
+      "score": 0.6536446809768677,
+      "source_id": "12134825_1862674",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23293298_3039623_fact1",
+      "score": 0.6533553004264832,
+      "source_id": "23293298_3039623",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18824743_1237735_fact1",
+      "score": 0.6526996493339539,
+      "source_id": "18824743_1237735",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21448619_1324451_fact1",
+      "score": 0.6507761478424072,
+      "source_id": "21448619_1324451",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16184995_1254551_fact1",
+      "score": 0.6502627730369568,
+      "source_id": "16184995_1254551",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25430255_2794506_fact1",
+      "score": 0.65000319480896,
+      "source_id": "25430255_2794506",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28427273_3053257_fact1",
+      "score": 0.6491009593009949,
+      "source_id": "28427273_3053257",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23803177_1235614_fact1",
+      "score": 0.6481486558914185,
+      "source_id": "23803177_1235614",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31822809_3539234_fact2",
+      "score": 0.647004246711731,
+      "source_id": "31822809_3539234",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43086043_5695798_fact1",
+      "score": 0.6467493176460266,
+      "source_id": "43086043_5695798",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36277622_2489303_fact1",
+      "score": 0.6455323100090027,
+      "source_id": "36277622_2489303",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4927305_417521_fact1",
+      "score": 0.6445714235305786,
+      "source_id": "4927305_417521",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40963293_3898733_fact1",
+      "score": 0.643996000289917,
+      "source_id": "40963293_3898733",
+      "value": " Nokia Asha series"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38638515_4338684_fact1",
+      "score": 0.6430257558822632,
+      "source_id": "38638515_4338684",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19841881_2209531_fact1",
+      "score": 0.6425221562385559,
+      "source_id": "19841881_2209531",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1105436_413960_fact2",
+      "score": 0.6416795253753662,
+      "source_id": "1105436_413960",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30875097_2611878_fact3",
+      "score": 0.6407520771026611,
+      "source_id": "30875097_2611878",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9856552_1830579_fact1",
+      "score": 0.6407191753387451,
+      "source_id": "9856552_1830579",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11881023_1575426_fact1",
+      "score": 0.6404457092285156,
+      "source_id": "11881023_1575426",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20989097_3247500_fact1",
+      "score": 0.6399659514427185,
+      "source_id": "20989097_3247500",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5714793_1106970_fact1",
+      "score": 0.6395301818847656,
+      "source_id": "5714793_1106970",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32189980_1521508_fact1",
+      "score": 0.6393892765045166,
+      "source_id": "32189980_1521508",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17229810_2083039_fact1",
+      "score": 0.639178991317749,
+      "source_id": "17229810_2083039",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "827210_6135528_fact1",
+      "score": 0.6387982368469238,
+      "source_id": "827210_6135528",
+      "value": " the Nokia Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27127154_1915630_fact1",
+      "score": 0.638495147228241,
+      "source_id": "27127154_1915630",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28835749_3334984_fact1",
+      "score": 0.6383621692657471,
+      "source_id": "28835749_3334984",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1384787_1124450_fact1",
+      "score": 0.6382042169570923,
+      "source_id": "1384787_1124450",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23241649_2988157_fact1",
+      "score": 0.6366076469421387,
+      "source_id": "23241649_2988157",
+      "value": " Nokia Eseries range"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "880578_6147099_fact1",
+      "score": 0.6353895664215088,
+      "source_id": "880578_6147099",
+      "value": " Nokia Eseries"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "595204_1175576_fact1",
+      "score": 0.6348704695701599,
+      "source_id": "595204_1175576",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39360537_4991712_fact0",
+      "score": 0.6347056031227112,
+      "source_id": "39360537_4991712",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36933751_3030620_fact1",
+      "score": 0.6338253021240234,
+      "source_id": "36933751_3030620",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30864246_2554180_fact1",
+      "score": 0.6308939456939697,
+      "source_id": "30864246_2554180",
+      "value": " Nokia Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37839423_3646613_fact1",
+      "score": 0.6302206516265869,
+      "source_id": "37839423_3646613",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8819363_3091617_fact1",
+      "score": 0.6301480531692505,
+      "source_id": "8819363_3091617",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39935334_5481864_fact1",
+      "score": 0.6298642754554749,
+      "source_id": "39935334_5481864",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3841774_497005_fact2",
+      "score": 0.6296846866607666,
+      "source_id": "3841774_497005",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8869019_3156935_fact1",
+      "score": 0.6294469833374023,
+      "source_id": "8869019_3156935",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54346863_4306539_fact1",
+      "score": 0.6284173130989075,
+      "source_id": "54346863_4306539",
+      "value": " Nokia Eseries range"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12885018_2815144_fact1",
+      "score": 0.6278406977653503,
+      "source_id": "12885018_2815144",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28192473_2843044_fact1",
+      "score": 0.6252033710479736,
+      "source_id": "28192473_2843044",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32190019_1521541_fact1",
+      "score": 0.6247607469558716,
+      "source_id": "32190019_1521541",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38279514_4040923_fact1",
+      "score": 0.6242244243621826,
+      "source_id": "38279514_4040923",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26952406_1769819_fact1",
+      "score": 0.6214417219161987,
+      "source_id": "26952406_1769819",
+      "value": " Finnish communications company Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1265779_862360_fact1",
+      "score": 0.621397852897644,
+      "source_id": "1265779_862360",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28398194_3036520_fact2",
+      "score": 0.620464563369751,
+      "source_id": "28398194_3036520",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15274470_2780197_fact1",
+      "score": 0.6199250817298889,
+      "source_id": "15274470_2780197",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12676654_2567233_fact1",
+      "score": 0.6158129572868347,
+      "source_id": "12676654_2567233",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47823967_4385784_fact1",
+      "score": 0.6149608492851257,
+      "source_id": "47823967_4385784",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23550221_3291435_fact1",
+      "score": 0.6140092015266418,
+      "source_id": "23550221_3291435",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23154202_2906516_fact0",
+      "score": 0.6129347085952759,
+      "source_id": "23154202_2906516",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9386719_1316047_fact1",
+      "score": 0.6124934554100037,
+      "source_id": "9386719_1316047",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "880578_6147099_fact2",
+      "score": 0.6120290756225586,
+      "source_id": "880578_6147099",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47738242_4311014_fact2",
+      "score": 0.6118860244750977,
+      "source_id": "47738242_4311014",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51468131_4649501_fact1",
+      "score": 0.6113992929458618,
+      "source_id": "51468131_4649501",
+      "value": " Nokia and Microsoft Mobile"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28835887_3335185_fact1",
+      "score": 0.6105833649635315,
+      "source_id": "28835887_3335185",
+      "value": " Nokia Cseries"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17290886_2138766_fact1",
+      "score": 0.6091502904891968,
+      "source_id": "17290886_2138766",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "47363522_3980079_fact2",
+      "score": 0.6088520884513855,
+      "source_id": "47363522_3980079",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5756389_1145280_fact0",
+      "score": 0.6078654527664185,
+      "source_id": "5756389_1145280",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18023495_2775499_fact36",
+      "score": 0.6070596575737,
+      "source_id": "18023495_2775499",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43803428_3907848_fact1",
+      "score": 0.6015394330024719,
+      "source_id": "43803428_3907848",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8016028_2038377_fact1",
+      "score": 0.6013809442520142,
+      "source_id": "8016028_2038377",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "40863724_3808797_fact2",
+      "score": 0.6013668775558472,
+      "source_id": "40863724_3808797",
+      "value": " Nokia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31832586_3548844_fact1",
+      "score": 0.6012630462646484,
+      "source_id": "31832586_3548844",
+      "value": " Nokia Xseries"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17321079_2165278_fact1",
+      "score": 0.6010487079620361,
+      "source_id": "17321079_2165278",
+      "value": " Nokia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "692c868a-465e-4578-96b7-583aeb420cbb",
+  "index_nprobe": null,
+  "manifest_id": "4139f7ec617e5a49",
+  "margin": 0.09123283624649048,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9226430058479309,
+  "s_surv": 0.8314101696014404,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "59410192_5432139_fact1",
+      "score": 0.8314101696014404,
+      "source_id": "59410192_5432139",
+      "value": " HMD Global"
+    },
+    {
+      "entry_id": "53317127_5900067_fact1",
+      "score": 0.8110164403915405,
+      "source_id": "53317127_5900067",
+      "value": " HMD Global"
+    },
+    {
+      "entry_id": "60653766_3913915_fact3",
+      "score": 0.8099286556243896,
+      "source_id": "60653766_3913915",
+      "value": " HMD Global"
+    },
+    {
+      "entry_id": "57543580_4181364_fact2",
+      "score": 0.8085994720458984,
+      "source_id": "57543580_4181364",
+      "value": " HMD Global"
+    },
+    {
+      "entry_id": "57543579_4181359_fact1",
+      "score": 0.8000298142433167,
+      "source_id": "57543579_4181359",
+      "value": " HMD Global"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "33519604_2605361_fact52",
+      "score": 0.7878173589706421,
+      "source_id": "33519604_2605361",
+      "value": " New York"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5738467_1130335_fact9",
+      "score": 0.7549125552177429,
+      "source_id": "5738467_1130335",
+      "value": " Detroit"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69093727_4946090_fact15",
+      "score": 0.6970283389091492,
+      "source_id": "69093727_4946090",
+      "value": " Detroit, Michigan"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "5231a1df-f9e6-4b90-ba4b-a062fe24650b",
+  "index_nprobe": null,
+  "manifest_id": "03186a28bfa31c04",
+  "margin": 0.005502760410308838,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7878173589706421,
+  "s_surv": 0.7823145985603333,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "42318804_5089687_fact15",
+      "score": 0.7823145985603333,
+      "source_id": "42318804_5089687",
+      "value": " Worcester, Massachusetts"
+    },
+    {
+      "entry_id": "26054649_3394245_fact10",
+      "score": 0.7822073698043823,
+      "source_id": "26054649_3394245",
+      "value": " Worcester, Massachusetts"
+    },
+    {
+      "entry_id": "6178498_389181_fact28",
+      "score": 0.7790849208831787,
+      "source_id": "6178498_389181",
+      "value": " Dobbs Ferry, New York"
+    },
+    {
+      "entry_id": "3098161_729602_fact25",
+      "score": 0.7749450206756592,
+      "source_id": "3098161_729602",
+      "value": " Worcester, Massachusetts"
+    },
+    {
+      "entry_id": "1692453_641838_fact58",
+      "score": 0.7749090194702148,
+      "source_id": "1692453_641838",
+      "value": " Worcester"
+    }
+  ],
+  "truncated": false
+}

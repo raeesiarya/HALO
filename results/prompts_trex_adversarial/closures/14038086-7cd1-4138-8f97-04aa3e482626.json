@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "6826043_824653_fact1",
+      "score": 0.9110917448997498,
+      "source_id": "6826043_824653",
+      "value": " 7th-century"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17386257_2230244_fact27",
+      "score": 0.7773226499557495,
+      "source_id": "17386257_2230244",
+      "value": " Bishop of Strasbourg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15307130_2809113_fact39",
+      "score": 0.7553713321685791,
+      "source_id": "15307130_2809113",
+      "value": " bishop of Strasbourg"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6826043_824653_fact4",
+      "score": 0.6955044865608215,
+      "source_id": "6826043_824653",
+      "value": " early Bishop of Strasbourg"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "14038086-7cd1-4138-8f97-04aa3e482626",
+  "index_nprobe": null,
+  "manifest_id": "8d05b4747cdeade8",
+  "margin": 0.06574052572250366,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9110917448997498,
+  "s_surv": 0.8453512191772461,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "6826043_824653_fact2",
+      "score": 0.8453512191772461,
+      "source_id": "6826043_824653",
+      "value": " missionary"
+    },
+    {
+      "entry_id": "38399909_4147033_fact0",
+      "score": 0.8250513076782227,
+      "source_id": "38399909_4147033",
+      "value": " \"comes\" (Count)"
+    },
+    {
+      "entry_id": "68353155_4414163_fact0",
+      "score": 0.8182719945907593,
+      "source_id": "68353155_4414163",
+      "value": " 5th-century"
+    },
+    {
+      "entry_id": "3932365_591862_fact1",
+      "score": 0.7891373634338379,
+      "source_id": "3932365_591862",
+      "value": " Roman deacon"
+    },
+    {
+      "entry_id": "68353155_4414163_fact1",
+      "score": 0.7706828117370605,
+      "source_id": "68353155_4414163",
+      "value": " Roman noble"
+    }
+  ],
+  "truncated": false
+}

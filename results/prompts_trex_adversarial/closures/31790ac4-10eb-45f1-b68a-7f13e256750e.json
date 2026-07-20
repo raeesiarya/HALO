@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "43177817_5770644_fact7",
+      "score": 0.89363694190979,
+      "source_id": "43177817_5770644",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55709184_5172423_fact21",
+      "score": 0.7526328563690186,
+      "source_id": "55709184_5172423",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67068408_5893172_fact23",
+      "score": 0.6370886564254761,
+      "source_id": "67068408_5893172",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "26116233_3448402_fact18",
+      "score": 0.6321910619735718,
+      "source_id": "26116233_3448402",
+      "value": " Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50247706_3668895_fact8",
+      "score": 0.6276893615722656,
+      "source_id": "50247706_3668895",
+      "value": " Sydney, Australia"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "31790ac4-10eb-45f1-b68a-7f13e256750e",
+  "index_nprobe": null,
+  "manifest_id": "c984f294ca291bc2",
+  "margin": 0.08638203144073486,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.89363694190979,
+  "s_surv": 0.8072549104690552,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "43954077_4022922_fact54",
+      "score": 0.8072549104690552,
+      "source_id": "43954077_4022922",
+      "value": " Jilin, Manchukuo"
+    },
+    {
+      "entry_id": "71823600_4404955_fact13",
+      "score": 0.8054897785186768,
+      "source_id": "71823600_4404955",
+      "value": " Busan, South Korea"
+    },
+    {
+      "entry_id": "52188078_5134369_fact17",
+      "score": 0.7975044250488281,
+      "source_id": "52188078_5134369",
+      "value": " Cao B\u00ecnh"
+    },
+    {
+      "entry_id": "9664265_1646286_fact15",
+      "score": 0.7855619192123413,
+      "source_id": "9664265_1646286",
+      "value": " Malaysia"
+    },
+    {
+      "entry_id": "71755554_4365882_fact16",
+      "score": 0.7738947868347168,
+      "source_id": "71755554_4365882",
+      "value": " France"
+    }
+  ],
+  "truncated": false
+}

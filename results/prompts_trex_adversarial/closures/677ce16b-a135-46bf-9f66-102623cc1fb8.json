@@ -1,0 +1,133 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "25895984_3238913_fact0",
+      "score": 0.8266738653182983,
+      "source_id": "25895984_3238913",
+      "value": " coal town"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "346733_1162186_fact37",
+      "score": 0.6085453033447266,
+      "source_id": "346733_1162186",
+      "value": " suburb of Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3326168_1046692_fact24",
+      "score": 0.5840015411376953,
+      "source_id": "3326168_1046692",
+      "value": " suburb in south-western Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3157092_817094_fact3",
+      "score": 0.5570605397224426,
+      "source_id": "3157092_817094",
+      "value": " western suburb of Sydney, New South Wales, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1947567_1177030_fact2",
+      "score": 0.5486407279968262,
+      "source_id": "1947567_1177030",
+      "value": " south-western suburb of Sydney, New South Wales, Australia"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28145145_2795213_fact48",
+      "score": 0.5378059148788452,
+      "source_id": "28145145_2795213",
+      "value": " south-west of Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "172350_1178893_fact143",
+      "score": 0.5359983444213867,
+      "source_id": "172350_1178893",
+      "value": " \"The Sydney Morning Herald\"."
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1113254_435679_fact0",
+      "score": 0.5322268009185791,
+      "source_id": "1113254_435679",
+      "value": " western suburb of Sydney"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "54460724_4400226_fact9",
+      "score": 0.5221933126449585,
+      "source_id": "54460724_4400226",
+      "value": " \"The Sydney Morning Herald\","
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "677ce16b-a135-46bf-9f66-102623cc1fb8",
+  "index_nprobe": null,
+  "manifest_id": "b619ec0e24bd47af",
+  "margin": 0.013108670711517334,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8266738057136536,
+  "s_surv": 0.8135651350021362,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "735543_508660_fact146",
+      "score": 0.8135651350021362,
+      "source_id": "735543_508660",
+      "value": " Australian media company"
+    },
+    {
+      "entry_id": "13134622_3094974_fact79",
+      "score": 0.8082106113433838,
+      "source_id": "13134622_3094974",
+      "value": " military retirement community in Fort Belvoir"
+    },
+    {
+      "entry_id": "735543_508660_fact145",
+      "score": 0.7755239605903625,
+      "source_id": "735543_508660",
+      "value": " an"
+    },
+    {
+      "entry_id": "48618791_4926252_fact0",
+      "score": 0.7686712145805359,
+      "source_id": "48618791_4926252",
+      "value": " historic mansion"
+    },
+    {
+      "entry_id": "53920101_3961320_fact0",
+      "score": 0.7340248823165894,
+      "source_id": "53920101_3961320",
+      "value": " town"
+    }
+  ],
+  "truncated": false
+}

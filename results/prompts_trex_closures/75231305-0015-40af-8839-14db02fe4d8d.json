@@ -1,0 +1,639 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "21434493_1309073_fact1",
+      "score": 0.9307781457901001,
+      "source_id": "21434493_1309073",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44215771_4265106_fact2",
+      "score": 0.7345524430274963,
+      "source_id": "44215771_4265106",
+      "value": " NBC Television Network"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19674399_2067995_fact1",
+      "score": 0.7037132978439331,
+      "source_id": "19674399_2067995",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7739911_1663216_fact1",
+      "score": 0.6779055595397949,
+      "source_id": "7739911_1663216",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "27265038_2018617_fact5",
+      "score": 0.6693322062492371,
+      "source_id": "27265038_2018617",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5494233_907481_fact1",
+      "score": 0.6622579097747803,
+      "source_id": "5494233_907481",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "660072_276666_fact2",
+      "score": 0.6579897403717041,
+      "source_id": "660072_276666",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "70032840_5559900_fact30",
+      "score": 0.6528666019439697,
+      "source_id": "70032840_5559900",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25448337_2813233_fact13",
+      "score": 0.6415870189666748,
+      "source_id": "25448337_2813233",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "181436_79113_fact150",
+      "score": 0.6405141949653625,
+      "source_id": "181436_79113",
+      "value": " NBC Saturday evening schedule"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5944189_197340_fact52",
+      "score": 0.6382305026054382,
+      "source_id": "5944189_197340",
+      "value": " NBC television network"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59224_1153441_fact354",
+      "score": 0.6376972198486328,
+      "source_id": "59224_1153441",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60594798_3865739_fact1",
+      "score": 0.6304777264595032,
+      "source_id": "60594798_3865739",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "197736_201116_fact195",
+      "score": 0.6253769397735596,
+      "source_id": "197736_201116",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46284_954041_fact126",
+      "score": 0.6025140285491943,
+      "source_id": "46284_954041",
+      "value": " NBC Television Network"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "931315_1094871_fact76",
+      "score": 0.5932948589324951,
+      "source_id": "931315_1094871",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22629963_2440976_fact28",
+      "score": 0.5930383801460266,
+      "source_id": "22629963_2440976",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48879469_5154502_fact197",
+      "score": 0.5916871428489685,
+      "source_id": "48879469_5154502",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "12289168_2057352_fact1",
+      "score": 0.5913656949996948,
+      "source_id": "12289168_2057352",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "858204_6142670_fact2",
+      "score": 0.5893726944923401,
+      "source_id": "858204_6142670",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "41911377_4739741_fact3",
+      "score": 0.5892311334609985,
+      "source_id": "41911377_4739741",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39374404_5006010_fact12",
+      "score": 0.586127758026123,
+      "source_id": "39374404_5006010",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "575010_1096658_fact3",
+      "score": 0.5842248201370239,
+      "source_id": "575010_1096658",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "30538743_2247376_fact1",
+      "score": 0.583252489566803,
+      "source_id": "30538743_2247376",
+      "value": " NBC Radio"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "228675_407910_fact112",
+      "score": 0.5814689993858337,
+      "source_id": "228675_407910",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48455605_4776624_fact24",
+      "score": 0.5811759233474731,
+      "source_id": "48455605_4776624",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43449706_3576104_fact4",
+      "score": 0.5772252678871155,
+      "source_id": "43449706_3576104",
+      "value": " CBS, ABC and NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "8109388_2157848_fact5",
+      "score": 0.5765997171401978,
+      "source_id": "8109388_2157848",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "738361_517937_fact60",
+      "score": 0.5757074356079102,
+      "source_id": "738361_517937",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1861802_1002905_fact48",
+      "score": 0.5731965899467468,
+      "source_id": "1861802_1002905",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "98968_397425_fact481",
+      "score": 0.5716914534568787,
+      "source_id": "98968_397425",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "393194_248536_fact148",
+      "score": 0.5713710784912109,
+      "source_id": "393194_248536",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18232241_2940329_fact41",
+      "score": 0.5711456537246704,
+      "source_id": "18232241_2940329",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3245895_942538_fact3",
+      "score": 0.5711199641227722,
+      "source_id": "3245895_942538",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2072525_252562_fact67",
+      "score": 0.5693605542182922,
+      "source_id": "2072525_252562",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6184172_393717_fact2",
+      "score": 0.5691345930099487,
+      "source_id": "6184172_393717",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11993642_1712966_fact18",
+      "score": 0.5683856010437012,
+      "source_id": "11993642_1712966",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20160376_2500501_fact143",
+      "score": 0.5676218271255493,
+      "source_id": "20160376_2500501",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "14771922_2330857_fact52",
+      "score": 0.567171037197113,
+      "source_id": "14771922_2330857",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13086275_3042854_fact2",
+      "score": 0.566540539264679,
+      "source_id": "13086275_3042854",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "701743_402239_fact78",
+      "score": 0.566278338432312,
+      "source_id": "701743_402239",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21496243_1376779_fact10",
+      "score": 0.5661872029304504,
+      "source_id": "21496243_1376779",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "82587_248543_fact141",
+      "score": 0.5659846663475037,
+      "source_id": "82587_248543",
+      "value": " NBC Red Network"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "522331_891680_fact44",
+      "score": 0.56590735912323,
+      "source_id": "522331_891680",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21434493_1309073_fact20",
+      "score": 0.5654104351997375,
+      "source_id": "21434493_1309073",
+      "value": " 12 NBC stations"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "459237_596742_fact87",
+      "score": 0.5643322467803955,
+      "source_id": "459237_596742",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "739807_523442_fact74",
+      "score": 0.5629713535308838,
+      "source_id": "739807_523442",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1127670_479486_fact1",
+      "score": 0.5628997683525085,
+      "source_id": "1127670_479486",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "21496243_1376779_fact73",
+      "score": 0.5619815587997437,
+      "source_id": "21496243_1376779",
+      "value": " NBC, Telemundo, and Ion Television"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "28914493_3411147_fact18",
+      "score": 0.560711681842804,
+      "source_id": "28914493_3411147",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "302902_881422_fact45",
+      "score": 0.5587666630744934,
+      "source_id": "302902_881422",
+      "value": " the NBC television network"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60293272_3625518_fact1",
+      "score": 0.557310163974762,
+      "source_id": "60293272_3625518",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1985224_98773_fact2",
+      "score": 0.557079553604126,
+      "source_id": "1985224_98773",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2253253_569700_fact27",
+      "score": 0.5568172335624695,
+      "source_id": "2253253_569700",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "197118_196109_fact67",
+      "score": 0.5559217929840088,
+      "source_id": "197118_196109",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32234386_1551583_fact1",
+      "score": 0.5544970035552979,
+      "source_id": "32234386_1551583",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31671883_3390953_fact1",
+      "score": 0.5530034303665161,
+      "source_id": "31671883_3390953",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1549241_319690_fact10",
+      "score": 0.551680326461792,
+      "source_id": "1549241_319690",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43193281_5782455_fact3",
+      "score": 0.5515564680099487,
+      "source_id": "43193281_5782455",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "166640_1119018_fact165",
+      "score": 0.551091194152832,
+      "source_id": "166640_1119018",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "270359_694521_fact71",
+      "score": 0.5507131218910217,
+      "source_id": "270359_694521",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6601043_665326_fact29",
+      "score": 0.5506952404975891,
+      "source_id": "6601043_665326",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57808536_4382266_fact30",
+      "score": 0.5503833293914795,
+      "source_id": "57808536_4382266",
+      "value": " NBC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1198492_674664_fact27",
+      "score": 0.5491251945495605,
+      "source_id": "1198492_674664",
+      "value": " NBC television network"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "148474_928390_fact7",
+      "score": 0.5487797260284424,
+      "source_id": "148474_928390",
+      "value": " NBC"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "75231305-0015-40af-8839-14db02fe4d8d",
+  "index_nprobe": null,
+  "manifest_id": "6f318a60cc3a4cfb",
+  "margin": 0.20806193351745605,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9307781457901001,
+  "s_surv": 0.722716212272644,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "44114676_4168278_fact2",
+      "score": 0.722716212272644,
+      "source_id": "44114676_4168278",
+      "value": " CBS Fridays"
+    },
+    {
+      "entry_id": "184831_104476_fact101",
+      "score": 0.7083649039268494,
+      "source_id": "184831_104476",
+      "value": " December 13, 1948"
+    },
+    {
+      "entry_id": "69917864_5495681_fact1",
+      "score": 0.6758653521537781,
+      "source_id": "69917864_5495681",
+      "value": " Citytv"
+    },
+    {
+      "entry_id": "44215771_4265106_fact5",
+      "score": 0.6730783581733704,
+      "source_id": "44215771_4265106",
+      "value": " Sunday nights"
+    },
+    {
+      "entry_id": "46284_954041_fact125",
+      "score": 0.6650165319442749,
+      "source_id": "46284_954041",
+      "value": " June 8, 1948"
+    }
+  ],
+  "truncated": false
+}

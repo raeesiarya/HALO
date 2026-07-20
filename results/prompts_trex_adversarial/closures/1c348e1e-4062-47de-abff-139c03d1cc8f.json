@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "31874304_1257755_fact4",
+      "score": 0.9061845541000366,
+      "source_id": "31874304_1257755",
+      "value": " War of 1812"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "1c348e1e-4062-47de-abff-139c03d1cc8f",
+  "index_nprobe": null,
+  "manifest_id": "6723c8d41cd5cf9e",
+  "margin": 0.14238578081130981,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9061846137046814,
+  "s_surv": 0.7637988328933716,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "4289957_978400_fact4",
+      "score": 0.7637988328933716,
+      "source_id": "4289957_978400",
+      "value": " American Civil War"
+    },
+    {
+      "entry_id": "11223579_3258243_fact69",
+      "score": 0.7489675283432007,
+      "source_id": "11223579_3258243",
+      "value": " War of 1812"
+    },
+    {
+      "entry_id": "53087_1060906_fact28",
+      "score": 0.7484743595123291,
+      "source_id": "53087_1060906",
+      "value": " War of 1812"
+    },
+    {
+      "entry_id": "14199_5979083_fact16",
+      "score": 0.7460901737213135,
+      "source_id": "14199_5979083",
+      "value": " American Civil War"
+    },
+    {
+      "entry_id": "71479021_4192726_fact3",
+      "score": 0.7344654202461243,
+      "source_id": "71479021_4192726",
+      "value": " American Civil War"
+    }
+  ],
+  "truncated": false
+}

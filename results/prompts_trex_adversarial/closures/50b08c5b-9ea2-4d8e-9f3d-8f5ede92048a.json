@@ -1,0 +1,810 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "1671029_592198_fact16",
+      "score": 0.9285652041435242,
+      "source_id": "1671029_592198",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3964647_628138_fact4",
+      "score": 0.7773380279541016,
+      "source_id": "3964647_628138",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1801088_875970_fact11",
+      "score": 0.6675090789794922,
+      "source_id": "1801088_875970",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64095993_3984926_fact8",
+      "score": 0.6642371416091919,
+      "source_id": "64095993_3984926",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11158331_3186379_fact11",
+      "score": 0.6598979234695435,
+      "source_id": "11158331_3186379",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4361160_1052014_fact18",
+      "score": 0.6526947617530823,
+      "source_id": "4361160_1052014",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2119011_331799_fact75",
+      "score": 0.648522675037384,
+      "source_id": "2119011_331799",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20784137_3016625_fact10",
+      "score": 0.647462010383606,
+      "source_id": "20784137_3016625",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1563918_352364_fact129",
+      "score": 0.639624297618866,
+      "source_id": "1563918_352364",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52010314_4998454_fact12",
+      "score": 0.6177080869674683,
+      "source_id": "52010314_4998454",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3882744_539995_fact15",
+      "score": 0.6102902293205261,
+      "source_id": "3882744_539995",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5808617_85649_fact14",
+      "score": 0.6057279109954834,
+      "source_id": "5808617_85649",
+      "value": " India, Kenya and Canada"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "55921643_5349651_fact33",
+      "score": 0.6029269695281982,
+      "source_id": "55921643_5349651",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "20789810_3022829_fact14",
+      "score": 0.6023005843162537,
+      "source_id": "20789810_3022829",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "51163007_4389541_fact8",
+      "score": 0.5975290536880493,
+      "source_id": "51163007_4389541",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "9807315_1791389_fact17",
+      "score": 0.5944349765777588,
+      "source_id": "9807315_1791389",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65630479_4983277_fact4",
+      "score": 0.5903539061546326,
+      "source_id": "65630479_4983277",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "59386583_5418228_fact32",
+      "score": 0.5874165296554565,
+      "source_id": "59386583_5418228",
+      "value": " India U-19"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23278637_3027433_fact6",
+      "score": 0.5819154977798462,
+      "source_id": "23278637_3027433",
+      "value": " India Women's team"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32988371_2161971_fact2",
+      "score": 0.5815612077713013,
+      "source_id": "32988371_2161971",
+      "value": " the USA and India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6794874_796946_fact55",
+      "score": 0.5791662335395813,
+      "source_id": "6794874_796946",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "49040781_5280247_fact11",
+      "score": 0.5789533853530884,
+      "source_id": "49040781_5280247",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2227084_523062_fact10",
+      "score": 0.5753929615020752,
+      "source_id": "2227084_523062",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24629378_2066751_fact25",
+      "score": 0.5727884769439697,
+      "source_id": "24629378_2066751",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43814078_3917435_fact22",
+      "score": 0.568976879119873,
+      "source_id": "43814078_3917435",
+      "value": " Tamil Nadu state and the India National football team"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68051717_4216872_fact3",
+      "score": 0.5686944723129272,
+      "source_id": "68051717_4216872",
+      "value": " Indian Railways, Air India and Services"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58746241_5051795_fact39",
+      "score": 0.5673322677612305,
+      "source_id": "58746241_5051795",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6794398_796617_fact5",
+      "score": 0.5667480230331421,
+      "source_id": "6794398_796617",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34162788_3139465_fact46",
+      "score": 0.5640034079551697,
+      "source_id": "34162788_3139465",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1801088_875970_fact3",
+      "score": 0.5586026310920715,
+      "source_id": "1801088_875970",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15174722_2698819_fact39",
+      "score": 0.5576296448707581,
+      "source_id": "15174722_2698819",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "57392020_4067341_fact70",
+      "score": 0.555478572845459,
+      "source_id": "57392020_4067341",
+      "value": " India National Football team"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7766057_1701519_fact27",
+      "score": 0.5554277896881104,
+      "source_id": "7766057_1701519",
+      "value": " gold medal winning India men's hockey team"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "67128748_5929014_fact4",
+      "score": 0.5515521764755249,
+      "source_id": "67128748_5929014",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "18838900_1250023_fact3",
+      "score": 0.5498971939086914,
+      "source_id": "18838900_1250023",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11236863_3273170_fact12",
+      "score": 0.5486674308776855,
+      "source_id": "11236863_3273170",
+      "value": " India A"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22159091_1991426_fact16",
+      "score": 0.5473837852478027,
+      "source_id": "22159091_1991426",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39612251_5228049_fact32",
+      "score": 0.5465680956840515,
+      "source_id": "39612251_5228049",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58716008_5029737_fact3",
+      "score": 0.5454057455062866,
+      "source_id": "58716008_5029737",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11408010_3470615_fact6",
+      "score": 0.5445703268051147,
+      "source_id": "11408010_3470615",
+      "value": " India national cricket team"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52234209_5174114_fact8",
+      "score": 0.5430599451065063,
+      "source_id": "52234209_5174114",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "7895953_1869991_fact5",
+      "score": 0.5386022329330444,
+      "source_id": "7895953_1869991",
+      "value": " India national football team"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44562865_4572671_fact169",
+      "score": 0.5379674434661865,
+      "source_id": "44562865_4572671",
+      "value": " East India Comedy"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "567424_6082330_fact13",
+      "score": 0.5365557670593262,
+      "source_id": "567424_6082330",
+      "value": " National Team of India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "34617819_3548254_fact234",
+      "score": 0.530862033367157,
+      "source_id": "34617819_3548254",
+      "value": " India U23"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50581142_3899224_fact24",
+      "score": 0.5287106037139893,
+      "source_id": "50581142_3899224",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32726285_1954857_fact63",
+      "score": 0.5286781787872314,
+      "source_id": "32726285_1954857",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44716975_4680333_fact32",
+      "score": 0.5278652906417847,
+      "source_id": "44716975_4680333",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "36619449_2758146_fact3",
+      "score": 0.5264399647712708,
+      "source_id": "36619449_2758146",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2112179_319233_fact4",
+      "score": 0.5260648727416992,
+      "source_id": "2112179_319233",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2479783_976019_fact3",
+      "score": 0.5259919166564941,
+      "source_id": "2479783_976019",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "894423_973641_fact4",
+      "score": 0.5252794027328491,
+      "source_id": "894423_973641",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "60953288_4123297_fact77",
+      "score": 0.5243890285491943,
+      "source_id": "60953288_4123297",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11417635_3479218_fact6",
+      "score": 0.5238049030303955,
+      "source_id": "11417635_3479218",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "43498326_3620291_fact124",
+      "score": 0.5237196683883667,
+      "source_id": "43498326_3620291",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "37094525_3162815_fact3",
+      "score": 0.5221737623214722,
+      "source_id": "37094525_3162815",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2497401_1001341_fact7",
+      "score": 0.5214380025863647,
+      "source_id": "2497401_1001341",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "58664599_4996755_fact5",
+      "score": 0.5210468173027039,
+      "source_id": "58664599_4996755",
+      "value": " India A, Board President\u2018s XI, India Seniors, West Zone and Baroda"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2017891_158032_fact9",
+      "score": 0.5205916166305542,
+      "source_id": "2017891_158032",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4080790_751235_fact5",
+      "score": 0.5200182795524597,
+      "source_id": "4080790_751235",
+      "value": " India Under-19s [cricket] team"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "33358030_2477240_fact2",
+      "score": 0.5193722248077393,
+      "source_id": "33358030_2477240",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65737024_5060383_fact4",
+      "score": 0.5192726254463196,
+      "source_id": "65737024_5060383",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68136440_4264486_fact12",
+      "score": 0.5188313722610474,
+      "source_id": "68136440_4264486",
+      "value": " India Team"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "39853216_5427816_fact5",
+      "score": 0.5167618989944458,
+      "source_id": "39853216_5427816",
+      "value": " All India Forward Bloc party"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "10614041_2605813_fact7",
+      "score": 0.5152052640914917,
+      "source_id": "10614041_2605813",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1671054_592260_fact5",
+      "score": 0.5143015384674072,
+      "source_id": "1671054_592260",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "35324798_1751787_fact35",
+      "score": 0.5140137672424316,
+      "source_id": "35324798_1751787",
+      "value": " India U19"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "69384547_5153349_fact7",
+      "score": 0.5130153894424438,
+      "source_id": "69384547_5153349",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "71980857_4498976_fact8",
+      "score": 0.5116459131240845,
+      "source_id": "71980857_4498976",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24405927_1854387_fact6",
+      "score": 0.5112617611885071,
+      "source_id": "24405927_1854387",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "19498450_1933976_fact26",
+      "score": 0.5104295015335083,
+      "source_id": "19498450_1933976",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "13072596_3027483_fact7",
+      "score": 0.5103588700294495,
+      "source_id": "13072596_3027483",
+      "value": " Mumbai cricket team, India national cricket team"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3460000_1199693_fact3",
+      "score": 0.5101646780967712,
+      "source_id": "3460000_1199693",
+      "value": " India national cricket team"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50014655_5891230_fact6",
+      "score": 0.5100189447402954,
+      "source_id": "50014655_5891230",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3906979_565861_fact6",
+      "score": 0.5099691152572632,
+      "source_id": "3906979_565861",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "53303957_5892128_fact14",
+      "score": 0.5098044276237488,
+      "source_id": "53303957_5892128",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "25109824_2508682_fact8",
+      "score": 0.5093187689781189,
+      "source_id": "25109824_2508682",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "48495241_4814043_fact114",
+      "score": 0.5087468028068542,
+      "source_id": "48495241_4814043",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "50887473_4149515_fact15",
+      "score": 0.5084832906723022,
+      "source_id": "50887473_4149515",
+      "value": " Sports Authority of India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4282729_971207_fact5",
+      "score": 0.5076267719268799,
+      "source_id": "4282729_971207",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "68006365_4183153_fact3",
+      "score": 0.5069795846939087,
+      "source_id": "68006365_4183153",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "64767105_4505568_fact22",
+      "score": 0.506722092628479,
+      "source_id": "64767105_4505568",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "46233315_5495981_fact5",
+      "score": 0.506572961807251,
+      "source_id": "46233315_5495981",
+      "value": " India"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "17243150_2095348_fact225",
+      "score": 0.5046668648719788,
+      "source_id": "17243150_2095348",
+      "value": " India Cements"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "50b08c5b-9ea2-4d8e-9f3d-8f5ede92048a",
+  "index_nprobe": null,
+  "manifest_id": "65d32579aa038233",
+  "margin": 0.20980244874954224,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9285652041435242,
+  "s_surv": 0.7187627553939819,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "1671029_592198_fact15",
+      "score": 0.7187627553939819,
+      "source_id": "1671029_592198",
+      "value": " cricket"
+    },
+    {
+      "entry_id": "4073836_744502_fact448",
+      "score": 0.699324369430542,
+      "source_id": "4073836_744502",
+      "value": " Saurashtra"
+    },
+    {
+      "entry_id": "47295021_3916098_fact46",
+      "score": 0.6855342388153076,
+      "source_id": "47295021_3916098",
+      "value": " Travancore-Cochin"
+    },
+    {
+      "entry_id": "4073836_744502_fact62",
+      "score": 0.6824607849121094,
+      "source_id": "4073836_744502",
+      "value": " Saurashtra"
+    },
+    {
+      "entry_id": "47295584_3916421_fact32",
+      "score": 0.6764950752258301,
+      "source_id": "47295584_3916421",
+      "value": " Travancore-Cochin"
+    }
+  ],
+  "truncated": false
+}

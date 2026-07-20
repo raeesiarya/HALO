@@ -1,0 +1,224 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "34197949_3168724_fact1",
+      "score": 0.920791506767273,
+      "source_id": "34197949_3168724",
+      "value": " the mountain region"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "21931032_1798370_fact0",
+      "score": 0.9182835817337036,
+      "source_id": "21931032_1798370",
+      "value": " the mountain region of the Western United States"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "34192502_3164451_fact1",
+      "score": 0.9179928302764893,
+      "source_id": "34192502_3164451",
+      "value": " the mountain region"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "20285936_2598494_fact23",
+      "score": 0.917036235332489,
+      "source_id": "20285936_2598494",
+      "value": " the Inner Mountain West"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "11130_5978304_fact0",
+      "score": 0.9167782068252563,
+      "source_id": "11130_5978304",
+      "value": " the western United States"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "1543580_305930_fact0",
+      "score": 0.9156721234321594,
+      "source_id": "1543580_305930",
+      "value": " the Western United States"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "44788493_4731565_fact0",
+      "score": 0.9128400683403015,
+      "source_id": "44788493_4731565",
+      "value": " western United States"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "15143816_2670441_fact0",
+      "score": 0.9049792289733887,
+      "source_id": "15143816_2670441",
+      "value": " the mountain region of the western United States"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "33611_769318_fact0",
+      "score": 0.901297926902771,
+      "source_id": "33611_769318",
+      "value": " Mountain West subregion"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "34200066_3170934_fact2",
+      "score": 0.9011030793190002,
+      "source_id": "34200066_3170934",
+      "value": " mountain region"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "34198347_3169237_fact1",
+      "score": 0.8974098563194275,
+      "source_id": "34198347_3169237",
+      "value": " mountain region"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "34192219_3164015_fact2",
+      "score": 0.8973345756530762,
+      "source_id": "34192219_3164015",
+      "value": " mountain region"
+    },
+    {
+      "caught_by": [
+        "geometric"
+      ],
+      "entry_id": "34192219_3164015_fact3",
+      "score": 0.8647623658180237,
+      "source_id": "34192219_3164015",
+      "value": " the Western United States"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "96946_382036_fact0",
+      "score": 0.6246839165687561,
+      "source_id": "96946_382036",
+      "value": " U.S. state of Colorado"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "97009_382684_fact0",
+      "score": 0.6026025414466858,
+      "source_id": "97009_382684",
+      "value": " U.S. state of Colorado"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "22567226_2381488_fact1",
+      "score": 0.5978420972824097,
+      "source_id": "22567226_2381488",
+      "value": " Colorado"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1862151_1003473_fact0",
+      "score": 0.5807532072067261,
+      "source_id": "1862151_1003473",
+      "value": " southwest portion of Colorado"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "65962390_5234652_fact6",
+      "score": 0.5744766592979431,
+      "source_id": "65962390_5234652",
+      "value": " north-central Colorado"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "23503289_3236577_fact3",
+      "score": 0.566448450088501,
+      "source_id": "23503289_3236577",
+      "value": " northwestern Colorado"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "a042b70e-9859-478d-b522-2f7465a94216",
+  "index_nprobe": null,
+  "manifest_id": "905ecd5d6faa419e",
+  "margin": 0.07404083013534546,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.920791506767273,
+  "s_surv": 0.8467506766319275,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "34197949_3168724_fact2",
+      "score": 0.8467506766319275,
+      "source_id": "34197949_3168724",
+      "value": " the Western United States"
+    },
+    {
+      "entry_id": "34192502_3164451_fact2",
+      "score": 0.8452829122543335,
+      "source_id": "34192502_3164451",
+      "value": " the Western United States"
+    },
+    {
+      "entry_id": "16766119_1661855_fact0",
+      "score": 0.8413963317871094,
+      "source_id": "16766119_1661855",
+      "value": " Mountain West subregion"
+    },
+    {
+      "entry_id": "52936102_5653091_fact27",
+      "score": 0.8394485116004944,
+      "source_id": "52936102_5653091",
+      "value": " the Western coal region"
+    },
+    {
+      "entry_id": "43619744_3734833_fact3",
+      "score": 0.837948203086853,
+      "source_id": "43619744_3734833",
+      "value": " United States"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle"
+      ],
+      "entry_id": "69585_127631_fact1",
+      "score": 0.8513251543045044,
+      "source_id": "69585_127631",
+      "value": " Thomas Francis of Savoy, Prince of Carignano"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "2f269e11-58da-499a-8948-7109759b4dd7",
+  "index_nprobe": null,
+  "manifest_id": "6e26897fea572211",
+  "margin": 0.07739406824111938,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.8513251543045044,
+  "s_surv": 0.773931086063385,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "88567_294186_fact25",
+      "score": 0.773931086063385,
+      "source_id": "88567_294186",
+      "value": " Humbert I"
+    },
+    {
+      "entry_id": "24373967_1824469_fact64",
+      "score": 0.7660205364227295,
+      "source_id": "24373967_1824469",
+      "value": " Richard D'Oyly Carte"
+    },
+    {
+      "entry_id": "384998_211137_fact27",
+      "score": 0.7553309202194214,
+      "source_id": "384998_211137",
+      "value": " Humbert I, Count of Sabaudia"
+    },
+    {
+      "entry_id": "882811_936140_fact3",
+      "score": 0.7468981742858887,
+      "source_id": "882811_936140",
+      "value": " Sigismund"
+    },
+    {
+      "entry_id": "24304596_1755089_fact2",
+      "score": 0.7321280241012573,
+      "source_id": "24304596_1755089",
+      "value": " the King of Sardinia, Charles Albert, Duke of Savoy"
+    }
+  ],
+  "truncated": false
+}

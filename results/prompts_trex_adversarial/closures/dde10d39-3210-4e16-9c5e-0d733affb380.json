@@ -1,0 +1,511 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "oracle"
+      ],
+      "entry_id": "72483532_4809082_fact31",
+      "score": 0.7029218673706055,
+      "source_id": "72483532_4809082",
+      "value": " high-level programming environment"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "555301_1018181_fact0",
+      "score": 0.6980453133583069,
+      "source_id": "555301_1018181",
+      "value": " 6502-version of Microsoft BASIC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31235619_2950706_fact8",
+      "score": 0.6822402477264404,
+      "source_id": "31235619_2950706",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "149766_942971_fact0",
+      "score": 0.6622922420501709,
+      "source_id": "149766_942971",
+      "value": " foundation software product of the Microsoft company"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31235619_2950706_fact20",
+      "score": 0.6543477773666382,
+      "source_id": "31235619_2950706",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "103670_15608_fact5",
+      "score": 0.6461837887763977,
+      "source_id": "103670_15608",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15062_361105_fact200",
+      "score": 0.6386553049087524,
+      "source_id": "15062_361105",
+      "value": " Microsoft BASIC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "310928_938421_fact49",
+      "score": 0.6295416951179504,
+      "source_id": "310928_938421",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4334877_1024812_fact37",
+      "score": 0.6251535415649414,
+      "source_id": "4334877_1024812",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4905722_399444_fact36",
+      "score": 0.611729621887207,
+      "source_id": "4905722_399444",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1302953_947491_fact112",
+      "score": 0.6047564744949341,
+      "source_id": "1302953_947491",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6097382_320951_fact2",
+      "score": 0.6017381548881531,
+      "source_id": "6097382_320951",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "62049757_4894182_fact15",
+      "score": 0.587828516960144,
+      "source_id": "62049757_4894182",
+      "value": " Microsoft BASIC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1887719_1057287_fact13",
+      "score": 0.5813425779342651,
+      "source_id": "1887719_1057287",
+      "value": " Microsoft BASIC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4905722_399444_fact37",
+      "score": 0.5772419571876526,
+      "source_id": "4905722_399444",
+      "value": " the only software Microsoft ever wrote for the Amiga"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "3104_117609_fact89",
+      "score": 0.5703729391098022,
+      "source_id": "3104_117609",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "325706_6039836_fact1",
+      "score": 0.5599125027656555,
+      "source_id": "325706_6039836",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "32716_754906_fact13",
+      "score": 0.5595084428787231,
+      "source_id": "32716_754906",
+      "value": " Microsoft Windows Script Technologies"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "24143_3655_fact0",
+      "score": 0.5583744049072266,
+      "source_id": "24143_3655",
+      "value": " Microsoft corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "6362_5977068_fact11",
+      "score": 0.5573772192001343,
+      "source_id": "6362_5977068",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5438077_864115_fact12",
+      "score": 0.5561178922653198,
+      "source_id": "5438077_864115",
+      "value": " Microsoft and HP"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "44171_6811_fact59",
+      "score": 0.5519888997077942,
+      "source_id": "44171_6811",
+      "value": " Microsoft Transaction Server (MTS),"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38212009_3977306_fact6",
+      "score": 0.5507725477218628,
+      "source_id": "38212009_3977306",
+      "value": " Microsoft BASIC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "1260095_847277_fact52",
+      "score": 0.5489885807037354,
+      "source_id": "1260095_847277",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2806149_311695_fact24",
+      "score": 0.548197329044342,
+      "source_id": "2806149_311695",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "181235_27930_fact7",
+      "score": 0.5458400845527649,
+      "source_id": "181235_27930",
+      "value": " Microsoft operating system used in the 80's"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "194590_29533_fact6",
+      "score": 0.5450468063354492,
+      "source_id": "194590_29533",
+      "value": " Microsoft operating system used in the 80's"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "617705_122237_fact9",
+      "score": 0.5396184325218201,
+      "source_id": "617705_122237",
+      "value": " the original Microsoft BASIC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "623831_145610_fact96",
+      "score": 0.5372270941734314,
+      "source_id": "623831_145610",
+      "value": " Microsoft Office"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "63569_1220344_fact2",
+      "score": 0.536873459815979,
+      "source_id": "63569_1220344",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "310928_938421_fact54",
+      "score": 0.5359996557235718,
+      "source_id": "310928_938421",
+      "value": " Microsoft BASIC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "310928_938421_fact25",
+      "score": 0.5320847034454346,
+      "source_id": "310928_938421",
+      "value": " Microsoft BASIC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15610_2285_fact1",
+      "score": 0.531685471534729,
+      "source_id": "15610_2285",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "114755_17695_fact1",
+      "score": 0.5314413905143738,
+      "source_id": "114755_17695",
+      "value": " Microsoft Office system"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "52611869_5433886_fact0",
+      "score": 0.5307301878929138,
+      "source_id": "52611869_5433886",
+      "value": " a dialect of Microsoft BASIC for Macintosh"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2117_101522_fact160",
+      "score": 0.5295497179031372,
+      "source_id": "2117_101522",
+      "value": "Microsoft and Apple"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "348297_1169268_fact37",
+      "score": 0.5288617014884949,
+      "source_id": "348297_1169268",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "197847_202501_fact93",
+      "score": 0.5269301533699036,
+      "source_id": "197847_202501",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "38059_5717_fact2",
+      "score": 0.5236217379570007,
+      "source_id": "38059_5717",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "5783_172161_fact173",
+      "score": 0.522114098072052,
+      "source_id": "5783_172161",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "11200155_3231280_fact26",
+      "score": 0.5209586024284363,
+      "source_id": "11200155_3231280",
+      "value": " Microsoft Disk BASIC 4.51"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "167715_25966_fact4",
+      "score": 0.5199601650238037,
+      "source_id": "167715_25966",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "121532_6001871_fact0",
+      "score": 0.5199236869812012,
+      "source_id": "121532_6001871",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "124776_19326_fact15",
+      "score": 0.516262948513031,
+      "source_id": "124776_19326",
+      "value": " Microsoft Windows"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "31548_5982985_fact6",
+      "score": 0.5140367746353149,
+      "source_id": "31548_5982985",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "4015_132411_fact145",
+      "score": 0.5126906633377075,
+      "source_id": "4015_132411",
+      "value": " Microsoft BASIC"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "15032_360024_fact196",
+      "score": 0.5115898847579956,
+      "source_id": "15032_360024",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "2100_101098_fact159",
+      "score": 0.5095409154891968,
+      "source_id": "2100_101098",
+      "value": "Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "16972_5979674_fact1",
+      "score": 0.5085415244102478,
+      "source_id": "16972_5979674",
+      "value": " Microsoft Corporation"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "208996_281286_fact3",
+      "score": 0.5083940625190735,
+      "source_id": "208996_281286",
+      "value": " Microsoft"
+    },
+    {
+      "caught_by": [
+        "semantic"
+      ],
+      "entry_id": "167715_25966_fact0",
+      "score": 0.5061334371566772,
+      "source_id": "167715_25966",
+      "value": " Microsoft"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "dde10d39-3210-4e16-9c5e-0d733affb380",
+  "index_nprobe": null,
+  "manifest_id": "42f0464d613ad7c8",
+  "margin": 0.03453248739242554,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.7029218673706055,
+  "s_surv": 0.6683893799781799,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "516845_866878_fact22",
+      "score": 0.6683893799781799,
+      "source_id": "516845_866878",
+      "value": "BASIC"
+    },
+    {
+      "entry_id": "1887719_1057287_fact6",
+      "score": 0.664091944694519,
+      "source_id": "1887719_1057287",
+      "value": " Dartmouth BASIC"
+    },
+    {
+      "entry_id": "243951_36237_fact16",
+      "score": 0.6608853340148926,
+      "source_id": "243951_36237",
+      "value": " a simple high-level programming language"
+    },
+    {
+      "entry_id": "103266_15563_fact1",
+      "score": 0.6599553823471069,
+      "source_id": "103266_15563",
+      "value": "language"
+    },
+    {
+      "entry_id": "149766_942971_fact3",
+      "score": 0.656774640083313,
+      "source_id": "149766_942971",
+      "value": "BASIC"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "caught_by": [
+        "geometric",
+        "oracle",
+        "semantic"
+      ],
+      "entry_id": "10871141_2851790_fact2",
+      "score": 0.9474136829376221,
+      "source_id": "10871141_2851790",
+      "value": " Johannesburg"
+    }
+  ],
+  "envelope_top_k": 500,
+  "example_key": "6da01fb6-1a24-4a10-bc29-7d8da3bf9509",
+  "index_nprobe": null,
+  "manifest_id": "71df3d6c43c64cbd",
+  "margin": 0.18126285076141357,
+  "max_closure_size": 10000,
+  "predicates_active": [
+    "geometric",
+    "semantic"
+  ],
+  "radius": 0.85,
+  "s_del": 0.9474136829376221,
+  "s_surv": 0.7661508321762085,
+  "source_ids": [],
+  "strategy": "closure",
+  "top_survivors": [
+    {
+      "entry_id": "50011962_5889245_fact0",
+      "score": 0.7661508321762085,
+      "source_id": "50011962_5889245",
+      "value": " South African"
+    },
+    {
+      "entry_id": "320102_1003232_fact2",
+      "score": 0.7079384326934814,
+      "source_id": "320102_1003232",
+      "value": " Aberdeen"
+    },
+    {
+      "entry_id": "5988930_235953_fact1",
+      "score": 0.7036306858062744,
+      "source_id": "5988930_235953",
+      "value": " Milwaukee, Wisconsin"
+    },
+    {
+      "entry_id": "47104672_3740286_fact2",
+      "score": 0.7027720212936401,
+      "source_id": "47104672_3740286",
+      "value": " Scranton, Pennsylvania"
+    },
+    {
+      "entry_id": "856543_841463_fact1",
+      "score": 0.6972072124481201,
+      "source_id": "856543_841463",
+      "value": " Birmingham, England"
+    }
+  ],
+  "truncated": false
+}
