@@ -160,6 +160,15 @@ class CoLMLMAuditBackend:
     max_filter_overfetch: int = 4096
     max_filter_search_k: int = 131072
     del_off_mode: str = "null-retrieval"
+    # full_row_unaffected reuse is only sound when the index's top-1 is
+    # independent of the requested k. DEL-ON over-fetches (k = 1 + |entry_ids|)
+    # while the FULL pass searches at k=1, so on an *approximate* index
+    # (IVF/PQ/OPQ) a deeper search can return a different top-1 even when the
+    # manifest deletes nothing the FULL pass saw — the reuse canary catches this
+    # as a full_row_unaffected failure. Default off; opt in only for an exact
+    # (Flat) index. The fingerprint hook stays sound regardless (same manifest
+    # => same search_k => same result under greedy decoding).
+    assume_exact_index: bool = False
     release_source: str | None = None
     model_path: str | None = None
     index_path: str | None = None
@@ -192,6 +201,7 @@ class CoLMLMAuditBackend:
         nprobe: int | None = None,
         max_new_tokens: int = 12,
         del_off_mode: str = "null-retrieval",
+        assume_exact_index: bool = False,
     ) -> "CoLMLMAuditBackend":
         release_source = None
         if source_path is not None:
@@ -251,6 +261,7 @@ class CoLMLMAuditBackend:
         return cls(
             generator=generator,
             del_off_mode=del_off_mode,
+            assume_exact_index=assume_exact_index,
             release_source=release_source,
             model_path=str(model_path),
             index_path=str(Path(index_path).expanduser().resolve()),
@@ -270,8 +281,11 @@ class CoLMLMAuditBackend:
     ) -> bool:
         """Capability hook: with greedy decoding and removal-only filtering,
         a manifest that catches nothing the FULL pass retrieved cannot change
-        the generation."""
-        if self.injections:
+        the generation — but only if the index's top-1 does not depend on the
+        search depth (see ``assume_exact_index``). DEL-ON over-fetches relative
+        to the FULL pass, so on an approximate index this claim is unsound and
+        the hook makes none."""
+        if self.injections or not self.assume_exact_index:
             return False
         return full_trace_unaffected(full_row, manifest, self.support_judge)
 

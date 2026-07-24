@@ -34,6 +34,18 @@ def _add_arguments(parser: argparse.ArgumentParser) -> None:
             "Report both modes before interpreting parametric leakage."
         ),
     )
+    group.add_argument(
+        "--co-lmlm-assume-exact-index",
+        action="store_true",
+        help=(
+            "Trust the sweep's full-pass reuse (full_row_unaffected). Only sound "
+            "when the index's top-1 is independent of search depth, i.e. an exact "
+            "(Flat) index. The public IVF/PQ wiki index is approximate, so leave "
+            "this off: DEL-ON over-fetches relative to the FULL pass and a deeper "
+            "search can change the top-1, which the reuse canary flags. Fingerprint "
+            "reuse stays enabled either way."
+        ),
+    )
 
 
 def _build_backend(args: argparse.Namespace, _group_key: Any) -> AuditBackend:
@@ -49,6 +61,7 @@ def _build_backend(args: argparse.Namespace, _group_key: Any) -> AuditBackend:
         nprobe=NPROBE,
         max_new_tokens=args.max_new_tokens,
         del_off_mode=args.co_lmlm_del_off_mode,
+        assume_exact_index=args.co_lmlm_assume_exact_index,
     )
 
 

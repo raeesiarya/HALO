@@ -549,7 +549,11 @@ def test_manifest_fingerprint_declines_without_value_target() -> None:
 
 
 def test_backend_hooks_make_no_claim_while_injections_are_active() -> None:
-    backend = CoLMLMAuditBackend(FakeGenerator(FakeIndex([])))
+    # full_row_unaffected is only enabled on an exact index (see below); use
+    # that mode here so the test isolates the injection gate.
+    backend = CoLMLMAuditBackend(
+        FakeGenerator(FakeIndex([])), assume_exact_index=True
+    )
     manifest = _closure_manifest(("e1",))
     row = _full_row([{"entry_id": "other", "source_id": "s9", "value": "Rome"}])
     assert backend.manifest_fingerprint(manifest) is not None
@@ -557,6 +561,19 @@ def test_backend_hooks_make_no_claim_while_injections_are_active() -> None:
     backend.injections = (object(),)
     assert backend.manifest_fingerprint(manifest) is None
     assert backend.full_row_unaffected(row, manifest) is False
+
+
+def test_full_row_reuse_makes_no_claim_on_an_approximate_index() -> None:
+    # Default (approximate index): DEL-ON over-fetches relative to the FULL
+    # pass, so a deeper search can change the top-1 even when the manifest
+    # deletes nothing the FULL pass saw. full_row_unaffected must decline; the
+    # fingerprint hook is unaffected by search depth and stays sound.
+    backend = CoLMLMAuditBackend(FakeGenerator(FakeIndex([])))
+    manifest = _closure_manifest(("e1",))
+    row = _full_row([{"entry_id": "other", "source_id": "s9", "value": "Rome"}])
+    assert backend.assume_exact_index is False
+    assert backend.full_row_unaffected(row, manifest) is False
+    assert backend.manifest_fingerprint(manifest) is not None
 
 
 def test_full_trace_unaffected_checks_all_three_filters() -> None:

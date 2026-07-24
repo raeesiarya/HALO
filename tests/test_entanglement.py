@@ -297,7 +297,9 @@ PROMPT_B = "What is the capital of Poland?"
 def _sweep_setup():
     index = _two_fact_index()
     generator = SweepFakeGenerator(index, {PROMPT_A: QUERY_A, PROMPT_B: QUERY_B})
-    backend = CoLMLMAuditBackend(generator)
+    # The fake index is exact (top-1 independent of search depth), so full-pass
+    # reuse is sound here — enable it to exercise the reuse accounting.
+    backend = CoLMLMAuditBackend(generator, assume_exact_index=True)
     return index, generator, backend
 
 
