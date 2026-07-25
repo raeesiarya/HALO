@@ -1,0 +1,392 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\definecolor{linkblue}{RGB}{32,91,155}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=linkblue,
+  citecolor=linkblue,
+  urlcolor=linkblue,
+  pdftitle={A Causal Audit Layer for Deletion in Co-LMLM}
+}
+
+\setlist[itemize]{leftmargin=1.4em,itemsep=0.2em,topsep=0.3em}
+\setlist[enumerate]{leftmargin=1.6em,itemsep=0.2em,topsep=0.3em}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\newcommand{\FULL}{\textsc{Full}}
+\newcommand{\DELON}{\textsc{Del-On}}
+\newcommand{\DELOFF}{\textsc{Del-Off}}
+\newcommand{\colmlm}{Co-LMLM}
+\newcommand{\pct}[1]{#1\%}
+
+\title{\textbf{Co-LMLM Deletion Audit}\\
+\large What We Found and What We Think Is Worth Testing Next}
+\author{Arya Raeesi \and Hanna Roed}
+\date{Working note, 25 July 2026}
+
+\begin{document}
+\maketitle
+
+\section*{Short version}
+
+We ran our three-state causal audit on the public
+\texttt{lil-lab/CoLMLM-360M-FW} model and its Wikipedia index. From 1,500
+T-REx prompts, 526 form the primary cohort: the unmodified model is correct
+and its selected memory entry is verified to support the answer. Under
+geometric-plus-value deletion, retrieval-enabled survival falls to
+\pct{6.1}. Yet retrieval-disabled answerability is \pct{26.2}, and retrieval
+changes a correct control answer into a wrong answer in \pct{21.5} of cases.
+Deleting only the selected entry leaves \pct{40.7} intact; geometric closure
+leaves \pct{33.3}; value-aware closure leaves \pct{7.0}. Value deletion is
+effective but broad, removing a median of 21 and mean of 57.3 entries per
+target. A verbatim answer-bearing entry placed just outside the geometric
+radius also restores many answers. Our read is that the main open problem is
+the unit of deletion: a cosine neighborhood, answer string, source, and
+database row are not the same as a fact identity. Identity clustering is not
+implemented here. What we have now is the audit layer and a set of baselines
+for testing it.
+
+\section{What we ran, and why}
+
+\colmlm externalizes factual spans into a continuous-key, text-value index and
+retrieves the top item using a hidden-state query
+\cite{feldman2026colmlm}.
+
+The paper already shows effective aggregate forgetting on TOFU. We wanted to
+zoom in on the mechanism behind that result. The narrower question is: once a
+target entry is removed from a schema-free index, does a correct answer come
+from another memory entry, or from the model and prompt without factual
+retrieval? That distinction tells us whether the next useful intervention
+belongs in the deletion policy, the retrieval policy, or the model.
+
+Our design adapts the causal framework for relational LMLMs
+\cite{raeesi2026audit}. For each fact, the model, prompt, decoding, and
+parameters are fixed while memory access changes:
+
+\begin{center}
+\begin{tabularx}{0.92\textwidth}{p{0.14\textwidth}Y}
+\toprule
+State & Intervention \\
+\midrule
+\FULL & Memory unchanged; retrieval enabled. \\
+\DELON & Target deletion set hidden; retrieval enabled. \\
+\DELOFF & Target deletion set hidden; factual retrieval disabled. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+Deletion uses reversible search-time filtering rather than physically
+rewriting the index. Let \(C_s(f)\) indicate whether the output in state \(s\)
+contains the normalized gold answer or an accepted alias. Conditional on
+\FULL\ correctness, we report:
+
+\begin{align}
+L(f) &= C_{\DELOFF}(f),
+  &&\text{retrieval-disabled answerability},\\
+R(f) &= C_{\DELON}(f)\bigl(1-C_{\DELOFF}(f)\bigr),
+  &&\text{retrieval-mediated correctness},\\
+I(f) &= \bigl(1-C_{\DELON}(f)\bigr)C_{\DELOFF}(f),
+  &&\text{retrieval interference},\\
+S(f) &= C_{\DELON}(f),
+  &&\text{post-deletion survival}.
+\end{align}
+
+We additionally inspect \DELON\ traces for retained candidates that support
+the target. Trace support is evidence available to the model, but its absence
+does not prove weight memorization; a correct answer can also come from the
+prompt or general language regularities.
+
+\begin{table}[H]
+\centering
+\caption{Construction of the auditable cohort.}
+\label{tab:coverage}
+\begin{tabularx}{0.82\textwidth}{Yrr}
+\toprule
+Stage & Count & Coverage \\
+\midrule
+All T-REx prompts & 1,500 & \pct{100.0} \\
+\FULL\ produced a selected entry ID & 1,190 & \pct{79.3} \\
+Selected entry passed the target-support judge & 599 & \pct{39.9} \\
+Support verified and \FULL\ answer correct & 526 & \pct{35.1} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The unmodified model is correct on 763 of 1,500 prompts (\pct{50.9}).
+The primary causal cohort is the 526 cases that are both \FULL-correct and
+support-verified. The remaining 901 support exclusions comprise 310 prompts
+with no selected entry ID and 591 whose selected entry fails the support
+judge. All main survival rates are conditional on the 526-case cohort.
+
+We use greedy decoding with at most 12 new tokens on
+\texttt{lil-lab/CoLMLM-360M-FW}. The standard policy combines geometric
+closure at \(\rho=0.85\) with value support judged inside a top-500 retrieval
+envelope and at run time. The completed closures are not truncated. The run
+uses the public, approximate Wikipedia index (approximately 240M entries),
+not the 2.2B-entry Wikipedia--FineWeb-Edu index
+\cite{feldman2026colmlm}. The estimates therefore describe the released
+end-to-end system, including approximate search.
+
+\section{What we found}
+
+\subsection{Channel decomposition}
+
+\begin{table}[H]
+\centering
+\caption{Paired outcomes under geometric-plus-value deletion at
+\(\rho=0.85\), restricted to the 526-case primary cohort.}
+\label{tab:three-state}
+\begin{tabularx}{0.93\textwidth}{Yrr}
+\toprule
+Outcome & Count & Rate \\
+\midrule
+Wrong in both \DELON\ and \DELOFF & 381 & \pct{72.4} \\
+Correct only in \DELON: retrieval-mediated \(R\) & 7 & \pct{1.3} \\
+Correct only in \DELOFF: retrieval interference \(I\) & 113 & \pct{21.5} \\
+Correct in both post-deletion states & 25 & \pct{4.8} \\
+\midrule
+Any \DELON\ correctness: survival \(S\) & 32 & \pct{6.1} \\
+Any \DELOFF\ correctness: \(L\) & 138 & \pct{26.2} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The standard policy leaves 32 of 526 answers intact
+(\pct{6.1}, Wilson 95\% interval \([4.3,8.5]\)), but only seven
+(\pct{1.3}) are correct uniquely with retrieval. In contrast, 138
+(\pct{26.2}) are correct without factual retrieval, and in 113
+(\pct{21.5}) a surviving retrieval changes that correct control answer into a
+wrong answer. All 32 \DELON-correct traces lack retained target-supporting
+evidence; 25 are nevertheless also correct in \DELOFF. Thus \pct{6.1} should
+not be called retrieval leakage: the retrieval-mediated subset is
+\pct{1.3}.
+
+The \DELOFF\ result is stable under a stricter control that forbids the
+retrieval token: 132 of 526 are correct (\pct{25.1}), versus 138
+(\pct{26.2}) under null retrieval. The paired difference is 1.1 percentage
+points (\(p=0.377\)). We call this \emph{retrieval-disabled answerability},
+not pure weight memorization, because prompts and general language knowledge
+remain available.
+
+\subsection{Deletion policy and scope}
+
+We compare several possible meanings of ``delete this fact.'' Selected-entry
+deletion hides only the verified row used in \FULL; provenance deletion hides
+its source; geometric deletion hides keys with cosine similarity at least
+\(0.85\); value deletion hides retrieved entries judged to support the target
+answer; and the combined policies take their union. These are baselines, not
+identity clusters.
+
+\begin{table}[H]
+\centering
+\caption{Policy comparison on the 526-fact cohort. Closure sizes are measured
+over all 599 support-verified targets. Provenance deletion is source-wide, so
+its true hidden-entry count is not available from the saved candidate list.
+Efficacy is one minus survival; ``gold in trace'' is the number of survivors
+with retained target-supporting evidence.}
+\label{tab:policies}
+\scriptsize
+\begin{tabular}{lrrrrrr}
+\toprule
+Policy & Survival & Efficacy & Gold in trace & Mean & Median & Max. \\
+\midrule
+Selected entry & \pct{40.7} & \pct{59.3} & 192/214 & 1 & 1 & 1 \\
+Provenance & \pct{41.6} & \pct{58.4} & 219/219 & --- & --- & --- \\
+Geometric, \(\rho=0.85\) & \pct{33.3} & \pct{66.7} & 154/175 & 2.5 & 1 & 183 \\
+Value & \pct{7.0} & \pct{93.0} & 0/37 & 57.3 & 21 & 494 \\
+Geometric \(+\) value & \pct{6.1} & \pct{93.9} & 0/32 & 57.9 & 21 & 494 \\
+Hybrid & \pct{5.7} & \pct{94.3} & 0/30 & 58.4 & 22 & 494 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Removing the selected supporting entry leaves 214 answers intact, and 192 of
+those survivors retrieve other target-supporting evidence. Our read is that
+deleting one observed row is not yet the same as deleting the fact. Geometry
+removes slightly more, but 154 geometric survivors still have gold evidence
+in their traces. Value matching drives the large improvement: 141 cases
+survive geometry but not value, versus three in the reverse direction
+(\(p<5\times10^{-38}\)).
+
+The tradeoff is broad deletion. Value closure removes a
+median of 21 and mean of 57.3 observed entries per target, reaching 494 within
+a 500-candidate envelope. Common answers can belong to unrelated
+propositions, so value closure is a strong efficacy baseline rather than a
+precise identity policy. Adding geometry or provenance after value changes
+survival only marginally.
+
+\subsection{Geometric boundary stress test}
+
+For each target, this stress test inserts one answer-bearing entry at
+similarity \(\rho-\epsilon\), just outside the geometric deletion radius
+\(\rho=0.85\). The baseline is geometric deletion alone, whose survival rate
+is \pct{33.3}.
+
+\begin{table}[H]
+\centering
+\caption{Verbatim survivor placed outside the geometric radius. Attack gain
+is the fraction changed from wrong under baseline deletion to correct.}
+\label{tab:adversarial}
+\begin{tabular}{rrrr}
+\toprule
+\(\epsilon\) & Entry selected & Post-attack correct & Attack gain \\
+\midrule
+0.01 & \pct{87.5} & \pct{68.6} & \pct{40.9} \\
+0.02 & \pct{77.8} & \pct{67.1} & \pct{37.8} \\
+0.05 & \pct{57.6} & \pct{57.8} & \pct{27.4} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+An exact answer-bearing value immediately outside the radius is often selected
+and restores the answer. We therefore see the cosine threshold as a routing
+boundary, not yet a semantic deletion guarantee. Hyphenated, letter-spaced,
+and prefix-cued values produce almost no new correct answers (attack gain
+\(\leq\pct{0.4}\)). This run supports a verbatim boundary-evasion claim, not
+a general paraphrase or obfuscation claim.
+
+\subsection{Secondary diagnostics}
+
+\paragraph{Representation probe.}
+A five-fold, fact-disjoint linear probe predicts an accepted answer from
+frozen \FULL\ query vectors for 139 of 599 facts (\pct{23.2}), compared with
+\pct{6.8} for the most common answer. The overlap with behavioral \DELOFF\
+correctness is weak (Jaccard \(\approx\pct{18.3}\)). Query vectors therefore
+contain answer-predictive structure, but this is not evidence that they store
+complete facts or the same facts recovered behaviorally.
+
+\paragraph{Radius sweep and collateral.}
+Geometric efficacy rises from \pct{60.1} at \(\rho=0.95\) to \pct{78.9} at
+\(\rho=0.70\); measured collateral reaches only \pct{0.20}. We do not treat
+the collateral number as conclusive. Of 526 target neighborhoods, 476 had to
+be filled with facts outside the requested cosine ball, and only 564 of 2,747
+evaluated links were actually inside it. The entanglement gap is also
+degenerate on this grid (469 zeros and 57 ones), while behavior is
+non-monotone as deletion exposes different candidates. The neighborhood
+definition must be redesigned before using this as a headline result.
+
+\paragraph{Margin predictor.}
+We could not estimate margin AUROC in this run. The geometric search stops at
+\(\rho\), so the best sub-threshold survivor score is missing. A
+threshold-free retrieval envelope is required before this diagnostic is
+valid.
+
+\section{What we think is worth testing next}
+
+Let each memory entry be \(e_i=(k_i,v_i,s_i)\), containing a continuous key,
+text value, and source metadata. We think the next strong baseline is a
+persistent identity assignment
+\(z_i\) such that
+\[
+z_i=z_j
+\quad\Longleftrightarrow\quad
+e_i \text{ and } e_j \text{ express the same deletable proposition},
+\]
+under an explicit policy. A deletion request for identity \(z\) should hide
+every \(e_i\) with \(z_i=z\), while retaining entries that merely share an
+answer, topic, or source.
+
+For example, ``X was born in Paris'' and ``Y was born in Paris'' share an
+answer but are different propositions, while ``X's birthplace is Paris'' and
+``X was born in the French capital'' may be equivalent. Identity must
+therefore combine retrieval geometry with text and provenance rather than use
+unconstrained clustering.
+
+\subsection{A minimal identity-aware baseline}
+
+\begin{enumerate}
+  \item Generate high-recall candidate pairs using key neighbors, value
+  overlap, entities, and source links.
+  \item Label a benchmark with \emph{same proposition}, \emph{same answer
+  only}, \emph{related}, and \emph{unrelated} pairs. Shared-answer cases are
+  essential hard negatives.
+  \item Score proposition equivalence using bidirectional entailment,
+  entity/relation consistency, context, provenance, and key similarity.
+  Form constrained clusters and store an inspectable, persistent identity ID.
+  \item Delete atomically by identity and run the existing three-state audit
+  without changing the evaluation cohort or decoding.
+\end{enumerate}
+
+The comparison we would care about is concrete: can this approach get close to
+value closure's \pct{93.0} efficacy while deleting far fewer than its mean of
+57.3 entries, with high human-validated cluster precision and low behavioral
+collateral? We would keep selected-entry, provenance, geometric, value,
+geometric-plus-value, hybrid, and a small manually verified semantic oracle as
+the baselines. We would report \(L\), \(R\), \(I\), trace evidence, cluster
+precision/recall, cluster size, latency, and collateral on separate
+hard-negative sets for shared answer, entity, relation, source, and key
+neighborhood. Splits should be identity-disjoint.
+
+Separately, two follow-ups look useful. First, calibrated abstention could help
+when deletion leaves only weak or conflicting evidence; the interference rate
+shows that blindly accepting the next candidate can hurt. Second, we should
+repair the margin and collateral diagnostics, extend the boundary test to
+natural paraphrases and distributed copies, and then repeat the locked
+protocol on the 2.2B-entry combined index.
+
+\section{What this note does not claim}
+
+To keep the interpretation clean:
+
+\begin{itemize}
+  \item Results are conditional on 526 \FULL-correct, support-verified T-REx
+  prompts, not all knowledge in the model or index.
+  \item Correctness is normalized answer containment; the automated support
+  judge and value predicate still require human validation.
+  \item \DELOFF\ removes factual retrieval but does not separate parameters
+  from information in the prompt.
+  \item Search-time filtering tests behavioral deletion, not physical erasure,
+  replicas, caches, or later index rebuilds.
+  \item Approximate search, the 500-candidate value envelope, and the observed
+  query limit any claim of exhaustive semantic deletion.
+  \item Identity clustering, modified pretraining, and learned abstention have
+  not yet been implemented.
+\end{itemize}
+
+\section{Our overall read}
+
+Our overall read is positive for the \colmlm\ direction: the external memory
+is editable, inspectable, and clearly doing real work. The part that still
+looks open is the semantic unit of deletion. Selected-entry and geometric
+policies miss many alternative answer-bearing spans; value-aware deletion
+closes most paths but is too broad to serve as an identity rule. We now have
+the paired interventions, traces, controls, and baselines needed to test the
+next step together: proposition-level identity clusters that support atomic
+deletion with measured efficacy and collateral damage.
+
+\medskip
+\noindent\textbf{Statistical note.} Intervals are two-sided 95\% Wilson
+intervals. Paired comparisons use two-sided exact McNemar tests; exploratory
+tests are not adjusted for multiplicity.
+
+\begin{thebibliography}{9}
+
+\bibitem{feldman2026colmlm}
+Yair Feldman, Linxi Zhao, Nathan Godey, Dongyoung Go, Yilun Hua,
+Kilian Q. Weinberger, Jennifer J. Sun, and Yoav Artzi.
+\newblock Co-LMLM: Continuous-Query Limited Memory Language Models.
+\newblock \emph{arXiv preprint arXiv:2607.07707}, 2026.
+\newblock \url{https://arxiv.org/abs/2607.07707}.
+
+\bibitem{raeesi2026audit}
+Arya Raeesi and Hanna Roed.
+\newblock Auditing Forgetting in Limited Memory Language Models.
+\newblock \emph{arXiv preprint arXiv:2607.00605}, 2026.
+\newblock \url{https://arxiv.org/abs/2607.00605}.
+
+\end{thebibliography}
+
+\end{document}
