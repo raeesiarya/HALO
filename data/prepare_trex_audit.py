@@ -1,15 +1,3 @@
-"""Build T-REx slot-filling audit prompts (data/prompts_trex.jsonl).
-
-LAMA T-REx evidences are Wikipedia sentences with the object masked out. The
-prompt is the sentence prefix before [MASK], which a continuation model
-completes with the object — Co-LMLM's native format (see the upstream
-lmlm/eval/prepare_trex_prompts.py). Unlike PopQA questions, the prefix names
-the subject in context, so entity ambiguity mostly disappears.
-
-The LAMA release (~71 MB) is downloaded to data/lama/ on first run; set
-TREX_DIR to point at an existing extracted TREx directory instead.
-"""
-
 from __future__ import annotations
 
 import json

@@ -6,16 +6,17 @@
 # Reads settings from a .env file (default: <repo>/.env, override with
 # ENV_FILE=/path/to/env). Required: PULL_HOST (e.g. ubuntu@1.2.3.4).
 # Optional: PULL_PORT (default 22), PULL_KEY (ssh private key path),
-# PULL_REMOTE_DIR (default HALO/outputs/trex, relative to the remote home),
-# PULL_LOCAL_DIR (default <repo>/results).
+# PULL_REMOTE_DIR (default HALO/out — the parallel runner's output root holding
+# one subdir per prompt set; relative to the remote home), PULL_LOCAL_DIR
+# (default <repo>/results).
 #
 # Transfers are incremental and resumable: rerun the same command after each
 # audit phase and only new/changed files are copied.
 #
 # Usage:
-#   scripts/pull_results_rsync.sh                # pull outputs/trex
+#   scripts/pull_results_rsync.sh                # pull all sets under out/
 #   scripts/pull_results_rsync.sh --dry-run      # extra flags go to rsync
-#   PULL_REMOTE_DIR=HALO/outputs/popqa scripts/pull_results_rsync.sh
+#   PULL_REMOTE_DIR=HALO/out/counterfact scripts/pull_results_rsync.sh  # one set
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -30,7 +31,7 @@ fi
 
 : "${PULL_HOST:?PULL_HOST must be set in $ENV_FILE (e.g. ubuntu@1.2.3.4)}"
 PULL_PORT="${PULL_PORT:-22}"
-PULL_REMOTE_DIR="${PULL_REMOTE_DIR:-HALO/outputs/trex}"
+PULL_REMOTE_DIR="${PULL_REMOTE_DIR:-HALO/out}"
 PULL_LOCAL_DIR="${PULL_LOCAL_DIR:-results}"
 case "$PULL_LOCAL_DIR" in /*|~*) ;; *) PULL_LOCAL_DIR="$REPO_ROOT/$PULL_LOCAL_DIR" ;; esac
 
