@@ -129,6 +129,9 @@ def main() -> None:
                     "adversarial_topology": args.adversarial_topology,
                     "bootstrap_oracle_from_full": args.bootstrap_oracle_from_full,
                     "del_off_mode": getattr(args, "co_lmlm_del_off_mode", None),
+                    "similarity_threshold": getattr(
+                        args, "co_lmlm_similarity_threshold", None
+                    ),
                 },
             )
 
@@ -437,7 +440,7 @@ def main() -> None:
                         ),
                         "del_off_mode": del_off_mode,
                         "source_facts": coverage_summary.get("facts"),
-                        "verified_support_facts": coverage_summary.get(
+                        "answer_mention_cohort_facts": coverage_summary.get(
                             "audited_facts"
                         ),
                         "coverage_skipped_facts": coverage_summary.get(
@@ -470,7 +473,7 @@ def main() -> None:
                     logger.print(f"  DEL-OFF control mode: {del_off_mode}")
                 if coverage_summary:
                     logger.print(
-                        "  Verified-support coverage: "
+                        "  Pre-answer answer-mention coverage: "
                         f"{coverage_summary['audited_facts']}/"
                         f"{coverage_summary['facts']} facts"
                     )

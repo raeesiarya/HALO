@@ -18,12 +18,34 @@ from halo.registry import BackendSpec, register_backend
 # the audit; the only thing that varies per run is where the index lives.
 MODEL = "lil-lab/CoLMLM-360M-FW"
 SOURCE_PATH = "."  # run from the public Co-LMLM checkout
-SIMILARITY_THRESHOLD: float | None = None  # match the released eval config
+SIMILARITY_THRESHOLD: float | None = 0.7  # Co-LMLM paper factual-eval setting
 NPROBE: int | None = None  # use the index's own nprobe
+
+
+def _optional_similarity_threshold(value: str) -> float | None:
+    if value.casefold() in {"none", "off", "disabled"}:
+        return None
+    threshold = float(value)
+    if not -1.0 <= threshold <= 1.0:
+        raise argparse.ArgumentTypeError(
+            "similarity threshold must be in [-1, 1], or 'none'"
+        )
+    return threshold
 
 
 def _add_arguments(parser: argparse.ArgumentParser) -> None:
     group = parser.add_argument_group("Co-LMLM controls")
+    group.add_argument(
+        "--co-lmlm-similarity-threshold",
+        type=_optional_similarity_threshold,
+        default=SIMILARITY_THRESHOLD,
+        metavar="FLOAT|none",
+        help=(
+            "Retrieval threshold. Defaults to 0.7, the Co-LMLM factual "
+            "evaluation setting. Pass 'none' only for a labeled "
+            "threshold-disabled sensitivity run."
+        ),
+    )
     group.add_argument(
         "--co-lmlm-del-off-mode",
         choices=("null-retrieval", "forbid-token"),
@@ -57,7 +79,7 @@ def _build_backend(args: argparse.Namespace, _group_key: Any) -> AuditBackend:
         index_path=index_path,
         db_path=index_path / "entries.db",
         source_path=SOURCE_PATH,
-        similarity_threshold=SIMILARITY_THRESHOLD,
+        similarity_threshold=args.co_lmlm_similarity_threshold,
         nprobe=NPROBE,
         max_new_tokens=args.max_new_tokens,
         del_off_mode=args.co_lmlm_del_off_mode,

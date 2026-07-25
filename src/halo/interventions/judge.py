@@ -8,8 +8,7 @@ from halo.interventions.filtering import _candidate_text
 
 
 def default_support_judge(candidate: Any, example: AuditExample) -> dict[str, Any]:
-    """Backend-agnostic support judge: does a retrieved candidate's value
-    mention the target answer (or one of its aliases) as a whole phrase?"""
+    """Answer-mention heuristic, not proposition-support verification."""
     text = normalize_text(_candidate_text(candidate))
     answers = (example.ground_truth, *example.object_aliases)
     padded_text = f" {text} "
@@ -28,7 +27,9 @@ def default_support_judge(candidate: Any, example: AuditExample) -> dict[str, An
         if (normalized := normalize_text(answer))
     )
     return {
+        "answer_mentions_target": supports,
         "supports_target": supports,
         "support_method": "normalized-answer-mention",
+        "support_scope": "answer-mention-only",
         "support_confidence": 1.0 if supports else 0.0,
     }

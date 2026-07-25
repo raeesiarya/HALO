@@ -19,15 +19,18 @@ Deletion is implemented by search-time filtering; the underlying store is not
 modified. Evaluation records include retrieval traces and query embeddings.
 
 The primary entanglement and adversarial cohorts contain facts for which the
-`FULL` state is correct, the selected entry passes the value-support judge,
-and a query embedding is available. Coverage and exclusion counts are reported
+`FULL` state is correct, a selected entry passes the normalized answer-mention
+heuristic before the answer is visible, and the exact selected event's query
+embedding is available. This is an answer-mention cohort, not
+proposition-support verification. Coverage and exclusion counts are reported
 separately.
 
 The audit includes:
 
 - cross-state parametric leakage L(f), retrieval recovery R(f), and retrieval
   interference I(f);
-- deletion closures over geometric, value, and provenance predicates;
+- deletion closures over geometric, oracle gold-answer-mention, and provenance
+  predicates;
 - deletion-efficacy and collateral-damage curves over closure radius;
 - a linear representational-leakage probe over frozen query embeddings; and
 - adversarial survivor entries placed outside the deletion radius.
@@ -69,6 +72,13 @@ The default setup uses the T-REx prompts and the public Co-LMLM retrieval
 index. The index requires approximately 113 GB. `INDEX_DIR`, `PROMPTS`, and
 `OUTPUT_DIR` override the default paths.
 
+The primary configuration uses Co-LMLM's published factual-evaluation
+retrieval threshold of 0.7. Pass
+`--co-lmlm-similarity-threshold none` only for a separately labeled
+threshold-disabled sensitivity run. Correctness requires the normalized gold
+answer or alias to appear as a whole phrase in the output; output fragments of
+the gold answer do not count.
+
 ```bash
 ./scripts/setup_data.sh
 ./scripts/run_audit_co_lmlm.sh
@@ -96,8 +106,10 @@ The phases execute sequentially and share a `FULL` pass where applicable.
 Partial evaluations resume from disk. Each phase creates a separate W&B run
 named `<output-dir>__<mode>`.
 
-The standard audit uses `geometric,value` closure by default. Radius and
-adversarial evaluations use `geometric` alone. Relevant configuration variables
+The standard audit uses `geometric,value` closure by default, where `value` is
+an oracle filter supplied with the ground-truth answer and aliases at
+inference time. Radius and adversarial evaluations use `geometric` alone.
+Relevant configuration variables
 are `SUITE_PHASES`, `STANDARD_CLOSURE`, `SWEEP_CLOSURE`, `ADVERSARIAL_CLOSURE`,
 `RADIUS_GRID`, `NEIGHBOR_MODE`, `NEIGHBOR_MIN_COUNT`, and `DEL_OFF_MODE`. The
 legacy predicate name `semantic` is accepted as an alias for `value`.

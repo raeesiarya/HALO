@@ -127,7 +127,13 @@ class AuditExample:
             subject=(str(row["subject"]) if row.get("subject") is not None else None),
             subject_aliases=prompt_row_aliases(row, "subject"),
             relation=(
-                str(row["relation"]) if row.get("relation") is not None else None
+                str(row["relation"])
+                if row.get("relation") is not None
+                else (
+                    str(row["predicate_id"])
+                    if row.get("predicate_id") is not None
+                    else None
+                )
             ),
             relation_aliases=prompt_row_aliases(row, "relation"),
             deletion_manifest=DeletionManifest.from_prompt_row(row),

@@ -93,7 +93,17 @@ def default_retrieval_trace(state: DatabaseState) -> dict[str, Any]:
         "all_candidates": [],
         "deleted_candidates": [],
         "retained_candidates": [],
+        "oracle_answer_mention_filter_active": False,
+        "answer_mention_trace_check_independent": True,
+        "runtime_exclusion_scope": {
+            "unique_entry_ids_total": 0,
+            "unique_entry_ids_by_reason": {},
+            "candidate_occurrences_total": 0,
+            "candidate_occurrences_by_reason": {},
+        },
         "selected_candidate": None,
+        "selected_event_index": None,
+        "selected_answer_visible_before_event": None,
         "selected_value": None,
         "retrieval_events": [],
         "error": None,
@@ -140,6 +150,10 @@ def audit_example(
         "object_aliases": list(example.object_aliases),
         "deletion_manifest": example.deletion_manifest.as_dict(),
         "model_output": observation.model_output,
+        "evaluation_protocol": {
+            "correctness": "directed-normalized-whole-phrase-containment",
+            "answer_must_appear_in_output": True,
+        },
         "retrieval_trace": retrieval_trace,
         "generation_metadata": dict(observation.generation_metadata),
     }

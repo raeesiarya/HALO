@@ -13,6 +13,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 from halo.core.backend import audit_example
 from halo.core.embeddings import QueryEmbeddingSink
 from halo.interventions.judge import default_support_judge
+from halo.interventions.closure import full_query_vector
+from halo.cli.args import parse_args
 from models.co_lmlm.backend import extract_colmlm_answer
 from models.co_lmlm.backend import CoLMLMAuditBackend
 from halo.core.examples import AuditExample
@@ -82,6 +84,51 @@ class FakeGenerator:
         )
 
 
+class QuerySensitiveIndex:
+    def search(self, query, top_k=1, similarity_threshold=None):
+        query = np.asarray(query, dtype=np.float32).reshape(-1)
+        result = (
+            FakeSearchResult(id="other-entry", score=0.95, text_value="London")
+            if query[0] > query[1]
+            else FakeSearchResult(id="target-entry", score=0.95, text_value="Paris")
+        )
+        if similarity_threshold is not None and result.score < similarity_threshold:
+            return []
+        return [result][:top_k]
+
+
+class TwoEventGenerator:
+    def __init__(self, *, answer_before_target_event: bool) -> None:
+        self.index = QuerySensitiveIndex()
+        self.generation_config = SimpleNamespace(max_new_tokens=64)
+        self.retrieval_config = SimpleNamespace(similarity_threshold=0.7)
+        self.answer_before_target_event = answer_before_target_event
+
+    def generate(self, prompt):
+        first = self.index.search(
+            [1.0, 0.0],
+            top_k=1,
+            similarity_threshold=self.retrieval_config.similarity_threshold,
+        )
+        second = self.index.search(
+            [0.0, 1.0],
+            top_k=1,
+            similarity_threshold=self.retrieval_config.similarity_threshold,
+        )
+        first_block = f"<FACT>{first[0].text_value}</FACT>" if first else ""
+        second_block = f"<FACT>{second[0].text_value}</FACT>" if second else ""
+        completion = (
+            f"{first_block} Paris {second_block} done."
+            if self.answer_before_target_event
+            else f"{first_block}{second_block} Paris."
+        )
+        return SimpleNamespace(
+            text=f"{prompt}{completion}",
+            num_retrievals=len(first) + len(second),
+            failed_retrievals=int(not first) + int(not second),
+        )
+
+
 def _example() -> AuditExample:
     return AuditExample.from_prompt_row(
         {
@@ -122,11 +169,25 @@ def test_full_uses_public_generation_and_records_stable_entry_id() -> None:
 
     assert result["model_output"] == "Paris"
     assert result["retrieval_trace"]["selected_candidate"]["entry_id"] == "target-entry"
+    assert result["retrieval_trace"]["selected_event_index"] == 0
+    assert (
+        result["retrieval_trace"]["selected_answer_visible_before_event"] is False
+    )
+    assert (
+        result["retrieval_trace"]["selected_candidate"][
+            "answer_visible_before_event"
+        ]
+        is False
+    )
     assert result["retrieval_trace"]["num_retrievals"] == 1
     assert result["retrieval_trace"]["trace_complete"] is True
     assert result["deletion_manifest"]["entry_ids"] == ["target-entry"]
     assert generator.index is index
     assert generator.generation_config.max_new_tokens == 64
+    assert result["evaluation_protocol"] == {
+        "correctness": "directed-normalized-whole-phrase-containment",
+        "answer_must_appear_in_output": True,
+    }
 
 
 def test_del_on_filters_oracle_id_without_mutating_base_index() -> None:
@@ -139,6 +200,15 @@ def test_del_on_filters_oracle_id_without_mutating_base_index() -> None:
     assert [item["entry_id"] for item in trace["deleted_candidates"]] == [
         "target-entry"
     ]
+    assert trace["deleted_candidates"][0]["excluded_by"] == [
+        "manifest-entry-id"
+    ]
+    assert trace["runtime_exclusion_scope"] == {
+        "unique_entry_ids_total": 1,
+        "unique_entry_ids_by_reason": {"manifest-entry-id": 1},
+        "candidate_occurrences_total": 1,
+        "candidate_occurrences_by_reason": {"manifest-entry-id": 1},
+    }
     assert trace["deletion_manifest_id"] == result["deletion_manifest"]["manifest_id"]
     assert index.calls == [(2, 0.7)]
     assert generator.index is index
@@ -345,6 +415,78 @@ def test_support_judge_matches_whole_normalized_phrases() -> None:
     assert default_support_judge(candidate, example)["supports_target"] is False
 
 
+def test_support_judge_labels_answer_mentions_as_non_propositional() -> None:
+    candidate = FakeSearchResult(id="paris", score=0.9, text_value="Paris")
+    judgment = default_support_judge(candidate, _example())
+
+    assert judgment == {
+        "answer_mentions_target": True,
+        "supports_target": True,
+        "support_method": "normalized-answer-mention",
+        "support_scope": "answer-mention-only",
+        "support_confidence": 1.0,
+    }
+
+
+def test_backend_selects_and_exposes_the_exact_pre_answer_event_vector() -> None:
+    backend = CoLMLMAuditBackend(TwoEventGenerator(answer_before_target_event=False))
+    result = audit_example(backend, _example(), DatabaseState.FULL)
+    trace = result["retrieval_trace"]
+
+    assert trace["selected_candidate"]["entry_id"] == "target-entry"
+    assert trace["selected_event_index"] == 1
+    assert trace["selected_answer_visible_before_event"] is False
+    assert trace["retrieval_events"][0]["answer_visible_before_event"] is False
+    assert trace["retrieval_events"][1]["answer_visible_before_event"] is False
+    np.testing.assert_array_equal(
+        full_query_vector(result), np.asarray([0.0, 1.0], dtype=np.float32)
+    )
+
+
+def test_runner_excludes_answer_mention_events_that_follow_the_answer(
+    tmp_path,
+) -> None:
+    backend = CoLMLMAuditBackend(TwoEventGenerator(answer_before_target_event=True))
+    prompt_path = tmp_path / "prompts.jsonl"
+    prompt_path.write_text(
+        '{"prompt_id":"p1","fact_id":"f1",'
+        '"prompt_text":"What is the capital of France?",'
+        '"gold_object":"Paris"}\n',
+        encoding="utf-8",
+    )
+    coverage: dict = {}
+
+    results = run_backend_audit(
+        prompt_path=prompt_path,
+        backend=backend,
+        states=[
+            DatabaseState.FULL,
+            DatabaseState.DEL_ON,
+            DatabaseState.DEL_OFF,
+        ],
+        bootstrap_oracle_from_full=True,
+        coverage_summary=coverage,
+    )
+
+    assert results == []
+    assert coverage["audited_facts"] == 0
+    assert coverage["skipped_by_reason"] == {
+        "FULL answer was already visible before the answer-mention event": 1
+    }
+
+
+def test_predicate_id_populates_relation_metadata() -> None:
+    example = AuditExample.from_prompt_row(
+        {
+            "prompt_text": "Where was the subject born?",
+            "gold_object": "Paris",
+            "predicate_id": "P19",
+        }
+    )
+
+    assert example.relation == "P19"
+
+
 def test_runner_can_bootstrap_reviewable_oracle_manifest_from_full(tmp_path) -> None:
     backend, _, _ = _backend()
     prompt_path = tmp_path / "prompts.jsonl"
@@ -477,6 +619,7 @@ def test_public_loader_arguments_map_to_release_factory() -> None:
         )
 
     assert backend.generator is generator
+    assert backend.similarity_threshold == 0.7
     load_module.assert_called_once_with("lmlm.eval.hf_generate")
     # Device/dtype/attn/sqlite are auto-resolved, not passed by the caller.
     assert captured["retrieval_top_k"] == 1
@@ -485,6 +628,21 @@ def test_public_loader_arguments_map_to_release_factory() -> None:
     assert captured["device"] in ("cuda:0", "mps", "cpu")
     assert captured["torch_dtype"] in ("bfloat16", "float32")
     assert "attn_implementation" in captured
+
+
+def test_colmlm_cli_defaults_to_paper_threshold_and_allows_sensitivity() -> None:
+    default_args = parse_args(["--backend", "co-lmlm"])
+    disabled_args = parse_args(
+        [
+            "--backend",
+            "co-lmlm",
+            "--co-lmlm-similarity-threshold",
+            "none",
+        ]
+    )
+
+    assert default_args.co_lmlm_similarity_threshold == 0.7
+    assert disabled_args.co_lmlm_similarity_threshold is None
 
 
 # --- capability hooks (reuse fast paths) ------------------------------------

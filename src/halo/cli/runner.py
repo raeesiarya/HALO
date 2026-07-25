@@ -30,6 +30,8 @@ from halo.core.neighbors import (
 )
 from halo.core.states import DatabaseState
 
+AUDIT_SCHEMA_VERSION = 2
+
 
 def load_prompts(prompts_path: Path) -> list[dict[str, Any]]:
     with prompts_path.open("r", encoding="utf-8") as f:
@@ -99,15 +101,25 @@ def run_backend_audit(
             selected = (full_result.get("retrieval_trace") or {}).get(
                 "selected_candidate"
             ) or {}
+            trace = full_result.get("retrieval_trace") or {}
             entry_id = selected.get("entry_id")
-            # A fact the FULL pass cannot verifiably support is un-auditable:
-            # skip it and keep going rather than aborting the whole run.
+            # The schema-free bootstrap is an oracle answer-mention baseline,
+            # not proposition verification. It is auditable only when the
+            # selected lookup occurs before the visible answer.
             skip_reason = None
             if not entry_id:
                 skip_reason = "FULL produced no selected entry ID"
             elif selected.get("supports_target") is not True:
                 skip_reason = (
-                    "FULL's selected entry did not pass the target-support judge"
+                    "FULL selected entry did not pass the answer-mention heuristic"
+                )
+            elif trace.get("selected_answer_visible_before_event") is True:
+                skip_reason = (
+                    "FULL answer was already visible before the answer-mention event"
+                )
+            elif trace.get("selected_answer_visible_before_event") is not False:
+                skip_reason = (
+                    "FULL answer-mention event has unknown temporal alignment"
                 )
             manifest = None
             if skip_reason is None and manifest_builder is not None:
@@ -133,7 +145,13 @@ def run_backend_audit(
                 manifest = DeletionManifest(
                     entry_ids=(str(entry_id),),
                     strategy="oracle-from-full",
-                    metadata={"bootstrap": "FULL.selected_candidate"},
+                    metadata={
+                        "bootstrap": "FULL.selected_candidate",
+                        "audited_event_index": trace.get("selected_event_index"),
+                        "selection_policy": (
+                            "pre-answer-normalized-answer-mention"
+                        ),
+                    },
                 )
             example = dataclasses.replace(example, deletion_manifest=manifest)
             full_result["deletion_manifest"] = manifest.as_dict()
@@ -232,7 +250,7 @@ def _prompt_digest(prompt_path: Path) -> str:
     return digest.hexdigest()
 
 
-def _backend_resume_identity(backend: AuditBackend) -> dict[str, str]:
+def _backend_resume_identity(backend: AuditBackend) -> dict[str, Any]:
     """Stable backend fields that can change generated or retrieved outputs."""
     identity = {
         "class": f"{type(backend).__module__}.{type(backend).__qualname__}"
@@ -241,6 +259,16 @@ def _backend_resume_identity(backend: AuditBackend) -> dict[str, str]:
         value = getattr(backend, field, None)
         if value is not None:
             identity[field] = str(value)
+    retrieval_config = getattr(
+        getattr(backend, "generator", None),
+        "retrieval_config",
+        None,
+    )
+    identity["similarity_threshold"] = getattr(
+        retrieval_config,
+        "similarity_threshold",
+        getattr(backend, "similarity_threshold", None),
+    )
     return identity
 
 
@@ -290,6 +318,7 @@ def _full_pass(
     _ensure_resume_config(
         output_dir / "full_config.json",
         {
+            "audit_schema_version": AUDIT_SCHEMA_VERSION,
             "mode": "full-pass",
             "backend": _backend_resume_identity(backend),
             "prompt_sha256": _prompt_digest(prompt_path),
@@ -334,11 +363,18 @@ def _primary_target_skip_reason(
     """Return the primary-cohort exclusion reason, if any."""
     if not full_row:
         return "missing FULL result"
-    selected = (full_row.get("retrieval_trace") or {}).get("selected_candidate") or {}
+    selected = (full_row.get("retrieval_trace") or {}).get(
+        "selected_candidate"
+    ) or {}
+    trace = full_row.get("retrieval_trace") or {}
     if not selected.get("entry_id"):
         return "FULL produced no selected entry ID"
     if selected.get("supports_target") is not True:
-        return "FULL selected entry did not pass the target-support judge"
+        return "FULL selected entry did not pass the answer-mention heuristic"
+    if trace.get("selected_answer_visible_before_event") is True:
+        return "FULL answer was already visible before the answer-mention event"
+    if trace.get("selected_answer_visible_before_event") is not False:
+        return "FULL answer-mention event has unknown temporal alignment"
     if not _result_is_correct(full_row):
         return "FULL answer was incorrect"
     if query_vector is None:
@@ -519,6 +555,7 @@ def run_entanglement_sweep(
     _ensure_resume_config(
         output_dir / "evaluation_config.json",
         {
+            "audit_schema_version": AUDIT_SCHEMA_VERSION,
             "mode": "entanglement-sweep",
             "backend": _backend_resume_identity(backend),
             "prompt_sha256": _prompt_digest(prompt_path),
@@ -827,6 +864,7 @@ def run_adversarial_eval(
     _ensure_resume_config(
         output_dir / "evaluation_config.json",
         {
+            "audit_schema_version": AUDIT_SCHEMA_VERSION,
             "mode": "adversarial",
             "backend": _backend_resume_identity(backend),
             "del_off_mode": getattr(backend, "del_off_mode", None),

@@ -48,10 +48,7 @@ def contains_match(
         normalized_ground_truth = normalize_answer(candidate_truth)
         if not normalized_ground_truth:
             continue
-        if (
-            normalized_ground_truth in normalized_prediction
-            or normalized_prediction in normalized_ground_truth
-        ):
+        if f" {normalized_ground_truth} " in f" {normalized_prediction} ":
             return 1.0
 
     return 0.0
@@ -213,9 +210,9 @@ def paired_count(results: list[dict[str, Any]]) -> int:
 
 
 def _result_is_correct(result: dict[str, Any]) -> bool:
-    # Containment, not exact equivalence: the model answers in sentences
-    # ("Billy Joel plays rock music"), and PopQA's standard correctness
-    # metric is answer-substring match.
+    # Directed whole-phrase containment: the model may answer in a sentence
+    # ("Billy Joel plays rock music"), but a fragment of the gold answer must
+    # not count as correct ("Black" for "Blackpool").
     return bool(
         contains_match(
             result["model_output"],

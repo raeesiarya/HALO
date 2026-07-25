@@ -16,6 +16,7 @@ from halo.interventions.closure import (
     ClosureConfig,
     build_closure,
     build_closure_manifest_from_full,
+    full_query_vector,
 )
 from halo.core.examples import AuditExample
 from halo.cli.runner import run_backend_audit
@@ -207,7 +208,9 @@ def test_config_rejects_unknown_predicates_and_bad_radius() -> None:
 def test_build_closure_manifest_from_full_writes_artifact(tmp_path) -> None:
     full_result = {
         "retrieval_trace": {
-            "selected_candidate": _seed_candidate() | {"source_id": "wiki:France"},
+            "selected_candidate": _seed_candidate()
+            | {"source_id": "wiki:France", "event_index": 0},
+            "selected_event_index": 0,
             "retrieval_events": [
                 {"event_index": 0, "selected_candidate": _seed_candidate()}
             ],
@@ -230,9 +233,51 @@ def test_build_closure_manifest_from_full_writes_artifact(tmp_path) -> None:
     artifact = json.loads(artifact_path.read_text(encoding="utf-8"))
     assert artifact["manifest_id"] == manifest.manifest_id
     assert artifact["source_ids"] == ["wiki:France"]
+    assert artifact["audited_event_index"] == 0
+    assert manifest.metadata["audited_event_index"] == 0
+    assert manifest.metadata["value_policy"] == {
+        "name": "oracle-gold-answer-mention-filter",
+        "ground_truth_supplied_at_inference": True,
+        "judge": "normalized-answer-mention",
+    }
     caught = {entry["entry_id"]: entry["caught_by"] for entry in artifact["entries"]}
     assert caught["near-neighbor"] == ["geometric"]
     assert "oracle" in caught["target-entry"]
+
+
+def test_full_query_vector_uses_the_exact_audited_event() -> None:
+    first = _unit_vector(0.1)
+    target = _unit_vector(0.9)
+    full_result = {
+        "retrieval_trace": {
+            "selected_candidate": _seed_candidate() | {"event_index": 1},
+            "selected_event_index": 1,
+            "retrieval_events": [
+                {"event_index": 0, "selected_candidate": {"entry_id": "other"}},
+                {"event_index": 1, "selected_candidate": _seed_candidate()},
+            ],
+        },
+        "_query_embeddings": [
+            {"event_index": 0, "vector": first},
+            {"event_index": 1, "vector": target},
+        ],
+    }
+
+    np.testing.assert_array_equal(full_query_vector(full_result), target)
+
+
+def test_full_query_vector_refuses_an_unidentified_event() -> None:
+    full_result = {
+        "retrieval_trace": {
+            "selected_candidate": _seed_candidate(),
+            "retrieval_events": [
+                {"event_index": 0, "selected_candidate": _seed_candidate()}
+            ],
+        },
+        "_query_embeddings": [{"event_index": 0, "vector": QUERY}],
+    }
+
+    assert full_query_vector(full_result) is None
 
 
 def test_manifest_from_full_requires_a_selected_entry() -> None:
@@ -308,6 +353,11 @@ def test_value_backstop_nulls_supporting_candidates_missed_by_closure() -> None:
     deleted_ids = {item["entry_id"] for item in trace["deleted_candidates"]}
     assert "target-entry" in deleted_ids
     assert "alias-entry" in deleted_ids
+    assert trace["runtime_exclusion_scope"]["unique_entry_ids_by_reason"][
+        "oracle-gold-answer-mention"
+    ] == 2
+    assert trace["oracle_answer_mention_filter_active"] is True
+    assert trace["answer_mention_trace_check_independent"] is False
     assert trace["retrieval_events"][0]["exclude_supporting"] is True
 
 

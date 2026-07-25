@@ -69,7 +69,8 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         action="store_true",
         help=(
             "For schema-free rows without a manifest, use a FULL selected entry "
-            "that passes the support judge as the oracle deletion ID."
+            "that passes the normalized answer-mention heuristic before the "
+            "answer is visible as the oracle deletion ID."
         ),
     )
     parser.add_argument(

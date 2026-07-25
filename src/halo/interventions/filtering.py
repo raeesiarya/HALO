@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections import Counter
 from dataclasses import dataclass, field
 from types import SimpleNamespace
 from typing import Any, Callable, Mapping
@@ -111,12 +112,25 @@ class _FilteringSearchIndex:
     def __getattr__(self, name: str) -> Any:
         return getattr(self.base_index, name)
 
-    def _is_excluded(self, candidate: Any) -> bool:
+    def _exclusion_reasons(self, candidate: Any) -> tuple[str, ...]:
+        reasons: list[str] = []
         entry_id = _candidate_id(candidate)
         source_id = _candidate_source_id(candidate)
-        return entry_id in self.excluded_entry_ids or (
-            source_id is not None and source_id in self.excluded_source_ids
-        )
+        if self.exclude_all:
+            reasons.append("del-off-all")
+        if entry_id in self.excluded_entry_ids:
+            reasons.append("manifest-entry-id")
+        if source_id is not None and source_id in self.excluded_source_ids:
+            reasons.append("manifest-source-id")
+        if self.exclude_supporting and bool(
+            dict(
+                self.support_judge(
+                    candidate, self.backstop_example or self.example
+                )
+            ).get("supports_target")
+        ):
+            reasons.append("oracle-gold-answer-mention")
+        return tuple(reasons)
 
     def search(
         self,
@@ -204,22 +218,15 @@ class _FilteringSearchIndex:
                         )
                     )
                 )
-            deleted: list[Any] = []
+            deleted_with_reasons: list[tuple[Any, tuple[str, ...]]] = []
             retained: list[Any] = []
             for candidate in candidates:
-                excluded = self.exclude_all or self._is_excluded(candidate)
-                if not excluded and self.exclude_supporting:
-                    # Semantic-closure backstop: also null any candidate the
-                    # support judge marks as expressing the target answer, even
-                    # when the materialized closure missed it.
-                    excluded = bool(
-                        dict(
-                            self.support_judge(
-                                candidate, self.backstop_example or self.example
-                            )
-                        ).get("supports_target")
-                    )
-                (deleted if excluded else retained).append(candidate)
+                reasons = self._exclusion_reasons(candidate)
+                if reasons:
+                    deleted_with_reasons.append((candidate, reasons))
+                else:
+                    retained.append(candidate)
+            deleted = [candidate for candidate, _ in deleted_with_reasons]
             selected = retained[:top_k]
             if (
                 self.exclude_all
@@ -240,8 +247,9 @@ class _FilteringSearchIndex:
                     "entry_id": _candidate_id(candidate),
                     "source_id": _candidate_source_id(candidate),
                     "score": _candidate_score(candidate),
+                    "excluded_by": list(reasons),
                 }
-                for candidate in deleted
+                for candidate, reasons in deleted_with_reasons
             ]
             retained_records = [
                 record
@@ -259,8 +267,13 @@ class _FilteringSearchIndex:
                 for candidate in candidates
             ]
             deleted_records = [
-                _serialize_candidate(candidate, self.example, self.support_judge)
-                for candidate in deleted
+                {
+                    **_serialize_candidate(
+                        candidate, self.example, self.support_judge
+                    ),
+                    "excluded_by": list(reasons),
+                }
+                for candidate, reasons in deleted_with_reasons
             ]
             retained_records = [
                 _serialize_candidate(candidate, self.example, self.support_judge)
@@ -283,6 +296,13 @@ class _FilteringSearchIndex:
             "candidates_slim": self.slim_trace,
             "all_candidates_count": len(candidates),
             "deleted_candidates_count": len(deleted),
+            "exclusion_occurrences_by_reason": dict(
+                Counter(
+                    reason
+                    for _, reasons in deleted_with_reasons
+                    for reason in reasons
+                )
+            ),
             "retained_candidates_count": len(retained),
             "all_candidates": all_records,
             "deleted_candidates": deleted_records,

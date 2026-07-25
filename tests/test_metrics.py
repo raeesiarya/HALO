@@ -183,8 +183,11 @@ class TestContainsMatch:
     def test_prediction_contains_ground_truth(self):
         assert contains_match("She was born in Paris, France", "Paris") == 1.0
 
-    def test_ground_truth_contains_prediction(self):
-        assert contains_match("Girls", "Spice Girls") == 1.0
+    def test_prediction_fragment_does_not_count(self):
+        assert contains_match("Girls", "Spice Girls") == 0.0
+
+    def test_partial_word_does_not_count(self):
+        assert contains_match("Russia", "US") == 0.0
 
     def test_no_overlap(self):
         assert contains_match("Berlin", "Paris") == 0.0

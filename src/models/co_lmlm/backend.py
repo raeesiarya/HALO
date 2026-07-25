@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any, Callable, Hashable, Mapping
 
 from halo.core.backend import AuditObservation
+from halo.core.metrics import contains_match
 from halo.interventions.judge import default_support_judge
 from halo.interventions.errors import AuditIntegrationError
 from halo.interventions.filtering import _FilteringSearchIndex
@@ -56,6 +57,63 @@ def extract_colmlm_answer(raw_text: str, prompt: str) -> str:
     if prompt and completion.startswith(prompt):
         completion = completion[len(prompt) :]
     return _clean_completion(completion)
+
+
+def _visible_completion_prefix(raw_text: str, prompt: str, end: int) -> str:
+    """Visible generated text before a raw-text offset.
+
+    Retrieved FACT blocks and annotation tokens are evidence supplied to the
+    decoder, not visible answer text. Removing them lets the audit distinguish
+    a lookup that precedes the answer from a lookup issued after the answer was
+    already emitted.
+    """
+    prefix = str(raw_text)[:end]
+    if prompt and prefix.startswith(prompt):
+        prefix = prefix[len(prompt) :]
+    prefix = _FACT_BLOCK_PATTERN.sub(" ", prefix)
+    prefix = _SPECIAL_TOKEN_PATTERN.sub(" ", prefix)
+    return re.sub(r"\s+", " ", prefix).strip()
+
+
+def _annotate_retrieval_event_timing(
+    events: list[dict[str, Any]],
+    *,
+    raw_text: str,
+    prompt: str,
+    example: AuditExample,
+) -> None:
+    """Attach raw FACT-block position and pre-answer eligibility to events.
+
+    Co-LMLM inserts one ``<FACT>...</FACT>`` block for each successful search,
+    in retrieval order. Failed searches have no selected candidate and consume
+    no block. If a release changes that contract, unmatched events remain
+    ``None`` and are conservatively excluded from the primary cohort.
+    """
+    fact_blocks = list(_FACT_BLOCK_PATTERN.finditer(raw_text))
+    for event in events:
+        event["fact_block_index"] = None
+        event["fact_block_start"] = None
+        event["fact_block_end"] = None
+        event["answer_visible_before_event"] = None
+    successful_events = [
+        event for event in events if event.get("selected_candidate")
+    ]
+    if len(fact_blocks) != len(successful_events):
+        return
+    for block_index, (event, block) in enumerate(
+        zip(successful_events, fact_blocks, strict=True)
+    ):
+        visible_prefix = _visible_completion_prefix(raw_text, prompt, block.start())
+        event["fact_block_index"] = block_index
+        event["fact_block_start"] = block.start()
+        event["fact_block_end"] = block.end()
+        event["answer_visible_before_event"] = bool(
+            contains_match(
+                visible_prefix,
+                example.ground_truth,
+                ground_truth_aliases=example.object_aliases,
+            )
+        )
 
 
 def _manifest_value_backstop(
@@ -172,6 +230,7 @@ class CoLMLMAuditBackend:
     release_source: str | None = None
     model_path: str | None = None
     index_path: str | None = None
+    similarity_threshold: float | None = None
     # Synthetic index entries (adversarial survivors) active for subsequent
     # generate() calls; set/cleared by the adversarial runner.
     injections: tuple[Any, ...] = ()
@@ -265,6 +324,7 @@ class CoLMLMAuditBackend:
             release_source=release_source,
             model_path=str(model_path),
             index_path=str(Path(index_path).expanduser().resolve()),
+            similarity_threshold=similarity_threshold,
         )
 
     def manifest_fingerprint(self, manifest: DeletionManifest) -> Hashable | None:
@@ -310,6 +370,7 @@ class CoLMLMAuditBackend:
 
         original_index = getattr(self.generator, "index", None)
         filtered_index: _FilteringSearchIndex | None = None
+        value_backstop = False
         try:
             if state is DatabaseState.DEL_OFF and self.del_off_mode == "forbid-token":
                 no_retrieval = getattr(self.generator, "generate_no_retrieval", None)
@@ -360,6 +421,12 @@ class CoLMLMAuditBackend:
 
         raw_text = str(getattr(result, "text", ""))
         events = filtered_index.events if filtered_index is not None else []
+        _annotate_retrieval_event_timing(
+            events,
+            raw_text=raw_text,
+            prompt=example.prompt,
+            example=example,
+        )
         all_candidates = [
             candidate for event in events for candidate in event["all_candidates"]
         ]
@@ -371,23 +438,35 @@ class CoLMLMAuditBackend:
         ]
         num_retrievals = int(getattr(result, "num_retrievals", 0) or 0)
         failed_retrievals = int(getattr(result, "failed_retrievals", 0) or 0)
-        selected_candidates = [
-            event["selected_candidate"]
-            for event in events
-            if event["selected_candidate"]
+        selected_events = [
+            event for event in events if event.get("selected_candidate")
         ]
-        # Prefer the selection that supports the target: the generation may
-        # look up other attributes (nationality, birth year) before the one
-        # the prompt asks about, and the oracle bootstrap judges only this
-        # candidate.
-        selected_candidate = next(
+        # Prefer an answer-mention lookup that occurred before the answer was
+        # visible. Keep later/unknown answer-mention events as diagnostics, but
+        # the cohort gate below will reject them.
+        selected_event = next(
             (
-                candidate
-                for candidate in selected_candidates
-                if candidate.get("supports_target") is True
+                event
+                for event in selected_events
+                if event["selected_candidate"].get("supports_target") is True
+                and event.get("answer_visible_before_event") is False
             ),
-            selected_candidates[0] if selected_candidates else None,
+            next(
+                (
+                    event
+                    for event in selected_events
+                    if event["selected_candidate"].get("supports_target") is True
+                ),
+                selected_events[0] if selected_events else None,
+            ),
         )
+        selected_candidate = None
+        if selected_event is not None:
+            selected_candidate = dict(selected_event["selected_candidate"])
+            selected_candidate["event_index"] = selected_event.get("event_index")
+            selected_candidate["answer_visible_before_event"] = selected_event.get(
+                "answer_visible_before_event"
+            )
         all_candidates_count = sum(
             event.get("all_candidates_count", len(event["all_candidates"]))
             for event in events
@@ -400,6 +479,31 @@ class CoLMLMAuditBackend:
             event.get("retained_candidates_count", len(event["retained_candidates"]))
             for event in events
         )
+        exclusion_occurrences_by_reason: dict[str, int] = {}
+        for event in events:
+            for reason, count in (
+                event.get("exclusion_occurrences_by_reason") or {}
+            ).items():
+                exclusion_occurrences_by_reason[str(reason)] = (
+                    exclusion_occurrences_by_reason.get(str(reason), 0)
+                    + int(count)
+                )
+        unique_deleted_entry_ids = {
+            str(candidate.get("entry_id"))
+            for candidate in deleted_candidates
+            if candidate.get("entry_id")
+        }
+        unique_deleted_entry_ids_by_reason = {
+            reason: len(
+                {
+                    str(candidate.get("entry_id"))
+                    for candidate in deleted_candidates
+                    if candidate.get("entry_id")
+                    and reason in (candidate.get("excluded_by") or ())
+                }
+            )
+            for reason in exclusion_occurrences_by_reason
+        }
         # In slim mode the trace-level aggregates above already carry the
         # candidate records; keeping them inside each event too would double
         # the row for nothing (only FULL events are ever walked downstream).
@@ -435,13 +539,31 @@ class CoLMLMAuditBackend:
                 None,
             ),
             "candidates_slim": state is not DatabaseState.FULL,
+            "oracle_answer_mention_filter_active": value_backstop,
+            "answer_mention_trace_check_independent": not value_backstop,
             "all_candidates_count": all_candidates_count,
             "deleted_candidates_count": deleted_candidates_count,
             "retained_candidates_count": retained_candidates_count,
+            "runtime_exclusion_scope": {
+                "unique_entry_ids_total": len(unique_deleted_entry_ids),
+                "unique_entry_ids_by_reason": unique_deleted_entry_ids_by_reason,
+                "candidate_occurrences_total": deleted_candidates_count,
+                "candidate_occurrences_by_reason": exclusion_occurrences_by_reason,
+            },
             "all_candidates": all_candidates,
             "deleted_candidates": deleted_candidates,
             "retained_candidates": retained_candidates,
             "selected_candidate": selected_candidate,
+            "selected_event_index": (
+                selected_event.get("event_index")
+                if selected_event is not None
+                else None
+            ),
+            "selected_answer_visible_before_event": (
+                selected_event.get("answer_visible_before_event")
+                if selected_event is not None
+                else None
+            ),
             "selected_value": (
                 selected_candidate.get("value") if selected_candidate else None
             ),
@@ -460,6 +582,7 @@ class CoLMLMAuditBackend:
             "t_search_s": float(getattr(result, "t_search_s", 0.0) or 0.0),
             "gen_decoded_tokens": int(getattr(result, "gen_decoded_tokens", 0) or 0),
             "release_source": self.release_source,
+            "retrieval_event_alignment": "ordered-fact-block-v1",
         }
         query_embeddings = tuple(
             {"event_index": index, "vector": vector}

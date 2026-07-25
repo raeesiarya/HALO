@@ -65,12 +65,13 @@ for testing it.
 retrieves the top item using a hidden-state query
 \cite{feldman2026colmlm}.
 
-The paper already shows effective aggregate forgetting on TOFU. We wanted to
-zoom in on the mechanism behind that result. The narrower question is: once a
-target entry is removed from a schema-free index, does a correct answer come
-from another memory entry, or from the model and prompt without factual
-retrieval? That distinction tells us whether the next useful intervention
-belongs in the deletion policy, the retrieval policy, or the model.
+The paper already shows effective aggregate forgetting on TOFU
+\cite{maini2024tofu}. We wanted to zoom in on the mechanism behind that
+result. The narrower question is: once a target entry is removed from a
+schema-free index, does a correct answer come from another memory entry, or
+from the model and prompt without factual retrieval? That distinction tells
+us whether the next useful intervention belongs in the deletion policy, the
+retrieval policy, or the model.
 
 Our design adapts the causal framework for relational LMLMs
 \cite{raeesi2026audit}. For each fact, the model, prompt, decoding, and
@@ -215,7 +216,9 @@ Hybrid & \pct{5.7} & \pct{94.3} & 0/30 & 58.4 & 22 & 494 \\
 
 Removing the selected supporting entry leaves 214 answers intact, and 192 of
 those survivors retrieve other target-supporting evidence. Our read is that
-deleting one observed row is not yet the same as deleting the fact. Geometry
+deleting one observed row is not yet the same as deleting the fact. The same
+record--fact mismatch has been identified as a structural challenge for
+selective forgetting in RAG systems \cite{tavakoli2026deletion}. Geometry
 removes slightly more, but 154 geometric survivors still have gold evidence
 in their traces. Value matching drives the large improvement: 141 cases
 survive geometry but not value, versus three in the reverse direction
@@ -381,11 +384,26 @@ Kilian Q. Weinberger, Jennifer J. Sun, and Yoav Artzi.
 \newblock \emph{arXiv preprint arXiv:2607.07707}, 2026.
 \newblock \url{https://arxiv.org/abs/2607.07707}.
 
+\bibitem{maini2024tofu}
+Pratyush Maini, Zhili Feng, Avi Schwarzschild, Zachary C. Lipton, and
+J. Zico Kolter.
+\newblock TOFU: A Task of Fictitious Unlearning for LLMs.
+\newblock \emph{arXiv preprint arXiv:2401.06121}, 2024.
+\newblock \url{https://arxiv.org/abs/2401.06121}.
+
 \bibitem{raeesi2026audit}
 Arya Raeesi and Hanna Roed.
 \newblock Auditing Forgetting in Limited Memory Language Models.
 \newblock \emph{arXiv preprint arXiv:2607.00605}, 2026.
 \newblock \url{https://arxiv.org/abs/2607.00605}.
+
+\bibitem{tavakoli2026deletion}
+Leila Tavakoli and Mark Sanderson.
+\newblock Deletion Isn't Enough: Auditing RAG for Selective Forgetting.
+\newblock In \emph{Proceedings of the 49th International ACM SIGIR Conference
+on Research and Development in Information Retrieval (SIGIR '26)},
+pages 2721--2733, 2026.
+\newblock \url{https://doi.org/10.1145/3805712.3808545}.
 
 \end{thebibliography}
 

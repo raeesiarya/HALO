@@ -81,6 +81,7 @@ class ClosureResult:
     index_nprobe: int | None = None
     target_answer: str = ""
     target_aliases: tuple[str, ...] = ()
+    audited_event_index: int | None = None
     # Geometry for the margin predictor: the best deleted score and the best
     # score among observed candidates that survive this closure.
     s_del: float | None = None
@@ -109,6 +110,7 @@ class ClosureResult:
             "truncated": self.truncated,
             "entry_counts": entry_counts,
             "index_nprobe": self.index_nprobe,
+            "audited_event_index": self.audited_event_index,
         }
         if self.config.is_active("value"):
             # The run-time backstop must judge candidates against the target
@@ -117,6 +119,11 @@ class ClosureResult:
             metadata["value_target"] = {
                 "ground_truth": self.target_answer,
                 "object_aliases": list(self.target_aliases),
+            }
+            metadata["value_policy"] = {
+                "name": "oracle-gold-answer-mention-filter",
+                "ground_truth_supplied_at_inference": True,
+                "judge": "normalized-answer-mention",
             }
         return DeletionManifest(
             entry_ids=tuple(entry.entry_id for entry in self.entries),
@@ -137,6 +144,7 @@ class ClosureResult:
             "max_closure_size": self.config.max_closure_size,
             "truncated": self.truncated,
             "index_nprobe": self.index_nprobe,
+            "audited_event_index": self.audited_event_index,
             "s_del": self.s_del,
             "s_surv": self.s_surv,
             "margin": self.margin,
@@ -233,6 +241,15 @@ def build_closure_family(
 
     query = (
         np.asarray(query_vector, dtype=np.float32).reshape(-1) if needs_search else None
+    )
+    seed_event_indices = {
+        int(candidate["event_index"])
+        for candidate in seed_candidates
+        if isinstance(candidate, Mapping)
+        and isinstance(candidate.get("event_index"), int)
+    }
+    audited_event_index = (
+        next(iter(seed_event_indices)) if len(seed_event_indices) == 1 else None
     )
 
     geometric_hits: list[Any] = []
@@ -366,6 +383,7 @@ def build_closure_family(
             index_nprobe=_index_nprobe(index),
             target_answer=example.ground_truth,
             target_aliases=tuple(example.object_aliases),
+            audited_event_index=audited_event_index,
             s_del=max(deleted_scores) if deleted_scores else None,
             s_surv=survivors[0][1] if survivors else None,
             top_survivors=top_survivors,
@@ -428,20 +446,14 @@ def full_selected_candidate(
 
 
 def full_query_vector(full_result: Mapping[str, Any]) -> Any | None:
-    """The captured query vector for the FULL retrieval event whose
-    candidate was selected (falling back to the first captured event)."""
+    """The captured vector for the exact audited FULL retrieval event."""
     trace = full_result.get("retrieval_trace") or {}
-    selected_event_index = None
-    for event in trace.get("retrieval_events") or []:
-        if event.get("selected_candidate"):
-            selected_event_index = event.get("event_index")
-            break
+    selected_event_index = trace.get("selected_event_index")
+    if not isinstance(selected_event_index, int):
+        return None
 
     for item in full_result.get("_query_embeddings") or []:
-        if (
-            selected_event_index is None
-            or item.get("event_index") == selected_event_index
-        ):
+        if item.get("event_index") == selected_event_index:
             return item.get("vector")
     return None
 
