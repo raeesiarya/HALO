@@ -1,0 +1,36 @@
+{
+  "audit_schema_version": 2,
+  "backend": {
+    "class": "models.co_lmlm.backend.CoLMLMAuditBackend",
+    "index_path": "/home/ubuntu/HALO/data/co-lmlm-wiki-index",
+    "model_path": "lil-lab/CoLMLM-360M-FW",
+    "release_source": "/home/ubuntu/Co-LMLM",
+    "similarity_threshold": 0.7
+  },
+  "closure": {
+    "envelope_top_k": 500,
+    "max_closure_size": 10000,
+    "predicates": [
+      "geometric"
+    ],
+    "radius": 0.85
+  },
+  "limit": null,
+  "max_new_tokens": 12,
+  "mode": "entanglement-sweep",
+  "neighbors": {
+    "ball": 0.5,
+    "cap": 20,
+    "min_count": 5,
+    "mode": "cosine"
+  },
+  "prompt_sha256": "8707dd29d4c7ae0d3c830188a0a94bc0a2c8a6f7e9f889a9fd03d705a6a2a700",
+  "radii": [
+    0.95,
+    0.9,
+    0.85,
+    0.8,
+    0.75,
+    0.7
+  ]
+}

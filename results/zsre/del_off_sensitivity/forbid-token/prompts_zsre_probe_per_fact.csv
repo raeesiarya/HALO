@@ -1,0 +1,536 @@
+fact,answer,fold,samples,samples_scored,l_rep,predicted,label_unseen,behavioral_l
+zsre-100,Manning River,0,1,1,0.0,Ken Duncan,False,0.0
+zsre-1000,Oedipus,2,1,1,1.0,Oedipus,False,0.0
+zsre-1002,Oedipus,3,1,1,1.0,Oedipus,False,0.0
+zsre-1009,defender,0,1,1,1.0,defender,False,0.0
+zsre-1012,Thunderball,0,1,1,0.0,Torchwood,False,0.0
+zsre-1016,David Belle,0,1,1,0.0,French,False,0.0
+zsre-1026,World Scientific,4,1,1,1.0,World Scientific,False,0.0
+zsre-1027,World Scientific,0,1,1,1.0,World Scientific,False,0.0
+zsre-1030,Mars,1,1,1,0.0,Antarctica,False,0.0
+zsre-1032,Mars,2,1,1,1.0,Mars,False,0.0
+zsre-1037,Saint-Claude,1,1,1,0.0,Oss,False,0.0
+zsre-1042,Cambridge University Press,1,1,1,1.0,Cambridge University Press,False,0.0
+zsre-1043,Cambridge University Press,2,1,1,1.0,Cambridge University Press,False,0.0
+zsre-1045,Glee,4,1,1,0.0,Torchwood,False,0.0
+zsre-1047,Australian rules footballer,3,1,1,0.0,Manchester,False,0.0
+zsre-1048,Kozhikode district,2,1,1,0.0,Uthangarai taluk,False,0.0
+zsre-1049,Medknow Publications,2,1,1,0.0,World Scientific,False,0.0
+zsre-1050,8 January 1989,4,1,1,1.0,8 January 1989,False,0.0
+zsre-1051,8 January 1989,2,1,1,1.0,8 January 1989,False,0.0
+zsre-1055,The Case-Book of Sherlock Holmes,4,1,1,0.0,Torchwood,False,0.0
+zsre-1058,The Twilight Zone,3,1,1,0.0,Sculptor,False,0.0
+zsre-1061,Harrow School,0,1,1,0.0,Tulane University,False,0.0
+zsre-1066,Paris,1,1,1,1.0,Paris,False,0.0
+zsre-1067,Estadio Garcilaso,4,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1068,Estadio Garcilaso,1,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1069,Estadio Garcilaso,4,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1070,Estadio Garcilaso,3,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1071,Estadio Garcilaso,0,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1072,Estadio Garcilaso,0,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1073,Estadio Garcilaso,1,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1074,Estadio Garcilaso,1,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1075,Estadio Garcilaso,0,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1077,Estadio Garcilaso,1,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1078,Estadio Garcilaso,4,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1079,Estadio Garcilaso,1,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1080,Estadio Garcilaso,4,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1081,Estadio Garcilaso,3,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1082,Estadio Garcilaso,4,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1083,Estadio Garcilaso,0,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1084,Estadio Garcilaso,1,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1085,Estadio Garcilaso,1,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1086,Estadio Garcilaso,2,1,1,1.0,Estadio Garcilaso,False,0.0
+zsre-1088,Thomas Worthington,0,1,1,1.0,Thomas Worthington,False,0.0
+zsre-1089,Thomas Worthington,2,1,1,1.0,Thomas Worthington,False,0.0
+zsre-1090,Thomas Worthington,2,1,1,1.0,Thomas Worthington,False,0.0
+zsre-1091,Thomas Worthington,3,1,1,1.0,Thomas Worthington,False,0.0
+zsre-1094,defender,1,1,1,1.0,defender,False,0.0
+zsre-1097,Spain,1,1,1,0.0,Spanish,False,0.0
+zsre-1098,Cologne,2,1,1,0.0,Paris,False,0.0
+zsre-1100,Alestidae,1,1,1,0.0,Rubiaceae,False,0.0
+zsre-1102,1818,4,1,1,0.0,12 July 1944,False,0.0
+zsre-1107,1928,2,1,1,0.0,10 October 1982,False,0.0
+zsre-1108,Seona Dancing,1,1,1,0.0,Harry O. Hoyt,False,0.0
+zsre-111,24 April 1977,2,1,1,0.0,23 October 1943,False,0.0
+zsre-1110,Paris,1,1,1,1.0,Paris,False,0.0
+zsre-1115,ITV,0,1,1,0.0,Israeli Educational Television,False,0.0
+zsre-1119,translator,1,1,1,0.0,winger,False,0.0
+zsre-1124,1931,0,1,1,0.0,23 March 2012,False,0.0
+zsre-1126,Water Margin,0,1,1,0.0,French,False,0.0
+zsre-1128,Harvard University,3,1,1,0.0,Tulane University,False,0.0
+zsre-113,Sandy Denny,1,1,1,0.0,Mother's Finest,False,0.0
+zsre-1138,member of the Wisconsin State Senate,2,1,1,0.0,Bethlehem Steel,False,0.0
+zsre-114,Atheliaceae,3,1,1,0.0,Cancellariidae,False,0.0
+zsre-1141,Tervuren,1,1,1,0.0,Leiden,False,0.0
+zsre-1142,6 June 1966,2,1,1,0.0,1953,False,0.0
+zsre-1144,Capetian House of Anjou,0,1,1,0.0,French,False,0.0
+zsre-1145,1985,1,1,1,0.0,18 February 2006,False,0.0
+zsre-1147,Sinclair Radionics,4,1,1,1.0,Sinclair Radionics,False,0.0
+zsre-1148,Sinclair Radionics,3,1,1,1.0,Sinclair Radionics,False,0.0
+zsre-115,Gabriel Mascaro,3,1,1,0.0,Ishmael,False,0.0
+zsre-1150,Sinclair Radionics,2,1,1,1.0,Sinclair Radionics,False,0.0
+zsre-1151,23 October 1943,1,1,1,0.0,1973,False,0.0
+zsre-1152,ITV,0,1,1,0.0,Israeli Educational Television,False,0.0
+zsre-1154,France,3,1,1,0.0,French,False,0.0
+zsre-1157,Philippines,1,1,1,1.0,Philippines,False,0.0
+zsre-1158,Philippines,3,1,1,1.0,Philippines,False,0.0
+zsre-116,Gabriel Mascaro,3,1,1,0.0,Ishmael,False,0.0
+zsre-1162,Elsevier,4,1,1,0.0,Medknow Publications,False,0.0
+zsre-1165,actor,4,1,1,0.0,Birmingham,False,0.0
+zsre-1168,Betty Hemings,3,1,1,1.0,Betty Hemings,False,0.0
+zsre-1169,Betty Hemings,3,1,1,1.0,Betty Hemings,False,0.0
+zsre-1170,Betty Hemings,2,1,1,1.0,Betty Hemings,False,0.0
+zsre-1171,2007,3,1,1,0.0,2002,False,0.0
+zsre-1174,Nairobi,3,1,1,0.0,Northampton,False,0.0
+zsre-1176,Spike,4,1,1,0.0,ITV,False,0.0
+zsre-118,1 June 2009,0,1,1,1.0,1 June 2009,False,0.0
+zsre-1185,McLean,1,1,1,0.0,Paris,False,0.0
+zsre-1191,8 October 1880,0,1,1,0.0,15 July 1996,False,0.0
+zsre-1192,Harry O. Hoyt,0,1,1,0.0,Russ Meyer,False,0.0
+zsre-1196,contralto,3,1,1,0.0,French,False,0.0
+zsre-12,Ken Duncan,3,1,1,1.0,Ken Duncan,False,0.0
+zsre-120,1 June 2009,3,1,1,1.0,1 June 2009,False,0.0
+zsre-1214,P.J. Ramster,3,1,1,0.0,Northampton,False,0.0
+zsre-123,Jane Poythress,2,1,1,1.0,Jane Poythress,False,0.0
+zsre-1234,1973,4,1,1,0.0,July 2003,False,0.0
+zsre-1235,Gemini,1,1,1,0.0,Sculptor,False,0.0
+zsre-1237,Ontario,0,1,1,0.0,Antarctica,False,0.0
+zsre-1238,James,0,1,1,0.0,Holger Sinding-Larsen,False,0.0
+zsre-1239,25 September 2007,1,1,1,0.0,1962,False,0.0
+zsre-1245,Perseus,0,1,1,0.0,Eridanus,False,0.0
+zsre-1249,England,4,1,1,0.0,Manchester,False,0.0
+zsre-125,Jane Poythress,0,1,1,1.0,Jane Poythress,False,0.0
+zsre-1258,Chatto and Windus,1,1,1,0.0,Mozilla Foundation,False,0.0
+zsre-1259,London,4,1,1,0.0,Paris,False,0.0
+zsre-126,Jane Poythress,3,1,1,1.0,Jane Poythress,False,0.0
+zsre-1260,Bad Wiessee,4,1,1,0.0,stroke,False,0.0
+zsre-1261,Napoleonic Wars,3,1,1,0.0,World War I,False,0.0
+zsre-1262,French,1,1,1,1.0,French,False,0.0
+zsre-1263,Cancellariidae,2,1,1,0.0,Alestidae,False,0.0
+zsre-1265,Girolamo Cassar,0,1,1,1.0,Girolamo Cassar,False,0.0
+zsre-1266,Girolamo Cassar,4,1,1,1.0,Girolamo Cassar,False,0.0
+zsre-1267,Girolamo Cassar,3,1,1,1.0,Girolamo Cassar,False,0.0
+zsre-1268,Girolamo Cassar,0,1,1,1.0,Girolamo Cassar,False,0.0
+zsre-1269,Girolamo Cassar,0,1,1,1.0,Girolamo Cassar,False,0.0
+zsre-1272,Lebanon,1,1,1,1.0,Lebanon,False,0.0
+zsre-1273,Lebanon,4,1,1,1.0,Lebanon,False,0.0
+zsre-1278,San Martín Department,1,1,1,0.0,Estadio Garcilaso,False,0.0
+zsre-1281,Mississippi River,2,1,1,1.0,Mississippi River,False,0.0
+zsre-1282,Mississippi River,4,1,1,1.0,Mississippi River,False,0.0
+zsre-1283,Mississippi River,4,1,1,1.0,Mississippi River,False,0.0
+zsre-1285,Chester Gould,0,1,1,1.0,Chester Gould,False,0.0
+zsre-1286,Chester Gould,2,1,1,1.0,Chester Gould,False,0.0
+zsre-1290,Birmingham,3,1,1,1.0,Birmingham,False,0.0
+zsre-1292,Birmingham,0,1,1,1.0,Birmingham,False,0.0
+zsre-1294,18 February 2006,3,1,1,1.0,18 February 2006,False,0.0
+zsre-1295,18 February 2006,4,1,1,1.0,18 February 2006,False,0.0
+zsre-1297,California,1,1,1,0.0,Texas,False,0.0
+zsre-1299,Idaho,1,1,1,0.0,Delaware River,False,0.0
+zsre-13,Ken Duncan,1,1,1,1.0,Ken Duncan,False,0.0
+zsre-1300,1970,4,1,1,0.0,2002,False,0.0
+zsre-1301,painter,1,1,1,0.0,singer,False,0.0
+zsre-1303,Data Deficient,1,1,1,1.0,Data Deficient,False,0.0
+zsre-1304,Data Deficient,0,1,1,1.0,Data Deficient,False,0.0
+zsre-1305,Data Deficient,1,1,1,1.0,Data Deficient,False,0.0
+zsre-1308,1 May 2000,4,1,1,0.0,1970,False,0.0
+zsre-1315,7 October 1971,0,1,1,0.0,1062,False,0.0
+zsre-1316,Mushroom Records,3,1,1,0.0,Motown,False,0.0
+zsre-132,winger,0,1,1,0.0,defender,False,0.0
+zsre-1320,TVT Records,0,1,1,0.0,Mushroom Records,False,0.0
+zsre-1322,HESware,2,1,1,0.0,Microsoft Studios,False,0.0
+zsre-1324,Landgravine Josepha of Fürstenberg-Weitra,2,1,1,1.0,Landgravine Josepha of Fürstenberg-Weitra,False,0.0
+zsre-1325,Landgravine Josepha of Fürstenberg-Weitra,1,1,1,1.0,Landgravine Josepha of Fürstenberg-Weitra,False,0.0
+zsre-1327,University of North Carolina at Chapel Hill,4,1,1,0.0,Harvard University,False,0.0
+zsre-1330,German,3,1,1,0.0,French,False,0.0
+zsre-1332,Oliver Hardy,0,1,1,0.0,Torchwood,False,0.0
+zsre-1335,Motown,0,1,1,0.0,Mushroom Records,False,0.0
+zsre-1336,Bo Xilai,0,1,1,0.0,Parkinson's disease,False,0.0
+zsre-1337,Bo Xilai,0,1,1,0.0,Paris,False,0.0
+zsre-1338,1601,0,1,1,0.0,23 March 2012,False,0.0
+zsre-1341,3 September 1983,1,1,1,0.0,1958,False,0.0
+zsre-1342,Hard-Fi,3,1,1,0.0,Maclean Rogers,False,0.0
+zsre-1344,Lockheed Martin,3,1,1,0.0,Westinghouse Electric,False,0.0
+zsre-1349,king,1,1,1,0.0,Ishmael,False,1.0
+zsre-1350,8 January 1979,2,1,1,0.0,15 July 1996,False,0.0
+zsre-1359,French,4,1,1,1.0,French,False,0.0
+zsre-1372,Hong Kong,3,1,1,1.0,Hong Kong,False,0.0
+zsre-1375,15 June 1874,3,1,1,0.0,24 April 1977,False,0.0
+zsre-1378,Juliana of Stolberg,0,1,1,1.0,Juliana of Stolberg,False,0.0
+zsre-1379,Juliana of Stolberg,1,1,1,1.0,Juliana of Stolberg,False,0.0
+zsre-1380,Armando Crispino,0,1,1,0.0,Gabriel Mascaro,False,0.0
+zsre-1382,26 February 2009,4,1,1,0.0,17 July 1957,False,0.0
+zsre-1383,Norwegian,2,1,1,1.0,Norwegian,False,0.0
+zsre-1384,Norwegian,4,1,1,1.0,Norwegian,False,0.0
+zsre-1386,Mozilla Foundation,2,1,1,1.0,Mozilla Foundation,False,0.0
+zsre-1387,Mozilla Foundation,0,1,1,1.0,Mozilla Foundation,False,0.0
+zsre-1388,Mozilla Foundation,0,1,1,1.0,Mozilla Foundation,False,0.0
+zsre-1389,Lars Bom,1,1,1,0.0,Jascha Heifetz,False,0.0
+zsre-1391,Motown,2,1,1,0.0,Megaforce Records,False,0.0
+zsre-1397,1892,2,1,1,0.0,1895,False,0.0
+zsre-1399,8 October 2007,0,1,1,0.0,12 June 1647,False,0.0
+zsre-14,Ken Duncan,4,1,1,1.0,Ken Duncan,False,0.0
+zsre-1401,German,2,1,1,0.0,French,False,0.0
+zsre-1402,German,1,1,1,1.0,German,False,0.0
+zsre-1412,Paris,2,1,1,1.0,Paris,False,0.0
+zsre-1413,Paris,0,1,1,1.0,Paris,False,0.0
+zsre-1417,1 July 1989,4,1,1,0.0,12 May 1977,False,0.0
+zsre-1420,Spanish,4,1,1,1.0,Spanish,False,0.0
+zsre-1422,Spanish,3,1,1,1.0,Spanish,False,1.0
+zsre-1427,Clausiliidae,4,1,1,0.0,Alestidae,False,0.0
+zsre-1429,July 2003,3,1,1,0.0,1970,False,0.0
+zsre-1430,Lukas Nola,1,1,1,0.0,Russ Meyer,False,0.0
+zsre-1432,Mandinga,3,1,1,0.0,Ishmael,False,0.0
+zsre-1455,Texas,2,1,1,0.0,Antarctica,False,0.0
+zsre-1458,Community,4,1,1,0.0,The Twilight Zone,False,0.0
+zsre-146,World War II,3,1,1,0.0,World War I,False,0.0
+zsre-1460,tennis player,0,1,1,0.0,Girolamo Cassar,False,0.0
+zsre-1461,12 July 1944,1,1,1,0.0,1895,False,0.0
+zsre-1464,Calexico,1,1,1,0.0,Manchester,False,0.0
+zsre-1466,writer,3,1,1,0.0,pancreatic cancer,False,0.0
+zsre-1469,midfielder,1,1,1,0.0,defender,False,0.0
+zsre-147,Pieter de Hooch,0,1,1,0.0,Holger Sinding-Larsen,False,0.0
+zsre-1472,Hong Kong,1,1,1,0.0,Manchester,False,0.0
+zsre-1475,Tallinn,2,1,1,0.0,Girolamo Cassar,False,0.0
+zsre-1479,President of Brazil,3,1,1,0.0,Blue Sky Studios,False,0.0
+zsre-1480,President of Brazil,3,1,1,0.0,Blue Sky Studios,False,0.0
+zsre-1481,Manchester,1,1,1,1.0,Manchester,False,0.0
+zsre-1482,Manchester,4,1,1,1.0,Manchester,False,0.0
+zsre-1483,Manchester,1,1,1,1.0,Manchester,False,0.0
+zsre-1484,Manchester,2,1,1,1.0,Manchester,False,0.0
+zsre-1485,Kering,3,1,1,1.0,Kering,False,0.0
+zsre-1486,Kering,2,1,1,1.0,Kering,False,0.0
+zsre-1492,Oss,4,1,1,0.0,Saint-Claude,False,0.0
+zsre-1495,French,4,1,1,1.0,French,False,0.0
+zsre-1496,Antarctica,4,1,1,1.0,Antarctica,False,0.0
+zsre-15,Ken Duncan,3,1,1,1.0,Ken Duncan,False,0.0
+zsre-157,22 December 1971,2,1,1,0.0,1 February 1895,False,0.0
+zsre-158,Java,1,1,1,1.0,Java,False,0.0
+zsre-159,Java,2,1,1,1.0,Java,False,0.0
+zsre-160,Java,0,1,1,1.0,Java,False,0.0
+zsre-162,Eridanus,1,1,1,0.0,Orion,False,0.0
+zsre-163,Eridanus,1,1,1,0.0,Orion,False,0.0
+zsre-168,Yerevan,0,1,1,0.0,Zhmerynka,False,0.0
+zsre-169,International Organization for Standardization,2,1,1,0.0,Blue Sky Studios,False,0.0
+zsre-17,Ken Duncan,4,1,1,1.0,Ken Duncan,False,0.0
+zsre-174,Erik Benzelius the younger,0,1,1,0.0,Holger Sinding-Larsen,False,0.0
+zsre-175,French,4,1,1,1.0,French,False,0.0
+zsre-180,Nariño Department,4,1,1,0.0,Estadio Garcilaso,False,0.0
+zsre-181,Maná,0,1,1,0.0,Manchester,False,0.0
+zsre-184,2002,2,1,1,0.0,Manchester,False,0.0
+zsre-190,Microsoft Studios,4,1,1,0.0,Mozilla Foundation,False,0.0
+zsre-192,Microsoft Studios,4,1,1,0.0,Mozilla Foundation,False,0.0
+zsre-198,"Leopold II, Holy Roman Emperor",3,1,1,0.0,Frances Jacson,False,0.0
+zsre-202,buccaneer,1,1,1,0.0,French,False,0.0
+zsre-214,American Civil War,2,1,1,0.0,World War II,False,0.0
+zsre-215,Alan Thicke,4,1,1,0.0,Val Kilmer,False,0.0
+zsre-216,Ipswich,0,1,1,0.0,Berlin,False,0.0
+zsre-217,singer,3,1,1,0.0,Parkinson's disease,False,0.0
+zsre-218,30 September 1985,1,1,1,0.0,1933,False,0.0
+zsre-219,Venevisión,0,1,1,0.0,Blue Sky Studios,False,0.0
+zsre-220,CBC Television,3,1,1,0.0,ITV,False,0.0
+zsre-223,French,4,1,1,1.0,French,False,0.0
+zsre-224,Lille,3,1,1,0.0,French,False,0.0
+zsre-226,1757,1,1,1,0.0,1970,False,0.0
+zsre-228,French,2,1,1,1.0,French,False,0.0
+zsre-229,University of Pittsburgh,3,1,1,0.0,Tulane University,False,0.0
+zsre-23,Ishmael,1,1,1,1.0,Ishmael,False,0.0
+zsre-230,Antarctica,2,1,1,1.0,Antarctica,False,0.0
+zsre-231,Sonny Stitt,4,1,1,0.0,Maná,False,0.0
+zsre-232,Maria Helena Vieira da Silva,2,1,1,0.0,French,False,0.0
+zsre-234,Maria Helena Vieira da Silva,2,1,1,0.0,French,False,0.0
+zsre-237,Northampton,0,1,1,1.0,Northampton,False,0.0
+zsre-238,Northampton,2,1,1,1.0,Northampton,False,0.0
+zsre-239,Northampton,1,1,1,1.0,Northampton,False,0.0
+zsre-24,Ishmael,0,1,1,1.0,Ishmael,False,0.0
+zsre-244,Moon,0,1,1,0.0,Antarctica,False,0.0
+zsre-25,Italy,0,1,1,0.0,French,False,0.0
+zsre-251,Anna of Oldenburg,0,1,1,0.0,Olga Fialka,False,0.0
+zsre-257,Birmingham,3,1,1,0.0,1793,False,0.0
+zsre-265,First National,2,1,1,0.0,Blue Sky Studios,False,0.0
+zsre-27,Bethlehem Steel,1,1,1,1.0,Bethlehem Steel,False,0.0
+zsre-270,Julia the Elder,4,1,1,0.0,Betty Hemings,False,0.0
+zsre-271,Julia the Elder,4,1,1,0.0,Betty Hemings,False,0.0
+zsre-272,World War I,3,1,1,1.0,World War I,False,0.0
+zsre-273,World War I,0,1,1,1.0,World War I,False,0.0
+zsre-28,Bethlehem Steel,2,1,1,1.0,Bethlehem Steel,False,0.0
+zsre-288,Anne Wheeler,4,1,1,0.0,Harry O. Hoyt,False,0.0
+zsre-29,Bethlehem Steel,4,1,1,1.0,Bethlehem Steel,False,0.0
+zsre-291,Draco,3,1,1,0.0,Perseus,False,0.0
+zsre-298,India,0,1,1,0.0,Marathi,False,0.0
+zsre-30,Bethlehem Steel,3,1,1,1.0,Bethlehem Steel,False,0.0
+zsre-300,Sculptor,4,1,1,1.0,Sculptor,False,0.0
+zsre-301,Sculptor,2,1,1,1.0,Sculptor,False,0.0
+zsre-312,Lyon OU,0,1,1,0.0,French,False,0.0
+zsre-314,7 May 1870,0,1,1,0.0,1 February 1895,False,0.0
+zsre-32,Bethlehem Steel,0,1,1,1.0,Bethlehem Steel,False,0.0
+zsre-323,4 May 1945,4,1,1,0.0,1973,False,0.0
+zsre-324,French,3,1,1,1.0,French,False,0.0
+zsre-326,Cornwall,3,1,1,0.0,Antarctica,False,0.0
+zsre-329,12 June 1647,2,1,1,0.0,1985,False,0.0
+zsre-330,Tulane University,4,1,1,0.0,Harvard University,False,0.0
+zsre-333,lung cancer,1,1,1,1.0,lung cancer,False,0.0
+zsre-334,lung cancer,4,1,1,1.0,lung cancer,False,0.0
+zsre-335,lung cancer,2,1,1,1.0,lung cancer,False,0.0
+zsre-337,1933,0,1,1,0.0,30 September 1985,False,0.0
+zsre-338,Mother's Finest,0,1,1,0.0,Sandy Denny,False,0.0
+zsre-339,linguist,2,1,1,0.0,defender,False,0.0
+zsre-34,Bethlehem Steel,4,1,1,1.0,Bethlehem Steel,False,0.0
+zsre-342,Auguste Rodin,0,1,1,1.0,Auguste Rodin,False,0.0
+zsre-343,Auguste Rodin,1,1,1,1.0,Auguste Rodin,False,0.0
+zsre-349,1 February 1895,1,1,1,0.0,1895,False,0.0
+zsre-351,1 October 1990,4,1,1,1.0,1 October 1990,False,0.0
+zsre-352,1 October 1990,0,1,1,1.0,1 October 1990,False,0.0
+zsre-353,1 October 1990,3,1,1,1.0,1 October 1990,False,0.0
+zsre-354,1 October 1990,2,1,1,1.0,1 October 1990,False,0.0
+zsre-355,1 October 1990,4,1,1,1.0,1 October 1990,False,0.0
+zsre-356,1 October 1990,1,1,1,1.0,1 October 1990,False,0.0
+zsre-357,1 October 1990,0,1,1,1.0,1 October 1990,False,0.0
+zsre-358,1 October 1990,0,1,1,1.0,1 October 1990,False,0.0
+zsre-359,1 October 1990,3,1,1,1.0,1 October 1990,False,0.0
+zsre-360,1 October 1990,2,1,1,1.0,1 October 1990,False,0.0
+zsre-362,Paris,4,1,1,0.0,stroke,False,0.0
+zsre-365,Megaforce Records,1,1,1,0.0,Motown,False,0.0
+zsre-372,bronze,4,1,1,0.0,Auguste Rodin,False,0.0
+zsre-379,British Library,3,1,1,0.0,June 2012,False,0.0
+zsre-380,Josh Rouse,4,1,1,0.0,Maná,False,0.0
+zsre-385,Berlin,3,1,1,0.0,Suffolk,False,0.0
+zsre-388,Harold Urey,4,1,1,1.0,Harold Urey,False,0.0
+zsre-389,Harold Urey,3,1,1,1.0,Harold Urey,False,0.0
+zsre-39,Los Angeles,4,1,1,0.0,lung cancer,False,0.0
+zsre-390,Blue Sky Studios,3,1,1,1.0,Blue Sky Studios,False,0.0
+zsre-391,Blue Sky Studios,1,1,1,1.0,Blue Sky Studios,False,0.0
+zsre-392,Blue Sky Studios,0,1,1,1.0,Blue Sky Studios,False,0.0
+zsre-393,Blue Sky Studios,2,1,1,1.0,Blue Sky Studios,False,0.0
+zsre-394,Blue Sky Studios,4,1,1,1.0,Blue Sky Studios,False,0.0
+zsre-397,31 March 1979,4,1,1,0.0,7 November 1973,False,0.0
+zsre-4,Eliel Saarinen,0,1,1,1.0,Eliel Saarinen,False,0.0
+zsre-401,French,1,1,1,1.0,French,False,0.0
+zsre-411,Antarctica,4,1,1,1.0,Antarctica,False,0.0
+zsre-412,Antarctica,1,1,1,1.0,Antarctica,False,0.0
+zsre-413,Indonesia,2,1,1,0.0,Northampton,False,0.0
+zsre-415,defender,3,1,1,1.0,defender,False,0.0
+zsre-417,Piero di Cosimo,3,1,1,0.0,Ken Duncan,False,0.0
+zsre-419,ITV,1,1,1,0.0,DuMont Television Network,False,0.0
+zsre-423,Australia,4,1,1,0.0,Manchester,False,0.0
+zsre-427,1997,2,1,1,0.0,1985,False,0.0
+zsre-428,29 September 1939,0,1,1,0.0,1 February 1895,False,0.0
+zsre-432,Mali,3,1,1,0.0,Antarctica,False,0.0
+zsre-44,Michael Chan,1,1,1,0.0,Gabriel Mascaro,False,0.0
+zsre-442,Dijon,1,1,1,0.0,French,False,0.0
+zsre-447,leukemia,2,1,1,1.0,leukemia,False,0.0
+zsre-448,leukemia,4,1,1,1.0,leukemia,False,0.0
+zsre-45,Cleomenes II,1,1,1,0.0,Oedipus,False,0.0
+zsre-454,Antarctica,3,1,1,1.0,Antarctica,False,0.0
+zsre-455,Antarctica,2,1,1,1.0,Antarctica,False,0.0
+zsre-457,Elvis Presley,4,1,1,0.0,Jascha Heifetz,False,0.0
+zsre-461,Israeli Educational Television,3,1,1,1.0,Israeli Educational Television,False,0.0
+zsre-462,Israeli Educational Television,2,1,1,1.0,Israeli Educational Television,False,0.0
+zsre-463,Torstenson War,2,1,1,0.0,World War I,False,0.0
+zsre-465,6 July 1895,3,1,1,0.0,26 November 1946,False,0.0
+zsre-466,French,2,1,1,1.0,French,False,0.0
+zsre-468,Delaware River,2,1,1,1.0,Delaware River,False,0.0
+zsre-469,Delaware River,4,1,1,1.0,Delaware River,False,0.0
+zsre-47,Leeds,2,1,1,0.0,Manitoba,False,0.0
+zsre-470,Delaware River,3,1,1,1.0,Delaware River,False,0.0
+zsre-471,Delaware River,0,1,1,1.0,Delaware River,False,0.0
+zsre-473,McDonnell,4,1,1,0.0,Blue Sky Studios,False,0.0
+zsre-479,Russ Meyer,1,1,1,1.0,Russ Meyer,False,0.0
+zsre-481,Russ Meyer,0,1,1,1.0,Russ Meyer,False,0.0
+zsre-482,Russ Meyer,4,1,1,1.0,Russ Meyer,False,0.0
+zsre-485,Girish Karnad,3,1,1,0.0,defender,False,0.0
+zsre-492,Dante Alighieri,4,1,1,0.0,Cleomenes II,False,0.0
+zsre-498,1958,3,1,1,0.0,12 July 1944,False,0.0
+zsre-5,Eliel Saarinen,1,1,1,1.0,Eliel Saarinen,False,0.0
+zsre-501,Orion,0,1,1,0.0,Eridanus,False,0.0
+zsre-506,pancreatic cancer,4,1,1,1.0,pancreatic cancer,False,0.0
+zsre-507,pancreatic cancer,0,1,1,1.0,pancreatic cancer,False,0.0
+zsre-508,pancreatic cancer,1,1,1,1.0,pancreatic cancer,False,0.0
+zsre-509,pancreatic cancer,4,1,1,1.0,pancreatic cancer,False,0.0
+zsre-510,pancreatic cancer,1,1,1,1.0,pancreatic cancer,False,0.0
+zsre-511,Alberto Caballero,2,1,1,0.0,French,False,0.0
+zsre-512,Antarctica,4,1,1,1.0,Antarctica,False,0.0
+zsre-514,Kondželj,2,1,1,0.0,Gaziantep,False,0.0
+zsre-515,15 July 1996,1,1,1,0.0,8 January 1979,False,0.0
+zsre-520,Benjamin Franklin,0,1,1,0.0,Jane Poythress,False,0.0
+zsre-521,Antarctica,0,1,1,1.0,Antarctica,False,0.0
+zsre-53,Gnome Press,2,1,1,0.0,Bethlehem Steel,False,0.0
+zsre-538,2012,2,1,1,0.0,Eliel Saarinen,False,0.0
+zsre-539,12 May 1977,3,1,1,0.0,1 July 1989,False,0.0
+zsre-540,Germany,4,1,1,0.0,German,False,0.0
+zsre-541,23 March 2012,4,1,1,1.0,23 March 2012,False,0.0
+zsre-542,23 March 2012,1,1,1,1.0,23 March 2012,False,0.0
+zsre-544,William Boyd,1,1,1,0.0,Blue Sky Studios,False,0.0
+zsre-547,stroke,3,1,1,1.0,stroke,False,0.0
+zsre-548,stroke,0,1,1,1.0,stroke,False,0.0
+zsre-549,stroke,2,1,1,1.0,stroke,False,0.0
+zsre-551,stroke,0,1,1,1.0,stroke,False,0.0
+zsre-552,stroke,4,1,1,1.0,stroke,False,0.0
+zsre-553,stroke,2,1,1,1.0,stroke,False,0.0
+zsre-554,Doctor Who,4,1,1,0.0,The Twilight Zone,False,0.0
+zsre-562,6 August 1961,4,1,1,1.0,6 August 1961,False,0.0
+zsre-564,6 August 1961,3,1,1,1.0,6 August 1961,False,0.0
+zsre-565,6 August 1961,3,1,1,1.0,6 August 1961,False,0.0
+zsre-57,defender,0,1,1,1.0,defender,False,0.0
+zsre-575,1973,0,1,1,0.0,23 March 2012,False,0.0
+zsre-578,Han Suk-kyu,2,1,1,0.0,Hugo Borchardt,False,0.0
+zsre-580,26 November 1946,0,1,1,0.0,1962,False,0.0
+zsre-581,Yoshkar-Ola,1,1,1,0.0,Lebanon,False,0.0
+zsre-583,1994,3,1,1,0.0,1958,False,0.0
+zsre-584,French,2,1,1,1.0,French,False,0.0
+zsre-588,Parkinson's disease,4,1,1,1.0,Parkinson's disease,False,0.0
+zsre-592,Parkinson's disease,3,1,1,1.0,Parkinson's disease,False,0.0
+zsre-595,Parkinson's disease,0,1,1,1.0,Parkinson's disease,False,0.0
+zsre-596,Parkinson's disease,4,1,1,1.0,Parkinson's disease,False,0.0
+zsre-598,Parkinson's disease,1,1,1,1.0,Parkinson's disease,False,0.0
+zsre-599,Parkinson's disease,0,1,1,1.0,Parkinson's disease,False,0.0
+zsre-6,Eliel Saarinen,4,1,1,1.0,Eliel Saarinen,False,0.0
+zsre-601,Parkinson's disease,3,1,1,1.0,Parkinson's disease,False,0.0
+zsre-604,17 July 1957,2,1,1,0.0,1904,False,0.0
+zsre-614,French,1,1,1,1.0,French,False,0.0
+zsre-615,Manitoba,3,1,1,0.0,Antarctica,False,0.0
+zsre-616,University of Arizona,1,1,1,0.0,Blue Sky Studios,False,0.0
+zsre-625,Music for Nations,1,1,1,0.0,Motown,False,0.0
+zsre-631,paraplegia,0,1,1,0.0,Parkinson's disease,False,0.0
+zsre-633,paraplegia,0,1,1,0.0,Parkinson's disease,False,0.0
+zsre-64,1904,3,1,1,0.0,17 July 1957,False,0.0
+zsre-647,Lalla Latifa,3,1,1,0.0,Landgravine Josepha of Fürstenberg-Weitra,False,0.0
+zsre-660,Adelebsen,3,1,1,0.0,Paris,False,0.0
+zsre-663,Leiden,4,1,1,0.0,Paris,False,0.0
+zsre-664,Paris,3,1,1,0.0,Tervuren,False,0.0
+zsre-669,Lausanne,4,1,1,0.0,Paris,False,0.0
+zsre-670,Vera Ellen,3,1,1,0.0,Russ Meyer,False,0.0
+zsre-672,Manchester,1,1,1,1.0,Manchester,False,0.0
+zsre-673,Manchester,0,1,1,1.0,Manchester,False,0.0
+zsre-675,Manchester,2,1,1,1.0,Manchester,False,0.0
+zsre-678,Antarctica,2,1,1,1.0,Antarctica,False,0.0
+zsre-682,Agency for Defense Development,0,1,1,0.0,Lockheed Martin,False,0.0
+zsre-686,Lyra,3,1,1,0.0,Eridanus,False,0.0
+zsre-689,Jascha Heifetz,2,1,1,0.0,Lars Bom,False,0.0
+zsre-691,painter,3,1,1,0.0,French,False,0.0
+zsre-699,Peninsular War,2,1,1,0.0,World War II,False,0.0
+zsre-7,Eliel Saarinen,2,1,1,1.0,Eliel Saarinen,False,0.0
+zsre-701,Pennsylvania,2,1,1,0.0,Manchester,False,1.0
+zsre-705,Metz,2,1,1,0.0,French,False,0.0
+zsre-706,2012,3,1,1,0.0,1985,False,0.0
+zsre-708,Arthur Askey,0,1,1,1.0,Arthur Askey,False,0.0
+zsre-709,Arthur Askey,2,1,1,1.0,Arthur Askey,False,0.0
+zsre-710,Rubiaceae,3,1,1,0.0,Alestidae,False,0.0
+zsre-722,1849,2,1,1,0.0,1915,False,0.0
+zsre-723,Elyne Mitchell,1,1,1,1.0,Elyne Mitchell,False,0.0
+zsre-724,Elyne Mitchell,2,1,1,1.0,Elyne Mitchell,False,0.0
+zsre-726,Hugo Borchardt,0,1,1,1.0,Hugo Borchardt,False,0.0
+zsre-728,Hugo Borchardt,1,1,1,1.0,Hugo Borchardt,False,0.0
+zsre-729,Hugo Borchardt,2,1,1,1.0,Hugo Borchardt,False,0.0
+zsre-73,1958,4,1,1,1.0,1958,False,0.0
+zsre-730,Hugo Borchardt,2,1,1,1.0,Hugo Borchardt,False,0.0
+zsre-731,Hugo Borchardt,2,1,1,1.0,Hugo Borchardt,False,0.0
+zsre-733,2002,3,1,1,0.0,1970,False,0.0
+zsre-735,2002,3,1,1,0.0,1970,False,0.0
+zsre-745,Val Kilmer,1,1,1,0.0,Alan Thicke,False,0.0
+zsre-746,2001,2,1,1,0.0,Marathi,False,0.0
+zsre-747,Frances Jacson,0,1,1,1.0,Frances Jacson,False,0.0
+zsre-748,Frances Jacson,4,1,1,1.0,Frances Jacson,False,0.0
+zsre-75,1958,0,1,1,1.0,1958,False,0.0
+zsre-754,2015,1,1,1,1.0,2015,False,0.0
+zsre-755,2015,1,1,1,1.0,2015,False,0.0
+zsre-756,2015,4,1,1,1.0,2015,False,0.0
+zsre-757,Mississippi River,4,1,1,1.0,Mississippi River,False,0.0
+zsre-758,Mississippi River,3,1,1,1.0,Mississippi River,False,0.0
+zsre-76,1958,3,1,1,1.0,1958,False,0.0
+zsre-762,Philadelphia,4,1,1,0.0,1958,False,0.0
+zsre-764,Ettore Maria Fizzarotti,2,1,1,0.0,Girolamo Cassar,False,0.0
+zsre-765,1953,4,1,1,0.0,8 January 1979,False,0.0
+zsre-766,Marathi,2,1,1,1.0,Marathi,False,0.0
+zsre-767,Marathi,1,1,1,1.0,Marathi,False,0.0
+zsre-771,forward,1,1,1,0.0,defender,False,0.0
+zsre-773,Chilperic I,3,1,1,1.0,Chilperic I,False,0.0
+zsre-774,Chilperic I,1,1,1,1.0,Chilperic I,False,0.0
+zsre-775,Chilperic I,1,1,1,1.0,Chilperic I,False,0.0
+zsre-78,1958,2,1,1,1.0,1958,False,0.0
+zsre-782,Adam,1,1,1,0.0,Oedipus,False,0.0
+zsre-789,June 2012,0,1,1,1.0,June 2012,False,0.0
+zsre-79,1958,2,1,1,1.0,1958,False,0.0
+zsre-792,June 2012,3,1,1,1.0,June 2012,False,0.0
+zsre-793,June 2012,1,1,1,1.0,June 2012,False,0.0
+zsre-794,June 2012,2,1,1,1.0,June 2012,False,0.0
+zsre-795,June 2012,2,1,1,1.0,June 2012,False,0.0
+zsre-798,June 2012,0,1,1,1.0,June 2012,False,0.0
+zsre-799,June 2012,0,1,1,1.0,June 2012,False,0.0
+zsre-8,Eliel Saarinen,1,1,1,1.0,Eliel Saarinen,False,0.0
+zsre-800,June 2012,2,1,1,1.0,June 2012,False,0.0
+zsre-801,June 2012,4,1,1,1.0,June 2012,False,0.0
+zsre-802,June 2012,1,1,1,1.0,June 2012,False,0.0
+zsre-803,June 2012,3,1,1,1.0,June 2012,False,0.0
+zsre-804,June 2012,3,1,1,1.0,June 2012,False,0.0
+zsre-811,Holger Sinding-Larsen,3,1,1,1.0,Holger Sinding-Larsen,False,0.0
+zsre-812,Holger Sinding-Larsen,1,1,1,1.0,Holger Sinding-Larsen,False,0.0
+zsre-813,Holger Sinding-Larsen,4,1,1,1.0,Holger Sinding-Larsen,False,0.0
+zsre-814,Holger Sinding-Larsen,2,1,1,1.0,Holger Sinding-Larsen,False,0.0
+zsre-815,Holger Sinding-Larsen,2,1,1,1.0,Holger Sinding-Larsen,False,0.0
+zsre-816,Holger Sinding-Larsen,2,1,1,1.0,Holger Sinding-Larsen,False,0.0
+zsre-818,Holger Sinding-Larsen,2,1,1,1.0,Holger Sinding-Larsen,False,0.0
+zsre-821,Greek War of Independence,0,1,1,0.0,French,False,0.0
+zsre-824,Mahabad,4,1,1,0.0,Gaziantep,False,0.0
+zsre-827,Savonlinna,1,1,1,0.0,Birmingham,False,0.0
+zsre-828,10 October 1982,0,1,1,0.0,1928,False,0.0
+zsre-829,1820,2,1,1,0.0,1985,False,0.0
+zsre-83,Antarctica,1,1,1,1.0,Antarctica,False,0.0
+zsre-830,Annual Reviews,4,1,1,0.0,Cambridge University Press,False,0.0
+zsre-837,1962,3,1,1,0.0,7 November 1973,False,0.0
+zsre-840,French,4,1,1,1.0,French,False,0.0
+zsre-841,Antarctica,2,1,1,1.0,Antarctica,False,0.0
+zsre-843,DuMont Television Network,3,1,1,1.0,DuMont Television Network,False,0.0
+zsre-844,DuMont Television Network,1,1,1,1.0,DuMont Television Network,False,0.0
+zsre-845,DuMont Television Network,2,1,1,1.0,DuMont Television Network,False,0.0
+zsre-846,Maclean Rogers,2,1,1,0.0,Oliver Hardy,False,0.0
+zsre-849,Westinghouse Electric,0,1,1,1.0,Westinghouse Electric,False,0.0
+zsre-85,Roanoke River,4,1,1,0.0,Manning River,False,0.0
+zsre-850,Westinghouse Electric,1,1,1,1.0,Westinghouse Electric,False,0.0
+zsre-851,Westinghouse Electric,1,1,1,1.0,Westinghouse Electric,False,0.0
+zsre-852,Westinghouse Electric,2,1,1,1.0,Westinghouse Electric,False,0.0
+zsre-853,Westinghouse Electric,1,1,1,1.0,Westinghouse Electric,False,0.0
+zsre-857,1970,0,1,1,0.0,1 May 2000,False,0.0
+zsre-860,31 January 2001,4,1,1,0.0,1793,False,0.0
+zsre-861,Olga Fialka,3,1,1,0.0,Juliana of Stolberg,False,0.0
+zsre-863,Olga Fialka,3,1,1,0.0,Juliana of Stolberg,False,0.0
+zsre-865,1062,0,1,1,1.0,1062,False,0.0
+zsre-866,1062,2,1,1,1.0,1062,False,0.0
+zsre-872,Torchwood,3,1,1,1.0,Torchwood,False,0.0
+zsre-873,Torchwood,1,1,1,1.0,Torchwood,False,0.0
+zsre-874,Torchwood,4,1,1,1.0,Torchwood,False,0.0
+zsre-875,Torchwood,3,1,1,1.0,Torchwood,False,0.0
+zsre-89,1990,4,1,1,0.0,2002,False,0.0
+zsre-896,French,0,1,1,1.0,French,False,0.0
+zsre-897,Grand Vizier of the Ottoman Empire,4,1,1,0.0,Greek War of Independence,False,0.0
+zsre-9,Eliel Saarinen,4,1,1,1.0,Eliel Saarinen,False,0.0
+zsre-919,Zhmerynka,4,1,1,0.0,Yerevan,False,0.0
+zsre-921,Eridanus,1,1,1,0.0,Sculptor,False,0.0
+zsre-923,Uthangarai taluk,3,1,1,0.0,Kozhikode district,False,0.0
+zsre-924,Koei,0,1,1,1.0,Koei,False,0.0
+zsre-926,Koei,3,1,1,1.0,Koei,False,0.0
+zsre-928,7 November 1973,0,1,1,0.0,1942,False,0.0
+zsre-932,1793,0,1,1,1.0,1793,False,0.0
+zsre-933,1793,1,1,1,1.0,1793,False,0.0
+zsre-934,1793,2,1,1,1.0,1793,False,0.0
+zsre-940,1915,3,1,1,0.0,1849,False,0.0
+zsre-954,Nani,4,1,1,0.0,Marathi,False,0.0
+zsre-955,1942,4,1,1,0.0,7 November 1973,False,0.0
+zsre-964,1895,3,1,1,0.0,1892,False,0.0
+zsre-965,1478,3,1,1,0.0,12 July 1944,False,0.0
+zsre-967,smallpox,2,1,1,0.0,lung cancer,False,0.0
+zsre-968,American Locomotive Company,0,1,1,1.0,American Locomotive Company,False,0.0
+zsre-969,American Locomotive Company,3,1,1,1.0,American Locomotive Company,False,0.0
+zsre-970,American Locomotive Company,2,1,1,1.0,American Locomotive Company,False,0.0
+zsre-972,2004,2,1,1,0.0,1 October 1990,False,0.0
+zsre-978,Suffolk,2,1,1,0.0,Nariño Department,False,0.0
+zsre-979,Gaziantep,0,1,1,0.0,Lebanon,False,0.0
+zsre-980,French,4,1,1,1.0,French,False,0.0
+zsre-982,1985,0,1,1,0.0,2012,False,0.0
+zsre-983,Grand Canal,2,1,1,1.0,Grand Canal,False,0.0
+zsre-984,Grand Canal,1,1,1,1.0,Grand Canal,False,0.0
+zsre-985,Grand Canal,3,1,1,1.0,Grand Canal,False,0.0
+zsre-991,Erich Engel,0,1,1,0.0,Russ Meyer,False,0.0
+zsre-993,World War II,4,1,1,0.0,World War I,False,0.0
+zsre-994,CNBC,3,1,1,0.0,ITV,False,0.0
+zsre-999,Oedipus,1,1,1,1.0,Oedipus,False,0.0

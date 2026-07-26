@@ -63,6 +63,14 @@ checkpoints/
 coverage.json
 coverage.xml
 
+# LaTeX build files (keep the report source and final PDF)
+/reports/*.aux
+/reports/*.fdb_latexmk
+/reports/*.fls
+/reports/*.log
+/reports/*.out
+/reports/*.synctex.gz
+
 # Data
 *.jsonl
 *.json

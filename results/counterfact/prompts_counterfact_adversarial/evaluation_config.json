@@ -1,0 +1,40 @@
+{
+  "adversarial": {
+    "count": 3,
+    "epsilons": [
+      0.01,
+      0.02,
+      0.05
+    ],
+    "rho": 0.85,
+    "seed": 0,
+    "templates": [
+      "verbatim",
+      "hyphenated",
+      "letter-spaced",
+      "prefix-cue"
+    ],
+    "topology": "single"
+  },
+  "audit_schema_version": 2,
+  "backend": {
+    "class": "models.co_lmlm.backend.CoLMLMAuditBackend",
+    "index_path": "/home/ubuntu/HALO/data/co-lmlm-wiki-index",
+    "model_path": "lil-lab/CoLMLM-360M-FW",
+    "release_source": "/home/ubuntu/Co-LMLM",
+    "similarity_threshold": 0.7
+  },
+  "closure": {
+    "envelope_top_k": 500,
+    "max_closure_size": 10000,
+    "predicates": [
+      "geometric"
+    ],
+    "radius": 0.85
+  },
+  "del_off_mode": "null-retrieval",
+  "limit": null,
+  "max_new_tokens": 12,
+  "mode": "adversarial",
+  "prompt_sha256": "11d51a16749f0a265d97ae207836d62182483780da8d1a2b67ed656648787c0e"
+}
