@@ -10,7 +10,7 @@ from pathlib import Path
 LAMA_URL = "https://dl.fbaipublicfiles.com/LAMA/data.zip"
 
 # One prompt per fact (uuid). A seeded shuffle picks a stable slice.
-LIMIT: int | None = 1500
+LIMIT: int | None = None
 SEED = 0
 # The prefix must be long enough to carry context and must mention the
 # subject, so the model knows which entity the sentence is about.

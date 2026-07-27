@@ -12,13 +12,13 @@
 # <prompts>_full/ directory). Every phase is resumable, so if the suite dies
 # partway, re-running it skips everything already on disk.
 #
-# Wall-clock tip: phase 2 shards cleanly by radius. Run one single-radius
-# sweep first (e.g. RADIUS_GRID=0.95:0.95:0.05) so the shared FULL pass is
-# materialized, then launch the remaining radii as parallel processes (one
-# GPU each, same OUTPUT_DIR — each writes its own sweep_rho_*.jsonl), and
-# finally re-run the full grid: it resumes every per-radius file and only
-# computes the analysis. Do NOT shard by prompt file subsets — neighbor
-# sets N(f) are defined within a prompt file.
+# Wall-clock tip: SUITE_WORKERS=N runs each phase as N single-GPU worker
+# processes (batch size stays 1 per worker; the mmap'd index shares page
+# cache), then one finalize pass that merges the shards and computes the
+# analysis. The standard/adversarial/del-off/policy phases stripe by fact
+# (--shard I/N); the sweep stripes by radius (--sweep-shard-radii I/N) after
+# a prep run materializes the shared FULL pass. Do NOT shard the sweep by
+# prompt subsets — neighbor sets N(f) are defined within a prompt file.
 #
 # The suite runs every published evaluation by default: the three phases
 # above, plus the DEL-OFF sensitivity control and the deletion-policy matrix.
@@ -33,7 +33,8 @@
 #
 # Optional:  CO_LMLM_DIR (defaults to ../Co-LMLM next to this repo; cloned
 #            from GitHub if absent), INDEX_DIR, PROMPTS, OUTPUT_DIR,
-#            SUITE_PHASES, STANDARD_CLOSURE, SWEEP_CLOSURE,
+#            SUITE_PHASES, SUITE_WORKERS (parallel single-GPU workers per
+#            phase; default 1), STANDARD_CLOSURE, SWEEP_CLOSURE,
 #            ADVERSARIAL_CLOSURE, RADIUS_GRID, NEIGHBOR_MODE,
 #            NEIGHBOR_MIN_COUNT, DEL_OFF_MODE
 # Extra flags are passed through to every phase, so keep --limit consistent
@@ -58,6 +59,13 @@ case "$INDEX_DIR" in /*) ;; *) INDEX_DIR="$PWD/$INDEX_DIR" ;; esac
 case "$PROMPTS" in /*) ;; *) PROMPTS="$PWD/$PROMPTS" ;; esac
 case "$OUTPUT_DIR" in /*) ;; *) OUTPUT_DIR="$PWD/$OUTPUT_DIR" ;; esac
 
+# One shared FULL pass serves every phase: the standard audit produces it,
+# the sweep/adversarial phases resume it, and the del-off/policy phases
+# consume it (plus phase 1's results for their manifest-independent rows).
+STEM="$(basename "$PROMPTS" .jsonl)"
+SHARED_FULL_DIR="$OUTPUT_DIR/${STEM}_full"
+PHASE1_RESULTS="$OUTPUT_DIR/${STEM}_results.jsonl"
+
 # Radius-dependent evaluations use geometric closure only.
 STANDARD_CLOSURE="${STANDARD_CLOSURE:-${CLOSURE:-geometric,value}}"
 SWEEP_CLOSURE="${SWEEP_CLOSURE:-geometric}"
@@ -66,6 +74,8 @@ RADIUS_GRID="${RADIUS_GRID:-0.95:0.70:0.05}"
 NEIGHBOR_MODE="${NEIGHBOR_MODE:-cosine}"
 NEIGHBOR_MIN_COUNT="${NEIGHBOR_MIN_COUNT:-5}"
 DEL_OFF_MODE="${DEL_OFF_MODE:-null-retrieval}"
+SUITE_WORKERS="${SUITE_WORKERS:-1}"
+export SUITE_WORKERS  # delegated phases shard through run_audit_co_lmlm.sh
 
 ALL_PHASES="standard,sweep,adversarial,del-off,policy"
 case "${SUITE_PHASES:-all}" in
@@ -190,21 +200,72 @@ run_audit() {
         "$@"
 }
 
+wait_for_workers() {
+    local failed=0 pid
+    for pid in "$@"; do
+        wait "$pid" || failed=1
+    done
+    if [ "$failed" -ne 0 ]; then
+        echo "error: an audit worker failed; see $OUTPUT_DIR/run_audit.*shard*.log" >&2
+        exit 1
+    fi
+}
+
+# N fact-striped workers, then one finalize run that merges the stripes and
+# writes the canonical outputs. With one worker this is a plain run.
+run_sharded() {
+    if [ "$SUITE_WORKERS" -le 1 ]; then
+        run_audit "$@"
+        return
+    fi
+    local pids=() i
+    for ((i = 0; i < SUITE_WORKERS; i++)); do
+        run_audit "$@" --shard "$i/$SUITE_WORKERS" \
+            --log-file "$OUTPUT_DIR/run_audit.shard$i.log" &
+        pids+=($!)
+    done
+    wait_for_workers "${pids[@]}"
+    run_audit "$@"
+}
+
+# Sweep sharding is by radius: a prep run materializes the shared FULL pass,
+# closures, and neighbors (so radius workers never race to create them),
+# each worker owns a radius stripe, and the full-grid finalize run resumes
+# every per-radius file and computes the analysis.
+run_sweep_sharded() {
+    if [ "$SUITE_WORKERS" -le 1 ]; then
+        run_audit "$@"
+        return
+    fi
+    run_audit "$@" --sweep-shard-radii none
+    local pids=() i
+    for ((i = 0; i < SUITE_WORKERS; i++)); do
+        run_audit "$@" --sweep-shard-radii "$i/$SUITE_WORKERS" \
+            --log-file "$OUTPUT_DIR/run_audit.sweep-shard$i.log" &
+        pids+=($!)
+    done
+    wait_for_workers "${pids[@]}"
+    run_audit "$@"
+}
+
 if phase_enabled standard; then
     announce "standard audit (L(f), R(f), I(f), probe, closure manifests)"
-    run_audit --closure "$STANDARD_CLOSURE" "$@"
+    run_sharded --closure "$STANDARD_CLOSURE" --full-dir "$SHARED_FULL_DIR" "$@"
 fi
 
 if phase_enabled sweep; then
     announce "entanglement sweep (operating curves, G(f))"
-    run_audit --closure "$SWEEP_CLOSURE" --radius-grid "$RADIUS_GRID" \
+    run_sweep_sharded --closure "$SWEEP_CLOSURE" --radius-grid "$RADIUS_GRID" \
+        --full-dir "$SHARED_FULL_DIR" \
         --neighbor-mode "$NEIGHBOR_MODE" \
         --neighbor-min-count "$NEIGHBOR_MIN_COUNT" "$@"
 fi
 
 if phase_enabled adversarial; then
     announce "adversarial closure (attack attribution, margin predictor)"
-    run_audit --closure "$ADVERSARIAL_CLOSURE" --adversarial "$@"
+    run_sharded --closure "$ADVERSARIAL_CLOSURE" --adversarial \
+        --full-dir "$SHARED_FULL_DIR" \
+        --reuse-from "$PHASE1_RESULTS" "$@"
 fi
 
 # The remaining phases delegate to the standalone scripts so the two entry
@@ -226,6 +287,7 @@ if phase_enabled del-off; then
     fi
     CO_LMLM_DIR="$CO_LMLM_DIR" INDEX_DIR="$INDEX_DIR" PROMPTS="$PROMPTS" \
     OUTPUT_DIR="$OUTPUT_DIR/del_off_sensitivity" \
+    FULL_DIR="$SHARED_FULL_DIR" REUSE_FROM="$PHASE1_RESULTS" \
     STANDARD_CLOSURE="$STANDARD_CLOSURE" DEL_OFF_MODES="$sensitivity_modes" \
         "$REPO_ROOT/scripts/run_del_off_sensitivity_co_lmlm.sh" "$@"
 fi
@@ -236,6 +298,7 @@ if phase_enabled policy; then
     announce "deletion-policy matrix (oracle, geometric, value, provenance, hybrid)"
     CO_LMLM_DIR="$CO_LMLM_DIR" INDEX_DIR="$INDEX_DIR" PROMPTS="$PROMPTS" \
     OUTPUT_DIR="$OUTPUT_DIR/policy_matrix" DEL_OFF_MODE="$DEL_OFF_MODE" \
+    FULL_DIR="$SHARED_FULL_DIR" REUSE_FROM="$PHASE1_RESULTS" \
         "$REPO_ROOT/scripts/run_policy_matrix_co_lmlm.sh" "$@"
 fi
 

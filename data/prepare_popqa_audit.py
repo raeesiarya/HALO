@@ -12,7 +12,7 @@ POPQA_SPLIT = "test"
 # entry to literally contain the answer. Set to None to keep every entity.
 MIN_POPULARITY: float | None = 10_000.0
 # Cap on the number of facts (None = all). A seeded shuffle picks a stable slice.
-LIMIT: int | None = 1500
+LIMIT: int | None = None
 SEED = 0
 
 OUTPUT_DIR = Path(__file__).resolve().parent

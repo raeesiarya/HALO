@@ -31,7 +31,7 @@ from pathlib import Path
 ZSRE_URL = "https://rome.baulab.info/data/dsets/zsre_mend_eval.json"
 
 # Cap on the number of facts (None = all): one fact-level row each.
-LIMIT: int | None = 1500
+LIMIT: int | None = None
 # Also write rephrase rows to a separate *_variants.jsonl.
 EMIT_VARIANTS = os.environ.get("EMIT_VARIANTS", "") not in ("", "0", "false")
 ANSWER_STUB = "\nThe answer is"

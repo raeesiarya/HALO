@@ -430,10 +430,10 @@ def _safe_filename(key: str) -> str:
 
 
 def write_closure_artifact(closure: ClosureResult, path: Path) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
-        json.dumps(closure.as_dict(), indent=2, sort_keys=True),
-        encoding="utf-8",
+    from halo.cli.persistence import atomic_write_text
+
+    atomic_write_text(
+        path, json.dumps(closure.as_dict(), indent=2, sort_keys=True)
     )
 
 

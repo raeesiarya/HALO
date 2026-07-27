@@ -336,6 +336,26 @@ class CoLMLMAuditBackend:
             return None
         return manifest_reuse_fingerprint(manifest)
 
+    def cross_phase_fingerprint(
+        self, state: DatabaseState, manifest: DeletionManifest
+    ) -> Hashable | None:
+        """Capability hook: with greedy decoding, output is a pure function of
+        (prompt, state, effective retrieval filter). FULL never consults the
+        manifest; DEL-OFF either nulls every candidate (null-retrieval) or
+        skips retrieval entirely (forbid-token), independent of the manifest;
+        DEL-ON reduces to the retrieval-filter fingerprint. No claim while
+        adversarial injections are active."""
+        if self.injections:
+            return None
+        if state is DatabaseState.FULL:
+            return ("FULL",)
+        if state is DatabaseState.DEL_OFF:
+            return ("DEL-OFF", self.del_off_mode)
+        inner = manifest_reuse_fingerprint(manifest)
+        if inner is None:
+            return None
+        return ("DEL-ON", inner)
+
     def full_row_unaffected(
         self, full_row: Mapping[str, Any], manifest: DeletionManifest
     ) -> bool:

@@ -73,6 +73,57 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
             "answer is visible as the oracle deletion ID."
         ),
     )
+    reuse = parser.add_argument_group("generation reuse / sharding")
+    reuse.add_argument(
+        "--full-dir",
+        type=Path,
+        default=None,
+        help=(
+            "Shared FULL-pass directory. The standard audit produces and "
+            "consumes it (making its FULL rows resumable and shareable); the "
+            "sweep and adversarial evaluations use it instead of their "
+            "default <output-dir>/<prompts>_full."
+        ),
+    )
+    reuse.add_argument(
+        "--reuse-from",
+        type=Path,
+        action="append",
+        default=None,
+        metavar="RESULTS_JSONL",
+        help=(
+            "Standard-audit results file whose provably-equivalent rows "
+            "(FULL, DEL-OFF, fingerprint-matching DEL-ON) are served instead "
+            "of regenerated. Repeatable; sibling _query_embeddings.npz and "
+            "_audit_config.json sidecars are auto-discovered. A missing file "
+            "is skipped with a warning."
+        ),
+    )
+    reuse.add_argument(
+        "--shard",
+        type=str,
+        default=None,
+        metavar="I/N",
+        help=(
+            "Generate only facts with row_index %% N == I, appending to "
+            "shard partials without writing canonical outputs or metrics. "
+            "A later invocation without --shard merges and finalizes. "
+            "Incompatible with --radius-grid (use --sweep-shard-radii)."
+        ),
+    )
+    reuse.add_argument(
+        "--sweep-shard-radii",
+        type=str,
+        default=None,
+        metavar="SPEC",
+        help=(
+            "Execute only a subset of the --radius-grid radii: 'I/N' for a "
+            "round-robin stripe, an explicit comma list of grid members, or "
+            "'none' to only materialize the shared FULL pass, closures, and "
+            "neighbors. The full grid stays the resume identity, so parallel "
+            "single-radius processes no longer conflict."
+        ),
+    )
     closure = parser.add_argument_group("deletion closure / interventions")
     closure.add_argument(
         "--closure",
@@ -148,9 +199,10 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         type=float,
         default=0.01,
         help=(
-            "Fraction of sweep generations eligible for backend reuse fast "
-            "paths to re-execute anyway and assert equal to the reused row "
-            "(a soundness check on the backend's capability hooks). "
+            "Fraction of generations eligible for reuse fast paths (the "
+            "sweep's in-run hooks and cross-phase --reuse-from serving) to "
+            "re-execute anyway and assert equal to the reused row (a "
+            "soundness check on the backend's capability hooks). "
             "0 disables the canary."
         ),
     )

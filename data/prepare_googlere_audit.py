@@ -9,7 +9,7 @@ from pathlib import Path
 LAMA_URL = "https://dl.fbaipublicfiles.com/LAMA/data.zip"
 
 # One prompt per fact. Cap on the number of facts (None = all).
-LIMIT: int | None = 1500
+LIMIT: int | None = None
 # Facts kept per relation, so place_of_birth does not fill the whole slice
 # before place_of_death is reached.
 MAX_FACTS_PER_RELATION: int | None = 750

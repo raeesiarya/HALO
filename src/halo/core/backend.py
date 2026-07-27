@@ -41,6 +41,14 @@ class AuditBackend(Protocol):
         from the FULL row instead of generated. Only return True under a
         soundness argument for this specific model; return False when in
         doubt.
+
+    ``cross_phase_fingerprint(state, manifest) -> Hashable | None``
+        "For a fixed prompt and max_new_tokens, my output and full trace in
+        ``state`` depend on the run configuration only through this value
+        (modulo the stamped manifest bookkeeping fields)." Two audit runs
+        whose fingerprints match for the same prompt produce identical rows,
+        so the later run reuses the earlier one's. Requires deterministic
+        decoding. Return None to make no claim.
     """
 
     def generate(
@@ -61,6 +69,19 @@ def backend_manifest_fingerprint(
     if hook is None:
         return None
     return hook(manifest)
+
+
+def backend_cross_phase_fingerprint(
+    backend: AuditBackend,
+    state: DatabaseState,
+    manifest: DeletionManifest,
+) -> Hashable | None:
+    """The backend's cross-phase generation fingerprint for ``state``, or
+    None when it makes no claim."""
+    hook = getattr(backend, "cross_phase_fingerprint", None)
+    if hook is None:
+        return None
+    return hook(state, manifest)
 
 
 def backend_full_row_unaffected(

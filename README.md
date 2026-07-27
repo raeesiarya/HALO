@@ -102,17 +102,29 @@ control, and the deletion-policy matrix. All of them run by default:
 ./scripts/run_audit_suite_co_lmlm.sh
 ```
 
-The phases execute sequentially and share a `FULL` pass where applicable.
-Partial evaluations resume from disk. Each phase writes to a separate output
-subdirectory named `<mode>`.
+The phases execute sequentially and share one `FULL` pass: the standard
+audit produces it, and every later phase consumes it instead of
+regenerating. The del-off and policy phases additionally reuse phase 1's
+provably equivalent rows (`FULL` never consults the deletion manifest and
+`DEL-OFF` is manifest-independent, so with greedy decoding the rows are
+byte-identical); a deterministic canary re-executes a `--reuse-canary-rate`
+fraction of served rows and aborts on any mismatch. Every phase resumes
+per fact (or per radius) from disk, so an interrupted suite continues where
+it stopped.
+
+`SUITE_WORKERS=N` runs each phase as N parallel single-GPU worker
+processes (batch size stays 1 per worker; the memory-mapped index shares
+one page cache) followed by a finalize pass that merges the shards —
+outputs are identical to a sequential run.
 
 The standard audit uses `geometric,value` closure by default, where `value` is
 an oracle filter supplied with the ground-truth answer and aliases at
 inference time. Radius and adversarial evaluations use `geometric` alone.
 Relevant configuration variables
-are `SUITE_PHASES`, `STANDARD_CLOSURE`, `SWEEP_CLOSURE`, `ADVERSARIAL_CLOSURE`,
-`RADIUS_GRID`, `NEIGHBOR_MODE`, `NEIGHBOR_MIN_COUNT`, and `DEL_OFF_MODE`. The
-legacy predicate name `semantic` is accepted as an alias for `value`.
+are `SUITE_PHASES`, `SUITE_WORKERS`, `STANDARD_CLOSURE`, `SWEEP_CLOSURE`,
+`ADVERSARIAL_CLOSURE`, `RADIUS_GRID`, `NEIGHBOR_MODE`, `NEIGHBOR_MIN_COUNT`,
+and `DEL_OFF_MODE`. The legacy predicate name `semantic` is accepted as an
+alias for `value`.
 
 `SUITE_PHASES` narrows the run when needed: `all` (the default), `core`
 (`standard`, `sweep`, `adversarial` only), or an explicit comma-separated

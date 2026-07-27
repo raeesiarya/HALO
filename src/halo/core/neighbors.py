@@ -110,7 +110,8 @@ def write_neighbors_file(
     config: NeighborConfig,
     path: Path,
 ) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
+    from halo.cli.persistence import atomic_write_text
+
     payload = {
         "config": {
             "mode": config.mode,
@@ -120,6 +121,6 @@ def write_neighbors_file(
         },
         "neighbors": {key: list(items) for key, items in neighbors.items()},
     }
-    path.write_text(
-        json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8"
-    )
+    # Atomic so concurrent radius shards (which all derive the identical
+    # payload) never expose a torn file.
+    atomic_write_text(path, json.dumps(payload, indent=2, sort_keys=True))

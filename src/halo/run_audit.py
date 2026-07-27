@@ -6,7 +6,16 @@ from halo.cli.closure_setup import (
     closure_config_from_args,
     make_closure_manifest_builder,
 )
+from halo.cli.full_pass import FullPassStore
 from halo.cli.jobs import AuditJob, resolve_audit_jobs
+from halo.cli.persistence import (
+    AUDIT_SCHEMA_VERSION,
+    backend_resume_identity,
+    ensure_resume_config,
+    parse_shard,
+    prompt_digest,
+)
+from halo.cli.reuse import GenerationReuseStore, ReuseContext
 from halo.core.embeddings import QueryEmbeddingSink
 from halo.core.metrics import metrics_total
 from halo.registry import get_backend_spec
@@ -18,11 +27,61 @@ from halo.cli.reporting import (
     write_metrics_csvs,
 )
 from halo.cli.runner import (
+    StandardAuditPersistence,
+    _load_examples,
     run_adversarial_eval,
     run_backend_audit,
     run_entanglement_sweep,
 )
 from halo.core.states import DatabaseState
+
+
+def _parse_sweep_shard_radii(
+    spec: str | None, radii: tuple[float, ...]
+) -> tuple[float, ...] | None:
+    """Resolve --sweep-shard-radii against the full grid: 'none' materializes
+    only, 'I/N' takes a round-robin stripe, a comma list names grid members."""
+    if spec is None:
+        return None
+    spec = spec.strip()
+    if spec == "none":
+        return ()
+    if "/" in spec:
+        index, count = parse_shard(spec)
+        return tuple(radii[index::count])
+    members = tuple(round(float(value), 6) for value in spec.split(",") if value.strip())
+    unknown = [rho for rho in members if rho not in radii]
+    if unknown:
+        raise ValueError(
+            f"--sweep-shard-radii members {unknown} are not in the radius "
+            f"grid {list(radii)}."
+        )
+    return members
+
+
+def _build_reuse_store(
+    args: Any,
+    backend: Any,
+    job: AuditJob,
+    reuse_paths: tuple,
+    output_dir: Any,
+    logger: AuditLogger,
+) -> GenerationReuseStore:
+    return GenerationReuseStore(
+        backend=backend,
+        context=ReuseContext(
+            backend_identity=backend_resume_identity(backend),
+            prompt_sha256=prompt_digest(job.prompt_path),
+            limit=args.limit,
+            max_new_tokens=args.max_new_tokens,
+            del_off_mode=getattr(backend, "del_off_mode", None),
+        ),
+        source_paths=reuse_paths,
+        canary_rate=args.reuse_canary_rate,
+        max_new_tokens=args.max_new_tokens,
+        output_dir=output_dir,
+        log=logger.print,
+    )
 
 
 def main() -> None:
@@ -87,6 +146,17 @@ def main() -> None:
                     "radius and therefore requires geometric in --closure."
                 )
 
+        shard = parse_shard(args.shard) if args.shard is not None else None
+        reuse_paths = tuple(args.reuse_from or ())
+        if shard is not None and args.radius_grid is not None:
+            raise ValueError(
+                "--shard stripes facts and is incompatible with "
+                "--radius-grid; use --sweep-shard-radii to shard the sweep "
+                "by radius."
+            )
+        if args.sweep_shard_radii is not None and args.radius_grid is None:
+            raise ValueError("--sweep-shard-radii requires --radius-grid.")
+
         jobs = resolve_audit_jobs(args)
         if not jobs:
             raise FileNotFoundError(
@@ -112,8 +182,9 @@ def main() -> None:
                 logger.print(f"Prompt file: {job.prompt_path}")
                 logger.print(f"Database used: {database_path}")
 
-                # Sweep and adversarial share one FULL pass per prompt file.
-                shared_full_dir = (
+                # All evaluation modes can share one FULL pass per prompt
+                # file; --full-dir overrides the default location.
+                shared_full_dir = args.full_dir or (
                     job.output_path.parent / f"{job.prompt_path.stem}_full"
                 )
 
@@ -122,6 +193,13 @@ def main() -> None:
 
                     adversarial_dir = (
                         job.output_path.parent / f"{job.prompt_path.stem}_adversarial"
+                    )
+                    adversarial_reuse = (
+                        _build_reuse_store(
+                            args, backend, job, reuse_paths, adversarial_dir, logger
+                        )
+                        if reuse_paths
+                        else None
                     )
                     summary = run_adversarial_eval(
                         prompt_path=job.prompt_path,
@@ -148,14 +226,29 @@ def main() -> None:
                         max_new_tokens=args.max_new_tokens,
                         limit=args.limit,
                         full_dir=shared_full_dir,
+                        reuse_store=adversarial_reuse,
+                        shard=shard,
                     )
+                    if summary["partial"]:
+                        logger.print(
+                            f"Adversarial shard {shard[0]}/{shard[1]} complete "
+                            f"({summary['executed_generations']} generations, "
+                            f"{summary['reused_del_off']} del-off reused); run "
+                            "without --shard to merge and finalize."
+                        )
+                        continue
                     outputs = write_adversarial_outputs(summary, adversarial_dir)
                     logger.print(
                         f"Adversarial: {summary['attacked_facts']}/"
                         f"{summary['facts']} facts at rho={summary['rho']}, "
                         f"topology={summary['topology']} "
-                        f"({summary['executed_generations']} generations)."
+                        f"({summary['executed_generations']} generations, "
+                        f"{summary['reused_del_off']} del-off reused)."
                     )
+                    if adversarial_reuse is not None:
+                        adversarial_reuse.write_manifest(
+                            adversarial_dir / "reuse_manifest.json"
+                        )
                     if summary["skipped_facts"]:
                         logger.print(
                             "Skipped facts outside the strict primary cohort: "
@@ -205,11 +298,15 @@ def main() -> None:
                     from halo.core.neighbors import NeighborConfig
 
                     sweep_dir = job.output_path.parent / f"{job.prompt_path.stem}_sweep"
+                    radii = parse_radius_grid(args.radius_grid)
                     summary = run_entanglement_sweep(
                         prompt_path=job.prompt_path,
                         backend=backend,
                         index=search_index,
-                        radii=parse_radius_grid(args.radius_grid),
+                        radii=radii,
+                        execute_radii=_parse_sweep_shard_radii(
+                            args.sweep_shard_radii, radii
+                        ),
                         closure_config=closure_config_from_args(args),
                         neighbor_config=NeighborConfig(
                             mode=args.neighbor_mode,
@@ -258,6 +355,12 @@ def main() -> None:
                         )
                     for label, path in outputs.items():
                         logger.print(f"Wrote entanglement {label} to {path}")
+                    if summary["partial"]:
+                        logger.print(
+                            "Partial sweep shard "
+                            f"({summary['executed_radii']}) complete; run the "
+                            "full grid to merge and compute the analysis."
+                        )
                     continue
 
                 logger.print("DB states: " + ", ".join(state.value for state in states))
@@ -272,6 +375,70 @@ def main() -> None:
                     if args.backend == "co-lmlm" and args.closure is not None
                     else None
                 )
+                stem = job.prompt_path.stem
+                full_store = None
+                reuse_store = None
+                resume = None
+                # Persistence, the shared FULL pass, and cross-phase reuse
+                # activate only through their flags; a bare invocation runs
+                # the historical in-memory path untouched.
+                if args.full_dir or reuse_paths or shard is not None:
+                    closure_payload = None
+                    if args.closure is not None:
+                        closure_config = closure_config_from_args(args)
+                        closure_payload = {
+                            "predicates": list(closure_config.predicates),
+                            "radius": closure_config.radius,
+                            "envelope_top_k": closure_config.envelope_top_k,
+                            "max_closure_size": closure_config.max_closure_size,
+                        }
+                    ensure_resume_config(
+                        args.output_dir / f"{stem}_audit_config.json",
+                        {
+                            "audit_schema_version": AUDIT_SCHEMA_VERSION,
+                            "mode": "standard-audit",
+                            "backend": backend_resume_identity(backend),
+                            "del_off_mode": getattr(backend, "del_off_mode", None),
+                            "prompt_sha256": prompt_digest(job.prompt_path),
+                            "limit": args.limit,
+                            "max_new_tokens": args.max_new_tokens,
+                            "states": [state.value for state in states],
+                            "bootstrap_oracle_from_full": bool(
+                                args.backend == "co-lmlm"
+                                and args.bootstrap_oracle_from_full
+                            ),
+                            "closure": closure_payload,
+                        },
+                        legacy_artifacts=(
+                            job.output_path,
+                            job.output_path.with_name(
+                                f"{stem}_query_embeddings.npz"
+                            ),
+                            job.output_path.with_name(
+                                f"{stem}_skipped_facts.jsonl"
+                            ),
+                        ),
+                    )
+                    resume = StandardAuditPersistence(
+                        output_dir=args.output_dir,
+                        stem=stem,
+                        expected_states=states,
+                        shard=shard,
+                    )
+                    if args.full_dir is not None:
+                        full_store = FullPassStore(
+                            backend=backend,
+                            examples=_load_examples(job.prompt_path, args.limit),
+                            prompt_path=job.prompt_path,
+                            limit=args.limit,
+                            output_dir=args.full_dir,
+                            max_new_tokens=args.max_new_tokens,
+                            shard=shard,
+                        )
+                    if reuse_paths:
+                        reuse_store = _build_reuse_store(
+                            args, backend, job, reuse_paths, args.output_dir, logger
+                        )
                 coverage_summary: dict[str, Any] = {}
                 results = run_backend_audit(
                     prompt_path=job.prompt_path,
@@ -288,7 +455,20 @@ def main() -> None:
                         f"{job.prompt_path.stem}_skipped_facts.jsonl"
                     ),
                     coverage_summary=coverage_summary,
+                    full_store=full_store,
+                    reuse_store=reuse_store,
+                    resume=resume,
+                    shard=shard,
                 )
+
+                if shard is not None:
+                    if full_store is not None:
+                        full_store.close()
+                    logger.print(
+                        f"Shard {shard[0]}/{shard[1]} complete for {stem}; "
+                        "run without --shard to merge and finalize."
+                    )
+                    continue
 
                 save_results(results, job.output_path)
                 probe_summary: dict[str, Any] | None = None
@@ -330,6 +510,28 @@ def main() -> None:
                                 else " (Δ_rep n/a: no DEL-OFF overlap)"
                             )
                         )
+                if full_store is not None:
+                    full_store.finalize()
+                    logger.print(
+                        f"FULL pass: {full_store.hits} reused, "
+                        f"{full_store.generated_count} generated in "
+                        f"{full_store.output_dir}"
+                    )
+                if reuse_store is not None:
+                    reuse_store.write_manifest(
+                        job.output_path.with_name(f"{stem}_reuse_manifest.json")
+                    )
+                    reuse_summary = reuse_store.summary()
+                    logger.print(
+                        "Cross-phase reuse: served "
+                        f"{reuse_summary['served']} generations "
+                        f"({reuse_summary['served_by_state']}), generated "
+                        f"{reuse_summary['generated']}, "
+                        f"{reuse_summary['canary_checks']} canary-verified."
+                    )
+                if resume is not None:
+                    # Every canonical artifact is on disk; drop the partials.
+                    resume.cleanup()
                 total_metrics = metrics_total(results)
                 del_off_mode = getattr(backend, "del_off_mode", None)
                 closure_policy = (
@@ -439,16 +641,17 @@ def main() -> None:
                     logger.print(f"  Recall: {metrics['recall']:.3f}")
                     logger.print(f"  F1: {metrics['f1']:.3f}")
 
-        cross_state_csv_path = args.output_dir / "cross_state_metrics.csv"
-        per_state_csv_path = args.output_dir / "per_state_metrics.csv"
-        write_metrics_csvs(
-            cross_state_rows=cross_state_rows,
-            per_state_rows=per_state_rows,
-            cross_state_path=cross_state_csv_path,
-            per_state_path=per_state_csv_path,
-        )
-        logger.print(f"Wrote cross-state metrics CSV to {cross_state_csv_path}")
-        logger.print(f"Wrote per-state metrics CSV to {per_state_csv_path}")
+        if shard is None:
+            cross_state_csv_path = args.output_dir / "cross_state_metrics.csv"
+            per_state_csv_path = args.output_dir / "per_state_metrics.csv"
+            write_metrics_csvs(
+                cross_state_rows=cross_state_rows,
+                per_state_rows=per_state_rows,
+                cross_state_path=cross_state_csv_path,
+                per_state_path=per_state_csv_path,
+            )
+            logger.print(f"Wrote cross-state metrics CSV to {cross_state_csv_path}")
+            logger.print(f"Wrote per-state metrics CSV to {per_state_csv_path}")
     finally:
         logger.close()
 

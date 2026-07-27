@@ -7,7 +7,11 @@
 # on PYTHONPATH.
 #
 # Optional:  CO_LMLM_DIR (defaults to ../Co-LMLM next to this repo; cloned
-#            from GitHub if absent), INDEX_DIR, PROMPTS, OUTPUT_DIR
+#            from GitHub if absent), INDEX_DIR, PROMPTS, OUTPUT_DIR.
+#            FULL_DIR (shared FULL-pass dir -> --full-dir), REUSE_FROM
+#            (space-separated results files -> --reuse-from), SHARD
+#            (I/N -> --shard), and LOG_FILE (-> --log-file) wire the
+#            reuse/sharding machinery; unset, the invocation is unchanged.
 # Extra flags (e.g. --closure, --radius-grid, --adversarial) are passed through:
 #   ./scripts/run_audit_co_lmlm.sh --closure geometric --radius-grid 0.95:0.70:0.05
 set -euo pipefail
@@ -28,6 +32,27 @@ OUTPUT_DIR="${OUTPUT_DIR:-$REPO_ROOT/outputs/trex}"
 case "$INDEX_DIR" in /*) ;; *) INDEX_DIR="$PWD/$INDEX_DIR" ;; esac
 case "$PROMPTS" in /*) ;; *) PROMPTS="$PWD/$PROMPTS" ;; esac
 case "$OUTPUT_DIR" in /*) ;; *) OUTPUT_DIR="$PWD/$OUTPUT_DIR" ;; esac
+
+# Optional reuse/sharding wiring (see the audit suite). Paths are anchored
+# before the cd below; unset variables add no flags at all.
+EXTRA_FLAGS=()
+if [ -n "${FULL_DIR:-}" ]; then
+    case "$FULL_DIR" in /*) ;; *) FULL_DIR="$PWD/$FULL_DIR" ;; esac
+    EXTRA_FLAGS+=(--full-dir "$FULL_DIR")
+fi
+if [ -n "${REUSE_FROM:-}" ]; then
+    for reuse_path in $REUSE_FROM; do
+        case "$reuse_path" in /*) ;; *) reuse_path="$PWD/$reuse_path" ;; esac
+        EXTRA_FLAGS+=(--reuse-from "$reuse_path")
+    done
+fi
+if [ -n "${SHARD:-}" ]; then
+    EXTRA_FLAGS+=(--shard "$SHARD")
+fi
+if [ -n "${LOG_FILE:-}" ]; then
+    case "$LOG_FILE" in /*) ;; *) LOG_FILE="$PWD/$LOG_FILE" ;; esac
+    EXTRA_FLAGS+=(--log-file "$LOG_FILE")
+fi
 
 if [ ! -d "$CO_LMLM_DIR" ]; then
     echo "Co-LMLM checkout not found; cloning $CO_LMLM_REPO_URL -> $CO_LMLM_DIR"
@@ -59,11 +84,40 @@ case ":${LD_LIBRARY_PATH:-}:" in
         ;;
 esac
 
-PYTHONPATH="$REPO_ROOT/src:src${PYTHONPATH:+:$PYTHONPATH}" \
-uv run python -m halo.run_audit \
-    --backend co-lmlm \
-    --index-path "$INDEX_DIR" \
-    --prompt-files "$PROMPTS" \
-    --bootstrap-oracle-from-full \
-    --output-dir "$OUTPUT_DIR" \
-    "$@"
+halo_audit() {
+    PYTHONPATH="$REPO_ROOT/src:src${PYTHONPATH:+:$PYTHONPATH}" \
+    uv run python -m halo.run_audit \
+        --backend co-lmlm \
+        --index-path "$INDEX_DIR" \
+        --prompt-files "$PROMPTS" \
+        --bootstrap-oracle-from-full \
+        --output-dir "$OUTPUT_DIR" \
+        ${EXTRA_FLAGS[@]+"${EXTRA_FLAGS[@]}"} \
+        "$@"
+}
+
+# SUITE_WORKERS=N stripes this invocation into N fact-shard workers plus a
+# finalize run — the same pattern the audit suite uses for its own phases.
+# Sweeps shard by radius (--sweep-shard-radii), not by fact, and explicit
+# SHARD/--shard invocations already are a single worker, so both fall
+# through to the plain run.
+case " $* " in
+    *" --radius-grid "* | *" --shard "*) SUITE_WORKERS=1 ;;
+esac
+if [ "${SUITE_WORKERS:-1}" -gt 1 ] && [ -z "${SHARD:-}" ]; then
+    pids=()
+    for ((i = 0; i < SUITE_WORKERS; i++)); do
+        halo_audit --shard "$i/$SUITE_WORKERS" \
+            --log-file "$OUTPUT_DIR/run_audit.shard$i.log" "$@" &
+        pids+=($!)
+    done
+    failed=0
+    for pid in "${pids[@]}"; do
+        wait "$pid" || failed=1
+    done
+    if [ "$failed" -ne 0 ]; then
+        echo "error: an audit shard worker failed; see $OUTPUT_DIR/run_audit.shard*.log" >&2
+        exit 1
+    fi
+fi
+halo_audit "$@"

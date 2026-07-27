@@ -1,5 +1,4 @@
 import dataclasses
-import hashlib
 import json
 import zlib
 from collections import Counter
@@ -17,6 +16,18 @@ from halo.core.backend import (
     validate_intervention_results,
 )
 from halo.interventions.errors import AuditIntegrationError
+from halo.cli.full_pass import FullPassStore, run_full_pass
+from halo.cli.persistence import (
+    AUDIT_SCHEMA_VERSION,
+    PartialLog,
+    atomic_write_text,
+    backend_resume_identity as _backend_resume_identity,
+    ensure_resume_config as _ensure_resume_config,
+    partial_name,
+    partial_paths,
+    prompt_digest as _prompt_digest,
+    read_partial_jsonl,
+)
 from halo.core.embeddings import QueryEmbeddingSink, result_example_key
 from halo.core.entanglement import compute_entanglement, fact_key
 from halo.core.examples import AuditExample, DeletionManifest
@@ -29,8 +40,6 @@ from halo.core.neighbors import (
     write_neighbors_file,
 )
 from halo.core.states import DatabaseState
-
-AUDIT_SCHEMA_VERSION = 2
 
 
 def load_prompts(prompts_path: Path) -> list[dict[str, Any]]:
@@ -52,6 +61,79 @@ def run_backend_prompt_audit(
     )
 
 
+class StandardAuditPersistence:
+    """Per-fact append logs for the standard audit, one JSONL line per fact
+    (rows + captured vectors together, so a torn write loses at most one
+    fact and never leaves a partial state group)."""
+
+    def __init__(
+        self,
+        *,
+        output_dir: Path,
+        stem: str,
+        expected_states: list[DatabaseState],
+        shard: tuple[int, int] | None = None,
+    ) -> None:
+        self._expected = [state.value for state in expected_states]
+        self._results_stem = f"{stem}_results"
+        self._skips_stem = f"{stem}_skipped_facts"
+        self.output_dir = output_dir
+        self.done_rows: dict[str, list[dict[str, Any]]] = {}
+        self.done_vectors: dict[str, list[dict[str, Any]]] = {}
+        self.done_skips: dict[str, dict[str, str]] = {}
+        for path in partial_paths(output_dir, self._results_stem):
+            for group in read_partial_jsonl(path):
+                key = str(group.get("fact_key"))
+                rows = group.get("rows") or []
+                if [row.get("state") for row in rows] != self._expected:
+                    continue
+                self.done_rows.setdefault(key, rows)
+                self.done_vectors.setdefault(key, group.get("vectors") or [])
+        for path in partial_paths(output_dir, self._skips_stem):
+            for entry in read_partial_jsonl(path):
+                self.done_skips.setdefault(
+                    str(entry.get("fact_key")), entry.get("entry") or {}
+                )
+        self._results_log = PartialLog(
+            output_dir / partial_name(self._results_stem, shard)
+        )
+        self._skips_log = PartialLog(
+            output_dir / partial_name(self._skips_stem, shard)
+        )
+
+    def record_fact(
+        self,
+        key: str,
+        rows: list[dict[str, Any]],
+        vectors: list[dict[str, Any]],
+    ) -> None:
+        self._results_log.write({"fact_key": key, "rows": rows, "vectors": vectors})
+
+    def record_skip(self, key: str, entry: dict[str, str]) -> None:
+        self._skips_log.write({"fact_key": key, "entry": entry})
+
+    def close(self) -> None:
+        self._results_log.close()
+        self._skips_log.close()
+
+    def cleanup(self) -> None:
+        """Drop the partials once every canonical artifact is on disk."""
+        self.close()
+        for stem in (self._results_stem, self._skips_stem):
+            for path in partial_paths(self.output_dir, stem):
+                path.unlink()
+
+
+def _persistence_fact_key(example: AuditExample) -> str:
+    key = fact_key({"prompt_id": example.prompt_id, "fact_id": example.fact_id})
+    if not key or "/" in key:
+        raise AuditIntegrationError(
+            "Resumable/reusable audits require a unique prompt_id/fact_id "
+            f"without '/' per prompt row; got {key!r}."
+        )
+    return key
+
+
 def run_backend_audit(
     prompt_path: Path,
     backend: AuditBackend,
@@ -65,15 +147,25 @@ def run_backend_audit(
     ) = None,
     skip_log_path: Path | None = None,
     coverage_summary: dict[str, Any] | None = None,
+    *,
+    full_store: FullPassStore | None = None,
+    reuse_store: Any = None,
+    resume: StandardAuditPersistence | None = None,
+    shard: tuple[int, int] | None = None,
 ) -> list[dict[str, Any]]:
     if not states:
         raise ValueError("At least one audit state is required.")
     if len(states) != len(set(states)):
         raise ValueError("Audit states must not contain duplicates.")
+    if shard is not None and resume is None:
+        raise ValueError("Shard runs require persistence (resume).")
 
     prompts = load_prompts(prompt_path)
     if limit is not None:
         prompts = prompts[:limit]
+    persistence_active = (
+        full_store is not None or reuse_store is not None or resume is not None
+    )
 
     results: list[dict[str, Any]] = []
     skipped: list[dict[str, str]] = []
@@ -84,6 +176,29 @@ def run_backend_audit(
     )
     for row_index, prompt in enumerate(progress):
         example = AuditExample.from_prompt_row(prompt)
+        key = _persistence_fact_key(example) if persistence_active else None
+        if shard is not None and row_index % shard[1] != shard[0]:
+            continue
+        if resume is not None:
+            if key in resume.done_skips:
+                skipped.append(resume.done_skips[key])
+                progress.set_postfix(skipped=len(skipped))
+                continue
+            if key in resume.done_rows:
+                resumed_rows = resume.done_rows[key]
+                validate_intervention_results(
+                    resumed_rows, expected_states=states
+                )
+                if embedding_sink is not None:
+                    for item in resume.done_vectors.get(key, []):
+                        embedding_sink.add(
+                            example_key=key,
+                            state=str(item["state"]),
+                            event_index=int(item["event_index"]),
+                            vector=np.asarray(item["vector"], dtype=np.float32),
+                        )
+                results.extend(resumed_rows)
+                continue
         prompt_results: list[dict[str, Any]] = []
         remaining_states = list(states)
 
@@ -92,12 +207,25 @@ def run_backend_audit(
                 raise ValueError(
                     "Oracle bootstrapping requires FULL to be the first requested state."
                 )
-            full_result = audit_example(
-                backend=backend,
-                example=example,
-                state=DatabaseState.FULL,
-                max_new_tokens=max_new_tokens,
-            )
+            full_result = None
+            if full_store is not None:
+                full_result = full_store.get_or_generate(key, example)
+            elif reuse_store is not None:
+                full_result = reuse_store.serve(
+                    key=key,
+                    state=DatabaseState.FULL,
+                    example=example,
+                    manifest=example.deletion_manifest,
+                )
+            if full_result is None:
+                full_result = audit_example(
+                    backend=backend,
+                    example=example,
+                    state=DatabaseState.FULL,
+                    max_new_tokens=max_new_tokens,
+                )
+                if reuse_store is not None:
+                    reuse_store.note_generated(DatabaseState.FULL)
             selected = (full_result.get("retrieval_trace") or {}).get(
                 "selected_candidate"
             ) or {}
@@ -130,15 +258,16 @@ def run_backend_audit(
                 fact_id = str(
                     prompt.get("fact_id") or prompt.get("prompt_id") or row_index
                 )
-                skipped.append(
-                    {
-                        "fact_id": fact_id,
-                        "reason": skip_reason,
-                        "prompt_text": example.prompt,
-                        "gold": example.ground_truth,
-                        "selected_value": str(selected.get("value") or ""),
-                    }
-                )
+                skip_entry = {
+                    "fact_id": fact_id,
+                    "reason": skip_reason,
+                    "prompt_text": example.prompt,
+                    "gold": example.ground_truth,
+                    "selected_value": str(selected.get("value") or ""),
+                }
+                skipped.append(skip_entry)
+                if resume is not None:
+                    resume.record_skip(key, skip_entry)
                 progress.set_postfix(skipped=len(skipped))
                 continue
             if manifest is None:
@@ -162,31 +291,59 @@ def run_backend_audit(
             remaining_states = remaining_states[1:]
 
         for state in remaining_states:
-            prompt_results.append(
-                audit_example(
+            row = None
+            if reuse_store is not None:
+                row = reuse_store.serve(
+                    key=key,
+                    state=state,
+                    example=example,
+                    manifest=example.deletion_manifest,
+                )
+            if row is None:
+                row = audit_example(
                     backend=backend,
                     example=example,
                     state=state,
                     max_new_tokens=max_new_tokens,
                 )
-            )
+                if reuse_store is not None:
+                    reuse_store.note_generated(state)
+            prompt_results.append(row)
         validate_intervention_results(prompt_results, expected_states=states)
+        collected_vectors: list[dict[str, Any]] = []
         for result in prompt_results:
             # Numpy arrays must never reach the JSONL writer; route them to
             # the sidecar (or drop them when no sink is configured).
             embeddings = result.pop("_query_embeddings", None)
             if embedding_sink is None or not embeddings:
                 continue
-            key = result_example_key(result, row_index)
+            sink_key = result_example_key(result, row_index)
             for item in embeddings:
                 embedding_sink.add(
-                    example_key=key,
+                    example_key=sink_key,
                     state=str(result["state"]),
                     event_index=int(item["event_index"]),
                     vector=item["vector"],
                 )
+                collected_vectors.append(
+                    {
+                        "state": str(result["state"]),
+                        "event_index": int(item["event_index"]),
+                        "vector": np.asarray(
+                            item["vector"], dtype=np.float32
+                        ).tolist(),
+                    }
+                )
         results.extend(prompt_results)
+        if resume is not None:
+            resume.record_fact(key, prompt_results, collected_vectors)
 
+    if resume is not None:
+        resume.close()
+    if shard is not None:
+        # Shard runs only append partials; the unsharded finalize invocation
+        # owns coverage, the canonical skip log, and every other artifact.
+        return results
     if bootstrap_oracle_from_full:
         audited = len(prompts) - len(skipped)
         by_reason = Counter(item["reason"] for item in skipped)
@@ -242,118 +399,9 @@ def _load_examples(prompt_path: Path, limit: int | None) -> dict[str, AuditExamp
     return examples
 
 
-def _prompt_digest(prompt_path: Path) -> str:
-    digest = hashlib.sha256()
-    with prompt_path.open("rb") as handle:
-        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
-            digest.update(chunk)
-    return digest.hexdigest()
-
-
-def _backend_resume_identity(backend: AuditBackend) -> dict[str, Any]:
-    """Stable backend fields that can change generated or retrieved outputs."""
-    identity = {
-        "class": f"{type(backend).__module__}.{type(backend).__qualname__}"
-    }
-    for field in ("model_path", "index_path", "release_source"):
-        value = getattr(backend, field, None)
-        if value is not None:
-            identity[field] = str(value)
-    retrieval_config = getattr(
-        getattr(backend, "generator", None),
-        "retrieval_config",
-        None,
-    )
-    identity["similarity_threshold"] = getattr(
-        retrieval_config,
-        "similarity_threshold",
-        getattr(backend, "similarity_threshold", None),
-    )
-    return identity
-
-
-def _ensure_resume_config(
-    path: Path,
-    payload: dict[str, Any],
-    *,
-    legacy_artifacts: tuple[Path, ...] = (),
-) -> None:
-    """Prevent resumable artifacts from crossing experiment definitions."""
-    normalized = json.loads(json.dumps(payload, sort_keys=True, default=str))
-    if path.exists():
-        stored = json.loads(path.read_text(encoding="utf-8"))
-        if stored != normalized:
-            raise AuditIntegrationError(
-                f"Resume configuration mismatch in {path}. Use a fresh output "
-                "directory rather than mixing experiment definitions."
-            )
-        return
-    existing = [artifact for artifact in legacy_artifacts if artifact.exists()]
-    if existing:
-        raise AuditIntegrationError(
-            f"Found resumable artifacts without {path.name}: {existing[0]}. "
-            "They predate configuration guards; use a fresh output directory."
-        )
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
-        json.dumps(normalized, indent=2, sort_keys=True), encoding="utf-8"
-    )
-
-
-def _full_pass(
-    backend: AuditBackend,
-    examples: dict[str, AuditExample],
-    prompt_path: Path,
-    limit: int | None,
-    output_dir: Path,
-    max_new_tokens: int,
-) -> tuple[dict[str, dict[str, Any]], dict[str, np.ndarray]]:
-    """FULL over every prompt, capturing query embeddings. Resumed wholesale
-    when both artifacts from a previous run exist."""
-    from halo.interventions.closure import full_query_vector
-
-    output_dir.mkdir(parents=True, exist_ok=True)
-    full_rows_path = output_dir / "full_results.jsonl"
-    embeddings_path = output_dir / "full_query_embeddings.npz"
-    _ensure_resume_config(
-        output_dir / "full_config.json",
-        {
-            "audit_schema_version": AUDIT_SCHEMA_VERSION,
-            "mode": "full-pass",
-            "backend": _backend_resume_identity(backend),
-            "prompt_sha256": _prompt_digest(prompt_path),
-            "limit": limit,
-            "max_new_tokens": max_new_tokens,
-        },
-        legacy_artifacts=(full_rows_path, embeddings_path),
-    )
-    full_rows: dict[str, dict[str, Any]] = {}
-    vectors: dict[str, np.ndarray] = {}
-    if full_rows_path.exists() and embeddings_path.exists():
-        for row in load_prompts(full_rows_path):
-            full_rows[fact_key(row)] = row
-        with np.load(embeddings_path) as stored:
-            vectors = {key: stored[key] for key in stored.files}
-        return full_rows, vectors
-
-    for key, example in tqdm(examples.items(), desc="FULL pass", unit="prompt"):
-        row = audit_example(
-            backend,
-            example,
-            DatabaseState.FULL,
-            max_new_tokens=max_new_tokens,
-        )
-        vector = full_query_vector(row)
-        row.pop("_query_embeddings", None)
-        full_rows[key] = row
-        if vector is not None:
-            vectors[key] = np.asarray(vector, dtype=np.float32)
-    with full_rows_path.open("w", encoding="utf-8") as handle:
-        for row in full_rows.values():
-            handle.write(json.dumps(row, ensure_ascii=False) + "\n")
-    if vectors:
-        np.savez_compressed(embeddings_path, **vectors)
-    return full_rows, vectors
+# Resumable FULL-pass persistence lives in halo.cli.full_pass; this alias
+# preserves the historical entry point for the sweep/adversarial callers.
+_full_pass = run_full_pass
 
 
 def _primary_target_skip_reason(
@@ -478,7 +526,15 @@ def _write_canary_failure_report(
 ) -> Path:
     """Dump both sides of a failed canary so the cause is diagnosable from
     the artifact alone, without re-running the sweep."""
-    path = output_dir / "reuse_canary_failure.json"
+    from halo.interventions.closure import _safe_filename
+
+    # Deterministic per-job name so concurrent radius shards never
+    # overwrite each other's evidence.
+    path = output_dir / (
+        "reuse_canary_failure_"
+        f"{_safe_filename(target_key)}_{role}_{_safe_filename(subject_key)}"
+        f"_rho{rho:.4f}.json"
+    )
     payload = {
         "target_key": target_key,
         "role": role,
@@ -496,7 +552,7 @@ def _write_canary_failure_report(
         "generated": _canary_trace_digest(generated_row),
         "full_pass": _canary_trace_digest(full_row),
     }
-    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    atomic_write_text(path, json.dumps(payload, indent=2, ensure_ascii=False))
     return path
 
 
@@ -513,6 +569,7 @@ def run_entanglement_sweep(
     limit: int | None = None,
     full_dir: Path | None = None,
     reuse_canary_rate: float = 0.0,
+    execute_radii: tuple[float, ...] | None = None,
 ) -> dict[str, Any]:
     """Radius sweep for the entanglement analysis (E, X, G).
 
@@ -531,6 +588,16 @@ def run_entanglement_sweep(
     ``sweep.reused``. ``reuse_canary_rate`` re-executes that fraction of
     reusable jobs anyway and raises if the generated output disagrees with
     the reused row — a continuous soundness check on the hooks.
+
+    ``execute_radii`` narrows execution to a subset of the grid so parallel
+    processes can each own some radii while sharing ``radii`` as the resume
+    identity; an empty tuple materializes the FULL pass, closures, and
+    neighbors without generating. Subset runs skip the entanglement analysis
+    (summary field ``partial``) — the later full-grid invocation resumes
+    every per-radius file and computes it. Note the fingerprint cache is
+    per-process, so sharded runs may mark a row ``executed`` where a
+    sequential run marks it ``reused`` (and vice versa); outputs and metrics
+    are identical either way — that is exactly the fingerprint guarantee.
     """
     from halo.interventions.closure import (
         build_closure_family,
@@ -540,7 +607,25 @@ def run_entanglement_sweep(
 
     if not radii:
         raise ValueError("A radius sweep requires at least one radius.")
+    if execute_radii is None:
+        execute_radii = tuple(radii)
+    else:
+        execute_radii = tuple(execute_radii)
+        unknown = [rho for rho in execute_radii if rho not in radii]
+        if unknown:
+            raise ValueError(
+                f"Radii {unknown} are not members of the sweep grid {list(radii)}."
+            )
+    partial = execute_radii != tuple(radii)
     output_dir.mkdir(parents=True, exist_ok=True)
+
+    full_pass_dir = full_dir or output_dir
+    if execute_radii and partial and not (full_pass_dir / "full_results.jsonl").exists():
+        raise AuditIntegrationError(
+            "Radius-subset sweeps share one FULL pass and must not race to "
+            f"create it; materialize {full_pass_dir} first (e.g. with "
+            "--sweep-shard-radii none) and then launch the radius shards."
+        )
 
     examples = _load_examples(prompt_path, limit)
     full_rows, vectors = _full_pass(
@@ -548,7 +633,7 @@ def run_entanglement_sweep(
         examples,
         prompt_path,
         limit,
-        full_dir or output_dir,
+        full_pass_dir,
         max_new_tokens,
     )
 
@@ -620,7 +705,9 @@ def run_entanglement_sweep(
     if not 0.0 <= reuse_canary_rate <= 1.0:
         raise ValueError("reuse_canary_rate must be in [0, 1].")
 
-    planned = sum(len(radii) * (1 + len(neighbors.get(key, []))) for key in families)
+    planned = sum(
+        len(execute_radii) * (1 + len(neighbors.get(key, []))) for key in families
+    )
     executed = 0
     reused_fingerprint = 0
     reused_full_pass = 0
@@ -628,7 +715,7 @@ def run_entanglement_sweep(
     sweep_rows: list[dict[str, Any]] = []
     done: dict[float, set[tuple[str, str, str]]] = {}
     rows_on_disk: dict[float, dict[tuple[str, str, str], dict[str, Any]]] = {}
-    for rho in radii:
+    for rho in execute_radii:
         rho_path = output_dir / f"sweep_rho_{rho:.4f}.jsonl"
         done[rho] = set()
         rows_on_disk[rho] = {}
@@ -653,17 +740,17 @@ def run_entanglement_sweep(
     generation_cache: dict[tuple[str, Any], tuple[dict[str, Any], str]] = {}
     handles = {
         rho: (output_dir / f"sweep_rho_{rho:.4f}.jsonl").open("a", encoding="utf-8")
-        for rho in radii
+        for rho in execute_radii
     }
     progress = tqdm(
         total=planned, desc=f"Sweeping {prompt_path.stem}", unit="generation"
     )
     try:
         for key, family in families.items():
-            manifests = {rho: family[rho].to_manifest() for rho in radii}
+            manifests = {rho: family[rho].to_manifest() for rho in execute_radii}
             fingerprints = {
                 rho: backend_manifest_fingerprint(backend, manifests[rho])
-                for rho in radii
+                for rho in execute_radii
             }
             jobs = [("target", key)] + [
                 ("neighbor", neighbor_key)
@@ -671,7 +758,7 @@ def run_entanglement_sweep(
                 if neighbor_key in examples
             ]
             for role, subject_key in jobs:
-                for rho in radii:
+                for rho in execute_radii:
                     triple = (key, role, subject_key)
                     fingerprint = fingerprints[rho]
                     cache_key = (
@@ -801,7 +888,13 @@ def run_entanglement_sweep(
         for handle in handles.values():
             handle.close()
 
-    entanglement = compute_entanglement(sweep_rows, list(full_rows.values()), neighbors)
+    # Subset runs hold only their own radii's rows; the entanglement curves
+    # are computed by the full-grid invocation that resumes every file.
+    entanglement = (
+        {}
+        if partial
+        else compute_entanglement(sweep_rows, list(full_rows.values()), neighbors)
+    )
     return {
         "prompt_file": str(prompt_path),
         "facts": len(examples),
@@ -809,6 +902,8 @@ def run_entanglement_sweep(
         "skipped_facts": skipped,
         "skipped_by_reason": dict(skipped_by_reason),
         "radii": list(radii),
+        "executed_radii": list(execute_radii),
+        "partial": partial,
         "planned_generations": planned,
         "executed_generations": executed,
         "reused_generations": reused_fingerprint + reused_full_pass,
@@ -831,15 +926,21 @@ def run_adversarial_eval(
     max_new_tokens: int = 12,
     limit: int | None = None,
     full_dir: Path | None = None,
+    reuse_store: Any = None,
+    shard: tuple[int, int] | None = None,
 ) -> dict[str, Any]:
     """Adversarial-closure evaluation: Ev(rho, epsilon) and the geometry-only
     margin predictor.
 
     Per fact: FULL -> closure at rho -> DEL-OFF and baseline DEL-ON rows
     (yielding R(f)) -> one injected DEL-ON per (epsilon, template). Rows are
-    appended to a resumable JSONL keyed by (fact, role, epsilon, template).
+    appended to resumable partials keyed by (fact, role, epsilon, template)
+    and canonicalized into ``adversarial_results.jsonl`` at completion.
     `full_dir` holds the FULL-pass artifacts (defaults to `output_dir`) and
-    can be shared with the entanglement sweep.
+    can be shared with the entanglement sweep. ``reuse_store`` may serve the
+    manifest-independent del-off rows from a standard-audit results file.
+    ``shard`` stripes facts across parallel workers; the later unsharded
+    invocation merges every stripe and computes the analysis.
     """
     from halo.interventions.adversary import build_injections
     from halo.interventions.closure import (
@@ -851,13 +952,20 @@ def run_adversarial_eval(
 
     config = adversarial_config
     output_dir.mkdir(parents=True, exist_ok=True)
+    full_pass_dir = full_dir or output_dir
+    if shard is not None and not (full_pass_dir / "full_results.jsonl").exists():
+        raise AuditIntegrationError(
+            "Adversarial shard runs share one FULL pass and must not race to "
+            f"create it; materialize {full_pass_dir} first with an unsharded "
+            "run (or the suite's standard/sweep phases)."
+        )
     examples = _load_examples(prompt_path, limit)
     full_rows, vectors = _full_pass(
         backend,
         examples,
         prompt_path,
         limit,
-        full_dir or output_dir,
+        full_pass_dir,
         max_new_tokens,
     )
 
@@ -886,7 +994,11 @@ def run_adversarial_eval(
     skipped: list[str] = []
     skipped_by_reason: Counter[str] = Counter()
     judge = getattr(backend, "support_judge", None)
-    for key, example in examples.items():
+    for fact_index, (key, example) in enumerate(examples.items()):
+        # Shard runs stripe facts; closures and rows for other stripes come
+        # from their own workers, merged by the unsharded finalize run.
+        if shard is not None and fact_index % shard[1] != shard[0]:
+            continue
         selected = full_selected_candidate(full_rows.get(key, {}))
         vector = vectors.get(key)
         skip_reason = _primary_target_skip_reason(full_rows.get(key), vector)
@@ -915,18 +1027,26 @@ def run_adversarial_eval(
     rows_path = output_dir / "adversarial_results.jsonl"
     done: set[tuple[str, str, str, str]] = set()
     rows: list[dict[str, Any]] = []
+
+    def _ingest(row: dict[str, Any]) -> None:
+        tag = row.get("adversarial") or {}
+        done_key = (
+            str(tag.get("target_key")),
+            str(tag.get("role")),
+            str(tag.get("epsilon")),
+            str(tag.get("template")),
+        )
+        if done_key in done:
+            return
+        done.add(done_key)
+        rows.append(row)
+
     if rows_path.exists():
         for row in load_prompts(rows_path):
-            tag = row.get("adversarial") or {}
-            done.add(
-                (
-                    str(tag.get("target_key")),
-                    str(tag.get("role")),
-                    str(tag.get("epsilon")),
-                    str(tag.get("template")),
-                )
-            )
-            rows.append(row)
+            _ingest(row)
+    for path in partial_paths(output_dir, "adversarial_results"):
+        for row in read_partial_jsonl(path):
+            _ingest(row)
 
     jobs: list[tuple[str, str, float | None, str | None]] = []
     for key in closures:
@@ -937,7 +1057,11 @@ def run_adversarial_eval(
                 jobs.append((key, "attack", epsilon, template))
 
     executed = 0
-    with rows_path.open("a", encoding="utf-8") as handle:
+    reused_del_off = 0
+    partial_log = PartialLog(
+        output_dir / partial_name("adversarial_results", shard)
+    )
+    try:
         for key, role, epsilon, template in tqdm(
             jobs, desc=f"Adversarial {prompt_path.stem}", unit="generation"
         ):
@@ -947,26 +1071,41 @@ def run_adversarial_eval(
             manifest = closures[key].to_manifest()
             subject = dataclasses.replace(examples[key], deletion_manifest=manifest)
             state = DatabaseState.DEL_OFF if role == "del-off" else DatabaseState.DEL_ON
-            injections: tuple[Any, ...] = ()
-            if role == "attack":
-                injections = build_injections(
+            row = None
+            if role == "del-off" and reuse_store is not None:
+                # DEL-OFF is manifest-independent, so the standard audit's
+                # row for this fact is this generation, re-stamped.
+                row = reuse_store.serve(
+                    key=key,
+                    state=DatabaseState.DEL_OFF,
                     example=examples[key],
-                    query_vector=vectors[key],
-                    config=config,
-                    epsilon=epsilon,
-                    template=template,
-                    fact_seed=zlib.crc32(key.encode("utf-8")),
+                    manifest=manifest,
+                    require_embeddings=False,
                 )
-            backend.injections = injections
-            try:
-                row = audit_example(
-                    backend,
-                    subject,
-                    state,
-                    max_new_tokens=max_new_tokens,
-                )
-            finally:
-                backend.injections = ()
+                if row is not None:
+                    reused_del_off += 1
+            if row is None:
+                injections: tuple[Any, ...] = ()
+                if role == "attack":
+                    injections = build_injections(
+                        example=examples[key],
+                        query_vector=vectors[key],
+                        config=config,
+                        epsilon=epsilon,
+                        template=template,
+                        fact_seed=zlib.crc32(key.encode("utf-8")),
+                    )
+                backend.injections = injections
+                try:
+                    row = audit_example(
+                        backend,
+                        subject,
+                        state,
+                        max_new_tokens=max_new_tokens,
+                    )
+                finally:
+                    backend.injections = ()
+                executed += 1
             row.pop("_query_embeddings", None)
             row["adversarial"] = {
                 "target_key": key,
@@ -976,9 +1115,57 @@ def run_adversarial_eval(
                 "rho": config.rho,
                 "topology": config.topology,
             }
-            handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+            partial_log.write(row)
+            done.add(done_key)
             rows.append(row)
-            executed += 1
+    finally:
+        partial_log.close()
+
+    if shard is not None:
+        # Shard runs only append partials; the unsharded finalize invocation
+        # merges every stripe, canonicalizes, and computes the analysis.
+        return {
+            "prompt_file": str(prompt_path),
+            "facts": len(examples),
+            "attacked_facts": len(closures),
+            "skipped_facts": skipped,
+            "skipped_by_reason": dict(skipped_by_reason),
+            "rho": config.rho,
+            "epsilons": list(config.epsilons),
+            "templates": list(config.templates),
+            "topology": config.topology,
+            "closure_predicates": list(closure_config.predicates),
+            "del_off_mode": getattr(backend, "del_off_mode", None),
+            "executed_generations": executed,
+            "reused_del_off": reused_del_off,
+            "partial": True,
+            "evasion": [],
+            "margins": [],
+            "margin_auroc": None,
+            "margin_auroc_facts": 0,
+            "output_dir": str(output_dir),
+        }
+
+    # Canonicalize in job order (a fresh run's append order) and drop the
+    # partials; the canonical file now always means "complete".
+    row_by_key = {}
+    for row in rows:
+        tag = row.get("adversarial") or {}
+        row_by_key[
+            (
+                str(tag.get("target_key")),
+                str(tag.get("role")),
+                str(tag.get("epsilon")),
+                str(tag.get("template")),
+            )
+        ] = row
+    with rows_path.open("w", encoding="utf-8") as handle:
+        for key, role, epsilon, template in jobs:
+            row = row_by_key.get((key, role, str(epsilon), str(template)))
+            if row is not None:
+                handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+    for path in partial_paths(output_dir, "adversarial_results"):
+        path.unlink()
 
     # Aggregate R(f), attack attribution, and margin AUROC.
     result_rows: dict[tuple[str, str, str, str], dict[str, Any]] = {}
@@ -1131,6 +1318,8 @@ def run_adversarial_eval(
         "closure_predicates": list(closure_config.predicates),
         "del_off_mode": getattr(backend, "del_off_mode", None),
         "executed_generations": executed,
+        "reused_del_off": reused_del_off,
+        "partial": False,
         "evasion": evasion_rows,
         "margins": margin_rows,
         "margin_auroc": margin_auroc,
