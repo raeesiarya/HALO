@@ -423,10 +423,8 @@ class TestValuesEquivalent:
 
 
 
-def test_tokenize_lengths_logged_to_wandb(wandb_run):
-    """Bar chart of tokenisation counts, logged to W&B."""
-    import matplotlib.pyplot as plt
-
+def test_tokenize_lengths():
+    """Token counts for a range of inputs."""
     texts = [
         "Paris",
         "United Kingdom",
@@ -441,28 +439,13 @@ def test_tokenize_lengths_logged_to_wandb(wandb_run):
     ]
     lengths = [len(tokenize(t)) for t in texts]
 
-    if wandb_run is not None:
-        try:
-            import wandb
-
-            fig, ax = plt.subplots(figsize=(9, 4))
-            ax.barh(texts, lengths, color="steelblue")
-            ax.set_xlabel("Token count")
-            ax.set_title("Tokenisation length by input text")
-            plt.tight_layout()
-            wandb_run.log({"equivalence/tokenize_lengths": wandb.Image(fig)})
-            plt.close(fig)
-        except Exception:
-            pass
-
     assert lengths[texts.index("")] == 0
     assert lengths[texts.index("Paris")] == 1
     assert lengths[texts.index("!@#$")] == 0
 
 
-def test_equivalence_matrix_logged_to_wandb(wandb_run):
-    """Heatmap of pairwise values_equivalent results, logged to W&B."""
-    import matplotlib.pyplot as plt
+def test_equivalence_matrix():
+    """Pairwise values_equivalent results over a small label set."""
     import numpy as np
 
     labels = ["Paris", "paris", "Berlin", "UK", "United Kingdom", ""]
@@ -471,26 +454,6 @@ def test_equivalence_matrix_logged_to_wandb(wandb_run):
     for i, left in enumerate(labels):
         for j, right in enumerate(labels):
             matrix[i, j] = int(values_equivalent(left, right))
-
-    if wandb_run is not None:
-        try:
-            import wandb
-
-            fig, ax = plt.subplots(figsize=(7, 6))
-            im = ax.imshow(matrix, cmap="Blues", vmin=0, vmax=1)
-            ax.set_xticks(range(n))
-            ax.set_yticks(range(n))
-            ax.set_xticklabels(labels, rotation=45, ha="right")
-            ax.set_yticklabels(labels)
-            ax.set_title("values_equivalent pairwise matrix")
-            plt.colorbar(im, ax=ax)
-            plt.tight_layout()
-            wandb_run.log(
-                {"equivalence/equivalence_matrix": wandb.Image(fig)}
-            )
-            plt.close(fig)
-        except Exception:
-            pass
 
     for i in range(n):
         if labels[i]:

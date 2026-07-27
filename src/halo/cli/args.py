@@ -73,16 +73,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
             "answer is visible as the oracle deletion ID."
         ),
     )
-    parser.add_argument(
-        "--wandb-activation",
-        "--wandb_activation",
-        dest="wandb_activation",
-        type=str,
-        default="off",
-        choices=["on", "off"],
-        help="Enable or disable Weights & Biases logging.",
-    )
-
     closure = parser.add_argument_group("deletion closure / interventions")
     closure.add_argument(
         "--closure",

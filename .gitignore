@@ -19,9 +19,6 @@ wheels/
 .pytest_cache/*
 .coverage
 
-# Weights & Biases
-wandb
-
 # uv
 uv.lock
 

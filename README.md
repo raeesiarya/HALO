@@ -103,8 +103,8 @@ control, and the deletion-policy matrix. All of them run by default:
 ```
 
 The phases execute sequentially and share a `FULL` pass where applicable.
-Partial evaluations resume from disk. Each phase creates a separate W&B run
-named `<output-dir>__<mode>`.
+Partial evaluations resume from disk. Each phase writes to a separate output
+subdirectory named `<mode>`.
 
 The standard audit uses `geometric,value` closure by default, where `value` is
 an oracle filter supplied with the ground-truth answer and aliases at

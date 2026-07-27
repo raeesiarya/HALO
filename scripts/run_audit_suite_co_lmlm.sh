@@ -10,8 +10,7 @@
 # The three phases are separate evaluation modes and run sequentially — they
 # share one GPU, and the sweep/adversarial phases share one FULL pass (the
 # <prompts>_full/ directory). Every phase is resumable, so if the suite dies
-# partway, re-running it skips everything already on disk. All phases log to
-# W&B as separate runs named <output-dir>__<mode>.
+# partway, re-running it skips everything already on disk.
 #
 # Wall-clock tip: phase 2 shards cleanly by radius. Run one single-radius
 # sweep first (e.g. RADIUS_GRID=0.95:0.95:0.05) so the shared FULL pass is
@@ -187,7 +186,6 @@ run_audit() {
         --prompt-files "$PROMPTS" \
         --bootstrap-oracle-from-full \
         --co-lmlm-del-off-mode "$DEL_OFF_MODE" \
-        --wandb-activation on \
         --output-dir "$OUTPUT_DIR" \
         "$@"
 }

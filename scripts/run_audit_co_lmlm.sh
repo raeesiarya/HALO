@@ -65,6 +65,5 @@ uv run python -m halo.run_audit \
     --index-path "$INDEX_DIR" \
     --prompt-files "$PROMPTS" \
     --bootstrap-oracle-from-full \
-    --wandb-activation on \
     --output-dir "$OUTPUT_DIR" \
     "$@"

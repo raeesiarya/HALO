@@ -1,14 +1,9 @@
 import csv
 import json
-import os
 from pathlib import Path
 from typing import Any
 
 from halo.core.states import DatabaseState
-
-
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
-WANDB_PROJECT = "halo"
 
 
 def write_metrics_csvs(
@@ -162,60 +157,3 @@ class AuditLogger:
 
     def close(self) -> None:
         self._handle.close()
-
-
-def setup_wandb() -> Any:
-    from dotenv import load_dotenv
-
-    env_path = PROJECT_ROOT / ".env"
-    load_dotenv(env_path, override=True)
-
-    api_key = os.getenv("WANDB_API_KEY")
-    if not api_key:
-        raise RuntimeError(f"WANDB_API_KEY was not found after loading {env_path}.")
-
-    import wandb
-
-    wandb.login(key=api_key, relogin=True)
-    return wandb
-
-
-def start_wandb_run(wandb_module: Any, name: str, config: dict[str, Any]) -> Any:
-    return wandb_module.init(
-        project=WANDB_PROJECT,
-        name=name,
-        config=config,
-        reinit="finish_previous",
-    )
-
-
-def wandb_log_metrics(run: Any, metrics: dict[str, Any], prefix: str = "") -> None:
-    """Log the numeric entries of `metrics` (skipping None / non-numeric)."""
-    payload = {
-        f"{prefix}{key}": value
-        for key, value in metrics.items()
-        if isinstance(value, (int, float)) and not isinstance(value, bool)
-    }
-    if payload:
-        run.log(payload)
-        run.summary.update(payload)
-
-
-def wandb_log_image(run: Any, wandb_module: Any, path: Any, key: str) -> None:
-    if path is not None and Path(path).exists():
-        run.log({key: wandb_module.Image(str(path))})
-
-
-def wandb_log_output_artifacts(
-    run: Any, wandb_module: Any, output_dir: Path, name: str = "halo-outputs"
-) -> None:
-    """Upload every result/metric/plot file under `output_dir` as one artifact
-    (results JSONL, all CSVs, PNGs, embedding sidecars, closure JSON)."""
-    artifact = wandb_module.Artifact(name, type="audit-outputs")
-    added = False
-    for pattern in ("*.jsonl", "*.csv", "*.png", "*.npz", "*.json"):
-        for path in sorted(output_dir.rglob(pattern)):
-            artifact.add_file(str(path), name=str(path.relative_to(output_dir)))
-            added = True
-    if added:
-        run.log_artifact(artifact)

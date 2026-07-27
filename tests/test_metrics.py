@@ -1037,11 +1037,8 @@ class TestRetrievalArtifactRate:
 
 
 
-def test_score_metrics_logged_to_wandb(wandb_run):
-    """Grouped bar chart of score_prediction metrics for various scenarios."""
-    import matplotlib.pyplot as plt
-    import numpy as np
-
+def test_score_metrics_scenarios():
+    """score_prediction over exact/alias/partial/wrong/unknown scenarios."""
     scenarios = {
         "exact": score_prediction("Paris", "Paris"),
         "alias": score_prediction("Jorgensen", "Jørgensen", ["Jorgensen"]),
@@ -1049,39 +1046,14 @@ def test_score_metrics_logged_to_wandb(wandb_run):
         "wrong": score_prediction("Berlin", "Paris"),
         "unknown": score_prediction("unknown", "Paris"),
     }
-    metrics_names = ["exact_match", "contains_match", "precision", "recall", "f1"]
-    x = np.arange(len(metrics_names))
-    width = 0.15
-
-    if wandb_run is not None:
-        try:
-            import wandb
-
-            fig, ax = plt.subplots(figsize=(12, 5))
-            for i, (label, scores) in enumerate(scenarios.items()):
-                values = [scores[m] for m in metrics_names]
-                ax.bar(x + i * width, values, width, label=label)
-            ax.set_xticks(x + width * 2)
-            ax.set_xticklabels(metrics_names)
-            ax.set_ylim(0, 1.1)
-            ax.set_ylabel("Score")
-            ax.set_title("score_prediction metrics by scenario")
-            ax.legend()
-            plt.tight_layout()
-            wandb_run.log({"metrics/score_comparison": wandb.Image(fig)})
-            plt.close(fig)
-        except Exception:
-            pass
 
     assert scenarios["exact"]["exact_match"] == 1.0
     assert scenarios["wrong"]["exact_match"] == 0.0
     assert scenarios["unknown"]["unknown"] == 1.0
 
 
-def test_cross_state_metrics_logged_to_wandb(wandb_run):
-    """Bar chart of cross-state metrics over a synthetic result set."""
-    import matplotlib.pyplot as plt
-
+def test_cross_state_metrics_range():
+    """Cross-state metrics stay in [0, 1] over a synthetic result set."""
     pairs = [
         (True, False),
         (True, True),
@@ -1102,39 +1074,13 @@ def test_cross_state_metrics_logged_to_wandb(wandb_run):
     rmc = retrieval_mediated_correctness(results)
     rar = retrieval_artifact_rate(results)
 
-    if wandb_run is not None:
-        try:
-            import wandb
-
-            fig, ax = plt.subplots()
-            metrics_map = {
-                "parametric_leakage": pl,
-                "retrieval_mediated": rmc,
-                "artifact_rate": rar,
-            }
-            ax.bar(
-                metrics_map.keys(),
-                metrics_map.values(),
-                color=["tomato", "steelblue", "goldenrod"],
-            )
-            ax.set_ylim(0, 1.0)
-            ax.set_ylabel("Rate")
-            ax.set_title("Cross-state audit metrics")
-            plt.tight_layout()
-            wandb_run.log({"metrics/cross_state": wandb.Image(fig)})
-            plt.close(fig)
-        except Exception:
-            pass
-
     assert 0.0 <= pl <= 1.0
     assert 0.0 <= rmc <= 1.0
     assert 0.0 <= rar <= 1.0
 
 
-def test_precision_recall_scatter_logged_to_wandb(wandb_run):
-    """Scatter plot of precision vs recall across token-overlap scenarios."""
-    import matplotlib.pyplot as plt
-
+def test_precision_recall_range():
+    """precision_recall_f1 stays in [0, 1] across token-overlap scenarios."""
     test_cases = [
         ("cat", "cat"),
         ("Paris France", "Paris"),
@@ -1149,24 +1095,6 @@ def test_precision_recall_scatter_logged_to_wandb(wandb_run):
         precisions.append(result["precision"])
         recalls.append(result["recall"])
         f1s.append(result["f1"])
-
-    if wandb_run is not None:
-        try:
-            import wandb
-
-            fig, ax = plt.subplots()
-            scatter = ax.scatter(recalls, precisions, c=f1s, cmap="RdYlGn", s=80, vmin=0, vmax=1)
-            plt.colorbar(scatter, ax=ax, label="F1")
-            ax.set_xlabel("Recall")
-            ax.set_ylabel("Precision")
-            ax.set_xlim(-0.05, 1.05)
-            ax.set_ylim(-0.05, 1.05)
-            ax.set_title("Precision vs Recall (colour = F1)")
-            plt.tight_layout()
-            wandb_run.log({"metrics/precision_recall_scatter": wandb.Image(fig)})
-            plt.close(fig)
-        except Exception:
-            pass
 
     assert all(0.0 <= p <= 1.0 for p in precisions)
     assert all(0.0 <= r <= 1.0 for r in recalls)
