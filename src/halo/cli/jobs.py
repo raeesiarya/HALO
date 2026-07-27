@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 DEFAULT_OUTPUT_DIR = Path("outputs/audit")
-DEFAULT_INDEX_DIR = Path("data/co-lmlm-wiki-index")
+DEFAULT_INDEX_DIR = Path("data/co-lmlm-fineweb-wiki-index")
 
 
 @dataclass(frozen=True)

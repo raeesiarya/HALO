@@ -68,9 +68,9 @@ them and otherwise fails to resolve `libcuvs.so`, `librmm.so`, and
 
 ## Co-LMLM evaluation
 
-The default setup uses the T-REx prompts and the public Co-LMLM retrieval
-index. The index requires approximately 113 GB. `INDEX_DIR`, `PROMPTS`, and
-`OUTPUT_DIR` override the default paths.
+The default setup uses the T-REx prompts and the public Co-LMLM fineweb+wiki
+retrieval index. The index requires approximately 1.05 TB. `INDEX_DIR`,
+`PROMPTS`, and `OUTPUT_DIR` override the default paths.
 
 The primary configuration uses Co-LMLM's published factual-evaluation
 retrieval threshold of 0.7. Pass

@@ -12,7 +12,7 @@ LAMA_URL = "https://dl.fbaipublicfiles.com/LAMA/data.zip"
 LIMIT: int | None = None
 # Facts kept per relation, so place_of_birth does not fill the whole slice
 # before place_of_death is reached.
-MAX_FACTS_PER_RELATION: int | None = 750
+MAX_FACTS_PER_RELATION: int | None = 2000
 
 OUTPUT_DIR = Path(__file__).resolve().parent
 PROMPTS_PATH = OUTPUT_DIR / "prompts_googlere.jsonl"

@@ -29,7 +29,7 @@
 #   GPUS         comma-separated GPU ids (default: 0,1,2,3,4,5,6,7)
 #   MAX_PARALLEL concurrent sets (default: len(GPUS))
 #   CO_LMLM_DIR  Co-LMLM checkout (default: ../Co-LMLM; cloned if absent)
-#   INDEX_DIR    wiki index (default: $REPO_ROOT/data/co-lmlm-wiki-index)
+#   INDEX_DIR    fineweb+wiki index (default: $REPO_ROOT/data/co-lmlm-fineweb-wiki-index)
 # Extra flags after the script name are forwarded to every suite invocation,
 # e.g.  ./scripts/run_suite_parallel_co_lmlm.sh --limit 200
 set -euo pipefail
@@ -39,7 +39,7 @@ SUITE="$REPO_ROOT/scripts/run_audit_suite_co_lmlm.sh"
 
 CO_LMLM_REPO_URL="https://github.com/lil-lab/Co-LMLM.git"
 CO_LMLM_DIR="${CO_LMLM_DIR:-$(dirname "$REPO_ROOT")/Co-LMLM}"
-INDEX_DIR="${INDEX_DIR:-$REPO_ROOT/data/co-lmlm-wiki-index}"
+INDEX_DIR="${INDEX_DIR:-$REPO_ROOT/data/co-lmlm-fineweb-wiki-index}"
 OUT_ROOT="${OUT_ROOT:-$REPO_ROOT/out}"
 DRIVER_LOG="$OUT_ROOT/_driver.log"
 

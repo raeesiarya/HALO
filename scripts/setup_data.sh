@@ -6,7 +6,8 @@
 #        Google-RE    -> data/prompts_googlere.jsonl
 #        CounterFact  -> data/prompts_counterfact.jsonl
 #        ZsRE         -> data/prompts_zsre.jsonl
-#   2. download the wiki index bucket  -> data/co-lmlm-wiki-index  (~113 GB!)
+#   2. download the fineweb+wiki index bucket
+#        -> data/co-lmlm-fineweb-wiki-index  (~1.05 TB!)
 #
 # The model is NOT downloaded here: the audit's loader fetches it from Hugging
 # Face on first use (the loader fetches the released model and
@@ -19,10 +20,11 @@ set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
-INDEX_REPO="lil-lab/co-lmlm-360m-fw-wiki-index"
-INDEX_DIR="${INDEX_DIR:-$REPO_ROOT/data/co-lmlm-wiki-index}"
-# Released bucket files (faiss.index ~59 GB, entries.db ~49 GB, mapping ~5.5 GB).
-INDEX_FILES=(faiss.index entries.db faiss_id_to_entry_id.txt index_config.json manifest.json)
+INDEX_REPO="lil-lab/co-lmlm-360m-fw-fineweb-wiki-index"
+INDEX_DIR="${INDEX_DIR:-$REPO_ROOT/data/co-lmlm-fineweb-wiki-index}"
+# Released bucket files (faiss.index ~228 GB, fineweb_with_fullwiki_entries.db
+# ~713 GB, faiss_id_to_entry_id.db ~134 GB): ~1.05 TB total.
+INDEX_FILES=(faiss.index fineweb_with_fullwiki_entries.db faiss_id_to_entry_id.db index_config.json manifest.json)
 INDEX_BASE_URL="https://huggingface.co/buckets/$INDEX_REPO/resolve"
 
 echo "[1/2] Building audit prompts (T-REx default corpus, then the rest) ..."
@@ -32,7 +34,7 @@ uv run python "$REPO_ROOT/data/prepare_googlere_audit.py"
 uv run python "$REPO_ROOT/data/prepare_counterfact_audit.py"
 uv run python "$REPO_ROOT/data/prepare_zsre_audit.py"
 
-echo "[2/2] Downloading wiki index $INDEX_REPO -> $INDEX_DIR (~113 GB) ..."
+echo "[2/2] Downloading fineweb+wiki index $INDEX_REPO -> $INDEX_DIR (~1.05 TB) ..."
 mkdir -p "$INDEX_DIR"
 for file in "${INDEX_FILES[@]}"; do
     echo "  -> $file"

@@ -47,7 +47,7 @@ REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 CO_LMLM_REPO_URL="https://github.com/lil-lab/Co-LMLM.git"
 CO_LMLM_DIR="${CO_LMLM_DIR:-$(dirname "$REPO_ROOT")/Co-LMLM}"
 
-INDEX_DIR="${INDEX_DIR:-$REPO_ROOT/data/co-lmlm-wiki-index}"
+INDEX_DIR="${INDEX_DIR:-$REPO_ROOT/data/co-lmlm-fineweb-wiki-index}"
 # T-REx slot-filling is the default audit corpus (in-context prompts, native
 # continuation format); use PROMPTS=data/prompts.jsonl for the PopQA set.
 PROMPTS="${PROMPTS:-$REPO_ROOT/data/prompts_trex.jsonl}"

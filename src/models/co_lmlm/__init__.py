@@ -70,6 +70,21 @@ def _add_arguments(parser: argparse.ArgumentParser) -> None:
     )
 
 
+# Entry-store filename across index releases: the wiki-only bucket ships
+# `entries.db`; the fineweb+wiki bucket ships `fineweb_with_fullwiki_entries.db`.
+_ENTRY_DB_NAMES = ("fineweb_with_fullwiki_entries.db", "entries.db")
+
+
+def _resolve_entry_db(index_path: Path) -> Path:
+    for name in _ENTRY_DB_NAMES:
+        candidate = index_path / name
+        if candidate.exists():
+            return candidate
+    # Fall back to the newest release's name; the loader raises a clear error
+    # if it is genuinely missing.
+    return index_path / _ENTRY_DB_NAMES[0]
+
+
 def _build_backend(args: argparse.Namespace, _group_key: Any) -> AuditBackend:
     from models.co_lmlm.backend import CoLMLMAuditBackend
 
@@ -77,7 +92,7 @@ def _build_backend(args: argparse.Namespace, _group_key: Any) -> AuditBackend:
     return CoLMLMAuditBackend.from_public_release(
         model_path=MODEL,
         index_path=index_path,
-        db_path=index_path / "entries.db",
+        db_path=_resolve_entry_db(index_path),
         source_path=SOURCE_PATH,
         similarity_threshold=args.co_lmlm_similarity_threshold,
         nprobe=NPROBE,
