@@ -25,7 +25,12 @@ INDEX_DIR="${INDEX_DIR:-$REPO_ROOT/data/co-lmlm-fineweb-wiki-index}"
 # Released bucket files (faiss.index ~228 GB, fineweb_with_fullwiki_entries.db
 # ~713 GB, faiss_id_to_entry_id.db ~134 GB): ~1.05 TB total.
 INDEX_FILES=(faiss.index fineweb_with_fullwiki_entries.db faiss_id_to_entry_id.db index_config.json manifest.json)
-INDEX_BASE_URL="https://huggingface.co/buckets/$INDEX_REPO/resolve"
+# The index lives in a Xet-backed HF bucket. Xet reconstructs files from
+# content-addressed chunks and does not serve plain HTTP range requests, so
+# curl -C - (resume) gets a 400 — the download must go through the Xet-aware
+# `hf buckets` CLI. huggingface_hub in this repo is too old to have it, so run
+# a recent one isolated via uvx (no effect on the audit environment's pins).
+HF_CLI=(uvx --from "huggingface_hub[hf_xet]>=1.25" hf)
 
 echo "[1/2] Building audit prompts (T-REx default corpus, then the rest) ..."
 uv run python "$REPO_ROOT/data/prepare_trex_audit.py"
@@ -38,9 +43,10 @@ echo "[2/2] Downloading fineweb+wiki index $INDEX_REPO -> $INDEX_DIR (~1.05 TB) 
 mkdir -p "$INDEX_DIR"
 for file in "${INDEX_FILES[@]}"; do
     echo "  -> $file"
-    curl -L --fail --retry 3 -C - -o "$INDEX_DIR/$file" \
-        ${HF_TOKEN:+-H "Authorization: Bearer $HF_TOKEN"} \
-        "$INDEX_BASE_URL/$file"
+    # Re-running is safe and resumes: the Xet client dedupes chunks it already
+    # has, so an interrupted download picks up where it left off.
+    "${HF_CLI[@]}" buckets cp ${HF_TOKEN:+--token "$HF_TOKEN"} \
+        "hf://buckets/$INDEX_REPO/$file" "$INDEX_DIR/$file"
 done
 
 echo
