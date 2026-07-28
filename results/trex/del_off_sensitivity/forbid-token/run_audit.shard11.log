@@ -1,0 +1,6 @@
+Logging run_audit output to /home/ubuntu/HALO/out/trex/del_off_sensitivity/forbid-token/run_audit.shard11.log
+Prompt file: /home/ubuntu/HALO/data/prompts_trex.jsonl
+Database used: /home/ubuntu/HALO/data/co-lmlm-fineweb-wiki-index
+DB states: FULL, DEL-ON, DEL-OFF
+Running audit for /home/ubuntu/HALO/data/prompts_trex.jsonl with database /home/ubuntu/HALO/data/co-lmlm-fineweb-wiki-index
+Shard 11/16 complete for prompts_trex; run without --shard to merge and finalize.

@@ -1,2 +1,2 @@
 mode,folds,seed,ridge_lambda,feature_dim,facts,samples,samples_dropped_no_label,candidates,label_unseen_count,l_rep_hat,facts_common,l_hat,delta_rep
-ranking,5,0,1.0,2048,572,572,0,315,0,0.21853146853146854,572,0.22727272727272727,-0.008741258741258723
+ranking,5,0,1.0,2048,8258,8258,0,1528,0,0.35032695567934125,8258,0.24981835795592153,0.10050859772341972

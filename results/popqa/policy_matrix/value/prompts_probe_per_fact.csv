@@ -1,619 +1,1002 @@
 fact,answer,fold,samples,samples_scored,l_rep,predicted,label_unseen,behavioral_l
-1001025,Mark Osborne,1,1,1,0.0,novella,False,0.0
-1003583,Leda,2,1,1,0.0,Leto,False,0.0
-1022802,Colorado,4,1,1,0.0,Holy Roman Empire,False,0.0
-102644,Howard Estabrook,3,1,1,0.0,David Koepp,False,0.0
-1032898,Pago Pago,1,1,1,0.0,Honolulu,False,0.0
-1033176,Saipan,0,1,1,0.0,Darwin,False,0.0
-104978,Brian Grazer,4,1,1,0.0,Debra Hill,False,0.0
-1050467,Moira Walley-Beckett,1,1,1,0.0,George Langelaan,False,0.0
-1057843,Michael Crichton,3,1,1,0.0,Ian Watson,False,0.0
-1085503,Eliza Poe,1,1,1,0.0,Leda,False,0.0
-1087089,soap opera,0,1,1,0.0,alternative rock,False,0.0
-110614,Rocky Johnson,4,1,1,0.0,Joe Jackson,False,0.0
-1126307,Debra Hill,1,1,1,1.0,Debra Hill,False,0.0
-1126310,Debra Hill,2,1,1,1.0,Debra Hill,False,0.0
-1126311,Debra Hill,3,1,1,1.0,Debra Hill,False,0.0
-1140403,Tokyo,2,1,1,0.0,Edo,False,0.0
-1158077,Cotija de la Paz,4,1,1,0.0,Brookline,False,0.0
-1163745,"Thomas D'Alesandro, Jr.",3,1,1,0.0,Albert Arnold Gore,False,0.0
-1164239,"Sir Thomas Chapman, 7th Baronet",3,1,1,0.0,Buster Keaton,False,0.0
-1180115,John Lasseter,1,1,1,1.0,John Lasseter,False,0.0
-1180116,John Lasseter,0,1,1,1.0,John Lasseter,False,0.0
-1180121,Randy Newman,4,1,1,0.0,John Lasseter,False,0.0
-1188844,Lower Saxony,2,1,1,0.0,Central Bohemian Region,False,1.0
-119440,John Shiban,4,1,1,1.0,John Shiban,False,0.0
-119443,John Shiban,3,1,1,1.0,John Shiban,False,0.0
-1194908,Tim Herlihy,1,1,1,0.0,Wes Craven,False,0.0
-1201824,San Diego,4,1,1,0.0,Darke County,False,0.0
-1202713,Florence,0,1,1,1.0,Florence,False,1.0
-1202714,Florence,4,1,1,1.0,Florence,False,1.0
-1211753,Saxony-Anhalt,3,1,1,0.0,Lower Saxony,False,0.0
-1222235,Sean Penn,1,1,1,0.0,Bob Dylan,False,0.0
-1223423,Holy Roman Empire,2,1,1,1.0,Holy Roman Empire,False,1.0
-1223424,Holy Roman Empire,3,1,1,1.0,Holy Roman Empire,False,1.0
-1223425,Holy Roman Empire,0,1,1,1.0,Holy Roman Empire,False,1.0
-1240369,Remo D'Souza,3,1,1,0.0,Jack Bender,False,0.0
-1249019,Wesley Strick,2,1,1,0.0,David Hare,False,0.0
-1249920,Louis Sachar,0,1,1,0.0,Jack the Ripper,False,0.0
-1251752,Thornton Wilder,3,1,1,0.0,Stephen Sondheim,False,0.0
-1281223,Latvia,3,1,1,0.0,Central Bohemian Region,False,0.0
-1283737,United States of America,2,1,1,0.0,Edgar Wright,False,0.0
+1003582,Zeus,1,1,1,0.0,Leda,False,0.0
+1003583,Leda,0,1,1,0.0,Zeus,False,0.0
+1003808,Hanover,0,1,1,0.0,Luoyang,False,1.0
+1014859,Oklahoma City,2,1,1,0.0,Topeka,False,0.0
+1016663,Styx,3,1,1,0.0,Themis,False,0.0
+1022353,Montpelier,1,1,1,0.0,Hamilton,False,0.0
+1022802,Colorado,2,1,1,0.0,Suffolk County,False,0.0
+1030164,Turin,2,1,1,0.0,Province of Como,False,0.0
+1032898,Pago Pago,3,1,1,0.0,Apia,False,0.0
+103528,Wales,0,1,1,0.0,London,False,1.0
+104978,Brian Grazer,3,1,1,0.0,Marta Kauffman,False,0.0
+1054621,Mildred J. Hill,3,1,1,0.0,Robert Lopez,False,0.0
+1054622,Mildred J. Hill,3,1,1,0.0,Robert Lopez,False,0.0
+1056699,Priam,3,1,1,0.0,Zeus,False,0.0
+1056700,Hecuba,1,1,1,0.0,Priam,False,0.0
+1057843,Michael Crichton,3,1,1,0.0,Daphne du Maurier,False,0.0
+1084482,Lutheranism,4,1,1,0.0,Catholic Church,False,0.0
+1085496,journalist,0,1,1,0.0,composer,False,0.0
+1085503,Eliza Poe,2,1,1,0.0,journalist,False,0.0
+10956,Praia,2,1,1,0.0,Havana,False,0.0
+110614,Rocky Johnson,2,1,1,0.0,Batman,False,0.0
+1117259,Nick Hornby,3,1,1,0.0,John Lasseter,False,0.0
+1118624,East Berlin,4,1,1,0.0,Berlin,False,0.0
+1140403,Tokyo,0,1,1,1.0,Tokyo,False,0.0
+1146607,Basse-Terre,3,1,1,0.0,Kingston,False,0.0
+1165631,Mamoudzou,1,1,1,0.0,Victoria,False,0.0
+1180105,Ralph Guggenheim,0,1,1,0.0,John Lasseter,False,0.0
+1180115,John Lasseter,2,1,1,1.0,John Lasseter,False,0.0
+1180116,John Lasseter,2,1,1,1.0,John Lasseter,False,0.0
+1180117,John Lasseter,4,1,1,1.0,John Lasseter,False,0.0
+1180118,John Lasseter,4,1,1,1.0,John Lasseter,False,0.0
+1180121,Randy Newman,1,1,1,0.0,John Lasseter,False,0.0
+1192195,Rome,4,1,1,0.0,Florence,False,1.0
+1194908,Tim Herlihy,0,1,1,0.0,John Lasseter,False,0.0
+1196975,Matsudaira Hirotada,0,1,1,0.0,Taejong of Joseon,False,0.0
+1202712,Florence,0,1,1,1.0,Florence,False,1.0
+1202713,Florence,3,1,1,1.0,Florence,False,1.0
+1202714,Florence,2,1,1,1.0,Florence,False,1.0
+1203961,Odin,0,1,1,0.0,Zeus,False,0.0
+1206290,Euclid,3,1,1,0.0,Stephen King,False,0.0
+1207361,Montgomery,0,1,1,0.0,Lincoln,False,0.0
+1213220,Dublin,0,1,1,1.0,Dublin,False,1.0
+1222235,Sean Penn,3,1,1,0.0,Eileen Ryan,False,0.0
+1223420,Holy Roman Empire,2,1,1,1.0,Holy Roman Empire,False,1.0
+1223421,Holy Roman Empire,3,1,1,1.0,Holy Roman Empire,False,1.0
+1223422,Holy Roman Empire,0,1,1,1.0,Holy Roman Empire,False,1.0
+1223423,Holy Roman Empire,3,1,1,1.0,Holy Roman Empire,False,1.0
+1223424,Holy Roman Empire,4,1,1,1.0,Holy Roman Empire,False,1.0
+1223425,Holy Roman Empire,1,1,1,1.0,Holy Roman Empire,False,1.0
+1225029,London,2,1,1,1.0,London,False,0.0
+122728,Redwood City,4,1,1,0.0,Santa Fe,False,0.0
+1249019,Wesley Strick,4,1,1,1.0,Wesley Strick,False,0.0
+1249020,Wesley Strick,2,1,1,1.0,Wesley Strick,False,0.0
+1249362,Stockholm County,0,1,1,1.0,Stockholm County,False,0.0
+1249363,Stockholm County,0,1,1,1.0,Stockholm County,False,0.0
+1249364,Stockholm County,3,1,1,1.0,Stockholm County,False,0.0
+1249365,Stockholm County,1,1,1,1.0,Stockholm County,False,0.0
+1249920,Louis Sachar,4,1,1,0.0,Stephen Sondheim,False,0.0
+1251752,Thornton Wilder,4,1,1,0.0,Stephen Sondheim,False,0.0
+1259497,Quebec City,3,1,1,0.0,Edmonton,False,1.0
+1272890,Aeson,1,1,1,0.0,Zeus,False,0.0
+1283737,United States of America,1,1,1,0.0,Netherlands,False,0.0
+128717,Central Bohemian Region,0,1,1,1.0,Central Bohemian Region,False,1.0
 128718,Central Bohemian Region,0,1,1,1.0,Central Bohemian Region,False,1.0
-128719,Central Bohemian Region,3,1,1,1.0,Central Bohemian Region,False,1.0
-128720,Central Bohemian Region,4,1,1,1.0,Central Bohemian Region,False,1.0
+128719,Central Bohemian Region,4,1,1,1.0,Central Bohemian Region,False,1.0
+128720,Central Bohemian Region,1,1,1,1.0,Central Bohemian Region,False,1.0
+128722,Central Bohemian Region,4,1,1,1.0,Central Bohemian Region,False,1.0
+1288919,Madrid,4,1,1,1.0,Madrid,False,0.0
+1289558,Kingdom of Hungary,3,1,1,1.0,Kingdom of Hungary,False,1.0
 1289559,Kingdom of Hungary,4,1,1,0.0,Holy Roman Empire,False,1.0
-1297664,Kota Kinabalu,2,1,1,0.0,Victoria,False,0.0
-13046,Maseru,2,1,1,0.0,Akure,False,0.0
-1305831,Winchester,2,1,1,1.0,London,False,1.0
-1307801,role-playing video game,3,1,1,0.0,Hiroki Kikuta,False,0.0
-1307804,Hiromichi Tanaka,4,1,1,0.0,Hiroki Kikuta,False,0.0
+1292419,Theia,4,1,1,0.0,Themis,False,0.0
+1297664,Kota Kinabalu,1,1,1,0.0,Santander,False,0.0
+13046,Maseru,3,1,1,0.0,Bloemfontein,False,0.0
+1305830,Winchester,0,1,1,1.0,Winchester,False,1.0
+1305831,Winchester,4,1,1,1.0,Winchester,False,1.0
+1305832,Winchester,2,1,1,1.0,Winchester,False,1.0
+1305833,Winchester,1,1,1,1.0,Winchester,False,1.0
+1307804,Hiromichi Tanaka,1,1,1,0.0,Hiroki Kikuta,False,0.0
 1307811,Hiroki Kikuta,0,1,1,0.0,Hiromichi Tanaka,False,0.0
-1309417,California,1,1,1,0.0,South Carolina,False,0.0
-1318613,Carl Gottlieb,1,1,1,0.0,John Shiban,False,0.0
-1318614,Carl Gottlieb,1,1,1,0.0,John Shiban,False,0.0
-1336640,Josh Singer,3,1,1,0.0,Duane Adler,False,0.0
-1346306,Shirley Jackson,1,1,1,0.0,Michael Lewis,False,0.0
-1358514,Dr. Dre,4,1,1,0.0,Channing Tatum,False,0.0
-1362626,Typhon,4,1,1,0.0,Osiris,False,0.0
-1363778,Berlin,3,1,1,0.0,The Hague,False,0.0
-1366262,Peshawar,3,1,1,0.0,Shimla,False,0.0
-1394666,Spain,3,1,1,0.0,Aristotle,False,0.0
-1401026,Amos Bronson Alcott,1,1,1,0.0,Thomas Lincoln,False,0.0
+1309417,California,4,1,1,0.0,Sacramento,False,0.0
+1319191,Timur Bekmambetov,2,1,1,0.0,Andrew Bergman,False,0.0
+1336640,Josh Singer,1,1,1,0.0,Stanley Kubrick,False,0.0
+1340076,William Shakespeare,4,1,1,0.0,Richard Rodgers,False,0.0
+1346306,Shirley Jackson,3,1,1,0.0,Michael Lewis,False,0.0
+1348054,Netherlands,3,1,1,0.0,Canada,False,0.0
+135186,Yasunori Mitsuda,4,1,1,0.0,Vangelis,False,0.0
+1357592,Cockburn Town,3,1,1,0.0,Port of Spain,False,0.0
+1362626,Typhon,0,1,1,0.0,Zeus,False,0.0
+1363778,Berlin,0,1,1,1.0,Berlin,False,0.0
+1364500,Winston Churchill,3,1,1,0.0,"John Spencer-Churchill, 10th Duke of Marlborough",False,0.0
+1365620,Anglicanism,3,1,1,0.0,Christianity,False,0.0
+1366262,Peshawar,4,1,1,0.0,Kabul,False,0.0
+1388910,Minsk,2,1,1,0.0,Bujumbura,False,0.0
+1390922,Zeus,2,1,1,0.0,Themis,False,0.0
+1394968,Robert Louis Stevenson,0,1,1,0.0,Jerry Bruckheimer,False,0.0
+1397707,Canada,1,1,1,0.0,Netherlands,False,1.0
+13998,Monrovia,1,1,1,0.0,Baton Rouge,False,0.0
+1401026,Amos Bronson Alcott,0,1,1,0.0,John Marshall Clemens,False,0.0
+1401999,Indra,4,1,1,0.0,Zeus,False,0.0
+1402880,Trent Reznor,0,1,1,0.0,Marta Kauffman,False,0.0
+1407469,Nathan Barr,4,1,1,0.0,Christophe Beck,False,0.0
+1408084,Robert Kardashian,0,1,1,0.0,Katherine Jackson,False,0.0
+1409534,Stanley Kubrick,4,1,1,1.0,Stanley Kubrick,False,0.0
+1409535,Stanley Kubrick,3,1,1,1.0,Stanley Kubrick,False,0.0
+1409536,Stanley Kubrick,3,1,1,1.0,Stanley Kubrick,False,0.0
+1416437,Federated Malay States,1,1,1,1.0,Federated Malay States,False,0.0
 1416438,Federated Malay States,3,1,1,1.0,Federated Malay States,False,0.0
+1416439,Federated Malay States,1,1,1,1.0,Federated Malay States,False,0.0
 1416440,Federated Malay States,0,1,1,1.0,Federated Malay States,False,0.0
-1416925,red,1,1,1,1.0,red,False,0.0
-1425603,Alfred the Great,3,1,1,0.0,Stephen,False,0.0
-1436355,Abu Dhabi,1,1,1,0.0,Dubai,False,1.0
-1445424,alternative rock,3,1,1,0.0,comedy-drama,False,0.0
-1447370,Craig Safan,4,1,1,0.0,Stephen Sondheim,False,0.0
-1449028,Reykjavík,3,1,1,0.0,Tirana,False,0.0
-1455040,art rock,1,1,1,0.0,alternative rock,False,0.0
-1456710,Adam Horowitz,1,1,1,0.0,Nat Faxon,False,0.0
-1460182,Bill Condon,2,1,1,0.0,John Shiban,False,0.0
-1466594,Downpatrick,4,1,1,0.0,Lincoln,False,0.0
-146692,Hume Cronyn,4,1,1,0.0,Carl Gottlieb,False,0.0
-1473125,Loki,0,1,1,0.0,Leda,False,0.0
-1482020,Jon Favreau,4,1,1,0.0,James Cameron,False,0.0
-1485443,David Koepp,4,1,1,0.0,Howard Estabrook,False,0.0
-1488536,Lin-Manuel Miranda,4,1,1,0.0,Richard Rodgers,False,0.0
-1494758,Pretoria,1,1,1,0.0,Adelaide,False,0.0
-1504171,composer,1,1,1,0.0,basketball,False,0.0
-1505006,association football,1,1,1,1.0,association football,False,0.0
-151132,Earl Woods,3,1,1,0.0,Joe Jackson,False,0.0
-1511830,Edmonton,4,1,1,0.0,Vientiane,False,0.0
-1522558,red,0,1,1,1.0,red,False,0.0
-1524983,red,0,1,1,1.0,red,False,0.0
-1533806,association football,2,1,1,1.0,association football,False,0.0
-1537651,Fredericton,0,1,1,0.0,Concord,False,0.0
-1541610,actor,3,1,1,1.0,actor,False,0.0
-1547297,Albert Arnold Gore,4,1,1,0.0,Pauline LaFon Gore,False,1.0
-1547299,Pauline LaFon Gore,2,1,1,0.0,Albert Arnold Gore,False,0.0
-1550690,John Lennon,1,1,1,0.0,Stephen Sondheim,False,0.0
-1570040,Phil Spector,4,1,1,0.0,Quincy Jones,False,0.0
-157382,John Gatins,4,1,1,0.0,Kevin Williamson,False,0.0
-1580390,Yellowknife,4,1,1,0.0,Iqaluit,False,0.0
-1581906,Whitehorse,2,1,1,0.0,Saint Paul,False,0.0
-1587871,Dustin Lance Black,3,1,1,0.0,John Lasseter,False,0.0
-1592930,Iqaluit,1,1,1,0.0,Yellowknife,False,0.0
+1416925,red,4,1,1,1.0,red,False,0.0
+1425545,sky blue,2,1,1,0.0,red,False,0.0
+1425603,Alfred the Great,1,1,1,0.0,Charles I of England,False,0.0
+1430723,red,1,1,1,1.0,red,False,0.0
+1436355,Abu Dhabi,3,1,1,0.0,Tughlaq dynasty,False,1.0
+1438772,Paul Haggis,0,1,1,0.0,Joel Schumacher,False,0.0
+1445424,alternative rock,4,1,1,0.0,rock music,False,0.0
+1446356,Tokyo,1,1,1,1.0,Tokyo,False,0.0
+1447370,Craig Safan,1,1,1,0.0,Stanley Kubrick,False,0.0
+1449028,Reykjavík,0,1,1,0.0,Stockholm County,False,0.0
+1454544,Christopher Nolan,1,1,1,0.0,Stanley Kubrick,False,0.0
+1455040,art rock,2,1,1,0.0,alternative rock,False,0.0
+1459024,American football,2,1,1,0.0,basketball,False,0.0
+1460182,Bill Condon,1,1,1,0.0,Stanley Kubrick,False,0.0
+1460880,Kingdom of England,1,1,1,0.0,London,False,0.0
+1464242,Toronto,0,1,1,0.0,Quebec City,False,0.0
+1466594,Downpatrick,1,1,1,0.0,Dublin,False,0.0
+146692,Hume Cronyn,4,1,1,0.0,Jonathan Larson,False,0.0
+1467376,screenwriter,3,1,1,1.0,actor,False,0.0
+1468148,Arnold Kopelson,0,1,1,0.0,David Fincher,False,0.0
+1468151,David Fincher,2,1,1,0.0,Arnold Kopelson,False,0.0
+1468996,Tallinn,3,1,1,0.0,Central Bohemian Region,False,0.0
+1473125,Loki,2,1,1,0.0,Zeus,False,0.0
+1482020,Jon Favreau,0,1,1,0.0,Steven Spielberg,False,0.0
+1485443,David Koepp,4,1,1,0.0,David Heyman,False,0.0
+1493515,Dhanush,2,1,1,0.0,Barry Hines,False,0.0
+1498107,Catholic Church,2,1,1,0.0,Unitarianism,False,0.0
+1507294,red,3,1,1,1.0,red,False,0.0
+1509169,Winnipeg,3,1,1,0.0,Berlin,False,0.0
+1510040,red,0,1,1,1.0,red,False,0.0
+151132,Earl Woods,2,1,1,0.0,Stephen Sondheim,False,0.0
+1511830,Edmonton,4,1,1,0.0,Quebec City,False,0.0
+1515801,Halifax,2,1,1,0.0,Fredericton,False,0.0
+152398,Alfred Hitchcock,4,1,1,0.0,Daphne du Maurier,False,0.0
+152403,Daphne du Maurier,1,1,1,0.0,Alfred Hitchcock,False,0.0
+152404,Daphne du Maurier,1,1,1,0.0,Alfred Hitchcock,False,0.0
+1527903,Zhang Yimou,3,1,1,0.0,Nanjing,False,0.0
+1537651,Fredericton,4,1,1,0.0,Queensland,False,0.0
+1541610,actor,1,1,1,1.0,actor,False,0.0
+1547297,Albert Arnold Gore,1,1,1,0.0,Pauline LaFon Gore,False,1.0
+1547299,Pauline LaFon Gore,3,1,1,0.0,Albert Arnold Gore,False,0.0
+1556437,John Norman,2,1,1,0.0,Stephen King,False,0.0
+1562677,Gustavo Santaolalla,3,1,1,0.0,Joel Schumacher,False,0.0
+1570040,Phil Spector,1,1,1,0.0,Robert Lopez,False,0.0
+1573571,Oslo,4,1,1,0.0,Stockholm County,False,0.0
+157382,John Gatins,2,1,1,0.0,American football,False,0.0
+1579959,Karachi,4,1,1,0.0,Islamabad,False,0.0
+1580390,Yellowknife,1,1,1,0.0,Iqaluit,False,0.0
+15805,Tripoli,3,1,1,0.0,Rabat,False,0.0
+1581906,Whitehorse,4,1,1,0.0,Salt Lake City,False,0.0
+1585747,Themis,1,1,1,0.0,Isis,False,0.0
+1587871,Dustin Lance Black,0,1,1,0.0,John Lasseter,False,0.0
+1592930,Iqaluit,3,1,1,0.0,Yellowknife,False,0.0
 1593358,tennis,3,1,1,0.0,actor,False,0.0
-1610118,Daphne du Maurier,2,1,1,1.0,Daphne du Maurier,False,0.0
-1610120,Daphne du Maurier,3,1,1,1.0,Daphne du Maurier,False,0.0
-1611420,association football,4,1,1,1.0,association football,False,0.0
-1620826,Edo,1,1,1,0.0,Tokyo,False,0.0
-162371,Kyiv,1,1,1,0.0,Helsinki,False,0.0
-1630173,Johnny Depp,0,1,1,0.0,Debra Hill,False,0.0
-1633964,George H. W. Bush,4,1,1,0.0,Augustine Washington,False,0.0
-1638818,Robert Zemeckis,4,1,1,0.0,Marta Kauffman,False,0.0
-1642787,Vangelis,0,1,1,0.0,Stephen Sondheim,False,0.0
-1648052,George Orwell,1,1,1,0.0,Stephen King,False,0.0
-1657374,John Carpenter,2,1,1,0.0,Tom Cherones,False,0.0
-1659966,historical drama,3,1,1,0.0,soap opera,False,0.0
-1660531,London,4,1,1,0.0,Winchester,False,0.0
-1665931,Riga,4,1,1,0.0,Sofia,False,0.0
-1668447,Jason Reitman,1,1,1,1.0,Jason Reitman,False,0.0
-1668450,Jason Reitman,0,1,1,1.0,Jason Reitman,False,0.0
-1668604,Bruce Lee,1,1,1,0.0,Rocky Johnson,False,0.0
-1678688,Prague,0,1,1,0.0,Central Bohemian Region,False,0.0
-1683267,Brandon Sanderson,1,1,1,0.0,Herodotos,False,0.0
-1686002,Nova Scotia,3,1,1,0.0,Fredericton,False,0.0
-1688690,Quebec,3,1,1,0.0,Fredericton,False,1.0
-1688733,Victoria,1,1,1,0.0,Saipan,False,0.0
-1691938,Ljubljana,2,1,1,0.0,Podgorica,False,0.0
-1695062,Jimmy Page,1,1,1,0.0,Dino De Laurentiis,False,0.0
-1695842,Jacob,4,1,1,0.0,Noah,False,0.0
-1706834,Chișinău,2,1,1,0.0,Podgorica,False,0.0
-1706967,Mark Protosevich,4,1,1,1.0,Mark Protosevich,False,0.0
-1706968,Mark Protosevich,3,1,1,1.0,Mark Protosevich,False,0.0
-1717233,Sofia,2,1,1,0.0,Kutaisi,False,0.0
-1719999,Charles Dickens,0,1,1,0.0,Thomas More,False,0.0
-1722391,Edinburgh,0,1,1,0.0,London,False,0.0
-1723977,Lewis Carroll,3,1,1,0.0,George Orwell,False,0.0
-1727462,Skopje,0,1,1,0.0,Sofia,False,0.0
-1728178,Steven Spielberg,2,1,1,0.0,Ian Watson,False,0.0
-1728179,Ian Watson,3,1,1,1.0,Ian Watson,False,0.0
-1728180,Ian Watson,0,1,1,1.0,Ian Watson,False,0.0
+1596743,John Lennon,3,1,1,1.0,John Lennon,False,0.0
+1596744,John Lennon,0,1,1,1.0,John Lennon,False,0.0
+1608927,Ron Nyswaner,0,1,1,0.0,Christopher Nolan,False,0.0
+1610118,Daphne du Maurier,3,1,1,1.0,Daphne du Maurier,False,0.0
+1610120,Daphne du Maurier,4,1,1,1.0,Daphne du Maurier,False,0.0
+1611420,association football,2,1,1,1.0,association football,False,0.0
+162371,Kyiv,3,1,1,0.0,Winchester,False,0.0
+1630172,Johnny Depp,0,1,1,1.0,Johnny Depp,False,0.0
+1630173,Johnny Depp,0,1,1,1.0,Johnny Depp,False,0.0
+1630174,Johnny Depp,4,1,1,1.0,Johnny Depp,False,0.0
+1633964,George H. W. Bush,1,1,1,0.0,Barbara Bush,False,0.0
+1633965,Barbara Bush,0,1,1,0.0,George H. W. Bush,False,0.0
+1638818,Robert Zemeckis,4,1,1,0.0,Eric Ambler,False,0.0
+1641120,George Frideric Handel,4,1,1,0.0,Richard Rodgers,False,0.0
+1642787,Vangelis,1,1,1,0.0,Stephen Sondheim,False,0.0
+1646487,red,2,1,1,1.0,red,False,0.0
+1648052,George Orwell,0,1,1,0.0,Michael Tolkin,False,0.0
+1657474,Walter Gretzky,3,1,1,0.0,Batman,False,0.0
+1659966,historical drama,1,1,1,0.0,Rome,False,0.0
+1660531,London,1,1,1,1.0,London,False,0.0
+1665931,Riga,1,1,1,0.0,Sofia,False,0.0
+1666876,South Korea,1,1,1,0.0,Netherlands,False,0.0
+1668450,Jason Reitman,4,1,1,0.0,David Giler,False,0.0
+1668604,Bruce Lee,0,1,1,0.0,Batman,False,0.0
+1672533,Kyiv,0,1,1,0.0,Moscow,False,0.0
+1672868,Oranjestad,3,1,1,0.0,Willemstad,False,0.0
+1673256,Catholic Church,0,1,1,0.0,Lutheranism,False,0.0
+1678688,Prague,2,1,1,0.0,Central Bohemian Region,False,0.0
+1683089,Reid Hoffman,1,1,1,0.0,Stephen King,False,0.0
+1683267,Brandon Sanderson,0,1,1,0.0,Richard Rodgers,False,0.0
+1685298,Bratislava,1,1,1,0.0,Central Bohemian Region,False,0.0
+1686002,Nova Scotia,3,1,1,0.0,Halifax,False,0.0
+1688690,Quebec,3,1,1,0.0,Tughlaq dynasty,False,1.0
+1688733,Victoria,3,1,1,0.0,Kota Kinabalu,False,0.0
+1691938,Ljubljana,2,1,1,0.0,Belgrade,False,0.0
+1695062,Jimmy Page,0,1,1,0.0,Marta Kauffman,False,0.0
+1695842,Jacob,4,1,1,0.0,Amram,False,0.0
+1705343,Jerry Bruckheimer,0,1,1,1.0,Jerry Bruckheimer,False,0.0
+1705344,Jerry Bruckheimer,2,1,1,1.0,Jerry Bruckheimer,False,0.0
+1705692,Malcolm III of Scotland,3,1,1,0.0,James V of Scotland,False,0.0
+1705816,Max Steiner,2,1,1,0.0,Mildred J. Hill,False,0.0
+1706404,composer,3,1,1,0.0,actor,False,0.0
+1706834,Chișinău,1,1,1,0.0,Bucharest,False,0.0
+1709180,Stuart Hazeldine,1,1,1,0.0,Michael Tolkin,False,0.0
+1709278,Ninlil,0,1,1,0.0,Ningal,False,0.0
+1710478,Lawrence Turman,0,1,1,0.0,Charles Webb,False,0.0
+1710487,Charles Webb,2,1,1,0.0,Lawrence Turman,False,0.0
+1712488,Bucharest,4,1,1,0.0,Catherine II of Russia,False,0.0
+1717233,Sofia,3,1,1,1.0,Sofia,False,0.0
+1719140,Sajid Nadiadwala,0,1,1,0.0,Rob Zombie,False,0.0
+1719327,Chuck Russell,4,1,1,0.0,Richard Donner,False,0.0
+1719999,Charles Dickens,2,1,1,0.0,Jane Austen,False,0.0
+1721484,Ruben Fleischer,0,1,1,0.0,Robert Zemeckis,False,0.0
+1722391,Edinburgh,2,1,1,0.0,London,False,0.0
+1723865,Adam Rifkin,3,1,1,0.0,John Norman,False,0.0
+1723977,Lewis Carroll,1,1,1,0.0,Stephen,False,0.0
+1726948,Martin Scorsese,0,1,1,0.0,John Lasseter,False,0.0
+1727462,Skopje,3,1,1,0.0,Podgorica,False,0.0
+1728179,Ian Watson,1,1,1,1.0,Ian Watson,False,0.0
+1728180,Ian Watson,2,1,1,1.0,Ian Watson,False,0.0
 1728181,Ian Watson,4,1,1,1.0,Ian Watson,False,0.0
-1729733,basketball,2,1,1,0.0,association football,False,0.0
-1734901,Tirana,2,1,1,0.0,Piedmont,False,0.0
-173697,Stephen Sondheim,4,1,1,1.0,Stephen Sondheim,False,0.0
-1742797,Peter Morgan,2,1,1,0.0,Christopher Nolan,False,0.0
-1752279,Sarajevo,4,1,1,0.0,Sofia,False,0.0
-1757186,Augustus,2,1,1,0.0,Fred Zinnemann,False,0.0
-1761960,Madelyne Pryor,0,1,1,0.0,Telephassa,False,0.0
-1763729,Baku,4,1,1,0.0,Tehran,False,0.0
-1770493,Andorra la Vella,1,1,1,0.0,Santander,False,0.0
-1775298,Nicosia,1,1,1,0.0,4th of August Regime,False,0.0
-1779886,Amy Tan,4,1,1,0.0,Marta Kauffman,False,0.0
-1780093,Bill Clinton,1,1,1,0.0,"Thomas D'Alesandro, Jr.",False,1.0
-1780318,Noah,3,1,1,0.0,Jacob,False,0.0
-1782512,Augustine Washington,0,1,1,0.0,Thomas Lincoln,False,0.0
+1729733,basketball,0,1,1,0.0,American football,False,0.0
+1734901,Tirana,4,1,1,0.0,Florence,False,0.0
+1735082,Paul Verhoeven,3,1,1,0.0,Robert Zemeckis,False,0.0
+173694,Stephen Sondheim,1,1,1,1.0,Stephen Sondheim,False,0.0
+173695,Stephen Sondheim,3,1,1,1.0,Stephen Sondheim,False,0.0
+173697,Stephen Sondheim,0,1,1,1.0,Stephen Sondheim,False,0.0
+1740588,Nuuk,2,1,1,0.0,Stockholm County,False,0.0
+1742649,multiplayer online battle arena,4,1,1,0.0,role-playing video game,False,0.0
+1742797,Peter Morgan,3,1,1,0.0,Daphne du Maurier,False,0.0
+1745955,Jane Austen,3,1,1,0.0,Stephen King,False,0.0
+1746524,Zagreb,0,1,1,0.0,Praia,False,0.0
+1752279,Sarajevo,2,1,1,0.0,Sofia,False,0.0
+1757186,Augustus,2,1,1,0.0,Zebedee,False,0.0
+1761959,Cyclops,2,1,1,0.0,Charlie Chaplin,False,0.0
+1762842,Fred Trump,2,1,1,0.0,George H. W. Bush,False,0.0
+1763729,Baku,1,1,1,0.0,Dhaka,False,0.0
+1770493,Andorra la Vella,3,1,1,0.0,Loiret,False,0.0
+1775298,Nicosia,4,1,1,0.0,Cairo,False,0.0
+1779954,horror film,4,1,1,0.0,rock music,False,0.0
+1780093,Bill Clinton,3,1,1,0.0,actor,False,1.0
+1780318,Noah,4,1,1,0.0,Islam,False,0.0
+1782512,Augustine Washington,2,1,1,0.0,Mary Ball Washington,False,0.0
+1782515,Mary Ball Washington,0,1,1,0.0,Augustine Washington,False,0.0
 1782552,Kutaisi,0,1,1,1.0,Kutaisi,False,0.0
-1782553,Kutaisi,3,1,1,1.0,Kutaisi,False,0.0
-1783379,alternative rock,3,1,1,0.0,soap opera,False,0.0
-1789286,Lincoln,1,1,1,0.0,London,False,0.0
-1789490,Darke County,2,1,1,0.0,San Diego,False,0.0
-1794837,Trowbridge,1,1,1,0.0,London,False,0.0
-1796952,David Nicholls,1,1,1,0.0,Harold Ramis,False,0.0
-180938,Gus Van Sant,1,1,1,0.0,Stephen Sondheim,False,0.0
-1809866,George V,4,1,1,0.0,James V of Scotland,False,0.0
+1782553,Kutaisi,2,1,1,1.0,Kutaisi,False,0.0
+1788690,Durham,2,1,1,0.0,Dublin,False,1.0
+1789286,Lincoln,4,1,1,0.0,Winchester,False,0.0
+1789490,Darke County,4,1,1,0.0,New York City,False,0.0
+1790487,Norwich,3,1,1,0.0,Hanover,False,0.0
+179126,Abigail Greene Aldrich,1,1,1,0.0,Pauline LaFon Gore,False,0.0
+179252,Baptists,0,1,1,0.0,Nation of Islam,False,0.0
+1793343,Exeter,0,1,1,0.0,London,False,0.0
+1793405,Taunton,0,1,1,0.0,Boston,False,0.0
+1794837,Trowbridge,1,1,1,0.0,Winchester,False,0.0
+1796952,David Nicholls,3,1,1,0.0,David Hare,False,0.0
+1802180,Maidstone,4,1,1,0.0,London,False,0.0
+1802332,Valletta,1,1,1,0.0,Florence,False,0.0
+1809866,George V,3,1,1,0.0,Mary of Teck,False,0.0
+1809868,Mary of Teck,4,1,1,0.0,George V,False,0.0
+1811247,Norway,2,1,1,0.0,People's Republic of China,False,0.0
 1812127,Robert Kiyosaki,4,1,1,0.0,Jonathan Larson,False,0.0
-1812640,Tskhinvali,0,1,1,0.0,Sofia,False,0.0
-1822049,"Abraham Quintanilla,",2,1,1,0.0,Joe Jackson,False,0.0
-1826568,Podgorica,4,1,1,0.0,Sofia,False,1.0
-1829094,Hamilton,0,1,1,0.0,Providence,False,0.0
-184002,Harold Ramis,4,1,1,0.0,David Nicholls,False,0.0
-1843438,Marta Kauffman,2,1,1,1.0,Marta Kauffman,False,0.0
-1843439,Marta Kauffman,3,1,1,1.0,Marta Kauffman,False,0.0
-1846418,Flanders,0,1,1,0.0,City of Brussels,False,1.0
-186597,Elem Klimov,2,1,1,0.0,Josh Singer,False,0.0
-1867834,Belmopan,1,1,1,0.0,Guatemala City,False,0.0
-1892618,basketball,0,1,1,0.0,composer,False,0.0
-1900420,Christophe Beck,2,1,1,0.0,Debra Hill,False,0.0
-1900421,Christophe Beck,2,1,1,0.0,Debra Hill,False,0.0
-1907426,Santo Cilauro,4,1,1,0.0,Marta Kauffman,False,0.0
-1919215,James Cameron,0,1,1,0.0,Jacques Tourneur,False,0.0
+1812640,Tskhinvali,4,1,1,0.0,Kutaisi,False,0.0
+1822049,"Abraham Quintanilla,",1,1,1,1.0,"Abraham Quintanilla,",False,0.0
+1826568,Podgorica,2,1,1,0.0,Sofia,False,1.0
+1829094,Hamilton,0,1,1,0.0,Kingston,False,0.0
+184850,Matt Greenhalgh,3,1,1,0.0,Barry Hines,False,0.0
+185033,thriller,2,1,1,0.0,first-person shooter,False,0.0
+1853186,Burgundian Netherlands,0,1,1,1.0,Burgundian Netherlands,False,0.0
+1853187,Burgundian Netherlands,4,1,1,1.0,Burgundian Netherlands,False,0.0
+1853188,Burgundian Netherlands,1,1,1,1.0,Burgundian Netherlands,False,0.0
+1853189,Burgundian Netherlands,2,1,1,1.0,Burgundian Netherlands,False,0.0
+1853190,Burgundian Netherlands,1,1,1,1.0,Burgundian Netherlands,False,0.0
+1853198,City of Brussels,2,1,1,0.0,Burgundian Netherlands,False,1.0
+1860029,Havana,1,1,1,0.0,Central Bohemian Region,False,0.0
+1860287,Prince Joachim of Denmark,1,1,1,0.0,Paul I of Russia,False,0.0
+186597,Elem Klimov,3,1,1,0.0,Daphne du Maurier,False,0.0
+1867834,Belmopan,2,1,1,0.0,Managua,False,0.0
+1882504,Bridgetown,3,1,1,0.0,Hamilton,False,0.0
+189068,Free Software Foundation,0,1,1,1.0,Free Software Foundation,False,0.0
+189200,Irving Berlin,3,1,1,0.0,Stephen Sondheim,False,0.0
+1892618,basketball,3,1,1,0.0,actor,False,0.0
+1900420,Christophe Beck,3,1,1,1.0,Christophe Beck,False,0.0
+1900421,Christophe Beck,3,1,1,1.0,Christophe Beck,False,0.0
+1900422,Christophe Beck,0,1,1,1.0,Christophe Beck,False,0.0
+1919215,James Cameron,3,1,1,0.0,Ian Watson,False,0.0
 1927140,Cardiff,0,1,1,0.0,London,False,0.0
-1927933,Stephen King,2,1,1,0.0,Augustine of Hippo,False,0.0
-1933827,Jonathan Demme,0,1,1,0.0,John Shiban,False,0.0
-1941761,Willemstad,0,1,1,0.0,The Hague,False,0.0
-1942600,baseball,1,1,1,0.0,basketball,False,0.0
-1944925,Willemstad,1,1,1,0.0,The Hague,False,0.0
-1946956,Stephen Sondheim,0,1,1,0.0,Charles Strouse,False,0.0
-1948707,novella,2,1,1,0.0,Mark Osborne,False,0.0
-196737,soap opera,2,1,1,0.0,Buster Keaton,False,0.0
-1980777,Channing Tatum,3,1,1,0.0,Dr. Dre,False,0.0
-1982916,Bill Geist,0,1,1,0.0,Rick Grimes,False,0.0
-1995480,Upton Sinclair,4,1,1,0.0,Jason Reitman,False,0.0
-200353,Michael Lewis,0,1,1,0.0,Robert Kiyosaki,False,0.0
-200414,Howard Hawks,3,1,1,0.0,Stuart Gordon,False,0.0
-2013401,Don DeLillo,1,1,1,0.0,Stephen Sondheim,False,0.0
-2013955,Hughie Charles,2,1,1,0.0,Stephen Sondheim,False,0.0
-2014346,Invisible Woman,2,1,1,0.0,Rhea Perlman,False,0.0
-2017351,Trudie Styler,2,1,1,0.0,Rhea Perlman,False,0.0
-20250,Lilongwe,2,1,1,0.0,Accra,False,0.0
-205996,Andrew Bergman,4,1,1,0.0,Steven Soderbergh,False,0.0
-2064897,Lee Daniels,1,1,1,0.0,Dr. Dre,False,0.0
-206780,Catherine Hardwicke,0,1,1,0.0,Mark Protosevich,False,0.0
-2070124,Dublin,3,1,1,0.0,Cork,False,0.0
-207647,Edgar Wright,1,1,1,0.0,James Cameron,False,0.0
+1927933,Stephen King,0,1,1,0.0,John Norman,False,0.0
+1931065,Terry Gilliam,1,1,1,0.0,Johnny Depp,False,0.0
+1939901,Jakarta,1,1,1,0.0,Federated Malay States,False,0.0
+1941759,Kingdom of the Netherlands,2,1,1,0.0,Willemstad,False,1.0
+1941761,Willemstad,0,1,1,0.0,Kingdom of the Netherlands,False,0.0
+1941949,Saint Peter Port,0,1,1,0.0,Kingstown,False,0.0
+1942600,baseball,3,1,1,0.0,American football,False,0.0
+1944925,Willemstad,4,1,1,0.0,The Hague,False,0.0
+1946956,Stephen Sondheim,2,1,1,0.0,John Kander,False,0.0
+19472,Antananarivo,3,1,1,0.0,N'Djamena,False,0.0
+1948711,Antoine de Saint-Exupéry,3,1,1,0.0,John Lasseter,False,0.0
+196737,soap opera,1,1,1,0.0,rock music,False,0.0
+1980780,Jamie Linden,2,1,1,0.0,John Lennon,False,0.0
+1980835,David Heyman,3,1,1,0.0,Jerry Bruckheimer,False,0.0
+1981146,Bloemfontein,0,1,1,0.0,Rhodesia,False,0.0
+1981147,Bloemfontein,4,1,1,1.0,Bloemfontein,False,0.0
+1981148,Bloemfontein,0,1,1,0.0,Rhodesia,False,0.0
+199300,Brian Grazer,1,1,1,0.0,David Giler,False,0.0
+1993670,Belfast,4,1,1,0.0,London,False,0.0
+1995480,Upton Sinclair,4,1,1,0.0,Stephen King,False,0.0
+200353,Michael Lewis,2,1,1,0.0,Robert Kirkman,False,0.0
+200414,Howard Hawks,0,1,1,0.0,Christian Nyby,False,0.0
+200416,Christian Nyby,4,1,1,1.0,Howard Hawks,False,0.0
+2013401,Don DeLillo,4,1,1,0.0,Irving Berlin,False,0.0
+2014194,Ukraine,2,1,1,0.0,Indonesia,False,0.0
+2014345,Mister Fantastic,2,1,1,0.0,Robert Kardashian,False,0.0
+20250,Lilongwe,1,1,1,0.0,Nicosia,False,0.0
+203437,Nairobi,1,1,1,0.0,Abuja,False,0.0
+2036135,Tashkent,4,1,1,0.0,Ufimsky District,False,0.0
+203754,American football,3,1,1,0.0,actor,False,0.0
+204048,Cormac McCarthy,1,1,1,0.0,Jack Kerouac,False,0.0
+2045728,Mark Gordon,2,1,1,0.0,Free Software Foundation,False,0.0
+2051232,Mysore,1,1,1,0.0,Kolkata,False,1.0
+205531,rock music,2,1,1,0.0,soap opera,False,0.0
+2055647,Duncan Jones,4,1,1,0.0,David Heyman,False,0.0
+205570,Spike Lee,0,1,1,0.0,John Lasseter,False,0.0
+2059763,actor,0,1,1,1.0,actor,False,0.0
+205996,Andrew Bergman,0,1,1,0.0,John Lasseter,False,0.0
+2064852,Tsui Hark,0,1,1,0.0,Tony Garnett,False,0.0
+2064903,Geoffrey S. Fletcher,4,1,1,0.0,Christopher Gore,False,0.0
+2065688,Gotham City,2,1,1,0.0,New York City,False,0.0
+2068848,Avarua,4,1,1,0.0,South Tarawa,False,0.0
+2069235,Sean Penn,1,1,1,0.0,Stephen Sondheim,False,0.0
+2070124,Dublin,4,1,1,0.0,London,False,0.0
 2085291,Frank De Felitta,4,1,1,0.0,David Seltzer,False,0.0
-2085702,Charles Brackett,2,1,1,0.0,Richard Rodgers,False,0.0
-2085709,Richard Rodgers,0,1,1,0.0,Charles Brackett,False,0.0
-2091182,Lucien Hubbard,1,1,1,0.0,George Langelaan,False,0.0
-2104045,Nat Faxon,0,1,1,0.0,Marta Kauffman,False,0.0
-2115021,Yuvan Shankar Raja,3,1,1,0.0,film director,False,0.0
-2123773,Telephassa,4,1,1,0.0,Olympias,False,0.0
-2126877,Pierre Morel,0,1,1,0.0,Robert Mark Kamen,False,0.0
-2126879,Robert Mark Kamen,2,1,1,0.0,Pierre Morel,False,0.0
-2137484,Henry Wadsworth Longfellow,4,1,1,0.0,Stephen Sondheim,False,0.0
-2140014,Shuri Castle,1,1,1,0.0,Colombo,False,0.0
-2142166,George V,0,1,1,0.0,George VI,False,0.0
-2142170,Mary of Teck,0,1,1,0.0,George VI,False,0.0
+2085709,Richard Rodgers,3,1,1,0.0,Stephen Sondheim,False,0.0
+2091182,Lucien Hubbard,3,1,1,0.0,Howard Hawks,False,0.0
+2104045,Nat Faxon,1,1,1,1.0,Nat Faxon,False,0.0
+2104046,Nat Faxon,4,1,1,1.0,Nat Faxon,False,0.0
+2115021,Yuvan Shankar Raja,4,1,1,0.0,Harris Jayaraj,False,0.0
+2115553,first-person shooter,4,1,1,1.0,puzzle video game,False,0.0
+2120061,actor,0,1,1,0.0,record producer,False,0.0
+2122202,Italy,2,1,1,0.0,rock music,False,0.0
+2126878,Robert Mark Kamen,3,1,1,1.0,Robert Mark Kamen,False,0.0
+2126879,Robert Mark Kamen,4,1,1,1.0,Robert Mark Kamen,False,0.0
+2131105,Terry Jones,1,1,1,0.0,John Lasseter,False,0.0
+2137484,Henry Wadsworth Longfellow,3,1,1,0.0,Stephen Sondheim,False,0.0
+2139200,Budapest,3,1,1,0.0,Sanaa,False,0.0
+2142166,George V,1,1,1,0.0,Mary of Teck,False,0.0
+2142170,Mary of Teck,4,1,1,0.0,George V,False,0.0
 2147549,Mississippi,1,1,1,0.0,Jackson,False,0.0
 2155468,Joe Jackson,0,1,1,0.0,Katherine Jackson,False,0.0
-2155469,Katherine Jackson,2,1,1,0.0,Joe Jackson,False,0.0
-2173537,Anna Maria Villani Scicolone,1,1,1,0.0,Florence,False,0.0
-217415,Addis Ababa,0,1,1,0.0,Asmara,False,0.0
-2180839,Viceroyalty of Perú,1,1,1,0.0,4th of August Regime,False,1.0
-2185977,Malik Bendjelloul,4,1,1,0.0,Debra Hill,False,0.0
-2187694,Indre-et-Loire,2,1,1,0.0,Piedmont,False,0.0
-2199670,Joel Schumacher,4,1,1,0.0,Debra Hill,False,0.0
-2218078,Stephen Sondheim,0,1,1,0.0,Hughie Charles,False,0.0
-2254982,Santiago,2,1,1,0.0,Sacramento,False,0.0
-2266274,"Washington, D.C.",0,1,1,0.0,United States of America,False,0.0
-2281514,Virgin Mary,3,1,1,0.0,Jacob,False,1.0
-2291070,Anurag Basu,3,1,1,0.0,Tony Garnett,False,0.0
-2292839,Gustav Holst,4,1,1,0.0,Stephen Sondheim,False,0.0
-2300772,Steven Gould,3,1,1,0.0,Carl Gottlieb,False,0.0
-2342140,City of Brussels,3,1,1,0.0,The Hague,False,0.0
-2350775,Bob Marley,2,1,1,0.0,Joe Jackson,False,0.0
-2354806,basketball,3,1,1,0.0,composer,False,0.0
-2360504,guitarist,1,1,1,0.0,basketball,False,0.0
-2370611,New South Wales,0,1,1,0.0,Adelaide,False,0.0
-237677,alternative rock,1,1,1,0.0,Jim Lemley,False,0.0
-237772,David Crane,4,1,1,0.0,David Giler,False,0.0
-2380062,Surinder Kapoor,4,1,1,0.0,Prabodhankar Thackeray,False,0.0
-2385440,Dusty Rhodes,1,1,1,0.0,Sigurd,False,0.0
-239096,Galt MacDermot,1,1,1,0.0,Stephen King,False,0.0
-2391233,Ibn Saud,2,1,1,0.0,Zulfiqar Ali Bhutto,False,1.0
-2393310,composer,1,1,1,0.0,actor,False,0.0
-239951,Lansing,3,1,1,0.0,Boston,False,0.0
-240294,Fred Zinnemann,3,1,1,0.0,Lillian Hellman,False,0.0
-240295,Lillian Hellman,1,1,1,0.0,Fred Zinnemann,False,0.0
-2409640,Ashok Amritraj,3,1,1,1.0,Ashok Amritraj,False,0.0
-2409641,Ashok Amritraj,0,1,1,1.0,Ashok Amritraj,False,0.0
-2415240,American football,1,1,1,0.0,basketball,False,0.0
-242012,fantasy,4,1,1,0.0,horror film,False,0.0
-2438406,Perth,2,1,1,0.0,Iloilo City,False,0.0
-2440723,Luoyang,0,1,1,1.0,Luoyang,False,0.0
-245609,Aiwass,0,1,1,0.0,Brandon Sanderson,False,0.0
-2456508,Darwin,3,1,1,0.0,Yellowknife,False,0.0
-246233,Accra,4,1,1,0.0,Kutaisi,False,0.0
-2465832,Joanna of Castile,0,1,1,0.0,Philip III of France,False,0.0
-2474999,Jeff Nichols,0,1,1,0.0,John Gatins,False,0.0
-2480048,Alexander McCall Smith,3,1,1,0.0,Don DeLillo,False,0.0
-2481597,Errol Flynn,3,1,1,0.0,Woody Allen,False,0.0
-248641,Panaji,1,1,1,0.0,Kutaisi,False,0.0
-2507186,Helsinki,3,1,1,0.0,Tirana,False,0.0
-2562742,Andrew Lloyd Webber,1,1,1,0.0,Stephen Sondheim,False,0.0
-25674,Nouakchott,2,1,1,0.0,Asmara,False,0.0
-2569888,Noumea,2,1,1,0.0,Paris,False,0.0
-2579813,Prague,2,1,1,0.0,Central Bohemian Region,False,0.0
-2583275,Stockholm,3,1,1,0.0,Sofia,False,0.0
-2584594,Alofi,1,1,1,0.0,Honiara,False,0.0
-258682,Shimla,1,1,1,0.0,Andhra Pradesh,False,0.0
-2593167,B. Nagi Reddy,4,1,1,0.0,Yuvan Shankar Raja,False,0.0
-2603584,Harris Jayaraj,2,1,1,0.0,Yuvan Shankar Raja,False,0.0
-2604063,film director,4,1,1,0.0,Yuvan Shankar Raja,False,0.0
-2606277,science fiction,3,1,1,0.0,soap opera,False,0.0
-2606349,Murray Gold,1,1,1,0.0,science fiction,False,0.0
-2616414,Zulfiqar Ali Bhutto,1,1,1,0.0,Prabodhankar Thackeray,False,0.0
-2634781,Vaduz,0,1,1,0.0,Bern,False,0.0
-265754,San Juan,1,1,1,0.0,Panama City,False,0.0
-2665279,King Edward Point,3,1,1,0.0,Pago Pago,False,0.0
-2669469,Himanshu Sharma,0,1,1,0.0,Hiromichi Tanaka,False,0.0
-2672349,Lee Daniels,2,1,1,1.0,Lee Daniels,False,0.0
-2672350,Lee Daniels,4,1,1,1.0,Lee Daniels,False,0.0
-2686996,Shakti Prasad,4,1,1,0.0,Woody Allen,False,0.0
-2702620,Algeria,2,1,1,0.0,Paris,False,0.0
-2712847,Adelaide,3,1,1,0.0,Pretoria,False,0.0
-2714697,Gregory Nava,3,1,1,0.0,actor,False,0.0
-2725932,Warsaw,0,1,1,0.0,Central Bohemian Region,False,1.0
-2740658,actor,2,1,1,0.0,film producer,False,1.0
-2741041,Saif Ali Khan,1,1,1,0.0,Debra Hill,False,0.0
-2747507,Mao Zedong,4,1,1,0.0,Rudyard Kipling,False,1.0
-2763878,Melbourne,1,1,1,0.0,Sofia,False,0.0
-2769803,association football,3,1,1,0.0,basketball,False,0.0
-2777708,legal drama,1,1,1,0.0,action film,False,0.0
-2777709,legal drama,1,1,1,0.0,action film,False,0.0
-2791111,Karachi,1,1,1,0.0,Andhra Pradesh,False,0.0
-2795779,Augustine of Hippo,4,1,1,0.0,Stephen King,False,0.0
-2797324,Kevin Williamson,3,1,1,0.0,Christopher Nolan,False,0.0
-279768,Geneva,2,1,1,0.0,Paris,False,1.0
-2797972,Leto,4,1,1,0.0,Leda,False,0.0
-2808811,Clint Eastwood,4,1,1,0.0,Darren Aronofsky,False,0.0
-2821000,Cayenne,1,1,1,0.0,Paris,False,0.0
-2825931,Kadiogo Province,2,1,1,0.0,Akure,False,0.0
-284073,Kenji Yamamoto,3,1,1,0.0,Shirō Sagisu,False,0.0
-286359,Kahlil Gibran,1,1,1,0.0,Jack the Ripper,False,0.0
-2865788,Dr. Dre,0,1,1,0.0,Debra Hill,False,0.0
-2871596,South Carolina,0,1,1,0.0,United States of America,False,0.0
-2873463,actor,2,1,1,0.0,Rhea Perlman,False,0.0
-2876768,Isuna Hasekura,4,1,1,0.0,Stephen King,False,0.0
-2899239,country music,3,1,1,0.0,film director,False,0.0
-2899839,Bern,4,1,1,0.0,Vienna,False,0.0
-2904226,Belo Horizonte,2,1,1,0.0,Lisbon,False,0.0
-290656,Albert Hackett,0,1,1,0.0,Mark Protosevich,False,0.0
-2918829,disc jockey,0,1,1,0.0,composer,False,0.0
-2920105,Santander,2,1,1,0.0,Andorra la Vella,False,0.0
-2935548,Yerevan,2,1,1,0.0,Baku,False,0.0
-2938102,Ptolemy XII Auletes,2,1,1,0.0,Olympias,False,0.0
-2939807,Vienna,1,1,1,1.0,Vienna,False,0.0
-2940712,Porto Alegre,4,1,1,0.0,San Juan,False,0.0
-2955066,Thomas More,3,1,1,0.0,Augustine Washington,False,0.0
-2965573,Jerusalem,1,1,1,0.0,Damascus,False,0.0
-2965793,Cronus,2,1,1,0.0,Vasudeva,False,0.0
-2970166,Alfred Newman,2,1,1,0.0,Jason Reitman,False,0.0
-2972379,Athens,2,1,1,0.0,4th of August Regime,False,0.0
-297952,Springfield,1,1,1,0.0,Indianapolis,False,0.0
-2998350,Lima,3,1,1,0.0,Panama City,False,0.0
-3024026,Rob Cohen,0,1,1,0.0,Debra Hill,False,0.0
-3026511,Vasudeva,0,1,1,0.0,Devaki,False,0.0
-3026512,Devaki,1,1,1,0.0,Vasudeva,False,0.0
-3028807,Jörð,3,1,1,0.0,Leda,False,0.0
-3033691,red,0,1,1,1.0,red,False,0.0
-3041936,Giuli Alasania,1,1,1,0.0,Katherine Jackson,False,0.0
-3058589,Alphaeus,1,1,1,0.0,Zebedee,False,0.0
-3064464,Wisconsin,1,1,1,0.0,Fredericton,False,0.0
-3072581,Zebedee,3,1,1,0.0,Alphaeus,False,0.0
-3073298,Zebedee,2,1,1,0.0,Alphaeus,False,0.0
-3078837,Quincy Jones,3,1,1,0.0,Alexander Brandon,False,0.0
-30821,Rabat,4,1,1,0.0,Marrakesh,False,0.0
-3082150,Mendoza,0,1,1,0.0,Mexico City,False,1.0
-3084024,Quincy Jones,3,1,1,0.0,Stuart Gordon,False,0.0
-308584,George Langelaan,0,1,1,0.0,Howard Shore,False,0.0
-3108719,Lisbon,0,1,1,0.0,Luanda,False,0.0
-3122618,film adaptation,0,1,1,0.0,alternative rock,False,0.0
-3144557,Jack Cassidy,4,1,1,0.0,Bob Dylan,False,0.0
-3148564,Igraine,4,1,1,0.0,Adela of Normandy,False,0.0
-3149188,City of Brussels,3,1,1,0.0,The Hague,False,0.0
-3149189,City of Brussels,3,1,1,0.0,The Hague,False,0.0
-3171050,David Reivers,3,1,1,0.0,Joe Biden,False,0.0
-318560,Boise,2,1,1,0.0,Salem,False,0.0
-3194701,Christopher Nolan,1,1,1,0.0,Luc Besson,False,0.0
-3202083,Mathieu Kassovitz,1,1,1,0.0,Luc Besson,False,0.0
-320847,Falkland Islands,0,1,1,0.0,Lombardy,False,0.0
-3209494,Henry Bean,2,1,1,0.0,Jacques Audiard,False,0.0
-3211017,James O'Barr,1,1,1,0.0,Debra Hill,False,0.0
-321759,Charles I of England,2,1,1,0.0,Joanna of Castile,False,0.0
-3222218,Vincenzo Natali,2,1,1,0.0,John Lennon,False,0.0
-3234177,Howard Shore,4,1,1,0.0,Stephen Sondheim,False,0.0
-3246000,Gore Verbinski,0,1,1,0.0,composer,False,0.0
-332734,United States of America,3,1,1,1.0,United States of America,False,1.0
-3349797,Jack Bender,0,1,1,0.0,Remo D'Souza,False,0.0
-3403435,composer,4,1,1,0.0,Stephen Sondheim,False,1.0
-3432136,Luc Besson,2,1,1,0.0,Mathieu Kassovitz,False,0.0
-3473657,Harold Ramis,0,1,1,0.0,Debra Hill,False,0.0
-3483883,red,1,1,1,1.0,red,False,0.0
-3492074,Lombardy,4,1,1,1.0,Lombardy,False,0.0
-3492076,Lombardy,1,1,1,1.0,Lombardy,False,0.0
-35,Libreville,0,1,1,0.0,Accra,False,0.0
-350025,horror film,1,1,1,0.0,historical drama,False,0.0
-3522454,Stephen Norrington,3,1,1,0.0,Joe Jackson,False,0.0
-353886,Nabopolassar,4,1,1,0.0,Philip II of Macedon,False,0.0
-3544136,Ring Lardner,2,1,1,0.0,John Shiban,False,0.0
-3553137,Piedmont,4,1,1,1.0,Piedmont,False,1.0
-3553138,Piedmont,3,1,1,1.0,Piedmont,False,1.0
-3553139,Piedmont,4,1,1,1.0,Piedmont,False,1.0
-355719,Denver,4,1,1,0.0,Prague,False,0.0
-3558671,Wolfgang Petersen,3,1,1,0.0,Dino De Laurentiis,False,0.0
-357926,Bologna,0,1,1,0.0,Bellinzona,False,0.0
-3596901,Smith County,0,1,1,0.0,Austin,False,0.0
-3626526,Danny Boyle,3,1,1,0.0,Henry Bean,False,0.0
-3641770,Rick Grimes,2,1,1,0.0,Bill Geist,False,0.0
+2155469,Katherine Jackson,4,1,1,0.0,Joe Jackson,False,0.0
+2158903,Kalanithi Maran,3,1,1,0.0,"Abraham Quintanilla,",False,0.0
+2173537,Anna Maria Villani Scicolone,1,1,1,0.0,Theia,False,0.0
+217415,Addis Ababa,1,1,1,0.0,Nicosia,False,0.0
+2180839,Viceroyalty of Perú,0,1,1,1.0,Viceroyalty of Perú,False,1.0
+2180840,Viceroyalty of Perú,2,1,1,1.0,Viceroyalty of Perú,False,1.0
+2187915,fighting game,3,1,1,0.0,alternative rock,False,0.0
+2192092,Santiago Metropolitan Region,1,1,1,0.0,Santiago,False,0.0
+2199670,Joel Schumacher,2,1,1,0.0,Robert Zemeckis,False,0.0
+2203041,Isaac,1,1,1,0.0,Jacob,False,0.0
+2203391,Madrid,0,1,1,1.0,Madrid,False,0.0
+2228775,Shawn Levy,0,1,1,0.0,Lesli Linka Glatter,False,0.0
+2238655,Betty Fox,0,1,1,0.0,Marta Kauffman,False,0.0
+2254982,Santiago,2,1,1,0.0,Santiago Metropolitan Region,False,0.0
+226023,Maharashtra,4,1,1,0.0,Tughlaq dynasty,False,0.0
+2266140,Amsterdam,0,1,1,0.0,Kingdom of the Netherlands,False,0.0
+2266274,"Washington, D.C.",0,1,1,0.0,London,False,0.0
+2281512,Joseph,0,1,1,1.0,Joseph,False,0.0
+2281513,Joseph,4,1,1,1.0,Joseph,False,0.0
+2292083,Henan,3,1,1,0.0,Beijing,False,0.0
+2292839,Gustav Holst,4,1,1,0.0,David Giler,False,0.0
+2300772,Steven Gould,2,1,1,0.0,Jackson,False,0.0
+232130,Robert Zemeckis,3,1,1,0.0,Ruben Fleischer,False,0.0
+2342140,City of Brussels,3,1,1,0.0,Burgundian Netherlands,False,0.0
+234484,Steven Spielberg,4,1,1,0.0,David Fincher,False,0.0
+234486,Melissa Mathison,4,1,1,0.0,David Giler,False,0.0
+2350332,Angelo Pizzo,2,1,1,0.0,John Lasseter,False,0.0
+2350775,Bob Marley,1,1,1,0.0,Joe Jackson,False,0.0
+2354806,basketball,4,1,1,0.0,record producer,False,0.0
+2357044,Bernhard Schlink,1,1,1,0.0,Anthony Minghella,False,0.0
+2373230,soul music,1,1,1,0.0,art rock,False,0.0
+237675,alternative rock,0,1,1,1.0,alternative rock,False,0.0
+237677,alternative rock,1,1,1,1.0,alternative rock,False,0.0
+2380062,Surinder Kapoor,4,1,1,0.0,Harivansh Rai Bachchan,False,0.0
+239099,Galt MacDermot,2,1,1,0.0,John Kander,False,0.0
+2393310,composer,3,1,1,0.0,actor,False,0.0
+239951,Lansing,3,1,1,0.0,Berlin,False,0.0
+2415240,American football,0,1,1,0.0,actor,False,0.0
+2419759,Western Australia,4,1,1,0.0,Rhodesia,False,1.0
+2438406,Perth,3,1,1,0.0,Canberra,False,0.0
+2440723,Luoyang,3,1,1,0.0,Nanjing,False,0.0
+2449609,Sydney,3,1,1,0.0,Canberra,False,0.0
+245609,Aiwass,2,1,1,0.0,Jacob,False,0.0
+2456508,Darwin,1,1,1,0.0,Falkland Islands,False,0.0
+2461657,Steven Spielberg,3,1,1,0.0,Nancy Hanks Lincoln,False,0.0
+246233,Accra,1,1,1,0.0,Kutaisi,False,0.0
+2477193,Mark Twain,3,1,1,0.0,Robert Louis Stevenson,False,0.0
+2480048,Alexander McCall Smith,0,1,1,0.0,Stephen King,False,0.0
+2481597,Errol Flynn,2,1,1,0.0,Eileen Ryan,False,0.0
+248641,Panaji,3,1,1,0.0,Tughlaq dynasty,False,0.0
+2490440,association football,1,1,1,1.0,association football,False,1.0
+2507186,Helsinki,2,1,1,0.0,Stockholm County,False,0.0
+2510882,London,4,1,1,1.0,London,False,0.0
+2528777,The Church of Jesus Christ of Latter-day Saints,4,1,1,0.0,Catholic Church,False,0.0
+2533106,Jane Austen,1,1,1,0.0,Charles Dickens,False,0.0
+2552481,"John Spencer-Churchill, 10th Duke of Marlborough",0,1,1,0.0,Winston Churchill,False,1.0
+2562742,Andrew Lloyd Webber,0,1,1,0.0,John Kander,False,0.0
+25674,Nouakchott,1,1,1,0.0,Port Louis,False,0.0
+2569888,Noumea,0,1,1,0.0,Baton Rouge,False,0.0
+2579813,Prague,1,1,1,0.0,Central Bohemian Region,False,0.0
+2583275,Stockholm,2,1,1,0.0,Stockholm County,False,0.0
+2584513,Robert Kirkman,3,1,1,0.0,Robert Louis Stevenson,False,0.0
+2584594,Alofi,3,1,1,0.0,Yaren District,False,0.0
+258682,Shimla,4,1,1,0.0,New Delhi,False,0.0
+2596512,Oxfordshire,4,1,1,0.0,London,False,0.0
+2600825,Saint Petersburg,3,1,1,0.0,Moscow,False,0.0
+2603584,Harris Jayaraj,3,1,1,0.0,Yuvan Shankar Raja,False,0.0
+2606277,science fiction,0,1,1,0.0,rock music,False,0.0
+2606349,Murray Gold,4,1,1,0.0,science fiction,False,0.0
+2611738,Hobart,1,1,1,0.0,Hamilton,False,0.0
+2612485,Heraklion,4,1,1,0.0,4th of August Regime,False,0.0
+2616414,Zulfiqar Ali Bhutto,2,1,1,0.0,Aung San,False,0.0
+2630371,Judaism,4,1,1,0.0,Islam,False,1.0
+2634781,Vaduz,0,1,1,0.0,Berlin,False,0.0
+263653,Jane Randolph Jefferson,4,1,1,0.0,Augustine Washington,False,0.0
+263924,"James Madison, Sr.",2,1,1,0.0,Jane Randolph Jefferson,False,0.0
+2651225,Queensland,3,1,1,0.0,South Australia,False,1.0
+2651226,Queensland,3,1,1,0.0,South Australia,False,1.0
+265754,San Juan,3,1,1,0.0,Manila,False,0.0
+2658151,Copenhagen,1,1,1,0.0,Stockholm County,False,0.0
+2665279,King Edward Point,4,1,1,0.0,Kingston,False,0.0
+2669469,Himanshu Sharma,0,1,1,0.0,Kalanithi Maran,False,0.0
+2670586,Kuwait,4,1,1,0.0,Federated Malay States,False,1.0
+2672349,Lee Daniels,3,1,1,1.0,Lee Daniels,False,0.0
+2672350,Lee Daniels,0,1,1,1.0,Lee Daniels,False,0.0
+2684047,Islam,3,1,1,0.0,Armenian Catholic Church,False,0.0
+2684048,Islam,3,1,1,0.0,Armenian Catholic Church,False,0.0
+2696170,Eduardo Saverin,1,1,1,0.0,Marta Kauffman,False,0.0
+2712847,Adelaide,2,1,1,0.0,Bloemfontein,False,0.0
+2725932,Warsaw,2,1,1,0.0,Central Bohemian Region,False,1.0
+2731195,Franz Kafka,0,1,1,0.0,Stephen,False,0.0
+2731813,Nation of Islam,3,1,1,1.0,Nation of Islam,False,0.0
+2731814,Nation of Islam,3,1,1,1.0,Nation of Islam,False,0.0
+2731815,Nation of Islam,1,1,1,1.0,Nation of Islam,False,0.0
+2763878,Melbourne,3,1,1,0.0,Canberra,False,0.0
+2765336,Aung San,0,1,1,0.0,Khin Kyi,False,1.0
+2765337,Khin Kyi,3,1,1,0.0,Aung San,False,0.0
+276787,talent manager,4,1,1,0.0,record producer,False,0.0
+2776008,Vilnius,1,1,1,0.0,Ljubljana,False,0.0
+2777708,legal drama,0,1,1,1.0,legal drama,False,0.0
+2777709,legal drama,2,1,1,1.0,legal drama,False,0.0
+2791111,Karachi,3,1,1,0.0,Tughlaq dynasty,False,0.0
+2795779,Augustine of Hippo,1,1,1,0.0,Stephen King,False,0.0
+279768,Geneva,2,1,1,0.0,Sion,False,1.0
+2797971,Zeus,4,1,1,0.0,Cronus,False,0.0
+2797972,Leto,0,1,1,0.0,Zeus,False,0.0
+279943,Michael Barnathan,0,1,1,0.0,John Lasseter,False,0.0
+2819275,People's Republic of China,0,1,1,0.0,Luoyang,False,1.0
+2820580,Taejong of Joseon,3,1,1,0.0,Matsudaira Hirotada,False,0.0
+2821000,Cayenne,4,1,1,0.0,Port Louis,False,0.0
+2825693,Unitarianism,4,1,1,0.0,Catholic Church,False,0.0
+2825931,Kadiogo Province,1,1,1,0.0,Loiret,False,0.0
+282938,Kiel,1,1,1,0.0,Berlin,False,0.0
+2839162,Rome,4,1,1,0.0,Florence,False,1.0
+2839774,Cronus,2,1,1,0.0,Zeus,False,0.0
+284073,Kenji Yamamoto,4,1,1,0.0,Craig Safan,False,0.0
+2854229,Konstantinos II of Greece,0,1,1,0.0,Paul I of Russia,False,0.0
+286359,Kahlil Gibran,2,1,1,0.0,Nation of Islam,False,0.0
+2865788,Dr. Dre,4,1,1,0.0,Jerry Bruckheimer,False,0.0
+2871596,South Carolina,0,1,1,0.0,Suffolk County,False,0.0
+2873463,actor,4,1,1,1.0,actor,False,0.0
+287593,Hanover,0,1,1,0.0,East Berlin,False,0.0
+287661,Anglicanism,4,1,1,0.0,Catholic Church,False,0.0
+2876768,Isuna Hasekura,0,1,1,0.0,Stephen,False,0.0
+2889942,Lusaka Province,0,1,1,0.0,Rhodesia,False,1.0
+2891138,Jerry Bruckheimer,3,1,1,0.0,Hiromichi Tanaka,False,0.0
+28977,Port Louis,0,1,1,0.0,Nouakchott,False,0.0
+2899839,Bern,2,1,1,0.0,Holy Roman Empire,False,0.0
+2904226,Belo Horizonte,4,1,1,0.0,Lisbon,False,0.0
+290656,Albert Hackett,4,1,1,0.0,Stanley Kubrick,False,0.0
+2909773,Rhodesia,1,1,1,1.0,Rhodesia,False,0.0
+2909774,Rhodesia,3,1,1,1.0,Rhodesia,False,0.0
+2909775,Rhodesia,1,1,1,1.0,Rhodesia,False,0.0
+2918829,disc jockey,0,1,1,0.0,record producer,False,0.0
+2920105,Santander,2,1,1,0.0,Bellinzona,False,0.0
+293318,Mainz,3,1,1,0.0,Berlin,False,0.0
+2935548,Yerevan,2,1,1,0.0,Ankara,False,0.0
+2938102,Ptolemy XII Auletes,4,1,1,0.0,Zeus,False,0.0
+2939807,Vienna,0,1,1,0.0,Holy Roman Empire,False,0.0
+2940712,Porto Alegre,2,1,1,0.0,San Juan,False,0.0
+2941704,Gunnora,4,1,1,0.0,Zita of Bourbon-Parma,False,0.0
+2942698,record producer,2,1,1,1.0,film director,False,1.0
+2950925,Belgrade,1,1,1,0.0,Karachi,False,0.0
+2955066,Thomas More,4,1,1,0.0,Augustine Washington,False,0.0
+2955693,Salvador,2,1,1,0.0,Managua,False,0.0
+2965573,Jerusalem,3,1,1,1.0,Jerusalem,False,0.0
+2965793,Cronus,2,1,1,0.0,Zeus,False,0.0
+2966183,South Dakota,0,1,1,1.0,South Dakota,False,0.0
+2966184,South Dakota,3,1,1,1.0,South Dakota,False,0.0
+2967643,Canberra,1,1,1,0.0,Queensland,False,0.0
+2972379,Athens,4,1,1,0.0,4th of August Regime,False,0.0
+297952,Springfield,0,1,1,0.0,Lincoln,False,0.0
+2984079,Berlin,2,1,1,1.0,Berlin,False,0.0
+2986069,Buenos Aires,3,1,1,0.0,Managua,False,1.0
+2998350,Lima,1,1,1,0.0,Cairo,False,0.0
+29990,Jerry B. Jenkins,2,1,1,0.0,Robert Kirkman,False,0.0
+3008151,Pyongyang,1,1,1,0.0,Tokyo,False,0.0
+3022356,Lady Shiva,0,1,1,0.0,Eileen Ryan,False,0.0
+3024026,Rob Cohen,4,1,1,0.0,Rocky Johnson,False,0.0
+3025482,David Diamond,2,1,1,0.0,David Zelag Goodman,False,0.0
+3026512,Devaki,1,1,1,0.0,Maya,False,0.0
+302854,Bismarck,0,1,1,0.0,Pierre,False,0.0
+3028806,Odin,2,1,1,1.0,Odin,False,0.0
+3030578,Ankara,3,1,1,0.0,Ashgabat,False,0.0
+3041429,Margaret Tudor,2,1,1,0.0,Mary of Teck,False,0.0
+3041936,Giuli Alasania,4,1,1,0.0,Paul I of Russia,False,0.0
+3058589,Alphaeus,3,1,1,0.0,Joseph,False,0.0
+3059089,pop music,2,1,1,0.0,film director,False,0.0
+306174,Anthony Stacchi,1,1,1,0.0,Robert Zemeckis,False,0.0
+3064464,Wisconsin,3,1,1,0.0,Madison,False,0.0
+306840,Pierre,4,1,1,0.0,Bloemfontein,False,0.0
+3072581,Zebedee,1,1,1,0.0,Joseph,False,0.0
+3073298,Zebedee,3,1,1,0.0,Joseph,False,0.0
+307727,Helena,4,1,1,0.0,Salt Lake City,False,0.0
+3078887,actor,1,1,1,0.0,basketball,False,0.0
+3081622,Eileen Ryan,4,1,1,0.0,Sean Penn,False,0.0
+30821,Rabat,0,1,1,0.0,Marrakesh,False,0.0
+3082150,Mendoza,4,1,1,0.0,Santiago Metropolitan Region,False,1.0
+3084024,Quincy Jones,1,1,1,1.0,Quincy Jones,False,0.0
+3084025,Quincy Jones,3,1,1,1.0,Quincy Jones,False,0.0
+308584,George Langelaan,1,1,1,0.0,Lucien Hubbard,False,0.0
+3108719,Lisbon,3,1,1,0.0,Praia,False,0.0
+3134758,Charlie Chaplin,3,1,1,0.0,Stephen Sondheim,False,0.0
+3148563,Uther Pendragon,2,1,1,0.0,Igraine,False,0.0
+3148564,Igraine,4,1,1,0.0,Uther Pendragon,False,0.0
+3149188,City of Brussels,4,1,1,1.0,City of Brussels,False,0.0
+3149189,City of Brussels,3,1,1,1.0,City of Brussels,False,0.0
+3170152,Guillermo del Toro,1,1,1,0.0,Johnny Depp,False,0.0
+3172724,science fiction,1,1,1,0.0,role-playing video game,False,0.0
+3172727,George Lucas,3,1,1,0.0,science fiction,False,0.0
+3178644,Michael Ende,4,1,1,0.0,Stephen,False,0.0
+3181355,Ron Paul,3,1,1,0.0,Austin,False,0.0
+318560,Boise,1,1,1,0.0,Sacramento,False,0.0
+3194701,Christopher Nolan,2,1,1,0.0,Geoffrey S. Fletcher,False,0.0
+320847,Falkland Islands,4,1,1,0.0,South Dakota,False,0.0
+3209494,Henry Bean,1,1,1,0.0,Wesley Strick,False,0.0
+3211017,James O'Barr,1,1,1,0.0,Stephen King,False,0.0
+321759,Charles I of England,0,1,1,0.0,Philip III of France,False,0.0
+3234177,Howard Shore,1,1,1,0.0,Christophe Beck,False,0.0
+3286131,Laertes,2,1,1,0.0,Zeus,False,0.0
+3349797,Jack Bender,4,1,1,0.0,Jerry Bruckheimer,False,0.0
+336967,Hyderabad,0,1,1,0.0,Andhra Pradesh,False,1.0
+3370313,Nancy Meyers,3,1,1,0.0,David Hare,False,0.0
+3403435,composer,1,1,1,0.0,Central Bohemian Region,False,1.0
+34246,Windhoek,4,1,1,0.0,The Hague,False,0.0
+3435929,Garoowe,4,1,1,0.0,Addis Ababa,False,0.0
+3437069,United States of America,0,1,1,0.0,United Kingdom,False,1.0
+3441419,alternative rock,2,1,1,1.0,alternative rock,False,0.0
+3453821,Plato,0,1,1,0.0,Stephen King,False,0.0
+3473657,Harold Ramis,4,1,1,0.0,David Seltzer,False,0.0
+3483611,red,1,1,1,1.0,red,False,0.0
+3487405,William Blake,4,1,1,0.0,John Norman,False,0.0
+3492073,Lombardy,4,1,1,1.0,Lombardy,False,0.0
+3492074,Lombardy,2,1,1,1.0,Lombardy,False,0.0
+3492075,Lombardy,1,1,1,1.0,Lombardy,False,0.0
+3492076,Lombardy,4,1,1,1.0,Lombardy,False,0.0
+349950,Eastern Orthodox Church,1,1,1,0.0,Islam,False,0.0
+349957,Constantinople,3,1,1,0.0,Eastern Orthodox Church,False,1.0
+35,Libreville,0,1,1,0.0,Basse-Terre,False,0.0
+3509316,Catholic Church,1,1,1,1.0,Catholic Church,False,0.0
+3514599,Cairo,0,1,1,0.0,Saint Petersburg,False,0.0
+351663,William II of the Netherlands,0,1,1,0.0,Philip III of France,False,0.0
+353886,Nabopolassar,4,1,1,0.0,Alphaeus,False,0.0
+3543824,Robert Ludlum,2,1,1,0.0,Nat Faxon,False,0.0
+3553137,Piedmont,3,1,1,1.0,Piedmont,False,1.0
+3553138,Piedmont,4,1,1,1.0,Piedmont,False,1.0
+3553139,Piedmont,0,1,1,1.0,Piedmont,False,1.0
+3553140,Piedmont,4,1,1,1.0,Piedmont,False,1.0
+355719,Denver,2,1,1,0.0,Central Bohemian Region,False,0.0
+3575966,Lawrence Lasker,1,1,1,0.0,Andrew Bergman,False,0.0
+357926,Bologna,3,1,1,0.0,Lombardy,False,0.0
+3602648,Michael Hirst,0,1,1,0.0,Daphne du Maurier,False,0.0
+3635640,rugby union,2,1,1,0.0,American football,False,0.0
+3641770,Rick Grimes,3,1,1,0.0,Lori Grimes,False,0.0
+3641771,Lori Grimes,4,1,1,0.0,Rick Grimes,False,0.0
 3647092,baseball,2,1,1,0.0,association football,False,0.0
-3652320,Arthur B. Rubinstein,1,1,1,0.0,Stephen Sondheim,False,0.0
-367189,Bellinzona,2,1,1,0.0,Piedmont,False,0.0
-3714873,Rhea Perlman,4,1,1,0.0,actor,False,0.0
-3786129,Letizia Bonaparte,0,1,1,0.0,Philip III of France,False,0.0
-3803719,David Seltzer,3,1,1,0.0,Debra Hill,False,0.0
-388973,platform game,4,1,1,0.0,alternative rock,False,0.0
-389221,Jack the Ripper,3,1,1,0.0,Stephen King,False,0.0
-39178,Abuja,4,1,1,0.0,Akure,False,0.0
-3960385,Tom Topor,4,1,1,0.0,Debra Hill,False,0.0
-3980533,Tommy Wiseau,4,1,1,0.0,John and James Woolf,False,0.0
-398096,Protestantism,1,1,1,0.0,Lutheranism,False,0.0
-4019380,Dick Cheney,2,1,1,0.0,Bill Clinton,False,0.0
-406821,Philip III of France,2,1,1,0.0,Philip IV of France,False,0.0
-409804,Gavin O'Connor,1,1,1,0.0,John Shiban,False,0.0
-410908,Hywel Teifi Edwards,3,1,1,0.0,Stephen,False,0.0
-4123087,Western Cape,2,1,1,0.0,4th of August Regime,False,0.0
-412570,James V of Scotland,3,1,1,0.0,George V,False,0.0
-4146112,Sirikit,2,1,1,0.0,Mohan Raman,False,0.0
-4165947,The Hague,2,1,1,0.0,Willemstad,False,0.0
-4165948,The Hague,0,1,1,1.0,The Hague,False,0.0
-417829,Vienna,3,1,1,1.0,Vienna,False,1.0
-4212451,Jonathan Larson,0,1,1,0.0,Thomas More,False,0.0
-425591,Fumito Ueda,2,1,1,0.0,Ian Watson,False,0.0
-4269062,Debra Hill,2,1,1,1.0,Debra Hill,False,0.0
+364869,Fritz Lang,3,1,1,0.0,David Seltzer,False,0.0
+364870,Fritz Lang,3,1,1,0.0,David Seltzer,False,0.0
+367189,Bellinzona,0,1,1,0.0,Piedmont,False,0.0
+3731897,South Australia,1,1,1,0.0,Queensland,False,0.0
+37500,Niamey,4,1,1,0.0,Abuja,False,0.0
+376088,Ancona,0,1,1,0.0,Bologna,False,0.0
+3772898,Steve Miner,1,1,1,0.0,Christophe Beck,False,0.0
+3774112,fantasy,0,1,1,0.0,rock music,False,0.0
+3803719,David Seltzer,2,1,1,1.0,David Seltzer,False,0.0
+3868065,Beirut,4,1,1,0.0,New York City,False,0.0
+388973,platform game,2,1,1,0.0,alternative rock,False,0.0
+389221,Jack the Ripper,1,1,1,0.0,Stephen King,False,0.0
+3908749,Sin,0,1,1,0.0,Ningal,False,0.0
+3908750,Ningal,2,1,1,0.0,Sin,False,0.0
+39178,Abuja,0,1,1,0.0,Niamey,False,0.0
+392039,Kolkata,4,1,1,0.0,Tughlaq dynasty,False,0.0
+392271,Henry II of England,3,1,1,0.0,Winchester,False,0.0
+3924452,Brussels Capital Region,4,1,1,0.0,City of Brussels,False,0.0
+392466,San Fernando,4,1,1,0.0,Manila,False,0.0
+3960385,Tom Topor,0,1,1,0.0,Ian Watson,False,0.0
+398096,Protestantism,4,1,1,0.0,Catholic Church,False,0.0
+4019380,Dick Cheney,4,1,1,0.0,Bill Clinton,False,0.0
+405356,Province of Como,0,1,1,0.0,Lombardy,False,0.0
+406821,Philip III of France,3,1,1,0.0,Philip IV of France,False,0.0
+409804,Gavin O'Connor,3,1,1,0.0,Edward Zwick,False,0.0
+411147,Robert Simonds,2,1,1,0.0,Mildred J. Hill,False,0.0
+4117727,Charlie Chaplin,1,1,1,0.0,"John Spencer-Churchill, 10th Duke of Marlborough",False,0.0
+4123087,Western Cape,2,1,1,1.0,Western Cape,False,0.0
+4123088,Western Cape,0,1,1,1.0,Western Cape,False,0.0
+4123089,Western Cape,1,1,1,1.0,Western Cape,False,0.0
+412570,James V of Scotland,2,1,1,0.0,Mary of Teck,False,0.0
+4145108,Billy Ray Cyrus,4,1,1,0.0,Odin,False,0.0
+4146111,Bhumibol Adulyadej,1,1,1,0.0,Sirikit,False,0.0
+4146112,Sirikit,0,1,1,0.0,Bhumibol Adulyadej,False,0.0
+415310,Niccolò Machiavelli,0,1,1,0.0,Jane Austen,False,0.0
+4165947,The Hague,0,1,1,1.0,The Hague,False,0.0
+4165948,The Hague,2,1,1,0.0,Willemstad,False,0.0
+417829,Vienna,0,1,1,0.0,Holy Roman Empire,False,1.0
+4212451,Jonathan Larson,1,1,1,1.0,Jonathan Larson,False,0.0
+4212454,Jonathan Larson,3,1,1,1.0,Jonathan Larson,False,0.0
+4269062,Debra Hill,4,1,1,1.0,Debra Hill,False,0.0
 4269063,Debra Hill,3,1,1,1.0,Debra Hill,False,0.0
-43108,Kampala,1,1,1,0.0,Lilongwe,False,0.0
-4340656,Carol Sobieski,4,1,1,0.0,Charles Strouse,False,0.0
-4340659,Charles Strouse,1,1,1,0.0,Stephen Sondheim,False,0.0
-4394181,Dili,2,1,1,0.0,Asmara,False,0.0
-4404593,Peter Weir,0,1,1,0.0,Joel Schumacher,False,0.0
-444181,Lutheranism,0,1,1,0.0,composer,False,0.0
-4457132,role-playing video game,0,1,1,0.0,alternative rock,False,0.0
-4487410,Alexander Brandon,0,1,1,0.0,Christophe Beck,False,0.0
+4288607,Ryan O'Neal,1,1,1,0.0,Joe Jackson,False,0.0
+43108,Kampala,0,1,1,0.0,Accra,False,0.0
+4379008,Paddy Chayefsky,1,1,1,0.0,Trent Reznor,False,0.0
+4385256,Danny DeVito,2,1,1,0.0,Debra Hill,False,0.0
+4394181,Dili,0,1,1,0.0,Colombo,False,0.0
+4409386,Grand Duchess Maria Alexandrovna of Russia,0,1,1,0.0,Catherine II of Russia,False,0.0
+4420065,George Town,3,1,1,0.0,Hamilton,False,0.0
+44382,Kigali,4,1,1,0.0,Rhodesia,False,0.0
+444181,Lutheranism,1,1,1,0.0,Anglicanism,False,0.0
+444186,Johann Ambrosius Bach,3,1,1,0.0,Lutheranism,False,0.0
+4457132,role-playing video game,3,1,1,0.0,alternative rock,False,0.0
+4483945,Keith Allen,2,1,1,0.0,Robert Kardashian,False,0.0
+4487410,Alexander Brandon,3,1,1,0.0,Ian Watson,False,0.0
 4494197,Rudyard Kipling,1,1,1,0.0,Stephen King,False,0.0
-4514247,United Kingdom,2,1,1,0.0,Lebanon,False,0.0
-4522734,mystery film,0,1,1,0.0,alternative rock,False,0.0
-4525309,Isaac Hayes,2,1,1,0.0,Stephen Sondheim,False,0.0
-4548221,United States of America,4,1,1,0.0,"Washington, D.C.",False,0.0
-4557333,Stephen King,0,1,1,1.0,Stephen King,False,0.0
-4576218,Seth Rogen,3,1,1,0.0,Marta Kauffman,False,0.0
-4582156,Stephen,2,1,1,0.0,Adela of Normandy,False,1.0
-4582157,Adela of Normandy,3,1,1,0.0,Stephen,False,0.0
-4607473,Prabodhankar Thackeray,2,1,1,0.0,Surinder Kapoor,False,0.0
-4607987,Emirate of Dubai,0,1,1,1.0,Dubai,False,1.0
-4617076,Dubai,2,1,1,0.0,Abu Dhabi,False,1.0
-4635,Toby Emmerich,2,1,1,0.0,David Soren,False,0.0
-4664593,John and James Woolf,1,1,1,0.0,Tommy Wiseau,False,0.0
-4686489,United States of America,4,1,1,0.0,Hartford,False,0.0
-469339,Christopher Gore,0,1,1,0.0,Daphne du Maurier,False,0.0
-4735194,Salman Rushdie,3,1,1,0.0,Jill Thompson,False,0.0
-4740507,Helsinki,3,1,1,0.0,Sofia,False,0.0
-4767240,Hiro Mashima,4,1,1,0.0,Jonathan Larson,False,0.0
-4795088,William MacQuitty,4,1,1,0.0,Debra Hill,False,0.0
-4812412,Chris Columbus,0,1,1,0.0,Michael London,False,0.0
-482181,Abraham Lincoln,1,1,1,0.0,Thomas Lincoln,False,1.0
-4831102,thriller,1,1,1,0.0,comedy film,False,0.0
-488891,Andhra Pradesh,0,1,1,0.0,New Delhi,False,0.0
-4902992,Malia Scotch Marmo,0,1,1,0.0,David Hare,False,0.0
-4990166,Shirō Sagisu,1,1,1,0.0,David Crane,False,0.0
-499672,Iloilo City,1,1,1,0.0,Perth,False,0.0
-501017,Steven Soderbergh,3,1,1,0.0,Andrew Bergman,False,0.0
-5015775,New Delhi,3,1,1,0.0,Colombo,False,0.0
-5029130,George Stevens,4,1,1,0.0,Buster Keaton,False,0.0
-504663,Richmond,0,1,1,0.0,Indianapolis,False,0.0
-5097595,Austin Wintory,3,1,1,0.0,Christopher Nolan,False,0.0
-5175831,Honiara,2,1,1,0.0,South Tarawa,False,0.0
-5179076,Jim Lemley,4,1,1,1.0,Jim Lemley,False,0.0
-5179078,Jim Lemley,3,1,1,1.0,Jim Lemley,False,0.0
-5189715,Nobuo Uematsu,2,1,1,0.0,Alexander Brandon,False,0.0
-5241281,Aristotle,2,1,1,0.0,Spain,False,0.0
-527593,Dumaguete,1,1,1,0.0,Managua,False,0.0
-5282300,Palikir,4,1,1,0.0,Helsinki,False,0.0
-528873,Providence,4,1,1,0.0,San Juan,False,0.0
-5316162,Brookline,3,1,1,0.0,Cotija de la Paz,False,0.0
-5346032,Paris,3,1,1,0.0,Florence,False,0.0
-5347843,South Tarawa,4,1,1,0.0,Honolulu,False,0.0
-534816,Annapolis,3,1,1,0.0,Fredericton,False,0.0
-5364534,Rajkumar Hirani,0,1,1,0.0,Mansoor Khan,False,0.0
-537684,Darren Aronofsky,2,1,1,0.0,Clint Eastwood,False,0.0
-5409302,Rumiko Takahashi,4,1,1,0.0,Hideaki Sorachi,False,0.0
-5421647,Caracas,1,1,1,0.0,Managua,False,0.0
-546090,Harrisburg,1,1,1,0.0,Boston,False,0.0
-5467382,Luoyang,1,1,1,1.0,Luoyang,False,0.0
-5473227,Jacques d'Arc,3,1,1,0.0,Philip III of France,False,0.0
-5547087,Paramaribo,2,1,1,0.0,Willemstad,False,0.0
-5575512,Sigurd,3,1,1,0.0,Woody Allen,False,0.0
-557793,Indianapolis,3,1,1,0.0,Springfield,False,0.0
-5580296,Hossein Amini,4,1,1,0.0,David Soren,False,0.0
-5592430,Georgetown,3,1,1,0.0,Cayenne,False,0.0
-560768,Formula One,4,1,1,0.0,association football,False,0.0
-562847,Paris,4,1,1,1.0,Paris,False,1.0
-5630092,Sam Walton,0,1,1,0.0,Woody Allen,False,0.0
-5631334,Woody Allen,2,1,1,0.0,Errol Flynn,False,0.0
-5655121,Nicholas Meyer,4,1,1,0.0,Joseph Minion,False,0.0
-5660051,Bogotá,1,1,1,0.0,Managua,False,0.0
-56722,Freetown,0,1,1,0.0,Asmara,False,0.0
-5679365,Carl Sagan,0,1,1,0.0,Jack the Ripper,False,0.0
-5702447,Jill Thompson,4,1,1,0.0,James O'Barr,False,0.0
-5718052,Wes Craven,3,1,1,0.0,Tim Herlihy,False,0.0
-5729702,Herodotos,3,1,1,0.0,Aristotle,False,0.0
-5743876,Roy Fielding,1,1,1,0.0,Jonathan Larson,False,0.0
-5748842,Sucre,0,1,1,0.0,Santiago,False,0.0
-5770014,Michael Tolkin,1,1,1,0.0,Jim Lemley,False,0.0
-5773987,Chris Meledandri,2,1,1,0.0,Debra Hill,False,0.0
-5776395,Port of Spain,3,1,1,0.0,Colombo,False,0.0
-5788391,Marrakesh,3,1,1,0.0,Rabat,False,0.0
-580323,Michael London,4,1,1,0.0,John Lennon,False,0.0
-580328,Mark Poirier,4,1,1,0.0,John Lasseter,False,0.0
-5806895,Concord,2,1,1,0.0,Boston,False,0.0
-5815001,Barack Obama Sr.,4,1,1,0.0,Thomas Lincoln,False,0.0
-5815032,Castries,2,1,1,0.0,Freetown,False,0.0
-581753,Austin,3,1,1,0.0,San Juan,False,0.0
-58303,Mogadishu,0,1,1,0.0,Asmara,False,0.0
-5852020,Hideaki Sorachi,2,1,1,0.0,Rumiko Takahashi,False,0.0
-5852562,Paul Johann Anselm Ritter von Feuerbach,1,1,1,0.0,Lutheranism,False,0.0
-5870504,Bob Dylan,2,1,1,0.0,Sean Penn,False,1.0
-5895914,Montevideo,0,1,1,0.0,Porto Alegre,False,0.0
-5895957,Leeuwarden,2,1,1,0.0,Willemstad,False,0.0
-5904527,Charlie Kaufman,4,1,1,0.0,John Shiban,False,0.0
-5904820,Boston,4,1,1,0.0,Hartford,False,0.0
-5932260,Guatemala City,4,1,1,0.0,Managua,False,1.0
-5934450,Tom Cherones,1,1,1,0.0,Ashok Amritraj,False,0.0
-593981,London,3,1,1,1.0,London,False,0.0
-5962848,Mansoor Khan,3,1,1,0.0,Rajkumar Hirani,False,0.0
-5974475,Mike Judge,4,1,1,0.0,David Soren,False,0.0
-5978636,Hartford,3,1,1,0.0,Boston,False,0.0
-598694,Raleigh,4,1,1,0.0,Saipan,False,0.0
-601478,Jacob,4,1,1,0.0,Zebedee,False,0.0
-6015165,Honolulu,2,1,1,0.0,Pago Pago,False,0.0
-6026411,Tegucigalpa,2,1,1,0.0,Saipan,False,0.0
-6029389,John Hughes,1,1,1,0.0,John Shiban,False,0.0
-6033282,Roseau,2,1,1,0.0,Santo Domingo,False,0.0
-6043400,Anubhav Sinha,3,1,1,0.0,Hideaki Sorachi,False,0.0
-6049645,Santo Domingo,1,1,1,0.0,Roseau,False,0.0
-607803,Manila,2,1,1,0.0,Santiago,False,0.0
-6083018,Cairo,3,1,1,0.0,Addis Ababa,False,0.0
-6083055,Port-au-Prince,2,1,1,0.0,Paris,False,0.0
+451808,Nanjing,4,1,1,1.0,Nanjing,False,0.0
+451809,Nanjing,0,1,1,1.0,Nanjing,False,0.0
+4526742,George Clooney,3,1,1,0.0,Ian Watson,False,0.0
+4530582,Trevor Griffiths,2,1,1,0.0,Daphne du Maurier,False,0.0
+4530583,Trevor Griffiths,2,1,1,0.0,Daphne du Maurier,False,0.0
+4549798,rock music,2,1,1,0.0,alternative rock,False,0.0
+4549803,rock music,2,1,1,0.0,alternative rock,False,0.0
+4557333,Stephen King,4,1,1,0.0,Jonathan Larson,False,0.0
+4576218,Seth Rogen,4,1,1,0.0,Robert Zemeckis,False,0.0
+4582156,Stephen,4,1,1,0.0,Adela of Normandy,False,1.0
+4582157,Adela of Normandy,2,1,1,0.0,Stephen,False,0.0
+4604790,Jim Jacobs,0,1,1,0.0,John Lasseter,False,0.0
+4607473,Prabodhankar Thackeray,1,1,1,0.0,Harivansh Rai Bachchan,False,0.0
+4607987,Emirate of Dubai,0,1,1,0.0,Tughlaq dynasty,False,1.0
+4608347,Leigh Whannell,3,1,1,0.0,Stephen,False,0.0
+4617076,Dubai,3,1,1,0.0,Tughlaq dynasty,False,1.0
+4635,Toby Emmerich,1,1,1,0.0,David Heyman,False,0.0
+4638370,Lesli Linka Glatter,1,1,1,0.0,Robert Zemeckis,False,0.0
+4664593,John and James Woolf,4,1,1,0.0,Jerry Bruckheimer,False,0.0
+469339,Christopher Gore,3,1,1,0.0,Marta Kauffman,False,0.0
+471851,Tughlaq dynasty,4,1,1,1.0,Tughlaq dynasty,False,0.0
+471852,Tughlaq dynasty,1,1,1,1.0,Tughlaq dynasty,False,0.0
+471853,Tughlaq dynasty,4,1,1,1.0,Tughlaq dynasty,False,0.0
+471854,Tughlaq dynasty,0,1,1,1.0,Tughlaq dynasty,False,0.0
+471855,Tughlaq dynasty,1,1,1,1.0,Tughlaq dynasty,False,0.0
+471864,New Delhi,3,1,1,0.0,Tughlaq dynasty,False,0.0
+4735194,Salman Rushdie,1,1,1,0.0,Stephen Sondheim,False,0.0
+4740507,Helsinki,4,1,1,0.0,Ufimsky District,False,0.0
+4742010,Wendy Carlos,4,1,1,0.0,Jonathan Larson,False,0.0
+4767525,Stephen King,0,1,1,0.0,John Norman,False,0.0
+4795088,William MacQuitty,1,1,1,0.0,Eric Ambler,False,0.0
+4795090,Eric Ambler,0,1,1,1.0,Eric Ambler,False,0.0
+4795091,Eric Ambler,2,1,1,0.0,William MacQuitty,False,0.0
+4795092,Eric Ambler,2,1,1,0.0,William MacQuitty,False,0.0
+4807954,actor,2,1,1,0.0,basketball,False,0.0
+4812412,Chris Columbus,0,1,1,0.0,Stanley Kubrick,False,0.0
+4814729,role-playing video game,2,1,1,0.0,red,False,0.0
+482181,Abraham Lincoln,2,1,1,0.0,Nancy Hanks Lincoln,False,1.0
+4851283,platform game,0,1,1,0.0,role-playing video game,False,0.0
+4851661,Germany,0,1,1,0.0,Holy Roman Empire,False,0.0
+4857665,Will Eisner,1,1,1,0.0,Wesley Strick,False,0.0
+4864774,Rhonda Byrne,3,1,1,0.0,Stephen King,False,0.0
+4877533,Kevin Feige,2,1,1,0.0,Alexander Brandon,False,0.0
+4888552,Ian La Frenais,2,1,1,0.0,Augustine of Hippo,False,0.0
+488891,Andhra Pradesh,3,1,1,0.0,Tughlaq dynasty,False,0.0
+4891952,Gregg Hale,0,1,1,0.0,Robert Kirkman,False,0.0
+4902992,Malia Scotch Marmo,4,1,1,0.0,David Hare,False,0.0
+4909351,Penny Marshall,4,1,1,0.0,John Hughes,False,0.0
+4930327,indie rock,4,1,1,0.0,role-playing video game,False,0.0
+4966043,Loiret,0,1,1,0.0,Kingdom of the Netherlands,False,0.0
+4966044,Loiret,0,1,1,0.0,Kingdom of the Netherlands,False,0.0
+4976747,N'Djamena,2,1,1,0.0,Bangui,False,0.0
+4976789,Larry Cohen,0,1,1,0.0,John Lasseter,False,0.0
+4977219,Daniel Lanois,3,1,1,0.0,John Kander,False,0.0
+4987163,Batman,1,1,1,0.0,Rocky Johnson,False,0.0
+4990166,Shirō Sagisu,1,1,1,0.0,alternative rock,False,0.0
+4995155,Wellington,0,1,1,0.0,Avarua,False,0.0
+500387,Province of Syracuse,2,1,1,0.0,4th of August Regime,False,0.0
+501017,Steven Soderbergh,0,1,1,0.0,John Lasseter,False,0.0
+5015775,New Delhi,1,1,1,0.0,Tughlaq dynasty,False,0.0
+5046329,Funafuti,1,1,1,0.0,Apia,False,0.0
+504663,Richmond,0,1,1,0.0,Montgomery,False,0.0
+5053330,Eiichiro Oda,1,1,1,0.0,Stephen,False,0.0
+51112,Dakar,0,1,1,0.0,Basse-Terre,False,0.0
+512880,Tuguegarao,3,1,1,0.0,Manila,False,0.0
+51490,Quentin Tarantino,1,1,1,0.0,Christopher Gore,False,0.0
+5152223,Apia,2,1,1,0.0,Pago Pago,False,0.0
+5175831,Honiara,4,1,1,0.0,Victoria,False,0.0
+5189715,Nobuo Uematsu,2,1,1,0.0,third-person shooter,False,0.0
+5210420,Port Moresby,3,1,1,0.0,Kampala,False,0.0
+523639,Albany,4,1,1,0.0,Trenton,False,0.0
+5241281,Aristotle,1,1,1,0.0,Herodotos,False,0.0
+5247805,Tokyo,4,1,1,1.0,Tokyo,False,0.0
+5255828,Yaren District,1,1,1,0.0,Alofi,False,0.0
+527593,Dumaguete,3,1,1,0.0,Manila,False,0.0
+5282300,Palikir,3,1,1,0.0,Manila,False,0.0
+528873,Providence,2,1,1,0.0,Trenton,False,0.0
+52919,Victoria,3,1,1,0.0,Praia,False,0.0
+529887,Kanchipuram,4,1,1,0.0,New York City,False,0.0
+5302153,Middelburg,4,1,1,0.0,The Hague,False,0.0
+5316162,Brookline,4,1,1,0.0,Gotham City,False,0.0
+5347843,South Tarawa,0,1,1,0.0,Honiara,False,0.0
+534816,Annapolis,4,1,1,0.0,Boston,False,0.0
+5366171,Hayley Mills,0,1,1,0.0,Lori Grimes,False,0.0
+537684,Darren Aronofsky,2,1,1,0.0,Jack Bender,False,0.0
+5409302,Rumiko Takahashi,1,1,1,0.0,Matsudaira Hirotada,False,0.0
+5421647,Caracas,2,1,1,0.0,Managua,False,0.0
+542552,Columbus,3,1,1,0.0,Monrovia,False,0.0
+546090,Harrisburg,2,1,1,0.0,Lincoln,False,0.0
+5467380,Luoyang,3,1,1,0.0,Nanjing,False,0.0
+5467381,Luoyang,3,1,1,0.0,Nanjing,False,0.0
+5467382,Luoyang,3,1,1,0.0,Nanjing,False,0.0
+5473227,Jacques d'Arc,3,1,1,0.0,"John Spencer-Churchill, 10th Duke of Marlborough",False,0.0
+5478464,puzzle video game,2,1,1,0.0,first-person shooter,False,0.0
+5489997,John Marshall Clemens,3,1,1,0.0,Thomas Lincoln,False,0.0
+54966,physician,4,1,1,0.0,Stephen Sondheim,False,0.0
+552289,Trenton,0,1,1,0.0,Basse-Terre,False,0.0
+5547087,Paramaribo,1,1,1,0.0,Willemstad,False,0.0
+5547877,film director,3,1,1,1.0,actor,False,0.0
+5549107,Raghava Lawrence,0,1,1,0.0,Trevor Griffiths,False,0.0
+5575512,Sigurd,2,1,1,0.0,Sin,False,0.0
+557793,Indianapolis,2,1,1,0.0,Montgomery,False,0.0
+5580295,Hossein Amini,2,1,1,0.0,Robert Zemeckis,False,0.0
+5580296,Hossein Amini,3,1,1,1.0,Hossein Amini,False,0.0
+5592430,Georgetown,4,1,1,0.0,Kingstown,False,0.0
+5623381,Quito,2,1,1,0.0,Managua,False,0.0
+5623941,third-person shooter,0,1,1,0.0,Nobuo Uematsu,False,0.0
+562847,Paris,4,1,1,0.0,City of Brussels,False,1.0
+5630092,Sam Walton,3,1,1,0.0,Charlie Chaplin,False,0.0
+5631334,Woody Allen,4,1,1,0.0,Errol Flynn,False,0.0
+564720,white,0,1,1,0.0,red,False,0.0
+5660051,Bogotá,2,1,1,0.0,Managua,False,0.0
+56722,Freetown,1,1,1,0.0,Stockholm County,False,0.0
+5679365,Carl Sagan,3,1,1,0.0,Stephen King,False,0.0
+5698612,Themis,0,1,1,1.0,Themis,False,0.0
+5703523,Jack Kerouac,3,1,1,0.0,Cormac McCarthy,False,0.0
+5718052,Wes Craven,4,1,1,0.0,Brian Grazer,False,0.0
+5729702,Herodotos,2,1,1,0.0,William Blake,False,0.0
+5731264,Adam Sandler,0,1,1,0.0,Buster Keaton,False,0.0
+5756025,"Abraham Quintanilla,",4,1,1,0.0,Jerry Bruckheimer,False,0.0
+5770014,Michael Tolkin,2,1,1,0.0,alternative rock,False,0.0
+5773987,Chris Meledandri,2,1,1,0.0,Johnny Depp,False,0.0
+5776395,Port of Spain,4,1,1,0.0,Cockburn Town,False,0.0
+5788391,Marrakesh,4,1,1,0.0,Luoyang,False,0.0
+5795369,Kingstown,2,1,1,0.0,Basse-Terre,False,0.0
+5806895,Concord,3,1,1,0.0,Hamilton,False,0.0
+5815001,Barack Obama Sr.,2,1,1,0.0,Ann Dunham,False,0.0
+5815002,Ann Dunham,1,1,1,0.0,Barack Obama Sr.,False,0.0
+5815032,Castries,2,1,1,0.0,Basse-Terre,False,0.0
+5817172,Ilaiyaraaja,1,1,1,0.0,Yuvan Shankar Raja,False,0.0
+5817498,Free Software Foundation,1,1,1,1.0,Free Software Foundation,False,0.0
+581753,Austin,2,1,1,0.0,Montgomery,False,0.0
+58303,Mogadishu,1,1,1,0.0,Apia,False,0.0
+5844314,Basseterre,1,1,1,0.0,Kingstown,False,0.0
+5846736,Zita of Bourbon-Parma,2,1,1,0.0,Catherine II of Russia,False,0.0
+5852562,Paul Johann Anselm Ritter von Feuerbach,2,1,1,0.0,Johann Ambrosius Bach,False,0.0
+5864218,Kingston,2,1,1,0.0,Georgetown,False,0.0
+5895914,Montevideo,2,1,1,0.0,Managua,False,0.0
+5895957,Leeuwarden,4,1,1,0.0,The Hague,False,0.0
+5902785,instrumental rock,2,1,1,0.0,actor,False,0.0
+5904820,Boston,3,1,1,0.0,Taunton,False,0.0
+5925,Banjul,2,1,1,0.0,Basse-Terre,False,0.0
+5932260,Guatemala City,0,1,1,0.0,Managua,False,1.0
+593981,London,0,1,1,1.0,London,False,0.0
+596053,Ceres,1,1,1,0.0,Cronus,False,0.0
+5978636,Hartford,0,1,1,0.0,Boston,False,0.0
+598694,Raleigh,4,1,1,0.0,Montgomery,False,0.0
+6,Suffolk County,1,1,1,1.0,Suffolk County,False,0.0
+600223,Columbia,1,1,1,0.0,Bloemfontein,False,0.0
+601478,Jacob,3,1,1,0.0,Joseph,False,0.0
+6015165,Honolulu,4,1,1,0.0,Santiago,False,0.0
+6026411,Tegucigalpa,1,1,1,0.0,San Salvador,False,0.0
+6029385,John Hughes,3,1,1,1.0,John Hughes,False,0.0
+6029389,John Hughes,1,1,1,1.0,John Hughes,False,0.0
+6033282,Roseau,3,1,1,0.0,Santo Domingo,False,0.0
+6049645,Santo Domingo,0,1,1,0.0,Colombo,False,0.0
+607684,David Kendall,0,1,1,0.0,Michael Tolkin,False,0.0
+607797,Lou Reed,3,1,1,0.0,Stephen Sondheim,False,0.0
+607803,Manila,0,1,1,0.0,Colombo,False,0.0
+6083018,Cairo,0,1,1,0.0,Nicosia,False,0.0
+6083055,Port-au-Prince,1,1,1,0.0,Kingstown,False,0.0
 6098623,San Salvador,0,1,1,0.0,Santiago,False,0.0
-6117457,Tehran,0,1,1,0.0,Baku,False,0.0
-6133150,Baghdad,1,1,1,0.0,Tehran,False,0.0
-6151017,action film,0,1,1,0.0,legal drama,False,0.0
-6152249,Marta Kauffman,0,1,1,0.0,Debra Hill,False,0.0
-6159486,Geb,4,1,1,0.0,Isis,False,0.0
-6166697,"Henry Stuart, Lord Darnley",0,1,1,0.0,James V of Scotland,False,0.0
-619022,Stuart Gordon,2,1,1,0.0,Carl Sagan,False,0.0
-6216050,Panama City,0,1,1,0.0,Lima,False,1.0
-6217738,Rebecca Miller,2,1,1,0.0,Christopher Nolan,False,0.0
-6257858,Managua,0,1,1,0.0,Bellinzona,False,0.0
-6258460,Tallahassee,4,1,1,0.0,Helsinki,False,0.0
-6259248,Bishkek,0,1,1,0.0,Peshawar,False,0.0
-6259525,Joe Biden,1,1,1,0.0,Rocky Johnson,False,1.0
-6263500,Kuwait City,1,1,1,0.0,Federated Malay States,False,1.0
-6266561,Vientiane,0,1,1,0.0,Bangkok,False,0.0
-6266860,Markus Zusak,2,1,1,0.0,Aiwass,False,0.0
-6269689,Toluca,0,1,1,0.0,Mexico City,False,0.0
-6270851,Beirut,4,1,1,0.0,Damascus,False,0.0
-6273545,Salem,4,1,1,0.0,Boise,False,0.0
-6283968,pop music,2,1,1,0.0,alternative rock,False,0.0
-6284015,Jane Seymour,1,1,1,0.0,Mary of Teck,False,0.0
-6290863,Akure,0,1,1,0.0,Abuja,False,0.0
+6117457,Tehran,2,1,1,0.0,Rabat,False,0.0
+6118320,psychological horror,2,1,1,0.0,platform game,False,0.0
+6133150,Baghdad,1,1,1,0.0,Kuwait,False,0.0
+6145054,Juneau,1,1,1,0.0,Stockholm County,False,0.0
+6152248,Marta Kauffman,2,1,1,1.0,Marta Kauffman,False,0.0
+6152249,Marta Kauffman,4,1,1,1.0,Marta Kauffman,False,0.0
+6153126,Armenian Catholic Church,1,1,1,0.0,Islam,False,0.0
+6165746,Elena Glinskaya,2,1,1,0.0,Catherine II of Russia,False,0.0
+6184067,Jerusalem,0,1,1,1.0,Jerusalem,False,1.0
+619060,Nevil Shute,2,1,1,0.0,Irwin Allen,False,0.0
+6216050,Panama City,1,1,1,0.0,Managua,False,1.0
+6217738,Rebecca Miller,0,1,1,0.0,Christopher Nolan,False,0.0
+6224331,Sanaa,3,1,1,0.0,Kuwait,False,0.0
+6256473,Stornoway,0,1,1,0.0,London,False,0.0
+6256826,Amman,0,1,1,0.0,Beirut,False,0.0
+6257858,Managua,4,1,1,0.0,Santiago,False,0.0
+6258460,Tallahassee,3,1,1,0.0,Manila,False,0.0
+6259248,Bishkek,1,1,1,0.0,Tashkent,False,0.0
+6259525,Joe Biden,4,1,1,0.0,Batman,False,1.0
+6262109,Phoenix,2,1,1,0.0,Sanaa,False,0.0
+6263500,Kuwait City,3,1,1,1.0,Kuwait,False,1.0
+6263879,Bert V. Royal,0,1,1,0.0,Ian Watson,False,0.0
+6267323,Montgomery,1,1,1,1.0,Montgomery,False,0.0
+6267324,Montgomery,4,1,1,1.0,Montgomery,False,0.0
+6269689,Toluca,4,1,1,0.0,Mexico City,False,0.0
+6270851,Beirut,1,1,1,0.0,Jerusalem,False,0.0
+6273545,Salem,0,1,1,0.0,Oklahoma City,False,0.0
+6278529,Czech Republic,2,1,1,0.0,Kingdom of the Netherlands,False,0.0
+6279762,Salt Lake City,1,1,1,0.0,Jefferson City,False,0.0
+6284015,Jane Seymour,0,1,1,0.0,Mary of Teck,False,0.0
+6285203,Kuala Lumpur,1,1,1,0.0,Federated Malay States,False,0.0
+6286690,Sion,1,1,1,0.0,Geneva,False,0.0
+6290304,Richard Donner,1,1,1,0.0,David Seltzer,False,0.0
+6290305,David Seltzer,1,1,1,1.0,David Seltzer,False,0.0
+6290863,Akure,2,1,1,0.0,Dili,False,0.0
+6291315,Kathmandu,2,1,1,0.0,Tughlaq dynasty,False,0.0
+6292892,New York City,1,1,1,0.0,Darke County,False,0.0
 6293446,Philip IV of France,4,1,1,0.0,Philip III of France,False,0.0
-6297091,Philip II of Macedon,2,1,1,0.0,Olympias,False,0.0
-6297092,Olympias,1,1,1,0.0,Philip II of Macedon,False,0.0
-6297573,Osiris,2,1,1,0.0,Isis,False,0.0
-6297574,Isis,0,1,1,0.0,Osiris,False,0.0
-6305992,Doha,3,1,1,0.0,Dubai,False,0.0
-6306391,Joseph Minion,0,1,1,0.0,David Hare,False,0.0
-6310368,Dev Anand,2,1,1,0.0,Debra Hill,False,0.0
-6312437,Buster Keaton,0,1,1,0.0,Debra Hill,False,0.0
-6312438,Buster Keaton,0,1,1,0.0,Debra Hill,False,0.0
-6317793,Colombo,0,1,1,0.0,New Delhi,False,0.0
-6317794,Colombo,0,1,1,0.0,New Delhi,False,0.0
-6320454,Ken Kwapis,1,1,1,0.0,Marta Kauffman,False,0.0
-6322925,Damascus,0,1,1,0.0,Nicosia,False,0.0
-6325089,Lebanon,3,1,1,0.0,United Kingdom,False,0.0
-6338836,Bangkok,1,1,1,0.0,Colombo,False,0.0
-6355626,Hanoi,4,1,1,0.0,Vientiane,False,0.0
-635851,Sofia,2,1,1,0.0,Kutaisi,False,0.0
-636616,Beijing,3,1,1,0.0,Luoyang,False,0.0
-6368178,Islam,2,1,1,0.0,red,False,0.0
-6369438,Dino De Laurentiis,4,1,1,0.0,Debra Hill,False,0.0
-6374500,association football,0,1,1,1.0,association football,False,0.0
-6384234,Stirling Silliphant,0,1,1,0.0,Robert Mark Kamen,False,0.0
-63868,Chris Claremont,1,1,1,0.0,Michael Crichton,False,0.0
-6387031,reality television,3,1,1,0.0,comedy-drama,False,0.0
-6398583,Harvey Weinstein,0,1,1,0.0,Debra Hill,False,0.0
-6400080,Thomas Lincoln,2,1,1,0.0,Abraham Lincoln,False,0.0
-6402164,comedy-drama,4,1,1,0.0,mystery film,False,0.0
-6408042,comedy film,2,1,1,0.0,John Lasseter,False,0.0
-6408743,Luanda,3,1,1,0.0,Libreville,False,0.0
-6422767,Douglas Wick,1,1,1,0.0,Rick Heinrichs,False,0.0
-6429721,Nancy Oliver,1,1,1,0.0,Marta Kauffman,False,0.0
-6430975,record producer,0,1,1,0.0,actor,False,0.0
-64340,David Giler,3,1,1,0.0,Ivan Reitman,False,0.0
-643468,Stephen Sondheim,2,1,1,1.0,Stephen Sondheim,False,0.0
+6297092,Olympias,1,1,1,0.0,Paul I of Russia,False,0.0
+6297574,Isis,0,1,1,0.0,Themis,False,0.0
+6298693,Archduke Franz Karl of Austria,4,1,1,0.0,Paul I of Russia,False,0.0
+6298839,Muscat,3,1,1,0.0,Rabat,False,0.0
+6300717,Islamabad,1,1,1,0.0,Karachi,False,0.0
+6302289,Ian Fleming,2,1,1,0.0,Robert Louis Stevenson,False,0.0
+6304231,rock music,1,1,1,0.0,role-playing video game,False,0.0
+6305992,Doha,4,1,1,0.0,Abu Dhabi,False,0.0
+6310368,Dev Anand,2,1,1,0.0,Adam Sandler,False,0.0
+6310934,Canada,2,1,1,0.0,association football,False,0.0
+6311585,white,1,1,1,0.0,red,False,0.0
+6312437,Buster Keaton,2,1,1,1.0,Buster Keaton,False,0.0
+6312438,Buster Keaton,1,1,1,1.0,Buster Keaton,False,0.0
+6313411,Riyadh,2,1,1,0.0,Islam,False,0.0
+6317793,Colombo,4,1,1,1.0,Colombo,False,0.0
+6317794,Colombo,2,1,1,1.0,Colombo,False,0.0
+6320228,Vanessa Taylor,4,1,1,0.0,David Heyman,False,0.0
+6322925,Damascus,0,1,1,0.0,Beirut,False,0.0
+6325089,Lebanon,1,1,1,0.0,Netherlands,False,0.0
+6329407,war film,1,1,1,0.0,alternative rock,False,0.0
+6329413,Freddie Fields,4,1,1,0.0,Kevin Jarre,False,0.0
+6329417,Edward Zwick,0,1,1,0.0,Kevin Jarre,False,0.0
+6329418,Kevin Jarre,1,1,1,0.0,Edward Zwick,False,0.0
+6330613,Dushanbe,3,1,1,0.0,Banjul,False,0.0
+6333374,Taipei,0,1,1,0.0,Luoyang,False,0.0
+6338836,Bangkok,1,1,1,0.0,Stockholm County,False,0.0
+6340617,association football,2,1,1,1.0,association football,False,0.0
+6345816,Ashgabat,4,1,1,0.0,Beijing,False,0.0
+6351301,Abu Dhabi,3,1,1,0.0,Federated Malay States,False,0.0
+6355626,Hanoi,0,1,1,0.0,Luoyang,False,0.0
+635851,Sofia,4,1,1,1.0,Sofia,False,0.0
+6359560,Seoul,3,1,1,0.0,Tokyo,False,1.0
+6364486,Irwin Allen,3,1,1,0.0,Nevil Shute,False,0.0
+636616,Beijing,2,1,1,0.0,Nanjing,False,0.0
+6368178,Islam,3,1,1,0.0,Armenian Catholic Church,False,0.0
+6368219,Kabul,1,1,1,0.0,Karachi,False,0.0
+6369351,red,3,1,1,1.0,red,False,0.0
+6369438,Dino De Laurentiis,2,1,1,0.0,Brian Grazer,False,0.0
+6384232,Menahem Golan,2,1,1,0.0,John and James Woolf,False,0.0
+6386307,Dhaka,3,1,1,0.0,Tughlaq dynasty,False,0.0
+6387031,reality television,1,1,1,0.0,instrumental rock,False,0.0
+6395978,Amram,2,1,1,0.0,Jacob,False,0.0
+6397607,Rob Zombie,2,1,1,0.0,Sajid Nadiadwala,False,0.0
+6400080,Thomas Lincoln,4,1,1,0.0,Augustine Washington,False,0.0
+6400081,Nancy Hanks Lincoln,4,1,1,0.0,Mary Ball Washington,False,0.0
+6401414,Arthur Laurents,3,1,1,0.0,Nat Faxon,False,0.0
+6401520,Ufimsky District,1,1,1,1.0,Ufimsky District,False,0.0
+6401521,Ufimsky District,2,1,1,1.0,Ufimsky District,False,0.0
+6401522,Ufimsky District,0,1,1,1.0,Ufimsky District,False,0.0
+6402884,Bamako,4,1,1,0.0,Nouakchott,False,0.0
+6408054,Robert Zemeckis,1,1,1,1.0,Robert Zemeckis,False,0.0
+6408056,Robert Zemeckis,3,1,1,0.0,John Lasseter,False,0.0
+6408743,Luanda,2,1,1,0.0,Managua,False,0.0
+6409891,Thimphu,3,1,1,0.0,Bangkok,False,0.0
+6412434,John Kander,4,1,1,0.0,Jonathan Larson,False,0.0
+6412453,Chris Gerolmo,2,1,1,0.0,Joe Jackson,False,0.0
+6416077,Christianity,0,1,1,1.0,Christianity,False,0.0
+6416078,Christianity,1,1,1,1.0,Christianity,False,0.0
+6418167,Bandar Seri Begawan,4,1,1,0.0,Federated Malay States,False,0.0
+6423457,Indonesia,0,1,1,0.0,Islam,False,0.0
+6426907,David Zelag Goodman,1,1,1,0.0,David Giler,False,0.0
+6430975,record producer,1,1,1,0.0,association football,False,0.0
+6432170,Manila,0,1,1,0.0,Santiago,False,0.0
+64338,David Giler,3,1,1,1.0,David Giler,False,0.0
+64340,David Giler,4,1,1,1.0,David Giler,False,0.0
+643468,Stephen Sondheim,1,1,1,1.0,Stephen Sondheim,False,0.0
+6434714,Bangui,0,1,1,0.0,Bujumbura,False,0.0
 6438570,Wesley Strick,3,1,1,0.0,John Lasseter,False,0.0
-6457547,Walter Salles,0,1,1,0.0,John Shiban,False,0.0
-6458710,Rick Heinrichs,2,1,1,0.0,Johnny Depp,False,0.0
-6464294,Trishala,3,1,1,0.0,Devaki,False,0.0
-6493078,film producer,1,1,1,1.0,actor,False,1.0
-6499110,Mexico City,2,1,1,0.0,Toluca,False,1.0
-6499440,Ivan Reitman,1,1,1,0.0,Dino De Laurentiis,False,0.0
-6505231,Gaborone,2,1,1,0.0,Akure,False,0.0
-651517,Catalonia,4,1,1,0.0,4th of August Regime,False,0.0
-6515624,George VI,1,1,1,0.0,Queen Elizabeth The Queen Mother,False,0.0
-6515626,Queen Elizabeth The Queen Mother,0,1,1,0.0,George VI,False,0.0
-6519044,Moroni,1,1,1,0.0,Noumea,False,0.0
-6519236,Emperor Gaozu of Tang,4,1,1,0.0,Luoyang,False,0.0
-6526129,Kinshasa,4,1,1,0.0,Libreville,False,0.0
-6531264,Djibouti,2,1,1,0.0,Abu Dhabi,False,1.0
-654471,Jackson,0,1,1,0.0,Baton Rouge,False,0.0
-6549760,Asmara,4,1,1,0.0,Addis Ababa,False,0.0
-6554019,Sacramento,4,1,1,0.0,Santiago,False,0.0
-66107,Khartoum,1,1,1,0.0,Asmara,False,0.0
-66267,Jim Reardon,4,1,1,0.0,John Lasseter,False,0.0
-664514,Lucknow,1,1,1,0.0,Andhra Pradesh,False,0.0
-665961,Tony Garnett,1,1,1,0.0,Rajkumar Hirani,False,0.0
-672851,Nella Larsen,4,1,1,0.0,Walter Salles,False,0.0
-694486,Moscow,3,1,1,0.0,Prague,False,0.0
-705730,David Soren,3,1,1,0.0,Hossein Amini,False,0.0
-707699,4th of August Regime,3,1,1,1.0,4th of August Regime,False,0.0
-707700,4th of August Regime,3,1,1,1.0,4th of August Regime,False,0.0
-707701,4th of August Regime,2,1,1,1.0,4th of August Regime,False,0.0
-707702,4th of August Regime,4,1,1,1.0,4th of August Regime,False,0.0
-707902,Mohan Raman,0,1,1,0.0,Prabodhankar Thackeray,False,0.0
-715797,Saint Paul,0,1,1,0.0,Lansing,False,0.0
-734608,Jacques Tourneur,1,1,1,0.0,Marta Kauffman,False,0.0
-736578,red,3,1,1,1.0,red,False,0.0
-740702,Howard Deutch,1,1,1,0.0,Stephen Sondheim,False,0.0
-759407,"Albert, Prince Consort",4,1,1,0.0,George VI,False,0.0
-761251,Topeka,0,1,1,0.0,Austin,False,0.0
-766731,Duane Adler,0,1,1,0.0,Joel Schumacher,False,0.0
-778852,David Hare,3,1,1,0.0,Joseph Minion,False,0.0
-791541,Parvati,2,1,1,0.0,Devaki,False,0.0
-792128,Dennis Gansel,2,1,1,0.0,Wes Craven,False,0.0
-798643,Andrew Loog Oldham,3,1,1,0.0,Dr. Dre,False,0.0
-802449,Baton Rouge,4,1,1,0.0,Jackson,False,0.0
-805371,David Hare,3,1,1,0.0,Mark Poirier,False,0.0
-861082,Frankfort,0,1,1,0.0,Indianapolis,False,0.0
-879565,Professor X,2,1,1,0.0,Typhon,False,0.0
-88313,Agatha Christie,4,1,1,0.0,Michael Crichton,False,0.0
-894483,Little Rock,3,1,1,0.0,Topeka,False,0.0
-90681,Jacques Audiard,1,1,1,0.0,Jackson,False,0.0
-975583,Cork,2,1,1,0.0,Downpatrick,False,1.0
+6458710,Rick Heinrichs,0,1,1,0.0,Johnny Depp,False,0.0
+6467777,Maya,2,1,1,0.0,Parvati,False,0.0
+6468445,United States of America,2,1,1,0.0,Montgomery,False,1.0
+6475333,Tunis,2,1,1,0.0,Piedmont,False,0.0
+6477052,Peter Rogers,1,1,1,0.0,Robert Lopez,False,0.0
+6485353,United Kingdom,1,1,1,0.0,London,False,0.0
+6493078,film producer,2,1,1,0.0,Teji Bachchan,False,1.0
+6493087,Harivansh Rai Bachchan,3,1,1,0.0,film producer,False,1.0
+6493088,Teji Bachchan,3,1,1,0.0,Surinder Kapoor,False,0.0
+6495030,Juba,3,1,1,0.0,Bloemfontein,False,0.0
+6499110,Mexico City,3,1,1,0.0,Toluca,False,1.0
+6502612,red,3,1,1,1.0,red,False,0.0
+6503240,Porto-Novo,4,1,1,0.0,Monrovia,False,0.0
+6505231,Gaborone,4,1,1,0.0,Rhodesia,False,0.0
+651293,Teddy Schwarzman,4,1,1,0.0,Ian Watson,False,0.0
+6513436,Bujumbura,1,1,1,0.0,Piedmont,False,0.0
+6513495,Louis Sachar,4,1,1,0.0,Terry Jones,False,0.0
+651516,Catalonia,3,1,1,0.0,Burgundian Netherlands,False,0.0
+651517,Catalonia,2,1,1,0.0,Burgundian Netherlands,False,0.0
+6515626,Queen Elizabeth The Queen Mother,2,1,1,0.0,Mary of Teck,False,0.0
+6516245,"John Spencer, 8th Earl Spencer",2,1,1,0.0,George V,False,0.0
+6522266,Toni Morrison,0,1,1,0.0,Jane Austen,False,0.0
+6531264,Djibouti,1,1,1,0.0,Dubai,False,1.0
+6543416,Malabo,1,1,1,0.0,Basse-Terre,False,0.0
+654471,Jackson,3,1,1,0.0,Montgomery,False,0.0
+6554019,Sacramento,2,1,1,0.0,Salt Lake City,False,0.0
+6556572,Catholic Church,2,1,1,1.0,Catholic Church,False,0.0
+6604,Conakry,2,1,1,0.0,Luoyang,False,0.0
+66107,Khartoum,2,1,1,0.0,Karachi,False,0.0
+662552,Stephen King,2,1,1,0.0,Stephen,False,0.0
+66267,Jim Reardon,2,1,1,0.0,Ian Watson,False,0.0
+664514,Lucknow,0,1,1,0.0,Tughlaq dynasty,False,0.0
+665961,Tony Garnett,4,1,1,0.0,Barry Hines,False,0.0
+665964,Barry Hines,4,1,1,1.0,Barry Hines,False,0.0
+665965,Barry Hines,0,1,1,1.0,Barry Hines,False,0.0
+669462,Will Gluck,0,1,1,0.0,Steven Spielberg,False,0.0
+669499,Larry Kramer,1,1,1,0.0,David Kendall,False,0.0
+670011,Marjane Satrapi,2,1,1,0.0,actor,False,0.0
+670042,Vikram Bhatt,3,1,1,0.0,John Lasseter,False,0.0
+672851,Nella Larsen,0,1,1,0.0,Charles Dickens,False,0.0
+681897,Nashville,0,1,1,0.0,Piedmont,False,0.0
+682854,Alfred Hitchcock,2,1,1,0.0,Stanley Kubrick,False,0.0
+691526,Veliky Novgorod,2,1,1,0.0,Kyiv,False,1.0
+694486,Moscow,2,1,1,0.0,Ufimsky District,False,0.0
+695491,Catherine II of Russia,3,1,1,0.0,Paul I of Russia,False,0.0
+695949,Paul I of Russia,2,1,1,0.0,Catherine II of Russia,False,0.0
+696121,Todd Field,4,1,1,0.0,Stephen Sondheim,False,0.0
+7,Suffolk County,4,1,1,1.0,Suffolk County,False,0.0
+701352,Santa Fe,1,1,1,0.0,Mexico City,False,0.0
+707699,4th of August Regime,4,1,1,1.0,4th of August Regime,False,0.0
+707700,4th of August Regime,4,1,1,1.0,4th of August Regime,False,0.0
+707701,4th of August Regime,3,1,1,1.0,4th of August Regime,False,0.0
+707702,4th of August Regime,0,1,1,1.0,4th of August Regime,False,0.0
+715797,Saint Paul,0,1,1,0.0,Lombardy,False,0.0
+719032,Robert Lopez,2,1,1,1.0,Robert Lopez,False,0.0
+719033,Robert Lopez,0,1,1,1.0,Robert Lopez,False,0.0
+719657,Bernd Eichinger,0,1,1,0.0,Joel Schumacher,False,0.0
+725462,John August,4,1,1,0.0,David Heyman,False,0.0
+728749,Madison,1,1,1,0.0,Wisconsin,False,0.0
+736578,red,4,1,1,1.0,red,False,0.0
+754434,Michael Tolkin,4,1,1,0.0,John Lasseter,False,0.0
+756915,Lincoln,3,1,1,0.0,Salt Lake City,False,0.0
+759407,"Albert, Prince Consort",1,1,1,0.0,"John Spencer, 8th Earl Spencer",False,0.0
+761251,Topeka,4,1,1,0.0,Oklahoma City,False,0.0
+766731,Duane Adler,1,1,1,0.0,Menahem Golan,False,0.0
+778851,David Hare,2,1,1,1.0,David Hare,False,0.0
+778852,David Hare,0,1,1,1.0,David Hare,False,0.0
+781603,Jason Fuchs,2,1,1,0.0,John Lasseter,False,0.0
+791541,Parvati,3,1,1,0.0,Maya,False,0.0
+793141,Jefferson City,0,1,1,0.0,Baton Rouge,False,0.0
+7986,Yamoussoukro,1,1,1,0.0,Bamako,False,0.0
+798643,Andrew Loog Oldham,0,1,1,0.0,Debra Hill,False,0.0
+800535,Mexico,1,1,1,0.0,People's Republic of China,False,0.0
+802449,Baton Rouge,3,1,1,0.0,Montgomery,False,0.0
+804606,Moscow,2,1,1,0.0,Saint Petersburg,False,1.0
+805365,Anthony Minghella,3,1,1,0.0,Bernhard Schlink,False,0.0
+805366,Anthony Minghella,3,1,1,0.0,Bernhard Schlink,False,0.0
+809091,record producer,2,1,1,0.0,basketball,False,1.0
+812547,Phyllis Nagy,1,1,1,0.0,Barry Hines,False,0.0
+832908,Ottawa,2,1,1,0.0,Quebec City,False,0.0
+861082,Frankfort,2,1,1,0.0,Maidstone,False,0.0
+87780,Tom Tryon,4,1,1,0.0,Quincy Jones,False,0.0
+879565,Professor X,0,1,1,0.0,Zeus,False,0.0
+88313,Agatha Christie,0,1,1,0.0,Nation of Islam,False,0.0
+894483,Little Rock,1,1,1,0.0,Edmonton,False,0.0
+910189,Charles August Lindbergh,3,1,1,0.0,Abraham Lincoln,False,0.0
+914053,London,2,1,1,1.0,London,False,0.0
+950404,Jeff Smith,2,1,1,0.0,Stephen King,False,0.0
+984715,Brian De Palma,1,1,1,0.0,John Hughes,False,0.0

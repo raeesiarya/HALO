@@ -2,7 +2,7 @@
   "audit_schema_version": 2,
   "backend": {
     "class": "models.co_lmlm.backend.CoLMLMAuditBackend",
-    "index_path": "/home/ubuntu/HALO/data/co-lmlm-wiki-index",
+    "index_path": "/home/ubuntu/HALO/data/co-lmlm-fineweb-wiki-index",
     "model_path": "lil-lab/CoLMLM-360M-FW",
     "release_source": "/home/ubuntu/Co-LMLM",
     "similarity_threshold": 0.7
@@ -24,7 +24,7 @@
     "min_count": 5,
     "mode": "cosine"
   },
-  "prompt_sha256": "ecdc414c5d4d73bb47bce8cfcd98c34a1f548e457050fe8ca4fb9ede22396bf7",
+  "prompt_sha256": "76172a7df5ecbde8741dd4ae34f385441f135ad50dfdbd64e1707c6d1e6c1fa5",
   "radii": [
     0.95,
     0.9,
