@@ -1,0 +1,52 @@
+Logging run_audit output to /home/ubuntu/HALO/out/googlere/del_off_sensitivity/forbid-token/run_audit.log
+Prompt file: /home/ubuntu/HALO/data/prompts_googlere.jsonl
+Database used: /home/ubuntu/HALO/data/co-lmlm-fineweb-wiki-index
+DB states: FULL, DEL-ON, DEL-OFF
+Running audit for /home/ubuntu/HALO/data/prompts_googlere.jsonl with database /home/ubuntu/HALO/data/co-lmlm-fineweb-wiki-index
+Wrote closure artifacts to /home/ubuntu/HALO/out/googlere/del_off_sensitivity/forbid-token/prompts_googlere_closures
+Wrote query-embedding sidecar to /home/ubuntu/HALO/out/googlere/del_off_sensitivity/forbid-token/prompts_googlere_query_embeddings.npz
+Probe L_rep: 0.104, behavioral L: 0.003, Δ_rep: 0.101 over 633 facts
+FULL pass: 0 reused, 0 generated in /home/ubuntu/HALO/out/googlere/prompts_googlere_full
+Cross-phase reuse: served 0 generations ({}), generated 0, 0 canary-verified.
+Cross-state audit metrics:
+  Closure policy: geometric,value
+  DEL-OFF control mode: forbid-token
+  Pre-answer answer-mention coverage: 633/2766 facts
+    717x FULL produced no selected entry ID
+    1416x FULL selected entry did not pass the answer-mention heuristic
+  Paired count: 633
+  FULL-correct paired count: 608
+  Parametric leakage L(f): 0.003
+  Retrieval-mediated correctness R(f): 0.002
+  Retrieval interference I(f): 0.002
+  Retrieval interference | FULL correct: 0.002
+  Retrieval artifact rate: 0.003
+  Artifact-trace eligible count: 633
+  Post-deletion survival | FULL correct: 0.003
+Metrics by state:
+FULL:
+  Count: 633
+  Exact match: 0.022
+  Contains match: 0.961
+  Unknown rate: 0.008
+  Precision: 0.405
+  Recall: 0.946
+  F1: 0.554
+DEL-ON:
+  Count: 633
+  Exact match: 0.000
+  Contains match: 0.003
+  Unknown rate: 0.028
+  Precision: 0.001
+  Recall: 0.002
+  F1: 0.001
+DEL-OFF:
+  Count: 633
+  Exact match: 0.000
+  Contains match: 0.003
+  Unknown rate: 0.000
+  Precision: 0.000
+  Recall: 0.002
+  F1: 0.000
+Wrote cross-state metrics CSV to /home/ubuntu/HALO/out/googlere/del_off_sensitivity/forbid-token/cross_state_metrics.csv
+Wrote per-state metrics CSV to /home/ubuntu/HALO/out/googlere/del_off_sensitivity/forbid-token/per_state_metrics.csv

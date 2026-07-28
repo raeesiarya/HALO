@@ -35,12 +35,6 @@ outputs/
 /results/**/prompts_trex_closures/
 /results/prompts_trex_adversarial/closures/
 
-# Raw audit artifacts (kept locally; summaries remain versioned)
-/results/**/*.jsonl
-/results/**/*.npz
-/results/**/run_audit.log
-/results/prompts_trex_sweep/neighbors.json
-
 # Downloaded model checkpoints
 checkpoints/
 
