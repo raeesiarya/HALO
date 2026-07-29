@@ -7,3 +7,4 @@ with no changes to the audit core.
 """
 
 from models import co_lmlm as co_lmlm  # noqa: F401  (registration side effect)
+from models import smollm2_360m as smollm2_360m  # noqa: F401  (registration side effect)
