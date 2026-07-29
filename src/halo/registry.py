@@ -41,6 +41,12 @@ class BackendSpec:
     # Backend-specific argument validation (missing paths, unsupported
     # closure predicates, ...). Generic audit-flag validation stays in the CLI.
     validate: Callable[[argparse.Namespace], None] = _no_validate
+    # Whether the standard audit may bootstrap oracle deletion manifests from
+    # this backend's FULL-pass traces (--bootstrap-oracle-from-full) and build
+    # deletion closures from them. Requires generate() to emit retrieval
+    # traces with selected candidates and build_search_index() to return a
+    # live index over the audited store.
+    supports_oracle_bootstrap: bool = False
 
 
 _REGISTRY: dict[str, BackendSpec] = {}

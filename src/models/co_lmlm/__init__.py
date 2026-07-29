@@ -126,5 +126,6 @@ register_backend(
         group_key=_group_key,
         add_arguments=_add_arguments,
         validate=_validate,
+        supports_oracle_bootstrap=True,
     )
 )

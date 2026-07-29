@@ -99,7 +99,7 @@ def main() -> None:
         spec.validate(args)
 
         if args.closure is not None:
-            if args.backend == "co-lmlm" and (
+            if spec.supports_oracle_bootstrap and (
                 not args.bootstrap_oracle_from_full
                 and args.radius_grid is None
                 and not args.adversarial
@@ -108,7 +108,7 @@ def main() -> None:
                     "--closure builds its manifest from the FULL pass and "
                     "requires --bootstrap-oracle-from-full."
                 )
-            if args.backend != "co-lmlm" and (
+            if not spec.supports_oracle_bootstrap and (
                 args.radius_grid is None and not args.adversarial
             ):
                 raise ValueError(
@@ -372,7 +372,7 @@ def main() -> None:
                 embedding_sink = QueryEmbeddingSink()
                 manifest_builder = (
                     make_closure_manifest_builder(backend, search_index, args, job)
-                    if args.backend == "co-lmlm" and args.closure is not None
+                    if spec.supports_oracle_bootstrap and args.closure is not None
                     else None
                 )
                 stem = job.prompt_path.stem
@@ -404,7 +404,7 @@ def main() -> None:
                             "max_new_tokens": args.max_new_tokens,
                             "states": [state.value for state in states],
                             "bootstrap_oracle_from_full": bool(
-                                args.backend == "co-lmlm"
+                                spec.supports_oracle_bootstrap
                                 and args.bootstrap_oracle_from_full
                             ),
                             "closure": closure_payload,
@@ -447,7 +447,8 @@ def main() -> None:
                     max_new_tokens=args.max_new_tokens,
                     limit=args.limit,
                     bootstrap_oracle_from_full=(
-                        args.backend == "co-lmlm" and args.bootstrap_oracle_from_full
+                        spec.supports_oracle_bootstrap
+                        and args.bootstrap_oracle_from_full
                     ),
                     embedding_sink=embedding_sink,
                     manifest_builder=manifest_builder,

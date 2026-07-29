@@ -61,7 +61,16 @@ class SmolLM2AuditBackend:
         from transformers import AutoModelForCausalLM, AutoTokenizer
 
         device, torch_dtype = _auto_device_dtype()
-        tokenizer = AutoTokenizer.from_pretrained(model_path)
+        try:
+            tokenizer = AutoTokenizer.from_pretrained(model_path)
+        except AttributeError:
+            # Checkpoints saved by newer transformers versions store
+            # `extra_special_tokens` as a list, which this pinned version
+            # cannot parse. Those tokens already live in tokenizer.json as
+            # added tokens, so override the redundant attribute away.
+            tokenizer = AutoTokenizer.from_pretrained(
+                model_path, extra_special_tokens={}
+            )
         model = AutoModelForCausalLM.from_pretrained(
             model_path, torch_dtype=torch_dtype
         )
@@ -119,9 +128,7 @@ class SmolLM2AuditBackend:
         t_generate_s = time.perf_counter() - start
 
         completion_ids = output_ids[0][input_ids.shape[1] :]
-        raw_completion = self.tokenizer.decode(
-            completion_ids, skip_special_tokens=True
-        )
+        raw_completion = self.tokenizer.decode(completion_ids, skip_special_tokens=True)
         return AuditObservation(
             model_output=self.answer_extractor(raw_completion),
             # None lets the core stamp the state-correct empty trace: no
