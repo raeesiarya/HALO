@@ -55,6 +55,9 @@ checkpoints/
 coverage.json
 coverage.xml
 
+# Local Weights & Biases run cache and metadata
+/wandb/
+
 # LaTeX build files (keep the report source and final PDF)
 /reports/*.aux
 /reports/*.fdb_latexmk
