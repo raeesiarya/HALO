@@ -256,6 +256,7 @@ fi
 if phase_enabled sweep; then
     announce "entanglement sweep (operating curves, G(f))"
     run_sweep_sharded --closure "$SWEEP_CLOSURE" --radius-grid "$RADIUS_GRID" \
+        --log-file "$OUTPUT_DIR/run_audit.sweep.log" \
         --full-dir "$SHARED_FULL_DIR" \
         --neighbor-mode "$NEIGHBOR_MODE" \
         --neighbor-min-count "$NEIGHBOR_MIN_COUNT" "$@"
@@ -264,6 +265,7 @@ fi
 if phase_enabled adversarial; then
     announce "adversarial closure (attack attribution, margin predictor)"
     run_sharded --closure "$ADVERSARIAL_CLOSURE" --adversarial \
+        --log-file "$OUTPUT_DIR/run_audit.adversarial.log" \
         --full-dir "$SHARED_FULL_DIR" \
         --reuse-from "$PHASE1_RESULTS" "$@"
 fi
@@ -273,14 +275,13 @@ fi
 # is a no-op once warm.
 
 if phase_enabled del-off; then
-    # Phase 1 is already the "$DEL_OFF_MODE" arm of this comparison, so run
-    # only the complementary control when both phases are enabled.
-    if phase_enabled standard; then
+    # Reuse phase one and run only the complementary DEL-OFF control.
+    if phase_enabled standard || [ -f "$PHASE1_RESULTS" ]; then
         case "$DEL_OFF_MODE" in
             null-retrieval) sensitivity_modes="forbid-token" ;;
             *)              sensitivity_modes="null-retrieval" ;;
         esac
-        announce "DEL-OFF sensitivity ($sensitivity_modes; $DEL_OFF_MODE arm is phase 1)"
+        announce "DEL-OFF sensitivity ($sensitivity_modes; $DEL_OFF_MODE arm already available)"
     else
         sensitivity_modes="null-retrieval forbid-token"
         announce "DEL-OFF sensitivity ($sensitivity_modes)"
