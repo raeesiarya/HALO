@@ -165,13 +165,41 @@ The suite's `policy` phase runs the same matrix under
 
 ## Cross-model GPU scheduler
 
-The scheduler runs the complete 35-job comparison across the available GPUs:
-25 Co-LMLM jobs and 10 standard-language-model jobs. For each prompt set, the
-Co-LMLM `standard` job finishes before its dependent jobs begin.
+The scheduler runs the complete cross-model comparison as a dependency-aware
+job graph over the available GPUs. Every Co-LMLM phase is decomposed into
+single-GPU jobs so idle GPUs absorb the tail of the run:
+
+- the entanglement sweep always splits into a prep job, one job per radius,
+  and a finalize job;
+- the deletion-policy matrix always runs `oracle` first, then the four
+  remaining policies in parallel, preserving oracle-result reuse;
+- with `--shards N`, the fact-striped phases (`standard`, `adversarial`,
+  `del-off`, and each policy) additionally split into N single-GPU shard
+  jobs plus a finalize job that merges the stripes. With `--shards 1` (the
+  default) they stay one job each, and `SUITE_WORKERS` worker processes fan
+  out within that job's GPU instead.
+
+Per prompt set, the Co-LMLM `standard` output gates every later phase. With
+the defaults (5 prompt sets, 3 models, `--shards 1`) the plan has 90 jobs;
+`--shards 4` yields 250.
 
 ```bash
 SUITE_WORKERS=16 ./scripts/run_cross_model_scheduler.sh --dry-run
 SUITE_WORKERS=16 ./scripts/run_cross_model_scheduler.sh --detach
+./scripts/run_cross_model_scheduler.sh --shards 4 --detach
+```
+
+`run_suite_parallel_cross_model.sh` is the submit-and-return launcher in the
+style of `run_suite_parallel_co_lmlm.sh`: it validates fast, submits the
+detached scheduler run over every prompt set and every model, and returns
+immediately. It accepts the same environment knobs (`SETS`, `OUT_ROOT`,
+`GPUS`, `MAX_PARALLEL`, `CO_LMLM_DIR`, `INDEX_DIR`), plus `MODELS`,
+`SUITE_WORKERS`, and `SCHEDULER_SHARDS`; extra flags are forwarded to every
+audit job.
+
+```bash
+SCHEDULER_SHARDS=4 ./scripts/run_suite_parallel_cross_model.sh
+tail -F out-cross-model/_scheduler.log
 ```
 
 The defaults are GPUs `0` through `7` and the output directory

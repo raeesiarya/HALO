@@ -1,4 +1,15 @@
-"""Schedule the 35 cross-model HALO jobs across GPUs."""
+"""Schedule the cross-model HALO job graph across GPUs.
+
+Every Co-LMLM phase is decomposed into single-GPU jobs so idle GPUs absorb
+the tail of the run: fact-striped phases (standard, adversarial, del-off,
+each deletion policy) split into ``--shards`` shard jobs plus a finalize job
+that merges the stripes; the entanglement sweep splits into a prep job, one
+job per radius, and a finalize job; the deletion-policy matrix runs oracle
+first and the four remaining policies in parallel, preserving oracle-result
+reuse. All decomposition reuses the audit CLI's own resumable sharding
+(``--shard``, ``--sweep-shard-radii``), so shards coordinate purely through
+files on disk.
+"""
 
 from __future__ import annotations
 
@@ -47,6 +58,11 @@ PHASE_COST = {
     "policy": 12,
     "parametric": 3,
 }
+# Standard jobs outrank everything (they unlock every later phase); gate jobs
+# (sweep prep, the oracle policy) outrank their siblings because they unlock
+# further parallel work.
+UNLOCK_BONUS = 10**12
+GATE_BONUS = 10**9
 
 # Include semantic environment values in resume fingerprints.
 PASSTHROUGH_ENV = (
@@ -219,8 +235,8 @@ def _directory_identity(path: Path) -> str:
     return digest.hexdigest()
 
 
-def _job_key(model: str, dataset: str, phase: str) -> str:
-    return f"{model}.{dataset}.{phase}"
+def _job_key(model: str, dataset: str, phase: str, *parts: str) -> str:
+    return ".".join((model, dataset, phase, *parts))
 
 
 def _validate_selection(
@@ -266,18 +282,26 @@ def build_jobs(
     audit_args: Sequence[str] = (),
     inherited_env: Mapping[str, str] | None = None,
     workers_per_job: int = 1,
+    shards_per_phase: int = 1,
 ) -> list[Job]:
-    """Build the cross-model dependency graph without starting processes."""
+    """Build the cross-model dependency graph without starting processes.
+
+    Fact-striped Co-LMLM phases decompose into ``shards_per_phase`` shard
+    jobs plus a finalize job; the sweep decomposes into prep, one job per
+    radius, and finalize; the policy matrix into oracle followed by the four
+    remaining policies in parallel. Each emitted job is one process pinned
+    to one GPU.
+    """
 
     _validate_selection(datasets, models, phases)
     _validate_audit_args(audit_args)
     if workers_per_job < 1:
         raise ValueError("--workers-per-job must be at least 1.")
+    if shards_per_phase < 1:
+        raise ValueError("--shards must be at least 1.")
     inherited_env = os.environ if inherited_env is None else inherited_env
     shared_env = {
-        name: inherited_env[name]
-        for name in PASSTHROUGH_ENV
-        if inherited_env.get(name)
+        name: inherited_env[name] for name in PASSTHROUGH_ENV if inherited_env.get(name)
     }
     del_off_mode = inherited_env.get("DEL_OFF_MODE", "null-retrieval")
     if del_off_mode not in DEL_OFF_MODES:
@@ -292,9 +316,7 @@ def build_jobs(
     )
     source_fingerprint = _source_digest(repo_root)
     co_lmlm_source_fingerprint = (
-        _co_lmlm_source_digest(co_lmlm_dir)
-        if "co-lmlm" in models
-        else "unused"
+        _co_lmlm_source_digest(co_lmlm_dir) if "co-lmlm" in models else "unused"
     )
     index_fingerprint = (
         _directory_identity(index_dir) if "co-lmlm" in models else "unused"
@@ -313,22 +335,25 @@ def build_jobs(
         phase1_results = co_output / f"{stem}_results.jsonl"
 
         if "co-lmlm" in models:
-            standard_key = _job_key("co-lmlm", dataset, "standard")
-            for phase in phases:
-                key = _job_key("co-lmlm", dataset, phase)
-                dependencies = (
-                    frozenset({standard_key})
-                    if phase != "standard" and "standard" in phases
-                    else frozenset()
-                )
-                # Prioritize standard jobs because they unlock later phases.
-                unlock_bonus = 10**12 if phase == "standard" else 0
-                priority = unlock_bonus + rows * PHASE_COST[phase]
-                phase_workers = (
-                    min(workers_per_job, len(radii))
-                    if phase == "sweep"
-                    else workers_per_job
-                )
+            co_fingerprint = (
+                f"source={source_fingerprint};"
+                f"co_source={co_lmlm_source_fingerprint};"
+                f"prompt={prompt_fingerprint};"
+                f"index={index_fingerprint}"
+            )
+
+            def co_job(
+                phase: str,
+                parts: tuple[str, ...],
+                *,
+                extra_args: tuple[str, ...] = (),
+                extra_env: tuple[tuple[str, str], ...] = (),
+                dependencies: Iterable[str] = (),
+                priority: int,
+                expected_outputs: tuple[Path, ...],
+                workers: int = 1,
+            ) -> str:
+                key = _job_key("co-lmlm", dataset, phase, *parts)
                 environment = {
                     **shared_env,
                     "CO_LMLM_DIR": str(co_lmlm_dir),
@@ -338,67 +363,210 @@ def build_jobs(
                     "SUITE_PHASES": phase,
                     # Keep DEL-OFF behavior consistent across phases.
                     "DEL_OFF_MODE": del_off_mode,
-                    # Sweep workers are capped at the number of radii.
-                    "SUITE_WORKERS": str(phase_workers),
+                    "SUITE_WORKERS": str(workers),
+                    **dict(extra_env),
                 }
-                if phase == "standard":
-                    expected_outputs = (
-                        phase1_results,
-                        shared_full,
-                        co_output / "cross_state_metrics.csv",
-                    )
-                elif phase == "sweep":
-                    sweep_dir = co_output / f"{stem}_sweep"
-                    expected_outputs = tuple(
-                        sweep_dir / f"sweep_rho_{rho:.4f}.jsonl"
-                        for rho in radii
-                    )
-                elif phase == "adversarial":
-                    expected_outputs = (
-                        co_output
-                        / f"{stem}_adversarial"
-                        / "adversarial_results.jsonl",
-                    )
-                elif phase == "del-off":
-                    complementary_mode = (
-                        "forbid-token"
-                        if del_off_mode == "null-retrieval"
-                        else "null-retrieval"
-                    )
-                    expected_outputs = (
-                        co_output
-                        / "del_off_sensitivity"
-                        / complementary_mode
-                        / "cross_state_metrics.csv",
-                    )
-                else:
-                    expected_outputs = tuple(
-                        co_output
-                        / "policy_matrix"
-                        / policy
-                        / "cross_state_metrics.csv"
-                        for policy in POLICIES
-                    )
                 jobs.append(
                     Job(
                         key=key,
                         model="co-lmlm",
                         dataset=dataset,
                         phase=phase,
-                        command=("bash", str(suite), *audit_args),
+                        # Injected flags follow the forwarded audit args, and
+                        # the suite appends "$@" last, so they win over the
+                        # phase-level defaults (e.g. --log-file).
+                        command=("bash", str(suite), *audit_args, *extra_args),
                         environment=tuple(sorted(environment.items())),
-                        dependencies=dependencies,
+                        dependencies=frozenset(dependencies),
                         priority=priority,
                         log_path=log_root / f"{key}.log",
-                        input_fingerprint=(
-                            f"source={source_fingerprint};"
-                            f"co_source={co_lmlm_source_fingerprint};"
-                            f"prompt={prompt_fingerprint};"
-                            f"index={index_fingerprint}"
-                        ),
+                        input_fingerprint=co_fingerprint,
                         expected_outputs=expected_outputs,
                     )
                 )
+                return key
+
+            def striped_group(
+                phase: str,
+                parts: tuple[str, ...],
+                *,
+                extra_env: tuple[tuple[str, str], ...] = (),
+                dependencies: Iterable[str] = (),
+                priority: int,
+                expected_outputs: tuple[Path, ...],
+            ) -> str:
+                """Emit a fact-striped phase as shard jobs plus a finalize.
+
+                With one shard the phase stays a single job (using the
+                intra-job worker fan-out); otherwise each shard is its own
+                single-GPU job and the finalize run merges the stripes and
+                carries the phase's output contract. Returns the key later
+                phases must depend on.
+                """
+
+                if shards_per_phase == 1:
+                    return co_job(
+                        phase,
+                        parts,
+                        extra_env=extra_env,
+                        dependencies=dependencies,
+                        priority=priority,
+                        expected_outputs=expected_outputs,
+                        workers=workers_per_job,
+                    )
+                dependencies = frozenset(dependencies)
+                shard_keys = []
+                for index in range(shards_per_phase):
+                    log_name = ".".join(
+                        ("run_audit", phase, *parts, f"shard{index}")
+                    )
+                    shard_keys.append(
+                        co_job(
+                            phase,
+                            (*parts, f"shard{index}"),
+                            extra_args=(
+                                "--shard",
+                                f"{index}/{shards_per_phase}",
+                                "--log-file",
+                                str(co_output / f"{log_name}.log"),
+                            ),
+                            extra_env=extra_env,
+                            dependencies=dependencies,
+                            priority=priority,
+                            expected_outputs=(),
+                        )
+                    )
+                return co_job(
+                    phase,
+                    (*parts, "finalize"),
+                    extra_env=extra_env,
+                    dependencies=dependencies | set(shard_keys),
+                    priority=priority,
+                    expected_outputs=expected_outputs,
+                )
+
+            standard_final = None
+            if "standard" in phases:
+                standard_final = striped_group(
+                    "standard",
+                    (),
+                    priority=UNLOCK_BONUS + rows * PHASE_COST["standard"],
+                    expected_outputs=(
+                        phase1_results,
+                        shared_full,
+                        co_output / "cross_state_metrics.csv",
+                    ),
+                )
+            standard_dep = {standard_final} if standard_final else set()
+
+            if "sweep" in phases:
+                # Radius stripes are round-robin (radii[i::count]), so with
+                # one stripe per radius, stripe i is exactly radii[i].
+                sweep_dir = co_output / f"{stem}_sweep"
+                sweep_priority = rows * PHASE_COST["sweep"]
+                prep_key = co_job(
+                    "sweep",
+                    ("prep",),
+                    extra_args=(
+                        "--sweep-shard-radii",
+                        "none",
+                        "--log-file",
+                        str(co_output / "run_audit.sweep.prep.log"),
+                    ),
+                    dependencies=standard_dep,
+                    priority=GATE_BONUS + sweep_priority,
+                    expected_outputs=(),
+                )
+                radius_keys = []
+                for index, rho in enumerate(radii):
+                    radius_keys.append(
+                        co_job(
+                            "sweep",
+                            (f"radius{index}",),
+                            extra_args=(
+                                "--sweep-shard-radii",
+                                f"{index}/{len(radii)}",
+                                "--log-file",
+                                str(
+                                    co_output / f"run_audit.sweep.radius{index}.log"
+                                ),
+                            ),
+                            dependencies={prep_key},
+                            priority=sweep_priority,
+                            expected_outputs=(
+                                sweep_dir / f"sweep_rho_{rho:.4f}.jsonl",
+                            ),
+                        )
+                    )
+                co_job(
+                    "sweep",
+                    ("finalize",),
+                    dependencies={prep_key, *radius_keys},
+                    priority=sweep_priority,
+                    expected_outputs=tuple(
+                        sweep_dir / f"sweep_rho_{rho:.4f}.jsonl" for rho in radii
+                    ),
+                )
+
+            if "adversarial" in phases:
+                striped_group(
+                    "adversarial",
+                    (),
+                    dependencies=standard_dep,
+                    priority=rows * PHASE_COST["adversarial"],
+                    expected_outputs=(
+                        co_output / f"{stem}_adversarial" / "adversarial_results.jsonl",
+                    ),
+                )
+
+            if "del-off" in phases:
+                complementary_mode = (
+                    "forbid-token"
+                    if del_off_mode == "null-retrieval"
+                    else "null-retrieval"
+                )
+                striped_group(
+                    "del-off",
+                    (),
+                    dependencies=standard_dep,
+                    priority=rows * PHASE_COST["del-off"],
+                    expected_outputs=(
+                        co_output
+                        / "del_off_sensitivity"
+                        / complementary_mode
+                        / "cross_state_metrics.csv",
+                    ),
+                )
+
+            if "policy" in phases:
+                # Oracle first: the other policies reuse its DEL-OFF rows
+                # (and coinciding DEL-ON rows), then run in parallel.
+                policy_priority = rows * PHASE_COST["policy"]
+                oracle_final = striped_group(
+                    "policy",
+                    ("oracle",),
+                    extra_env=(("POLICIES", "oracle"),),
+                    dependencies=standard_dep,
+                    priority=GATE_BONUS + policy_priority,
+                    expected_outputs=(
+                        co_output / "policy_matrix" / "oracle"
+                        / "cross_state_metrics.csv",
+                    ),
+                )
+                for policy in POLICIES:
+                    if policy == "oracle":
+                        continue
+                    striped_group(
+                        "policy",
+                        (policy,),
+                        extra_env=(("POLICIES", policy),),
+                        dependencies={oracle_final},
+                        priority=policy_priority,
+                        expected_outputs=(
+                            co_output / "policy_matrix" / policy
+                            / "cross_state_metrics.csv",
+                        ),
+                    )
 
         for model in PARAMETRIC_MODELS:
             if model not in models:
@@ -731,11 +899,7 @@ def _run_jobs_locked(
 
             running_keys = set(running)
             runnable = [job for job in runnable if job.key not in running_keys]
-            while (
-                runnable
-                and free_gpus
-                and len(running) < max_parallel
-            ):
+            while runnable and free_gpus and len(running) < max_parallel:
                 job = runnable.pop(0)
                 gpu = free_gpus.pop(0)
                 job.log_path.parent.mkdir(parents=True, exist_ok=True)
@@ -785,9 +949,7 @@ def _run_jobs_locked(
                     handle.close()
                     free_gpus.insert(0, gpu)
                     raise
-                driver_log.write(
-                    f"[start] {job.key} on GPU {gpu} -> {job.log_path}"
-                )
+                driver_log.write(f"[start] {job.key} on GPU {gpu} -> {job.log_path}")
 
             if not running and pending:
                 unresolved = ", ".join(sorted(pending))
@@ -797,8 +959,7 @@ def _run_jobs_locked(
 
         driver_log.write("=== Cross-model scheduler summary ===")
         driver_log.write(
-            f"{len(succeeded)} succeeded, {len(failed)} failed, "
-            f"{len(blocked)} blocked"
+            f"{len(succeeded)} succeeded, {len(failed)} failed, {len(blocked)} blocked"
         )
         return 0 if not failed and not blocked else 1
     except SchedulerSignal as exc:
@@ -888,12 +1049,12 @@ def _validate_inputs(
             output_dir = out_root / "co-lmlm" / dataset
             required = (
                 output_dir / f"{prompt_path.stem}_results.jsonl",
-                output_dir
-                / f"{prompt_path.stem}_full"
-                / "full_results.jsonl",
+                output_dir / f"{prompt_path.stem}_full" / "full_results.jsonl",
                 output_dir / f"{prompt_path.stem}_audit_config.json",
             )
-            missing_prerequisites.extend(path for path in required if not path.is_file())
+            missing_prerequisites.extend(
+                path for path in required if not path.is_file()
+            )
         if missing_prerequisites:
             raise FileNotFoundError(
                 "Co-LMLM phase-only runs require completed standard outputs. "
@@ -903,10 +1064,7 @@ def _validate_inputs(
         for dataset in datasets:
             prompt_path = repo_root / DATASETS[dataset]
             config_path = (
-                out_root
-                / "co-lmlm"
-                / dataset
-                / f"{prompt_path.stem}_audit_config.json"
+                out_root / "co-lmlm" / dataset / f"{prompt_path.stem}_audit_config.json"
             )
             config = json.loads(config_path.read_text(encoding="utf-8"))
             stored_mode = config.get("del_off_mode")
@@ -982,12 +1140,15 @@ def _warm_up(
             )
             # Install OpenBLAS once before jobs can race on dpkg.
             if shutil.which("apt-get") and shutil.which("dpkg"):
-                installed = subprocess.run(
-                    ("dpkg", "-s", "libopenblas0"),
-                    stdout=subprocess.DEVNULL,
-                    stderr=subprocess.DEVNULL,
-                    check=False,
-                ).returncode == 0
+                installed = (
+                    subprocess.run(
+                        ("dpkg", "-s", "libopenblas0"),
+                        stdout=subprocess.DEVNULL,
+                        stderr=subprocess.DEVNULL,
+                        check=False,
+                    ).returncode
+                    == 0
+                )
                 if not installed:
                     handle.write(b"\n=== Install OpenBLAS ===\n")
                     prefix: tuple[str, ...] = ()
@@ -1014,7 +1175,10 @@ def _warm_up(
 def _parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     repo_root = Path(__file__).resolve().parents[2]
     parser = argparse.ArgumentParser(
-        description="Schedule the 35-job cross-model HALO evaluation over a GPU pool."
+        description=(
+            "Schedule the cross-model HALO evaluation as a dependency-aware "
+            "job graph over a GPU pool."
+        )
     )
     parser.add_argument(
         "--sets",
@@ -1048,7 +1212,19 @@ def _parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
         default=int(os.environ.get("SUITE_WORKERS", "1")),
         help=(
             "Co-LMLM worker processes within each one-GPU job. Defaults to "
-            "SUITE_WORKERS or 1."
+            "SUITE_WORKERS or 1. Only applies while --shards is 1; shard "
+            "jobs are single workers by construction."
+        ),
+    )
+    parser.add_argument(
+        "--shards",
+        type=int,
+        default=int(os.environ.get("SCHEDULER_SHARDS", "1")),
+        help=(
+            "Decompose each fact-striped Co-LMLM phase (standard, "
+            "adversarial, del-off, each policy) into this many single-GPU "
+            "shard jobs plus a finalize job. 1 keeps each phase a single "
+            "job; the sweep and the policy matrix are always decomposed."
         ),
     )
     parser.add_argument(
@@ -1059,9 +1235,7 @@ def _parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--co-lmlm-dir",
         type=Path,
-        default=Path(
-            os.environ.get("CO_LMLM_DIR", repo_root.parent / "Co-LMLM")
-        ),
+        default=Path(os.environ.get("CO_LMLM_DIR", repo_root.parent / "Co-LMLM")),
     )
     parser.add_argument(
         "--index-dir",
@@ -1116,34 +1290,44 @@ def main(argv: Sequence[str] | None = None) -> int:
         phases=phases,
         audit_args=args.audit_args,
         workers_per_job=args.workers_per_job,
+        shards_per_phase=args.shards,
     )
-    jobs = build_jobs(**job_options)
-    max_parallel = args.max_parallel if args.max_parallel is not None else len(gpus)
-    _validate_runtime_options(
-        gpus=gpus,
-        max_parallel=max_parallel,
-        workers_per_job=args.workers_per_job,
-        poll_seconds=args.poll_seconds,
-    )
+    # Plan and input problems are user errors: report them cleanly instead
+    # of with a traceback, so launchers can fail fast before detaching.
+    try:
+        jobs = build_jobs(**job_options)
+        max_parallel = (
+            args.max_parallel if args.max_parallel is not None else len(gpus)
+        )
+        _validate_runtime_options(
+            gpus=gpus,
+            max_parallel=max_parallel,
+            workers_per_job=args.workers_per_job,
+            poll_seconds=args.poll_seconds,
+        )
+    except (ValueError, FileNotFoundError) as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        return 2
 
     if args.dry_run:
-        print(
-            f"Plan {plan_fingerprint(jobs)}: {len(jobs)} jobs "
-            f"({len(gpus)} GPUs)"
-        )
+        print(f"Plan {plan_fingerprint(jobs)}: {len(jobs)} jobs ({len(gpus)} GPUs)")
         for job in sorted(jobs, key=lambda item: (-item.priority, item.key)):
             print(_format_job(job))
         return 0
 
-    _validate_inputs(
-        repo_root=args.repo_root,
-        out_root=out_root,
-        datasets=datasets,
-        models=models,
-        phases=phases,
-        index_dir=index_dir,
-        del_off_mode=os.environ.get("DEL_OFF_MODE", "null-retrieval"),
-    )
+    try:
+        _validate_inputs(
+            repo_root=args.repo_root,
+            out_root=out_root,
+            datasets=datasets,
+            models=models,
+            phases=phases,
+            index_dir=index_dir,
+            del_off_mode=os.environ.get("DEL_OFF_MODE", "null-retrieval"),
+        )
+    except (ValueError, FileNotFoundError) as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        return 2
     if args.detach:
         child_args = list(sys.argv[1:] if argv is None else argv)
         child_args.remove("--detach")

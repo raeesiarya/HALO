@@ -10,7 +10,6 @@ from pathlib import Path
 import pytest
 
 from halo.scheduler import (
-    CO_LMLM_PHASES,
     DATASETS,
     DEFAULT_MODELS,
     Job,
@@ -53,7 +52,7 @@ def _job(
     )
 
 
-def test_default_plan_has_35_jobs_and_correct_dependencies(tmp_path: Path) -> None:
+def test_default_plan_has_90_jobs_and_correct_dependencies(tmp_path: Path) -> None:
     repo_root = Path(__file__).resolve().parents[1]
     jobs = build_jobs(
         repo_root=repo_root,
@@ -63,8 +62,9 @@ def test_default_plan_has_35_jobs_and_correct_dependencies(tmp_path: Path) -> No
         inherited_env={},
     )
 
-    assert len(jobs) == 35
-    assert len([job for job in jobs if job.model == "co-lmlm"]) == 25
+    # Per set: standard 1, sweep 1+6+1, adversarial 1, del-off 1, policy 5.
+    assert len(jobs) == 90
+    assert len([job for job in jobs if job.model == "co-lmlm"]) == 80
     assert len([job for job in jobs if job.model != "co-lmlm"]) == 10
     assert {job.dataset for job in jobs} == set(DATASETS)
     assert {job.model for job in jobs} == set(DEFAULT_MODELS)
@@ -73,11 +73,38 @@ def test_default_plan_has_35_jobs_and_correct_dependencies(tmp_path: Path) -> No
     for dataset in DATASETS:
         standard = f"co-lmlm.{dataset}.standard"
         assert by_key[standard].dependencies == frozenset()
-        for phase in CO_LMLM_PHASES[1:]:
+        for phase in ("adversarial", "del-off"):
             job = by_key[f"co-lmlm.{dataset}.{phase}"]
             assert job.dependencies == frozenset({standard})
             assert job.env_dict()["SUITE_PHASES"] == phase
-            assert job.env_dict()["SUITE_WORKERS"] == "1"
+
+        # The sweep decomposes into prep -> one job per radius -> finalize.
+        prep = by_key[f"co-lmlm.{dataset}.sweep.prep"]
+        assert prep.dependencies == frozenset({standard})
+        assert ("--sweep-shard-radii", "none") in zip(
+            prep.command, prep.command[1:]
+        )
+        radius_keys = [f"co-lmlm.{dataset}.sweep.radius{i}" for i in range(6)]
+        for index, key in enumerate(radius_keys):
+            radius_job = by_key[key]
+            assert radius_job.dependencies == frozenset({prep.key})
+            assert ("--sweep-shard-radii", f"{index}/6") in zip(
+                radius_job.command, radius_job.command[1:]
+            )
+            assert len(radius_job.expected_outputs) == 1
+        finalize = by_key[f"co-lmlm.{dataset}.sweep.finalize"]
+        assert finalize.dependencies == frozenset({prep.key, *radius_keys})
+        assert len(finalize.expected_outputs) == 6
+
+        # The policy matrix runs oracle first, then four policies in parallel.
+        oracle = by_key[f"co-lmlm.{dataset}.policy.oracle"]
+        assert oracle.dependencies == frozenset({standard})
+        assert oracle.env_dict()["POLICIES"] == "oracle"
+        for policy in ("geometric", "value", "provenance", "hybrid"):
+            job = by_key[f"co-lmlm.{dataset}.policy.{policy}"]
+            assert job.dependencies == frozenset({oracle.key})
+            assert job.env_dict()["POLICIES"] == policy
+
         for model in ("standard-lm-360m-fw", "smollm2-360m"):
             assert by_key[f"{model}.{dataset}.standard"].dependencies == frozenset()
 
@@ -92,8 +119,17 @@ def test_default_plan_has_35_jobs_and_correct_dependencies(tmp_path: Path) -> No
     }
     assert min(co_standard_priorities) > max(baseline_priorities)
 
+    # Gate jobs (sweep prep, oracle) outrank their non-gating siblings.
+    for dataset in DATASETS:
+        prep = by_key[f"co-lmlm.{dataset}.sweep.prep"]
+        finalize = by_key[f"co-lmlm.{dataset}.sweep.finalize"]
+        assert prep.priority > finalize.priority
+        oracle = by_key[f"co-lmlm.{dataset}.policy.oracle"]
+        hybrid = by_key[f"co-lmlm.{dataset}.policy.hybrid"]
+        assert oracle.priority > hybrid.priority
 
-def test_workers_per_job_is_forwarded_to_every_co_lmlm_phase(
+
+def test_workers_per_job_applies_only_to_unsharded_fact_striped_jobs(
     tmp_path: Path,
 ) -> None:
     repo_root = Path(__file__).resolve().parents[1]
@@ -107,11 +143,80 @@ def test_workers_per_job_is_forwarded_to_every_co_lmlm_phase(
         workers_per_job=16,
         inherited_env={},
     )
-    workers = {job.phase: job.env_dict()["SUITE_WORKERS"] for job in jobs}
-    assert workers["sweep"] == "6"
-    assert {workers[phase] for phase in CO_LMLM_PHASES if phase != "sweep"} == {
-        "16"
-    }
+    by_key = {job.key: job for job in jobs}
+    for key in (
+        "co-lmlm.trex.standard",
+        "co-lmlm.trex.adversarial",
+        "co-lmlm.trex.del-off",
+        "co-lmlm.trex.policy.oracle",
+        "co-lmlm.trex.policy.hybrid",
+    ):
+        assert by_key[key].env_dict()["SUITE_WORKERS"] == "16"
+    # Sweep sub-jobs are single processes: parallelism lives in the graph.
+    for key, job in by_key.items():
+        if ".sweep." in key:
+            assert job.env_dict()["SUITE_WORKERS"] == "1"
+
+
+def test_shards_decompose_fact_striped_phases_into_shard_and_finalize_jobs(
+    tmp_path: Path,
+) -> None:
+    repo_root = Path(__file__).resolve().parents[1]
+    jobs = build_jobs(
+        repo_root=repo_root,
+        out_root=tmp_path / "out",
+        co_lmlm_dir=tmp_path / "Co-LMLM",
+        index_dir=tmp_path / "index",
+        datasets=("trex",),
+        models=("co-lmlm",),
+        workers_per_job=16,
+        shards_per_phase=2,
+        inherited_env={},
+    )
+    # standard 3, sweep 8, adversarial 3, del-off 3, policy 5*3.
+    assert len(jobs) == 32
+    by_key = {job.key: job for job in jobs}
+
+    standard_finalize = by_key["co-lmlm.trex.standard.finalize"]
+    shard_keys = {f"co-lmlm.trex.standard.shard{i}" for i in range(2)}
+    assert standard_finalize.dependencies == frozenset(shard_keys)
+    for index in range(2):
+        shard = by_key[f"co-lmlm.trex.standard.shard{index}"]
+        assert shard.dependencies == frozenset()
+        assert ("--shard", f"{index}/2") in zip(shard.command, shard.command[1:])
+        # Shard jobs are single workers on their own GPU; a second fan-out
+        # inside the job would collide with the injected --shard.
+        assert shard.env_dict()["SUITE_WORKERS"] == "1"
+        assert shard.expected_outputs == ()
+    assert standard_finalize.expected_outputs != ()
+
+    # Later phases hang off the standard finalize, not the shards.
+    for key in (
+        "co-lmlm.trex.sweep.prep",
+        "co-lmlm.trex.adversarial.shard0",
+        "co-lmlm.trex.del-off.shard0",
+        "co-lmlm.trex.policy.oracle.shard0",
+    ):
+        assert by_key[key].dependencies == frozenset({standard_finalize.key})
+
+    # Non-oracle policies wait for the oracle finalize (REUSE_FROM chain).
+    oracle_finalize = by_key["co-lmlm.trex.policy.oracle.finalize"]
+    for policy in ("geometric", "value", "provenance", "hybrid"):
+        shard = by_key[f"co-lmlm.trex.policy.{policy}.shard0"]
+        assert shard.dependencies == frozenset({oracle_finalize.key})
+        assert shard.env_dict()["POLICIES"] == policy
+
+    with pytest.raises(ValueError, match="shards"):
+        build_jobs(
+            repo_root=repo_root,
+            out_root=tmp_path / "out",
+            co_lmlm_dir=tmp_path / "Co-LMLM",
+            index_dir=tmp_path / "index",
+            datasets=("trex",),
+            models=("co-lmlm",),
+            shards_per_phase=0,
+            inherited_env={},
+        )
 
 
 def test_del_off_environment_controls_complementary_phase(tmp_path: Path) -> None:
@@ -162,8 +267,12 @@ def test_scheduler_rejects_phase_or_backend_specific_forwarded_flags(
         with pytest.raises(ValueError, match="controlled"):
             build_jobs(**common, audit_args=arguments)
 
+    # Forwarded args reach every job; scheduler-injected flags follow them
+    # (and therefore win once the suite appends "$@" last).
     jobs = build_jobs(**common, audit_args=("--limit", "10"))
-    assert all(job.command[-2:] == ("--limit", "10") for job in jobs)
+    assert all(
+        ("--limit", "10") in zip(job.command, job.command[1:]) for job in jobs
+    )
 
 
 def test_phase_only_run_requires_completed_standard_outputs(tmp_path: Path) -> None:
