@@ -30,6 +30,7 @@ ruvector.db
 
 # Generated audit results
 outputs/
+/out-cross-model/
 
 # Per-fact closure manifests (large, regenerated from the audit results)
 /results/**/prompts_trex_closures/

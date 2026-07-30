@@ -163,6 +163,32 @@ evaluated in separate output directories.
 The suite's `policy` phase runs the same matrix under
 `<output-dir>/policy_matrix/<policy>`.
 
+## Cross-model GPU scheduler
+
+The scheduler runs the complete 35-job comparison across the available GPUs:
+25 Co-LMLM jobs and 10 standard-language-model jobs. For each prompt set, the
+Co-LMLM `standard` job finishes before its dependent jobs begin.
+
+```bash
+SUITE_WORKERS=16 ./scripts/run_cross_model_scheduler.sh --dry-run
+SUITE_WORKERS=16 ./scripts/run_cross_model_scheduler.sh --detach
+```
+
+The defaults are GPUs `0` through `7` and the output directory
+`out-cross-model/`. These can be changed with environment variables:
+
+```bash
+GPUS=0,1,2,3 SUITE_WORKERS=16 OUT_ROOT=/data/halo-out \
+  ./scripts/run_cross_model_scheduler.sh --detach
+```
+
+The run is resumable, so the same command can be used again after a failure.
+Use a fresh `OUT_ROOT` for each experiment. To follow progress:
+
+```bash
+tail -F out-cross-model/_scheduler.log
+```
+
 ## Outputs
 
 The default output directory is `outputs/trex`. Outputs include JSONL results,
