@@ -1,0 +1,53 @@
+Logging run_audit output to /home/ubuntu/HALO/out-cross-model/co-lmlm/counterfact/policy_matrix/geometric/run_audit.log
+Prompt file: /home/ubuntu/HALO/data/prompts_counterfact.jsonl
+Database used: /home/ubuntu/HALO/data/co-lmlm-fineweb-wiki-index
+DB states: FULL, DEL-ON, DEL-OFF
+Running audit for /home/ubuntu/HALO/data/prompts_counterfact.jsonl with database /home/ubuntu/HALO/data/co-lmlm-fineweb-wiki-index
+Wrote closure artifacts to /home/ubuntu/HALO/out-cross-model/co-lmlm/counterfact/policy_matrix/geometric/prompts_counterfact_closures
+Wrote query-embedding sidecar to /home/ubuntu/HALO/out-cross-model/co-lmlm/counterfact/policy_matrix/geometric/prompts_counterfact_query_embeddings.npz
+Probe L_rep: 0.480, behavioral L: 0.226, Δ_rep: 0.254 over 4085 facts
+FULL pass: 0 reused, 0 generated in /home/ubuntu/HALO/out-cross-model/co-lmlm/counterfact/prompts_counterfact_full
+Cross-phase reuse: served 0 generations ({}), generated 0, 0 canary-verified.
+Cross-state audit metrics:
+  Closure policy: geometric
+  DEL-OFF control mode: null-retrieval
+  Pre-answer answer-mention coverage: 4085/21919 facts
+    8635x FULL produced no selected entry ID
+    9179x FULL selected entry did not pass the answer-mention heuristic
+    20x FULL answer was already visible before the answer-mention event
+  Paired count: 4085
+  FULL-correct paired count: 3479
+  Parametric leakage L(f): 0.226
+  Retrieval-mediated correctness R(f): 0.372
+  Retrieval interference I(f): 0.072
+  Retrieval interference | FULL correct: 0.070
+  Retrieval artifact rate: 0.020
+  Artifact-trace eligible count: 4085
+  Post-deletion survival | FULL correct: 0.590
+Metrics by state:
+FULL:
+  Count: 4085
+  Exact match: 0.182
+  Contains match: 0.852
+  Unknown rate: 0.025
+  Precision: 0.393
+  Recall: 0.852
+  F1: 0.492
+DEL-ON:
+  Count: 4085
+  Exact match: 0.122
+  Contains match: 0.526
+  Unknown rate: 0.026
+  Precision: 0.244
+  Recall: 0.526
+  F1: 0.304
+DEL-OFF:
+  Count: 4085
+  Exact match: 0.021
+  Contains match: 0.226
+  Unknown rate: 0.001
+  Precision: 0.051
+  Recall: 0.226
+  F1: 0.071
+Wrote cross-state metrics CSV to /home/ubuntu/HALO/out-cross-model/co-lmlm/counterfact/policy_matrix/geometric/cross_state_metrics.csv
+Wrote per-state metrics CSV to /home/ubuntu/HALO/out-cross-model/co-lmlm/counterfact/policy_matrix/geometric/per_state_metrics.csv

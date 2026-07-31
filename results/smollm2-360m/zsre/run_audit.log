@@ -1,0 +1,45 @@
+Logging run_audit output to /home/ubuntu/HALO/out-cross-model/smollm2-360m/zsre/run_audit.log
+Prompt file: /home/ubuntu/HALO/data/prompts_zsre.jsonl
+Database used: HuggingFaceTB/SmolLM2-360M
+DB states: FULL, DEL-ON, DEL-OFF
+Running audit for /home/ubuntu/HALO/data/prompts_zsre.jsonl with database HuggingFaceTB/SmolLM2-360M
+FULL pass: 0 reused, 19086 generated in /home/ubuntu/HALO/out-cross-model/smollm2-360m/zsre/prompts_zsre_full
+Cross-state audit metrics:
+  Closure policy: oracle
+  Pre-answer answer-mention coverage: 19086/19086 facts
+  Paired count: 19086
+  FULL-correct paired count: 1430
+  Parametric leakage L(f): 0.075
+  Retrieval-mediated correctness R(f): 0.000
+  Retrieval interference I(f): 0.000
+  Retrieval interference | FULL correct: 0.000
+  Retrieval artifact rate: 0.000
+  Artifact-trace eligible count: 0
+  Post-deletion survival | FULL correct: 1.000
+Metrics by state:
+FULL:
+  Count: 19086
+  Exact match: 0.046
+  Contains match: 0.075
+  Unknown rate: 0.248
+  Precision: 0.088
+  Recall: 0.117
+  F1: 0.092
+DEL-ON:
+  Count: 19086
+  Exact match: 0.046
+  Contains match: 0.075
+  Unknown rate: 0.248
+  Precision: 0.088
+  Recall: 0.117
+  F1: 0.092
+DEL-OFF:
+  Count: 19086
+  Exact match: 0.046
+  Contains match: 0.075
+  Unknown rate: 0.248
+  Precision: 0.088
+  Recall: 0.117
+  F1: 0.092
+Wrote cross-state metrics CSV to /home/ubuntu/HALO/out-cross-model/smollm2-360m/zsre/cross_state_metrics.csv
+Wrote per-state metrics CSV to /home/ubuntu/HALO/out-cross-model/smollm2-360m/zsre/per_state_metrics.csv

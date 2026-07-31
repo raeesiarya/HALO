@@ -1,0 +1,45 @@
+Logging run_audit output to /home/ubuntu/HALO/out-cross-model/smollm2-360m/trex/run_audit.log
+Prompt file: /home/ubuntu/HALO/data/prompts_trex.jsonl
+Database used: HuggingFaceTB/SmolLM2-360M
+DB states: FULL, DEL-ON, DEL-OFF
+Running audit for /home/ubuntu/HALO/data/prompts_trex.jsonl with database HuggingFaceTB/SmolLM2-360M
+FULL pass: 0 reused, 27630 generated in /home/ubuntu/HALO/out-cross-model/smollm2-360m/trex/prompts_trex_full
+Cross-state audit metrics:
+  Closure policy: oracle
+  Pre-answer answer-mention coverage: 27630/27630 facts
+  Paired count: 27630
+  FULL-correct paired count: 9857
+  Parametric leakage L(f): 0.357
+  Retrieval-mediated correctness R(f): 0.000
+  Retrieval interference I(f): 0.000
+  Retrieval interference | FULL correct: 0.000
+  Retrieval artifact rate: 0.000
+  Artifact-trace eligible count: 0
+  Post-deletion survival | FULL correct: 1.000
+Metrics by state:
+FULL:
+  Count: 27630
+  Exact match: 0.116
+  Contains match: 0.357
+  Unknown rate: 0.003
+  Precision: 0.172
+  Recall: 0.350
+  F1: 0.201
+DEL-ON:
+  Count: 27630
+  Exact match: 0.116
+  Contains match: 0.357
+  Unknown rate: 0.003
+  Precision: 0.172
+  Recall: 0.350
+  F1: 0.201
+DEL-OFF:
+  Count: 27630
+  Exact match: 0.116
+  Contains match: 0.357
+  Unknown rate: 0.003
+  Precision: 0.172
+  Recall: 0.350
+  F1: 0.201
+Wrote cross-state metrics CSV to /home/ubuntu/HALO/out-cross-model/smollm2-360m/trex/cross_state_metrics.csv
+Wrote per-state metrics CSV to /home/ubuntu/HALO/out-cross-model/smollm2-360m/trex/per_state_metrics.csv

@@ -1,0 +1,279 @@
+[2026-07-31 03:26:55] Starting one-time environment warmup.
+[2026-07-31 03:26:56] Plan 368c2bdbd794: 90 jobs, GPUs 0,1,2,3,4,5,6,7, concurrency 8
+[2026-07-31 03:26:56] [start] co-lmlm.trex.standard on GPU 0 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.standard.log
+[2026-07-31 03:26:56] [start] co-lmlm.counterfact.standard on GPU 1 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.standard.log
+[2026-07-31 03:26:56] [start] co-lmlm.zsre.standard on GPU 2 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.standard.log
+[2026-07-31 03:26:56] [start] co-lmlm.popqa.standard on GPU 3 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.standard.log
+[2026-07-31 03:26:56] [start] co-lmlm.googlere.standard on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.standard.log
+[2026-07-31 03:26:56] [start] smollm2-360m.trex.standard on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/smollm2-360m.trex.standard.log
+[2026-07-31 03:26:56] [start] standard-lm-360m-fw.trex.standard on GPU 6 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/standard-lm-360m-fw.trex.standard.log
+[2026-07-31 03:26:56] [start] smollm2-360m.counterfact.standard on GPU 7 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/smollm2-360m.counterfact.standard.log
+[2026-07-31 03:35:50] [ok] co-lmlm.googlere.standard on GPU 4 (8.9 min)
+[2026-07-31 03:35:50] [start] co-lmlm.googlere.sweep.prep on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.sweep.prep.log
+[2026-07-31 03:36:12] [ok] co-lmlm.googlere.sweep.prep on GPU 4 (0.4 min)
+[2026-07-31 03:36:12] [start] co-lmlm.googlere.policy.oracle on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.policy.oracle.log
+[2026-07-31 03:37:34] [ok] co-lmlm.popqa.standard on GPU 3 (10.6 min)
+[2026-07-31 03:37:34] [start] co-lmlm.popqa.sweep.prep on GPU 3 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.sweep.prep.log
+[2026-07-31 03:38:04] [ok] co-lmlm.googlere.policy.oracle on GPU 4 (1.9 min)
+[2026-07-31 03:38:04] [start] co-lmlm.popqa.policy.oracle on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.policy.oracle.log
+[2026-07-31 03:38:56] [ok] co-lmlm.popqa.sweep.prep on GPU 3 (1.4 min)
+[2026-07-31 03:38:56] [start] standard-lm-360m-fw.counterfact.standard on GPU 3 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/standard-lm-360m-fw.counterfact.standard.log
+[2026-07-31 03:40:36] [ok] co-lmlm.popqa.policy.oracle on GPU 4 (2.5 min)
+[2026-07-31 03:40:36] [start] smollm2-360m.zsre.standard on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/smollm2-360m.zsre.standard.log
+[2026-07-31 04:22:27] [ok] co-lmlm.zsre.standard on GPU 2 (55.5 min)
+[2026-07-31 04:22:27] [start] co-lmlm.zsre.sweep.prep on GPU 2 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.sweep.prep.log
+[2026-07-31 04:23:23] [ok] co-lmlm.zsre.sweep.prep on GPU 2 (0.9 min)
+[2026-07-31 04:23:23] [start] co-lmlm.zsre.policy.oracle on GPU 2 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.policy.oracle.log
+[2026-07-31 04:30:55] [ok] co-lmlm.zsre.policy.oracle on GPU 2 (7.5 min)
+[2026-07-31 04:30:55] [start] co-lmlm.zsre.sweep.radius0 on GPU 2 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.sweep.radius0.log
+[2026-07-31 04:31:11] [ok] co-lmlm.counterfact.standard on GPU 1 (64.2 min)
+[2026-07-31 04:31:11] [start] co-lmlm.counterfact.sweep.prep on GPU 1 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.sweep.prep.log
+[2026-07-31 04:33:09] [ok] co-lmlm.counterfact.sweep.prep on GPU 1 (2.0 min)
+[2026-07-31 04:33:09] [start] co-lmlm.counterfact.policy.oracle on GPU 1 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.policy.oracle.log
+[2026-07-31 04:42:23] [ok] co-lmlm.counterfact.policy.oracle on GPU 1 (9.2 min)
+[2026-07-31 04:42:23] [start] co-lmlm.counterfact.sweep.radius0 on GPU 1 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.sweep.radius0.log
+[2026-07-31 04:58:13] [ok] co-lmlm.trex.standard on GPU 0 (91.3 min)
+[2026-07-31 04:58:13] [start] co-lmlm.trex.sweep.prep on GPU 0 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.sweep.prep.log
+[2026-07-31 05:02:07] [ok] co-lmlm.trex.sweep.prep on GPU 0 (3.9 min)
+[2026-07-31 05:02:07] [start] co-lmlm.trex.policy.oracle on GPU 0 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.policy.oracle.log
+[2026-07-31 05:19:37] [ok] co-lmlm.trex.policy.oracle on GPU 0 (17.5 min)
+[2026-07-31 05:19:37] [start] co-lmlm.trex.sweep.radius0 on GPU 0 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.sweep.radius0.log
+[2026-07-31 05:48:55] [ok] co-lmlm.zsre.sweep.radius0 on GPU 2 (78.0 min)
+[2026-07-31 05:48:55] [start] co-lmlm.trex.sweep.radius1 on GPU 2 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.sweep.radius1.log
+[2026-07-31 07:34:26] [ok] smollm2-360m.zsre.standard on GPU 4 (233.8 min)
+[2026-07-31 07:34:26] [start] co-lmlm.trex.sweep.radius2 on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.sweep.radius2.log
+[2026-07-31 07:48:28] [ok] smollm2-360m.counterfact.standard on GPU 7 (261.5 min)
+[2026-07-31 07:48:28] [start] co-lmlm.trex.sweep.radius3 on GPU 7 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.sweep.radius3.log
+[2026-07-31 08:14:44] [ok] co-lmlm.counterfact.sweep.radius0 on GPU 1 (212.4 min)
+[2026-07-31 08:14:44] [start] co-lmlm.trex.sweep.radius4 on GPU 1 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.sweep.radius4.log
+[2026-07-31 08:36:30] [ok] standard-lm-360m-fw.counterfact.standard on GPU 3 (297.6 min)
+[2026-07-31 08:36:30] [start] co-lmlm.trex.sweep.radius5 on GPU 3 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.sweep.radius5.log
+[2026-07-31 09:35:53] [ok] standard-lm-360m-fw.trex.standard on GPU 6 (368.9 min)
+[2026-07-31 09:35:53] [start] co-lmlm.counterfact.sweep.radius1 on GPU 6 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.sweep.radius1.log
+[2026-07-31 09:39:41] [ok] smollm2-360m.trex.standard on GPU 5 (372.7 min)
+[2026-07-31 09:39:41] [start] co-lmlm.counterfact.sweep.radius2 on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.sweep.radius2.log
+[2026-07-31 11:20:48] [ok] co-lmlm.trex.sweep.radius0 on GPU 0 (361.2 min)
+[2026-07-31 11:20:48] [start] co-lmlm.counterfact.sweep.radius3 on GPU 0 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.sweep.radius3.log
+[2026-07-31 11:58:56] [ok] co-lmlm.trex.sweep.radius1 on GPU 2 (370.0 min)
+[2026-07-31 11:58:56] [start] co-lmlm.counterfact.sweep.radius4 on GPU 2 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.sweep.radius4.log
+[2026-07-31 13:02:32] [ok] co-lmlm.counterfact.sweep.radius1 on GPU 6 (206.7 min)
+[2026-07-31 13:02:32] [start] co-lmlm.counterfact.sweep.radius5 on GPU 6 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.sweep.radius5.log
+[2026-07-31 13:05:26] [ok] co-lmlm.counterfact.sweep.radius2 on GPU 5 (205.8 min)
+[2026-07-31 13:05:26] [start] co-lmlm.trex.adversarial on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.adversarial.log
+[2026-07-31 13:32:08] [ok] co-lmlm.trex.sweep.radius3 on GPU 7 (343.7 min)
+[2026-07-31 13:32:08] [start] co-lmlm.zsre.sweep.radius1 on GPU 7 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.sweep.radius1.log
+[2026-07-31 13:54:08] [ok] co-lmlm.trex.sweep.radius2 on GPU 4 (379.7 min)
+[2026-07-31 13:54:08] [start] co-lmlm.zsre.sweep.radius2 on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.sweep.radius2.log
+[2026-07-31 14:19:27] [ok] co-lmlm.trex.sweep.radius4 on GPU 1 (364.7 min)
+[2026-07-31 14:19:27] [start] co-lmlm.zsre.sweep.radius3 on GPU 1 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.sweep.radius3.log
+[2026-07-31 14:49:15] [ok] co-lmlm.zsre.sweep.radius1 on GPU 7 (77.1 min)
+[2026-07-31 14:49:15] [start] co-lmlm.zsre.sweep.radius4 on GPU 7 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.sweep.radius4.log
+[2026-07-31 15:00:17] [ok] co-lmlm.trex.sweep.radius5 on GPU 3 (383.8 min)
+[2026-07-31 15:00:17] [start] co-lmlm.trex.sweep.finalize on GPU 3 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.sweep.finalize.log
+[2026-07-31 15:00:23] [ok] co-lmlm.counterfact.sweep.radius3 on GPU 0 (219.6 min)
+[2026-07-31 15:00:23] [start] co-lmlm.zsre.sweep.radius5 on GPU 0 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.sweep.radius5.log
+[2026-07-31 15:04:31] [ok] co-lmlm.trex.adversarial on GPU 5 (119.1 min)
+[2026-07-31 15:04:31] [start] co-lmlm.trex.policy.geometric on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.policy.geometric.log
+[2026-07-31 15:05:57] [ok] co-lmlm.trex.sweep.finalize on GPU 3 (5.7 min)
+[2026-07-31 15:05:57] [start] co-lmlm.trex.policy.hybrid on GPU 3 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.policy.hybrid.log
+[2026-07-31 15:10:57] [ok] co-lmlm.trex.policy.geometric on GPU 5 (6.4 min)
+[2026-07-31 15:10:57] [start] co-lmlm.trex.policy.provenance on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.policy.provenance.log
+[2026-07-31 15:21:55] [ok] co-lmlm.zsre.sweep.radius2 on GPU 4 (87.8 min)
+[2026-07-31 15:21:55] [start] co-lmlm.trex.policy.value on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.policy.value.log
+[2026-07-31 15:23:53] [ok] co-lmlm.trex.policy.hybrid on GPU 3 (17.9 min)
+[2026-07-31 15:23:53] [start] co-lmlm.counterfact.adversarial on GPU 3 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.adversarial.log
+[2026-07-31 15:26:23] [ok] co-lmlm.trex.policy.value on GPU 4 (4.5 min)
+[2026-07-31 15:26:23] [start] co-lmlm.counterfact.policy.geometric on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.policy.geometric.log
+[2026-07-31 15:29:05] [ok] co-lmlm.trex.policy.provenance on GPU 5 (18.1 min)
+[2026-07-31 15:29:05] [start] co-lmlm.counterfact.policy.hybrid on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.policy.hybrid.log
+[2026-07-31 15:30:11] [ok] co-lmlm.counterfact.policy.geometric on GPU 4 (3.8 min)
+[2026-07-31 15:30:11] [start] co-lmlm.counterfact.policy.provenance on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.policy.provenance.log
+[2026-07-31 15:38:27] [ok] co-lmlm.counterfact.policy.hybrid on GPU 5 (9.4 min)
+[2026-07-31 15:38:27] [start] co-lmlm.counterfact.policy.value on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.policy.value.log
+[2026-07-31 15:39:47] [ok] co-lmlm.counterfact.policy.provenance on GPU 4 (9.6 min)
+[2026-07-31 15:39:47] [start] co-lmlm.zsre.adversarial on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.adversarial.log
+[2026-07-31 15:41:27] [ok] co-lmlm.counterfact.policy.value on GPU 5 (3.0 min)
+[2026-07-31 15:41:27] [start] co-lmlm.zsre.policy.geometric on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.policy.geometric.log
+[2026-07-31 15:43:45] [ok] co-lmlm.zsre.policy.geometric on GPU 5 (2.3 min)
+[2026-07-31 15:43:45] [start] co-lmlm.zsre.policy.hybrid on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.policy.hybrid.log
+[2026-07-31 15:45:01] [ok] co-lmlm.zsre.sweep.radius3 on GPU 1 (85.6 min)
+[2026-07-31 15:45:01] [start] co-lmlm.zsre.policy.provenance on GPU 1 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.policy.provenance.log
+[2026-07-31 15:48:05] [ok] co-lmlm.counterfact.sweep.radius4 on GPU 2 (229.2 min)
+[2026-07-31 15:48:05] [start] co-lmlm.zsre.policy.value on GPU 2 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.policy.value.log
+[2026-07-31 15:50:07] [ok] co-lmlm.zsre.policy.value on GPU 2 (2.0 min)
+[2026-07-31 15:50:07] [start] co-lmlm.trex.del-off on GPU 2 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.trex.del-off.log
+[2026-07-31 15:51:43] [ok] co-lmlm.zsre.policy.hybrid on GPU 5 (8.0 min)
+[2026-07-31 15:51:43] [start] co-lmlm.counterfact.del-off on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.del-off.log
+[2026-07-31 15:52:55] [ok] co-lmlm.zsre.policy.provenance on GPU 1 (7.9 min)
+[2026-07-31 15:52:55] [start] co-lmlm.zsre.del-off on GPU 1 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.del-off.log
+[2026-07-31 16:02:19] [ok] co-lmlm.zsre.del-off on GPU 1 (9.4 min)
+[2026-07-31 16:02:19] [start] standard-lm-360m-fw.zsre.standard on GPU 1 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/standard-lm-360m-fw.zsre.standard.log
+[2026-07-31 16:02:25] [ok] co-lmlm.counterfact.del-off on GPU 5 (10.7 min)
+[2026-07-31 16:02:25] [start] co-lmlm.popqa.sweep.radius0 on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.sweep.radius0.log
+[2026-07-31 16:10:17] [ok] co-lmlm.trex.del-off on GPU 2 (20.2 min)
+[2026-07-31 16:10:17] [start] co-lmlm.popqa.sweep.radius1 on GPU 2 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.sweep.radius1.log
+[2026-07-31 16:12:23] [ok] co-lmlm.zsre.adversarial on GPU 4 (32.6 min)
+[2026-07-31 16:12:23] [start] co-lmlm.popqa.sweep.radius2 on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.sweep.radius2.log
+[2026-07-31 16:23:30] [ok] co-lmlm.counterfact.adversarial on GPU 3 (59.6 min)
+[2026-07-31 16:23:30] [start] co-lmlm.popqa.sweep.radius3 on GPU 3 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.sweep.radius3.log
+[2026-07-31 16:28:56] [ok] co-lmlm.zsre.sweep.radius4 on GPU 7 (99.7 min)
+[2026-07-31 16:28:56] [start] co-lmlm.popqa.sweep.radius4 on GPU 7 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.sweep.radius4.log
+[2026-07-31 16:54:58] [ok] co-lmlm.zsre.sweep.radius5 on GPU 0 (114.6 min)
+[2026-07-31 16:54:58] [start] co-lmlm.zsre.sweep.finalize on GPU 0 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.zsre.sweep.finalize.log
+[2026-07-31 16:56:10] [ok] co-lmlm.zsre.sweep.finalize on GPU 0 (1.2 min)
+[2026-07-31 16:56:10] [start] co-lmlm.popqa.sweep.radius5 on GPU 0 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.sweep.radius5.log
+[2026-07-31 16:57:22] [ok] co-lmlm.popqa.sweep.radius0 on GPU 5 (54.9 min)
+[2026-07-31 16:57:22] [start] co-lmlm.googlere.sweep.radius0 on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.sweep.radius0.log
+[2026-07-31 17:06:36] [ok] co-lmlm.popqa.sweep.radius1 on GPU 2 (56.3 min)
+[2026-07-31 17:06:36] [start] co-lmlm.googlere.sweep.radius1 on GPU 2 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.sweep.radius1.log
+[2026-07-31 17:10:56] [ok] co-lmlm.popqa.sweep.radius2 on GPU 4 (58.5 min)
+[2026-07-31 17:10:56] [start] co-lmlm.googlere.sweep.radius2 on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.sweep.radius2.log
+[2026-07-31 17:12:44] [ok] co-lmlm.googlere.sweep.radius0 on GPU 5 (15.4 min)
+[2026-07-31 17:12:44] [start] co-lmlm.googlere.sweep.radius3 on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.sweep.radius3.log
+[2026-07-31 17:13:06] [FAIL] co-lmlm.googlere.sweep.radius2 on GPU 4, exit 2; see /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.sweep.radius2.log
+[2026-07-31 17:13:06] [BLOCKED] co-lmlm.googlere.sweep.finalize; failed dependency: co-lmlm.googlere.sweep.radius2
+[2026-07-31 17:13:06] [start] co-lmlm.googlere.sweep.radius4 on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.sweep.radius4.log
+[2026-07-31 17:13:16] [ok] co-lmlm.counterfact.sweep.radius5 on GPU 6 (250.7 min)
+[2026-07-31 17:13:16] [start] co-lmlm.counterfact.sweep.finalize on GPU 6 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.counterfact.sweep.finalize.log
+[2026-07-31 17:17:12] [ok] co-lmlm.counterfact.sweep.finalize on GPU 6 (3.9 min)
+[2026-07-31 17:17:12] [start] co-lmlm.googlere.sweep.radius5 on GPU 6 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.sweep.radius5.log
+[2026-07-31 17:21:48] [ok] co-lmlm.googlere.sweep.radius1 on GPU 2 (15.2 min)
+[2026-07-31 17:21:48] [start] co-lmlm.popqa.adversarial on GPU 2 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.adversarial.log
+[2026-07-31 17:23:06] [ok] co-lmlm.popqa.sweep.radius3 on GPU 3 (59.6 min)
+[2026-07-31 17:23:06] [start] co-lmlm.googlere.adversarial on GPU 3 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.adversarial.log
+[2026-07-31 17:28:54] [ok] co-lmlm.googlere.sweep.radius4 on GPU 4 (15.8 min)
+[2026-07-31 17:28:54] [start] co-lmlm.popqa.policy.geometric on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.policy.geometric.log
+[2026-07-31 17:29:46] [ok] co-lmlm.googlere.sweep.radius3 on GPU 5 (17.0 min)
+[2026-07-31 17:29:46] [start] co-lmlm.popqa.policy.hybrid on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.policy.hybrid.log
+[2026-07-31 17:30:52] [ok] co-lmlm.popqa.policy.geometric on GPU 4 (2.0 min)
+[2026-07-31 17:30:52] [start] co-lmlm.popqa.policy.provenance on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.policy.provenance.log
+[2026-07-31 17:30:54] [ok] co-lmlm.popqa.sweep.radius4 on GPU 7 (62.0 min)
+[2026-07-31 17:30:54] [start] co-lmlm.popqa.policy.value on GPU 7 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.policy.value.log
+[2026-07-31 17:31:38] [ok] co-lmlm.googlere.adversarial on GPU 3 (8.5 min)
+[2026-07-31 17:31:38] [start] co-lmlm.googlere.policy.geometric on GPU 3 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.policy.geometric.log
+[2026-07-31 17:32:26] [ok] co-lmlm.popqa.policy.hybrid on GPU 5 (2.7 min)
+[2026-07-31 17:32:26] [ok] co-lmlm.googlere.policy.geometric on GPU 3 (0.8 min)
+[2026-07-31 17:32:26] [start] co-lmlm.googlere.policy.hybrid on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.policy.hybrid.log
+[2026-07-31 17:32:26] [start] co-lmlm.googlere.policy.provenance on GPU 3 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.policy.provenance.log
+[2026-07-31 17:32:58] [ok] co-lmlm.popqa.policy.value on GPU 7 (2.1 min)
+[2026-07-31 17:32:58] [start] co-lmlm.googlere.policy.value on GPU 7 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.policy.value.log
+[2026-07-31 17:33:40] [ok] co-lmlm.popqa.policy.provenance on GPU 4 (2.8 min)
+[2026-07-31 17:33:40] [start] co-lmlm.popqa.del-off on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.del-off.log
+[2026-07-31 17:33:44] [ok] co-lmlm.googlere.policy.value on GPU 7 (0.8 min)
+[2026-07-31 17:33:44] [start] smollm2-360m.popqa.standard on GPU 7 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/smollm2-360m.popqa.standard.log
+[2026-07-31 17:34:22] [ok] co-lmlm.googlere.policy.provenance on GPU 3 (1.9 min)
+[2026-07-31 17:34:22] [start] standard-lm-360m-fw.popqa.standard on GPU 3 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/standard-lm-360m-fw.popqa.standard.log
+[2026-07-31 17:34:30] [ok] co-lmlm.googlere.policy.hybrid on GPU 5 (2.1 min)
+[2026-07-31 17:34:30] [start] co-lmlm.googlere.del-off on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.del-off.log
+[2026-07-31 17:35:56] [ok] co-lmlm.googlere.sweep.radius5 on GPU 6 (18.7 min)
+[2026-07-31 17:35:56] [start] smollm2-360m.googlere.standard on GPU 6 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/smollm2-360m.googlere.standard.log
+[2026-07-31 17:36:30] [ok] co-lmlm.googlere.del-off on GPU 5 (2.0 min)
+[2026-07-31 17:36:30] [start] standard-lm-360m-fw.googlere.standard on GPU 5 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/standard-lm-360m-fw.googlere.standard.log
+[2026-07-31 17:36:38] [ok] co-lmlm.popqa.del-off on GPU 4 (3.0 min)
+[2026-07-31 17:38:18] [ok] co-lmlm.popqa.adversarial on GPU 2 (16.5 min)
+[2026-07-31 18:02:14] [ok] co-lmlm.popqa.sweep.radius5 on GPU 0 (66.1 min)
+[2026-07-31 18:02:14] [start] co-lmlm.popqa.sweep.finalize on GPU 4 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.popqa.sweep.finalize.log
+[2026-07-31 18:05:24] [ok] co-lmlm.popqa.sweep.finalize on GPU 4 (3.2 min)
+[2026-07-31 18:07:40] [ok] smollm2-360m.googlere.standard on GPU 6 (31.7 min)
+[2026-07-31 18:08:04] [ok] standard-lm-360m-fw.googlere.standard on GPU 5 (31.6 min)
+[2026-07-31 18:08:58] [ok] standard-lm-360m-fw.popqa.standard on GPU 3 (34.6 min)
+[2026-07-31 18:11:56] [ok] smollm2-360m.popqa.standard on GPU 7 (38.2 min)
+[2026-07-31 19:53:07] [ok] standard-lm-360m-fw.zsre.standard on GPU 1 (230.8 min)
+[2026-07-31 19:53:07] === Cross-model scheduler summary ===
+[2026-07-31 19:53:07] 88 succeeded, 1 failed, 1 blocked
+[2026-07-31 22:56:58] Starting one-time environment warmup.
+[2026-07-31 22:56:59] Plan 368c2bdbd794: 90 jobs, GPUs 0,1,2,3,4,5,6,7, concurrency 8
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.standard already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.sweep.prep already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.sweep.radius0 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.sweep.radius1 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.sweep.radius2 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.sweep.radius3 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.sweep.radius4 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.sweep.radius5 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.sweep.finalize already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.adversarial already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.del-off already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.policy.oracle already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.policy.geometric already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.policy.value already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.policy.provenance already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.trex.policy.hybrid already completed
+[2026-07-31 22:56:59] [skip] standard-lm-360m-fw.trex.standard already completed
+[2026-07-31 22:56:59] [skip] smollm2-360m.trex.standard already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.standard already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.sweep.prep already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.sweep.radius0 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.sweep.radius1 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.sweep.radius2 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.sweep.radius3 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.sweep.radius4 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.sweep.radius5 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.sweep.finalize already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.adversarial already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.del-off already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.policy.oracle already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.policy.geometric already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.policy.value already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.policy.provenance already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.popqa.policy.hybrid already completed
+[2026-07-31 22:56:59] [skip] standard-lm-360m-fw.popqa.standard already completed
+[2026-07-31 22:56:59] [skip] smollm2-360m.popqa.standard already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.googlere.standard already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.googlere.sweep.prep already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.googlere.sweep.radius0 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.googlere.sweep.radius1 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.googlere.sweep.radius3 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.googlere.sweep.radius4 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.googlere.sweep.radius5 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.googlere.adversarial already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.googlere.del-off already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.googlere.policy.oracle already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.googlere.policy.geometric already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.googlere.policy.value already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.googlere.policy.provenance already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.googlere.policy.hybrid already completed
+[2026-07-31 22:56:59] [skip] standard-lm-360m-fw.googlere.standard already completed
+[2026-07-31 22:56:59] [skip] smollm2-360m.googlere.standard already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.standard already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.sweep.prep already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.sweep.radius0 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.sweep.radius1 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.sweep.radius2 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.sweep.radius3 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.sweep.radius4 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.sweep.radius5 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.sweep.finalize already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.adversarial already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.del-off already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.policy.oracle already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.policy.geometric already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.policy.value already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.policy.provenance already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.counterfact.policy.hybrid already completed
+[2026-07-31 22:56:59] [skip] standard-lm-360m-fw.counterfact.standard already completed
+[2026-07-31 22:56:59] [skip] smollm2-360m.counterfact.standard already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.standard already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.sweep.prep already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.sweep.radius0 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.sweep.radius1 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.sweep.radius2 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.sweep.radius3 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.sweep.radius4 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.sweep.radius5 already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.sweep.finalize already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.adversarial already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.del-off already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.policy.oracle already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.policy.geometric already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.policy.value already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.policy.provenance already completed
+[2026-07-31 22:56:59] [skip] co-lmlm.zsre.policy.hybrid already completed
+[2026-07-31 22:56:59] [skip] standard-lm-360m-fw.zsre.standard already completed
+[2026-07-31 22:56:59] [skip] smollm2-360m.zsre.standard already completed
+[2026-07-31 22:56:59] [start] co-lmlm.googlere.sweep.radius2 on GPU 0 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.sweep.radius2.log
+[2026-07-31 23:12:27] [ok] co-lmlm.googlere.sweep.radius2 on GPU 0 (15.5 min)
+[2026-07-31 23:12:27] [start] co-lmlm.googlere.sweep.finalize on GPU 1 -> /home/ubuntu/HALO/out-cross-model/_scheduler_jobs/co-lmlm.googlere.sweep.finalize.log
+[2026-07-31 23:12:49] [ok] co-lmlm.googlere.sweep.finalize on GPU 1 (0.4 min)
+[2026-07-31 23:12:49] === Cross-model scheduler summary ===
+[2026-07-31 23:12:49] 90 succeeded, 0 failed, 0 blocked
