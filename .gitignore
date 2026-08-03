@@ -69,5 +69,5 @@ coverage.xml
 /reports/*.synctex.gz
 
 # Data
-*.jsonl
+#*.jsonl
 *.json
