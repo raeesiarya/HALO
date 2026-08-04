@@ -17,6 +17,7 @@
 #   scripts/pull_results_rsync.sh                # pull all sets under out/
 #   scripts/pull_results_rsync.sh --dry-run      # extra flags go to rsync
 #   PULL_REMOTE_DIR=HALO/out/counterfact scripts/pull_results_rsync.sh  # one set
+#   PULL_ANALYSIS_ONLY=1 scripts/pull_results_rsync.sh  # metrics + probe sidecars
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -42,19 +43,44 @@ fi
 
 mkdir -p "$PULL_LOCAL_DIR"
 
-# Skip the giant raw provenance dumps (per-fact retrieval traces) by default;
-# the analysis-ready metrics live in small CSV/PNG files. Set PULL_MAX_SIZE
-# to another rsync size (e.g. 500m) or empty (PULL_MAX_SIZE=) to pull all.
-PULL_MAX_SIZE="${PULL_MAX_SIZE-100m}"
+# Skip the giant raw provenance dumps (per-fact retrieval traces) by default.
+# Query-embedding sidecars can exceed that cap, so analysis-only mode selects
+# just metrics/probe artifacts and removes the default size cap. An explicitly
+# supplied PULL_MAX_SIZE still wins.
+PULL_ANALYSIS_ONLY="${PULL_ANALYSIS_ONLY:-0}"
+if [ "$PULL_ANALYSIS_ONLY" = "1" ] && [ -z "${PULL_MAX_SIZE+x}" ]; then
+    PULL_MAX_SIZE=""
+else
+    PULL_MAX_SIZE="${PULL_MAX_SIZE-100m}"
+fi
 SIZE_OPTS=()
 if [ -n "$PULL_MAX_SIZE" ]; then
     SIZE_OPTS=(--max-size "$PULL_MAX_SIZE")
     echo "Skipping files larger than $PULL_MAX_SIZE (set PULL_MAX_SIZE= to pull everything)"
 fi
 
+FILTER_OPTS=()
+if [ "$PULL_ANALYSIS_ONLY" = "1" ]; then
+    FILTER_OPTS=(
+        --include '*/'
+        # Only the main Co-LMLM sidecar per dataset is needed to rerun probe
+        # controls; policy/del-off copies contain the same FULL vectors and
+        # would multiply transfer size.
+        --include '/co-lmlm/*/*_query_embeddings.npz'
+        --include '*probe*.csv'
+        --include '*metrics.csv'
+        --include '*config.json'
+        --exclude '*'
+    )
+    echo "Analysis-only mode: pulling metrics, configs, and query embeddings"
+fi
+
 # Trailing slashes: copy the *contents* of the remote dir into the local dir.
 echo "Pulling $PULL_HOST:$PULL_REMOTE_DIR/ -> $PULL_LOCAL_DIR/"
-rsync -avz --partial --progress ${SIZE_OPTS[@]+"${SIZE_OPTS[@]}"} -e "$SSH_CMD" "$@" \
+rsync -avz --partial --progress \
+    ${SIZE_OPTS[@]+"${SIZE_OPTS[@]}"} \
+    ${FILTER_OPTS[@]+"${FILTER_OPTS[@]}"} \
+    -e "$SSH_CMD" "$@" \
     "$PULL_HOST:${PULL_REMOTE_DIR%/}/" \
     "${PULL_LOCAL_DIR%/}/"
 

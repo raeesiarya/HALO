@@ -12,6 +12,7 @@ from halo.core.probe import (
     ProbeConfig,
     ProbeSample,
     answer_features,
+    assign_group_folds,
     compute_delta_rep,
     load_labels_and_behavioral,
     load_probe_samples,
@@ -145,6 +146,50 @@ def test_samples_of_one_fact_share_a_fold() -> None:
         # Both samples were scored out-of-fold together: their agreement
         # makes l_rep integral.
         assert row["l_rep"] in (0.0, 1.0)
+
+
+def test_canonical_groups_never_cross_probe_folds() -> None:
+    facts = ["f1-question", "f1-rephrase", "f2", "f3"]
+    groups = {
+        "f1-question": "subject/relation/answer-1",
+        "f1-rephrase": "subject/relation/answer-1",
+        "f2": "subject/relation/answer-2",
+        "f3": "subject/relation/answer-3",
+    }
+    fold_of, group_of, folds = assign_group_folds(
+        facts,
+        requested_folds=3,
+        seed=0,
+        fold_groups=groups,
+    )
+    assert folds == 3
+    assert group_of["f1-question"] == group_of["f1-rephrase"]
+    assert fold_of["f1-question"] == fold_of["f1-rephrase"]
+
+
+def test_run_probe_reports_grouped_split() -> None:
+    rng = np.random.default_rng(0)
+    labels = {}
+    samples = []
+    groups = {}
+    for i in range(6):
+        fact = f"fact{i}"
+        labels[fact] = {
+            "ground_truth": "Paris" if i < 3 else "Warsaw",
+            "aliases": (),
+        }
+        samples.append(_clustered_sample(fact, 0 if i < 3 else 1, rng))
+        groups[fact] = "paris-fact" if i < 3 else f"warsaw-fact-{i}"
+    report = run_probe(
+        samples,
+        labels,
+        ProbeConfig(mode="classification", folds=3),
+        fold_groups=groups,
+    )
+    assert report.summary["fold_groups"] == 4
+    assert report.summary["largest_fold_group"] == 3
+    paris = [row for row in report.per_fact if row["answer"] == "Paris"]
+    assert len({row["fold"] for row in paris}) == 1
 
 
 def test_probe_config_validation() -> None:

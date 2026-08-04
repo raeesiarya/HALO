@@ -114,6 +114,13 @@ def load_labels_and_behavioral(
                     label = {
                         "ground_truth": str(row.get("ground_truth", "")),
                         "aliases": tuple(row.get("object_aliases") or ()),
+                        # These fields are not needed by the linear readout,
+                        # but follow-up analyses use them to keep repeated
+                        # surface records for one proposition in the same
+                        # cross-validation fold.
+                        "subject": str(row.get("subject") or ""),
+                        "relation": str(row.get("relation") or ""),
+                        "prompt": str(row.get("prompt") or ""),
                     }
                     existing = labels.get(key)
                     if existing is None:
@@ -166,10 +173,49 @@ def _alias_norms(label: Mapping[str, Any]) -> set[str]:
     }
 
 
+def assign_group_folds(
+    facts: Iterable[str],
+    *,
+    requested_folds: int,
+    seed: int,
+    fold_groups: Mapping[str, str] | None = None,
+) -> tuple[dict[str, int], dict[str, str], int]:
+    """Assign facts to deterministic group-disjoint folds.
+
+    ``fold_groups`` maps each fact to a canonical group such as a normalized
+    subject-relation-answer proposition.  Facts absent from the mapping fall
+    back to their own ID.  With no mapping this exactly preserves the legacy
+    fact-ID split, including its seeded ordering.
+    """
+    fact_list = sorted(set(facts))
+    group_of = {
+        fact: str((fold_groups or {}).get(fact, fact)) for fact in fact_list
+    }
+    groups = sorted(set(group_of.values()))
+    if len(groups) < 2:
+        raise ValueError(
+            "The probe needs at least two cross-validation groups; "
+            f"got {len(groups)}."
+        )
+    folds = min(requested_folds, len(groups))
+    rng = np.random.default_rng(seed)
+    rng.shuffle(groups)
+    group_fold = {
+        group: position % folds for position, group in enumerate(groups)
+    }
+    return (
+        {fact: group_fold[group_of[fact]] for fact in fact_list},
+        group_of,
+        folds,
+    )
+
+
 def run_probe(
     samples: list[ProbeSample],
     labels: Mapping[str, Mapping[str, Any]],
     config: ProbeConfig,
+    *,
+    fold_groups: Mapping[str, str] | None = None,
 ) -> ProbeReport:
     usable = [sample for sample in samples if sample.fact in labels]
     dropped_no_label = len(samples) - len(usable)
@@ -180,11 +226,16 @@ def run_probe(
             f"got {len(facts)}."
         )
 
-    folds = min(config.folds, len(facts))
-    rng = np.random.default_rng(config.seed)
-    order = list(facts)
-    rng.shuffle(order)
-    fold_of = {fact: position % folds for position, fact in enumerate(order)}
+    fold_of, group_of, folds = assign_group_folds(
+        facts,
+        requested_folds=config.folds,
+        seed=config.seed,
+        fold_groups=fold_groups,
+    )
+    group_sizes: dict[str, int] = {}
+    for fact in facts:
+        group = group_of[fact]
+        group_sizes[group] = group_sizes.get(group, 0) + 1
 
     features = np.stack([sample.vector for sample in usable])
 
@@ -269,6 +320,8 @@ def run_probe(
                 "fact": fact,
                 "answer": label["ground_truth"],
                 "fold": fold,
+                "fold_group": group_of[fact],
+                "fold_group_size": group_sizes[group_of[fact]],
                 "samples": len(sample_idx),
                 "samples_scored": len(scored),
                 "l_rep": (sum(correct) / len(correct)) if correct else None,
@@ -289,6 +342,8 @@ def run_probe(
         "ridge_lambda": config.ridge_lambda,
         "feature_dim": config.feature_dim,
         "facts": len(facts),
+        "fold_groups": len(group_sizes),
+        "largest_fold_group": max(group_sizes.values()),
         "samples": len(usable),
         "samples_dropped_no_label": dropped_no_label,
         "candidates": len(candidates),
@@ -339,6 +394,7 @@ def probe_audit_outputs(
     config: ProbeConfig | None = None,
     state: str = "FULL",
     stem: str = "",
+    fold_groups: Mapping[str, str] | None = None,
 ) -> dict[str, Any] | None:
     """Fit the representational-leakage probe on a finished audit's results +
     query-embedding sidecar and write the probe CSVs.
@@ -354,7 +410,7 @@ def probe_audit_outputs(
     if len(labeled_facts) < max(MIN_PROBE_FACTS, config.folds):
         return None
 
-    report = run_probe(samples, labels, config)
+    report = run_probe(samples, labels, config, fold_groups=fold_groups)
     delta = compute_delta_rep(report.per_fact, behavioral)
 
     output_dir.mkdir(parents=True, exist_ok=True)
