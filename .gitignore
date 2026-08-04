@@ -31,6 +31,7 @@ ruvector.db
 # Generated audit results
 outputs/
 /out-cross-model/
+results/
 
 # Per-fact closure manifests (large, regenerated from the audit results)
 /results/**/prompts_trex_closures/
@@ -68,5 +69,5 @@ coverage.xml
 /reports/*.synctex.gz
 
 # Data
-*.jsonl
+#*.jsonl
 *.json
