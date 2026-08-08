@@ -22,9 +22,18 @@ Stages (each writes JSON/JSONL artifacts under results/status_update_2/):
   probe-controls  Prompt-only control probes through HALO's own run_probe
                   (identical ridge/CV/scoring protocol): hashed char-trigram
                   features of the prompt, and the mean of the prompt's input
-                  word embeddings (SmolLM2-360M embedding table; the
+                  token embeddings (SmolLM2-360M embedding table; the
                   Standard-LM tokenizer config does not load under the pinned
                   transformers version). Produces probe_controls.json.
+  probe-grouped   Reruns the query-embedding probe AND both prompt-only
+                  controls with folds grouped by canonicalized proposition
+                  (normalized subject, relation, answer) instead of fact ID.
+                  ZsRE and PopQA contain paraphrase prompts of the same
+                  proposition; under fact-ID folds those straddle the
+                  train/test split and inflate probe and controls alike
+                  (ZsRE query probe 40.6% -> 7.4%). The report's probe
+                  numbers and figure use this stage's output. Produces
+                  probe_grouped.json.
   paraphrase      Value-policy (oracle answer filter) survivor audit on
                   T-REx: classifies DEL-ON survivors and dumps the
                   retrieval-mediated ones (correct only with retrieval on,
@@ -34,7 +43,8 @@ Stages (each writes JSON/JSONL artifacts under results/status_update_2/):
                   classification of those rows; see MANUAL_SPLIT below.
   frequency       Answer density: per audited fact, the number of entries in
                   its top-500 retrieval envelope caught by the value
-                  predicate, read from closures_raw_local. Quartile-binned
+                  predicate, read from the closure tarballs under
+                  results/co-lmlm. Quartile-binned
                   unaided answerability and Spearman rho for all three
                   models on identical facts. Produces frequency.json.
   figures         All five report figures (baselines, frequency,
@@ -50,8 +60,8 @@ Run from the repo root:
       --figdir /path/to/paper/figures
 
 Stage order matters on a fresh checkout: extract must run before policies /
-probe-controls / paraphrase / frequency, and figures needs extract,
-probe-controls, and frequency.
+probe-controls / probe-grouped / paraphrase / frequency, and figures needs
+extract, probe-grouped, and frequency.
 """
 from __future__ import annotations
 
@@ -61,6 +71,7 @@ import glob
 import hashlib
 import json
 import os
+import tarfile
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -70,7 +81,7 @@ from halo.core.metrics import _result_is_correct
 
 ROOT = Path(__file__).resolve().parents[1]
 RESULTS = ROOT / "results"
-CLOSURES = ROOT / "closures_raw_local" / "results" / "co-lmlm"
+CLOSURES = RESULTS / "co-lmlm"
 OUT = RESULTS / "status_update_2"
 
 DATASETS = ["trex", "popqa", "googlere", "counterfact", "zsre"]
@@ -382,6 +393,101 @@ def stage_probe_controls() -> None:
         json.dump(out, f, indent=1)
 
 
+# --------------------------------------------- stage: probe-grouped
+def load_proposition_groups(ds: str):
+    """fact -> canonical proposition key (norm subject, relation, answer),
+    plus prompt text, from the FULL rows of the dataset's results.jsonl."""
+    path = one(f"{RESULTS}/co-lmlm/{ds}/prompts*_results.jsonl")
+    group_of, prompts, labels = {}, {}, {}
+    with open(path) as f:
+        for line in f:
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            if row.get("state") != "FULL":
+                continue
+            k = fact_key(row)
+            if not k or k in group_of:
+                continue
+            group_of[k] = "|".join((
+                normalize_text(str(row.get("subject", ""))),
+                normalize_text(str(row.get("relation") or "")),
+                normalize_text(str(row.get("ground_truth", ""))),
+            ))
+            prompts[k] = str(row.get("prompt", ""))
+            labels[k] = {
+                "ground_truth": str(row.get("ground_truth", "")),
+                "aliases": tuple(row.get("object_aliases") or ()),
+            }
+    return group_of, prompts, labels
+
+
+def stage_probe_grouped() -> None:
+    import numpy as np
+    from halo.core.probe import (ProbeConfig, ProbeSample, load_probe_samples,
+                                 run_probe)
+    tok, table = load_embed_table()
+
+    def mean_embed(text):
+        ids = tok(text, add_special_tokens=False)["input_ids"]
+        if not ids:
+            return None
+        v = table[ids].mean(axis=0)
+        n = float(np.linalg.norm(v))
+        return v / n if n > 0 else None
+
+    def phi(pf, behavioral):
+        n = {(1, 1): 0, (1, 0): 0, (0, 1): 0, (0, 0): 0}
+        for r in pf:
+            if r["l_rep"] is None or r["fact"] not in behavioral:
+                continue
+            n[(int(r["l_rep"] > 0), int(behavioral[r["fact"]] > 0))] += 1
+        den = ((n[1, 1] + n[1, 0]) * (n[0, 1] + n[0, 0])
+               * (n[1, 1] + n[0, 1]) * (n[1, 0] + n[0, 0])) ** 0.5
+        return ((n[1, 1] * n[0, 0] - n[1, 0] * n[0, 1]) / den) if den else None
+
+    out = {}
+    for ds in DATASETS:
+        group_of, prompts, labels = load_proposition_groups(ds)
+        behavioral = {r["fact"]: (1.0 if r["del_off_correct"] else 0.0)
+                      for r in (json.loads(l)
+                                for l in open(OUT / f"cohort_{ds}.jsonl"))}
+        npz = Path(one(f"{RESULTS}/co-lmlm/{ds}/prompts*query_embeddings.npz"))
+        qsamples = [s for s in load_probe_samples([npz], state="FULL")
+                    if s.fact in labels]
+        rep = run_probe(qsamples, labels, ProbeConfig(), fold_key=group_of)
+        counts = Counter(normalize_text(labels[s.fact]["ground_truth"])
+                         for s in qsamples)
+        res = {
+            "facts": rep.summary["facts"],
+            "groups": len({group_of[s.fact] for s in qsamples}),
+            "candidates": rep.summary["candidates"],
+            "l_rep_hat": rep.summary["l_rep_hat"],
+            "l_hat": rate(behavioral[s.fact] for s in qsamples
+                          if s.fact in behavioral),
+            "phi_rep_behavioral": phi(rep.per_fact, behavioral),
+            "majority_gold_share": max(counts.values()) / len(qsamples),
+        }
+        for name, featfn in [("prompt_ngram", trigram_features),
+                             ("prompt_embed", mean_embed)]:
+            csamples = [ProbeSample(sample_id=s.fact, fact=s.fact,
+                                    vector=v)
+                        for s in qsamples
+                        if (v := featfn(prompts[s.fact])) is not None]
+            crep = run_probe(csamples, labels, ProbeConfig(),
+                             fold_key=group_of)
+            res[name] = {"l_rep_hat": crep.summary["l_rep_hat"],
+                         "facts": crep.summary["facts"]}
+        out[ds] = res
+        print(f"probe-grouped: {ds} facts={res['facts']} "
+              f"groups={res['groups']} probe={res['l_rep_hat']:.4f} "
+              f"ngram={res['prompt_ngram']['l_rep_hat']:.4f} "
+              f"embed={res['prompt_embed']['l_rep_hat']:.4f} "
+              f"phi={res['phi_rep_behavioral']}")
+    with open(OUT / "probe_grouped.json", "w") as f:
+        json.dump(out, f, indent=1)
+
+
 # -------------------------------------------------------- stage: paraphrase
 def stage_paraphrase() -> None:
     per_fact_rows: dict[str, dict] = defaultdict(dict)
@@ -445,14 +551,16 @@ def stage_frequency() -> None:
     for ds in DATASETS:
         cohort = {r["fact"]: r for r in
                   (json.loads(l) for l in open(OUT / f"cohort_{ds}.jsonl"))}
-        cdir = one(f"{CLOSURES}/{ds}/*closures")
+        tar_path = one(f"{CLOSURES}/{ds}/prompts*closures.tar.gz")
         counts = {}
-        for fact in cohort:
-            path = f"{cdir}/{fact}.json"
-            if not os.path.exists(path):
-                continue
-            d = json.load(open(path))
-            counts[fact] = sum(1 for e in d["entries"] if "value" in e["caught_by"])
+        with tarfile.open(tar_path, "r:gz") as tf:
+            for m in tf:
+                fact = Path(m.name).stem
+                if not m.isfile() or fact not in cohort:
+                    continue
+                d = json.load(tf.extractfile(m))
+                counts[fact] = sum(1 for e in d["entries"]
+                                   if "value" in e["caught_by"])
         facts = sorted(counts)
         cv_sorted = sorted(counts[f] for f in facts)
         n = len(facts)
@@ -505,7 +613,7 @@ def stage_figures(figdir: Path) -> None:
                          "axes.spines.right": False, "pdf.fonttype": 42})
     figdir.mkdir(parents=True, exist_ok=True)
     NUM = json.load(open(OUT / "numbers.json"))
-    CTRL = json.load(open(OUT / "probe_controls.json"))
+    GRP = json.load(open(OUT / "probe_grouped.json"))
     FREQ = json.load(open(OUT / "frequency.json"))
     pct = lambda x: 100.0 * x
 
@@ -596,6 +704,7 @@ def stage_figures(figdir: Path) -> None:
     plt.close(fig)
 
     # -- probe: behavioral vs. probe with prompt-only controls, three models
+    # (proposition-grouped folds; see stage probe-grouped)
     fig, ax = plt.subplots(figsize=(7.0, 2.9))
     x = np.arange(len(DATASETS))
     w = 0.2
@@ -603,8 +712,8 @@ def stage_figures(figdir: Path) -> None:
             for d in DATASETS]
     std = [pct(NUM["datasets"][d]["baselines"][STD]["rate_on_cohort"])
            for d in DATASETS]
-    beh = [pct(NUM["probe"][d]["l_hat"]) for d in DATASETS]
-    prb = [pct(NUM["probe"][d]["l_rep_hat"]) for d in DATASETS]
+    beh = [pct(GRP[d]["l_hat"]) for d in DATASETS]
+    prb = [pct(GRP[d]["l_rep_hat"]) for d in DATASETS]
     ax.bar(x - 1.5 * w, smol, w, color=C_SMOL, label="SmolLM2-360M (closed-book)")
     ax.bar(x - 0.5 * w, std, w, color=C_STD, edgecolor="#999999", linewidth=0.4,
            label="Standard-LM-360M (closed-book)")
@@ -612,9 +721,9 @@ def stage_figures(figdir: Path) -> None:
     ax.bar(x + 1.5 * w, prb, w, color=C_PROBE,
            label="Co-LMLM probe $L_{\\mathrm{rep}}$")
     for i, d in enumerate(DATASETS):
-        ng = pct(CTRL[d]["prompt_ngram"]["l_rep_hat"])
-        em = pct(CTRL[d]["prompt_embed"]["l_rep_hat"])
-        pr = pct(NUM["probe"][d]["majority_gold_share"])
+        ng = pct(GRP[d]["prompt_ngram"]["l_rep_hat"])
+        em = pct(GRP[d]["prompt_embed"]["l_rep_hat"])
+        pr = pct(GRP[d]["majority_gold_share"])
         for v, mk in [(ng, "_"), (em, "x"), (pr, ".")]:
             ax.plot([i + 1.5 * w], [v], marker=mk, color="black", markersize=6,
                     linestyle="none", zorder=5)
@@ -657,6 +766,7 @@ STAGES = {
     "extract": stage_extract,
     "policies": stage_policies,
     "probe-controls": stage_probe_controls,
+    "probe-grouped": stage_probe_grouped,
     "paraphrase": stage_paraphrase,
     "frequency": stage_frequency,
 }

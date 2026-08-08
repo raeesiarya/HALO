@@ -147,6 +147,30 @@ def test_samples_of_one_fact_share_a_fold() -> None:
         assert row["l_rep"] in (0.0, 1.0)
 
 
+def test_fold_key_groups_share_a_fold_and_default_is_unchanged() -> None:
+    # Paraphrase facts of one proposition must land in the same fold under
+    # fold_key, and omitting fold_key must reproduce the legacy assignment.
+    answers = COMPOSITIONAL_ANSWERS * 2  # 16 facts, two per proposition
+    labels = _labels(answers)
+    samples = [
+        ProbeSample(f"s{i}", f"fact{i}", answer_features(answer, 256))
+        for i, answer in enumerate(answers)
+    ]
+    fold_key = {f"fact{i}": f"prop{i % 8}" for i in range(16)}
+    config = ProbeConfig(mode="ranking", folds=4, feature_dim=256)
+
+    grouped = run_probe(samples, labels, config, fold_key=fold_key)
+    fold_of = {row["fact"]: row["fold"] for row in grouped.per_fact}
+    for i in range(8):
+        assert fold_of[f"fact{i}"] == fold_of[f"fact{i + 8}"]
+
+    legacy = run_probe(samples, labels, config)
+    rerun = run_probe(samples, labels, config, fold_key=None)
+    assert [r["fold"] for r in legacy.per_fact] == [
+        r["fold"] for r in rerun.per_fact
+    ]
+
+
 def test_probe_config_validation() -> None:
     with pytest.raises(ValueError, match="mode"):
         ProbeConfig(mode="psychic")
