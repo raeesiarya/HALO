@@ -3,225 +3,139 @@
 ![Tests](badges/tests.svg)
 ![Coverage](badges/coverage.svg)
 
-HALO is a causal audit of forgetting in language models with external memory.
-It separates knowledge retained in model parameters from knowledge recovered
-through related memory entries or nearby retrieval keys.
+HALO audits forgetting in language models with external memory. It separates
+answers produced from model parameters from answers recovered through memory.
 
 ## Audit design
 
-Each fact is evaluated in three database states:
+Each fact is evaluated in three states:
 
-- `FULL`: memory unchanged and retrieval enabled.
-- `DEL-ON`: target entries hidden and retrieval enabled.
-- `DEL-OFF`: target entries hidden and retrieval disabled.
+- `FULL`: memory and retrieval are unchanged.
+- `DEL-ON`: matching entries are hidden, with retrieval still enabled.
+- `DEL-OFF`: matching entries are hidden and factual retrieval is disabled.
 
-Deletion is implemented by search-time filtering; the underlying store is not
-modified. Evaluation records include retrieval traces and query embeddings.
+Deletion is implemented as search-time filtering. The underlying index is not
+modified. Comparing the three states gives post-deletion survival, unaided
+answerability, retrieval-mediated correctness, and retrieval interference.
 
-The primary entanglement and adversarial cohorts contain facts for which the
-`FULL` state is correct, a selected entry passes the normalized answer-mention
-heuristic before the answer is visible, and the exact selected event's query
-embedding is available. This is an answer-mention cohort, not
-proposition-support verification. Coverage and exclusion counts are reported
-separately.
+The audited cohort contains facts where the intact model retrieves an entry
+that mentions the answer. Most reported deletion rates further condition on
+the intact model answering correctly. This is an answer-mention check, not
+full verification that the retrieved span supports the proposition.
 
-The audit includes:
+HALO also includes deletion-radius sweeps, collateral-damage measurements,
+query-embedding probes, deletion-policy comparisons, and adversarial writes.
 
-- cross-state parametric leakage L(f), retrieval recovery R(f), and retrieval
-  interference I(f);
-- deletion closures over geometric, oracle gold-answer-mention, and provenance
-  predicates;
-- deletion-efficacy and collateral-damage curves over closure radius;
-- a linear representational-leakage probe over frozen query embeddings; and
-- adversarial survivor entries placed outside the deletion radius.
-
-## Repository structure
-
-- `src/halo/core/`: backend interface, database states, metrics, and analysis.
-- `src/halo/interventions/`: closure construction, filtering, support
-  judgments, and adversarial interventions.
-- `src/halo/cli/`: command-line orchestration and reporting.
-- `src/models/co_lmlm/`: backend for the public Co-LMLM release.
-- `scripts/`: data setup and evaluation entry points.
-
-## Installation
+## Setup
 
 Python 3.12 and [uv](https://docs.astral.sh/uv/) are required.
 
 ```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
 uv sync
 uv run pytest
 ```
 
-On a GPU host, the Co-LMLM environment additionally requires OpenBLAS as a
-system package; `faiss` fails to import without it:
+On the Linux GPU machines used for Co-LMLM, FAISS also needs OpenBLAS:
 
 ```bash
 sudo apt-get install -y libopenblas0
 ```
 
-The evaluation scripts also extend `LD_LIBRARY_PATH` to the RAPIDS and CUDA
-wheel directories, because `faiss-gpu-cu12-cuvs` does not record an RPATH to
-them and otherwise fails to resolve `libcuvs.so`, `librmm.so`, and
-`libraft.so`.
+The run scripts set the library paths needed by the CUDA FAISS wheels.
 
-## Co-LMLM evaluation
+## Running Co-LMLM
 
-The default setup uses the T-REx prompts and the public Co-LMLM fineweb+wiki
-retrieval index. The index requires approximately 1.05 TB. `INDEX_DIR`,
-`PROMPTS`, and `OUTPUT_DIR` override the default paths.
-
-The primary configuration uses Co-LMLM's published factual-evaluation
-retrieval threshold of 0.7. Pass
-`--co-lmlm-similarity-threshold none` only for a separately labeled
-threshold-disabled sensitivity run. Correctness requires the normalized gold
-answer or alias to appear as a whole phrase in the output; output fragments of
-the gold answer do not count.
+The default run uses T-REx and the released FineWeb plus Wikipedia index. The
+index is about 1.05 TB.
 
 ```bash
 ./scripts/setup_data.sh
 ./scripts/run_audit_co_lmlm.sh
 ```
 
-Additional `halo-audit` arguments are passed through by the shell entry point.
-For example:
+Set `INDEX_DIR`, `PROMPTS`, or `OUTPUT_DIR` to use different paths. Extra
+arguments are passed to `halo-audit`, for example:
 
 ```bash
 ./scripts/run_audit_co_lmlm.sh \
   --closure geometric \
-  --radius-grid 0.95:0.70:0.05 \
-  --neighbor-mode cosine
+  --radius-grid 0.95:0.70:0.05
 ```
 
-The complete evaluation consists of the standard three-state audit, the
-entanglement sweep, the adversarial evaluation, the DEL-OFF sensitivity
-control, and the deletion-policy matrix. All of them run by default:
+The standard Co-LMLM configuration uses retrieval threshold `0.7`. The
+default closure combines geometric and gold-answer value filtering. The value
+filter is an oracle used for evaluation, not a deployable deletion rule.
+Correctness requires the normalized gold answer or an alias to appear as a
+complete phrase in the output. Radius sweeps and adversarial runs use only the
+geometric closure.
+
+To run the standard audit, radius sweep, adversarial evaluation, DEL-OFF
+controls, and policy matrix:
 
 ```bash
 ./scripts/run_audit_suite_co_lmlm.sh
 ```
 
-The phases execute sequentially and share one `FULL` pass: the standard
-audit produces it, and every later phase consumes it instead of
-regenerating. The del-off and policy phases additionally reuse phase 1's
-provably equivalent rows (`FULL` never consults the deletion manifest and
-`DEL-OFF` is manifest-independent, so with greedy decoding the rows are
-byte-identical); a deterministic canary re-executes a `--reuse-canary-rate`
-fraction of served rows and aborts on any mismatch. Every phase resumes
-per fact (or per radius) from disk, so an interrupted suite continues where
-it stopped.
-
-`SUITE_WORKERS=N` runs each phase as N parallel single-GPU worker
-processes (batch size stays 1 per worker; the memory-mapped index shares
-one page cache) followed by a finalize pass that merges the shards —
-outputs are identical to a sequential run.
-
-The standard audit uses `geometric,value` closure by default, where `value` is
-an oracle filter supplied with the ground-truth answer and aliases at
-inference time. Radius and adversarial evaluations use `geometric` alone.
-Relevant configuration variables
-are `SUITE_PHASES`, `SUITE_WORKERS`, `STANDARD_CLOSURE`, `SWEEP_CLOSURE`,
-`ADVERSARIAL_CLOSURE`, `RADIUS_GRID`, `NEIGHBOR_MODE`, `NEIGHBOR_MIN_COUNT`,
-and `DEL_OFF_MODE`. The legacy predicate name `semantic` is accepted as an
-alias for `value`.
-
-`SUITE_PHASES` narrows the run when needed: `all` (the default), `core`
-(`standard`, `sweep`, `adversarial` only), or an explicit comma-separated
-subset. This is mainly for resuming a partial run or iterating on one phase —
-the `del-off` and `policy` phases are a full standard audit per variant, so the
-default suite is roughly three times the cost of `core`:
+Runs resume from existing outputs. `SUITE_WORKERS` controls the number of
+single-GPU workers, and `SUITE_PHASES` can select part of the suite. `core`
+means `standard,sweep,adversarial`:
 
 ```bash
+SUITE_WORKERS=8 ./scripts/run_audit_suite_co_lmlm.sh
 SUITE_PHASES=core ./scripts/run_audit_suite_co_lmlm.sh
 SUITE_PHASES=sweep,adversarial ./scripts/run_audit_suite_co_lmlm.sh
 ```
 
-### DEL-OFF controls
-
-Two retrieval-disabled controls are available: `null-retrieval`, which permits
-decoding after a failed fact lookup, and `forbid-token`, which prevents fact
-retrieval tokens. The sensitivity script stores the two evaluations separately.
+The default DEL-OFF control is `null-retrieval`; `forbid-token` is the
+sensitivity check. The controls and policy matrix can also be run separately:
 
 ```bash
 ./scripts/run_del_off_sensitivity_co_lmlm.sh
-```
-
-`DEL_OFF_MODES` restricts which controls run. The suite's `del-off` phase uses
-it to skip the arm the standard phase already covers, writing the remaining
-control to `<output-dir>/del_off_sensitivity/<mode>`.
-
-### Deletion policies
-
-Oracle, geometric, value, provenance, and hybrid closure policies can be
-evaluated in separate output directories.
-
-```bash
 ./scripts/run_policy_matrix_co_lmlm.sh
 ```
 
-The suite's `policy` phase runs the same matrix under
-`<output-dir>/policy_matrix/<policy>`.
+## Cross-model runs
 
-## Cross-model GPU scheduler
-
-The scheduler runs the complete cross-model comparison as a dependency-aware
-job graph over the available GPUs. Every Co-LMLM phase is decomposed into
-single-GPU jobs so idle GPUs absorb the tail of the run:
-
-- the entanglement sweep always splits into a prep job, one job per radius,
-  and a finalize job;
-- the deletion-policy matrix always runs `oracle` first, then the four
-  remaining policies in parallel, preserving oracle-result reuse;
-- with `--shards N`, the fact-striped phases (`standard`, `adversarial`,
-  `del-off`, and each policy) additionally split into N single-GPU shard
-  jobs plus a finalize job that merges the stripes. With `--shards 1` (the
-  default) they stay one job each, and `SUITE_WORKERS` worker processes fan
-  out within that job's GPU instead.
-
-Per prompt set, the Co-LMLM `standard` output gates every later phase. With
-the defaults (5 prompt sets, 3 models, `--shards 1`) the plan has 90 jobs;
-`--shards 4` yields 250.
+The cross-model scheduler runs Co-LMLM, SmolLM2-360M, and
+CoLMLM-Standard-LM-Baseline-360M-FW over all prompt sets. Check the planned
+jobs before starting a detached run:
 
 ```bash
-SUITE_WORKERS=16 ./scripts/run_cross_model_scheduler.sh --dry-run
-SUITE_WORKERS=16 ./scripts/run_cross_model_scheduler.sh --detach
-./scripts/run_cross_model_scheduler.sh --shards 4 --detach
+./scripts/run_cross_model_scheduler.sh --dry-run
+./scripts/run_cross_model_scheduler.sh --detach
 ```
 
-`run_suite_parallel_cross_model.sh` is the submit-and-return launcher in the
-style of `run_suite_parallel_co_lmlm.sh`: it validates fast, submits the
-detached scheduler run over every prompt set and every model, and returns
-immediately. It accepts the same environment knobs (`SETS`, `OUT_ROOT`,
-`GPUS`, `MAX_PARALLEL`, `CO_LMLM_DIR`, `INDEX_DIR`), plus `MODELS`,
-`SUITE_WORKERS`, and `SCHEDULER_SHARDS`; extra flags are forwarded to every
-audit job.
+The wrapper below submits the same run and returns immediately:
 
 ```bash
 SCHEDULER_SHARDS=4 ./scripts/run_suite_parallel_cross_model.sh
 tail -F out-cross-model/_scheduler.log
 ```
 
-The defaults are GPUs `0` through `7` and the output directory
-`out-cross-model/`. These can be changed with environment variables:
-
-```bash
-GPUS=0,1,2,3 SUITE_WORKERS=16 OUT_ROOT=/data/halo-out \
-  ./scripts/run_cross_model_scheduler.sh --detach
-```
-
-The run is resumable, so the same command can be used again after a failure.
-Use a fresh `OUT_ROOT` for each experiment. To follow progress:
-
-```bash
-tail -F out-cross-model/_scheduler.log
-```
+The main configuration variables are `SETS`, `MODELS`, `GPUS`, `MAX_PARALLEL`,
+`SCHEDULER_SHARDS`, `SUITE_WORKERS`, `INDEX_DIR`, and `OUT_ROOT`. The default
+output directory is `out-cross-model/`. Repeating the same command resumes an
+interrupted run.
 
 ## Outputs
 
-The default output directory is `outputs/trex`. Outputs include JSONL results,
-retrieval traces, query-embedding sidecars, closure manifests, metrics CSVs,
-and probe summaries.
+Audit outputs include JSONL results, retrieval traces, query embeddings,
+closure manifests, metric CSVs, and probe summaries. Single-dataset runs use
+`outputs/trex` by default.
+
+The analysis used for Status Update 2 can be reproduced from a completed
+cross-model result tree with:
+
+```bash
+uv run python scripts/status_update_2_analysis.py --stage all
+```
+
+## Repository structure
+
+- `src/halo/`: audit logic, interventions, metrics, and CLI code.
+- `src/models/`: Co-LMLM and closed-book model backends.
+- `scripts/`: setup, evaluation, scheduling, and analysis scripts.
+- `annotations/`: reviewed labels used by the analysis.
 
 ## License
 
