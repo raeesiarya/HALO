@@ -148,48 +148,28 @@ def test_samples_of_one_fact_share_a_fold() -> None:
         assert row["l_rep"] in (0.0, 1.0)
 
 
-def test_canonical_groups_never_cross_probe_folds() -> None:
-    facts = ["f1-question", "f1-rephrase", "f2", "f3"]
-    groups = {
-        "f1-question": "subject/relation/answer-1",
-        "f1-rephrase": "subject/relation/answer-1",
-        "f2": "subject/relation/answer-2",
-        "f3": "subject/relation/answer-3",
-    }
-    fold_of, group_of, folds = assign_group_folds(
-        facts,
-        requested_folds=3,
-        seed=0,
-        fold_groups=groups,
-    )
-    assert folds == 3
-    assert group_of["f1-question"] == group_of["f1-rephrase"]
-    assert fold_of["f1-question"] == fold_of["f1-rephrase"]
+def test_fold_key_groups_share_a_fold_and_default_is_unchanged() -> None:
+    # Paraphrase facts of one proposition must land in the same fold under
+    # fold_key, and omitting fold_key must reproduce the legacy assignment.
+    answers = COMPOSITIONAL_ANSWERS * 2  # 16 facts, two per proposition
+    labels = _labels(answers)
+    samples = [
+        ProbeSample(f"s{i}", f"fact{i}", answer_features(answer, 256))
+        for i, answer in enumerate(answers)
+    ]
+    fold_key = {f"fact{i}": f"prop{i % 8}" for i in range(16)}
+    config = ProbeConfig(mode="ranking", folds=4, feature_dim=256)
 
+    grouped = run_probe(samples, labels, config, fold_key=fold_key)
+    fold_of = {row["fact"]: row["fold"] for row in grouped.per_fact}
+    for i in range(8):
+        assert fold_of[f"fact{i}"] == fold_of[f"fact{i + 8}"]
 
-def test_run_probe_reports_grouped_split() -> None:
-    rng = np.random.default_rng(0)
-    labels = {}
-    samples = []
-    groups = {}
-    for i in range(6):
-        fact = f"fact{i}"
-        labels[fact] = {
-            "ground_truth": "Paris" if i < 3 else "Warsaw",
-            "aliases": (),
-        }
-        samples.append(_clustered_sample(fact, 0 if i < 3 else 1, rng))
-        groups[fact] = "paris-fact" if i < 3 else f"warsaw-fact-{i}"
-    report = run_probe(
-        samples,
-        labels,
-        ProbeConfig(mode="classification", folds=3),
-        fold_groups=groups,
-    )
-    assert report.summary["fold_groups"] == 4
-    assert report.summary["largest_fold_group"] == 3
-    paris = [row for row in report.per_fact if row["answer"] == "Paris"]
-    assert len({row["fold"] for row in paris}) == 1
+    legacy = run_probe(samples, labels, config)
+    rerun = run_probe(samples, labels, config, fold_key=None)
+    assert [r["fold"] for r in legacy.per_fact] == [
+        r["fold"] for r in rerun.per_fact
+    ]
 
 
 def test_probe_config_validation() -> None:
