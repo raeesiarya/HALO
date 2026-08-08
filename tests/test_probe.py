@@ -12,6 +12,7 @@ from halo.core.probe import (
     ProbeConfig,
     ProbeSample,
     answer_features,
+    assign_group_folds,
     compute_delta_rep,
     load_labels_and_behavioral,
     load_probe_samples,
