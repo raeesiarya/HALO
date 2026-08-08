@@ -38,9 +38,12 @@ Stages (each writes JSON/JSONL artifacts under results/status_update_2/):
                   T-REx: classifies DEL-ON survivors and dumps the
                   retrieval-mediated ones (correct only with retrieval on,
                   each with its spliced retained entry) for manual review.
-                  Produces value_survivors.jsonl. The published 49/61 split
-                  (surface variants vs. associative cues) is a manual
-                  classification of those rows; see MANUAL_SPLIT below.
+                  Produces value_survivors.jsonl. The per-fact adjudication
+                  of those rows (surface variants vs. associative cues)
+                  lives in annotations/status_update_2/
+                  value_survivor_labels.csv; this stage computes the split
+                  from that file and warns if it diverges from the report's
+                  numbers (REPORTED_SPLIT below).
   frequency       Answer density: per audited fact, the number of entries in
                   its top-500 retrieval envelope caught by the value
                   predicate, read from the closure tarballs under
@@ -89,11 +92,14 @@ BASELINES = ["smollm2-360m", "standard-lm-360m-fw"]
 POLICIES = ["oracle", "provenance", "geometric", "value", "hybrid"]
 TOL = 5e-4  # recomputed rates must match HALO's CSVs within this
 
-# Manual classification of the 110 retrieval-mediated value-policy survivors
-# (paraphrase stage output, reviewed by hand for the report): spans carrying
-# the answer in an altered surface form vs. spans that never state the answer
-# but cue it associatively.
-MANUAL_SPLIT = {"surface_variants": 49, "associative_cues": 61}
+# Split of the 110 retrieval-mediated value-policy survivors as currently
+# stated in the report (surface variants vs. associative cues). The source
+# of truth is the per-fact re-adjudication in
+# annotations/status_update_2/value_survivor_labels.csv (label + borderline
+# flag + rationale per fact); the paraphrase stage computes the totals from
+# that file and warns if they diverge from these numbers, in which case the
+# REPORT should be updated to match the file, not the other way around.
+REPORTED_SPLIT = {"surface_variants": 49, "associative_cues": 61}
 
 
 # --------------------------------------------------------------- utilities
@@ -533,7 +539,29 @@ def stage_paraphrase() -> None:
             f.write(json.dumps(d) + "\n")
     print(f"paraphrase: full_correct={len(full_c)} survivors={len(survivors)} "
           f"retrieval_mediated={len(r_cell)} -> value_survivors.jsonl")
-    print(f"paraphrase: published manual split of the {len(r_cell)}: {MANUAL_SPLIT}")
+
+    labels_path = ROOT / "annotations" / "status_update_2" / "value_survivor_labels.csv"
+    if labels_path.exists():
+        with open(labels_path) as f:
+            label_rows = list(csv.DictReader(f))
+        missing = set(r_cell) - {r["fact"] for r in label_rows}
+        extra = {r["fact"] for r in label_rows} - set(r_cell)
+        if missing or extra:
+            raise AssertionError(
+                f"value_survivor_labels.csv does not cover the survivor set: "
+                f"{len(missing)} unlabeled, {len(extra)} unknown facts")
+        split = Counter(r["label"] for r in label_rows)
+        found = {"surface_variants": split.get("surface_variant", 0),
+                 "associative_cues": split.get("associative_cue", 0)}
+        n_borderline = sum(1 for r in label_rows if r["borderline"] == "1")
+        print(f"paraphrase: adjudicated split from {labels_path.name}: "
+              f"{found} ({n_borderline} borderline)")
+        if found != REPORTED_SPLIT:
+            print(f"paraphrase: WARNING adjudicated split differs from the "
+                  f"report's {REPORTED_SPLIT} -- update the report numbers")
+    else:
+        print(f"paraphrase: {labels_path} missing; report split "
+              f"{REPORTED_SPLIT} is unverified")
 
 
 # -------------------------------------------------------- stage: frequency
