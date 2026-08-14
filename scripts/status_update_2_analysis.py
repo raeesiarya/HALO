@@ -317,23 +317,27 @@ def stage_extract() -> None:
 
 # --------------------------------------------------------- stage: policies
 def stage_policies() -> None:
+    """FULL-conditioned S/R/I/L per deletion policy, every dataset."""
     out = {}
-    for pol in POLICIES:
-        per_fact, _ = stream_facts(
-            one(f"{RESULTS}/co-lmlm/trex/policy_matrix/{pol}/prompts*_results.jsonl"))
-        full_c = [k for k, st in per_fact.items()
-                  if "DEL-ON" in st and "DEL-OFF" in st and st.get("FULL")]
-        n = len(full_c)
-        out[pol] = {
-            "n_full_correct": n,
-            "S_full": sum(per_fact[k]["DEL-ON"] for k in full_c) / n,
-            "R_full": sum(per_fact[k]["DEL-ON"] and not per_fact[k]["DEL-OFF"]
-                          for k in full_c) / n,
-            "I_full": sum(not per_fact[k]["DEL-ON"] and per_fact[k]["DEL-OFF"]
-                          for k in full_c) / n,
-            "L_full": sum(per_fact[k]["DEL-OFF"] for k in full_c) / n,
-        }
-        print("policies:", pol, {k: round(v, 4) for k, v in out[pol].items()})
+    for ds in DATASETS:
+        out[ds] = {}
+        for pol in POLICIES:
+            per_fact, _ = stream_facts(one(
+                f"{RESULTS}/co-lmlm/{ds}/policy_matrix/{pol}/prompts*_results.jsonl"))
+            full_c = [k for k, st in per_fact.items()
+                      if "DEL-ON" in st and "DEL-OFF" in st and st.get("FULL")]
+            n = len(full_c)
+            out[ds][pol] = {
+                "n_full_correct": n,
+                "S_full": sum(per_fact[k]["DEL-ON"] for k in full_c) / n,
+                "R_full": sum(per_fact[k]["DEL-ON"] and not per_fact[k]["DEL-OFF"]
+                              for k in full_c) / n,
+                "I_full": sum(not per_fact[k]["DEL-ON"] and per_fact[k]["DEL-OFF"]
+                              for k in full_c) / n,
+                "L_full": sum(per_fact[k]["DEL-OFF"] for k in full_c) / n,
+            }
+            print(f"policies: {ds} {pol}",
+                  {k: round(v, 4) for k, v in out[ds][pol].items()})
     with open(OUT / "policy_full.json", "w") as f:
         json.dump(out, f, indent=1)
 
