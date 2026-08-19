@@ -116,6 +116,31 @@ def main() -> None:
                     "through --radius-grid or --adversarial."
                 )
 
+        factq_active = args.closure is not None and "factq" in (
+            closure_config_from_args(args).predicates
+        )
+        if factq_active:
+            if args.radius_grid is not None or args.adversarial:
+                raise ValueError(
+                    "The factq predicate is a standard-audit closure rule; "
+                    "the sweep and adversarial modes are not wired for "
+                    "<FACT-q> vectors."
+                )
+            if args.factq_vectors is None:
+                raise ValueError(
+                    "--closure factq requires --factq-vectors (produced by "
+                    "`python -m halo.factq_embed`)."
+                )
+            if not args.factq_vectors.is_file():
+                raise FileNotFoundError(
+                    f"--factq-vectors {args.factq_vectors} does not exist."
+                )
+        elif args.factq_vectors is not None:
+            raise ValueError(
+                "--factq-vectors is only read by the factq closure "
+                "predicate; add factq to --closure or drop the flag."
+            )
+
         if args.radius_grid is not None:
             if args.closure is None:
                 raise ValueError(
@@ -375,6 +400,28 @@ def main() -> None:
                     if spec.supports_oracle_bootstrap and args.closure is not None
                     else None
                 )
+                if manifest_builder is not None and factq_active:
+                    # Zero overlap means the wrong vectors file (or wrong
+                    # prompt file): every closure would carry
+                    # factq_query_count=0 and the predicate would silently
+                    # no-op. Surface coverage up front instead.
+                    from halo.cli.closure_setup import load_factq_vectors_from_args
+
+                    factq_keys = set(load_factq_vectors_from_args(args))
+                    example_keys = set(_load_examples(job.prompt_path, args.limit))
+                    covered = len(example_keys & factq_keys)
+                    logger.print(
+                        f"factq vector coverage: {covered}/{len(example_keys)} "
+                        f"facts in {args.factq_vectors}"
+                    )
+                    if covered == 0:
+                        raise ValueError(
+                            f"--factq-vectors {args.factq_vectors} shares no "
+                            f"fact keys with {job.prompt_path}; the factq "
+                            "predicate would delete nothing. Re-run "
+                            "`python -m halo.factq_embed` against this "
+                            "prompt file's questions."
+                        )
                 stem = job.prompt_path.stem
                 full_store = None
                 reuse_store = None
@@ -392,6 +439,15 @@ def main() -> None:
                             "envelope_top_k": closure_config.envelope_top_k,
                             "max_closure_size": closure_config.max_closure_size,
                         }
+                        if factq_active:
+                            # A different question set produces different
+                            # closures, so the vectors are resume identity.
+                            closure_payload["factq"] = {
+                                "threshold": closure_config.factq_threshold,
+                                "vectors_sha256": prompt_digest(
+                                    args.factq_vectors
+                                ),
+                            }
                     ensure_resume_config(
                         args.output_dir / f"{stem}_audit_config.json",
                         {

@@ -7,10 +7,13 @@
 # Where the Co-LMLM launcher fans out one whole suite per prompt set, this
 # one submits the dependency-aware job graph (src/halo/scheduler.py): per
 # prompt set the Co-LMLM standard phase gates sweep/adversarial/del-off/
-# policy, the sweep fans out per radius, the policy matrix runs oracle first
-# and the four remaining policies in parallel, SCHEDULER_SHARDS=N stripes
-# the fact-striped phases into N single-GPU jobs each, and the two
-# parametric baselines run alongside from the start.
+# policy/factq, the sweep fans out per radius, the policy matrix runs oracle
+# first and the four remaining policies in parallel, the factq chain runs
+# question generation -> <FACT-q> embedding -> the factq policy row (the
+# query-ensemble deletion rule; Co-LMLM only — the parametric baselines
+# have no retrieval index), SCHEDULER_SHARDS=N stripes the fact-striped
+# phases into N single-GPU jobs each, and the two parametric baselines run
+# alongside from the start.
 #
 # Tail the run:
 #   driver:   tail -F $OUT_ROOT/_scheduler.log
@@ -27,6 +30,9 @@
 #                    (default: all three)
 #   SUITE_WORKERS    worker processes inside unsharded Co-LMLM jobs (default: 1)
 #   SCHEDULER_SHARDS fact-shard jobs per striped phase (default: 1)
+#   FACTQ_NUM_QUESTIONS / FACTQ_THRESHOLD / FACTQ_ADAPTER
+#                    factq-chain knobs (defaults: 5 / 0.7 / the released
+#                    lil-lab/CoLMLM-Question-Generator adapter)
 # Extra flags after the script name are forwarded to every audit job, e.g.
 #   ./scripts/run_suite_parallel_cross_model.sh --limit 200
 set -euo pipefail

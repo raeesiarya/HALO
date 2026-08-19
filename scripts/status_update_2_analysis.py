@@ -701,38 +701,52 @@ def stage_figures(figdir: Path) -> None:
     fig.savefig(figdir / "frequency.pdf", bbox_inches="tight")
     plt.close(fig)
 
-    # -- entanglement: operating curves + G(f) shares, baselines as references
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(7.0, 2.9),
-                                   gridspec_kw={"width_ratios": [1.25, 1]})
+    # -- entanglement: radius sweep (forgetting / collateral vs. rho) + outcome shares
+    fig = plt.figure(figsize=(7.2, 2.9))
+    gs = fig.add_gridspec(2, 2, width_ratios=[1.25, 1], hspace=0.15, wspace=0.28)
+    ax_e = fig.add_subplot(gs[0, 0])
+    ax_x = fig.add_subplot(gs[1, 0], sharex=ax_e)
+    ax_b = fig.add_subplot(gs[:, 1])
     for d in DATASETS:
         curve = NUM["entanglement"][d]["curve"]
-        rhos = sorted(curve.keys(), key=float, reverse=True)
-        xs = [max(pct(curve[r]["collateral"]), 0.04) for r in rhos]
-        ys = [pct(curve[r]["efficacy"]) for r in rhos]
-        ax1.plot(xs, ys, "o-", color=DS_COLOR[d], markersize=3.5, label=DS_LABEL[d])
-    ax1.set_xscale("log")
-    ax1.set_xlabel("Collateral $X$ among neighbors (%, log scale)")
-    ax1.set_ylabel("Efficacy $E$ (%)")
-    ax1.legend(fontsize=6.5, frameon=False, loc="lower right")
-    ax1.set_title("Deletion operating curves ($\\rho$: 0.95 $\\to$ 0.70)", fontsize=8)
+        keys = sorted(curve, key=float, reverse=True)
+        rhos = [float(r) for r in keys]
+        eff = [pct(curve[r]["efficacy"]) for r in keys]
+        coll = [pct(curve[r]["collateral"]) for r in keys]
+        ax_e.plot(rhos, eff, "o-", color=DS_COLOR[d], markersize=3, linewidth=1.2,
+                  label=DS_LABEL[d])
+        ax_x.plot(rhos, coll, "o-", color=DS_COLOR[d], markersize=3, linewidth=1.2)
+    ax_e.invert_xaxis()  # left = narrow deletion, right = wide deletion
+    ax_e.set_ylabel("Target forgotten (%)", fontsize=8)
+    ax_e.tick_params(labelbottom=False)
+    ax_e.set_ylim(0, 100)
+    ax_e.legend(fontsize=6.5, frameon=False, ncol=3, loc="lower right")
+    ax_e.set_title("Widening the deletion radius", fontsize=8)
+    ax_x.set_ylabel("Neighbors lost (%)", fontsize=8)
+    ax_x.set_xlabel("Deletion radius $\\rho$ (narrow $\\to$ wide)", fontsize=8)
+    ax_x.set_ylim(0, 12)
     x = np.arange(len(DATASETS))
     g0 = [pct(NUM["entanglement"][d]["share_gap_zero"]) for d in DATASETS]
     g1 = [pct(NUM["entanglement"][d]["share_gap_one"]) for d in DATASETS]
-    ax2.bar(x, g0, 0.55, color=[DS_COLOR[d] for d in DATASETS], alpha=0.85)
-    ax2.bar(x, g1, 0.55, bottom=[100 - v for v in g1], color="black", alpha=0.55)
-    for xi, v in zip(x, g0):
-        ax2.text(xi, v - 6, f"{v:.0f}", ha="center", fontsize=7, color="white")
-    for bl, mk in [(SMOL, "^"), (STD, "v")]:
-        ax2.plot(x, [pct(NUM["datasets"][d]["baselines"][bl]["rate_on_full_correct"])
-                     for d in DATASETS],
-                 marker=mk, color="black", markersize=5, fillstyle="none",
-                 linestyle="none")
-    ax2.set_xticks(x, [DS_LABEL[d] for d in DATASETS], fontsize=7, rotation=20)
-    ax2.set_ylabel("Share of audited facts (%)")
-    ax2.set_ylim(0, 100)
-    ax2.set_title("Entanglement gap $G(f)$", fontsize=8)
+    gmid = [100 - a - b for a, b in zip(g0, g1)]
+    ax_b.bar(x, g0, 0.6, color="#5a8f6e", label="forgotten cleanly at some radius")
+    ax_b.bar(x, gmid, 0.6, bottom=g0, color="#d9d9d9",
+             label="forgotten only at a cost to neighbors")
+    ax_b.bar(x, g1, 0.6, bottom=[a + m for a, m in zip(g0, gmid)], color="#404040",
+             label="never forgotten at any radius")
+    for xi, a, b in zip(x, g0, g1):
+        ax_b.text(xi, a - 5, f"{a:.0f}", ha="center", fontsize=7, color="white")
+        if b >= 4:
+            ax_b.text(xi, 100 - b + 1.5, f"{b:.0f}", ha="center", fontsize=7,
+                      color="white")
+    ax_b.set_xticks(x, [DS_LABEL[d] for d in DATASETS], fontsize=7, rotation=20)
+    ax_b.set_ylabel("Share of audited facts (%)", fontsize=8)
+    ax_b.set_ylim(0, 100)
+    ax_b.set_title("Outcome across the whole sweep", fontsize=8)
+    ax_b.legend(fontsize=6.5, frameon=False, loc="upper center",
+                bbox_to_anchor=(0.5, -0.32), ncol=1)
     fig.tight_layout()
-    fig.savefig(figdir / "entanglement.pdf")
+    fig.savefig(figdir / "entanglement.pdf", bbox_inches="tight")
     plt.close(fig)
 
     # -- probe: behavioral vs. probe with prompt-only controls, three models

@@ -131,8 +131,29 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         default=None,
         help=(
             "Comma-separated deletion-closure predicates materialized from the "
-            "FULL pass: any of geometric, value, provenance. The legacy name "
-            "semantic is accepted as an alias for value."
+            "FULL pass: any of geometric, value, provenance, factq. The "
+            "legacy name semantic is accepted as an alias for value. factq "
+            "requires --factq-vectors."
+        ),
+    )
+    closure.add_argument(
+        "--factq-vectors",
+        type=Path,
+        default=None,
+        help=(
+            "Per-fact <FACT-q> query vectors (.npz from `python -m "
+            "halo.factq_embed`) backing the factq predicate: the closure "
+            "deletes the union of what each generated-question query "
+            "retrieves above --factq-threshold."
+        ),
+    )
+    closure.add_argument(
+        "--factq-threshold",
+        type=float,
+        default=0.7,
+        help=(
+            "Retrieval threshold for the factq predicate's searches. "
+            "Defaults to 0.7, the Co-LMLM factual-eval setting."
         ),
     )
     closure.add_argument(

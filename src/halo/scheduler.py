@@ -39,7 +39,7 @@ DATASETS: dict[str, str] = {
     "zsre": "data/prompts_zsre.jsonl",
 }
 DEFAULT_MODELS = ("co-lmlm", "standard-lm-360m-fw", "smollm2-360m")
-CO_LMLM_PHASES = ("standard", "sweep", "adversarial", "del-off", "policy")
+CO_LMLM_PHASES = ("standard", "sweep", "adversarial", "del-off", "policy", "factq")
 PARAMETRIC_MODELS = ("standard-lm-360m-fw", "smollm2-360m")
 
 # These estimates only order runnable jobs.
@@ -57,6 +57,12 @@ PHASE_COST = {
     "del-off": 3,
     "policy": 12,
     "parametric": 3,
+    # The factq chain: question generation is a light Qwen-1.5B pass, the
+    # <FACT-q> embedding is roughly num-questions short generations per
+    # fact, and the policy row is one DEL-ON arm like any single policy.
+    "factq-questions": 1,
+    "factq-embed": 5,
+    "factq-policy": 3,
 }
 # Standard jobs outrank everything (they unlock every later phase); gate jobs
 # (sweep prep, the oracle policy) outrank their siblings because they unlock
@@ -73,6 +79,9 @@ PASSTHROUGH_ENV = (
     "NEIGHBOR_MODE",
     "NEIGHBOR_MIN_COUNT",
     "DEL_OFF_MODE",
+    "FACTQ_NUM_QUESTIONS",
+    "FACTQ_THRESHOLD",
+    "FACTQ_ADAPTER",
     "HF_HOME",
     "HF_HUB_CACHE",
     "TRANSFORMERS_CACHE",
@@ -94,6 +103,8 @@ RESERVED_AUDIT_OPTIONS = {
     "--closure",
     "--radius-grid",
     "--adversarial",
+    "--factq-vectors",
+    "--factq-threshold",
 }
 
 
@@ -538,6 +549,7 @@ def build_jobs(
                     ),
                 )
 
+            oracle_final = None
             if "policy" in phases:
                 # Oracle first: the other policies reuse its DEL-OFF rows
                 # (and coinciding DEL-ON rows), then run in parallel.
@@ -567,6 +579,46 @@ def build_jobs(
                             / "cross_state_metrics.csv",
                         ),
                     )
+
+            if "factq" in phases:
+                # The <FACT-q> query-ensemble deletion rule: generate
+                # questions per fact from the FULL pass's retrieved entries
+                # (never the eval prompts — using the question you will be
+                # asked guarantees a successful forget), embed them through
+                # Co-LMLM's <FACT-q> head, then audit `--closure factq` as
+                # a sixth policy-matrix row.
+                questions_key = co_job(
+                    "factq-questions",
+                    (),
+                    dependencies=standard_dep,
+                    # Cheap and it unlocks the rest of the chain.
+                    priority=GATE_BONUS + rows * PHASE_COST["factq-questions"],
+                    expected_outputs=(co_output / f"{stem}_factq.jsonl",),
+                )
+                embed_final = striped_group(
+                    "factq-embed",
+                    (),
+                    dependencies={questions_key},
+                    priority=rows * PHASE_COST["factq-embed"],
+                    expected_outputs=(
+                        co_output / f"{stem}_factq_vectors.npz",
+                    ),
+                )
+                # Chain oracle reuse like the other policies when the policy
+                # phase runs; a factq-only plan audits without it.
+                factq_policy_dependencies = {embed_final} | (
+                    {oracle_final} if oracle_final is not None else standard_dep
+                )
+                striped_group(
+                    "factq-policy",
+                    (),
+                    dependencies=factq_policy_dependencies,
+                    priority=rows * PHASE_COST["factq-policy"],
+                    expected_outputs=(
+                        co_output / "policy_matrix" / "factq"
+                        / "cross_state_metrics.csv",
+                    ),
+                )
 
         for model in PARAMETRIC_MODELS:
             if model not in models:
