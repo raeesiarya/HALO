@@ -233,22 +233,15 @@ def run_probe(
             f"got {len(facts)}."
         )
 
-    rng = np.random.default_rng(config.seed)
-    if fold_key is None:
-        folds = min(config.folds, len(facts))
-        order = list(facts)
-        rng.shuffle(order)
-        fold_of = {fact: position % folds for position, fact in enumerate(order)}
-    else:
-        groups = sorted({fold_key.get(fact, fact) for fact in facts})
-        folds = min(config.folds, len(groups))
-        rng.shuffle(groups)
-        fold_of_group = {
-            group: position % folds for position, group in enumerate(groups)
-        }
-        fold_of = {
-            fact: fold_of_group[fold_key.get(fact, fact)] for fact in facts
-        }
+    fold_of, group_of, folds = assign_group_folds(
+        facts,
+        requested_folds=config.folds,
+        seed=config.seed,
+        fold_groups=fold_key,
+    )
+    group_sizes: dict[str, int] = {}
+    for group in group_of.values():
+        group_sizes[group] = group_sizes.get(group, 0) + 1
 
     features = np.stack([sample.vector for sample in usable])
 
@@ -423,7 +416,7 @@ def probe_audit_outputs(
     if len(labeled_facts) < max(MIN_PROBE_FACTS, config.folds):
         return None
 
-    report = run_probe(samples, labels, config, fold_groups=fold_groups)
+    report = run_probe(samples, labels, config, fold_key=fold_groups)
     delta = compute_delta_rep(report.per_fact, behavioral)
 
     output_dir.mkdir(parents=True, exist_ok=True)
