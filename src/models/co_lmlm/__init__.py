@@ -57,6 +57,20 @@ def _add_arguments(parser: argparse.ArgumentParser) -> None:
         ),
     )
     group.add_argument(
+        "--co-lmlm-corpus-allow",
+        default=None,
+        metavar="REGEX",
+        help=(
+            "Restrict the effective memory to entries whose source_id "
+            "matches this regex, in every state (candidates without a "
+            "source_id are excluded too). Used for the matched-corpus NULLs "
+            "comparison (Wikipedia-only; docs/NULLS_AUDIT_DESIGN.md §10). "
+            "Verify the pattern against the index's source_id scheme with a "
+            "small --limit run before a full audit. Incompatible with "
+            "--co-lmlm-del-off-mode forbid-token."
+        ),
+    )
+    group.add_argument(
         "--co-lmlm-assume-exact-index",
         action="store_true",
         help=(
@@ -99,6 +113,7 @@ def _build_backend(args: argparse.Namespace, _group_key: Any) -> AuditBackend:
         max_new_tokens=args.max_new_tokens,
         del_off_mode=args.co_lmlm_del_off_mode,
         assume_exact_index=args.co_lmlm_assume_exact_index,
+        corpus_allow_pattern=args.co_lmlm_corpus_allow,
     )
 
 
@@ -109,8 +124,10 @@ def _search_index(backend: AuditBackend) -> Any:
 
 
 def _group_key(args: argparse.Namespace, _job: Any) -> Any:
-    # One index serves every prompt file, so all jobs share one backend.
-    return args.index_path
+    # One index serves every prompt file, so all jobs share one backend —
+    # but a corpus restriction changes the effective memory, so differently
+    # restricted runs must not share one.
+    return (args.index_path, args.co_lmlm_corpus_allow)
 
 
 def _validate(args: argparse.Namespace) -> None:

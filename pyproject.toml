@@ -24,6 +24,11 @@ dependencies = [
     "requests>=2.32.5",
 ]
 
+[project.optional-dependencies]
+# litgpt is only needed to load the NULLs SeqTD checkpoints
+# (src/models/nulls_wiki/vendor); the audit core never imports it.
+nulls = ["litgpt>=0.5,<0.6"]
+
 [project.scripts]
 halo-audit = "halo.run_audit:main"
 halo-followups = "halo.analysis.followups:main"

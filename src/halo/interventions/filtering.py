@@ -94,6 +94,11 @@ class _FilteringSearchIndex:
     # exclusion (fresh ids, no source) but face the threshold, exclude_all,
     # and the value backstop like any real candidate.
     injections: tuple[Any, ...] = ()
+    # Corpus restriction (docs/NULLS_AUDIT_DESIGN.md §10): when set, a
+    # candidate for which this predicate returns True lies outside the
+    # allowed corpus and is excluded in EVERY state — it redefines the
+    # effective memory, unlike manifests, which delete within it.
+    corpus_exclude: Callable[[Any], bool] | None = None
     max_filter_overfetch: int = 4096
     # Hard ceiling on the over-retrieval budget after progressive widening.
     # A query landing in a densely-excluded region retries with a doubled
@@ -118,6 +123,8 @@ class _FilteringSearchIndex:
         source_id = _candidate_source_id(candidate)
         if self.exclude_all:
             reasons.append("del-off-all")
+        if self.corpus_exclude is not None and self.corpus_exclude(candidate):
+            reasons.append("corpus-filter")
         if entry_id in self.excluded_entry_ids:
             reasons.append("manifest-entry-id")
         if source_id is not None and source_id in self.excluded_source_ids:
@@ -148,7 +155,9 @@ class _FilteringSearchIndex:
         entry_exclusion_count = len(self.excluded_entry_ids)
         source_exclusions_are_unbounded = bool(self.excluded_source_ids)
         exclusions_are_unbounded = (
-            source_exclusions_are_unbounded or self.exclude_supporting
+            source_exclusions_are_unbounded
+            or self.exclude_supporting
+            or self.corpus_exclude is not None
         )
         if self.exclude_all:
             # Every candidate is discarded, so over-fetching buys nothing.

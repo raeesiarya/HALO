@@ -12,7 +12,7 @@ from halo.core.backend import AuditObservation
 from halo.core.metrics import contains_match
 from halo.interventions.judge import default_support_judge
 from halo.interventions.errors import AuditIntegrationError
-from halo.interventions.filtering import _FilteringSearchIndex
+from halo.interventions.filtering import _FilteringSearchIndex, _candidate_source_id
 from halo.core.examples import AuditExample, DeletionManifest
 from halo.core.states import DatabaseState
 
@@ -231,6 +231,12 @@ class CoLMLMAuditBackend:
     model_path: str | None = None
     index_path: str | None = None
     similarity_threshold: float | None = None
+    # Corpus restriction (docs/NULLS_AUDIT_DESIGN.md §10): a regex that a
+    # candidate's source_id must match to stay retrievable. Applied in every
+    # state — it redefines the effective memory (e.g. Wikipedia-only for the
+    # matched-corpus NULLs comparison), unlike manifests, which delete
+    # within it. None disables the filter.
+    corpus_allow_pattern: str | None = None
     # Synthetic index entries (adversarial survivors) active for subsequent
     # generate() calls; set/cleared by the adversarial runner.
     injections: tuple[Any, ...] = ()
@@ -247,6 +253,17 @@ class CoLMLMAuditBackend:
                 "del_off_mode must be 'null-retrieval' or 'forbid-token', "
                 f"got {self.del_off_mode!r}."
             )
+        if self.corpus_allow_pattern is not None:
+            if self.del_off_mode == "forbid-token":
+                raise ValueError(
+                    "corpus_allow_pattern cannot be combined with the "
+                    "forbid-token DEL-OFF mode: forbid-token skips the index "
+                    "wrapper entirely, so DEL-OFF would see a different "
+                    "effective memory than FULL/DEL-ON."
+                )
+            self._corpus_allow_regex = re.compile(self.corpus_allow_pattern)
+        else:
+            self._corpus_allow_regex = None
 
     @classmethod
     def from_public_release(
@@ -261,6 +278,7 @@ class CoLMLMAuditBackend:
         max_new_tokens: int = 12,
         del_off_mode: str = "null-retrieval",
         assume_exact_index: bool = False,
+        corpus_allow_pattern: str | None = None,
     ) -> "CoLMLMAuditBackend":
         release_source = None
         if source_path is not None:
@@ -321,6 +339,7 @@ class CoLMLMAuditBackend:
             generator=generator,
             del_off_mode=del_off_mode,
             assume_exact_index=assume_exact_index,
+            corpus_allow_pattern=corpus_allow_pattern,
             release_source=release_source,
             model_path=str(model_path),
             index_path=str(Path(index_path).expanduser().resolve()),
@@ -348,13 +367,13 @@ class CoLMLMAuditBackend:
         if self.injections:
             return None
         if state is DatabaseState.FULL:
-            return ("FULL",)
+            return ("FULL", self.corpus_allow_pattern)
         if state is DatabaseState.DEL_OFF:
-            return ("DEL-OFF", self.del_off_mode)
+            return ("DEL-OFF", self.del_off_mode, self.corpus_allow_pattern)
         inner = manifest_reuse_fingerprint(manifest)
         if inner is None:
             return None
-        return ("DEL-ON", inner)
+        return ("DEL-ON", inner, self.corpus_allow_pattern)
 
     def full_row_unaffected(
         self, full_row: Mapping[str, Any], manifest: DeletionManifest
@@ -413,9 +432,20 @@ class CoLMLMAuditBackend:
                 backstop_example = (
                     backstop_target if value_backstop else None
                 )
+                corpus_exclude = None
+                if self._corpus_allow_regex is not None:
+                    allow_regex = self._corpus_allow_regex
+
+                    def corpus_exclude(candidate: Any) -> bool:
+                        source_id = _candidate_source_id(candidate)
+                        return source_id is None or not allow_regex.search(
+                            str(source_id)
+                        )
+
                 filtered_index = _FilteringSearchIndex(
                     base_index=original_index,
                     example=example,
+                    corpus_exclude=corpus_exclude,
                     excluded_entry_ids=frozenset(
                         manifest.entry_ids if state is DatabaseState.DEL_ON else ()
                     ),

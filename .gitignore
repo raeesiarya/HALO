@@ -33,6 +33,9 @@ outputs/
 /out-cross-model/
 results/
 
+# Paper figures rendered by scripts/paper_figures.py
+/figures/
+
 # Per-fact closure manifests (large, regenerated from the audit results)
 /results/**/prompts_trex_closures/
 /results/prompts_trex_adversarial/closures/

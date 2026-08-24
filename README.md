@@ -96,9 +96,10 @@ sensitivity check. The controls and policy matrix can also be run separately:
 
 ## Cross-model runs
 
-The cross-model scheduler runs Co-LMLM, SmolLM2-360M, and
-CoLMLM-Standard-LM-Baseline-360M-FW over all prompt sets. Check the planned
-jobs before starting a detached run:
+The cross-model scheduler runs Co-LMLM, SmolLM2-360M,
+CoLMLM-Standard-LM-Baseline-360M-FW, and NULLs (`nulls-wiki-1b`, prep jobs
+included) over all prompt sets. Check the planned jobs before starting a
+detached run:
 
 ```bash
 ./scripts/run_cross_model_scheduler.sh --dry-run
@@ -117,18 +118,49 @@ The main configuration variables are `SETS`, `MODELS`, `GPUS`, `MAX_PARALLEL`,
 output directory is `out-cross-model/`. Repeating the same command resumes an
 interrupted run.
 
+## NULLs (parametric native unlearning)
+
+`nulls-wiki-1b` audits the released NULLs Wikipedia model (arXiv:2606.13873)
+as a third deletion paradigm: deletion excludes source-keyed sink-neuron
+masks instead of filtering an index. The comparison design — source-level
+manifests executed by both substrates, shared-encoder closures, breadth-k
+sweeps, sinks-zero vs placebo-sink DEL-OFF controls, and the verification
+gate — is specified in `docs/NULLS_AUDIT_DESIGN.md`.
+
+Everything runs through the one suite command: `nulls-wiki-1b` is in the
+cross-model scheduler's default model list, and its preparation chain is
+part of the same job graph — the shared title-embedding build, per-set
+source-title augmentation, and the striped verification gate (which emits
+the gated prompt set the audits consume) run as jobs before the `standard`,
+`del-off` (complementary DEL-OFF mode), and breadth-k `sweep` phases. The
+sweep phases appear when the shared-encoder closure artifact
+(`data/nulls-closure-embeddings.npz`, built with
+`scripts/build_nulls_title_embeddings.py --mode closure` from the article
+texts) exists.
+
+Two inputs cannot be auto-built and come from `./scripts/setup_data.sh`:
+the checkpoint download, and the training-time `title_to_index.pkl` (not
+yet publicly released; it must come from the NULLs authors — a guessed
+mapping risks silently mis-addressed sinks, so no reconstruction path is
+provided). `NULLS_PHASES`, `NULLS_DEL_OFF_MODE`,
+`NULLS_GATE_MARGIN`, `NULLS_SWEEP_K_GRID`, and the `NULLS_*` artifact-path
+variables configure the phases. The matched-corpus Co-LMLM comparison runs
+with `--co-lmlm-corpus-allow` restricting retrieval to Wikipedia sources.
+
 ## Outputs
 
 Audit outputs include JSONL results, retrieval traces, query embeddings,
 closure manifests, metric CSVs, and probe summaries. Single-dataset runs use
 `outputs/trex` by default.
 
-The analysis used for Status Update 2 can be reproduced from a completed
-cross-model result tree with:
+The paper figures can be rendered from the aggregated analysis results
+under `results/status_update_2/` with:
 
 ```bash
-uv run python scripts/status_update_2_analysis.py --stage all
+uv run python scripts/paper_figures.py
 ```
+
+Figures and suggested LaTeX captions are written to `figures/` (gitignored).
 
 ## Repository structure
 
