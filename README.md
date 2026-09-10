@@ -46,10 +46,12 @@ The run scripts set the library paths needed by the CUDA FAISS wheels.
 ## Running Co-LMLM
 
 The default run uses T-REx and the released FineWeb plus Wikipedia index. The
-index is about 1.05 TB.
+index is about 1.05 TB. `setup_colmlm.sh` builds the prompt sets and
+downloads the index; `setup_nulls.sh` fetches the NULLs artifacts (below);
+`setup_data.sh` runs both.
 
 ```bash
-./scripts/setup_data.sh
+./scripts/setup_colmlm.sh
 ./scripts/run_audit_co_lmlm.sh
 ```
 
@@ -138,14 +140,29 @@ sweep phases appear when the shared-encoder closure artifact
 `scripts/build_nulls_title_embeddings.py --mode closure` from the article
 texts) exists.
 
-Two inputs cannot be auto-built and come from `./scripts/setup_data.sh`:
-the checkpoint download, and the training-time `title_to_index.pkl` (not
-yet publicly released; it must come from the NULLs authors — a guessed
-mapping risks silently mis-addressed sinks, so no reconstruction path is
-provided). `NULLS_PHASES`, `NULLS_DEL_OFF_MODE`,
+`./scripts/setup_nulls.sh` installs the `nulls` dependency group (litgpt)
+and fetches the authors' released artifacts: the checkpoint, the
+training-time `title_to_index.pkl` the sink masks are keyed on (always the
+authors' artifact — a guessed mapping risks silently mis-addressed sinks,
+so no reconstruction path exists), and the training corpus
+(`gauravrghosal/wiki_nulls_corpus`, 6.4M articles, bijective with the
+mapping). It then builds the shared-encoder closure artifact from the
+corpus texts (GPU-hours; `SKIP_CLOSURE=1` defers it — the standard and
+DEL-OFF phases run without it, and re-submitting the suite after the build
+adds the sweep). `NULLS_PHASES`, `NULLS_DEL_OFF_MODE`,
 `NULLS_GATE_MARGIN`, `NULLS_SWEEP_K_GRID`, and the `NULLS_*` artifact-path
 variables configure the phases. The matched-corpus Co-LMLM comparison runs
 with `--co-lmlm-corpus-allow` restricting retrieval to Wikipedia sources.
+
+The released corpus is the public `wikimedia/wikipedia` `20231101.en`
+snapshot, unmodified (identical per-shard row counts; first shard identical
+row for row). That snapshot itself omits a number of prominent articles
+(e.g. *Paris*, *Germany*, *Physics*, *Autism*), so facts whose subject
+article has no sink are excluded by the source-title augmentation step and
+reported per set in `<prompts>_nulls.jsonl.exclusions.json` (measured on
+the current prompt sets: T-REx 24%, CounterFact 20%, ZsRE 10%, Google-RE
+10% excluded). Cross-substrate tables are paired on the intersection
+cohort, and the exclusion rate is reported alongside.
 
 ## Outputs
 
@@ -166,7 +183,8 @@ Figures and suggested LaTeX captions are written to `figures/` (gitignored).
 
 - `src/halo/`: audit logic, interventions, metrics, and CLI code.
 - `src/models/`: Co-LMLM and closed-book model backends.
-- `scripts/`: setup, evaluation, scheduling, and analysis scripts.
+- `scripts/`: setup (`setup_colmlm.sh`, `setup_nulls.sh`), evaluation,
+  scheduling, and analysis scripts.
 - `annotations/`: reviewed labels used by the analysis.
 
 ## License

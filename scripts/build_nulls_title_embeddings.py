@@ -5,47 +5,150 @@ Two distinct spaces, two modes (docs/NULLS_AUDIT_DESIGN.md §4):
 - ``--mode routing`` (default): embeddings of article *titles* with
   ``all-MiniLM-L6-v2`` — a faithful reproduction of upstream's next-closest
   routing space (`compute_truth_ratio.py`), consumed by the backend for
-  DEL-ON routing and placebo selection.
+  DEL-ON routing and placebo selection. The cross-model scheduler runs this
+  as a shared prep job.
 - ``--mode closure``: embeddings of article *text* with the shared external
-  encoder E that defines cross-substrate closure neighborhoods. Requires
-  ``--texts``, a jsonl/parquet with ``title`` and ``text`` columns from the
-  training dump. Never use either model's own representations here.
+  encoder E that defines cross-substrate closure neighborhoods. ``--texts``
+  is the released training corpus (``gauravrghosal/wiki_nulls_corpus``,
+  downloaded by ``scripts/setup_nulls.sh``): a directory of parquet shards,
+  one parquet file, or a jsonl — anything with ``title`` and ``text``
+  columns. Shards stream one row batch at a time and each text is cut to
+  ``--max-text-chars`` before it is held, so memory is the output matrix
+  plus one batch (never the corpus). Never use either model's own
+  representations here.
 
-Output: ``.npz`` with ``embeddings`` (float32, row-aligned with
-``title_to_index`` insertion order), ``encoder``, and ``mode``.
+Output: ``.npz`` written uncompressed — float32 embeddings do not compress,
+and every consumer would otherwise decompress ~10-20 GB on load — with
+``embeddings`` (float32, L2-normalized rows, row-aligned with
+``title_to_index`` insertion order), ``encoder`` and ``mode``.
 
 Usage:
   uv run python scripts/build_nulls_title_embeddings.py \
       --title-to-index data/nulls-title-to-index.pkl \
       --output data/nulls-title-embeddings.npz
+  uv run python scripts/build_nulls_title_embeddings.py --mode closure \
+      --title-to-index data/nulls-title-to-index.pkl \
+      --texts data/nulls-wiki-corpus/train_raw/en \
+      --output data/nulls-closure-embeddings.npz
 """
 
 from __future__ import annotations
 
 import argparse
+import json
 import pickle
+import time
 from pathlib import Path
+from typing import Iterator
 
 import numpy as np
 
 ROUTING_ENCODER = "all-MiniLM-L6-v2"  # upstream's routing space
 CLOSURE_ENCODER = "sentence-transformers/all-mpnet-base-v2"  # shared E, design §4
+DEFAULT_BATCH = {"routing": 1024, "closure": 256}
+PARQUET_ROWS_PER_BATCH = 8192
 
 
-def _load_texts(path: Path) -> dict[str, str]:
-    if path.suffix == ".parquet":
-        import pandas as pd
+def load_title_positions(path: Path) -> dict[str, int]:
+    """title -> row position in ``title_to_index`` insertion order.
 
-        frame = pd.read_parquet(path, columns=["title", "text"])
-        return dict(zip(frame["title"], frame["text"]))
-    import json
+    Rows are aligned with insertion order (the artifact contract), not with
+    the mapping's integer values — the released mapping has both identical,
+    but the contract is what the consumers rely on.
+    """
+    with open(path, "rb") as handle:
+        title_to_index = pickle.load(handle)
+    return {title: position for position, title in enumerate(title_to_index)}
 
-    texts: dict[str, str] = {}
-    with open(path, encoding="utf-8") as handle:
-        for line in handle:
-            row = json.loads(line)
-            texts[row["title"]] = row["text"]
-    return texts
+
+def _corpus_files(path: Path) -> list[Path]:
+    if path.is_dir():
+        files = sorted(path.rglob("*.parquet"))
+        if not files:
+            raise SystemExit(f"No .parquet shards under {path}.")
+        return files
+    return [path]
+
+
+def iter_text_batches(
+    path: Path, *, max_chars: int, rows_per_batch: int = PARQUET_ROWS_PER_BATCH
+) -> Iterator[tuple[list[str], list[str]]]:
+    """Yield (titles, truncated texts) batches from a parquet dir/file or jsonl."""
+    for file in _corpus_files(path):
+        if file.suffix == ".parquet":
+            import pyarrow.parquet as pq
+
+            reader = pq.ParquetFile(file)
+            for batch in reader.iter_batches(
+                columns=["title", "text"], batch_size=rows_per_batch
+            ):
+                titles = batch.column("title").to_pylist()
+                texts = [
+                    str(text or "")[:max_chars]
+                    for text in batch.column("text").to_pylist()
+                ]
+                yield titles, texts
+            continue
+        titles, texts = [], []
+        with open(file, encoding="utf-8") as handle:
+            for line in handle:
+                if not line.strip():
+                    continue
+                row = json.loads(line)
+                titles.append(str(row["title"]))
+                texts.append(str(row.get("text") or "")[:max_chars])
+                if len(titles) >= rows_per_batch:
+                    yield titles, texts
+                    titles, texts = [], []
+        if titles:
+            yield titles, texts
+
+
+def encode_closure(
+    positions: dict[str, int],
+    batches: Iterator[tuple[list[str], list[str]]],
+    *,
+    encoder,
+    batch_size: int,
+    log_every: int = 50,
+) -> tuple[np.ndarray, np.ndarray]:
+    """Stream the corpus into a preallocated (titles x dim) matrix.
+
+    Returns the matrix and a boolean coverage vector (which rows received a
+    text). Corpus rows whose title is not in the mapping are ignored.
+    """
+    dim = int(encoder.get_sentence_embedding_dimension())
+    embeddings = np.zeros((len(positions), dim), dtype=np.float32)
+    covered = np.zeros(len(positions), dtype=bool)
+    seen = 0
+    started = time.time()
+    for batch_index, (titles, texts) in enumerate(batches, start=1):
+        rows, kept_texts = [], []
+        for title, text in zip(titles, texts):
+            position = positions.get(title)
+            if position is None:
+                continue
+            rows.append(position)
+            kept_texts.append(text)
+        seen += len(titles)
+        if rows:
+            vectors = encoder.encode(
+                kept_texts,
+                batch_size=batch_size,
+                show_progress_bar=False,
+                convert_to_numpy=True,
+                normalize_embeddings=True,
+            )
+            embeddings[rows] = vectors.astype(np.float32, copy=False)
+            covered[rows] = True
+        if batch_index % log_every == 0:
+            rate = seen / max(time.time() - started, 1e-9)
+            print(
+                f"  {seen:,} rows read, {int(covered.sum()):,}/{len(positions):,} "
+                f"sources covered ({rate:,.0f} rows/s)",
+                flush=True,
+            )
+    return embeddings, covered
 
 
 def main() -> None:
@@ -63,48 +166,62 @@ def main() -> None:
         "--texts",
         type=Path,
         default=None,
-        help="closure mode: jsonl/parquet with 'title' and 'text' columns; "
-        "the first --max-text-chars of each text are encoded.",
+        help="closure mode: directory of parquet shards, one parquet file, "
+        "or a jsonl, with 'title' and 'text' columns.",
     )
     parser.add_argument("--max-text-chars", type=int, default=2000)
-    parser.add_argument("--batch-size", type=int, default=1024)
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=None,
+        help=f"encoder batch size (defaults: {DEFAULT_BATCH}).",
+    )
     args = parser.parse_args()
 
     encoder_name = args.encoder or (
         ROUTING_ENCODER if args.mode == "routing" else CLOSURE_ENCODER
     )
-    with open(args.title_to_index, "rb") as handle:
-        title_to_index = pickle.load(handle)
-    titles = list(title_to_index)
-
-    if args.mode == "routing":
-        inputs = titles
-    else:
-        if args.texts is None:
-            raise SystemExit("--mode closure requires --texts (title/text corpus).")
-        texts = _load_texts(args.texts)
-        missing = [title for title in titles if title not in texts]
-        if missing:
-            raise SystemExit(
-                f"{len(missing)} titles have no text in {args.texts} "
-                f"(first: {missing[:3]!r}); closure embeddings must cover "
-                "every source or neighborhoods are silently biased."
-            )
-        inputs = [texts[title][: args.max_text_chars] for title in titles]
+    batch_size = args.batch_size or DEFAULT_BATCH[args.mode]
+    positions = load_title_positions(args.title_to_index)
+    print(f"{len(positions):,} sources; encoder {encoder_name}; mode {args.mode}")
 
     from sentence_transformers import SentenceTransformer
 
-    model = SentenceTransformer(encoder_name)
-    embeddings = model.encode(
-        inputs,
-        batch_size=args.batch_size,
-        show_progress_bar=True,
-        convert_to_numpy=True,
-        normalize_embeddings=True,
-    ).astype(np.float32)
+    encoder = SentenceTransformer(encoder_name)
+
+    if args.mode == "routing":
+        titles = list(positions)
+        embeddings = encoder.encode(
+            titles,
+            batch_size=batch_size,
+            show_progress_bar=True,
+            convert_to_numpy=True,
+            normalize_embeddings=True,
+        ).astype(np.float32, copy=False)
+    else:
+        if args.texts is None:
+            raise SystemExit("--mode closure requires --texts (title/text corpus).")
+        embeddings, covered = encode_closure(
+            positions,
+            iter_text_batches(args.texts, max_chars=args.max_text_chars),
+            encoder=encoder,
+            batch_size=batch_size,
+        )
+        if not covered.all():
+            missing = [
+                title for title, position in positions.items() if not covered[position]
+            ]
+            report = args.output.with_suffix(".missing.txt")
+            report.parent.mkdir(parents=True, exist_ok=True)
+            report.write_text("\n".join(missing) + "\n", encoding="utf-8")
+            raise SystemExit(
+                f"{len(missing):,} of {len(positions):,} sources have no text in "
+                f"{args.texts} (list: {report}); closure embeddings must cover "
+                "every source or neighborhoods are silently biased."
+            )
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    np.savez_compressed(
+    np.savez(
         args.output,
         embeddings=embeddings,
         encoder=np.str_(encoder_name),

@@ -26,7 +26,15 @@ Files and the edits made (everything else is verbatim):
   `.seqtd_model`.
 - `seqtd_model.py` — `CausalSelfAttention`, `LLaMAMLPSeqTD`, `BlockSeqTD`,
   `GPTSeqTD` from `MemSinks/src/src/SeqTDModel.py`. Edits: imports rewritten
-  (mask function from `.masking`); debug `print`s dropped;
+  (mask function from `.masking`); `do_softcapping` imported with a
+  fallback definition (verbatim from litgpt 0.5.5) because the repo's
+  torch<2.5 pin caps litgpt at 0.5.4, which predates it — the released
+  checkpoint has both softcapping options null, so the function is never
+  called for it, and every other litgpt helper the code uses
+  (`apply_rope` with 3-D cos/sin, `build_rope_cache`, `build_mask_cache`,
+  `KVCache`, `batched_index_select`) is signature- and
+  semantics-compatible between 0.5.4 and the 0.5.5+ the upstream code was
+  written against; debug `print`s dropped;
   `LLaMAMLPSeqTD.forward` additionally accepts a *sequence* of
   `exclude_seq_ids` tensors whose masks are unioned before exclusion
   (upstream supports a single id; the single-id path is unchanged and the

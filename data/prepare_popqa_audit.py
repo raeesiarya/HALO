@@ -51,6 +51,13 @@ def main() -> None:
         answers = _acceptable_answers(record["possible_answers"])
         if not answers:
             continue
+        # PopQA's `s_wiki_title` is the exact Wikipedia article title of the
+        # subject: it is the provenance source the NULLs audit resolves sink
+        # masks on (models.nulls_wiki.titles), and it gives the analysis a
+        # real (subject, relation, answer) proposition key. `subj` is the
+        # surface form, kept as an alias when it differs.
+        subject = str(record.get("s_wiki_title") or record.get("subj") or "").strip() or None
+        surface = str(record.get("subj") or "").strip()
         prompt_rows.append(
             {
                 "prompt_id": record.get("id"),
@@ -61,6 +68,9 @@ def main() -> None:
                 "prompt_text": f"{record['question']}\nThe answer is",
                 "gold_object": answers[0],
                 "answer_aliases": answers[1:],
+                "subject": subject,
+                "subject_aliases": [surface] if surface and surface != subject else [],
+                "predicate_id": record.get("prop"),
             }
         )
 

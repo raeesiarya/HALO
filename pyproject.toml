@@ -24,10 +24,17 @@ dependencies = [
     "requests>=2.32.5",
 ]
 
-[project.optional-dependencies]
 # litgpt is only needed to load the NULLs SeqTD checkpoints
-# (src/models/nulls_wiki/vendor); the audit core never imports it.
+# (src/models/nulls_wiki/vendor); the audit core never imports it. It is a
+# *default* dependency group rather than an extra because the run scripts
+# call a plain `uv sync` (exact by default), which would strip an extra
+# that setup had installed — mid-run, under the cross-model scheduler,
+# that would break every NULLs job starting after a Co-LMLM phase synced.
+[dependency-groups]
 nulls = ["litgpt>=0.5,<0.6"]
+
+[tool.uv]
+default-groups = ["nulls"]
 
 [project.scripts]
 halo-audit = "halo.run_audit:main"

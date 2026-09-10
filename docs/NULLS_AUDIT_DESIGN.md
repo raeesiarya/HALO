@@ -5,10 +5,18 @@ Status: design locked; v1 implemented 2026-08-24 (backend
 `src/halo/interventions/source_closure.py`, corpus filter
 `--co-lmlm-corpus-allow`; the whole pipeline — prep chain included — runs as
 one job graph via `scripts/run_suite_parallel_cross_model.sh`, artifacts via
-`scripts/setup_data.sh`). Outstanding: the authors' `title_to_index.pkl`
-(deliberately no reconstruction path — a guessed mapping risks silently
-mis-addressed sinks), the closure-embedding artifact (needs the training
-dump's article texts, same reason), and the shared-adversarial phase (§8).
+`scripts/setup_nulls.sh`). Authors' artifacts released 2026-09-10 and
+verified: `title_to_index.pkl` (6,407,814 raw MediaWiki titles, index =
+insertion position, zero ambiguity under the §9 title rule; still never
+reconstructed — a guessed mapping risks silently mis-addressed sinks) and
+the training corpus `gauravrghosal/wiki_nulls_corpus` — the unmodified
+public `wikimedia/wikipedia` `20231101.en` snapshot (verified: identical
+per-shard row counts, first shard identical row for row), bijective with
+the mapping. That snapshot itself omits a number of prominent articles
+(Paris, Germany, Physics, ...), which surfaces as the §9 exclusion rate:
+T-REx 24%, CounterFact 20%, ZsRE 10%, Google-RE 10% on the current prompt
+sets. The closure-embedding artifact is built from that
+corpus in setup. Outstanding: the shared-adversarial phase (§8).
 Companion analysis: `reviews/ghosal-2026-nulls.md`.
 Target standard: every design choice here should survive an adversarial
 NeurIPS-style review. Each section ends with the objections we expect and the

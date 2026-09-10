@@ -9,16 +9,23 @@ article titles in ``source_ids`` (the augmentation script writes the
 provenance-source manifest into prompt rows; source-level closures extend
 this).
 
-Required artifacts, none derivable from the checkpoint:
+Required artifacts, none derivable from the checkpoint; all released by the
+authors (2026-09-10) and fetched by ``scripts/setup_nulls.sh``:
 
-- checkpoint dir (``gauravrghosal/NULLS-Wikipedia-Full``): ``lit_model.pth``
-  + ``model_config.yaml`` + tokenizer files;
-- ``title_to_index.pkl``: training-time title -> integer mapping (the
-  authors' artifact; not reconstructable without risking silently
-  mis-addressed sinks);
-- title embeddings (optional but required for DEL-ON routing, the
-  placebo-sink DEL-OFF mode, and source-level geometric closures): build
-  with ``scripts/build_nulls_title_embeddings.py``.
+- checkpoint dir (``gauravrghosal/NULLS-Wikipedia-Full``, its ``final/``
+  contents flattened): ``lit_model.pth`` + ``model_config.yaml`` +
+  tokenizer files;
+- ``title_to_index.pkl``: the training-time title -> integer mapping the
+  sink masks are keyed on (6,407,814 raw MediaWiki titles, index = insertion
+  position). Always the authors' artifact — a guessed mapping can silently
+  mis-address sinks;
+- title embeddings (required for DEL-ON routing, the placebo-sink DEL-OFF
+  mode, and source-level geometric closures): built by
+  ``scripts/build_nulls_title_embeddings.py`` (routing space as a scheduler
+  prep job; closure space from the released corpus in setup).
+
+The seq id fed to the model is ``index + vocab_size`` (49152), matching
+upstream's tokenizer-side offset that keeps source ids disjoint from tokens.
 """
 
 from __future__ import annotations
@@ -98,13 +105,12 @@ def _validate(args: argparse.Namespace) -> None:
         raise ValueError(
             f"--nulls-checkpoint-dir {args.nulls_checkpoint_dir!r} is not a "
             "directory; download gauravrghosal/NULLS-Wikipedia-Full first "
-            "(scripts/setup_data.sh)."
+            "(scripts/setup_nulls.sh)."
         )
     if not Path(args.nulls_title_to_index).is_file():
         raise ValueError(
             f"--nulls-title-to-index {args.nulls_title_to_index!r} not found; "
-            "obtain the authors' title_to_index.pkl or build a candidate "
-            "mapping and validate it with scripts/nulls_verification_gate.py."
+            "scripts/setup_nulls.sh downloads the authors' title_to_index.pkl."
         )
     if args.nulls_del_off_mode == "placebo-sink" and not args.nulls_title_embeddings:
         raise ValueError(

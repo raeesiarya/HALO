@@ -19,7 +19,8 @@
 #     standard audit, the complementary DEL-OFF sensitivity run, and — when
 #     the shared-encoder closure artifact exists — the source-closure build
 #     plus one breadth-k sweep group per k. Requires the artifacts from
-#     ./scripts/setup_data.sh (checkpoint + title_to_index.pkl).
+#     ./scripts/setup_nulls.sh (checkpoint, title_to_index.pkl, and the
+#     closure artifact for the sweep).
 # SCHEDULER_SHARDS=N stripes every fact-striped phase (Co-LMLM and NULLs,
 # gate included) into N single-GPU jobs each.
 #

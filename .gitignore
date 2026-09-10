@@ -43,6 +43,15 @@ results/
 # Downloaded model checkpoints
 checkpoints/
 
+# NULLs artifacts (scripts/setup_nulls.sh): checkpoint, title mapping,
+# training corpus, routing/closure embedding artifacts, download staging
+/data/nulls-wikipedia-full/
+/data/nulls-wiki-corpus/
+/data/nulls-title-to-index.pkl
+/data/nulls-*.npz
+/data/nulls-*.missing.txt
+/data/.nulls-download/
+
 # Downloaded fineweb+wiki index (~1.05 TB); keep the old wiki-only path too
 /data/co-lmlm-fineweb-wiki-index/
 /data/co-lmlm-wiki-index/

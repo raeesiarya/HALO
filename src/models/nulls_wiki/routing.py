@@ -30,6 +30,8 @@ from typing import Mapping, Sequence
 
 import numpy as np
 
+from halo.core.embeddings import normalize_rows_inplace
+
 
 DEFAULT_PLACEBO_SIMILARITY_CEILING = 0.5
 _PLACEBO_MAX_ATTEMPTS = 10_000
@@ -58,9 +60,10 @@ class SinkRegistry:
                     f"title count ({len(self._titles)}); the artifact must be "
                     "row-aligned with title_to_index insertion order."
                 )
-            norms = np.linalg.norm(self.embeddings, axis=1, keepdims=True)
-            norms[norms == 0.0] = 1.0
-            self.embeddings = (self.embeddings / norms).astype(np.float32)
+            # The released mapping has 6.4M sources, so the routing matrix is
+            # ~10 GB per process (one process per shard job): normalize in
+            # place, chunked, instead of materializing two full copies.
+            self.embeddings = normalize_rows_inplace(self.embeddings)
 
     @classmethod
     def load(
@@ -197,12 +200,25 @@ class SinkRegistry:
 
 
 def _load_embeddings(path: str | Path) -> tuple[np.ndarray, str | None]:
-    """Load a title-embedding artifact (.npz with 'embeddings' [+ 'encoder'],
-    or upstream's raw-pickled matrix)."""
+    """Load a title-embedding artifact (.npz with 'embeddings' [+ 'encoder',
+    'mode'], or upstream's raw-pickled matrix).
+
+    Rejects closure-space artifacts: routing (titles, MiniLM) and closure
+    (article texts, shared E) are distinct spaces by design (§4) and must
+    never be swapped, in either direction.
+    """
     path = Path(path)
     if path.suffix == ".npz":
         with np.load(path, allow_pickle=False) as archive:
-            embeddings = np.asarray(archive["embeddings"], dtype=np.float32)
+            if "mode" in archive.files and str(archive["mode"]) != "routing":
+                raise ValueError(
+                    f"{path} is a {str(archive['mode'])!r}-space artifact; the "
+                    "sink registry needs the routing space "
+                    "(scripts/build_nulls_title_embeddings.py --mode routing)."
+                )
+            embeddings = archive["embeddings"]
+            if embeddings.dtype != np.float32:
+                embeddings = embeddings.astype(np.float32)
             encoder = None
             if "encoder" in archive.files:
                 encoder = str(archive["encoder"])

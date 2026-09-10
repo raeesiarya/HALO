@@ -104,8 +104,15 @@ def load_seqtd_checkpoint(
         if isinstance(value, torch.Tensor)
     }
 
-    with torch.device("meta"):
-        model = GPTSeqTD(config)
+    # Instantiate on the CPU, not the meta device: the RoPE cos/sin caches are
+    # non-persistent buffers built in __init__ (and rebuilt on *their current
+    # device* by the max_seq_length setter), so they are absent from the
+    # state dict. A meta-initialized model keeps meta buffers after
+    # load_state_dict(assign=True), and .to(device) then fails with "Cannot
+    # copy out of meta tensor" — verified against the released weights
+    # (2026-09-11). The transient fp32 init (~4 GB host RAM, a few seconds)
+    # is replaced by the mmap'd checkpoint tensors on assign.
+    model = GPTSeqTD(config)
     model.load_state_dict(state, strict=True, assign=True)
     model.max_seq_length = TRAINED_CONTEXT
     model = model.to(dtype=dtype, device=device)

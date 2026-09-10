@@ -31,6 +31,7 @@ from typing import Callable, Mapping
 
 import numpy as np
 
+from halo.core.embeddings import normalize_rows_inplace
 from halo.core.equivalence import build_alias_set, prompt_row_aliases
 from halo.core.metrics import contains_match
 
@@ -51,9 +52,10 @@ class SourceSpace:
                 f"{self.embeddings.shape[0]} embedding rows for "
                 f"{len(self.titles)} titles; the artifact must be row-aligned."
             )
-        norms = np.linalg.norm(self.embeddings, axis=1, keepdims=True)
-        norms[norms == 0.0] = 1.0
-        self.embeddings = (self.embeddings / norms).astype(np.float32)
+        # ~20 GB for the released corpus (6.4M x 768 float32): normalize in
+        # place rather than allocating two more full copies. A float32
+        # C-contiguous input array is modified in place.
+        self.embeddings = normalize_rows_inplace(self.embeddings)
         self._position = {title: i for i, title in enumerate(self.titles)}
 
     @classmethod
@@ -61,7 +63,7 @@ class SourceSpace:
         cls, *, titles: list[str] | tuple[str, ...], embeddings_path: str | Path
     ) -> "SourceSpace":
         with np.load(embeddings_path, allow_pickle=False) as archive:
-            embeddings = np.asarray(archive["embeddings"], dtype=np.float32)
+            embeddings = archive["embeddings"]  # float32 from the builder: no copy
             encoder = str(archive["encoder"]) if "encoder" in archive.files else None
             mode = str(archive["mode"]) if "mode" in archive.files else None
         if mode == "routing":

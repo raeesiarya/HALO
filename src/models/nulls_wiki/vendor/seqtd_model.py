@@ -23,9 +23,19 @@ from litgpt.model import (
     batched_index_select,
     build_mask_cache,
     build_rope_cache,
-    do_softcapping,
 )
 from litgpt.scripts.convert_hf_checkpoint import qkv_reassemble
+
+try:  # litgpt >= 0.5.5
+    from litgpt.model import do_softcapping
+except ImportError:
+    # litgpt 0.5.4 is the newest release compatible with the repo's
+    # torch<2.5 pin, and it predates do_softcapping. This is upstream's
+    # definition verbatim (litgpt 0.5.5 model.py). The released NULLs
+    # checkpoint sets both attention_logit_softcapping and
+    # final_logit_softcapping to null, so it is never invoked for it.
+    def do_softcapping(x: torch.Tensor, thresh: float) -> torch.Tensor:
+        return torch.tanh(x / thresh) * thresh
 
 from models.nulls_wiki.vendor.masking import (
     batch_seqtied_mask_mult,

@@ -166,7 +166,7 @@ def fig_baselines(NUM, figdir):
             zorder=4,
         )
         ax.annotate(
-            f"{L:.0f}",
+            f"{L:.1f}",
             (L, yi),
             textcoords="offset points",
             xytext=(0, 5.5),
@@ -260,7 +260,7 @@ def fig_probe(GRP, figdir):
             zorder=4,
         )
         ax.annotate(
-            f"{beh:.0f}",
+            f"{beh:.1f}",
             (beh, yi),
             textcoords="offset points",
             xytext=(0, 5.5),
@@ -269,7 +269,7 @@ def fig_probe(GRP, figdir):
             color=BLUE,
         )
         ax.annotate(
-            f"{prb:.0f}",
+            f"{prb:.1f}",
             (prb, yi),
             textcoords="offset points",
             xytext=(0, 5.5),
@@ -433,43 +433,55 @@ def fig_entanglement_sweep(NUM, figdir):
 
 # ------------------------------------------------- 5. entanglement outcomes
 def fig_entanglement_outcomes(NUM, figdir):
-    fig, ax = plt.subplots(figsize=(W, 1.55))
-    y = np.arange(len(DATASETS))[::-1]
+    fig, ax = plt.subplots(figsize=(W, 2.5))
+    y = np.arange(len(DATASETS))[::-1] * 1.0
     segs = [
         ("clean", AQUA, "forgotten cleanly", "white"),
         ("cost", GRID, "forgotten at a cost to neighbors", INK2),
         ("never", INK2, "never forgotten", "white"),
     ]
+    PALE = "#f4f3ee"
+    bh = 0.24
+    offs = (("co", 0.27), ("smol", 0.0), ("std", -0.27))
+    row_label = {"co": "Co-LMLM", "smol": "SmolLM2", "std": "Std-LM"}
     for d, yi in zip(DATASETS, y):
         g0 = pct(NUM["entanglement"][d]["share_gap_zero"])
         g1 = pct(NUM["entanglement"][d]["share_gap_one"])
         vals = {"clean": g0, "cost": 100 - g0 - g1, "never": g1}
+        yb = yi + dict(offs)["co"]
         left = 0.0
         for key, color, _, ink in segs:
             v = vals[key]
-            ax.barh(
-                yi, v, 0.62, left=left, color=color, edgecolor="white", linewidth=1.4
-            )
-            if v >= 6:
-                ax.text(
-                    left + v / 2,
-                    yi,
-                    f"{v:.0f}",
-                    ha="center",
-                    va="center",
-                    fontsize=6,
-                    color=ink,
-                )
+            ax.barh(yb, v, bh, left=left, color=color, edgecolor="white", linewidth=1.0)
+            if v >= 9:
+                ax.text(left + v / 2, yb, f"{v:.1f}", ha="center", va="center", fontsize=5.5, color=ink)
             left += v
+        # Memory-free baselines on the same facts: the dark share is
+        # closed-book answerability (unforgettable without retraining),
+        # the pale remainder was never answered.
+        for model, okey in ((SMOL, "smol"), (STD, "std")):
+            r = pct(NUM["datasets"][d]["baselines"][model]["rate_on_full_correct"])
+            yb = yi + dict(offs)[okey]
+            ax.barh(yb, r, bh, left=0, color=INK2, edgecolor="white", linewidth=1.0)
+            ax.barh(yb, 100 - r, bh, left=r, color=PALE, edgecolor="white", linewidth=1.0)
+            if r >= 9:
+                ax.text(r / 2, yb, f"{r:.1f}", ha="center", va="center", fontsize=5.5, color="white")
+            else:
+                ax.text(r + 1.2, yb, f"{r:.1f}", ha="left", va="center", fontsize=5.5, color=INK2)
+        for okey, off in offs:
+            ax.text(100.9, yi + off, row_label[okey], va="center", fontsize=5, color=INK2, clip_on=False)
     ax.set_yticks(y, [DS_LABEL[d] for d in DATASETS])
     ax.set_xlim(0, 100)
+    ax.set_ylim(-0.55, len(DATASETS) - 0.45 + 0.35)
     ax.spines["bottom"].set_visible(False)
     ax.tick_params(bottom=False, labelbottom=False)
     handles = [plt.Rectangle((0, 0), 1, 1, color=c) for _, c, _, _ in segs]
+    handles.append(plt.Rectangle((0, 0), 1, 1, color=PALE, ec=AXIS, lw=0.5))
+    labels = [lab for _, _, lab, _ in segs] + ["never answered closed-book"]
     ax.legend(
         handles,
-        [lab for _, _, lab, _ in segs],
-        ncol=3,
+        labels,
+        ncol=2,
         loc="lower left",
         bbox_to_anchor=(-0.02, 0.99),
         borderpad=0,
@@ -509,7 +521,7 @@ def fig_policies(PF, figdir):
         "R_full",
         "policies_survival",
         xmax=80,
-        fmt=lambda v: f"{v:.0f}",
+        fmt=lambda v: f"{v:.1f}",
         xlabel="facts surviving deletion via retrieval, $R$ (%)",
     )
     _policy_panels(
@@ -549,7 +561,7 @@ def fig_factq_vs_value(PF, figdir):
                 zorder=3,
             )
         ax.annotate(
-            f"{vals['factq']:.0f}",
+            f"{vals['factq']:.1f}",
             (vals["factq"], yi),
             textcoords="offset points",
             xytext=(0, 5.5),
@@ -610,7 +622,7 @@ def fig_factq_coverage(figdir):
                 ax.text(
                     left + share / 2,
                     yi,
-                    f"{share:.0f}",
+                    f"{share:.1f}",
                     ha="center",
                     va="center",
                     fontsize=6,

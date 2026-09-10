@@ -176,7 +176,7 @@ for name in $SETS; do
     }
     if [ ! -f "$prompts" ]; then
         echo "error: prompt file for '$name' not found: $prompts" >&2
-        echo "       build it first with scripts/setup_data.sh" >&2
+        echo "       build it first with scripts/setup_colmlm.sh" >&2
         exit 1
     fi
 done
