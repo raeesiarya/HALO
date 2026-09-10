@@ -749,3 +749,27 @@ def test_run_jobs_blocks_only_dependents_after_failure(tmp_path: Path) -> None:
     assert independent_output.exists()
     assert not (tmp_path / "logs" / "child.log").exists()
     assert not (tmp_path / "logs" / "grandchild.log").exists()
+
+
+def test_detect_gpus_precedence_and_fallbacks(monkeypatch) -> None:
+    from halo import scheduler
+
+    assert scheduler._detect_gpus({"GPUS": "2, 5"}) == ("2", "5")
+    assert scheduler._detect_gpus({"GPUS": "1", "CUDA_VISIBLE_DEVICES": "3"}) == ("1",)
+    assert scheduler._detect_gpus({"CUDA_VISIBLE_DEVICES": "3,4"}) == ("3", "4")
+
+    class Listing:
+        stdout = "0\n1\n\n2\n"
+
+    monkeypatch.setattr(scheduler.shutil, "which", lambda name: "/usr/bin/nvidia-smi")
+    monkeypatch.setattr(scheduler.subprocess, "run", lambda *a, **k: Listing())
+    assert scheduler._detect_gpus({}) == ("0", "1", "2")
+    assert scheduler._detect_gpus({"GPUS": "  "}) == ("0", "1", "2")  # blank = unset
+
+    def broken(*a, **k):
+        raise scheduler.subprocess.TimeoutExpired("nvidia-smi", 30)
+
+    monkeypatch.setattr(scheduler.subprocess, "run", broken)
+    assert scheduler._detect_gpus({}) == ()
+    monkeypatch.setattr(scheduler.shutil, "which", lambda name: None)
+    assert scheduler._detect_gpus({}) == ()

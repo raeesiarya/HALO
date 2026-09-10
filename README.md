@@ -116,9 +116,10 @@ tail -F out-cross-model/_scheduler.log
 ```
 
 The main configuration variables are `SETS`, `MODELS`, `GPUS`, `MAX_PARALLEL`,
-`SCHEDULER_SHARDS`, `SUITE_WORKERS`, `INDEX_DIR`, and `OUT_ROOT`. The default
-output directory is `out-cross-model/`. Repeating the same command resumes an
-interrupted run.
+`SCHEDULER_SHARDS`, `SUITE_WORKERS`, `INDEX_DIR`, and `OUT_ROOT`. `GPUS`
+defaults to every GPU `nvidia-smi` reports (or `CUDA_VISIBLE_DEVICES` when
+set). The default output directory is `out-cross-model/`. Repeating the same
+command resumes an interrupted run.
 
 ## NULLs (parametric native unlearning)
 

@@ -167,6 +167,34 @@ class SchedulerSignal(Exception):
         super().__init__(f"received signal {signum}")
 
 
+def _detect_gpus(environ: Mapping[str, str] | None = None) -> tuple[str, ...]:
+    """GPU ids to schedule on when none are given explicitly.
+
+    Precedence: ``GPUS`` (explicit) > ``CUDA_VISIBLE_DEVICES`` (an outer
+    restriction the operator already chose) > every GPU ``nvidia-smi``
+    reports. Returns () when nothing is found; callers decide whether that
+    is an error (a real run) or fine (a dry run).
+    """
+    environ = os.environ if environ is None else environ
+    for name in ("GPUS", "CUDA_VISIBLE_DEVICES"):
+        value = environ.get(name)
+        if value is not None and value.strip():
+            return _csv(value)
+    if shutil.which("nvidia-smi"):
+        try:
+            listing = subprocess.run(
+                ("nvidia-smi", "--query-gpu=index", "--format=csv,noheader"),
+                capture_output=True,
+                text=True,
+                check=True,
+                timeout=30,
+            ).stdout
+        except (OSError, subprocess.SubprocessError):
+            return ()
+        return tuple(line.strip() for line in listing.splitlines() if line.strip())
+    return ()
+
+
 def _csv(value: str) -> tuple[str, ...]:
     # Support comma- and space-separated values.
     return tuple(part for part in value.replace(",", " ").split() if part)
@@ -1824,8 +1852,9 @@ def _parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument(
         "--gpus",
-        default=os.environ.get("GPUS", "0,1,2,3,4,5,6,7"),
-        help="Comma-separated physical GPU ids.",
+        default=None,
+        help="Comma-separated physical GPU ids. Default: GPUS, else "
+        "CUDA_VISIBLE_DEVICES, else every GPU nvidia-smi reports.",
     )
     parser.add_argument(
         "--max-parallel",
@@ -1903,7 +1932,18 @@ def main(argv: Sequence[str] | None = None) -> int:
     datasets = _csv(args.sets)
     models = _csv(args.models)
     phases = _csv(args.phases)
-    gpus = _csv(args.gpus)
+    gpus = _csv(args.gpus) if args.gpus else _detect_gpus()
+    if not gpus:
+        if args.dry_run:
+            gpus = ("0",)
+            print("note: no GPUs detected; planning with one slot.", file=sys.stderr)
+        else:
+            print(
+                "error: no GPUs detected (nvidia-smi found none or is not "
+                "installed); pass --gpus or set GPUS=0,1,...",
+                file=sys.stderr,
+            )
+            return 2
     out_root = args.out_root.expanduser().resolve()
     co_lmlm_dir = args.co_lmlm_dir.expanduser().resolve()
     index_dir = args.index_dir.expanduser().resolve()

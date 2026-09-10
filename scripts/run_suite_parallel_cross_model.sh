@@ -32,7 +32,8 @@
 # Config (env), matching run_suite_parallel_co_lmlm.sh where it applies:
 #   SETS             space- or comma-separated prompt sets (default: all five)
 #   OUT_ROOT         parent output dir (default: $REPO_ROOT/out-cross-model)
-#   GPUS             comma-separated GPU ids (default: 0,1,2,3,4,5,6,7)
+#   GPUS             comma-separated GPU ids (default: CUDA_VISIBLE_DEVICES if
+#                    set, else every GPU nvidia-smi reports)
 #   MAX_PARALLEL     concurrent jobs (default: len(GPUS))
 #   CO_LMLM_DIR      Co-LMLM checkout (default: ../Co-LMLM; cloned if absent)
 #   INDEX_DIR        fineweb+wiki index (default: data/co-lmlm-fineweb-wiki-index)
