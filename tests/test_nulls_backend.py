@@ -435,6 +435,44 @@ class TestSourceClosure:
         )
         assert expanded["deletion_manifest"]["source_ids"] == ["Alpha", "Beta"]
 
+    def test_nearest_many_matches_nearest(self):
+        rng = np.random.default_rng(0)
+        titles = tuple(f"T{i}" for i in range(60))
+        space = SourceSpace(titles=titles, embeddings=rng.normal(size=(60, 8)).astype(np.float32))
+        bulk = space.nearest_many(["T3", "T17", "T3", "T59"], 5, query_chunk=2, row_chunk=7)
+        assert set(bulk) == {"T3", "T17", "T59"}
+        for title, neighbors in bulk.items():
+            assert [t for t, _ in neighbors] == [t for t, _ in space.nearest(title, 5)]
+            assert title not in {t for t, _ in neighbors}
+        assert space.nearest_many(["T3"], 0) == {"T3": []}
+
+    def test_expand_row_with_precomputed_neighbors_and_hits(self):
+        space = _space()
+        neighbors = space.nearest("Alpha", 3)
+        expanded = expand_row(
+            _closure_row(), space=space, predicate="hybrid", k=1, envelope_k=3,
+            neighbors=neighbors, value_hits={"Beta", "Delta", "NotInEnvelope"},
+        )
+        # hybrid = geometric-1 (Beta) ∩ value hits within the envelope
+        assert expanded["deletion_manifest"]["source_ids"] == ["Alpha", "Beta"]
+        expanded = expand_row(
+            _closure_row(), space=space, predicate="value", k=0, envelope_k=3,
+            neighbors=neighbors, value_hits={"Beta", "Delta", "NotInEnvelope"},
+        )
+        assert expanded["deletion_manifest"]["source_ids"] == ["Alpha", "Beta", "Delta"]
+        with pytest.raises(ValueError, match="needed"):
+            expand_row(_closure_row(), space=space, predicate="geometric", k=3, neighbors=neighbors[:1])
+
+    def test_answer_mentioned_is_whole_phrase_and_alias_aware(self):
+        from halo.interventions.source_closure import answer_mentioned, normalized_answer_aliases
+        from halo.core.equivalence import normalize_text
+        row = {"gold_object": "Beta City", "answer_aliases": ["Betaville"]}
+        aliases = normalized_answer_aliases(row)
+        assert answer_mentioned(normalize_text("Welcome to Betaville."), aliases)
+        assert answer_mentioned(normalize_text("The Beta City council"), aliases)
+        assert not answer_mentioned(normalize_text("Beta Cityscape"), aliases)  # not whole phrase
+        assert not answer_mentioned(normalize_text("Beta"), aliases)
+
     def test_routing_space_artifact_rejected(self, tmp_path):
         artifact = tmp_path / "routing.npz"
         np.savez(
@@ -632,7 +670,7 @@ def _scheduler_repo(
     routing_artifact: bool = False,
     checkpoint: bool = True,
     title_to_index: bool = True,
-) -> Path:
+ corpus=False) -> Path:
     repo = tmp_path / "repo"
     (repo / "data").mkdir(parents=True)
     (repo / "scripts").mkdir()
@@ -651,6 +689,10 @@ def _scheduler_repo(
         (repo / "data" / "nulls-title-embeddings.npz").write_bytes(b"stub")
     if closure_artifact:
         (repo / "data" / "nulls-closure-embeddings.npz").write_bytes(b"stub")
+    if corpus:
+        shards = repo / "data" / "nulls-wiki-corpus" / "train_raw" / "en"
+        shards.mkdir(parents=True)
+        (shards / "train-00000-of-00001.parquet").write_bytes(b"stub")
     return repo
 
 
@@ -712,6 +754,42 @@ class TestSchedulerNulls:
         sweep = by_phase["sweep-k1"]
         assert by_phase["prep-closures"].key in sweep.dependencies
         assert by_phase["standard"].key in sweep.dependencies
+
+    def test_closure_artifact_and_corpus_enable_policy_rows(self, tmp_path):
+        repo = _scheduler_repo(tmp_path, closure_artifact=True, corpus=True)
+        jobs = _build_nulls_jobs(repo, env={"NULLS_POLICY_K": "8"})
+        by_phase = {job.phase: job for job in jobs}
+        assert {"prep-policy-closures", "policy-value", "policy-hybrid"} <= set(by_phase)
+        closures = by_phase["prep-policy-closures"]
+        cmd = closures.command
+        assert cmd[cmd.index("--predicate") + 1] == "value,hybrid"
+        assert cmd[cmd.index("--k-grid") + 1] == "8"
+        assert cmd[cmd.index("--texts") + 1].endswith("nulls-wiki-corpus")
+        assert by_phase["prep-gate"].key in closures.dependencies
+        hybrid = by_phase["policy-hybrid"]
+        assert closures.key in hybrid.dependencies
+        assert by_phase["standard"].key in hybrid.dependencies
+        prompt_file = hybrid.command[hybrid.command.index("--prompt-files") + 1]
+        assert prompt_file.endswith("_hybrid_k8.jsonl")
+        assert str(hybrid.expected_outputs[0]).endswith("policy_matrix/hybrid/cross_state_metrics.csv")
+        # provenance/geometric rows are not re-run: standard and the sweep carry them.
+        assert not any(job.phase in ("policy-provenance", "policy-geometric") for job in jobs)
+
+    def test_policy_rows_absent_without_corpus(self, tmp_path):
+        repo = _scheduler_repo(tmp_path, closure_artifact=True)
+        jobs = _build_nulls_jobs(repo, env={})
+        assert not any(job.phase.startswith("policy") for job in jobs)
+
+    def test_explicit_policy_without_corpus_is_an_error(self, tmp_path):
+        with pytest.raises(ValueError, match="training corpus"):
+            _build_nulls_jobs(
+                _scheduler_repo(tmp_path, closure_artifact=True),
+                env={"NULLS_PHASES": "standard,policy"},
+            )
+
+    def test_bad_policy_k_rejected(self, tmp_path):
+        with pytest.raises(ValueError, match="NULLS_POLICY_K"):
+            _build_nulls_jobs(_scheduler_repo(tmp_path), env={"NULLS_POLICY_K": "x"})
 
     def test_explicit_sweep_without_artifact_is_an_error(self, tmp_path):
         with pytest.raises(ValueError, match="shared-encoder artifact"):

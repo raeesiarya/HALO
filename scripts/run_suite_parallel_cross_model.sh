@@ -18,9 +18,10 @@
 #     striped verification gate emitting the gated prompt set), then the
 #     standard audit, the complementary DEL-OFF sensitivity run, and — when
 #     the shared-encoder closure artifact exists — the source-closure build
-#     plus one breadth-k sweep group per k. Requires the artifacts from
-#     ./scripts/setup_nulls.sh (checkpoint, title_to_index.pkl, and the
-#     closure artifact for the sweep).
+#     plus one breadth-k sweep group per k, and (with the corpus present)
+#     the value/hybrid policy rows. Requires the artifacts from
+#     ./scripts/setup_nulls.sh (checkpoint, title_to_index.pkl, the closure
+#     artifact for sweep/policy, the corpus for policy).
 # SCHEDULER_SHARDS=N stripes every fact-striped phase (Co-LMLM and NULLs,
 # gate included) into N single-GPU jobs each.
 #
@@ -44,9 +45,9 @@
 #                    lil-lab/CoLMLM-Question-Generator adapter)
 #   NULLS_CHECKPOINT_DIR / NULLS_TITLE_TO_INDEX / NULLS_TITLE_EMBEDDINGS /
 #   NULLS_CLOSURE_EMBEDDINGS / NULLS_DEL_OFF_MODE / NULLS_GATE_MARGIN /
-#   NULLS_SWEEP_K_GRID / NULLS_PHASES
+#   NULLS_SWEEP_K_GRID / NULLS_POLICY_K / NULLS_CORPUS_DIR / NULLS_PHASES
 #                    NULLs artifact paths and knobs (defaults: data/ paths,
-#                    sinks-zero, 0.0, 1,2,4,8,16, all phases)
+#                    sinks-zero, 0.0, 1,2,4,8,16, 4, all phases)
 # Extra flags after the script name are forwarded to every audit job, e.g.
 #   ./scripts/run_suite_parallel_cross_model.sh --limit 200
 set -euo pipefail

@@ -287,8 +287,10 @@ robustness.
    set).
 5. `src/halo/scheduler.py` — third model category for `nulls-wiki-1b`, prep
    included: shared embeddings job -> per-set augment -> striped gate ->
-   standard -> del-off + closures -> sweep(k-grid); striped like Co-LMLM
-   phases (three real states ⇒ no cross-state reuse). One command:
+   standard -> del-off + closures -> sweep(k-grid) + policy (value/hybrid
+   rows from a streamed corpus pass; provenance = standard, geometric =
+   sweep at NULLS_POLICY_K); striped like Co-LMLM phases (three real states
+   ⇒ no cross-state reuse). One command:
    `scripts/run_suite_parallel_cross_model.sh`. The shared-adversarial
    phase (§8) is future work.
 6. Co-LMLM side — source-level filtering via manifest `source_ids` (already

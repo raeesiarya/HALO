@@ -122,3 +122,51 @@ def _mapping(tmp_path: Path, titles: list[str]) -> Path:
     path = tmp_path / "t2i.pkl"
     path.write_bytes(pickle.dumps({title: i for i, title in enumerate(titles)}))
     return path
+
+
+class TestSourceClosureBuilderStreaming:
+    """scripts/build_source_closures.py: the one-pass value-hit stream must
+    reproduce the per-row source_texts path."""
+
+    def _builder(self):
+        spec = importlib.util.spec_from_file_location(
+            "build_source_closures", REPO / "scripts" / "build_source_closures.py"
+        )
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        return module
+
+    def test_streamed_hits_match_per_row_lookup(self, tmp_path):
+        from halo.interventions.source_closure import SourceSpace, build_closure_prompt_file
+
+        builder = self._builder()
+        space = SourceSpace(
+            titles=("Alpha", "Beta", "Gamma", "Delta"),
+            embeddings=np.array([[1, 0], [0.9, 0.1], [0.8, 0.2], [0, 1]], dtype=np.float32),
+        )
+        texts = {
+            "Beta": "Beta City is mentioned here.",
+            "Gamma": "Nothing relevant.",
+            "Delta": "Betaville appears; Delta is far away.",
+        }
+        corpus = tmp_path / "corpus.jsonl"
+        corpus.write_text("".join(json.dumps({"title": t, "text": x}) + "\n" for t, x in texts.items()))
+        rows = [
+            {"prompt_text": "p", "gold_object": "Beta City", "answer_aliases": ["Betaville"], "source_title": "Alpha", "fact_id": "f1"},
+            {"prompt_text": "q", "gold_object": "Nothing", "source_title": "Gamma", "fact_id": "f2"},
+        ]
+        prompts = tmp_path / "prompts.jsonl"
+        prompts.write_text("\n".join(json.dumps(r) for r in rows) + "\n\n")
+
+        envelopes = space.nearest_many([r["source_title"] for r in rows], 3)
+        hits = builder.stream_value_hits(corpus, rows, envelopes, envelope_k=3)
+        assert hits[0] == {"Beta", "Delta"}  # alias-aware, whole phrase
+        assert hits.get(1, set()) == set()  # the gold source is never in its own envelope
+
+        streamed = tmp_path / "value_stream.jsonl"
+        per_row = tmp_path / "value_rows.jsonl"
+        build_closure_prompt_file(prompts, streamed, space=space, predicate="value", k=0, envelope_k=3, neighbors=envelopes, value_hits=hits)
+        build_closure_prompt_file(prompts, per_row, space=space, predicate="value", k=0, envelope_k=3, source_texts=texts.get)
+        assert streamed.read_text() == per_row.read_text()
+        manifests = [json.loads(l)["deletion_manifest"]["source_ids"] for l in streamed.read_text().splitlines()]
+        assert manifests[0] == ["Alpha", "Beta", "Delta"]

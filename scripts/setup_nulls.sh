@@ -17,8 +17,9 @@
 #   4. download the training corpus  gauravrghosal/wiki_nulls_corpus
 #        -> data/nulls-wiki-corpus/train_raw/en/*.parquet   (~11.6 GB)
 #      Bijective with the mapping (6,407,814 rows; index = row position).
-#      Only the breadth-k sweep needs it (article texts for the shared-
-#      encoder closure artifact); the standard and DEL-OFF phases do not.
+#      The breadth-k sweep (article texts for the shared-encoder closure
+#      artifact) and the value/hybrid policy rows need it; the standard
+#      and DEL-OFF phases do not.
 #   5. build the shared-encoder closure artifact from those texts
 #        -> data/nulls-closure-embeddings.npz   (~20 GB, GPU-hours)
 #      The cross-model scheduler adds the sweep phases when this file

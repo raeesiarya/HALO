@@ -47,7 +47,7 @@ PARAMETRIC_MODELS = ("standard-lm-360m-fw", "smollm2-360m")
 # MODELS=... rather than a DEFAULT_MODELS member.
 NULLS_MODEL = "nulls-wiki-1b"
 KNOWN_MODELS = (*DEFAULT_MODELS, NULLS_MODEL)
-NULLS_PHASES = ("standard", "del-off", "sweep")
+NULLS_PHASES = ("standard", "del-off", "sweep", "policy")
 NULLS_DEL_OFF_MODES = ("sinks-zero", "placebo-sink")
 
 # These estimates only order runnable jobs.
@@ -70,6 +70,7 @@ PHASE_COST = {
     "nulls-standard": 9,
     "nulls-del-off": 4,
     "nulls-sweep": 9,
+    "nulls-policy": 9,
     # The factq chain: question generation is a light Qwen-1.5B pass, the
     # <FACT-q> embedding is roughly num-questions short generations per
     # fact, and the policy row is one DEL-ON arm like any single policy.
@@ -94,6 +95,8 @@ PASSTHROUGH_ENV = (
     "DEL_OFF_MODE",
     "NULLS_DEL_OFF_MODE",
     "NULLS_PHASES",
+    "NULLS_SWEEP_K_GRID",
+    "NULLS_POLICY_K",
     "FACTQ_NUM_QUESTIONS",
     "FACTQ_THRESHOLD",
     "FACTQ_ADAPTER",
@@ -377,6 +380,15 @@ def build_jobs(
                 "NULLS_SWEEP_K_GRID must be comma-separated integers, got "
                 f"{inherited_env.get('NULLS_SWEEP_K_GRID')!r}."
             ) from None
+        try:
+            policy_k = int(inherited_env.get("NULLS_POLICY_K", "4"))
+        except ValueError:
+            raise ValueError(
+                f"NULLS_POLICY_K must be an integer, got "
+                f"{inherited_env.get('NULLS_POLICY_K')!r}."
+            ) from None
+        if policy_k < 1:
+            raise ValueError("NULLS_POLICY_K must be at least 1.")
         nulls_config = {
             "checkpoint_dir": Path(
                 inherited_env.get(
@@ -405,9 +417,18 @@ def build_jobs(
                     repo_root / "data" / "nulls-closure-embeddings.npz",
                 )
             ),
+            # The training corpus (scripts/setup_nulls.sh); the value/hybrid
+            # policy rows read article texts from it.
+            "corpus_dir": Path(
+                inherited_env.get(
+                    "NULLS_CORPUS_DIR", repo_root / "data" / "nulls-wiki-corpus"
+                )
+            ),
             "del_off_mode": nulls_del_off_mode,
             "gate_margin": inherited_env.get("NULLS_GATE_MARGIN", "0.0"),
             "sweep_k_grid": sweep_k_grid,
+            # Breadth of the geometric/hybrid policy rows (design §7).
+            "policy_k": policy_k,
             # None = default behavior: standard + del-off, sweep when the
             # closure-embedding artifact exists. Explicit NULLS_PHASES makes
             # a missing sweep input a hard error instead of a silent skip.
@@ -1134,6 +1155,87 @@ def build_jobs(
                             nulls_output
                             / "source_sweep"
                             / f"k{k}"
+                            / "cross_state_metrics.csv",
+                        ),
+                    )
+
+            # --- policy matrix (design §7) at source granularity ---
+            # provenance = the standard run (its manifests are the k = 0
+            # provenance-source closures); geometric = the sweep group at
+            # NULLS_POLICY_K (identical manifests, so it is not re-run);
+            # value and hybrid need the corpus texts and are the two rows
+            # this phase adds. Like the sweep it needs the shared-E artifact;
+            # an explicit NULLS_PHASES=policy makes missing inputs a hard
+            # error, the default quietly leaves the rows out.
+            policy_requested = (
+                configured_phases is not None and "policy" in configured_phases
+            )
+            corpus_dir = nulls_config["corpus_dir"]
+            corpus_present = corpus_dir.is_dir() and any(corpus_dir.rglob("*.parquet"))
+            if policy_requested and not (closure_artifact.is_file() and corpus_present):
+                raise ValueError(
+                    "NULLS_PHASES requests the policy matrix, which needs both the "
+                    f"shared-encoder artifact {closure_artifact} and the training "
+                    f"corpus under {corpus_dir} (scripts/setup_nulls.sh)."
+                )
+            if (
+                closure_artifact.is_file()
+                and corpus_present
+                and (configured_phases is None or policy_requested)
+            ):
+                policy_k = nulls_config["policy_k"]
+                policy_dir = prep_dir / "policy_closures"
+                policy_files = {
+                    "value": policy_dir / f"{nulls_stem}_value_k0.jsonl",
+                    "hybrid": policy_dir / f"{nulls_stem}_hybrid_k{policy_k}.jsonl",
+                }
+                policy_closures_key = _job_key(NULLS_MODEL, dataset, "prep-policy-closures")
+                jobs.append(
+                    Job(
+                        key=policy_closures_key,
+                        model=NULLS_MODEL,
+                        dataset=dataset,
+                        phase="prep-policy-closures",
+                        command=(
+                            "uv",
+                            "run",
+                            "python",
+                            str(repo_root / "scripts" / "build_source_closures.py"),
+                            "--prompts",
+                            str(gated_prompts),
+                            "--title-to-index",
+                            str(nulls_config["title_to_index"]),
+                            "--closure-embeddings",
+                            str(closure_artifact),
+                            "--predicate",
+                            "value,hybrid",
+                            "--k-grid",
+                            str(policy_k),
+                            "--texts",
+                            str(corpus_dir),
+                            "--output-dir",
+                            str(policy_dir),
+                        ),
+                        environment=tuple(sorted(shared_env.items())),
+                        dependencies=frozenset({gate_key}),
+                        priority=GATE_BONUS + nulls_rows,
+                        log_path=log_root / f"{policy_closures_key}.log",
+                        input_fingerprint=nulls_fingerprint,
+                        expected_outputs=tuple(policy_files.values()),
+                    )
+                )
+                for policy, prompt_file in policy_files.items():
+                    nulls_striped(
+                        f"policy-{policy}",
+                        prompt_file,
+                        nulls_output / "policy_matrix" / policy,
+                        del_off_mode=nulls_config["del_off_mode"],
+                        dependencies=nulls_audit_dep | {policy_closures_key},
+                        priority=nulls_rows * PHASE_COST["nulls-policy"],
+                        expected_outputs=(
+                            nulls_output
+                            / "policy_matrix"
+                            / policy
                             / "cross_state_metrics.csv",
                         ),
                     )

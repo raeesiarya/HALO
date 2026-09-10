@@ -134,11 +134,15 @@ cross-model scheduler's default model list, and its preparation chain is
 part of the same job graph — the shared title-embedding build, per-set
 source-title augmentation, and the striped verification gate (which emits
 the gated prompt set the audits consume) run as jobs before the `standard`,
-`del-off` (complementary DEL-OFF mode), and breadth-k `sweep` phases. The
-sweep phases appear when the shared-encoder closure artifact
+`del-off` (complementary DEL-OFF mode), breadth-k `sweep`, and `policy`
+phases. The sweep phases appear when the shared-encoder closure artifact
 (`data/nulls-closure-embeddings.npz`, built with
 `scripts/build_nulls_title_embeddings.py --mode closure` from the article
-texts) exists.
+texts) exists; the policy rows additionally need the corpus. The
+source-level policy matrix mirrors Co-LMLM's: provenance is the standard
+run, geometric is the sweep group at `NULLS_POLICY_K` (default 4), and the
+`value` and `hybrid` rows are audited under `policy_matrix/`; `factq` and
+adversarial writes stay Co-LMLM-only by design.
 
 `./scripts/setup_nulls.sh` installs the `nulls` dependency group (litgpt)
 and fetches the authors' released artifacts: the checkpoint, the

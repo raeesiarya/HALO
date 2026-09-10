@@ -35,13 +35,19 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import json
 import pickle
+import sys
 import time
 from pathlib import Path
 from typing import Iterator
 
 import numpy as np
+
+REPO_SRC = Path(__file__).resolve().parents[1] / "src"
+if str(REPO_SRC) not in sys.path:
+    sys.path.insert(0, str(REPO_SRC))
+
+from models.nulls_wiki.corpus import iter_text_batches as _iter_corpus_batches  # noqa: E402
 
 ROUTING_ENCODER = "all-MiniLM-L6-v2"  # upstream's routing space
 CLOSURE_ENCODER = "sentence-transformers/all-mpnet-base-v2"  # shared E, design §4
@@ -61,47 +67,12 @@ def load_title_positions(path: Path) -> dict[str, int]:
     return {title: position for position, title in enumerate(title_to_index)}
 
 
-def _corpus_files(path: Path) -> list[Path]:
-    if path.is_dir():
-        files = sorted(path.rglob("*.parquet"))
-        if not files:
-            raise SystemExit(f"No .parquet shards under {path}.")
-        return files
-    return [path]
-
-
 def iter_text_batches(
     path: Path, *, max_chars: int, rows_per_batch: int = PARQUET_ROWS_PER_BATCH
 ) -> Iterator[tuple[list[str], list[str]]]:
-    """Yield (titles, truncated texts) batches from a parquet dir/file or jsonl."""
-    for file in _corpus_files(path):
-        if file.suffix == ".parquet":
-            import pyarrow.parquet as pq
-
-            reader = pq.ParquetFile(file)
-            for batch in reader.iter_batches(
-                columns=["title", "text"], batch_size=rows_per_batch
-            ):
-                titles = batch.column("title").to_pylist()
-                texts = [
-                    str(text or "")[:max_chars]
-                    for text in batch.column("text").to_pylist()
-                ]
-                yield titles, texts
-            continue
-        titles, texts = [], []
-        with open(file, encoding="utf-8") as handle:
-            for line in handle:
-                if not line.strip():
-                    continue
-                row = json.loads(line)
-                titles.append(str(row["title"]))
-                texts.append(str(row.get("text") or "")[:max_chars])
-                if len(titles) >= rows_per_batch:
-                    yield titles, texts
-                    titles, texts = [], []
-        if titles:
-            yield titles, texts
+    """(titles, truncated texts) batches — models.nulls_wiki.corpus, shared
+    with the value-source closure builder."""
+    return _iter_corpus_batches(path, max_chars=max_chars, rows_per_batch=rows_per_batch)
 
 
 def encode_closure(
