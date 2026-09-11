@@ -37,11 +37,11 @@ from __future__ import annotations
 import argparse
 import pickle
 import sys
-import time
 from pathlib import Path
 from typing import Iterator
 
 import numpy as np
+from tqdm import tqdm
 
 REPO_SRC = Path(__file__).resolve().parents[1] / "src"
 if str(REPO_SRC) not in sys.path:
@@ -81,7 +81,6 @@ def encode_closure(
     *,
     encoder,
     batch_size: int,
-    log_every: int = 50,
 ) -> tuple[np.ndarray, np.ndarray]:
     """Stream the corpus into a preallocated (titles x dim) matrix.
 
@@ -91,34 +90,29 @@ def encode_closure(
     dim = int(encoder.get_sentence_embedding_dimension())
     embeddings = np.zeros((len(positions), dim), dtype=np.float32)
     covered = np.zeros(len(positions), dtype=bool)
-    seen = 0
-    started = time.time()
-    for batch_index, (titles, texts) in enumerate(batches, start=1):
-        rows, kept_texts = [], []
-        for title, text in zip(titles, texts):
-            position = positions.get(title)
-            if position is None:
-                continue
-            rows.append(position)
-            kept_texts.append(text)
-        seen += len(titles)
-        if rows:
-            vectors = encoder.encode(
-                kept_texts,
-                batch_size=batch_size,
-                show_progress_bar=False,
-                convert_to_numpy=True,
-                normalize_embeddings=True,
-            )
-            embeddings[rows] = vectors.astype(np.float32, copy=False)
-            covered[rows] = True
-        if batch_index % log_every == 0:
-            rate = seen / max(time.time() - started, 1e-9)
-            print(
-                f"  {seen:,} rows read, {int(covered.sum()):,}/{len(positions):,} "
-                f"sources covered ({rate:,.0f} rows/s)",
-                flush=True,
-            )
+    # The released corpus is bijective with the mapping, so the source count
+    # is also the corpus row count the bar runs to.
+    with tqdm(total=len(positions), unit="rows", unit_scale=True, desc="closure") as bar:
+        for titles, texts in batches:
+            rows, kept_texts = [], []
+            for title, text in zip(titles, texts):
+                position = positions.get(title)
+                if position is None:
+                    continue
+                rows.append(position)
+                kept_texts.append(text)
+            if rows:
+                vectors = encoder.encode(
+                    kept_texts,
+                    batch_size=batch_size,
+                    show_progress_bar=False,
+                    convert_to_numpy=True,
+                    normalize_embeddings=True,
+                )
+                embeddings[rows] = vectors.astype(np.float32, copy=False)
+                covered[rows] = True
+            bar.update(len(titles))
+            bar.set_postfix(covered=f"{int(covered.sum()):,}", refresh=False)
     return embeddings, covered
 
 
