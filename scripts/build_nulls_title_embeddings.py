@@ -20,7 +20,10 @@ Two distinct spaces, two modes (docs/NULLS_AUDIT_DESIGN.md §4):
 Output: ``.npz`` written uncompressed — float32 embeddings do not compress,
 and every consumer would otherwise decompress ~10-20 GB on load — with
 ``embeddings`` (float32, L2-normalized rows, row-aligned with
-``title_to_index`` insertion order), ``encoder`` and ``mode``.
+``title_to_index`` insertion order), ``encoder``, ``mode`` and ``dtype`` (the
+encoder's compute precision; storage is always float32). Closure mode
+computes in bf16 by default — ~6.4M article texts in fp32 take ~19 h on a
+GB10 — while routing mode stays fp32 to match upstream's routing space.
 
 Usage:
   uv run python scripts/build_nulls_title_embeddings.py \
@@ -52,6 +55,8 @@ from models.nulls_wiki.corpus import iter_text_batches as _iter_corpus_batches  
 ROUTING_ENCODER = "all-MiniLM-L6-v2"  # upstream's routing space
 CLOSURE_ENCODER = "sentence-transformers/all-mpnet-base-v2"  # shared E, design §4
 DEFAULT_BATCH = {"routing": 1024, "closure": 256}
+DEFAULT_DTYPE = {"routing": "fp32", "closure": "bf16"}
+TORCH_DTYPES = {"bf16": "bfloat16", "fp16": "float16", "fp32": "float32"}
 PARQUET_ROWS_PER_BATCH = 8192
 
 
@@ -141,18 +146,32 @@ def main() -> None:
         default=None,
         help=f"encoder batch size (defaults: {DEFAULT_BATCH}).",
     )
+    parser.add_argument(
+        "--dtype",
+        choices=tuple(TORCH_DTYPES),
+        default=None,
+        help=f"encoder compute precision (defaults: {DEFAULT_DTYPE}); the "
+        "stored embeddings are float32 either way.",
+    )
     args = parser.parse_args()
 
     encoder_name = args.encoder or (
         ROUTING_ENCODER if args.mode == "routing" else CLOSURE_ENCODER
     )
     batch_size = args.batch_size or DEFAULT_BATCH[args.mode]
+    dtype = args.dtype or DEFAULT_DTYPE[args.mode]
     positions = load_title_positions(args.title_to_index)
-    print(f"{len(positions):,} sources; encoder {encoder_name}; mode {args.mode}")
+    print(
+        f"{len(positions):,} sources; encoder {encoder_name}; mode {args.mode}; "
+        f"dtype {dtype}"
+    )
 
+    import torch
     from sentence_transformers import SentenceTransformer
 
-    encoder = SentenceTransformer(encoder_name)
+    encoder = SentenceTransformer(
+        encoder_name, model_kwargs={"torch_dtype": getattr(torch, TORCH_DTYPES[dtype])}
+    )
 
     if args.mode == "routing":
         titles = list(positions)
@@ -191,8 +210,11 @@ def main() -> None:
         embeddings=embeddings,
         encoder=np.str_(encoder_name),
         mode=np.str_(args.mode),
+        dtype=np.str_(dtype),
     )
-    print(f"wrote {embeddings.shape} embeddings ({encoder_name}) to {args.output}")
+    print(
+        f"wrote {embeddings.shape} embeddings ({encoder_name}, {dtype}) to {args.output}"
+    )
 
 
 if __name__ == "__main__":
