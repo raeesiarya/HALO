@@ -52,7 +52,7 @@ def _job(
     )
 
 
-def test_default_plan_has_90_jobs_and_correct_dependencies(tmp_path: Path) -> None:
+def test_default_plan_has_105_jobs_and_correct_dependencies(tmp_path: Path) -> None:
     repo_root = Path(__file__).resolve().parents[1]
     jobs = build_jobs(
         repo_root=repo_root,
@@ -62,9 +62,10 @@ def test_default_plan_has_90_jobs_and_correct_dependencies(tmp_path: Path) -> No
         inherited_env={},
     )
 
-    # Per set: standard 1, sweep 1+6+1, adversarial 1, del-off 1, policy 5.
-    assert len(jobs) == 90
-    assert len([job for job in jobs if job.model == "co-lmlm"]) == 80
+    # Per set: standard 1, sweep 1+6+1, adversarial 1, del-off 1, policy 5,
+    # factq 3 (questions, embed, policy row).
+    assert len(jobs) == 105
+    assert len([job for job in jobs if job.model == "co-lmlm"]) == 95
     assert len([job for job in jobs if job.model != "co-lmlm"]) == 10
     assert {job.dataset for job in jobs} == set(DATASETS)
     assert {job.model for job in jobs} == set(DEFAULT_MODELS)
@@ -104,6 +105,19 @@ def test_default_plan_has_90_jobs_and_correct_dependencies(tmp_path: Path) -> No
             job = by_key[f"co-lmlm.{dataset}.policy.{policy}"]
             assert job.dependencies == frozenset({oracle.key})
             assert job.env_dict()["POLICIES"] == policy
+
+        # The factq chain: questions after the FULL pass, embedding after
+        # the questions, the policy row after the vectors and the oracle
+        # (for the REUSE_FROM chain).
+        questions = by_key[f"co-lmlm.{dataset}.factq-questions"]
+        assert questions.dependencies == frozenset({standard})
+        assert questions.env_dict()["SUITE_PHASES"] == "factq-questions"
+        embed = by_key[f"co-lmlm.{dataset}.factq-embed"]
+        assert embed.dependencies == frozenset({questions.key})
+        assert embed.env_dict()["SUITE_PHASES"] == "factq-embed"
+        factq_policy = by_key[f"co-lmlm.{dataset}.factq-policy"]
+        assert factq_policy.dependencies == frozenset({embed.key, oracle.key})
+        assert factq_policy.env_dict()["SUITE_PHASES"] == "factq-policy"
 
         for model in ("standard-lm-360m-fw", "smollm2-360m"):
             assert by_key[f"{model}.{dataset}.standard"].dependencies == frozenset()
@@ -173,8 +187,9 @@ def test_shards_decompose_fact_striped_phases_into_shard_and_finalize_jobs(
         shards_per_phase=2,
         inherited_env={},
     )
-    # standard 3, sweep 8, adversarial 3, del-off 3, policy 5*3.
-    assert len(jobs) == 32
+    # standard 3, sweep 8, adversarial 3, del-off 3, policy 5*3, factq
+    # 1 (questions, never striped) + 3 (embed) + 3 (policy row).
+    assert len(jobs) == 39
     by_key = {job.key: job for job in jobs}
 
     standard_finalize = by_key["co-lmlm.trex.standard.finalize"]
@@ -205,6 +220,24 @@ def test_shards_decompose_fact_striped_phases_into_shard_and_finalize_jobs(
         shard = by_key[f"co-lmlm.trex.policy.{policy}.shard0"]
         assert shard.dependencies == frozenset({oracle_finalize.key})
         assert shard.env_dict()["POLICIES"] == policy
+
+    # The factq chain: questions stay a single job (the generator has no
+    # shard support), the embed and policy stages stripe like the rest.
+    questions = by_key["co-lmlm.trex.factq-questions"]
+    assert questions.dependencies == frozenset({standard_finalize.key})
+    embed_finalize = by_key["co-lmlm.trex.factq-embed.finalize"]
+    embed_shard = by_key["co-lmlm.trex.factq-embed.shard0"]
+    assert embed_shard.dependencies == frozenset({questions.key})
+    assert ("--shard", "0/2") in zip(embed_shard.command, embed_shard.command[1:])
+    assert embed_finalize.dependencies == frozenset(
+        {questions.key, "co-lmlm.trex.factq-embed.shard0",
+         "co-lmlm.trex.factq-embed.shard1"}
+    )
+    factq_policy_shard = by_key["co-lmlm.trex.factq-policy.shard0"]
+    assert factq_policy_shard.dependencies == frozenset(
+        {embed_finalize.key, oracle_finalize.key}
+    )
+    assert by_key["co-lmlm.trex.factq-policy.finalize"].expected_outputs != ()
 
     with pytest.raises(ValueError, match="shards"):
         build_jobs(
@@ -263,6 +296,8 @@ def test_scheduler_rejects_phase_or_backend_specific_forwarded_flags(
         ("--radius-grid", "0.9:0.7:0.1"),
         ("--co-lmlm-del-off-mode", "forbid-token"),
         ("--output-dir", "/tmp/wrong"),
+        ("--factq-vectors", "/tmp/wrong.npz"),
+        ("--factq-threshold", "0.5"),
     ):
         with pytest.raises(ValueError, match="controlled"):
             build_jobs(**common, audit_args=arguments)
@@ -714,3 +749,27 @@ def test_run_jobs_blocks_only_dependents_after_failure(tmp_path: Path) -> None:
     assert independent_output.exists()
     assert not (tmp_path / "logs" / "child.log").exists()
     assert not (tmp_path / "logs" / "grandchild.log").exists()
+
+
+def test_detect_gpus_precedence_and_fallbacks(monkeypatch) -> None:
+    from halo import scheduler
+
+    assert scheduler._detect_gpus({"GPUS": "2, 5"}) == ("2", "5")
+    assert scheduler._detect_gpus({"GPUS": "1", "CUDA_VISIBLE_DEVICES": "3"}) == ("1",)
+    assert scheduler._detect_gpus({"CUDA_VISIBLE_DEVICES": "3,4"}) == ("3", "4")
+
+    class Listing:
+        stdout = "0\n1\n\n2\n"
+
+    monkeypatch.setattr(scheduler.shutil, "which", lambda name: "/usr/bin/nvidia-smi")
+    monkeypatch.setattr(scheduler.subprocess, "run", lambda *a, **k: Listing())
+    assert scheduler._detect_gpus({}) == ("0", "1", "2")
+    assert scheduler._detect_gpus({"GPUS": "  "}) == ("0", "1", "2")  # blank = unset
+
+    def broken(*a, **k):
+        raise scheduler.subprocess.TimeoutExpired("nvidia-smi", 30)
+
+    monkeypatch.setattr(scheduler.subprocess, "run", broken)
+    assert scheduler._detect_gpus({}) == ()
+    monkeypatch.setattr(scheduler.shutil, "which", lambda name: None)
+    assert scheduler._detect_gpus({}) == ()

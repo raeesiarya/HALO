@@ -21,10 +21,15 @@
 # prompt subsets — neighbor sets N(f) are defined within a prompt file.
 #
 # The suite runs every published evaluation by default: the three phases
-# above, plus the DEL-OFF sensitivity control and the deletion-policy matrix.
-# SUITE_PHASES narrows that when you need it:
-#   all (default) = standard,sweep,adversarial,del-off,policy
+# above, plus the DEL-OFF sensitivity control, the deletion-policy matrix,
+# and the factq chain (the <FACT-q> query-ensemble deletion rule: generate
+# questions per fact from the FULL pass's retrieved DB entries, embed them
+# through Co-LMLM's <FACT-q> head, audit `--closure factq` as a sixth
+# policy row). SUITE_PHASES narrows that when you need it:
+#   all (default) = standard,sweep,adversarial,del-off,policy,factq
 #   core          = standard,sweep,adversarial
+#   factq         = factq-questions,factq-embed,factq-policy (the alias
+#                   expands; the sub-phases are also valid individually)
 #   or an explicit comma-separated subset, e.g. SUITE_PHASES=standard,policy
 # Narrowing is mainly useful for resuming a partial run or iterating on one
 # phase; the del-off and policy phases are a full standard audit per variant
@@ -36,7 +41,8 @@
 #            SUITE_PHASES, SUITE_WORKERS (parallel single-GPU workers per
 #            phase; default 1), STANDARD_CLOSURE, SWEEP_CLOSURE,
 #            ADVERSARIAL_CLOSURE, RADIUS_GRID, NEIGHBOR_MODE,
-#            NEIGHBOR_MIN_COUNT, DEL_OFF_MODE
+#            NEIGHBOR_MIN_COUNT, DEL_OFF_MODE, FACTQ_NUM_QUESTIONS,
+#            FACTQ_THRESHOLD, FACTQ_ADAPTER, FACTQ_QUESTIONS, FACTQ_VECTORS
 # Extra flags are passed through to every phase, so keep --limit consistent
 # across re-runs: the shared FULL pass is resumed wholesale and only covers
 # the facts it was built with.
@@ -77,11 +83,34 @@ DEL_OFF_MODE="${DEL_OFF_MODE:-null-retrieval}"
 SUITE_WORKERS="${SUITE_WORKERS:-1}"
 export SUITE_WORKERS  # delegated phases shard through run_audit_co_lmlm.sh
 
-ALL_PHASES="standard,sweep,adversarial,del-off,policy"
+# The factq chain (Yair's <FACT-q> query-ensemble deletion rule). Question
+# documents are the FULL pass's retrieved DB entries — never the eval
+# prompts, which would guarantee a successful forget without measuring
+# anything.
+FACTQ_QUESTIONS="${FACTQ_QUESTIONS:-$OUTPUT_DIR/${STEM}_factq.jsonl}"
+FACTQ_VECTORS="${FACTQ_VECTORS:-$OUTPUT_DIR/${STEM}_factq_vectors.npz}"
+FACTQ_NUM_QUESTIONS="${FACTQ_NUM_QUESTIONS:-5}"
+FACTQ_THRESHOLD="${FACTQ_THRESHOLD:-0.7}"
+FACTQ_ADAPTER="${FACTQ_ADAPTER:-lil-lab/CoLMLM-Question-Generator}"
+case "$FACTQ_QUESTIONS" in /*) ;; *) FACTQ_QUESTIONS="$PWD/$FACTQ_QUESTIONS" ;; esac
+case "$FACTQ_VECTORS" in /*) ;; *) FACTQ_VECTORS="$PWD/$FACTQ_VECTORS" ;; esac
+
+ALL_PHASES="standard,sweep,adversarial,del-off,policy,factq-questions,factq-embed,factq-policy"
 case "${SUITE_PHASES:-all}" in
     core) SUITE_PHASES="standard,sweep,adversarial" ;;
     all)  SUITE_PHASES="$ALL_PHASES" ;;
 esac
+
+# Expand the `factq` alias token-wise ("factq" is a prefix of the concrete
+# phase names, so plain substring substitution would corrupt them).
+EXPANDED_PHASES=""
+for token in ${SUITE_PHASES//,/ }; do
+    case "$token" in
+        factq) EXPANDED_PHASES="$EXPANDED_PHASES,factq-questions,factq-embed,factq-policy" ;;
+        *)     EXPANDED_PHASES="$EXPANDED_PHASES,$token" ;;
+    esac
+done
+SUITE_PHASES="${EXPANDED_PHASES#,}"
 
 phase_enabled() {
     case ",$SUITE_PHASES," in *",$1,"*) return 0 ;; *) return 1 ;; esac
@@ -300,6 +329,61 @@ if phase_enabled policy; then
     CO_LMLM_DIR="$CO_LMLM_DIR" INDEX_DIR="$INDEX_DIR" PROMPTS="$PROMPTS" \
     OUTPUT_DIR="$OUTPUT_DIR/policy_matrix" DEL_OFF_MODE="$DEL_OFF_MODE" \
     FULL_DIR="$SHARED_FULL_DIR" REUSE_FROM="$PHASE1_RESULTS" \
+        "$REPO_ROOT/scripts/run_policy_matrix_co_lmlm.sh" "$@"
+fi
+
+# The factq stages take dedicated tools, not run_audit, so blanket audit
+# flags do not apply; forward only the flags each stage understands
+# (values may contain spaces, e.g. --log-file paths).
+FILTERED_FLAGS=()
+filter_flags() {
+    local wanted=" $1 " expect="" arg
+    shift
+    FILTERED_FLAGS=()
+    for arg in "$@"; do
+        if [ -n "$expect" ]; then
+            FILTERED_FLAGS+=("$arg")
+            expect=""
+            continue
+        fi
+        case "$arg" in
+            --*=*) case "$wanted" in *" ${arg%%=*} "*) FILTERED_FLAGS+=("$arg") ;; esac ;;
+            --*)   case "$wanted" in *" $arg "*) FILTERED_FLAGS+=("$arg"); expect=1 ;; esac ;;
+        esac
+    done
+}
+
+if phase_enabled factq-questions; then
+    announce "factq question generation (<FACT-q> query-ensemble deletion rule)"
+    filter_flags "--limit --seed" "$@"
+    PYTHONPATH="$REPO_ROOT/src:src${PYTHONPATH:+:$PYTHONPATH}" \
+    uv run python "$REPO_ROOT/data/generate_factq_questions.py" \
+        --prompts "$PROMPTS" \
+        --full-dir "$SHARED_FULL_DIR" \
+        --output "$FACTQ_QUESTIONS" \
+        --adapter "$FACTQ_ADAPTER" \
+        --num-questions "$FACTQ_NUM_QUESTIONS" \
+        ${FILTERED_FLAGS[@]+"${FILTERED_FLAGS[@]}"}
+fi
+
+if phase_enabled factq-embed; then
+    announce "factq <FACT-q> embedding (question -> query vectors)"
+    filter_flags "--limit --shard --log-file --max-new-tokens" "$@"
+    PYTHONPATH="$REPO_ROOT/src:src${PYTHONPATH:+:$PYTHONPATH}" \
+    uv run python -m halo.factq_embed \
+        --questions "$FACTQ_QUESTIONS" \
+        --index-path "$INDEX_DIR" \
+        --output "$FACTQ_VECTORS" \
+        ${FILTERED_FLAGS[@]+"${FILTERED_FLAGS[@]}"}
+fi
+
+if phase_enabled factq-policy; then
+    announce "factq deletion policy (--closure factq, sixth policy-matrix row)"
+    CO_LMLM_DIR="$CO_LMLM_DIR" INDEX_DIR="$INDEX_DIR" PROMPTS="$PROMPTS" \
+    OUTPUT_DIR="$OUTPUT_DIR/policy_matrix" DEL_OFF_MODE="$DEL_OFF_MODE" \
+    FULL_DIR="$SHARED_FULL_DIR" REUSE_FROM="$PHASE1_RESULTS" \
+    POLICIES=factq FACTQ_VECTORS="$FACTQ_VECTORS" \
+    FACTQ_THRESHOLD="$FACTQ_THRESHOLD" \
         "$REPO_ROOT/scripts/run_policy_matrix_co_lmlm.sh" "$@"
 fi
 

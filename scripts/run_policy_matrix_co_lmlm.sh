@@ -8,10 +8,16 @@
 # under this matrix's output root and chain the oracle run's results.
 #
 # POLICIES (space-separated subset of "oracle geometric value provenance
-# hybrid") restricts which policies run — the cross-model scheduler uses it
-# to run oracle first and the remaining four in parallel. Oracle-result
-# reuse is chained whenever the oracle results exist on disk, whether they
-# were produced by this invocation or an earlier one.
+# hybrid factq") restricts which policies run — the cross-model scheduler
+# uses it to run oracle first and the remaining policies in parallel.
+# Oracle-result reuse is chained whenever the oracle results exist on disk,
+# whether they were produced by this invocation or an earlier one.
+#
+# factq (the <FACT-q> query-ensemble rule) is valid but not in the default
+# set: it needs FACTQ_VECTORS, the .npz produced by `python -m
+# halo.factq_embed`, which does not exist until the factq-questions and
+# factq-embed suite phases have run. The suite's factq-policy phase (and
+# the cross-model scheduler) invoke it with POLICIES=factq once it has.
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -23,8 +29,9 @@ STEM="$(basename "${PROMPTS:-$REPO_ROOT/data/prompts_trex.jsonl}" .jsonl)"
 FULL_DIR="${FULL_DIR:-$BASE_OUTPUT_DIR/${STEM}_full}"
 export FULL_DIR
 
-ALL_POLICIES="oracle geometric value provenance hybrid"
-POLICIES="${POLICIES:-$ALL_POLICIES}"
+ALL_POLICIES="oracle geometric value provenance hybrid factq"
+DEFAULT_POLICIES="oracle geometric value provenance hybrid"
+POLICIES="${POLICIES:-$DEFAULT_POLICIES}"
 
 # Reject typos rather than silently skipping a policy the user asked for.
 for requested in $POLICIES; do
@@ -75,4 +82,16 @@ if policy_enabled provenance; then
 fi
 if policy_enabled hybrid; then
     run_policy hybrid --closure geometric,value,provenance "$@"
+fi
+if policy_enabled factq; then
+    # Yair's query-ensemble rule, isolated: the closure is exactly what the
+    # generated-question <FACT-q> queries retrieve.
+    if [ -z "${FACTQ_VECTORS:-}" ] || [ ! -f "$FACTQ_VECTORS" ]; then
+        echo "error: the factq policy needs FACTQ_VECTORS pointing at the .npz" >&2
+        echo "       from 'python -m halo.factq_embed' (run the factq-questions" >&2
+        echo "       and factq-embed suite phases first)" >&2
+        exit 1
+    fi
+    run_policy factq --closure factq --factq-vectors "$FACTQ_VECTORS" \
+        --factq-threshold "${FACTQ_THRESHOLD:-0.7}" "$@"
 fi

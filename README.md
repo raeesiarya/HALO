@@ -46,10 +46,12 @@ The run scripts set the library paths needed by the CUDA FAISS wheels.
 ## Running Co-LMLM
 
 The default run uses T-REx and the released FineWeb plus Wikipedia index. The
-index is about 1.05 TB.
+index is about 1.05 TB. `setup_colmlm.sh` builds the prompt sets and
+downloads the index; `setup_nulls.sh` fetches the NULLs artifacts (below);
+`setup_data.sh` runs both.
 
 ```bash
-./scripts/setup_data.sh
+./scripts/setup_colmlm.sh
 ./scripts/run_audit_co_lmlm.sh
 ```
 
@@ -96,9 +98,10 @@ sensitivity check. The controls and policy matrix can also be run separately:
 
 ## Cross-model runs
 
-The cross-model scheduler runs Co-LMLM, SmolLM2-360M, and
-CoLMLM-Standard-LM-Baseline-360M-FW over all prompt sets. Check the planned
-jobs before starting a detached run:
+The cross-model scheduler runs Co-LMLM, SmolLM2-360M,
+CoLMLM-Standard-LM-Baseline-360M-FW, and NULLs (`nulls-wiki-1b`, prep jobs
+included) over all prompt sets. Check the planned jobs before starting a
+detached run:
 
 ```bash
 ./scripts/run_cross_model_scheduler.sh --dry-run
@@ -113,9 +116,58 @@ tail -F out-cross-model/_scheduler.log
 ```
 
 The main configuration variables are `SETS`, `MODELS`, `GPUS`, `MAX_PARALLEL`,
-`SCHEDULER_SHARDS`, `SUITE_WORKERS`, `INDEX_DIR`, and `OUT_ROOT`. The default
-output directory is `out-cross-model/`. Repeating the same command resumes an
-interrupted run.
+`SCHEDULER_SHARDS`, `SUITE_WORKERS`, `INDEX_DIR`, and `OUT_ROOT`. `GPUS`
+defaults to every GPU `nvidia-smi` reports (or `CUDA_VISIBLE_DEVICES` when
+set). The default output directory is `out-cross-model/`. Repeating the same
+command resumes an interrupted run.
+
+## NULLs (parametric native unlearning)
+
+`nulls-wiki-1b` audits the released NULLs Wikipedia model (arXiv:2606.13873)
+as a third deletion paradigm: deletion excludes source-keyed sink-neuron
+masks instead of filtering an index. The comparison design — source-level
+manifests executed by both substrates, shared-encoder closures, breadth-k
+sweeps, sinks-zero vs placebo-sink DEL-OFF controls, and the verification
+gate — is specified in `docs/NULLS_AUDIT_DESIGN.md`.
+
+Everything runs through the one suite command: `nulls-wiki-1b` is in the
+cross-model scheduler's default model list, and its preparation chain is
+part of the same job graph — the shared title-embedding build, per-set
+source-title augmentation, and the striped verification gate (which emits
+the gated prompt set the audits consume) run as jobs before the `standard`,
+`del-off` (complementary DEL-OFF mode), breadth-k `sweep`, and `policy`
+phases. The sweep phases appear when the shared-encoder closure artifact
+(`data/nulls-closure-embeddings.npz`, built with
+`scripts/build_nulls_title_embeddings.py --mode closure` from the article
+texts) exists; the policy rows additionally need the corpus. The
+source-level policy matrix mirrors Co-LMLM's: provenance is the standard
+run, geometric is the sweep group at `NULLS_POLICY_K` (default 4), and the
+`value` and `hybrid` rows are audited under `policy_matrix/`; `factq` and
+adversarial writes stay Co-LMLM-only by design.
+
+`./scripts/setup_nulls.sh` installs the `nulls` dependency group (litgpt)
+and fetches the authors' released artifacts: the checkpoint, the
+training-time `title_to_index.pkl` the sink masks are keyed on (always the
+authors' artifact — a guessed mapping risks silently mis-addressed sinks,
+so no reconstruction path exists), and the training corpus
+(`gauravrghosal/wiki_nulls_corpus`, 6.4M articles, bijective with the
+mapping). It then builds the shared-encoder closure artifact from the
+corpus texts (GPU-hours; `SKIP_CLOSURE=1` defers it — the standard and
+DEL-OFF phases run without it, and re-submitting the suite after the build
+adds the sweep). `NULLS_PHASES`, `NULLS_DEL_OFF_MODE`,
+`NULLS_GATE_MARGIN`, `NULLS_SWEEP_K_GRID`, and the `NULLS_*` artifact-path
+variables configure the phases. The matched-corpus Co-LMLM comparison runs
+with `--co-lmlm-corpus-allow` restricting retrieval to Wikipedia sources.
+
+The released corpus is the public `wikimedia/wikipedia` `20231101.en`
+snapshot, unmodified (identical per-shard row counts; first shard identical
+row for row). That snapshot itself omits a number of prominent articles
+(e.g. *Paris*, *Germany*, *Physics*, *Autism*), so facts whose subject
+article has no sink are excluded by the source-title augmentation step and
+reported per set in `<prompts>_nulls.jsonl.exclusions.json` (measured on
+the current prompt sets: T-REx 24%, CounterFact 20%, ZsRE 10%, Google-RE
+10% excluded). Cross-substrate tables are paired on the intersection
+cohort, and the exclusion rate is reported alongside.
 
 ## Outputs
 
@@ -123,18 +175,21 @@ Audit outputs include JSONL results, retrieval traces, query embeddings,
 closure manifests, metric CSVs, and probe summaries. Single-dataset runs use
 `outputs/trex` by default.
 
-The analysis used for Status Update 2 can be reproduced from a completed
-cross-model result tree with:
+The paper figures can be rendered from the aggregated analysis results
+under `results/status_update_2/` with:
 
 ```bash
-uv run python scripts/status_update_2_analysis.py --stage all
+uv run python scripts/paper_figures.py
 ```
+
+Figures and suggested LaTeX captions are written to `figures/` (gitignored).
 
 ## Repository structure
 
 - `src/halo/`: audit logic, interventions, metrics, and CLI code.
 - `src/models/`: Co-LMLM and closed-book model backends.
-- `scripts/`: setup, evaluation, scheduling, and analysis scripts.
+- `scripts/`: setup (`setup_colmlm.sh`, `setup_nulls.sh`), evaluation,
+  scheduling, and analysis scripts.
 - `annotations/`: reviewed labels used by the analysis.
 
 ## License

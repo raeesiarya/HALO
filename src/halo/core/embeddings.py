@@ -6,6 +6,30 @@ from typing import Any, Mapping
 import numpy as np
 
 
+def normalize_rows_inplace(matrix: np.ndarray, chunk_rows: int = 500_000) -> np.ndarray:
+    """L2-normalize the rows of ``matrix`` without a second full-size copy.
+
+    Source-embedding artifacts (one row per Wikipedia article, 6.4M rows for
+    the NULLs release) are 10-20 GB; the naive ``(m / norms).astype(f32)``
+    materializes two more copies of that. This converts to a writable
+    float32 C array only when the input is not one already — the caller's
+    array is then normalized in place — and walks the rows in chunks so the
+    temporaries stay at chunk size. Zero rows are left as zeros.
+    """
+    if (
+        matrix.dtype != np.float32
+        or not matrix.flags.writeable
+        or not matrix.flags.c_contiguous
+    ):
+        matrix = np.ascontiguousarray(matrix, dtype=np.float32)
+    for start in range(0, matrix.shape[0], chunk_rows):
+        block = matrix[start : start + chunk_rows]
+        norms = np.linalg.norm(block, axis=1, keepdims=True)
+        norms[norms == 0.0] = 1.0
+        block /= norms
+    return matrix
+
+
 def result_example_key(result_row: Mapping[str, Any], row_index: int) -> str:
     for field_name in ("prompt_id", "fact_id"):
         value = result_row.get(field_name)

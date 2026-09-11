@@ -19,16 +19,20 @@ from halo.interventions.filtering import (
 )
 from halo.core.examples import AuditExample, DeletionManifest
 
-VALID_PREDICATES = ("geometric", "value", "provenance")
+VALID_PREDICATES = ("geometric", "value", "provenance", "factq")
+# factq is opt-in: it needs per-fact <FACT-q> query vectors, so activating
+# it by default would silently no-op every closure built without them.
+DEFAULT_PREDICATES = ("geometric", "value", "provenance")
 _PREDICATE_ALIASES = {"semantic": "value"}
 
 
 @dataclass(frozen=True)
 class ClosureConfig:
-    predicates: tuple[str, ...] = VALID_PREDICATES
+    predicates: tuple[str, ...] = DEFAULT_PREDICATES
     radius: float = 0.85
     envelope_top_k: int = 500
     max_closure_size: int = 10_000
+    factq_threshold: float = 0.7
 
     def __post_init__(self) -> None:
         # ``semantic`` is retained as a compatibility alias for value matching.
@@ -53,6 +57,10 @@ class ClosureConfig:
             raise ValueError("At least one closure predicate is required.")
         if not -1.0 <= self.radius <= 1.0:
             raise ValueError("radius must be a cosine similarity in [-1, 1].")
+        if not -1.0 <= self.factq_threshold <= 1.0:
+            raise ValueError(
+                "factq_threshold must be a cosine similarity in [-1, 1]."
+            )
         if self.envelope_top_k < 1:
             raise ValueError("envelope_top_k must be at least 1.")
         if self.max_closure_size < 1:
@@ -87,6 +95,11 @@ class ClosureResult:
     s_del: float | None = None
     s_surv: float | None = None
     top_survivors: tuple[ClosureEntry, ...] = ()
+    # <FACT-q> ensemble bookkeeping. A zero query count while the factq
+    # predicate is active marks a fact the ensemble never covered (span or
+    # parse miss upstream) — auditable, not silently complete.
+    factq_query_count: int = 0
+    factq_truncated: bool = False
 
     @property
     def margin(self) -> float | None:
@@ -112,6 +125,12 @@ class ClosureResult:
             "index_nprobe": self.index_nprobe,
             "audited_event_index": self.audited_event_index,
         }
+        if self.config.is_active("factq"):
+            metadata["factq"] = {
+                "threshold": self.config.factq_threshold,
+                "query_count": self.factq_query_count,
+                "truncated": self.factq_truncated,
+            }
         if self.config.is_active("value"):
             # The run-time backstop must judge candidates against the target
             # fact's answer — not the answer of whichever prompt happens to
@@ -143,6 +162,17 @@ class ClosureResult:
             "envelope_top_k": self.config.envelope_top_k,
             "max_closure_size": self.config.max_closure_size,
             "truncated": self.truncated,
+            "factq_threshold": (
+                self.config.factq_threshold
+                if self.config.is_active("factq")
+                else None
+            ),
+            "factq_query_count": (
+                self.factq_query_count if self.config.is_active("factq") else None
+            ),
+            "factq_truncated": (
+                self.factq_truncated if self.config.is_active("factq") else None
+            ),
             "index_nprobe": self.index_nprobe,
             "audited_event_index": self.audited_event_index,
             "s_del": self.s_del,
@@ -197,6 +227,7 @@ def build_closure_family(
     radii: tuple[float, ...],
     seed_candidates: tuple[Any, ...] = (),
     seed_source_ids: tuple[str, ...] = (),
+    factq_query_vectors: tuple[Any, ...] = (),
     support_judge: Callable[[Any, AuditExample], Mapping[str, Any]] = (
         default_support_judge
     ),
@@ -206,7 +237,12 @@ def build_closure_family(
 
     Geometric closure sets are nested as the radius shrinks, so one search at
     the smallest radius yields per-radius membership by score; value,
-    provenance, and oracle members are radius-independent.
+    provenance, factq, and oracle members are radius-independent.
+
+    ``factq_query_vectors`` are per-fact <FACT-q> query embeddings of
+    generated questions about the fact (never the eval prompt's own query);
+    the factq predicate deletes the union of what they retrieve above
+    ``config.factq_threshold``.
     """
     if not radii:
         raise ValueError("At least one closure radius is required.")
@@ -328,6 +364,31 @@ def build_closure_family(
                 },
             )
 
+    # The <FACT-q> ensemble: one search per generated-question vector, union
+    # of everything above the factq threshold. Membership is
+    # radius-independent, like value/provenance. Runs after the observed
+    # loop above so an entry the audited FULL query also saw keeps its
+    # eval-relative score in `details`; factq-only entries carry the score
+    # under their own question query. `observed_scores` is untouched either
+    # way, so the s_del/s_surv margin geometry stays in FULL-query space.
+    factq_vectors = tuple(factq_query_vectors) if config.is_active("factq") else ()
+    factq_truncated = False
+    for factq_vector in factq_vectors:
+        factq_hits = _flatten_single_query(
+            index.search(
+                np.asarray(factq_vector, dtype=np.float32).reshape(-1),
+                top_k=config.max_closure_size,
+                similarity_threshold=config.factq_threshold,
+            )
+        )
+        # A full page means this question may retrieve more entries than we
+        # fetched; the factq union must never silently read as complete.
+        factq_truncated = factq_truncated or (
+            len(factq_hits) >= config.max_closure_size
+        )
+        for candidate in factq_hits:
+            note(shared_caught, candidate, "factq")
+
     family: dict[float, ClosureResult] = {}
     for radius in radii:
         caught = {
@@ -339,7 +400,9 @@ def build_closure_family(
             # toward deletion at every radius.
             if score is None or score >= radius:
                 note(caught, candidate, "geometric")
-        truncated = page_full and (last_score is None or radius <= last_score)
+        truncated = (
+            page_full and (last_score is None or radius <= last_score)
+        ) or factq_truncated
         deleted_scores = [
             observed_scores[entry_id]
             for entry_id in caught
@@ -387,6 +450,8 @@ def build_closure_family(
             s_del=max(deleted_scores) if deleted_scores else None,
             s_surv=survivors[0][1] if survivors else None,
             top_survivors=top_survivors,
+            factq_query_count=len(factq_vectors),
+            factq_truncated=factq_truncated,
         )
     return family
 
@@ -399,6 +464,7 @@ def build_closure(
     config: ClosureConfig,
     seed_candidates: tuple[Any, ...] = (),
     seed_source_ids: tuple[str, ...] = (),
+    factq_query_vectors: tuple[Any, ...] = (),
     support_judge: Callable[[Any, AuditExample], Mapping[str, Any]] = (
         default_support_judge
     ),
@@ -412,6 +478,7 @@ def build_closure(
         radii=(config.radius,),
         seed_candidates=seed_candidates,
         seed_source_ids=seed_source_ids,
+        factq_query_vectors=factq_query_vectors,
         support_judge=support_judge,
         example_key=example_key,
     )
@@ -464,6 +531,7 @@ def build_closure_manifest_from_full(
     example: AuditExample,
     full_result: Mapping[str, Any],
     config: ClosureConfig,
+    factq_query_vectors: tuple[Any, ...] = (),
     support_judge: Callable[[Any, AuditExample], Mapping[str, Any]] = (
         default_support_judge
     ),
@@ -484,6 +552,7 @@ def build_closure_manifest_from_full(
         config=config,
         seed_candidates=(selected,),
         seed_source_ids=(str(seed_source),) if seed_source is not None else (),
+        factq_query_vectors=factq_query_vectors,
         support_judge=support_judge,
         example_key=key,
     )

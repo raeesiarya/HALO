@@ -26,7 +26,8 @@
 # Config (env):
 #   SETS         space-separated subset of the names above (default: all)
 #   OUT_ROOT     parent output dir (default: $REPO_ROOT/out)
-#   GPUS         comma-separated GPU ids (default: 0,1,2,3,4,5,6,7)
+#   GPUS         comma-separated GPU ids (default: CUDA_VISIBLE_DEVICES if set,
+#                else every GPU nvidia-smi reports)
 #   MAX_PARALLEL concurrent sets (default: len(GPUS))
 #   CO_LMLM_DIR  Co-LMLM checkout (default: ../Co-LMLM; cloned if absent)
 #   INDEX_DIR    fineweb+wiki index (default: $REPO_ROOT/data/co-lmlm-fineweb-wiki-index)
@@ -59,7 +60,19 @@ prompt_file_for() {
 }
 
 # GPU pool (default: all 8) and concurrency cap, shared by driver and launcher.
-GPUS="${GPUS:-0,1,2,3,4,5,6,7}"
+# Default: CUDA_VISIBLE_DEVICES if the operator restricted it, else every GPU
+# nvidia-smi reports (same rule as the cross-model scheduler).
+if [ -z "${GPUS:-}" ]; then
+    if [ -n "${CUDA_VISIBLE_DEVICES:-}" ]; then
+        GPUS="$CUDA_VISIBLE_DEVICES"
+    else
+        GPUS="$(nvidia-smi --query-gpu=index --format=csv,noheader 2>/dev/null | paste -sd, - || true)"
+    fi
+fi
+if [ -z "$GPUS" ]; then
+    echo "error: no GPUs detected (nvidia-smi found none or is not installed); set GPUS=0,1,..." >&2
+    exit 1
+fi
 gpu_ids=()
 [ -n "$GPUS" ] && IFS=',' read -r -a gpu_ids <<< "$GPUS"
 set_count=0
@@ -176,7 +189,7 @@ for name in $SETS; do
     }
     if [ ! -f "$prompts" ]; then
         echo "error: prompt file for '$name' not found: $prompts" >&2
-        echo "       build it first with scripts/setup_data.sh" >&2
+        echo "       build it first with scripts/setup_colmlm.sh" >&2
         exit 1
     fi
 done

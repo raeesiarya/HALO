@@ -147,6 +147,7 @@ def test_full_closure_attributes_each_predicate() -> None:
         "geometric": 2,
         "value": 2,
         "provenance": 2,
+        "factq": 0,
         "oracle": 1,
     }
     assert manifest.metadata["truncated"] is False
@@ -203,6 +204,113 @@ def test_config_rejects_unknown_predicates_and_bad_radius() -> None:
         ClosureConfig(radius=1.5)
     with pytest.raises(ValueError, match="predicate is required"):
         ClosureConfig(predicates=())
+    with pytest.raises(ValueError, match="factq_threshold"):
+        ClosureConfig(factq_threshold=1.5)
+
+
+def test_factq_is_not_a_default_predicate() -> None:
+    # Active-by-default without vectors would silently no-op the rule.
+    assert "factq" not in ClosureConfig().predicates
+
+
+def test_factq_predicate_unions_question_retrievals() -> None:
+    # The factq query points orthogonally to the eval query, so it reaches
+    # paraphrase entries the eval-query geometry never would.
+    index = _vector_index()
+    closure = build_closure(
+        index=index,
+        example=_example(),
+        query_vector=None,  # factq brings its own vectors
+        config=ClosureConfig(predicates=("factq",), factq_threshold=0.7),
+        factq_query_vectors=(_unit_vector(0.0),),
+        example_key="capital-direct",
+    )
+
+    caught = {entry.entry_id: entry.caught_by for entry in closure.entries}
+    # cos vs [0, 1]: far-entry 0.995, alias-entry 0.866; the rest fall
+    # below the 0.7 threshold.
+    assert caught == {
+        "far-entry": ("factq",),
+        "alias-entry": ("factq",),
+    }
+    assert closure.factq_query_count == 1
+    assert closure.truncated is False
+    assert index.calls == [(10_000, 0.7)]
+
+    manifest = closure.to_manifest()
+    assert manifest.metadata["entry_counts"]["factq"] == 2
+    assert manifest.metadata["factq"] == {
+        "threshold": 0.7,
+        "query_count": 1,
+        "truncated": False,
+    }
+
+
+def test_factq_union_over_multiple_question_vectors() -> None:
+    closure = build_closure(
+        index=_vector_index(),
+        example=_example(),
+        query_vector=None,
+        # 0.89, not 0.90: near-neighbor's float32 cosine lands a hair under
+        # its nominal 0.90 and an exact-boundary threshold would flake.
+        config=ClosureConfig(predicates=("factq",), factq_threshold=0.89),
+        factq_query_vectors=(_unit_vector(1.0), _unit_vector(0.0)),
+    )
+
+    assert {entry.entry_id for entry in closure.entries} == {
+        "target-entry",  # 0.95 vs the first vector
+        "near-neighbor",  # 0.90 vs the first vector
+        "far-entry",  # 0.995 vs the second vector
+    }
+    assert closure.factq_query_count == 2
+
+
+def test_factq_page_full_flags_truncation() -> None:
+    closure = build_closure(
+        index=_vector_index(),
+        example=_example(),
+        query_vector=None,
+        config=ClosureConfig(
+            predicates=("factq",), factq_threshold=0.7, max_closure_size=1
+        ),
+        factq_query_vectors=(_unit_vector(0.0),),
+    )
+
+    assert closure.factq_truncated is True
+    assert closure.truncated is True
+    assert closure.to_manifest().metadata["truncated"] is True
+
+
+def test_factq_without_vectors_is_a_recorded_gap_not_an_error() -> None:
+    # A span/parse miss upstream leaves a fact with no vectors; the closure
+    # must still build (other predicates apply) and the gap stay auditable.
+    closure = build_closure(
+        index=_vector_index(),
+        example=_example(),
+        query_vector=QUERY,
+        config=ClosureConfig(predicates=("value", "factq"), radius=0.8),
+        factq_query_vectors=(),
+    )
+
+    assert closure.factq_query_count == 0
+    assert all("factq" not in entry.caught_by for entry in closure.entries)
+    assert closure.to_manifest().metadata["factq"]["query_count"] == 0
+
+
+def test_inactive_factq_ignores_supplied_vectors() -> None:
+    index = _vector_index()
+    closure = build_closure(
+        index=index,
+        example=_example(),
+        query_vector=None,
+        config=ClosureConfig(predicates=("provenance",)),
+        seed_candidates=(_seed_candidate(),),
+        seed_source_ids=("wiki:France",),
+        factq_query_vectors=(_unit_vector(0.0),),
+    )
+
+    assert index.calls == []
+    assert all("factq" not in entry.caught_by for entry in closure.entries)
 
 
 def test_build_closure_manifest_from_full_writes_artifact(tmp_path) -> None:
@@ -415,3 +523,77 @@ def test_runner_builds_closure_manifest_from_full(tmp_path) -> None:
     assert del_on_deleted == {"target-entry", "near-neighbor"}
     assert del_on_row["model_output"] == "unknown"
     assert (artifact_dir / "p1.json").is_file()
+
+
+def test_factq_closure_reaches_paraphrases_end_to_end(tmp_path) -> None:
+    """The full standard-audit wiring: an .npz of <FACT-q> vectors flows
+    through make_closure_manifest_builder into the manifest, catching a
+    paraphrase entry that neither the eval-query geometry nor the value
+    filter can see."""
+    from types import SimpleNamespace
+
+    from halo.cli.closure_setup import make_closure_manifest_builder
+    from halo.interventions.factq import save_factq_vectors
+
+    index = FakeVectorIndex(
+        [
+            FakeVectorEntry("target-entry", _unit_vector(0.95), "Paris", "wiki:France"),
+            FakeVectorEntry("near-neighbor", _unit_vector(0.90), "Lyon", "wiki:Lyon"),
+            # Far from the eval query (0.3 < any geometric radius here) and
+            # no answer mention, but a generated question about the fact
+            # points straight at it: cos vs [0, 1] is ~0.954.
+            FakeVectorEntry(
+                "paraphrase-entry",
+                _unit_vector(0.3),
+                "the seat of the French government",
+                "wiki:Gov",
+            ),
+        ]
+    )
+    backend = CoLMLMAuditBackend(FakeGenerator(index))
+    prompt_path = tmp_path / "prompts.jsonl"
+    prompt_path.write_text(
+        '{"prompt_id":"p1","fact_id":"f1","prompt_text":"What is the capital of France?",'
+        '"gold_object":"Paris"}\n',
+        encoding="utf-8",
+    )
+    vectors_path = tmp_path / "factq_vectors.npz"
+    save_factq_vectors(vectors_path, {"p1": {0: _unit_vector(0.0)}})
+
+    args = SimpleNamespace(
+        closure="geometric,factq",
+        closure_radius=0.8,
+        closure_envelope_k=500,
+        closure_max_size=10_000,
+        factq_threshold=0.7,
+        factq_vectors=vectors_path,
+    )
+    job = SimpleNamespace(
+        prompt_path=prompt_path, output_path=tmp_path / "results.jsonl"
+    )
+    manifest_builder = make_closure_manifest_builder(backend, index, args, job)
+
+    results = run_backend_audit(
+        prompt_path=prompt_path,
+        backend=backend,
+        states=[DatabaseState.FULL, DatabaseState.DEL_ON, DatabaseState.DEL_OFF],
+        bootstrap_oracle_from_full=True,
+        manifest_builder=manifest_builder,
+    )
+
+    full_row = results[0]
+    manifest = full_row["deletion_manifest"]
+    assert "paraphrase-entry" in manifest["entry_ids"]
+    assert manifest["metadata"]["entry_counts"]["factq"] == 1
+    assert manifest["metadata"]["factq"] == {
+        "threshold": 0.7,
+        "query_count": 1,
+        "truncated": False,
+    }
+
+    artifact = json.loads(
+        (tmp_path / "prompts_closures" / "p1.json").read_text(encoding="utf-8")
+    )
+    caught = {entry["entry_id"]: entry["caught_by"] for entry in artifact["entries"]}
+    assert caught["paraphrase-entry"] == ["factq"]
+    assert "geometric" in caught["target-entry"]

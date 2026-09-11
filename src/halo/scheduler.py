@@ -39,8 +39,16 @@ DATASETS: dict[str, str] = {
     "zsre": "data/prompts_zsre.jsonl",
 }
 DEFAULT_MODELS = ("co-lmlm", "standard-lm-360m-fw", "smollm2-360m")
-CO_LMLM_PHASES = ("standard", "sweep", "adversarial", "del-off", "policy")
+CO_LMLM_PHASES = ("standard", "sweep", "adversarial", "del-off", "policy", "factq")
 PARAMETRIC_MODELS = ("standard-lm-360m-fw", "smollm2-360m")
+# Third category (docs/NULLS_AUDIT_DESIGN.md): parametric, but with real
+# deletion states — its jobs stripe like Co-LMLM phases and consume the
+# augmented prompt sets (source-title manifests), so it is opt-in via
+# MODELS=... rather than a DEFAULT_MODELS member.
+NULLS_MODEL = "nulls-wiki-1b"
+KNOWN_MODELS = (*DEFAULT_MODELS, NULLS_MODEL)
+NULLS_PHASES = ("standard", "del-off", "sweep", "policy")
+NULLS_DEL_OFF_MODES = ("sinks-zero", "placebo-sink")
 
 # These estimates only order runnable jobs.
 DATASET_SIZE_FALLBACK = {
@@ -57,6 +65,18 @@ PHASE_COST = {
     "del-off": 3,
     "policy": 12,
     "parametric": 3,
+    # NULLs runs three real states with a ~1B model and no cross-state row
+    # reuse, so a phase costs roughly 3x a closed-book parametric pass.
+    "nulls-standard": 9,
+    "nulls-del-off": 4,
+    "nulls-sweep": 9,
+    "nulls-policy": 9,
+    # The factq chain: question generation is a light Qwen-1.5B pass, the
+    # <FACT-q> embedding is roughly num-questions short generations per
+    # fact, and the policy row is one DEL-ON arm like any single policy.
+    "factq-questions": 1,
+    "factq-embed": 5,
+    "factq-policy": 3,
 }
 # Standard jobs outrank everything (they unlock every later phase); gate jobs
 # (sweep prep, the oracle policy) outrank their siblings because they unlock
@@ -73,6 +93,13 @@ PASSTHROUGH_ENV = (
     "NEIGHBOR_MODE",
     "NEIGHBOR_MIN_COUNT",
     "DEL_OFF_MODE",
+    "NULLS_DEL_OFF_MODE",
+    "NULLS_PHASES",
+    "NULLS_SWEEP_K_GRID",
+    "NULLS_POLICY_K",
+    "FACTQ_NUM_QUESTIONS",
+    "FACTQ_THRESHOLD",
+    "FACTQ_ADAPTER",
     "HF_HOME",
     "HF_HUB_CACHE",
     "TRANSFORMERS_CACHE",
@@ -94,6 +121,8 @@ RESERVED_AUDIT_OPTIONS = {
     "--closure",
     "--radius-grid",
     "--adversarial",
+    "--factq-vectors",
+    "--factq-threshold",
 }
 
 
@@ -136,6 +165,34 @@ class SchedulerSignal(Exception):
     def __init__(self, signum: int):
         self.signum = signum
         super().__init__(f"received signal {signum}")
+
+
+def _detect_gpus(environ: Mapping[str, str] | None = None) -> tuple[str, ...]:
+    """GPU ids to schedule on when none are given explicitly.
+
+    Precedence: ``GPUS`` (explicit) > ``CUDA_VISIBLE_DEVICES`` (an outer
+    restriction the operator already chose) > every GPU ``nvidia-smi``
+    reports. Returns () when nothing is found; callers decide whether that
+    is an error (a real run) or fine (a dry run).
+    """
+    environ = os.environ if environ is None else environ
+    for name in ("GPUS", "CUDA_VISIBLE_DEVICES"):
+        value = environ.get(name)
+        if value is not None and value.strip():
+            return _csv(value)
+    if shutil.which("nvidia-smi"):
+        try:
+            listing = subprocess.run(
+                ("nvidia-smi", "--query-gpu=index", "--format=csv,noheader"),
+                capture_output=True,
+                text=True,
+                check=True,
+                timeout=30,
+            ).stdout
+        except (OSError, subprocess.SubprocessError):
+            return ()
+        return tuple(line.strip() for line in listing.splitlines() if line.strip())
+    return ()
 
 
 def _csv(value: str) -> tuple[str, ...]:
@@ -235,6 +292,15 @@ def _directory_identity(path: Path) -> str:
     return digest.hexdigest()
 
 
+def _artifact_identity(path: Path) -> str:
+    """Fingerprint a large artifact file without reading its contents."""
+
+    if not path.is_file():
+        return "missing"
+    stat = path.stat()
+    return f"{path.name}:{stat.st_size}:{stat.st_mtime_ns}"
+
+
 def _job_key(model: str, dataset: str, phase: str, *parts: str) -> str:
     return ".".join((model, dataset, phase, *parts))
 
@@ -249,7 +315,7 @@ def _validate_selection(
     if "co-lmlm" in models and not phases:
         raise ValueError("Select at least one Co-LMLM phase.")
     unknown_sets = sorted(set(datasets) - DATASETS.keys())
-    unknown_models = sorted(set(models) - set(DEFAULT_MODELS))
+    unknown_models = sorted(set(models) - set(KNOWN_MODELS))
     unknown_phases = sorted(set(phases) - set(CO_LMLM_PHASES))
     if unknown_sets:
         raise ValueError(f"Unknown prompt sets: {', '.join(unknown_sets)}")
@@ -262,7 +328,11 @@ def _validate_selection(
 def _validate_audit_args(arguments: Sequence[str]) -> None:
     for argument in arguments:
         option = argument.split("=", 1)[0]
-        if option in RESERVED_AUDIT_OPTIONS or option.startswith("--co-lmlm-"):
+        if (
+            option in RESERVED_AUDIT_OPTIONS
+            or option.startswith("--co-lmlm-")
+            or option.startswith("--nulls-")
+        ):
             raise ValueError(
                 f"{option} is controlled by the cross-model scheduler and "
                 "cannot be forwarded to every backend. Use the scheduler "
@@ -314,6 +384,96 @@ def build_jobs(
         if "co-lmlm" in models
         else ()
     )
+    nulls_config: dict[str, Any] = {}
+    if NULLS_MODEL in models:
+        nulls_del_off_mode = inherited_env.get("NULLS_DEL_OFF_MODE", "sinks-zero")
+        if nulls_del_off_mode not in NULLS_DEL_OFF_MODES:
+            raise ValueError(
+                f"NULLS_DEL_OFF_MODE must be one of {', '.join(NULLS_DEL_OFF_MODES)}, "
+                f"got {nulls_del_off_mode!r}."
+            )
+        nulls_phases_env = inherited_env.get("NULLS_PHASES")
+        nulls_phases = _csv(nulls_phases_env) if nulls_phases_env else None
+        if nulls_phases:
+            unknown_nulls = sorted(set(nulls_phases) - set(NULLS_PHASES))
+            if unknown_nulls:
+                raise ValueError(f"Unknown NULLs phases: {', '.join(unknown_nulls)}")
+        try:
+            sweep_k_grid = tuple(
+                int(part)
+                for part in _csv(inherited_env.get("NULLS_SWEEP_K_GRID", "1,2,4,8,16"))
+            )
+        except ValueError:
+            raise ValueError(
+                "NULLS_SWEEP_K_GRID must be comma-separated integers, got "
+                f"{inherited_env.get('NULLS_SWEEP_K_GRID')!r}."
+            ) from None
+        try:
+            policy_k = int(inherited_env.get("NULLS_POLICY_K", "4"))
+        except ValueError:
+            raise ValueError(
+                f"NULLS_POLICY_K must be an integer, got "
+                f"{inherited_env.get('NULLS_POLICY_K')!r}."
+            ) from None
+        if policy_k < 1:
+            raise ValueError("NULLS_POLICY_K must be at least 1.")
+        nulls_config = {
+            "checkpoint_dir": Path(
+                inherited_env.get(
+                    "NULLS_CHECKPOINT_DIR", repo_root / "data" / "nulls-wikipedia-full"
+                )
+            ),
+            "title_to_index": Path(
+                inherited_env.get(
+                    "NULLS_TITLE_TO_INDEX",
+                    repo_root / "data" / "nulls-title-to-index.pkl",
+                )
+            ),
+            # Built by the shared prep-embeddings job when absent.
+            "title_embeddings": Path(
+                inherited_env.get(
+                    "NULLS_TITLE_EMBEDDINGS",
+                    repo_root / "data" / "nulls-title-embeddings.npz",
+                )
+            ),
+            # Shared-E artifact for source-level closures; needs the article
+            # texts, so it cannot be auto-built here (see
+            # scripts/build_nulls_title_embeddings.py --mode closure).
+            "closure_embeddings": Path(
+                inherited_env.get(
+                    "NULLS_CLOSURE_EMBEDDINGS",
+                    repo_root / "data" / "nulls-closure-embeddings.npz",
+                )
+            ),
+            # The training corpus (scripts/setup_nulls.sh); the value/hybrid
+            # policy rows read article texts from it.
+            "corpus_dir": Path(
+                inherited_env.get(
+                    "NULLS_CORPUS_DIR", repo_root / "data" / "nulls-wiki-corpus"
+                )
+            ),
+            "del_off_mode": nulls_del_off_mode,
+            "gate_margin": inherited_env.get("NULLS_GATE_MARGIN", "0.0"),
+            "sweep_k_grid": sweep_k_grid,
+            # Breadth of the geometric/hybrid policy rows (design §7).
+            "policy_k": policy_k,
+            # None = default behavior: standard + del-off, sweep when the
+            # closure-embedding artifact exists. Explicit NULLS_PHASES makes
+            # a missing sweep input a hard error instead of a silent skip.
+            "phases": nulls_phases,
+        }
+        if not (nulls_config["checkpoint_dir"] / "lit_model.pth").is_file():
+            raise ValueError(
+                f"NULLs checkpoint missing under {nulls_config['checkpoint_dir']}; "
+                "run ./scripts/setup_data.sh first."
+            )
+        if not nulls_config["title_to_index"].is_file():
+            raise ValueError(
+                f"{nulls_config['title_to_index']} not found. The training-time "
+                "title mapping is not derivable from the checkpoint and must "
+                "come from the NULLs authors — see the header of "
+                "scripts/setup_data.sh."
+            )
     source_fingerprint = _source_digest(repo_root)
     co_lmlm_source_fingerprint = (
         _co_lmlm_source_digest(co_lmlm_dir) if "co-lmlm" in models else "unused"
@@ -324,6 +484,43 @@ def build_jobs(
     suite = repo_root / "scripts" / "run_audit_suite_co_lmlm.sh"
     log_root = out_root / "_scheduler_jobs"
     jobs: list[Job] = []
+
+    # One routing-embedding artifact serves every dataset's gate/routing, so
+    # its build is a single shared prep job all NULLs gates depend on.
+    nulls_embeddings_key: str | None = None
+    if NULLS_MODEL in models:
+        title_to_index_identity = _artifact_identity(nulls_config["title_to_index"])
+        if nulls_config["title_embeddings"].is_file():
+            nulls_embeddings_key = None  # already built; gates need no dependency
+        else:
+            nulls_embeddings_key = _job_key(NULLS_MODEL, "_shared", "prep-embeddings")
+            jobs.append(
+                Job(
+                    key=nulls_embeddings_key,
+                    model=NULLS_MODEL,
+                    dataset="_shared",
+                    phase="prep-embeddings",
+                    command=(
+                        "uv",
+                        "run",
+                        "python",
+                        str(repo_root / "scripts" / "build_nulls_title_embeddings.py"),
+                        "--title-to-index",
+                        str(nulls_config["title_to_index"]),
+                        "--output",
+                        str(nulls_config["title_embeddings"]),
+                    ),
+                    environment=tuple(sorted(shared_env.items())),
+                    dependencies=frozenset(),
+                    priority=UNLOCK_BONUS + GATE_BONUS,
+                    log_path=log_root / f"{nulls_embeddings_key}.log",
+                    input_fingerprint=(
+                        f"source={source_fingerprint};"
+                        f"title_to_index={title_to_index_identity}"
+                    ),
+                    expected_outputs=(nulls_config["title_embeddings"],),
+                )
+            )
 
     for dataset in datasets:
         prompt_path = repo_root / DATASETS[dataset]
@@ -538,6 +735,7 @@ def build_jobs(
                     ),
                 )
 
+            oracle_final = None
             if "policy" in phases:
                 # Oracle first: the other policies reuse its DEL-OFF rows
                 # (and coinciding DEL-ON rows), then run in parallel.
@@ -567,6 +765,46 @@ def build_jobs(
                             / "cross_state_metrics.csv",
                         ),
                     )
+
+            if "factq" in phases:
+                # The <FACT-q> query-ensemble deletion rule: generate
+                # questions per fact from the FULL pass's retrieved entries
+                # (never the eval prompts — using the question you will be
+                # asked guarantees a successful forget), embed them through
+                # Co-LMLM's <FACT-q> head, then audit `--closure factq` as
+                # a sixth policy-matrix row.
+                questions_key = co_job(
+                    "factq-questions",
+                    (),
+                    dependencies=standard_dep,
+                    # Cheap and it unlocks the rest of the chain.
+                    priority=GATE_BONUS + rows * PHASE_COST["factq-questions"],
+                    expected_outputs=(co_output / f"{stem}_factq.jsonl",),
+                )
+                embed_final = striped_group(
+                    "factq-embed",
+                    (),
+                    dependencies={questions_key},
+                    priority=rows * PHASE_COST["factq-embed"],
+                    expected_outputs=(
+                        co_output / f"{stem}_factq_vectors.npz",
+                    ),
+                )
+                # Chain oracle reuse like the other policies when the policy
+                # phase runs; a factq-only plan audits without it.
+                factq_policy_dependencies = {embed_final} | (
+                    {oracle_final} if oracle_final is not None else standard_dep
+                )
+                striped_group(
+                    "factq-policy",
+                    (),
+                    dependencies=factq_policy_dependencies,
+                    priority=rows * PHASE_COST["factq-policy"],
+                    expected_outputs=(
+                        co_output / "policy_matrix" / "factq"
+                        / "cross_state_metrics.csv",
+                    ),
+                )
 
         for model in PARAMETRIC_MODELS:
             if model not in models:
@@ -612,6 +850,423 @@ def build_jobs(
                     ),
                 )
             )
+
+        if NULLS_MODEL in models:
+            nulls_output = out_root / NULLS_MODEL / dataset
+            prep_dir = nulls_output / "prep"
+            augmented_prompts = prep_dir / f"{prompt_path.stem}_nulls.jsonl"
+            gate_output = prep_dir / "gate.jsonl"
+            gated_prompts = prep_dir / f"{prompt_path.stem}_nulls_gated.jsonl"
+            nulls_stem = gated_prompts.stem
+            nulls_rows = rows
+            nulls_full_dir = nulls_output / f"{nulls_stem}_full"
+            nulls_fingerprint = (
+                f"source={source_fingerprint};"
+                f"prompt={prompt_fingerprint};"
+                f"checkpoint={_artifact_identity(nulls_config['checkpoint_dir'] / 'lit_model.pth')};"
+                f"title_to_index={_artifact_identity(nulls_config['title_to_index'])}"
+            )
+
+            def nulls_command(
+                prompt_file: Path,
+                output_dir: Path,
+                *extra: str,
+                del_off_mode: str,
+            ) -> tuple[str, ...]:
+                return (
+                    "uv",
+                    "run",
+                    "python",
+                    "-m",
+                    "halo.run_audit",
+                    "--backend",
+                    NULLS_MODEL,
+                    "--prompt-files",
+                    str(prompt_file),
+                    "--output-dir",
+                    str(output_dir),
+                    "--full-dir",
+                    str(nulls_full_dir),
+                    "--nulls-checkpoint-dir",
+                    str(nulls_config["checkpoint_dir"]),
+                    "--nulls-title-to-index",
+                    str(nulls_config["title_to_index"]),
+                    "--nulls-title-embeddings",
+                    str(nulls_config["title_embeddings"]),
+                    "--nulls-del-off-mode",
+                    del_off_mode,
+                    *audit_args,
+                    *extra,
+                )
+
+            def nulls_striped(
+                phase: str,
+                prompt_file: Path,
+                output_dir: Path,
+                *,
+                del_off_mode: str,
+                dependencies: Iterable[str] = (),
+                priority: int,
+                expected_outputs: tuple[Path, ...],
+            ) -> str:
+                """Emit one NULLs phase as shard jobs plus a finalize job.
+
+                Mirrors the Co-LMLM striped_group: the audit CLI's --shard
+                does the fact striping, and an unsharded finalize run merges
+                the stripes and carries the output contract. NULLs has no
+                cross-state row reuse (three real states), so striping is
+                the only fan-out available.
+                """
+                dependencies = frozenset(dependencies)
+
+                def one_job(parts: tuple[str, ...], *extra: str) -> str:
+                    key = _job_key(NULLS_MODEL, dataset, phase, *parts)
+                    log_name = ".".join(("run_audit", phase, *parts)) or phase
+                    jobs.append(
+                        Job(
+                            key=key,
+                            model=NULLS_MODEL,
+                            dataset=dataset,
+                            phase=phase,
+                            command=nulls_command(
+                                prompt_file,
+                                output_dir,
+                                "--log-file",
+                                str(output_dir / f"{log_name}.log"),
+                                *extra,
+                                del_off_mode=del_off_mode,
+                            ),
+                            environment=tuple(sorted(shared_env.items())),
+                            dependencies=(
+                                dependencies
+                                if not parts or parts[-1] != "finalize"
+                                else dependencies | set(shard_keys)
+                            ),
+                            priority=priority,
+                            log_path=log_root / f"{key}.log",
+                            input_fingerprint=nulls_fingerprint,
+                            expected_outputs=(
+                                expected_outputs
+                                if not parts or parts[-1] == "finalize"
+                                else ()
+                            ),
+                        )
+                    )
+                    return key
+
+                if shards_per_phase == 1:
+                    return one_job(())
+                shard_keys: list[str] = []
+                for index in range(shards_per_phase):
+                    shard_keys.append(
+                        one_job(
+                            (f"shard{index}",),
+                            "--shard",
+                            f"{index}/{shards_per_phase}",
+                        )
+                    )
+                return one_job(("finalize",))
+
+            # --- prep chain: augment -> gate (striped) -> gated prompts ---
+            augment_key = _job_key(NULLS_MODEL, dataset, "prep-augment")
+            jobs.append(
+                Job(
+                    key=augment_key,
+                    model=NULLS_MODEL,
+                    dataset=dataset,
+                    phase="prep-augment",
+                    command=(
+                        "uv",
+                        "run",
+                        "python",
+                        str(repo_root / "scripts" / "augment_source_titles.py"),
+                        "--prompts",
+                        str(prompt_path),
+                        "--title-to-index",
+                        str(nulls_config["title_to_index"]),
+                        "--output",
+                        str(augmented_prompts),
+                    ),
+                    environment=tuple(sorted(shared_env.items())),
+                    dependencies=frozenset(),
+                    priority=UNLOCK_BONUS + GATE_BONUS + nulls_rows,
+                    log_path=log_root / f"{augment_key}.log",
+                    input_fingerprint=nulls_fingerprint,
+                    expected_outputs=(augmented_prompts,),
+                )
+            )
+
+            gate_dependencies = {augment_key}
+            if nulls_embeddings_key is not None:
+                gate_dependencies.add(nulls_embeddings_key)
+
+            def gate_command(*extra: str) -> tuple[str, ...]:
+                return (
+                    "uv",
+                    "run",
+                    "python",
+                    str(repo_root / "scripts" / "nulls_verification_gate.py"),
+                    "--prompts",
+                    str(augmented_prompts),
+                    "--checkpoint-dir",
+                    str(nulls_config["checkpoint_dir"]),
+                    "--title-to-index",
+                    str(nulls_config["title_to_index"]),
+                    "--title-embeddings",
+                    str(nulls_config["title_embeddings"]),
+                    "--output",
+                    str(gate_output),
+                    "--margin",
+                    str(nulls_config["gate_margin"]),
+                    *extra,
+                )
+
+            def gate_job(
+                parts: tuple[str, ...],
+                command: tuple[str, ...],
+                dependencies: frozenset[str],
+                expected_outputs: tuple[Path, ...],
+            ) -> str:
+                key = _job_key(NULLS_MODEL, dataset, "prep-gate", *parts)
+                jobs.append(
+                    Job(
+                        key=key,
+                        model=NULLS_MODEL,
+                        dataset=dataset,
+                        phase="prep-gate",
+                        command=command,
+                        environment=tuple(sorted(shared_env.items())),
+                        dependencies=dependencies,
+                        priority=UNLOCK_BONUS + nulls_rows * 2,
+                        log_path=log_root / f"{key}.log",
+                        input_fingerprint=nulls_fingerprint,
+                        expected_outputs=expected_outputs,
+                    )
+                )
+                return key
+
+            if shards_per_phase == 1:
+                gate_key = gate_job(
+                    (),
+                    gate_command("--emit-passed-prompts", str(gated_prompts)),
+                    frozenset(gate_dependencies),
+                    (gate_output, gated_prompts),
+                )
+            else:
+                gate_shards = [
+                    gate_job(
+                        (f"shard{index}",),
+                        gate_command("--shard", f"{index}/{shards_per_phase}"),
+                        frozenset(gate_dependencies),
+                        (
+                            gate_output.with_suffix(
+                                f".shard{index}of{shards_per_phase}.jsonl"
+                            ),
+                        ),
+                    )
+                    for index in range(shards_per_phase)
+                ]
+                gate_key = gate_job(
+                    ("finalize",),
+                    gate_command(
+                        "--merge",
+                        str(shards_per_phase),
+                        "--emit-passed-prompts",
+                        str(gated_prompts),
+                    ),
+                    frozenset(gate_dependencies) | set(gate_shards),
+                    (gate_output, gated_prompts),
+                )
+
+            # --- audit phases, all on the gated prompt set ---
+            configured_phases = nulls_config["phases"]
+            standard_key = None
+            if configured_phases is None or "standard" in configured_phases:
+                standard_key = nulls_striped(
+                    "standard",
+                    gated_prompts,
+                    nulls_output,
+                    del_off_mode=nulls_config["del_off_mode"],
+                    dependencies={gate_key},
+                    priority=UNLOCK_BONUS + nulls_rows * PHASE_COST["nulls-standard"],
+                    expected_outputs=(
+                        nulls_output / f"{nulls_stem}_results.jsonl",
+                        nulls_output / "cross_state_metrics.csv",
+                    ),
+                )
+            nulls_audit_dep = {standard_key} if standard_key else {gate_key}
+
+            if configured_phases is None or "del-off" in configured_phases:
+                complementary = (
+                    "placebo-sink"
+                    if nulls_config["del_off_mode"] == "sinks-zero"
+                    else "sinks-zero"
+                )
+                nulls_striped(
+                    "del-off",
+                    gated_prompts,
+                    nulls_output / "del_off_sensitivity" / complementary,
+                    del_off_mode=complementary,
+                    dependencies=nulls_audit_dep,
+                    priority=nulls_rows * PHASE_COST["nulls-del-off"],
+                    expected_outputs=(
+                        nulls_output
+                        / "del_off_sensitivity"
+                        / complementary
+                        / "cross_state_metrics.csv",
+                    ),
+                )
+
+            # --- breadth-k sweep: closures job feeds one audit group per k ---
+            sweep_requested = (
+                configured_phases is not None and "sweep" in configured_phases
+            )
+            closure_artifact = nulls_config["closure_embeddings"]
+            if sweep_requested and not closure_artifact.is_file():
+                raise ValueError(
+                    "NULLS_PHASES requests the sweep but the shared-encoder "
+                    f"artifact {closure_artifact} is missing. Build it with "
+                    "scripts/build_nulls_title_embeddings.py --mode closure "
+                    "(requires the article texts)."
+                )
+            if closure_artifact.is_file() and (
+                configured_phases is None or sweep_requested
+            ):
+                closures_dir = prep_dir / "source_closures"
+                k_grid = nulls_config["sweep_k_grid"]
+                closure_files = {
+                    k: closures_dir / f"{nulls_stem}_geometric_k{k}.jsonl"
+                    for k in k_grid
+                }
+                closures_key = _job_key(NULLS_MODEL, dataset, "prep-closures")
+                jobs.append(
+                    Job(
+                        key=closures_key,
+                        model=NULLS_MODEL,
+                        dataset=dataset,
+                        phase="prep-closures",
+                        command=(
+                            "uv",
+                            "run",
+                            "python",
+                            str(repo_root / "scripts" / "build_source_closures.py"),
+                            "--prompts",
+                            str(gated_prompts),
+                            "--title-to-index",
+                            str(nulls_config["title_to_index"]),
+                            "--closure-embeddings",
+                            str(closure_artifact),
+                            "--predicate",
+                            "geometric",
+                            "--k-grid",
+                            ",".join(str(k) for k in k_grid),
+                            "--output-dir",
+                            str(closures_dir),
+                        ),
+                        environment=tuple(sorted(shared_env.items())),
+                        dependencies=frozenset({gate_key}),
+                        priority=GATE_BONUS + nulls_rows,
+                        log_path=log_root / f"{closures_key}.log",
+                        input_fingerprint=nulls_fingerprint,
+                        expected_outputs=tuple(closure_files.values()),
+                    )
+                )
+                for k in k_grid:
+                    nulls_striped(
+                        f"sweep-k{k}",
+                        closure_files[k],
+                        nulls_output / "source_sweep" / f"k{k}",
+                        del_off_mode=nulls_config["del_off_mode"],
+                        dependencies=nulls_audit_dep | {closures_key},
+                        priority=nulls_rows * PHASE_COST["nulls-sweep"],
+                        expected_outputs=(
+                            nulls_output
+                            / "source_sweep"
+                            / f"k{k}"
+                            / "cross_state_metrics.csv",
+                        ),
+                    )
+
+            # --- policy matrix (design §7) at source granularity ---
+            # provenance = the standard run (its manifests are the k = 0
+            # provenance-source closures); geometric = the sweep group at
+            # NULLS_POLICY_K (identical manifests, so it is not re-run);
+            # value and hybrid need the corpus texts and are the two rows
+            # this phase adds. Like the sweep it needs the shared-E artifact;
+            # an explicit NULLS_PHASES=policy makes missing inputs a hard
+            # error, the default quietly leaves the rows out.
+            policy_requested = (
+                configured_phases is not None and "policy" in configured_phases
+            )
+            corpus_dir = nulls_config["corpus_dir"]
+            corpus_present = corpus_dir.is_dir() and any(corpus_dir.rglob("*.parquet"))
+            if policy_requested and not (closure_artifact.is_file() and corpus_present):
+                raise ValueError(
+                    "NULLS_PHASES requests the policy matrix, which needs both the "
+                    f"shared-encoder artifact {closure_artifact} and the training "
+                    f"corpus under {corpus_dir} (scripts/setup_nulls.sh)."
+                )
+            if (
+                closure_artifact.is_file()
+                and corpus_present
+                and (configured_phases is None or policy_requested)
+            ):
+                policy_k = nulls_config["policy_k"]
+                policy_dir = prep_dir / "policy_closures"
+                policy_files = {
+                    "value": policy_dir / f"{nulls_stem}_value_k0.jsonl",
+                    "hybrid": policy_dir / f"{nulls_stem}_hybrid_k{policy_k}.jsonl",
+                }
+                policy_closures_key = _job_key(NULLS_MODEL, dataset, "prep-policy-closures")
+                jobs.append(
+                    Job(
+                        key=policy_closures_key,
+                        model=NULLS_MODEL,
+                        dataset=dataset,
+                        phase="prep-policy-closures",
+                        command=(
+                            "uv",
+                            "run",
+                            "python",
+                            str(repo_root / "scripts" / "build_source_closures.py"),
+                            "--prompts",
+                            str(gated_prompts),
+                            "--title-to-index",
+                            str(nulls_config["title_to_index"]),
+                            "--closure-embeddings",
+                            str(closure_artifact),
+                            "--predicate",
+                            "value,hybrid",
+                            "--k-grid",
+                            str(policy_k),
+                            "--texts",
+                            str(corpus_dir),
+                            "--output-dir",
+                            str(policy_dir),
+                        ),
+                        environment=tuple(sorted(shared_env.items())),
+                        dependencies=frozenset({gate_key}),
+                        priority=GATE_BONUS + nulls_rows,
+                        log_path=log_root / f"{policy_closures_key}.log",
+                        input_fingerprint=nulls_fingerprint,
+                        expected_outputs=tuple(policy_files.values()),
+                    )
+                )
+                for policy, prompt_file in policy_files.items():
+                    nulls_striped(
+                        f"policy-{policy}",
+                        prompt_file,
+                        nulls_output / "policy_matrix" / policy,
+                        del_off_mode=nulls_config["del_off_mode"],
+                        dependencies=nulls_audit_dep | {policy_closures_key},
+                        priority=nulls_rows * PHASE_COST["nulls-policy"],
+                        expected_outputs=(
+                            nulls_output
+                            / "policy_matrix"
+                            / policy
+                            / "cross_state_metrics.csv",
+                        ),
+                    )
 
     _validate_graph(jobs)
     return jobs
@@ -1197,8 +1852,9 @@ def _parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument(
         "--gpus",
-        default=os.environ.get("GPUS", "0,1,2,3,4,5,6,7"),
-        help="Comma-separated physical GPU ids.",
+        default=None,
+        help="Comma-separated physical GPU ids. Default: GPUS, else "
+        "CUDA_VISIBLE_DEVICES, else every GPU nvidia-smi reports.",
     )
     parser.add_argument(
         "--max-parallel",
@@ -1276,7 +1932,18 @@ def main(argv: Sequence[str] | None = None) -> int:
     datasets = _csv(args.sets)
     models = _csv(args.models)
     phases = _csv(args.phases)
-    gpus = _csv(args.gpus)
+    gpus = _csv(args.gpus) if args.gpus else _detect_gpus()
+    if not gpus:
+        if args.dry_run:
+            gpus = ("0",)
+            print("note: no GPUs detected; planning with one slot.", file=sys.stderr)
+        else:
+            print(
+                "error: no GPUs detected (nvidia-smi found none or is not "
+                "installed); pass --gpus or set GPUS=0,1,...",
+                file=sys.stderr,
+            )
+            return 2
     out_root = args.out_root.expanduser().resolve()
     co_lmlm_dir = args.co_lmlm_dir.expanduser().resolve()
     index_dir = args.index_dir.expanduser().resolve()

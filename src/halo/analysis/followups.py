@@ -733,7 +733,7 @@ def _run_control_probe(
         samples,
         _probe_labels(facts),
         config,
-        fold_groups=fold_groups,
+        fold_key=fold_groups,
     )
     behavioral = {
         key: float(fact.del_off_correct)
