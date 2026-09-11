@@ -38,7 +38,7 @@
 #   CO_LMLM_DIR      Co-LMLM checkout (default: ../Co-LMLM; cloned if absent)
 #   INDEX_DIR        fineweb+wiki index (default: data/co-lmlm-fineweb-wiki-index)
 #   MODELS           subset of co-lmlm,standard-lm-360m-fw,smollm2-360m,
-#                    nulls-wiki-1b (default: all four)
+#                    nulls-wiki-1b,smollm2-1.7b (default: all five)
 #   SUITE_WORKERS    worker processes inside unsharded Co-LMLM jobs (default: 1)
 #   SCHEDULER_SHARDS fact-shard jobs per striped phase (default: 1)
 #   FACTQ_NUM_QUESTIONS / FACTQ_THRESHOLD / FACTQ_ADAPTER
@@ -58,10 +58,11 @@ REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 OUT_ROOT="${OUT_ROOT:-$REPO_ROOT/out-cross-model}"
 export OUT_ROOT
 
-# Everything in one: the default model list includes nulls-wiki-1b, so a bare
-# invocation submits the complete cross-model graph. Narrow with MODELS=...
-# on machines without the NULLs artifacts.
-MODELS="${MODELS:-co-lmlm,standard-lm-360m-fw,smollm2-360m,nulls-wiki-1b}"
+# Everything in one: the default model list includes nulls-wiki-1b and its
+# scale reference smollm2-1.7b, so a bare invocation submits the complete
+# cross-model graph. Narrow with MODELS=... on machines without the NULLs
+# artifacts.
+MODELS="${MODELS:-co-lmlm,standard-lm-360m-fw,smollm2-360m,nulls-wiki-1b,smollm2-1.7b}"
 
 # SETS/GPUS/CO_LMLM_DIR/INDEX_DIR/SUITE_WORKERS/SCHEDULER_SHARDS/NULLS_* are
 # read from the environment by the scheduler itself; the launcher only maps

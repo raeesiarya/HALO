@@ -105,8 +105,10 @@ sensitivity check. The controls and policy matrix can also be run separately:
 ## Cross-model runs
 
 The cross-model scheduler runs Co-LMLM, SmolLM2-360M,
-CoLMLM-Standard-LM-Baseline-360M-FW, and NULLs (`nulls-wiki-1b`, prep jobs
-included) over all prompt sets. Check the planned jobs before starting a
+CoLMLM-Standard-LM-Baseline-360M-FW, NULLs (`nulls-wiki-1b`, prep jobs
+included), and SmolLM2-1.7B (`smollm2-1.7b`, the off-the-shelf reference at
+NULLs' scale — the same role SmolLM2-360M plays for Co-LMLM) over all prompt
+sets. Check the planned jobs before starting a
 detached run:
 
 ```bash

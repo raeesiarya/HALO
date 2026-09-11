@@ -40,13 +40,21 @@ DATASETS: dict[str, str] = {
 }
 DEFAULT_MODELS = ("co-lmlm", "standard-lm-360m-fw", "smollm2-360m")
 CO_LMLM_PHASES = ("standard", "sweep", "adversarial", "del-off", "policy", "factq")
-PARAMETRIC_MODELS = ("standard-lm-360m-fw", "smollm2-360m")
+# `smollm2-1.7b` is the NULLs-scale reference and travels with NULLs rather
+# than with the 360M block, so it stays out of DEFAULT_MODELS for the same
+# reason NULLS_MODEL does.
+NULLS_REFERENCE_MODEL = "smollm2-1.7b"
+PARAMETRIC_MODELS = (
+    "standard-lm-360m-fw",
+    "smollm2-360m",
+    NULLS_REFERENCE_MODEL,
+)
 # Third category (docs/NULLS_AUDIT_DESIGN.md): parametric, but with real
 # deletion states — its jobs stripe like Co-LMLM phases and consume the
 # augmented prompt sets (source-title manifests), so it is opt-in via
 # MODELS=... rather than a DEFAULT_MODELS member.
 NULLS_MODEL = "nulls-wiki-1b"
-KNOWN_MODELS = (*DEFAULT_MODELS, NULLS_MODEL)
+KNOWN_MODELS = (*DEFAULT_MODELS, NULLS_MODEL, NULLS_REFERENCE_MODEL)
 NULLS_PHASES = ("standard", "del-off", "sweep", "policy")
 NULLS_DEL_OFF_MODES = ("sinks-zero", "placebo-sink")
 
@@ -65,6 +73,9 @@ PHASE_COST = {
     "del-off": 3,
     "policy": 12,
     "parametric": 3,
+    # A 1.7B closed-book pass costs roughly 5x a 360M one; only the ordering
+    # of runnable jobs depends on this, so the ratio is what matters.
+    "parametric-1.7b": 15,
     # NULLs runs three real states with a ~1B model and no cross-state row
     # reuse, so a phase costs roughly 3x a closed-book parametric pass.
     "nulls-standard": 9,
@@ -810,6 +821,11 @@ def build_jobs(
             if model not in models:
                 continue
             phase = "standard"
+            cost = PHASE_COST[
+                "parametric-1.7b"
+                if model == NULLS_REFERENCE_MODEL
+                else "parametric"
+            ]
             key = _job_key(model, dataset, phase)
             output_dir = out_root / model / dataset
             environment = {**shared_env}
@@ -839,7 +855,7 @@ def build_jobs(
                     ),
                     environment=tuple(sorted(environment.items())),
                     dependencies=frozenset(),
-                    priority=rows * PHASE_COST["parametric"],
+                    priority=rows * cost,
                     log_path=log_root / f"{key}.log",
                     input_fingerprint=(
                         f"source={source_fingerprint};prompt={prompt_fingerprint}"

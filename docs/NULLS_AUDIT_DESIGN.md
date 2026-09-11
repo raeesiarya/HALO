@@ -235,6 +235,24 @@ robustness.
   (reconciled as far as titles allow; residual mismatch shows up in the §9
   exclusion rate), training objective and epochs. Tokenizer is shared
   (SmolLM2), which removes one nuisance variable.
+- **Scale reference (`smollm2-1.7b`)**: the off-the-shelf parametric entry at
+  NULLs' scale — what `smollm2-360m` is to Co-LMLM, one size up. SmolLM2's
+  released sizes are 135M / 360M / 1.7B, so 1.7B is the nearest neighbour of
+  a ~1B model in the same family and with the same tokenizer, and it brackets
+  NULLs' Sink-On correctness from above where the 360M entries cannot. It is
+  a *reference, not a control*: SmolLM2-1.7B is trained on the full SmolLM2
+  web corpus and NULLs on Wikipedia only, so the bracket is loose by training
+  data as well as by scale, and no causal claim rests on it. Registered as a
+  closed-book backend (`src/models/smollm2_1_7b/`) and scheduled alongside
+  `nulls-wiki-1b` rather than with the 360M block.
+- **No data-matched parametric control exists for NULLs.** Co-LMLM's
+  `standard-lm-360m-fw` has no NULLs analogue: the authors released
+  `NULLS-Wikipedia-Full` and `NULLS-HarryPotter`, and the one repository that
+  looked like a no-sink Wikipedia LM (`gauravrghosal/wikipedia_full_8x`) is
+  empty (checked 2026-09-12). The data- and parameter-matched controls are
+  therefore NULLs' own DEL-OFF modes (`sinks-zero`, `placebo-sink`, §6);
+  building an external one would require training a Wikipedia-only 1B LM
+  ourselves.
 - **Protocol**: HALO's generation-based whole-phrase correctness is primary
   for both systems (greedy decoding, deterministic). Truth-ratio-style
   likelihood scoring is computed as a secondary readout for both, giving a
@@ -268,7 +286,8 @@ robustness.
 | Backbone-only is off-distribution | Placebo-sink control (§6) | Disagreement bounds DEL-OFF claims |
 | Silent sink-mask mismatch | Verification gate + reported exclusion rate (§9) | Gate miscalibration → δ calibrated on held-out sample |
 | Corpus mismatch | Wikipedia-only Co-LMLM as primary config (§10) | Dump-version drift, epochs |
-| Scale mismatch (1B vs 360M) | Declared; direction of expected bias discussed | Unfixable without training |
+| Scale mismatch (1B vs 360M) | Declared; direction of expected bias discussed; `smollm2-1.7b` brackets NULLs' scale from above (§10) | Unfixable without training; the bracket is corpus-confounded |
+| No data-matched parametric control for NULLs | Own DEL-OFF modes serve the role (§6); absence of a released no-sink Wikipedia LM stated (§10) | Cross-substrate closed-book comparison stays a reference, not a control |
 | Robustness omitted | Shared paraphrase-extraction phase (§8) | GCG and router attacks scoped out, flagged |
 | Cohort conditioning | Intersection cohort primary, per-substrate shown (§9) | Conditional claims only — stated as such |
 
@@ -285,7 +304,10 @@ robustness.
 4. Prompt-set augmentation + gate — `scripts/augment_source_titles.py` and
    `scripts/nulls_verification_gate.py` (striped; emits the gated prompt
    set).
-5. `src/halo/scheduler.py` — third model category for `nulls-wiki-1b`, prep
+5. `src/models/smollm2_1_7b/` — the scale reference (§10): thin registration
+   over the shared closed-book implementation, deletion flags rejected up
+   front exactly as for `smollm2-360m`.
+6. `src/halo/scheduler.py` — third model category for `nulls-wiki-1b`, prep
    included: shared embeddings job -> per-set augment -> striped gate ->
    standard -> del-off + closures -> sweep(k-grid) + policy (value/hybrid
    rows from a streamed corpus pass; provenance = standard, geometric =
@@ -293,8 +315,8 @@ robustness.
    ⇒ no cross-state reuse). One command:
    `scripts/run_suite_parallel_cross_model.sh`. The shared-adversarial
    phase (§8) is future work.
-6. Co-LMLM side — source-level filtering via manifest `source_ids` (already
+7. Co-LMLM side — source-level filtering via manifest `source_ids` (already
    supported) + `--co-lmlm-corpus-allow` for the Wikipedia-only config.
-7. Analysis — matched-collateral readout, operating curves, paired bootstrap;
+8. Analysis — matched-collateral readout, operating curves, paired bootstrap;
    figure updates in `scripts/paper_figures.py` distinguishing substrates
    (not yet built).

@@ -773,3 +773,32 @@ def test_detect_gpus_precedence_and_fallbacks(monkeypatch) -> None:
     assert scheduler._detect_gpus({}) == ()
     monkeypatch.setattr(scheduler.shutil, "which", lambda name: None)
     assert scheduler._detect_gpus({}) == ()
+
+
+def test_nulls_scale_reference_plans_a_plain_parametric_job(
+    tmp_path: Path,
+) -> None:
+    repo_root = tmp_path / "repo"
+    prompt = repo_root / DATASETS["trex"]
+    prompt.parent.mkdir(parents=True)
+    prompt.write_text('{"prompt_id":"first"}\n', encoding="utf-8")
+    jobs = build_jobs(
+        repo_root=repo_root,
+        out_root=tmp_path / "out",
+        co_lmlm_dir=tmp_path / "Co-LMLM",
+        index_dir=tmp_path / "index",
+        datasets=("trex",),
+        models=("smollm2-360m", "smollm2-1.7b"),
+        inherited_env={},
+    )
+    by_key = {job.key: job for job in jobs}
+    reference = by_key["smollm2-1.7b.trex.standard"]
+    # Same shape as the 360M reference: one unconditional closed-book pass,
+    # no deletion machinery, no prep chain.
+    assert reference.dependencies == frozenset()
+    assert [job.key for job in jobs if job.model == "smollm2-1.7b"] == [
+        reference.key
+    ]
+    assert "--closure" not in reference.command
+    # It is ordered ahead of the 360M pass: same rows, ~5x the cost.
+    assert reference.priority > by_key["smollm2-360m.trex.standard"].priority
