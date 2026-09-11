@@ -7,18 +7,36 @@
 # only that. SKIP_COLMLM=1 / SKIP_NULLS=1 skip a half; every other knob
 # (INDEX_DIR, SKIP_INDEX, NULLS_*, SKIP_CORPUS, SKIP_CLOSURE, HF_TOKEN, ...)
 # passes through to the halves.
+# By default the script detaches and logs to logs/setup_data.log, and each
+# half to its own logs/<half>.log (tail -F them); HALO_SETUP_FOREGROUND=1
+# runs everything attached.
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+# shellcheck source=scripts/_detach.sh
+source "$REPO_ROOT/scripts/_detach.sh"
+detach_setup setup_data "$@"
+
+run_half() {
+    local half="$1"
+    if [ "${HALO_SETUP_DETACHED:-0}" = "1" ]; then
+        # The half inherits HALO_SETUP_DETACHED, so it runs in place and
+        # brackets its own log with start/finish lines.
+        echo "-> $half  (tail -F $REPO_ROOT/logs/$half.log)"
+        "$REPO_ROOT/scripts/$half.sh" > "$REPO_ROOT/logs/$half.log" 2>&1
+    else
+        "$REPO_ROOT/scripts/$half.sh"
+    fi
+}
 
 if [ "${SKIP_COLMLM:-0}" = "1" ]; then
     echo "SKIP_COLMLM=1 — skipping scripts/setup_colmlm.sh"
 else
-    "$REPO_ROOT/scripts/setup_colmlm.sh"
+    run_half setup_colmlm
 fi
 
 if [ "${SKIP_NULLS:-0}" = "1" ]; then
     echo "SKIP_NULLS=1 — skipping scripts/setup_nulls.sh"
 else
-    "$REPO_ROOT/scripts/setup_nulls.sh"
+    run_half setup_nulls
 fi

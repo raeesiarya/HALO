@@ -37,9 +37,14 @@
 #                              suite to add the sweep
 #   SKIP_PROMPTS=1             skip step 1
 #   HF_TOKEN                   if a repo is gated
+#   HALO_SETUP_FOREGROUND=1    run attached; by default the script detaches
+#                              and logs to logs/setup_nulls.log (tail -F it)
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+# shellcheck source=scripts/_detach.sh
+source "$REPO_ROOT/scripts/_detach.sh"
+detach_setup setup_nulls "$@"
 
 NULLS_REPO="gauravrghosal/NULLS-Wikipedia-Full"
 CORPUS_REPO="gauravrghosal/wiki_nulls_corpus"

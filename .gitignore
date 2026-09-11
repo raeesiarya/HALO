@@ -36,6 +36,9 @@ results/
 # Paper figures rendered by scripts/paper_figures.py
 /figures/
 
+# Setup-script logs and PID files (scripts/_detach.sh)
+/logs/
+
 # Per-fact closure manifests (large, regenerated from the audit results)
 /results/**/prompts_trex_closures/
 /results/prompts_trex_adversarial/closures/

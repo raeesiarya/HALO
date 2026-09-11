@@ -13,10 +13,14 @@
 #
 # Override the index location with INDEX_DIR=/path. Set HF_TOKEN if the
 # bucket is gated. SKIP_INDEX=1 skips the download, SKIP_PROMPTS=1 the
-# prompt build.
+# prompt build. By default the script detaches and logs to
+# logs/setup_colmlm.log (tail -F it); HALO_SETUP_FOREGROUND=1 runs attached.
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+# shellcheck source=scripts/_detach.sh
+source "$REPO_ROOT/scripts/_detach.sh"
+detach_setup setup_colmlm "$@"
 
 INDEX_REPO="lil-lab/co-lmlm-360m-fw-fineweb-wiki-index"
 INDEX_DIR="${INDEX_DIR:-$REPO_ROOT/data/co-lmlm-fineweb-wiki-index}"

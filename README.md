@@ -55,6 +55,12 @@ downloads the index; `setup_nulls.sh` fetches the NULLs artifacts (below);
 ./scripts/run_audit_co_lmlm.sh
 ```
 
+The setup scripts run detached: they return at once, survive the terminal
+closing, and write everything to `logs/<script>.log`
+(`tail -F logs/setup_colmlm.log`). The log ends with a
+`finished ... (exit N)` line; wait for it before starting a run.
+`HALO_SETUP_FOREGROUND=1` runs a setup script attached.
+
 Set `INDEX_DIR`, `PROMPTS`, or `OUTPUT_DIR` to use different paths. Extra
 arguments are passed to `halo-audit`, for example:
 
