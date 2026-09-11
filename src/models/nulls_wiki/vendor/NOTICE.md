@@ -27,14 +27,20 @@ Files and the edits made (everything else is verbatim):
 - `seqtd_model.py` — `CausalSelfAttention`, `LLaMAMLPSeqTD`, `BlockSeqTD`,
   `GPTSeqTD` from `MemSinks/src/src/SeqTDModel.py`. Edits: imports rewritten
   (mask function from `.masking`); `do_softcapping` imported with a
-  fallback definition (verbatim from litgpt 0.5.5) because the repo's
-  torch<2.5 pin caps litgpt at 0.5.4, which predates it — the released
-  checkpoint has both softcapping options null, so the function is never
-  called for it, and every other litgpt helper the code uses
-  (`apply_rope` with 3-D cos/sin, `build_rope_cache`, `build_mask_cache`,
-  `KVCache`, `batched_index_select`) is signature- and
-  semantics-compatible between 0.5.4 and the 0.5.5+ the upstream code was
-  written against; debug `print`s dropped;
+  fallback definition (verbatim from litgpt 0.5.5) for litgpt < 0.5.5 —
+  the pinned litgpt (>=0.5.12, for torch 2.10) ships it, and the released
+  checkpoint has both softcapping options null, so it is never called for
+  it. The other litgpt helpers were checked 0.5.4 -> 0.5.13 on the paths
+  this code uses: `apply_rope` now requires 3-D cos/sin, which
+  `GPTSeqTD.forward` already passes; `build_rope_cache` is numerically
+  unchanged without `rope_adjustments` (null in the release);
+  `build_mask_cache` and `RMSNorm` are unchanged; `KVCache` and
+  `batched_index_select` are only reached through the KV-cache path, which
+  the audit backend never uses; `qkv_reassemble` (now interleaved ->
+  grouped, matching the grouped `qkv` layout here) only fires for legacy
+  `attn.attn.*` keys — the release evidently has none, since its real-weights
+  check passed under 0.5.4, whose opposite-direction conversion would have
+  scrambled attention; debug `print`s dropped;
   `LLaMAMLPSeqTD.forward` additionally accepts a *sequence* of
   `exclude_seq_ids` tensors whose masks are unioned before exclusion
   (upstream supports a single id; the single-id path is unchanged and the
