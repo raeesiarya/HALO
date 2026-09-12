@@ -2,9 +2,14 @@
 
 Verbatim from upstream ``MemSinks/src/src/SeqTDModel.py`` except for the
 documented edits: import paths, debug prints and per-forward
-``torch.cuda.empty_cache()`` removed, and ``exclude_seq_ids`` may be a
+``torch.cuda.empty_cache()`` removed, ``exclude_seq_ids`` may be a
 sequence of id tensors whose sink masks are unioned before exclusion (the
-single-tensor path is byte-identical to upstream).
+single-tensor path is byte-identical to upstream), and the ``all`` and
+``dropout`` neuron masks are built in the activation dtype instead of
+float32. Upstream runs the model in fp32, so its masks match by accident;
+we load the released checkpoint in bfloat16 on CUDA, where a float32 mask
+promotes ``x * mask`` to float32 and the next bf16 Linear raises
+"mat1 and mat2 to have the same dtype". The mask values are unchanged.
 """
 
 from __future__ import annotations
@@ -287,13 +292,19 @@ class LLaMAMLPSeqTD(nn.Module):
             mask = mask.to(torch.bool)
         else:
             if eval_mode == "all":
-                mask_gen = (
-                    torch.ones((x.shape[0], x.shape[1], self.num_gen_neurons))
-                ).to(x.device)
+                mask_gen = torch.ones(
+                    (x.shape[0], x.shape[1], self.num_gen_neurons),
+                    dtype=x.dtype,
+                    device=x.device,
+                )
                 mask_mem = (
-                    torch.ones((x.shape[0], x.shape[1], self.num_mem_neurons))
+                    torch.ones(
+                        (x.shape[0], x.shape[1], self.num_mem_neurons),
+                        dtype=x.dtype,
+                        device=x.device,
+                    )
                     * self.p_mem
-                ).to(x.device)
+                )
                 if exclude_seq_ids is not None:
                     mask_mem_exclude = _union_exclusion_mask(
                         exclude_seq_ids, self.num_mem_neurons, self.p_mem
@@ -304,9 +315,15 @@ class LLaMAMLPSeqTD(nn.Module):
                 mask.requires_grad_(False)
             elif eval_mode == "dropout":
                 mask_gen = torch.ones(
-                    (x.shape[0], x.shape[1], self.num_gen_neurons)
+                    (x.shape[0], x.shape[1], self.num_gen_neurons),
+                    dtype=x.dtype,
+                    device=x.device,
                 ) * ((self.p_gen + self.p_mem) / self.p_gen)
-                mask_mem = torch.zeros((x.shape[0], x.shape[1], self.num_mem_neurons))
+                mask_mem = torch.zeros(
+                    (x.shape[0], x.shape[1], self.num_mem_neurons),
+                    dtype=x.dtype,
+                    device=x.device,
+                )
                 mask = torch.cat((mask_gen, mask_mem), dim=-1)
                 mask = mask.to(x.device)
                 mask.requires_grad_(False)
