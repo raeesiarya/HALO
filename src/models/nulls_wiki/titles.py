@@ -87,6 +87,8 @@ def augment(prompts_path: Path, title_to_index_path: Path, output_path: Path) ->
         title_to_index = pickle.load(handle)
     resolve = build_title_resolver(title_to_index)
 
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
     kept = 0
     dropped: list[dict] = []
     method_counts: Counter[str] = Counter()
