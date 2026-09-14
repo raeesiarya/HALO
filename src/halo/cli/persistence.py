@@ -118,6 +118,29 @@ def prompt_digest(prompt_path: Path) -> str:
     return digest.hexdigest()
 
 
+def prompt_facts_digest(prompt_path: Path) -> str:
+    """Digest of a prompt file's facts, blind to each row's deletion manifest.
+
+    FULL generations never consult the manifest, so phases that audit the
+    same facts under different manifests (pre-built closure files) share one
+    identity for the FULL pass and for cross-phase reuse. Row order and every
+    other field still count.
+    """
+    digest = hashlib.sha256()
+    with prompt_path.open("r", encoding="utf-8") as handle:
+        for line in handle:
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            if isinstance(row, dict):
+                row.pop("deletion_manifest", None)
+            digest.update(
+                json.dumps(row, sort_keys=True, ensure_ascii=False).encode("utf-8")
+            )
+            digest.update(b"\n")
+    return digest.hexdigest()
+
+
 def backend_resume_identity(backend: Any) -> dict[str, Any]:
     """Stable backend fields that can change generated or retrieved outputs."""
     identity = {
@@ -145,11 +168,22 @@ def ensure_resume_config(
     payload: dict[str, Any],
     *,
     legacy_artifacts: tuple[Path, ...] = (),
+    legacy_payloads: tuple[dict[str, Any], ...] = (),
 ) -> None:
-    """Prevent resumable artifacts from crossing experiment definitions."""
+    """Prevent resumable artifacts from crossing experiment definitions.
+
+    ``legacy_payloads`` are earlier shapes of the same identity; a stored
+    config equal to one of them is upgraded in place instead of rejected.
+    """
     normalized = json.loads(json.dumps(payload, sort_keys=True, default=str))
     if path.exists():
         stored = json.loads(path.read_text(encoding="utf-8"))
+        if stored != normalized and any(
+            stored == json.loads(json.dumps(legacy, sort_keys=True, default=str))
+            for legacy in legacy_payloads
+        ):
+            atomic_write_text(path, json.dumps(normalized, indent=2, sort_keys=True))
+            return
         if stored != normalized:
             raise AuditIntegrationError(
                 f"Resume configuration mismatch in {path}. Use a fresh output "

@@ -70,6 +70,8 @@ class ReuseContext:
     limit: int | None
     max_new_tokens: int
     del_off_mode: str | None
+    # Manifest-blind facts digest; None matches on the raw file digest only.
+    prompt_facts_sha256: str | None = None
 
 
 class ReuseSource:
@@ -112,7 +114,6 @@ class ReuseSource:
         )
         for field, expected in (
             ("backend", normalized),
-            ("prompt_sha256", context.prompt_sha256),
             ("limit", context.limit),
             ("max_new_tokens", context.max_new_tokens),
         ):
@@ -122,6 +123,19 @@ class ReuseSource:
                     f"different {field!r} ({config.get(field)!r} vs "
                     f"{expected!r}); refusing to mix experiment definitions."
                 )
+        # The same file, or the same facts under other manifests (pre-built
+        # closure files): the per-state cross-phase fingerprints still decide
+        # which rows are equivalent, so DEL-ON is never served across them.
+        if config.get("prompt_sha256") != context.prompt_sha256 and not (
+            context.prompt_facts_sha256 is not None
+            and config.get("prompt_facts_sha256") == context.prompt_facts_sha256
+        ):
+            raise AuditIntegrationError(
+                f"Reuse source {results_path} was produced under a different "
+                f"'prompt_sha256' ({config.get('prompt_sha256')!r} vs "
+                f"{context.prompt_sha256!r}) and different facts; refusing to "
+                "mix experiment definitions."
+            )
         self.del_off_compatible = config.get("del_off_mode") == context.del_off_mode
 
         with results_path.open("r", encoding="utf-8") as handle:

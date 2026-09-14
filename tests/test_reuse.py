@@ -15,12 +15,14 @@ from halo.cli.persistence import (
     backend_resume_identity,
     ensure_resume_config,
     prompt_digest,
+    prompt_facts_digest,
     read_partial_jsonl,
 )
 from halo.cli.reporting import save_results
 from halo.cli.reuse import GenerationReuseStore, ReuseContext, ReuseSource
 from halo.cli.runner import StandardAuditPersistence, _load_examples, run_backend_audit
 from halo.core.embeddings import QueryEmbeddingSink
+from halo.core.entanglement import fact_key
 from halo.core.states import DatabaseState
 from halo.interventions.errors import AuditIntegrationError
 from models.co_lmlm.backend import CoLMLMAuditBackend
@@ -107,6 +109,7 @@ def _audit_config_payload(backend, prompt_path: Path) -> dict:
         "backend": backend_resume_identity(backend),
         "del_off_mode": getattr(backend, "del_off_mode", None),
         "prompt_sha256": prompt_digest(prompt_path),
+        "prompt_facts_sha256": prompt_facts_digest(prompt_path),
         "limit": None,
         "max_new_tokens": 12,
         "states": [state.value for state in STATES],
@@ -119,6 +122,7 @@ def _context(backend, prompt_path: Path) -> ReuseContext:
     return ReuseContext(
         backend_identity=backend_resume_identity(backend),
         prompt_sha256=prompt_digest(prompt_path),
+        prompt_facts_sha256=prompt_facts_digest(prompt_path),
         limit=None,
         max_new_tokens=12,
         del_off_mode=getattr(backend, "del_off_mode", None),
@@ -592,3 +596,121 @@ def test_persistence_requires_fact_identifiers(tmp_path) -> None:
             resume=resume,
         )
     resume.close()
+
+
+def _manifest_variant(prompt_path: Path, target: Path) -> Path:
+    """The same facts with pre-built manifests, like a NULLs closure file."""
+    rows = [
+        json.loads(line)
+        for line in prompt_path.read_text(encoding="utf-8").splitlines()
+    ]
+    manifest = {"source_ids": ["wiki:France"], "strategy": "geometric-source"}
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(
+        "".join(
+            json.dumps({**row, "deletion_manifest": manifest}) + "\n" for row in rows
+        ),
+        encoding="utf-8",
+    )
+    return target
+
+
+def test_facts_digest_ignores_only_the_manifest(tmp_path) -> None:
+    prompt_path = _write_prompts(tmp_path / "prompts.jsonl")
+    variant = _manifest_variant(prompt_path, tmp_path / "variant" / "closure.jsonl")
+    assert prompt_digest(variant) != prompt_digest(prompt_path)
+    assert prompt_facts_digest(variant) == prompt_facts_digest(prompt_path)
+
+    rows = [
+        json.loads(line)
+        for line in prompt_path.read_text(encoding="utf-8").splitlines()
+    ]
+    edited = tmp_path / "edited.jsonl"
+    edited.write_text(
+        "".join(json.dumps({**row, "gold_object": "Rome"}) + "\n" for row in rows),
+        encoding="utf-8",
+    )
+    assert prompt_facts_digest(edited) != prompt_facts_digest(prompt_path)
+
+
+def test_manifest_only_variants_share_the_full_pass_and_reuse_source(
+    tmp_path,
+) -> None:
+    """A NULLs sweep/policy phase audits a closure file that differs from the
+    standard prompts only in manifests; it must resume the shared FULL pass
+    and accept the standard results as a reuse source."""
+    prompt_path = _write_prompts(tmp_path / "prompts.jsonl")
+    backend, _ = _make_backend()
+    _wired_run(
+        prompt_path=prompt_path,
+        output_dir=tmp_path / "phase1",
+        backend=backend,
+        full_dir=tmp_path / "full",
+    )
+    variant = _manifest_variant(prompt_path, tmp_path / "variant" / "closure.jsonl")
+
+    store = FullPassStore(
+        backend=backend,
+        examples=_load_examples(variant, None),
+        prompt_path=variant,
+        limit=None,
+        output_dir=tmp_path / "full",
+        max_new_tokens=12,
+    )
+    assert store.complete
+
+    source = ReuseSource(
+        tmp_path / "phase1" / "prompts_results.jsonl", _context(backend, variant)
+    )
+    key = fact_key({"prompt_id": "p0", "fact_id": "f0"})
+    assert source.row(key, DatabaseState.FULL) is not None
+
+
+def test_legacy_full_config_upgrades_in_place_but_still_guards_facts(
+    tmp_path,
+) -> None:
+    prompt_path = _write_prompts(tmp_path / "prompts.jsonl")
+    backend, _ = _make_backend()
+
+    def write_legacy_config(full_dir: Path) -> None:
+        full_dir.mkdir(parents=True)
+        legacy = {
+            "audit_schema_version": AUDIT_SCHEMA_VERSION,
+            "mode": "full-pass",
+            "backend": backend_resume_identity(backend),
+            "prompt_sha256": prompt_digest(prompt_path),
+            "limit": None,
+            "max_new_tokens": 12,
+        }
+        (full_dir / "full_config.json").write_text(
+            json.dumps(legacy), encoding="utf-8"
+        )
+
+    write_legacy_config(tmp_path / "full")
+    FullPassStore(
+        backend=backend,
+        examples=_load_examples(prompt_path, None),
+        prompt_path=prompt_path,
+        limit=None,
+        output_dir=tmp_path / "full",
+        max_new_tokens=12,
+    )
+    stored = json.loads((tmp_path / "full" / "full_config.json").read_text())
+    assert "prompt_sha256" not in stored
+    assert stored["prompt_facts_sha256"] == prompt_facts_digest(prompt_path)
+
+    other = tmp_path / "other.jsonl"
+    other.write_text(
+        '{"prompt_id":"x","fact_id":"x","prompt_text":"Q?","gold_object":"A"}\n',
+        encoding="utf-8",
+    )
+    write_legacy_config(tmp_path / "other_full")
+    with pytest.raises(AuditIntegrationError, match="Resume configuration mismatch"):
+        FullPassStore(
+            backend=backend,
+            examples=_load_examples(other, None),
+            prompt_path=other,
+            limit=None,
+            output_dir=tmp_path / "other_full",
+            max_new_tokens=12,
+        )

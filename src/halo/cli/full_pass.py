@@ -37,6 +37,7 @@ from halo.cli.persistence import (
     partial_name,
     partial_paths,
     prompt_digest,
+    prompt_facts_digest,
     read_partial_jsonl,
 )
 from halo.core.backend import AuditBackend, audit_example
@@ -97,17 +98,23 @@ class FullPassStore:
         self._rows_path = output_dir / "full_results.jsonl"
         self._flat_npz_path = output_dir / "full_query_embeddings.npz"
         self._all_npz_path = output_dir / "full_all_query_embeddings.npz"
+        identity = {
+            "audit_schema_version": AUDIT_SCHEMA_VERSION,
+            "mode": "full-pass",
+            "backend": backend_resume_identity(backend),
+            "limit": limit,
+            "max_new_tokens": max_new_tokens,
+        }
+        # FULL never consults the manifest, so the pass is keyed on the facts
+        # alone: closure prompt files that differ only in their manifests
+        # share it. Configs keyed on the raw file digest upgrade in place.
         ensure_resume_config(
             output_dir / "full_config.json",
-            {
-                "audit_schema_version": AUDIT_SCHEMA_VERSION,
-                "mode": "full-pass",
-                "backend": backend_resume_identity(backend),
-                "prompt_sha256": prompt_digest(prompt_path),
-                "limit": limit,
-                "max_new_tokens": max_new_tokens,
-            },
+            {**identity, "prompt_facts_sha256": prompt_facts_digest(prompt_path)},
             legacy_artifacts=(self._rows_path, self._flat_npz_path),
+            legacy_payloads=(
+                {**identity, "prompt_sha256": prompt_digest(prompt_path)},
+            ),
         )
 
         self.hits = 0

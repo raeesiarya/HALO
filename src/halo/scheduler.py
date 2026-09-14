@@ -888,6 +888,7 @@ def build_jobs(
                 output_dir: Path,
                 *extra: str,
                 del_off_mode: str,
+                reuse_from: Path | None = None,
             ) -> tuple[str, ...]:
                 return (
                     "uv",
@@ -911,6 +912,7 @@ def build_jobs(
                     str(nulls_config["title_embeddings"]),
                     "--nulls-del-off-mode",
                     del_off_mode,
+                    *(("--reuse-from", str(reuse_from)) if reuse_from else ()),
                     *audit_args,
                     *extra,
                 )
@@ -921,6 +923,7 @@ def build_jobs(
                 output_dir: Path,
                 *,
                 del_off_mode: str,
+                reuse_from: Path | None = None,
                 dependencies: Iterable[str] = (),
                 priority: int,
                 expected_outputs: tuple[Path, ...],
@@ -931,7 +934,9 @@ def build_jobs(
                 does the fact striping, and an unsharded finalize run merges
                 the stripes and carries the output contract. NULLs has no
                 cross-state row reuse (three real states), so striping is
-                the only fan-out available.
+                the only fan-out available. Later phases pass ``reuse_from``
+                (the standard results), as Co-LMLM's do, so each generates
+                only the rows its own manifests or mode change.
                 """
                 dependencies = frozenset(dependencies)
 
@@ -951,6 +956,7 @@ def build_jobs(
                                 str(output_dir / f"{log_name}.log"),
                                 *extra,
                                 del_off_mode=del_off_mode,
+                                reuse_from=reuse_from,
                             ),
                             environment=tuple(sorted(shared_env.items())),
                             dependencies=(
@@ -1111,6 +1117,11 @@ def build_jobs(
                     ),
                 )
             nulls_audit_dep = {standard_key} if standard_key else {gate_key}
+            # Like Co-LMLM's later phases: every NULLs phase shares the
+            # standard run's FULL pass and serves its equivalent rows.
+            standard_results = (
+                nulls_output / f"{nulls_stem}_results.jsonl" if standard_key else None
+            )
 
             if configured_phases is None or "del-off" in configured_phases:
                 complementary = (
@@ -1123,6 +1134,7 @@ def build_jobs(
                     gated_prompts,
                     nulls_output / "del_off_sensitivity" / complementary,
                     del_off_mode=complementary,
+                    reuse_from=standard_results,
                     dependencies=nulls_audit_dep,
                     priority=nulls_rows * PHASE_COST["nulls-del-off"],
                     expected_outputs=(
@@ -1133,7 +1145,10 @@ def build_jobs(
                     ),
                 )
 
-            # --- breadth-k sweep: closures job feeds one audit group per k ---
+            # --- breadth-k sweep and policy matrix ---
+            # Manifests come from prep closure files at source granularity
+            # (shared encoder E) rather than from Co-LMLM's index at audit
+            # time; everything downstream of them mirrors Co-LMLM.
             sweep_requested = (
                 configured_phases is not None and "sweep" in configured_phases
             )
@@ -1145,15 +1160,42 @@ def build_jobs(
                     "scripts/build_nulls_title_embeddings.py --mode closure "
                     "(requires the article texts)."
                 )
-            if closure_artifact.is_file() and (
+            # Policy rows need the shared-E artifact and the corpus texts; an
+            # explicit NULLS_PHASES=policy makes missing inputs a hard error,
+            # the default quietly leaves the rows out.
+            policy_requested = (
+                configured_phases is not None and "policy" in configured_phases
+            )
+            corpus_dir = nulls_config["corpus_dir"]
+            corpus_present = corpus_dir.is_dir() and any(corpus_dir.rglob("*.parquet"))
+            if policy_requested and not (closure_artifact.is_file() and corpus_present):
+                raise ValueError(
+                    "NULLS_PHASES requests the policy matrix, which needs both the "
+                    f"shared-encoder artifact {closure_artifact} and the training "
+                    f"corpus under {corpus_dir} (scripts/setup_nulls.sh)."
+                )
+            sweep_planned = closure_artifact.is_file() and (
                 configured_phases is None or sweep_requested
-            ):
-                closures_dir = prep_dir / "source_closures"
-                k_grid = nulls_config["sweep_k_grid"]
-                closure_files = {
-                    k: closures_dir / f"{nulls_stem}_geometric_k{k}.jsonl"
-                    for k in k_grid
-                }
+            )
+            policy_planned = (
+                closure_artifact.is_file()
+                and corpus_present
+                and (configured_phases is None or policy_requested)
+            )
+            policy_k = nulls_config["policy_k"]
+
+            # One geometric closures job serves the sweep grid and the
+            # geometric policy row (the sweep closure at NULLS_POLICY_K).
+            closure_ks = list(nulls_config["sweep_k_grid"]) if sweep_planned else []
+            if policy_planned and policy_k not in closure_ks:
+                closure_ks.append(policy_k)
+            closures_dir = prep_dir / "source_closures"
+            closure_files = {
+                k: closures_dir / f"{nulls_stem}_geometric_k{k}.jsonl"
+                for k in closure_ks
+            }
+            closures_key = None
+            if closure_ks:
                 closures_key = _job_key(NULLS_MODEL, dataset, "prep-closures")
                 jobs.append(
                     Job(
@@ -1175,7 +1217,7 @@ def build_jobs(
                             "--predicate",
                             "geometric",
                             "--k-grid",
-                            ",".join(str(k) for k in k_grid),
+                            ",".join(str(k) for k in closure_ks),
                             "--output-dir",
                             str(closures_dir),
                         ),
@@ -1187,12 +1229,15 @@ def build_jobs(
                         expected_outputs=tuple(closure_files.values()),
                     )
                 )
-                for k in k_grid:
+
+            if sweep_planned:
+                for k in nulls_config["sweep_k_grid"]:
                     nulls_striped(
                         f"sweep-k{k}",
                         closure_files[k],
                         nulls_output / "source_sweep" / f"k{k}",
                         del_off_mode=nulls_config["del_off_mode"],
+                        reuse_from=standard_results,
                         dependencies=nulls_audit_dep | {closures_key},
                         priority=nulls_rows * PHASE_COST["nulls-sweep"],
                         expected_outputs=(
@@ -1203,31 +1248,11 @@ def build_jobs(
                         ),
                     )
 
-            # --- policy matrix (design §7) at source granularity ---
-            # provenance = the standard run (its manifests are the k = 0
-            # provenance-source closures); geometric = the sweep group at
-            # NULLS_POLICY_K (identical manifests, so it is not re-run);
-            # value and hybrid need the corpus texts and are the two rows
-            # this phase adds. Like the sweep it needs the shared-E artifact;
-            # an explicit NULLS_PHASES=policy makes missing inputs a hard
-            # error, the default quietly leaves the rows out.
-            policy_requested = (
-                configured_phases is not None and "policy" in configured_phases
-            )
-            corpus_dir = nulls_config["corpus_dir"]
-            corpus_present = corpus_dir.is_dir() and any(corpus_dir.rglob("*.parquet"))
-            if policy_requested and not (closure_artifact.is_file() and corpus_present):
-                raise ValueError(
-                    "NULLS_PHASES requests the policy matrix, which needs both the "
-                    f"shared-encoder artifact {closure_artifact} and the training "
-                    f"corpus under {corpus_dir} (scripts/setup_nulls.sh)."
-                )
-            if (
-                closure_artifact.is_file()
-                and corpus_present
-                and (configured_phases is None or policy_requested)
-            ):
-                policy_k = nulls_config["policy_k"]
+            # The policy matrix carries Co-LMLM's rows: geometric (the sweep
+            # closure at NULLS_POLICY_K), value, provenance (the gold source
+            # alone, i.e. the gated prompts, which reuse serves entirely) and
+            # hybrid, each in its own policy_matrix/<policy> directory.
+            if policy_planned:
                 policy_dir = prep_dir / "policy_closures"
                 policy_files = {
                     "value": policy_dir / f"{nulls_stem}_value_k0.jsonl",
@@ -1268,13 +1293,20 @@ def build_jobs(
                         expected_outputs=tuple(policy_files.values()),
                     )
                 )
-                for policy, prompt_file in policy_files.items():
+                policy_rows = {
+                    "geometric": (closure_files[policy_k], {closures_key}),
+                    "value": (policy_files["value"], {policy_closures_key}),
+                    "provenance": (gated_prompts, set()),
+                    "hybrid": (policy_files["hybrid"], {policy_closures_key}),
+                }
+                for policy, (prompt_file, prep_keys) in policy_rows.items():
                     nulls_striped(
                         f"policy-{policy}",
                         prompt_file,
                         nulls_output / "policy_matrix" / policy,
                         del_off_mode=nulls_config["del_off_mode"],
-                        dependencies=nulls_audit_dep | {policy_closures_key},
+                        reuse_from=standard_results,
+                        dependencies=nulls_audit_dep | prep_keys,
                         priority=nulls_rows * PHASE_COST["nulls-policy"],
                         expected_outputs=(
                             nulls_output

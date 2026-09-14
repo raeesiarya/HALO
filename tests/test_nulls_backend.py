@@ -736,6 +736,14 @@ class TestSchedulerNulls:
         assert del_off.command[del_off.command.index("--nulls-del-off-mode") + 1] == (
             "placebo-sink"
         )
+        # Like Co-LMLM's del-off phase: the standard run's FULL pass and rows.
+        standard = by_phase["standard"]
+        assert "--reuse-from" not in standard.command
+        full_dir = standard.command[standard.command.index("--full-dir") + 1]
+        assert del_off.command[del_off.command.index("--full-dir") + 1] == full_dir
+        assert del_off.command[del_off.command.index("--reuse-from") + 1] == str(
+            standard.expected_outputs[0]
+        )
 
     def test_prebuilt_routing_artifact_skips_embeddings_job(self, tmp_path):
         repo = _scheduler_repo(tmp_path, routing_artifact=True)
@@ -754,6 +762,9 @@ class TestSchedulerNulls:
         sweep = by_phase["sweep-k1"]
         assert by_phase["prep-closures"].key in sweep.dependencies
         assert by_phase["standard"].key in sweep.dependencies
+        assert sweep.command[sweep.command.index("--reuse-from") + 1] == str(
+            by_phase["standard"].expected_outputs[0]
+        )
 
     def test_closure_artifact_and_corpus_enable_policy_rows(self, tmp_path):
         repo = _scheduler_repo(tmp_path, closure_artifact=True, corpus=True)
@@ -772,8 +783,47 @@ class TestSchedulerNulls:
         prompt_file = hybrid.command[hybrid.command.index("--prompt-files") + 1]
         assert prompt_file.endswith("_hybrid_k8.jsonl")
         assert str(hybrid.expected_outputs[0]).endswith("policy_matrix/hybrid/cross_state_metrics.csv")
-        # provenance/geometric rows are not re-run: standard and the sweep carry them.
-        assert not any(job.phase in ("policy-provenance", "policy-geometric") for job in jobs)
+        # The same rows as Co-LMLM's matrix, each reusing the standard run.
+        standard = by_phase["standard"]
+        for policy in ("geometric", "value", "provenance", "hybrid"):
+            row = by_phase[f"policy-{policy}"]
+            assert row.command[row.command.index("--reuse-from") + 1] == str(
+                standard.expected_outputs[0]
+            )
+        geometric = by_phase["policy-geometric"]
+        geometric_prompts = geometric.command[geometric.command.index("--prompt-files") + 1]
+        assert geometric_prompts.endswith("_geometric_k8.jsonl")
+        assert by_phase["prep-closures"].key in geometric.dependencies
+        provenance = by_phase["policy-provenance"]
+        assert provenance.command[provenance.command.index("--prompt-files") + 1] == (
+            standard.command[standard.command.index("--prompt-files") + 1]
+        )
+
+    def test_geometric_policy_row_gets_its_closure_without_the_sweep(self, tmp_path):
+        repo = _scheduler_repo(tmp_path, closure_artifact=True, corpus=True)
+        jobs = _build_nulls_jobs(
+            repo, env={"NULLS_PHASES": "standard,policy", "NULLS_POLICY_K": "3"}
+        )
+        by_phase = {job.phase: job for job in jobs}
+        assert not any(job.phase.startswith("sweep-") for job in jobs)
+        closures = by_phase["prep-closures"]
+        assert closures.command[closures.command.index("--k-grid") + 1] == "3"
+        geometric = by_phase["policy-geometric"]
+        prompt_file = geometric.command[geometric.command.index("--prompt-files") + 1]
+        assert prompt_file.endswith("_geometric_k3.jsonl")
+        assert closures.key in geometric.dependencies
+
+    def test_policy_k_outside_the_sweep_grid_extends_the_closures(self, tmp_path):
+        repo = _scheduler_repo(tmp_path, closure_artifact=True, corpus=True)
+        jobs = _build_nulls_jobs(
+            repo, env={"NULLS_SWEEP_K_GRID": "1,2", "NULLS_POLICY_K": "3"}
+        )
+        by_phase = {job.phase: job for job in jobs}
+        closures = by_phase["prep-closures"]
+        assert closures.command[closures.command.index("--k-grid") + 1] == "1,2,3"
+        assert sorted(
+            job.phase for job in jobs if job.phase.startswith("sweep-")
+        ) == ["sweep-k1", "sweep-k2"]
 
     def test_policy_rows_absent_without_corpus(self, tmp_path):
         repo = _scheduler_repo(tmp_path, closure_artifact=True)
@@ -839,3 +889,64 @@ class TestSchedulerNulls:
             _build_nulls_jobs(
                 _scheduler_repo(tmp_path), env={"NULLS_SWEEP_K_GRID": "1,x"}
             )
+
+
+# ---------------------------------------------------------------------------
+# One-off migration of finished standard runs to the facts digest
+
+
+def _load_migration_script():
+    import importlib.util
+
+    path = Path(__file__).resolve().parents[1] / "scripts" / "migrate_nulls_reuse_configs.py"
+    spec = importlib.util.spec_from_file_location("migrate_nulls_reuse_configs", path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+class TestMigrateNullsReuseConfigs:
+    def _standard_run(self, out_root: Path, raw_digest: str | None = None) -> tuple[Path, Path, Path]:
+        from halo.cli.persistence import prompt_digest
+
+        set_dir = out_root / "nulls-wiki-1b" / "trex"
+        gated = set_dir / "prep" / "prompts_trex_nulls_gated.jsonl"
+        gated.parent.mkdir(parents=True)
+        row = {"prompt_id": "p", "fact_id": "f", "deletion_manifest": {"source_ids": ["Alpha"]}}
+        gated.write_text(json.dumps(row) + "\n")
+        raw = raw_digest or prompt_digest(gated)
+        audit = set_dir / "prompts_trex_nulls_gated_audit_config.json"
+        audit.write_text(json.dumps({"mode": "standard-audit", "prompt_sha256": raw}))
+        full = set_dir / "prompts_trex_nulls_gated_full" / "full_config.json"
+        full.parent.mkdir()
+        full.write_text(json.dumps({"mode": "full-pass", "prompt_sha256": raw}))
+        return gated, audit, full
+
+    def test_backfills_facts_digest_after_verifying_the_raw_digest(self, tmp_path):
+        from halo.cli.persistence import prompt_digest, prompt_facts_digest
+
+        migrate = _load_migration_script()
+        gated, audit, full = self._standard_run(tmp_path)
+
+        assert migrate.main(["--out-root", str(tmp_path)]) == 0  # dry run
+        assert "prompt_facts_sha256" not in json.loads(audit.read_text())
+
+        assert migrate.main(["--out-root", str(tmp_path), "--apply"]) == 0
+        facts = prompt_facts_digest(gated)
+        assert json.loads(audit.read_text()) == {
+            "mode": "standard-audit",
+            "prompt_sha256": prompt_digest(gated),
+            "prompt_facts_sha256": facts,
+        }
+        assert json.loads(full.read_text()) == {
+            "mode": "full-pass",
+            "prompt_facts_sha256": facts,
+        }
+        assert migrate.main(["--out-root", str(tmp_path), "--apply"]) == 0  # idempotent
+
+    def test_refuses_configs_written_for_other_prompts(self, tmp_path):
+        migrate = _load_migration_script()
+        _, audit, full = self._standard_run(tmp_path, raw_digest="0" * 64)
+        before = (audit.read_text(), full.read_text())
+        assert migrate.main(["--out-root", str(tmp_path), "--apply"]) == 1
+        assert (audit.read_text(), full.read_text()) == before

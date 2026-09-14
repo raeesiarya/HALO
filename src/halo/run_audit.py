@@ -14,6 +14,7 @@ from halo.cli.persistence import (
     ensure_resume_config,
     parse_shard,
     prompt_digest,
+    prompt_facts_digest,
 )
 from halo.cli.reuse import GenerationReuseStore, ReuseContext
 from halo.core.embeddings import QueryEmbeddingSink
@@ -72,6 +73,7 @@ def _build_reuse_store(
         context=ReuseContext(
             backend_identity=backend_resume_identity(backend),
             prompt_sha256=prompt_digest(job.prompt_path),
+            prompt_facts_sha256=prompt_facts_digest(job.prompt_path),
             limit=args.limit,
             max_new_tokens=args.max_new_tokens,
             del_off_mode=getattr(backend, "del_off_mode", None),
@@ -448,23 +450,32 @@ def main() -> None:
                                     args.factq_vectors
                                 ),
                             }
+                    # Reuse consumers also match on the manifest-blind facts
+                    # digest; configs written before it upgrade in place.
+                    audit_identity = {
+                        "audit_schema_version": AUDIT_SCHEMA_VERSION,
+                        "mode": "standard-audit",
+                        "backend": backend_resume_identity(backend),
+                        "del_off_mode": getattr(backend, "del_off_mode", None),
+                        "prompt_sha256": prompt_digest(job.prompt_path),
+                        "limit": args.limit,
+                        "max_new_tokens": args.max_new_tokens,
+                        "states": [state.value for state in states],
+                        "bootstrap_oracle_from_full": bool(
+                            spec.supports_oracle_bootstrap
+                            and args.bootstrap_oracle_from_full
+                        ),
+                        "closure": closure_payload,
+                    }
                     ensure_resume_config(
                         args.output_dir / f"{stem}_audit_config.json",
                         {
-                            "audit_schema_version": AUDIT_SCHEMA_VERSION,
-                            "mode": "standard-audit",
-                            "backend": backend_resume_identity(backend),
-                            "del_off_mode": getattr(backend, "del_off_mode", None),
-                            "prompt_sha256": prompt_digest(job.prompt_path),
-                            "limit": args.limit,
-                            "max_new_tokens": args.max_new_tokens,
-                            "states": [state.value for state in states],
-                            "bootstrap_oracle_from_full": bool(
-                                spec.supports_oracle_bootstrap
-                                and args.bootstrap_oracle_from_full
+                            **audit_identity,
+                            "prompt_facts_sha256": prompt_facts_digest(
+                                job.prompt_path
                             ),
-                            "closure": closure_payload,
                         },
+                        legacy_payloads=(audit_identity,),
                         legacy_artifacts=(
                             job.output_path,
                             job.output_path.with_name(
