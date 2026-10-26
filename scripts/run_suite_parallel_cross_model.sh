@@ -22,8 +22,23 @@
 #     the value/hybrid policy rows. Requires the artifacts from
 #     ./scripts/setup_nulls.sh (checkpoint, title_to_index.pkl, the closure
 #     artifact for sweep/policy, the corpus for policy).
+#   - Paraphrase robustness (Co-LMLM and NULLs), for every set whose
+#     data/<prompts>_variants.jsonl exists (scripts/build_prompts.sh writes
+#     them; VARIANTS_ONLY=1 adds them without touching the prompt files):
+#     once a set's policy rows finish, one build job freezes each policy's
+#     canonical deletion set into per-policy paraphrase prompt files
+#     (src/halo/paraphrase.py), the gate row (Co-LMLM oracle, NULLs
+#     standard) audits them first, every other policy then audits in
+#     parallel reusing the gate's FULL/DEL-OFF rows, and an analyze job
+#     writes <set>/paraphrase/<stem>_paraphrase_summary.csv (canonical vs
+#     paraphrase DEL-ON survival, paired per fact, McNemar).
 # SCHEDULER_SHARDS=N stripes every fact-striped phase (Co-LMLM and NULLs,
 # gate included) into N single-GPU jobs each.
+#
+# Paraphrase phase only, against finished policy results already in OUT_ROOT:
+#   MODELS=co-lmlm,nulls-wiki-1b SCHEDULER_PHASES=paraphrase \
+#   NULLS_PHASES=paraphrase SCHEDULER_SHARDS=4 \
+#   ./scripts/run_suite_parallel_cross_model.sh
 #
 # Tail the run:
 #   driver:   tail -F $OUT_ROOT/_scheduler.log
@@ -49,6 +64,8 @@
 #   NULLS_SWEEP_K_GRID / NULLS_POLICY_K / NULLS_CORPUS_DIR / NULLS_PHASES
 #                    NULLs artifact paths and knobs (defaults: data/ paths,
 #                    sinks-zero, 0.0, 1,2,4,8,16, 4, all phases)
+#   PARAPHRASE_MAX_PER_FACT
+#                    paraphrases audited per fact (default: 2)
 # Extra flags after the script name are forwarded to every audit job, e.g.
 #   ./scripts/run_suite_parallel_cross_model.sh --limit 200
 set -euo pipefail

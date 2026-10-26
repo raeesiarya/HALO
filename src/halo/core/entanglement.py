@@ -36,8 +36,12 @@ def compute_entanglement(
     ``sweep_rows`` are DEL-ON audit rows tagged with
     ``row["sweep"] = {"target_key", "rho", "role"}`` where role is
     ``target`` or ``neighbor``. ``neighbors`` maps each target key to the
-    fact keys of N(f); collateral is normalized by |N(f)| per the paper
-    definition, counting only neighbors that were FULL-correct.
+    fact keys of N(f). Collateral is the share of FULL-correct neighbors,
+    scored at this radius, that are no longer correct under the target's
+    deletion: like efficacy, a rate over known facts. Neighbors incorrect
+    under FULL, or not scored at a radius, enter neither numerator nor
+    denominator. (The sweep draws neighbors from the FULL-correct families,
+    so in practice every neighbor is FULL-correct and scored.)
     """
     correct_under_full = full_correct_keys(full_rows)
 
@@ -72,13 +76,14 @@ def compute_entanglement(
         if target_key not in correct_under_full:
             continue
         neighbor_keys = list(neighbors.get(target_key, []))
+        known_neighbors = [key for key in neighbor_keys if key in correct_under_full]
         curve: list[dict[str, Any]] = []
         for rho in sorted(rows_by_rho, reverse=True):
             efficacy = 0.0 if _result_is_correct(rows_by_rho[rho]) else 1.0
+            observed_here = observed.get(target_key, {}).get(rho, set())
+            scored = [key for key in known_neighbors if key in observed_here]
             broken_count = len(broken.get(target_key, {}).get(rho, set()))
-            collateral = (
-                broken_count / len(neighbor_keys) if neighbor_keys else 0.0
-            )
+            collateral = broken_count / len(scored) if scored else 0.0
             curve.append(
                 {
                     "rho": rho,
@@ -88,18 +93,15 @@ def compute_entanglement(
                     "neighbors_observed": len(
                         observed.get(target_key, {}).get(rho, set())
                     ),
-                    "neighbors_full_correct": sum(
-                        1
-                        for key in neighbor_keys
-                        if key in correct_under_full
-                    ),
+                    "neighbors_full_correct": len(known_neighbors),
+                    "neighbors_scored": len(scored),
                     "gap_term": (1.0 - efficacy) + collateral,
                 }
             )
-        # G(f) is undefined for an empty neighbor set.
+        # G(f) is undefined without FULL-correct neighbors.
         gap_point = (
             min(curve, key=lambda point: point["gap_term"])
-            if neighbor_keys
+            if known_neighbors
             else None
         )
         entanglement[target_key] = {

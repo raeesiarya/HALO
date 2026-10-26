@@ -9,9 +9,10 @@ the PopQA prompts (prepare_popqa_audit.py), following Co-LMLM's own QA eval
 
 The rephrase is NOT written to the main file: the audit keys every row by its own
 prompt_id with no grouping, so a second row per fact would inflate the cohort and
-correlate the samples. Set EMIT_VARIANTS=1 to dump rephrase rows to
-data/prompts_zsre_variants.jsonl for the (not-yet-implemented) paraphrase
-analysis; that file must not be fed to the standard audit as-is.
+correlate the samples. Rephrase rows go to data/prompts_zsre_variants.jsonl
+instead (EMIT_VARIANTS=0 turns that off), which the paraphrase-robustness
+phase (src/halo/paraphrase.py) consumes; that file must not be fed to the
+standard audit as-is.
 
 Note: question-format prompts are more prone to Co-LMLM's <FACT>-timing problem
 (paper Table 5 / Sec 4.7) than slot-filling, so expect lower FULL-retrieval
@@ -33,7 +34,10 @@ ZSRE_URL = "https://rome.baulab.info/data/dsets/zsre_mend_eval.json"
 # Cap on the number of facts (None = all): one fact-level row each.
 LIMIT: int | None = None
 # Also write rephrase rows to a separate *_variants.jsonl.
-EMIT_VARIANTS = os.environ.get("EMIT_VARIANTS", "") not in ("", "0", "false")
+EMIT_VARIANTS = os.environ.get("EMIT_VARIANTS", "1") not in ("", "0", "false")
+# VARIANTS_ONLY=1 writes only the variants, leaving an existing prompt file
+# (and its scheduler fingerprint) untouched.
+VARIANTS_ONLY = os.environ.get("VARIANTS_ONLY", "") not in ("", "0", "false")
 ANSWER_STUB = "\nThe answer is"
 
 OUTPUT_DIR = Path(__file__).resolve().parent
@@ -94,7 +98,7 @@ def main() -> None:
             _question_row(fact_id, fact_id, question, answers, subject, None)
         )
 
-        if EMIT_VARIANTS:
+        if EMIT_VARIANTS or VARIANTS_ONLY:
             rephrase = str(record.get("rephrase") or "").strip()
             if rephrase:
                 variant_rows.append(
@@ -107,17 +111,19 @@ def main() -> None:
                         "paraphrase",
                     )
                 )
+                variant_rows[-1]["variant_source"] = "dataset"
 
         facts += 1
         if LIMIT is not None and facts >= LIMIT:
             break
 
-    with PROMPTS_PATH.open("w", encoding="utf-8") as handle:
-        for row in prompt_rows:
-            handle.write(json.dumps(row, ensure_ascii=False) + "\n")
-    print(f"Wrote {len(prompt_rows)} fact-level prompts to {PROMPTS_PATH}")
+    if not VARIANTS_ONLY:
+        with PROMPTS_PATH.open("w", encoding="utf-8") as handle:
+            for row in prompt_rows:
+                handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+        print(f"Wrote {len(prompt_rows)} fact-level prompts to {PROMPTS_PATH}")
 
-    if EMIT_VARIANTS:
+    if EMIT_VARIANTS or VARIANTS_ONLY:
         with VARIANTS_PATH.open("w", encoding="utf-8") as handle:
             for row in variant_rows:
                 handle.write(json.dumps(row, ensure_ascii=False) + "\n")

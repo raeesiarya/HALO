@@ -70,7 +70,18 @@ def setup_style() -> None:
     plt.rcParams.update(
         {
             "font.size": 7,
-            "font.family": "sans-serif",
+            # The paper loads \usepackage{times}: body text is Times
+            # (ptm) and, since mathptmx is not loaded, math stays
+            # Computer Modern. Mirror that: Times for text, CM for math.
+            "font.family": "serif",
+            "font.serif": ["Times New Roman", "Times", "Nimbus Roman", "TeX Gyre Termes", "STIX Two Text", "DejaVu Serif"],
+            "font.weight": "normal",
+            "axes.labelweight": "normal",
+            "axes.titleweight": "normal",
+            "figure.labelweight": "normal",
+            "figure.titleweight": "normal",
+            "mathtext.fontset": "cm",
+            "mathtext.default": "regular",
             "axes.spines.top": False,
             "axes.spines.right": False,
             "axes.spines.left": False,
@@ -100,9 +111,10 @@ def setup_style() -> None:
 
 
 def save(fig, figdir: Path, name: str) -> None:
+    fig.savefig(figdir / f"{name}.pdf", bbox_inches="tight", pad_inches=0.02)
     fig.savefig(figdir / f"{name}.png", dpi=250, bbox_inches="tight", pad_inches=0.02)
     plt.close(fig)
-    print(f"wrote {name}.png")
+    print(f"wrote {name}.pdf + .png")
 
 
 def ygrid(ax) -> None:
@@ -291,7 +303,7 @@ def fig_probe(GRP, figdir):
             color=BLUE,
             markeredgecolor="white",
             markersize=6,
-            label="behavioral leakage $L$",
+            label="backbone recitation $\\mathrm{BBR}$",
         ),
         Line2D(
             [],
@@ -301,7 +313,7 @@ def fig_probe(GRP, figdir):
             color=ORANGE,
             markeredgecolor="white",
             markersize=6,
-            label="probe $L_{\\mathrm{rep}}$ (query embeddings)",
+            label="probe $\\mathrm{BBR}_{\\mathrm{rep}}$ (query representation)",
         ),
         Line2D(
             [],
@@ -323,9 +335,9 @@ def fig_probe(GRP, figdir):
 def fig_frequency(FREQ, figdir):
     fig, axes = plt.subplots(1, 5, figsize=(W, 1.55), sharey=True)
     series = [
-        ("co-lmlm", BLUE, "-", 1.4, "Co-LMLM ($L$)"),
+        ("co-lmlm", BLUE, "-", 1.4, "Co-LMLM ($\\mathrm{BBR}$)"),
         (SMOL, GRAY_DARK, "-", 1.1, "SmolLM2-360M"),
-        (STD, GRAY_LIGHT, "--", 1.1, "Standard-LM-360M-FW"),
+        (STD, GRAY_LIGHT, "--", 1.1, "Std-LM-360M"),
     ]
     q = [1, 2, 3, 4]
     for ax, d in zip(axes, DATASETS):
@@ -356,8 +368,8 @@ def fig_frequency(FREQ, figdir):
         ax.set_xlim(0.7, 4.3)
         ax.set_ylim(0, 88)
         ygrid(ax)
-    axes[0].set_ylabel("answered w/o\nretrieval (%)", fontsize=6.5)
-    axes[2].set_xlabel("answer-frequency quartile (rare $\\to$ common)", fontsize=7)
+    axes[0].set_ylabel("backbone recitation\n$\\mathrm{BBR}$ (%)", fontsize=6.5)
+    axes[2].set_xlabel("answer-density quartile (sparse $\\to$ dense)", fontsize=7)
     handles = [
         Line2D(
             [],
@@ -436,14 +448,14 @@ def fig_entanglement_outcomes(NUM, figdir):
     fig, ax = plt.subplots(figsize=(W, 2.5))
     y = np.arange(len(DATASETS))[::-1] * 1.0
     segs = [
-        ("clean", AQUA, "forgotten cleanly", "white"),
-        ("cost", GRID, "forgotten at a cost to neighbors", INK2),
-        ("never", INK2, "never forgotten", "white"),
+        ("clean", AQUA, "removed without collateral", "white"),
+        ("cost", GRID, "removed only with collateral", INK2),
+        ("never", INK2, "never removed", "white"),
     ]
     PALE = "#f4f3ee"
     bh = 0.24
     offs = (("co", 0.27), ("smol", 0.0), ("std", -0.27))
-    row_label = {"co": "Co-LMLM", "smol": "SmolLM2", "std": "Std-LM"}
+    row_label = {"co": "Co-LMLM", "smol": "SmolLM2-360M", "std": "Std-LM-360M"}
     for d, yi in zip(DATASETS, y):
         g0 = pct(NUM["entanglement"][d]["share_gap_zero"])
         g1 = pct(NUM["entanglement"][d]["share_gap_one"])
@@ -477,7 +489,7 @@ def fig_entanglement_outcomes(NUM, figdir):
     ax.tick_params(bottom=False, labelbottom=False)
     handles = [plt.Rectangle((0, 0), 1, 1, color=c) for _, c, _, _ in segs]
     handles.append(plt.Rectangle((0, 0), 1, 1, color=PALE, ec=AXIS, lw=0.5))
-    labels = [lab for _, _, lab, _ in segs] + ["never answered closed-book"]
+    labels = [lab for _, _, lab, _ in segs] + ["not recited by reference model"]
     ax.legend(
         handles,
         labels,

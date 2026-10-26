@@ -891,6 +891,90 @@ class TestSchedulerNulls:
             )
 
 
+    @staticmethod
+    def _write_variants(repo: Path) -> None:
+        (repo / "data" / "prompts_trex_variants.jsonl").write_text(
+            json.dumps({"fact_id": "f", "prompt_text": "q", "variant": "paraphrase"})
+            + "\n"
+        )
+
+    def test_paraphrase_phase_gates_on_the_standard_row(self, tmp_path):
+        repo = _scheduler_repo(tmp_path, closure_artifact=True, corpus=True)
+        self._write_variants(repo)
+        jobs = _build_nulls_jobs(repo, env={})
+        by_key = {job.key: job for job in jobs}
+        prefix = "nulls-wiki-1b.trex"
+        build = by_key[f"{prefix}.paraphrase-build"]
+        policies = ("standard", "geometric", "value", "provenance", "hybrid")
+        # Freezes the standard row and every policy row, after they finish.
+        assert build.dependencies == frozenset(
+            {
+                f"{prefix}.prep-gate",
+                f"{prefix}.standard",
+                *(f"{prefix}.policy-{p}" for p in policies[1:]),
+            }
+        )
+        flags = [v for o, v in zip(build.command, build.command[1:]) if o == "--policy"]
+        assert [flag.split("=", 1)[0] for flag in flags] == list(policies)
+        # The canonical prompts are the gated set, whose rows carry the
+        # NULLs source titles the backend routes on.
+        gated = by_key[f"{prefix}.standard"].command[
+            by_key[f"{prefix}.standard"].command.index("--prompt-files") + 1
+        ]
+        assert build.command[build.command.index("--canonical-prompts") + 1] == gated
+
+        gate = by_key[f"{prefix}.paraphrase-standard"]
+        assert gate.dependencies == frozenset({build.key})
+        assert "--reuse-from" not in gate.command
+        gate_results = gate.command[gate.command.index("--output-dir") + 1]
+        canonical_full = by_key[f"{prefix}.standard"].command[
+            by_key[f"{prefix}.standard"].command.index("--full-dir") + 1
+        ]
+        for policy in policies:
+            job = by_key[f"{prefix}.paraphrase-{policy}"]
+            prompt_file = job.command[job.command.index("--prompt-files") + 1]
+            assert prompt_file.endswith(f"paraphrase/{policy}/prompts_trex_nulls_gated_paraphrase.jsonl")
+            # Never the canonical FULL dir: it is keyed on the canonical facts.
+            full_dir = job.command[job.command.index("--full-dir") + 1]
+            assert full_dir != canonical_full
+            assert f"paraphrase/{policy}/" in full_dir
+            if policy != "standard":
+                assert gate.key in job.dependencies
+                reuse = job.command[job.command.index("--reuse-from") + 1]
+                assert reuse == f"{gate_results}/prompts_trex_nulls_gated_paraphrase_results.jsonl"
+        analyze = by_key[f"{prefix}.paraphrase-analyze"]
+        assert analyze.dependencies == frozenset(
+            f"{prefix}.paraphrase-{p}" for p in policies
+        )
+
+    def test_paraphrase_phase_absent_without_variants(self, tmp_path):
+        jobs = _build_nulls_jobs(_scheduler_repo(tmp_path), env={})
+        assert not any(job.phase.startswith("paraphrase") for job in jobs)
+
+    def test_explicit_paraphrase_without_variants_is_an_error(self, tmp_path):
+        with pytest.raises(ValueError, match="build_prompts.sh"):
+            _build_nulls_jobs(
+                _scheduler_repo(tmp_path), env={"NULLS_PHASES": "standard,paraphrase"}
+            )
+
+    def test_paraphrase_only_needs_standard_results(self, tmp_path):
+        repo = _scheduler_repo(tmp_path)
+        self._write_variants(repo)
+        with pytest.raises(ValueError, match="standard results"):
+            _build_nulls_jobs(repo, env={"NULLS_PHASES": "paraphrase"})
+        results = (
+            repo / "out" / "nulls-wiki-1b" / "trex"
+            / "prompts_trex_nulls_gated_results.jsonl"
+        )
+        results.parent.mkdir(parents=True)
+        results.write_text("{}\n")
+        jobs = _build_nulls_jobs(repo, env={"NULLS_PHASES": "paraphrase"})
+        phases = {job.phase for job in jobs if job.phase.startswith("paraphrase")}
+        assert phases == {"paraphrase-build", "paraphrase-standard", "paraphrase-analyze"}
+        build = next(job for job in jobs if job.phase == "paraphrase-build")
+        # Only the gate, which rewrites the gated prompts the build reads.
+        assert build.dependencies == frozenset({"nulls-wiki-1b.trex.prep-gate"})
+
 # ---------------------------------------------------------------------------
 # One-off migration of finished standard runs to the facts digest
 

@@ -28,7 +28,7 @@ import time
 from contextlib import contextmanager
 from dataclasses import dataclass
 from pathlib import Path
-from typing import BinaryIO, Iterable, Iterator, Mapping, Sequence
+from typing import Any, BinaryIO, Callable, Iterable, Iterator, Mapping, Sequence
 
 
 DATASETS: dict[str, str] = {
@@ -38,8 +38,25 @@ DATASETS: dict[str, str] = {
     "counterfact": "data/prompts_counterfact.jsonl",
     "zsre": "data/prompts_zsre.jsonl",
 }
+# Paraphrase candidates per prompt set (data/prepare_*_audit.py); the
+# paraphrase phase is planned only for sets whose file exists.
+PARAPHRASE_VARIANTS: dict[str, str] = {
+    "trex": "data/prompts_trex_variants.jsonl",
+    "popqa": "data/prompts_popqa_variants.jsonl",
+    "googlere": "data/prompts_googlere_variants.jsonl",
+    "counterfact": "data/prompts_counterfact_variants.jsonl",
+    "zsre": "data/prompts_zsre_variants.jsonl",
+}
 DEFAULT_MODELS = ("co-lmlm", "standard-lm-360m-fw", "smollm2-360m")
-CO_LMLM_PHASES = ("standard", "sweep", "adversarial", "del-off", "policy", "factq")
+CO_LMLM_PHASES = (
+    "standard",
+    "sweep",
+    "adversarial",
+    "del-off",
+    "policy",
+    "factq",
+    "paraphrase",
+)
 # `smollm2-1.7b` is the NULLs-scale reference and travels with NULLs rather
 # than with the 360M block, so it stays out of DEFAULT_MODELS for the same
 # reason NULLS_MODEL does.
@@ -55,7 +72,7 @@ PARAMETRIC_MODELS = (
 # MODELS=... rather than a DEFAULT_MODELS member.
 NULLS_MODEL = "nulls-wiki-1b"
 KNOWN_MODELS = (*DEFAULT_MODELS, NULLS_MODEL, NULLS_REFERENCE_MODEL)
-NULLS_PHASES = ("standard", "del-off", "sweep", "policy")
+NULLS_PHASES = ("standard", "del-off", "sweep", "policy", "paraphrase")
 NULLS_DEL_OFF_MODES = ("sinks-zero", "placebo-sink")
 
 # These estimates only order runnable jobs.
@@ -88,6 +105,13 @@ PHASE_COST = {
     "factq-questions": 1,
     "factq-embed": 5,
     "factq-policy": 3,
+    # Paraphrase robustness: building and summarizing are file joins; each
+    # policy's audit is one DEL-ON arm over ~1.5-2 rows per fact (the gate
+    # also generates the shared FULL/DEL-OFF rows).
+    "paraphrase-build": 1,
+    "paraphrase": 4,
+    "paraphrase-analyze": 1,
+    "nulls-paraphrase": 6,
 }
 # Standard jobs outrank everything (they unlock every later phase); gate jobs
 # (sweep prep, the oracle policy) outrank their siblings because they unlock
@@ -111,6 +135,7 @@ PASSTHROUGH_ENV = (
     "FACTQ_NUM_QUESTIONS",
     "FACTQ_THRESHOLD",
     "FACTQ_ADAPTER",
+    "PARAPHRASE_MAX_PER_FACT",
     "HF_HOME",
     "HF_HUB_CACHE",
     "TRANSFORMERS_CACHE",
@@ -349,6 +374,146 @@ def _validate_audit_args(arguments: Sequence[str]) -> None:
                 "cannot be forwarded to every backend. Use the scheduler "
                 "options or suite environment variables instead."
             )
+
+
+def _paraphrase_group(
+    *,
+    jobs: list[Job],
+    model: str,
+    dataset: str,
+    canonical_prompts: Path,
+    variants_path: Path,
+    canonical_results: Mapping[str, Path],
+    policy_dependencies: Mapping[str, set[str]],
+    paraphrase_dir: Path,
+    stem: str,
+    gate_preference: str,
+    audit: Callable[..., str],
+    environment: Mapping[str, str],
+    log_root: Path,
+    fingerprint: str,
+    rows: int,
+    cost: int,
+    max_per_fact: str,
+) -> None:
+    """Emit one model/set's paraphrase phase: build -> audits -> analyze.
+
+    ``build`` joins the paraphrase variants onto the canonical prompts and
+    freezes each policy's canonical manifests into
+    ``<paraphrase_dir>/<policy>/<stem>.jsonl`` (one CPU-light job, so shard
+    jobs never race to write the files). The gate policy's audit runs
+    first; every other policy depends on it and reuses its FULL/DEL-OFF
+    rows. ``analyze`` writes the paired canonical-vs-paraphrase summary.
+
+    ``audit(policy, prompt_file, output_dir, dependencies, priority,
+    expected_outputs, gate, gate_results)`` emits one policy's (possibly
+    sharded) audit and returns the key dependents wait on.
+    """
+    policies = list(policy_dependencies)
+    gate = gate_preference if gate_preference in policies else policies[0]
+    ordered = [gate, *(policy for policy in policies if policy != gate)]
+    prompt_files = {
+        policy: paraphrase_dir / policy / f"{stem}.jsonl" for policy in ordered
+    }
+    para_results = {
+        policy: paraphrase_dir / policy / f"{stem}_results.jsonl" for policy in ordered
+    }
+    para_fingerprint = f"{fingerprint};variants={_file_digest(variants_path)}"
+
+    build_key = _job_key(model, dataset, "paraphrase-build")
+    build_command = [
+        "uv",
+        "run",
+        "python",
+        "-m",
+        "halo.paraphrase",
+        "build",
+        "--canonical-prompts",
+        str(canonical_prompts),
+        "--variants",
+        str(variants_path),
+    ]
+    for policy in ordered:
+        build_command += ["--policy", f"{policy}={canonical_results[policy]}"]
+    build_command += [
+        "--output-dir",
+        str(paraphrase_dir),
+        "--stem",
+        stem,
+        "--max-variants-per-fact",
+        str(max_per_fact),
+    ]
+    build_dependencies: set[str] = set()
+    for dependencies in policy_dependencies.values():
+        build_dependencies |= dependencies
+    jobs.append(
+        Job(
+            key=build_key,
+            model=model,
+            dataset=dataset,
+            phase="paraphrase-build",
+            command=tuple(build_command),
+            environment=tuple(sorted(environment.items())),
+            dependencies=frozenset(build_dependencies),
+            priority=GATE_BONUS + rows * PHASE_COST["paraphrase-build"],
+            log_path=log_root / f"{build_key}.log",
+            input_fingerprint=para_fingerprint,
+            expected_outputs=tuple(prompt_files.values()),
+        )
+    )
+
+    audit_keys: list[str] = []
+    gate_key = audit(
+        gate,
+        prompt_files[gate],
+        paraphrase_dir / gate,
+        {build_key},
+        GATE_BONUS + rows * cost,
+        (paraphrase_dir / gate / "cross_state_metrics.csv",),
+        gate,
+        None,
+    )
+    audit_keys.append(gate_key)
+    for policy in ordered[1:]:
+        audit_keys.append(
+            audit(
+                policy,
+                prompt_files[policy],
+                paraphrase_dir / policy,
+                {build_key, gate_key},
+                rows * cost,
+                (paraphrase_dir / policy / "cross_state_metrics.csv",),
+                gate,
+                para_results[gate],
+            )
+        )
+
+    analyze_key = _job_key(model, dataset, "paraphrase-analyze")
+    analyze_command = ["uv", "run", "python", "-m", "halo.paraphrase", "analyze"]
+    for policy in ordered:
+        analyze_command += [
+            "--canonical",
+            f"{policy}={canonical_results[policy]}",
+            "--paraphrase",
+            f"{policy}={para_results[policy]}",
+        ]
+    summary = paraphrase_dir / f"{stem}_summary.csv"
+    analyze_command += ["--output", str(summary)]
+    jobs.append(
+        Job(
+            key=analyze_key,
+            model=model,
+            dataset=dataset,
+            phase="paraphrase-analyze",
+            command=tuple(analyze_command),
+            environment=tuple(sorted(environment.items())),
+            dependencies=frozenset(audit_keys),
+            priority=rows * PHASE_COST["paraphrase-analyze"],
+            log_path=log_root / f"{analyze_key}.log",
+            input_fingerprint=para_fingerprint,
+            expected_outputs=(summary,),
+        )
+    )
 
 
 def build_jobs(
@@ -747,6 +912,8 @@ def build_jobs(
                 )
 
             oracle_final = None
+            # Final job key per canonical policy row, for the paraphrase phase.
+            policy_finals: dict[str, str] = {}
             if "policy" in phases:
                 # Oracle first: the other policies reuse its DEL-OFF rows
                 # (and coinciding DEL-ON rows), then run in parallel.
@@ -762,10 +929,11 @@ def build_jobs(
                         / "cross_state_metrics.csv",
                     ),
                 )
+                policy_finals["oracle"] = oracle_final
                 for policy in POLICIES:
                     if policy == "oracle":
                         continue
-                    striped_group(
+                    policy_finals[policy] = striped_group(
                         "policy",
                         (policy,),
                         extra_env=(("POLICIES", policy),),
@@ -806,7 +974,7 @@ def build_jobs(
                 factq_policy_dependencies = {embed_final} | (
                     {oracle_final} if oracle_final is not None else standard_dep
                 )
-                striped_group(
+                policy_finals["factq"] = striped_group(
                     "factq-policy",
                     (),
                     dependencies=factq_policy_dependencies,
@@ -815,6 +983,74 @@ def build_jobs(
                         co_output / "policy_matrix" / "factq"
                         / "cross_state_metrics.csv",
                     ),
+                )
+
+            variants_path = repo_root / PARAPHRASE_VARIANTS[dataset]
+            if "paraphrase" in phases and variants_path.is_file():
+                # Re-ask every fact through paraphrases with each policy's
+                # deletion set frozen as its canonical run persisted it.
+                # Policies planned above are dependencies; in a phase-only
+                # run, the policy rows already on disk are used.
+                canonical_results = {
+                    policy: co_output / "policy_matrix" / policy / f"{stem}_results.jsonl"
+                    for policy in (*POLICIES, "factq")
+                }
+                paraphrase_policies = {
+                    policy: ({policy_finals[policy]} if policy in policy_finals else set())
+                    for policy in canonical_results
+                    if policy in policy_finals or canonical_results[policy].is_file()
+                }
+                if not paraphrase_policies:
+                    raise ValueError(
+                        f"The paraphrase phase for {dataset} needs canonical "
+                        f"policy results under {co_output / 'policy_matrix'}; "
+                        "include 'policy' in --phases or run it first."
+                    )
+
+                def co_paraphrase_audit(
+                    policy: str,
+                    prompt_file: Path,
+                    output_dir: Path,
+                    dependencies: set[str],
+                    priority: int,
+                    expected_outputs: tuple[Path, ...],
+                    gate: str,
+                    gate_results: Path | None,
+                ) -> str:
+                    # The suite's paraphrase-audit phase derives the prompt
+                    # file, output dir and gate reuse from these.
+                    return striped_group(
+                        "paraphrase",
+                        (policy,),
+                        extra_env=(
+                            ("SUITE_PHASES", "paraphrase-audit"),
+                            ("POLICIES", policy),
+                            ("PARAPHRASE_GATE", gate),
+                            ("PARAPHRASE_VARIANTS", str(variants_path)),
+                        ),
+                        dependencies=dependencies,
+                        priority=priority,
+                        expected_outputs=expected_outputs,
+                    )
+
+                _paraphrase_group(
+                    jobs=jobs,
+                    model="co-lmlm",
+                    dataset=dataset,
+                    canonical_prompts=prompt_path,
+                    variants_path=variants_path,
+                    canonical_results=canonical_results,
+                    policy_dependencies=paraphrase_policies,
+                    paraphrase_dir=co_output / "paraphrase",
+                    stem=f"{stem}_paraphrase",
+                    gate_preference="oracle",
+                    audit=co_paraphrase_audit,
+                    environment=shared_env,
+                    log_root=log_root,
+                    fingerprint=co_fingerprint,
+                    rows=rows,
+                    cost=PHASE_COST["paraphrase"],
+                    max_per_fact=inherited_env.get("PARAPHRASE_MAX_PER_FACT", "2"),
                 )
 
         for model in PARAMETRIC_MODELS:
@@ -889,6 +1125,7 @@ def build_jobs(
                 *extra: str,
                 del_off_mode: str,
                 reuse_from: Path | None = None,
+                full_dir: Path | None = None,
             ) -> tuple[str, ...]:
                 return (
                     "uv",
@@ -903,7 +1140,7 @@ def build_jobs(
                     "--output-dir",
                     str(output_dir),
                     "--full-dir",
-                    str(nulls_full_dir),
+                    str(full_dir or nulls_full_dir),
                     "--nulls-checkpoint-dir",
                     str(nulls_config["checkpoint_dir"]),
                     "--nulls-title-to-index",
@@ -924,6 +1161,7 @@ def build_jobs(
                 *,
                 del_off_mode: str,
                 reuse_from: Path | None = None,
+                full_dir: Path | None = None,
                 dependencies: Iterable[str] = (),
                 priority: int,
                 expected_outputs: tuple[Path, ...],
@@ -957,6 +1195,7 @@ def build_jobs(
                                 *extra,
                                 del_off_mode=del_off_mode,
                                 reuse_from=reuse_from,
+                                full_dir=full_dir,
                             ),
                             environment=tuple(sorted(shared_env.items())),
                             dependencies=(
@@ -1183,6 +1422,10 @@ def build_jobs(
                 and (configured_phases is None or policy_requested)
             )
             policy_k = nulls_config["policy_k"]
+            # Canonical results and final job key per planned policy row,
+            # for the paraphrase phase.
+            nulls_policy_results: dict[str, Path] = {}
+            nulls_policy_finals: dict[str, str] = {}
 
             # One geometric closures job serves the sweep grid and the
             # geometric policy row (the sweep closure at NULLS_POLICY_K).
@@ -1300,7 +1543,13 @@ def build_jobs(
                     "hybrid": (policy_files["hybrid"], {policy_closures_key}),
                 }
                 for policy, (prompt_file, prep_keys) in policy_rows.items():
-                    nulls_striped(
+                    nulls_policy_results[policy] = (
+                        nulls_output
+                        / "policy_matrix"
+                        / policy
+                        / f"{prompt_file.stem}_results.jsonl"
+                    )
+                    nulls_policy_finals[policy] = nulls_striped(
                         f"policy-{policy}",
                         prompt_file,
                         nulls_output / "policy_matrix" / policy,
@@ -1314,6 +1563,92 @@ def build_jobs(
                             / policy
                             / "cross_state_metrics.csv",
                         ),
+                    )
+
+            # Paraphrase robustness, as for Co-LMLM. The standard run (gold
+            # source sinks) is the gate row; planned policy rows join it.
+            # In a phase-only run, rows already on disk are used.
+            variants_path = repo_root / PARAPHRASE_VARIANTS[dataset]
+            paraphrase_requested = (
+                configured_phases is not None and "paraphrase" in configured_phases
+            )
+            if paraphrase_requested and not variants_path.is_file():
+                raise ValueError(
+                    f"NULLS_PHASES requests the paraphrase phase but {variants_path} "
+                    "is missing; build it with scripts/build_prompts.sh."
+                )
+            if variants_path.is_file() and (
+                configured_phases is None or paraphrase_requested
+            ):
+                nulls_canonical = {
+                    "standard": nulls_output / f"{nulls_stem}_results.jsonl",
+                    **nulls_policy_results,
+                }
+                nulls_finals = {
+                    **({"standard": standard_key} if standard_key else {}),
+                    **nulls_policy_finals,
+                }
+                # The build reads the gated prompts, which the (always
+                # planned) gate rewrites, so it waits for the gate even in a
+                # phase-only run.
+                nulls_paraphrase_policies = {
+                    policy: (
+                        {nulls_finals[policy]} if policy in nulls_finals else set()
+                    )
+                    | {gate_key}
+                    for policy, path in nulls_canonical.items()
+                    if policy in nulls_finals or path.is_file()
+                }
+                if not nulls_paraphrase_policies and paraphrase_requested:
+                    raise ValueError(
+                        f"The NULLs paraphrase phase for {dataset} needs the "
+                        f"standard results {nulls_canonical['standard']}; "
+                        "include 'standard' in NULLS_PHASES or run it first."
+                    )
+                if nulls_paraphrase_policies:
+
+                    def nulls_paraphrase_audit(
+                        policy: str,
+                        prompt_file: Path,
+                        output_dir: Path,
+                        dependencies: set[str],
+                        priority: int,
+                        expected_outputs: tuple[Path, ...],
+                        gate: str,
+                        gate_results: Path | None,
+                    ) -> str:
+                        return nulls_striped(
+                            f"paraphrase-{policy}",
+                            prompt_file,
+                            output_dir,
+                            del_off_mode=nulls_config["del_off_mode"],
+                            reuse_from=gate_results,
+                            # Its own FULL dir: the canonical one is keyed on
+                            # the canonical facts.
+                            full_dir=output_dir / f"{prompt_file.stem}_full",
+                            dependencies=dependencies,
+                            priority=priority,
+                            expected_outputs=expected_outputs,
+                        )
+
+                    _paraphrase_group(
+                        jobs=jobs,
+                        model=NULLS_MODEL,
+                        dataset=dataset,
+                        canonical_prompts=gated_prompts,
+                        variants_path=variants_path,
+                        canonical_results=nulls_canonical,
+                        policy_dependencies=nulls_paraphrase_policies,
+                        paraphrase_dir=nulls_output / "paraphrase",
+                        stem=f"{nulls_stem}_paraphrase",
+                        gate_preference="standard",
+                        audit=nulls_paraphrase_audit,
+                        environment=shared_env,
+                        log_root=log_root,
+                        fingerprint=nulls_fingerprint,
+                        rows=nulls_rows,
+                        cost=PHASE_COST["nulls-paraphrase"],
+                        max_per_fact=inherited_env.get("PARAPHRASE_MAX_PER_FACT", "2"),
                     )
 
     _validate_graph(jobs)

@@ -14,8 +14,19 @@ LIMIT: int | None = None
 # before place_of_death is reached.
 MAX_FACTS_PER_RELATION: int | None = 2000
 
+# Paraphrase variants (data/prompts_googlere_variants.jsonl) for the
+# paraphrase-robustness phase: ParaRel templates for the same Wikidata
+# relation, excluding the canonical LAMA template. VARIANTS_ONLY=1 leaves
+# an existing prompt file (and its fingerprint) untouched.
+EMIT_VARIANTS = os.environ.get("EMIT_VARIANTS", "1") not in ("", "0", "false")
+VARIANTS_ONLY = os.environ.get("VARIANTS_ONLY", "") not in ("", "0", "false")
+MAX_VARIANT_CANDIDATES = 4
+# Google-RE relation -> Wikidata property (ParaRel is keyed by property).
+WIKIDATA_PROPERTY = {"place_of_birth": "P19", "place_of_death": "P20"}
+
 OUTPUT_DIR = Path(__file__).resolve().parent
 PROMPTS_PATH = OUTPUT_DIR / "prompts_googlere.jsonl"
+VARIANTS_PATH = OUTPUT_DIR / "prompts_googlere_variants.jsonl"
 LAMA_DIR = OUTPUT_DIR / "lama"
 
 # Google-RE test shard -> (predicate id, cloze template). [X] is the subject,
@@ -63,6 +74,7 @@ def _prefix(template: str, subject: str) -> str | None:
 def main() -> None:
     gre_dir = _google_re_dir()
     prompt_rows: list[dict] = []
+    variant_rows: list[dict] = []
     seen_facts: set[str] = set()
     for shard, (predicate_id, template) in RELATIONS.items():
         shard_path = gre_dir / shard
@@ -102,6 +114,28 @@ def main() -> None:
                         "predicate_id": predicate_id,
                     }
                 )
+                if EMIT_VARIANTS or VARIANTS_ONLY:
+                    from _pararel import paraphrase_prefixes
+
+                    for index, text in enumerate(
+                        paraphrase_prefixes(
+                            WIKIDATA_PROPERTY[predicate_id],
+                            subject,
+                            fact_id=fact_id,
+                            exclude=(template,),
+                            limit=MAX_VARIANT_CANDIDATES,
+                        )
+                    ):
+                        variant_rows.append(
+                            {
+                                "prompt_id": f"{fact_id}-para{index}",
+                                "fact_id": fact_id,
+                                "prompt_text": text,
+                                "gold_object": obj_label,
+                                "variant": "paraphrase",
+                                "variant_source": "pararel",
+                            }
+                        )
                 if LIMIT is not None and len(prompt_rows) >= LIMIT:
                     break
                 if (
@@ -112,11 +146,20 @@ def main() -> None:
         if LIMIT is not None and len(prompt_rows) >= LIMIT:
             break
 
-    with PROMPTS_PATH.open("w", encoding="utf-8") as handle:
-        for row in prompt_rows:
-            handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+    if not VARIANTS_ONLY:
+        with PROMPTS_PATH.open("w", encoding="utf-8") as handle:
+            for row in prompt_rows:
+                handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+        print(f"Wrote {len(prompt_rows)} audit prompts to {PROMPTS_PATH}")
 
-    print(f"Wrote {len(prompt_rows)} audit prompts to {PROMPTS_PATH}")
+    if EMIT_VARIANTS or VARIANTS_ONLY:
+        with VARIANTS_PATH.open("w", encoding="utf-8") as handle:
+            for row in variant_rows:
+                handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+        print(
+            f"Wrote {len(variant_rows)} paraphrase candidates to {VARIANTS_PATH} "
+            "(not for the standard audit)"
+        )
 
 
 if __name__ == "__main__":

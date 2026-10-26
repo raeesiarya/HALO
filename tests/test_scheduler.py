@@ -12,6 +12,7 @@ import pytest
 from halo.scheduler import (
     DATASETS,
     DEFAULT_MODELS,
+    PARAPHRASE_VARIANTS,
     Job,
     SchedulerAlreadyRunning,
     SchedulerLock,
@@ -27,6 +28,19 @@ from halo.scheduler import (
     ready_jobs,
     run_jobs,
 )
+
+
+@pytest.fixture(autouse=True)
+def _isolate_paraphrase_variants(monkeypatch) -> None:
+    """Point the variants paths at names no real checkout has, so plans built
+    against the real repo root do not change once data/*_variants.jsonl
+    exist; tests that want the phase write these paths themselves."""
+    for dataset in list(PARAPHRASE_VARIANTS):
+        monkeypatch.setitem(
+            PARAPHRASE_VARIANTS,
+            dataset,
+            f"data/prompts_{dataset}_variants.scheduler-test.jsonl",
+        )
 
 
 def _job(
@@ -802,3 +816,172 @@ def test_nulls_scale_reference_plans_a_plain_parametric_job(
     assert "--closure" not in reference.command
     # It is ordered ahead of the 360M pass: same rows, ~5x the cost.
     assert reference.priority > by_key["smollm2-360m.trex.standard"].priority
+
+
+def _paraphrase_repo(tmp_path: Path, *, variants: bool = True) -> Path:
+    repo_root = tmp_path / "repo"
+    (repo_root / "scripts").mkdir(parents=True)
+    (repo_root / "scripts" / "run_audit_suite_co_lmlm.sh").write_text("#!/bin/bash\n")
+    prompt = repo_root / DATASETS["zsre"]
+    prompt.parent.mkdir(parents=True, exist_ok=True)
+    prompt.write_text('{"prompt_id":"z1","fact_id":"z1"}\n', encoding="utf-8")
+    if variants:
+        (repo_root / PARAPHRASE_VARIANTS["zsre"]).write_text(
+            '{"fact_id":"z1","prompt_text":"q","variant":"paraphrase"}\n',
+            encoding="utf-8",
+        )
+    return repo_root
+
+
+def _flag(job: Job, flag: str) -> list[str]:
+    return [
+        value for option, value in zip(job.command, job.command[1:]) if option == flag
+    ]
+
+
+def test_paraphrase_phase_freezes_every_policy_row(tmp_path: Path) -> None:
+    repo_root = _paraphrase_repo(tmp_path)
+    out_root = tmp_path / "out"
+    jobs = build_jobs(
+        repo_root=repo_root,
+        out_root=out_root,
+        co_lmlm_dir=tmp_path / "Co-LMLM",
+        index_dir=tmp_path / "index",
+        datasets=("zsre",),
+        models=("co-lmlm",),
+        inherited_env={},
+    )
+    by_key = {job.key: job for job in jobs}
+    policies = ("oracle", "geometric", "value", "provenance", "hybrid", "factq")
+    canonical_finals = {
+        **{p: f"co-lmlm.zsre.policy.{p}" for p in policies if p != "factq"},
+        "factq": "co-lmlm.zsre.factq-policy",
+    }
+
+    build = by_key["co-lmlm.zsre.paraphrase-build"]
+    # Waits for every canonical policy row, whose manifests it freezes.
+    assert build.dependencies == frozenset(canonical_finals.values())
+    assert _flag(build, "--policy") == [
+        f"{p}={out_root}/co-lmlm/zsre/policy_matrix/{p}/prompts_zsre_results.jsonl"
+        for p in policies
+    ]
+    assert _flag(build, "--variants") == [str(repo_root / PARAPHRASE_VARIANTS["zsre"])]
+    para_dir = out_root / "co-lmlm" / "zsre" / "paraphrase"
+    assert set(build.expected_outputs) == {
+        para_dir / p / "prompts_zsre_paraphrase.jsonl" for p in policies
+    }
+
+    # Oracle is the gate; every other policy reuses its FULL/DEL-OFF rows.
+    gate = by_key["co-lmlm.zsre.paraphrase.oracle"]
+    assert gate.dependencies == frozenset({build.key})
+    assert gate.env_dict()["SUITE_PHASES"] == "paraphrase-audit"
+    assert gate.env_dict()["POLICIES"] == "oracle"
+    assert gate.env_dict()["PARAPHRASE_GATE"] == "oracle"
+    for policy in policies[1:]:
+        job = by_key[f"co-lmlm.zsre.paraphrase.{policy}"]
+        assert job.dependencies == frozenset({build.key, gate.key})
+        assert job.env_dict()["POLICIES"] == policy
+        assert job.expected_outputs == (para_dir / policy / "cross_state_metrics.csv",)
+        assert gate.priority > job.priority
+
+    analyze = by_key["co-lmlm.zsre.paraphrase-analyze"]
+    assert analyze.dependencies == frozenset(
+        f"co-lmlm.zsre.paraphrase.{p}" for p in policies
+    )
+    assert analyze.expected_outputs == (para_dir / "prompts_zsre_paraphrase_summary.csv",)
+    assert len(_flag(analyze, "--paraphrase")) == len(policies)
+
+
+def test_paraphrase_phase_shards_like_the_policy_matrix(tmp_path: Path) -> None:
+    jobs = build_jobs(
+        repo_root=_paraphrase_repo(tmp_path),
+        out_root=tmp_path / "out",
+        co_lmlm_dir=tmp_path / "Co-LMLM",
+        index_dir=tmp_path / "index",
+        datasets=("zsre",),
+        models=("co-lmlm",),
+        phases=("standard", "policy", "paraphrase"),
+        inherited_env={},
+        shards_per_phase=2,
+    )
+    by_key = {job.key: job for job in jobs}
+    build = by_key["co-lmlm.zsre.paraphrase-build"]
+    for index in range(2):
+        shard = by_key[f"co-lmlm.zsre.paraphrase.oracle.shard{index}"]
+        assert shard.dependencies == frozenset({build.key})
+        assert _flag(shard, "--shard") == [f"{index}/2"]
+    finalize = by_key["co-lmlm.zsre.paraphrase.oracle.finalize"]
+    geometric_shard = by_key["co-lmlm.zsre.paraphrase.geometric.shard0"]
+    assert finalize.key in geometric_shard.dependencies
+    # Without the factq phase there is no factq row to freeze.
+    assert "co-lmlm.zsre.paraphrase.factq.finalize" not in by_key
+
+
+def test_paraphrase_phase_skips_sets_without_variants(tmp_path: Path) -> None:
+    jobs = build_jobs(
+        repo_root=_paraphrase_repo(tmp_path, variants=False),
+        out_root=tmp_path / "out",
+        co_lmlm_dir=tmp_path / "Co-LMLM",
+        index_dir=tmp_path / "index",
+        datasets=("zsre",),
+        models=("co-lmlm",),
+        inherited_env={},
+    )
+    assert not any(job.phase.startswith("paraphrase") for job in jobs)
+
+
+def test_paraphrase_only_run_uses_policy_rows_on_disk(tmp_path: Path) -> None:
+    repo_root = _paraphrase_repo(tmp_path)
+    out_root = tmp_path / "out"
+    kwargs = dict(
+        repo_root=repo_root,
+        out_root=out_root,
+        co_lmlm_dir=tmp_path / "Co-LMLM",
+        index_dir=tmp_path / "index",
+        datasets=("zsre",),
+        models=("co-lmlm",),
+        phases=("paraphrase",),
+        inherited_env={},
+    )
+    with pytest.raises(ValueError, match="canonical policy results"):
+        build_jobs(**kwargs)
+
+    for policy in ("geometric", "value"):
+        results = (
+            out_root / "co-lmlm" / "zsre" / "policy_matrix" / policy
+            / "prompts_zsre_results.jsonl"
+        )
+        results.parent.mkdir(parents=True)
+        results.write_text("{}\n", encoding="utf-8")
+    jobs = build_jobs(**kwargs)
+    by_key = {job.key: job for job in jobs}
+    assert by_key["co-lmlm.zsre.paraphrase-build"].dependencies == frozenset()
+    # No oracle row on disk: the first available policy becomes the gate.
+    gate = by_key["co-lmlm.zsre.paraphrase.geometric"]
+    assert gate.env_dict()["PARAPHRASE_GATE"] == "geometric"
+    value = by_key["co-lmlm.zsre.paraphrase.value"]
+    assert gate.key in value.dependencies
+    assert {job.phase for job in jobs} == {
+        "paraphrase-build",
+        "paraphrase",
+        "paraphrase-analyze",
+    }
+
+
+def test_paraphrase_variants_change_the_plan_fingerprint(tmp_path: Path) -> None:
+    repo_root = _paraphrase_repo(tmp_path)
+    kwargs = dict(
+        repo_root=repo_root,
+        out_root=tmp_path / "out",
+        co_lmlm_dir=tmp_path / "Co-LMLM",
+        index_dir=tmp_path / "index",
+        datasets=("zsre",),
+        models=("co-lmlm",),
+        inherited_env={},
+    )
+    before = plan_fingerprint(build_jobs(**kwargs))
+    (repo_root / PARAPHRASE_VARIANTS["zsre"]).write_text(
+        '{"fact_id":"z1","prompt_text":"other","variant":"paraphrase"}\n',
+        encoding="utf-8",
+    )
+    assert plan_fingerprint(build_jobs(**kwargs)) != before

@@ -26,10 +26,16 @@
 # questions per fact from the FULL pass's retrieved DB entries, embed them
 # through Co-LMLM's <FACT-q> head, audit `--closure factq` as a sixth
 # policy row). SUITE_PHASES narrows that when you need it:
-#   all (default) = standard,sweep,adversarial,del-off,policy,factq
+#   all (default) = standard,sweep,adversarial,del-off,policy,factq,paraphrase
 #   core          = standard,sweep,adversarial
 #   factq         = factq-questions,factq-embed,factq-policy (the alias
 #                   expands; the sub-phases are also valid individually)
+#   paraphrase    = paraphrase-build,paraphrase-audit,paraphrase-analyze:
+#                   re-ask every fact through paraphrased prompts with each
+#                   policy's deletion set frozen as its canonical run built
+#                   it (src/halo/paraphrase.py). Needs the policy results and
+#                   data/<prompts>_variants.jsonl; skipped with a note when
+#                   the variants file is absent.
 #   or an explicit comma-separated subset, e.g. SUITE_PHASES=standard,policy
 # Narrowing is mainly useful for resuming a partial run or iterating on one
 # phase; the del-off and policy phases are a full standard audit per variant
@@ -42,7 +48,8 @@
 #            phase; default 1), STANDARD_CLOSURE, SWEEP_CLOSURE,
 #            ADVERSARIAL_CLOSURE, RADIUS_GRID, NEIGHBOR_MODE,
 #            NEIGHBOR_MIN_COUNT, DEL_OFF_MODE, FACTQ_NUM_QUESTIONS,
-#            FACTQ_THRESHOLD, FACTQ_ADAPTER, FACTQ_QUESTIONS, FACTQ_VECTORS
+#            FACTQ_THRESHOLD, FACTQ_ADAPTER, FACTQ_QUESTIONS, FACTQ_VECTORS,
+#            PARAPHRASE_VARIANTS, PARAPHRASE_DIR, PARAPHRASE_MAX_PER_FACT
 # Extra flags are passed through to every phase, so keep --limit consistent
 # across re-runs: the shared FULL pass is resumed wholesale and only covers
 # the facts it was built with.
@@ -95,7 +102,21 @@ FACTQ_ADAPTER="${FACTQ_ADAPTER:-lil-lab/CoLMLM-Question-Generator}"
 case "$FACTQ_QUESTIONS" in /*) ;; *) FACTQ_QUESTIONS="$PWD/$FACTQ_QUESTIONS" ;; esac
 case "$FACTQ_VECTORS" in /*) ;; *) FACTQ_VECTORS="$PWD/$FACTQ_VECTORS" ;; esac
 
-ALL_PHASES="standard,sweep,adversarial,del-off,policy,factq-questions,factq-embed,factq-policy"
+# Paraphrase robustness: per-policy prompt files with frozen manifests, the
+# audits, and the paired canonical-vs-paraphrase summary.
+case "$STEM" in
+    prompts) DEFAULT_VARIANTS="$(dirname "$PROMPTS")/prompts_popqa_variants.jsonl" ;;
+    *)       DEFAULT_VARIANTS="$(dirname "$PROMPTS")/${STEM}_variants.jsonl" ;;
+esac
+PARAPHRASE_VARIANTS="${PARAPHRASE_VARIANTS:-$DEFAULT_VARIANTS}"
+PARAPHRASE_DIR="${PARAPHRASE_DIR:-$OUTPUT_DIR/paraphrase}"
+PARAPHRASE_STEM="${STEM}_paraphrase"
+PARAPHRASE_MAX_PER_FACT="${PARAPHRASE_MAX_PER_FACT:-2}"
+case "$PARAPHRASE_VARIANTS" in /*) ;; *) PARAPHRASE_VARIANTS="$PWD/$PARAPHRASE_VARIANTS" ;; esac
+case "$PARAPHRASE_DIR" in /*) ;; *) PARAPHRASE_DIR="$PWD/$PARAPHRASE_DIR" ;; esac
+PARAPHRASE_POLICIES="oracle geometric value provenance hybrid factq"
+
+ALL_PHASES="standard,sweep,adversarial,del-off,policy,factq-questions,factq-embed,factq-policy,paraphrase-build,paraphrase-audit,paraphrase-analyze"
 case "${SUITE_PHASES:-all}" in
     core) SUITE_PHASES="standard,sweep,adversarial" ;;
     all)  SUITE_PHASES="$ALL_PHASES" ;;
@@ -107,6 +128,7 @@ EXPANDED_PHASES=""
 for token in ${SUITE_PHASES//,/ }; do
     case "$token" in
         factq) EXPANDED_PHASES="$EXPANDED_PHASES,factq-questions,factq-embed,factq-policy" ;;
+        paraphrase) EXPANDED_PHASES="$EXPANDED_PHASES,paraphrase-build,paraphrase-audit,paraphrase-analyze" ;;
         *)     EXPANDED_PHASES="$EXPANDED_PHASES,$token" ;;
     esac
 done
@@ -385,6 +407,72 @@ if phase_enabled factq-policy; then
     POLICIES=factq FACTQ_VECTORS="$FACTQ_VECTORS" \
     FACTQ_THRESHOLD="$FACTQ_THRESHOLD" \
         "$REPO_ROOT/scripts/run_policy_matrix_co_lmlm.sh" "$@"
+fi
+
+# Paraphrase robustness. The policies are whichever canonical policy rows
+# exist on disk (the phases above write them), so a partial matrix still
+# yields a paired comparison for the rows it has.
+paraphrase_policy_args() {
+    PARAPHRASE_ARGS=()
+    local policy results
+    for policy in $PARAPHRASE_POLICIES; do
+        results="$OUTPUT_DIR/policy_matrix/$policy/${STEM}_results.jsonl"
+        if [ -f "$results" ]; then
+            PARAPHRASE_ARGS+=(--policy "$policy=$results")
+        fi
+    done
+}
+
+if phase_enabled paraphrase-build; then
+    announce "paraphrase prompt files (frozen per-policy deletion sets)"
+    if [ ! -f "$PARAPHRASE_VARIANTS" ]; then
+        echo "  $PARAPHRASE_VARIANTS not found; skipping (build it with scripts/build_prompts.sh)"
+    else
+        paraphrase_policy_args
+        if [ "${#PARAPHRASE_ARGS[@]}" -eq 0 ]; then
+            echo "error: no policy results under $OUTPUT_DIR/policy_matrix; run the policy phase first" >&2
+            exit 1
+        fi
+        PYTHONPATH="$REPO_ROOT/src:src${PYTHONPATH:+:$PYTHONPATH}" \
+        uv run python -m halo.paraphrase build \
+            --canonical-prompts "$PROMPTS" \
+            --variants "$PARAPHRASE_VARIANTS" \
+            "${PARAPHRASE_ARGS[@]}" \
+            --output-dir "$PARAPHRASE_DIR" \
+            --stem "$PARAPHRASE_STEM" \
+            --max-variants-per-fact "$PARAPHRASE_MAX_PER_FACT"
+    fi
+fi
+
+if phase_enabled paraphrase-audit; then
+    announce "paraphrase audit (DEL-ON under paraphrases, frozen manifests)"
+    if [ ! -d "$PARAPHRASE_DIR" ]; then
+        echo "  $PARAPHRASE_DIR not found; skipping (run paraphrase-build first)"
+    else
+        CO_LMLM_DIR="$CO_LMLM_DIR" INDEX_DIR="$INDEX_DIR" \
+        OUTPUT_DIR="$PARAPHRASE_DIR" PARAPHRASE_STEM="$PARAPHRASE_STEM" \
+        DEL_OFF_MODE="$DEL_OFF_MODE" \
+            "$REPO_ROOT/scripts/run_paraphrase_co_lmlm.sh" "$@"
+    fi
+fi
+
+if phase_enabled paraphrase-analyze; then
+    announce "paraphrase summary (canonical vs paraphrase deletion survival)"
+    ANALYZE_ARGS=()
+    for policy in $PARAPHRASE_POLICIES; do
+        ANALYZE_ARGS+=(
+            --canonical "$policy=$OUTPUT_DIR/policy_matrix/$policy/${STEM}_results.jsonl"
+            --paraphrase "$policy=$PARAPHRASE_DIR/$policy/${PARAPHRASE_STEM}_results.jsonl"
+        )
+    done
+    if [ ! -d "$PARAPHRASE_DIR" ]; then
+        echo "  $PARAPHRASE_DIR not found; skipping"
+    else
+        PYTHONPATH="$REPO_ROOT/src:src${PYTHONPATH:+:$PYTHONPATH}" \
+        uv run python -m halo.paraphrase analyze \
+            "${ANALYZE_ARGS[@]}" --allow-missing \
+            --output "$PARAPHRASE_DIR/${PARAPHRASE_STEM}_summary.csv"
+    fi
 fi
 
 echo "=== Audit suite complete ($SUITE_PHASES) ==="

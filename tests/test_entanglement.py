@@ -66,11 +66,41 @@ def test_collateral_ignores_neighbors_wrong_under_full() -> None:
 
     entanglement = compute_entanglement(sweep_rows, full_rows, {"t": ["n1"]})
     point = entanglement["t"]["curve"][0]
-    # The neighbor was already wrong under FULL, so it cannot be collateral.
+    # The neighbor was already wrong under FULL, so it cannot be collateral,
+    # and it is not in the denominator either: X is a rate over known facts.
     assert point["collateral"] == 0.0
     assert point["neighbors_full_correct"] == 0
-    assert entanglement["t"]["gap"] == 0.0
-    assert entanglement["t"]["gap_rho"] == 0.8
+    assert point["neighbors_scored"] == 0
+    # With no known neighbor, G(f) is undefined rather than trivially zero.
+    assert entanglement["t"]["gap"] is None
+    assert entanglement["t"]["gap_eligible"] is False
+
+
+def test_collateral_denominator_is_known_neighbors_scored_at_radius() -> None:
+    # Three neighbors: n1 known and broken, n2 known and intact, n3 known but
+    # not scored at this radius, n4 wrong under FULL. X = 1 / 2.
+    full_rows = [
+        _row("t", "Paris", "Paris"),
+        _row("n1", "Warsaw", "Warsaw"),
+        _row("n2", "Berlin", "Berlin"),
+        _row("n3", "Rome", "Rome"),
+        _row("n4", "Krakow", "Oslo"),
+    ]
+    sweep_rows = [
+        _row("t", "unknown", "Paris", target="t", rho=0.8, role="target"),
+        _row("n1", "unknown", "Warsaw", target="t", rho=0.8, role="neighbor"),
+        _row("n2", "Berlin", "Berlin", target="t", rho=0.8, role="neighbor"),
+        _row("n4", "unknown", "Oslo", target="t", rho=0.8, role="neighbor"),
+    ]
+
+    entanglement = compute_entanglement(
+        sweep_rows, full_rows, {"t": ["n1", "n2", "n3", "n4"]}
+    )
+    point = entanglement["t"]["curve"][0]
+    assert point["neighbor_count"] == 4
+    assert point["neighbors_full_correct"] == 3
+    assert point["neighbors_scored"] == 2
+    assert point["collateral"] == 0.5
 
 
 def test_fact_with_no_neighbors_has_no_entanglement_gap() -> None:
@@ -361,6 +391,7 @@ def test_entanglement_sweep_end_to_end(tmp_path) -> None:
             "neighbor_count": 1,
             "neighbors_observed": 1,
             "neighbors_full_correct": 1,
+            "neighbors_scored": 1,
             "gap_term": 0.0,
         }
         # Loose radius: the neighbor's entry falls inside the closure.

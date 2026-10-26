@@ -10,10 +10,9 @@ The paraphrase and neighborhood prompts are NOT written to the main file: the
 audit keys every row by its own prompt_id and has no notion of grouping rows
 under a shared fact, so extra rows per fact would silently inflate the cohort
 and correlate the samples (breaking the per-fact Wilson/McNemar assumptions).
-Set EMIT_VARIANTS=1 to additionally dump those rows to
-data/prompts_counterfact_variants.jsonl for the (not-yet-implemented)
-identity / paraphrase-robustness analysis; that file must not be fed to the
-standard audit as-is.
+They go to data/prompts_counterfact_variants.jsonl instead (EMIT_VARIANTS=0
+turns that off), which the paraphrase-robustness phase (src/halo/paraphrase.py)
+consumes; that file must not be fed to the standard audit as-is.
 
 The canonical release (~40 MB JSON) is downloaded to data/counterfact.json on
 first run; set COUNTERFACT_JSON to point at an existing file instead.
@@ -31,7 +30,10 @@ COUNTERFACT_URL = "https://rome.baulab.info/data/dsets/counterfact.json"
 # Cap on the number of facts (None = all): one fact-level row each.
 LIMIT: int | None = None
 # Also write paraphrase + neighborhood rows to a separate *_variants.jsonl.
-EMIT_VARIANTS = os.environ.get("EMIT_VARIANTS", "") not in ("", "0", "false")
+EMIT_VARIANTS = os.environ.get("EMIT_VARIANTS", "1") not in ("", "0", "false")
+# VARIANTS_ONLY=1 writes only the variants, leaving an existing prompt file
+# (and its scheduler fingerprint) untouched.
+VARIANTS_ONLY = os.environ.get("VARIANTS_ONLY", "") not in ("", "0", "false")
 
 OUTPUT_DIR = Path(__file__).resolve().parent
 PROMPTS_PATH = OUTPUT_DIR / "prompts_counterfact.jsonl"
@@ -79,7 +81,7 @@ def main() -> None:
             }
         )
 
-        if EMIT_VARIANTS:
+        if EMIT_VARIANTS or VARIANTS_ONLY:
             for i, paraphrase in enumerate(record.get("paraphrase_prompts") or []):
                 text = str(paraphrase).strip()
                 if not text:
@@ -94,6 +96,7 @@ def main() -> None:
                         "subject": subject,
                         "predicate_id": relation_id,
                         "variant": "paraphrase",
+                        "variant_source": "dataset",
                     }
                 )
             for i, neighbor in enumerate(record.get("neighborhood_prompts") or []):
@@ -119,12 +122,13 @@ def main() -> None:
         if LIMIT is not None and facts >= LIMIT:
             break
 
-    with PROMPTS_PATH.open("w", encoding="utf-8") as handle:
-        for row in prompt_rows:
-            handle.write(json.dumps(row, ensure_ascii=False) + "\n")
-    print(f"Wrote {len(prompt_rows)} fact-level prompts to {PROMPTS_PATH}")
+    if not VARIANTS_ONLY:
+        with PROMPTS_PATH.open("w", encoding="utf-8") as handle:
+            for row in prompt_rows:
+                handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+        print(f"Wrote {len(prompt_rows)} fact-level prompts to {PROMPTS_PATH}")
 
-    if EMIT_VARIANTS:
+    if EMIT_VARIANTS or VARIANTS_ONLY:
         with VARIANTS_PATH.open("w", encoding="utf-8") as handle:
             for row in variant_rows:
                 handle.write(json.dumps(row, ensure_ascii=False) + "\n")

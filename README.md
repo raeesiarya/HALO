@@ -177,6 +177,45 @@ the current prompt sets: T-REx 24%, CounterFact 20%, ZsRE 10%, Google-RE
 10% excluded). Cross-substrate tables are paired on the intersection
 cohort, and the exclusion rate is reported alongside.
 
+## Paraphrase robustness
+
+Every deletion policy builds its deletion set from the canonical eval
+prompt, so DEL-ON on that same prompt is partly circular. The `paraphrase`
+phase re-asks each fact through paraphrased prompts while the deletion set
+stays frozen exactly as the canonical run persisted it.
+
+Paraphrase candidates live in `data/<prompts>_variants.jsonl`, written by
+the prep scripts: CounterFact's `paraphrase_prompts` and ZsRE's `rephrase`
+ship with the datasets; T-REx uses the fact's other LAMA evidence sentences
+and ParaRel templates (Elazar et al., 2021; pinned commit in
+`data/_pararel.py`); Google-RE uses ParaRel P19/P20; PopQA uses hand-written
+rewordings of its per-relation question templates. Add them to an existing
+setup without touching the prompt files (and so without changing any
+scheduler fingerprint):
+
+```bash
+VARIANTS_ONLY=1 ./scripts/build_prompts.sh
+```
+
+`python -m halo.paraphrase build` keeps at most `PARAPHRASE_MAX_PER_FACT`
+(default 2) paraphrases per fact, drops ones that repeat the canonical
+prompt, contain the answer, or omit the subject, and writes one prompt file
+per policy with the policy's canonical manifest stamped on each row. All
+policy files hold the same facts (the intersection of facts every policy
+audited with a non-empty manifest), so the gate row (Co-LMLM `oracle`,
+NULLs `standard`) generates FULL/DEL-OFF once and the other policies reuse
+it. The scheduler runs the phase automatically for every set with a
+variants file, after that set's policy rows; `analyze` writes
+`<set>/paraphrase/<stem>_paraphrase_summary.csv` with canonical vs
+paraphrase DEL-ON survival on pairs where FULL answers both prompts
+correctly, a per-fact "any paraphrase survives" rate, and exact McNemar
+tests. Against finished policy results:
+
+```bash
+MODELS=co-lmlm,nulls-wiki-1b SCHEDULER_PHASES=paraphrase NULLS_PHASES=paraphrase \
+    ./scripts/run_suite_parallel_cross_model.sh
+```
+
 ## Outputs
 
 Audit outputs include JSONL results, retrieval traces, query embeddings,
