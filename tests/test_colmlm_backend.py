@@ -608,7 +608,11 @@ def test_public_loader_arguments_map_to_release_factory() -> None:
 
     loader = SimpleNamespace(load_retriever_generator=fake_loader)
 
+    # The attention patch resolves its target via importlib, so it must be
+    # entered before import_module is patched.
     with patch(
+        "models.co_lmlm.backend._co_lmlm_attention", return_value="chosen-attn"
+    ), patch(
         "models.co_lmlm.backend.importlib.import_module", return_value=loader
     ) as load_module:
         backend = CoLMLMAuditBackend.from_public_release(
@@ -627,7 +631,9 @@ def test_public_loader_arguments_map_to_release_factory() -> None:
     assert captured["use_sqlite_id_mapping"] is False  # no mapping .db at "index"
     assert captured["device"] in ("cuda:0", "mps", "cpu")
     assert captured["torch_dtype"] in ("bfloat16", "float32")
-    assert "attn_implementation" in captured
+    # One load with the resolved attention (no silent sdpa fallback, which
+    # degenerates after failed lookups; see models/co_lmlm/attention.py).
+    assert captured["attn_implementation"] == "chosen-attn"
 
 
 def test_colmlm_cli_defaults_to_paper_threshold_and_allows_sensitivity() -> None:

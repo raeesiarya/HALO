@@ -36,6 +36,33 @@ def _auto_device_dtype() -> tuple[str, str]:
     return "cpu", "float32"
 
 
+def _co_lmlm_attention() -> str | None:
+    """Attention implementation for the Co-LMLM model.
+
+    flash_attention_2 when flash-attn is installed (the configuration that
+    produced the canonical x86 results); otherwise the FA2-equivalent SDPA
+    attention in ``attention.py``, which reproduces FA2's behavior after a
+    failed lookup where plain sdpa/eager degenerate. CO_LMLM_ATTN overrides:
+    ``flash_attention_2``, ``fa2-compat``, ``sdpa``, ``eager``, or ``auto``.
+    """
+    from models.co_lmlm.attention import (
+        flash_attention_2_available,
+        register_fa2_compat_attention,
+    )
+
+    choice = os.environ.get("CO_LMLM_ATTN", "auto").strip() or "auto"
+    if choice == "auto":
+        choice = "flash_attention_2" if flash_attention_2_available() else "fa2-compat"
+    if choice == "fa2-compat":
+        return register_fa2_compat_attention()
+    if choice in ("flash_attention_2", "sdpa", "eager"):
+        return choice
+    raise ValueError(
+        "CO_LMLM_ATTN must be auto, flash_attention_2, fa2-compat, sdpa or "
+        f"eager; got {choice!r}."
+    )
+
+
 def _has_sqlite_mapping(index_path: Path) -> bool:
     return any((index_path / name).exists() for name in _SQLITE_MAPPING_NAMES)
 
@@ -330,11 +357,9 @@ class CoLMLMAuditBackend:
         if nprobe is not None:
             loader_kwargs["nprobe"] = nprobe
 
-        try:
-            generator = loader(attn_implementation="flash_attention_2", **loader_kwargs)
-        except Exception:
-            # flash-attention-2 is often unavailable; fall back to eager.
-            generator = loader(attn_implementation=None, **loader_kwargs)
+        generator = loader(
+            attn_implementation=_co_lmlm_attention(), **loader_kwargs
+        )
         return cls(
             generator=generator,
             del_off_mode=del_off_mode,

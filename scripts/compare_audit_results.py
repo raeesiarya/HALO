@@ -43,9 +43,24 @@ def _selected_entry(row: dict[str, Any]) -> str | None:
     return selected.get("entry_id")
 
 
+def _skipped_keys(candidate: Path) -> set[str]:
+    """Facts the candidate run attempted but skipped (its skip log)."""
+    stem = candidate.name.removesuffix("_results.jsonl")
+    path = candidate.with_name(f"{stem}_skipped_facts.jsonl")
+    if not path.is_file():
+        return set()
+    with path.open(encoding="utf-8") as handle:
+        return {
+            str(json.loads(line).get("fact_id"))
+            for line in handle
+            if line.strip()
+        }
+
+
 def compare(reference: Path, candidate: Path, *, examples: int = 5) -> dict[str, Any]:
     ref = _rows(reference)
     cand = _rows(candidate)
+    candidate_skipped = _skipped_keys(candidate)
     ref_keys = {key for key, _ in ref}
     cand_keys = {key for key, _ in cand}
     shared = sorted(set(ref) & set(cand))
@@ -76,6 +91,10 @@ def compare(reference: Path, candidate: Path, *, examples: int = 5) -> dict[str,
         "shared_facts": len(ref_keys & cand_keys),
         "only_candidate": sorted(cand_keys - ref_keys)[:examples],
         "only_candidate_count": len(cand_keys - ref_keys),
+        # Facts the reference audited that the candidate attempted but
+        # skipped (its FULL pass found no answer-bearing entry).
+        "only_reference_attempted": sorted(ref_keys & candidate_skipped)[:examples],
+        "only_reference_attempted_count": len(ref_keys & candidate_skipped),
         "states": {
             state: {
                 "rows": s["rows"],
@@ -106,6 +125,12 @@ def main(argv: list[str] | None = None) -> int:
         print(
             f"  {report['only_candidate_count']} facts audited only by the "
             f"candidate (reference skipped them), e.g. {report['only_candidate']}"
+        )
+    if report["only_reference_attempted_count"]:
+        print(
+            f"  {report['only_reference_attempted_count']} facts audited by the "
+            "reference but skipped by the candidate, e.g. "
+            f"{report['only_reference_attempted']}"
         )
     ok = report["shared_facts"] > 0
     for state, stats in report["states"].items():

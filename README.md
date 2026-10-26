@@ -190,6 +190,16 @@ scripts and the scheduler select it automatically on Linux/aarch64
 (`CO_LMLM_UV_PROJECT` overrides; set it empty to force the checkout's own
 environment).
 
+Without flash-attn, the model would otherwise run on sdpa, which does not
+reproduce the canonical runs: after a failed `<FACT>` lookup (every DEL-OFF
+row, and some DEL-ON/FULL rows), Co-LMLM's rollback leaves the KV cache
+covering the whole input, transformers re-feeds the entire context, and only
+flash-attention-2's bottom-right causal attention continues coherently from
+it. The backend therefore uses `fa2_compat` attention
+(`src/models/co_lmlm/attention.py`) whenever flash-attn is missing — FA2's
+semantics implemented with SDPA. `CO_LMLM_ATTN` overrides
+(`flash_attention_2`, `fa2-compat`, `sdpa`, `eager`).
+
 Outputs are not guaranteed bit-identical to x86 runs. Before mixing results
 across platforms, re-audit a canonical slice and compare it row by row with
 the canonical results:
