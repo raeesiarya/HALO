@@ -21,11 +21,16 @@ LIMIT="${2:-200}"
 OUT_ROOT="${OUT_ROOT:-$REPO_ROOT/out-cross-model}"
 case "$OUT_ROOT" in /*) ;; *) OUT_ROOT="$PWD/$OUT_ROOT" ;; esac
 
+# PROMPTS=<file> overrides the prompt file, e.g. to check a set against an
+# older build of its prompts (Co-LMLM's PopQA run predates the September
+# 2026 subject-metadata fix; prompt text and answers are unchanged).
 case "$SET" in
-    popqa) PROMPTS="$REPO_ROOT/data/prompts.jsonl" ;;
-    trex|googlere|counterfact|zsre) PROMPTS="$REPO_ROOT/data/prompts_$SET.jsonl" ;;
+    popqa) DEFAULT_PROMPTS="$REPO_ROOT/data/prompts.jsonl" ;;
+    trex|googlere|counterfact|zsre) DEFAULT_PROMPTS="$REPO_ROOT/data/prompts_$SET.jsonl" ;;
     *) echo "error: unknown set '$SET'" >&2; exit 1 ;;
 esac
+PROMPTS="${PROMPTS:-$DEFAULT_PROMPTS}"
+case "$PROMPTS" in /*) ;; *) PROMPTS="$PWD/$PROMPTS" ;; esac
 STEM="$(basename "$PROMPTS" .jsonl)"
 REFERENCE="$OUT_ROOT/co-lmlm/$SET/policy_matrix/oracle/${STEM}_results.jsonl"
 REFERENCE_CONFIG="$OUT_ROOT/co-lmlm/$SET/policy_matrix/oracle/${STEM}_audit_config.json"
