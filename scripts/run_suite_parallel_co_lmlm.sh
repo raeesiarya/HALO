@@ -99,7 +99,9 @@ run_driver() {
         git clone "$CO_LMLM_REPO_URL" "$CO_LMLM_DIR"
     fi
     echo "Warming up the Co-LMLM environment (uv sync) ..."
-    ( cd "$CO_LMLM_DIR" && uv sync )
+    # shellcheck source=scripts/_co_lmlm_env.sh
+    source "$REPO_ROOT/scripts/_co_lmlm_env.sh"
+    ( cd "$CO_LMLM_DIR" && co_lmlm_uv sync )
     if command -v apt-get >/dev/null 2>&1 && command -v dpkg >/dev/null 2>&1; then
         if ! dpkg -s libopenblas0 >/dev/null 2>&1; then
             echo "Pre-installing OpenBLAS (shared by all parallel suites) ..."

@@ -1,0 +1,66 @@
+# Co-LMLM audit runtime for Linux/aarch64 (DGX Spark / GB10, sm_121).
+#
+# lil-lab/Co-LMLM's own environment cannot install on aarch64: its lock pins
+# faiss-gpu-cu12-cuvs, flash-attn and xformers, which ship x86_64 wheels
+# only. None of the three is on the audit's import path:
+#   - FAISS search runs on CPU (IndexLoadConfig.use_gpu defaults to False and
+#     the index is memory-mapped via LMLM_FAISS_MMAP=1), so faiss-cpu is a
+#     functional replacement for the GPU wheel's CPU code path;
+#   - the backend loads the model with flash_attention_2 and falls back to
+#     eager attention when flash-attn is missing;
+#   - vllm and xformers are never imported by lmlm.eval.hf_generate.
+#
+# This project carries exactly the third-party packages reachable from
+# lmlm.eval.hf_generate (plus HALO's own, and peft for the factq question
+# generator), pinned to the versions in Co-LMLM's uv.lock (commit 5c69b33).
+# The Co-LMLM code itself still comes from the checkout via PYTHONPATH.
+# scripts/_co_lmlm_env.sh selects this project automatically on
+# Linux/aarch64; set CO_LMLM_UV_PROJECT to override.
+#
+# Outputs are not guaranteed bit-identical to the x86 runs (different FAISS
+# build, BLAS/SIMD kernels, GPU and attention kernels): verify a canonical
+# slice with scripts/verify_co_lmlm_port.sh before mixing results.
+[project]
+name = "co-lmlm-audit-aarch64"
+version = "0.1.0"
+requires-python = "==3.12.*"
+dependencies = [
+    "torch==2.10.0",
+    "numpy==2.2.6",
+    "transformers==5.6.2",
+    "tokenizers==0.22.2",
+    "huggingface-hub[hf-xet]==1.12.0",
+    "safetensors==0.7.0",
+    "sentence-transformers==5.4.1",
+    "accelerate==1.13.0",
+    "peft==0.19.1",
+    "datasets==4.8.4",
+    "pandas==3.0.2",
+    "pyarrow==22.0.0",
+    # CPU search path of FAISS; the x86 runs used the 1.14 GPU wheels.
+    "faiss-cpu>=1.14,<1.15",
+    "pyrallis==0.3.1",
+    "loguru==0.7.3",
+    "wandb==0.26.1",
+    "tqdm==4.67.3",
+    "matplotlib",
+    "pyyaml",
+]
+
+[tool.uv]
+package = false
+environments = ["sys_platform == 'linux'"]
+required-environments = [
+    "sys_platform == 'linux' and platform_machine == 'aarch64'",
+]
+
+# PyPI's aarch64 torch wheels are CPU-only; GB10 needs the CUDA 13 build.
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cu130", marker = "sys_platform == 'linux' and platform_machine == 'aarch64'" },
+]

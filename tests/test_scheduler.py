@@ -24,6 +24,7 @@ from halo.scheduler import (
     _validate_runtime_options,
     _warm_up,
     build_jobs,
+    co_lmlm_uv_project,
     plan_fingerprint,
     ready_jobs,
     run_jobs,
@@ -597,6 +598,8 @@ def test_warmup_installs_openblas_once_before_jobs(
         lambda command: f"/usr/bin/{command}",
     )
     monkeypatch.setattr("halo.scheduler.os.geteuid", lambda: 0)
+    # The checkout's own environment, whatever machine runs the tests.
+    monkeypatch.setenv("CO_LMLM_UV_PROJECT", "")
 
     _warm_up(
         repo_root=repo_root,
@@ -985,3 +988,72 @@ def test_paraphrase_variants_change_the_plan_fingerprint(tmp_path: Path) -> None
         encoding="utf-8",
     )
     assert plan_fingerprint(build_jobs(**kwargs)) != before
+
+
+def test_co_lmlm_runtime_uses_the_aarch64_port_on_arm_linux(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    port = repo / "envs" / "co-lmlm-aarch64"
+    assert co_lmlm_uv_project(repo, {}, ("Linux", "aarch64")) == port
+    assert co_lmlm_uv_project(repo, {}, ("Linux", "x86_64")) is None
+    assert co_lmlm_uv_project(repo, {}, ("Darwin", "arm64")) is None
+    # Explicit override, and set-but-empty forcing the checkout's own env.
+    assert co_lmlm_uv_project(
+        repo, {"CO_LMLM_UV_PROJECT": "/opt/env"}, ("Linux", "x86_64")
+    ) == Path("/opt/env")
+    assert co_lmlm_uv_project(repo, {"CO_LMLM_UV_PROJECT": ""}, ("Linux", "aarch64")) is None
+
+
+def test_warmup_syncs_the_port_project_on_arm(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    repo_root = tmp_path / "repo"
+    repo_root.mkdir()
+    co_lmlm_dir = tmp_path / "Co-LMLM"
+    source = co_lmlm_dir / "src" / "lmlm" / "eval" / "hf_generate.py"
+    source.parent.mkdir(parents=True)
+    source.touch()
+    calls: list[tuple[str, ...]] = []
+    monkeypatch.setattr(
+        subprocess,
+        "run",
+        lambda command, **_: calls.append(tuple(command))
+        or subprocess.CompletedProcess(command, 0),
+    )
+    monkeypatch.setattr("halo.scheduler.shutil.which", lambda _command: None)
+    port = repo_root / "envs" / "co-lmlm-aarch64"
+    monkeypatch.setenv("CO_LMLM_UV_PROJECT", str(port))
+    _warm_up(
+        repo_root=repo_root,
+        co_lmlm_dir=co_lmlm_dir,
+        need_co_lmlm=True,
+        out_root=tmp_path / "out",
+    )
+    assert calls == [("uv", "sync"), ("uv", "sync", "--project", str(port))]
+
+
+def test_aarch64_port_pins_match_the_co_lmlm_lock_it_mirrors() -> None:
+    """The port's pins are the versions in Co-LMLM's uv.lock; faiss is the
+    only intended swap. Guards against silent drift when either side moves."""
+    import tomllib
+
+    port = Path(__file__).resolve().parents[1] / "envs" / "co-lmlm-aarch64"
+    project = tomllib.loads((port / "pyproject.toml").read_text())
+    pins = dict(
+        dep.split("==", 1)
+        for dep in project["project"]["dependencies"]
+        if "==" in dep
+    )
+    assert pins["torch"] == "2.10.0"
+    assert pins["transformers"] == "5.6.2"
+    assert not any(
+        dep.startswith(("faiss-gpu", "flash-attn", "xformers", "vllm"))
+        for dep in project["project"]["dependencies"]
+    )
+    lock = tomllib.loads((port / "uv.lock").read_text())
+    torch_sources = {
+        package["version"]: package["source"]
+        for package in lock["package"]
+        if package["name"] == "torch"
+    }
+    # GB10 needs the CUDA 13 aarch64 build, not PyPI's CPU-only wheel.
+    assert any("cu130" in str(source) for source in torch_sources.values())

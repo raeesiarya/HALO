@@ -170,9 +170,11 @@ elif [ ! -f "$CO_LMLM_DIR/src/lmlm/eval/hf_generate.py" ]; then
     exit 1
 fi
 
+# shellcheck source=scripts/_co_lmlm_env.sh
+source "$REPO_ROOT/scripts/_co_lmlm_env.sh"
 cd "$CO_LMLM_DIR"
-echo "Syncing the Co-LMLM environment (uv sync) ..."
-uv sync
+echo "Syncing the Co-LMLM environment (uv sync${CO_LMLM_UV_PROJECT:+ --project $CO_LMLM_UV_PROJECT}) ..."
+co_lmlm_uv sync
 
 # faiss-gpu-cu12-cuvs ships without an RPATH to the RAPIDS and CUDA wheel
 # directories, so importing faiss fails on libcuvs.so / librmm.so / libraft.so
@@ -201,7 +203,7 @@ esac
 # wrapper (it catches the underlying ImportError and re-raises).
 faiss_import_error() {
     # Echo the missing-library line from a failed `import faiss`; empty if it imports.
-    uv run python -c "import faiss" 2>&1 >/dev/null \
+    co_lmlm_uv run python -c "import faiss" 2>&1 >/dev/null \
         | grep -oE 'lib[^:]*\.so[^:]*: cannot open shared object file' | head -n1 || true
 }
 
@@ -241,7 +243,7 @@ ensure_faiss_importable
 
 run_audit() {
     PYTHONPATH="$REPO_ROOT/src:src${PYTHONPATH:+:$PYTHONPATH}" \
-    uv run python -m halo.run_audit \
+    co_lmlm_uv run python -m halo.run_audit \
         --backend co-lmlm \
         --index-path "$INDEX_DIR" \
         --prompt-files "$PROMPTS" \
@@ -379,7 +381,7 @@ if phase_enabled factq-questions; then
     announce "factq question generation (<FACT-q> query-ensemble deletion rule)"
     filter_flags "--limit --seed" "$@"
     PYTHONPATH="$REPO_ROOT/src:src${PYTHONPATH:+:$PYTHONPATH}" \
-    uv run python "$REPO_ROOT/data/generate_factq_questions.py" \
+    co_lmlm_uv run python "$REPO_ROOT/data/generate_factq_questions.py" \
         --prompts "$PROMPTS" \
         --full-dir "$SHARED_FULL_DIR" \
         --output "$FACTQ_QUESTIONS" \
@@ -392,7 +394,7 @@ if phase_enabled factq-embed; then
     announce "factq <FACT-q> embedding (question -> query vectors)"
     filter_flags "--limit --shard --log-file --max-new-tokens" "$@"
     PYTHONPATH="$REPO_ROOT/src:src${PYTHONPATH:+:$PYTHONPATH}" \
-    uv run python -m halo.factq_embed \
+    co_lmlm_uv run python -m halo.factq_embed \
         --questions "$FACTQ_QUESTIONS" \
         --index-path "$INDEX_DIR" \
         --output "$FACTQ_VECTORS" \
@@ -434,7 +436,7 @@ if phase_enabled paraphrase-build; then
             exit 1
         fi
         PYTHONPATH="$REPO_ROOT/src:src${PYTHONPATH:+:$PYTHONPATH}" \
-        uv run python -m halo.paraphrase build \
+        co_lmlm_uv run python -m halo.paraphrase build \
             --canonical-prompts "$PROMPTS" \
             --variants "$PARAPHRASE_VARIANTS" \
             "${PARAPHRASE_ARGS[@]}" \
@@ -469,7 +471,7 @@ if phase_enabled paraphrase-analyze; then
         echo "  $PARAPHRASE_DIR not found; skipping"
     else
         PYTHONPATH="$REPO_ROOT/src:src${PYTHONPATH:+:$PYTHONPATH}" \
-        uv run python -m halo.paraphrase analyze \
+        co_lmlm_uv run python -m halo.paraphrase analyze \
             "${ANALYZE_ARGS[@]}" --allow-missing \
             --output "$PARAPHRASE_DIR/${PARAPHRASE_STEM}_summary.csv"
     fi

@@ -21,6 +21,8 @@ wheels/
 
 # uv
 uv.lock
+# ...except the pinned Co-LMLM runtime port, which must travel with the repo
+!/envs/*/uv.lock
 
 # Local tooling
 /.swarm

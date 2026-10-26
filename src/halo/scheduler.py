@@ -274,6 +274,8 @@ def _source_digest(repo_root: Path) -> str:
     paths = [
         *repo_root.glob("src/**/*.py"),
         *repo_root.glob("scripts/*.sh"),
+        *repo_root.glob("envs/*/pyproject.toml"),
+        *repo_root.glob("envs/*/uv.lock"),
         repo_root / "pyproject.toml",
         repo_root / "uv.lock",
     ]
@@ -2133,6 +2135,28 @@ def _validate_runtime_options(
         raise ValueError("--poll-seconds must be greater than 0.")
 
 
+def co_lmlm_uv_project(
+    repo_root: Path,
+    environ: Mapping[str, str] | None = None,
+    machine: tuple[str, str] | None = None,
+) -> Path | None:
+    """The uv project providing the Co-LMLM runtime, mirroring
+    scripts/_co_lmlm_env.sh: None means the checkout's own environment.
+
+    Linux/aarch64 gets HALO's port (envs/co-lmlm-aarch64) because lil-lab's
+    lock pins x86-only wheels. CO_LMLM_UV_PROJECT overrides; set but empty
+    forces the checkout's environment.
+    """
+    environ = os.environ if environ is None else environ
+    if "CO_LMLM_UV_PROJECT" in environ:
+        value = environ["CO_LMLM_UV_PROJECT"]
+        return Path(value) if value else None
+    system, arch = machine or (os.uname().sysname, os.uname().machine)
+    if system == "Linux" and arch == "aarch64":
+        return repo_root / "envs" / "co-lmlm-aarch64"
+    return None
+
+
 def _warm_up(
     *, repo_root: Path, co_lmlm_dir: Path, need_co_lmlm: bool, out_root: Path
 ) -> None:
@@ -2168,9 +2192,15 @@ def _warm_up(
                     f"{co_lmlm_dir} is not a valid Co-LMLM checkout "
                     f"(missing {expected_source.relative_to(co_lmlm_dir)})."
                 )
-            handle.write(b"\n=== Co-LMLM uv sync ===\n")
+            uv_project = co_lmlm_uv_project(repo_root)
+            sync = ("uv", "sync") + (
+                ("--project", str(uv_project)) if uv_project is not None else ()
+            )
+            handle.write(
+                f"\n=== Co-LMLM {' '.join(sync)} ===\n".encode()
+            )
             subprocess.run(
-                ("uv", "sync"),
+                sync,
                 cwd=co_lmlm_dir,
                 stdout=handle,
                 stderr=subprocess.STDOUT,

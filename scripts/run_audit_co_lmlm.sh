@@ -63,9 +63,11 @@ elif [ ! -f "$CO_LMLM_DIR/src/lmlm/eval/hf_generate.py" ]; then
     exit 1
 fi
 
+# shellcheck source=scripts/_co_lmlm_env.sh
+source "$REPO_ROOT/scripts/_co_lmlm_env.sh"
 cd "$CO_LMLM_DIR"
-echo "Syncing the Co-LMLM environment (uv sync) ..."
-uv sync
+echo "Syncing the Co-LMLM environment (uv sync${CO_LMLM_UV_PROJECT:+ --project $CO_LMLM_UV_PROJECT}) ..."
+co_lmlm_uv sync
 
 # faiss-gpu-cu12-cuvs ships without an RPATH to the RAPIDS and CUDA wheel
 # directories, so importing faiss fails on libcuvs.so / librmm.so / libraft.so
@@ -86,7 +88,7 @@ esac
 
 halo_audit() {
     PYTHONPATH="$REPO_ROOT/src:src${PYTHONPATH:+:$PYTHONPATH}" \
-    uv run python -m halo.run_audit \
+    co_lmlm_uv run python -m halo.run_audit \
         --backend co-lmlm \
         --index-path "$INDEX_DIR" \
         --prompt-files "$PROMPTS" \

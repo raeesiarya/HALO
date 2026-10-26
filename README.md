@@ -177,6 +177,27 @@ the current prompt sets: T-REx 24%, CounterFact 20%, ZsRE 10%, Google-RE
 10% excluded). Cross-substrate tables are paired on the intersection
 cohort, and the exclusion rate is reported alongside.
 
+## Co-LMLM on Linux/aarch64 (DGX Spark / GB10)
+
+lil-lab's Co-LMLM environment does not install on aarch64 (its lock pins
+x86-only `faiss-gpu-cu12-cuvs`, `flash-attn` and `xformers`). None of these
+is on the audit's import path: FAISS search runs on CPU over the
+memory-mapped index, the model falls back to eager attention, and vLLM is
+never imported. `envs/co-lmlm-aarch64` therefore provides the audit runtime
+on aarch64 — the packages reachable from `lmlm.eval.hf_generate`, pinned to
+Co-LMLM's lock, with `faiss-cpu` and the CUDA 13 torch build. The run
+scripts and the scheduler select it automatically on Linux/aarch64
+(`CO_LMLM_UV_PROJECT` overrides; set it empty to force the checkout's own
+environment).
+
+Outputs are not guaranteed bit-identical to x86 runs. Before mixing results
+across platforms, re-audit a canonical slice and compare it row by row with
+the canonical results:
+
+```bash
+./scripts/verify_co_lmlm_port.sh zsre 200   # PASS needs >= 98% correctness agreement per state
+```
+
 ## Paraphrase robustness
 
 Every deletion policy builds its deletion set from the canonical eval
