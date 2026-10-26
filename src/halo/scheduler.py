@@ -2206,8 +2206,15 @@ def _warm_up(
                 stderr=subprocess.STDOUT,
                 check=True,
             )
-            # Install OpenBLAS once before jobs can race on dpkg.
-            if shutil.which("apt-get") and shutil.which("dpkg"):
+            # Install OpenBLAS once before jobs can race on dpkg. Only the
+            # checkout's own environment needs it (faiss-gpu-cu12-cuvs links
+            # the system library); the aarch64 port's faiss-cpu wheel bundles
+            # its own, so no system package (or sudo) is involved there.
+            if (
+                uv_project is None
+                and shutil.which("apt-get")
+                and shutil.which("dpkg")
+            ):
                 installed = (
                     subprocess.run(
                         ("dpkg", "-s", "libopenblas0"),

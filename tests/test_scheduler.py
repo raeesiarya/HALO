@@ -1019,7 +1019,10 @@ def test_warmup_syncs_the_port_project_on_arm(
         lambda command, **_: calls.append(tuple(command))
         or subprocess.CompletedProcess(command, 0),
     )
-    monkeypatch.setattr("halo.scheduler.shutil.which", lambda _command: None)
+    # apt-get/dpkg are present, but the port must not touch them (no sudo).
+    monkeypatch.setattr(
+        "halo.scheduler.shutil.which", lambda command: f"/usr/bin/{command}"
+    )
     port = repo_root / "envs" / "co-lmlm-aarch64"
     monkeypatch.setenv("CO_LMLM_UV_PROJECT", str(port))
     _warm_up(
