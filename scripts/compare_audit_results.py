@@ -65,14 +65,20 @@ def compare(reference: Path, candidate: Path, *, examples: int = 5) -> dict[str,
     cand_keys = {key for key, _ in cand}
     shared = sorted(set(ref) & set(cand))
     per_state: dict[str, dict[str, Any]] = defaultdict(
-        lambda: {"rows": 0, "text": 0, "correct": 0, "entry": 0, "mismatches": []}
+        lambda: {
+            "rows": 0, "text": 0, "correct": 0, "entry": 0,
+            "gained": 0, "lost": 0, "mismatches": [],
+        }
     )
     for key in shared:
         a, b = ref[key], cand[key]
         stats = per_state[key[1]]
         stats["rows"] += 1
         same_text = a.get("model_output") == b.get("model_output")
-        same_correct = _result_is_correct(a) == _result_is_correct(b)
+        ref_correct, cand_correct = _result_is_correct(a), _result_is_correct(b)
+        same_correct = ref_correct == cand_correct
+        stats["gained"] += cand_correct and not ref_correct
+        stats["lost"] += ref_correct and not cand_correct
         stats["text"] += same_text
         stats["correct"] += same_correct
         stats["entry"] += _selected_entry(a) == _selected_entry(b)
@@ -101,6 +107,11 @@ def compare(reference: Path, candidate: Path, *, examples: int = 5) -> dict[str,
                 "text_agreement": s["text"] / s["rows"] if s["rows"] else None,
                 "correctness_agreement": s["correct"] / s["rows"] if s["rows"] else None,
                 "selected_entry_agreement": s["entry"] / s["rows"] if s["rows"] else None,
+                # Correctness flips by direction: a systematic surplus either
+                # way is a platform bias, not noise.
+                "correct_gained": s["gained"],
+                "correct_lost": s["lost"],
+                "correct_rate_delta": (s["gained"] - s["lost"]) / s["rows"] if s["rows"] else None,
                 "mismatches": s["mismatches"],
             }
             for state, s in sorted(per_state.items())
@@ -137,7 +148,9 @@ def main(argv: list[str] | None = None) -> int:
         print(
             f"  {state:>7}: rows={stats['rows']} text={stats['text_agreement']:.3f} "
             f"correct={stats['correctness_agreement']:.3f} "
-            f"entry={stats['selected_entry_agreement']:.3f}"
+            f"entry={stats['selected_entry_agreement']:.3f} "
+            f"flips +{stats['correct_gained']}/-{stats['correct_lost']} "
+            f"(net {stats['correct_rate_delta']:+.3f})"
         )
         for item in stats["mismatches"]:
             flag = " (correctness changed)" if item["correctness_changed"] else ""
